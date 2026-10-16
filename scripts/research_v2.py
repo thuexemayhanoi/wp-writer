@@ -252,10 +252,10 @@ def checkpoint(branch, final=False):
         if not safe_batch_path(branch, rel) or not rel.endswith(f'{i:04d}.jsonl'):
             raise ValueError('Research batches must be sequentially numbered')
         raw = p.read_text(encoding='utf-8')
-        rows = parse_batch(raw, rel)
         sha = digest(raw)
         if rel in locked and locked[rel]['sha256'] != sha:
             raise ValueError('Existing checkpointed batch is immutable')
+        rows = parse_batch(raw, rel)
         is_final = bool(locked.get(rel, {}).get('final')) or (final and i == len(files))
         batches.append({'path': rel, 'sha256': sha, 'count': len(rows), 'final': is_final})
     obj = {'version': 1, 'branch': branch, 'session': slug, 'batches': batches,
