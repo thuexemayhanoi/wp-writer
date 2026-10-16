@@ -111,7 +111,9 @@ class IncrementalTopicRefillTests(unittest.TestCase):
              patch.object(topic_factory,'save',lambda *args:None):
             topic_factory.run('data/candidates/new-batch.jsonl')
         self.assertEqual(calls,['NT-010001'])
-        self.assertTrue(all(x['topic_qa_status']=='PLANNED' for x in self.rows))
+        self.assertEqual(len(self.rows),10001)
+        self.assertTrue(all(x['topic_qa_status']=='PLANNED' for x in self.rows[:10000]))
+        self.assertEqual(self.rows[-1]['topic_qa_status'],'RESEARCH')
 
 
 if __name__=='__main__':unittest.main()
