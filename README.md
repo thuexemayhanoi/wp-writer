@@ -1,5 +1,9 @@
 # WP-WRITER — UNIVERSAL AI CONTENT FACTORY FOR WORDPRESS
 
+
+> **SEO QA V2 / Website chính:** Bài mới chỉ đủ điều kiện WordPress **Published** khi **SEO ≥85/100**, Quality ≥75 và cả sáu cổng đều PASS. QA chấm title/meta, câu trả lời đầu bài, H2, linking, anchor, URL theo intent; SEO 84 → FAIL/REPAIR. Không bắt buộc ảnh/FAQ/CTA quảng cáo cho mọi bài. Xem [SEO QA V2](docs/SEO-QA-V2.md). **Production vẫn dry_run**, thay đổi ngưỡng không tự bật đăng bài.
+
+
 **AI bên ngoài — một lệnh để bắt đầu:** [AI-START-HERE.md](docs/AI-START-HERE.md). Nhận tối đa 10 chủ đề, QA từng bài, tự nộp và nhận tiếp; không xin duyệt từng bài. Publisher đã kết nối sau QA nhưng **Production hiện OFF**; không tuyên bố đã đăng công khai khi không có ledger và URL verified.
 
 > **QA → WordPress ngay, 2+2+2+2+2:** xem [Instant Publishing](docs/INSTANT-PUBLISHING.md). QA PASS trên main tự kích hoạt Publisher không cần cron; tối đa 5 batch × 2 bài, daily cap 10. **Unattended Production vẫn OFF** do bảo vệ code đặc quyền và E2E GitHub Publisher chưa nghiệm thu. Main đã có Ruleset, Yoast REST smoke PASS; hai bài public #3888 và #3890 là kiểm thử **thủ công bằng WPVibe**.
