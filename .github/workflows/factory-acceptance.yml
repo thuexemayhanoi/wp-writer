@@ -34,6 +34,11 @@ jobs:
         run: |
           python scripts/check_health.py
           python scripts/publisher.py --persist-state --acceptance-draft
+          if [ -f posts/drafts/NT-000079.md ]; then
+            python scripts/intake.py
+            python scripts/publisher.py --persist-state --acceptance-topic NT-000079
+            python scripts/publisher.py --persist-state --acceptance-topic NT-000079
+          fi
       - if: always()
         run: |
           python scripts/reports.py

@@ -213,6 +213,14 @@ def run(args):
             status='publish' if production_allowed(policy) else 'draft'
             attempted+=1;publisher.create(t,body,sha,category,status,live,meta)
         save('reports/publisher-latest.json',{'at':now(),'attempted':attempted,'qa':results,'backlog_drains_on':'next schedule or push','production':production_allowed(policy)})
+        if args.acceptance_topic:
+            rec=ledger['posts'].get(args.acceptance_topic,{})
+            if rec.get('phase')!='VERIFIED' or rec.get('status')!='draft':raise ValueError('Article acceptance blocked; inspect QA/taxonomy report')
+            t=next(t for t in rows if t['topic_id']==args.acceptance_topic)
+            verify(client,t,rec)
+            save('reports/article-acceptance.json',{'at':now(),'topic_id':t['topic_id'],'wp_id':rec['wp_id'],'status':'draft',
+                'category_id':rec['category_id'],'qa_status':load('data/qa/'+t['topic_id']+'.json')['status'],
+                'source_hash':rec['source_hash'],'public_posts_created':0,'production_enabled':False})
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--persist-state',action='store_true');p.add_argument('--acceptance-draft',action='store_true');p.add_argument('--acceptance-topic');a=p.parse_args();run(a)
