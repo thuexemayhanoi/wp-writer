@@ -46,7 +46,10 @@ class RequestStatusTests(unittest.TestCase):
              patch.object(control_requests,'load',load),\
              patch.object(control_requests,'save',save),\
              patch.object(control_requests,'topics',lambda:self.rows),\
-             patch.object(control_requests,'RemoteState',lambda:self.state):
+             patch.object(control_requests,'RemoteState',lambda:self.state),\
+             patch.object(control_requests,'changed_request_paths',lambda:None):
+            # Tests emulate an explicit manual scan. The real push selector is
+            # independently tested with mocked event SHA pairs.
             return control_requests.run(selected_paths=selected_paths)
 
     def test_valid_request_claims_one_topic(self):
