@@ -26,16 +26,16 @@
 | Sự thật doanh nghiệp | Mục 2 của tài liệu này; một nguồn cấu hình chuẩn chung trong engine sau khi triển khai |
 
 **Đã thực hiện và kiểm chứng tại thời điểm viết:**
-- Repo đã có README, thư mục posts/, và workflow kiểm thử \`.github/workflows/wp-connection-smoke.yml\`.
-- Chủ website đã tự tạo các GitHub Actions Secrets: \`WP_URL\`, \`WP_USERNAME\`, \`WP_APPLICATION_PASSWORD\`. **Không có giá trị secret trong Git.**
-- GitHub Actions run #38886147525 đã **SUCCESS**: xác thực WordPress user ID 1, tạo nháp WordPress **ID 3861**, đọc lại xác nhận \`status=draft\`, chưa công khai bài kiểm thử. Xem https://github.com/thuexemayhanoi/wp-writer/actions/runs/38886147525.
-- Bài nháp thử có tên \`[KIỂM THỬ] Kết nối GitHub WP Writer\`, slug \`wp-writer-connection-test-20261016\`. **Không tính vào chiến dịch 1.000 bài; không tự đăng, sửa hay xóa** bài nháp thử này.
+- Repo đã có README, thư mục posts/, và workflow kiểm thử `.github/workflows/wp-connection-smoke.yml`.
+- Chủ website đã tự tạo các GitHub Actions Secrets: `WP_URL`, `WP_USERNAME`, `WP_APPLICATION_PASSWORD`. **Không có giá trị secret trong Git.**
+- GitHub Actions run #38886147525 đã **SUCCESS**: xác thực WordPress user ID 1, tạo nháp WordPress **ID 3861**, đọc lại xác nhận `status=draft`, chưa công khai bài kiểm thử. Xem https://github.com/thuexemayhanoi/wp-writer/actions/runs/38886147525.
+- Bài nháp thử có tên `[KIỂM THỬ] Kết nối GitHub WP Writer`, slug `wp-writer-connection-test-20261016`. **Không tính vào chiến dịch 1.000 bài; không tự đăng, sửa hay xóa** bài nháp thử này.
 - **CHƯA xây dựng** Topic Factory 1.000/10.000, hệ thống nhiều writer, publish gate, SEO audit, lịch sản xuất hay bảng điều khiển sản xuất. Không giả định các chức năng đó đã tồn tại.
 
 **Các dự án KHÁC — tuyệt đối không trộn:**
-- \`thuexemayhanoi/wp-aiwriter\` → dự án 500 bài SEO Nguyễn Hà, xuất bản tới \`blog.rentbikehanoi.com\`, có Excel/JSON riêng.
-- \`thuexemayhanoi/blog\` → GitHub Pages Jekyll Content Factory/Blog riêng.
-- \`thuexemayhanoi/global\` và các repo ngôn ngữ → hệ sinh thái riêng.
+- `thuexemayhanoi/wp-aiwriter` → dự án 500 bài SEO Nguyễn Hà, xuất bản tới `blog.rentbikehanoi.com`, có Excel/JSON riêng.
+- `thuexemayhanoi/blog` → GitHub Pages Jekyll Content Factory/Blog riêng.
+- `thuexemayhanoi/global` và các repo ngôn ngữ → hệ sinh thái riêng.
 - **wp-writer KHÔNG nhập lại chủ đề Excel 500 bài; KHÔNG đồng bộ/xuất bản sang các website khác; KHÔNG coi bài đã đăng ở website khác là bài mới.** Có thể tham khảo thiết kế của hai repo trên, nhưng triển khai adapter WordPress riêng.
 
 ---
@@ -54,7 +54,7 @@
 
 ### Mô hình tổng quát
 
-\`\`\`text
+```text
                          EXTERNAL AI WRITERS (no AI API inside Actions)
                 Claude W1       ChatGPT W2       Gemini/Mistral W3
                       \              |              /
@@ -79,7 +79,7 @@
                                     readback -> public URL -> checkpoint
                                                         |
                                          reports / next claimable topic
-\`\`\`
+```
 
 ---
 
@@ -115,7 +115,7 @@
 - Không viết như thể đã trực tiếp thử xe/đi khảo sát thực địa khi không có bằng chứng.
 - Phân biệt dịch vụ doanh nghiệp thực cung cấp với kiến thức chung về thị trường. Không tự nhận cho thuê một mẫu xe cụ thể ngoài thông tin được chủ xác nhận.
 - Nếu không có mức giá chính xác: ghi "Liên hệ để xác nhận theo loại xe và thời điểm", không tự ước lượng.
-- Khi triển khai, mã hóa thông tin chuẩn trong **một** \`data/business-facts.json\` + cấu hình có version/updated_at. Nội dung đã đăng không tự thay đổi chỉ vì cấu hình thay đổi: cần QA và cơ chế cập nhật có kiểm soát.
+- Khi triển khai, mã hóa thông tin chuẩn trong **một** `data/business-facts.json` + cấu hình có version/updated_at. Nội dung đã đăng không tự thay đổi chỉ vì cấu hình thay đổi: cần QA và cơ chế cập nhật có kiểm soát.
 - Schema LocalBusiness/Organization chỉ thể hiện thực tế có thể kiểm chứng; không tự thêm rating/review/aggregateRating giả.
 
 ---
@@ -180,7 +180,7 @@
 
 ### Mô hình kiến trúc website
 
-\`\`\`text
+```text
 Homepage / Commercial pages hiện có (GIỮ)
   ├── About / Contact / FAQ / Privacy / Terms (GIỮ hoặc tối ưu riêng nếu duyệt)
   ├── Parent Hub / Pillar (trang/danh mục có giá trị)
@@ -190,7 +190,7 @@ Homepage / Commercial pages hiện có (GIỮ)
   │     │     └── Supporting article C
   │     └── Cluster liên quan
   └── Commercial landing page phù hợp theo intent
-\`\`\`
+```
 
 **Mỗi URL:** một primary keyword / một search intent / một content role / một canonical; không cannibalization. Kiểm kê cấu trúc WordPress đã có TRƯỚC khi định tạo mới pillar, category hoặc page. Tuyệt đối không tự tạo trùng category, slug, trang chính, chức năng Flatsome hay bài đã có.
 
@@ -221,19 +221,19 @@ Bài thực tế nên có: title rõ intent; mở đầu trả lời đúng nhu 
 ## 5. TOPIC FACTORY — 1.000 BÀI ĐẦU, ĐƯỜNG MỞ 10.000
 
 **Hai con số cần tách bạch:**
-- \`editorial_target_initial = 1000\`: mục tiêu 1.000 bài hữu ích được xác minh, không cam kết tự động đủ 1.000 URL.
-- \`hard_capacity = 10000\`: quy mô hệ thống quản lý được nếu đủ topic/QA/công suất; KHÔNG phải số bài đã viết.
-- \`materialized_topics\`: số topic thật đã nghiên cứu, phân loại và qua Topic QA.
-- \`published_verified\`: số bài WordPress tồn tại, trạng thái publish + kiểm chứng URL.
-- \`indexed\`: chỉ khi dữ liệu từ nguồn kiểm chứng phù hợp; không suy từ sitemap.
+- `editorial_target_initial = 1000`: mục tiêu 1.000 bài hữu ích được xác minh, không cam kết tự động đủ 1.000 URL.
+- `hard_capacity = 10000`: quy mô hệ thống quản lý được nếu đủ topic/QA/công suất; KHÔNG phải số bài đã viết.
+- `materialized_topics`: số topic thật đã nghiên cứu, phân loại và qua Topic QA.
+- `published_verified`: số bài WordPress tồn tại, trạng thái publish + kiểm chứng URL.
+- `indexed`: chỉ khi dữ liệu từ nguồn kiểm chứng phù hợp; không suy từ sitemap.
 
 ### Một chủ đề chuẩn phải có
 
-\`topic_id\`, \`title\`, \`slug_proposal\`, \`primary_keyword\`, \`secondary_keywords\`, \`search_intent\`, \`content_role\`, \`parent_cluster\`, \`child_cluster\`, \`wordpress_category_path\`, \`priority\`, \`word_target_range\`, \`content_outline\`, \`internal_link_candidates\`, \`source_requirements\`, \`risk_flags\`, \`canonical_target\`, \`similarity_key\`, \`status\`, \`created_at\`, \`updated_at\`, \`origin\`, \`version\`.
+`topic_id`, `title`, `slug_proposal`, `primary_keyword`, `secondary_keywords`, `search_intent`, `content_role`, `parent_cluster`, `child_cluster`, `wordpress_category_path`, `priority`, `word_target_range`, `content_outline`, `internal_link_candidates`, `source_requirements`, `risk_flags`, `canonical_target`, `similarity_key`, `status`, `created_at`, `updated_at`, `origin`, `version`.
 
 ### Trạng thái đề xuất (state machine)
 
-\`\`\`text
+```text
 IDEA -> RESEARCH -> TOPIC_QA -> PLANNED -> CLAIMED -> WRITING
           |             |           |        |
         REJECTED       REVIEW       BLOCKED  lease/heartbeat
@@ -251,16 +251,16 @@ IDEA -> RESEARCH -> TOPIC_QA -> PLANNED -> CLAIMED -> WRITING
                                                VERIFY_PENDING
                                                     |
                                            VERIFIED / NEEDS_RECONCILE
-\`\`\`
+```
 
 **Không thay đổi số đếm/checkpoint bằng tay**; các report phải sinh từ manifest + transaction ledger. Claim một ID có khóa đồng thời, không có hai writer cùng sửa. FAIL nội dung → REPAIR, không tự nhảy sang bài mới để che lỗi.
 
 ### Tự bổ sung chủ đề khi queue thấp
 
-- Chỉ cân nhắc refill khi PLANNED claimable < ngưỡng cấu hình (đề xuất \`min_ready_queue=100\`, \`refill_target=300\`; xác thực theo tài nguyên thật trước).
+- Chỉ cân nhắc refill khi PLANNED claimable < ngưỡng cấu hình (đề xuất `min_ready_queue=100`, `refill_target=300`; xác thực theo tài nguyên thật trước).
 - AI writer/coordinator chủ động nghiên cứu thêm candidate thật từ nhu cầu tìm kiếm, taxonomy/knowledge gap, đối chiếu với bài WordPress đang tồn tại và manifest.
 - Topic Gate: unique ID, unique primary intent, kiểm tra slug/title/semantic near-duplicate, canonical target, website fit, legal risk, search usefulness, child cluster, có nguồn khả dụng.
-- Refill phải phân biệt **đề xuất candidate** với **đã được đưa vào PLANNED**. Không tự hạ QA nếu hết hàng; ghi \`NEEDS_TOPIC_EXPANSION\`.
+- Refill phải phân biệt **đề xuất candidate** với **đã được đưa vào PLANNED**. Không tự hạ QA nếu hết hàng; ghi `NEEDS_TOPIC_EXPANSION`.
 - Không dùng "chủ đề lấp chỗ" để đạt 1.000/10.000. Một bài hỗ trợ phải giải quyết vấn đề thực, không phải doorway page.
 - Không cần dịch tự động 10.000 bài sang ngôn ngữ khác và không copy/syndicate nội dung từ các repo khác.
 
@@ -274,23 +274,23 @@ IDEA -> RESEARCH -> TOPIC_QA -> PLANNED -> CLAIMED -> WRITING
 - **Coordinator/Topic Factory:** kiểm kê và đề xuất chủ đề; có thể là phiên AI bên ngoài, không buộc API trả phí.
 - **Publisher:** DUY NHẤT một engine GitHub Actions được quyền gọi REST WordPress.
 - **QA Lead:** cấu hình luật + kiểm thử; machine QA đánh giá điều kiện kỹ thuật, AI writer chịu trách nhiệm đánh giá sự thật và chất lượng thực.
-- Mọi AI chỉ cần biết \`AGENTS.md\`, \`docs/WRITER-QUICKSTART.md\` và source manifest chuẩn, không cần mật khẩu WordPress.
+- Mọi AI chỉ cần biết `AGENTS.md`, `docs/WRITER-QUICKSTART.md` và source manifest chuẩn, không cần mật khẩu WordPress.
 
 ### Quy tắc an toàn đa-writer
 
-1. \`writer-session begin --slot auto\` claim tối đa 10 topic/slot (tham số tùy chỉnh), có \`session_id\` ổn định, lease TTL/heartbeat, owner cụ thể, commit CAS; mỗi writer chỉ giữ một slot.
+1. `writer-session begin --slot auto` claim tối đa 10 topic/slot (tham số tùy chỉnh), có `session_id` ổn định, lease TTL/heartbeat, owner cụ thể, commit CAS; mỗi writer chỉ giữ một slot.
 2. Nếu slot của phiên khác còn hạn → không chiếm quyền; chọn slot khác hoặc chờ. Mất mạng/quota thì draft đã push vẫn thuộc queue; draft chưa push chỉ phục hồi khi cùng phiên hoặc lease hết hạn hợp lệ.
-3. \`writer-session check\` chạy QA trước push; \`push\` chỉ đẩy đúng ID được sở hữu; \`confirm\` xem trạng thái PUBLISHED/REPAIR/PENDING; \`release\` nhả claim sau khi an toàn.
+3. `writer-session check` chạy QA trước push; `push` chỉ đẩy đúng ID được sở hữu; `confirm` xem trạng thái PUBLISHED/REPAIR/PENDING; `release` nhả claim sau khi an toàn.
 4. Không force push; fetch latest main, so sánh expected SHA / lock/transaction; bounded retry khi xung đột không đụng dữ liệu người khác.
 5. Không có chuyện hai writer cùng xuất bản trực tiếp WordPress. Publisher có concurrency group + idempotency.
-6. Writer không sửa protected: \`.github/workflows/**\`, \`data/state/**\`, \`data/qa/**\`, \`config/**\`, \`data/business-facts.json\` hay bài PUBLISHED, trừ thay đổi code được chủ duyệt.
+6. Writer không sửa protected: `.github/workflows/**`, `data/state/**`, `data/qa/**`, `config/**`, `data/business-facts.json` hay bài PUBLISHED, trừ thay đổi code được chủ duyệt.
 7. Có thể bàn giao slot giữa ChatGPT/Claude bằng đúng session + checkpoint mà không xóa hoặc cướp lease còn hạn.
 8. **AI hoạt động khi phiên đang chạy**; nếu đóng hết phiên AI và không có dịch vụ tạo nội dung đã được chủ cho phép, sẽ không có bài mới tự sinh. GitHub Actions vẫn có thể QA/xuất bản draft **đã push**.
 
 ### Không dùng AI API keys theo mặc định
 
 - Không thêm OpenAI/Anthropic/Gemini API keys vào GitHub Secrets; không dùng mô hình AI mã nguồn mở hay endpoint bên ngoài làm writer tự động nếu chủ không yêu cầu.
-- \`WP_APPLICATION_PASSWORD\` là credential WordPress **bắt buộc cho publisher**, không phải AI API key.
+- `WP_APPLICATION_PASSWORD` là credential WordPress **bắt buộc cho publisher**, không phải AI API key.
 - Không cấp WordPress credentials cho các AI writer chỉ để họ viết nháp; xác thực thực hiện riêng trong job publisher.
 - Nếu tương lai muốn AI chạy 24/7 không cần phiên chat, phải có nguồn compute/model thật, chi phí, quota, giám sát và sự cho phép riêng; không tuyên bố chế độ đó đang tồn tại.
 
@@ -298,7 +298,7 @@ IDEA -> RESEARCH -> TOPIC_QA -> PLANNED -> CLAIMED -> WRITING
 
 ## 7. CONTENT QA + SEO QA + PUBLISH GATE (BẮT BUỘC)
 
-Kế thừa ý tưởng tốt từ \`/blog\` và \`/wp-aiwriter\`, nhưng **không sao chép mù mã publisher GitHub Pages sang WordPress**.
+Kế thừa ý tưởng tốt từ `/blog` và `/wp-aiwriter`, nhưng **không sao chép mù mã publisher GitHub Pages sang WordPress**.
 
 ### Ba lớp QA
 
@@ -324,13 +324,13 @@ Kế thừa ý tưởng tốt từ \`/blog\` và \`/wp-aiwriter\`, nhưng **khô
 - Không truy cập hay chỉnh sửa Trash; không tự xử lý post bị xóa nếu có nghi vấn.
 - Trước POST ghi intent/checkpoint bền vững; POST timeout/không rõ trạng thái → NEVER blind retry, cần đối soát.
 - Sau POST đọc WordPress authenticated REST, trạng thái category + permalink; với publish phải GET trang công khai để xác minh response và nội dung chính.
-- Mỗi bài có receipt \`topic_id, source_sha256, wp_id, status, URL, category_id, verified_at, git_commit, run_id\`. Không lộ bí mật.
+- Mỗi bài có receipt `topic_id, source_sha256, wp_id, status, URL, category_id, verified_at, git_commit, run_id`. Không lộ bí mật.
 
 ### Điểm QA nội bộ định hướng
 
 - Quality Score **≥75/100** và SEO Score **≥70/100** nếu triển khai scorer có tiêu chí/bằng chứng rõ ràng.
-- Gate riêng \`business_fact=PASS\`, \`legal=PASS|NOT_REQUIRED\`, \`critical_failure=false\`.
-- \`90+\` chỉ ghi nhãn nội bộ EXCELLENT, **không** đồng nghĩa Google đánh giá tốt hoặc bài có khả năng lên top.
+- Gate riêng `business_fact=PASS`, `legal=PASS|NOT_REQUIRED`, `critical_failure=false`.
+- `90+` chỉ ghi nhãn nội bộ EXCELLENT, **không** đồng nghĩa Google đánh giá tốt hoặc bài có khả năng lên top.
 - Điểm tự động bằng pattern/proxy **không thay thế fact-check thực chất**; nếu không có bằng chứng phải REVIEW thay vì cộng điểm ảo.
 - FAIL → có danh sách lỗi có thể hành động và REPAIR đúng ID, không giảm ngưỡng để tăng số lượng.
 
@@ -348,18 +348,18 @@ Kế thừa ý tưởng tốt từ \`/blog\` và \`/wp-aiwriter\`, nhưng **khô
 ### Kết nối và bí mật
 
 Repository Actions Secrets đã được người chủ thêm (không đọc/hiển thị giá trị):
-- \`WP_URL\` → https://thuexemaynguyentu.com
-- \`WP_USERNAME\` → WordPress username của tài khoản cấp quyền
-- \`WP_APPLICATION_PASSWORD\` → WordPress Application Password
+- `WP_URL` → https://thuexemaynguyentu.com
+- `WP_USERNAME` → WordPress username của tài khoản cấp quyền
+- `WP_APPLICATION_PASSWORD` → WordPress Application Password
 
 **Không ghi mật khẩu vào README/log/issue/commit.** Tài khoản cấp quyền thấp nhất có thể (Editor riêng nếu phù hợp); ưu tiên protected GitHub Environments, branch protection, CODEOWNERS cho workflow/config để một external writer có quyền code không thể dễ dàng sửa workflow lấy Secrets. Không chạy code PR từ người không tin cậy với secrets; kiểm soát quyền fork/PR.
 
 ### Chế độ xuất bản (giai đoạn)
 
-1. \`dry_run\` — mô phỏng, không ghi WordPress.
-2. \`draft_only\` — tạo nháp thật, readback, dành cho acceptance test.
-3. \`production_enabled\` — **chỉ bật sau owner approval và kiểm thử**, lúc đó bài đạt PASS và taxonomy hợp lệ có thể \`publish\` tự động theo batch đã định.
-4. \`pause\` / \`emergency_stop\` — dừng trước bài mới, không xóa gì đã đăng.
+1. `dry_run` — mô phỏng, không ghi WordPress.
+2. `draft_only` — tạo nháp thật, readback, dành cho acceptance test.
+3. `production_enabled` — **chỉ bật sau owner approval và kiểm thử**, lúc đó bài đạt PASS và taxonomy hợp lệ có thể `publish` tự động theo batch đã định.
+4. `pause` / `emergency_stop` — dừng trước bài mới, không xóa gì đã đăng.
 
 **Lô xuất bản:** đề xuất tối đa **2 bài/lượt** khi production, xử lý backlog tuần tự/tái kích hoạt có kiểm soát, không spam REST. Gộp writer push tối đa 10 draft nếu hợp lệ nhưng publisher vẫn chia lô 2. Mỗi bước lưu receipt và checkpoint. Giới hạn số bài/ngày hoặc giờ có thể chỉnh trong config một nơi; không mặc định hàng nghìn bài/ngày.
 
@@ -375,14 +375,14 @@ Repository Actions Secrets đã được người chủ thêm (không đọc/hi�
 
 Yêu cầu bảng dữ liệu theo URL thực:
 
-\`URL → Outgoing Links → Incoming Links → Anchor Text → Cluster → Recommended Links\`
+`URL → Outgoing Links → Incoming Links → Anchor Text → Cluster → Recommended Links`
 
-Ưu tiên: \`Supporting Content → Child/Cluster Hub → Parent/Pillar → Commercial Priority URL\` khi phù hợp; thêm liên kết ngang giữa sibling thật sự cùng intent, prev/next khi có bài đã publish. Homepage chỉ nhận link khi liên quan tự nhiên, không bơm anchor thương mại vào mọi bài.
+Ưu tiên: `Supporting Content → Child/Cluster Hub → Parent/Pillar → Commercial Priority URL` khi phù hợp; thêm liên kết ngang giữa sibling thật sự cùng intent, prev/next khi có bài đã publish. Homepage chỉ nhận link khi liên quan tự nhiên, không bơm anchor thương mại vào mọi bài.
 
 - Tạo inventory URL hiện có từ WordPress REST và sitemap trước khi sinh link; chỉ liên kết tới URL public/canonical hợp lệ.
 - Kiểm tra HTTP/trạng thái published của target, không tự link tới draft hoặc permalink chưa tồn tại.
 - Danh mục cha/con, breadcrumbs, related posts phải tôn trọng theme đang dùng, không chèn hệ thống component trùng với Flatsome hoặc plugin.
-- Mọi gợi ý reverse-link vào bài cũ phải nằm trong report \`recommendations\`; không tự sửa hàng nghìn URL cũ.
+- Mọi gợi ý reverse-link vào bài cũ phải nằm trong report `recommendations`; không tự sửa hàng nghìn URL cũ.
 - Đồng bộ menu, footer, schema, breadcrumb bằng template/hook chung **nếu được chủ duyệt sửa theme**; trong phạm vi Content Factory mặc định KHÔNG tự sửa theme.
 
 ---
@@ -401,7 +401,7 @@ Yêu cầu bảng dữ liệu theo URL thực:
 
 ## 11. ĐỀ XUẤT CẤU TRÚC THƯ MỤC SAU KHI WORK TRIỂN KHAI
 
-\`\`\`text
+```text
 /wp-writer
   README.md                            # MASTER SPEC (tài liệu này)
   AGENTS.md                            # hợp đồng chung cho mọi AI
@@ -464,7 +464,7 @@ Yêu cầu bảng dữ liệu theo URL thực:
     cannibalization.md
     internal-links.csv
     publication-receipts/
-\`\`\`
+```
 
 Đây là cấu trúc **đề xuất**, không phải cây file đang tồn tại. Work có thể chọn tên file khác nếu hợp lý, nhưng phải giữ các trách nhiệm và **một owner/canonical tool cho mỗi thao tác**. Không tạo hai publish engines song song.
 
@@ -477,7 +477,7 @@ Yêu cầu bảng dữ liệu theo URL thực:
 - Đọc repo HEAD, workflow smoke test và log run #38886147525; xác minh kết nối hiện có.
 - Đọc cấu trúc URL/danh mục/post WordPress chính hiện có qua REST, inventory/sitemap cơ bản và policy; không giả định website trắng.
 - Đối chiếu với /blog và /wp-aiwriter **chỉ để học kỹ thuật**, không nhập matrix/copy bài.
-- Xuất \`docs/ARCHITECTURE.md\`, risk register, migration/no-change boundary, Phase 0 acceptance.
+- Xuất `docs/ARCHITECTURE.md`, risk register, migration/no-change boundary, Phase 0 acceptance.
 
 ### Phase 1 — Foundation + source of truth
 
@@ -550,17 +550,17 @@ Yêu cầu bảng dữ liệu theo URL thực:
 
 > Bạn đóng vai Principal WordPress REST API Engineer, Senior GitHub Automation Engineer, Multi-Agent Workflow Architect, Semantic SEO/AEO/GEO Architect, Content QA Lead và Security/Recovery Engineer.
 >
-> **ĐỌC TOÀN BỘ README.md của repository \`thuexemayhanoi/wp-writer\` (đặc tả này) và kiểm tra main mới nhất trước khi thao tác.**
+> **ĐỌC TOÀN BỘ README.md của repository `thuexemayhanoi/wp-writer` (đặc tả này) và kiểm tra main mới nhất trước khi thao tác.**
 >
-> Triển khai hệ thống Universal AI Content Factory cho website **duy nhất** \`https://thuexemaynguyentu.com/\`: 1.000 bài chất lượng giai đoạn đầu, năng lực mở rộng 10.000; hỗ trợ đồng thời tối đa 3 external AI writers provider-neutral (Claude/ChatGPT/Gemini/Mistral/AI khác có GitHub access), GitHub Actions làm Quality Gate, serialized WordPress REST publisher, Topic Factory và Internal Link Graph.
+> Triển khai hệ thống Universal AI Content Factory cho website **duy nhất** `https://thuexemaynguyentu.com/`: 1.000 bài chất lượng giai đoạn đầu, năng lực mở rộng 10.000; hỗ trợ đồng thời tối đa 3 external AI writers provider-neutral (Claude/ChatGPT/Gemini/Mistral/AI khác có GitHub access), GitHub Actions làm Quality Gate, serialized WordPress REST publisher, Topic Factory và Internal Link Graph.
 >
 > Không dùng API key AI, không dùng mô hình AI open-source, không giả vờ GitHub Actions tự viết AI. Dùng ba GitHub Actions Secrets WordPress đã có, **không xem/in/lưu lại giá trị**. Smoke test nháp ID 3861 đã xác minh trước đó — giữ nguyên.
 >
 > **LÀM THẬT — AUDIT → IMPLEMENT → TEST → COMMIT → PUSH → VERIFY → CONTINUE**, chia thành các commit nhỏ có QA, không chỉ đưa ra kiến nghị. Tự xử lý lỗi kỹ thuật trong phạm vi được phép, giữ checkpoint sau mỗi pha; không hỏi lại những dữ liệu NAP/chính sách đã nằm trong README.
 >
-> Bảo vệ tuyệt đối WordPress đang chạy và các repo \`wp-aiwriter\`, \`blog\`, \`global\`: không xóa/đổi URL, không sửa hàng loạt bài cũ/canonical/SEO/sitemap, không xóa Trash, không hạ QA, không đụng Flatsome/plugins nếu chưa được phê duyệt. Tạo mới nội dung chỉ khi đúng search intent, category và được QA PASS.
+> Bảo vệ tuyệt đối WordPress đang chạy và các repo `wp-aiwriter`, `blog`, `global`: không xóa/đổi URL, không sửa hàng loạt bài cũ/canonical/SEO/sitemap, không xóa Trash, không hạ QA, không đụng Flatsome/plugins nếu chưa được phê duyệt. Tạo mới nội dung chỉ khi đúng search intent, category và được QA PASS.
 >
-> Mặc định \`production_enabled=false\` trong giai đoạn triển khai. Có thể test đọc/QA/dry-run và mã nguồn; **không đăng công khai hoặc bật xuất bản tự động trước khi chủ phê duyệt chế độ production**. Khi được duyệt, publisher chạy lô nhỏ (đề xuất 2 bài), xác minh mỗi WordPress ID/URL, chống tạo trùng và lưu ledger/checkpoint.
+> Mặc định `production_enabled=false` trong giai đoạn triển khai. Có thể test đọc/QA/dry-run và mã nguồn; **không đăng công khai hoặc bật xuất bản tự động trước khi chủ phê duyệt chế độ production**. Khi được duyệt, publisher chạy lô nhỏ (đề xuất 2 bài), xác minh mỗi WordPress ID/URL, chống tạo trùng và lưu ledger/checkpoint.
 >
 > Kết thúc báo cáo rõ SHA/PR, các file đã tạo, test PASS/FAIL, số topic và bài hiện có, lỗi còn lại, hướng dẫn sử dụng một lệnh cho writer W1/W2/W3, và vị trí mở công tắc production. Không báo hoàn thành 1.000/10.000 bài nếu mới chỉ dựng framework.
 
