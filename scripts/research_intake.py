@@ -156,6 +156,10 @@ def ingest(branch, commit, dry_run=False):
         }
     save(LEDGER, ledger)
     save(REFILL, refill)
+    # Re-run every WordPress taxonomy/canonical/capacity invariant against the
+    # just-imported manifest. A green branch QA is never enough by itself.
+    from validate import run as validate_invariants
+    validate_invariants()
     sha = state.persist(paths, 'research: trusted ten-topic QA intake and refill [skip ci]')
     return {'status': 'RESEARCH_ACCEPTED', 'new_topics': len(all_new),
             'new_batches': len(fresh), 'accepted_ids': [row['topic_id'] for row in all_new],
