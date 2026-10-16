@@ -1,7 +1,19 @@
-* @thuexemayhanoi
+# Sensitive source/privileged automation requires owner review WHEN branch review is enforced.
+# Writer article drafts and request files deliberately have NO code owner.
+# CODEOWNERS is advisory until GitHub actually requires reviewed PRs.
 /.github/ @thuexemayhanoi
 /scripts/ @thuexemayhanoi
 /tests/ @thuexemayhanoi
 /config/ @thuexemayhanoi
-/data/ @thuexemayhanoi
+/requirements.txt @thuexemayhanoi
 /AGENTS.md @thuexemayhanoi
+/data/state/ @thuexemayhanoi
+/data/topics.jsonl @thuexemayhanoi
+/data/taxonomy.json @thuexemayhanoi
+/data/business-facts.json @thuexemayhanoi
+/data/existing-content-inventory.json @thuexemayhanoi
+/data/protected-urls.json @thuexemayhanoi
+/docs/ACTIVATION.md @thuexemayhanoi
+/docs/ARTICLE-CONTRACT.md @thuexemayhanoi
+/docs/WORDPRESS-AUTO-DELIVERY.md @thuexemayhanoi
+/docs/AI-START-HERE.md @thuexemayhanoi
