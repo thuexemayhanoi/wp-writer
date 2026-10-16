@@ -2,11 +2,21 @@
 
 **AI bên ngoài — một lệnh để bắt đầu:** [AI-START-HERE.md](docs/AI-START-HERE.md). Nhận tối đa 10 chủ đề, QA từng bài, tự nộp và nhận tiếp; không xin duyệt từng bài. Publisher đã kết nối sau QA nhưng **Production hiện OFF**; không tuyên bố đã đăng công khai khi không có ledger và URL verified.
 
-> **QA → WordPress ngay, 2+2+2+2+2:** xem [Instant Publishing](docs/INSTANT-PUBLISHING.md). Publisher được nối sau QA PASS, chạy tối đa 5 batch × 2 bài trong một lượt. **Production chưa bật** vì GitHub main chưa được bảo vệ và cần nghiệm thu SEO REST bằng chính credentials của workflow. Không được tự gán các cờ xác minh thành PASS.
+> **QA → WordPress ngay, 2+2+2+2+2:** xem [Instant Publishing](docs/INSTANT-PUBLISHING.md). QA PASS trên main tự kích hoạt Publisher không cần cron; tối đa 5 batch × 2 bài, daily cap 10. **Unattended Production vẫn OFF** do bảo vệ code đặc quyền và E2E GitHub Publisher chưa nghiệm thu. Main đã có Ruleset, Yoast REST smoke PASS; hai bài public #3888 và #3890 là kiểm thử **thủ công bằng WPVibe**.
 
 > **Topic Discovery V3:** [Autonomous research queue → external AI researcher → Topic QA → W1/W2/W3](docs/AUTONOMOUS-TOPIC-RESEARCH.md). Runs every 6h without AI API keys, gathering public RSS *leads* plus topical gaps, capped at 20 ideas/batch and 300 pending; discovery proposal capacity 10,000. **This is not an LLM doing autonomous factual research**: external AI researchers must independently verify and submit evidence before an idea becomes PLANNED. Canonical intake remains approved only to 1,000; WordPress Production remains OFF.
 
 > **Factory Operations V2:** [Liveness + queue/refill + Writer request safety + post-publish SEO QA](docs/FACTORY-OPERATIONS-V2.md). Adapted from /blog and /global patterns for native WordPress. The new read-only checks never turn on staging or production and do not imply articles have been published.
+## Workflow không Excel — Topic Registry + WordPress REST
+
+Khác **wp-aiwriter** sử dụng Excel cố định (data/topics.json), **wp-writer** dùng **data/topics.jsonl** chứa topic ID/title/intent/canonical/taxonomy_key; **data/taxonomy.json** chứa toàn bộ danh mục cha/con. Không nhập Excel, không dừng tại ranh giới chuyên mục và không suy category từ tiêu đề bài.
+
+**AI bên ngoài → W1/W2/W3 claim → posts/drafts/NT-XXXXXX.md → GitHub QA PASS → Publisher → WordPress REST.** Khi Production thực sự bật: khớp chính xác category leaf và toàn bộ parent ancestry mới public; thiếu/sai thì nháp; trùng slug/title/marker hoặc có trong ledger thì skip/đối soát, không tạo lại. Không cần chờ cron; cron :17/:47 là fallback.
+
+**Production tự động hiện vẫn dry_run.** Hai bài mới #3888/#3890 được chủ duyệt đăng thủ công qua WPVibe và đang được đưa vào ledger để tránh đăng trùng. QA success không tự chứng minh WordPress đã đăng.
+
+Đọc [đối chiếu phương pháp wp-aiwriter và wp-writer](docs/WORKFLOW-COMPARISON-WP-AIWRITER.md) và [điều kiện kích hoạt](docs/ACTIVATION.md).
+
 ## MASTER README / MASTER WORK SPECIFICATION — Nguyễn Tú
 
 ## Nâng cấp native auto-delivery (chuẩn bị bật)
@@ -25,11 +35,11 @@ Quy trình và điều kiện: [WordPress Auto Delivery](docs/WORDPRESS-AUTO-DEL
 Đặc tả MASTER phía dưới được giữ làm yêu cầu gốc. Những chỗ ghi “CHƯA” hoặc “ĐỀ XUẤT” là snapshot trước triển khai; trạng thái thực luôn lấy từ `reports/dashboard.json`, `reports/health.json` và ledger.
 
 - Đã nhập đủ 9 sheet Excel, kiểm kê có xác thực: 135 bài, 10 trang, 13 sản phẩm; giữ 8 category cũ.
-- Registry: 8 category cũ + 19 category planned; 35 domain logic phân bổ ngân sách 1.000, capacity 10.000; chưa tạo category mới trên WordPress.
-- 80 candidate đã Topic QA: 8 PLANNED, 72 RESEARCH. Chưa đủ 1.000 topic hợp lệ; không tính allocation là topic.
+- Registry ban đầu có 8 category cũ + 19 category dự kiến; nay đã tạo 2 category con: Chăm sóc xe điện #160 (con #157), An toàn khi di chuyển #161 (con #159). Các category khác vẫn phải được đối chiếu qua WordPress REST.
+- Registry ban đầu có 80 candidate/8 PLANNED; đây là snapshot trước các đợt tiếp theo. Không tính allocation là topic. Dùng reports/dashboard.json và data/topics.jsonl để xem số mới nhất.
 - W1/W2/W3 provider-neutral, GitHub-only claim request, CAS leases, intake receipts, 6 gate QA, REPAIR, create-only publisher, idempotent remote ledger, reconcile, internal-link graph, dashboard và refill đã có code/test.
-- Draft-only REST acceptance: WordPress #3870, Blog #69, chạy lại cùng ID; giữ nguyên #3861. Không có bài SEO mới public.
-- **Production OFF**. Yoast meta chưa REST-writeable, enforcement bảo vệ workflow/secrets chưa xác minh và chưa nghiệm thu full editorial-to-public E2E. Không bật production chỉ vì unit tests hoặc smoke draft PASS.
+- Draft-only REST acceptance: WordPress #3870, Blog #69, chạy lại cùng ID; giữ nguyên #3861. **Đã đăng thủ công qua WPVibe 2 bài mới: NT-000037 → #3888; NT-000047 → #3890, đúng category, Yoast/canonical/index verified.** Chi tiết: reports/manual-wp-smoke-20261016.json.
+- **Unattended Production OFF (dry_run).** Yoast title/meta đã REST-writeable qua credential GitHub smoke. Enforced protection của Publisher và E2E tự đăng bằng Github Publisher chưa được chứng minh.
 - Quy định mới: **1.600–5.000 từ hữu ích/bài**. Writer đọc [Quickstart](docs/WRITER-QUICKSTART.md). Chủ đọc [Activation](docs/ACTIVATION.md). Số liệu mới nhất xem [dashboard](reports/latest.md).
 
 
