@@ -137,6 +137,27 @@ def validate_candidates(rows, *, incumbent=None, inventory=None, taxonomy=None,
         if not isinstance(research, dict):
             research = {}
         errors.extend(validate_sources(research, today=today))
+        # A researched candidate must already satisfy the immutable Nguyen Tu
+        # WordPress writer contract, not just the lighter discovery lead format.
+        if t.get('word_target_min') != 1600 or t.get('word_target_max') != 5000:
+            errors.append('RESEARCH_WORD_RANGE_MUST_BE_1600_TO_5000')
+        if t.get('topic_role') != 'supporting':
+            review.append('RESEARCH_NEW_PILLAR_OR_COMMERCIAL_HUB_NEEDS_OWNER_ARCHITECTURE')
+        if not all(str(t.get(k) or '').strip() for k in ('pillar', 'hub', 'silo')):
+            review.append('RESEARCH_HUB_SILO_ARCHITECTURE_MISSING')
+        if (t.get('writer_claim') or t.get('wp_post_id') or
+                t.get('wp_permalink') or t.get('source_hash') or
+                t.get('publication_status') not in (None, 'NOT_SUBMITTED') or
+                t.get('topic_qa_status') not in (None, 'RESEARCH')):
+            errors.append('RESEARCH_CANDIDATE_MUST_NOT_IMPERSONATE_PUBLISHED_OR_CLAIMED_POST')
+        links = t.get('internal_link_candidates')
+        if not isinstance(links, list) or not links:
+            review.append('RESEARCH_INTERNAL_LINK_HUB_CANDIDATES_MISSING')
+        else:
+            published = {p.get('url') for p in inventory if p.get('status') == 'publish'}
+            if inventory and not any(url in published for url in links):
+                review.append('RESEARCH_INTERNAL_LINK_TARGET_NOT_IN_PUBLIC_WP_INVENTORY')
+
         origin = str(t.get('origin_id', ''))
         if origin.startswith('NTD-'):
             lead = discovery.get('proposals', {}).get(origin)
