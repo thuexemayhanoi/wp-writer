@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """Per-article QA checkpoint: admit PASS while other articles require repair.
 
+Writer hashes are independently admitted by Publisher intake on the state branch;
+a writer may need a fresh QA run after a revision receipt is persisted. Never
+weaken the submission-hash gate to resolve that normal asynchronous race.
+
 The only green outcome is a COMPLETE fresh per-article report. Missing files,
 stale source hashes, unsupported status, interrupted evaluation, or missing
 repair queue FAIL the workflow. No WordPress credentials or article rewrites.
