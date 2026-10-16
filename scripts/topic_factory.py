@@ -45,6 +45,11 @@ def gate(topic, others, inventory, taxonomy):
 
 def run(candidate_path=None):
     rows=topics(); inv=load('data/existing-content-inventory.json',{}).get('items',[]); tax=load('data/taxonomy.json')['items']
+    # Refill is incremental: a later candidate must never revoke an approved
+    # incumbent topic or silently invalidate an already-submitted article.
+    # The new batch is still checked against ALL incumbents and its own peers.
+    incumbent_ids={t['topic_id'] for t in rows}
+    incumbent_evidence=load('reports/topic-qa.json',{}) if candidate_path else {}
     if candidate_path:
         p=ROOT/candidate_path
         if not p.resolve().is_relative_to((ROOT/'data/candidates').resolve()):raise ValueError('Candidate path must be under data/candidates')
@@ -60,6 +65,20 @@ def run(candidate_path=None):
     if len({t['topic_id'] for t in rows})!=len(rows):raise ValueError('Duplicate topic ID')
     evidence={}
     for t in rows:
+        if candidate_path and t['topic_id'] in incumbent_ids:
+            # Keep original verdict, research state, and immutable identity.
+            # A malicious/duplicate new idea must be rejected on its own merits,
+            # never by demoting an existing PLANNED or already-authored topic.
+            old=incumbent_evidence.get(t['topic_id'])
+            if old:
+                evidence[t['topic_id']]=old
+            else:
+                old_status=t.get('topic_qa_status')
+                evidence[t['topic_id']]={'status':{'PLANNED':'PASS','REJECTED':'FAIL'}.get(old_status,'REVIEW'),
+                    'errors':[],'review':['Original topic evidence unavailable; preserve incumbent status'],
+                    'topic_hash':digest(json.dumps(t,ensure_ascii=False,sort_keys=True)),
+                    'preserved_incumbent':True}
+            continue
         result=gate(t,rows,inv,tax); evidence[t['topic_id']]=result
         t['topic_qa_status']='PLANNED' if result['status']=='PASS' else 'REJECTED' if result['status']=='FAIL' else 'RESEARCH'
     write_topics(rows)
