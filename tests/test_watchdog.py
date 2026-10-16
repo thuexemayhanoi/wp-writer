@@ -117,6 +117,23 @@ class WatchdogTests(unittest.TestCase):
         self.registry['leases']['W1']['expires_at']=(AT+dt.timedelta(hours=1)).isoformat()
         self.assertEqual(self.assess()['state'],'RUNNING')
 
+    def test_expired_lease_restores_claimable_topic(self):
+        self.enable_production()
+        self.registry['leases']['W1']={'session':'abandoned-session','expires_at':OLD,
+                                       'topic_ids':['NT-000001']}
+        report=self.assess()
+        self.assertEqual(report['claimable_topics'],1)
+        self.assertEqual(report['state'],'AWAITING_WRITERS')
+
+    def test_live_lease_hides_owned_topic_from_claimable_count(self):
+        self.enable_production()
+        self.registry['leases']['W1']={'session':'active-session',
+             'expires_at':(AT+dt.timedelta(hours=1)).isoformat(),
+             'topic_ids':['NT-000001']}
+        report=self.assess()
+        self.assertEqual(report['claimable_topics'],0)
+        self.assertEqual(report['state'],'RUNNING')
+
     def test_expired_lease_does_not_appear_as_running(self):
         self.enable_production()
         self.registry['leases']['W1']={'session':'owner-1','expires_at':OLD,'topic_ids':['NT-000001']}
