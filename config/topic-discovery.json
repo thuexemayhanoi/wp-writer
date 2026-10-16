@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "mode": "public_signal_plus_gap_discovery",
+  "enabled": true,
+  "initial_topic_goal": 1000,
+  "research_ceiling": 10000,
+  "max_pending_proposals": 300,
+  "max_new_proposals_per_run": 20,
+  "refill_when_claimable_below": 100,
+  "max_signal_feeds_per_run": 3,
+  "max_headlines_per_feed": 10,
+  "source_policy": "Public RSS headlines are leads, not evidence for legal, price, or factual claims. No AI or LLM API is invoked.",
+  "research_status": "AWAITING_AI_RESEARCH",
+  "staging_only": true,
+  "subjects": {
+    "rental-guide": [
+      "điều kiện thuê xe máy Hà Nội",
+      "kiểm tra xe lúc giao nhận",
+      "trả xe và gia hạn hợp đồng",
+      "lựa chọn xe theo lịch trình"
+    ],
+    "rental-costs": [
+      "chi phí thuê xe theo ngày và tuần",
+      "phụ phí giao xe",
+      "đặt cọc và hoàn cọc",
+      "ngân sách thuê xe dài hạn"
+    ],
+    "rental-procedures": [
+      "biên nhận đặt cọc xe máy",
+      "quy trình bàn giao xe máy",
+      "đổi xe trong thời gian thuê",
+      "xử lý sự cố khi thuê xe"
+    ],
+    "reviews": [
+      "Honda Wave và Sirius",
+      "Honda Vision và Janus",
+      "xe điện và xe xăng",
+      "xe số và xe tay ga"
+    ],
+    "rental-50cc": [
+      "xe Cub 50cc",
+      "xe số 50cc",
+      "xe ga 50cc",
+      "kiểm tra xe 50cc đã qua sử dụng"
+    ],
+    "electric": [
+      "xe máy điện đi làm",
+      "xe điện đi mưa",
+      "chi phí vận hành xe máy điện",
+      "lựa chọn xe máy điện"
+    ],
+    "ebikes": [
+      "xe đạp điện đi học",
+      "xe đạp điện đô thị",
+      "an toàn khi sạc xe đạp điện",
+      "chi phí sử dụng xe đạp điện"
+    ],
+    "electric-tech": [
+      "công nghệ động cơ điện",
+      "điều khiển công suất xe điện",
+      "tái tạo năng lượng khi phanh",
+      "kết nối thông minh của xe điện"
+    ],
+    "battery-charging": [
+      "chọn bộ sạc xe điện",
+      "chu kỳ sử dụng pin xe máy điện",
+      "bảo quản pin khi ít sử dụng",
+      "sạc xe điện tại nhà"
+    ],
+    "electric-maintenance": [
+      "kiểm tra hệ thống điện xe máy điện",
+      "bảo dưỡng phanh xe điện",
+      "vệ sinh cổng sạc",
+      "xử lý dấu hiệu pin bất thường"
+    ],
+    "legal": [
+      "tra cứu chính sách xe điện",
+      "giấy tờ khi điều khiển xe máy",
+      "đối chiếu quy định giao thông",
+      "kiểm tra hiệu lực văn bản pháp luật"
+    ],
+    "driving-licence": [
+      "phân hạng giấy phép lái xe",
+      "giấy phép lái xe cho người nước ngoài",
+      "chuẩn bị hồ sơ lái xe",
+      "tra cứu giấy phép lái xe"
+    ],
+    "road-safety": [
+      "phanh xe máy đường trơn",
+      "đi xe máy ban đêm",
+      "khoảng cách an toàn xe máy",
+      "mũ bảo hiểm và trang bị bảo hộ"
+    ],
+    "engine-care": [
+      "bảo dưỡng động cơ xe số",
+      "kiểm tra dầu máy",
+      "kiểm tra lốp và săm xe máy",
+      "ắc quy và hệ thống đề"
+    ],
+    "urban-mobility": [
+      "xe buýt và xe máy tại Hà Nội",
+      "kết nối điểm trung chuyển",
+      "di chuyển giờ cao điểm",
+      "phương tiện đô thị cho du khách"
+    ],
+    "hanoi-travel": [
+      "lịch trình Hà Nội một ngày",
+      "di chuyển quanh Hồ Tây",
+      "tham quan Long Biên",
+      "chuẩn bị đi Phố Cổ"
+    ],
+    "vietnam-travel": [
+      "lịch trình khám phá miền Bắc",
+      "chuẩn bị chuyến đi đường dài",
+      "đi lại giữa các tỉnh",
+      "điểm dừng chân khi du lịch"
+    ],
+    "trip-planning": [
+      "lập ngân sách chuyến đi xe máy",
+      "kiểm tra lịch trình road trip",
+      "chọn quãng đường theo năng lực",
+      "đi du lịch tự túc bằng xe máy"
+    ],
+    "destinations": [
+      "khám phá điểm tham quan Hà Nội",
+      "tham quan ngoại thành Hà Nội",
+      "lịch trình bảo tàng và di tích",
+      "chọn điểm dừng chân theo mùa"
+    ],
+    "food-culture": [
+      "khám phá ẩm thực Hà Nội",
+      "văn hóa chợ truyền thống",
+      "lưu ý khi thưởng thức món địa phương",
+      "tập quán giao tiếp khi du lịch"
+    ],
+    "green-travel": [
+      "du lịch ít phát thải",
+      "giảm rác trong chuyến đi",
+      "lựa chọn phương tiện xanh",
+      "chuẩn bị hành trình du lịch bền vững"
+    ],
+    "electric-transition": [
+      "hạ tầng sạc công cộng",
+      "quy hoạch giao thông điện hóa",
+      "lựa chọn điểm sạc an toàn",
+      "chi phí chuyển đổi phương tiện"
+    ]
+  }
+}

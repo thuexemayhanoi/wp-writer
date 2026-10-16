@@ -1,0 +1,58 @@
+name: Universal Topic Discovery
+on:
+  schedule:
+    - cron: '7 */6 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/topic-discovery.yml'
+      - 'scripts/topic_discovery.py'
+      - 'config/topic-discovery.json'
+  workflow_dispatch:
+    inputs:
+      offline:
+        description: 'Skip public RSS and use only verified local topical gaps'
+        required: false
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: wp-writer-state
+  cancel-in-progress: false
+jobs:
+  research-queue:
+    if: github.repository == 'thuexemayhanoi/wp-writer'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout trusted main with complete history for CAS
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Test source validation, bounded growth, evidence and 10k constraints
+        run: python -m unittest discover -s tests -p 'test_topic_discovery.py' -v
+      - name: Set bot commit identity
+        run: |
+          git config user.name 'wp-writer-topic-discovery'
+          git config user.email 'wp-writer-topic-discovery@users.noreply.github.com'
+      - name: Discover public research leads and append only bounded proposals
+        env:
+          OFFLINE: ${{ inputs.offline || 'false' }}
+        run: |
+          if [ "$OFFLINE" = "true" ]; then
+            python scripts/topic_discovery.py --apply --offline
+          else
+            python scripts/topic_discovery.py --apply
+          fi
+      - name: Report genuine limits and pending review status
+        if: always()
+        run: |
+          echo '## Research status' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Discovery only. No AI model/LLM API and no WordPress credential used.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Generated research proposals are NOT verified sources, not PLANNED and never auto-published.' >> "$GITHUB_STEP_SUMMARY"

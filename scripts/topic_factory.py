@@ -1,8 +1,44 @@
 """Canonical Topic QA and refill. Candidates never auto become PLANNED."""
 import argparse
+import datetime as dt
 import json
 import difflib
+from urllib.parse import urlsplit
 from common import ROOT, SITE, digest, load, norm, now, save, topics, write_topics
+
+def validate_discovery_origin(topic, ledger, used_origins):
+    """Discovery proposals are traceable but NOT independently QA-approved."""
+    origin=str(topic.get('origin_id') or '')
+    if not origin.startswith('NTD-'):
+        return
+    registered=ledger.get('proposals',{}).get(origin)
+    if not registered:
+        raise ValueError('Unknown autonomous discovery proposal ID')
+    if origin in used_origins:
+        raise ValueError('Discovery proposal already used by another topic')
+    if registered.get('taxonomy_key')!=topic.get('taxonomy_key'):
+        raise ValueError('Research category conflicts with original discovery brief')
+
+def valid_research_sources(research):
+    sources=research.get('external_sources',[])
+    if not isinstance(sources,list) or not sources:
+        return False
+    for item in sources:
+        if not isinstance(item,dict):
+            continue
+        try:
+            u=urlsplit(str(item.get('url','')))
+            checked=dt.date.fromisoformat(str(item.get('checked_at','')))
+            current=dt.date.today()
+            if (u.scheme=='https' and u.hostname and
+                u.hostname not in ('localhost','127.0.0.1') and
+                not u.username and not u.password and
+                checked<=current and (current-checked).days<=365 and
+                len(str(item.get('supports','')).strip())>=20):
+                return True
+        except (ValueError,TypeError):
+            continue
+    return False
 
 def similarity(a,b):
     a,b=norm(a),norm(b)
@@ -28,6 +64,8 @@ def gate(topic, others, inventory, taxonomy):
         if (p.get('slug')==topic.get('proposed_slug') or p.get('canonical')==topic.get('canonical_target') or
             p.get('url')==topic.get('canonical_target') or p.get('title_hash')==digest(norm(topic['title']))): errors.append('existing URL collision:'+str(p['id']))
     research=topic.get('research') or {}
+    if str(topic.get('origin_id','')).startswith('NTD-') and not valid_research_sources(research):
+        review.append('Autonomous discovery needs independently researched and dated external source evidence')
     if not research.get('reviewer') or not research.get('difference_summary') or not topic.get('intent_key'):
         review.append('full-content semantic review missing')
     checked_hashes=research.get('reviewed_content_hashes',{})
@@ -51,6 +89,8 @@ def run(candidate_path=None):
     incumbent_ids={t['topic_id'] for t in rows}
     incumbent_evidence=load('reports/topic-qa.json',{}) if candidate_path else {}
     if candidate_path:
+        discovery=load('data/state/topic-discovery-ledger.json',{'proposals':{}})
+        used_origins={str(t.get('origin_id')) for t in rows if str(t.get('origin_id','')).startswith('NTD-')}
         p=ROOT/candidate_path
         if not p.resolve().is_relative_to((ROOT/'data/candidates').resolve()):raise ValueError('Candidate path must be under data/candidates')
         incoming=[json.loads(line) for line in p.read_text().splitlines() if line.strip()]
@@ -59,9 +99,12 @@ def run(candidate_path=None):
             if t['topic_id'] in known:
                 if t!=known[t['topic_id']]:raise ValueError('Existing topic immutable; coordinator review required')
                 continue
+            validate_discovery_origin(t,discovery,used_origins)
             if len(rows)>=load('config/production-policy.json')['approved_capacity']:raise ValueError('Approved topic capacity reached')
             if not __import__('re').fullmatch(r'NT-\d{6}',t.get('topic_id','')):raise ValueError('Topic ID must be NT-XXXXXX')
             t['topic_qa_status']='RESEARCH';rows.append(t);known[t['topic_id']]=t
+            if str(t.get('origin_id','')).startswith('NTD-'):
+                used_origins.add(str(t['origin_id']))
     if len({t['topic_id'] for t in rows})!=len(rows):raise ValueError('Duplicate topic ID')
     evidence={}
     for t in rows:

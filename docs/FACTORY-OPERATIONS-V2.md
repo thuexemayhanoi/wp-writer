@@ -1,5 +1,7 @@
 # Factory Operations V2 — /blog + /global patterns, native WordPress controls
 
+**New V3 extension:** [No-key autonomous public-signal topic discovery](AUTONOMOUS-TOPIC-RESEARCH.md). Scheduler proposes bounded, gap-aware research tasks; external AI must provide web research and content-collision evidence before Topic QA can promote them. No automatic AI model is launched by GitHub Actions.
+
 These capabilities were adapted conceptually after reading the actual `thuexemayhanoi/blog` liveness/refill/watchdog workflows and `thuexemayhanoi/global` writer-pool/topic-factory/post-publish-qa workflows. Nothing is copied into this repository wholesale.
 
 ## The two kinds of success
