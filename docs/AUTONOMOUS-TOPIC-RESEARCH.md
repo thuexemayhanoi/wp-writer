@@ -75,3 +75,8 @@ This is **not** a ready-to-import candidate; actual existing-content comparisons
 [Research batches](../data/research/auto/) · [Discovery workflow](../.github/workflows/topic-discovery.yml) · [Topic Factory](../scripts/topic_factory.py) · [Production activation](ACTIVATION.md).
 
 **Quality principle:** 10,000 generated ideas are not equivalent to 10,000 useful articles. Only researched, non-cannibalizing topics accepted by Topic QA become available to the three external Writers.
+
+## Research V2 đã bổ sung: 10 topic/QA/checkpoint/auto-intake
+
+Trước đây bộ quét chỉ tạo NTD research briefs. Nay AI ngoài có thể dùng [Research V2 runbook](RESEARCH-V2-GLOBAL-ADAPTATION.md) để nghiên cứu 10 chủ đề/lượt, checkpoint SHA-256 và push trên research/<session>. Research QA phải đọc source metadata, phát hiện trùng intent/URL, xác nhận WordPress inventory và danh mục. Khi QA xanh trên PUSH, Trusted Research Intake tự nhận nội dung bằng mã main được bảo vệ và đưa Topic Registry các bài PASS thành PLANNED. Điều này KHÔNG có nghĩa GitHub Actions tự chạy AI hoặc đã bật Production; lịch quét 6 giờ vẫn chỉ tìm ý tưởng chưa xác minh.
+
