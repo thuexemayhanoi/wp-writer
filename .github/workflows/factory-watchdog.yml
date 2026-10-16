@@ -1,0 +1,43 @@
+name: WordPress Factory liveness (read-only)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 * * * *'
+permissions:
+  contents: read
+concurrency:
+  group: wp-writer-liveness-read-only
+  cancel-in-progress: false
+jobs:
+  detect-stall:
+    if: github.repository == 'thuexemayhanoi/wp-writer'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout trusted main snapshot without credentials
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Run targeted liveness tests
+        run: python -m unittest discover -s tests -p 'test_watchdog.py' -v
+      - name: Diagnose real progress; no WordPress API credentials
+        run: python scripts/watchdog.py --output "$RUNNER_TEMP/wp-writer-watchdog.json"
+      - name: Upload diagnostic receipt even when stalled
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: wp-writer-liveness-${{ github.run_id }}
+          path: ${{ runner.temp }}/wp-writer-watchdog.json
+          retention-days: 14
+          if-no-files-found: ignore
+      - name: Confirm no tracked files were touched
+        if: always()
+        run: |
+          test -z "$(git status --porcelain --untracked-files=no)" || {
+            echo 'Read-only watchdog mutated tracked git data'; exit 1;
+          }
