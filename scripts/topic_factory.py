@@ -64,8 +64,13 @@ def gate(topic, others, inventory, taxonomy):
         if (p.get('slug')==topic.get('proposed_slug') or p.get('canonical')==topic.get('canonical_target') or
             p.get('url')==topic.get('canonical_target') or p.get('title_hash')==digest(norm(topic['title']))): errors.append('existing URL collision:'+str(p['id']))
     research=topic.get('research') or {}
-    if str(topic.get('origin_id','')).startswith('NTD-') and not valid_research_sources(research):
-        review.append('Autonomous discovery needs independently researched and dated external source evidence')
+    if str(topic.get('origin_id','')).startswith('NTD-'):
+        if not valid_research_sources(research):
+            review.append('Autonomous discovery needs independently researched and dated external source evidence')
+        # Research V2 is stricter than legacy standalone source checks: raw RSS
+        # discoveries cannot become PLANNED with one unverified source link.
+        from research_v2 import validate_sources
+        review.extend('Research V2: '+issue for issue in validate_sources(research))
     if not research.get('reviewer') or not research.get('difference_summary') or not topic.get('intent_key'):
         review.append('full-content semantic review missing')
     checked_hashes=research.get('reviewed_content_hashes',{})
