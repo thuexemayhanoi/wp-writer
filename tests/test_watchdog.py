@@ -70,7 +70,8 @@ class WatchdogTests(unittest.TestCase):
         self.admit(OLD)
         self.registry['submissions']['NT-000001']['sha256']='invalid'
         self.assertEqual(self.assess()['queued_count'],0)
-        self.assertEqual(self.assess()['state'],'AWAITING_WRITERS')
+        self.assertEqual(self.assess()['state'],'SOURCE_MISMATCH')
+        self.assertFalse(self.assess()['healthy'])
 
     def test_uncertain_post_takes_priority_even_when_production_off(self):
         self.admit(OLD)
