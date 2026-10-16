@@ -86,7 +86,10 @@ class TopicDiscoveryTests(unittest.TestCase):
 
     def test_research_can_continue_at_one_thousand_without_publishing(self):
         rows=[{'topic_id':'NT-%06d'%i,'topic_qa_status':'PLANNED'} for i in range(1000)]
-        ideas,state=self.make(rows=rows)
+        # All 1,000 approved topics have already been claimed/submitted.
+        # Research replenishes proposals, but intake remains capped at 1,000.
+        with patch.object(td,'claimable_count',return_value=0):
+            ideas,state=self.make(rows=rows)
         self.assertEqual(len(ideas),20)
         self.assertTrue(state['approved_intake_capacity_reached'])
         self.assertEqual(state['approved_topic_limit'],1000)
