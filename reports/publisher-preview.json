@@ -3,6 +3,49 @@
   "wordpress_writes": 0,
   "qa": [
     {
+      "topic_id": "NT-000037",
+      "status": "PASS",
+      "source_sha256": "cbaae79d1e0feeaf54b5bcb234c22e93248a7ca60c1517d606618a99483dcd56",
+      "body_sha256": "b87838e8781e72703db2cb295176a720f03ec790735ea06e9f2ff2a37ba35ffa",
+      "word_count": 3172,
+      "quality_score": 100,
+      "seo_score": 100,
+      "gates": {
+        "1": {
+          "errors": [],
+          "review": []
+        },
+        "2": {
+          "errors": [],
+          "review": []
+        },
+        "3": {
+          "errors": [],
+          "review": []
+        },
+        "4": {
+          "errors": [],
+          "review": []
+        },
+        "5": {
+          "errors": [],
+          "review": []
+        },
+        "6": {
+          "errors": [],
+          "review": []
+        }
+      },
+      "errors": [],
+      "review": [],
+      "source_evidence": [],
+      "at": "2026-10-16T15:46:20.010134+00:00",
+      "live_links_checked": false,
+      "legal_required": false,
+      "rules_sha256": "f19f5b8fbd028740eab6d6339bc72736bab2c1b7e3c1f11ccf0920a48400fee0",
+      "inventory_sha256": "9dae8343eea1b06c785aa6848898c4fa268b1b6995348f6828bed8ac43346308"
+    },
+    {
       "topic_id": "NT-000075",
       "status": "PASS",
       "source_sha256": "7b584d911560845fac395fe9c2db8e22a1cb3b8641b9311f66f311bc6e70f5f7",
@@ -39,7 +82,7 @@
       "errors": [],
       "review": [],
       "source_evidence": [],
-      "at": "2026-10-16T15:33:40.886497+00:00",
+      "at": "2026-10-16T15:46:20.678713+00:00",
       "live_links_checked": false,
       "legal_required": false,
       "rules_sha256": "f19f5b8fbd028740eab6d6339bc72736bab2c1b7e3c1f11ccf0920a48400fee0",
@@ -82,12 +125,12 @@
       "errors": [],
       "review": [],
       "source_evidence": [],
-      "at": "2026-10-16T15:33:41.551764+00:00",
+      "at": "2026-10-16T15:46:21.342055+00:00",
       "live_links_checked": false,
       "legal_required": true,
       "rules_sha256": "f19f5b8fbd028740eab6d6339bc72736bab2c1b7e3c1f11ccf0920a48400fee0",
       "inventory_sha256": "9dae8343eea1b06c785aa6848898c4fa268b1b6995348f6828bed8ac43346308"
     }
   ],
-  "at": "2026-10-16T15:33:41.583005+00:00"
+  "at": "2026-10-16T15:46:21.373744+00:00"
 }
