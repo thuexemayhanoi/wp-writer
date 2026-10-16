@@ -40,6 +40,8 @@ The request session label remains **not an authentication factor**. GitHub branc
 
 `scripts/refill.py` does not create new topic prose or synthesize an SEO Matrix. It imports only externally researched `data/candidates/*.jsonl` batches; the existing Topic QA decides which topics are `PLANNED` versus `RESEARCH` or `REJECTED`. If the queue needs refill but no new batches are present, Actions now fails with `NEEDS_TOPIC_EXPANSION`. If a candidate batch results in zero additional `PLANNED` topics, the immutable research record is preserved but Actions fails (no green without actual progress).
 
+Refill capacity is calculated from **unreserved claimable** PLANNED topics, not the lifetime PLANNED count. IDs held in live leases, immutable Writer submission receipts, or WordPress publication ledger do not qualify as available Writer queue. Expired, unsubmitted leases are reclaimable. This prevents a 100-PLANNED manifest from hiding an empty backlog.
+
 Before adding 10,000 topics, optimize topic comparison with proven no-false-negative collision tests, and benchmark throughput. Do not bypass historical-content comparisons just to make a queue counter look better.
 
 ## Public WordPress page readback (post-publish)
