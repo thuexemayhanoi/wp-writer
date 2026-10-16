@@ -36,7 +36,21 @@ jobs:
           python - <<'PY'
           import json,os
           p=json.load(open('config/production-policy.json'))
-          active=p['mode']!='dry_run' and not p['paused'] and not p['emergency_stop']
+          active=(
+            p.get('mode')=='production'
+            and p.get('production_enabled') is True
+            and bool(p.get('owner_approval_ref'))
+            and p.get('acceptance_passed') is True
+            and p.get('security_controls_verified') is True
+            and p.get('seo_adapter_verified') is True
+          ) or (
+            p.get('mode')=='draft_only'
+            and p.get('production_enabled') is False
+            and p.get('draft_staging_enabled') is True
+            and bool(p.get('draft_staging_approval_ref'))
+            and p.get('security_controls_verified') is True
+          )
+          active=active and not p.get('paused') and not p.get('emergency_stop')
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:f.write('active='+str(active).lower()+'\n')
           PY
       - if: steps.mode.outputs.active != 'true'

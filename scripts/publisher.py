@@ -19,6 +19,58 @@ def production_allowed(policy):
         policy.get('security_controls_verified') is True and policy.get('seo_adapter_verified') is True and
         not policy.get('paused') and not policy.get('emergency_stop'))
 
+def draft_staging_allowed(policy):
+    """Unattended draft writes require independent owner and security approvals."""
+    return (policy.get('mode')=='draft_only'
+        and policy.get('production_enabled') is False
+        and policy.get('draft_staging_enabled') is True
+        and bool(policy.get('draft_staging_approval_ref'))
+        and policy.get('security_controls_verified') is True
+        and not policy.get('paused') and not policy.get('emergency_stop'))
+
+
+def delivery_route(topic,policy,registry,categories,create_category=None,acceptance_draft=False):
+    """Choose public-only on exact taxonomy, otherwise draft at a safe known parent.
+
+    No category is guessed or created silently. Intended category and warning
+    are recorded durably so an editor can later finish taxonomy on WordPress.
+    """
+    if topic['taxonomy_key']=='uncategorized':
+        raise ValueError('Uncategorized forbidden as intended taxonomy')
+    public=production_allowed(policy)
+    staging=draft_staging_allowed(policy)
+    if not (public or staging or acceptance_draft):
+        raise ValueError('WordPress delivery is not approved')
+    intended=topic['taxonomy_key']
+    try:
+        term_id=resolve(intended,registry,categories)
+        return {'status':'publish' if public else 'draft','category_id':term_id,
+                'intended_taxonomy_key':intended,'category_resolution':'EXACT',
+                'category_warning':None}
+    except ValueError as exc:
+        category_error=str(exc)
+    if public and policy.get('allow_category_create') and create_category:
+        # Only the explicitly approved, ledger-protected JIT path may write terms.
+        try:
+            term_id=create_category(intended)
+            return {'status':'publish','category_id':term_id,
+                    'intended_taxonomy_key':intended,'category_resolution':'CREATED',
+                    'category_warning':None}
+        except ValueError as exc:
+            # A category POST may have succeeded before the error. Do not silently
+            # create a fallback draft after an uncertain taxonomy side effect.
+            raise ValueError('Category creation needs reconciliation: '+str(exc)) from exc
+    if policy.get('on_category_mismatch')!='draft':
+        raise ValueError('Category blocked: '+category_error)
+    fallback=policy.get('fallback_draft_taxonomy_key','blog')
+    if fallback==intended:
+        raise ValueError('Cannot fallback onto mismatched original category')
+    term_id=resolve(fallback,registry,categories)
+    return {'status':'draft','category_id':term_id,
+            'intended_taxonomy_key':intended,'category_resolution':'FALLBACK_DRAFT',
+            'category_warning':category_error}
+
+
 def duplicate(topic,live):
     marker='wp-writer:topic='+topic['topic_id']+';'
     return [p for p in live if p.get('slug')==topic['proposed_slug'] or
@@ -86,12 +138,15 @@ class Publisher:
         self.record(topic['topic_id'],phase='VERIFIED',wp_id=p['id'],status=p['status'],url=p['link'],verified_at=now())
         return self.ledger['posts'][topic['topic_id']]
 
-    def create(self,topic,body,sha,category_id,status,live,meta=None):
+    def create(self,topic,body,sha,category_id,status,live,meta=None,route=None):
         """No update/delete endpoint exists in this class."""
         if status not in ('draft','publish'):raise ValueError('Invalid status')
         if self.policy.get('paused') or self.policy.get('emergency_stop'):raise ValueError('Publisher paused')
         if status=='publish' and not production_allowed(self.policy):raise ValueError('Production disabled or acceptance incomplete')
-        if status=='draft' and self.policy.get('mode')!='draft_only':raise ValueError('Draft writes not explicitly enabled')
+        if status=='draft' and self.policy.get('mode')!='draft_only' and not (
+                production_allowed(self.policy) and self.policy.get('on_category_mismatch')=='draft'
+                and (route or {}).get('category_resolution')=='FALLBACK_DRAFT'):
+            raise ValueError('Draft writes not explicitly enabled')
         prior=self.ledger['posts'].get(topic['topic_id'])
         if prior:
             if prior.get('source_hash')!=sha:raise ValueError('Published/uncertain topic source changed; review, never overwrite')
@@ -106,7 +161,11 @@ class Publisher:
             payload['meta']={'_yoast_wpseo_title':meta['meta_title'],'_yoast_wpseo_metadesc':meta['meta_description'],'_yoast_wpseo_canonical':topic['canonical_target']}
         self.record(topic['topic_id'],phase='POST_INTENT',source_hash=sha,slug=topic['proposed_slug'],expected_status=status,
             category_id=category_id,visible_hash=digest(visible(rendered)),first_paragraph=visible(markdown.markdown(body.split('\n\n')[0])),
-            meta_title=(meta or {}).get('meta_title'),meta_description=(meta or {}).get('meta_description'),git_commit=os.environ.get('GITHUB_SHA'),run_id=os.environ.get('GITHUB_RUN_ID'))
+            meta_title=(meta or {}).get('meta_title'),meta_description=(meta or {}).get('meta_description'),
+            intended_taxonomy_key=(route or {}).get('intended_taxonomy_key'),
+            category_resolution=(route or {}).get('category_resolution','EXACT'),
+            category_warning=(route or {}).get('category_warning'),
+            git_commit=os.environ.get('GITHUB_SHA'),run_id=os.environ.get('GITHUB_RUN_ID'))
         # persist() MUST return successfully (remote in Actions) before this POST.
         try:
             self.before_post(topic,sha)
@@ -138,6 +197,9 @@ def run(args):
         # Explicit isolated TEST DRAFT, not a campaign article, never promotes to public.
         policy={**policy,'mode':'draft_only'}
     if policy['paused'] or policy['emergency_stop']:print('PAUSED');return
+    if policy.get('mode')=='draft_only' and not (
+            draft_staging_allowed(policy) or args.acceptance_topic or args.acceptance_draft):
+        raise ValueError('Unattended WordPress draft staging requires verified security and owner approval')
     rows=topics();results=[]
     if policy['mode']=='dry_run' and not args.acceptance_draft:
         for path in sorted((ROOT/'posts/drafts').glob('NT-*.md')):
@@ -173,7 +235,9 @@ def run(args):
             if rec['wp_id']!=again['wp_id']:raise ValueError('Idempotency acceptance failed')
             save('reports/acceptance-rest.json',{'status':'PASS','wp_id':rec['wp_id'],'wordpress_status':'draft','category_id':category,'rerun_same_id':True,'legacy_3861_unchanged':client.get('wp/v2/posts/3861?context=edit').get('status')=='draft','at':now()})
             print('ACCEPTANCE_DRAFT_VERIFIED: id='+str(rec['wp_id']));return
-        if not production_allowed(policy) and policy['mode']!='draft_only':raise ValueError('Production activation prerequisites incomplete')
+        if not production_allowed(policy) and not (
+                draft_staging_allowed(policy) or args.acceptance_topic or args.acceptance_draft):
+            raise ValueError('WordPress activation prerequisites incomplete')
         if production_allowed(policy) and not seo_adapter_check(client):raise ValueError('Yoast metadata REST adapter unavailable; production blocked')
         # Current public and non-public WordPress content used in collision/factual review.
         from audit import run as audit_run
@@ -189,8 +253,6 @@ def run(args):
             if prior:
                 if prior.get('phase')!='VERIFIED':publisher.reconcile(t,live)
                 continue
-            daily=sum(r.get('expected_status')=='publish' and r.get('updated_at','')[:10]==now()[:10] for r in ledger['posts'].values())
-            if daily>=policy['max_new_posts_daily']:break
             ephemeral=[]
             for p in live:
                 ephemeral.append({'id':p['id'],'title':title_of(p),'title_hash':digest(norm(title_of(p))),
@@ -205,13 +267,25 @@ def run(args):
             meta,body,sha=read_article(path)
             receipt=load('data/state/writer-claims.json',{}).get('submissions',{}).get(t['topic_id'],{})
             if receipt.get('sha256')!=sha or receipt.get('session')!=meta.get('writer_session'):raise ValueError('Missing valid writer submission receipt')
-            try:category=resolve(t['taxonomy_key'],by_key(),cats)
-            except ValueError:
-                if not (policy.get('allow_category_create') and production_allowed(policy)):
-                    results.append({'topic_id':t['topic_id'],'status':'BLOCKED','errors':['Category missing; creation not approved']});continue
-                category=materialize(t['taxonomy_key'],by_key(),cats,client,ledger,persist)
-            status='publish' if production_allowed(policy) else 'draft'
-            attempted+=1;publisher.create(t,body,sha,category,status,live,meta)
+            try:
+                route=delivery_route(t,policy,by_key(),cats,
+                    create_category=lambda key:materialize(key,by_key(),cats,client,ledger,persist),
+                    acceptance_draft=bool(args.acceptance_topic))
+            except ValueError as exc:
+                results.append({'topic_id':t['topic_id'],'status':'BLOCKED','errors':[str(exc)]});continue
+            daily=sum(k.startswith('NT-') and rec.get('expected_status')==route['status']
+                and rec.get('updated_at','')[:10]==now()[:10]
+                for k,rec in ledger['posts'].items())
+            limit=policy.get('max_new_posts_daily',10) if route['status']=='publish' else policy.get('max_new_drafts_daily',10)
+            if daily>=limit:
+                results.append({'topic_id':t['topic_id'],'status':'DAILY_CAP','mode':route['status']})
+                continue
+            attempted+=1
+            publisher.create(t,body,sha,route['category_id'],route['status'],live,meta,route=route)
+            results.append({'topic_id':t['topic_id'],'status':'WORDPRESS_'+route['status'].upper(),
+                'category_id':route['category_id'],'category_resolution':route['category_resolution'],
+                'intended_taxonomy_key':route['intended_taxonomy_key'],
+                'category_warning':route['category_warning']})
         save('reports/publisher-latest.json',{'at':now(),'attempted':attempted,'qa':results,'backlog_drains_on':'next schedule or push','production':production_allowed(policy)})
         if args.acceptance_topic:
             rec=ledger['posts'].get(args.acceptance_topic,{})

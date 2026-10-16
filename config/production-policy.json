@@ -20,5 +20,10 @@
   "allow_category_create": false,
   "draft_acceptance_enabled": false,
   "state_branch": "factory-state",
-  "trusted_engine_ref": null
+  "trusted_engine_ref": null,
+  "on_category_mismatch": "draft",
+  "fallback_draft_taxonomy_key": "blog",
+  "draft_staging_enabled": false,
+  "draft_staging_approval_ref": null,
+  "max_new_drafts_daily": 10
 }

@@ -2,6 +2,8 @@
 
 Hiện tại **OFF**. Một mình `production_enabled=true` không đủ mở xuất bản.
 
+Nâng cấp pipeline đã có chính sách định tuyến: bài đúng full category → public khi Production được duyệt; category thiếu/sai → WordPress DRAFT tại Blog với nhãn lý do; QA FAIL/REVIEW → không tạo post. **Không bật staging/production khi branch/security và WordPress API chưa nghiệm thu.** Xem [WORDPRESS-AUTO-DELIVERY.md](WORDPRESS-AUTO-DELIVERY.md).
+
 Trước khi chủ phê duyệt cần xử lý các điều kiện còn thiếu:
 
 1. GitHub: bật ruleset/branch protection có yêu cầu CODEOWNER review và chặn external writer sửa workflow, scripts, requirements/config/data chuẩn. Chỉ cấp quyền viết nội dung qua PR hoặc credentials giới hạn. CODEOWNERS hiện có chỉ là file, không tự bảo vệ repo. Không chia sẻ tài khoản owner/admin cho writer.
