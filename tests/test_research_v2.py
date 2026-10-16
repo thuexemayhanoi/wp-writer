@@ -194,6 +194,41 @@ class CheckpointTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             research.session_name('research/../../admin')
 
+    def test_git_porcelain_leading_columns_survive_cli_reader(self):
+        class Result:
+            returncode = 0
+            stdout = ' M data/research/checkpoints/claude-unit-202610.json\n'
+            stderr = ''
+        with patch.object(research.subprocess, 'run', return_value=Result()):
+            self.assertEqual(research.git_read('status', '--porcelain'),
+                             ' M data/research/checkpoints/claude-unit-202610.json')
+
+    def test_second_batch_can_push_modified_checkpoint_and_new_batch(self):
+        cp = self.cp
+        batch = self.batch
+        observed = {'files': None}
+        def git_stub(*args):
+            command = args[0]
+            if command == 'branch':
+                return self.branch
+            if command == 'status':
+                return ' M ' + cp + '\n?? ' + batch
+            if command == 'add':
+                observed['files'] = set(args[2:])
+                return ''
+            if command == 'rev-parse':
+                return 'a' * 40
+            if command == 'ls-remote':
+                return 'a' * 40 + '\trefs/heads/' + self.branch
+            return ''
+        verified = {'batch_paths':[batch], 'checkpoint_path':cp}
+        with patch.object(research, 'verify_files', return_value=verified), \
+             patch.object(research, 'git_read', side_effect=git_stub):
+            result = research.push(self.branch)
+        self.assertEqual(observed['files'], {batch, cp})
+        self.assertEqual(result['state'], 'SAVED')
+
+
     def test_scope_gate_blocks_privileged_changes(self):
         research.checkpoint(self.branch)
         with patch.object(research, 'git_read',
