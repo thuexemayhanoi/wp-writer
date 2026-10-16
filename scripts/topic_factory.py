@@ -96,10 +96,10 @@ def run(candidate_path=None):
         incoming=[json.loads(line) for line in p.read_text().splitlines() if line.strip()]
         known={t['topic_id']:t for t in rows}
         for t in incoming:
-            validate_discovery_origin(t,discovery,used_origins)
             if t['topic_id'] in known:
                 if t!=known[t['topic_id']]:raise ValueError('Existing topic immutable; coordinator review required')
                 continue
+            validate_discovery_origin(t,discovery,used_origins)
             if len(rows)>=load('config/production-policy.json')['approved_capacity']:raise ValueError('Approved topic capacity reached')
             if not __import__('re').fullmatch(r'NT-\d{6}',t.get('topic_id','')):raise ValueError('Topic ID must be NT-XXXXXX')
             t['topic_qa_status']='RESEARCH';rows.append(t);known[t['topic_id']]=t
