@@ -2,7 +2,7 @@
   "version": 1,
   "posts": {
     "ACCEPTANCE-20261016": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "source_hash": "4ee86dfe97c73c51fc87e33d55e1821621d271871f35c51f17f20b9e280d05db",
       "slug": "wp-writer-factory-acceptance-20261016",
       "expected_status": "draft",
@@ -13,8 +13,11 @@
       "meta_description": null,
       "git_commit": "c5d52f9f5c0f821fd17cfa192c2cef827eac5c1c",
       "run_id": "38893036151",
-      "updated_at": "2026-10-16T11:20:31.830900+00:00",
-      "wp_id": 3870
+      "updated_at": "2026-10-16T11:20:34.704703+00:00",
+      "wp_id": 3870,
+      "status": "draft",
+      "url": "https://thuexemaynguyentu.com/?p=3870",
+      "verified_at": "2026-10-16T11:20:34.704686+00:00"
     }
   },
   "categories": {}
