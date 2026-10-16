@@ -28,6 +28,6 @@ Sau khi các điều kiện được chứng minh và chủ duyệt, cập nhậ
 }
 ```
 
-Các trường khác trong file phải giữ nguyên. Nếu cho phép tạo danh mục just-in-time thì chủ bật thêm `allow_category_create=true` sau khi nghiệm thu tác động. Nhánh main push policy/draft hợp lệ kích hoạt publisher; lịch `:17` và `:47` mỗi giờ tiếp tục queue theo batch 2, daily cap 10 ban đầu. Lịch chỉ là drain pipeline đã có nội dung, không sinh bài AI.
+Các trường khác trong file phải giữ nguyên. Nếu cho phép tạo danh mục just-in-time thì chủ bật thêm `allow_category_create=true` sau khi nghiệm thu tác động. Writer QA PASS trên `main` tự kích hoạt Publisher qua `workflow_run`, tối đa **5 lượt × 2 bài trong một lần chạy** (daily cap 10); lịch `:17` và `:47` là cơ chế dự phòng, không bắt Writer chờ 30 phút giữa hai cặp. `main` hiện chưa được bảo vệ — vì vậy Production tiếp tục OFF. Lịch chỉ là drain pipeline đã có nội dung, không sinh bài AI.
 
 Tắt: `production_enabled=false` + `mode=dry_run`; pause/resume ở cùng file. Không cần sửa nhiều workflow hoặc đưa mật khẩu cho writer.
