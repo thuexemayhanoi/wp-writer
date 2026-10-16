@@ -4,7 +4,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-16T12:11:24.754904+00:00 |
+| at | 2026-10-16T13:38:42.492048+00:00 |
 | existing_published_posts | 135 |
 | existing_pages | 10 |
 | existing_products | 13 |
@@ -28,9 +28,17 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | broken_links_note | No full HTTP crawl yet; inventory graph is not a broken-link proof |
 | remaining_topic_target | 992 |
 | remaining_candidate_target | 920 |
+| delivery_mode | dry_run |
 | production_enabled | False |
+| draft_staging_enabled | False |
+| qa_pass_live_checked | 0 |
+| qa_pass_awaiting_wordpress | 1 |
+| queued_topic_ids | ['NT-000075'] |
+| pending_wordpress_intents | [] |
+| blocked_writer_sessions | [] |
+| last_wordpress_verified_at | 2026-10-16T11:33:28.326948+00:00 |
 | capacity | 10000 |
 | authenticated_inventory | True |
 | test_drafts_excluded | 2 |
 
-Production is OFF. A candidate is not a planned topic; a published URL is not evidence of Google indexing. See docs/IMPLEMENTATION-CHECKPOINT.md and docs/ACTIVATION.md.
+Delivery mode: dry_run; production_enabled=False; draft_staging_enabled=False. A candidate is not a planned topic; a published URL is not evidence of Google indexing. See docs/IMPLEMENTATION-CHECKPOINT.md and docs/ACTIVATION.md.
