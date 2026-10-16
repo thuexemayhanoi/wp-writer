@@ -185,8 +185,25 @@ def seo_adapter_check(client):
     props=response.get('schema',{}).get('properties',{}).get('meta',{}).get('properties',{})
     return all(k in props and props[k].get('readonly') is not True for k in ('_yoast_wpseo_title','_yoast_wpseo_metadesc','_yoast_wpseo_canonical'))
 
+def delivery_batch_limit(policy):
+    """Drain 2+2+2+2+2 within one serialized execution, never bypass caps.
+
+    A batch remains at most TWO new WordPress POSTs; the number of
+    consecutive batches is capped at FIVE. Daily new-post caps still apply
+    independently, including draft category fallbacks.
+    """
+    per_batch=policy.get('batch_size',2)
+    batches=policy.get('max_batches_per_run',1)
+    if not isinstance(per_batch,int) or isinstance(per_batch,bool) or not 1<=per_batch<=2:
+        raise ValueError('batch_size must be 1 or 2')
+    if not isinstance(batches,int) or isinstance(batches,bool) or not 1<=batches<=5:
+        raise ValueError('max_batches_per_run must be 1..5')
+    return per_batch*batches
+
+
 def run(args):
     base_policy=load('config/production-policy.json');policy=dict(base_policy)
+    batch_limit=delivery_batch_limit(policy)
     if args.acceptance_topic:
         if not args.persist_state or policy['production_enabled']:raise ValueError('Article draft acceptance requires production OFF and remote ledger')
         if not re.fullmatch(r'NT-\d{6}',args.acceptance_topic):raise ValueError('Invalid acceptance Topic ID')
@@ -247,7 +264,7 @@ def run(args):
         attempted=0
         for path in sorted((ROOT/'posts/drafts').glob('NT-*.md')):
             if args.acceptance_topic and path.stem!=args.acceptance_topic:continue
-            if attempted>=min(2,policy['batch_size']):break
+            if attempted>=batch_limit:break
             t=next(t for t in rows if t['topic_id']==path.stem)
             prior=ledger['posts'].get(t['topic_id'])
             if prior:
@@ -286,7 +303,7 @@ def run(args):
                 'category_id':route['category_id'],'category_resolution':route['category_resolution'],
                 'intended_taxonomy_key':route['intended_taxonomy_key'],
                 'category_warning':route['category_warning']})
-        save('reports/publisher-latest.json',{'at':now(),'attempted':attempted,'qa':results,'backlog_drains_on':'next schedule or push','production':production_allowed(policy)})
+        save('reports/publisher-latest.json',{'at':now(),'attempted':attempted,'batch_size':policy['batch_size'],'max_batches_per_run':policy['max_batches_per_run'],'batch_capacity':batch_limit,'qa':results,'backlog_drains_on':'successful Writer QA or fallback schedule','production':production_allowed(policy)})
         if args.acceptance_topic:
             rec=ledger['posts'].get(args.acceptance_topic,{})
             if rec.get('phase')!='VERIFIED' or rec.get('status')!='draft':raise ValueError('Article acceptance blocked; inspect QA/taxonomy report')
