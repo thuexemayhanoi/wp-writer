@@ -6,8 +6,9 @@ Hiện tại **OFF trên `main`** (kiểm tra 2026-10-16). Một mình `producti
 
 - GitHub main đã `protected=true`. Ruleset `WP Writer - Main Protection` ID `25248247` đang **Active**, cấm xóa nhánh và force-push, **bypass list trống**. Hai quy tắc này vẫn cho phép mọi tài khoản có quyền Write cập nhật mã Publisher trên main; KHÔNG chứng minh `security_controls_verified`.
 - PR [#15](https://github.com/thuexemayhanoi/wp-writer/pull/15) đã merge: CODEOWNERS thu hẹp bảo vệ đường dẫn mã đặc quyền và không còn bao phủ bài viết Writer. CODEOWNERS chưa được enforce vì Ruleset chưa yêu cầu PR + code owner review.
-- WordPress draft REST acceptance: `reports/acceptance-rest.json` PASS với bản nháp #3870 (chạy lại không tạo trùng); `reports/article-acceptance.json` PASS bài thật NT-000079 → WordPress **draft** #3882. Không có bài public được nghiệm thu trong hai report này.
+- WordPress draft REST acceptance: `reports/acceptance-rest.json` PASS với bản nháp #3870; `reports/article-acceptance.json` từng ghi nhận NT-000079 → **draft** #3882. **Đã đọc lại ngày 16/10: #3882 hiện ở trạng thái publish, danh mục #159, khác bản draft acceptance trước; không tự sửa/ghi đè mà phải báo drift.**
 - Yoast title/description REST readback: [GitHub Actions 38910018718](https://github.com/thuexemayhanoi/wp-writer/actions/runs/38910018718) PASS; chỉ `seo_adapter_verified=true` có đủ chứng cứ.
+- **Kiểm thử công khai thủ công:** hai bài thật QA PASS đã được xuất bản qua WPVibe và đọc lại frontend SEO/canonical/index: NT-000037 → WordPress #3888 (category #160), NT-000047 → #3890 (category #161), xem `reports/manual-wp-smoke-20261016.json`. Đây là proof WordPress REST hoạt động, **chưa chứng minh workflow Publisher GitHub tự ghi bài public**.
 - Chủ sở hữu đã yêu cầu Production ngày 2026-10-16; thay đổi `mode=production`, `production_enabled=true`, owner approval nằm trong [PR #14](https://github.com/thuexemayhanoi/wp-writer/pull/14) **draft, chưa merge**. QA PR #14 PASS: run 38922311356. Không merge tới khi bảo vệ quyền đặc biệt và full public canary được nghiệm thu.
 
 ## Việc còn lại để tự đăng mà KHÔNG duyệt từng bài
@@ -47,3 +48,9 @@ Sau khi các điều kiện được chứng minh và chủ duyệt, cập nhậ
 Các trường khác trong file phải giữ nguyên. Nếu cho phép tạo danh mục just-in-time thì chủ bật thêm `allow_category_create=true` sau khi nghiệm thu tác động. Writer QA PASS trên `main` tự kích hoạt Publisher qua `workflow_run`, tối đa **5 lượt × 2 bài trong một lần chạy** (daily cap 10); lịch `:17` và `:47` là cơ chế dự phòng, không bắt Writer chờ 30 phút giữa hai cặp. `main` hiện có Ruleset chống xóa/force-push nhưng chưa chặn sửa mã đặc quyền; vì vậy Production vẫn OFF. Lịch chỉ là drain pipeline đã có nội dung, không sinh bài AI.
 
 Tắt: `production_enabled=false` + `mode=dry_run`; pause/resume ở cùng file. Không cần sửa nhiều workflow hoặc đưa mật khẩu cho writer.
+
+## Trước khi bật (checkpoint mới)
+
+- `/wp-writer` **không sử dụng Excel**: Topic Registry `data/topics.jsonl` + taxonomy `data/taxonomy.json` + WordPress REST để xác minh full ancestry. Không sao chép `active_category` theo Excel từ `wp-aiwriter`.
+- Sau khi PR đối soát được merge, Publisher ledger sẽ biết #3888/#3890 đã tồn tại để không tạo lại. Tránh tự chỉnh trạng thái #3882; báo chênh lệch so với sổ khi chạy đối soát.
+- Ưu tiên sửa mọi hàng chờ cần `NEEDS_RECONCILE`; đừng gán `acceptance_passed` chỉ từ manual publication. Quyền cấp cho Writer cần cách ly với quyền sửa Publisher và GitHub Actions secrets.
