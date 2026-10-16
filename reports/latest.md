@@ -4,7 +4,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-16T16:57:02.580390+00:00 |
+| at | 2026-10-16T17:30:27.992147+00:00 |
 | existing_published_posts | 135 |
 | existing_pages | 10 |
 | existing_products | 13 |
@@ -13,10 +13,10 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | claimable_topics | 4 |
 | writing | 3 |
 | draft_authored | 4 |
-| qa_pass | 4 |
-| qa_fail | 0 |
+| qa_pass | 3 |
+| qa_fail | 1 |
 | qa_review | 0 |
-| repair_queue | 0 |
+| repair_queue | 1 |
 | wordpress_draft | 1 |
 | wordpress_published | 2 |
 | verified_public | 2 |

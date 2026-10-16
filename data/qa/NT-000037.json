@@ -6,6 +6,42 @@
   "word_count": 3172,
   "quality_score": 100,
   "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
   "gates": {
     "1": {
       "errors": [],
@@ -35,9 +71,9 @@
   "errors": [],
   "review": [],
   "source_evidence": [],
-  "at": "2026-10-16T16:57:00.066197+00:00",
+  "at": "2026-10-16T17:30:25.515952+00:00",
   "live_links_checked": false,
   "legal_required": false,
-  "rules_sha256": "f19f5b8fbd028740eab6d6339bc72736bab2c1b7e3c1f11ccf0920a48400fee0",
+  "rules_sha256": "8c9a341711a4cb2bb95e9d793d27239082e7f18b42cc7d5fdc11ed6f01a6cd0e",
   "inventory_sha256": "9dae8343eea1b06c785aa6848898c4fa268b1b6995348f6828bed8ac43346308"
 }
