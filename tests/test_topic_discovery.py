@@ -109,10 +109,10 @@ class TopicDiscoveryTests(unittest.TestCase):
             self.make(policy={'approved_capacity':11000,'capacity':10000})
 
     def test_public_rss_is_only_a_discovery_lead(self):
-        xml=b'''<?xml version="1.0"?><rss><channel>
+        xml='''<?xml version="1.0"?><rss><channel>
         <item><title>Tin tức xe máy điện và an toàn giao thông cập nhật</title>
         <link>https://news.google.com/rss/articles/abc</link></item>
-        </channel></rss>'''
+        </channel></rss>'''.encode('utf-8')
         items,error=td.rss_public_headlines('xe điện',fetch=lambda u:xml)
         self.assertIsNone(error)
         self.assertEqual(len(items),1)
