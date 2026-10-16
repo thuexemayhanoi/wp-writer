@@ -41,7 +41,8 @@ class InstantPublishingTests(unittest.TestCase):
         self.assertFalse(production_allowed(p))
         self.assertFalse(p['production_enabled'])
         self.assertFalse(p['security_controls_verified'])
-        self.assertFalse(p['seo_adapter_verified'])
+        self.assertTrue(p['seo_adapter_verified'])
+        self.assertIn('/actions/runs/38910018718',p['seo_adapter_evidence'])
         self.assertTrue(p.get('owner_publish_request'))
 
     def test_action_waits_for_qa_success_instead_of_parallel_draft_push(self):

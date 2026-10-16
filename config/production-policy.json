@@ -14,7 +14,7 @@
   "owner_approval_ref": null,
   "acceptance_passed": false,
   "security_controls_verified": false,
-  "seo_adapter_verified": false,
+  "seo_adapter_verified": true,
   "min_claimable_queue": 100,
   "refill_target": 300,
   "allow_category_create": false,
@@ -26,5 +26,6 @@
   "draft_staging_enabled": false,
   "draft_staging_approval_ref": null,
   "max_new_drafts_daily": 10,
-  "owner_publish_request": "2026-10-16: owner explicitly requested immediate QA-pass-to-WordPress bulk publishing (10 posts as 2x5); activation remains blocked pending verified main protection, SEO REST metadata adapter and full draft E2E."
+  "owner_publish_request": "2026-10-16: owner approved immediate QA-pass-to-WordPress bulk publishing (10 as 2x5). GitHub Yoast smoke passed. Activation remains blocked by unprotected main and untested full editorial-to-public E2E.",
+  "seo_adapter_evidence": "https://github.com/thuexemayhanoi/wp-writer/actions/runs/38910018718"
 }
