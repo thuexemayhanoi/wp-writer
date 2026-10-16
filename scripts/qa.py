@@ -291,15 +291,20 @@ def evaluate(path,topic,rows=None,inv=None,link_checker=None,live=False,check_cl
     if check_claim:
         receipt=load('data/state/writer-claims.json',{}).get('submissions',{}).get(topic['topic_id'],{})
         if receipt and (receipt.get('sha256')!=sha or receipt.get('session')!=meta.get('writer_session')):g6['errors'].append('Submission owner/hash mismatch')
-    errors=[e for g in gates.values() for e in g['errors']];reviews=[e for g in gates.values() for e in g['review']]
     quality=max(0,100-len(g2['errors'])*15-len(g3['review'])*15-len(g3['errors'])*25)
-    seo=max(0,100-len(g1['errors'])*20-len(g5['errors'])*20-len(g5['review'])*10)
-    status='FAIL' if errors else 'REVIEW' if reviews else 'PASS'
-    if quality<75 or seo<70:status='FAIL'
+    seo, seo_checks, seo_recommendations = seo_onpage_score(meta,body,topic,internal,rules)
+    if seo < rules['seo_min']:
+        g2['errors'].append('SEO_SCORE_BELOW_MIN:'+str(seo)+'/'+str(rules['seo_min']))
+    errors=[e for gate in gates.values() for e in gate['errors']]
+    reviews=[e for gate in gates.values() for e in gate['review']]
+    status='FAIL' if errors or quality < rules['quality_min'] else 'REVIEW' if reviews else 'PASS'
     return {'topic_id':topic['topic_id'],'status':status,'source_sha256':sha,'body_sha256':digest(body),'word_count':wc,
-        'quality_score':quality,'seo_score':seo,'gates':gates,'errors':errors,'review':reviews,'source_evidence':source_evidence,
+        'quality_score':quality,'seo_score':seo,'seo_min_required':rules['seo_min'],
+        'seo_checks':seo_checks,'seo_recommendations':seo_recommendations,
+        'gates':gates,'errors':errors,'review':reviews,'source_evidence':source_evidence,
         'at':now(),'live_links_checked':live,'legal_required':legal,'rules_sha256':digest(json.dumps(rules,sort_keys=True)),
         'inventory_sha256':digest(json.dumps(inv,ensure_ascii=False,sort_keys=True))}
+
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--live',action='store_true');a=p.parse_args()
