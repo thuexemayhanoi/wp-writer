@@ -1,6 +1,19 @@
 # WP-WRITER — UNIVERSAL AI CONTENT FACTORY FOR WORDPRESS
 ## MASTER README / MASTER WORK SPECIFICATION — Nguyễn Tú
 
+## Trạng thái triển khai cập nhật 16/10/2026
+
+Đặc tả MASTER phía dưới được giữ làm yêu cầu gốc. Những chỗ ghi “CHƯA” hoặc “ĐỀ XUẤT” là snapshot trước triển khai; trạng thái thực luôn lấy từ `reports/dashboard.json`, `reports/health.json` và ledger.
+
+- Đã nhập đủ 9 sheet Excel, kiểm kê có xác thực: 135 bài, 10 trang, 13 sản phẩm; giữ 8 category cũ.
+- Registry: 8 category cũ + 19 category planned; 35 domain logic phân bổ ngân sách 1.000, capacity 10.000; chưa tạo category mới trên WordPress.
+- 80 candidate đã Topic QA: 8 PLANNED, 72 RESEARCH. Chưa đủ 1.000 topic hợp lệ; không tính allocation là topic.
+- W1/W2/W3 provider-neutral, GitHub-only claim request, CAS leases, intake receipts, 6 gate QA, REPAIR, create-only publisher, idempotent remote ledger, reconcile, internal-link graph, dashboard và refill đã có code/test.
+- Draft-only REST acceptance: WordPress #3870, Blog #69, chạy lại cùng ID; giữ nguyên #3861. Không có bài SEO mới public.
+- **Production OFF**. Yoast meta chưa REST-writeable, enforcement bảo vệ workflow/secrets chưa xác minh và chưa nghiệm thu full editorial-to-public E2E. Không bật production chỉ vì unit tests hoặc smoke draft PASS.
+- Quy định mới: **1.600–5.000 từ hữu ích/bài**. Writer đọc [Quickstart](docs/WRITER-QUICKSTART.md). Chủ đọc [Activation](docs/ACTIVATION.md). Số liệu mới nhất xem [dashboard](reports/latest.md).
+
+
 > **Tình trạng tài liệu:** Bản yêu cầu sản phẩm + kiến trúc mục tiêu, cập nhật ngày 16/10/2026. Đây là **đặc tả để triển khai sau**, không phải tuyên bố rằng toàn bộ nhà máy đã hoạt động.
 >
 > **Yêu cầu của chủ website:** Khởi đầu chiến dịch **1.000 bài nội dung chất lượng**, kiến trúc mở rộng **tối đa 10.000 bài** nếu có đủ nhu cầu tìm kiếm và chủ đề độc lập. Claude, ChatGPT, Gemini, Mistral hoặc bất kỳ AI nào được chủ cấp quyền GitHub có thể làm **external writer**. AI viết nội dung; hệ thống GitHub Actions kiểm tra, quản lý và đăng WordPress **khi đủ điều kiện**, không buộc một AI cụ thể.
@@ -205,7 +218,7 @@ Homepage / Commercial pages hiện có (GIỮ)
 | Homepage / Hub / Pillar lớn | Thường 1.600–3.000 từ khi có đủ chất liệu |
 | About | Khoảng 800–1.600 từ, chỉ dữ liệu thực |
 | Danh mục cha/con | Duy nhất, giải quyết ý định tìm kiếm |
-| Bài hỗ trợ chuyên sâu | Khoảng 1.000–5.000 từ theo độ khó/chủ đề |
+| Bài hỗ trợ chuyên sâu | Bắt buộc 1.600–5.000 từ hữu ích cho mọi supporting article mới |
 | FAQ tổng | 15–20 câu hỏi thực tế, trả lời trực tiếp |
 | Contact | Ngắn gọn, NAP chính xác |
 | Privacy / Terms | Đầy đủ và phù hợp hoạt động thật, không ép từ |
@@ -310,7 +323,7 @@ Kế thừa ý tưởng tốt từ `/blog` và `/wp-aiwriter`, nhưng **không s
 **B. Content QA — trước READY**
 - ID/title/category/keyword/intent khớp topic manifest; frontmatter chính xác.
 - Không HTML/script nguy hiểm, placeholder, sao chép dài, câu lặp, heading rác, H1 trùng.
-- Độ dài có giá trị theo intent; mặc định bài hỗ trợ 1.000–5.000 từ khi hợp lý, không chỉ dựa word count.
+- Độ dài có giá trị theo intent; mặc định bài hỗ trợ 1.600–5.000 từ hữu ích theo yêu cầu chiến dịch 16/10/2026, không chỉ dựa word count.
 - Title/meta/slug rõ nghĩa, không nhồi keyword; H2/H3 logic; câu trả lời rõ; accessibility và alt text khi có ảnh.
 - Kiểm chứng business facts theo mục 2, facts ngày càng thay đổi, nguồn pháp lý có thẩm quyền, không bịa review/kinh nghiệm.
 - Near-duplicate dựa trên text shingles + slug/title và đối chiếu search intent; không dựa duy nhất vào title.

@@ -43,8 +43,21 @@ def gate(topic, others, inventory, taxonomy):
             'nearest':[{'id':p['id'],'title':p.get('title'),'similarity':round(similarity(topic['title'],p.get('title') or ''),3)} for p in nearest],
             'at':now(),'topic_hash':digest(json.dumps(topic,ensure_ascii=False,sort_keys=True))}
 
-def run():
+def run(candidate_path=None):
     rows=topics(); inv=load('data/existing-content-inventory.json',{}).get('items',[]); tax=load('data/taxonomy.json')['items']
+    if candidate_path:
+        p=ROOT/candidate_path
+        if not p.resolve().is_relative_to((ROOT/'data/candidates').resolve()):raise ValueError('Candidate path must be under data/candidates')
+        incoming=[json.loads(line) for line in p.read_text().splitlines() if line.strip()]
+        known={t['topic_id']:t for t in rows}
+        for t in incoming:
+            if t['topic_id'] in known:
+                if t!=known[t['topic_id']]:raise ValueError('Existing topic immutable; coordinator review required')
+                continue
+            if len(rows)>=load('config/production-policy.json')['approved_capacity']:raise ValueError('Approved topic capacity reached')
+            if not __import__('re').fullmatch(r'NT-\d{6}',t.get('topic_id','')):raise ValueError('Topic ID must be NT-XXXXXX')
+            t['topic_qa_status']='RESEARCH';rows.append(t);known[t['topic_id']]=t
+    if len({t['topic_id'] for t in rows})!=len(rows):raise ValueError('Duplicate topic ID')
     evidence={}
     for t in rows:
         result=gate(t,rows,inv,tax); evidence[t['topic_id']]=result
@@ -58,4 +71,5 @@ def run():
         'needs_external_research':sum(t['topic_qa_status']=='PLANNED' for t in rows)<100,'instruction':'External coordinator researches candidates; no model runs in Actions.'})
     print(json.dumps({k:sum(x['status']==k for x in evidence.values()) for k in ('PASS','REVIEW','FAIL')}))
 
-if __name__=='__main__': run()
+if __name__=='__main__':
+    p=argparse.ArgumentParser();p.add_argument('--import-candidates');a=p.parse_args();run(a.import_candidates)

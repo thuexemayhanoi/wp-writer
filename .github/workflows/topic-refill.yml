@@ -1,0 +1,29 @@
+name: Topic QA and researched refill
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['data/candidates/**']
+permissions:
+  contents: write
+concurrency:
+  group: wp-writer-state
+  cancel-in-progress: false
+jobs:
+  refill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: |
+          git config user.name 'wp-writer-bot'
+          git config user.email 'wp-writer-bot@users.noreply.github.com'
+          python scripts/refill.py
+          python scripts/validate.py

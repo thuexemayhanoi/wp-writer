@@ -4,6 +4,7 @@ import datetime as dt
 import json
 import os
 import re
+import subprocess
 import markdown
 from common import ROOT,SITE,WP,PROTECTED_IDS,digest,git,inventory,load,lock,norm,now,save,title_of,topics,visible
 from git_state import RemoteState
@@ -60,9 +61,10 @@ def verify(client,topic,record):
     return p
 
 class Publisher:
-    def __init__(self,client,policy,ledger=None,persist=None):
+    def __init__(self,client,policy,ledger=None,persist=None,before_post=None):
         self.client=client;self.policy=policy;self.ledger=ledger if ledger is not None else load(LEDGER,{'version':1,'posts':{},'categories':{}})
         self.persist=persist or (lambda:save(LEDGER,self.ledger))
+        self.before_post=before_post or (lambda topic,sha:None)
     def record(self,topic_id,**fields):
         self.ledger['posts'][topic_id]={**self.ledger['posts'].get(topic_id,{}),**fields,'updated_at':now()};self.persist()
 
@@ -107,6 +109,7 @@ class Publisher:
             meta_title=(meta or {}).get('meta_title'),meta_description=(meta or {}).get('meta_description'),git_commit=os.environ.get('GITHUB_SHA'),run_id=os.environ.get('GITHUB_RUN_ID'))
         # persist() MUST return successfully (remote in Actions) before this POST.
         try:
+            self.before_post(topic,sha)
             p=self.client.request('wp/v2/posts',payload)[0]
             if p['id'] in PROTECTED_IDS:raise ValueError('Unexpected protected post ID')
             self.record(topic['topic_id'],phase='VERIFY_PENDING',wp_id=p['id'])
@@ -124,7 +127,11 @@ def seo_adapter_check(client):
     return all(k in props and props[k].get('readonly') is not True for k in ('_yoast_wpseo_title','_yoast_wpseo_metadesc','_yoast_wpseo_canonical'))
 
 def run(args):
-    policy=load('config/production-policy.json')
+    base_policy=load('config/production-policy.json');policy=dict(base_policy)
+    if args.acceptance_topic:
+        if not args.persist_state or policy['production_enabled']:raise ValueError('Article draft acceptance requires production OFF and remote ledger')
+        if not re.fullmatch(r'NT-\d{6}',args.acceptance_topic):raise ValueError('Invalid acceptance Topic ID')
+        policy['mode']='draft_only'
     if args.acceptance_draft:
         if not args.persist_state:raise ValueError('Acceptance requires remote durable ledger')
         if policy['production_enabled']:raise ValueError('Acceptance only while production OFF')
@@ -146,7 +153,16 @@ def run(args):
         def persist():
             save(LEDGER,ledger)
             if args.persist_state:state.persist([LEDGER])
-        publisher=Publisher(client,policy,ledger,persist)
+        def fresh_guard(topic,sha):
+            if not args.persist_state:return
+            git('fetch','origin','main');ref=git('rev-parse','origin/main')
+            newest=json.loads(git('show',ref+':config/production-policy.json'))
+            original=load('config/production-policy.json')
+            if newest!=original or newest.get('paused') or newest.get('emergency_stop'):raise ValueError('Policy changed; stop before POST')
+            if topic['topic_id'].startswith('NT-'):
+                raw=subprocess.check_output(['git','show',ref+':posts/drafts/'+topic['topic_id']+'.md'],cwd=ROOT)
+                if digest(raw)!=sha:raise ValueError('Remote draft changed after QA; stop before POST')
+        publisher=Publisher(client,policy,ledger,persist,before_post=fresh_guard)
         if args.acceptance_draft:
             t={'topic_id':'ACCEPTANCE-20261016','title':'[KIỂM THỬ] Universal Factory draft-only acceptance','proposed_slug':'wp-writer-factory-acceptance-20261016','canonical_target':SITE+'/wp-writer-factory-acceptance-20261016/'}
             body='Bài nháp kiểm thử giao dịch của Universal Content Factory. Chỉ kiểm tra REST, danh mục Blog, ledger và khả năng chạy lại không tạo trùng. Không phải bài SEO, không thuộc chỉ tiêu 1.000 bài và không được xuất bản công khai. Bài nháp kết nối cũ 3861 được giữ nguyên.'
@@ -163,9 +179,10 @@ def run(args):
         from audit import run as audit_run
         audit_run(True)
         policy_runtime=load('config/production-policy.json')
-        if policy_runtime!=policy:raise ValueError('Policy changed during inventory')
+        if policy_runtime!=base_policy:raise ValueError('Policy changed during inventory')
         attempted=0
         for path in sorted((ROOT/'posts/drafts').glob('NT-*.md')):
+            if args.acceptance_topic and path.stem!=args.acceptance_topic:continue
             if attempted>=min(2,policy['batch_size']):break
             t=next(t for t in rows if t['topic_id']==path.stem)
             prior=ledger['posts'].get(t['topic_id'])
@@ -174,7 +191,16 @@ def run(args):
                 continue
             daily=sum(r.get('expected_status')=='publish' and r.get('updated_at','')[:10]==now()[:10] for r in ledger['posts'].values())
             if daily>=policy['max_new_posts_daily']:break
-            result=evaluate(path,t,rows=rows,live=True);save('data/qa/'+path.stem+'.json',result)
+            ephemeral=[]
+            for p in live:
+                ephemeral.append({'id':p['id'],'title':title_of(p),'title_hash':digest(norm(title_of(p))),
+                    'slug':p.get('slug'),'url':p.get('link'),'canonical':p.get('yoast_head_json',{}).get('canonical'),
+                    'status':p.get('status'),'categories':p.get('categories',[]),
+                    'content_text':visible(p.get('content',{}).get('raw',p.get('content',{}).get('rendered',''))),
+                    'content_hash':digest(visible(p.get('content',{}).get('raw',p.get('content',{}).get('rendered',''))))})
+            # Include public products and baseline exclusions; unpublished content exists only in RAM.
+            ephemeral.extend(p for p in load('data/existing-content-inventory.json')['items'] if p['id'] not in {q['id'] for q in ephemeral})
+            result=evaluate(path,t,rows=rows,inv=ephemeral,live=True);save('data/qa/'+path.stem+'.json',result)
             if result['status']!='PASS':results.append(result);continue
             meta,body,sha=read_article(path)
             receipt=load('data/state/writer-claims.json',{}).get('submissions',{}).get(t['topic_id'],{})
@@ -189,6 +215,6 @@ def run(args):
         save('reports/publisher-latest.json',{'at':now(),'attempted':attempted,'qa':results,'backlog_drains_on':'next schedule or push','production':production_allowed(policy)})
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--persist-state',action='store_true');p.add_argument('--acceptance-draft',action='store_true');a=p.parse_args();run(a)
+    p=argparse.ArgumentParser();p.add_argument('--persist-state',action='store_true');p.add_argument('--acceptance-draft',action='store_true');p.add_argument('--acceptance-topic');a=p.parse_args();run(a)
 
 if __name__=='__main__':main()

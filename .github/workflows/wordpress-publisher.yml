@@ -28,6 +28,8 @@ jobs:
           git config user.name 'wp-writer-bot'
           git config user.email 'wp-writer-bot@users.noreply.github.com'
           python -m unittest discover -s tests -q
+      - name: Admit GitHub-only writer drafts by lease and immutable hash
+        run: python scripts/intake.py
       - name: Inspect mode before exposing WordPress credentials
         id: mode
         run: |
