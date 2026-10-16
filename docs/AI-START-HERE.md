@@ -1,7 +1,7 @@
 # AI ngoài bắt đầu tại đây — một lệnh, không xin duyệt từng bài
 
 **Chỉ repo:** `thuexemayhanoi/wp-writer` — **WordPress đích:** `https://thuexemaynguyentu.com`.
-Không trộn `wp-aiwriter` (blog.rentbikehanoi.com) và không sử dụng Excel Nguyễn Hà.
+Không trộn `wp-aiwriter` (blog.rentbikehanoi.com) và **KHÔNG sử dụng Excel Nguyễn Hà**. `data/topics.jsonl` là danh sách ID/keyword/intent/topic mới, `data/taxonomy.json` là cây danh mục cha/con; WordPress REST dùng để xác minh đầy đủ parent/slug/ID. Chủ đề mới chỉ được nhận sau Topic QA thành PLANNED.
 
 ## Dành cho Claude / ChatGPT Work / Gemini / Mistral / bất kỳ AI có quyền GitHub
 
@@ -33,7 +33,7 @@ Không trộn `wp-aiwriter` (blog.rentbikehanoi.com) và không sử dụng Exce
 1. `Universal writer QA` đánh giá bài. Bài PASS đi tiếp; bài FAIL/REVIEW có biên bản REPAIR.
 2. `Universal WordPress Publisher` tự kích hoạt trên kết quả QA thành công của `main` — không đợi 30 phút mới bắt đầu.
 3. Khi Production thực sự bật và đã nghiệm thu, Publisher xử lý tối đa **5 nhóm × 2 bài/lượt**; category đúng mới công khai, không khớp thì nháp; ghi ledger trước REST POST và xác minh URL sau POST.
-4. Khi Production chưa bật, Publisher chạy **dry-run**, AI vẫn có thể viết, QA, nộp batch và nhận bài mới. GitHub không tự sinh nội dung khi không có AI bên ngoài đang hoạt động.
+4. **Ngày 16/10/2026 Production vẫn OFF (`dry_run`)**. Hai bài NT-000037/#3888, NT-000047/#3890 được xuất bản bằng WPVibe trực tiếp, KHÔNG phải Publisher tự đăng. AI tiếp tục viết và QA, đừng tạo lại các Topic ID đã có trong publication ledger.
 5. Lịch 30 phút là cơ chế dự phòng, **không phải** khoảng nghỉ bắt buộc giữa các cặp bài.
 
 ## Không mắc kẹt vì hạn mức AI
@@ -44,3 +44,7 @@ Không trộn `wp-aiwriter` (blog.rentbikehanoi.com) và không sử dụng Exce
 - Khi backlog PLANNED thấp, `Universal Topic Discovery` tự sinh research briefs; **cần AI bên ngoài thực sự nghiên cứu và nộp candidate đạt Topic QA** trước khi viết. Đừng gọi ý tưởng chưa được xác minh là PLANNED.
 
 **Giữ nguyên** bài WordPress cũ, sản phẩm, URL, canonical, categories, slug, sitemap. Không xóa và không auto-merge bài trùng.
+
+## Không cần Excel, không yêu cầu duyệt lần lượt từng danh mục
+
+Dựa hoàn toàn vào `data/topics.jsonl` + `data/taxonomy.json` (mỗi bài một topic ID, intent, parent chain). AI có thể nhận đồng thời các topic PLANNED thuộc các leaf category khác nhau. Đúng full ancestry mới đủ điều kiện public khi Production bật; thiếu category thì draft + lý do; không tự suy từ tiêu đề hay nhập file Excel. Xem [so sánh wp-aiwriter / wp-writer](WORKFLOW-COMPARISON-WP-AIWRITER.md). Bài `NT-000079` / WordPress #3882 cần kiểm tra sai khác trạng thái so với draft acceptance lịch sử trước khi đưa vào lô mới.
