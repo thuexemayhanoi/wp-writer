@@ -57,7 +57,9 @@ def delivery_route(topic,policy,registry,categories,create_category=None,accepta
                     'intended_taxonomy_key':intended,'category_resolution':'CREATED',
                     'category_warning':None}
         except ValueError as exc:
-            category_error=str(exc)
+            # A category POST may have succeeded before the error. Do not silently
+            # create a fallback draft after an uncertain taxonomy side effect.
+            raise ValueError('Category creation needs reconciliation: '+str(exc)) from exc
     if policy.get('on_category_mismatch')!='draft':
         raise ValueError('Category blocked: '+category_error)
     fallback=policy.get('fallback_draft_taxonomy_key','blog')
