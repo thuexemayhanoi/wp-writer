@@ -17,7 +17,15 @@ def run():
         topic_run(str(p.relative_to(ROOT)))
         ledger['batches'][name]={'sha256':sha,'at':now(),'state':'TOPIC_QA_APPLIED; see per-topic result'};changed=True
     if changed:
-        save(path,ledger);state.persist(paths,'chore: apply researched topic refill [skip ci]')
-    else:print('NEEDS_TOPIC_EXPANSION: external AI must research candidate batch')
+        save(path,ledger)
+        # Always preserve reviewed candidate evidence, even if no topic qualifies.
+        state.persist(paths,'chore: apply researched topic refill [skip ci]')
+        after=sum(t['topic_qa_status']=='PLANNED' for t in topics())
+        if after<=count:
+            raise SystemExit('NEEDS_TOPIC_EXPANSION: batches processed but zero new PLANNED topics; inspect topic QA')
+        print('REFILL_PROGRESS: '+str(after-count)+' new researched PLANNED topics')
+    else:
+        # No synthetic topics: this is not a successful refill.
+        raise SystemExit('NEEDS_TOPIC_EXPANSION: no new researched candidate batch; external writer required')
 
 if __name__=='__main__':run()
