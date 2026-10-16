@@ -39,7 +39,54 @@
       "errors": [],
       "review": [],
       "source_evidence": [],
-      "at": "2026-10-16T15:46:20.010134+00:00",
+      "at": "2026-10-16T15:50:01.108586+00:00",
+      "live_links_checked": false,
+      "legal_required": false,
+      "rules_sha256": "f19f5b8fbd028740eab6d6339bc72736bab2c1b7e3c1f11ccf0920a48400fee0",
+      "inventory_sha256": "9dae8343eea1b06c785aa6848898c4fa268b1b6995348f6828bed8ac43346308"
+    },
+    {
+      "topic_id": "NT-000047",
+      "status": "REVIEW",
+      "source_sha256": "db4a7392671af24dca30dfa5b3d089d89d280681c80c359619a4bbd47d925faf",
+      "body_sha256": "780cca2000565c606b546e79a00342dba0d3dff5b86b6163fb259d08923b140d",
+      "word_count": 3496,
+      "quality_score": 85,
+      "seo_score": 100,
+      "gates": {
+        "1": {
+          "errors": [],
+          "review": []
+        },
+        "2": {
+          "errors": [],
+          "review": []
+        },
+        "3": {
+          "errors": [],
+          "review": [
+            "Numeric claims need cited evidence"
+          ]
+        },
+        "4": {
+          "errors": [],
+          "review": []
+        },
+        "5": {
+          "errors": [],
+          "review": []
+        },
+        "6": {
+          "errors": [],
+          "review": []
+        }
+      },
+      "errors": [],
+      "review": [
+        "Numeric claims need cited evidence"
+      ],
+      "source_evidence": [],
+      "at": "2026-10-16T15:50:01.815944+00:00",
       "live_links_checked": false,
       "legal_required": false,
       "rules_sha256": "f19f5b8fbd028740eab6d6339bc72736bab2c1b7e3c1f11ccf0920a48400fee0",
@@ -82,7 +129,7 @@
       "errors": [],
       "review": [],
       "source_evidence": [],
-      "at": "2026-10-16T15:46:20.678713+00:00",
+      "at": "2026-10-16T15:50:02.516620+00:00",
       "live_links_checked": false,
       "legal_required": false,
       "rules_sha256": "f19f5b8fbd028740eab6d6339bc72736bab2c1b7e3c1f11ccf0920a48400fee0",
@@ -125,12 +172,12 @@
       "errors": [],
       "review": [],
       "source_evidence": [],
-      "at": "2026-10-16T15:46:21.342055+00:00",
+      "at": "2026-10-16T15:50:03.218998+00:00",
       "live_links_checked": false,
       "legal_required": true,
       "rules_sha256": "f19f5b8fbd028740eab6d6339bc72736bab2c1b7e3c1f11ccf0920a48400fee0",
       "inventory_sha256": "9dae8343eea1b06c785aa6848898c4fa268b1b6995348f6828bed8ac43346308"
     }
   ],
-  "at": "2026-10-16T15:46:21.373744+00:00"
+  "at": "2026-10-16T15:50:03.246307+00:00"
 }
