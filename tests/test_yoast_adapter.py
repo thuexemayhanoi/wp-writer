@@ -41,33 +41,32 @@ class SeoAdapterTests(unittest.TestCase):
         self.assertFalse(seo_adapter_check(c))
 
     def test_new_public_post_payload_does_not_write_unregistered_canonical(self):
-        # Use the existing fake client and only check outbound create payload,
-        # never write to a real WordPress instance.
-        from test_delivery_routing import DeliveryRoutingTests
-        cfg=DeliveryRoutingTests().production
-        wp=FakeWP()
+        cfg={'mode':'production','production_enabled':True,
+            'owner_approval_ref':'test','acceptance_passed':True,
+            'seo_adapter_verified':True,'security_controls_verified':True,
+            'paused':False,'emergency_stop':False}
         recorded=[]
-        original=wp.request
-        def captured(path,*args,**kwargs):
-            if path=='wp/v2/posts' and args:
-                recorded.append(args[0])
-            return original(path,*args,**kwargs)
-        wp.request=captured
-        # FakeWP returns a simulated post whose public SEO is incomplete.
-        # That may raise on frontend check; still assert the exact outgoing payload.
-        p=Publisher(wp,cfg,{'posts':{},'categories':{}},lambda:None)
+        class CapturingWP:
+            def request(self,path,payload=None,**kwargs):
+                if path!='wp/v2/posts' or payload is None:
+                    raise AssertionError('Unexpected WordPress request')
+                recorded.append(payload)
+                # Simulated network failure occurs AFTER outgoing payload capture.
+                # Publisher must preserve POST_INTENT as NEEDS_RECONCILE.
+                raise RuntimeError('simulated POST; no network access')
+        ledger={'posts':{},'categories':{}}
+        p=Publisher(CapturingWP(),cfg,ledger,lambda:None)
         topic={'topic_id':'NT-000999','title':'Test publication payload',
             'proposed_slug':'test-publication-payload',
             'canonical_target':SITE+'/test-publication-payload/'}
-        try:
+        with self.assertRaisesRegex(RuntimeError,'simulated POST'):
             p.create(topic,'Body for test.',digest('body'),156,'publish',[],
                      {'meta_title':'SEO verified title','meta_description':'SEO verified description'})
-        except (ValueError,KeyError,TypeError,AttributeError,RuntimeError):
-            pass
         self.assertEqual(len(recorded),1)
         self.assertEqual(recorded[0]['meta'],{
             '_yoast_wpseo_title':'SEO verified title',
             '_yoast_wpseo_metadesc':'SEO verified description'})
+        self.assertEqual(ledger['posts'][topic['topic_id']]['phase'],'NEEDS_RECONCILE')
 
 
 if __name__=='__main__':
