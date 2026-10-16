@@ -307,10 +307,10 @@
       "name": "Chăm sóc xe điện",
       "slug": "cham-soc-xe-dien",
       "description": "Nội dung hướng dẫn chăm sóc xe điện, không thay thế URL thương mại hiện có.",
-      "existing_or_planned": "planned",
+      "existing_or_planned": "existing",
       "parent_key": "electric",
-      "wordpress_term_id": null,
-      "wordpress_parent_id": null,
+      "wordpress_term_id": 160,
+      "wordpress_parent_id": 157,
       "pillar_id": "electric",
       "silo_id": "electric-maintenance",
       "search_intent": "informational",
@@ -318,9 +318,9 @@
       "target_topic_count_initial": 41,
       "target_topic_count_capacity": 410,
       "materialized_topic_count": 1,
-      "published_count": 0,
-      "status": "PLANNED",
-      "last_verified_at": null
+      "published_count": 1,
+      "status": "ACTIVE",
+      "last_verified_at": "2026-10-16T16:10:00+00:00"
     },
     {
       "taxonomy_key": "electric-transition",
@@ -387,10 +387,10 @@
       "name": "An toàn khi di chuyển",
       "slug": "an-toan-khi-di-chuyen",
       "description": "Nội dung hướng dẫn an toàn khi di chuyển, không thay thế URL thương mại hiện có.",
-      "existing_or_planned": "planned",
+      "existing_or_planned": "existing",
       "parent_key": "legal",
-      "wordpress_term_id": null,
-      "wordpress_parent_id": null,
+      "wordpress_term_id": 161,
+      "wordpress_parent_id": 159,
       "pillar_id": "legal",
       "silo_id": "road-safety",
       "search_intent": "informational",
@@ -398,9 +398,9 @@
       "target_topic_count_initial": 50,
       "target_topic_count_capacity": 500,
       "materialized_topic_count": 1,
-      "published_count": 0,
-      "status": "PLANNED",
-      "last_verified_at": null
+      "published_count": 1,
+      "status": "ACTIVE",
+      "last_verified_at": "2026-10-16T16:10:00+00:00"
     },
     {
       "taxonomy_key": "driving-licence",
