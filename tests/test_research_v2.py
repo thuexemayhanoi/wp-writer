@@ -37,6 +37,9 @@ def topic(i=900001, origin='IDEA-RESEARCH-UNIT'):
         'topic_id': f'NT-{i:06d}', 'origin_id': origin,
         'title': title, 'primary_keyword': 'nhu cầu di chuyển an toàn',
         'search_intent': 'Hướng dẫn', 'intent_key': 'research-safe-' + str(i),
+        'topic_role': 'supporting', 'pillar': 'reviews', 'hub': 'reviews', 'silo': 'reviews',
+        'word_target_min': 1600, 'word_target_max': 5000,
+        'internal_link_candidates': [SITE + '/verified/'],
         'taxonomy_key': 'reviews', 'proposed_slug': 'research-safe-' + str(i),
         'canonical_target': SITE + '/research-safe-' + str(i) + '/',
         'outline': ['Phạm vi người đọc', 'Nguồn và tiêu chuẩn', 'Các rủi ro',
@@ -100,6 +103,23 @@ class ResearchEvidenceTests(unittest.TestCase):
             discovery={'proposals': {'NTD-unit-origin': {'taxonomy_key': 'electric'}}})
         self.assertEqual(result[0]['status'], 'FAIL')
         self.assertIn('RESEARCH_DISCOVERY_TAXONOMY_CONFLICT', result[0]['errors'])
+
+    def test_research_must_match_article_contract_before_planned(self):
+        t = topic()
+        t.pop('word_target_min')
+        results = research.validate_candidates([t], incumbent=[], inventory=[],
+            taxonomy=[{'taxonomy_key': 'reviews'}], discovery={'proposals': {}})
+        self.assertEqual(results[0]['status'], 'FAIL')
+        self.assertIn('RESEARCH_WORD_RANGE_MUST_BE_1600_TO_5000', results[0]['errors'])
+
+    def test_cannot_fake_published_wordpress_post_or_claim(self):
+        t = topic()
+        t['wp_post_id'] = 3888
+        results = research.validate_candidates([t], incumbent=[], inventory=[],
+            taxonomy=[{'taxonomy_key': 'reviews'}], discovery={'proposals': {}})
+        self.assertEqual(results[0]['status'], 'FAIL')
+        self.assertIn('RESEARCH_CANDIDATE_MUST_NOT_IMPERSONATE_PUBLISHED_OR_CLAIMED_POST',
+                      results[0]['errors'])
 
     def test_cannot_overwrite_existing_topic_id(self):
         t = topic()
