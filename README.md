@@ -619,3 +619,8 @@ README này là **bản chốt yêu cầu và nguồn hướng dẫn Work**, kh�
 **Tại thời điểm cập nhật tài liệu:** repo mới kiểm tra thành công đường truyền GitHub Actions → WordPress bằng **một bài nháp #3861**. Mọi thành phần sản xuất 1.000/10.000 bài liệt kê phía trên phải được xây, test và xác nhận sau.
 
 **Chủ sở hữu có thể sửa đổi quyết định**: số slot, kích thước batch, chế độ QA, lịch xuất bản, danh mục và thứ tự triển khai tại các tệp cấu hình trung tâm — nhưng không thay đổi dữ liệu doanh nghiệp đã được chủ xác nhận nếu chưa kiểm chứng/được chủ cập nhật.
+
+## Global-style Research V2 — chủ đề mới có nghiên cứu và checkpoint
+
+[Research V2 runbook](docs/RESEARCH-V2-GLOBAL-ADAPTATION.md): external AI lấy 10 gợi ý, đối chiếu nội dung WordPress hiện có, kiểm tra ít nhất 2 nguồn độc lập và nhận diện search intent; nộp 10 chủ đề/lượt ở nhánh research/<session> với checkpoint SHA-256. Research QA read-only PASS sẽ kích hoạt trusted-main intake, tự cập nhật topic JSONL thành PLANNED (không Excel). Mất quota/mất môi trường dùng lệnh resume để đọc đúng dữ liệu GitHub, không làm lại nghiên cứu đã nộp. GitHub Actions không tự vận hành mô hình AI, không bật WordPress Production; bài viết vẫn phải SEO ≥85 và qua đủ 6 cổng QA.
+
