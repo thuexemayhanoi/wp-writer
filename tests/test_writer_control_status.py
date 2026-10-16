@@ -36,7 +36,7 @@ class RequestStatusTests(unittest.TestCase):
         req.update(kwargs)
         (self.root/'data/writer-requests'/(self.session+'.json')).write_text(json.dumps(req))
 
-    def execute_request(self):
+    def execute_request(self, selected_paths=None):
         def load(path,default=None):
             return copy.deepcopy(self.registry if path==control_requests.REG else self.ledger)
         def save(path,data):
@@ -47,7 +47,7 @@ class RequestStatusTests(unittest.TestCase):
              patch.object(control_requests,'save',save),\
              patch.object(control_requests,'topics',lambda:self.rows),\
              patch.object(control_requests,'RemoteState',lambda:self.state):
-            return control_requests.run()
+            return control_requests.run(selected_paths=selected_paths)
 
     def test_valid_request_claims_one_topic(self):
         self.request()
@@ -80,6 +80,31 @@ class RequestStatusTests(unittest.TestCase):
         before=copy.deepcopy(self.registry['leases'])
         with self.assertRaisesRegex(SystemExit,'BLOCKED'):self.execute_request()
         self.assertEqual(self.registry['leases'],before)
+
+    def test_old_blocked_request_does_not_block_another_writer_push(self):
+        self.request(topic_ids=['NT-888888'])
+        with self.assertRaises(SystemExit):
+            self.execute_request()
+        other={'request_id':'other-1','session':'session-second',
+            'action':'begin','slot':'auto','count':1,
+            'topic_ids':['NT-000003']}
+        (self.root/'data/writer-requests/session-second.json').write_text(json.dumps(other))
+        self.execute_request(selected_paths={'data/writer-requests/session-second.json'})
+        self.assertEqual(self.registry['processed_requests'][self.session]['status'],'BLOCKED')
+        self.assertEqual(self.registry['processed_requests']['session-second']['status'],'CLAIMED')
+        self.assertEqual(self.registry['leases']['W1']['topic_ids'],['NT-000003'])
+
+    def test_changed_push_selector_reads_real_event_sha_pairs(self):
+        from unittest.mock import MagicMock
+        import os
+        event=self.root/'push.json'
+        event.write_text(json.dumps({'before':'a'*40,'after':'b'*40}))
+        output='data/writer-requests/session-second.json\\nREADME.md\\n'
+        command=MagicMock(returncode=0,stdout=output)
+        with patch.dict(os.environ,{'GITHUB_EVENT_NAME':'push','GITHUB_EVENT_PATH':str(event)}),\\
+             patch.object(control_requests.subprocess,'run',return_value=command):
+            self.assertEqual(control_requests.changed_request_paths(),
+                             {'data/writer-requests/session-second.json'})
 
     def test_new_request_can_recover_blocked_session(self):
         self.request(topic_ids=['NT-888888'])
