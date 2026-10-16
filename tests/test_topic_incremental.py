@@ -72,7 +72,8 @@ class IncrementalTopicRefillTests(unittest.TestCase):
         candidate.update(topic_id='NT-000004',title='Hướng dẫn kiểm tra xe máy trước khi nhận xe',
             proposed_slug='huong-dan-kiem-tra-xe-may-truoc-khi-nhan-xe',
             canonical_target=topic_factory.SITE+'/huong-dan-kiem-tra-xe-may-truoc-khi-nhan-xe/',
-            intent_key='near-but-distinct',taxonomy_key='reviews')
+            intent_key='near-but-distinct',taxonomy_key='reviews',
+            primary_keyword='kiểm tra xe máy trước khi nhận xe',search_intent='information')
         self.incoming(candidate)
         self.run_refill()
         self.assertEqual(self.written['NT-000001']['topic_qa_status'],'PLANNED')
