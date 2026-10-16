@@ -8,6 +8,6 @@ Chạy `python scripts/reconcile.py` với WordPress credentials trong môi trư
 
 Category đã tạo nhưng bài lỗi: ledger categories giữ `CREATED_PENDING_ARTICLE` và term ID. Reconcile nhận diện term theo slug + parent; bài READY được ưu tiên chạy lại. Không tự xóa category và không tạo lại term cùng slug. Tồn tại category rỗng chưa xử lý là một violation cần hiển thị, không đánh dấu hoàn tất.
 
-Mất quota: draft đã push vẫn ở queue. Writer cũ dùng đúng session + `begin` để resume REPAIR; lease còn hạn của người khác bị từ chối. Không force push. State CAS conflict -> fetch lại, đọc nguyên nhân; không rebase mù checkpoint/ledger.
+Mất quota: draft đã push vẫn ở queue. Sau khi intake lưu receipt hash chính xác và QA kiểm tra lại đạt PASS, writer dùng lại chính session với `begin` để nhận chủ đề mới ngay cả khi Production OFF; không chờ WordPress publish. QA FAIL/REVIEW vẫn yêu cầu REPAIR trước khi đổi bài. Bản đã nộp giữ nguyên, không đổi session để né lỗi; lease còn hạn của người khác bị từ chối. Không force push. State CAS conflict -> fetch lại, đọc nguyên nhân; không rebase mù checkpoint/ledger.
 
 Rollback engine: revert commit code bằng commit mới, giữ nguyên toàn bộ ledger và URL đã tạo; không rollback state để chạy POST lần nữa. Smoke #3861 và acceptance #3870 chỉ là draft kiểm thử được bảo vệ, không phải nội dung chiến dịch.
