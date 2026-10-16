@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "word_min": 1600,
+  "word_max": 5000,
+  "quality_min": 75,
+  "seo_min": 70,
+  "minimum_h2": 4,
+  "near_duplicate_jaccard": 0.68,
+  "title_similarity_review": 0.73,
+  "source_max_age_days": 30,
+  "inventory_max_age_hours": 24,
+  "require_editorial_evidence": true,
+  "legal_hosts": [
+    "vbpl.vn",
+    "vanban.chinhphu.vn",
+    "moj.gov.vn",
+    "csgt.vn",
+    "mps.gov.vn"
+  ],
+  "no_raw_html": true,
+  "seo_meta_title_max": 70,
+  "seo_meta_description_min": 100,
+  "seo_meta_description_max": 180
+}
