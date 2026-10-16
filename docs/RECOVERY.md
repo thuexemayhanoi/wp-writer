@@ -11,3 +11,11 @@ Category đã tạo nhưng bài lỗi: ledger categories giữ `CREATED_PENDING_
 Mất quota: draft đã push vẫn ở queue. Sau khi intake lưu receipt hash chính xác và QA kiểm tra lại đạt PASS, writer dùng lại chính session với `begin` để nhận chủ đề mới ngay cả khi Production OFF; không chờ WordPress publish. QA FAIL/REVIEW vẫn yêu cầu REPAIR trước khi đổi bài. Bản đã nộp giữ nguyên, không đổi session để né lỗi; lease còn hạn của người khác bị từ chối. Không force push. State CAS conflict -> fetch lại, đọc nguyên nhân; không rebase mù checkpoint/ledger.
 
 Rollback engine: revert commit code bằng commit mới, giữ nguyên toàn bộ ledger và URL đã tạo; không rollback state để chạy POST lần nữa. Smoke #3861 và acceptance #3870 chỉ là draft kiểm thử được bảo vệ, không phải nội dung chiến dịch.
+
+## Bài đăng ngoài Publisher và sai lệch trạng thái
+
+Chủ đã phê duyệt xuất bản thủ công NT-000037 → WordPress #3888 và NT-000047 → #3890 qua WPVibe (16/10/2026). Việc này phải ghi vào `data/state/publication-ledger.json` dựa trên ID/topic/hash/category/SEO thật, và kiểm tra trên WordPress trước khi Publisher chạy. Không tái tạo bài chỉ vì publisher ledger thiếu hoặc QA vẫn báo pending; trường hợp ledger thiếu nhưng WordPress slug/title trùng → HOLD/RECONCILE.
+
+NT-000079 từng được nghiệm thu nháp ở WordPress #3882. Khi đọc lại ngày 16/10, WordPress #3882 đã **publish** tại category #159. Không thay đổi bài hoặc xóa ledger; báo external status/category drift so với receipt cũ và yêu cầu đối soát, không dùng nó làm E2E Publisher live acceptance giả.
+
+**No Excel:** không hồi phục topic từ bảng 500 bài của repo `wp-aiwriter`; manifest chuẩn của repo này là `data/topics.jsonl` và `data/taxonomy.json`. Mọi Writer phải đọc `AGENTS.md` + `docs/AI-START-HERE.md` + `docs/WORKFLOW-COMPARISON-WP-AIWRITER.md` mới nhất.
