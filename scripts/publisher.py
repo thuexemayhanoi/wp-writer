@@ -29,7 +29,7 @@ def draft_staging_allowed(policy):
         and not policy.get('paused') and not policy.get('emergency_stop'))
 
 
-def delivery_route(topic,policy,registry,categories,create_category=None):
+def delivery_route(topic,policy,registry,categories,create_category=None,acceptance_draft=False):
     """Choose public-only on exact taxonomy, otherwise draft at a safe known parent.
 
     No category is guessed or created silently. Intended category and warning
@@ -39,7 +39,7 @@ def delivery_route(topic,policy,registry,categories,create_category=None):
         raise ValueError('Uncategorized forbidden as intended taxonomy')
     public=production_allowed(policy)
     staging=draft_staging_allowed(policy)
-    if not (public or staging):
+    if not (public or staging or acceptance_draft):
         raise ValueError('WordPress delivery is not approved')
     intended=topic['taxonomy_key']
     try:
@@ -251,8 +251,6 @@ def run(args):
             if prior:
                 if prior.get('phase')!='VERIFIED':publisher.reconcile(t,live)
                 continue
-            daily=sum(r.get('expected_status')=='publish' and r.get('updated_at','')[:10]==now()[:10] for r in ledger['posts'].values())
-            if daily>=policy['max_new_posts_daily']:break
             ephemeral=[]
             for p in live:
                 ephemeral.append({'id':p['id'],'title':title_of(p),'title_hash':digest(norm(title_of(p))),
@@ -269,9 +267,17 @@ def run(args):
             if receipt.get('sha256')!=sha or receipt.get('session')!=meta.get('writer_session'):raise ValueError('Missing valid writer submission receipt')
             try:
                 route=delivery_route(t,policy,by_key(),cats,
-                    create_category=lambda key:materialize(key,by_key(),cats,client,ledger,persist))
+                    create_category=lambda key:materialize(key,by_key(),cats,client,ledger,persist),
+                    acceptance_draft=bool(args.acceptance_topic))
             except ValueError as exc:
                 results.append({'topic_id':t['topic_id'],'status':'BLOCKED','errors':[str(exc)]});continue
+            daily=sum(k.startswith('NT-') and rec.get('expected_status')==route['status']
+                and rec.get('updated_at','')[:10]==now()[:10]
+                for k,rec in ledger['posts'].items())
+            limit=policy.get('max_new_posts_daily',10) if route['status']=='publish' else policy.get('max_new_drafts_daily',10)
+            if daily>=limit:
+                results.append({'topic_id':t['topic_id'],'status':'DAILY_CAP','mode':route['status']})
+                continue
             attempted+=1
             publisher.create(t,body,sha,route['category_id'],route['status'],live,meta,route=route)
             results.append({'topic_id':t['topic_id'],'status':'WORDPRESS_'+route['status'].upper(),
