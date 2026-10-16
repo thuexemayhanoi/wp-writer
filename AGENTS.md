@@ -1,5 +1,9 @@
 # Universal writer contract — Nguyễn Tú
 
+
+> **BẮT BUỘC CHO W1/W2/W3 — SEO QA V2:** Trước khi nộp bài, tối ưu tự nhiên theo intent để đạt **SEO ≥85/100** và Quality ≥75, đồng thời qua đủ G1–G6. Đọc [quy tắc điểm SEO của website chính](docs/SEO-QA-V2.md). Nếu dưới 85, sửa các mục trong seo_recommendations, cập nhật full-file writer hash và chạy lại QA; không tự sửa điểm trong JSON hoặc tắt gate. Không nhồi từ khóa, ảnh, FAQ hay CTA thuê xe vô nghĩa. **Các lỗi trùng intent, nguồn bịa, thông tin chủ sai, URL/canonical, category hoặc link sai luôn chặn xuất bản bất kể điểm.**
+
+
 > **QA → WordPress ngay, 2+2+2+2+2:** xem [Instant Publishing](docs/INSTANT-PUBLISHING.md). Publisher được nối sau QA PASS; không có thời gian nghỉ bắt buộc giữa các batch. **Production tự động hiện chưa bật** (`mode=dry_run`), vì vẫn cần thực thi bảo vệ mã Publisher và nghiệm thu E2E ngay trong workflow GitHub. Nhánh `main` đã có Ruleset chống xóa/force-push, Yoast REST adapter đã PASS và **hai bài NT-000037/#3888, NT-000047/#3890 đã xuất bản công khai thủ công qua WPVibe**, không phải bằng Github Publisher. Không gán cờ kiểm chứng giả.
 
 **Autonomous research queue:** read [docs/AUTONOMOUS-TOPIC-RESEARCH.md](docs/AUTONOMOUS-TOPIC-RESEARCH.md) and `data/research/auto/batch-*.jsonl`. The scheduled no-key scanner creates `NTD-` proposals, **not** AI-validated `PLANNED` topics. A researching AI must independently find and verify sources, compare old WordPress content, submit a `data/candidates/*.jsonl` batch with its exact `origin_id`, and pass Topic QA. Never invent researcher citations, historical content hashes or turn an RSS headline into legal/price evidence.
