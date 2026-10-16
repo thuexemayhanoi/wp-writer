@@ -25,6 +25,14 @@ def run():
             except Exception as e:mapping_errors.append({'key':key,'error':str(e)})
     empty=[k for k,v in ledger['categories'].items() if v.get('phase')=='CREATED_PENDING_ARTICLE']
     planned=sum(t['topic_qa_status']=='PLANNED' for t in rows)
+    uncertain=[k for k,v in campaign.items()
+               if v.get('phase') in ('POST_INTENT','VERIFY_PENDING','NEEDS_RECONCILE')]
+    completed={k for k,v in campaign.items() if v.get('phase')=='VERIFIED'}
+    waiting=[p.stem for p,q in zip(authored,qa) if q.get('status')=='PASS'
+             and p.stem not in completed and p.stem not in uncertain
+             and claims.get('submissions',{}).get(p.stem,{}).get('sha256')==q.get('source_sha256')]
+    blocked=[s for s,v in claims.get('processed_requests',{}).items() if v.get('status')=='BLOCKED']
+    recent=[v.get('verified_at') for v in campaign.values() if v.get('verified_at')]
     dashboard={'at':now(),'existing_published_posts':sum(p.get('type')=='posts' and p.get('status')=='publish' for p in items),
         'existing_pages':sum(p.get('type')=='pages' and p.get('status')=='publish' for p in items),
         'existing_products':sum(p.get('type')=='products' and p.get('status')=='publish' for p in items),
@@ -39,7 +47,13 @@ def run():
         'category_mapping_errors':len(mapping_errors),'empty_category_violations':len(empty),
         'broken_links':None,'broken_links_note':'No full HTTP crawl yet; inventory graph is not a broken-link proof',
         'remaining_topic_target':max(0,1000-planned),'remaining_candidate_target':max(0,1000-len(rows)),
-        'production_enabled':policy['production_enabled'],'capacity':policy['capacity'],'authenticated_inventory':inventory.get('authenticated',False),
+        'delivery_mode':policy.get('mode','dry_run'),
+        'production_enabled':policy['production_enabled'],'draft_staging_enabled':policy.get('draft_staging_enabled',False),
+        'qa_pass_live_checked':sum(q.get('status')=='PASS' and q.get('live_links_checked') is True for q in qa),
+        'qa_pass_awaiting_wordpress':len(waiting),'queued_topic_ids':waiting,
+        'pending_wordpress_intents':uncertain,'blocked_writer_sessions':blocked,
+        'last_wordpress_verified_at':max(recent) if recent else None,
+        'capacity':policy['capacity'],'authenticated_inventory':inventory.get('authenticated',False),
         'test_drafts_excluded':sum(not k.startswith('NT-') for k in ledger['posts'])+1}
     save('reports/dashboard.json',dashboard)
     save('data/state/checkpoint.json',{'at':now(),'phase':'implemented; acceptance and activation gates','dashboard':dashboard,
@@ -59,7 +73,11 @@ def run():
     build()
     md='# Factory dashboard\n\nGenerated from manifest, lease registry, QA evidence and publication ledger.\n\n| Metric | Value |\n|---|---|\n'
     md+=''.join('| '+k+' | '+str(v)+' |\n' for k,v in dashboard.items())
-    md+='\nProduction is OFF. A candidate is not a planned topic; a published URL is not evidence of Google indexing. See docs/IMPLEMENTATION-CHECKPOINT.md and docs/ACTIVATION.md.\n'
+    md+=('\nDelivery mode: '+str(policy.get('mode','dry_run'))+
+         '; production_enabled='+str(policy.get('production_enabled',False))+
+         '; draft_staging_enabled='+str(policy.get('draft_staging_enabled',False))+
+         '. A candidate is not a planned topic; a published URL is not evidence of Google indexing. '
+         'See docs/IMPLEMENTATION-CHECKPOINT.md and docs/ACTIVATION.md.\n')
     (ROOT/'reports/latest.md').write_text(md)
     print(json.dumps(dashboard,ensure_ascii=False))
 
