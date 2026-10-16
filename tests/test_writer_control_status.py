@@ -99,9 +99,9 @@ class RequestStatusTests(unittest.TestCase):
         import os
         event=self.root/'push.json'
         event.write_text(json.dumps({'before':'a'*40,'after':'b'*40}))
-        output='data/writer-requests/session-second.json\\nREADME.md\\n'
+        output='data/writer-requests/session-second.json\nREADME.md\n'
         command=MagicMock(returncode=0,stdout=output)
-        with patch.dict(os.environ,{'GITHUB_EVENT_NAME':'push','GITHUB_EVENT_PATH':str(event)}),\\
+        with patch.dict(os.environ,{'GITHUB_EVENT_NAME':'push','GITHUB_EVENT_PATH':str(event)}),\
              patch.object(control_requests.subprocess,'run',return_value=command):
             self.assertEqual(control_requests.changed_request_paths(),
                              {'data/writer-requests/session-second.json'})
