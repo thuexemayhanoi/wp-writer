@@ -91,6 +91,8 @@ def verify(client,topic,record):
         marker not in raw or digest(visible(raw))!=record['visible_hash']):
         raise ValueError('WordPress content/status/category readback mismatch')
     if record['expected_status']=='publish':
+        if p.get('link')!=topic['canonical_target']:
+            raise ValueError('Published permalink must match approved canonical')
         page,_=client.request(p['link'],public=True,page=True)
         if norm(topic['title']) not in norm(page) or norm(record['first_paragraph']) not in norm(page):
             raise ValueError('Public permalink content mismatch')
@@ -157,8 +159,13 @@ class Publisher:
         payload={'title':topic['title'],'slug':topic['proposed_slug'],'content':rendered,'status':status,'categories':[category_id],
                  'excerpt':(meta or {}).get('meta_description','')}
         if status=='publish':
-            # Adapter keys must be explicitly registered REST-writeable by the live site.
-            payload['meta']={'_yoast_wpseo_title':meta['meta_title'],'_yoast_wpseo_metadesc':meta['meta_description'],'_yoast_wpseo_canonical':topic['canonical_target']}
+            # Title and description must be REST-writeable. Yoast's canonical
+            # is generated from the exact WordPress permalink by default.
+            # The deployed HTML MUST read back the exact approved canonical.
+            # Do not send _yoast_wpseo_canonical if that REST key is unregistered:
+            # WordPress would silently ignore it while appearing to succeed.
+            payload['meta']={'_yoast_wpseo_title':meta['meta_title'],
+                             '_yoast_wpseo_metadesc':meta['meta_description']}
         self.record(topic['topic_id'],phase='POST_INTENT',source_hash=sha,slug=topic['proposed_slug'],expected_status=status,
             category_id=category_id,visible_hash=digest(visible(rendered)),first_paragraph=visible(markdown.markdown(body.split('\n\n')[0])),
             meta_title=(meta or {}).get('meta_title'),meta_description=(meta or {}).get('meta_description'),
@@ -181,9 +188,28 @@ class Publisher:
             raise
 
 def seo_adapter_check(client):
+    """Fail closed without a real Yoast SEO metadata adapter.
+
+    WordPress normally generates the canonical from the permalink; the
+    custom canonical postmeta key need not be REST-writeable. We insist
+    that SEO title+description are writeable and that the site's public
+    Yoast canonical sample agrees with its own public permalink. Each new
+    public post still gets strict frontend canonical/title/description QA.
+    """
     response,_=client.request('wp/v2/posts',method='OPTIONS')
     props=response.get('schema',{}).get('properties',{}).get('meta',{}).get('properties',{})
-    return all(k in props and props[k].get('readonly') is not True for k in ('_yoast_wpseo_title','_yoast_wpseo_metadesc','_yoast_wpseo_canonical'))
+    keys=('_yoast_wpseo_title','_yoast_wpseo_metadesc')
+    if not all(k in props and props[k].get('readonly') is not True for k in keys):
+        return False
+    try:
+        posts=client.get('wp/v2/posts?status=publish&per_page=1&_fields=id,link,yoast_head_json')
+        if not isinstance(posts,list) or not posts:
+            return False
+        url=posts[0].get('link')
+        canonical=posts[0].get('yoast_head_json',{}).get('canonical')
+        return bool(url and url.startswith(SITE+'/') and canonical==url)
+    except (RuntimeError,ValueError,KeyError,TypeError):
+        return False
 
 def delivery_batch_limit(policy):
     """Drain 2+2+2+2+2 within one serialized execution, never bypass caps.
