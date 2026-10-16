@@ -1,0 +1,45 @@
+name: External Topic Research QA (read-only)
+on:
+  push:
+    branches: ['research/**']
+    paths:
+      - 'data/candidates/**'
+      - 'data/research/checkpoints/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'data/candidates/**'
+      - 'data/research/checkpoints/**'
+      - 'scripts/research_v2.py'
+      - 'scripts/research_intake.py'
+      - 'tests/test_research_v2.py'
+permissions:
+  contents: read
+concurrency:
+  group: research-qa-${{ github.event.pull_request.number || github.ref_name }}
+  cancel-in-progress: true
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Test topic research and recovery invariants
+        run: python -m unittest discover -s tests -p test_research_v2.py -v
+      - name: Read-only research branch scope, checkpoint and source evidence QA
+        if: github.event_name == 'push'
+        env:
+          RESEARCH_BRANCH: ${{ github.ref_name }}
+        run: |
+          git fetch --no-tags origin main
+          python scripts/research_v2.py verify-branch --branch "$RESEARCH_BRANCH" --base origin/main
+      - name: Research never accesses WordPress credentials
+        run: |
+          echo "Read-only Topic Research QA: no WordPress secrets or writes."

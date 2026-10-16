@@ -48,3 +48,8 @@ Không trộn `wp-aiwriter` (blog.rentbikehanoi.com) và **KHÔNG sử dụng Ex
 ## Không cần Excel, không yêu cầu duyệt lần lượt từng danh mục
 
 Dựa hoàn toàn vào `data/topics.jsonl` + `data/taxonomy.json` (mỗi bài một topic ID, intent, parent chain). AI có thể nhận đồng thời các topic PLANNED thuộc các leaf category khác nhau. Đúng full ancestry mới đủ điều kiện public khi Production bật; thiếu category thì draft + lý do; không tự suy từ tiêu đề hay nhập file Excel. Xem [so sánh wp-aiwriter / wp-writer](WORKFLOW-COMPARISON-WP-AIWRITER.md). Bài `NT-000079` / WordPress #3882 cần kiểm tra sai khác trạng thái so với draft acceptance lịch sử trước khi đưa vào lô mới.
+
+## Researcher — tự nghiên cứu 10 chủ đề rồi cấp cho Writer
+
+Nếu hàng đợi PLANNED thấp, không cần tự nghĩ tiêu đề lung tung. Đọc [Research V2 Global adaptation](RESEARCH-V2-GLOBAL-ADAPTATION.md), chạy python scripts/research_v2.py hints --limit 10; AI thực sự duyệt nguồn HTTPS, đối chiếu các WordPress posts có intent gần nhất và soạn một batch 10 Topic Registry JSONL trên nhánh research/<stable-session>. Chạy checkpoint, check và push. GitHub Research QA (read-only) PASS -> trusted main auto-intake -> topic thành PLANNED cho W1/W2/W3. Khi mạng/quota gián đoạn dùng resume --apply cùng tên session. Không dùng Google News RSS làm fact source, không sử dụng Excel và không tự nhận các topic chưa PLANNED.
+

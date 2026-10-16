@@ -31,3 +31,8 @@ Only this repository and https://thuexemaynguyentu.com are in scope. Read the RE
 - Manual owner-approved canaries: `NT-000037` → WordPress `#3888` in `Blog > Xe Điện > Chăm sóc xe điện` (`#160`), and `NT-000047` → WordPress `#3890` in `Blog > Pháp Lý & Kinh Nghiệm > An toàn khi di chuyển` (`#161`). Do **not** recreate or edit them.
 - Ledger `data/state/publication-ledger.json` controls publication identity. A new article's source hash, exact Topic ID, category ancestry and WordPress permalink are mandatory. Do not interpret a GitHub Actions `success` while `dry_run` as a WordPress publish.
 - No topic Excel/category boundary approvals. AI may research the next genuinely distinct search intents via `data/candidates/*.jsonl` and Topic QA, and claim new `PLANNED` topics through W1/W2/W3. Writing still requires a running external AI session.
+
+## External Research Agent V2 — kế thừa cơ chế tốt của /global
+
+Nguồn quy định: [Research V2 runbook](docs/RESEARCH-V2-GLOBAL-ADAPTATION.md). Nghiên cứu tối đa 10 chủ đề độc lập mỗi lượt trên nhánh research/<stable-session>, chạy scripts/research_v2.py hints/checkpoint/check/push/resume. Chỉ sửa data/candidates/<session>-NNNN.jsonl và data/research/checkpoints/<session>.json; mọi file workflow/scripts/config/ledger/WordPress được bảo vệ khỏi Research Agent. Research QA phải PASS với >=2 nguồn HTTPS đọc thật từ hai host độc lập, nguồn snapshot hash, khác intent các money pages, taxonomy parent/child đúng, full-content inventory review. RSS chỉ là lead, KHÔNG là nguồn dẫn fact. Green research push tự kích hoạt Trusted Research Intake chạy mã main và CAS import topic hợp lệ thành PLANNED, không phát hành WordPress. SEO Writer V2 >=85, code Publisher và Production OFF vẫn giữ nguyên.
+

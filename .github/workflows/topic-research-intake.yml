@@ -1,0 +1,48 @@
+name: Trusted Research Intake and Topic Refill
+on:
+  workflow_run:
+    workflows: ["External Topic Research QA (read-only)"]
+    types: [completed]
+permissions:
+  contents: write
+concurrency:
+  group: wp-writer-state
+  cancel-in-progress: false
+jobs:
+  intake:
+    if: >-
+      github.repository == 'thuexemayhanoi/wp-writer' &&
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'push' &&
+      github.event.workflow_run.head_repository.full_name == github.repository &&
+      startsWith(github.event.workflow_run.head_branch, 'research/')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout trusted main source (never execute researcher branch code)
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Regression tests on trusted main
+        run: |
+          python -m unittest discover -s tests -p test_research_v2.py -v
+          python scripts/validate.py
+      - name: Verify green source SHA, enforce strict research QA, then CAS import
+        env:
+          RESEARCH_BRANCH: ${{ github.event.workflow_run.head_branch }}
+          GREEN_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          git config user.name 'wp-writer-research-intake'
+          git config user.email 'wp-writer-research-intake@users.noreply.github.com'
+          python scripts/research_intake.py --branch "$RESEARCH_BRANCH" --sha "$GREEN_SHA"
+      - name: Explicit no-auto-LLM and no-WordPress boundary
+        if: always()
+        run: |
+          echo "Only AI-researched Topic QA PASS candidates reach PLANNED." >> "$GITHUB_STEP_SUMMARY"
+          echo "No model API, no Excel, no WordPress credentials, no production publishing." >> "$GITHUB_STEP_SUMMARY"

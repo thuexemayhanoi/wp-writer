@@ -69,3 +69,8 @@ A QA-PASS source with `live_links_checked=false` is **technical QA only**. Produ
 **Production remains OFF.** All new jobs are read-only and have no WordPress secrets. The existing WordPress publisher retains its write-ahead CAS ledger and strict owner gating. These changes do not grant an AI GitHub user permission to alter protected code, and do not bypass CODEOWNERS limitations, site protection, SEO REST compatibility or the need for a real E2E trial. Existing URLs, legacy posts/categories, draft #3861 and stored ledger entries remain intact.
 
 Deploy only after green CI; do not auto-merge if tests fail. Roll back only application code, never reset remote publication or writer state.
+
+## Research Agent V2 / global-style safe extension
+
+Bổ sung hai workflow: External Topic Research QA (no secrets, nghiên cứu 10-topic batch và checkpoint) + Trusted Research Intake and Topic Refill (chỉ chạy mã main khi research branch PUSH QA xanh, re-check source SHA/intent/WordPress inventory/taxonomy, CAS import PLANNED). Hướng dẫn tại [Research V2](RESEARCH-V2-GLOBAL-ADAPTATION.md). Do not confuse discovery leads with AI-verified research. No Excel, no WordPress credentials, no Production activation.
+
