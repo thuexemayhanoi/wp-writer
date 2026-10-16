@@ -31,3 +31,8 @@ AI chỉ có GitHub, không có shell: push `data/writer-requests/s-your-session
 Chờ kết quả CLAIMED, đọc Topic IDs rồi viết và push đúng các draft đó. Publisher intake tự xác minh lease và ghi receipt/hash, AI không tự sửa registry. Đổi `request_id` mỗi lần yêu cầu mới; `heartbeat` gia hạn, `release` nhả slot đã hoàn tất. Khi BLOCKED đọc reason; không tự đoán slot. GitHub API cập nhật ref phải có expected SHA và không force; nếu main đổi, đọc lại trước khi thử.
 
 Số 8 PLANNED / 72 research là **snapshot ban đầu**, không phải số mới nhất. Luôn đọc registry + `reports/dashboard.json` cập nhật; không dùng Excel từ repo khác. Chủ đề phải PLANNED trước claim. Danh mục cha/con lấy từ `data/taxonomy.json`, không phỏng đoán hoặc tạo tự do. Coordinator nghiên cứu thêm qua `data/candidates/*.jsonl` và `topic-factory.py --import-candidates ...`.
+
+
+### SEO V2 trên website chính — không chấp nhận SEO thấp
+
+Mỗi bài phải đạt SEO ≥85/100 và quality ≥75/100; G1–G6 vẫn PASS độc lập. Xem [SEO QA V2](SEO-QA-V2.md). Khi nhận SEO_SCORE_BELOW_MIN, đọc seo_checks / seo_recommendations, cải thiện nội dung thực chất và chạy lại SHA-256 + QA rồi mới push. Không khai giả SEO score. WordPress vẫn ở dry_run đến khi hoàn thành kích hoạt bảo mật/acceptance riêng.

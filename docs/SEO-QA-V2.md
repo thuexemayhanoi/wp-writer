@@ -1,0 +1,52 @@
+# SEO Quality Gate V2 — Website chính Nguyễn Tú
+
+**Site:** https://thuexemaynguyentu.com/ — repository thuexemayhanoi/wp-writer.
+
+**Mandatory rule:** Each new article needs **SEO QA ≥85/100**, quality score ≥75/100, and **PASS all six independent gates** before it is eligible for WordPress publication. This is the repository's own deterministic pre-publication QA, **not** an actual Yoast score, a Google ranking, or proof of indexing.
+
+## 100-point SEO rubric
+
+| Pre-publication check | Weight |
+|---|---:|
+| SEO title relevant to approved primary search intent | 15 |
+| Meta description answers the same intent | 15 |
+| First paragraph addresses intended query | 15 |
+| Substantive direct answer near the beginning | 10 |
+| Useful H2 structure with topical coverage | 15 |
+| Contextual internal links to real, public related articles | 15 |
+| Descriptive internal anchor text | 5 |
+| Approved canonical and slug identity | 10 |
+| **Total** | **100** |
+
+The SEO title, meta and lead get credit for meaningful overlap with the approved primary topic, without forcing an exact-match keyword phrase. Internal links get 10 points for one verified contextual target and a further five for two distinct targets. Headings are assessed for descriptive specificity and topic coverage.
+
+The authoritative configuration is config/qa-rules.json: version 2, seo_min 85, seo_score_version intent-aware-onpage-v2. Per-article QA receipts include seo_score, seo_min_required, seo_checks, and seo_recommendations. **84/100 = FAIL. 85/100 = eligible only if all other gates also PASS.**
+
+## Six gates still mandatory
+
+- **G1 Topic identity:** approved topic ID, keyword, intent, slug and canonical.
+- **G2 Useful on-page content:** 1,600–5,000 words, meaningful headings, SEO metadata, useful direct answer, no repetitive padding or keyword stuffing. SEO score must reach 85.
+- **G3 Factual/editorial trust:** documented claims, owner-verified prices/policies and current official legal sources; fabricated customer experience or inaccurate rental facts block publication.
+- **G4 Intent collision prevention:** no competing against existing service/ranking pages with duplicate intent or near-duplicate content.
+- **G5 Real internal-link graph:** verified public URLs, topical anchor text, rational links supporting silo/pillar pages without homepage spam.
+- **G6 WordPress-safe publication:** exact parent/child category path, WordPress inventory, lease/receipt hash and protected older URLs.
+
+**No numerical score overrides any FAIL/REVIEW, including wrong category, fabricated claims, SEO/URL collision, noindex or broken links.**
+
+## Website-primary-site policy
+
+- Do not turn all articles into rental advertisements. Information and safety articles must answer their real search intent, not force commercial calls to action.
+- No compulsory images, FAQs, keyword-density tricks or CTA phrases. Relevant high-quality photos with attribution and alt text can improve a specific article but empty decorative content cannot earn a passing SEO score.
+- Respect the business facts in data/business-facts.json. Do not make unsupported fee, insurance, service-hour or deposit claims.
+- Category mismatch still routes to draft only when approved and eligible; high SEO scoring is never an excuse to publish into the wrong parent/child category.
+- Publisher reevaluates QA with fresh WordPress state and checked sources/links just before posting, rather than trusting a writer's self-reported score.
+- After public WordPress publication, post-publish QA independently checks actual Yoast title/description, canonical, index/follow, permalink and content. It does not replace the 85-point prepublication gate.
+- Never change existing published URLs or bulk-edit already published posts due to new QA V2 scoring. New drafts failing the threshold return to Writer for repair.
+
+## Workflow and limitation
+
+External AI W1/W2/W3 → GitHub article intake → QA six gates + SEO V2 → PASS → Publisher live QA → WordPress category/SEO verification → published receipt. Below 85 or another gate FAIL/REVIEW → Writer REPAIR, not public WordPress.
+
+**Production is still dry_run** until enforced privileged-code security and end-to-end publishing acceptance are genuinely verified. The SEO V2 upgrade does not bypass or activate Production.
+
+No Excel: topic source is data/topics.jsonl, categories and full WordPress ancestry come from data/taxonomy.json plus WordPress REST.

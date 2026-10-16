@@ -41,6 +41,120 @@ def jaccard(a,b):return len(a&b)/max(1,len(a|b))
 
 def mdlinks(body):return [(a,u) for a,u in re.findall(r'(?<!!)\[([^\]]*)\]\(([^\s)]+)(?:\s+[^)]*)?\)',body)]
 
+def seo_onpage_score(meta, body, topic, internal, rules):
+    """Intent-aware deterministic on-page checks, not a Google or Yoast score.
+
+    Publication still requires every independently verified six-gate condition;
+    a numerical score never overrides a hard FAIL/REVIEW. Do not mandate
+    unnatural keyword density, a photo, a FAQ or a commercial rental CTA.
+    """
+    focus = {
+        token for token in norm(topic.get('primary_keyword', '')).split()
+        if token not in {
+            'va', 'la', 'cua', 'cho', 'nhung', 'cac', 'mot', 'khi', 'the',
+            'nao', 'gi', 'co', 'nen', 've', 'o', 'de', 'tren', 'voi', 'trong'
+        }
+    }
+
+    def coverage(text):
+        tokens = set(norm(str(text or '')).split())
+        return len(focus & tokens) / max(1, len(focus))
+
+    def relevance(text):
+        ratio = coverage(text)
+        if ratio >= 0.70:
+            return 15
+        if ratio >= 0.50:
+            return 10
+        if ratio >= 0.30:
+            return 5
+        return 0
+
+    headings = re.findall(r'^##\s+(.+)$', body, re.M)
+    useful_headings = {
+        norm(heading) for heading in headings
+        if len(norm(heading).split()) >= 4
+    }
+    introduction = body[:1800]
+    opening = body.split('\n\n', 1)[0]
+    answer = str(meta.get('direct_answer') or '').strip()
+    answer_present = bool(answer and norm(answer) in norm(introduction))
+    internal_targets = set()
+    descriptive_anchors = set()
+    for anchor, url in mdlinks(body):
+        parsed = urllib.parse.urlsplit(url)
+        if (parsed.scheme == 'https'
+                and parsed.hostname == 'thuexemaynguyentu.com'
+                and parsed.path not in ('', '/')
+                and url in internal):
+            internal_targets.add(url)
+            anchor_normalized = norm(anchor)
+            if (len(anchor_normalized.split()) >= 3
+                    and anchor_normalized not in (
+                        'xem them', 'tai day', 'bam vao day', 'click here'
+                    )):
+                descriptive_anchors.add(anchor_normalized)
+
+    title_points = relevance(meta.get('meta_title'))
+    description_points = relevance(meta.get('meta_description'))
+    opening_points = relevance(opening)
+    answer_points = (
+        10 if answer_present and len(norm(answer).split()) >= 18
+        else 5 if answer_present else 0
+    )
+    headings_points = (
+        10 if len(useful_headings) >= rules['minimum_h2'] else 0
+    ) + (5 if any(coverage(heading) >= 0.35 for heading in headings) else 0)
+    links_points = (10 if internal_targets else 0) + (
+        5 if len(internal_targets) >= 2 else 0
+    )
+    anchor_points = 5 if descriptive_anchors else 0
+    canonical_points = (
+        10 if (
+            meta.get('canonical_target') == topic.get('canonical_target')
+            and topic.get('canonical_target')
+            == SITE + '/' + str(topic.get('proposed_slug', '')) + '/'
+        ) else 0
+    )
+    scoring = {
+        'seo_title_relevance': (
+            title_points, 15, 'Align SEO title with real search intent'
+        ),
+        'meta_description_relevance': (
+            description_points, 15, 'Summarize the reader question in the meta description'
+        ),
+        'opening_intent_focus': (
+            opening_points, 15, 'Address the intended search in the opening paragraph'
+        ),
+        'direct_answer': (
+            answer_points, 10, 'Add a substantive direct answer near the beginning'
+        ),
+        'headings_usefulness': (
+            headings_points, 15, 'Use distinct descriptive H2s covering related subtopics'
+        ),
+        'verified_contextual_links': (
+            links_points, 15, 'Add contextual links to real published related articles'
+        ),
+        'descriptive_anchor': (
+            anchor_points, 5, 'Use descriptive internal anchor text'
+        ),
+        'canonical_identity': (
+            canonical_points, 10, 'Keep WordPress canonical aligned with approved slug'
+        ),
+    }
+    breakdown = {
+        name: {'points': earned, 'max': maximum}
+        for name, (earned, maximum, _) in scoring.items()
+    }
+    if sum(item['max'] for item in breakdown.values()) != 100:
+        raise ValueError('SEO V2 rubric must total 100 points')
+    recommendations = [
+        advice for points, maximum, advice in scoring.values()
+        if points < maximum
+    ]
+    return sum(item['points'] for item in breakdown.values()), breakdown, recommendations
+
+
 def allowed_source(url, legal=False):
     u=urllib.parse.urlsplit(url);host=u.hostname or ''
     if u.scheme!='https' or u.username or u.password or u.port not in (None,443):return False
@@ -177,15 +291,20 @@ def evaluate(path,topic,rows=None,inv=None,link_checker=None,live=False,check_cl
     if check_claim:
         receipt=load('data/state/writer-claims.json',{}).get('submissions',{}).get(topic['topic_id'],{})
         if receipt and (receipt.get('sha256')!=sha or receipt.get('session')!=meta.get('writer_session')):g6['errors'].append('Submission owner/hash mismatch')
-    errors=[e for g in gates.values() for e in g['errors']];reviews=[e for g in gates.values() for e in g['review']]
     quality=max(0,100-len(g2['errors'])*15-len(g3['review'])*15-len(g3['errors'])*25)
-    seo=max(0,100-len(g1['errors'])*20-len(g5['errors'])*20-len(g5['review'])*10)
-    status='FAIL' if errors else 'REVIEW' if reviews else 'PASS'
-    if quality<75 or seo<70:status='FAIL'
+    seo, seo_checks, seo_recommendations = seo_onpage_score(meta,body,topic,internal,rules)
+    if seo < rules['seo_min']:
+        g2['errors'].append('SEO_SCORE_BELOW_MIN:'+str(seo)+'/'+str(rules['seo_min']))
+    errors=[e for gate in gates.values() for e in gate['errors']]
+    reviews=[e for gate in gates.values() for e in gate['review']]
+    status='FAIL' if errors or quality < rules['quality_min'] else 'REVIEW' if reviews else 'PASS'
     return {'topic_id':topic['topic_id'],'status':status,'source_sha256':sha,'body_sha256':digest(body),'word_count':wc,
-        'quality_score':quality,'seo_score':seo,'gates':gates,'errors':errors,'review':reviews,'source_evidence':source_evidence,
+        'quality_score':quality,'seo_score':seo,'seo_min_required':rules['seo_min'],
+        'seo_checks':seo_checks,'seo_recommendations':seo_recommendations,
+        'gates':gates,'errors':errors,'review':reviews,'source_evidence':source_evidence,
         'at':now(),'live_links_checked':live,'legal_required':legal,'rules_sha256':digest(json.dumps(rules,sort_keys=True)),
         'inventory_sha256':digest(json.dumps(inv,ensure_ascii=False,sort_keys=True))}
+
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--live',action='store_true');a=p.parse_args()

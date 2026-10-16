@@ -74,7 +74,7 @@ class QATests(unittest.TestCase):
         self.topic['research']['reviewed_existing_ids']=[1]
         self.topic['internal_link_candidates']=[SITE+'/verified/']
         self.meta={k:self.topic[k] for k in ['topic_id','title','primary_keyword','search_intent','taxonomy_key','canonical_target']}
-        self.meta.update(meta_title='Một nội dung đủ dài để kiểm tra',meta_description='Mô tả thử nghiệm cho bộ kiểm tra nội dung và điều kiện xuất bản, chỉ được sử dụng trong automated tests và không phải bài viết công khai.',direct_answer='Câu trả lời trực tiếp dùng riêng trong kiểm thử.',link_rationale='Same reviewed cluster',writer_session='test-session',writer_slot='W1')
+        self.meta.update(meta_title='Bản đồ nhu cầu độc lập: cách đọc và kiểm tra',meta_description='Bản đồ nhu cầu độc lập giúp giải thích cách đọc nhu cầu sử dụng và đối chiếu dữ liệu cơ bản trong tình huống thử nghiệm; đây chỉ là nội dung phục vụ unit tests.',direct_answer='Bản đồ nhu cầu độc lập là cách quan sát một chủ đề với bối cảnh, nhu cầu thực tế và nguồn đối chiếu phù hợp trước khi đưa ra kết luận về từng tình huống cụ thể.',link_rationale='Same reviewed cluster',writer_session='test-session',writer_slot='W1')
     def tearDown(self):self.tmp.cleanup()
     def body(self,count=1750):
         # Synthetic boundary fixture: NEVER stored in campaign posts or sent to WordPress.
@@ -83,13 +83,27 @@ class QATests(unittest.TestCase):
             while n:n,r=divmod(n,26);s+=chr(97+r)
             return 'kiểm'+s
         words=[token(i+1) for i in range(count)]
-        return self.meta['direct_answer']+'\n\n'+'\n\n'.join('## Phần '+chr(65+i)+'\n\n'+' '.join(words[i*count//4:(i+1)*count//4]) for i in range(4))+'\n\n[Xem hướng dẫn]('+SITE+'/verified/)'
+        return self.meta['direct_answer']+'\n\n'+'\n\n'.join('## Bản đồ nhu cầu độc lập: phần '+chr(65+i)+'\n\n'+' '.join(words[i*count//4:(i+1)*count//4]) for i in range(4))+'\n\n[Xem hướng dẫn nhu cầu độc lập]('+SITE+'/verified/)'
     def runqa(self,body=None,changes=None,**kwargs):
         body=body or self.body();meta=copy.deepcopy(self.meta);meta.update(changes or {})
         meta['editorial_review']={'reviewer':'fixture-only','body_sha256':digest(body),'intent_covered':True,'substantive':True,'facts_checked':True,'no_fabricated_experience':True,'collision_reviewed':True}
         self.path.write_text('---\n'+json.dumps(meta,ensure_ascii=False)+'\n---\n\n'+body)
         with patch('qa.ROOT',self.root):return evaluate(self.path,self.topic,rows=[self.topic],inv=self.inv,check_claim=False,**kwargs)
     def test_valid_technical_fixture_passes(self):self.assertEqual(self.runqa()['status'],'PASS')
+
+    def test_seo_84_blocks_even_when_other_gates_pass(self):
+        with patch('qa.seo_onpage_score', return_value=(84, {'fixture': {'points': 84, 'max': 100}}, ['Improve relevant meta'])):
+            result=self.runqa()
+        self.assertEqual(result['status'], 'FAIL')
+        self.assertEqual(result['seo_score'], 84)
+        self.assertIn('SEO_SCORE_BELOW_MIN:84/85', result['errors'])
+
+    def test_seo_exactly_85_can_pass_if_other_gates_pass(self):
+        with patch('qa.seo_onpage_score', return_value=(85, {'fixture': {'points': 85, 'max': 100}}, [])):
+            result=self.runqa()
+        self.assertEqual(result['status'], 'PASS')
+        self.assertEqual(result['seo_min_required'], 85)
+
     def test_below_1600_fails(self):self.assertEqual(self.runqa(self.body(1000))['status'],'FAIL')
     def test_above_5000_fails(self):self.assertEqual(self.runqa(self.body(5100))['status'],'FAIL')
     def test_markup_frontmatter_keywords_not_counted(self):
