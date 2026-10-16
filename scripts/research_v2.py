@@ -316,12 +316,50 @@ def resume(branch, apply=False):
             'next_step': 'resume --branch ' + branch + ' --apply'}
 
 
+def research_hints(limit=10):
+    """Read-only bounded AI research queue; RSS leads are NOT factual sources."""
+    if not 1 <= limit <= 10:
+        raise ValueError('Research hints must be 1–10 items')
+    consumed = {str(t.get('origin_id')) for t in topics()}
+    submissions = set()
+    for p in (ROOT / 'data/candidates').glob('*.jsonl'):
+        try:
+            submissions.update(str(row.get('origin_id')) for row in
+                               parse_batch(p.read_text(encoding='utf-8'), p.name))
+        except (ValueError, KeyError, json.JSONDecodeError):
+            continue
+    leads = []
+    for p in sorted((ROOT / 'data/research/auto').glob('batch-*.jsonl')):
+        for line in p.read_text(encoding='utf-8').splitlines():
+            if not line.strip():
+                continue
+            proposal = json.loads(line)
+            origin = str(proposal.get('proposal_id', ''))
+            if (not origin.startswith('NTD-') or origin in consumed
+                    or origin in submissions):
+                continue
+            leads.append({
+                'origin_id': origin,
+                'taxonomy_key': proposal.get('taxonomy_key'),
+                'title_hint': proposal.get('title'),
+                'questions': proposal.get('research_questions', []),
+                'source_signals': proposal.get('source_signals', [])[:2],
+                'status': 'NEEDS_EXTERNAL_AI_FACT_RESEARCH_NOT_READY_TO_WRITE',
+            })
+            if len(leads) >= limit:
+                return leads
+    return leads
+
+
 def main():
     parser = argparse.ArgumentParser()
     sub = parser.add_subparsers(dest='command', required=True)
-    for command in ('checkpoint', 'check', 'verify-branch', 'push', 'resume'):
+    for command in ('checkpoint', 'check', 'verify-branch', 'push', 'resume', 'hints'):
         p = sub.add_parser(command)
-        p.add_argument('--branch', required=True)
+        if command != 'hints':
+            p.add_argument('--branch', required=True)
+        else:
+            p.add_argument('--limit', type=int, default=10)
         if command == 'checkpoint':
             p.add_argument('--final', action='store_true')
         if command == 'verify-branch':
@@ -329,7 +367,11 @@ def main():
         if command == 'resume':
             p.add_argument('--apply', action='store_true')
     args = parser.parse_args()
-    if args.command == 'checkpoint':
+    if args.command == 'hints':
+        output = {'research_hints': research_hints(args.limit),
+                  'source_verification': 'PENDING_EXTERNAL_AI',
+                  'not_approved_topics': True}
+    elif args.command == 'checkpoint':
         output = checkpoint(args.branch, final=args.final)
     elif args.command == 'verify-branch':
         output = verify_branch(args.branch, args.base)
