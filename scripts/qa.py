@@ -103,7 +103,8 @@ def evaluate(path,topic,rows=None,inv=None,link_checker=None,live=False,check_cl
     inv=inv if inv is not None else load('data/existing-content-inventory.json',{}).get('items',[])
     gates={str(i):{'errors':[],'review':[]} for i in range(1,7)}
     try:meta,body,sha=read_article(path)
-    except Exception as e:return {'status':'FAIL','errors':[str(e)],'source_sha256':digest(path.read_bytes()),'gates':gates}
+    except Exception as e:return {'topic_id':topic['topic_id'],'status':'FAIL','errors':[str(e)],
+        'review':[],'source_sha256':digest(path.read_bytes()),'gates':gates,'at':now()}
     g1=gates['1'];g2=gates['2'];g3=gates['3'];g4=gates['4'];g5=gates['5'];g6=gates['6']
     for k in ('topic_id','title','primary_keyword','search_intent','taxonomy_key','canonical_target'):
         if meta.get(k)!=topic.get(k):g1['errors'].append('Manifest mismatch:'+k)
