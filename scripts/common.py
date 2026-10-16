@@ -51,17 +51,21 @@ def write_topics(rows):
 
 class Text(HTMLParser):
     def __init__(self):
-        super().__init__(); self.parts = []; self.links = []; self.skip = 0
+        super().__init__(); self.parts = []; self.links = []; self.skip = 0; self.anchor = None
     def handle_starttag(self, tag, attrs):
         if tag in ('script', 'style'): self.skip += 1
         if tag == 'a':
             url = dict(attrs).get('href', '')
             self.links.append({'url': url, 'anchor': ''})
+            self.anchor = len(self.links)-1
         if tag in ('p', 'li', 'br', 'h1', 'h2', 'h3', 'div'): self.parts.append(' ')
     def handle_endtag(self, tag):
         if tag in ('script', 'style'): self.skip = max(0, self.skip - 1)
+        if tag == 'a': self.anchor = None
     def handle_data(self, data):
-        if not self.skip: self.parts.append(data)
+        if not self.skip:
+            self.parts.append(data)
+            if self.anchor is not None:self.links[self.anchor]['anchor'] += data
 
 def visible(value):
     p = Text(); p.feed(value)

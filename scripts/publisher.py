@@ -1,0 +1,194 @@
+"""The ONLY WordPress writer. Create-only, remote write-ahead ledger."""
+import argparse
+import datetime as dt
+import json
+import os
+import re
+import markdown
+from common import ROOT,SITE,WP,PROTECTED_IDS,digest,git,inventory,load,lock,norm,now,save,title_of,topics,visible
+from git_state import RemoteState
+from qa import evaluate,read_article
+from taxonomy_sync import by_key,resolve,materialize
+
+LEDGER='data/state/publication-ledger.json'
+
+def production_allowed(policy):
+    return (policy.get('production_enabled') is True and policy.get('mode')=='production' and
+        bool(policy.get('owner_approval_ref')) and policy.get('acceptance_passed') is True and
+        policy.get('security_controls_verified') is True and policy.get('seo_adapter_verified') is True and
+        not policy.get('paused') and not policy.get('emergency_stop'))
+
+def duplicate(topic,live):
+    marker='wp-writer:topic='+topic['topic_id']+';'
+    return [p for p in live if p.get('slug')==topic['proposed_slug'] or
+        norm(title_of(p))==norm(topic['title']) or marker in p.get('content',{}).get('raw',p.get('content',{}).get('rendered','')) or
+        p.get('yoast_head_json',{}).get('canonical')==topic['canonical_target']]
+
+def post_html(topic,body,sha):
+    return '<!-- wp-writer:topic='+topic['topic_id']+';sha256='+sha+' -->\n'+markdown.markdown(body,extensions=['tables','sane_lists'])
+
+def verify(client,topic,record):
+    post_id=record['wp_id']
+    if post_id in PROTECTED_IDS:raise ValueError('Protected smoke-test post')
+    p=client.get('wp/v2/posts/'+str(post_id)+'?context=edit')
+    raw=p.get('content',{}).get('raw','')
+    marker='wp-writer:topic='+topic['topic_id']+';sha256='+record['source_hash']
+    if (p.get('status')!=record['expected_status'] or p.get('slug')!=record['slug'] or
+        title_of(p)!=topic['title'] or p.get('categories')!=[record['category_id']] or
+        marker not in raw or digest(visible(raw))!=record['visible_hash']):
+        raise ValueError('WordPress content/status/category readback mismatch')
+    if record['expected_status']=='publish':
+        page,_=client.request(p['link'],public=True,page=True)
+        if norm(topic['title']) not in norm(page) or norm(record['first_paragraph']) not in norm(page):
+            raise ValueError('Public permalink content mismatch')
+        if re.search(r'<meta[^>]+(?:noindex|http-equiv=[\"\']refresh)',page,re.I):raise ValueError('New post not indexable')
+        from html.parser import HTMLParser
+        class SEO(HTMLParser):
+            def __init__(self):super().__init__();self.canon=[];self.description=[];self.in_title=False;self.title=''
+            def handle_starttag(self,tag,attrs):
+                d=dict(attrs)
+                if tag=='link' and d.get('rel')=='canonical':self.canon.append(d.get('href'))
+                if tag=='meta' and d.get('name')=='description':self.description.append(d.get('content'))
+                if tag=='title':self.in_title=True
+            def handle_endtag(self,tag):
+                if tag=='title':self.in_title=False
+            def handle_data(self,d):
+                if self.in_title:self.title+=d
+        seo=SEO();seo.feed(page)
+        if seo.canon!=[topic['canonical_target']] or seo.description!=[record.get('meta_description')] or seo.title!=record.get('meta_title'):
+            raise ValueError('Frontend canonical/title/meta mismatch')
+    return p
+
+class Publisher:
+    def __init__(self,client,policy,ledger=None,persist=None):
+        self.client=client;self.policy=policy;self.ledger=ledger if ledger is not None else load(LEDGER,{'version':1,'posts':{},'categories':{}})
+        self.persist=persist or (lambda:save(LEDGER,self.ledger))
+    def record(self,topic_id,**fields):
+        self.ledger['posts'][topic_id]={**self.ledger['posts'].get(topic_id,{}),**fields,'updated_at':now()};self.persist()
+
+    def reconcile(self,topic,live):
+        rec=self.ledger['posts'].get(topic['topic_id'])
+        if not rec:return None
+        if rec.get('phase')=='VERIFIED':
+            # Read-only verification also detects changes outside the factory.
+            verify(self.client,topic,rec);return rec
+        if rec.get('wp_id'):
+            p=verify(self.client,topic,rec)
+        else:
+            hits=duplicate(topic,live)
+            if len(hits)!=1:raise ValueError('Unresolved POST intent; never blindly retry')
+            hit=hits[0];marker='wp-writer:topic='+topic['topic_id']+';sha256='+rec['source_hash']
+            if marker not in hit.get('content',{}).get('raw',''):raise ValueError('Collision lacks ownership marker')
+            self.record(topic['topic_id'],phase='VERIFY_PENDING',wp_id=hit['id'])
+            p=verify(self.client,topic,self.ledger['posts'][topic['topic_id']])
+        self.record(topic['topic_id'],phase='VERIFIED',wp_id=p['id'],status=p['status'],url=p['link'],verified_at=now())
+        return self.ledger['posts'][topic['topic_id']]
+
+    def create(self,topic,body,sha,category_id,status,live,meta=None):
+        """No update/delete endpoint exists in this class."""
+        if status not in ('draft','publish'):raise ValueError('Invalid status')
+        if self.policy.get('paused') or self.policy.get('emergency_stop'):raise ValueError('Publisher paused')
+        if status=='publish' and not production_allowed(self.policy):raise ValueError('Production disabled or acceptance incomplete')
+        if status=='draft' and self.policy.get('mode')!='draft_only':raise ValueError('Draft writes not explicitly enabled')
+        prior=self.ledger['posts'].get(topic['topic_id'])
+        if prior:
+            if prior.get('source_hash')!=sha:raise ValueError('Published/uncertain topic source changed; review, never overwrite')
+            return self.reconcile(topic,live)
+        if duplicate(topic,live):raise ValueError('Existing WordPress content collision')
+        if topic['canonical_target'] in {r.get('url') for r in load('data/protected-urls.json',{}).get('items',[])}:raise ValueError('Protected existing URL')
+        rendered=post_html(topic,body,sha)
+        payload={'title':topic['title'],'slug':topic['proposed_slug'],'content':rendered,'status':status,'categories':[category_id],
+                 'excerpt':(meta or {}).get('meta_description','')}
+        if status=='publish':
+            # Adapter keys must be explicitly registered REST-writeable by the live site.
+            payload['meta']={'_yoast_wpseo_title':meta['meta_title'],'_yoast_wpseo_metadesc':meta['meta_description'],'_yoast_wpseo_canonical':topic['canonical_target']}
+        self.record(topic['topic_id'],phase='POST_INTENT',source_hash=sha,slug=topic['proposed_slug'],expected_status=status,
+            category_id=category_id,visible_hash=digest(visible(rendered)),first_paragraph=visible(markdown.markdown(body.split('\n\n')[0])),
+            meta_title=(meta or {}).get('meta_title'),meta_description=(meta or {}).get('meta_description'),git_commit=os.environ.get('GITHUB_SHA'),run_id=os.environ.get('GITHUB_RUN_ID'))
+        # persist() MUST return successfully (remote in Actions) before this POST.
+        try:
+            p=self.client.request('wp/v2/posts',payload)[0]
+            if p['id'] in PROTECTED_IDS:raise ValueError('Unexpected protected post ID')
+            self.record(topic['topic_id'],phase='VERIFY_PENDING',wp_id=p['id'])
+            verified=verify(self.client,topic,self.ledger['posts'][topic['topic_id']])
+            self.record(topic['topic_id'],phase='VERIFIED',wp_id=verified['id'],status=verified['status'],url=verified['link'],verified_at=now())
+            live.append(verified);return self.ledger['posts'][topic['topic_id']]
+        except Exception:
+            # Intent already durable, including a crash before this optional checkpoint.
+            self.record(topic['topic_id'],phase='NEEDS_RECONCILE')
+            raise
+
+def seo_adapter_check(client):
+    response,_=client.request('wp/v2/posts',method='OPTIONS')
+    props=response.get('schema',{}).get('properties',{}).get('meta',{}).get('properties',{})
+    return all(k in props and props[k].get('readonly') is not True for k in ('_yoast_wpseo_title','_yoast_wpseo_metadesc','_yoast_wpseo_canonical'))
+
+def run(args):
+    policy=load('config/production-policy.json')
+    if args.acceptance_draft:
+        if not args.persist_state:raise ValueError('Acceptance requires remote durable ledger')
+        if policy['production_enabled']:raise ValueError('Acceptance only while production OFF')
+        # Explicit isolated TEST DRAFT, not a campaign article, never promotes to public.
+        policy={**policy,'mode':'draft_only'}
+    if policy['paused'] or policy['emergency_stop']:print('PAUSED');return
+    rows=topics();results=[]
+    if policy['mode']=='dry_run' and not args.acceptance_draft:
+        for path in sorted((ROOT/'posts/drafts').glob('NT-*.md')):
+            matches=[t for t in rows if t['topic_id']==path.stem]
+            if len(matches)!=1:raise ValueError('Unknown draft')
+            result=evaluate(path,matches[0],rows=rows,live=False);save('data/qa/'+path.stem+'.json',result);results.append(result)
+        save('reports/publisher-preview.json',{'mode':'dry_run','wordpress_writes':0,'qa':results,'at':now()});print('DRY_RUN: no WordPress writes');return
+    with lock():
+        client=WP(authenticated=True);client.get('wp/v2/users/me?context=edit&_fields=id')
+        live=inventory(client);cats=client.all('wp/v2/categories',hide_empty='false')
+        ledger=load(LEDGER,{'version':1,'posts':{},'categories':{}})
+        state=RemoteState();state.remember([LEDGER])
+        def persist():
+            save(LEDGER,ledger)
+            if args.persist_state:state.persist([LEDGER])
+        publisher=Publisher(client,policy,ledger,persist)
+        if args.acceptance_draft:
+            t={'topic_id':'ACCEPTANCE-20261016','title':'[KIỂM THỬ] Universal Factory draft-only acceptance','proposed_slug':'wp-writer-factory-acceptance-20261016','canonical_target':SITE+'/wp-writer-factory-acceptance-20261016/'}
+            body='Bài nháp kiểm thử giao dịch của Universal Content Factory. Chỉ kiểm tra REST, danh mục Blog, ledger và khả năng chạy lại không tạo trùng. Không phải bài SEO, không thuộc chỉ tiêu 1.000 bài và không được xuất bản công khai. Bài nháp kết nối cũ 3861 được giữ nguyên.'
+            category=resolve('blog',by_key(),cats)
+            rec=publisher.create(t,body,digest(body),category,'draft',live)
+            # Second call is the real idempotency acceptance check; must reuse the ID.
+            again=publisher.create(t,body,digest(body),category,'draft',live)
+            if rec['wp_id']!=again['wp_id']:raise ValueError('Idempotency acceptance failed')
+            save('reports/acceptance-rest.json',{'status':'PASS','wp_id':rec['wp_id'],'wordpress_status':'draft','category_id':category,'rerun_same_id':True,'legacy_3861_unchanged':client.get('wp/v2/posts/3861?context=edit').get('status')=='draft','at':now()})
+            print('ACCEPTANCE_DRAFT_VERIFIED: id='+str(rec['wp_id']));return
+        if not production_allowed(policy) and policy['mode']!='draft_only':raise ValueError('Production activation prerequisites incomplete')
+        if production_allowed(policy) and not seo_adapter_check(client):raise ValueError('Yoast metadata REST adapter unavailable; production blocked')
+        # Current public and non-public WordPress content used in collision/factual review.
+        from audit import run as audit_run
+        audit_run(True)
+        policy_runtime=load('config/production-policy.json')
+        if policy_runtime!=policy:raise ValueError('Policy changed during inventory')
+        attempted=0
+        for path in sorted((ROOT/'posts/drafts').glob('NT-*.md')):
+            if attempted>=min(2,policy['batch_size']):break
+            t=next(t for t in rows if t['topic_id']==path.stem)
+            prior=ledger['posts'].get(t['topic_id'])
+            if prior:
+                if prior.get('phase')!='VERIFIED':publisher.reconcile(t,live)
+                continue
+            daily=sum(r.get('expected_status')=='publish' and r.get('updated_at','')[:10]==now()[:10] for r in ledger['posts'].values())
+            if daily>=policy['max_new_posts_daily']:break
+            result=evaluate(path,t,rows=rows,live=True);save('data/qa/'+path.stem+'.json',result)
+            if result['status']!='PASS':results.append(result);continue
+            meta,body,sha=read_article(path)
+            receipt=load('data/state/writer-claims.json',{}).get('submissions',{}).get(t['topic_id'],{})
+            if receipt.get('sha256')!=sha or receipt.get('session')!=meta.get('writer_session'):raise ValueError('Missing valid writer submission receipt')
+            try:category=resolve(t['taxonomy_key'],by_key(),cats)
+            except ValueError:
+                if not (policy.get('allow_category_create') and production_allowed(policy)):
+                    results.append({'topic_id':t['topic_id'],'status':'BLOCKED','errors':['Category missing; creation not approved']});continue
+                category=materialize(t['taxonomy_key'],by_key(),cats,client,ledger,persist)
+            status='publish' if production_allowed(policy) else 'draft'
+            attempted+=1;publisher.create(t,body,sha,category,status,live,meta)
+        save('reports/publisher-latest.json',{'at':now(),'attempted':attempted,'qa':results,'backlog_drains_on':'next schedule or push','production':production_allowed(policy)})
+
+def main():
+    p=argparse.ArgumentParser();p.add_argument('--persist-state',action='store_true');p.add_argument('--acceptance-draft',action='store_true');a=p.parse_args();run(a)
+
+if __name__=='__main__':main()

@@ -157,6 +157,7 @@ def evaluate(path,topic,rows=None,inv=None,link_checker=None,live=False,check_cl
         if parsed.scheme not in ('http','https') or parsed.username:g5['errors'].append('Invalid URL');continue
         if parsed.hostname=='thuexemaynguyentu.com':
             internal.append(url)
+            if parsed.query:g5['errors'].append('Query/draft internal URL forbidden:'+url)
             clean=urllib.parse.urlunsplit((parsed.scheme,parsed.netloc,parsed.path,'',''))
             if clean not in public_urls:g5['errors'].append('Internal target not verified public:'+clean)
             elif live:

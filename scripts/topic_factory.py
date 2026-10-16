@@ -30,8 +30,9 @@ def gate(topic, others, inventory, taxonomy):
     research=topic.get('research') or {}
     if not research.get('reviewer') or not research.get('difference_summary') or not topic.get('intent_key'):
         review.append('full-content semantic review missing')
-    if research.get('inventory_hash')!=digest(json.dumps(inventory,ensure_ascii=False,sort_keys=True)):
-        review.append('research inventory stale or missing')
+    checked_hashes=research.get('reviewed_content_hashes',{})
+    if not checked_hashes or any(checked_hashes.get(str(p['id']))!=p.get('content_hash') for p in nearest):
+        review.append('reviewed full-content evidence stale or missing')
     reviewed=set(research.get('reviewed_existing_ids',[]))
     if any(p['id'] not in reviewed for p in nearest): review.append('nearest full content not reviewed')
     if len(topic.get('outline',[]))<5 or not research.get('usefulness') or not research.get('scope_exclusions'):

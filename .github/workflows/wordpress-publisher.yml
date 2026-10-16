@@ -1,0 +1,60 @@
+name: Universal WordPress Publisher
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['posts/drafts/**', '.github/workflows/wordpress-publisher.yml', 'config/production-policy.json']
+  schedule:
+    - cron: '17,47 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: wp-writer-state
+  cancel-in-progress: false
+jobs:
+  publisher:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: |
+          git config user.name 'wp-writer-bot'
+          git config user.email 'wp-writer-bot@users.noreply.github.com'
+          python -m unittest discover -s tests -q
+      - name: Inspect mode before exposing WordPress credentials
+        id: mode
+        run: |
+          python - <<'PY'
+          import json,os
+          p=json.load(open('config/production-policy.json'))
+          active=p['mode']!='dry_run' and not p['paused'] and not p['emergency_stop']
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:f.write('active='+str(active).lower()+'\n')
+          PY
+      - if: steps.mode.outputs.active != 'true'
+        run: python scripts/publisher.py
+      - name: Serialized REST publisher (production gated in code)
+        if: steps.mode.outputs.active == 'true'
+        env:
+          WP_URL: ${{ secrets.WP_URL }}
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
+        run: python scripts/publisher.py --persist-state
+      - if: always()
+        run: python scripts/reports.py
+      - if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: factory-receipt-${{ github.run_id }}
+          path: |
+            reports/
+            data/qa/
+      - name: Persist QA, dashboard and repair queue without retriggering publisher
+        if: always()
+        run: python scripts/save_reports.py
