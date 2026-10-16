@@ -183,14 +183,17 @@ def discover(domain_data,subject_config,topic_rows,inventory,prior,policy,config
     seen_ids=set(prior_items)
     # Round-robin ensures a 20-topic batch covers more than one of the 35
     # topical domains rather than filling one silo with near-duplicate briefs.
+    def each_domain(domain, focuses):
+        for focus in focuses:
+            for angle in ANGLES:
+                for context in CONTEXTS:
+                    yield proposal(domain, focus, angle, context)
     by_domain={}
     for domain in domain_rows:
         focuses=subject_config.get('subjects',{}).get(domain['taxonomy_key'],[])
         if not focuses:
             focuses=[domain['name']]
-        by_domain[domain['domain_id']]=(
-            proposal(domain,focus,angle,context)
-            for focus in focuses for angle in ANGLES for context in CONTEXTS)
+        by_domain[domain['domain_id']]=each_domain(domain, focuses)
     while len(result)<limit and by_domain:
         progress=False
         for domain in domain_rows:
