@@ -1,5 +1,6 @@
 """GitHub-only AI can push a JSON request; Actions claims with no WP secrets."""
 import datetime as dt
+import copy
 import json
 import re
 from common import ROOT,digest,load,now,save,topics
@@ -8,6 +9,7 @@ from writer_session import claim,live_leases,writer_finished,REG
 
 def run():
     reg=load(REG);state=RemoteState();state.remember([REG]);rows=topics();changed=False
+    blocked=[]
     ledger=load('data/state/publication-ledger.json',{'posts':{}})
     verified={k for k,v in ledger['posts'].items() if v.get('phase')=='VERIFIED'}
     completed=verified|{i for i in reg.get('submissions',{}) if writer_finished(i,reg,ledger,rows)}
@@ -15,28 +17,39 @@ def run():
     for path in sorted((ROOT/'data/writer-requests').glob('*.json')):
         raw=path.read_bytes();h=digest(raw);r=json.loads(raw);session=r.get('session','')
         if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_-]{3,79}',session) or path.stem!=session:raise ValueError('Request filename/session invalid')
-        if reg.get('processed_requests',{}).get(session,{}).get('sha256')==h:continue
+        previous=reg.get('processed_requests',{}).get(session,{})
+        if previous.get('sha256')==h:
+            if previous.get('status')=='BLOCKED':blocked.append(session)
+            continue
+        # A rejected operation must not partially change existing leases.
+        candidate=copy.deepcopy(reg)
         action=r.get('action');result={}
         try:
-            mine=[(s,v) for s,v in live_leases(reg).items() if v['session']==session]
+            mine=[(s,v) for s,v in live_leases(candidate).items() if v['session']==session]
             if action=='begin':
                 for s,v in mine:
                     v['topic_ids']=[i for i in v['topic_ids'] if i not in completed]
-                    if not v['topic_ids']:del reg['leases'][s]
-                slot,reg=claim(reg,rows,session,r.get('slot','auto'),int(r.get('count',2)),requested_ids=r.get('topic_ids'),completed_ids=completed)
-                result={'status':'CLAIMED','slot':slot,'topic_ids':reg['leases'][slot]['topic_ids']}
+                    if not v['topic_ids']:del candidate['leases'][s]
+                slot,candidate=claim(candidate,rows,session,r.get('slot','auto'),int(r.get('count',2)),requested_ids=r.get('topic_ids'),completed_ids=completed)
+                result={'status':'CLAIMED','slot':slot,'topic_ids':candidate['leases'][slot]['topic_ids']}
             elif action=='heartbeat':
                 if len(mine)!=1:raise ValueError('No owned live slot')
                 mine[0][1]['expires_at']=(dt.datetime.now(dt.timezone.utc)+dt.timedelta(hours=12)).isoformat();result={'status':'RENEWED'}
             elif action=='release':
                 if len(mine)!=1:raise ValueError('No owned live slot')
                 if any(i in reg.get('submissions',{}) and i not in completed for i in mine[0][1]['topic_ids']):raise ValueError('Pending submission needs QA PASS before release')
-                del reg['leases'][mine[0][0]];result={'status':'RELEASED'}
+                del candidate['leases'][mine[0][0]];result={'status':'RELEASED'}
             else:raise ValueError('Unknown request action')
-        except ValueError as e:result={'status':'BLOCKED','reason':str(e)}
+        except ValueError as e:
+            result={'status':'BLOCKED','reason':str(e)}
+            blocked.append(session)
+        else:
+            reg=candidate
         reg.setdefault('processed_requests',{})[session]={'sha256':h,'request_id':r.get('request_id'),'at':now(),**result};changed=True
     if changed:
         save(REG,reg);state.persist([REG],'chore: process universal writer requests [skip ci]')
     print(json.dumps(reg.get('processed_requests',{}),ensure_ascii=False))
+    if blocked:
+        raise SystemExit('BLOCKED: '+', '.join(sorted(set(blocked)))+'; inspect processed_requests reasons')
 
 if __name__=='__main__':run()

@@ -1,4 +1,6 @@
 # WP-WRITER — UNIVERSAL AI CONTENT FACTORY FOR WORDPRESS
+
+> **Factory Operations V2:** [Liveness + queue/refill + Writer request safety + post-publish SEO QA](docs/FACTORY-OPERATIONS-V2.md). Adapted from /blog and /global patterns for native WordPress. The new read-only checks never turn on staging or production and do not imply articles have been published.
 ## MASTER README / MASTER WORK SPECIFICATION — Nguyễn Tú
 
 ## Nâng cấp native auto-delivery (chuẩn bị bật)
