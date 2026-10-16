@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "type": "OWNER_APPROVED_MANUAL_WORDPRESS_PUBLICATION",
+  "site": "https://thuexemaynguyentu.com",
+  "date": "2026-10-16",
+  "method": "WPVibe REST post creation as draft followed by explicit publish; outside GitHub Publisher job",
+  "github_qa_run": "https://github.com/thuexemayhanoi/wp-writer/actions/runs/38927720738",
+  "qa_report": "4 PASS, 0 REPAIR including both topics",
+  "wordpress_canonical_and_robots_verified_from_public_page_html": true,
+  "category_creation_manual": true,
+  "production_policy_changed": false,
+  "production_mode_at_test": "dry_run",
+  "publisher_ledger_reconciled": false,
+  "notes": "Do not mark GitHub Publisher production E2E acceptance passed. Prior to enabling unattended Publisher, reconcile manually published posts against central publication ledger; collision guard should not recreate duplicate slug/title. Preserve existing content and IDs.",
+  "posts": [
+    {
+      "topic_id": "NT-000037",
+      "wp_id": 3888,
+      "title": "Chọn nơi sửa xe máy điện: những câu hỏi nên hỏi kỹ thuật viên",
+      "status": "publish",
+      "slug": "chon-noi-sua-xe-may-dien-nhung-cau-hoi-nen-hoi-ky-thuat-vien",
+      "url": "https://thuexemaynguyentu.com/chon-noi-sua-xe-may-dien-nhung-cau-hoi-nen-hoi-ky-thuat-vien/",
+      "category_id": 160,
+      "category_name": "Chăm sóc xe điện",
+      "parent_category_id": 157,
+      "parent_category_name": "Xe Điện",
+      "source_sha256": "cbaae79d1e0feeaf54b5bcb234c22e93248a7ca60c1517d606618a99483dcd56",
+      "robots": "index,follow",
+      "seo_title": "Chọn nơi sửa xe máy điện: câu hỏi cho kỹ thuật viên",
+      "seo_description": "Cách chọn nơi sửa xe máy điện đúng mẫu xe, hỏi về chẩn đoán pin, báo giá, nguồn phụ tùng, biên nhận và kiểm tra an toàn sau sửa."
+    },
+    {
+      "topic_id": "NT-000047",
+      "wp_id": 3890,
+      "title": "Trang bị phản quang khi đi xe máy buổi tối: chọn loại nào phù hợp?",
+      "status": "publish",
+      "slug": "trang-bi-phan-quang-khi-di-xe-may-buoi-toi-chon-loai-nao-phu-hop",
+      "url": "https://thuexemaynguyentu.com/trang-bi-phan-quang-khi-di-xe-may-buoi-toi-chon-loai-nao-phu-hop/",
+      "category_id": 161,
+      "category_name": "An toàn khi di chuyển",
+      "parent_category_id": 159,
+      "parent_category_name": "Pháp Lý & Kinh Nghiệm",
+      "source_sha256": "dd47a3ac98daa67ad998274bbc87696ee8b269a9a736437db6dc75babafbbe44",
+      "robots": "index,follow",
+      "seo_title": "Đồ phản quang đi xe máy buổi tối: cách chọn phù hợp",
+      "seo_description": "Cách chọn áo, dây và miếng phản quang khi đi xe máy buổi tối: vị trí dễ nhìn, độ vừa vặn với áo mưa, bảo quản và giới hạn an toàn."
+    }
+  ]
+}
