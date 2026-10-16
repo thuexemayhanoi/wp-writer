@@ -44,7 +44,9 @@ def git_read(*args):
     proc = subprocess.run(['git', *args], cwd=ROOT, text=True, capture_output=True)
     if proc.returncode:
         raise ValueError('Git research command failed: ' + ' '.join(args[:2]))
-    return proc.stdout.strip()
+    # Porcelain status uses leading XY columns (e.g. ' M path'). Stripping
+    # whitespace destroys those columns and breaks batch 2+ checkpoints.
+    return proc.stdout.rstrip('\n')
 
 
 def safe_batch_path(branch, path):
