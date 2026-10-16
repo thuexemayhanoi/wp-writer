@@ -37,13 +37,16 @@ def assess(policy, registry, ledger, topic_rows, qa_by_id, at=None, stall_minute
     finished = {i for i, record in posts.items() if record.get('phase') == 'VERIFIED'}
     uncertain = sorted(i for i, record in posts.items() if
                        record.get('phase') in ('POST_INTENT', 'VERIFY_PENDING', 'NEEDS_RECONCILE'))
+    source_mismatches = []
     ready = []
     for topic_id, receipt in receipts.items():
         q = qa_by_id.get(topic_id, {})
-        if (topic_id not in finished and topic_id not in uncertain
-                and q.get('status') == 'PASS'
-                and receipt.get('sha256') == q.get('source_sha256')):
-            ready.append({'topic_id': topic_id, 'minutes_waiting': elapsed_minutes(receipt.get('submitted_at'), at)})
+        if (topic_id in finished or topic_id in uncertain or q.get('status') != 'PASS'):
+            continue
+        if receipt.get('sha256') != q.get('source_sha256'):
+            source_mismatches.append(topic_id)
+            continue
+        ready.append({'topic_id': topic_id, 'minutes_waiting': elapsed_minutes(receipt.get('submitted_at'), at)})
 
     live_leases = {}
     for slot, lease in registry.get('leases', {}).items():
@@ -70,6 +73,8 @@ def assess(policy, registry, ledger, topic_rows, qa_by_id, at=None, stall_minute
 
     if uncertain:
         state, detail = 'NEEDS_RECONCILE', 'Uncertain WordPress POST intents require manual reconciliation; never retry blindly.'
+    elif source_mismatches:
+        state, detail = 'SOURCE_MISMATCH', 'A QA-PASS file does not match its immutable writer receipt; reject delivery.'
     elif stopped:
         state, detail = 'PAUSED', 'Owner pause/emergency-stop prevents delivery.'
     elif policy.get('mode') == 'dry_run' and not policy.get('production_enabled') and not policy.get('draft_staging_enabled'):
@@ -95,10 +100,10 @@ def assess(policy, registry, ledger, topic_rows, qa_by_id, at=None, stall_minute
         'candidate_topics': len(topic_rows), 'planned_topics': len(planned),
         'claimable_topics': len(claimable), 'active_writer_slots': live_leases,
         'qa_pass_waiting': ready, 'queued_count': len(ready),
-        'uncertain_post_ids': uncertain, 'blocked_sessions': blocked,
+        'uncertain_post_ids': uncertain, 'source_mismatch_ids': sorted(source_mismatches), 'blocked_sessions': blocked,
         'verified_wp_posts': len(statuses),
         'last_verified_at': progress_at.isoformat() if progress_at else None,
-        'healthy': state not in ('NEEDS_RECONCILE', 'CONFIG_BLOCKED', 'STALLED', 'WRITER_REQUEST_BLOCKED'),
+        'healthy': state not in ('NEEDS_RECONCILE', 'SOURCE_MISMATCH', 'CONFIG_BLOCKED', 'STALLED', 'WRITER_REQUEST_BLOCKED'),
         'note': 'RUN_SUCCESS is not PROGRESS_SUCCESS; this is a read-only snapshot. No content is generated.'
     }
 
