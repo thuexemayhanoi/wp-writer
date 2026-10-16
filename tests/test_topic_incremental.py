@@ -23,10 +23,12 @@ class IncrementalTopicRefillTests(unittest.TestCase):
         self.old={'topic_id':'NT-000001','title':'Hướng dẫn kiểm tra xe máy khi nhận xe',
             'proposed_slug':'huong-dan-kiem-tra-xe-may-khi-nhan-xe',
             'canonical_target':topic_factory.SITE+'/huong-dan-kiem-tra-xe-may-khi-nhan-xe/',
-            'intent_key':'check-rental-handover','topic_qa_status':'PLANNED'}
+            'intent_key':'check-rental-handover','taxonomy_key':'reviews',
+            'primary_keyword':'kiểm tra xe khi thuê','search_intent':'information',
+            'topic_qa_status':'PLANNED'}
         self.research={'topic_id':'NT-000002','title':'Vấn đề chưa nghiên cứu',
             'proposed_slug':'van-de-chua-nghien-cuu','intent_key':None,
-            'topic_qa_status':'RESEARCH'}
+            'taxonomy_key':'reviews','topic_qa_status':'RESEARCH'}
         self.rows=[self.old,self.research]
         self.original_evidence={'NT-000001':{'status':'PASS','at':'2026-10-15',
             'topic_hash':'approved-immutable-evidence'},
