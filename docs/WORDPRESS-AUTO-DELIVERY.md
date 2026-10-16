@@ -40,7 +40,7 @@ W1 / W2 / W3 (AI bên ngoài)
 - Khi category chuẩn khớp chính xác toàn bộ đường dẫn cha/con, bài PASS mới được public.
 - Khi category không tồn tại, sai parent/slug/name hoặc chưa rõ ràng: `on_category_mismatch=draft` chuyển bài vào category Blog (ID được xác minh lại từ WordPress), trạng thái WordPress draft. Ledger ghi `intended_taxonomy_key`, `category_warning`, `category_resolution=FALLBACK_DRAFT`, và WP ID.
 - Nếu category `uncategorized`, từ chối. Không tự tạo category chỉ vì có bài. Tạo đúng parent/child chỉ khi đã bật riêng `allow_category_create=true` và có ledger trước POST. Mọi kết quả POST category không chắc chắn đều chặn để reconcile, không fallback bừa.
-- Giới hạn 2 bài/lần chạy mặc định; riêng tổng tạo bài mới mỗi ngày giới hạn `max_new_posts_daily` hoặc `max_new_drafts_daily` theo trạng thái.
+- Giới hạn **2 bài mỗi batch, tối đa 5 batch liên tục mỗi workflow run (2+2+2+2+2)**; giới hạn tổng tạo bài mới mỗi ngày theo `max_new_posts_daily` hoặc `max_new_drafts_daily` theo trạng thái.
 - Có lịch chạy định kỳ và push-trigger: phiên Writer hoàn tất rồi rời khỏi máy không làm mất queue.
 
 **Không đưa mật khẩu WP cho Writer.** External Writer không cần WP login hay AI API. Nhưng nếu Writer có quyền ghi main hoặc thay đổi workflow/config thì repo hiện **chưa an toàn** để bật WordPress secrets. CODEOWNERS **không tự bảo vệ** file. Cần bảo vệ nhánh, bắt buộc duyệt sửa engine/workflow, và GitHub Environment secrets trước khi kích hoạt cả staging lẫn production.
@@ -54,9 +54,13 @@ Nếu QA FAIL/REVIEW, nguồn pháp lý không xác minh, thiếu receipt đúng
 ### Điều kiện kích hoạt còn thiếu
 
 Theo trạng thái audit 16/10/2026:
-1. Repo rulesets trả về rỗng, branch protection chưa xác minh, WordPress secrets chưa có Environment được bảo vệ và xác nhận.
-2. Yoast title/description/canonical chưa REST-writeable; cần adapter được nghiệm thu với site/staging trước public.
-3. Bài thật đã thử tạo nháp, nhưng chưa có nghiệm thu full editorial-to-public E2E.
-4. Topic Factory mới có 8 chủ đề PLANNED và 2 bài QA PASS; không gọi 10.000 capacity là 10.000 bài viết.
+1. Main đã có Ruleset Active chống xóa/force-push, không có bypass, nhưng **chưa enforce đặc quyền sửa scripts/.github/config** và Environment secrets chưa được bảo vệ/xác nhận; vì vậy chưa được đánh dấu security PASS.
+2. Yoast title/description REST-writeable đã PASS trên GitHub Actions #38910018718; canonical được WordPress/Yoast tạo từ permalink và Publisher kiểm tra HTML public. Không cần ghi `_yoast_wpseo_canonical` qua REST.
+3. Đã public hai bài thật **thủ công qua WPVibe** #3888/#3890, có đúng danh mục cha/con và frontend SEO. Tuy nhiên **chưa có full E2E `GitHub Publisher → WordPress public`**. #3882 (trước đây acceptance draft) hiện publish theo WP REST, cần đối soát drift.
+4. Snapshot khởi đầu có 8 PLANNED / 2 QA PASS; số mới nhất xem `data/topics.jsonl`/dashboard. Không gọi 10.000 capacity là 10.000 bài đã viết.
 
 Không chỉnh cờ `security_controls_verified`, `seo_adapter_verified` hay `acceptance_passed` sang true nếu chưa có bằng chứng. Nghiệm thu test phải riêng biệt, không dùng bài cũ hay xóa bài kiểm tra.
+
+### No-Excel taxonomy architecture
+
+Không chuyển `data/topics.json`/`active_category` từ `wp-aiwriter`. `wp-writer` dùng `data/topics.jsonl` cho topic/intent/canonical và `data/taxonomy.json` cho cây cha/con. `taxonomy_sync.resolve()` bắt buộc khớp tên, slug, ID WordPress và toàn bộ parent chain qua REST. Một batch có thể gồm nhiều leaf category; không cần chờ duyệt danh mục Excel kế tiếp. Nguyên tắc mismatch → WP draft khi Production hợp lệ, hoặc BLOCKED nếu chưa đạt điều kiện. Xem [bảng so sánh](WORKFLOW-COMPARISON-WP-AIWRITER.md).

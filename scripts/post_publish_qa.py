@@ -9,6 +9,7 @@ import datetime as dt
 from html.parser import HTMLParser
 import json
 import os
+import urllib.parse
 from pathlib import Path
 from common import ROOT, SITE, WP, load, norm, topics, visible
 
@@ -78,6 +79,42 @@ def choose(records, now, limit):
     return newest+rotated[:space]
 
 
+def detect_unexpected_public_drafts(records, client):
+    """Read-only: flag WordPress drafts promoted externally to a public post.
+
+    A draft is invisible to a public REST request. Query by known slug; if
+    WordPress now exposes the ledger's wp_id publicly, do not silently call
+    the ledger correct or automatically modify the WordPress post.
+    """
+    issues = []
+    for topic_id, record in records.items():
+        if not topic_id.startswith('NT-') or record.get('phase') != 'VERIFIED':
+            continue
+        if record.get('status') != 'draft' or not record.get('wp_id'):
+            continue
+        slug = record.get('slug')
+        if not slug:
+            issues.append({'topic_id':topic_id,'error':'Verified draft lacks slug'})
+            continue
+        try:
+            endpoint = ('wp/v2/posts?slug='+urllib.parse.quote(slug,safe='')+
+                        '&_fields=id,status,slug,link,categories')
+            public_rows = client.get(endpoint)
+            if not isinstance(public_rows,list):
+                raise ValueError('Public WordPress REST result not a list')
+            for post in public_rows:
+                if post.get('id') == record['wp_id'] and post.get('status') == 'publish':
+                    issues.append({'topic_id':topic_id,'wp_id':post['id'],
+                                   'ledger_status':'draft','wordpress_status':'publish',
+                                   'url':post.get('link'),
+                                   'error':'External WordPress draft promotion; reconcile before trusting ledger'})
+                elif post.get('slug') == slug and post.get('id') != record['wp_id']:
+                    issues.append({'topic_id':topic_id,'wp_id':post.get('id'),
+                                   'error':'Another public post occupies draft ledger slug'})
+        except Exception as exc:
+            issues.append({'topic_id':topic_id,'error':'Public draft drift check failed: '+type(exc).__name__})
+    return issues
+
 def run(limit=40):
     now = dt.datetime.now(dt.timezone.utc)
     records = load('data/state/publication-ledger.json', {'posts':{}}).get('posts',{})
@@ -100,11 +137,12 @@ def run(limit=40):
                 errors.append('Public readback error: '+type(exc).__name__)
         results.append({'topic_id':topic_id,'url':record.get('url'),'status':'FAIL' if errors else 'PASS','errors':errors})
     failed=[r for r in results if r['status']=='FAIL']
+    external_drift=detect_unexpected_public_drafts(records,WP())
     report={'at':now.isoformat(),'mode':'READ_ONLY_PUBLIC_HTTP','site':SITE,
        'total_verified_public':len(targets),'checked':len(results),'failed':len(failed),
-       'status':'NO_PUBLISHED_POSTS' if not targets else ('FAIL' if failed else 'PASS'),
+       'status':'FAIL' if failed or external_drift else ('NO_PUBLISHED_POSTS' if not targets else 'PASS'),
        'coverage':'Rotating sample, not whole-site crawl',
-       'results':results}
+       'results':results,'external_status_drift':external_drift}
     serialized=json.dumps(report,ensure_ascii=False,indent=2)+'\n'
     print(serialized)
     output=os.environ.get('WP_WRITER_POST_QA_OUTPUT')
@@ -119,8 +157,8 @@ def run(limit=40):
             f.write('## WordPress post-publish QA\n\n')
             f.write('Status: **'+report['status']+'**; '+str(report['checked'])+
                     '/'+str(report['total_verified_public'])+' published campaign posts checked.\n')
-    if failed:
-        raise SystemExit('POST_PUBLISH_QA_FAIL: '+str(len(failed))+' public posts failed readback')
+    if failed or external_drift:
+        raise SystemExit('POST_PUBLISH_QA_FAIL: '+str(len(failed))+' public readback failures; '+str(len(external_drift))+' externally promoted drafts/collisions')
 
 
 if __name__=='__main__':

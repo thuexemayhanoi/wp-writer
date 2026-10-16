@@ -1,6 +1,6 @@
 # Universal writer contract — Nguyễn Tú
 
-> **QA → WordPress ngay, 2+2+2+2+2:** xem [Instant Publishing](docs/INSTANT-PUBLISHING.md). Publisher được nối sau QA PASS, chạy tối đa 5 batch × 2 bài trong một lượt. **Production chưa bật** vì GitHub main chưa được bảo vệ và cần nghiệm thu SEO REST bằng chính credentials của workflow. Không được tự gán các cờ xác minh thành PASS.
+> **QA → WordPress ngay, 2+2+2+2+2:** xem [Instant Publishing](docs/INSTANT-PUBLISHING.md). Publisher được nối sau QA PASS; không có thời gian nghỉ bắt buộc giữa các batch. **Production tự động hiện chưa bật** (`mode=dry_run`), vì vẫn cần thực thi bảo vệ mã Publisher và nghiệm thu E2E ngay trong workflow GitHub. Nhánh `main` đã có Ruleset chống xóa/force-push, Yoast REST adapter đã PASS và **hai bài NT-000037/#3888, NT-000047/#3890 đã xuất bản công khai thủ công qua WPVibe**, không phải bằng Github Publisher. Không gán cờ kiểm chứng giả.
 
 **Autonomous research queue:** read [docs/AUTONOMOUS-TOPIC-RESEARCH.md](docs/AUTONOMOUS-TOPIC-RESEARCH.md) and `data/research/auto/batch-*.jsonl`. The scheduled no-key scanner creates `NTD-` proposals, **not** AI-validated `PLANNED` topics. A researching AI must independently find and verify sources, compare old WordPress content, submit a `data/candidates/*.jsonl` batch with its exact `origin_id`, and pass Topic QA. Never invent researcher citations, historical content hashes or turn an RSS headline into legal/price evidence.
 
@@ -8,7 +8,7 @@
 
 **Fast start for any external AI:** [docs/AI-START-HERE.md](docs/AI-START-HERE.md). One 10-topic claim per session; repair your FAIL/REVIEW content, do not alter policies or privileged workflows. This file does NOT switch on Production.
 
-Only this repository and https://thuexemaynguyentu.com are in scope. Read the README, docs/WRITER-QUICKSTART.md, data/business-facts.json and your topic before writing. Never import the Nguyễn Hà matrix.
+Only this repository and https://thuexemaynguyentu.com are in scope. Read the README, docs/WRITER-QUICKSTART.md, data/business-facts.json and your topic before writing. **There is NO Excel dependency in wp-writer.** The source of topic IDs, titles, intent and target taxonomy is `data/topics.jsonl`; the immutable category parent/child map is `data/taxonomy.json`, verified against WordPress REST. Never import the Nguyễn Hà matrix or `wp-aiwriter` IDs/categories. See [side-by-side workflow comparison](docs/WORKFLOW-COMPARISON-WP-AIWRITER.md).
 
 * External AI providers share the same W1/W2/W3 contract. No AI model, AI API key or writer is run in Actions.
 * Supporting articles: **1,600–5,000 useful Vietnamese words**, excluding frontmatter, markup, keyword lists, references and navigation. This requirement supersedes the older README word minimum.
@@ -17,7 +17,13 @@ Only this repository and https://thuexemaynguyentu.com are in scope. Read the RE
 * Commit/push owned drafts promptly using the session tool. Follow Actions results and repair the exact ID. Do not declare publication from a push alone.
 * All legacy WordPress posts/pages/products, canonical/slug, existing category ancestry, themes, plugins, sitemap, Trash and smoke-test #3861 are immutable. No update/delete/redirect/noindex operations on legacy content.
 * One publisher, batch maximum 2, write-ahead remote ledger before POST, reconcile unknown outcomes. Never clear a pending intent or retry an uncertain POST blindly.
-* Production remains disabled until the owner approves activation and acceptance evidence is complete. Do not enable production, change secrets or modify website settings while building the factory.
+* Owner already approved production intent (2026-10-16), but **unattended Production remains OFF** until enforced privileged-code security and a GitHub-Publisher-to-public-WordPress E2E acceptance test are complete. Manual WPVibe canaries do not prove the automated publisher and cannot be used to flip safety verification flags. Writers must never edit Production flags, secrets or WordPress settings.
 * Machine QA is a technical screen, not semantic/factual proof. Missing evidence stays REVIEW. Do not lower thresholds or fabricate research evidence to fill 1,000 rows.
 * Protected CODEOWNERS paths require owner review. CODEOWNERS alone is not an access control. Production requires enforced branch/path controls and a protected environment verified by the owner.
 * Keep checkpoints factual. Distinguish candidate, PLANNED, authored, READY, WordPress draft, verified public, and indexed.
+
+## Keep new WordPress posts in sync without duplicates
+
+- Manual owner-approved canaries: `NT-000037` → WordPress `#3888` in `Blog > Xe Điện > Chăm sóc xe điện` (`#160`), and `NT-000047` → WordPress `#3890` in `Blog > Pháp Lý & Kinh Nghiệm > An toàn khi di chuyển` (`#161`). Do **not** recreate or edit them.
+- Ledger `data/state/publication-ledger.json` controls publication identity. A new article's source hash, exact Topic ID, category ancestry and WordPress permalink are mandatory. Do not interpret a GitHub Actions `success` while `dry_run` as a WordPress publish.
+- No topic Excel/category boundary approvals. AI may research the next genuinely distinct search intents via `data/candidates/*.jsonl` and Topic QA, and claim new `PLANNED` topics through W1/W2/W3. Writing still requires a running external AI session.

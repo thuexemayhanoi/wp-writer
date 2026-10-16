@@ -20,7 +20,7 @@ python scripts/writer-session.py heartbeat --session s-your-session
 
 Thay ID bằng ID thực đã nhận. `check`/`push` kiểm tra bằng QA chuẩn. `confirm` đọc ledger và registry mới nhất, không tự tạo nội dung. Giữ đúng session khi phục hồi sau quota. Sau khi bài đã được intake ghi receipt có hash bất biến **và QA mới tính lại đạt PASS**, `begin` được giải phóng ID đã nộp để nhận tiếp, **ngay cả khi Production OFF và WordPress chưa đăng bài**. Một submission đã chuyển qua bước này vẫn khóa ID khỏi writer khác; QA FAIL/REVIEW phải sửa qua REPAIR trước khi nhả lease. WordPress ledger/publisher vẫn chịu trách nhiệm xuất bản và đối soát riêng. Không đổi session để né REPAIR. Lease của người khác còn hạn không được chiếm; bản nháp của người khác hết lease chỉ được bàn giao sau khi chủ/coordinator cho phép.
 
-GitHub Actions tự nhận draft đã push, kiểm tra rồi lưu QA/REPAIR. Production hiện OFF: không có bài SEO công khai tự đăng. Khi nghiệm thu và được chủ bật production, publisher tự chạy batch tối đa 2; lịch 30 phút tiếp tục drain backlog, không cần phiên AI còn mở. Actions không viết bài khi các phiên writer đã đóng.
+GitHub Actions tự nhận draft đã push, kiểm tra rồi lưu QA/REPAIR. Production tự động hiện OFF (`dry_run`), dù đã có hai bài SEO công khai do chủ duyệt WPVibe trực tiếp (NT-000037/#3888 và NT-000047/#3890). Khi đủ bảo vệ + nghiệm thu và Production được bật, QA PASS kích hoạt Publisher **ngay**; xử lý tối đa 5 batch × 2 bài mỗi lượt, daily cap 10. Lịch :17/:47 chỉ dự phòng; không cần phiên AI còn mở để drain backlog bài **đã viết và push**. Actions không viết bài khi các phiên writer đã đóng.
 
 AI chỉ có GitHub, không có shell: push `data/writer-requests/s-your-session.json` với nội dung sau. Actions `Universal AI writer claim requests` sẽ cấp slot và ghi kết quả trong `data/state/writer-claims.json` -> `processed_requests`.
 
@@ -30,4 +30,4 @@ AI chỉ có GitHub, không có shell: push `data/writer-requests/s-your-session
 
 Chờ kết quả CLAIMED, đọc Topic IDs rồi viết và push đúng các draft đó. Publisher intake tự xác minh lease và ghi receipt/hash, AI không tự sửa registry. Đổi `request_id` mỗi lần yêu cầu mới; `heartbeat` gia hạn, `release` nhả slot đã hoàn tất. Khi BLOCKED đọc reason; không tự đoán slot. GitHub API cập nhật ref phải có expected SHA và không force; nếu main đổi, đọc lại trước khi thử.
 
-Hiện có 8 topic PLANNED ban đầu; 72 candidate chưa đủ bằng chứng. Không gọi 80 candidate là 80 bài sẵn sàng viết. Coordinator nghiên cứu thêm qua `data/candidates/*.jsonl` và `topic-factory.py --import-candidates ...`.
+Số 8 PLANNED / 72 research là **snapshot ban đầu**, không phải số mới nhất. Luôn đọc registry + `reports/dashboard.json` cập nhật; không dùng Excel từ repo khác. Chủ đề phải PLANNED trước claim. Danh mục cha/con lấy từ `data/taxonomy.json`, không phỏng đoán hoặc tạo tự do. Coordinator nghiên cứu thêm qua `data/candidates/*.jsonl` và `topic-factory.py --import-candidates ...`.
