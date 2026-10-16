@@ -6,7 +6,7 @@
   "paused": false,
   "emergency_stop": false,
   "batch_size": 2,
-  "max_batches_per_run": 1,
+  "max_batches_per_run": 5,
   "max_new_posts_daily": 10,
   "initial_target": 1000,
   "capacity": 10000,
@@ -25,5 +25,6 @@
   "fallback_draft_taxonomy_key": "blog",
   "draft_staging_enabled": false,
   "draft_staging_approval_ref": null,
-  "max_new_drafts_daily": 10
+  "max_new_drafts_daily": 10,
+  "owner_publish_request": "2026-10-16: owner explicitly requested immediate QA-pass-to-WordPress bulk publishing (10 posts as 2x5); activation remains blocked pending verified main protection, SEO REST metadata adapter and full draft E2E."
 }

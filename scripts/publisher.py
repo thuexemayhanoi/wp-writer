@@ -91,6 +91,8 @@ def verify(client,topic,record):
         marker not in raw or digest(visible(raw))!=record['visible_hash']):
         raise ValueError('WordPress content/status/category readback mismatch')
     if record['expected_status']=='publish':
+        if p.get('link')!=topic['canonical_target']:
+            raise ValueError('Published permalink must match approved canonical')
         page,_=client.request(p['link'],public=True,page=True)
         if norm(topic['title']) not in norm(page) or norm(record['first_paragraph']) not in norm(page):
             raise ValueError('Public permalink content mismatch')
@@ -157,8 +159,13 @@ class Publisher:
         payload={'title':topic['title'],'slug':topic['proposed_slug'],'content':rendered,'status':status,'categories':[category_id],
                  'excerpt':(meta or {}).get('meta_description','')}
         if status=='publish':
-            # Adapter keys must be explicitly registered REST-writeable by the live site.
-            payload['meta']={'_yoast_wpseo_title':meta['meta_title'],'_yoast_wpseo_metadesc':meta['meta_description'],'_yoast_wpseo_canonical':topic['canonical_target']}
+            # Title and description must be REST-writeable. Yoast's canonical
+            # is generated from the exact WordPress permalink by default.
+            # The deployed HTML MUST read back the exact approved canonical.
+            # Do not send _yoast_wpseo_canonical if that REST key is unregistered:
+            # WordPress would silently ignore it while appearing to succeed.
+            payload['meta']={'_yoast_wpseo_title':meta['meta_title'],
+                             '_yoast_wpseo_metadesc':meta['meta_description']}
         self.record(topic['topic_id'],phase='POST_INTENT',source_hash=sha,slug=topic['proposed_slug'],expected_status=status,
             category_id=category_id,visible_hash=digest(visible(rendered)),first_paragraph=visible(markdown.markdown(body.split('\n\n')[0])),
             meta_title=(meta or {}).get('meta_title'),meta_description=(meta or {}).get('meta_description'),
@@ -181,12 +188,48 @@ class Publisher:
             raise
 
 def seo_adapter_check(client):
+    """Fail closed without a real Yoast SEO metadata adapter.
+
+    WordPress normally generates the canonical from the permalink; the
+    custom canonical postmeta key need not be REST-writeable. We insist
+    that SEO title+description are writeable and that the site's public
+    Yoast canonical sample agrees with its own public permalink. Each new
+    public post still gets strict frontend canonical/title/description QA.
+    """
     response,_=client.request('wp/v2/posts',method='OPTIONS')
     props=response.get('schema',{}).get('properties',{}).get('meta',{}).get('properties',{})
-    return all(k in props and props[k].get('readonly') is not True for k in ('_yoast_wpseo_title','_yoast_wpseo_metadesc','_yoast_wpseo_canonical'))
+    keys=('_yoast_wpseo_title','_yoast_wpseo_metadesc')
+    if not all(k in props and props[k].get('readonly') is not True for k in keys):
+        return False
+    try:
+        posts=client.get('wp/v2/posts?status=publish&per_page=1&_fields=id,link,yoast_head_json')
+        if not isinstance(posts,list) or not posts:
+            return False
+        url=posts[0].get('link')
+        canonical=posts[0].get('yoast_head_json',{}).get('canonical')
+        return bool(url and url.startswith(SITE+'/') and canonical==url)
+    except (RuntimeError,ValueError,KeyError,TypeError):
+        return False
+
+def delivery_batch_limit(policy):
+    """Drain 2+2+2+2+2 within one serialized execution, never bypass caps.
+
+    A batch remains at most TWO new WordPress POSTs; the number of
+    consecutive batches is capped at FIVE. Daily new-post caps still apply
+    independently, including draft category fallbacks.
+    """
+    per_batch=policy.get('batch_size',2)
+    batches=policy.get('max_batches_per_run',1)
+    if not isinstance(per_batch,int) or isinstance(per_batch,bool) or not 1<=per_batch<=2:
+        raise ValueError('batch_size must be 1 or 2')
+    if not isinstance(batches,int) or isinstance(batches,bool) or not 1<=batches<=5:
+        raise ValueError('max_batches_per_run must be 1..5')
+    return per_batch*batches
+
 
 def run(args):
     base_policy=load('config/production-policy.json');policy=dict(base_policy)
+    batch_limit=delivery_batch_limit(policy)
     if args.acceptance_topic:
         if not args.persist_state or policy['production_enabled']:raise ValueError('Article draft acceptance requires production OFF and remote ledger')
         if not re.fullmatch(r'NT-\d{6}',args.acceptance_topic):raise ValueError('Invalid acceptance Topic ID')
@@ -247,7 +290,7 @@ def run(args):
         attempted=0
         for path in sorted((ROOT/'posts/drafts').glob('NT-*.md')):
             if args.acceptance_topic and path.stem!=args.acceptance_topic:continue
-            if attempted>=min(2,policy['batch_size']):break
+            if attempted>=batch_limit:break
             t=next(t for t in rows if t['topic_id']==path.stem)
             prior=ledger['posts'].get(t['topic_id'])
             if prior:
@@ -286,7 +329,7 @@ def run(args):
                 'category_id':route['category_id'],'category_resolution':route['category_resolution'],
                 'intended_taxonomy_key':route['intended_taxonomy_key'],
                 'category_warning':route['category_warning']})
-        save('reports/publisher-latest.json',{'at':now(),'attempted':attempted,'qa':results,'backlog_drains_on':'next schedule or push','production':production_allowed(policy)})
+        save('reports/publisher-latest.json',{'at':now(),'attempted':attempted,'batch_size':policy['batch_size'],'max_batches_per_run':policy['max_batches_per_run'],'batch_capacity':batch_limit,'qa':results,'backlog_drains_on':'successful Writer QA or fallback schedule','production':production_allowed(policy)})
         if args.acceptance_topic:
             rec=ledger['posts'].get(args.acceptance_topic,{})
             if rec.get('phase')!='VERIFIED' or rec.get('status')!='draft':raise ValueError('Article acceptance blocked; inspect QA/taxonomy report')
