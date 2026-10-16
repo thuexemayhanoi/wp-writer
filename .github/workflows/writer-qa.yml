@@ -27,7 +27,8 @@ jobs:
           GITHUB_EVENT_NAME: push
         run: python -m unittest discover -s tests -q
       - run: python scripts/validate.py
-      - run: python scripts/qa.py
+      - name: Independently pass qualified articles; persist complete REPAIR tickets for failures
+        run: python scripts/qa_gate.py
       - if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
