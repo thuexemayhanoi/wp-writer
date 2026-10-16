@@ -1,9 +1,16 @@
 name: Universal WordPress Publisher
 on:
   workflow_dispatch:
+  # The primary execution path is the successful, completed *main push*
+  # Writer QA workflow. This replaces parallel push-based publishing.
+  workflow_run:
+    workflows: ['Universal writer QA (no WordPress credentials)']
+    types: [completed]
+    branches: [main]
   push:
     branches: [main]
-    paths: ['posts/drafts/**', '.github/workflows/wordpress-publisher.yml', 'config/production-policy.json']
+    paths: ['.github/workflows/wordpress-publisher.yml', 'config/production-policy.json']
+  # Fallback retry for a missed workflow_run / later inventory refresh.
   schedule:
     - cron: '17,47 * * * *'
 permissions:
@@ -13,8 +20,16 @@ concurrency:
   cancel-in-progress: false
 jobs:
   publisher:
+    # Never run on a PR's workflow_run or a failed QA event.
+    # The publisher checks the live source and taxonomy again before any POST.
+    if: >-
+      github.repository == 'thuexemayhanoi/wp-writer' &&
+      (github.event_name != 'workflow_run' ||
+        (github.event.workflow_run.conclusion == 'success' &&
+         github.event.workflow_run.event == 'push' &&
+         github.event.workflow_run.head_branch == 'main'))
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
@@ -24,6 +39,14 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
+      - name: Confirm the successful QA run is from trusted main history
+        if: github.event_name == 'workflow_run'
+        env:
+          QA_HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          git fetch origin main
+          git merge-base --is-ancestor "$QA_HEAD_SHA" origin/main
+          echo "QA_COMPLETED_BEFORE_PUBLISHER: $QA_HEAD_SHA"
       - run: |
           git config user.name 'wp-writer-bot'
           git config user.email 'wp-writer-bot@users.noreply.github.com'
@@ -55,7 +78,7 @@ jobs:
           PY
       - if: steps.mode.outputs.active != 'true'
         run: python scripts/publisher.py
-      - name: Serialized REST publisher (production gated in code)
+      - name: QA-gated serialized REST publisher (2x5, production gated in code)
         if: steps.mode.outputs.active == 'true'
         env:
           WP_URL: ${{ secrets.WP_URL }}
