@@ -1,5 +1,7 @@
 # WP-WRITER — UNIVERSAL AI CONTENT FACTORY FOR WORDPRESS
 
+**AI bên ngoài — một lệnh để bắt đầu:** [AI-START-HERE.md](docs/AI-START-HERE.md). Nhận tối đa 10 chủ đề, QA từng bài, tự nộp và nhận tiếp; không xin duyệt từng bài. Publisher đã kết nối sau QA nhưng **Production hiện OFF**; không tuyên bố đã đăng công khai khi không có ledger và URL verified.
+
 > **QA → WordPress ngay, 2+2+2+2+2:** xem [Instant Publishing](docs/INSTANT-PUBLISHING.md). Publisher được nối sau QA PASS, chạy tối đa 5 batch × 2 bài trong một lượt. **Production chưa bật** vì GitHub main chưa được bảo vệ và cần nghiệm thu SEO REST bằng chính credentials của workflow. Không được tự gán các cờ xác minh thành PASS.
 
 > **Topic Discovery V3:** [Autonomous research queue → external AI researcher → Topic QA → W1/W2/W3](docs/AUTONOMOUS-TOPIC-RESEARCH.md). Runs every 6h without AI API keys, gathering public RSS *leads* plus topical gaps, capped at 20 ideas/batch and 300 pending; discovery proposal capacity 10,000. **This is not an LLM doing autonomous factual research**: external AI researchers must independently verify and submit evidence before an idea becomes PLANNED. Canonical intake remains approved only to 1,000; WordPress Production remains OFF.
