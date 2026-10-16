@@ -6,6 +6,8 @@
 
 **Operational reference:** read [Factory Operations V2](docs/FACTORY-OPERATIONS-V2.md) for read-only watchdog, non-green BLOCKED requests, refill that requires new researched PLANNED topics, and public post-SEO QA. Never confuse Actions SUCCESS with verified WordPress publication.
 
+**Fast start for any external AI:** [docs/AI-START-HERE.md](docs/AI-START-HERE.md). One 10-topic claim per session; repair your FAIL/REVIEW content, do not alter policies or privileged workflows. This file does NOT switch on Production.
+
 Only this repository and https://thuexemaynguyentu.com are in scope. Read the README, docs/WRITER-QUICKSTART.md, data/business-facts.json and your topic before writing. Never import the Nguyễn Hà matrix.
 
 * External AI providers share the same W1/W2/W3 contract. No AI model, AI API key or writer is run in Actions.
