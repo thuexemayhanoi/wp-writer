@@ -8,6 +8,15 @@
       ],
       "claimed_at": "2026-10-16T11:28:45.128530+00:00",
       "expires_at": "2026-10-16T23:28:45.128530+00:00"
+    },
+    "W2": {
+      "session": "s-gpt6-two-article-20261016",
+      "topic_ids": [
+        "NT-000037",
+        "NT-000047"
+      ],
+      "claimed_at": "2026-10-16T15:41:00.060201+00:00",
+      "expires_at": "2026-10-17T03:41:00.060201+00:00"
     }
   },
   "processed_requests": {
@@ -26,6 +35,17 @@
       "request_id": "2026-10-16-gpt6-green-02",
       "at": "2026-10-16T11:55:00.827794+00:00",
       "status": "RELEASED"
+    },
+    "s-gpt6-two-article-20261016": {
+      "sha256": "fa803361c03c078540a7516e156e301875a1e56868f9751b5ae2082f72d58a60",
+      "request_id": "2026-10-16-22h-two-article-smoke",
+      "at": "2026-10-16T15:41:00.060285+00:00",
+      "status": "CLAIMED",
+      "slot": "W2",
+      "topic_ids": [
+        "NT-000037",
+        "NT-000047"
+      ]
     }
   },
   "submissions": {
