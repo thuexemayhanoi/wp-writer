@@ -1,5 +1,7 @@
 # Universal writer contract — Nguyễn Tú
 
+**Autonomous research queue:** read [docs/AUTONOMOUS-TOPIC-RESEARCH.md](docs/AUTONOMOUS-TOPIC-RESEARCH.md) and `data/research/auto/batch-*.jsonl`. The scheduled no-key scanner creates `NTD-` proposals, **not** AI-validated `PLANNED` topics. A researching AI must independently find and verify sources, compare old WordPress content, submit a `data/candidates/*.jsonl` batch with its exact `origin_id`, and pass Topic QA. Never invent researcher citations, historical content hashes or turn an RSS headline into legal/price evidence.
+
 **Operational reference:** read [Factory Operations V2](docs/FACTORY-OPERATIONS-V2.md) for read-only watchdog, non-green BLOCKED requests, refill that requires new researched PLANNED topics, and public post-SEO QA. Never confuse Actions SUCCESS with verified WordPress publication.
 
 Only this repository and https://thuexemaynguyentu.com are in scope. Read the README, docs/WRITER-QUICKSTART.md, data/business-facts.json and your topic before writing. Never import the Nguyễn Hà matrix.
