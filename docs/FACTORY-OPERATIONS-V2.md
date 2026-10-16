@@ -34,6 +34,8 @@ Run locally: `python scripts/watchdog.py --output /tmp/wp-writer-watchdog.json`.
 
 `scripts/control_requests.py` checkpoints the result of each request, including its refusal reason. A BLOCKED request now causes Actions to exit nonzero **after preserving the reason**; submitting the same rejected request again is still blocked. Mutations to leases are applied on a separate copy of the registry, so a rejected request cannot partially release another valid claim.
 
+Push-triggered request processing uses the exact GitHub push `before`/`after` commit diff to act only on changed `data/writer-requests/*.json` files. An old, unchanged BLOCKED request still has a durable reason in the ledger but **cannot block an unrelated Writer's later push**. Manual dispatch rechecks the full request collection; a still-blocked request remains visibly failed. If the event SHA diff cannot be verified, the workflow fails closed.
+
 The request session label remains **not an authentication factor**. GitHub branch protection, path controls and separate credentials are prerequisites before trusting multiple independent Writers with production. Refuses to claim writer identity security is complete.
 
 ## Refill and queue
@@ -42,7 +44,11 @@ The request session label remains **not an authentication factor**. GitHub branc
 
 Refill capacity is calculated from **unreserved claimable** PLANNED topics, not the lifetime PLANNED count. IDs held in live leases, immutable Writer submission receipts, or WordPress publication ledger do not qualify as available Writer queue. Expired, unsubmitted leases are reclaimable. This prevents a 100-PLANNED manifest from hiding an empty backlog.
 
-Before adding 10,000 topics, optimize topic comparison with proven no-false-negative collision tests, and benchmark throughput. Do not bypass historical-content comparisons just to make a queue counter look better.
+**Incremental incumbent protection:** importing a new researched batch evaluates the *new* topic IDs against all existing IDs and the other new candidates. Previously approved `PLANNED` IDs and their stored QA verdicts are preserved verbatim, even if a new proposal uses the same title, slug or intent. Only the intruding new candidate is rejected/reviewed. This prevents a new AI idea from demoting an approved/claimed/WordPress article. Large-manifest tests exercise 10,000 incumbents with one newcomer without rerunning every old topic gate. A **full manual re-audit** still evaluates the full manifest and may be expensive.
+
+Before adding 10,000 topics, further optimize full-audit topic comparison with proven no-false-negative collision tests, and benchmark throughput. Incremental refill does not eliminate all O(N²) work from manual full audits. Do not bypass historical-content comparisons just to make a queue counter look better.
+
+The read-only watchdog excludes expired Writer leases when calculating claimable topics, matching the canonical claim engine. It never steals live leases.
 
 ## Public WordPress page readback (post-publish)
 
