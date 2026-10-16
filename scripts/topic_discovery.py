@@ -13,10 +13,10 @@ from pathlib import Path
 import re
 import os
 from urllib.parse import urlencode, urlsplit
-from urllib.request import Request, urlopen
+from urllib.request import Request
 from xml.etree import ElementTree
 
-from common import ROOT, SITE, digest, load, norm, now, topics
+from common import ROOT, SITE, Redirect, digest, load, norm, now, topics
 from refill import claimable_count
 from git_state import RemoteState
 
@@ -52,7 +52,8 @@ def rss_public_headlines(domain_name, fetch=None, maximum=8):
         {'q':query,'hl':'vi','gl':'VN','ceid':'VN:vi'})
     def default_fetch(link):
         req=Request(link,headers={'User-Agent':'NguyenTu-TopicDiscovery/1.0','Accept':'application/rss+xml'})
-        with urlopen(req,timeout=8) as response:
+        from urllib.request import build_opener
+        with build_opener(Redirect()).open(req,timeout=8) as response:
             if urlsplit(response.geturl()).hostname != 'news.google.com':
                 raise ValueError('RSS redirect escaped allowlisted feed host')
             return response.read(750_000)
@@ -161,9 +162,10 @@ def discover(domain_data,subject_config,topic_rows,inventory,prior,policy,config
            'resolved_topic_ids':len(resolved)}
     if claimable>=int(config.get('refill_when_claimable_below',100)):
         return [],{**stats,'state':'QUEUE_HEALTHY'}
-    if len(topic_rows)>=allowed:
-        return [],{**stats,'state':'APPROVED_TOPIC_LIMIT_REACHED',
-                  'note':'Research can continue after capacity approval; no WP production auto-unlock'}
+    # Continue researching up to the 10k discovery ceiling even when the
+    # separately approved canonical topic intake limit is still only 1,000.
+    # This does not grant permission to import or publish anything over cap.
+    stats['approved_intake_capacity_reached']=len(topic_rows)>=allowed
     if len(pending)>=cap:
         return [],{**stats,'state':'RESEARCH_BACKLOG_FULL'}
     if len(prior_items)>=research_ceiling:
@@ -179,31 +181,46 @@ def discover(domain_data,subject_config,topic_rows,inventory,prior,policy,config
     result=[]
     signals=public_signals or {}
     seen_ids=set(prior_items)
+    # Round-robin ensures a 20-topic batch covers more than one of the 35
+    # topical domains rather than filling one silo with near-duplicate briefs.
+    by_domain={}
     for domain in domain_rows:
-        if len(result)>=limit:
-            break
         focuses=subject_config.get('subjects',{}).get(domain['taxonomy_key'],[])
         if not focuses:
             focuses=[domain['name']]
-        for focus in focuses:
-            for angle in ANGLES:
-                for context in CONTEXTS:
-                    if len(result)>=limit:
-                        break
-                    p=proposal(domain,focus,angle,context)
-                    if p['proposal_id'] in seen_ids or is_overlap(p['title'],existing_titles):
-                        continue
-                    leads=signals.get(domain['domain_id'],[])
-                    p['source_signals']=leads[:3]
-                    p['public_signal_count']=len(leads)
-                    p['research_priority']='SOURCE_SIGNAL' if leads else 'TOPICAL_GAP'
-                    result.append(p)
-                    seen_ids.add(p['proposal_id'])
-                    existing_titles.add(identity_key(p['title']))
-                if len(result)>=limit:
+        by_domain[domain['domain_id']]=(
+            proposal(domain,focus,angle,context)
+            for focus in focuses for angle in ANGLES for context in CONTEXTS)
+    while len(result)<limit and by_domain:
+        progress=False
+        for domain in domain_rows:
+            generator=by_domain.get(domain['domain_id'])
+            if generator is None:
+                continue
+            item=None
+            while True:
+                try:
+                    candidate=next(generator)
+                except StopIteration:
+                    del by_domain[domain['domain_id']]
                     break
+                if candidate['proposal_id'] not in seen_ids and not is_overlap(candidate['title'],existing_titles):
+                    item=candidate
+                    break
+            if item is None:
+                continue
+            leads=signals.get(domain['domain_id'],[])
+            item['source_signals']=leads[:3]
+            item['public_signal_count']=len(leads)
+            item['research_priority']='SOURCE_SIGNAL' if leads else 'TOPICAL_GAP'
+            result.append(item)
+            seen_ids.add(item['proposal_id'])
+            existing_titles.add(identity_key(item['title']))
+            progress=True
             if len(result)>=limit:
                 break
+        if not progress:
+            break
     return result,{**stats,'state':'DISCOVERED' if result else 'NEEDS_EXTERNAL_RESEARCH',
                    'new_proposals':len(result)}
 
