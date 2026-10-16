@@ -4,14 +4,14 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-16T11:20:51.900632+00:00 |
+| at | 2026-10-16T11:29:00.936485+00:00 |
 | existing_published_posts | 135 |
 | existing_pages | 10 |
 | existing_products | 13 |
 | candidate_topics | 80 |
-| planned_topics | 0 |
-| claimable_topics | 0 |
-| writing | 0 |
+| planned_topics | 8 |
+| claimable_topics | 7 |
+| writing | 1 |
 | draft_authored | 0 |
 | qa_pass | 0 |
 | qa_fail | 0 |
@@ -26,7 +26,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | empty_category_violations | 0 |
 | broken_links | None |
 | broken_links_note | No full HTTP crawl yet; inventory graph is not a broken-link proof |
-| remaining_topic_target | 1000 |
+| remaining_topic_target | 992 |
 | remaining_candidate_target | 920 |
 | production_enabled | False |
 | capacity | 10000 |
