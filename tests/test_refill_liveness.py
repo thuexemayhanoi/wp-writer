@@ -19,6 +19,23 @@ class RefillLivenessTests(unittest.TestCase):
         self.root=Path(self.tmp.name)
         (self.root/'data/candidates').mkdir(parents=True)
 
+    def test_claimable_count_excludes_leases_submissions_and_wordpress_posts(self):
+        rows=[{'topic_id':f'NT-{i:06d}','topic_qa_status':'PLANNED'} for i in range(1,6)]
+        registry={'leases':{'W1':{'session':'writer-1','topic_ids':['NT-000001'],
+                                   'expires_at':'2099-01-01T00:00:00+00:00'}},
+                  'submissions':{'NT-000002':{'sha256':'hash'}}}
+        ledger={'posts':{'NT-000003':{'phase':'VERIFIED'}}}
+        self.assertEqual(refill.claimable_count(rows,registry,ledger),2)
+
+    def test_expired_unsubmitted_lease_does_not_block_refill(self):
+        rows=[{'topic_id':'NT-000001','topic_qa_status':'PLANNED'}]
+        registry={'leases':{'W1':{'session':'writer-1','topic_ids':['NT-000001'],
+                                   'expires_at':'2000-01-01T00:00:00+00:00'}},
+                  'submissions':{}}
+        self.assertEqual(refill.claimable_count(rows,registry,{'posts':{}}),1)
+        registry['submissions']['NT-000001']={'sha256':'hash'}
+        self.assertEqual(refill.claimable_count(rows,registry,{'posts':{}}),0)
+
     def test_no_candidates_fails_instead_of_green_noop(self):
         with patch.object(refill,'ROOT',self.root),\
              patch.object(refill,'RemoteState',DummyState),\
