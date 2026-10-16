@@ -49,15 +49,18 @@ def assess(policy, registry, ledger, topic_rows, qa_by_id, at=None, stall_minute
         ready.append({'topic_id': topic_id, 'minutes_waiting': elapsed_minutes(receipt.get('submitted_at'), at)})
 
     live_leases = {}
+    active_topic_ids = set()
     for slot, lease in registry.get('leases', {}).items():
         exp = parse_time(lease.get('expires_at'))
         if exp is not None and exp > at:
             live_leases[slot] = {'session': lease.get('session'), 'topics': len(lease.get('topic_ids', []))}
+            active_topic_ids.update(lease.get('topic_ids', []))
     blocked = sorted(s for s, info in registry.get('processed_requests', {}).items()
                      if info.get('status') == 'BLOCKED')
     planned = [t for t in topic_rows if t.get('topic_qa_status') == 'PLANNED']
+    # An expired claim does not reserve a topic; match claim() semantics.
     claimable = [t for t in planned if t['topic_id'] not in receipts
-                 and all(t['topic_id'] not in v.get('topic_ids', []) for v in registry.get('leases', {}).values())]
+                 and t['topic_id'] not in active_topic_ids]
     statuses = [record for record in posts.values() if record.get('phase') == 'VERIFIED']
     progress_at = max((parse_time(v.get('verified_at')) or parse_time(v.get('updated_at'))
                        for v in statuses if parse_time(v.get('verified_at')) or parse_time(v.get('updated_at'))),
