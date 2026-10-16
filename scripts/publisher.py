@@ -166,7 +166,7 @@ class Publisher:
             # WordPress would silently ignore it while appearing to succeed.
             payload['meta']={'_yoast_wpseo_title':meta['meta_title'],
                              '_yoast_wpseo_metadesc':meta['meta_description']}
-        self.record(topic['topic_id'],phase='POST_INTENT',source_hash=sha,slug=topic['proposed_slug'],expected_status=status,
+        self.record(topic['topic_id'],phase='POST_INTENT',created_at=now(),source_hash=sha,slug=topic['proposed_slug'],expected_status=status,
             category_id=category_id,visible_hash=digest(visible(rendered)),first_paragraph=visible(markdown.markdown(body.split('\n\n')[0])),
             meta_title=(meta or {}).get('meta_title'),meta_description=(meta or {}).get('meta_description'),
             intended_taxonomy_key=(route or {}).get('intended_taxonomy_key'),
@@ -225,6 +225,31 @@ def delivery_batch_limit(policy):
     if not isinstance(batches,int) or isinstance(batches,bool) or not 1<=batches<=5:
         raise ValueError('max_batches_per_run must be 1..5')
     return per_batch*batches
+
+
+def daily_created_count(ledger, utc_day, status=None):
+    """Count first-create intents for one UTC day, including uncertain POSTs.
+
+    Reconciliation updates updated_at, so it cannot serve as a stable
+    publication-day key. Older entries use verified_at/updated_at fallback;
+    new POST_INTENT entries carry an immutable created_at from the start.
+    """
+    if not re.fullmatch(r'\d{4}-\d{2}-\d{2}', utc_day):
+        raise ValueError('UTC day must be YYYY-MM-DD')
+    count = 0
+    for topic_id, rec in ledger.get('posts', {}).items():
+        if not topic_id.startswith('NT-'):
+            continue
+        state = rec.get('expected_status') or rec.get('status')
+        if state not in ('publish', 'draft'):
+            continue
+        if status is not None and state != status:
+            continue
+        stamped = (rec.get('created_at') or rec.get('verified_at')
+                   or rec.get('updated_at') or '')
+        if stamped[:10] == utc_day:
+            count += 1
+    return count
 
 
 def run(args):
@@ -316,12 +341,17 @@ def run(args):
                     acceptance_draft=bool(args.acceptance_topic))
             except ValueError as exc:
                 results.append({'topic_id':t['topic_id'],'status':'BLOCKED','errors':[str(exc)]});continue
-            daily=sum(k.startswith('NT-') and rec.get('expected_status')==route['status']
-                and rec.get('updated_at','')[:10]==now()[:10]
-                for k,rec in ledger['posts'].items())
-            limit=policy.get('max_new_posts_daily',10) if route['status']=='publish' else policy.get('max_new_drafts_daily',10)
-            if daily>=limit:
-                results.append({'topic_id':t['topic_id'],'status':'DAILY_CAP','mode':route['status']})
+            # One global owner cap across public posts and fallback drafts.
+            # Count uncertain POST_INTENT before any further external write.
+            today=now()[:10]
+            all_created=daily_created_count(ledger,today)
+            drafts_created=daily_created_count(ledger,today,status='draft')
+            daily_cap=policy.get('max_new_posts_daily',10)
+            draft_cap=policy.get('max_new_drafts_daily',10)
+            if all_created>=daily_cap or (route['status']=='draft' and drafts_created>=draft_cap):
+                results.append({'topic_id':t['topic_id'],'status':'DAILY_CAP',
+                    'mode':route['status'],'today_total':all_created,
+                    'daily_limit':daily_cap})
                 continue
             attempted+=1
             publisher.create(t,body,sha,route['category_id'],route['status'],live,meta,route=route)
