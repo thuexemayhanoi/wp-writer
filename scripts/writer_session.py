@@ -18,7 +18,38 @@ def live_leases(registry, epoch=None):
     if len(ids)!=len(set(ids)) or len(sessions)!=len(set(sessions)):raise ValueError('Ambiguous live lease registry')
     return active
 
-def claim(registry, rows, session, slot='auto', count=2, epoch=None, requested_ids=None):
+def writer_finished(topic_id, registry, ledger, rows):
+    """A submitted QA-PASS draft may leave its writer slot before WordPress publication.
+
+    Only release an admitted, immutable submission after fresh local QA agrees with
+    its receipt. A failed/stale review remains REPAIR; public publishing remains
+    exclusively controlled by the publisher and its remote ledger.
+    """
+    record=ledger.get('posts',{}).get(topic_id,{})
+    if record.get('phase')=='VERIFIED':
+        return True
+    receipt=registry.get('submissions',{}).get(topic_id)
+    if not receipt:
+        return False
+    path=ROOT/'posts/drafts'/(topic_id+'.md')
+    try:
+        if not path.is_file():
+            return False
+        from qa import evaluate,read_article
+        meta,_,sha=read_article(path)
+        if (receipt.get('sha256')!=sha or meta.get('topic_id')!=topic_id or
+            receipt.get('session')!=meta.get('writer_session') or
+            receipt.get('slot')!=meta.get('writer_slot')):
+            return False
+        if record and record.get('source_hash') not in (None,sha):
+            return False
+        topic=next(t for t in rows if t['topic_id']==topic_id)
+        return evaluate(path,topic,rows=rows,check_claim=False)['status']=='PASS'
+    except (ValueError,KeyError,OSError,StopIteration):
+        return False
+
+
+def claim(registry, rows, session, slot='auto', count=2, epoch=None, requested_ids=None, completed_ids=None):
     if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_-]{3,79}',session):raise ValueError('Use a stable public session label, never a credential')
     if not 1<=count<=10:raise ValueError('Lease size 1..10')
     at=epoch or dt.datetime.now(dt.timezone.utc);active=live_leases(registry,at)
@@ -30,7 +61,8 @@ def claim(registry, rows, session, slot='auto', count=2, epoch=None, requested_i
     if not slot or slot in active:raise ValueError('Slot has a valid lease')
     used={i for v in active.values() for i in v['topic_ids']}
     submitted=registry.get('submissions',{})
-    repairs=[t['topic_id'] for t in rows if t['topic_id'] not in used and not t.get('wp_post_id') and submitted.get(t['topic_id'],{}).get('session')==session]
+    completed_ids=set(completed_ids or ())
+    repairs=[t['topic_id'] for t in rows if t['topic_id'] not in used and not t.get('wp_post_id') and submitted.get(t['topic_id'],{}).get('session')==session and t['topic_id'] not in completed_ids]
     eligible=repairs+[t['topic_id'] for t in rows if t['topic_qa_status']=='PLANNED' and t['topic_id'] not in used and t['topic_id'] not in submitted and not t.get('wp_post_id')]
     if requested_ids:
         if len(requested_ids)!=len(set(requested_ids)) or not set(requested_ids)<=set(eligible):raise ValueError('Requested topics not claimable')
@@ -61,21 +93,22 @@ def main():
         if a.action=='begin':
             ledger=json.loads(git('show',base+':data/state/publication-ledger.json'))
             completed={k for k,v in ledger['posts'].items() if v.get('phase')=='VERIFIED'}
-            rows=[{**t,'wp_post_id':ledger['posts'][t['topic_id']].get('wp_id')} if t['topic_id'] in completed else t for t in rows]
+            completed.update(i for i in reg.get('submissions',{}) if writer_finished(i,reg,ledger,rows))
+            rows=[{**t,'wp_post_id':ledger['posts'][t['topic_id']].get('wp_id')} if t['topic_id'] in ledger['posts'] and ledger['posts'][t['topic_id']].get('phase')=='VERIFIED' else t for t in rows]
             # Terminal receipt releases the slot, but immutable submission history stays.
             for s,v in list(reg.get('leases',{}).items()):
                 if v['session']==a.session:
                     v['topic_ids']=[i for i in v['topic_ids'] if i not in completed]
                     if not v['topic_ids']:del reg['leases'][s]
-            slot,reg=claim(reg,rows,a.session,a.slot,a.count)
+            slot,reg=claim(reg,rows,a.session,a.slot,a.count,completed_ids=completed)
         elif a.action in ('heartbeat','release'):
             matches=[(s,v) for s,v in live_leases(reg).items() if v['session']==a.session]
             if len(matches)!=1:raise ValueError('No owned live slot')
             slot,lease=matches[0]
             if a.action=='release':
                 ledger=json.loads(git('show',base+':data/state/publication-ledger.json'))
-                pending=[i for i in lease['topic_ids'] if i in reg.get('submissions',{}) and ledger['posts'].get(i,{}).get('phase')!='VERIFIED']
-                if pending:raise ValueError('Submitted drafts still queued; release after terminal receipt')
+                pending=[i for i in lease['topic_ids'] if i in reg.get('submissions',{}) and not writer_finished(i,reg,ledger,rows)]
+                if pending:raise ValueError('Submitted drafts not QA-PASS or verified; REPAIR before release')
                 del reg['leases'][slot]
             else:lease['expires_at']=(dt.datetime.now(dt.timezone.utc)+dt.timedelta(hours=12)).isoformat()
         else:

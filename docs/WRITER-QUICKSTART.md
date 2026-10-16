@@ -18,7 +18,7 @@ python scripts/writer-session.py confirm --session s-your-session
 python scripts/writer-session.py heartbeat --session s-your-session
 ```
 
-Thay ID bằng ID thực đã nhận. `check`/`push` kiểm tra bằng QA chuẩn. `confirm` đọc ledger và registry mới nhất, không tự tạo nội dung. Giữ đúng session khi phục hồi sau quota. Sau khi receipt VERIFIED, `begin` giải phóng ID hoàn tất và nhận tiếp. Không đổi session để né REPAIR. Lease của người khác còn hạn không được chiếm; bản nháp của người khác hết lease chỉ được bàn giao sau khi chủ/coordinator cho phép.
+Thay ID bằng ID thực đã nhận. `check`/`push` kiểm tra bằng QA chuẩn. `confirm` đọc ledger và registry mới nhất, không tự tạo nội dung. Giữ đúng session khi phục hồi sau quota. Sau khi bài đã được intake ghi receipt có hash bất biến **và QA mới tính lại đạt PASS**, `begin` được giải phóng ID đã nộp để nhận tiếp, **ngay cả khi Production OFF và WordPress chưa đăng bài**. Một submission đã chuyển qua bước này vẫn khóa ID khỏi writer khác; QA FAIL/REVIEW phải sửa qua REPAIR trước khi nhả lease. WordPress ledger/publisher vẫn chịu trách nhiệm xuất bản và đối soát riêng. Không đổi session để né REPAIR. Lease của người khác còn hạn không được chiếm; bản nháp của người khác hết lease chỉ được bàn giao sau khi chủ/coordinator cho phép.
 
 GitHub Actions tự nhận draft đã push, kiểm tra rồi lưu QA/REPAIR. Production hiện OFF: không có bài SEO công khai tự đăng. Khi nghiệm thu và được chủ bật production, publisher tự chạy batch tối đa 2; lịch 30 phút tiếp tục drain backlog, không cần phiên AI còn mở. Actions không viết bài khi các phiên writer đã đóng.
 
