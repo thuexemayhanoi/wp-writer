@@ -1,5 +1,20 @@
 {
   "version": 1,
-  "posts": {},
+  "posts": {
+    "ACCEPTANCE-20261016": {
+      "phase": "POST_INTENT",
+      "source_hash": "4ee86dfe97c73c51fc87e33d55e1821621d271871f35c51f17f20b9e280d05db",
+      "slug": "wp-writer-factory-acceptance-20261016",
+      "expected_status": "draft",
+      "category_id": 69,
+      "visible_hash": "4ee86dfe97c73c51fc87e33d55e1821621d271871f35c51f17f20b9e280d05db",
+      "first_paragraph": "Bài nháp kiểm thử giao dịch của Universal Content Factory. Chỉ kiểm tra REST, danh mục Blog, ledger và khả năng chạy lại không tạo trùng. Không phải bài SEO, không thuộc chỉ tiêu 1.000 bài và không được xuất bản công khai. Bài nháp kết nối cũ 3861 được giữ nguyên.",
+      "meta_title": null,
+      "meta_description": null,
+      "git_commit": "c5d52f9f5c0f821fd17cfa192c2cef827eac5c1c",
+      "run_id": "38893036151",
+      "updated_at": "2026-10-16T11:20:28.937200+00:00"
+    }
+  },
   "categories": {}
 }
