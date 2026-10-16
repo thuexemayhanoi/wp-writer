@@ -13,28 +13,11 @@ from taxonomy_sync import by_key,resolve,materialize
 
 LEDGER='data/state/publication-ledger.json'
 
-def owner_approved_fast_track(policy):
-    """Owner's explicit risk acceptance, NOT a claim of verified GitHub security.
-
-    Existing GitHub main is unprotected. This opt-in mirrors /wp-aiwriter:
-    writers submit content; QA and the privileged Publisher independently
-    verify it. It does not fabricate branch protection or public E2E status.
-    """
-    return (policy.get('owner_approved_fast_track') is True
-        and policy.get('owner_accepts_unprotected_main') is True
-        and policy.get('owner_approves_first_live_publication') is True
-        and bool(policy.get('owner_approval_ref')))
-
-
 def production_allowed(policy):
-    verified=(policy.get('acceptance_passed') is True
-              and policy.get('security_controls_verified') is True)
-    owner_override=owner_approved_fast_track(policy)
-    return (policy.get('production_enabled') is True and policy.get('mode')=='production'
-        and bool(policy.get('owner_approval_ref'))
-        and (verified or owner_override)
-        and policy.get('seo_adapter_verified') is True
-        and not policy.get('paused') and not policy.get('emergency_stop'))
+    return (policy.get('production_enabled') is True and policy.get('mode')=='production' and
+        bool(policy.get('owner_approval_ref')) and policy.get('acceptance_passed') is True and
+        policy.get('security_controls_verified') is True and policy.get('seo_adapter_verified') is True and
+        not policy.get('paused') and not policy.get('emergency_stop'))
 
 def draft_staging_allowed(policy):
     """Unattended draft writes require independent owner and security approvals."""
@@ -341,15 +324,7 @@ def run(args):
                 results.append({'topic_id':t['topic_id'],'status':'DAILY_CAP','mode':route['status']})
                 continue
             attempted+=1
-            record=publisher.create(t,body,sha,route['category_id'],route['status'],live,meta,route=route)
-            if route['status']=='publish' and owner_approved_fast_track(policy) and not policy.get('acceptance_passed'):
-                # First real live article is the acceptance: a second independent
-                # frontend readback must pass before any next POST, no owner click.
-                # This does not change the factual acceptance_passed flag.
-                if record.get('phase')!='VERIFIED' or record.get('status')!='publish':
-                    raise ValueError('Owner fast-track live article not verified')
-                verify(client,t,record)
-                print('OWNER_FAST_TRACK_PUBLIC_READBACK_PASS: '+t['topic_id'])
+            publisher.create(t,body,sha,route['category_id'],route['status'],live,meta,route=route)
             results.append({'topic_id':t['topic_id'],'status':'WORDPRESS_'+route['status'].upper(),
                 'category_id':route['category_id'],'category_resolution':route['category_resolution'],
                 'intended_taxonomy_key':route['intended_taxonomy_key'],
