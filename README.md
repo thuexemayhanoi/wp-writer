@@ -1,6 +1,17 @@
 # WP-WRITER — UNIVERSAL AI CONTENT FACTORY FOR WORDPRESS
 ## MASTER README / MASTER WORK SPECIFICATION — Nguyễn Tú
 
+## Nâng cấp native auto-delivery (chuẩn bị bật)
+
+Sau khi Writer push bài, hệ thống tự intake + QA và định tuyến bài đạt chuẩn sang WordPress:
+- **Production được nghiệm thu:** category chính xác → xuất bản công khai; thiếu/sai category → WordPress nháp với lý do mapping và taxonomy đích trong ledger.
+- **Staging được duyệt:** mọi bài đạt QA vào WordPress nháp, không public.
+- **Production và staging đều chưa được phê duyệt đầy đủ:** dry-run, không gửi WordPress. Cần bảo vệ branch/secrets và nghiệm thu Yoast trước khi kích hoạt.
+- Tạo tối đa 2 bài/lần chạy, giới hạn riêng bài mới public/nháp theo ngày. Không auto-update hoặc auto-promote draft đã có.
+- Chỉ tham khảo hành vi của wp-aiwriter; code và Topic Factory của wp-writer hoàn toàn độc lập.
+
+Quy trình và điều kiện: [WordPress Auto Delivery](docs/WORDPRESS-AUTO-DELIVERY.md).
+
 ## Trạng thái triển khai cập nhật 16/10/2026
 
 Đặc tả MASTER phía dưới được giữ làm yêu cầu gốc. Những chỗ ghi “CHƯA” hoặc “ĐỀ XUẤT” là snapshot trước triển khai; trạng thái thực luôn lấy từ `reports/dashboard.json`, `reports/health.json` và ledger.
