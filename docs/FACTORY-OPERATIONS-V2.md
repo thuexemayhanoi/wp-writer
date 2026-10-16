@@ -22,6 +22,7 @@ Supported statuses:
 | `STALLED` | QA-PASS admitted article waiting >120 minutes despite approved delivery being ON; workflow FAIL |
 | `NEEDS_RECONCILE` | WordPress POST intent unresolved; workflow FAIL, never POST again blindly |
 | `CONFIG_BLOCKED` | Delivery requested but security/owner/SEO acceptance flags not all met; workflow FAIL |
+| `SOURCE_MISMATCH` | QA PASS snapshot differs from immutable submitted article hash; workflow FAIL |
 | `NEEDS_TOPIC_EXPANSION` | Cannot assign a valid new topic; external research needed, not fake content |
 | `AWAITING_WRITERS` | At least one claimable topic but no active external AI lease |
 | `RUNNING` | Active Writer and no overdue delivery |
