@@ -184,18 +184,19 @@ class PublisherTests(unittest.TestCase):
     def test_wrong_site_refused(self):
         with patch.dict(os.environ,{'WP_URL':'https://blog.rentbikehanoi.com'}):
             with self.assertRaises(ValueError):WP()
-    def test_connection_smoke_cannot_write_wordpress(self):
+    def test_single_connection_check_is_read_only_and_environment_scoped(self):
         import yaml
-        from pathlib import Path
-        path=ROOT/'.github/workflows/wp-connection-smoke.yml'
+        path=ROOT/'.github/workflows/wp-environment-credential-check.yml'
         source=path.read_text(encoding='utf-8')
         workflow=yaml.safe_load(source)
-        self.assertEqual(workflow['jobs']['verify-credentials']['environment'],'wordpress-production')
+        self.assertEqual(workflow['jobs']['verify-secrets']['environment'],'wordpress-production')
         self.assertIn('/wp-json/wp/v2/users/me?context=edit',source)
         self.assertNotIn('method="POST"',source)
         self.assertNotIn("method='POST'",source)
         self.assertNotIn('status=draft',source)
         self.assertNotIn('call("posts"',source)
+        self.assertFalse((ROOT/'.github/workflows/wp-connection-smoke.yml').exists())
+        self.assertFalse((ROOT/'.github/workflows/factory-acceptance.yml').exists())
 
     def test_all_wordpress_secret_bearing_jobs_use_restricted_environment(self):
         import yaml
@@ -208,6 +209,6 @@ class PublisherTests(unittest.TestCase):
                 if any(field in source for field in ('secrets.WP_URL','secrets.WP_USERNAME','secrets.WP_APPLICATION_PASSWORD')):
                     credential_jobs+=1
                     self.assertEqual(job.get('environment'),'wordpress-production',msg=str(path)+': '+name)
-        self.assertGreaterEqual(credential_jobs,6)
+        self.assertGreaterEqual(credential_jobs,4)
 
 if __name__=='__main__':unittest.main()

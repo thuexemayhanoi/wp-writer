@@ -2,6 +2,13 @@
 
 Hiện tại **OFF trên `main`** (kiểm tra 2026-10-16). Một mình `production_enabled=true` không đủ mở xuất bản.
 
+## Đơn giản hóa workflow — 17/10/2026
+
+- **Đã bỏ hai workflow trùng/cũ:** `.github/workflows/wp-connection-smoke.yml` (trùng với xác thực mới), `.github/workflows/factory-acceptance.yml` (thử tạo nháp cũ, không phải xuất bản thật).
+- **Chỉ cần một kiểm tra kết nối:** `.github/workflows/wp-environment-credential-check.yml`, đọc WordPress REST bằng Environment Secrets; đã có bằng chứng PASS sau khi owner xóa Repository Secrets.
+- **Không phải chạy các workflow thử nghiệm này khi viết bài.** W1/W2/W3 chỉ nộp bài, Writer QA và Publisher tự nối nhau qua GitHub; người quản lý chỉ kiểm tra các lỗi QA thực tế.
+- Không bỏ `config/production-policy.json`, `Emergency Stop`, ledger, QA ≥85, category mapping hay chống trùng. Các phần này bảo vệ website thật. **Xóa workflow phụ không đồng nghĩa Production đã được bật**; tiếp tục xử lý transport CAS và bảo vệ mã.
+
 ## Checkpoint đã hoàn thành — 17/10/2026
 
 **Đã xác minh trực tiếp, không bắt Tổng Thống nhập lại:**
