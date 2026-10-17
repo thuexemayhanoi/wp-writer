@@ -1,10 +1,27 @@
 {
-  "at": "2026-10-17T18:19:20.657132+00:00",
+  "at": "2026-10-17T18:25:14.880594+00:00",
   "attempted": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
-  "qa": [],
+  "qa": [
+    {
+      "topic_id": "NT-000079",
+      "status": "EXTERNAL_WORDPRESS_DRIFT",
+      "wp_id": 3882,
+      "differences": {
+        "seo_title": {
+          "ledger": "Theo dõi chính sách xe máy điện ở Việt Nam: nguồn chính thức",
+          "wordpress": "Theo dõi cập nhật chính sách xe máy điện ở Việt Nam: nguồn chính thức nào đáng tin?"
+        },
+        "seo_description": {
+          "ledger": "Cách theo dõi cập nhật chính sách xe máy điện ở Việt Nam: tìm nguồn chính thức, kiểm tra phạm vi và thời điểm áp dụng, lưu bằng chứng khi thông tin chưa thống nhất.",
+          "wordpress": "Theo dõi cập nhật chính sách xe máy điện ở Việt Nam: nguồn chính thức nào đáng tin?"
+        }
+      },
+      "action": "manual reconciliation; never create/update automatically"
+    }
+  ],
   "backlog_drains_on": "successful Writer QA or fallback schedule",
   "production": true
 }

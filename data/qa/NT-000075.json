@@ -1,6 +1,6 @@
 {
   "topic_id": "NT-000075",
-  "status": "FAIL",
+  "status": "PASS",
   "source_sha256": "7b584d911560845fac395fe9c2db8e22a1cb3b8641b9311f66f311bc6e70f5f7",
   "body_sha256": "8ce40f30984c134a02e8c4d7e42008ad1f25a3df81da6b250589df9733204ea5",
   "word_count": 3329,
@@ -60,10 +60,7 @@
       "review": []
     },
     "4": {
-      "errors": [
-        "existing URL collision:3938",
-        "Near duplicate existing:3938"
-      ],
+      "errors": [],
       "review": []
     },
     "5": {
@@ -75,15 +72,25 @@
       "review": []
     }
   },
-  "errors": [
-    "existing URL collision:3938",
-    "Near duplicate existing:3938"
-  ],
+  "errors": [],
   "review": [],
   "source_evidence": [],
-  "at": "2026-10-17T18:18:09.005515+00:00",
+  "evidence_recheck": null,
+  "at": "2026-10-17T18:23:50.051265+00:00",
   "live_links_checked": false,
   "legal_required": false,
-  "rules_sha256": "5c7b2e7f318acd52ea1d342526811e33d60625dbd4753ef441cfdd9e7a3123d5",
-  "inventory_sha256": "22091661a20f777a2010a3cb97c1f20cba6bcadcb5b7b11105f58ccc638fec21"
+  "rules_sha256": "753c3954544d1f364ac675edf5035b88604dfa48f592f421996610ddf160dc70",
+  "inventory_sha256": "5c3394967f0a4404fceed396ef6f72429e026e0bffda46098639401cd450d766",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
 }
