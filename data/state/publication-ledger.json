@@ -601,6 +601,24 @@
         "seo_description": "Buồn ngủ khi chạy xe máy đường dài: dừng ngay khi mệt hay mất tập trung, hai mốc 2 tiếng và 4 tiếng trong khuyến cáo của công an, cách nghỉ an toàn bên đường.",
         "checked_at": "2026-10-17T19:10:24.769052+00:00"
       }
+    },
+    "NT-000117": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-17T19:12:02.913733+00:00",
+      "source_hash": "a7c56ebd23875cea34e7071977591b4daa7d29c9249600bcee8982137f876a5c",
+      "slug": "di-xe-may-ban-dem-cach-giu-tam-nhin-khi-bi-choi-den-pha-xe-nguoc-chieu",
+      "expected_status": "publish",
+      "category_id": 161,
+      "visible_hash": "81f816cbade60a3c80c5a257d7551980ce86c3035d03bbc1c3874095104b8be7",
+      "first_paragraph": "Đi xe máy ban đêm mà gặp đèn pha xe ngược chiều, cách giữ tầm nhìn là không nhìn thẳng vào nguồn sáng: hãy chuyển mắt sang vạch kẻ đường, biển báo, góc đường phía trước và những vật sáng khác, đồng thời chạy với tốc độ phù hợp điều kiện ánh sáng và giữ khoảng cách rộng hơn ban ngày. Các ý này đến từ hai trang của cơ quan công an được đối chiếu trong bài: khuyến cáo năm 2026 của Công an phường Vũ Ninh cho người lái xe nói chung và hướng dẫn lái xe trong đêm tối năm 2015 của Cục CSGT viết cho người lái ô tô. Vì vậy với xe máy, chúng là nguyên tắc chung có thể áp dụng tương tự, không phải hướng dẫn riêng cho xe máy.",
+      "meta_title": "Đi xe máy ban đêm: giữ tầm nhìn khi bị chói đèn pha xe ngược chiều",
+      "meta_description": "Đi xe máy ban đêm khi gặp đèn pha xe ngược chiều: nên nhìn vào đâu, giảm tốc thế nào, xử lý khi bị chói từ phía sau và việc nên làm với đèn, gương trước chuyến đi.",
+      "intended_taxonomy_key": "road-safety",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "2799285e3cfb322661e8e8b01349032c46050490",
+      "run_id": "39061014699",
+      "updated_at": "2026-10-17T19:12:02.914935+00:00"
     }
   },
   "categories": {}
