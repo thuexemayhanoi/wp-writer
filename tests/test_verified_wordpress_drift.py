@@ -16,7 +16,8 @@ class ConfirmedWordPressDriftTests(unittest.TestCase):
 
     def test_externally_promoted_legacy_draft_is_not_silent(self):
         topic=self.rows['NT-000079']
-        old=self.ledger['NT-000079']
+        # Simulate the original draft snapshot before explicit reconciliation.
+        old={**self.ledger['NT-000079'], 'status':'draft', 'expected_status':'draft'}
         # Real REST readback: WordPress #3882 was made public externally.
         live=[{'resource':'posts','id':3882,'status':'publish',
                'slug':topic['proposed_slug'],'categories':[159],
@@ -27,6 +28,17 @@ class ConfirmedWordPressDriftTests(unittest.TestCase):
         self.assertEqual(issue['differences']['status'],
                          {'ledger':'draft','wordpress':'publish'})
         self.assertIn('never create/update',issue['action'])
+
+    def test_owner_reconciled_promotion_matches_verified_live_state(self):
+        topic=self.rows['NT-000079']
+        record=self.ledger['NT-000079']
+        self.assertTrue(record['external_promotion_not_via_qa'])
+        self.assertEqual(record['editorial_qa_status'], 'FAIL')
+        self.assertEqual(record['wp_id'], 3882)
+        live=[{'resource':'posts','id':3882,'status':'publish',
+               'slug':topic['proposed_slug'],'categories':[159],
+               'link':topic['canonical_target']}]
+        self.assertIsNone(confirmed_post_drift(topic, record, live))
 
     def test_verified_published_post_matches_readback(self):
         topic=self.rows['NT-000037']
