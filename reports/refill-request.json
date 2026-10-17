@@ -1,22 +1,22 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 0,
+  "ready_stock": 10,
   "trigger_below_ready": 900,
   "rounds_opened": 1,
   "unlimited_rounds": true,
   "approved_capacity": 1000,
-  "topic_rows": 101,
-  "capacity_remaining": 899,
+  "topic_rows": 111,
+  "capacity_remaining": 889,
   "order": {
     "id": "RF-0001",
     "round": 1,
     "target_min": 200,
     "target_max": 300,
-    "accepted_so_far": 0,
-    "remaining_to_min": 200,
-    "remaining_to_max": 300,
-    "batches_still_needed": 20,
+    "accepted_so_far": 10,
+    "remaining_to_min": 190,
+    "remaining_to_max": 290,
+    "batches_still_needed": 19,
     "batch_size": 10,
     "capacity_limited": false,
     "stalled": false,
@@ -30,7 +30,7 @@
       },
       {
         "taxonomy_key": "urban-mobility",
-        "quota": 20,
+        "quota": 21,
         "known_now": 9,
         "allocation": 92
       },
@@ -72,14 +72,8 @@
       },
       {
         "taxonomy_key": "engine-care",
-        "quota": 9,
-        "known_now": 12,
-        "allocation": 50
-      },
-      {
-        "taxonomy_key": "road-safety",
-        "quota": 9,
-        "known_now": 12,
+        "quota": 8,
+        "known_now": 17,
         "allocation": 50
       },
       {
@@ -87,6 +81,12 @@
         "quota": 8,
         "known_now": 4,
         "allocation": 36
+      },
+      {
+        "taxonomy_key": "road-safety",
+        "quota": 8,
+        "known_now": 17,
+        "allocation": 50
       },
       {
         "taxonomy_key": "driving-licence",
@@ -113,6 +113,12 @@
         "allocation": 50
       },
       {
+        "taxonomy_key": "rental-procedures",
+        "quota": 7,
+        "known_now": 9,
+        "allocation": 36
+      },
+      {
         "taxonomy_key": "reviews",
         "quota": 7,
         "known_now": 29,
@@ -129,12 +135,6 @@
         "quota": 6,
         "known_now": 2,
         "allocation": 27
-      },
-      {
-        "taxonomy_key": "rental-procedures",
-        "quota": 6,
-        "known_now": 9,
-        "allocation": 36
       },
       {
         "taxonomy_key": "electric",
@@ -157,12 +157,12 @@
     ],
     "next_batch_categories": {
       "battery-charging": 1,
+      "driving-licence": 1,
       "electric-maintenance": 1,
       "electric-tech": 1,
       "electric-transition": 1,
-      "engine-care": 1,
+      "hanoi-travel": 1,
       "rental-guide": 1,
-      "road-safety": 1,
       "trip-planning": 1,
       "urban-mobility": 1,
       "vietnam-travel": 1
@@ -170,9 +170,9 @@
   },
   "dedupe_universe": {
     "published_wordpress_items": 183,
-    "topics_in_factory": 101,
+    "topics_in_factory": 111,
     "topics_by_status": {
-      "PLANNED": 29,
+      "PLANNED": 39,
       "RESEARCH": 72
     },
     "rule": "A candidate is compared with EVERY published WordPress item and EVERY topic in the factory (any status except REJECTED), and with the other new rows of the same research run."
