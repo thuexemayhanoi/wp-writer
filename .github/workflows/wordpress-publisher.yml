@@ -28,6 +28,9 @@ jobs:
         (github.event.workflow_run.conclusion == 'success' &&
          github.event.workflow_run.event == 'push' &&
          github.event.workflow_run.head_branch == 'main'))
+    # Secrets should be migrated to a restricted production Environment by owner admin.
+    # This name alone is NOT adequate isolation; live branch security is also checked.
+    environment: wordpress-production
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
@@ -78,6 +81,11 @@ jobs:
           PY
       - if: steps.mode.outputs.active != 'true'
         run: python scripts/publisher.py
+      - name: Verify REAL GitHub ruleset protection before WordPress credentials
+        if: steps.mode.outputs.active == 'true'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/production_security.py
       - name: QA-gated serialized REST publisher (2x5, production gated in code)
         if: steps.mode.outputs.active == 'true'
         env:
