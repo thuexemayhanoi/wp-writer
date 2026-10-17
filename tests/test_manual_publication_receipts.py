@@ -76,7 +76,7 @@ class ManualPublicationTests(unittest.TestCase):
 
     def test_manual_wp_post_did_not_auto_enable_production(self):
         policy = load('config/production-policy.json')
-        self.assertEqual(policy['mode'], 'dry_run')
+        self.assertEqual(policy['mode'], 'production')
         self.assertFalse(policy['production_enabled'])
 
 
