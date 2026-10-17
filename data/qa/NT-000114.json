@@ -1,6 +1,6 @@
 {
   "topic_id": "NT-000114",
-  "status": "PASS",
+  "status": "FAIL",
   "source_sha256": "4c42ee4abf0d64fbec6b467141a89aba82eb0ef66e67b0847e58659e33d3e9d5",
   "body_sha256": "f5c63947c1493cf2e3e18282a3132c05f8ee3e8f170cd68366f5c8c793651411",
   "word_count": 2927,
@@ -56,7 +56,10 @@
       "review": []
     },
     "4": {
-      "errors": [],
+      "errors": [
+        "existing URL collision:3956",
+        "Near duplicate existing:3956"
+      ],
       "review": []
     },
     "5": {
@@ -68,31 +71,15 @@
       "review": []
     }
   },
-  "errors": [],
-  "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vnmha.mae.gov.vn/canh-bao-gia-tang-o-nhiem-khong-khi-16851.htm",
-      "supports": "Tin cảnh báo ngày 26/11/2025 đăng trên trang của Cục Khí tượng Thủy văn: Hà Nội và các tỉnh lân cận nhiều khả năng chịu ảnh hưởng mạnh của nghịch nhiệt, lặng gió làm tích tụ bụi mịn PM2.5, AQI có thể vượt 150 (ngưỡng xấu); khung 10 ngày; sương mù dày, độ ẩm cao, khuếch tán kém; nhóm dễ tổn thương hạn chế hoạt động ngoài trời, nhất là sáng sớm và ban đêm.",
-      "sha256": "92cfeb76cf85c36dd9fd7a1a15110b3ace91535c4bdcfd87c82b918af9d1bdb0",
-      "verified_at": "2026-10-17T13:42:29.890218+00:00"
-    },
-    {
-      "url": "https://mae.gov.vn/SMPT_Publishing_UC/KhaiThac/TinTuc/pInTinTuc.aspx?ItemID=16845&UrlList=",
-      "supports": "Bài đăng ngày 30/09/2024 trên mae.gov.vn: ô nhiễm bụi mịn PM2.5 ở các khu vực trọng điểm quanh Hà Nội diễn ra theo mùa từ khoảng tháng 10-11 đến tháng 4, dao động trong ngày và tập trung vào 6-8 giờ sáng và 17-19 giờ chiều; ngày lặng gió bụi tích tụ, mùa đông nghịch nhiệt làm tăng nồng độ PM2.5; các nguồn bụi khác; khí hậu, thời tiết làm mức ô nhiễm ở Hà Nội lớn hơn.",
-      "sha256": "5020c0e0d7e6c1db85c89a7357c581be8894b60d3c91df087c23bb4b2fe42c62",
-      "verified_at": "2026-10-17T13:42:31.654637+00:00"
-    },
-    {
-      "url": "https://sonnmt.hanoi.gov.vn/index.php/tin-t-c/moi-tru-ng/16176-ha-n-i-khong-khi-o-nhi-m-do-hi-n-tu-ng-ngh-ch-nhi-t",
-      "supports": "Tin đề ngày 18/09/2019 trên trang của Sở Nông nghiệp và Môi trường Hà Nội (dẫn monre.gov.vn ngày 17/9/2019): ngày 16/9 AQI ở Hà Nội dao động 150-175 (nhóm màu đỏ), các chuyên gia cho nghịch nhiệt là nguyên nhân chính làm bụi PM2.5 tăng đột biến; số đo tại các điểm đo; để đánh giá toàn diện cần số liệu nhiều thông số liên tục trong ngày và trong năm.",
-      "sha256": "e6f77887b9453152c671483e1d7a7c1987479b3b9bf4cdbfe1ee60eefc7e0051",
-      "verified_at": "2026-10-17T13:42:33.304360+00:00"
-    }
+  "errors": [
+    "existing URL collision:3956",
+    "Near duplicate existing:3956"
   ],
-  "at": "2026-10-17T13:42:39.735134+00:00",
-  "live_links_checked": true,
+  "review": [],
+  "source_evidence": [],
+  "at": "2026-10-17T13:57:34.937358+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "8c9a341711a4cb2bb95e9d793d27239082e7f18b42cc7d5fdc11ed6f01a6cd0e",
-  "inventory_sha256": "2c82884dc15a4e53a2acc93ab41a73b1ed5f5014bfc9df9ea4f877ca00c85899"
+  "inventory_sha256": "22091661a20f777a2010a3cb97c1f20cba6bcadcb5b7b11105f58ccc638fec21"
 }

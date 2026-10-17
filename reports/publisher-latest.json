@@ -1,19 +1,10 @@
 {
-  "at": "2026-10-17T13:42:51.431472+00:00",
-  "attempted": 1,
+  "at": "2026-10-17T13:58:45.770330+00:00",
+  "attempted": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
-  "qa": [
-    {
-      "topic_id": "NT-000114",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    }
-  ],
+  "qa": [],
   "backlog_drains_on": "successful Writer QA or fallback schedule",
   "production": true
 }

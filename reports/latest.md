@@ -4,19 +4,23 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-17T13:42:51.561544+00:00 |
-| existing_published_posts | 159 |
+| at | 2026-10-17T13:58:45.887508+00:00 |
+| existing_published_posts | 160 |
 | existing_pages | 10 |
 | existing_products | 13 |
 | candidate_topics | 101 |
 | planned_topics | 29 |
 | claimable_topics | 7 |
-| writing | 7 |
+| ready_stock | 0 |
+| stock_stages | {'IDEA': 80, 'RESEARCH': 72, 'REJECTED': 0, 'PLANNED': 0, 'PLANNED_HOLD': 4, 'CLAIMED': 0, 'AUTHORED': 0, 'QA_PASS': 0, 'PUBLISHED': 25, 'WP_DRAFT': 0} |
+| needs_research | True |
+| research_shortfall | 100 |
+| writing | 0 |
 | draft_authored | 22 |
-| qa_pass | 22 |
-| qa_fail | 0 |
+| qa_pass | 0 |
+| qa_fail | 22 |
 | qa_review | 0 |
-| repair_queue | 0 |
+| repair_queue | 22 |
 | wordpress_draft | 0 |
 | wordpress_published | 25 |
 | verified_public | 25 |
@@ -31,7 +35,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | delivery_mode | production |
 | production_enabled | True |
 | draft_staging_enabled | False |
-| qa_pass_live_checked | 1 |
+| qa_pass_live_checked | 0 |
 | qa_pass_awaiting_wordpress | 0 |
 | queued_topic_ids | [] |
 | pending_wordpress_intents | [] |

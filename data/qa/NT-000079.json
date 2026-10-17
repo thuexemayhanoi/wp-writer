@@ -1,6 +1,6 @@
 {
   "topic_id": "NT-000079",
-  "status": "PASS",
+  "status": "FAIL",
   "source_sha256": "4fda9d6ce72c7ab6aabbe468adda683c93083d0991d884733e50b320c5d3fe9f",
   "body_sha256": "39d7cf5d7d619e1bc5badf3dba392c347a20045856596266f89e31ebdaa6ccd7",
   "word_count": 2243,
@@ -58,7 +58,10 @@
       "review": []
     },
     "4": {
-      "errors": [],
+      "errors": [
+        "existing URL collision:3882",
+        "Near duplicate existing:3882"
+      ],
       "review": []
     },
     "5": {
@@ -70,12 +73,15 @@
       "review": []
     }
   },
-  "errors": [],
+  "errors": [
+    "existing URL collision:3882",
+    "Near duplicate existing:3882"
+  ],
   "review": [],
   "source_evidence": [],
-  "at": "2026-10-17T13:41:02.994831+00:00",
+  "at": "2026-10-17T13:57:28.061053+00:00",
   "live_links_checked": false,
   "legal_required": true,
   "rules_sha256": "8c9a341711a4cb2bb95e9d793d27239082e7f18b42cc7d5fdc11ed6f01a6cd0e",
-  "inventory_sha256": "9dae8343eea1b06c785aa6848898c4fa268b1b6995348f6828bed8ac43346308"
+  "inventory_sha256": "22091661a20f777a2010a3cb97c1f20cba6bcadcb5b7b11105f58ccc638fec21"
 }
