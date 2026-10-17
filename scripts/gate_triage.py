@@ -7,12 +7,13 @@ Classes
   REAL_RISK      duplicate URL/intent, wrong category, unverifiable source, wrong legal/price/business fact, fabricated
                  experience, or anything this module does not recognise (fail closed). Never auto-healed.
   WRITER_REPAIR  an authoring defect only the writer session can fix (SEO score, length, structure, meta, links, editorial
-                 evidence). Counted per draft version; after `max_attempts` versions it needs the owner.
+                 evidence). Counted per changed draft version; after the content-repair limit it needs review.
   INFRA_PENDING  a transient failure (source or link fetch timed out, 5xx, 429). Re-checked by the machine; after
                  `max_attempts` consecutive evaluations of the same draft it becomes REAL_RISK (source stays unverifiable).
   NONE           PASS.
 """
 import re
+from common import load
 
 CLASSES = ('REAL_RISK', 'WRITER_REPAIR', 'INFRA_PENDING')
 MAX_ATTEMPTS = 3
@@ -81,13 +82,15 @@ def annotate(result, previous=None, max_attempts=MAX_ATTEMPTS):
         attempts = int(prev_check.get('attempts', 0)) + (0 if same_sha else 1)  # one per new draft version
     else:
         attempts = 1
-    exhausted = attempts >= max_attempts and result.get('status') != 'PASS'
+    limit = (load('config/writer-repair.json')['content_repair_max']
+             if info['hold_class'] == 'WRITER_REPAIR' else max_attempts)
+    exhausted = attempts >= limit and result.get('status') != 'PASS'
     if exhausted and info['hold_class'] == 'INFRA_PENDING':
         info['infra_pending'], info['real_risk'] = [], info['real_risk'] + [
             'Transient failure persisted for %d evaluations: ' % attempts + '; '.join(info['infra_pending'])]
         info['hold_class'] = 'REAL_RISK'
     result['triage'] = info
-    result['recheck'] = {'attempts': attempts, 'max': max_attempts, 'exhausted': exhausted,
+    result['recheck'] = {'attempts': attempts, 'max': limit, 'exhausted': exhausted,
                          'needs_owner': bool(exhausted and info['hold_class'] in ('REAL_RISK', 'WRITER_REPAIR'))}
     return result
 
