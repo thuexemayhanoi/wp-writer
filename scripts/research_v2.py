@@ -14,7 +14,8 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 from common import ROOT, digest, load, norm, now, topics
-from topic_factory import gate
+from intent_guard import IntentIndex
+from topic_factory import apply_intent_guard, gate
 
 BRANCH = re.compile(r'^research/([a-z][a-z0-9_-]{3,70})$')
 TOPIC = re.compile(r'^NT-[0-9]{6}$')
@@ -113,7 +114,11 @@ def validate_sources(research, *, today=None):
 
 def validate_candidates(rows, *, incumbent=None, inventory=None, taxonomy=None,
                         discovery=None, accepted=None, today=None):
-    """Four QA phases: source, intent/collision, content gap, taxonomy/schema."""
+    """Four QA phases: source, intent/collision, content gap, taxonomy/schema.
+
+    Intent collisions are checked against EVERY WordPress item and EVERY topic row in the
+    factory (any status except REJECTED), and among the new rows themselves.
+    """
     incumbent = topics() if incumbent is None else incumbent
     inventory = load('data/existing-content-inventory.json', {}).get('items', []) if inventory is None else inventory
     taxonomy = load('data/taxonomy.json', {}).get('items', []) if taxonomy is None else taxonomy
@@ -132,6 +137,9 @@ def validate_candidates(rows, *, incumbent=None, inventory=None, taxonomy=None,
     if len(current) + len(rows) > load('config/production-policy.json')['approved_capacity']:
         raise ValueError('Approved intake capacity reached; research is not a publish authorization')
     already_origin = {str(x.get('origin_id')) for x in incumbent}
+    everything = incumbent + rows
+    intent_index = IntentIndex(inventory, everything)
+    new_ids = set(ids)
     for t in rows:
         errors = []
         review = []
@@ -173,7 +181,8 @@ def validate_candidates(rows, *, incumbent=None, inventory=None, taxonomy=None,
             review.append('RESEARCH_EDITORIAL_EVIDENCE_MISSING')
         if not research.get('scope_exclusions') or not t.get('intent_key'):
             review.append('RESEARCH_INTENT_SCOPE_MISSING')
-        verdict = gate(t, incumbent + rows, inventory, taxonomy)
+        verdict = apply_intent_guard(gate(t, everything, inventory, taxonomy), t, everything,
+                                     inventory, new_ids, intent_index)
         errors.extend(verdict['errors'])
         review.extend(verdict['review'])
         findings.append({'topic_id': t['topic_id'],
@@ -380,15 +389,66 @@ def research_hints(limit=10):
     return leads
 
 
+def refill_plan():
+    """The open research order, its category quotas and the next batch of ten (read-only, offline)."""
+    import datetime
+    import refill_controller
+    inputs = refill_controller.build_inputs()
+    _, request, _ = refill_controller.assess(at=datetime.datetime.now(datetime.timezone.utc), **inputs)
+    order = request.get('order') or {}
+    return {'state': request['state'], 'ready_stock': request['ready_stock'],
+            'trigger_below_ready': request['trigger_below_ready'],
+            'capacity_remaining': request['capacity_remaining'],
+            'order': {k: order.get(k) for k in ('id', 'round', 'target_min', 'target_max', 'accepted_so_far',
+                                                'remaining_to_min', 'batches_still_needed')},
+            'next_batch_categories': order.get('next_batch_categories', {}),
+            'category_quotas': order.get('category_quotas', []),
+            'dedupe_universe': request.get('dedupe_universe'),
+            'how_to_research': request.get('how_to_research'),
+            'instruction': request.get('instruction')}
+
+
+def intent_check(path):
+    """Pre-push search-intent screen for a candidate file: no sources needed, any row count."""
+    from intent_guard import assess_topic
+    raw = (ROOT / path).read_text(encoding='utf-8')
+    rows = [json.loads(line) for line in raw.splitlines() if line.strip()]
+    incumbent = topics()
+    inventory = load('data/existing-content-inventory.json', {}).get('items', [])
+    everything = incumbent + rows
+    index = IntentIndex(inventory, everything)
+    new_ids = {t['topic_id'] for t in rows}
+    report = []
+    for t in rows:
+        found = assess_topic(t, everything, inventory, new_ids=new_ids, index=index)
+        report.append({'topic_id': t['topic_id'], 'title': t.get('title'),
+                       'verdict': 'FAIL' if found['errors'] else 'REVIEW' if found['review'] else 'PASS',
+                       'errors': found['errors'], 'review': found['review'],
+                       'nearest': [{k: m[k] for k in ('id', 'severity', 'title', 'weighted_jaccard', 'shared_terms',
+                                                      'only_in_candidate', 'only_in_existing', 'same_question_type')}
+                                   for m in found['matches'][:3]]})
+    return {'file': path, 'rows': len(rows),
+            'fail': sum(r['verdict'] == 'FAIL' for r in report),
+            'review': sum(r['verdict'] == 'REVIEW' for r in report), 'topics': report,
+            'how_to_resolve': ['FAIL: retitle and re-scope; it can never be waived.',
+                               'REVIEW: add research.resolved_intent_collisions = {"<id>": "<why the reader '
+                               'question differs, 40+ chars>"}; for a WordPress page (WP<id>) also record its '
+                               'current content hash in research.reviewed_content_hashes."']}
+
+
 def main():
     parser = argparse.ArgumentParser()
     sub = parser.add_subparsers(dest='command', required=True)
-    for command in ('checkpoint', 'check', 'verify-branch', 'push', 'resume', 'hints'):
+    for command in ('checkpoint', 'check', 'verify-branch', 'push', 'resume', 'hints', 'plan', 'intent-check'):
         p = sub.add_parser(command)
-        if command != 'hints':
-            p.add_argument('--branch', required=True)
-        else:
+        if command == 'hints':
             p.add_argument('--limit', type=int, default=10)
+        elif command == 'plan':
+            pass
+        elif command == 'intent-check':
+            p.add_argument('--file', required=True)
+        else:
+            p.add_argument('--branch', required=True)
         if command == 'checkpoint':
             p.add_argument('--final', action='store_true')
         if command == 'verify-branch':
@@ -400,6 +460,10 @@ def main():
         output = {'research_hints': research_hints(args.limit),
                   'source_verification': 'PENDING_EXTERNAL_AI',
                   'not_approved_topics': True}
+    elif args.command == 'plan':
+        output = refill_plan()
+    elif args.command == 'intent-check':
+        output = intent_check(args.file)
     elif args.command == 'checkpoint':
         output = checkpoint(args.branch, final=args.final)
     elif args.command == 'verify-branch':

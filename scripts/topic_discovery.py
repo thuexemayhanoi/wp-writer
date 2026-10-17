@@ -18,6 +18,7 @@ from xml.etree import ElementTree
 
 from common import ROOT, SITE, Redirect, digest, load, norm, now, topics
 from refill import claimable_count
+from refill_policy import policy as refill_policy
 from git_state import RemoteState
 
 LEDGER = 'data/state/topic-discovery-ledger.json'
@@ -160,7 +161,7 @@ def discover(domain_data,subject_config,topic_rows,inventory,prior,policy,config
            'research_ceiling':research_ceiling,'total_topics':len(topic_rows),
            'all_discovered':len(prior_items),'pending_research':len(pending),
            'resolved_topic_ids':len(resolved)}
-    if claimable>=int(config.get('refill_when_claimable_below',100)):
+    if claimable>=int(config.get('refill_when_claimable_below',refill_policy()['trigger_below_ready'])):
         return [],{**stats,'state':'QUEUE_HEALTHY'}
     # Continue researching up to the 10k discovery ceiling even when the
     # separately approved canonical topic intake limit is still only 1,000.

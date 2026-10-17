@@ -52,6 +52,10 @@ Before adding 10,000 topics, further optimize full-audit topic comparison with p
 
 The read-only watchdog excludes expired Writer leases when calculating claimable topics, matching the canonical claim engine. It never steals live leases.
 
+## Self-replenishing refill (2026-10-17)
+
+The refill trigger is now `ready PLANNED < 50` (single source: `config/refill-policy.json`, not `min_claimable_queue`). `scripts/refill_controller.py` opens an order for 200–300 new topics, with no round limit; every candidate is checked by `scripts/intent_guard.py` against all published items and all topics in the factory, and only Research QA PASS rows become PLANNED. The watchdog and dashboard report the refill state. Full description: [SELF-REPLENISHING-TOPICS.md](SELF-REPLENISHING-TOPICS.md).
+
 ## Public WordPress page readback (post-publish)
 
 `.github/workflows/wordpress-post-publish-qa.yml` runs nightly and on manual dispatch. No WordPress secrets, no mutation. It reads **only** topic IDs marked `VERIFIED` + `publish` by the existing publisher ledger, samples at most 40 pages per run (newest plus rotating historical). It checks canonical, HTML title, meta description, robots/noindex and first-paragraph identity. If any readback differs, the workflow fails with an artifact identifying the topic ID; it does not attempt updates/deletes/republishing.

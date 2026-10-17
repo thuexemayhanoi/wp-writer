@@ -69,7 +69,7 @@ class IncrementalTopicRefillTests(unittest.TestCase):
                             for e in self.outputs['reports/topic-qa.json']['NT-000003']['errors']))
         self.assertEqual(self.written['NT-000002']['topic_qa_status'],'RESEARCH')
 
-    def test_near_duplicate_new_candidate_goes_review_not_demotion(self):
+    def test_near_duplicate_new_candidate_is_rejected_and_incumbent_is_not_demoted(self):
         candidate=dict(self.old)
         candidate.update(topic_id='NT-000004',title='Hướng dẫn kiểm tra xe máy trước khi nhận xe',
             proposed_slug='huong-dan-kiem-tra-xe-may-truoc-khi-nhan-xe',
@@ -79,7 +79,59 @@ class IncrementalTopicRefillTests(unittest.TestCase):
         self.incoming(candidate)
         self.run_refill()
         self.assertEqual(self.written['NT-000001']['topic_qa_status'],'PLANNED')
+        # Same words once filler is removed: the search-intent guard rejects it outright.
+        self.assertEqual(self.written['NT-000004']['topic_qa_status'],'REJECTED')
+        self.assertIn('intent collision:NT-000001',
+                      self.outputs['reports/topic-qa.json']['NT-000004']['errors'])
+
+    def test_overlapping_new_candidate_goes_review_not_demotion(self):
+        candidate=dict(self.old)
+        candidate.update(topic_id='NT-000004',
+            title='Nhận xe máy thuê: kiểm tra giấy tờ, bình xăng và chìa khóa',
+            proposed_slug='nhan-xe-may-thue-kiem-tra-giay-to-binh-xang-va-chia-khoa',
+            canonical_target=topic_factory.SITE+'/nhan-xe-may-thue-kiem-tra-giay-to-binh-xang-va-chia-khoa/',
+            intent_key='handover-papers-fuel-keys',taxonomy_key='reviews',
+            primary_keyword='nhận xe máy thuê',search_intent='information')
+        self.incoming(candidate)
+        self.run_refill()
+        self.assertEqual(self.written['NT-000001']['topic_qa_status'],'PLANNED')
         self.assertEqual(self.written['NT-000004']['topic_qa_status'],'RESEARCH')
+        self.assertIn('near intent:NT-000001',
+                      self.outputs['reports/topic-qa.json']['NT-000004']['review'])
+
+    def test_strict_verdicts_keep_a_gate_pass_out_of_planned(self):
+        """A topic can pass the identity gate yet fail Research QA (sources, word range ...)."""
+        fresh={'topic_id':'NT-000005','title':'Bảo quản găng tay đi xe máy mùa mưa',
+               'proposed_slug':'bao-quan-gang-tay-di-xe-may-mua-mua',
+               'canonical_target':topic_factory.SITE+'/bao-quan-gang-tay-di-xe-may-mua-mua/',
+               'intent_key':'rain-gloves-care','taxonomy_key':'reviews',
+               'primary_keyword':'bảo quản găng tay đi xe máy','search_intent':'information'}
+        self.incoming(fresh)
+        # No verdicts given (legacy gate-only import): the identity gate alone decides.
+        def run_with(verdicts):
+            def load(path,default=None):
+                if path=='data/existing-content-inventory.json':return {'items':[]}
+                if path=='data/taxonomy.json':return {'items':[{'taxonomy_key':'reviews',
+                    'status':'ACTIVE','wordpress_term_id':156}]}
+                if path=='config/production-policy.json':return {'approved_capacity':1000}
+                if path=='reports/topic-qa.json':return self.original_evidence
+                return default
+            self.rows=[dict(self.old),dict(self.research)]
+            with patch.object(topic_factory,'ROOT',self.root),\
+                 patch.object(topic_factory,'topics',lambda: self.rows),\
+                 patch.object(topic_factory,'load',load),\
+                 patch.object(topic_factory,'gate',lambda t,o,i,x:{'status':'PASS','errors':[],'review':[]}),\
+                 patch.object(topic_factory,'write_topics',lambda r:self.written.update({t['topic_id']:t for t in r})),\
+                 patch.object(topic_factory,'save',lambda path,value:self.outputs.update({path:value})):
+                topic_factory.run('data/candidates/new-batch.jsonl',verdicts)
+            return self.written['NT-000005']['topic_qa_status'],self.outputs['reports/topic-qa.json']['NT-000005']
+        self.assertEqual(run_with(None)[0],'PLANNED')
+        self.assertEqual(run_with({'NT-000005':'PASS'})[0],'PLANNED')
+        status,evidence=run_with({'NT-000005':'REVIEW'})
+        self.assertEqual((status,evidence['research_qa']),('RESEARCH','REVIEW'))
+        self.assertEqual(run_with({'NT-000005':'FAIL'})[0],'REJECTED')
+        status,evidence=run_with({})
+        self.assertEqual((status,evidence['research_qa']),('RESEARCH','MISSING'))
 
     def test_old_candidate_with_same_id_and_changed_title_is_rejected(self):
         self.incoming({**self.old,'title':'Changed old approved title'})

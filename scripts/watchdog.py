@@ -11,6 +11,7 @@ import os
 from pathlib import Path
 
 from common import ROOT, load, topics
+from refill_policy import stock_policy
 from topic_stock import build_stock
 
 
@@ -29,11 +30,23 @@ def elapsed_minutes(then, now):
     return None if t is None else max(0, (now-t).total_seconds()/60)
 
 
-def assess(policy, registry, ledger, topic_rows, qa_by_id, at=None, stall_minutes=120, discovery=None):
+def refill_summary(request):
+    """What the self-replenishing loop says (reports/refill-request.json); informational only."""
+    if not request or 'state' not in request:
+        return {'state': 'UNKNOWN', 'detail': 'reports/refill-request.json not written yet by the refill controller'}
+    order = request.get('order') or {}
+    return {'state': request.get('state'), 'order': order.get('id'),
+            'accepted_so_far': order.get('accepted_so_far'), 'remaining_to_min': order.get('remaining_to_min'),
+            'stalled': order.get('stalled'), 'trigger_below_ready': request.get('trigger_below_ready'),
+            'capacity_remaining': request.get('capacity_remaining')}
+
+
+def assess(policy, registry, ledger, topic_rows, qa_by_id, at=None, stall_minutes=120, discovery=None,
+           refill_request=None):
     at = at or dt.datetime.now(dt.timezone.utc)
     if at.tzinfo is None:
         raise ValueError('watchdog requires timezone-aware time')
-    stock = build_stock(topic_rows, registry, ledger, qa_by_id, set(qa_by_id), discovery, policy, at)
+    stock = build_stock(topic_rows, registry, ledger, qa_by_id, set(qa_by_id), discovery, stock_policy(policy), at)
     posts = ledger.get('posts', {})
     receipts = registry.get('submissions', {})
     finished = {i for i, record in posts.items() if record.get('phase') == 'VERIFIED'}
@@ -106,6 +119,7 @@ def assess(policy, registry, ledger, topic_rows, qa_by_id, at=None, stall_minute
         'claimable_topics': len(claimable), 'active_writer_slots': live_leases,
         'ready_stock': stock['ready'], 'research_needed': stock['needs_research'],
         'research_shortfall': stock['shortfall'], 'stock_stages': stock['stages'],
+        'refill': refill_summary(refill_request),
         'qa_pass_waiting': ready, 'queued_count': len(ready),
         'uncertain_post_ids': uncertain, 'source_mismatch_ids': sorted(source_mismatches), 'blocked_sessions': blocked,
         'verified_wp_posts': len(statuses),
@@ -129,7 +143,8 @@ def main():
     qa = {p.stem: load(str(p.relative_to(ROOT)), {})
           for p in (ROOT/'data/qa').glob('NT-*.json')}
     discovery = load('data/state/topic-discovery-ledger.json', {'proposals': {}})
-    report = assess(policy, registry, ledger, rows, qa, stall_minutes=args.stall_minutes, discovery=discovery)
+    report = assess(policy, registry, ledger, rows, qa, stall_minutes=args.stall_minutes, discovery=discovery,
+                    refill_request=load('reports/refill-request.json', None))
     serialized = json.dumps(report, indent=2, ensure_ascii=False)+'\n'
     print(serialized)
     if args.output:
@@ -145,6 +160,7 @@ def main():
             f.write('QA PASS waiting: '+str(report['queued_count'])+
                     '; uncertain POST intents: '+str(len(report['uncertain_post_ids']))+
                     '; claimable topics: '+str(report['claimable_topics'])+'\n')
+            f.write('Refill loop: '+json.dumps(report['refill'], ensure_ascii=False)+'\n')
             f.write('Ready stock (PLANNED, unclaimed, not on hold): '+str(report['ready_stock'])+
                     ('; RESEARCH NEEDED, shortfall '+str(report['research_shortfall']) if report['research_needed'] else '; target met')+
                     '; stages '+json.dumps(report['stock_stages'])+'\n')

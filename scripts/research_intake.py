@@ -120,6 +120,8 @@ def ingest(branch, commit, dry_run=False):
     if len(blocked) == len(QA):
         raise ValueError('TRUSTED_RESEARCH_QA_BLOCKED: ' +
                          json.dumps(blocked[:4], ensure_ascii=False))
+    # Only a Research QA PASS may become PLANNED, whatever the lighter identity gate says.
+    verdicts = {row['topic_id']: row['status'] for row in QA}
     if dry_run:
         return {'status': 'WOULD_INGEST', 'new_topics': len(all_new),
                 'new_batches': len(fresh), 'branch': branch}
@@ -140,7 +142,7 @@ def ingest(branch, commit, dry_run=False):
         output = ROOT / path
         output.parent.mkdir(parents=True, exist_ok=True)
         output.write_text(raw, encoding='utf-8')
-        promote_candidates(path)  # Existing canonical Topic QA: no Excel.
+        promote_candidates(path, verdicts)  # Canonical Topic QA + strict Research QA verdicts.
         actual = {row['topic_id']: row for row in topics()}
         just_added = [row['topic_id'] for row in rows]
         if any(row_id in existing_ids or row_id not in actual for row_id in just_added):

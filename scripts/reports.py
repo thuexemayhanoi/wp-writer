@@ -5,6 +5,7 @@ from common import ROOT,load,now,save,topics
 from writer_session import live_leases
 from internal_linking import build
 from taxonomy_sync import by_key,resolve
+from refill_policy import policy as refill_policy, stock_policy
 from topic_stock import build_stock
 
 def table_file(path,fields,rows):
@@ -27,8 +28,9 @@ def run():
     empty=[k for k,v in ledger['categories'].items() if v.get('phase')=='CREATED_PENDING_ARTICLE']
     planned=sum(t['topic_qa_status']=='PLANNED' for t in rows)
     stock=build_stock(rows,claims,ledger,{p.stem:q for p,q in zip(authored,qa)},{p.stem for p in authored},
-        load('data/state/topic-discovery-ledger.json',{'proposals':{}}),policy)
+        load('data/state/topic-discovery-ledger.json',{'proposals':{}}),stock_policy(policy))
     save('reports/topic-stock.json',stock)
+    refill=refill_policy();refill_request=load('reports/refill-request.json',{}) or {};order=refill_request.get('order') or {}
     uncertain=[k for k,v in campaign.items()
                if v.get('phase') in ('POST_INTENT','VERIFY_PENDING','NEEDS_RECONCILE')]
     completed={k for k,v in campaign.items() if v.get('phase')=='VERIFIED'}
@@ -43,6 +45,10 @@ def run():
         'candidate_topics':len(rows),'planned_topics':planned,'claimable_topics':sum(t['topic_qa_status']=='PLANNED' and t['topic_id'] not in used and t['topic_id'] not in claims.get('submissions',{}) for t in rows),
         'ready_stock':stock['ready'],'stock_stages':stock['stages'],'needs_research':stock['needs_research'],
         'research_shortfall':stock['shortfall'],
+        'refill_trigger_below_ready':refill['trigger_below_ready'],
+        'refill_round_target':str(refill['round_target_min'])+'-'+str(refill['round_target_max']),
+        'refill_state':refill_request.get('state','UNKNOWN'),'refill_order':order.get('id'),
+        'refill_accepted_so_far':order.get('accepted_so_far'),
         'writing':len(used),'draft_authored':len(authored),'qa_pass':sum(q.get('status')=='PASS' for q in qa),
         'qa_fail':sum(q.get('status')=='FAIL' for q in qa),'qa_review':sum(q.get('status')=='REVIEW' for q in qa),
         'repair_queue':sum(q.get('status') in ('FAIL','REVIEW') for q in qa),

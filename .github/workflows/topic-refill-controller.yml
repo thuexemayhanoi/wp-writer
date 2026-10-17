@@ -1,0 +1,50 @@
+name: Self-replenishing topic controller
+on:
+  schedule:
+    - cron: '23 * * * *'
+  workflow_dispatch:
+  workflow_run:
+    workflows: ['Trusted Research Intake and Topic Refill']
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - 'config/refill-policy.json'
+      - 'scripts/refill_controller.py'
+      - 'scripts/refill_policy.py'
+      - '.github/workflows/topic-refill-controller.yml'
+permissions:
+  contents: write
+concurrency:
+  group: wp-writer-state
+  cancel-in-progress: false
+jobs:
+  controller:
+    if: github.repository == 'thuexemayhanoi/wp-writer'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout trusted main with complete history for CAS
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Test the controller, its policy and the invariants it relies on
+        run: python -m unittest discover -s tests -p 'test_refill_controller.py' -v
+      - name: Set bot commit identity
+        run: |
+          git config user.name 'wp-writer-refill-controller'
+          git config user.email 'wp-writer-refill-controller@users.noreply.github.com'
+      - name: Open, track or close the research order (ready PLANNED stock below the trigger)
+        run: python scripts/refill_controller.py --apply
+      - name: State the boundary
+        if: always()
+        run: |
+          echo '## Self-replenishing topic loop' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Decides and records only. No AI model, no network research, no WordPress credential.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'External AI researchers do the work through Research V2; only topics that pass Research QA become PLANNED.' >> "$GITHUB_STEP_SUMMARY"

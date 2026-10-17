@@ -5,6 +5,7 @@ import json
 import difflib
 from urllib.parse import urlsplit
 from common import ROOT, SITE, digest, load, norm, now, save, topics, write_topics
+from intent_guard import IntentIndex, assess_topic as assess_intent
 
 def validate_discovery_origin(topic, ledger, used_origins):
     """Discovery proposals are traceable but NOT independently QA-approved."""
@@ -111,13 +112,35 @@ def gate(topic, others, inventory, taxonomy):
             'nearest':[{'id':p['id'],'title':p.get('title'),'similarity':round(similarity(topic['title'],p.get('title') or ''),3)} for p in nearest],
             'at':now(),'topic_hash':digest(json.dumps(topic,ensure_ascii=False,sort_keys=True))}
 
-def run(candidate_path=None):
+def apply_intent_guard(result, topic, others, inventory, new_ids=None, index=None):
+    """Add the full-corpus search-intent verdict to a gate() result; it never lowers a severity."""
+    guard=assess_intent(topic,others,inventory,new_ids=new_ids,index=index)
+    errors=list(result['errors'])+guard['errors']
+    review=list(result['review'])+guard['review']
+    merged=dict(result,errors=errors,review=review,
+                status='FAIL' if errors else 'REVIEW' if review else 'PASS')
+    if guard['matches']:
+        merged['intent_matches']=[{'id':m['id'],'severity':m['severity'],
+            'weighted_jaccard':m['weighted_jaccard']} for m in guard['matches'][:3]]
+    return merged
+
+def research_qa_verdicts(candidate_path):
+    """Research QA status of every NEW row of a candidate file; only PASS may become PLANNED."""
+    from research_v2 import validate_candidates
+    known={t['topic_id'] for t in topics()}
+    rows=[json.loads(line) for line in (ROOT/candidate_path).read_text().splitlines() if line.strip()]
+    fresh=[t for t in rows if t.get('topic_id') not in known]
+    if not fresh:return {}
+    return {r['topic_id']:r['status'] for r in validate_candidates(fresh)}
+
+def run(candidate_path=None, verdicts=None):
     rows=topics(); inv=load('data/existing-content-inventory.json',{}).get('items',[]); tax=load('data/taxonomy.json')['items']
     # Refill is incremental: a later candidate must never revoke an approved
     # incumbent topic or silently invalidate an already-submitted article.
     # The new batch is still checked against ALL incumbents and its own peers.
     incumbent_ids={t['topic_id'] for t in rows}
     incumbent_evidence=load('reports/topic-qa.json',{}) if candidate_path else {}
+    new_ids=set()
     if candidate_path:
         discovery=load('data/state/topic-discovery-ledger.json',{'proposals':{}})
         used_origins={str(t.get('origin_id')) for t in rows if str(t.get('origin_id','')).startswith('NTD-')}
@@ -132,11 +155,13 @@ def run(candidate_path=None):
             validate_discovery_origin(t,discovery,used_origins)
             if len(rows)>=load('config/production-policy.json')['approved_capacity']:raise ValueError('Approved topic capacity reached')
             if not __import__('re').fullmatch(r'NT-\d{6}',t.get('topic_id','')):raise ValueError('Topic ID must be NT-XXXXXX')
-            t['topic_qa_status']='RESEARCH';rows.append(t);known[t['topic_id']]=t
+            t['topic_qa_status']='RESEARCH';rows.append(t);known[t['topic_id']]=t;new_ids.add(t['topic_id'])
             if str(t.get('origin_id','')).startswith('NTD-'):
                 used_origins.add(str(t['origin_id']))
     if len({t['topic_id'] for t in rows})!=len(rows):raise ValueError('Duplicate topic ID')
     evidence={}
+    # One corpus build serves the whole batch: every WordPress item plus every live topic row.
+    index=IntentIndex(inv,rows) if new_ids else None
     for t in rows:
         if candidate_path and t['topic_id'] in incumbent_ids:
             # Keep original verdict, research state, and immutable identity.
@@ -152,7 +177,16 @@ def run(candidate_path=None):
                     'topic_hash':digest(json.dumps(t,ensure_ascii=False,sort_keys=True)),
                     'preserved_incumbent':True}
             continue
-        result=gate(t,rows,inv,tax); evidence[t['topic_id']]=result
+        result=gate(t,rows,inv,tax)
+        if t['topic_id'] in new_ids:
+            result=apply_intent_guard(result,t,rows,inv,new_ids,index)
+            if verdicts is not None:
+                # Only a Research QA PASS may become PLANNED; a missing verdict never passes.
+                strict=verdicts.get(t['topic_id'])
+                if strict!='PASS' and result['status']=='PASS':
+                    result=dict(result,status='FAIL' if strict=='FAIL' else 'REVIEW',
+                                research_qa=strict or 'MISSING')
+        evidence[t['topic_id']]=result
         t['topic_qa_status']='PLANNED' if result['status']=='PASS' else 'REJECTED' if result['status']=='FAIL' else 'RESEARCH'
         # Populate a verified REST category ID only after Topic QA has approved
         # the topic. Unmaterialized/planned terms deliberately remain null.
@@ -165,9 +199,12 @@ def run(candidate_path=None):
         c['materialized_topic_count']=sum(t['taxonomy_key']==c['taxonomy_key'] and t['topic_qa_status']=='PLANNED' for t in rows)
     save('data/taxonomy.json',{'version':1,'owner':'coordinator','items':tax})
     save('reports/topic-qa.json',evidence)
-    save('reports/refill-request.json',{'claimable':sum(t['topic_qa_status']=='PLANNED' for t in rows),'target':1000,
-        'needs_external_research':sum(t['topic_qa_status']=='PLANNED' for t in rows)<100,'instruction':'External coordinator researches candidates; no model runs in Actions.'})
+    # reports/refill-request.json belongs to scripts/refill_controller.py (ready stock, not lifetime PLANNED).
     print(json.dumps({k:sum(x['status']==k for x in evidence.values()) for k in ('PASS','REVIEW','FAIL')}))
 
-if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--import-candidates');a=p.parse_args();run(a.import_candidates)
+def main():
+    p=argparse.ArgumentParser();p.add_argument('--import-candidates');a=p.parse_args()
+    # Importing candidates always requires Research QA; only a full manual re-audit skips it.
+    run(a.import_candidates,research_qa_verdicts(a.import_candidates) if a.import_candidates else None)
+
+if __name__=='__main__':main()

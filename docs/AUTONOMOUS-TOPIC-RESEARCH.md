@@ -7,7 +7,7 @@ Repository: `thuexemayhanoi/wp-writer`. WordPress site: `https://thuexemaynguyen
 Every six hours (or manual workflow_dispatch) `Universal Topic Discovery`:
 
 1. Counts **claimable PLANNED** topics, excluding accepted submissions, verified WordPress posts and active Writer leases.
-2. When claimable falls below `100`, selects neglected areas from **35 topic domains**, taxonomies and curated Vietnamese subject phrases in `config/topic-discovery.json`.
+2. When claimable falls below the refill trigger (`trigger_below_ready` = `50` in `config/refill-policy.json`; see [self-replenishing topics](SELF-REPLENISHING-TOPICS.md)), selects neglected areas from **35 topic domains**, taxonomies and curated Vietnamese subject phrases in `config/topic-discovery.json`.
 3. Optionally fetches public RSS discovery headlines over HTTPS (currently Google News RSS). These are *discovery leads only*, **not** verified primary sources, fact-checks, search-volume evidence, or permission to copy text.
 4. Generates a balanced, deduplicated batch of **at most 20 research proposals** with source requirements, semantic intent hints, cluster/category hints and five human-verifiable research questions.
 5. Writes immutable proposal IDs `NTD-...` to `data/research/auto/batch-NNNNNN.jsonl`, durable CAS ledger `data/state/topic-discovery-ledger.json` and `reports/topic-discovery.json`.

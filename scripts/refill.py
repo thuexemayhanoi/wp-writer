@@ -1,7 +1,8 @@
 """Import researched candidate batches when queue is low. No AI in Actions."""
 from common import ROOT,digest,load,save,topics,now
 from git_state import RemoteState
-from topic_factory import run as topic_run
+from refill_policy import policy as refill_policy
+from topic_factory import research_qa_verdicts, run as topic_run
 from writer_session import live_leases
 
 
@@ -20,11 +21,11 @@ def claimable_count(rows, registry, publication_ledger):
                and row.get('topic_id') not in busy for row in rows)
 
 def run():
-    policy=load('config/production-policy.json')
+    trigger=refill_policy()['trigger_below_ready']
     registry=load('data/state/writer-claims.json',{})
     publication_ledger=load('data/state/publication-ledger.json',{})
     count=claimable_count(topics(),registry,publication_ledger)
-    if count>=policy['min_claimable_queue']:
+    if count>=trigger:
         print('Refill not needed: '+str(count)+' unreserved PLANNED topics available')
         return
     path='data/state/refill-ledger.json';ledger=load(path,{'batches':{}})
@@ -34,7 +35,7 @@ def run():
         sha=digest(p.read_bytes());name=p.name
         if ledger['batches'].get(name,{}).get('sha256')==sha:continue
         if name in ledger['batches']:raise ValueError('Accepted candidate batch immutable; create a new batch')
-        topic_run(str(p.relative_to(ROOT)))
+        rel=str(p.relative_to(ROOT));topic_run(rel,research_qa_verdicts(rel))
         ledger['batches'][name]={'sha256':sha,'at':now(),'state':'TOPIC_QA_APPLIED; see per-topic result'};changed=True
     if changed:
         save(path,ledger)
