@@ -87,10 +87,22 @@ def prepare(branch, sha):
     row_by_id = {row["topic_id"]: row for row in rows}
     prepared = []
     with tempfile.TemporaryDirectory(prefix="writer-qa-") as temp:
+        # The trusted QA must compare against all other main drafts, but MUST NOT
+        # compare a repaired article against its own outdated main revision.
+        scan_root = Path(temp) / "scan"
+        scan_dir = scan_root / "posts" / "drafts"
+        scan_dir.mkdir(parents=True)
+        new_names = {Path(path).name for path in paths}
+        for old_file in (ROOT / "posts" / "drafts").glob("NT-*.md"):
+            if old_file.name not in new_names:
+                (scan_dir / old_file.name).write_bytes(old_file.read_bytes())
         for path in paths:
             raw = blob_at(sha, path)
-            tmp = Path(temp) / Path(path).name
+            tmp = scan_dir / Path(path).name
             tmp.write_text(raw, encoding="utf-8")
+        for path in paths:
+            tmp = scan_dir / Path(path).name
+            raw = tmp.read_text(encoding="utf-8")
             meta, body, hash_value = read_article(tmp)
             topic_id = tmp.stem
             if topic_id not in row_by_id or meta.get("topic_id") != topic_id:
@@ -108,7 +120,11 @@ def prepare(branch, sha):
             slot = owner(registry, meta.get("writer_session"), topic_id)
             if meta.get("writer_slot") != slot:
                 raise ValueError("Writer session slot mismatch: " + topic_id)
-            qa = evaluate(tmp, row_by_id[topic_id], rows=rows, check_claim=False)
+            # qa.ROOT controls draft duplicate enumeration only; factual/taxonomy
+            # registries remain the trusted main data from common.load().
+            from unittest.mock import patch
+            with patch("qa.ROOT", scan_root):
+                qa = evaluate(tmp, row_by_id[topic_id], rows=rows, check_claim=False)
             if qa["status"] != "PASS" or qa["seo_score"] < 85:
                 raise ValueError("WRITER_QA_BLOCKED " + topic_id + " " +
                                  qa["status"] + " SEO=" + str(qa.get("seo_score")))
