@@ -23,6 +23,8 @@ Không trộn `wp-aiwriter` (blog.rentbikehanoi.com) và **KHÔNG sử dụng Ex
 > nếu còn quota và còn chủ đề. Không hỏi duyệt từng bài; chỉ báo khi gặp
 > BLOCKED, hết chủ đề, thiếu nguồn hoặc việc ngoài phạm vi.
 >
+> **CẢNH BÁO:** Plugin WordPress `Git it Write` đang cấu hình cùng repo `wp-writer` và có thể đăng `posts/**` ngoài G1–G6. Không dùng webhook, nút import hoặc đồng bộ plugin này để xuất bản. Nhà điều hành phải ngắt nó sau xác nhận rồi mới mở Production GitHub.
+>
 > **Lưu ý:** chỉ file bài viết, request Writer và candidate nghiên cứu là
 > dữ liệu Writer được sửa. **Tuyệt đối không sửa** workflows, scripts,
 > policy Production, taxonomy, existing-content inventory, WordPress
