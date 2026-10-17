@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "at": "2026-10-17T05:13:58.006Z",
+  "site": "https://thuexemaynguyentu.com",
+  "method": "authenticated WPVibe REST POST to WordPress, manual user-requested canary",
+  "github_auto_publisher_used": false,
+  "github_production_enabled": false,
+  "github_editorial_qa_status": "NOT_RUN",
+  "verification": "WordPress REST statuses and categories + public HTML <title>, canonical, description, index/follow; WP Agent listed public posts",
+  "posts": [
+    {
+      "topic_id": "NT-000066",
+      "wordpress_id": 3930,
+      "category_id": 175,
+      "taxonomy_key": "trip-planning",
+      "estimated_word_count": 2548,
+      "wp_agent_independent_seo_score": 70,
+      "public_url": "https://thuexemaynguyentu.com/chuan-bi-hanh-ly-gon-cho-chuyen-di-xe-may-hai-ngay-mot-dem/"
+    },
+    {
+      "topic_id": "NT-000056",
+      "wordpress_id": 3931,
+      "category_id": 176,
+      "taxonomy_key": "urban-mobility",
+      "estimated_word_count": 2392,
+      "wp_agent_independent_seo_score": 72,
+      "public_url": "https://thuexemaynguyentu.com/tuyen-metro-ha-noi-danh-cho-du-khach-cach-chuan-bi-chang-dau-va-cuoi/"
+    },
+    {
+      "topic_id": "NT-000058",
+      "wordpress_id": 3932,
+      "category_id": 172,
+      "taxonomy_key": "hanoi-travel",
+      "estimated_word_count": 2842,
+      "wp_agent_independent_seo_score": 66,
+      "public_url": "https://thuexemaynguyentu.com/tham-quan-bao-tang-dan-toc-hoc-goi-y-ket-hop-diem-den-gan-nhau/"
+    }
+  ],
+  "caveats": [
+    "Manual WPVibe publication bypassed GitHub Writer submission and SEO >=85 G1-G6 gate; do not claim automated Publisher E2E is accepted.",
+    "WP Agent score is a different rubric and is not proof of GitHub SEO gate outcome.",
+    "SEO images and structured checklists could be improved; do not falsely report full content QA PASS.",
+    "No existing WordPress URLs, categories, posts or homepage were altered.",
+    "Publisher remains dry_run; future writers must skip these Topic IDs because manually public URLs exist and are ledger recorded."
+  ]
+}
