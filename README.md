@@ -551,12 +551,12 @@ Yêu cầu bảng dữ liệu theo URL thực:
 - Content QA + topic intent/duplicate/SEO/business/legal/source + REPAIR.
 - Test tranh chấp đồng thời, quota/mất phiên, recover và hash evidence.
 
-### Phase 3 — WordPress publisher an toàn
+### Phase 3 — WordPress publisher an toàn *(lịch sử: đã hoàn thành; Production ĐÃ BẬT từ 17/10/2026)*
 
 - Tận dụng chính xác ba Actions Secrets hiện có; không hỏi lại mật khẩu, không in secret.
 - Test API authenticate/read only; reuse smoke test nháp ID 3861 chỉ để đối chiếu, không publish/xóa.
 - Dry-run publisher → viết và xuất bản **một bài nháp kiểm thử MỚI chỉ khi chủ duyệt cụ thể** → verify; kiểm soát safe failure/timeout/duplicate/category mismatch.
-- Triển khai publish gate có **production_enabled=false mặc định**. Chủ bật khi có đủ bằng chứng và phê duyệt.
+- Triển khai publish gate. *(Ban đầu `production_enabled=false`; chủ đã bật ngày 17/10/2026, bài QA PASS lên WordPress tự động.)*
 
 ### Phase 4 — Topic Factory 1.000 + Internal Linking
 
