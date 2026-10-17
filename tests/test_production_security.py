@@ -62,7 +62,14 @@ class SecurityPreflightTests(unittest.TestCase):
             if url.endswith("/rulesets"):
                 return [{"id": 25248247,"enforcement":"active"}]
             return rule()
-        self.assertEqual(check_security(fetch,"")["status"],"PASS")
+        accepted={"status":"READY_FOR_REVIEW","direct_main_write_blockers":[]}
+        self.assertEqual(check_security(fetch,"",state_probe=lambda: accepted)["status"],"PASS")
+        # Real direct-main CAS must block even when GitHub CODEOWNER rules
+        # are already active; a green ruleset alone does not make WP safe.
+        current=check_security(fetch,"")
+        self.assertEqual(current["status"],"BLOCKED")
+        self.assertEqual(current["state_write_readiness"],"BLOCKED")
+        self.assertTrue(any("state transport" in x for x in current["blockers"]))
 
     def test_old_main_protection_blocks(self):
         def fetch(url,token):

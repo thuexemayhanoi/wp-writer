@@ -10,6 +10,7 @@ import sys
 from pathlib import Path
 import urllib.error
 import urllib.request
+from protected_main_readiness import inspect as inspect_main_write_routes
 
 REPO = "thuexemayhanoi/wp-writer"
 BRANCH = "main"
@@ -72,11 +73,21 @@ def github_json(url, token):
         return json.load(response)
 
 
-def check_security(fetch=github_json, token=None):
+def check_security(fetch=github_json, token=None, state_probe=inspect_main_write_routes):
     """Only report verified facts; GitHub API outage is a blocking failure."""
     token = token if token is not None else os.environ.get("GITHUB_TOKEN", "")
     base = "https://api.github.com/repos/" + REPO
     reasons = []
+    # GitHub may approve CODEOWNER rules but a required-PR rule also blocks
+    # the current CAS direct-to-main write-ahead ledger. Never claim activation
+    # ready until the STATE transport has been migrated and independently tested.
+    try:
+        routes = state_probe()
+        if not isinstance(routes, dict) or routes.get("status") != "READY_FOR_REVIEW":
+            reasons.append("Protected-main state transport is not migrated; direct CAS writes or unknown source remain")
+    except (OSError, ValueError, TypeError, KeyError):
+        routes = {"status": "BLOCKED", "direct_main_write_blockers": []}
+        reasons.append("Protected-main state route verification unavailable")
     # Local CODEOWNERS must originate from the trusted protected main checkout.
     # This is not proof of enforcement; live GitHub ruleset readback is mandatory.
     codeowners = Path(__file__).resolve().parents[1] / ".github" / "CODEOWNERS"
@@ -105,6 +116,8 @@ def check_security(fetch=github_json, token=None):
     return {"status": "PASS" if not reasons else "BLOCKED",
             "repo": REPO, "branch": BRANCH,
             "review_rulesets": active, "blockers": reasons,
+            "state_write_readiness": routes.get("status"),
+            "state_write_blockers": routes.get("direct_main_write_blockers", []),
             "production_flags_modified": False, "wordpress_writes": 0}
 
 
