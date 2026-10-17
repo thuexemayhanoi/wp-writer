@@ -48,7 +48,7 @@ class EvidenceExemptTests(unittest.TestCase):
     def test_changed_baseline_content_is_still_stale(self):
         result = self.gate({**self.baseline, 'content_hash': 'edited'})
         self.assertEqual(result['status'], 'REVIEW')
-        self.assertIn('reviewed full-content evidence stale or missing', result['review'])
+        self.assertIn('reviewed full-content evidence stale or missing: 1=edited', result['review'])
 
 
 if __name__ == '__main__':
