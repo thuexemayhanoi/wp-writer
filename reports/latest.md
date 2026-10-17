@@ -4,7 +4,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-17T13:13:18.914401+00:00 |
+| at | 2026-10-17T13:15:12.557158+00:00 |
 | existing_published_posts | 150 |
 | existing_pages | 10 |
 | existing_products | 13 |
