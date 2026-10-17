@@ -7,11 +7,30 @@ changed and no WordPress writes occur in this preflight.
 import json
 import os
 import sys
+from pathlib import Path
 import urllib.error
 import urllib.request
 
 REPO = "thuexemayhanoi/wp-writer"
 BRANCH = "main"
+TRUSTED_OWNER = "@thuexemayhanoi"
+PRIVILEGED_PATTERNS = (
+    "/.github/", "/scripts/", "/tests/", "/config/",
+    "/requirements.txt", "/AGENTS.md", "/data/state/",
+    "/data/topics.jsonl", "/data/taxonomy.json",
+    "/data/business-facts.json", "/data/protected-urls.json",
+)
+
+
+def privileged_codeowners_present(content):
+    """Owner must cover workflow/runtime/control state with an exact owner."""
+    rows = {}
+    for line in content.splitlines():
+        part = line.split("#", 1)[0].strip().split()
+        if len(part) >= 2:
+            rows[part[0]] = set(part[1:])
+    return all(TRUSTED_OWNER in rows.get(path, set())
+               for path in PRIVILEGED_PATTERNS)
 
 
 def ruleset_applies_to_main(ruleset):
@@ -23,14 +42,20 @@ def ruleset_applies_to_main(ruleset):
 
 
 def ruleset_protects_privileged_code(ruleset):
-    """Require real reviewed PRs, code-owner approval and no bypass."""
+    """Require GitHub PR + CODEOWNER review for privileged files, zero bypass.
+
+    GitHub's PR rule permits 0 generic approvals while `require_code_owner_review`
+    still requires a code owner's review for files named by CODEOWNERS. This
+    lets unowned ARTICLE-ONLY PRs merge without owner reviewing every post.
+    """
     if ruleset.get("enforcement") != "active" or not ruleset_applies_to_main(ruleset):
         return False
     if ruleset.get("bypass_actors"):
         return False
     rules = [r for r in ruleset.get("rules", []) if r.get("type") == "pull_request"]
     return any(
-        r.get("parameters", {}).get("required_approving_review_count", 0) >= 1
+        isinstance(r.get("parameters", {}).get("required_approving_review_count"), int)
+        and 0 <= r["parameters"]["required_approving_review_count"] <= 10
         and r.get("parameters", {}).get("require_code_owner_review") is True
         for r in rules
     )
@@ -52,6 +77,14 @@ def check_security(fetch=github_json, token=None):
     token = token if token is not None else os.environ.get("GITHUB_TOKEN", "")
     base = "https://api.github.com/repos/" + REPO
     reasons = []
+    # Local CODEOWNERS must originate from the trusted protected main checkout.
+    # This is not proof of enforcement; live GitHub ruleset readback is mandatory.
+    codeowners = Path(__file__).resolve().parents[1] / ".github" / "CODEOWNERS"
+    try:
+        if not privileged_codeowners_present(codeowners.read_text(encoding="utf-8")):
+            reasons.append("Privileged CODEOWNERS patterns or owner missing")
+    except OSError:
+        reasons.append("CODEOWNERS file unavailable")
     try:
         branch = fetch(base + "/branches/" + BRANCH, token)
         if branch.get("protected") is not True:
