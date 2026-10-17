@@ -651,7 +651,7 @@
       }
     },
     "NT-000201": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-17T19:15:37.080869+00:00",
       "source_hash": "2df33f2c27e6bbfd4a17cb3e5a3ccce52967af316f6f6e280076f8f7fc39e697",
       "slug": "chay-ra-xe-so-moi-quang-duong-dau-toc-do-theo-tung-so-va-dieu-can-tranh",
@@ -666,8 +666,37 @@
       "category_warning": null,
       "git_commit": "932f99bd54aaf64d8cd448cff90a15168deaa37a",
       "run_id": "39061527699",
-      "updated_at": "2026-10-17T19:15:40.490368+00:00",
-      "wp_id": 3959
+      "updated_at": "2026-10-17T19:15:46.352445+00:00",
+      "wp_id": 3959,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/chay-ra-xe-so-moi-quang-duong-dau-toc-do-theo-tung-so-va-dieu-can-tranh/",
+      "verified_at": "2026-10-17T19:15:46.352437+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3959,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/chay-ra-xe-so-moi-quang-duong-dau-toc-do-theo-tung-so-va-dieu-can-tranh/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/chay-ra-xe-so-moi-quang-duong-dau-toc-do-theo-tung-so-va-dieu-can-tranh/",
+        "seo_title": "Chạy rà xe số mới: mốc km đầu, tốc độ từng số và điều cần tránh",
+        "seo_description": "Chạy rà xe số mới nên đi bao nhiêu km đầu, tốc độ theo từng số ra sao, cần tránh gì? Đối chiếu khuyến cáo của Honda, Yamaha và cách chốt mốc theo sách hướng dẫn.",
+        "checked_at": "2026-10-17T19:15:46.352415+00:00"
+      }
     }
   },
   "categories": {}
