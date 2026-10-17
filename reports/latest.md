@@ -4,7 +4,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-17T11:47:01.584989+00:00 |
+| at | 2026-10-17T11:55:05.905796+00:00 |
 | existing_published_posts | 135 |
 | existing_pages | 10 |
 | existing_products | 13 |
@@ -28,7 +28,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | broken_links_note | No full HTTP crawl yet; inventory graph is not a broken-link proof |
 | remaining_topic_target | 985 |
 | remaining_candidate_target | 913 |
-| delivery_mode | dry_run |
+| delivery_mode | production |
 | production_enabled | False |
 | draft_staging_enabled | False |
 | qa_pass_live_checked | 0 |
@@ -41,4 +41,4 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | authenticated_inventory | True |
 | test_drafts_excluded | 2 |
 
-Delivery mode: dry_run; production_enabled=False; draft_staging_enabled=False. A candidate is not a planned topic; a published URL is not evidence of Google indexing. See docs/IMPLEMENTATION-CHECKPOINT.md and docs/ACTIVATION.md.
+Delivery mode: production; production_enabled=False; draft_staging_enabled=False. A candidate is not a planned topic; a published URL is not evidence of Google indexing. See docs/IMPLEMENTATION-CHECKPOINT.md and docs/ACTIVATION.md.
