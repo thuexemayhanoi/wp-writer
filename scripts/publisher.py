@@ -298,6 +298,14 @@ def run(args):
         # Explicit isolated TEST DRAFT, not a campaign article, never promotes to public.
         policy={**policy,'mode':'draft_only'}
     if policy['paused'] or policy['emergency_stop']:print('PAUSED');return
+    # Owner requested removal of three convenience stop states, but switching
+    # mode alone cannot impersonate actual security / E2E acceptance. When
+    # production_enabled remains false, return BEFORE reading WP secrets.
+    # This is a clean no-op rather than an accidental missing-credentials error.
+    if (policy.get('mode') == 'production' and not production_allowed(policy)
+            and not args.acceptance_topic and not args.acceptance_draft):
+        print('PRODUCTION_NOT_AUTHORIZED: security/E2E verification or production_enabled incomplete; no WordPress writes')
+        return
     if policy.get('mode')=='draft_only' and not (
             draft_staging_allowed(policy) or args.acceptance_topic or args.acceptance_draft):
         raise ValueError('Unattended WordPress draft staging requires verified security and owner approval')
