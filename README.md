@@ -1,16 +1,24 @@
 # WP-WRITER — UNIVERSAL AI CONTENT FACTORY FOR WORDPRESS
 
+> **QUY TRÌNH ĐƠN GIẢN — ĐANG CHẠY (lệnh chủ 17/10/2026)**
+>
+> 1. **W1 / W2 / W3 viết bài** từ chủ đề PLANNED (`scripts/writer-session.py`).
+> 2. **QA ≥85 + kiểm tra trùng + danh mục** (G1–G6, `scripts/qa.py`). Lỗi sửa được tự đọc lại tối đa 3 lần; chỉ bài có rủi ro thật (trùng URL/intent, sai danh mục, nguồn không xác minh được, sai pháp lý/giá) bị giữ riêng, và không chặn bài khác.
+> 3. **Publisher → WordPress công khai**, tự kích hoạt ngay sau QA thành công trên `main` (cron :17/:47 chỉ là dự phòng); G7 xác minh ID, URL, trạng thái và SEO meta sau đăng. **Trạng thái: ĐÃ kích hoạt tự động** (`production_enabled=true`).
+>
+> Không có bước duyệt tay; `acceptance_passed` và `security_controls_verified` không chặn đăng. Dừng khẩn chỉ bằng `paused` / `emergency_stop` trong `config/production-policy.json` (chỉ chủ đổi). Chỉ coi là đã đăng khi ledger có `phase=VERIFIED` và URL công khai mở được.
+
 
 > **SEO QA V2 / Website chính:** Bài mới chỉ đủ điều kiện WordPress **Published** khi **SEO ≥85/100**, Quality ≥75 và cả sáu cổng đều PASS. QA chấm title/meta, câu trả lời đầu bài, H2, linking, anchor, URL theo intent; SEO 84 → FAIL/REPAIR. Không bắt buộc ảnh/FAQ/CTA quảng cáo cho mọi bài. Xem [SEO QA V2](docs/SEO-QA-V2.md). **Production BẬT từ 17/10/2026** (lệnh chủ); ngưỡng QA không đổi.
 
 
-**AI bên ngoài — một lệnh để bắt đầu:** [AI-START-HERE.md](docs/AI-START-HERE.md). Nhận tối đa 10 chủ đề, QA từng bài, tự nộp và nhận tiếp; không xin duyệt từng bài. Publisher đã kết nối sau QA nhưng **Production hiện OFF**; không tuyên bố đã đăng công khai khi không có ledger và URL verified.
+**AI bên ngoài — một lệnh để bắt đầu:** [AI-START-HERE.md](docs/AI-START-HERE.md). Nhận tối đa 10 chủ đề, QA từng bài, tự nộp và nhận tiếp; không xin duyệt từng bài. Publisher nối ngay sau QA và **Production đang BẬT** (lệnh chủ 17/10/2026): bài QA PASS lên WordPress ngay. Chỉ coi là đã đăng khi ledger có `phase=VERIFIED` và URL công khai mở được.
 
-> **QA → WordPress ngay, 2+2+2+2+2:** xem [Instant Publishing](docs/INSTANT-PUBLISHING.md). QA PASS trên main tự kích hoạt Publisher không cần cron; tối đa 5 batch × 2 bài, daily cap 1.000 (vẫn chỉ tối đa 10 bài/lượt). **Unattended Production vẫn OFF** do bảo vệ code đặc quyền và E2E GitHub Publisher chưa nghiệm thu. Main đã có Ruleset, Yoast REST smoke PASS; hai bài public #3888 và #3890 là kiểm thử **thủ công bằng WPVibe**.
+> **QA → WordPress ngay, 2+2+2+2+2:** xem [Instant Publishing](docs/INSTANT-PUBLISHING.md). QA PASS trên main tự kích hoạt Publisher không cần cron; tối đa 5 batch × 2 bài, daily cap 1.000 (vẫn chỉ tối đa 10 bài/lượt). **Production đang BẬT** (lệnh chủ 17/10/2026). `acceptance_passed` và `security_controls_verified` vẫn `false` vì chưa có kiểm chứng tương ứng, nhưng không còn chặn đăng. Các bài #3882, #3888, #3890, #3930–#3945 là bài đăng thủ công (WPVibe/owner); #3947–#3956 do GitHub Publisher tự đăng (ledger có `run_id` của Actions).
 
 > **Self-replenishing topics (2026-10-17):** PLANNED sẵn sàng viết < 100 → bộ điều khiển tự mở đơn nghiên cứu 100–200 chủ đề mới, không giới hạn số đợt; mỗi ứng viên bị kiểm tra trùng search intent với toàn bộ bài đã đăng và chủ đề đang xử lý, và chỉ chủ đề đạt Research QA mới vào PLANNED. Xem [docs/SELF-REPLENISHING-TOPICS.md](docs/SELF-REPLENISHING-TOPICS.md). Actions vẫn không chạy AI: người nghiên cứu là phiên AI ngoài.
 
-> **Topic Discovery V3:** [Autonomous research queue → external AI researcher → Topic QA → W1/W2/W3](docs/AUTONOMOUS-TOPIC-RESEARCH.md). Runs every 6h without AI API keys, gathering public RSS *leads* plus topical gaps, capped at 20 ideas/batch and 300 pending; discovery proposal capacity 10,000. **This is not an LLM doing autonomous factual research**: external AI researchers must independently verify and submit evidence before an idea becomes PLANNED. Canonical intake remains approved only to 1,000; WordPress Production remains OFF.
+> **Topic Discovery V3:** [Autonomous research queue → external AI researcher → Topic QA → W1/W2/W3](docs/AUTONOMOUS-TOPIC-RESEARCH.md). Runs every 6h without AI API keys, gathering public RSS *leads* plus topical gaps, capped at 20 ideas/batch and 300 pending; discovery proposal capacity 10,000. **This is not an LLM doing autonomous factual research**: external AI researchers must independently verify and submit evidence before an idea becomes PLANNED. Canonical intake remains approved only to 1,000; WordPress Production is ON (owner order 2026-10-17): only QA-PASS articles written from PLANNED topics are published.
 
 > **Factory Operations V2:** [Liveness + queue/refill + Writer request safety + post-publish SEO QA](docs/FACTORY-OPERATIONS-V2.md). Adapted from /blog and /global patterns for native WordPress. The new read-only checks never turn on staging or production and do not imply articles have been published.
 ## Workflow không Excel — Topic Registry + WordPress REST
