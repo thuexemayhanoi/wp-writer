@@ -35,7 +35,7 @@ Both new workflows are isolated from WordPress credentials. AI research needs an
 
    Name the next batch 0002, 0003 etc. Each row needs a unique unused NT-XXXXXX ID; original origin_id (NTD-... if from the automated discovery queue); title, primary_keyword, intent_key, search_intent, taxonomy_key, proposed_slug, exact main WordPress canonical_target, a five-section outline, and a substantial research object. The research object must include reviewer, difference_summary, usefulness, scope_exclusions, reviewed_existing_ids and reviewed_content_hashes from current inventory, and external_sources.
 
-4. Research source contract: external_sources must include at least TWO different direct HTTPS source URLs from independent hosts, each checked_at (ISO date within 365 days), specific supports claim (20+ characters), an actual evidence_text excerpt (20+ characters), and a genuine 64-hex source_sha256 snapshot of a source actually read. RSS headlines are **not evidence**. Source metadata is statically checked, but the QA gate cannot guarantee the source excerpt is truthful without independent web verification; external AI must actually read and check the page.
+4. Research source contract: external_sources must include at least ONE directly researched HTTPS source URL (additional independent sources strongly preferred for important/contested claims), each checked_at (ISO date within 365 days), specific supports claim (20+ characters), an actual evidence_text excerpt (20+ characters), and a genuine 64-hex source_sha256 snapshot of a source actually read. RSS headlines are **not evidence**. Source metadata is statically checked, but the QA gate cannot guarantee the source excerpt is truthful without independent web verification; external AI must actually read and check the page.
 
 5. Save a durable checkpoint and push only your own files:
 
@@ -84,3 +84,8 @@ The remote research branch/checkpoint is the source of truth. A dirty clone or d
 | data/state/research-intake-ledger.json | immutable imported batch receipts |
 | data/topics.jsonl | canonical Topic Registry and Writer claim queue |
 | data/taxonomy.json | WordPress parent/child taxonomy authority |
+
+
+## Open web research, not open factual invention (18 October 2026)
+
+Researchers may inspect competitors' public rental pages, manufacturer vehicle specifications, all motorized and nonmotorized transport, charging infrastructure, buses, metros, travel guides, museums, itineraries, food and culture, government websites, and primary technical/scientific material. Competitor data is used for market comparison and content gaps, **never as Nguyễn Tú price/service facts**. Avoid copying content, logos or reviews. Cite verified public URLs or document snapshots when preparing candidate research. A single high-quality firsthand source is allowed for a narrow scope; corroborate anything legal, safety-critical, time-sensitive or contested. Source URL domain alone cannot make a factual statement true.
