@@ -5,6 +5,9 @@ on:
       urls:
         description: 'One "url|needle" per line (needle = text the page must contain; optional)'
         required: true
+      user_agents:
+        description: 'Optional user agents separated by || (default: the QA agent only)'
+        required: false
 permissions:
   contents: read
 jobs:
@@ -24,4 +27,5 @@ jobs:
       - name: Read each source exactly like the Publisher's live QA (no WordPress, no secrets, no writes)
         env:
           PROBE_URLS: ${{ inputs.urls }}
+          PROBE_UAS: ${{ inputs.user_agents }}
         run: python scripts/source_probe.py
