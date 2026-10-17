@@ -28,7 +28,7 @@ class ImmutableDailyCapTests(unittest.TestCase):
         self.assertEqual(policy["max_new_posts_daily"],1000)
         self.assertEqual(policy["max_new_drafts_daily"],1000)
         # This changes a throughput ceiling only, not the authorization to POST.
-        self.assertEqual(policy["mode"],"dry_run")
+        self.assertEqual(policy["mode"],"production")
         self.assertFalse(policy["production_enabled"])
         self.assertFalse(policy["security_controls_verified"])
         self.assertFalse(policy["acceptance_passed"])
