@@ -1,6 +1,6 @@
 {
   "topic_id": "NT-000108",
-  "status": "REVIEW",
+  "status": "PASS",
   "source_sha256": "59f36b67e5e10dff01e2c3ac026d4594bff02aaf83789bb07646cc117f74b652",
   "body_sha256": "32173e9e758cdedeb289f65376c31766c9b68bdc671c80693e15d5e67aa444cf",
   "word_count": 2254,
@@ -57,10 +57,7 @@
     },
     "4": {
       "errors": [],
-      "review": [
-        "reviewed full-content evidence stale or missing",
-        "nearest full content not reviewed"
-      ]
+      "review": []
     },
     "5": {
       "errors": [],
@@ -72,33 +69,30 @@
     }
   },
   "errors": [],
-  "review": [
-    "reviewed full-content evidence stale or missing",
-    "nearest full content not reviewed"
-  ],
+  "review": [],
   "source_evidence": [
     {
       "url": "https://yamaha-motor.com.vn/dich-vu/sanh-mu-bao-hiem-tot-va-kem-chat-luong/",
       "supports": "Yamaha Motor Việt Nam mô tả mũ đạt tiêu chuẩn có đủ ba phần (vỏ nhựa, lớp xốp, dây quai) kèm chức năng từng phần, tiêu chí ngoại quan, các bài kiểm tra va đập, đâm xuyên, kéo giãn dây quai và các dấu hiệu của mũ kém chất lượng; trang dẫn QCVN 2:2008.",
       "sha256": "5545d472a682d64bdc6333c7e037cd83442ce242727974d5b321cd7a3f9fed57",
-      "verified_at": "2026-10-17T13:17:00.454302+00:00"
+      "verified_at": "2026-10-17T13:19:39.035204+00:00"
     },
     {
       "url": "https://mst.gov.vn/nhin-dau-hieu-hop-quy-kiem-tra-quai-mu-truoc-khi-mua-197260919113121411.htm",
       "supports": "Bài ngày 21/09/2026 của cổng Bộ Khoa học và Công nghệ nêu mũ vừa đầu chưa chắc an toàn nếu sản phẩm không đáp ứng yêu cầu kỹ thuật; QCVN 2:2021/BKHCN quy định cấu tạo, kích thước, khối lượng, khả năng hấp thụ lực khi va chạm và độ bền quai mũ; mũ trong nước phải công bố hợp quy, mũ nhập khẩu phải thực hiện yêu cầu quản lý chất lượng tương ứng; người mua nên kiểm tra thông tin trên mũ và bao bì, ưu tiên nguồn gốc rõ ràng và dấu hợp quy.",
       "sha256": "033ee3dc29da9b6d2652914eeff892916321d742e9c92606ee05e89bf0496283",
-      "verified_at": "2026-10-17T13:17:03.278058+00:00"
+      "verified_at": "2026-10-17T13:19:41.264900+00:00"
     },
     {
       "url": "https://mst.gov.vn/do-choi-tre-em-phai-vuot-qua-nhung-hang-rao-an-toan-nao-197261015095223242.htm",
       "supports": "Bài ngày 15/10/2026 của cổng Bộ Khoa học và Công nghệ về đồ chơi trẻ em (nhóm sản phẩm khác, chỉ dùng để minh họa) nêu dấu CR và nhãn hàng hóa là thông tin người tiêu dùng có thể trực tiếp quan sát, hình thức bên ngoài không phải căn cứ duy nhất để đánh giá chất lượng, và khi mua trực tuyến cần kiểm tra nhãn, đơn vị chịu trách nhiệm, cảnh báo.",
       "sha256": "e1cf13ade75fe8f26c07f46f739c63c4ed37678ab5252fe53372375fc58e0aa6",
-      "verified_at": "2026-10-17T13:17:05.203555+00:00"
+      "verified_at": "2026-10-17T13:19:42.896709+00:00"
     }
   ],
-  "at": "2026-10-17T13:17:13.692411+00:00",
+  "at": "2026-10-17T13:19:48.340995+00:00",
   "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "8c9a341711a4cb2bb95e9d793d27239082e7f18b42cc7d5fdc11ed6f01a6cd0e",
-  "inventory_sha256": "ff4ce4121b94b95b720263408393f54c55c4dc48c237159aec74a3dd6d94c197"
+  "inventory_sha256": "37706f5383b6631feaee0fb28a1dc13165f77b3e228c3150336c7be215a9b7f0"
 }

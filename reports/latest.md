@@ -4,7 +4,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-17T13:17:26.901442+00:00 |
+| at | 2026-10-17T13:20:21.818609+00:00 |
 | existing_published_posts | 150 |
 | existing_pages | 10 |
 | existing_products | 13 |
@@ -13,13 +13,13 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | claimable_topics | 6 |
 | writing | 11 |
 | draft_authored | 14 |
-| qa_pass | 12 |
+| qa_pass | 14 |
 | qa_fail | 0 |
-| qa_review | 2 |
-| repair_queue | 2 |
+| qa_review | 0 |
+| repair_queue | 0 |
 | wordpress_draft | 0 |
-| wordpress_published | 15 |
-| verified_public | 15 |
+| wordpress_published | 17 |
+| verified_public | 17 |
 | indexed | None |
 | topic_collisions | 0 |
 | category_mapping_errors | 0 |
@@ -31,12 +31,12 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | delivery_mode | production |
 | production_enabled | True |
 | draft_staging_enabled | False |
-| qa_pass_live_checked | 0 |
+| qa_pass_live_checked | 2 |
 | qa_pass_awaiting_wordpress | 0 |
 | queued_topic_ids | [] |
 | pending_wordpress_intents | [] |
 | blocked_writer_sessions | [] |
-| last_wordpress_verified_at | 2026-10-17T09:00:15.190Z |
+| last_wordpress_verified_at | 2026-10-17T13:20:20.328549+00:00 |
 | capacity | 10000 |
 | authenticated_inventory | True |
 | test_drafts_excluded | 2 |
