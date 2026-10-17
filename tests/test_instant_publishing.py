@@ -3,15 +3,19 @@
 This is a structural, no-secrets test. It does NOT claim that GitHub branch
 protection, Yoast REST writeback, or WordPress publication was verified.
 """
+import io
 import json
 import sys
 from pathlib import Path
 import unittest
+from argparse import Namespace
+from contextlib import redirect_stdout
+from unittest.mock import patch
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
-from publisher import delivery_batch_limit, production_allowed
+from publisher import delivery_batch_limit, production_allowed, run
 
 
 class InstantPublishingTests(unittest.TestCase):
@@ -44,6 +48,27 @@ class InstantPublishingTests(unittest.TestCase):
         self.assertTrue(p['seo_adapter_verified'])
         self.assertIn('/actions/runs/38910018718',p['seo_adapter_evidence'])
         self.assertTrue(p.get('owner_publish_request'))
+
+    def test_owner_requested_three_stop_states_are_off_but_no_fake_approval(self):
+        p=json.loads((ROOT/'config/production-policy.json').read_text(encoding='utf-8'))
+        self.assertEqual(p['mode'], 'production')
+        self.assertIs(p['paused'], False)
+        self.assertIs(p['emergency_stop'], False)
+        self.assertIs(p['production_enabled'], False)
+        self.assertIs(p['security_controls_verified'], False)
+        self.assertIs(p['acceptance_passed'], False)
+        self.assertFalse(production_allowed(p))
+
+    def test_unapproved_production_mode_never_loads_wp_credentials_or_posts(self):
+        args=Namespace(persist_state=False, acceptance_topic=None,
+                       acceptance_draft=False)
+        capture=io.StringIO()
+        with (patch('publisher.WP', side_effect=AssertionError('WordPress touched')),
+              patch('publisher.RemoteState', side_effect=AssertionError('Ledger touched')),
+              redirect_stdout(capture)):
+            run(args)
+        self.assertIn('PRODUCTION_NOT_AUTHORIZED', capture.getvalue())
+        self.assertIn('no WordPress writes', capture.getvalue())
 
     def test_action_waits_for_qa_success_instead_of_parallel_draft_push(self):
         wf=yaml.load((ROOT/'.github/workflows/wordpress-publisher.yml').read_text(),Loader=yaml.BaseLoader)
