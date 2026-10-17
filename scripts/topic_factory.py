@@ -59,7 +59,13 @@ def gate(topic, others, inventory, taxonomy):
             (topic.get('intent_key') and topic.get('intent_key')==other.get('intent_key'))):
             errors.append('topic identity collision:'+other['topic_id'])
         elif similarity(topic['title'],other['title'])>=0.73: review.append('near topic:'+other['topic_id'])
-    nearest=sorted(inventory,key=lambda p:similarity(topic['title'],p.get('title') or ''),reverse=True)[:5]
+    # Evidence of full-content review covers the baseline content a researcher can read.
+    # Content this factory published itself is flagged evidence_exempt by the Publisher:
+    # it cannot have been reviewed before it existed, and it stays covered by the
+    # collision checks below, the topic-to-topic checks above and the Jaccard
+    # near-duplicate gate in qa.evaluate.
+    reviewable=[p for p in inventory if not p.get('evidence_exempt')]
+    nearest=sorted(reviewable,key=lambda p:similarity(topic['title'],p.get('title') or ''),reverse=True)[:5]
     for p in inventory:
         if (p.get('slug')==topic.get('proposed_slug') or p.get('canonical')==topic.get('canonical_target') or
             p.get('url')==topic.get('canonical_target') or p.get('title_hash')==digest(norm(topic['title']))): errors.append('existing URL collision:'+str(p['id']))

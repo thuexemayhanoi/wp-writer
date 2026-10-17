@@ -421,8 +421,10 @@ def run(args):
                         results.append(drift)
                 continue
             ephemeral=[]
+            factory_ids={r['wp_id'] for r in ledger['posts'].values() if r.get('wp_id')}
             for p in live:
-                ephemeral.append({'id':p['id'],'title':title_of(p),'title_hash':digest(norm(title_of(p))),
+                ephemeral.append({'id':p['id'],'evidence_exempt':p['id'] in factory_ids,
+                    'title':title_of(p),'title_hash':digest(norm(title_of(p))),
                     'slug':p.get('slug'),'url':p.get('link'),'canonical':p.get('yoast_head_json',{}).get('canonical'),
                     'status':p.get('status'),'categories':p.get('categories',[]),
                     'content_text':visible(p.get('content',{}).get('raw',p.get('content',{}).get('rendered',''))),
