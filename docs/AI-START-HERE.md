@@ -1,7 +1,7 @@
 # AI ngoài bắt đầu tại đây — một lệnh, không xin duyệt từng bài
 
 **Chỉ repo:** `thuexemayhanoi/wp-writer` — **WordPress đích:** `https://thuexemaynguyentu.com`.
-Không trộn `wp-aiwriter` (blog.rentbikehanoi.com) và **KHÔNG sử dụng Excel Nguyễn Hà**. `data/topics.jsonl` là danh sách ID/keyword/intent/topic mới, `data/taxonomy.json` là cây danh mục cha/con; WordPress REST dùng để xác minh đầy đủ parent/slug/ID. Chủ đề mới chỉ được nhận sau Topic QA thành PLANNED.
+Không trộn `wp-aiwriter` (blog.rentbikehanoi.com) và **KHÔNG sử dụng Excel Nguyễn Hà**. `data/topics.jsonl` là danh sách ID/keyword/intent/topic mới, `data/taxonomy.json` là cây danh mục cha/con; WordPress REST dùng để xác minh đầy đủ parent/slug/ID. Với mỗi bài, AI phải giữ nguyên `taxonomy_key` của Topic ID; `wordpress_category_id` chỉ là bản sao ID đã xác minh, **không thay thế quy trình đối chiếu toàn bộ cây cha/con** trong Publisher. Không tự chọn danh mục khác, không gửi bài thẳng tới WordPress bằng Git it Write. Chủ đề mới chỉ được nhận sau Topic QA thành PLANNED.
 
 ## Dành cho Claude / ChatGPT Work / Gemini / Mistral / bất kỳ AI có quyền GitHub
 
