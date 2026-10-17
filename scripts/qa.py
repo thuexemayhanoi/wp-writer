@@ -41,6 +41,46 @@ def jaccard(a,b):return len(a&b)/max(1,len(a|b))
 
 def mdlinks(body):return [(a,u) for a,u in re.findall(r'(?<!!)\[([^\]]*)\]\(([^\s)]+)(?:\s+[^)]*)?\)',body)]
 
+
+# Only article-body links are restricted. Editorial source evidence in YAML
+# frontmatter remains available for factual/legal QA but is never published.
+PUBLIC_URL_PATTERN = re.compile(r'(?i)(?<![\w@])(?:https?://|www\.)[^\s<>"\x27\[\]]+')
+REDIRECT_QUERY_KEYS = {'url', 'u', 'redirect', 'redirect_url', 'target', 'destination', 'dest', 'next'}
+
+
+def outbound_link_errors(body, rules):
+    """Fail publication for outbound citations except explicit social/map platforms.
+
+    This inspects complete draft Markdown, including plain URLs, reference-style
+    Markdown and image targets. Source sections cannot evade the rule by being
+    excluded from the word count. The official SITE remains the only internal host.
+    """
+    allowlist = set(rules.get('public_link_platform_allowlist', []))
+    own_host = urllib.parse.urlsplit(SITE).hostname
+    violations = set()
+    for match in PUBLIC_URL_PATTERN.finditer(html.unescape(body)):
+        raw = match.group(0).rstrip('.,;:!?)]}')
+        url = ('https://' + raw) if raw.lower().startswith('www.') else raw
+        try:
+            parsed = urllib.parse.urlsplit(url)
+            host = (parsed.hostname or '').lower().rstrip('.')
+            if host == own_host:
+                continue  # Existing G5 checks internal link eligibility separately.
+            approved_host = any(host == h or host.endswith('.' + h) for h in allowlist)
+            safe = (parsed.scheme == 'https' and approved_host and not parsed.username
+                    and not parsed.password and parsed.port in (None, 443))
+            # Prevent google.com/url?url=... and Facebook /l.php?u=... from
+            # becoming an unreviewed doorway to unrelated external sites.
+            if any(key.lower() in REDIRECT_QUERY_KEYS
+                   for key, _ in urllib.parse.parse_qsl(parsed.query, keep_blank_values=True)):
+                safe = False
+        except ValueError:
+            host, safe = 'invalid-url', False
+        if not safe:
+            violations.add('EXTERNAL_SOURCE_LINK_FORBIDDEN:' + (host or 'invalid-url'))
+    return sorted(violations)
+
+
 def seo_onpage_score(meta, body, topic, internal, rules):
     """Intent-aware deterministic on-page checks, not a Google or Yoast score.
 
@@ -267,6 +307,7 @@ def evaluate(path,topic,rows=None,inv=None,link_checker=None,live=False,check_cl
         if jaccard(body_shingles,shingles(counted_text(otherbody)))>=rules['near_duplicate_jaccard']:g4['errors'].append('Near duplicate draft:'+other.name)
     public_urls={p.get('url') for p in inv if p.get('status')=='publish'}|{SITE+'/'}
     links=mdlinks(body);internal=[]
+    g5['errors'].extend(outbound_link_errors(body,rules))
     for anchor,url in links:
         parsed=urllib.parse.urlsplit(url)
         if not anchor.strip():g5['errors'].append('Empty anchor')
