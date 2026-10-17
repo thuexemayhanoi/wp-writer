@@ -77,6 +77,39 @@ def duplicate(topic,live):
         norm(title_of(p))==norm(topic['title']) or marker in p.get('content',{}).get('raw',p.get('content',{}).get('rendered','')) or
         p.get('yoast_head_json',{}).get('canonical')==topic['canonical_target']]
 
+def confirmed_post_drift(topic, record, live):
+    """Report external WordPress status/category changes without touching either side.
+
+    VERIFIED means the factory previously observed an exact state, not that
+    other WordPress administrators/plugins cannot subsequently modify it.
+    A drift report is NOT permission to overwrite or retry the old Topic ID.
+    """
+    if record.get('phase') != 'VERIFIED' or not record.get('wp_id'):
+        return None
+    matches=[p for p in live if p.get('resource','posts')=='posts'
+             and p.get('id')==record['wp_id']]
+    if len(matches)!=1:
+        return {'topic_id':topic['topic_id'],'status':'EXTERNAL_WORDPRESS_DRIFT',
+                'wp_id':record['wp_id'],'reason':'verified WordPress post missing or duplicated in live inventory',
+                'action':'manual reconciliation; never create/update automatically'}
+    post=matches[0]
+    expected=record.get('expected_status') or record.get('status')
+    differences={}
+    if post.get('status') != expected:
+        differences['status']={'ledger':expected,'wordpress':post.get('status')}
+    if post.get('slug') != topic.get('proposed_slug'):
+        differences['slug']={'ledger':topic.get('proposed_slug'),'wordpress':post.get('slug')}
+    if post.get('categories') != [record.get('category_id')]:
+        differences['categories']={'ledger':[record.get('category_id')],'wordpress':post.get('categories')}
+    if expected=='publish' and post.get('link')!=topic.get('canonical_target'):
+        differences['permalink']={'ledger':topic.get('canonical_target'),'wordpress':post.get('link')}
+    if differences:
+        return {'topic_id':topic['topic_id'],'status':'EXTERNAL_WORDPRESS_DRIFT',
+                'wp_id':record['wp_id'],'differences':differences,
+                'action':'manual reconciliation; never create/update automatically'}
+    return None
+
+
 def post_html(topic,body,sha):
     return '<!-- wp-writer:topic='+topic['topic_id']+';sha256='+sha+' -->\n'+markdown.markdown(body,extensions=['tables','sane_lists'])
 
@@ -319,7 +352,12 @@ def run(args):
             t=next(t for t in rows if t['topic_id']==path.stem)
             prior=ledger['posts'].get(t['topic_id'])
             if prior:
-                if prior.get('phase')!='VERIFIED':publisher.reconcile(t,live)
+                if prior.get('phase')!='VERIFIED':
+                    publisher.reconcile(t,live)
+                else:
+                    drift=confirmed_post_drift(t,prior,live)
+                    if drift:
+                        results.append(drift)
                 continue
             ephemeral=[]
             for p in live:
