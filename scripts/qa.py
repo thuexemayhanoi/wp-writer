@@ -258,8 +258,19 @@ def failure_label(exc):
     if isinstance(exc,(ValueError,RuntimeError)):return name+': '+str(exc)
     return name
 
+# A host whose connection failed on every retry (typically a .gov.vn site that blocks or times out GitHub's runners) is
+# not contacted again in this process: each further source on it would only burn another 3 x 20 s. The research
+# snapshot fallback still applies, because the skipped read raises the same kind of transient URLError.
+SOURCE_HOSTS_DOWN={}
+
+def reset_source_host_cache():
+    SOURCE_HOSTS_DOWN.clear()
+
 def read_source(url,attempts=3):
     """One live read exactly like the Publisher's; transient failures are retried up to `attempts` times."""
+    host=(urllib.parse.urlsplit(url).hostname or '').lower()
+    if host in SOURCE_HOSTS_DOWN:
+        raise urllib.error.URLError(TimeoutError('timed out (host already unreachable in this run)'))
     for attempt in range(1,max(1,attempts)+1):
         try:
             opener=urllib.request.build_opener(Redirect())
@@ -267,7 +278,10 @@ def read_source(url,attempts=3):
             with opener.open(req,timeout=20) as response:
                 return response.read(8_000_000).decode('utf-8',errors='replace'),attempt
         except Exception as exc:
-            if attempt>=attempts or not is_transient(exc):raise
+            if attempt>=attempts or not is_transient(exc):
+                if host and is_transient(exc) and not isinstance(exc,urllib.error.HTTPError):
+                    SOURCE_HOSTS_DOWN[host]=failure_label(exc)  # a server that answered (5xx/429) is not "down"
+                raise
             time.sleep(RETRY_DELAYS[min(attempt-1,len(RETRY_DELAYS)-1)])
 
 
