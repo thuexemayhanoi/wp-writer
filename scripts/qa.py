@@ -3,14 +3,18 @@ import argparse
 import datetime as dt
 import html
 import json
+import http.client
 import re
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from collections import Counter
 import yaml
 from common import ROOT, SITE, Text, WP, Redirect, digest, load, norm, now, save, topics, visible
 from taxonomy_sync import by_key,path_for
-from topic_factory import exempt_factory_posts, gate as topic_gate
+from gate_triage import annotate
+from topic_factory import drop_own_post, exempt_factory_posts, gate as topic_gate
 
 def read_article(path):
     raw=path.read_text();parts=raw.split('---',2)
@@ -236,6 +240,37 @@ def _reviewed_source_snapshot(source, trusted_research):
                for record in trusted_research)
 
 
+TRANSIENT_HTTP=(408,425,429,500,502,503,504)
+RETRY_DELAYS=(1,3)
+EVIDENCE_REASONS=('reviewed full-content evidence stale or missing','nearest full content not reviewed')
+
+def is_transient(exc):
+    """Only a failure that can disappear by itself is worth another read; 403, 404, TLS and redirects are not."""
+    if isinstance(exc,urllib.error.HTTPError):return exc.code in TRANSIENT_HTTP
+    if isinstance(exc,urllib.error.URLError):
+        return isinstance(exc.reason,(TimeoutError,ConnectionResetError,ConnectionAbortedError,ConnectionRefusedError)) or 'timed out' in str(exc.reason).lower()
+    return isinstance(exc,(TimeoutError,ConnectionResetError,ConnectionAbortedError,http.client.RemoteDisconnected,http.client.IncompleteRead))
+
+def failure_label(exc):
+    name=type(exc).__name__
+    if isinstance(exc,urllib.error.HTTPError):return name+' '+str(exc.code)
+    if isinstance(exc,urllib.error.URLError):return name+' '+str(exc.reason)
+    if isinstance(exc,(ValueError,RuntimeError)):return name+': '+str(exc)
+    return name
+
+def read_source(url,attempts=3):
+    """One live read exactly like the Publisher's; transient failures are retried up to `attempts` times."""
+    for attempt in range(1,max(1,attempts)+1):
+        try:
+            opener=urllib.request.build_opener(Redirect())
+            req=urllib.request.Request(url,headers={'User-Agent':'NguyenTu-WPWriter/1.0'})
+            with opener.open(req,timeout=20) as response:
+                return response.read(8_000_000).decode('utf-8',errors='replace'),attempt
+        except Exception as exc:
+            if attempt>=attempts or not is_transient(exc):raise
+            time.sleep(RETRY_DELAYS[min(attempt-1,len(RETRY_DELAYS)-1)])
+
+
 def verify_sources(sources, live=False, trusted_research=None, legal=False):
     """Live-check when possible; preserve a clearly marked researched snapshot
     on transient network errors. An unreachable source is not a fake live check.
@@ -263,16 +298,15 @@ def verify_sources(sources, live=False, trusted_research=None, legal=False):
             if not live:
                 continue
             try:
-                opener = urllib.request.build_opener(Redirect())
-                req = urllib.request.Request(s['url'], headers={'User-Agent': 'NguyenTu-WPWriter/1.0'})
-                with opener.open(req, timeout=20) as response:
-                    raw = response.read(8_000_000).decode('utf-8', errors='replace')
+                # Transient failures are re-read up to live_retry_attempts times before the snapshot fallback is considered.
+                raw, attempt = read_source(s['url'], rules.get('live_retry_attempts', 3))
                 text = visible(raw)
                 if norm(s['evidence_text']) not in norm(text):
                     raise ValueError('Source excerpt not found')
                 evidence.append({'url': s['url'], 'supports': s['supports'],
                                  'sha256': digest(text), 'verified_at': now(),
-                                 'verification_method': 'live', 'live_checked': True})
+                                 'verification_method': 'live', 'live_checked': True,
+                                 **({'attempts': attempt} if attempt > 1 else {})})
             except (OSError, urllib.error.URLError) as exc:
                 transient = not isinstance(exc, urllib.error.HTTPError) or exc.code in (403, 429, 500, 502, 503, 504)
                 if transient and _reviewed_source_snapshot(s, trusted_research):
@@ -285,9 +319,35 @@ def verify_sources(sources, live=False, trusted_research=None, legal=False):
                 else:
                     raise
         except Exception as exc:
-            errors.append('Source REVIEW: ' + type(exc).__name__)
+            errors.append('Source REVIEW: ' + failure_label(exc))
     return errors, evidence
 
+
+def evidence_recheck(topic,rows,inv,body_shingles,identity,rules):
+    """G4 found nearest pages without review evidence (new, or edited after the research): re-read them against THIS article.
+
+    Not a bypass: a page is lifted only when its text overlap with the article stays under `max_jaccard` AND the
+    full-corpus intent guard finds no search-intent match with it. Any overlap keeps the evidence reasons (the article
+    stays held as a duplicate-intent risk). The measurement is stored in the QA record.
+    """
+    pages=identity.get('evidence_pages') or {}
+    ids=sorted(set(pages.get('stale',[]))|set(pages.get('unreviewed',[])))
+    cfg=rules.get('evidence_recheck') or {}
+    if not ids or cfg.get('enabled',True) is False:return None
+    from intent_guard import IntentIndex
+    limit=float(cfg.get('max_jaccard',0.25))
+    matched={m['id']:m['severity'] for m in IntentIndex(inv,rows).matches(topic)}
+    by={p['id']:p for p in inv}
+    checked=[]
+    for pid in ids:
+        page=by.get(pid) or {}
+        overlap=jaccard(body_shingles,shingles(page['content_text'])) if page.get('content_text') else None
+        hit=matched.get('WP'+str(pid))
+        checked.append({'id':pid,'title':page.get('title'),'why':'stale' if pid in pages.get('stale',[]) else 'unreviewed',
+            'content_hash':page.get('content_hash'),'jaccard':None if overlap is None else round(overlap,3),'intent_match':hit,
+            'verdict':'OVERLAP' if hit or (overlap is not None and overlap>=limit) else 'INDEPENDENT'})
+    return {'pages':checked,'independent':all(c['verdict']=='INDEPENDENT' for c in checked),'max_jaccard':limit,
+            'method':'text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent'}
 
 def business_errors(body,meta):
     facts=load('data/business-facts.json');errors=[]
@@ -322,7 +382,8 @@ def business_errors(body,meta):
 def evaluate(path,topic,rows=None,inv=None,link_checker=None,live=False,check_claim=True):
     rules=load('config/qa-rules.json');rows=rows if rows is not None else topics()
     inv=inv if inv is not None else load('data/existing-content-inventory.json',{}).get('items',[])
-    inv=exempt_factory_posts(inv,load('data/state/publication-ledger.json',{}))
+    ledger=load('data/state/publication-ledger.json',{})
+    inv=drop_own_post(exempt_factory_posts(inv,ledger),ledger,topic['topic_id'])
     gates={str(i):{'errors':[],'review':[]} for i in range(1,7)}
     try:meta,body,sha=read_article(path)
     except Exception as e:return {'topic_id':topic['topic_id'],'status':'FAIL','errors':[str(e)],
@@ -374,6 +435,9 @@ def evaluate(path,topic,rows=None,inv=None,link_checker=None,live=False,check_cl
         try:othermeta,otherbody,_=read_article(other)
         except Exception:continue
         if jaccard(body_shingles,shingles(counted_text(otherbody)))>=rules['near_duplicate_jaccard']:g4['errors'].append('Near duplicate draft:'+other.name)
+    recheck=evidence_recheck(topic,rows,inv,body_shingles,identity,rules)
+    if recheck and recheck['independent']:
+        g4['review']=[r for r in g4['review'] if not r.startswith(EVIDENCE_REASONS)]
     public_urls={p.get('url') for p in inv if p.get('status')=='publish'}|{SITE+'/'}
     links=mdlinks(body);internal=[]
     g5['errors'].extend(outbound_link_errors(body,rules))
@@ -414,9 +478,19 @@ def evaluate(path,topic,rows=None,inv=None,link_checker=None,live=False,check_cl
         'quality_score':quality,'seo_score':seo,'seo_min_required':rules['seo_min'],
         'seo_checks':seo_checks,'seo_recommendations':seo_recommendations,
         'gates':gates,'errors':errors,'review':reviews,'source_evidence':source_evidence,
+        'evidence_recheck':recheck,
         'at':now(),'live_links_checked':live,'legal_required':legal,'rules_sha256':digest(json.dumps(rules,sort_keys=True)),
         'inventory_sha256':digest(json.dumps(inv,ensure_ascii=False,sort_keys=True))}
 
+
+def evaluate_safely(path,topic,rows,live=False,inv=None):
+    """evaluate() that turns an unexpected crash into a FAIL ticket for this article only."""
+    kwargs={'rows':rows,'live':live}
+    if inv is not None:kwargs['inv']=inv
+    try:return evaluate(path,topic,**kwargs)
+    except Exception as exc:
+        return {'topic_id':topic['topic_id'],'status':'FAIL','source_sha256':digest(path.read_bytes()),
+                'errors':['QA evaluation crashed: '+type(exc).__name__+': '+str(exc)[:160]],'review':[],'at':now()}
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--live',action='store_true');a=p.parse_args()
@@ -428,7 +502,8 @@ def main():
             r={'topic_id':path.stem,'status':'FAIL','source_sha256':digest(path.read_bytes()),
                'errors':['Unknown or ambiguous draft ID'],'review':[],'at':now()}
         else:
-            r=evaluate(path,match[0],rows=rows,live=a.live)
+            r=evaluate_safely(path,match[0],rows,live=a.live)
+        annotate(r)
         save('data/qa/'+path.stem+'.json',r);results.append(r)
     save('reports/repair-queue.json',[r for r in results if r['status']!='PASS'])
     print(json.dumps({'authored':len(results),'pass':sum(r['status']=='PASS' for r in results),'repair':sum(r['status']!='PASS' for r in results)}))

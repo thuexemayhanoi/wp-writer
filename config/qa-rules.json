@@ -22,5 +22,10 @@
   "seo_meta_description_min": 100,
   "seo_meta_description_max": 180,
   "seo_score_version": "intent-aware-onpage-v2",
-  "legal_source_max_age_days": 90
+  "legal_source_max_age_days": 90,
+  "live_retry_attempts": 3,
+  "evidence_recheck": {
+    "enabled": true,
+    "max_jaccard": 0.25
+  }
 }

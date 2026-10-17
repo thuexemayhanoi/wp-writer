@@ -58,6 +58,11 @@ def exempt_factory_posts(inventory, ledger):
     return [dict(p,evidence_exempt=True) if p.get('id') in ids and not p.get('evidence_exempt') else p
             for p in inventory]
 
+def drop_own_post(inventory, ledger, topic_id):
+    """A draft never collides with its own already published WordPress post."""
+    own=(((ledger or {}).get('posts') or {}).get(topic_id) or {}).get('wp_id')
+    return [p for p in inventory if own is None or p.get('id')!=own]
+
 def gate(topic, others, inventory, taxonomy):
     errors=[]; review=[]
     required=['topic_id','title','primary_keyword','search_intent','taxonomy_key','proposed_slug','canonical_target']
@@ -103,12 +108,14 @@ def gate(topic, others, inventory, taxonomy):
         review.append('reviewed full-content evidence stale or missing'+
                       (': '+', '.join('%s=%s'%(p['id'],p.get('content_hash')) for p in stale) if stale else ''))
     reviewed=set(research.get('reviewed_existing_ids',[]))
-    if any(p['id'] not in reviewed for p in nearest): review.append('nearest full content not reviewed')
+    unreviewed=[p['id'] for p in nearest if p['id'] not in reviewed]
+    if unreviewed: review.append('nearest full content not reviewed')
     if len(topic.get('outline',[]))<5 or not research.get('usefulness') or not research.get('scope_exclusions'):
         review.append('usefulness/outline/scope evidence incomplete')
     for reason in list(review):
         if reason.startswith('near topic:') and reason.split(':',1)[1] in research.get('resolved_topic_collisions',{}): review.remove(reason)
     return {'status':'FAIL' if errors else 'REVIEW' if review else 'PASS','errors':errors,'review':review,
+            'evidence_pages':{'stale':[p['id'] for p in stale],'unreviewed':unreviewed},
             'nearest':[{'id':p['id'],'title':p.get('title'),'similarity':round(similarity(topic['title'],p.get('title') or ''),3)} for p in nearest],
             'at':now(),'topic_hash':digest(json.dumps(topic,ensure_ascii=False,sort_keys=True))}
 

@@ -43,3 +43,7 @@ Nguồn quy định: [Research V2 runbook](docs/RESEARCH-V2-GLOBAL-ADAPTATION.md
 ## Self-replenishing topics — lệnh chủ 2026-10-17
 
 Khi PLANNED sẵn sàng viết còn **dưới 100**, `scripts/refill_controller.py` (workflow `Self-replenishing topic controller`, không AI, không WordPress) mở đơn nghiên cứu **100–200 chủ đề mới**; **không giới hạn số đợt**. Mọi ứng viên bị `scripts/intent_guard.py` so với TOÀN BỘ bài đã đăng và mọi chủ đề đang xử lý; **chỉ dòng đạt Research QA mới thành PLANNED**. Researcher chạy `python scripts/research_v2.py plan` và `intent-check --file …` trước khi push. Số liệu nằm ở `config/refill-policy.json` (coordinator-only). Chi tiết và giới hạn thật (`approved_capacity`, không có AI trong Actions): [docs/SELF-REPLENISHING-TOPICS.md](docs/SELF-REPLENISHING-TOPICS.md). Writer/Researcher không sửa policy, script hay workflow này.
+
+## Self-healing gates G1–G7 — lệnh chủ 2026-10-17
+
+QA SEO/Quality ≥85, kiểm tra trùng, đúng danh mục **không đổi**. Lỗi tạm thời (nguồn/liên kết hết thời gian, 5xx, 429) máy tự đọc lại tối đa 3 lần; G4 thiếu bằng chứng cho trang bị sửa/mới thì đọc lại nội dung trang đó so với bài (chỉ gỡ khi không chồng văn bản và không trùng intent); inventory tự làm mới khi WordPress đổi. Chỉ giữ bài có rủi ro thật (trùng URL/intent, sai danh mục, nguồn không xác minh được, sai pháp lý/giá/thông tin chủ); một bài lỗi không chặn bài khác. G7 ghi biên nhận xác minh sau đăng (ID, URL, trạng thái, canonical, SEO title/description, danh mục) vào ledger. Chi tiết: [docs/SELF-HEALING-GATES.md](docs/SELF-HEALING-GATES.md).

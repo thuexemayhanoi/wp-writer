@@ -8,7 +8,8 @@ import subprocess
 import markdown
 from common import ROOT,SITE,WP,WPRejected,PROTECTED_IDS,digest,git,inventory,load,lock,norm,now,save,title_of,topics,visible
 from git_state import RemoteState
-from qa import evaluate,read_article
+from gate_triage import annotate,state_entry
+from qa import evaluate,evaluate_safely,read_article
 from taxonomy_sync import by_key,resolve,materialize
 
 LEDGER='data/state/publication-ledger.json'
@@ -114,6 +115,17 @@ def confirmed_post_drift(topic, record, live):
         differences['categories']={'ledger':[record.get('category_id')],'wordpress':post.get('categories')}
     if expected=='publish' and post.get('link')!=topic.get('canonical_target'):
         differences['permalink']={'ledger':topic.get('canonical_target'),'wordpress':post.get('link')}
+    yoast=post.get('yoast_head_json') or {}
+    if expected=='publish' and yoast:
+        # G7 on the live inventory: SEO meta and indexability of a verified public post, reported, never rewritten.
+        if record.get('meta_title') and yoast.get('title')!=record['meta_title']:
+            differences['seo_title']={'ledger':record['meta_title'],'wordpress':yoast.get('title')}
+        if record.get('meta_description') and yoast.get('description')!=record['meta_description']:
+            differences['seo_description']={'ledger':record['meta_description'],'wordpress':yoast.get('description')}
+        if yoast.get('canonical') and yoast['canonical']!=topic.get('canonical_target'):
+            differences['canonical']={'ledger':topic.get('canonical_target'),'wordpress':yoast.get('canonical')}
+        if (yoast.get('robots') or {}).get('index') not in (None,'index'):
+            differences['robots']={'ledger':'index','wordpress':yoast['robots'].get('index')}
     if differences:
         return {'topic_id':topic['topic_id'],'status':'EXTERNAL_WORDPRESS_DRIFT',
                 'wp_id':record['wp_id'],'differences':differences,
@@ -121,26 +133,47 @@ def confirmed_post_drift(topic, record, live):
     return None
 
 
+INVENTORY_FIELDS=('id','type','status','title_hash','slug_hash','content_hash','url','canonical','categories','seo_title','meta_description','robots')
+
+def inventory_digest(items):
+    """Digest of what matters in the stored inventory, so a refresh is persisted only when WordPress content really changed."""
+    rows=sorted(([item.get(k) for k in INVENTORY_FIELDS] for item in items),key=lambda r:(str(r[1]),str(r[0])))
+    return digest(json.dumps(rows,ensure_ascii=False,sort_keys=True))
+
 def post_html(topic,body,sha):
     return '<!-- wp-writer:topic='+topic['topic_id']+';sha256='+sha+' -->\n'+markdown.markdown(body,extensions=['tables','sane_lists'])
 
-def verify(client,topic,record):
+def verify(client,topic,record,receipt=None):
+    """Gate G7, read-only: everything WordPress must show after a write.
+
+    `receipt` (optional dict) collects one boolean per check plus the observed ID, URL, status, canonical, SEO title and
+    description, so the ledger holds a structured proof instead of only "VERIFIED". Any failed check raises exactly as before.
+    """
+    r=receipt if receipt is not None else {}
+    r.update({'gate':'G7','status':'FAIL','wp_id':record.get('wp_id'),'checks':{}})
+    def need(name,ok,message):
+        r['checks'][name]=bool(ok)
+        if not ok:
+            r['failed']=name
+            raise ValueError(message)
     post_id=record['wp_id']
     if post_id in PROTECTED_IDS:raise ValueError('Protected smoke-test post')
     p=client.get('wp/v2/posts/'+str(post_id)+'?context=edit')
     raw=p.get('content',{}).get('raw','')
     marker='wp-writer:topic='+topic['topic_id']+';sha256='+record['source_hash']
-    if (p.get('status')!=record['expected_status'] or p.get('slug')!=record['slug'] or
-        title_of(p)!=topic['title'] or p.get('categories')!=[record['category_id']] or
-        marker not in raw or digest(visible(raw))!=record['visible_hash']):
-        raise ValueError('WordPress content/status/category readback mismatch')
+    readback='WordPress content/status/category readback mismatch'
+    need('wordpress_status',p.get('status')==record['expected_status'],readback)
+    need('slug',p.get('slug')==record['slug'],readback)
+    need('title',title_of(p)==topic['title'],readback)
+    need('category',p.get('categories')==[record['category_id']],readback)
+    need('ownership_marker',marker in raw,readback)
+    need('content',digest(visible(raw))==record['visible_hash'],readback)
+    r.update(wordpress_status=p.get('status'),url=p.get('link'),categories=p.get('categories'))
     if record['expected_status']=='publish':
-        if p.get('link')!=topic['canonical_target']:
-            raise ValueError('Published permalink must match approved canonical')
+        need('permalink',p.get('link')==topic['canonical_target'],'Published permalink must match approved canonical')
         page,_=client.request(p['link'],public=True,page=True)
-        if norm(topic['title']) not in norm(page) or norm(record['first_paragraph']) not in norm(page):
-            raise ValueError('Public permalink content mismatch')
-        if re.search(r'<meta[^>]+(?:noindex|http-equiv=[\"\']refresh)',page,re.I):raise ValueError('New post not indexable')
+        need('public_page',norm(topic['title']) in norm(page) and norm(record['first_paragraph']) in norm(page),'Public permalink content mismatch')
+        need('indexable',not re.search(r'<meta[^>]+(?:noindex|http-equiv=[\"\']refresh)',page,re.I),'New post not indexable')
         from html.parser import HTMLParser
         class SEO(HTMLParser):
             def __init__(self):super().__init__();self.canon=[];self.description=[];self.in_title=False;self.title=''
@@ -154,8 +187,10 @@ def verify(client,topic,record):
             def handle_data(self,d):
                 if self.in_title:self.title+=d
         seo=SEO();seo.feed(page)
-        if seo.canon!=[topic['canonical_target']] or seo.description!=[record.get('meta_description')] or seo.title!=record.get('meta_title'):
-            raise ValueError('Frontend canonical/title/meta mismatch')
+        r.update(canonical=seo.canon[0] if seo.canon else None,seo_title=seo.title,
+                 seo_description=seo.description[0] if seo.description else None)
+        need('seo_meta',seo.canon==[topic['canonical_target']] and seo.description==[record.get('meta_description')] and seo.title==record.get('meta_title'),'Frontend canonical/title/meta mismatch')
+    r['status']='PASS';r['checked_at']=now()
     return p
 
 class Publisher:
@@ -169,19 +204,20 @@ class Publisher:
     def reconcile(self,topic,live):
         rec=self.ledger['posts'].get(topic['topic_id'])
         if not rec:return None
+        receipt={}
         if rec.get('phase')=='VERIFIED':
             # Read-only verification also detects changes outside the factory.
             verify(self.client,topic,rec);return rec
         if rec.get('wp_id'):
-            p=verify(self.client,topic,rec)
+            p=verify(self.client,topic,rec,receipt)
         else:
             hits=duplicate(topic,live)
             if len(hits)!=1:raise ValueError('Unresolved POST intent; never blindly retry')
             hit=hits[0];marker='wp-writer:topic='+topic['topic_id']+';sha256='+rec['source_hash']
             if marker not in hit.get('content',{}).get('raw',''):raise ValueError('Collision lacks ownership marker')
             self.record(topic['topic_id'],phase='VERIFY_PENDING',wp_id=hit['id'])
-            p=verify(self.client,topic,self.ledger['posts'][topic['topic_id']])
-        self.record(topic['topic_id'],phase='VERIFIED',wp_id=p['id'],status=p['status'],url=p['link'],verified_at=now())
+            p=verify(self.client,topic,self.ledger['posts'][topic['topic_id']],receipt)
+        self.record(topic['topic_id'],phase='VERIFIED',wp_id=p['id'],status=p['status'],url=p['link'],verified_at=now(),g7=receipt)
         return self.ledger['posts'][topic['topic_id']]
 
     def withdraw(self,topic_id):
@@ -236,12 +272,13 @@ class Publisher:
             # stranded as an "uncertain POST", then stop the run (policy/draft changed).
             self.withdraw(topic['topic_id'])
             raise RunStop('Stopped before POST: '+str(exc)) from exc
+        receipt={}
         try:
             p=self.client.request('wp/v2/posts',payload)[0]
             if p['id'] in PROTECTED_IDS:raise ValueError('Unexpected protected post ID')
             self.record(topic['topic_id'],phase='VERIFY_PENDING',wp_id=p['id'])
-            verified=verify(self.client,topic,self.ledger['posts'][topic['topic_id']])
-            self.record(topic['topic_id'],phase='VERIFIED',wp_id=verified['id'],status=verified['status'],url=verified['link'],verified_at=now())
+            verified=verify(self.client,topic,self.ledger['posts'][topic['topic_id']],receipt)
+            self.record(topic['topic_id'],phase='VERIFIED',wp_id=verified['id'],status=verified['status'],url=verified['link'],verified_at=now(),g7=receipt)
             live.append(verified);return self.ledger['posts'][topic['topic_id']]
         except WPRejected:
             # HTTP 4xx: WordPress refused the write and created nothing. Withdraw the
@@ -250,7 +287,7 @@ class Publisher:
             raise
         except Exception:
             # Intent already durable, including a crash before this optional checkpoint.
-            self.record(topic['topic_id'],phase='NEEDS_RECONCILE')
+            self.record(topic['topic_id'],phase='NEEDS_RECONCILE',**({'g7':receipt} if receipt else {}))
             raise
 
 
@@ -397,10 +434,15 @@ def run(args):
         if production_allowed(policy) and not seo_adapter_check(client):raise ValueError('Yoast metadata REST adapter unavailable; production blocked')
         # Current public and non-public WordPress content used in collision/factual review.
         from audit import run as audit_run
+        stored_inventory=inventory_digest(load('data/existing-content-inventory.json',{}).get('items',[]))
         audit_run(True)
+        # G4 self-refresh: when WordPress differs from the stored inventory, the fresh one is persisted (CAS) at the end of the run,
+        # so researchers and writers compare against current content instead of a stale snapshot.
+        inventory_changed=inventory_digest(load('data/existing-content-inventory.json',{}).get('items',[]))!=stored_inventory
         policy_runtime=load('config/production-policy.json')
         if policy_runtime!=base_policy:raise ValueError('Policy changed during inventory')
         attempted=0
+        recheck_state=load('reports/gate-recheck.json',{})
         for path in sorted((ROOT/'posts/drafts').glob('NT-*.md')):
             if args.acceptance_topic and path.stem!=args.acceptance_topic:continue
             if attempted>=batch_limit:break
@@ -431,7 +473,11 @@ def run(args):
                     'content_hash':digest(visible(p.get('content',{}).get('raw',p.get('content',{}).get('rendered',''))))})
             # Include public products and baseline exclusions; unpublished content exists only in RAM.
             ephemeral.extend(p for p in load('data/existing-content-inventory.json')['items'] if p['id'] not in {q['id'] for q in ephemeral})
-            result=evaluate(path,t,rows=rows,inv=ephemeral,live=True);save('data/qa/'+path.stem+'.json',result)
+            # One crashing or unreadable article is a FAIL ticket for that article only; the loop goes on.
+            result=evaluate_safely(path,t,rows,live=True,inv=ephemeral)
+            annotate(result,recheck_state.get(t['topic_id']))
+            recheck_state[t['topic_id']]=state_entry(result)
+            save('data/qa/'+path.stem+'.json',result)
             if result['status']!='PASS':results.append(result);continue
             meta,body,sha=read_article(path)
             receipt=load('data/state/writer-claims.json',{}).get('submissions',{}).get(t['topic_id'],{})
@@ -461,7 +507,17 @@ def run(args):
                 'category_id':route['category_id'],'category_resolution':route['category_resolution'],
                 'intended_taxonomy_key':route['intended_taxonomy_key'],
                 'category_warning':route['category_warning']})
+        # Keep the recheck counters only for articles that are still waiting; a published or PASS article starts clean.
+        save('reports/gate-recheck.json',{k:v for k,v in recheck_state.items()
+            if v.get('status')!='PASS' and (ledger['posts'].get(k) or {}).get('phase')!='VERIFIED'})
         save('reports/publisher-latest.json',{'at':now(),'attempted':attempted,'batch_size':policy['batch_size'],'max_batches_per_run':policy['max_batches_per_run'],'batch_capacity':batch_limit,'qa':results,'backlog_drains_on':'successful Writer QA or fallback schedule','production':production_allowed(policy)})
+        if inventory_changed and args.persist_state:
+            # Never fail a publishing run over the inventory refresh; the next run retries it.
+            try:
+                from save_audit import run as persist_audit
+                persist_audit()
+            except Exception as exc:
+                print('INVENTORY_PERSIST_SKIPPED: '+type(exc).__name__+': '+str(exc)[:160])
         if args.acceptance_topic:
             rec=ledger['posts'].get(args.acceptance_topic,{})
             if rec.get('phase')!='VERIFIED' or rec.get('status')!='draft':raise ValueError('Article acceptance blocked; inspect QA/taxonomy report')
