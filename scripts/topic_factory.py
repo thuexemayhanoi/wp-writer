@@ -129,6 +129,12 @@ def run(candidate_path=None):
             continue
         result=gate(t,rows,inv,tax); evidence[t['topic_id']]=result
         t['topic_qa_status']='PLANNED' if result['status']=='PASS' else 'REJECTED' if result['status']=='FAIL' else 'RESEARCH'
+        # Populate a verified REST category ID only after Topic QA has approved
+        # the topic. Unmaterialized/planned terms deliberately remain null.
+        if t['topic_qa_status']=='PLANNED':
+            term=next(x for x in tax if x['taxonomy_key']==t['taxonomy_key'])
+            if term['status']=='ACTIVE' and term.get('wordpress_term_id'):
+                t['wordpress_category_id']=term['wordpress_term_id']
     write_topics(rows)
     for c in tax:
         c['materialized_topic_count']=sum(t['taxonomy_key']==c['taxonomy_key'] and t['topic_qa_status']=='PLANNED' for t in rows)
