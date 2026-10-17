@@ -116,7 +116,8 @@ def ingest(branch, commit, dry_run=False):
     # The paper queue never exceeds the 1,000 topic approved intake ceiling.
     QA = validate_candidates(all_new)
     blocked = [row for row in QA if row['status'] != 'PASS']
-    if blocked:
+    # A failing topic never holds back its passing neighbours; only a batch with nothing usable is refused.
+    if len(blocked) == len(QA):
         raise ValueError('TRUSTED_RESEARCH_QA_BLOCKED: ' +
                          json.dumps(blocked[:4], ensure_ascii=False))
     if dry_run:
@@ -134,6 +135,7 @@ def ingest(branch, commit, dry_run=False):
     (ROOT / cp_path).write_text(cp_raw, encoding='utf-8')
     refill = load(REFILL, {'batches': {}})
     existing_ids = {row['topic_id'] for row in topics()}
+    accepted_all, not_accepted_all = [], {}
     for path, raw, rows in fresh:
         output = ROOT / path
         output.parent.mkdir(parents=True, exist_ok=True)
@@ -141,14 +143,16 @@ def ingest(branch, commit, dry_run=False):
         promote_candidates(path)  # Existing canonical Topic QA: no Excel.
         actual = {row['topic_id']: row for row in topics()}
         just_added = [row['topic_id'] for row in rows]
-        if any(row_id in existing_ids or
-               actual.get(row_id, {}).get('topic_qa_status') != 'PLANNED'
-               for row_id in just_added):
+        if any(row_id in existing_ids or row_id not in actual for row_id in just_added):
             raise ValueError('Research gate failed during canonical Topic QA; no push')
+        accepted = [i for i in just_added if actual[i].get('topic_qa_status') == 'PLANNED']
+        not_accepted = {i: actual[i].get('topic_qa_status') for i in just_added if i not in accepted}
+        accepted_all.extend(accepted)
+        not_accepted_all.update(not_accepted)
         existing_ids.update(just_added)
         row = {'sha256': digest(raw), 'at': now(), 'state': 'TOPIC_QA_APPLIED',
                'research_branch': branch, 'research_commit': commit,
-               'topic_ids': just_added}
+               'topic_ids': just_added, 'accepted_ids': accepted, 'not_accepted': not_accepted}
         ledger['batches'][path] = row
         refill['batches'][Path(path).name] = {
             'sha256': digest(raw), 'at': row['at'],
@@ -161,8 +165,9 @@ def ingest(branch, commit, dry_run=False):
     from validate import run as validate_invariants
     validate_invariants()
     sha = state.persist(paths, 'research: trusted ten-topic QA intake and refill [skip ci]')
-    return {'status': 'RESEARCH_ACCEPTED', 'new_topics': len(all_new),
-            'new_batches': len(fresh), 'accepted_ids': [row['topic_id'] for row in all_new],
+    return {'status': 'RESEARCH_ACCEPTED' if not not_accepted_all else 'RESEARCH_PARTIALLY_ACCEPTED',
+            'new_topics': len(all_new), 'new_batches': len(fresh),
+            'accepted_ids': accepted_all, 'not_accepted': not_accepted_all,
             'branch': branch, 'main_commit': sha}
 
 

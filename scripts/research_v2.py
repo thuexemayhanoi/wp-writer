@@ -228,12 +228,16 @@ def verify_files(branch, *, fetch=None, check_topic_qa=True):
                 raise ValueError('An already-ingested research batch was edited')
         else:
             new.extend(rows)
+    blocked = []
     if check_topic_qa and new:
         result = validate_candidates(new)
         blocked = [r for r in result if r['status'] != 'PASS']
-        if blocked:
+        # One failing topic never blocks the passing ones: only a batch with nothing usable is refused.
+        # The trusted intake imports PASS topics as PLANNED and registers the others as RESEARCH/REJECTED.
+        if len(blocked) == len(result):
             raise ValueError('RESEARCH_QA_BLOCKED: ' + json.dumps(blocked[:5], ensure_ascii=False))
     return {'branch': branch, 'batches': len(obj['batches']), 'new_topics': len(new),
+            'accepted_topics': len(new) - len(blocked), 'blocked_topics': blocked,
             'total_topics': sum(b['count'] for b in obj['batches']),
             'batch_paths': [b['path'] for b in obj['batches']],
             'checkpoint_path': cp}
@@ -256,6 +260,8 @@ def verify_branch(branch, base='origin/main'):
     if not result['new_topics']:
         # A checkpoint-only push may intentionally retrigger a stale ingester.
         result['state'] = 'ALREADY_ACCEPTED_OR_CHECKPOINT_ONLY'
+    elif result['blocked_topics']:
+        result['state'] = 'RESEARCH_QA_PARTIAL'
     else:
         result['state'] = 'RESEARCH_QA_PASS'
     return result

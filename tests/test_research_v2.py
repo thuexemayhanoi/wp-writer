@@ -168,6 +168,26 @@ class CheckpointTests(unittest.TestCase):
         self.assertEqual(cp['batches'][0]['sha256'],
             digest((self.root / self.batch).read_bytes()))
 
+    def test_one_failing_topic_never_blocks_the_passing_ones(self):
+        def verdicts(candidates):
+            return [{'topic_id': x['topic_id'], 'status': 'FAIL' if x['topic_id'] == 'NT-900003' else 'PASS',
+                     'errors': ['collision'] if x['topic_id'] == 'NT-900003' else [], 'review': []}
+                    for x in candidates]
+        self.mock_qa.stop()
+        with patch.object(research, 'validate_candidates', side_effect=verdicts):
+            result = research.checkpoint(self.branch)
+        self.mock_qa.start()
+        self.assertEqual(result['accepted_topics'], 9)
+        self.assertEqual([b['topic_id'] for b in result['blocked_topics']], ['NT-900003'])
+
+    def test_a_batch_with_nothing_usable_is_still_refused(self):
+        self.mock_qa.stop()
+        with patch.object(research, 'validate_candidates', side_effect=lambda candidates: [
+                {'topic_id': x['topic_id'], 'status': 'FAIL', 'errors': ['x'], 'review': []} for x in candidates]):
+            with self.assertRaisesRegex(ValueError, 'RESEARCH_QA_BLOCKED'):
+                research.checkpoint(self.branch)
+        self.mock_qa.start()
+
     def test_mutating_checkpointed_batch_fails_closed(self):
         research.checkpoint(self.branch)
         with (self.root / self.batch).open('a') as f:

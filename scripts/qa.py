@@ -10,7 +10,7 @@ from collections import Counter
 import yaml
 from common import ROOT, SITE, Text, WP, Redirect, digest, load, norm, now, save, topics, visible
 from taxonomy_sync import by_key,path_for
-from topic_factory import gate as topic_gate
+from topic_factory import exempt_factory_posts, gate as topic_gate
 
 def read_article(path):
     raw=path.read_text();parts=raw.split('---',2)
@@ -215,6 +215,7 @@ def business_errors(body,meta):
 def evaluate(path,topic,rows=None,inv=None,link_checker=None,live=False,check_claim=True):
     rules=load('config/qa-rules.json');rows=rows if rows is not None else topics()
     inv=inv if inv is not None else load('data/existing-content-inventory.json',{}).get('items',[])
+    inv=exempt_factory_posts(inv,load('data/state/publication-ledger.json',{}))
     gates={str(i):{'errors':[],'review':[]} for i in range(1,7)}
     try:meta,body,sha=read_article(path)
     except Exception as e:return {'topic_id':topic['topic_id'],'status':'FAIL','errors':[str(e)],

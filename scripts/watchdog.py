@@ -11,6 +11,7 @@ import os
 from pathlib import Path
 
 from common import ROOT, load, topics
+from topic_stock import build_stock
 
 
 def parse_time(value):
@@ -28,10 +29,11 @@ def elapsed_minutes(then, now):
     return None if t is None else max(0, (now-t).total_seconds()/60)
 
 
-def assess(policy, registry, ledger, topic_rows, qa_by_id, at=None, stall_minutes=120):
+def assess(policy, registry, ledger, topic_rows, qa_by_id, at=None, stall_minutes=120, discovery=None):
     at = at or dt.datetime.now(dt.timezone.utc)
     if at.tzinfo is None:
         raise ValueError('watchdog requires timezone-aware time')
+    stock = build_stock(topic_rows, registry, ledger, qa_by_id, set(qa_by_id), discovery, policy, at)
     posts = ledger.get('posts', {})
     receipts = registry.get('submissions', {})
     finished = {i for i, record in posts.items() if record.get('phase') == 'VERIFIED'}
@@ -102,6 +104,8 @@ def assess(policy, registry, ledger, topic_rows, qa_by_id, at=None, stall_minute
         'timestamp': at.isoformat(), 'stall_threshold_minutes': stall_minutes,
         'candidate_topics': len(topic_rows), 'planned_topics': len(planned),
         'claimable_topics': len(claimable), 'active_writer_slots': live_leases,
+        'ready_stock': stock['ready'], 'research_needed': stock['needs_research'],
+        'research_shortfall': stock['shortfall'], 'stock_stages': stock['stages'],
         'qa_pass_waiting': ready, 'queued_count': len(ready),
         'uncertain_post_ids': uncertain, 'source_mismatch_ids': sorted(source_mismatches), 'blocked_sessions': blocked,
         'verified_wp_posts': len(statuses),
@@ -124,7 +128,8 @@ def main():
     rows = topics()
     qa = {p.stem: load(str(p.relative_to(ROOT)), {})
           for p in (ROOT/'data/qa').glob('NT-*.json')}
-    report = assess(policy, registry, ledger, rows, qa, stall_minutes=args.stall_minutes)
+    discovery = load('data/state/topic-discovery-ledger.json', {'proposals': {}})
+    report = assess(policy, registry, ledger, rows, qa, stall_minutes=args.stall_minutes, discovery=discovery)
     serialized = json.dumps(report, indent=2, ensure_ascii=False)+'\n'
     print(serialized)
     if args.output:
@@ -140,6 +145,9 @@ def main():
             f.write('QA PASS waiting: '+str(report['queued_count'])+
                     '; uncertain POST intents: '+str(len(report['uncertain_post_ids']))+
                     '; claimable topics: '+str(report['claimable_topics'])+'\n')
+            f.write('Ready stock (PLANNED, unclaimed, not on hold): '+str(report['ready_stock'])+
+                    ('; RESEARCH NEEDED, shortfall '+str(report['research_shortfall']) if report['research_needed'] else '; target met')+
+                    '; stages '+json.dumps(report['stock_stages'])+'\n')
     if not report['healthy']:
         raise SystemExit(1)
 

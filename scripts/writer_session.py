@@ -63,7 +63,8 @@ def claim(registry, rows, session, slot='auto', count=2, epoch=None, requested_i
     submitted=registry.get('submissions',{})
     completed_ids=set(completed_ids or ())
     repairs=[t['topic_id'] for t in rows if t['topic_id'] not in used and not t.get('wp_post_id') and submitted.get(t['topic_id'],{}).get('session')==session and t['topic_id'] not in completed_ids]
-    eligible=repairs+[t['topic_id'] for t in rows if t['topic_qa_status']=='PLANNED' and t['topic_id'] not in used and t['topic_id'] not in submitted and not t.get('wp_post_id')]
+    # A topic the coordinator parked with `hold` (e.g. its sources cannot be read from the runner) is not claimable.
+    eligible=repairs+[t['topic_id'] for t in rows if t['topic_qa_status']=='PLANNED' and t['topic_id'] not in used and t['topic_id'] not in submitted and not t.get('wp_post_id') and not t.get('hold')]
     if requested_ids:
         if len(requested_ids)!=len(set(requested_ids)) or not set(requested_ids)<=set(eligible):raise ValueError('Requested topics not claimable')
         if repairs and not set(repairs)<=set(requested_ids):raise ValueError('Resume owned REPAIR before new IDs')

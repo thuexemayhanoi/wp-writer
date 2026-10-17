@@ -45,6 +45,18 @@ def similarity(a,b):
     aa,bb=set(a.split()),set(b.split())
     return max(len(aa&bb)/max(1,len(aa|bb)),difflib.SequenceMatcher(None,a,b).ratio())
 
+def exempt_factory_posts(inventory, ledger):
+    """Flag posts this factory published itself (WordPress ID in the publication ledger).
+
+    A researcher cannot have reviewed content that did not exist yet, so article QA does not
+    demand review evidence for it; slug/URL/title collisions, topic-to-topic checks and the
+    Jaccard near-duplicate gate still cover those posts. Research QA does not call this: a
+    researcher can read them in the refreshed inventory and has to review them.
+    """
+    ids={r.get('wp_id') for r in ((ledger or {}).get('posts') or {}).values() if r.get('wp_id')}
+    return [dict(p,evidence_exempt=True) if p.get('id') in ids and not p.get('evidence_exempt') else p
+            for p in inventory]
+
 def gate(topic, others, inventory, taxonomy):
     errors=[]; review=[]
     required=['topic_id','title','primary_keyword','search_intent','taxonomy_key','proposed_slug','canonical_target']

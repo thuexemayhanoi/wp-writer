@@ -5,6 +5,7 @@ from common import ROOT,load,now,save,topics
 from writer_session import live_leases
 from internal_linking import build
 from taxonomy_sync import by_key,resolve
+from topic_stock import build_stock
 
 def table_file(path,fields,rows):
     with (ROOT/path).open('w',encoding='utf-8',newline='') as f:
@@ -25,6 +26,9 @@ def run():
             except Exception as e:mapping_errors.append({'key':key,'error':str(e)})
     empty=[k for k,v in ledger['categories'].items() if v.get('phase')=='CREATED_PENDING_ARTICLE']
     planned=sum(t['topic_qa_status']=='PLANNED' for t in rows)
+    stock=build_stock(rows,claims,ledger,{p.stem:q for p,q in zip(authored,qa)},{p.stem for p in authored},
+        load('data/state/topic-discovery-ledger.json',{'proposals':{}}),policy)
+    save('reports/topic-stock.json',stock)
     uncertain=[k for k,v in campaign.items()
                if v.get('phase') in ('POST_INTENT','VERIFY_PENDING','NEEDS_RECONCILE')]
     completed={k for k,v in campaign.items() if v.get('phase')=='VERIFIED'}
@@ -37,6 +41,8 @@ def run():
         'existing_pages':sum(p.get('type')=='pages' and p.get('status')=='publish' for p in items),
         'existing_products':sum(p.get('type')=='products' and p.get('status')=='publish' for p in items),
         'candidate_topics':len(rows),'planned_topics':planned,'claimable_topics':sum(t['topic_qa_status']=='PLANNED' and t['topic_id'] not in used and t['topic_id'] not in claims.get('submissions',{}) for t in rows),
+        'ready_stock':stock['ready'],'stock_stages':stock['stages'],'needs_research':stock['needs_research'],
+        'research_shortfall':stock['shortfall'],
         'writing':len(used),'draft_authored':len(authored),'qa_pass':sum(q.get('status')=='PASS' for q in qa),
         'qa_fail':sum(q.get('status')=='FAIL' for q in qa),'qa_review':sum(q.get('status')=='REVIEW' for q in qa),
         'repair_queue':sum(q.get('status') in ('FAIL','REVIEW') for q in qa),

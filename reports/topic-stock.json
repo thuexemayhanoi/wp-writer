@@ -1,0 +1,51 @@
+{
+  "at": "2026-10-17T13:56:18.080120+00:00",
+  "stages": {
+    "IDEA": 80,
+    "RESEARCH": 72,
+    "REJECTED": 0,
+    "PLANNED": 0,
+    "PLANNED_HOLD": 4,
+    "CLAIMED": 0,
+    "AUTHORED": 0,
+    "QA_PASS": 0,
+    "PUBLISHED": 25,
+    "WP_DRAFT": 0
+  },
+  "topic_rows": 101,
+  "ready": 0,
+  "ready_ids": [],
+  "on_hold": {
+    "NT-000111": {
+      "reason": "Nguồn chính tcvn.gov.vn không đọc được từ máy chủ GitHub; bài không thể qua kiểm tra nguồn trực tiếp của Publisher.",
+      "since": "2026-10-17",
+      "checked": "source-reachability runner probe 2026-10-17",
+      "unblock": "thay bằng nguồn đọc được từ runner (probe OK) hoặc nghiên cứu lại thành chủ đề mới"
+    },
+    "NT-000113": {
+      "reason": "Nguồn airhanoi.hanoi.gov.vn và cem.gov.vn không đọc được từ máy chủ GitHub; chủ đề AQI đã có NT-000112 và NT-000114 đăng rồi, cần tách ý định lại.",
+      "since": "2026-10-17",
+      "checked": "source-reachability runner probe 2026-10-17",
+      "unblock": "thay bằng nguồn đọc được từ runner (probe OK) hoặc nghiên cứu lại thành chủ đề mới"
+    },
+    "NT-000116": {
+      "reason": "Nguồn csgt.bocongan.gov.vn không đọc được từ máy chủ GitHub (timeout/chặn).",
+      "since": "2026-10-17",
+      "checked": "source-reachability runner probe 2026-10-17",
+      "unblock": "thay bằng nguồn đọc được từ runner (probe OK) hoặc nghiên cứu lại thành chủ đề mới"
+    },
+    "NT-000117": {
+      "reason": "Nguồn csgt.bocongan.gov.vn không đọc được từ máy chủ GitHub (timeout/chặn).",
+      "since": "2026-10-17",
+      "checked": "source-reachability runner probe 2026-10-17",
+      "unblock": "thay bằng nguồn đọc được từ runner (probe OK) hoặc nghiên cứu lại thành chủ đề mới"
+    }
+  },
+  "min_ready": 100,
+  "max_ready": 200,
+  "needs_research": true,
+  "shortfall": 100,
+  "room_to_target_max": 200,
+  "lifetime_planned": 29,
+  "note": "PLANNED counts only topics a writer can still take. Published, claimed, authored, held, RESEARCH and IDEA are never added to it."
+}
