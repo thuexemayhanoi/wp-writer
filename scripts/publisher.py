@@ -6,12 +6,16 @@ import os
 import re
 import subprocess
 import markdown
-from common import ROOT,SITE,WP,PROTECTED_IDS,digest,git,inventory,load,lock,norm,now,save,title_of,topics,visible
+from common import ROOT,SITE,WP,WPRejected,PROTECTED_IDS,digest,git,inventory,load,lock,norm,now,save,title_of,topics,visible
 from git_state import RemoteState
 from qa import evaluate,read_article
 from taxonomy_sync import by_key,resolve,materialize
 
 LEDGER='data/state/publication-ledger.json'
+
+class RunStop(RuntimeError):
+    """Nothing was written to WordPress, but this run must stop (policy or draft changed after QA)."""
+
 
 def production_allowed(policy):
     """Owner switch for QA-PASS -> public WordPress.
@@ -180,6 +184,17 @@ class Publisher:
         self.record(topic['topic_id'],phase='VERIFIED',wp_id=p['id'],status=p['status'],url=p['link'],verified_at=now())
         return self.ledger['posts'][topic['topic_id']]
 
+    def withdraw(self,topic_id):
+        """Drop a write-ahead intent whose POST provably never happened or was refused.
+
+        Only a bare POST_INTENT (no WordPress ID) is withdrawn. A timeout, a 5xx or a
+        failed readback stays NEEDS_RECONCILE and is never retried blindly.
+        """
+        rec=self.ledger['posts'].get(topic_id)
+        if rec and rec.get('phase')=='POST_INTENT' and not rec.get('wp_id'):
+            del self.ledger['posts'][topic_id]
+            self.persist()
+
     def create(self,topic,body,sha,category_id,status,live,meta=None,route=None):
         """No update/delete endpoint exists in this class."""
         if status not in ('draft','publish'):raise ValueError('Invalid status')
@@ -216,16 +231,43 @@ class Publisher:
         # persist() MUST return successfully (remote in Actions) before this POST.
         try:
             self.before_post(topic,sha)
+        except Exception as exc:
+            # No WordPress request was sent: withdraw the intent so the topic is not
+            # stranded as an "uncertain POST", then stop the run (policy/draft changed).
+            self.withdraw(topic['topic_id'])
+            raise RunStop('Stopped before POST: '+str(exc)) from exc
+        try:
             p=self.client.request('wp/v2/posts',payload)[0]
             if p['id'] in PROTECTED_IDS:raise ValueError('Unexpected protected post ID')
             self.record(topic['topic_id'],phase='VERIFY_PENDING',wp_id=p['id'])
             verified=verify(self.client,topic,self.ledger['posts'][topic['topic_id']])
             self.record(topic['topic_id'],phase='VERIFIED',wp_id=verified['id'],status=verified['status'],url=verified['link'],verified_at=now())
             live.append(verified);return self.ledger['posts'][topic['topic_id']]
+        except WPRejected:
+            # HTTP 4xx: WordPress refused the write and created nothing. Withdraw the
+            # intent so the next run retries cleanly, and stop (do not flood a limiting host).
+            self.withdraw(topic['topic_id'])
+            raise
         except Exception:
             # Intent already durable, including a crash before this optional checkpoint.
             self.record(topic['topic_id'],phase='NEEDS_RECONCILE')
             raise
+
+
+def attempt_create(publisher,ledger,results,topic,body,sha,route,live,meta):
+    """Create one article without letting a single bad article block the queue.
+
+    A refusal before any write (collision, source changed, protected URL, ...) skips
+    only this article. Once a write-ahead intent exists the exception propagates so
+    the run stops and an uncertain POST is never retried blindly.
+    """
+    try:
+        publisher.create(topic,body,sha,route['category_id'],route['status'],live,meta,route=route)
+    except ValueError as exc:
+        if ledger['posts'].get(topic['topic_id']):raise
+        results.append({'topic_id':topic['topic_id'],'status':'BLOCKED','errors':[str(exc)]})
+        return False
+    return True
 
 def seo_adapter_check(client):
     """Fail closed without a real Yoast SEO metadata adapter.
@@ -362,11 +404,17 @@ def run(args):
         for path in sorted((ROOT/'posts/drafts').glob('NT-*.md')):
             if args.acceptance_topic and path.stem!=args.acceptance_topic:continue
             if attempted>=batch_limit:break
-            t=next(t for t in rows if t['topic_id']==path.stem)
+            t=next((x for x in rows if x['topic_id']==path.stem),None)
+            if t is None:
+                results.append({'topic_id':path.stem,'status':'BLOCKED','errors':['Draft has no registered topic']});continue
             prior=ledger['posts'].get(t['topic_id'])
             if prior:
                 if prior.get('phase')!='VERIFIED':
-                    publisher.reconcile(t,live)
+                    try:publisher.reconcile(t,live)
+                    except ValueError as exc:
+                        # An earlier uncertain POST is never retried blindly; it must not
+                        # hold back every other article either.
+                        results.append({'topic_id':t['topic_id'],'status':'NEEDS_RECONCILE','errors':[str(exc)]})
                 else:
                     drift=confirmed_post_drift(t,prior,live)
                     if drift:
@@ -385,7 +433,8 @@ def run(args):
             if result['status']!='PASS':results.append(result);continue
             meta,body,sha=read_article(path)
             receipt=load('data/state/writer-claims.json',{}).get('submissions',{}).get(t['topic_id'],{})
-            if receipt.get('sha256')!=sha or receipt.get('session')!=meta.get('writer_session'):raise ValueError('Missing valid writer submission receipt')
+            if receipt.get('sha256')!=sha or receipt.get('session')!=meta.get('writer_session'):
+                results.append({'topic_id':t['topic_id'],'status':'BLOCKED','errors':['Missing valid writer submission receipt']});continue
             try:
                 route=delivery_route(t,policy,by_key(),cats,
                     create_category=lambda key:materialize(key,by_key(),cats,client,ledger,persist),
@@ -404,8 +453,8 @@ def run(args):
                     'mode':route['status'],'today_total':all_created,
                     'daily_limit':daily_cap})
                 continue
+            if not attempt_create(publisher,ledger,results,t,body,sha,route,live,meta):continue
             attempted+=1
-            publisher.create(t,body,sha,route['category_id'],route['status'],live,meta,route=route)
             results.append({'topic_id':t['topic_id'],'status':'WORDPRESS_'+route['status'].upper(),
                 'category_id':route['category_id'],'category_resolution':route['category_resolution'],
                 'intended_taxonomy_key':route['intended_taxonomy_key'],

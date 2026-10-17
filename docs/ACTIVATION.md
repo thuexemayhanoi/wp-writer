@@ -4,6 +4,8 @@
 
 **Đã gỡ khỏi đường đăng:** (1) cờ `acceptance_passed` và `security_controls_verified` không còn là điều kiện; (2) bước `production_security.py` (kiểm Ruleset thật) không còn nằm trong job Publisher; (3) bước chạy lại toàn bộ unit test trong job Publisher (test vẫn chạy trong workflow Writer QA là workflow kích hoạt Publisher).
 
+**Chống nghẽn hàng đợi (lệnh ủy quyền của chủ, 17/10/2026):** một bài lỗi không còn chặn các bài khác. (a) `intake.py` trong job Publisher cách ly bản nháp sai và ghi `INTAKE_REJECTED` thay vì làm cả lượt chạy thất bại (nhánh Writer vẫn nghiêm ngặt); (b) `qa.py` ghi phiếu FAIL cho bản nháp không có trong registry thay vì dừng toàn bộ QA; (c) Publisher bỏ qua bài bị từ chối trước khi ghi (trùng, hash đổi, thiếu biên nhận) và bài đang `NEEDS_RECONCILE`, rồi đăng tiếp các bài còn lại; (d) nếu WordPress từ chối POST bằng HTTP 4xx (ví dụ 429) hoặc lượt chạy dừng trước khi POST (policy/bản nháp đổi), ý định ghi trước được rút lại để lượt sau thử lại sạch. Timeout, 5xx hoặc đọc lại sai vẫn là `NEEDS_RECONCILE` và không bao giờ bị POST lại mù quáng.
+
 **Giữ nguyên:** QA G1–G6 và ≥85, ledger ghi trước POST, chống trùng, đúng category, đọc lại canonical/title/meta sau khi đăng, giới hạn 2×5 và trần 1.000 bài/ngày, `paused`/`emergency_stop` là công tắc dừng tức thì.
 
 **Sự thật cần ghi rõ:** `acceptance_passed=false` và `security_controls_verified=false` vẫn đúng với bằng chứng (chưa có Ruleset ép quyền sửa mã đặc quyền; chưa có bài nào do chính Publisher tự đăng được nghiệm thu E2E). Chủ repo chấp nhận rủi ro đó; hai cờ chỉ còn ghi sự thật, không chặn đăng, và không được gán `true` nếu chưa có bằng chứng.

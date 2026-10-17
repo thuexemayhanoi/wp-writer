@@ -311,8 +311,13 @@ def main():
     rows=topics();results=[]
     for path in sorted((ROOT/'posts/drafts').glob('NT-*.md')):
         match=[t for t in rows if t['topic_id']==path.stem]
-        if len(match)!=1:raise ValueError('Unknown or ambiguous draft ID')
-        r=evaluate(path,match[0],rows=rows,live=a.live);save('data/qa/'+path.stem+'.json',r);results.append(r)
+        if len(match)!=1:
+            # A stray draft is a FAIL ticket for that file only; it must not stop QA for every other article.
+            r={'topic_id':path.stem,'status':'FAIL','source_sha256':digest(path.read_bytes()),
+               'errors':['Unknown or ambiguous draft ID'],'review':[],'at':now()}
+        else:
+            r=evaluate(path,match[0],rows=rows,live=a.live)
+        save('data/qa/'+path.stem+'.json',r);results.append(r)
     save('reports/repair-queue.json',[r for r in results if r['status']!='PASS'])
     print(json.dumps({'authored':len(results),'pass':sum(r['status']=='PASS' for r in results),'repair':sum(r['status']!='PASS' for r in results)}))
     return 1 if any(r['status']!='PASS' for r in results) else 0

@@ -97,6 +97,15 @@ class Redirect(urllib.request.HTTPRedirectHandler):
             raise RuntimeError('Cross-origin redirect refused')
         return super().redirect_request(req, fp, code, msg, headers, newurl)
 
+# HTTP statuses that prove WordPress refused a write before creating anything.
+REFUSED_BEFORE_CREATE = (400, 401, 403, 404, 405, 413, 414, 415, 422, 429)
+
+class WPRejected(RuntimeError):
+    """A WordPress POST was refused with a definitive 4xx: nothing was created."""
+    def __init__(self, status):
+        super().__init__(f'WordPress HTTP {status}; POST (refused, nothing created)')
+        self.status = status
+
 class WP:
     def __init__(self, authenticated=False):
         configured = os.environ.get('WP_URL', SITE).rstrip('/')
@@ -149,6 +158,8 @@ class WP:
                     time.sleep(delay)
                     continue
                 if verb != 'GET' or e.code not in (500,502,503,504) or attempt == 2:
+                    if verb == 'POST' and e.code in REFUSED_BEFORE_CREATE:
+                        raise WPRejected(e.code) from None
                     raise RuntimeError(f'WordPress HTTP {e.code}; {verb}') from None
             except (urllib.error.URLError, TimeoutError, OSError):
                 if verb != 'GET' or attempt == 2: raise RuntimeError(f'WordPress network error; {verb}; outcome unknown for writes') from None
