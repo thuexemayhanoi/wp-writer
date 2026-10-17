@@ -2,6 +2,9 @@
 
 Repository: `thuexemayhanoi/wp-writer`. WordPress site: `https://thuexemaynguyentu.com`. This is NOT `wp-aiwriter` and does not import the Nguyễn Hà Excel matrix.
 
+
+Research scope is deliberately broad: competing rental businesses, vehicle brands and models, bicycles/e-bikes, motorbikes, all practical transport modes, Hanoi/Vietnam travel, destinations, culture, regulations, battery/maintenance and technical research. External AI may browse any relevant public HTTPS source, not just an allowlist. Use competitor websites for comparison/content-gap discovery, **not** for copying articles or inventing the owner's business data. One independently researched original source can justify a narrowly scoped new idea; corroborate changing or high-risk facts. The autonomous RSS scanner remains a lead generator rather than an LLM researcher.
+
 ## What genuinely runs by itself
 
 Every six hours (or manual workflow_dispatch) `Universal Topic Discovery`:
