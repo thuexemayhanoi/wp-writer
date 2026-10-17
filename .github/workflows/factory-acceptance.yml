@@ -1,9 +1,6 @@
 name: Factory draft-only REST acceptance
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: ['.github/workflows/factory-acceptance.yml']
 permissions:
   contents: write
 concurrency:
@@ -11,6 +8,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   draft-only:
+    environment: wordpress-production
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
