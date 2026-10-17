@@ -12,6 +12,10 @@ Owner requested **2026-10-16**: "Writer viết xong, qua QA là lên WordPress l
 6. Every published article must pass readback: public permalink, canonical, browser title, meta description, indexable status, matching content and correct category. A public POST that fails verification remains `NEEDS_RECONCILE` (not silently "SUCCESS").
 7. If a batch contains fewer than 10 QA-PASS items, only the available qualified items are posted. For example, 8 PASS + 2 FAIL from a 10-article Writer lease proceeds as **2+2+2+2** once Production is active. FAIL/REVIEW stays in REPAIR and does not block other articles. Missing/stale QA reports or an interrupted evaluation stop the entire job. Writers must revise drafts themselves; GitHub Actions has no AI model to perform textual auto-repair after a chat/agent ends.
 
+## Important external importer conflict — do not bypass QA
+
+On 2026-10-17 an authenticated WordPress check confirmed the active `Git it Write` plugin is set to import `thuexemayhanoi/wp-writer` (`main`, folder `posts`). Its own importer defaults to public `publish` without the G1–G6 gates when triggered. It must be disconnected/deactivated after owner confirmation and verified independently of enabling Publisher. Never trigger that importer as an apparent Publisher smoke test. The full pipeline is unsafe to call single-writer until that importer is neutralized. WordPress HTTP 429 was also observed; PR #26 improves bounded GET backoff, while POST remains never-retry. PR #27 syncs all mapped topic category IDs; 1,000/day remains a ceiling, not an assurance against host throughput limits.
+
 ## Production activation — do not falsify PASS flags
 
 As of Oct 16 2026, verified facts:
