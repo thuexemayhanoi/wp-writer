@@ -1,19 +1,19 @@
 {
   "topic_id": "NT-000079",
-  "status": "FAIL",
-  "source_sha256": "633259e48283f19ab2a7a83c5a5041b17514807635456bd18845f91b4b4e19e3",
+  "status": "PASS",
+  "source_sha256": "4fda9d6ce72c7ab6aabbe468adda683c93083d0991d884733e50b320c5d3fe9f",
   "body_sha256": "39d7cf5d7d619e1bc5badf3dba392c347a20045856596266f89e31ebdaa6ccd7",
   "word_count": 2243,
   "quality_score": 100,
-  "seo_score": 75,
+  "seo_score": 95,
   "seo_min_required": 85,
   "seo_checks": {
     "seo_title_relevance": {
-      "points": 5,
+      "points": 15,
       "max": 15
     },
     "meta_description_relevance": {
-      "points": 5,
+      "points": 15,
       "max": 15
     },
     "opening_intent_focus": {
@@ -42,8 +42,6 @@
     }
   },
   "seo_recommendations": [
-    "Align SEO title with real search intent",
-    "Summarize the reader question in the meta description",
     "Address the intended search in the opening paragraph"
   ],
   "gates": {
@@ -52,9 +50,7 @@
       "review": []
     },
     "2": {
-      "errors": [
-        "SEO_SCORE_BELOW_MIN:75/85"
-      ],
+      "errors": [],
       "review": []
     },
     "3": {
@@ -74,12 +70,10 @@
       "review": []
     }
   },
-  "errors": [
-    "SEO_SCORE_BELOW_MIN:75/85"
-  ],
+  "errors": [],
   "review": [],
   "source_evidence": [],
-  "at": "2026-10-17T12:14:25.286614+00:00",
+  "at": "2026-10-17T12:19:18.484888+00:00",
   "live_links_checked": false,
   "legal_required": true,
   "rules_sha256": "8c9a341711a4cb2bb95e9d793d27239082e7f18b42cc7d5fdc11ed6f01a6cd0e",
