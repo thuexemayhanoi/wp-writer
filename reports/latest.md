@@ -4,7 +4,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-17T08:36:37.043752+00:00 |
+| at | 2026-10-17T08:39:51.231847+00:00 |
 | existing_published_posts | 135 |
 | existing_pages | 10 |
 | existing_products | 13 |
@@ -18,8 +18,8 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | qa_review | 0 |
 | repair_queue | 1 |
 | wordpress_draft | 1 |
-| wordpress_published | 5 |
-| verified_public | 5 |
+| wordpress_published | 6 |
+| verified_public | 6 |
 | indexed | None |
 | topic_collisions | 0 |
 | category_mapping_errors | 0 |
@@ -32,11 +32,11 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | production_enabled | False |
 | draft_staging_enabled | False |
 | qa_pass_live_checked | 0 |
-| qa_pass_awaiting_wordpress | 9 |
-| queued_topic_ids | ['NT-000073', 'NT-000106', 'NT-000102', 'NT-000103', 'NT-000104', 'NT-000105', 'NT-000101', 'NT-000107', 'NT-000075'] |
+| qa_pass_awaiting_wordpress | 8 |
+| queued_topic_ids | ['NT-000106', 'NT-000102', 'NT-000103', 'NT-000104', 'NT-000105', 'NT-000101', 'NT-000107', 'NT-000075'] |
 | pending_wordpress_intents | [] |
 | blocked_writer_sessions | [] |
-| last_wordpress_verified_at | 2026-10-17T05:13:16.394Z |
+| last_wordpress_verified_at | 2026-10-17T08:38:14.601Z |
 | capacity | 10000 |
 | authenticated_inventory | True |
 | test_drafts_excluded | 2 |
