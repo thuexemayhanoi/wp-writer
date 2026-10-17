@@ -29,7 +29,8 @@ class DeliveryRoutingTests(unittest.TestCase):
         self.exact={'topic_id':'NT-000047','taxonomy_key':'reviews',
             'title':'Safe demo article','proposed_slug':'safe-demo-article',
             'canonical_target':SITE+'/safe-demo-article/'}
-        self.unmapped={**self.exact,'topic_id':'NT-000075','taxonomy_key':'green-travel'}
+        # Synthetic missing-term fixture: troubleshooting is deliberately uncreated.
+        self.unmapped={**self.exact,'topic_id':'NT-000075','taxonomy_key':'troubleshooting'}
 
     def test_exact_path_publishes_only_with_full_approval(self):
         self.assertTrue(production_allowed(self.production))
@@ -42,7 +43,7 @@ class DeliveryRoutingTests(unittest.TestCase):
         decision=delivery_route(self.unmapped,self.production,self.registry,self.live)
         self.assertEqual((decision['status'],decision['category_id'],decision['category_resolution']),
                          ('draft',69,'FALLBACK_DRAFT'))
-        self.assertEqual(decision['intended_taxonomy_key'],'green-travel')
+        self.assertEqual(decision['intended_taxonomy_key'],'troubleshooting')
         self.assertTrue(decision['category_warning'])
 
     def test_draft_staging_keeps_even_exact_mapping_non_public(self):
@@ -88,7 +89,7 @@ class DeliveryRoutingTests(unittest.TestCase):
         route=delivery_route(self.unmapped,{**self.production,'allow_category_create':True},
                              self.registry,self.live,create_category=create)
         self.assertEqual((route['status'],route['category_id'],created),
-                         ('publish',9876,['green-travel']))
+                         ('publish',9876,['troubleshooting']))
         self.assertEqual(route['category_resolution'],'CREATED')
 
     def test_uncertain_category_creation_must_not_fallback(self):
@@ -116,7 +117,7 @@ class DeliveryRoutingTests(unittest.TestCase):
                                 route['status'],[],route=route)
         self.assertEqual(record['status'],'draft')
         self.assertEqual(record['category_resolution'],'FALLBACK_DRAFT')
-        self.assertEqual(record['intended_taxonomy_key'],'green-travel')
+        self.assertEqual(record['intended_taxonomy_key'],'troubleshooting')
         self.assertEqual(record['category_id'],69)
         self.assertEqual(len(client.posts),1)
         again=publisher.create(self.unmapped,'Draft-only test body.',digest('body'),69,'draft',[],route=route)
