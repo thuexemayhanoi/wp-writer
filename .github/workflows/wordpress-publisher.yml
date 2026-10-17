@@ -56,6 +56,11 @@ jobs:
           python -m unittest discover -s tests -q
       - name: Admit GitHub-only writer drafts by lease and immutable hash
         run: python scripts/intake.py
+      # Writer QA runs without write permissions and uploads ephemeral receipts.
+      # Recompute them here so save_reports.py persists all current PASS/REPAIR
+      # checkpoints to main even while emergency_stop keeps WP publishing OFF.
+      - name: Refresh every article QA checkpoint for durable GitHub reporting
+        run: python scripts/qa_gate.py
       - name: Inspect mode before exposing WordPress credentials
         id: mode
         run: |
