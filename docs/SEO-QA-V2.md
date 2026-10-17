@@ -33,6 +33,14 @@ The authoritative configuration is config/qa-rules.json: version 2, seo_min 85, 
 
 **No numerical score overrides any FAIL/REVIEW, including wrong category, fabricated claims, SEO/URL collision, noindex or broken links.**
 
+## Outbound citations — research allowed, public links controlled
+
+- **Research is permitted:** AI writers may read manufacturer websites, news, official legal texts and other reliable sources. Their verified evidence lives in article YAML frontmatter (\`sources\`) and research intake records, **not** as a published reference list.
+- **Public body is restricted (hard G5 FAIL):** Markdown source links, bare HTTPS URLs, reference-style links and external image URLs are blocked unless the target is the owned website or a specifically approved public social/map platform. A high SEO score never overrides this restriction.
+- **Explicit platform exceptions:** Google and Google Maps, Facebook/Messenger, YouTube, Instagram, TikTok, Zalo, WhatsApp, X/Twitter, Threads, LinkedIn, Pinterest, Telegram, Reddit, Discord, Apple Maps, Bing Maps and OpenStreetMap. The exact host allowlist is managed **only** in \`config/qa-rules.json\` under \`public_link_platform_allowlist\`.
+- Links through known platform redirect parameters (for example Google \`/url?url=...\` or Facebook \`?u=...\`) are blocked to avoid laundering unrelated source links.
+- **Existing WordPress posts are unchanged.** The policy affects only new drafts undergoing QA, including Publisher's live reevaluation before any WordPress POST. Internal linking to approved existing posts continues as before.
+
 ## Website-primary-site policy
 
 - Do not turn all articles into rental advertisements. Information and safety articles must answer their real search intent, not force commercial calls to action.
