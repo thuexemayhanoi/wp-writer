@@ -1,9 +1,9 @@
 {
   "version": 1,
   "enabled": true,
-  "trigger_below_ready": 50,
-  "round_target_min": 200,
-  "round_target_max": 300,
+  "trigger_below_ready": 100,
+  "round_target_min": 100,
+  "round_target_max": 200,
   "research_batch_size": 10,
   "max_rounds": null,
   "max_taxonomy_share": 0.25,
@@ -22,7 +22,7 @@
     "min_resolution_chars": 40
   },
   "notes": {
-    "trigger_below_ready": "Ready stock = PLANNED topics a writer can still take (not claimed, drafted, published or on hold). Below this number a research order opens.",
+    "trigger_below_ready": "Ready stock = PLANNED topics a writer can still take (not claimed, drafted, published or on hold). Below this number (owner order, reserve of 100-200) a research order opens.",
     "round_target": "One order asks external AI researchers for round_target_min..round_target_max NEW topics that pass Research QA. The order closes at round_target_min accepted topics.",
     "max_rounds": "null = unlimited rounds. Only approved_capacity in production-policy.json (owner decision, hard ceiling 10,000) limits how many topics can ever be admitted.",
     "intent_guard": "Search-intent collision thresholds used by Research QA and the trusted intake. FAIL can never be waived; REVIEW needs a written reason (and the current content hash for a WordPress page)."

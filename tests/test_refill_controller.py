@@ -282,7 +282,7 @@ class PolicyTests(unittest.TestCase):
     def test_repository_policy_matches_the_owner_order(self):
         policy = refill_policy.policy()
         self.assertEqual((policy['trigger_below_ready'], policy['round_target_min'], policy['round_target_max']),
-                         (50, 200, 300))
+                         (100, 100, 200))
         self.assertIsNone(policy['max_rounds'])
 
     def test_invalid_policies_are_refused(self):

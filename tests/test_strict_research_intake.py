@@ -152,7 +152,7 @@ class ResearcherToolingTests(unittest.TestCase):
     def test_plan_reports_the_order_without_touching_anything(self):
         plan = research.refill_plan()
         self.assertIn('state', plan)
-        self.assertEqual(plan['trigger_below_ready'], 50)
+        self.assertEqual(plan['trigger_below_ready'], 100)
         if plan['order']['id']:
             self.assertGreaterEqual(plan['order']['target_max'], plan['order']['target_min'])
             self.assertLessEqual(sum(plan['next_batch_categories'].values()), 10)

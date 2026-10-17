@@ -54,7 +54,7 @@ The read-only watchdog excludes expired Writer leases when calculating claimable
 
 ## Self-replenishing refill (2026-10-17)
 
-The refill trigger is now `ready PLANNED < 50` (single source: `config/refill-policy.json`, not `min_claimable_queue`). `scripts/refill_controller.py` opens an order for 200–300 new topics, with no round limit; every candidate is checked by `scripts/intent_guard.py` against all published items and all topics in the factory, and only Research QA PASS rows become PLANNED. The watchdog and dashboard report the refill state. Full description: [SELF-REPLENISHING-TOPICS.md](SELF-REPLENISHING-TOPICS.md).
+The refill trigger is now `ready PLANNED < 100` (single source: `config/refill-policy.json`, not `min_claimable_queue`). `scripts/refill_controller.py` opens an order for 100–200 new topics, with no round limit; every candidate is checked by `scripts/intent_guard.py` against all published items and all topics in the factory, and only Research QA PASS rows become PLANNED. The watchdog and dashboard report the refill state. Full description: [SELF-REPLENISHING-TOPICS.md](SELF-REPLENISHING-TOPICS.md).
 
 ## Public WordPress page readback (post-publish)
 

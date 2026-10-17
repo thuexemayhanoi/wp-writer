@@ -1,11 +1,11 @@
 # Hệ thống tự bổ sung chủ đề (self-replenishing topics)
 
-Lệnh chủ 2026-10-17: khi kho chủ đề **PLANNED sẵn sàng viết** còn **dưới 50**, hệ thống mở một đợt nghiên cứu **200–300 chủ đề mới**; kiểm tra trùng search intent với **toàn bộ bài đã đăng và chủ đề đang xử lý**; **chỉ chủ đề đạt Research QA mới vào PLANNED**; **không giới hạn số đợt**; không tạo nội dung trùng lặp; không sửa URL cũ. (Bản dán thứ hai của lệnh ghi "dưới 30 / 100–200"; áp dụng bản cuối "dưới 50 / 200–300". Muốn đổi chỉ sửa `config/refill-policy.json`.)
+Lệnh chủ 2026-10-17: khi kho chủ đề **PLANNED sẵn sàng viết** còn **dưới 100**, hệ thống mở một đợt nghiên cứu **100–200 chủ đề mới**; kiểm tra trùng search intent với **toàn bộ bài đã đăng và chủ đề đang xử lý**; **chỉ chủ đề đạt Research QA mới vào PLANNED**; **không giới hạn số đợt**; không tạo nội dung trùng lặp; không sửa URL cũ. (Các bản dán của lệnh ghi số khác nhau: "dưới 50 / 200–300", "dưới 30 / 100–200" và, gửi cho phiên điều phối, "dưới 100 / 100–200" (kho dự phòng 100–200). Đang áp dụng "dưới 100 / 100–200" theo lệnh chủ gần nhất; muốn đổi chỉ sửa `config/refill-policy.json`.)
 
 ## Vòng lặp
 
 ```text
-ready PLANNED < 50 ──► scripts/refill_controller.py mở đơn RF-n (200–300 chủ đề)
+ready PLANNED < 100 ──► scripts/refill_controller.py mở đơn RF-n (100–200 chủ đề)
         ▲                       │  reports/refill-request.json  (quota theo danh mục, batch kế tiếp)
         │                       ▼
         │        AI nghiên cứu ngoài (Research V2): 10 chủ đề/batch, ≥2 nguồn HTTPS độc lập đã đọc thật
@@ -13,7 +13,7 @@ ready PLANNED < 50 ──► scripts/refill_controller.py mở đơn RF-n (200�
         │                       ▼
         │        Research QA (read-only) ──► Trusted Intake trên main ──► CHỈ dòng PASS → PLANNED
         │                       │
-        └── đơn đóng khi ≥200 chủ đề được nhận ◄─┘     (mở đơn mới ngay khi stock lại < 50, không giới hạn số đợt)
+        └── đơn đóng khi ≥100 chủ đề được nhận ◄─┘     (mở đơn mới ngay khi stock lại < 100, không giới hạn số đợt)
 ```
 
 GitHub Actions **không chạy AI**: bộ điều khiển chỉ **quyết định và ghi lại**; việc nghiên cứu do phiên AI ngoài thực hiện (xem "Tự động hóa người nghiên cứu").
@@ -22,7 +22,7 @@ GitHub Actions **không chạy AI**: bộ điều khiển chỉ **quyết địn
 
 | Thành phần | Vai trò |
 |---|---|
-| `config/refill-policy.json` | Nguồn số duy nhất: `trigger_below_ready=50`, `round_target_min/max=200/300`, `research_batch_size=10`, `max_rounds=null` (không giới hạn), ngưỡng intent guard |
+| `config/refill-policy.json` | Nguồn số duy nhất: `trigger_below_ready=100`, `round_target_min/max=100/200`, `research_batch_size=10`, `max_rounds=null` (không giới hạn), ngưỡng intent guard |
 | `scripts/refill_policy.py` | Đọc/kiểm tra policy; chuyển ngưỡng cho stock ladder, watchdog, dashboard, discovery |
 | `scripts/refill_controller.py` + `.github/workflows/topic-refill-controller.yml` | Mỗi giờ, sau mỗi lần intake và khi đổi policy: mở/theo dõi/đóng đơn. Chỉ ghi `data/state/refill-orders.json` và `reports/refill-request.json` bằng CAS; không AI, không WordPress, không secret |
 | `scripts/intent_guard.py` | Kiểm tra trùng search intent với toàn bộ kho (xem dưới) |
@@ -36,8 +36,8 @@ GitHub Actions **không chạy AI**: bộ điều khiển chỉ **quyết địn
 
 | `state` | Ý nghĩa |
 |---|---|
-| `HEALTHY` | ready ≥ 50 và không có đơn mở |
-| `REFILL_OPENED` | vừa mở đơn mới; cần 200–300 chủ đề đạt Research QA |
+| `HEALTHY` | ready ≥ 100 và không có đơn mở |
+| `REFILL_OPENED` | vừa mở đơn mới; cần 100–200 chủ đề đạt Research QA |
 | `REFILL_IN_PROGRESS` | đơn đang chạy; `accepted_so_far`, `remaining_to_min`, `stalled` (im lặng quá `stalled_after_hours`) |
 | `REFILL_FULFILLED` | đủ `target_min` chủ đề được nhận; đơn đóng |
 | `CAPACITY_BLOCKED` | còn < 10 chỗ trong `approved_capacity` (xem "Giới hạn thật") |
