@@ -1,7 +1,10 @@
 {
-  "at": "2026-10-16T11:34:36.523617+00:00",
+  "at": "2026-10-17T12:14:05.982151+00:00",
   "attempted": 0,
+  "batch_size": 2,
+  "max_batches_per_run": 5,
+  "batch_capacity": 10,
   "qa": [],
-  "backlog_drains_on": "next schedule or push",
-  "production": false
+  "backlog_drains_on": "successful Writer QA or fallback schedule",
+  "production": true
 }

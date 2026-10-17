@@ -4,8 +4,8 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-17T11:55:34.571296+00:00 |
-| existing_published_posts | 135 |
+| at | 2026-10-17T12:14:06.124827+00:00 |
+| existing_published_posts | 150 |
 | existing_pages | 10 |
 | existing_products | 13 |
 | candidate_topics | 87 |
@@ -29,7 +29,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | remaining_topic_target | 985 |
 | remaining_candidate_target | 913 |
 | delivery_mode | production |
-| production_enabled | False |
+| production_enabled | True |
 | draft_staging_enabled | False |
 | qa_pass_live_checked | 0 |
 | qa_pass_awaiting_wordpress | 0 |
@@ -41,4 +41,4 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | authenticated_inventory | True |
 | test_drafts_excluded | 2 |
 
-Delivery mode: production; production_enabled=False; draft_staging_enabled=False. A candidate is not a planned topic; a published URL is not evidence of Google indexing. See docs/IMPLEMENTATION-CHECKPOINT.md and docs/ACTIVATION.md.
+Delivery mode: production; production_enabled=True; draft_staging_enabled=False. A candidate is not a planned topic; a published URL is not evidence of Google indexing. See docs/IMPLEMENTATION-CHECKPOINT.md and docs/ACTIVATION.md.
