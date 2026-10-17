@@ -1,0 +1,98 @@
+{
+  "topic_id": "NT-000121",
+  "status": "PASS",
+  "source_sha256": "2f8f58d69314ed6007246fe610724901a61ef075e7270c7012ba5344ea0a41db",
+  "body_sha256": "fd9e55d3dabe6ba48fc2ef5732713c19a85575a8ed1b77f9a9d4252b7a872983",
+  "word_count": 3047,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=xe-may&category_child=tu-van-su-dung-xe-may",
+      "supports": "Honda Việt Nam: dùng đúng dung dịch làm mát của hãng và không pha chế thêm; giữ mực trong khoảng vạch Upper và Lower, không đổ quá Upper, dưới Lower có thể lọt khí và gây quá nhiệt; kiểm tra mỗi 15.000 km hoặc 12 tháng và thay mới sau 30.000 km hoặc 36 tháng.",
+      "sha256": "f95e9072010f1b5677c74fc95d6576d3550b76fdbaa6f58bdc18685df2266d77",
+      "verified_at": "2026-10-17T13:23:14.578393+00:00"
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/giai-dap-bao-lau-thay-nuoc-mat-xe-tay-ga-la-hop-ly/",
+      "supports": "Yamaha Motor Việt Nam: dung dịch gồm nước cất và chất làm mát LLC; xe làm mát bằng dung dịch có bình dự trữ với vạch Upper và Lower; thay sau khoảng 20.000 km; các bước thay tại nhà và lưu ý chọn đúng loại, pha đúng tỷ lệ, hạn chế trộn nhiều loại.",
+      "sha256": "1fa6e2685c06beb71f131d69f1fe293fd54a6c4dd6549e74d5fb427e64061ae3",
+      "verified_at": "2026-10-17T13:23:16.644989+00:00"
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/dich-vu/cach-bao-duong-xe-may-xe-tay-ga-yamaha/",
+      "supports": "Trang bảo dưỡng xe tay ga của Yamaha Motor Việt Nam nêu mốc bổ sung nước làm mát sau 10.000 km và kiểm tra dung lượng còn lại khi đi hành trình dài hoặc tải nặng.",
+      "sha256": "caf466f5b9da3a8a480581260f23ac2c2cbdb2a62eca979c80e79dd44ce63ce6",
+      "verified_at": "2026-10-17T13:23:18.518409+00:00"
+    }
+  ],
+  "at": "2026-10-17T13:23:26.742869+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "8c9a341711a4cb2bb95e9d793d27239082e7f18b42cc7d5fdc11ed6f01a6cd0e",
+  "inventory_sha256": "0f1c4d606e4d5bb82dfc0ad14f59e187c3edf02f79e48602f42da7e9b2753d05"
+}
