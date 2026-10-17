@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-17T18:05:54.312954+00:00",
+  "at": "2026-10-17T18:14:47.273950+00:00",
   "stages": {
     "IDEA": 120,
     "RESEARCH": 72,
@@ -41,11 +41,11 @@
       "unblock": "thay bằng nguồn đọc được từ runner (probe OK) hoặc nghiên cứu lại thành chủ đề mới"
     }
   },
-  "min_ready": 50,
-  "max_ready": 350,
+  "min_ready": 100,
+  "max_ready": 300,
   "needs_research": true,
-  "shortfall": 50,
-  "room_to_target_max": 350,
+  "shortfall": 100,
+  "room_to_target_max": 300,
   "lifetime_planned": 29,
   "note": "PLANNED counts only topics a writer can still take. Published, claimed, authored, held, RESEARCH and IDEA are never added to it."
 }
