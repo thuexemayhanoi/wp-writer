@@ -6,7 +6,7 @@
 
 **AI bên ngoài — một lệnh để bắt đầu:** [AI-START-HERE.md](docs/AI-START-HERE.md). Nhận tối đa 10 chủ đề, QA từng bài, tự nộp và nhận tiếp; không xin duyệt từng bài. Publisher đã kết nối sau QA nhưng **Production hiện OFF**; không tuyên bố đã đăng công khai khi không có ledger và URL verified.
 
-> **QA → WordPress ngay, 2+2+2+2+2:** xem [Instant Publishing](docs/INSTANT-PUBLISHING.md). QA PASS trên main tự kích hoạt Publisher không cần cron; tối đa 5 batch × 2 bài, daily cap 10. **Unattended Production vẫn OFF** do bảo vệ code đặc quyền và E2E GitHub Publisher chưa nghiệm thu. Main đã có Ruleset, Yoast REST smoke PASS; hai bài public #3888 và #3890 là kiểm thử **thủ công bằng WPVibe**.
+> **QA → WordPress ngay, 2+2+2+2+2:** xem [Instant Publishing](docs/INSTANT-PUBLISHING.md). QA PASS trên main tự kích hoạt Publisher không cần cron; tối đa 5 batch × 2 bài, daily cap 1.000 (vẫn chỉ tối đa 10 bài/lượt). **Unattended Production vẫn OFF** do bảo vệ code đặc quyền và E2E GitHub Publisher chưa nghiệm thu. Main đã có Ruleset, Yoast REST smoke PASS; hai bài public #3888 và #3890 là kiểm thử **thủ công bằng WPVibe**.
 
 > **Topic Discovery V3:** [Autonomous research queue → external AI researcher → Topic QA → W1/W2/W3](docs/AUTONOMOUS-TOPIC-RESEARCH.md). Runs every 6h without AI API keys, gathering public RSS *leads* plus topical gaps, capped at 20 ideas/batch and 300 pending; discovery proposal capacity 10,000. **This is not an LLM doing autonomous factual research**: external AI researchers must independently verify and submit evidence before an idea becomes PLANNED. Canonical intake remains approved only to 1,000; WordPress Production remains OFF.
 
@@ -16,6 +16,8 @@
 Khác **wp-aiwriter** sử dụng Excel cố định (data/topics.json), **wp-writer** dùng **data/topics.jsonl** chứa topic ID/title/intent/canonical/taxonomy_key; **data/taxonomy.json** chứa toàn bộ danh mục cha/con. Không nhập Excel, không dừng tại ranh giới chuyên mục và không suy category từ tiêu đề bài.
 
 **AI bên ngoài → W1/W2/W3 claim → posts/drafts/NT-XXXXXX.md → GitHub QA PASS → Publisher → WordPress REST.** Khi Production thực sự bật: khớp chính xác category leaf và toàn bộ parent ancestry mới public; thiếu/sai thì nháp; trùng slug/title/marker hoặc có trong ledger thì skip/đối soát, không tạo lại. Không cần chờ cron; cron :17/:47 là fallback.
+
+**Cảnh báo 17/10/2026:** Plugin WordPress **Git it Write** đang ACTIVE và cấu hình đọc cùng repo `thuexemayhanoi/wp-writer`, nhánh `main`, thư mục `posts`, mặc định công khai bài Markdown nếu không có `post_status`. ĐÂY LÀ ĐƯỜNG ĐĂNG KHÁC không kiểm G1–G6; tuyệt đối không dùng webhook/import Git it Write để thay thế Publisher. Ngắt kết nối hoặc deactivate plugin sau xác nhận của chủ website trước khi Production; đây là một rủi ro tách biệt với cờ `dry_run`.
 
 **Production tự động hiện vẫn dry_run.** Hai bài mới #3888/#3890 được chủ duyệt đăng thủ công qua WPVibe và đang được đưa vào ledger để tránh đăng trùng. QA success không tự chứng minh WordPress đã đăng.
 
