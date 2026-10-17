@@ -55,7 +55,7 @@ def _validate_state_paths(paths):
         if not isinstance(path, str) or not re.fullmatch(
             r"(?:data/state/[a-z0-9][a-z0-9_-]*\.json|"
             r"data/qa/NT-[0-9]{6}\.json|"
-            r"reports/[a-zA-Z0-9][a-zA-Z0-9_.-]*\\.(?:json|csv|md))", path
+            r"reports/[a-zA-Z0-9][a-zA-Z0-9_.-]*\.(?:json|csv|md))", path
         ):
             raise ValueError("FORBIDDEN_FACTORY_STATE_PATH: " + str(path)[:120])
     return paths
