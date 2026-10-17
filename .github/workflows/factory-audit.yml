@@ -25,13 +25,8 @@ jobs:
           WP_USERNAME: ${{ secrets.WP_USERNAME }}
           WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
         run: python scripts/audit.py --authenticated
-      - name: Save read-only audit checkpoint
+      - name: CAS-persist exactly the four audit files, never rebase Writer articles
         run: |
           git config user.name 'wp-writer-bot'
           git config user.email 'wp-writer-bot@users.noreply.github.com'
-          git add data/existing-content-inventory.json data/existing-taxonomy.json data/protected-urls.json reports/audit.json
-          if ! git diff --cached --quiet; then
-            git commit -m 'chore: refresh authenticated factory inventory [skip ci]'
-            git pull --rebase origin main
-            git push origin HEAD:main
-          fi
+          python scripts/save_audit.py
