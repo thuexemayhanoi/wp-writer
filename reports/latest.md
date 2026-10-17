@@ -4,14 +4,14 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-16T22:05:50.669425+00:00 |
+| at | 2026-10-17T00:29:03.077367+00:00 |
 | existing_published_posts | 135 |
 | existing_pages | 10 |
 | existing_products | 13 |
 | candidate_topics | 80 |
 | planned_topics | 8 |
 | claimable_topics | 4 |
-| writing | 3 |
+| writing | 2 |
 | draft_authored | 4 |
 | qa_pass | 3 |
 | qa_fail | 1 |
