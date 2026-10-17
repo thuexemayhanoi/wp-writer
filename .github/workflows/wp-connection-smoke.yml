@@ -1,17 +1,15 @@
 name: WordPress connection smoke test
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/wp-connection-smoke.yml'
 permissions:
   contents: read
 concurrency:
   group: wp-writer-connection-test
   cancel-in-progress: false
 jobs:
-  verify-draft:
+  verify-credentials:
+    if: github.repository == 'thuexemayhanoi/wp-writer'
+    environment: wordpress-production
     runs-on: ubuntu-latest
     timeout-minutes: 5
     env:
@@ -19,55 +17,33 @@ jobs:
       WP_USERNAME: ${{ secrets.WP_USERNAME }}
       WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
     steps:
-      - name: Authenticate and create one idempotent TEST DRAFT (never public)
+      - name: Authenticate using environment credentials, READ-ONLY WordPress GET
         shell: python
         run: |
-          import os, sys, json, base64, urllib.request, urllib.parse, urllib.error
+          import os, sys, json, base64, urllib.request, urllib.error
           def die(message):
               print("FAILED: " + message)
               sys.exit(1)
           url = os.getenv("WP_URL", "").rstrip("/")
-          user = os.getenv("WP_USERNAME", "")
+          user = os.getenv("WP_USERNAME", "").strip()
           password = os.getenv("WP_APPLICATION_PASSWORD", "").replace(" ", "")
           if url != "https://thuexemaynguyentu.com":
-              die("WP_URL must exactly match the approved main WordPress origin")
+              die("WP_URL does not match the approved WordPress site")
           if not user or not password:
-              die("Required WordPress Actions secrets are missing")
-          token = base64.b64encode((user + ":" + password).encode()).decode()
-          base = url + "/wp-json/wp/v2/"
-          def call(path, data=None):
-              method = "POST" if data is not None else "GET"
-              headers = {"Authorization": "Basic " + token, "Accept": "application/json"}
-              if data is not None:
-                  headers["Content-Type"] = "application/json; charset=utf-8"
-              req = urllib.request.Request(base + path, method=method, headers=headers,
-                         data=json.dumps(data, ensure_ascii=False).encode() if data is not None else None)
-              try:
-                  with urllib.request.urlopen(req, timeout=25) as response:
-                      return json.load(response)
-              except urllib.error.HTTPError as e:
-                  die("WordPress returned HTTP " + str(e.code) + " during " + method + " " + path.split("?")[0])
-              except Exception as e:
-                  die("WordPress request failed: " + type(e).__name__)
-          account = call("users/me?context=edit")
-          print("AUTH_OK: WP account ID=" + str(account["id"]))
-          slug = "wp-writer-connection-test-20261016"
-          old = call("posts?status=draft&slug=" + urllib.parse.quote(slug) + "&context=edit&per_page=10")
-          if len(old) > 1:
-              die("More than one test draft with the expected slug; refusing to create")
-          if old:
-              item = old[0]
-              print("DRAFT_ALREADY_EXISTS: post ID=" + str(item["id"]))
-          else:
-              item = call("posts", {
-                  "title": "[KIỂM THỬ] Kết nối GitHub WP Writer",
-                  "slug": slug,
-                  "status": "draft",
-                  "content": "<p>Đây là bài nháp kiểm tra kết nối GitHub Actions với WordPress chính. Không phải nội dung SEO hoặc bài viết công khai.</p>"
-              })
-              print("DRAFT_CREATED: post ID=" + str(item["id"]))
-          post_id = item["id"]
-          verify = call("posts/" + str(post_id) + "?context=edit")
-          if verify.get("status") != "draft" or verify.get("slug") != slug:
-              die("Readback failed: draft status/slug mismatch")
-          print("CONNECTED_AND_VERIFIED: WordPress post ID=" + str(post_id) + ", status=draft; no public post created")
+              die("Missing WordPress Environment credential")
+          basic = base64.b64encode((user + ":" + password).encode()).decode()
+          request = urllib.request.Request(
+              url + "/wp-json/wp/v2/users/me?context=edit",
+              headers={"Authorization": "Basic " + basic, "Accept": "application/json"}
+          )
+          try:
+              with urllib.request.urlopen(request, timeout=25) as response:
+                  profile = json.load(response)
+          except urllib.error.HTTPError as exc:
+              die("WordPress REST HTTP " + str(exc.code))
+          except Exception as exc:
+              die("WordPress REST " + type(exc).__name__)
+          if not isinstance(profile.get("id"), int):
+              die("Authenticated WordPress REST profile is missing ID")
+          print("AUTH_OK: authenticated WordPress ID=" + str(profile["id"]))
+          print("READ_ONLY: no WordPress posts, drafts or settings changed")
