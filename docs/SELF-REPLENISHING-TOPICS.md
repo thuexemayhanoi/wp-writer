@@ -1,11 +1,11 @@
 # Hệ thống tự bổ sung chủ đề (self-replenishing topics)
 
-Lệnh chủ 2026-10-17: khi kho chủ đề **PLANNED sẵn sàng viết** còn **dưới 100**, hệ thống mở một đợt nghiên cứu **100–200 chủ đề mới**; kiểm tra trùng search intent với **toàn bộ bài đã đăng và chủ đề đang xử lý**; **chỉ chủ đề đạt Research QA mới vào PLANNED**; **không giới hạn số đợt**; không tạo nội dung trùng lặp; không sửa URL cũ. (Các bản dán của lệnh ghi số khác nhau: "dưới 50 / 200–300", "dưới 30 / 100–200" và, gửi cho phiên điều phối, "dưới 100 / 100–200" (kho dự phòng 100–200). Đang áp dụng "dưới 100 / 100–200" theo lệnh chủ gần nhất; muốn đổi chỉ sửa `config/refill-policy.json`.)
+Lệnh chủ MASTER WORK 1.000 chủ đề (2026-10-17): kho phải được lấp tới trần đã duyệt `approved_capacity` = 1.000 dòng. Khi **PLANNED sẵn sàng viết** còn **dưới 900**, hệ thống mở một đợt nghiên cứu **100–200 chủ đề mới** và mở tiếp đợt sau cho tới khi hết trần (`CAPACITY_BLOCKED`; chỉ chủ repo được nâng trần). Luôn áp dụng: kiểm tra trùng search intent với **toàn bộ bài đã đăng và chủ đề đang xử lý**; **chỉ chủ đề đạt Research QA mới vào PLANNED**; **không giới hạn số đợt**; không tạo nội dung trùng lặp; không sửa URL cũ. (Lịch sử: các bản dán của lệnh từng ghi "dưới 50 / 200–300", "dưới 30 / 100–200" và "dưới 100 / 100–200" (kho dự phòng); lệnh MASTER WORK 1.000 thay thế chúng; muốn đổi chỉ sửa `config/refill-policy.json`.)
 
 ## Vòng lặp
 
 ```text
-ready PLANNED < 100 ──► scripts/refill_controller.py mở đơn RF-n (100–200 chủ đề)
+ready PLANNED < 900 ──► scripts/refill_controller.py mở đơn RF-n (100–200 chủ đề)
         ▲                       │  reports/refill-request.json  (quota theo danh mục, batch kế tiếp)
         │                       ▼
         │        AI nghiên cứu ngoài (Research V2): 10 chủ đề/batch, ≥2 nguồn HTTPS độc lập đã đọc thật
@@ -13,7 +13,7 @@ ready PLANNED < 100 ──► scripts/refill_controller.py mở đơn RF-n (100�
         │                       ▼
         │        Research QA (read-only) ──► Trusted Intake trên main ──► CHỈ dòng PASS → PLANNED
         │                       │
-        └── đơn đóng khi ≥100 chủ đề được nhận ◄─┘     (mở đơn mới ngay khi stock lại < 100, không giới hạn số đợt)
+        └── đơn đóng khi ≥100 chủ đề được nhận ◄─┘     (mở đơn mới ngay khi stock lại < 900, không giới hạn số đợt, dừng ở trần 1.000)
 ```
 
 GitHub Actions **không chạy AI**: bộ điều khiển chỉ **quyết định và ghi lại**; việc nghiên cứu do phiên AI ngoài thực hiện (xem "Tự động hóa người nghiên cứu").

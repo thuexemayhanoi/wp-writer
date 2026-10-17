@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 sys.path.insert(0, str(ROOT / 'tests'))
 
+import refill_policy
 import research_intake as intake
 import research_v2 as research
 import validate as repo_invariants
@@ -152,7 +153,7 @@ class ResearcherToolingTests(unittest.TestCase):
     def test_plan_reports_the_order_without_touching_anything(self):
         plan = research.refill_plan()
         self.assertIn('state', plan)
-        self.assertEqual(plan['trigger_below_ready'], 100)
+        self.assertEqual(plan['trigger_below_ready'], refill_policy.policy()['trigger_below_ready'])
         if plan['order']['id']:
             self.assertGreaterEqual(plan['order']['target_max'], plan['order']['target_min'])
             self.assertLessEqual(sum(plan['next_batch_categories'].values()), 10)

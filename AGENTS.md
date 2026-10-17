@@ -42,7 +42,7 @@ Nguồn quy định: [Research V2 runbook](docs/RESEARCH-V2-GLOBAL-ADAPTATION.md
 
 ## Self-replenishing topics — lệnh chủ 2026-10-17
 
-Khi PLANNED sẵn sàng viết còn **dưới 100**, `scripts/refill_controller.py` (workflow `Self-replenishing topic controller`, không AI, không WordPress) mở đơn nghiên cứu **100–200 chủ đề mới**; **không giới hạn số đợt**. Mọi ứng viên bị `scripts/intent_guard.py` so với TOÀN BỘ bài đã đăng và mọi chủ đề đang xử lý; **chỉ dòng đạt Research QA mới thành PLANNED**. Researcher chạy `python scripts/research_v2.py plan` và `intent-check --file …` trước khi push. Số liệu nằm ở `config/refill-policy.json` (coordinator-only). Chi tiết và giới hạn thật (`approved_capacity`, không có AI trong Actions): [docs/SELF-REPLENISHING-TOPICS.md](docs/SELF-REPLENISHING-TOPICS.md). Writer/Researcher không sửa policy, script hay workflow này.
+Lệnh chủ MASTER WORK 1.000 chủ đề: khi PLANNED sẵn sàng viết còn **dưới 900** (tức kho chưa chạm trần đã duyệt `approved_capacity` = 1.000), `scripts/refill_controller.py` (workflow `Self-replenishing topic controller`, không AI, không WordPress) mở đơn nghiên cứu **100–200 chủ đề mới**; **không giới hạn số đợt** và không vượt trần. Mọi ứng viên bị `scripts/intent_guard.py` so với TOÀN BỘ bài đã đăng và mọi chủ đề đang xử lý; **chỉ dòng đạt Research QA mới thành PLANNED**. Researcher chạy `python scripts/research_v2.py plan` và `intent-check --file …` trước khi push. Số liệu nằm ở `config/refill-policy.json` (coordinator-only). Chi tiết và giới hạn thật (`approved_capacity`, không có AI trong Actions): [docs/SELF-REPLENISHING-TOPICS.md](docs/SELF-REPLENISHING-TOPICS.md). Writer/Researcher không sửa policy, script hay workflow này.
 
 ## Self-healing gates G1–G7 — lệnh chủ 2026-10-17
 

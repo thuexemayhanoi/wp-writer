@@ -280,10 +280,23 @@ class SafetyTests(unittest.TestCase):
 
 class PolicyTests(unittest.TestCase):
     def test_repository_policy_matches_the_owner_order(self):
+        # MASTER WORK 1,000 topics: rounds of 100-200 keep opening until the approved capacity is filled.
         policy = refill_policy.policy()
         self.assertEqual((policy['trigger_below_ready'], policy['round_target_min'], policy['round_target_max']),
-                         (100, 100, 200))
+                         (900, 100, 200))
         self.assertIsNone(policy['max_rounds'])
+
+    def test_repository_policy_keeps_opening_rounds_until_the_approved_capacity_is_used(self):
+        live = refill_policy.policy()
+        rows = [planned(i) for i in range(1, 401)]  # 400 ready topics: a reserve, but far from 1,000
+        self.assertEqual(assess(rows, refill=live)[1]['state'], 'REFILL_OPENED')
+        orders, request, _ = assess(rows, capacity=1000, refill=live)
+        self.assertEqual((request['order']['target_min'], request['order']['target_max']), (100, 200))
+        rows = [planned(i, topic_qa_status='RESEARCH') for i in range(1, 992)]  # 991 rows: 9 slots left, below one batch
+        self.assertEqual(assess(rows, capacity=1000, refill=live)[1]['state'], 'CAPACITY_BLOCKED')
+        rows = [planned(i, topic_qa_status='RESEARCH') for i in range(1, 986)]  # 985 rows: last round cut to the 15 slots left
+        order = assess(rows, capacity=1000, refill=live)[1]['order']
+        self.assertEqual((order['target_min'], order['target_max'], order['capacity_limited']), (15, 15, True))
 
     def test_invalid_policies_are_refused(self):
         for bad in ({'round_target_min': 400}, {'research_batch_size': 11}, {'trigger_below_ready': 0},

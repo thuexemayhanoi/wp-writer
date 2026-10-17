@@ -1,7 +1,7 @@
 {
   "version": 1,
   "enabled": true,
-  "trigger_below_ready": 100,
+  "trigger_below_ready": 900,
   "round_target_min": 100,
   "round_target_max": 200,
   "research_batch_size": 10,
@@ -22,7 +22,7 @@
     "min_resolution_chars": 40
   },
   "notes": {
-    "trigger_below_ready": "Ready stock = PLANNED topics a writer can still take (not claimed, drafted, published or on hold). Below this number (owner order, reserve of 100-200) a research order opens.",
+    "trigger_below_ready": "Ready stock = PLANNED topics a writer can still take (not claimed, drafted, published or on hold). Owner order MASTER WORK 1,000 topics: research orders keep opening, round after round, until the registry holds approved_capacity (1,000) rows. 900 is approved_capacity minus the ~100 rows that existed when the order was given, so a new round opens while ready stock is below it and the controller stops itself (CAPACITY_BLOCKED) when the approved capacity is used up. Set 100 to return to the small-reserve mode.",
     "round_target": "One order asks external AI researchers for round_target_min..round_target_max NEW topics that pass Research QA. The order closes at round_target_min accepted topics.",
     "max_rounds": "null = unlimited rounds. Only approved_capacity in production-policy.json (owner decision, hard ceiling 10,000) limits how many topics can ever be admitted.",
     "intent_guard": "Search-intent collision thresholds used by Research QA and the trusted intake. FAIL can never be waived; REVIEW needs a written reason (and the current content hash for a WordPress page)."
