@@ -1,0 +1,92 @@
+{
+  "topic_id": "NT-000122",
+  "status": "PASS",
+  "source_sha256": "6ef7845764beccb958b35f8f31fd03297cc64cfc47e0370f7f85b4323d018979",
+  "body_sha256": "60de0197b88dab9f01f99a3152b507963a31fadd1acd31fe5ce3ea346a1e37f9",
+  "word_count": 2514,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=xe-may&category_tab=phanh-abs&search=honda",
+      "supports": "Honda Việt Nam: CBS là phanh kết hợp; tay phanh phải chỉ tác động bánh trước bằng phanh đĩa, tay phanh trái phân bổ lực phanh cho cả bánh trước và bánh sau; CBS chỉ hỗ trợ kiểm soát phanh nên vẫn dùng đồng thời hai tay phanh một cách hợp lý.",
+      "sha256": "fff0ff23fde3f45eae9a4634fdf6c17dbcf7163d117a3b45e74d1604b13ad58a",
+      "verified_at": "2026-10-17T13:25:28.644796+00:00"
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/phanh-abs-tren-xe-may-la-gi-co-che-hoat-dong/",
+      "supports": "Yamaha Motor Việt Nam: ABS là hệ thống chống bó cứng phanh điện tử dùng cảm biến tốc độ bánh và bộ điều khiển trung tâm; khi phanh gấp chỉ cần bóp chặt và giữ nguyên, tay phanh rung nhẹ là bình thường; ABS không hẳn rút ngắn quãng đường phanh.",
+      "sha256": "1bbf7753fac2324e585f06e3a86289737f2fa56a1c7088da22693d2240c257b8",
+      "verified_at": "2026-10-17T13:25:30.801817+00:00"
+    }
+  ],
+  "at": "2026-10-17T13:25:37.604997+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "8c9a341711a4cb2bb95e9d793d27239082e7f18b42cc7d5fdc11ed6f01a6cd0e",
+  "inventory_sha256": "a8c602382c141d7cc27ad8b38313d316cb4ec51f54e5ab365baf3c2e5922e2ad"
+}
