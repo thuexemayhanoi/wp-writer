@@ -4,7 +4,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-17T18:52:44.568940+00:00 |
+| at | 2026-10-17T18:59:53.492943+00:00 |
 | existing_published_posts | 160 |
 | existing_pages | 10 |
 | existing_products | 13 |
@@ -14,8 +14,8 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | ready_stock | 0 |
 | stock_stages | {'IDEA': 140, 'RESEARCH': 72, 'REJECTED': 0, 'PLANNED': 0, 'PLANNED_HOLD': 2, 'CLAIMED': 2, 'AUTHORED': 0, 'QA_PASS': 0, 'PUBLISHED': 25, 'WP_DRAFT': 0} |
 | needs_research | True |
-| research_shortfall | 100 |
-| refill_trigger_below_ready | 100 |
+| research_shortfall | 900 |
+| refill_trigger_below_ready | 900 |
 | refill_round_target | 100-200 |
 | refill_state | REFILL_IN_PROGRESS |
 | refill_order | RF-0001 |

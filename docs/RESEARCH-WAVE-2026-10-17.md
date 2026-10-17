@@ -1,5 +1,7 @@
 # Research wave 2026-10-17 — checkpoint and how to continue from GitHub alone
 
+> Superseded for planning by [RESEARCH-FACTORY-1000.md](RESEARCH-FACTORY-1000.md) (owner order: fill the registry to the approved capacity of 1,000). This page keeps the wave-1 cluster table and history.
+
 Goal (owner): a reserve of at least 100 researched PLANNED topics that no writer has used, kept between 100 and 200, built in batches of at most 10, each batch pushed as soon as it passes. Writers keep writing from the reserve in parallel.
 
 ## Counting (never add history to the reserve)
