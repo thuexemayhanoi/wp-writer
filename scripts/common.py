@@ -116,7 +116,9 @@ class WP:
         if self.auth and not public: headers['Authorization'] = 'Basic ' + self.auth
         if payload is not None: headers['Content-Type'] = 'application/json; charset=utf-8'
         verb = method or ('POST' if payload is not None else 'GET')
-        # Writes are NEVER retried here. A timeout requires a durable reconciliation.
+        # NEVER retry a WordPress write: the first POST may already have
+        # created a post even when its response times out.
+        rate_limit_retried = False
         for attempt in range(3 if verb == 'GET' else 1):
             try:
                 req = urllib.request.Request(url, data=json.dumps(payload,ensure_ascii=False).encode() if payload is not None else None, headers=headers, method=verb)
@@ -124,7 +126,29 @@ class WP:
                     raw = r.read(12_000_000)
                     return (raw.decode('utf-8') if page else json.loads(raw)), dict(r.headers)
             except urllib.error.HTTPError as e:
-                if verb != 'GET' or e.code not in (429,500,502,503,504) or attempt == 2:
+                if verb == 'GET' and e.code == 429:
+                    if rate_limit_retried or attempt == 2:
+                        raise RuntimeError('WordPress HTTP 429; GET retry exhausted; stop instead of flooding the host') from None
+                    delay = 60  # Conservative host cooldown when Retry-After is absent.
+                    retry_after = e.headers.get('Retry-After') if e.headers else None
+                    if retry_after:
+                        try:
+                            delay = max(60, int(retry_after))
+                        except ValueError:
+                            try:
+                                import email.utils
+                                retry_at = email.utils.parsedate_to_datetime(retry_after)
+                                if retry_at.tzinfo is None:
+                                    retry_at = retry_at.replace(tzinfo=dt.timezone.utc)
+                                delay = max(60, int((retry_at-dt.datetime.now(dt.timezone.utc)).total_seconds())+1)
+                            except (TypeError, ValueError, OverflowError):
+                                delay = 60
+                    if delay > 180:
+                        raise RuntimeError('WordPress HTTP 429; server cooldown exceeds 180s; stop safely') from None
+                    rate_limit_retried = True
+                    time.sleep(delay)
+                    continue
+                if verb != 'GET' or e.code not in (500,502,503,504) or attempt == 2:
                     raise RuntimeError(f'WordPress HTTP {e.code}; {verb}') from None
             except (urllib.error.URLError, TimeoutError, OSError):
                 if verb != 'GET' or attempt == 2: raise RuntimeError(f'WordPress network error; {verb}; outcome unknown for writes') from None
