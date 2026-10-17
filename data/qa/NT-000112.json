@@ -1,0 +1,98 @@
+{
+  "topic_id": "NT-000112",
+  "status": "PASS",
+  "source_sha256": "5961f3db1d3f910bdceb589cfbdb5a606dd6c080dc1e9eb12ccc12cb6857cddb",
+  "body_sha256": "0e6d60aa9102b28171df071d21498c07edbd5fbe8c19694a7f7c5d659ceeae68",
+  "word_count": 3219,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://mae.gov.vn/SMPT_Publishing_UC/KhaiThac/TinTuc/pInTinTuc.aspx?ItemID=20509&UrlList=",
+      "supports": "Tin ngày 03/12/2025 trên mae.gov.vn về Công văn 6356/UBND-NNMT của UBND Hà Nội: Sở Nông nghiệp và Môi trường theo dõi VN_AQI tại các trạm quan trắc và trên cổng moitruongthudo.vn; hệ thống truyền thông cập nhật chỉ số qua ứng dụng VNAir; ngành Y tế khuyến cáo người dân hạn chế hoạt động ngoài trời khi VN_AQI tăng cao; trường học theo mức Xấu và ngưỡng 301.",
+      "sha256": "c8a2b0fb461ac45fa62ca1aab4104a9eb85a98e098d1a14410889644ac748f50",
+      "verified_at": "2026-10-17T13:35:28.867041+00:00"
+    },
+    {
+      "url": "https://sonnmt.hanoi.gov.vn/index.php/tin-t-c/moi-tru-ng/16176-ha-n-i-khong-khi-o-nhi-m-do-hi-n-tu-ng-ngh-ch-nhi-t",
+      "supports": "Tin đề ngày 18/09/2019 trên trang của Sở Nông nghiệp và Môi trường Hà Nội (dẫn monre.gov.vn ngày 17/9/2019): số đo AQI tại nhiều điểm đo ở Hà Nội cùng một thời điểm chênh nhau; để đánh giá toàn diện cần phân tích số liệu nhiều thông số liên tục trong ngày và trong năm.",
+      "sha256": "e6f77887b9453152c671483e1d7a7c1987479b3b9bf4cdbfe1ee60eefc7e0051",
+      "verified_at": "2026-10-17T13:35:30.744753+00:00"
+    },
+    {
+      "url": "https://mae.gov.vn/SMPT_Publishing_UC/KhaiThac/TinTuc/pInTinTuc.aspx?ItemID=16845&UrlList=",
+      "supports": "Bài đăng ngày 30/09/2024 trên mae.gov.vn: ô nhiễm ở các khu vực trọng điểm quanh Hà Nội tập trung vào bụi mịn PM2.5, diễn ra theo mùa và dao động trong ngày, tập trung vào 6-8 giờ sáng và 17-19 giờ chiều.",
+      "sha256": "5020c0e0d7e6c1db85c89a7357c581be8894b60d3c91df087c23bb4b2fe42c62",
+      "verified_at": "2026-10-17T13:35:31.806102+00:00"
+    }
+  ],
+  "at": "2026-10-17T13:35:35.473792+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "8c9a341711a4cb2bb95e9d793d27239082e7f18b42cc7d5fdc11ed6f01a6cd0e",
+  "inventory_sha256": "8ea62f03e54635d20769b61b3bc04f292df65bfa4858eb4d7af31f61e698a38d"
+}
