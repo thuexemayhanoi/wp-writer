@@ -23,7 +23,7 @@ Không trộn `wp-aiwriter` (blog.rentbikehanoi.com) và **KHÔNG sử dụng Ex
 > nếu còn quota và còn chủ đề. Không hỏi duyệt từng bài; chỉ báo khi gặp
 > BLOCKED, hết chủ đề, thiếu nguồn hoặc việc ngoài phạm vi.
 >
-> **CẢNH BÁO:** Plugin WordPress `Git it Write` đang cấu hình cùng repo `wp-writer` và có thể đăng `posts/**` ngoài G1–G6. Không dùng webhook, nút import hoặc đồng bộ plugin này để xuất bản. Nhà điều hành phải ngắt nó sau xác nhận rồi mới mở Production GitHub.
+> **CẢNH BÁO:** Plugin WordPress `Git it Write` đang cấu hình cùng repo `wp-writer` và có thể đăng `posts/**` ngoài G1–G6. Không dùng webhook, nút import hoặc đồng bộ plugin này để xuất bản. Plugin đã được kiểm tra ở trạng thái INACTIVE ngày 17/10/2026 (Production GitHub đang bật); không kích hoạt lại và không dùng nó để xuất bản.
 >
 > **Lưu ý:** chỉ file bài viết, request Writer và candidate nghiên cứu là
 > dữ liệu Writer được sửa. **Tuyệt đối không sửa** workflows, scripts,
@@ -35,7 +35,7 @@ Không trộn `wp-aiwriter` (blog.rentbikehanoi.com) và **KHÔNG sử dụng Ex
 1. `Universal writer QA` đánh giá bài. Bài PASS đi tiếp; bài FAIL/REVIEW có biên bản REPAIR.
 2. `Universal WordPress Publisher` tự kích hoạt trên kết quả QA thành công của `main` — không đợi 30 phút mới bắt đầu.
 3. Production đang bật (lệnh chủ 17/10/2026): Publisher xử lý tối đa **5 nhóm × 2 bài/lượt**; category đúng mới công khai, không khớp thì nháp; ghi ledger trước REST POST và xác minh URL sau POST (biên bản G7).
-4. **Từ 17/10/2026 Production BẬT theo lệnh chủ**: bài qua QA lên WordPress ngay. Các bài #3882, #3888, #3890, #3930–#3932, #3935, #3938–#3945 được xuất bản thủ công, KHÔNG phải Publisher tự đăng. AI tiếp tục viết và QA, đừng tạo lại các Topic ID đã có trong publication ledger.
+4. **Từ 17/10/2026 Production BẬT theo lệnh chủ**: bài qua QA lên WordPress ngay. Các bài #3882, #3888, #3890, #3930–#3932, #3935, #3938–#3945 được xuất bản thủ công (không phải Publisher); #3947–#3956 do chính GitHub Publisher tự đăng. AI tiếp tục viết và QA, đừng tạo lại các Topic ID đã có trong publication ledger.
 5. Lịch 30 phút là cơ chế dự phòng, **không phải** khoảng nghỉ bắt buộc giữa các cặp bài.
 
 ## Không mắc kẹt vì hạn mức AI
@@ -49,7 +49,7 @@ Không trộn `wp-aiwriter` (blog.rentbikehanoi.com) và **KHÔNG sử dụng Ex
 
 ## Không cần Excel, không yêu cầu duyệt lần lượt từng danh mục
 
-Dựa hoàn toàn vào `data/topics.jsonl` + `data/taxonomy.json` (mỗi bài một topic ID, intent, parent chain). AI có thể nhận đồng thời các topic PLANNED thuộc các leaf category khác nhau. Đúng full ancestry mới đủ điều kiện public khi Production bật; thiếu category thì draft + lý do; không tự suy từ tiêu đề hay nhập file Excel. Xem [so sánh wp-aiwriter / wp-writer](WORKFLOW-COMPARISON-WP-AIWRITER.md). Bài `NT-000079` / WordPress #3882 cần kiểm tra sai khác trạng thái so với draft acceptance lịch sử trước khi đưa vào lô mới.
+Dựa hoàn toàn vào `data/topics.jsonl` + `data/taxonomy.json` (mỗi bài một topic ID, intent, parent chain). AI có thể nhận đồng thời các topic PLANNED thuộc các leaf category khác nhau. Đúng full ancestry mới được public (Production đang bật); thiếu category thì draft + lý do; không tự suy từ tiêu đề hay nhập file Excel. Xem [so sánh wp-aiwriter / wp-writer](WORKFLOW-COMPARISON-WP-AIWRITER.md). Bài `NT-000079` / WordPress #3882 cần kiểm tra sai khác trạng thái so với draft acceptance lịch sử trước khi đưa vào lô mới.
 
 ## Researcher — tự nghiên cứu 10 chủ đề rồi cấp cho Writer
 

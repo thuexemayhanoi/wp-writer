@@ -1,5 +1,7 @@
 # Nâng cấp luồng Writer → WordPress (không sao chép /wp-aiwriter)
 
+> **Trạng thái hiện tại (từ 17/10/2026): Production ĐÃ BẬT.** Luồng: W1/W2/W3 viết → QA ≥85 + trùng + danh mục → Publisher → WordPress công khai tự động. Các nhánh "chưa duyệt / dry-run" và mục "điều kiện kích hoạt" bên dưới mô tả chế độ khi chủ tắt công tắc hoặc là lịch sử.
+
 ## Luồng dữ liệu
 
 ```text
@@ -13,9 +15,9 @@ W1 / W2 / W3 (AI bên ngoài)
        |
    Publisher: xem lại hash, kiểm kê WP live, collision, liên kết, taxonomy
        |
-       +-- Chưa được duyệt staging/production: DRY RUN, KHÔNG gọi WP
+       +-- Chủ tắt công tắc (mode=dry_run): DRY RUN, KHÔNG gọi WP
        +-- Đã duyệt staging: đúng category hoặc thiếu → WP DRAFT
-       +-- Đã duyệt production:
+       +-- Production (ĐANG BẬT từ 17/10/2026):
              +-- đúng full parent/child category → WP PUBLISH
              +-- sai/thiếu/không chắc chắn category → WP DRAFT (Blog)
              +-- category creation approved + readback khớp → WP PUBLISH
@@ -27,7 +29,7 @@ W1 / W2 / W3 (AI bên ngoài)
 
 ### Khi nào được gọi API WordPress
 
-`mode=dry_run` vẫn là chế độ mặc định. Không thể chỉ sửa `mode` để vượt qua chốt an toàn.
+Hiện `mode=production` (lệnh chủ 17/10/2026); `mode=dry_run` là chế độ khi chủ tắt công tắc. Không thể chỉ sửa `mode` để vượt qua chốt an toàn: Publisher kiểm tra đồng thời `production_enabled`, `owner_approval_ref`, `seo_adapter_verified`, `paused` và `emergency_stop`.
 
 **Chế độ staging (nháp tự động trên WP):**
 - `mode=draft_only`, `production_enabled=false`.
@@ -51,12 +53,12 @@ Publisher chỉ dùng endpoint tạo mới. Một draft đã tạo được lưu
 
 Nếu QA FAIL/REVIEW, nguồn pháp lý không xác minh, thiếu receipt đúng session/hash, duplicate/cannibalization hoặc đứt internal link → KHÔNG gửi WP. Test QA là rào chắn kỹ thuật, không thay thế đánh giá chuyên môn thực tế.
 
-### Điều kiện kích hoạt còn thiếu
+### Lịch sử: điều kiện kích hoạt theo audit 16/10/2026 (không còn chặn đăng từ lệnh chủ 17/10/2026)
 
 Theo trạng thái audit 16/10/2026:
 1. Main đã có Ruleset Active chống xóa/force-push, không có bypass, nhưng **chưa enforce đặc quyền sửa scripts/.github/config** và Environment secrets chưa được bảo vệ/xác nhận; vì vậy chưa được đánh dấu security PASS.
 2. Yoast title/description REST-writeable đã PASS trên GitHub Actions #38910018718; canonical được WordPress/Yoast tạo từ permalink và Publisher kiểm tra HTML public. Không cần ghi `_yoast_wpseo_canonical` qua REST.
-3. Đã public hai bài thật **thủ công qua WPVibe** #3888/#3890, có đúng danh mục cha/con và frontend SEO. Tuy nhiên **chưa có full E2E `GitHub Publisher → WordPress public`**. #3882 (trước đây acceptance draft) hiện publish theo WP REST, cần đối soát drift.
+3. Đã public hai bài thật **thủ công qua WPVibe** #3888/#3890, có đúng danh mục cha/con và frontend SEO. Tuy nhiên **lúc đó chưa có full E2E `GitHub Publisher → WordPress public`** (cập nhật 17/10/2026: #3947–#3956 đã do chính GitHub Publisher đăng, ledger `phase=VERIFIED` có `run_id`). #3882 (trước đây acceptance draft) hiện publish theo WP REST, cần đối soát drift.
 4. Snapshot khởi đầu có 8 PLANNED / 2 QA PASS; số mới nhất xem `data/topics.jsonl`/dashboard. Không gọi 10.000 capacity là 10.000 bài đã viết.
 
 Không chỉnh cờ `security_controls_verified`, `seo_adapter_verified` hay `acceptance_passed` sang true nếu chưa có bằng chứng. Nghiệm thu test phải riêng biệt, không dùng bài cũ hay xóa bài kiểm tra.
