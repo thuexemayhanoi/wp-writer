@@ -50,6 +50,17 @@ class EvidenceExemptTests(unittest.TestCase):
         self.assertEqual(result['status'], 'REVIEW')
         self.assertIn('reviewed full-content evidence stale or missing: 1=edited', result['review'])
 
+    def test_rereviewed_page_keeps_both_versions_covered(self):
+        self.topic['research']['reviewed_content_hashes'] = {'1': ['h1', 'edited']}
+        for current in ('h1', 'edited'):
+            self.assertEqual(self.gate({**self.baseline, 'content_hash': current})['status'], 'PASS')
+
+    def test_a_third_version_of_the_page_is_still_stale(self):
+        self.topic['research']['reviewed_content_hashes'] = {'1': ['h1', 'edited']}
+        result = self.gate({**self.baseline, 'content_hash': 'edited-again'})
+        self.assertEqual(result['status'], 'REVIEW')
+        self.assertIn('reviewed full-content evidence stale or missing: 1=edited-again', result['review'])
+
 
 if __name__ == '__main__':
     unittest.main()

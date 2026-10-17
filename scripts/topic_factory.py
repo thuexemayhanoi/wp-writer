@@ -80,7 +80,11 @@ def gate(topic, others, inventory, taxonomy):
     if not research.get('reviewer') or not research.get('difference_summary') or not topic.get('intent_key'):
         review.append('full-content semantic review missing')
     checked_hashes=research.get('reviewed_content_hashes',{})
-    stale=[p for p in nearest if checked_hashes.get(str(p['id']))!=p.get('content_hash')]
+    def covered(p):
+        # One hash per page; a list when a reviewer re-read the page after it was edited.
+        seen=checked_hashes.get(str(p['id']))
+        return p.get('content_hash') in (seen if isinstance(seen,list) else [seen])
+    stale=[p for p in nearest if not covered(p)]
     if not checked_hashes or stale:
         # Name the pages and their current hash so the reviewer re-reads exactly those.
         review.append('reviewed full-content evidence stale or missing'+

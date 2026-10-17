@@ -23,7 +23,7 @@ An external AI researcher with access to actual web sources should pick one uniq
 
 - Re-evaluate the title, keyword and **unique search intent**; avoid unrelated variants, boilerplate and thin articles.
 - Search source documents and capture verifiable URLs, publication/update dates, concrete supported claims and evidence. A news feed headline alone is never legal or technical evidence.
-- Compare all relevant existing published WordPress pages (and near-match old articles) by actual content, canonical and intent; record reviewed existing WordPress IDs and exact `content_hash` values.
+- Compare all relevant existing published WordPress pages (and near-match old articles) by actual content, canonical and intent; record reviewed existing WordPress IDs and exact `content_hash` values. If a page is edited after you recorded its hash, Topic QA reports `reviewed full-content evidence stale or missing: <id>=<current hash>`: re-read the page, then keep the old hash and add the new one as a list (`"2572": ["<old>", "<new>"]`). A hash that matches no recorded version stays stale.
 - Choose the correct `taxonomy_key` from `data/taxonomy.json`. Do not create an empty category or modify the existing URL structure.
 - Complete a distinct useful outline (at least five sections) and the `research` contract with `reviewer`, `difference_summary`, `usefulness`, `scope_exclusions`, `reviewed_existing_ids` and `reviewed_content_hashes`.
 - Use an unused `NT-XXXXXX` topic ID **within current approved capacity**, and set `origin_id` equal to the exact `NTD-` proposal ID; this is how the automatic discovery backlog recognizes completed research.
