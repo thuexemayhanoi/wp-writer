@@ -63,9 +63,9 @@ class InstantPublishingTests(unittest.TestCase):
         args=Namespace(persist_state=False, acceptance_topic=None,
                        acceptance_draft=False)
         capture=io.StringIO()
-        with patch('publisher.WP', side_effect=AssertionError('WordPress touched')), \\
-             patch('publisher.RemoteState', side_effect=AssertionError('Ledger touched')), \\
-             redirect_stdout(capture):
+        with (patch('publisher.WP', side_effect=AssertionError('WordPress touched')),
+              patch('publisher.RemoteState', side_effect=AssertionError('Ledger touched')),
+              redirect_stdout(capture)):
             run(args)
         self.assertIn('PRODUCTION_NOT_AUTHORIZED', capture.getvalue())
         self.assertIn('no WordPress writes', capture.getvalue())
