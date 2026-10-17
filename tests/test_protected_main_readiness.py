@@ -6,7 +6,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from protected_main_readiness import inspect
+from protected_main_readiness import inspect, STATE_WRITERS
 
 
 def create_fixture(root, cas, audit="name: safe audit", writer="from git_state import RemoteState"):
@@ -14,7 +14,10 @@ def create_fixture(root, cas, audit="name: safe audit", writer="from git_state i
     (root / ".github/workflows").mkdir(parents=True, exist_ok=True)
     (root / "scripts/git_state.py").write_text(cas)
     (root / ".github/workflows/factory-audit.yml").write_text(audit)
-    (root / "scripts/publisher.py").write_text(writer)
+    for name in STATE_WRITERS:
+        file = root / name
+        file.parent.mkdir(parents=True, exist_ok=True)
+        file.write_text(writer if name == "scripts/publisher.py" else "# safe fixture\n")
 
 
 class ProtectedMainMigrationTests(unittest.TestCase):
