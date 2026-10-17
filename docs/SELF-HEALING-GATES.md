@@ -1,12 +1,12 @@
 # Self-healing gates G1–G7 (QA thresholds unchanged)
 
-Owner order 2026-10-17: a QA-PASS article is published at once; what can be fixed by the machine is rechecked by the machine (at most 3 times); only an article with a real risk is held; one held article never blocks another; G7 proves the result on WordPress. Nothing below lowers SEO >= 85, quality >= 75, the 1,600–5,000 word range, the duplicate checks, the category checks, the write-ahead ledger or the never-retry-an-uncertain-POST rule. GitHub Actions still runs no AI: a content defect is repaired by the writer session, the system only tracks it.
+Owner order 2026-10-17: a QA-PASS article is published at once; what can be fixed by the machine is rechecked by the machine (at most 3 times); only an article with a real risk is held; one held article never blocks another; G7 proves the result on WordPress. Nothing below lowers SEO >= 85, quality >= 75, the 1,600–5,000 word range, the duplicate checks, the category checks, the write-ahead ledger or the never-retry-an-uncertain-POST rule. GitHub Actions still runs no AI: a content defect is repaired by the active Claude session, while isolated per-topic Git branches persist each actual edit and QA result.
 
 ## What happens to a verdict (`scripts/gate_triage.py`, stored as `triage` and `recheck` in the QA record)
 | Class | Examples | What the system does |
 |---|---|---|
 | `REAL_RISK` | URL/intent collision, near duplicate, wrong category, source that cannot be verified (403, 404, TLS, excerpt not in page), wrong legal/price/business fact, invented experience, a crashed evaluation, any reason nobody classified | Held. Never auto-healed. Other articles continue. |
-| `WRITER_REPAIR` | SEO score, length, structure, meta length, links, editorial evidence | Returned to the writer (`reports/repair-queue.json`). One attempt per new draft version; after 3 versions `needs_owner` is set. |
+| `WRITER_REPAIR` | SEO score, length, structure, meta length, links, editorial evidence | Returned to the writer (`reports/repair-queue.json`). One attempt per new draft version; after 10 distinct content revisions `needs_owner` is set; infrastructure retries stay at 3. |
 | `INFRA_PENDING` | source or link fetch timed out, HTTP 408/425/429/5xx, connection reset | Rechecked by the machine: up to 3 reads inside one evaluation (1 s, 3 s back-off) and up to 3 consecutive runs; then it becomes `REAL_RISK` ("source stays unverifiable"). |
 
 `reports/gate-recheck.json` (written by the Publisher, persisted with the other reports) carries the counters between runs; a PASS or a published article starts clean. `reports/dashboard.json` shows `held_by_class`.
@@ -23,3 +23,7 @@ After every write the Publisher reads WordPress back and stores `g7` in the ledg
 `qa.evaluate_safely` turns an unexpected crash into a FAIL ticket for that article; the Publisher loop skips an article refused before any write; an earlier uncertain POST is reconciled or skipped, never retried blindly.
 
 Tests: `tests/test_gate_triage.py`, `tests/test_self_healing_gates.py`.
+
+## AUTO-REPAIR WRITER — 10 CONTENT REVISIONS (18/10/2026)
+
+Read docs/WRITER-AUTO-REPAIR.md (single authoritative procedure). The active Claude session first repairs owned unfinished Topic IDs; if none, it continues writing legitimately PLANNED topics. To initialize QA and a durable baseline, run python scripts/writer-repair.py save --session SESSION --id NT-XXXXXX --note "Initial draft". After each actual edit, run the same save command with an accurate change note. QA is re-executed, SHA-256 and score/errors are stored, and the draft + checkpoint are committed to an isolated repair/SESSION/NT-XXXXXX branch. A new changed version counts as one repair, up to 10; identical bytes do not count. Use python scripts/writer-repair.py resume --session SESSION --id NT-XXXXXX after a quota interruption. Live lease ownership is always checked; no force pushes, no edited QA evidence. Genuine PASS goes through the unchanged writer-session.py push and Publisher. REAL_RISK or exhausted limit remains held, never falsely PASS. Infra/network retry stays 3, separate from content-repair limit 10. GitHub Actions never writes prose or calls an AI without an actual external model connection.
