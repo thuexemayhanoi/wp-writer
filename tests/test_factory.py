@@ -119,19 +119,18 @@ class QATests(unittest.TestCase):
         result=self.runqa(self.body()+'\n\nThông tin về giấy phép lái xe cần được xác minh.')
         self.assertEqual(result['status'],'REVIEW');self.assertTrue(result['legal_required'])
     def test_broken_internal_link_fails(self):self.assertEqual(self.runqa(link_checker=lambda u:False)['status'],'FAIL')
-    def test_third_party_source_in_article_fails_g5_even_with_good_score(self):
+    def test_third_party_relevant_https_sources_are_allowed_by_g5(self):
         body = self.body() + '\n\nNguồn kỹ thuật chính hãng: [Dat Bike](https://datbike.vn/quantum), [VinFast](https://vinfastauto.com/).'
         result = self.runqa(body)
-        self.assertEqual(result['status'], 'FAIL')
+        self.assertEqual(result['status'], 'PASS')
         self.assertGreaterEqual(result['seo_score'], 85)
-        self.assertIn('EXTERNAL_SOURCE_LINK_FORBIDDEN:datbike.vn', result['gates']['5']['errors'])
-        self.assertIn('EXTERNAL_SOURCE_LINK_FORBIDDEN:vinfastauto.com', result['gates']['5']['errors'])
+        self.assertFalse(any('UNSAFE_OUTBOUND_URL' in e for e in result['gates']['5']['errors']))
 
     def test_social_and_google_maps_are_allowed_by_g5(self):
         body = self.body() + '\n\n[Xem bản đồ](https://www.google.com/maps/place/Ha+Noi) và [Facebook](https://www.facebook.com/example).'
         result = self.runqa(body)
         self.assertEqual(result['status'], 'PASS')
-        self.assertFalse(any('EXTERNAL_SOURCE_LINK_FORBIDDEN' in e
+        self.assertFalse(any('UNSAFE_OUTBOUND_URL' in e
                              for e in result['gates']['5']['errors']))
 
     def test_draft_link_fails(self):self.assertEqual(self.runqa(self.body()+'\n\n[Draft]('+SITE+'/?p=3861)')['status'],'FAIL')

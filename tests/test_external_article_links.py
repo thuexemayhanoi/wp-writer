@@ -1,4 +1,4 @@
-"""No third-party source citations in public article bodies; preserve platforms."""
+"""Normal HTTPS source citations allowed; reject unsafe outbound URLs."""
 import sys
 import unittest
 from pathlib import Path
@@ -18,68 +18,52 @@ class ExternalArticleLinkPolicyTests(unittest.TestCase):
     def test_internal_links_are_not_rejected(self):
         self.assertEqual(self.check('[Bảng giá](' + SITE + '/bang-gia/)'), [])
 
-    def test_popular_social_and_map_platforms_allowed(self):
+    def test_external_manufacturer_legal_and_research_sources_allowed(self):
         for url in (
-            'https://www.google.com/maps/place/Ha+Noi',
-            'https://maps.app.goo.gl/abc',
-            'https://www.google.com/search?q=xe+may',
+            'https://honda.com.vn/motorbikes',
+            'https://yamaha-motor.com.vn/',
+            'https://vinfastauto.com/xe-dien',
+            'https://csgt.bocongan.gov.vn/tintuc/',
+            'https://vbpl.vn/',
+            'https://example.org/research',
             'https://www.facebook.com/page/posts/123',
-            'https://m.facebook.com/profile.php?id=123',
-            'https://youtube.com/watch?v=test',
-            'https://youtu.be/test',
-            'https://www.tiktok.com/@business',
-            'https://www.instagram.com/rentbikehanoi/',
-            'https://zalo.me/0942467674',
-            'https://wa.me/84942467674',
-            'https://maps.apple.com/?q=Hanoi',
-            'https://www.openstreetmap.org/#map=15/21.0/105.8',
-            'https://x.com/example',
-            'https://www.linkedin.com/company/example',
+            'https://www.google.com/maps/place/Ha+Noi',
         ):
             with self.subTest(url=url):
-                self.assertEqual(self.check('[Xem nền tảng](' + url + ')'), [])
+                self.assertEqual(self.check('[Nguồn liên quan](' + url + ')'), [])
 
-    def test_external_manufacturer_sources_blocked(self):
-        for url, host in (
-            ('https://datbike.vn/quantum', 'datbike.vn'),
-            ('https://vinfastauto.com/xe-dien', 'vinfastauto.com'),
-            ('https://honda.com.vn/motorbikes', 'honda.com.vn'),
-            ('https://example.com/research', 'example.com'),
-        ):
-            with self.subTest(url=url):
-                self.assertIn('EXTERNAL_SOURCE_LINK_FORBIDDEN:' + host,
-                              self.check('[Nguồn kỹ thuật](' + url + ')'))
+    def test_plain_urls_and_reference_sources_allowed(self):
+        self.assertEqual(self.check('Nguồn kỹ thuật: https://honda.com.vn/motorbikes'), [])
+        self.assertEqual(self.check('[Nguồn][vinfast]\n[vinfast]: https://vinfastauto.com/'), [])
+        self.assertEqual(self.check('Nguồn: www.honda.com.vn'), [])
 
-    def test_plain_urls_and_markdown_reference_sources_blocked(self):
-        self.assertIn('EXTERNAL_SOURCE_LINK_FORBIDDEN:datbike.vn',
-                      self.check('Nguồn kỹ thuật: https://datbike.vn/quantum'))
-        self.assertIn('EXTERNAL_SOURCE_LINK_FORBIDDEN:vinfastauto.com',
-                      self.check('[Nguồn][vinfast]\n[vinfast]: https://vinfastauto.com/'))
-        self.assertIn('EXTERNAL_SOURCE_LINK_FORBIDDEN:www.honda.com.vn',
-                      self.check('Nguồn: www.honda.com.vn'))
+    def test_external_image_urls_are_not_domain_blocked(self):
+        self.assertEqual(self.check('![Ảnh xe](https://images.example.org/xe.jpg)'), [])
 
-    def test_external_images_also_blocked(self):
-        self.assertIn('EXTERNAL_SOURCE_LINK_FORBIDDEN:example.com',
-                      self.check('![Ảnh xe](https://example.com/xe.jpg)'))
+    def test_plain_http_and_malformed_https_urls_rejected(self):
+        self.assertIn('UNSAFE_OUTBOUND_URL:honda.com.vn',
+                      self.check('http://honda.com.vn/motorbikes'))
+        self.assertIn('UNSAFE_OUTBOUND_URL:invalid-url',
+                      self.check('Nguồn: https://'))
 
-    def test_not_fooled_by_fake_google_host(self):
-        self.assertIn('EXTERNAL_SOURCE_LINK_FORBIDDEN:google.com.attacker.test',
-                      self.check('[Google giả](https://google.com.attacker.test/x)'))
+    def test_credentials_or_unusual_ports_rejected(self):
+        self.assertIn('UNSAFE_OUTBOUND_URL:example.org',
+                      self.check('https://user:pass@example.org/path'))
+        self.assertIn('UNSAFE_OUTBOUND_URL:example.org',
+                      self.check('https://example.org:8080/path'))
 
-    def test_no_plain_http_or_platform_redirects(self):
-        self.assertIn('EXTERNAL_SOURCE_LINK_FORBIDDEN:facebook.com',
-                      self.check('http://facebook.com/page'))
-        self.assertIn('EXTERNAL_SOURCE_LINK_FORBIDDEN:www.google.com',
-                      self.check('[Nguồn](https://www.google.com/url?url=https%3A%2F%2Fdatbike.vn)'))
-        self.assertIn('EXTERNAL_SOURCE_LINK_FORBIDDEN:l.facebook.com',
-                      self.check('[Nguồn](https://l.facebook.com/l.php?u=https%3A%2F%2Fdatbike.vn)'))
+    def test_disguised_platform_redirects_rejected(self):
+        self.assertIn('UNSAFE_OUTBOUND_URL:www.google.com',
+                      self.check('[Nguồn](https://www.google.com/url?url=https%3A%2F%2Fexample.org)'))
+        self.assertIn('UNSAFE_OUTBOUND_URL:l.facebook.com',
+                      self.check('[Nguồn](https://l.facebook.com/l.php?u=https%3A%2F%2Fexample.org)'))
 
     def test_duplicate_violations_are_deduplicated(self):
-        self.assertEqual(self.check('https://datbike.vn/a https://datbike.vn/b'),
-                         ['EXTERNAL_SOURCE_LINK_FORBIDDEN:datbike.vn'])
+        self.assertEqual(self.check('http://example.org/a http://example.org/b'),
+                         ['UNSAFE_OUTBOUND_URL:example.org'])
 
-    def test_research_sources_are_outside_article_body(self):
-        self.assertEqual(self.check('Thông số phải được kiểm chứng trước khi đăng.'), [])
+    def test_no_external_links_is_allowed(self):
+        self.assertEqual(self.check('Nội dung đã được kiểm chứng.'), [])
 
 
 if __name__ == '__main__':
