@@ -133,6 +133,49 @@ class QATests(unittest.TestCase):
         self.assertFalse(any('UNSAFE_OUTBOUND_URL' in e
                              for e in result['gates']['5']['errors']))
 
+
+    def test_research_sources_accept_manufacturers_competitors_news_and_travel(self):
+        from qa import allowed_source
+        for url in ('https://www.honda.com.vn/model', 'https://yamaha-motor.com.vn/',
+                    'https://rentals.example.org/pricing', 'https://travel.example.net/guide',
+                    'https://hanoimoi.vn/article', 'https://suckhoedoisong.vn/article'):
+            self.assertTrue(allowed_source(url), url)
+        self.assertTrue(allowed_source('https://csgt.bocongan.gov.vn/tintuc/', legal=True))
+        self.assertFalse(allowed_source('https://rentals.example.org/law', legal=True))
+        self.assertFalse(allowed_source('https://localhost/private'))
+        self.assertFalse(allowed_source('https://127.0.0.1/private'))
+        self.assertFalse(allowed_source('http://example.org/insecure'))
+
+    def test_live_research_snapshot_fallback_only_on_network_failure(self):
+        import urllib.error
+        from qa import verify_sources
+        s = {'url':'https://travel.example.net/guide', 'checked_at':dt.date.today().isoformat(),
+             'supports':'A checked travel reference with useful route details',
+             'evidence_text':'A real researcher checked these details in this source.',
+             'source_sha256':'a'*64}
+        from unittest.mock import MagicMock
+        opener = MagicMock()
+        opener.open.side_effect = urllib.error.HTTPError(s['url'], 403, 'blocked', {}, None)
+        with patch('qa.urllib.request.build_opener', return_value=opener):
+            errors, proofs = verify_sources([s], live=True, trusted_research=[dict(s)])
+        self.assertEqual(errors, [])
+        self.assertEqual(proofs[0]['verification_method'], 'research_snapshot_fallback')
+        self.assertFalse(proofs[0]['live_checked'])
+        with patch('qa.urllib.request.build_opener', return_value=opener):
+            errors, proofs = verify_sources([s], live=True, trusted_research=[])
+        self.assertTrue(errors)
+        self.assertFalse(proofs)
+        opener.open.side_effect = urllib.error.HTTPError(s['url'], 404, 'gone', {}, None)
+        with patch('qa.urllib.request.build_opener', return_value=opener):
+            errors, proofs = verify_sources([s], live=True, trusted_research=[dict(s)])
+        self.assertTrue(errors)
+        self.assertFalse(proofs)
+
+    def test_internal_candidate_list_not_fixed_publication_whitelist(self):
+        self.topic['internal_link_candidates'] = [SITE+'/a-different-old-link/']
+        result = self.runqa(changes={'link_rationale':''})
+        self.assertEqual(result['status'], 'PASS')
+
     def test_draft_link_fails(self):self.assertEqual(self.runqa(self.body()+'\n\n[Draft]('+SITE+'/?p=3861)')['status'],'FAIL')
     def test_unsafe_html_fails(self):self.assertEqual(self.runqa(self.body()+'<script>bad()</script>')['status'],'FAIL')
     def test_wrong_taxonomy_fails(self):self.assertEqual(self.runqa(changes={'taxonomy_key':'uncategorized'})['status'],'FAIL')
