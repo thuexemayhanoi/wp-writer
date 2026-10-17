@@ -1,10 +1,10 @@
 {
   "version": 1,
   "site": "https://thuexemaynguyentu.com",
-  "mode": "dry_run",
+  "mode": "production",
   "production_enabled": false,
-  "paused": true,
-  "emergency_stop": true,
+  "paused": false,
+  "emergency_stop": false,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "max_new_posts_daily": 1000,
