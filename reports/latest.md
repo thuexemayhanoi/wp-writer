@@ -4,7 +4,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-17T08:01:50.873310+00:00 |
+| at | 2026-10-17T08:36:05.637713+00:00 |
 | existing_published_posts | 135 |
 | existing_pages | 10 |
 | existing_products | 13 |
@@ -13,7 +13,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | claimable_topics | 3 |
 | writing | 0 |
 | draft_authored | 12 |
-| qa_pass | 4 |
+| qa_pass | 11 |
 | qa_fail | 1 |
 | qa_review | 0 |
 | repair_queue | 1 |
@@ -32,8 +32,8 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | production_enabled | False |
 | draft_staging_enabled | False |
 | qa_pass_live_checked | 0 |
-| qa_pass_awaiting_wordpress | 2 |
-| queued_topic_ids | ['NT-000073', 'NT-000075'] |
+| qa_pass_awaiting_wordpress | 9 |
+| queued_topic_ids | ['NT-000073', 'NT-000106', 'NT-000102', 'NT-000103', 'NT-000104', 'NT-000105', 'NT-000101', 'NT-000107', 'NT-000075'] |
 | pending_wordpress_intents | [] |
 | blocked_writer_sessions | [] |
 | last_wordpress_verified_at | 2026-10-17T05:13:16.394Z |
