@@ -1,6 +1,16 @@
 {
   "version": 1,
-  "leases": {},
+  "leases": {
+    "W1": {
+      "session": "seodev-w5",
+      "topic_ids": [
+        "NT-000116",
+        "NT-000117"
+      ],
+      "claimed_at": "2026-10-17T18:28:28.784852+00:00",
+      "expires_at": "2026-10-18T06:28:28.784852+00:00"
+    }
+  },
   "processed_requests": {
     "s-codex-validation-20261016": {
       "sha256": "525fcc05d1910e5b579cfd4d7aabf1f5f5b47257b916d09e052ca04a9f6a39b1",
