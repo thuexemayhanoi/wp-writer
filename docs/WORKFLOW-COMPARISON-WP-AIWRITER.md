@@ -24,7 +24,7 @@ Trạng thái đã kiểm chứng ngày 16/10/2026. Không nhầm site đích:
 | Đúng danh mục cha/con | Excel `category_path` → đầy đủ ancestry | `taxonomy_key` → `parent_key` chain → WordPress REST ID/slug/name/parent |
 | Thiếu/sai taxonomy | WordPress draft + ghi lý do | WordPress draft ở fallback Blog + intended taxonomy + warning (khi production được duyệt) |
 | Lặp đăng | 3–5 bài/lần × tối đa 80 vòng, **chỉ trong category hiện được duyệt** | ≤2 bài/batch × ≤5 batch/lượt, daily cap 1.000 (10/lượt), xử lý mọi topic QA-ready đúng taxonomy |
-| Kích hoạt | `workflow_run` sau QA main push, `LIVE=true` | `workflow_run` + cron :17/:47 dự phòng, **Production vẫn `dry_run`** |
+| Kích hoạt | `workflow_run` sau QA main push, `LIVE=true` | `workflow_run` + cron :17/:47 dự phòng, **Production BẬT từ 17/10/2026** |
 | Ranh giới chuyên mục | Phải duyệt `active_category` tiếp theo | **Không có** Excel `active_category`/nhóm cố định; Topic Factory phân phối PLANNED khác intent |
 | Sổ đăng | `data/publication-state.json` | `data/state/publication-ledger.json` + writer hashes/leases |
 

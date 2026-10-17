@@ -1,7 +1,7 @@
 # WP-WRITER — UNIVERSAL AI CONTENT FACTORY FOR WORDPRESS
 
 
-> **SEO QA V2 / Website chính:** Bài mới chỉ đủ điều kiện WordPress **Published** khi **SEO ≥85/100**, Quality ≥75 và cả sáu cổng đều PASS. QA chấm title/meta, câu trả lời đầu bài, H2, linking, anchor, URL theo intent; SEO 84 → FAIL/REPAIR. Không bắt buộc ảnh/FAQ/CTA quảng cáo cho mọi bài. Xem [SEO QA V2](docs/SEO-QA-V2.md). **Production vẫn dry_run**, thay đổi ngưỡng không tự bật đăng bài.
+> **SEO QA V2 / Website chính:** Bài mới chỉ đủ điều kiện WordPress **Published** khi **SEO ≥85/100**, Quality ≥75 và cả sáu cổng đều PASS. QA chấm title/meta, câu trả lời đầu bài, H2, linking, anchor, URL theo intent; SEO 84 → FAIL/REPAIR. Không bắt buộc ảnh/FAQ/CTA quảng cáo cho mọi bài. Xem [SEO QA V2](docs/SEO-QA-V2.md). **Production BẬT từ 17/10/2026** (lệnh chủ); ngưỡng QA không đổi.
 
 
 **AI bên ngoài — một lệnh để bắt đầu:** [AI-START-HERE.md](docs/AI-START-HERE.md). Nhận tối đa 10 chủ đề, QA từng bài, tự nộp và nhận tiếp; không xin duyệt từng bài. Publisher đã kết nối sau QA nhưng **Production hiện OFF**; không tuyên bố đã đăng công khai khi không có ledger và URL verified.
@@ -17,7 +17,7 @@ Khác **wp-aiwriter** sử dụng Excel cố định (data/topics.json), **wp-wr
 
 **AI bên ngoài → W1/W2/W3 claim → posts/drafts/NT-XXXXXX.md → GitHub QA PASS → Publisher → WordPress REST.** Khi Production thực sự bật: khớp chính xác category leaf và toàn bộ parent ancestry mới public; thiếu/sai thì nháp; trùng slug/title/marker hoặc có trong ledger thì skip/đối soát, không tạo lại. Không cần chờ cron; cron :17/:47 là fallback.
 
-**Cập nhật 17/10/2026:** Plugin WordPress **Git it Write** hiện **INACTIVE** (đã kiểm tra qua WP-CLI). Cấu hình cũ vẫn trỏ vào repo `thuexemayhanoi/wp-writer`, nhánh `main`, thư mục `posts`. **Không kích hoạt lại plugin** khi chưa gỡ cấu hình nhập repo này: đường đồng bộ Git it Write có thể công khai bài ngoài QA G1–G6 và publication ledger. Publisher GitHub riêng vẫn `dry_run`.
+**Cập nhật 17/10/2026:** Plugin WordPress **Git it Write** hiện **INACTIVE** (đã kiểm tra qua WP-CLI). Cấu hình cũ vẫn trỏ vào repo `thuexemayhanoi/wp-writer`, nhánh `main`, thư mục `posts`. **Không kích hoạt lại plugin** khi chưa gỡ cấu hình nhập repo này: đường đồng bộ Git it Write có thể công khai bài ngoài QA G1–G6 và publication ledger. Publisher GitHub là đường đăng duy nhất được phép.
 
 **Production tự động BẬT từ 17/10/2026 (lệnh chủ).** Bài qua QA lên WordPress ngay; các bài #3888/#3890/#3930–#3945 được đăng thủ công và đã nằm trong ledger để tránh đăng trùng. QA success không tự chứng minh WordPress đã đăng — kiểm tra ledger và URL công khai.
 

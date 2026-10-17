@@ -47,6 +47,6 @@ The authoritative configuration is config/qa-rules.json: version 2, seo_min 85, 
 
 External AI W1/W2/W3 → GitHub article intake → QA six gates + SEO V2 → PASS → Publisher live QA → WordPress category/SEO verification → published receipt. Below 85 or another gate FAIL/REVIEW → Writer REPAIR, not public WordPress.
 
-**Production is still dry_run** until enforced privileged-code security and end-to-end publishing acceptance are genuinely verified. The SEO V2 upgrade does not bypass or activate Production.
+Production has been ON since 2026-10-17 by owner order (`production_enabled=true`): a QA-PASS article is published by the Publisher right after the main-push QA run. `acceptance_passed` and `security_controls_verified` stay `false` (never performed) and no longer gate publishing. The SEO V2 rubric and the 85-point gate are unchanged.
 
 No Excel: topic source is data/topics.jsonl, categories and full WordPress ancestry come from data/taxonomy.json plus WordPress REST.
