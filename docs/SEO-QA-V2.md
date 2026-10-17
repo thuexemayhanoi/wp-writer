@@ -41,6 +41,16 @@ The authoritative configuration is config/qa-rules.json: version 2, seo_min 85, 
 - **Editorial discipline:** Do not link to irrelevant advertisements, deceptive pages or low-quality sources. Respect image usage rights and attribution, and do not confuse the source used for factual verification with an endorsement.
 - **Existing WordPress posts are unchanged.** The rule applies to new drafts and publisher live QA; no bulk rewrite of legacy posts.
 
+
+## Research freedom and source checks (18 October 2026)
+
+- External AI may research **any relevant public website**: competing motorbike rental providers, manufacturers, bike/e-bike/EV brands, maps, public transport, other vehicle modes, Hanoi and Vietnam tourism, official rules, science, technical documents and news. This grants research access, **not** permission to copy competitors or fabricate experience.
+- G3 no longer requires a narrow manufacturer/government hostname list for general evidence. Legal claims still require an authoritative official source; genuine sources must have a dated, specific excerpt and a SHA-256 research snapshot. One high-quality original source may support a narrow research topic; two hosts are advice, not a universal hard gate.
+- Source last-checked metadata may be up to 365 days old for general subjects; *legal* source check is limited to 90 days, and changing prices/laws/real-time information should be reconfirmed when used. Research source date is not a news publication date.
+- If the GitHub runner cannot reach a URL due to a transient HTTP 403/429/5xx or network error, article QA may only rely on an **exact source URL, snapshot hash and excerpt already registered in this topic's research**. It records `live_checked: false` and `verification_method: research_snapshot_fallback`. A 404 or readable but mismatched excerpt is still REVIEW. This is documented provenance, **not** a claimed live verification.
+- Public internal-link targets and orphan checks remain; the originally suggested candidate URL list and prose `link_rationale` are guidance, not an arbitrary REVIEW barrier when an appropriate published article is already linked.
+- Do not link out just to satisfy an imagined Google ranking factor. Link externally only when it helps users inspect important details. Never copy competitor text, images or trademark claims without permission.
+
 ## Website-primary-site policy
 
 - Do not turn all articles into rental advertisements. Information and safety articles must answer their real search intent, not force commercial calls to action.

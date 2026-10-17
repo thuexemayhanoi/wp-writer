@@ -74,8 +74,8 @@ def validate_sources(research, *, today=None):
     errors = []
     today = today or dt.date.today()
     refs = research.get('external_sources') if isinstance(research, dict) else None
-    if not isinstance(refs, list) or not (2 <= len(refs) <= MAX_SOURCES):
-        return ['RESEARCH_SOURCE_COUNT: two independent HTTPS references required']
+    if not isinstance(refs, list) or not (1 <= len(refs) <= MAX_SOURCES):
+        return ['RESEARCH_SOURCE_COUNT: at least one direct HTTPS reference required']
     hosts, urls = set(), set()
     for index, ref in enumerate(refs):
         if not isinstance(ref, dict):
@@ -107,8 +107,8 @@ def validate_sources(research, *, today=None):
             errors.append('RESEARCH_SOURCE_EXCERPT_MISSING:' + str(index))
         if not SHA.fullmatch(str(ref.get('source_sha256', ''))):
             errors.append('RESEARCH_SOURCE_SNAPSHOT_SHA_MISSING:' + str(index))
-    if len(hosts) < 2:
-        errors.append('RESEARCH_SOURCE_HOSTS_NOT_INDEPENDENT')
+    # Independent sources are encouraged, not required for narrowly scoped
+    # research backed by a genuine authoritative primary reference.
     return errors
 
 

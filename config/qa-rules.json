@@ -7,7 +7,7 @@
   "minimum_h2": 4,
   "near_duplicate_jaccard": 0.68,
   "title_similarity_review": 0.73,
-  "source_max_age_days": 30,
+  "source_max_age_days": 365,
   "inventory_max_age_hours": 24,
   "require_editorial_evidence": true,
   "legal_hosts": [
@@ -21,5 +21,6 @@
   "seo_meta_title_max": 70,
   "seo_meta_description_min": 100,
   "seo_meta_description_max": 180,
-  "seo_score_version": "intent-aware-onpage-v2"
+  "seo_score_version": "intent-aware-onpage-v2",
+  "legal_source_max_age_days": 90
 }

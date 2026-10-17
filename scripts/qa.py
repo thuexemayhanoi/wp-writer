@@ -194,31 +194,100 @@ def seo_onpage_score(meta, body, topic, internal, rules):
 
 
 def allowed_source(url, legal=False):
-    u=urllib.parse.urlsplit(url);host=u.hostname or ''
-    if u.scheme!='https' or u.username or u.password or u.port not in (None,443):return False
-    legal_hosts=load('config/qa-rules.json')['legal_hosts']
-    hosts=legal_hosts+['honda.com.vn','yamaha-motor.com.vn','vinfastauto.com','vme.org.vn','hanoimetro.net.vn','vietnam.travel','vietnamtourism.gov.vn']
-    return any(host==h or host.endswith('.'+h) for h in (legal_hosts if legal else hosts)) or (not legal and host.endswith('.gov.vn'))
+    """Accept safe public HTTPS sources from any relevant website.
 
-def verify_sources(sources,live=False):
-    errors=[];evidence=[]
-    for s in sources:
-        if not isinstance(s,dict) or not allowed_source(s.get('url','')):errors.append('Source host not allowlisted');continue
+    Source trust is editorial (G3), never determined by a manufacturer/news/
+    competitor hostname list. Legal claims still need an official source.
+    """
+    import ipaddress
+    try:
+        u = urllib.parse.urlsplit(str(url))
+        host = (u.hostname or '').lower().rstrip('.')
+        if (u.scheme != 'https' or not host or u.username or u.password or
+                u.port not in (None, 443) or
+                host in ('localhost', 'news.google.com') or
+                host.endswith(('.local', '.internal', '.test', '.invalid', '.onion'))):
+            return False
         try:
-            checked=dt.date.fromisoformat(str(s.get('checked_at',''))[:10])
-            age=(dt.date.today()-checked).days
-            if age<0 or age>load('config/qa-rules.json')['source_max_age_days']:raise ValueError('Source date stale')
-            if not s.get('supports') or not s.get('evidence_text') or len(s['evidence_text'].split())<4:raise ValueError('Source claim/evidence missing')
-            if live:
-                opener=urllib.request.build_opener(Redirect())
-                req=urllib.request.Request(s['url'],headers={'User-Agent':'NguyenTu-WPWriter/1.0'})
-                with opener.open(req,timeout=20) as response:raw=response.read(8_000_000).decode('utf-8',errors='replace')
-                text=visible(raw)
-                if norm(s['evidence_text']) not in norm(text):raise ValueError('Source excerpt not found')
-                evidence.append({'url':s['url'],'supports':s['supports'],'sha256':digest(text),'verified_at':now()})
-            elif not s.get('source_sha256'):raise ValueError('Unverified source snapshot')
-        except Exception as e:errors.append('Source REVIEW: '+type(e).__name__)
-    return errors,evidence
+            ipaddress.ip_address(host)
+            return False  # Do not fetch direct IP or private network hosts.
+        except ValueError:
+            pass
+        if not legal:
+            return True
+        official = load('config/qa-rules.json')['legal_hosts']
+        return (host.endswith(('.gov.vn', '.gov')) or
+                any(host == h or host.endswith('.' + h) for h in official))
+    except (ValueError, TypeError):
+        return False
+
+
+def _reviewed_source_snapshot(source, trusted_research):
+    """Fallback only to evidence captured when this topic was researched."""
+    if not isinstance(source, dict) or not isinstance(trusted_research, list):
+        return False
+    sha = str(source.get('source_sha256', ''))
+    if not re.fullmatch(r'[0-9a-f]{64}', sha):
+        return False
+    return any(isinstance(record, dict) and
+               record.get('url') == source.get('url') and
+               record.get('source_sha256') == sha and
+               norm(record.get('evidence_text', '')) == norm(source.get('evidence_text', ''))
+               for record in trusted_research)
+
+
+def verify_sources(sources, live=False, trusted_research=None, legal=False):
+    """Live-check when possible; preserve a clearly marked researched snapshot
+    on transient network errors. An unreachable source is not a fake live check.
+    Missing, altered or unsupported evidence still requires review.
+    """
+    import urllib.error
+    errors = []
+    evidence = []
+    rules = load('config/qa-rules.json')
+    for s in sources:
+        if not isinstance(s, dict) or not allowed_source(s.get('url', '')):
+            errors.append('Source URL is not safe public HTTPS')
+            continue
+        try:
+            checked = dt.date.fromisoformat(str(s.get('checked_at', ''))[:10])
+            age = (dt.date.today() - checked).days
+            maximum = rules.get('legal_source_max_age_days', 90) if legal and allowed_source(s.get('url',''), True) else rules['source_max_age_days']
+            if age < 0 or age > maximum:
+                raise ValueError('Source checked_at stale or future')
+            if (not s.get('supports') or not s.get('evidence_text') or
+                    len(str(s['evidence_text']).split()) < 4):
+                raise ValueError('Source claim/evidence missing')
+            if not re.fullmatch(r'[a-f0-9]{64}', str(s.get('source_sha256', ''))):
+                raise ValueError('Unverified source snapshot hash')
+            if not live:
+                continue
+            try:
+                opener = urllib.request.build_opener(Redirect())
+                req = urllib.request.Request(s['url'], headers={'User-Agent': 'NguyenTu-WPWriter/1.0'})
+                with opener.open(req, timeout=20) as response:
+                    raw = response.read(8_000_000).decode('utf-8', errors='replace')
+                text = visible(raw)
+                if norm(s['evidence_text']) not in norm(text):
+                    raise ValueError('Source excerpt not found')
+                evidence.append({'url': s['url'], 'supports': s['supports'],
+                                 'sha256': digest(text), 'verified_at': now(),
+                                 'verification_method': 'live', 'live_checked': True})
+            except (OSError, urllib.error.URLError) as exc:
+                transient = not isinstance(exc, urllib.error.HTTPError) or exc.code in (403, 429, 500, 502, 503, 504)
+                if transient and _reviewed_source_snapshot(s, trusted_research):
+                    evidence.append({'url': s['url'], 'supports': s['supports'],
+                                     'sha256': s['source_sha256'],
+                                     'research_checked_at': s['checked_at'],
+                                     'verification_method': 'research_snapshot_fallback',
+                                     'live_checked': False,
+                                     'network_error': type(exc).__name__})
+                else:
+                    raise
+        except Exception as exc:
+            errors.append('Source REVIEW: ' + type(exc).__name__)
+    return errors, evidence
+
 
 def business_errors(body,meta):
     facts=load('data/business-facts.json');errors=[]
@@ -288,7 +357,9 @@ def evaluate(path,topic,rows=None,inv=None,link_checker=None,live=False,check_cl
     legal=bool(re.search(r'luật|nghị định|mức phạt|bằng lái|giấy phép|quy định pháp',body,re.I))
     sources=meta.get('sources',[])
     if legal and not any(allowed_source(s.get('url',''),True) for s in sources):g3['review'].append('Legal claim needs current official source')
-    source_errors,source_evidence=verify_sources(sources,live)
+    source_errors,source_evidence=verify_sources(
+        sources,live,trusted_research=(topic.get('research') or {}).get('external_sources',[]),
+        legal=legal)
     g3['review']+=source_errors
     if re.search(r'\d',body) and not sources and not meta.get('business_claims'):g3['review'].append('Numeric claims need cited evidence')
     if re.search(r'(?i)tôi đã (?:thử|chạy|trải nghiệm)|khách hàng đánh giá 5|100% an toàn',body):g3['review'].append('Unverified experience/review/absolute claim')
@@ -323,8 +394,9 @@ def evaluate(path,topic,rows=None,inv=None,link_checker=None,live=False,check_cl
             elif link_checker and not link_checker(clean):g5['errors'].append('Broken internal link:'+clean)
     if not internal:g5['errors'].append('Orphan: no public internal link')
     if internal.count(SITE+'/')>1:g5['errors'].append('Homepage link repetition')
-    if not set(internal)&set(topic.get('internal_link_candidates',[])):g5['review'].append('No cluster link from reviewed candidate list')
-    if not meta.get('link_rationale'):g5['review'].append('Contextual link rationale missing')
+    # Internal URLs still must exist. The candidate list is editorial guidance,
+    # not an immutable whitelist that blocks newly relevant published pages.
+    # Link rationale is recommended, not an article-publication hard gate.
     try:path_for(topic['taxonomy_key'],by_key())
     except ValueError as e:g6['errors'].append(str(e))
     if topic.get('wp_post_id') in load('data/protected-urls.json',{}).get('protected_test_ids',[3861]):g6['errors'].append('Protected legacy post')

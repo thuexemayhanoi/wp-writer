@@ -56,10 +56,12 @@ def topic(i=900001, origin='IDEA-RESEARCH-UNIT'):
 
 
 class ResearchEvidenceTests(unittest.TestCase):
-    def test_independent_sources_are_required(self):
+    def test_one_genuine_source_is_enough_to_research_a_narrow_topic(self):
         self.assertEqual(research.validate_sources(topic()['research']), [])
         one = copy.deepcopy(topic()['research'])
         one['external_sources'] = one['external_sources'][:1]
+        self.assertEqual(research.validate_sources(one), [])
+        one['external_sources'] = []
         self.assertTrue(any('SOURCE_COUNT' in e for e in research.validate_sources(one)))
 
     def test_fake_google_news_signal_is_not_primary_evidence(self):
@@ -67,12 +69,13 @@ class ResearchEvidenceTests(unittest.TestCase):
         research_data['external_sources'][0]['url'] = 'https://news.google.com/rss/articles/fake'
         self.assertTrue(any('NOT_DIRECT_HTTPS' in e for e in research.validate_sources(research_data)))
 
-    def test_duplicate_reference_and_same_host_rejected(self):
+    def test_duplicate_reference_rejected_but_same_host_can_be_independent_documents(self):
         research_data = copy.deepcopy(topic()['research'])
         research_data['external_sources'][1]['url'] = research_data['external_sources'][0]['url']
         problems = research.validate_sources(research_data)
         self.assertTrue(any('DUPLICATED_URL' in e for e in problems))
-        self.assertTrue(any('NOT_INDEPENDENT' in e for e in problems))
+        research_data['external_sources'][1]['url'] = 'https://mps.gov.vn/other-original-report'
+        self.assertEqual(research.validate_sources(research_data), [])
 
     def test_stale_and_fabricated_snapshot_fields_rejected(self):
         research_data = copy.deepcopy(topic()['research'])
