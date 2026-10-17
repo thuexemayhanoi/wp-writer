@@ -26,7 +26,7 @@ class ProtectedMainMigrationTests(unittest.TestCase):
         self.assertEqual(actual["status"], "BLOCKED")
         codes = {x["code"] for x in actual["direct_main_write_blockers"]}
         self.assertIn("DIRECT_MAIN_CAS_INCOMPATIBLE_WITH_REQUIRED_PR", codes)
-        self.assertIn("AUDIT_WORKFLOW_DIRECT_MAIN_PUSH", codes)
+        self.assertNotIn("AUDIT_WORKFLOW_DIRECT_MAIN_PUSH", codes)
         self.assertTrue(actual["writer_branch_lane_present"])
         self.assertEqual(actual["wordpress_writes"], 0)
         self.assertFalse(actual["production_flags_modified"])
