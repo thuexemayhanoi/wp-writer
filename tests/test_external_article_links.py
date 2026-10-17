@@ -55,7 +55,7 @@ class ExternalArticleLinkPolicyTests(unittest.TestCase):
                       self.check('Nguồn kỹ thuật: https://datbike.vn/quantum'))
         self.assertIn('EXTERNAL_SOURCE_LINK_FORBIDDEN:vinfastauto.com',
                       self.check('[Nguồn][vinfast]\n[vinfast]: https://vinfastauto.com/'))
-        self.assertIn('EXTERNAL_SOURCE_LINK_FORBIDDEN:honda.com.vn',
+        self.assertIn('EXTERNAL_SOURCE_LINK_FORBIDDEN:www.honda.com.vn',
                       self.check('Nguồn: www.honda.com.vn'))
 
     def test_external_images_also_blocked(self):
