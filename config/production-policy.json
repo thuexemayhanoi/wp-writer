@@ -7,7 +7,7 @@
   "emergency_stop": false,
   "batch_size": 2,
   "max_batches_per_run": 5,
-  "max_new_posts_daily": 10,
+  "max_new_posts_daily": 1000,
   "initial_target": 1000,
   "capacity": 10000,
   "approved_capacity": 1000,
@@ -25,7 +25,7 @@
   "fallback_draft_taxonomy_key": "blog",
   "draft_staging_enabled": false,
   "draft_staging_approval_ref": null,
-  "max_new_drafts_daily": 10,
+  "max_new_drafts_daily": 1000,
   "owner_publish_request": "2026-10-16: owner approved immediate QA-pass-to-WordPress bulk publishing (10 as 2x5). GitHub Yoast smoke passed. Activation remains blocked by unprotected main and untested full editorial-to-public E2E.",
   "seo_adapter_evidence": "https://github.com/thuexemayhanoi/wp-writer/actions/runs/38910018718"
 }
