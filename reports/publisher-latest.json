@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-17T13:36:00.439424+00:00",
+  "at": "2026-10-17T13:38:11.171829+00:00",
   "attempted": 1,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -7,106 +7,10 @@
   "qa": [
     {
       "topic_id": "NT-000109",
-      "status": "REVIEW",
-      "source_sha256": "e0cd5a308894ab3bd8ab5870ce222a86dbeac6e7232bb427ffa8d5c7eb623999",
-      "body_sha256": "e5576c0d9ece17ff528cd64b838204e0d45c213fb796fee1b528c0c4e2f42612",
-      "word_count": 2975,
-      "quality_score": 100,
-      "seo_score": 100,
-      "seo_min_required": 85,
-      "seo_checks": {
-        "seo_title_relevance": {
-          "points": 15,
-          "max": 15
-        },
-        "meta_description_relevance": {
-          "points": 15,
-          "max": 15
-        },
-        "opening_intent_focus": {
-          "points": 15,
-          "max": 15
-        },
-        "direct_answer": {
-          "points": 10,
-          "max": 10
-        },
-        "headings_usefulness": {
-          "points": 15,
-          "max": 15
-        },
-        "verified_contextual_links": {
-          "points": 15,
-          "max": 15
-        },
-        "descriptive_anchor": {
-          "points": 5,
-          "max": 5
-        },
-        "canonical_identity": {
-          "points": 10,
-          "max": 10
-        }
-      },
-      "seo_recommendations": [],
-      "gates": {
-        "1": {
-          "errors": [],
-          "review": []
-        },
-        "2": {
-          "errors": [],
-          "review": []
-        },
-        "3": {
-          "errors": [],
-          "review": []
-        },
-        "4": {
-          "errors": [],
-          "review": [
-            "reviewed full-content evidence stale or missing: 2572=ce6003628f4d0d89bace38e8875f0d4d93d5b57145b42e9b61fb223237982e8f"
-          ]
-        },
-        "5": {
-          "errors": [],
-          "review": []
-        },
-        "6": {
-          "errors": [],
-          "review": []
-        }
-      },
-      "errors": [],
-      "review": [
-        "reviewed full-content evidence stale or missing: 2572=ce6003628f4d0d89bace38e8875f0d4d93d5b57145b42e9b61fb223237982e8f"
-      ],
-      "source_evidence": [
-        {
-          "url": "https://mst.gov.vn/nhin-dau-hieu-hop-quy-kiem-tra-quai-mu-truoc-khi-mua-197260919113121411.htm",
-          "supports": "Bài ngày 21/09/2026 của cổng Bộ Khoa học và Công nghệ nêu mũ cho trẻ cần vừa vòng đầu, đáp ứng QCVN 2:2021/BKHCN (9 cỡ, chu vi vòng đầu từ 460 mm đến 620 mm) và được cài quai đúng cách; hướng dẫn kiểm tra thông tin trên mũ và bao bì, nguồn gốc, đơn vị chịu trách nhiệm, dấu hợp quy, và để người lớn kiểm tra trực tiếp thay vì giao cho trẻ tự đội.",
-          "sha256": "033ee3dc29da9b6d2652914eeff892916321d742e9c92606ee05e89bf0496283",
-          "verified_at": "2026-10-17T13:35:19.487565+00:00"
-        },
-        {
-          "url": "https://www.honda.com.vn/tin-tuc/ve-honda/doi-m-xinh-bao-ve-chung-minh-chuong-trinh-trao-tang-m-bao-hiem-dat-chuan-cua-honda-viet-nam-danh-cho-hoc-sinh-lop-mot",
-          "supports": "Honda Việt Nam, trong bài giới thiệu chương trình trao tặng mũ cho học sinh lớp Một, chú thích mũ bảo hiểm đạt chuẩn là mũ đáp ứng các quy chuẩn kỹ thuật quốc gia và được cấp chứng nhận chính thức; chỉ dùng để làm rõ từ đạt chuẩn.",
-          "sha256": "ed5f10ba52d97e41f52936cace7471f4dcb9f2bacb5f908e0be9be4dba3cc281",
-          "verified_at": "2026-10-17T13:35:22.228850+00:00"
-        }
-      ],
-      "at": "2026-10-17T13:35:27.223346+00:00",
-      "live_links_checked": true,
-      "legal_required": false,
-      "rules_sha256": "8c9a341711a4cb2bb95e9d793d27239082e7f18b42cc7d5fdc11ed6f01a6cd0e",
-      "inventory_sha256": "8ea62f03e54635d20769b61b3bc04f292df65bfa4858eb4d7af31f61e698a38d"
-    },
-    {
-      "topic_id": "NT-000112",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
+      "category_id": 161,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
+      "intended_taxonomy_key": "road-safety",
       "category_warning": null
     },
     {
@@ -190,26 +94,26 @@
           "url": "https://vnmha.mae.gov.vn/canh-bao-gia-tang-o-nhiem-khong-khi-16851.htm",
           "supports": "Tin cảnh báo ngày 26/11/2025 đăng trên trang của Cục Khí tượng Thủy văn: Hà Nội và các tỉnh lân cận nhiều khả năng chịu ảnh hưởng mạnh của nghịch nhiệt, lặng gió làm tích tụ bụi mịn PM2.5, AQI có thể vượt 150 (ngưỡng xấu); khung 10 ngày; sương mù dày, độ ẩm cao, khuếch tán kém; nhóm dễ tổn thương hạn chế hoạt động ngoài trời, nhất là sáng sớm và ban đêm.",
           "sha256": "92cfeb76cf85c36dd9fd7a1a15110b3ace91535c4bdcfd87c82b918af9d1bdb0",
-          "verified_at": "2026-10-17T13:35:51.250097+00:00"
+          "verified_at": "2026-10-17T13:38:02.576955+00:00"
         },
         {
           "url": "https://mae.gov.vn/SMPT_Publishing_UC/KhaiThac/TinTuc/pInTinTuc.aspx?ItemID=16845&UrlList=",
           "supports": "Bài đăng ngày 30/09/2024 trên mae.gov.vn: ô nhiễm bụi mịn PM2.5 ở các khu vực trọng điểm quanh Hà Nội diễn ra theo mùa từ khoảng tháng 10-11 đến tháng 4, dao động trong ngày và tập trung vào 6-8 giờ sáng và 17-19 giờ chiều; ngày lặng gió bụi tích tụ, mùa đông nghịch nhiệt làm tăng nồng độ PM2.5; các nguồn bụi khác; khí hậu, thời tiết làm mức ô nhiễm ở Hà Nội lớn hơn.",
           "sha256": "5020c0e0d7e6c1db85c89a7357c581be8894b60d3c91df087c23bb4b2fe42c62",
-          "verified_at": "2026-10-17T13:35:52.310916+00:00"
+          "verified_at": "2026-10-17T13:38:04.099822+00:00"
         },
         {
           "url": "https://sonnmt.hanoi.gov.vn/index.php/tin-t-c/moi-tru-ng/16176-ha-n-i-khong-khi-o-nhi-m-do-hi-n-tu-ng-ngh-ch-nhi-t",
           "supports": "Tin đề ngày 18/09/2019 trên trang của Sở Nông nghiệp và Môi trường Hà Nội (dẫn monre.gov.vn ngày 17/9/2019): ngày 16/9 AQI ở Hà Nội dao động 150-175 (nhóm màu đỏ), các chuyên gia cho nghịch nhiệt là nguyên nhân chính làm bụi PM2.5 tăng đột biến; số đo tại các điểm đo; để đánh giá toàn diện cần số liệu nhiều thông số liên tục trong ngày và trong năm.",
           "sha256": "e6f77887b9453152c671483e1d7a7c1987479b3b9bf4cdbfe1ee60eefc7e0051",
-          "verified_at": "2026-10-17T13:35:53.876335+00:00"
+          "verified_at": "2026-10-17T13:38:06.095922+00:00"
         }
       ],
-      "at": "2026-10-17T13:36:00.420080+00:00",
+      "at": "2026-10-17T13:38:11.151080+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "8c9a341711a4cb2bb95e9d793d27239082e7f18b42cc7d5fdc11ed6f01a6cd0e",
-      "inventory_sha256": "15a7c3239d85d163879c3af1f273abbe8968926a4790842e3a17db6907a3f964"
+      "inventory_sha256": "34e45b78446f10de7c0e91eaa134d185db61f96050611bbd463223c52f996eb2"
     }
   ],
   "backlog_drains_on": "successful Writer QA or fallback schedule",
