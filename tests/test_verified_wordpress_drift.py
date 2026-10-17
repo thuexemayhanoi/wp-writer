@@ -33,7 +33,11 @@ class ConfirmedWordPressDriftTests(unittest.TestCase):
         topic=self.rows['NT-000079']
         record=self.ledger['NT-000079']
         self.assertTrue(record['external_promotion_not_via_qa'])
-        self.assertEqual(record['editorial_qa_status'], 'FAIL')
+        # Draft meta was repaired on 2026-10-17 (SEO 75 -> 95); the live Yoast
+        # meta still has to be set by the owner, which the provenance records.
+        self.assertEqual(record['editorial_qa_status'], 'PASS')
+        self.assertEqual(record['editorial_qa_seo_score'], 95)
+        self.assertIn('LIVE #3882', record['provenance'])
         self.assertEqual(record['wp_id'], 3882)
         live=[{'resource':'posts','id':3882,'status':'publish',
                'slug':topic['proposed_slug'],'categories':[159],

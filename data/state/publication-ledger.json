@@ -21,14 +21,14 @@
     },
     "NT-000079": {
       "phase": "VERIFIED",
-      "source_hash": "633259e48283f19ab2a7a83c5a5041b17514807635456bd18845f91b4b4e19e3",
+      "source_hash": "4fda9d6ce72c7ab6aabbe468adda683c93083d0991d884733e50b320c5d3fe9f",
       "slug": "theo-doi-cap-nhat-chinh-sach-xe-may-dien-o-viet-nam-nguon-chinh-thuc-nao-dang-tin",
       "expected_status": "publish",
       "category_id": 159,
       "visible_hash": "904af8ed1d76e9bb9d1fae5fe1db68c322686b81998e7fef0a539ac0c6f5c87c",
       "first_paragraph": "Muốn theo dõi chính sách xe máy điện đáng tin cậy, hãy bắt đầu từ văn bản của cơ quan có thẩm quyền, kiểm tra thời điểm áp dụng và đối chiếu đúng loại phương tiện. Tin báo chí hoặc thông báo của hãng có thể giúp phát hiện vấn đề cần tìm hiểu, nhưng không nên được dùng riêng để kết luận một quy định đang áp dụng cho mọi xe và mọi địa phương.",
-      "meta_title": "Cách tra cứu chính sách xe điện từ nguồn chính thức",
-      "meta_description": "Hướng dẫn tìm nguồn chính thức, kiểm tra phạm vi và thời điểm áp dụng chính sách xe điện, lưu bằng chứng và đặt câu hỏi khi thông tin chưa thống nhất.",
+      "meta_title": "Theo dõi chính sách xe máy điện ở Việt Nam: nguồn chính thức",
+      "meta_description": "Cách theo dõi cập nhật chính sách xe máy điện ở Việt Nam: tìm nguồn chính thức, kiểm tra phạm vi và thời điểm áp dụng, lưu bằng chứng khi thông tin chưa thống nhất.",
       "git_commit": "76b122ad7e758a4370c22ac760c45c89a65d5bf9",
       "run_id": "38894320352",
       "updated_at": "2026-10-16T11:33:28.326968+00:00",
@@ -37,9 +37,9 @@
       "url": "https://thuexemaynguyentu.com/theo-doi-cap-nhat-chinh-sach-xe-may-dien-o-viet-nam-nguon-chinh-thuc-nao-dang-tin/",
       "verified_at": "2026-10-17T09:00:15.190Z",
       "external_promotion_not_via_qa": true,
-      "editorial_qa_status": "FAIL",
-      "editorial_qa_seo_score": 75,
-      "provenance": "Public WP REST readback confirms post 3882 live with verified slug and category 159. It was externally/manual promoted from recorded draft before required 85 SEO gate; reconcile actual WordPress state without creating or unpublishing content. Editorial QA must be repaired separately."
+      "editorial_qa_status": "PASS",
+      "editorial_qa_seo_score": 95,
+      "provenance": "Public WP REST readback confirms post 3882 live with verified slug and category 159. It was externally/manual promoted from recorded draft before required 85 SEO gate; reconcile actual WordPress state without creating or unpublishing content. Editorial QA must be repaired separately. 2026-10-17: draft meta_title/meta_description repaired (body and editorial review hash unchanged) to reach SEO 95; writer receipt and ledger source_hash were updated together. LIVE #3882 still has no custom Yoast meta (its SEO title and description both equal the post title), so public post-publish QA stays FAIL for this post until the owner sets _yoast_wpseo_title and _yoast_wpseo_metadesc to the meta_title/meta_description in this record. Never create or republish."
     },
     "NT-000037": {
       "phase": "VERIFIED",
