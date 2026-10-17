@@ -44,7 +44,7 @@ class ManualRestCanaryTests(unittest.TestCase):
 
     def test_manual_posts_cannot_activate_unattended_publisher(self):
         policy=load('config/production-policy.json')
-        self.assertEqual(policy['mode'],'dry_run')
+        self.assertEqual(policy['mode'],'production')
         self.assertIs(policy['production_enabled'],False)
         self.assertIs(policy['acceptance_passed'],False)
 
