@@ -33,13 +33,13 @@ The authoritative configuration is config/qa-rules.json: version 2, seo_min 85, 
 
 **No numerical score overrides any FAIL/REVIEW, including wrong category, fabricated claims, SEO/URL collision, noindex or broken links.**
 
-## Outbound citations — research allowed, public links controlled
+## Outbound citations — relevant external HTTPS links allowed
 
-- **Research is permitted:** AI writers may read manufacturer websites, news, official legal texts and other reliable sources. Their verified evidence lives in article YAML frontmatter (\`sources\`) and research intake records, **not** as a published reference list.
-- **Public body is restricted (hard G5 FAIL):** Markdown source links, bare HTTPS URLs, reference-style links and external image URLs are blocked unless the target is the owned website or a specifically approved public social/map platform. A high SEO score never overrides this restriction.
-- **Explicit platform exceptions:** Google and Google Maps, Facebook/Messenger, YouTube, Instagram, TikTok, Zalo, WhatsApp, X/Twitter, Threads, LinkedIn, Pinterest, Telegram, Reddit, Discord, Apple Maps, Bing Maps and OpenStreetMap. The exact host allowlist is managed **only** in \`config/qa-rules.json\` under \`public_link_platform_allowlist\`.
-- Links through known platform redirect parameters (for example Google \`/url?url=...\` or Facebook \`?u=...\`) are blocked to avoid laundering unrelated source links.
-- **Existing WordPress posts are unchanged.** The policy affects only new drafts undergoing QA, including Publisher's live reevaluation before any WordPress POST. Internal linking to approved existing posts continues as before.
+- **Research remains evidence-driven:** Writers can research manufacturers, official government/legal materials, scientific/technical publications and reputable reporting. Verified evidence still belongs in article YAML `sources` / research records and must pass G3 factual QA independently.
+- **No blanket external-domain ban:** Public article Markdown may link to relevant third-party sources (e.g. Honda, Yamaha, VinFast, government documents, research papers or news sites) when they genuinely help the reader verify a claim. External links do not earn SEO points merely for existing; no forced outbound-link quota.
+- **G5 link safety remains:** Outbound links must use HTTPS without embedded credentials or unusual ports; known redirect-wrapper query parameters cannot conceal other destinations. Invalid, unsafe or malformed URLs fail as `UNSAFE_OUTBOUND_URL`. Internal links still need verified published URLs, natural anchor text and no broken/draft targets.
+- **Editorial discipline:** Do not link to irrelevant advertisements, deceptive pages or low-quality sources. Respect image usage rights and attribution, and do not confuse the source used for factual verification with an endorsement.
+- **Existing WordPress posts are unchanged.** The rule applies to new drafts and publisher live QA; no bulk rewrite of legacy posts.
 
 ## Website-primary-site policy
 
