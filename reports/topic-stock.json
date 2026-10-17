@@ -1,11 +1,11 @@
 {
-  "at": "2026-10-17T18:25:15.013041+00:00",
+  "at": "2026-10-17T18:27:35.639413+00:00",
   "stages": {
     "IDEA": 140,
     "RESEARCH": 72,
     "REJECTED": 0,
-    "PLANNED": 0,
-    "PLANNED_HOLD": 4,
+    "PLANNED": 2,
+    "PLANNED_HOLD": 2,
     "CLAIMED": 0,
     "AUTHORED": 0,
     "QA_PASS": 0,
@@ -13,39 +13,30 @@
     "WP_DRAFT": 0
   },
   "topic_rows": 101,
-  "ready": 0,
-  "ready_ids": [],
+  "ready": 2,
+  "ready_ids": [
+    "NT-000116",
+    "NT-000117"
+  ],
   "on_hold": {
     "NT-000111": {
-      "reason": "Nguồn chính tcvn.gov.vn không đọc được từ máy chủ GitHub; bài không thể qua kiểm tra nguồn trực tiếp của Publisher.",
+      "reason": "Trùng ý định với bài đã đăng #3947/#3948 (mũ bảo hiểm đạt chuẩn, nhãn, dấu CR); chỉ viết nếu tách phạm vi thành \"điểm mới của QCVN 2:2021 so với bản cũ\", hoặc bỏ.",
       "since": "2026-10-17",
-      "checked": "source-reachability runner probe 2026-10-17",
-      "unblock": "thay bằng nguồn đọc được từ runner (probe OK) hoặc nghiên cứu lại thành chủ đề mới"
+      "checked": "owner open-source policy 18 Oct: unreadable sources no longer block; held for intent overlap with published posts",
+      "unblock": "tách ý định hoặc nghiên cứu lại thành chủ đề mới"
     },
     "NT-000113": {
-      "reason": "Nguồn airhanoi.hanoi.gov.vn và cem.gov.vn không đọc được từ máy chủ GitHub; chủ đề AQI đã có NT-000112 và NT-000114 đăng rồi, cần tách ý định lại.",
+      "reason": "Chủ đề AQI đã đăng ở #3954 và #3956; cần tách ý định (ví dụ chỉ khuyến cáo sức khỏe theo từng mức AQI) hoặc bỏ.",
       "since": "2026-10-17",
-      "checked": "source-reachability runner probe 2026-10-17",
-      "unblock": "thay bằng nguồn đọc được từ runner (probe OK) hoặc nghiên cứu lại thành chủ đề mới"
-    },
-    "NT-000116": {
-      "reason": "Nguồn csgt.bocongan.gov.vn không đọc được từ máy chủ GitHub (timeout/chặn).",
-      "since": "2026-10-17",
-      "checked": "source-reachability runner probe 2026-10-17",
-      "unblock": "thay bằng nguồn đọc được từ runner (probe OK) hoặc nghiên cứu lại thành chủ đề mới"
-    },
-    "NT-000117": {
-      "reason": "Nguồn csgt.bocongan.gov.vn không đọc được từ máy chủ GitHub (timeout/chặn).",
-      "since": "2026-10-17",
-      "checked": "source-reachability runner probe 2026-10-17",
-      "unblock": "thay bằng nguồn đọc được từ runner (probe OK) hoặc nghiên cứu lại thành chủ đề mới"
+      "checked": "owner open-source policy 18 Oct: unreadable sources no longer block; held for intent overlap with published posts",
+      "unblock": "tách ý định hoặc nghiên cứu lại thành chủ đề mới"
     }
   },
   "min_ready": 100,
   "max_ready": 300,
   "needs_research": true,
-  "shortfall": 100,
-  "room_to_target_max": 300,
+  "shortfall": 98,
+  "room_to_target_max": 298,
   "lifetime_planned": 29,
   "note": "PLANNED counts only topics a writer can still take. Published, claimed, authored, held, RESEARCH and IDEA are never added to it."
 }
