@@ -8,7 +8,7 @@
   "max_new_proposals_per_run": 20,
   "max_signal_feeds_per_run": 3,
   "max_headlines_per_feed": 10,
-  "source_policy": "Public RSS headlines are leads, not evidence for legal, price, or factual claims. No AI or LLM API is invoked.",
+  "source_policy": "External AI researchers may explore any relevant public websites, including competitors, vehicle makers, transport, travel, news and technical sources. RSS headlines and competitor claims are leads only, not independently verified evidence; no copying. The scheduled Python scanner itself does not invoke an LLM.",
   "research_status": "AWAITING_AI_RESEARCH",
   "staging_only": true,
   "subjects": {
@@ -16,7 +16,9 @@
       "điều kiện thuê xe máy Hà Nội",
       "kiểm tra xe lúc giao nhận",
       "trả xe và gia hạn hợp đồng",
-      "lựa chọn xe theo lịch trình"
+      "lựa chọn xe theo lịch trình",
+      "đối chiếu thủ tục thuê xe giữa các đơn vị tại Hà Nội",
+      "so sánh thông tin công khai của các cửa hàng thuê xe"
     ],
     "rental-costs": [
       "chi phí thuê xe theo ngày và tuần",
@@ -34,7 +36,10 @@
       "Honda Wave và Sirius",
       "Honda Vision và Janus",
       "xe điện và xe xăng",
-      "xe số và xe tay ga"
+      "xe số và xe tay ga",
+      "so sánh xe Honda Yamaha Suzuki",
+      "đánh giá thông số xe của nhiều hãng",
+      "so sánh mẫu xe điện VinFast Dat Bike và các hãng khác"
     ],
     "rental-50cc": [
       "xe Cub 50cc",
@@ -100,31 +105,39 @@
       "xe buýt và xe máy tại Hà Nội",
       "kết nối điểm trung chuyển",
       "di chuyển giờ cao điểm",
-      "phương tiện đô thị cho du khách"
+      "phương tiện đô thị cho du khách",
+      "kết hợp xe máy với xe buýt và metro Hà Nội",
+      "xe đạp xe máy xe công nghệ và phương tiện công cộng"
     ],
     "hanoi-travel": [
       "lịch trình Hà Nội một ngày",
       "di chuyển quanh Hồ Tây",
       "tham quan Long Biên",
-      "chuẩn bị đi Phố Cổ"
+      "chuẩn bị đi Phố Cổ",
+      "so sánh hướng dẫn lịch trình tham quan Hà Nội từ nhiều website du lịch",
+      "các tuyến tham quan kết hợp đi bộ xe buýt và xe máy"
     ],
     "vietnam-travel": [
       "lịch trình khám phá miền Bắc",
       "chuẩn bị chuyến đi đường dài",
       "đi lại giữa các tỉnh",
-      "điểm dừng chân khi du lịch"
+      "điểm dừng chân khi du lịch",
+      "di chuyển liên tỉnh bằng tàu hỏa xe khách và xe máy",
+      "so sánh phương tiện khám phá miền Bắc"
     ],
     "trip-planning": [
       "lập ngân sách chuyến đi xe máy",
       "kiểm tra lịch trình road trip",
       "chọn quãng đường theo năng lực",
-      "đi du lịch tự túc bằng xe máy"
+      "đi du lịch tự túc bằng xe máy",
+      "phân tích lịch trình và chi phí tự túc từ nhiều nguồn"
     ],
     "destinations": [
       "khám phá điểm tham quan Hà Nội",
       "tham quan ngoại thành Hà Nội",
       "lịch trình bảo tàng và di tích",
-      "chọn điểm dừng chân theo mùa"
+      "chọn điểm dừng chân theo mùa",
+      "tra cứu thông tin điểm tham quan từ cổng du lịch địa phương"
     ],
     "food-culture": [
       "khám phá ẩm thực Hà Nội",
