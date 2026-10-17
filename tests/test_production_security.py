@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 import unittest
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from production_security import check_security, ruleset_protects_privileged_code
+from production_security import check_security, ruleset_protects_privileged_code, privileged_codeowners_present, PRIVILEGED_PATTERNS
 
 
 def rule(review=True, count=1, bypass=None):
@@ -24,8 +24,25 @@ class SecurityPreflightTests(unittest.TestCase):
 
     def test_codeowners_required(self):
         self.assertFalse(ruleset_protects_privileged_code(rule(review=False)))
-        self.assertFalse(ruleset_protects_privileged_code(rule(count=0)))
+        # With CODEOWNER review enabled, zero *generic* approvals does not
+        # remove the mandatory owner review for privileged files.
+        self.assertTrue(ruleset_protects_privileged_code(rule(count=0)))
+        self.assertFalse(ruleset_protects_privileged_code(rule(count=-1)))
         self.assertFalse(ruleset_protects_privileged_code(rule(bypass=[{"actor_id": 1}])))
+
+    def test_local_codeowners_covers_all_privileged_sources(self):
+        from pathlib import Path
+        content=(Path(__file__).resolve().parents[1]/'.github/CODEOWNERS').read_text()
+        self.assertTrue(privileged_codeowners_present(content))
+        for pattern in PRIVILEGED_PATTERNS:
+            self.assertFalse(privileged_codeowners_present(
+                content.replace(pattern + ' @thuexemayhanoi', '')))
+
+    def test_empty_or_fake_owner_is_not_accepted(self):
+        self.assertFalse(privileged_codeowners_present(''))
+        self.assertFalse(privileged_codeowners_present('/.github/ @attacker'))
+        self.assertFalse(privileged_codeowners_present('/.github/ @thuexemayhanoi\\n'
+                                                     '/scripts/ @attacker'))
 
     def test_only_main_protection_is_valid(self):
         r = rule()
