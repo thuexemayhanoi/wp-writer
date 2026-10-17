@@ -100,7 +100,8 @@ def main():
                 if v['session']==a.session:
                     v['topic_ids']=[i for i in v['topic_ids'] if i not in completed]
                     if not v['topic_ids']:del reg['leases'][s]
-            slot,reg=claim(reg,rows,a.session,a.slot,a.count,completed_ids=completed)
+            # --ids lets the coordinator hand a session exactly the researched topics meant for it.
+            slot,reg=claim(reg,rows,a.session,a.slot,max(a.count,len(ids)),completed_ids=completed,requested_ids=ids or None)
         elif a.action in ('heartbeat','release'):
             matches=[(s,v) for s,v in live_leases(reg).items() if v['session']==a.session]
             if len(matches)!=1:raise ValueError('No owned live slot')
