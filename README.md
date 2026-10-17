@@ -17,7 +17,7 @@ Khác **wp-aiwriter** sử dụng Excel cố định (data/topics.json), **wp-wr
 
 **AI bên ngoài → W1/W2/W3 claim → posts/drafts/NT-XXXXXX.md → GitHub QA PASS → Publisher → WordPress REST.** Khi Production thực sự bật: khớp chính xác category leaf và toàn bộ parent ancestry mới public; thiếu/sai thì nháp; trùng slug/title/marker hoặc có trong ledger thì skip/đối soát, không tạo lại. Không cần chờ cron; cron :17/:47 là fallback.
 
-**Cập nhật 17/10/2026:** Plugin WordPress **Git it Write** đang INACTIVE (kiểm tra WP-CLI); nếu bật lại thì và cấu hình đọc cùng repo `thuexemayhanoi/wp-writer`, nhánh `main`, thư mục `posts`, mặc định công khai bài Markdown nếu không có `post_status`. ĐÂY LÀ ĐƯỜNG ĐĂNG KHÁC không kiểm G1–G6; tuyệt đối không dùng webhook/import Git it Write để thay thế Publisher. Ngắt kết nối hoặc deactivate plugin sau xác nhận của chủ website trước khi Production; đây là một rủi ro tách biệt với cờ `dry_run`.
+**Cập nhật 17/10/2026:** Plugin WordPress **Git it Write** hiện **INACTIVE** (đã kiểm tra qua WP-CLI). Cấu hình cũ vẫn trỏ vào repo `thuexemayhanoi/wp-writer`, nhánh `main`, thư mục `posts`. **Không kích hoạt lại plugin** khi chưa gỡ cấu hình nhập repo này: đường đồng bộ Git it Write có thể công khai bài ngoài QA G1–G6 và publication ledger. Publisher GitHub riêng vẫn `dry_run`.
 
 **Production tự động hiện vẫn dry_run.** Hai bài mới #3888/#3890 được chủ duyệt đăng thủ công qua WPVibe và đang được đưa vào ledger để tránh đăng trùng. QA success không tự chứng minh WordPress đã đăng.
 
