@@ -45,7 +45,7 @@ def mdlinks(body):return [(a,u) for a,u in re.findall(r'(?<!!)\[([^\]]*)\]\(([^\
 # External HTTPS links in the public article body are permitted regardless of
 # domain. Factual source credibility is evaluated separately by G3.
 # G5 still rejects insecure or deceptive outbound URLs and validates on-site links.
-PUBLIC_URL_PATTERN = re.compile(r'(?i)(?<![\w@])(?:https?://|www\.)[^\s<>"\x27\[\]]+')
+PUBLIC_URL_PATTERN = re.compile(r'(?i)(?<![\w@])(?:https?://|www\.)[^\s<>"\x27\[\]]*')
 REDIRECT_QUERY_KEYS = {'url', 'u', 'redirect', 'redirect_url', 'target', 'destination', 'dest', 'next'}
 
 
