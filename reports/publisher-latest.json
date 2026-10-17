@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-17T18:59:53.367072+00:00",
-  "attempted": 0,
+  "at": "2026-10-17T19:12:15.064185+00:00",
+  "attempted": 2,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -20,6 +20,22 @@
         }
       },
       "action": "manual reconciliation; never create/update automatically"
+    },
+    {
+      "topic_id": "NT-000116",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 161,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "road-safety",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000117",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 161,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "road-safety",
+      "category_warning": null
     }
   ],
   "backlog_drains_on": "successful Writer QA or fallback schedule",

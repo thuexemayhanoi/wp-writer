@@ -1,0 +1,120 @@
+{
+  "topic_id": "NT-000116",
+  "status": "PASS",
+  "source_sha256": "f4d1dd8569018b006bbda51e7892e2381f3fbc9eaeaafea65997fc50d131f6e4",
+  "body_sha256": "befb6c0e45edc01b762d8192c525c9cdc5925634310692f69b615f4b38a3056f",
+  "word_count": 3241,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://csgt.bocongan.gov.vn/tintuc/csgt-ho-chi-minh-khuyen-cao-nguoi-dan-tham-gia-giao-thong-an-toan-thuan-tien.html",
+      "supports": "CSGT Hồ Chí Minh (Phòng CSGT ĐB-ĐS, đăng 20/01/2023, khuyến cáo cho người về quê bằng ô tô con, xe mô tô hay xe máy) nêu: điều khiển phương tiện liên tục quá 04 tiếng tác động rất lớn đến khả năng điều khiển và xử lý tình huống nên cần nghỉ hợp lý giữa các chặng; khi mệt mỏi, buồn ngủ thì dừng phương tiện an toàn, thư giãn, uống nước, vận động nhẹ hoặc vào điểm dừng chân, quán nước bên đường; trước khi đi cần nghỉ ngơi, không rượu bia trước 24 tiếng, kiểm tra xe và chằng buộc đồ chắc chắn.",
+      "sha256": "284d3a05279392ae9e9b7a121e693a01e103940726ab53d96344397d506be357",
+      "research_checked_at": "2026-10-17",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    },
+    {
+      "url": "https://csgt.bocongan.gov.vn/tintuc/huong-dan-lai-xe-an-toan-lai-xe-trong-dem-toi.html",
+      "supports": "Cục CSGT (hướng dẫn lái xe trong đêm tối, đăng 20/11/2015, viết cho người lái ô tô) khuyên dừng xe vào lề đường nghỉ khi mệt mỏi và ngủ nếu buồn ngủ, nêu cà phê, nhạc lớn hay hạ kính không thay được giấc ngủ, nên nghỉ 2 tiếng một lần dù chưa buồn ngủ, cho mắt nghỉ ngơi và tránh trạng thái bị thôi miên trên xa lộ.",
+      "sha256": "520fac886c811bd5a03b4503da93da52f44dd200a8e587e449266f231e428359",
+      "research_checked_at": "2026-10-17",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    },
+    {
+      "url": "https://vuninh.bacninh.gov.vn/news/-/details/55766/-cong-an-phuong-khuyen-cao-nhung-luu-y-khi-lai-xe-ban-em-125550720",
+      "supports": "Công an phường Vũ Ninh (thành phố Bắc Ninh, 11/06/2026, khuyến cáo cho người lái xe nói chung) nêu ban đêm tầm nhìn hạn chế, dễ chủ quan, mệt mỏi, buồn ngủ; không lái xe khi mệt mỏi, buồn ngủ hoặc sau rượu bia; thấy mất tập trung thì dừng xe tại nơi an toàn để nghỉ ngơi trước khi tiếp tục; tốc độ phù hợp ánh sáng và giữ khoảng cách lớn hơn ban ngày.",
+      "sha256": "935394739edb360d9df96cd15a72d5449921a9dcdd26da929dd0ff3a755ad776",
+      "research_checked_at": "2026-10-17",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-17T19:10:13.739009+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "753c3954544d1f364ac675edf5035b88604dfa48f592f421996610ddf160dc70",
+  "inventory_sha256": "9f3e4da0502a24f9f1e4e3e941cf3c8f8e7f9175e34572f2068effbc458e8545",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
