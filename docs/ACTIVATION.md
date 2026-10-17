@@ -2,6 +2,22 @@
 
 Hiện tại **OFF trên `main`** (kiểm tra 2026-10-16). Một mình `production_enabled=true` không đủ mở xuất bản.
 
+## Checkpoint đã hoàn thành — 17/10/2026
+
+**Đã xác minh trực tiếp, không bắt Tổng Thống nhập lại:**
+
+- GitHub `wordpress-production`: nhánh triển khai **chỉ `main`**, do owner cài trên màn hình Settings.
+- Cả ba **Environment Secrets**: `WP_URL`, `WP_USERNAME`, `WP_APPLICATION_PASSWORD` đã tạo. GitHub Actions [read-only run 39022902385](https://github.com/thuexemayhanoi/wp-writer/actions/runs/39022902385) **PASS** với `ENVIRONMENT_CREDENTIALS_OK`; không ghi vào WordPress.
+- [PR #35](https://github.com/thuexemayhanoi/wp-writer/pull/35) **đã merge**, [QA run 39023486840](https://github.com/thuexemayhanoi/wp-writer/actions/runs/39023486840) **PASS**. Tất cả job cần WP credentials đều khai báo `environment: wordpress-production`; smoke test cũ được thay bằng GET chỉ đọc. Các audit/acceptance có secrets chỉ còn `workflow_dispatch`, không tự ghi draft khi workflow file thay đổi.
+- 8 bài QA PASS được owner duyệt công khai qua WP REST và đọc lại Yoast SEO, đã đối soát ledger `NT-000075/101–107`, WordPress IDs **3938–3945**. Tổng số bài public đã kiểm tra: **150**. Đây là **manual canary**, KHÔNG phải kiểm thử GitHub Publisher tự POST công khai.
+- Các bản sao **Repository Secrets cũ vẫn còn** sau khi chuyển; chủ repo cần xóa 3 bản sao ở `Settings → Secrets and variables → Actions → Repository secrets` **sau khi xác minh toàn bộ workflow sử dụng Environment**. Không đưa giá trị Secrets vào chat, log hoặc commit.
+- GitHub Rule ID **25248247** hiện chỉ có `deletion` + `non_fast_forward`. Đây **không phải** kiểm soát quyền sửa `.github/workflows`, `scripts`, `config`. `security_controls_verified=false` là đúng. GitHub public repo không có push ruleset chặn đường dẫn như private/internal Team; không tự nhận tính năng chưa có.
+- **QUAN TRỌNG — chưa được bật Require Pull Request ngay:** các Writer W1/W2/W3 và một số trusted CAS/state workflow hiện push trực tiếp `main`; bật PR bắt buộc mà không đổi đường đi sẽ làm nghẽn Factory. Trước hết xây và kiểm thử Writer branch → PR → QA → chỉ auto-merge PR nội dung (không cần owner duyệt từng bài), và route state CAS qua đường tin cậy. Sau đó owner mới bật Ruleset có **CODEOWNER review** cho đặc quyền, không bypass tuỳ tiện; phải kiểm nghiệm W1/W2/W3 không bị khóa.
+- Git it Write trên WordPress trước đó được phát hiện cấu hình trỏ vào cùng repository `wp-writer`. Cần vô hiệu **đúng liên kết nhập đồng bộ từ repo này** và xác minh lại trước auto-public, tránh đường xuất bản ngoài QA. Không vô hiệu tuỳ tiện toàn bộ plugin nếu có site/repo khác dùng.
+- **Production vẫn OFF** (`dry_run`, `paused=true`, `emergency_stop=true`), `acceptance_passed=false` và `security_controls_verified=false`. Chỉ bật sau Ruleset có bằng chứng thực tế, thử GitHub Publisher public canary + frontend Yoast + durable ledger + rerun không trùng. Không dùng thành công của manual WPVibe để gán cờ E2E giả.
+
+**Việc AI/Work có thể làm tiếp mà KHÔNG cần Tổng Thống điền thêm Secrets:** thiết kế luồng Writer PR tự hợp nhất có kiểm tra riêng mã đặc quyền, thử nghiệm GitHub không ảnh hưởng `main`, xử lý CAS/state, viết unit tests; báo lại đúng 1 thao tác GitHub Ruleset cần chủ tài khoản thực hiện sau khi đường Writer đã chuyển đổi và QA PASS. Trong khi làm, giữ W1/W2/W3 đang chạy bình thường và không đổi URL, category, theme, bài viết WordPress.
+
 ## Checkpoint đã xác minh — không làm lại kết nối
 
 - GitHub main đã `protected=true`. Ruleset `WP Writer - Main Protection` ID `25248247` đang **Active**, cấm xóa nhánh và force-push, **bypass list trống**. Hai quy tắc này vẫn cho phép mọi tài khoản có quyền Write cập nhật mã Publisher trên main; KHÔNG chứng minh `security_controls_verified`.
