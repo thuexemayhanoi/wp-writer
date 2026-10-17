@@ -23,7 +23,7 @@ Trạng thái đã kiểm chứng ngày 16/10/2026. Không nhầm site đích:
 | QA tối thiểu | Python tests + content QA, ≥1000 từ cho bài mới | 6 gate, 1600–5000 từ có chất lượng, evidence/editorial, duplicate guard |
 | Đúng danh mục cha/con | Excel `category_path` → đầy đủ ancestry | `taxonomy_key` → `parent_key` chain → WordPress REST ID/slug/name/parent |
 | Thiếu/sai taxonomy | WordPress draft + ghi lý do | WordPress draft ở fallback Blog + intended taxonomy + warning (khi production được duyệt) |
-| Lặp đăng | 3–5 bài/lần × tối đa 80 vòng, **chỉ trong category hiện được duyệt** | ≤2 bài/batch × ≤5 batch/lượt, daily cap 10, xử lý mọi topic QA-ready đúng taxonomy |
+| Lặp đăng | 3–5 bài/lần × tối đa 80 vòng, **chỉ trong category hiện được duyệt** | ≤2 bài/batch × ≤5 batch/lượt, daily cap 1.000 (10/lượt), xử lý mọi topic QA-ready đúng taxonomy |
 | Kích hoạt | `workflow_run` sau QA main push, `LIVE=true` | `workflow_run` + cron :17/:47 dự phòng, **Production vẫn `dry_run`** |
 | Ranh giới chuyên mục | Phải duyệt `active_category` tiếp theo | **Không có** Excel `active_category`/nhóm cố định; Topic Factory phân phối PLANNED khác intent |
 | Sổ đăng | `data/publication-state.json` | `data/state/publication-ledger.json` + writer hashes/leases |
@@ -31,7 +31,7 @@ Trạng thái đã kiểm chứng ngày 16/10/2026. Không nhầm site đích:
 ## Điều đã được xác minh trực tiếp
 
 - `wp-aiwriter` hiện có QA workflow và Publisher kích hoạt live từ QA `success`, nhưng nhiều run gần nhất đang bị `cancelled` do các push mới; không đánh đồng lịch sử Actions với số bài public. Việc loop không nghỉ chỉ áp dụng khi đầu vào sẵn sàng và QA/credentials tốt.
-- `wp-writer` `writer-qa.yml` và `wordpress-publisher.yml` đã nối `workflow_run` đúng; các run `success` có `DRY_RUN: no WordPress writes`. Giới hạn 10/ngày là chính sách riêng của hệ thống này, không nên sao chép loop 80×5 bài bỏ qua giới hạn.
+- `wp-writer` `writer-qa.yml` và `wordpress-publisher.yml` đã nối `workflow_run` đúng; các run `success` có `DRY_RUN: no WordPress writes`. Trần chủ sở hữu đã tăng lên 1.000/ngày từ 17/10/2026; không đảm bảo có 1.000 bài QA PASS hoặc server đủ chịu tải.
 - WordPress site Nguyễn Tú có category con `#160 Chăm sóc xe điện` dưới `#157 Xe Điện`, và `#161 An toàn khi di chuyển` dưới `#159 Pháp Lý & Kinh Nghiệm`. Cả 2 bài QA PASS mới đã được chủ cho phép **đăng thủ công qua WPVibe**: `NT-000037` → `#3888`, `NT-000047` → `#3890`; công khai, canonical/title/description/robots đọc được. Xem `reports/manual-wp-smoke-20261016.json`.
 - PR đối soát ledger và taxonomy phải QA PASS trước merge. Hai bài thủ công không chứng minh GitHub Publisher tự đăng; không thay đổi chính sách Production, secrets hoặc bảo vệ code đặc quyền chỉ dựa vào kết quả đó.
 
@@ -41,7 +41,7 @@ Trạng thái đã kiểm chứng ngày 16/10/2026. Không nhầm site đích:
 2. Nguồn topic là JSONL: external AI nghiên cứu nội dung không trùng và gửi `data/candidates/*.jsonl` → Topic QA, W1/W2/W3 nhận khi PLANNED; không tự sinh 1000 bài placeholder.
 3. Category `data/taxonomy.json` phải đúng full parent chain trên WordPress. Nếu leaf không có, đưa nháp với lý do; chỉ tạo category có quyền phê duyệt riêng (`allow_category_create`) khi không rỗng và quy trình có ledger.
 4. Hoàn tất enforced branch protection/credential isolation rồi nghiệm thu **1 bài public qua chính GitHub Publisher** với live frontend SEO + ledger + idempotent rerun. Chỉ khi đó xác nhận `security_controls_verified`/`acceptance_passed` theo bằng chứng và bật Production.
-5. Từ đó AI push → QA PASS → Publisher xử lý ngay theo 2+2+2+2+2, ngày tối đa 10, không phải duyệt từng category Excel và không đợi 30 phút.
+5. Từ đó AI push → QA PASS → Publisher xử lý ngay theo 2+2+2+2+2, ngày trần 1.000 (10/lượt), không phải duyệt từng category Excel và không đợi 30 phút.
 
 ## Lưu ý về số liệu
 
