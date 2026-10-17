@@ -603,7 +603,7 @@
       }
     },
     "NT-000117": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-17T19:12:02.913733+00:00",
       "source_hash": "a7c56ebd23875cea34e7071977591b4daa7d29c9249600bcee8982137f876a5c",
       "slug": "di-xe-may-ban-dem-cach-giu-tam-nhin-khi-bi-choi-den-pha-xe-nguoc-chieu",
@@ -618,8 +618,37 @@
       "category_warning": null,
       "git_commit": "2799285e3cfb322661e8e8b01349032c46050490",
       "run_id": "39061014699",
-      "updated_at": "2026-10-17T19:12:07.177791+00:00",
-      "wp_id": 3958
+      "updated_at": "2026-10-17T19:12:13.497800+00:00",
+      "wp_id": 3958,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/di-xe-may-ban-dem-cach-giu-tam-nhin-khi-bi-choi-den-pha-xe-nguoc-chieu/",
+      "verified_at": "2026-10-17T19:12:13.497794+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3958,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/di-xe-may-ban-dem-cach-giu-tam-nhin-khi-bi-choi-den-pha-xe-nguoc-chieu/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/di-xe-may-ban-dem-cach-giu-tam-nhin-khi-bi-choi-den-pha-xe-nguoc-chieu/",
+        "seo_title": "Đi xe máy ban đêm: giữ tầm nhìn khi bị chói đèn pha xe ngược chiều",
+        "seo_description": "Đi xe máy ban đêm khi gặp đèn pha xe ngược chiều: nên nhìn vào đâu, giảm tốc thế nào, xử lý khi bị chói từ phía sau và việc nên làm với đèn, gương trước chuyến đi.",
+        "checked_at": "2026-10-17T19:12:13.497768+00:00"
+      }
     }
   },
   "categories": {}
