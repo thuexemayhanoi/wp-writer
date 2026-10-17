@@ -1,0 +1,27 @@
+name: External Writer Branch QA (read-only)
+on:
+  push:
+    branches: ['writer/**']
+permissions:
+  contents: read
+jobs:
+  trusted-writer-check:
+    if: github.repository == 'thuexemayhanoi/wp-writer'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout ONLY trusted main source (never writer branch code)
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Validate source paths, lease and full QA on trusted main
+        env:
+          WRITER_BRANCH: ${{ github.ref_name }}
+          WRITER_SHA: ${{ github.sha }}
+        run: python scripts/writer_branch_intake.py --branch "$WRITER_BRANCH" --sha "$WRITER_SHA"
