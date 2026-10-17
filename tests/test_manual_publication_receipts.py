@@ -74,10 +74,10 @@ class ManualPublicationTests(unittest.TestCase):
                 self.assertEqual(term['wordpress_parent_id'], parent_id)
                 self.assertEqual(resolve(key, self.registry, self.live), category_id)
 
-    def test_manual_wp_post_did_not_auto_enable_production(self):
+    def test_manual_wp_post_did_not_fake_publisher_acceptance(self):
         policy = load('config/production-policy.json')
         self.assertEqual(policy['mode'], 'production')
-        self.assertFalse(policy['production_enabled'])
+        self.assertFalse(policy['acceptance_passed'])
 
 
 if __name__ == '__main__':

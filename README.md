@@ -19,7 +19,7 @@ Khác **wp-aiwriter** sử dụng Excel cố định (data/topics.json), **wp-wr
 
 **Cập nhật 17/10/2026:** Plugin WordPress **Git it Write** hiện **INACTIVE** (đã kiểm tra qua WP-CLI). Cấu hình cũ vẫn trỏ vào repo `thuexemayhanoi/wp-writer`, nhánh `main`, thư mục `posts`. **Không kích hoạt lại plugin** khi chưa gỡ cấu hình nhập repo này: đường đồng bộ Git it Write có thể công khai bài ngoài QA G1–G6 và publication ledger. Publisher GitHub riêng vẫn `dry_run`.
 
-**Production tự động hiện vẫn dry_run.** Hai bài mới #3888/#3890 được chủ duyệt đăng thủ công qua WPVibe và đang được đưa vào ledger để tránh đăng trùng. QA success không tự chứng minh WordPress đã đăng.
+**Production tự động BẬT từ 17/10/2026 (lệnh chủ).** Bài qua QA lên WordPress ngay; các bài #3888/#3890/#3930–#3945 được đăng thủ công và đã nằm trong ledger để tránh đăng trùng. QA success không tự chứng minh WordPress đã đăng — kiểm tra ledger và URL công khai.
 
 Đọc [đối chiếu phương pháp wp-aiwriter và wp-writer](docs/WORKFLOW-COMPARISON-WP-AIWRITER.md) và [điều kiện kích hoạt](docs/ACTIVATION.md).
 
@@ -45,7 +45,7 @@ Quy trình và điều kiện: [WordPress Auto Delivery](docs/WORDPRESS-AUTO-DEL
 - Registry ban đầu có 80 candidate/8 PLANNED; đây là snapshot trước các đợt tiếp theo. Không tính allocation là topic. Dùng reports/dashboard.json và data/topics.jsonl để xem số mới nhất.
 - W1/W2/W3 provider-neutral, GitHub-only claim request, CAS leases, intake receipts, 6 gate QA, REPAIR, create-only publisher, idempotent remote ledger, reconcile, internal-link graph, dashboard và refill đã có code/test.
 - Draft-only REST acceptance: WordPress #3870, Blog #69, chạy lại cùng ID; giữ nguyên #3861. **Đã đăng thủ công qua WPVibe 2 bài mới: NT-000037 → #3888; NT-000047 → #3890, đúng category, Yoast/canonical/index verified.** Chi tiết: reports/manual-wp-smoke-20261016.json.
-- **Unattended Production OFF (dry_run).** Yoast title/meta đã REST-writeable qua credential GitHub smoke. Enforced protection của Publisher và E2E tự đăng bằng Github Publisher chưa được chứng minh.
+- **Production tự động BẬT (lệnh chủ 17/10/2026).** Yoast title/meta đã REST-writeable qua credential GitHub smoke. Bảo vệ mã Publisher bằng Ruleset và nghiệm thu E2E của chính Publisher chưa được thực hiện; chủ repo chấp nhận, hai cờ kiểm chứng vẫn `false` và không còn chặn đăng.
 - Quy định mới: **1.600–5.000 từ hữu ích/bài**. Writer đọc [Quickstart](docs/WRITER-QUICKSTART.md). Chủ đọc [Activation](docs/ACTIVATION.md). Số liệu mới nhất xem [dashboard](reports/latest.md).
 
 

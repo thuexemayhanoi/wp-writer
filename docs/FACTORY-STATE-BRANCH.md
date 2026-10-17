@@ -16,7 +16,7 @@ Adapter hiện là **tính năng chuẩn bị**; các workflow Writer/Publisher 
 2. Đưa `writer-claims`, `publication-ledger`, các báo cáo QA và checkpoints sang `factory-state`; tải về từ đúng nhánh trước khi một job kiểm tra claim, phát hiện duplicate hay ghi `POST_INTENT`. **Không để hai ledger hoạt động song song.**
 3. Luồng nộp bài `writer/*` phải đưa file bài lên `main` theo Pull Request phù hợp với branch protection. Các luồng refill/research thay đổi taxonomy/topics cũng phải tương thích hoặc chạy theo approval rõ ràng. Không bật bắt buộc PR trên `main` trước bước này.
 4. Kiểm tra real E2E: một bài QA ≥85 qua Publisher REST → đúng category/canonical/Yoast → ledger `VERIFIED` trong `factory-state`; chạy lại chính ID không POST lại; crash/retry không trùng.
-5. Chỉ sau các bằng chứng đó mới đặt `security_controls_verified`, `acceptance_passed` đúng sự thật và bật Production + gỡ Emergency Stop theo phê duyệt của owner.
+5. Chỉ sau các bằng chứng đó mới đặt `security_controls_verified`, `acceptance_passed` thành `true`. Hai cờ này chỉ ghi sự thật; từ lệnh chủ 17/10/2026 chúng không còn chặn đăng và Production đã BẬT.
 
 ### Owner phải làm gì?
 

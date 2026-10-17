@@ -66,9 +66,9 @@ def assess(policy, registry, ledger, topic_rows, qa_by_id, at=None, stall_minute
                        for v in statuses if parse_time(v.get('verified_at')) or parse_time(v.get('updated_at'))),
                       default=None)
     stopped = bool(policy.get('paused') or policy.get('emergency_stop'))
+    # Same owner switch as publisher.production_allowed (without paused/stop, handled above).
     public_enabled = (policy.get('mode') == 'production' and policy.get('production_enabled') is True
-        and bool(policy.get('owner_approval_ref')) and policy.get('acceptance_passed') is True
-        and policy.get('security_controls_verified') is True and policy.get('seo_adapter_verified') is True)
+        and bool(policy.get('owner_approval_ref')) and policy.get('seo_adapter_verified') is True)
     staging_enabled = (policy.get('mode') == 'draft_only' and policy.get('production_enabled') is False
         and policy.get('draft_staging_enabled') is True and bool(policy.get('draft_staging_approval_ref'))
         and policy.get('security_controls_verified') is True)

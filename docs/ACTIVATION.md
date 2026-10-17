@@ -1,8 +1,14 @@
 # Công tắc auto-publish
 
-**17/10/2026 — đã xử lý ba công tắc chủ repo yêu cầu:** `mode=production`, `paused=false`, `emergency_stop=false`. Các khóa trạng thái dừng thủ công không còn bật. Giữ tên khóa để workflow cũ không lỗi.
+**17/10/2026 — lệnh chủ repo: bài qua cổng QA thì lên WordPress ngay.** Luồng giữ đơn giản như sơ đồ: W1/W2/W3 viết bài → QA (SEO/Quality ≥85, kiểm tra trùng, đúng danh mục cha/con) → Publisher → WordPress công khai. `mode=production`, `production_enabled=true`, `owner_approval_ref` ghi lệnh chủ, `paused=false`, `emergency_stop=false`. Quy tắc QA không đổi.
 
-**Chưa có WordPress auto-publish:** `production_enabled=false`, `acceptance_passed=false`, `security_controls_verified=false` vẫn phản ánh bằng chứng chưa hoàn tất. Không tự nhận việc thử thủ công là E2E Publisher hoặc Ruleset bảo vệ mã đã hoàn tất. Publisher hiện trả `PRODUCTION_NOT_AUTHORIZED` trước khi tải thông tin đăng nhập WordPress.
+**Đã gỡ khỏi đường đăng:** (1) cờ `acceptance_passed` và `security_controls_verified` không còn là điều kiện; (2) bước `production_security.py` (kiểm Ruleset thật) không còn nằm trong job Publisher; (3) bước chạy lại toàn bộ unit test trong job Publisher (test vẫn chạy trong workflow Writer QA là workflow kích hoạt Publisher).
+
+**Giữ nguyên:** QA G1–G6 và ≥85, ledger ghi trước POST, chống trùng, đúng category, đọc lại canonical/title/meta sau khi đăng, giới hạn 2×5 và trần 1.000 bài/ngày, `paused`/`emergency_stop` là công tắc dừng tức thì.
+
+**Sự thật cần ghi rõ:** `acceptance_passed=false` và `security_controls_verified=false` vẫn đúng với bằng chứng (chưa có Ruleset ép quyền sửa mã đặc quyền; chưa có bài nào do chính Publisher tự đăng được nghiệm thu E2E). Chủ repo chấp nhận rủi ro đó; hai cờ chỉ còn ghi sự thật, không chặn đăng, và không được gán `true` nếu chưa có bằng chứng.
+
+> Các đoạn bên dưới ghi "Production vẫn OFF" là lịch sử trước lệnh chủ ngày 17/10/2026, giữ lại để truy vết.
 
 
 
@@ -67,15 +73,13 @@ Trước khi chủ phê duyệt cần xử lý các điều kiện còn thiếu:
 4. Chạy thử với **bài thật 1.600–5.000 từ** đạt sáu gate, mapping đúng và metadata readback/frontend; REST draft #3870 chỉ chứng minh kết nối, giao dịch và chạy lại không trùng. Chưa chứng minh full editorial-to-public end-to-end.
 5. Hoàn tất nghiệm thu và ghi approval ref thật. Bổ sung nghiên cứu chủ đề: mới 8 PLANNED, còn thiếu 992 so với chỉ tiêu.
 
-Sau khi các điều kiện được chứng minh và chủ duyệt, cập nhật **một** file `config/production-policy.json`:
+Công tắc đăng tự động nằm ở **một** file `config/production-policy.json` (từ 17/10/2026 chỉ cần các trường dưới đây):
 
 ```json
 {
   "mode": "production",
   "production_enabled": true,
-  "owner_approval_ref": "tham-chiếu-phê-duyệt-thật",
-  "acceptance_passed": true,
-  "security_controls_verified": true,
+  "owner_approval_ref": "tham-chiếu-lệnh-chủ",
   "seo_adapter_verified": true,
   "paused": false,
   "emergency_stop": false,

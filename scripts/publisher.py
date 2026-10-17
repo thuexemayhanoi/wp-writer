@@ -14,9 +14,16 @@ from taxonomy_sync import by_key,resolve,materialize
 LEDGER='data/state/publication-ledger.json'
 
 def production_allowed(policy):
+    """Owner switch for QA-PASS -> public WordPress.
+
+    Owner order 2026-10-17: a post that passes the QA gate (SEO/quality >=85,
+    duplicate check, exact category) is published immediately. No separate
+    acceptance or branch-security flag gates publication; the QA, ledger,
+    category and Yoast readback checks below are unchanged. paused and
+    emergency_stop remain the owner's instant stop.
+    """
     return (policy.get('production_enabled') is True and policy.get('mode')=='production' and
-        bool(policy.get('owner_approval_ref')) and policy.get('acceptance_passed') is True and
-        policy.get('security_controls_verified') is True and policy.get('seo_adapter_verified') is True and
+        bool(policy.get('owner_approval_ref')) and policy.get('seo_adapter_verified') is True and
         not policy.get('paused') and not policy.get('emergency_stop'))
 
 def draft_staging_allowed(policy):
@@ -177,7 +184,7 @@ class Publisher:
         """No update/delete endpoint exists in this class."""
         if status not in ('draft','publish'):raise ValueError('Invalid status')
         if self.policy.get('paused') or self.policy.get('emergency_stop'):raise ValueError('Publisher paused')
-        if status=='publish' and not production_allowed(self.policy):raise ValueError('Production disabled or acceptance incomplete')
+        if status=='publish' and not production_allowed(self.policy):raise ValueError('Production not enabled by owner')
         if status=='draft' and self.policy.get('mode')!='draft_only' and not (
                 production_allowed(self.policy) and self.policy.get('on_category_mismatch')=='draft'
                 and (route or {}).get('category_resolution')=='FALLBACK_DRAFT'):
@@ -298,13 +305,11 @@ def run(args):
         # Explicit isolated TEST DRAFT, not a campaign article, never promotes to public.
         policy={**policy,'mode':'draft_only'}
     if policy['paused'] or policy['emergency_stop']:print('PAUSED');return
-    # Owner requested removal of three convenience stop states, but switching
-    # mode alone cannot impersonate actual security / E2E acceptance. When
-    # production_enabled remains false, return BEFORE reading WP secrets.
+    # Without the owner's production switch, return BEFORE reading WP secrets.
     # This is a clean no-op rather than an accidental missing-credentials error.
     if (policy.get('mode') == 'production' and not production_allowed(policy)
             and not args.acceptance_topic and not args.acceptance_draft):
-        print('PRODUCTION_NOT_AUTHORIZED: security/E2E verification or production_enabled incomplete; no WordPress writes')
+        print('PRODUCTION_NOT_AUTHORIZED: production_enabled, owner_approval_ref or seo_adapter_verified missing; no WordPress writes')
         return
     if policy.get('mode')=='draft_only' and not (
             draft_staging_allowed(policy) or args.acceptance_topic or args.acceptance_draft):

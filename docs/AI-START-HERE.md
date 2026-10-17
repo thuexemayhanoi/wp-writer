@@ -35,7 +35,7 @@ Không trộn `wp-aiwriter` (blog.rentbikehanoi.com) và **KHÔNG sử dụng Ex
 1. `Universal writer QA` đánh giá bài. Bài PASS đi tiếp; bài FAIL/REVIEW có biên bản REPAIR.
 2. `Universal WordPress Publisher` tự kích hoạt trên kết quả QA thành công của `main` — không đợi 30 phút mới bắt đầu.
 3. Khi Production thực sự bật và đã nghiệm thu, Publisher xử lý tối đa **5 nhóm × 2 bài/lượt**; category đúng mới công khai, không khớp thì nháp; ghi ledger trước REST POST và xác minh URL sau POST.
-4. **Ngày 16/10/2026 Production vẫn OFF (`dry_run`)**. Hai bài NT-000037/#3888, NT-000047/#3890 được xuất bản bằng WPVibe trực tiếp, KHÔNG phải Publisher tự đăng. AI tiếp tục viết và QA, đừng tạo lại các Topic ID đã có trong publication ledger.
+4. **Từ 17/10/2026 Production BẬT theo lệnh chủ**: bài qua QA lên WordPress ngay. Các bài #3882, #3888, #3890, #3930–#3932, #3935, #3938–#3945 được xuất bản thủ công, KHÔNG phải Publisher tự đăng. AI tiếp tục viết và QA, đừng tạo lại các Topic ID đã có trong publication ledger.
 5. Lịch 30 phút là cơ chế dự phòng, **không phải** khoảng nghỉ bắt buộc giữa các cặp bài.
 
 ## Không mắc kẹt vì hạn mức AI

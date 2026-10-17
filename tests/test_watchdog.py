@@ -50,6 +50,14 @@ class WatchdogTests(unittest.TestCase):
         self.policy.update(mode='production',production_enabled=True)
         self.assertEqual(self.assess()['state'],'CONFIG_BLOCKED')
 
+    def test_owner_switch_alone_enables_delivery_tracking(self):
+        self.policy.update(mode='production',production_enabled=True,owner_approval_ref='owner order',
+            seo_adapter_verified=True,acceptance_passed=False,security_controls_verified=False)
+        self.admit(EARLY)
+        report=self.assess()
+        self.assertEqual(report['state'],'DELIVERY_PENDING')
+        self.assertTrue(report['delivery_enabled'])
+
     def test_fresh_admitted_qa_pass_waits_inside_grace(self):
         self.enable_production()
         self.admit(EARLY)

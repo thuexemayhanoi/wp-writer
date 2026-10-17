@@ -39,6 +39,14 @@ class DeliveryRoutingTests(unittest.TestCase):
                          ('publish',156,'EXACT'))
         self.assertEqual(decision['intended_taxonomy_key'],'reviews')
 
+    def test_exact_path_publishes_without_acceptance_or_security_flags(self):
+        policy={k:v for k,v in self.production.items()
+                if k not in ('acceptance_passed','security_controls_verified')}
+        self.assertTrue(production_allowed(policy))
+        decision=delivery_route(self.exact,policy,self.registry,self.live)
+        self.assertEqual((decision['status'],decision['category_resolution']),
+                         ('publish','EXACT'))
+
     def test_missing_category_is_wordpress_draft_not_public(self):
         decision=delivery_route(self.unmapped,self.production,self.registry,self.live)
         self.assertEqual((decision['status'],decision['category_id'],decision['category_resolution']),

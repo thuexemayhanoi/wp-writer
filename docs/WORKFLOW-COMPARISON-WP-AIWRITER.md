@@ -40,7 +40,7 @@ Trạng thái đã kiểm chứng ngày 16/10/2026. Không nhầm site đích:
 1. Hoàn thiện ghi nhận 2 bài thủ công vào ledger để không POST lại; rà soát `NT-000079/#3882` vì WordPress từng có trạng thái khác với report draft cũ.
 2. Nguồn topic là JSONL: external AI nghiên cứu nội dung không trùng và gửi `data/candidates/*.jsonl` → Topic QA, W1/W2/W3 nhận khi PLANNED; không tự sinh 1000 bài placeholder.
 3. Category `data/taxonomy.json` phải đúng full parent chain trên WordPress. Nếu leaf không có, đưa nháp với lý do; chỉ tạo category có quyền phê duyệt riêng (`allow_category_create`) khi không rỗng và quy trình có ledger.
-4. Hoàn tất enforced branch protection/credential isolation rồi nghiệm thu **1 bài public qua chính GitHub Publisher** với live frontend SEO + ledger + idempotent rerun. Chỉ khi đó xác nhận `security_controls_verified`/`acceptance_passed` theo bằng chứng và bật Production.
+4. Nghiệm thu **1 bài public qua chính GitHub Publisher** với live frontend SEO + ledger + idempotent rerun. Chỉ khi có bằng chứng đó mới đặt `acceptance_passed`/`security_controls_verified` thành `true`; từ lệnh chủ 17/10/2026 Production đã BẬT và hai cờ không còn chặn đăng.
 5. Từ đó AI push → QA PASS → Publisher xử lý ngay theo 2+2+2+2+2, ngày trần 1.000 (10/lượt), không phải duyệt từng category Excel và không đợi 30 phút.
 
 ## Lưu ý về số liệu

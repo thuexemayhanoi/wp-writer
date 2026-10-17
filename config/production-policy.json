@@ -2,7 +2,7 @@
   "version": 1,
   "site": "https://thuexemaynguyentu.com",
   "mode": "production",
-  "production_enabled": false,
+  "production_enabled": true,
   "paused": false,
   "emergency_stop": false,
   "batch_size": 2,
@@ -11,7 +11,7 @@
   "initial_target": 1000,
   "capacity": 10000,
   "approved_capacity": 1000,
-  "owner_approval_ref": null,
+  "owner_approval_ref": "2026-10-17 owner order (Claude Code session_01VqMnTUZtpja4rBRZSVx9vp): QA-PASS article goes to WordPress immediately; QA unchanged",
   "acceptance_passed": false,
   "security_controls_verified": false,
   "seo_adapter_verified": true,
@@ -26,6 +26,6 @@
   "draft_staging_enabled": false,
   "draft_staging_approval_ref": null,
   "max_new_drafts_daily": 1000,
-  "owner_publish_request": "2026-10-16: owner approved immediate QA-pass-to-WordPress bulk publishing (10 as 2x5). GitHub Yoast smoke passed. Activation remains blocked by unprotected main and untested full editorial-to-public E2E.",
+  "owner_publish_request": "2026-10-16: owner approved immediate QA-pass-to-WordPress bulk publishing (10 as 2x5). 2026-10-17: owner ordered the simple flow W1/W2/W3 -> QA (>=85, duplicate check, category) -> Publisher -> public WordPress, with no extra security or acceptance gate. acceptance_passed and security_controls_verified stay false because no such verification was performed; they no longer gate publication.",
   "seo_adapter_evidence": "https://github.com/thuexemayhanoi/wp-writer/actions/runs/38910018718"
 }

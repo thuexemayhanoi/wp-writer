@@ -42,10 +42,12 @@ class ManualRestCanaryTests(unittest.TestCase):
         ledger=load('data/state/publication-ledger.json')
         self.assertGreaterEqual(daily_created_count(ledger,'2026-10-17'),3)
 
-    def test_manual_posts_cannot_activate_unattended_publisher(self):
+    def test_manual_posts_do_not_fake_publisher_acceptance(self):
         policy=load('config/production-policy.json')
         self.assertEqual(policy['mode'],'production')
-        self.assertIs(policy['production_enabled'],False)
+        # Publishing is on by the owner's explicit order; manual canaries are not
+        # used to claim a GitHub-Publisher end-to-end acceptance that never ran.
+        self.assertIs(policy['production_enabled'],True)
         self.assertIs(policy['acceptance_passed'],False)
 
 

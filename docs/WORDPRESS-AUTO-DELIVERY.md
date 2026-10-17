@@ -36,7 +36,7 @@ W1 / W2 / W3 (AI bên ngoài)
 - Chế độ staging *không bao giờ đăng public*, kể cả bài có đúng danh mục. Có thể dùng để kiểm thử pipeline và nhờ người biên tập chỉnh WordPress.
 
 **Chế độ production (tự public bài đạt QA):**
-- `mode=production`, `production_enabled=true`, owner approval, nghiệm thu E2E, security controls và Yoast SEO adapter phải *đều* được xác minh.
+- `mode=production`, `production_enabled=true`, `owner_approval_ref` và Yoast SEO adapter (`seo_adapter_verified`). Từ lệnh chủ 17/10/2026, `acceptance_passed` và `security_controls_verified` không còn là điều kiện đăng (vẫn `false` vì chưa kiểm chứng).
 - Khi category chuẩn khớp chính xác toàn bộ đường dẫn cha/con, bài PASS mới được public.
 - Khi category không tồn tại, sai parent/slug/name hoặc chưa rõ ràng: `on_category_mismatch=draft` chuyển bài vào category Blog (ID được xác minh lại từ WordPress), trạng thái WordPress draft. Ledger ghi `intended_taxonomy_key`, `category_warning`, `category_resolution=FALLBACK_DRAFT`, và WP ID.
 - Nếu category `uncategorized`, từ chối. Không tự tạo category chỉ vì có bài. Tạo đúng parent/child chỉ khi đã bật riêng `allow_category_create=true` và có ledger trước POST. Mọi kết quả POST category không chắc chắn đều chặn để reconcile, không fallback bừa.

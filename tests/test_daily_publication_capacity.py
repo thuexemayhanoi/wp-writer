@@ -27,9 +27,11 @@ class ImmutableDailyCapTests(unittest.TestCase):
         policy=json.loads((ROOT/"config/production-policy.json").read_text(encoding="utf-8"))
         self.assertEqual(policy["max_new_posts_daily"],1000)
         self.assertEqual(policy["max_new_drafts_daily"],1000)
-        # This changes a throughput ceiling only, not the authorization to POST.
+        # The ceiling is a throughput limit; authorization is the owner switch.
         self.assertEqual(policy["mode"],"production")
-        self.assertFalse(policy["production_enabled"])
+        self.assertTrue(policy["production_enabled"])
+        self.assertTrue(policy["owner_approval_ref"])
+        # Never performed, so never marked true.
         self.assertFalse(policy["security_controls_verified"])
         self.assertFalse(policy["acceptance_passed"])
 
