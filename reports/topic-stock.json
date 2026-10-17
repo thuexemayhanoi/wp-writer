@@ -1,23 +1,20 @@
 {
-  "at": "2026-10-17T18:27:35.639413+00:00",
+  "at": "2026-10-17T18:52:44.567215+00:00",
   "stages": {
     "IDEA": 140,
     "RESEARCH": 72,
     "REJECTED": 0,
-    "PLANNED": 2,
+    "PLANNED": 0,
     "PLANNED_HOLD": 2,
-    "CLAIMED": 0,
+    "CLAIMED": 2,
     "AUTHORED": 0,
     "QA_PASS": 0,
     "PUBLISHED": 25,
     "WP_DRAFT": 0
   },
   "topic_rows": 101,
-  "ready": 2,
-  "ready_ids": [
-    "NT-000116",
-    "NT-000117"
-  ],
+  "ready": 0,
+  "ready_ids": [],
   "on_hold": {
     "NT-000111": {
       "reason": "Trùng ý định với bài đã đăng #3947/#3948 (mũ bảo hiểm đạt chuẩn, nhãn, dấu CR); chỉ viết nếu tách phạm vi thành \"điểm mới của QCVN 2:2021 so với bản cũ\", hoặc bỏ.",
@@ -35,8 +32,8 @@
   "min_ready": 100,
   "max_ready": 300,
   "needs_research": true,
-  "shortfall": 98,
-  "room_to_target_max": 298,
+  "shortfall": 100,
+  "room_to_target_max": 300,
   "lifetime_planned": 29,
   "note": "PLANNED counts only topics a writer can still take. Published, claimed, authored, held, RESEARCH and IDEA are never added to it."
 }
