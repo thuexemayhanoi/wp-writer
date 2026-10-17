@@ -53,8 +53,8 @@ def _validate_state_paths(paths):
         raise ValueError("Empty/duplicate factory-state CAS path list")
     for path in paths:
         if not isinstance(path, str) or not re.fullmatch(
-            r"(?:data/state/[a-z0-9][a-z0-9_-]*\\.json|"
-            r"data/qa/NT-[0-9]{6}\\.json|"
+            r"(?:data/state/[a-z0-9][a-z0-9_-]*\.json|"
+            r"data/qa/NT-[0-9]{6}\.json|"
             r"reports/[a-zA-Z0-9][a-zA-Z0-9_.-]*\\.(?:json|csv|md))", path
         ):
             raise ValueError("FORBIDDEN_FACTORY_STATE_PATH: " + str(path)[:120])
@@ -127,7 +127,7 @@ class FactoryStateCAS:
                         f"100644,{blob},{path}", env=env)
                 tree = git("write-tree", env=env)
                 commit = git("commit-tree", tree, "-p", base,
-                             input=message + "\\n")
+                             input=message + "\n")
             p = subprocess.run(
                 ["git", "push", "origin", commit + ":refs/heads/" + STATE_REF],
                 cwd=ROOT, text=True, capture_output=True
