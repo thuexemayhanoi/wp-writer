@@ -1,8 +1,11 @@
 # WP-WRITER — UNIVERSAL AI CONTENT FACTORY FOR WORDPRESS
 
+**Writer pool (18/10/2026):** W1–W9 là 9 vị trí dùng chung hàng đợi. Claude App/AI App tự nhận vị trí trống bằng `--slot auto` (hoặc request GitHub), mỗi phiên giữ tối đa một vị trí và tối đa 10 Topic ID. Không cấp khóa Ed25519, không xác thực tài khoản Claude, không dùng API AI. Giữ nguyên lease còn hạn, checkpoint, chống trùng Topic ID và QA/Publisher đang chạy; Publisher tiếp tục đăng 2 bài mỗi lô.
+
+
 > **QUY TRÌNH ĐƠN GIẢN — ĐANG CHẠY (lệnh chủ 17/10/2026)**
 >
-> 1. **W1 / W2 / W3 viết bài** từ chủ đề PLANNED (`scripts/writer-session.py`).
+> 1. **W1–W9 viết bài** từ chủ đề PLANNED (`scripts/writer-session.py`).
 > 2. **QA ≥85 + kiểm tra trùng + danh mục** (G1–G6, `scripts/qa.py`). Lỗi mạng được thử lại tối đa 3 lần; Claude tự sửa nội dung tối đa 10 lượt và lưu checkpoint theo Topic ID + session; chỉ bài có rủi ro thật (trùng URL/intent, sai danh mục, nguồn không xác minh được, sai pháp lý/giá) bị giữ riêng, và không chặn bài khác.
 > 3. **Publisher → WordPress công khai**, tự kích hoạt ngay sau QA thành công trên `main` (cron :17/:47 chỉ là dự phòng); G7 xác minh ID, URL, trạng thái và SEO meta sau đăng. **Trạng thái: ĐÃ kích hoạt tự động** (`production_enabled=true`).
 >
@@ -18,14 +21,14 @@
 
 > **Self-replenishing topics (2026-10-17):** lệnh chủ MASTER WORK 1.000 chủ đề: bộ điều khiển mở đơn nghiên cứu 100–200 chủ đề mới, hết đợt này mở đợt khác (khi PLANNED sẵn sàng viết còn < 900) cho tới khi kho chạm trần đã duyệt `approved_capacity` = 1.000, không vượt trần; mỗi ứng viên bị kiểm tra trùng search intent với toàn bộ bài đã đăng và chủ đề đang xử lý, và chỉ chủ đề đạt Research QA mới vào PLANNED. Xem [docs/SELF-REPLENISHING-TOPICS.md](docs/SELF-REPLENISHING-TOPICS.md). Actions vẫn không chạy AI: người nghiên cứu là phiên AI ngoài.
 
-> **Topic Discovery V3:** [Autonomous research queue → external AI researcher → Topic QA → W1/W2/W3](docs/AUTONOMOUS-TOPIC-RESEARCH.md). Runs every 6h without AI API keys, gathering public RSS *leads* plus topical gaps, capped at 20 ideas/batch and 300 pending; discovery proposal capacity 10,000. **This is not an LLM doing autonomous factual research**: external AI researchers must independently verify and submit evidence before an idea becomes PLANNED. Canonical intake remains approved only to 1,000; WordPress Production is ON (owner order 2026-10-17): only QA-PASS articles written from PLANNED topics are published.
+> **Topic Discovery V3:** [Autonomous research queue → external AI researcher → Topic QA → W1–W9](docs/AUTONOMOUS-TOPIC-RESEARCH.md). Runs every 6h without AI API keys, gathering public RSS *leads* plus topical gaps, capped at 20 ideas/batch and 300 pending; discovery proposal capacity 10,000. **This is not an LLM doing autonomous factual research**: external AI researchers must independently verify and submit evidence before an idea becomes PLANNED. Canonical intake remains approved only to 1,000; WordPress Production is ON (owner order 2026-10-17): only QA-PASS articles written from PLANNED topics are published.
 
 > **Factory Operations V2:** [Liveness + queue/refill + Writer request safety + post-publish SEO QA](docs/FACTORY-OPERATIONS-V2.md). Adapted from /blog and /global patterns for native WordPress. The new read-only checks never turn on staging or production and do not imply articles have been published.
 ## Workflow không Excel — Topic Registry + WordPress REST
 
 Khác **wp-aiwriter** sử dụng Excel cố định (data/topics.json), **wp-writer** dùng **data/topics.jsonl** chứa topic ID/title/intent/canonical/taxonomy_key; **data/taxonomy.json** chứa toàn bộ danh mục cha/con. Không nhập Excel, không dừng tại ranh giới chuyên mục và không suy category từ tiêu đề bài.
 
-**AI bên ngoài → W1/W2/W3 claim → posts/drafts/NT-XXXXXX.md → GitHub QA PASS → Publisher → WordPress REST.** Khi Production thực sự bật: khớp chính xác category leaf và toàn bộ parent ancestry mới public; thiếu/sai thì nháp; trùng slug/title/marker hoặc có trong ledger thì skip/đối soát, không tạo lại. Không cần chờ cron; cron :17/:47 là fallback.
+**AI bên ngoài → W1–W9 claim → posts/drafts/NT-XXXXXX.md → GitHub QA PASS → Publisher → WordPress REST.** Khi Production thực sự bật: khớp chính xác category leaf và toàn bộ parent ancestry mới public; thiếu/sai thì nháp; trùng slug/title/marker hoặc có trong ledger thì skip/đối soát, không tạo lại. Không cần chờ cron; cron :17/:47 là fallback.
 
 **Cập nhật 17/10/2026:** Plugin WordPress **Git it Write** hiện **INACTIVE** (đã kiểm tra qua WP-CLI). Cấu hình cũ vẫn trỏ vào repo `thuexemayhanoi/wp-writer`, nhánh `main`, thư mục `posts`. **Không kích hoạt lại plugin** khi chưa gỡ cấu hình nhập repo này: đường đồng bộ Git it Write có thể công khai bài ngoài QA G1–G6 và publication ledger. Publisher GitHub là đường đăng duy nhất được phép.
 
@@ -55,7 +58,7 @@ Quy trình và điều kiện: [WordPress Auto Delivery](docs/WORDPRESS-AUTO-DEL
 - Đã nhập đủ 9 sheet Excel, kiểm kê có xác thực: 135 bài, 10 trang, 13 sản phẩm; giữ 8 category cũ.
 - Registry ban đầu có 8 category cũ + 19 category dự kiến; nay đã tạo 2 category con: Chăm sóc xe điện #160 (con #157), An toàn khi di chuyển #161 (con #159). Các category khác vẫn phải được đối chiếu qua WordPress REST.
 - Registry ban đầu có 80 candidate/8 PLANNED; đây là snapshot trước các đợt tiếp theo. Không tính allocation là topic. Dùng reports/dashboard.json và data/topics.jsonl để xem số mới nhất.
-- W1/W2/W3 provider-neutral, GitHub-only claim request, CAS leases, intake receipts, 6 gate QA, REPAIR, create-only publisher, idempotent remote ledger, reconcile, internal-link graph, dashboard và refill đã có code/test.
+- W1–W9 provider-neutral, GitHub-only claim request, CAS leases, intake receipts, 6 gate QA, REPAIR, create-only publisher, idempotent remote ledger, reconcile, internal-link graph, dashboard và refill đã có code/test.
 - Draft-only REST acceptance: WordPress #3870, Blog #69, chạy lại cùng ID; giữ nguyên #3861. **Đã đăng thủ công qua WPVibe 2 bài mới: NT-000037 → #3888; NT-000047 → #3890, đúng category, Yoast/canonical/index verified.** Chi tiết: reports/manual-wp-smoke-20261016.json.
 - **Production tự động BẬT (lệnh chủ 17/10/2026).** Yoast title/meta đã REST-writeable qua credential GitHub smoke. Bảo vệ mã Publisher bằng Ruleset và nghiệm thu E2E của chính Publisher chưa được thực hiện; chủ repo chấp nhận, hai cờ kiểm chứng vẫn `false` và không còn chặn đăng.
 - Quy định mới: **1.600–5.000 từ hữu ích/bài**. Writer đọc [Quickstart](docs/WRITER-QUICKSTART.md). Chủ đọc [Activation](docs/ACTIVATION.md). Số liệu mới nhất xem [dashboard](reports/latest.md).
@@ -116,7 +119,7 @@ Quy trình và điều kiện: [WordPress Auto Delivery](docs/WORDPRESS-AUTO-DEL
 
 ```text
                          EXTERNAL AI WRITERS (no AI API inside Actions)
-                Claude W1       ChatGPT W2       Gemini/Mistral W3
+                Claude W1       ChatGPT W2       Gemini/Mistral W3 (ví dụ; W4–W9 tương tự)
                       \              |              /
                        \--- GitHub Writer Queue ----/
                          lease per ID / CAS / heartbeat
@@ -330,7 +333,7 @@ IDEA -> RESEARCH -> TOPIC_QA -> PLANNED -> CLAIMED -> WRITING
 
 ### Vai trò
 
-- **W1/W2/W3:** ba slot writer độc lập trước mắt, có thể dùng bất kỳ AI nào được chủ cấp quyền GitHub. Tên AI không được hard-code vào publisher.
+- **W1–W9:** chín slot writer độc lập (W1–W9), có thể dùng bất kỳ AI nào được chủ cấp quyền GitHub. Tên AI không được hard-code vào publisher.
 - **Coordinator/Topic Factory:** kiểm kê và đề xuất chủ đề; có thể là phiên AI bên ngoài, không buộc API trả phí.
 - **Publisher:** DUY NHẤT một engine GitHub Actions được quyền gọi REST WordPress.
 - **QA Lead:** cấu hình luật + kiểm thử; machine QA đánh giá điều kiện kỹ thuật, AI writer chịu trách nhiệm đánh giá sự thật và chất lượng thực.
@@ -622,7 +625,7 @@ Yêu cầu bảng dữ liệu theo URL thực:
 >
 > Mặc định `production_enabled=false` trong giai đoạn triển khai. Có thể test đọc/QA/dry-run và mã nguồn; **không đăng công khai hoặc bật xuất bản tự động trước khi chủ phê duyệt chế độ production**. Khi được duyệt, publisher chạy lô nhỏ (đề xuất 2 bài), xác minh mỗi WordPress ID/URL, chống tạo trùng và lưu ledger/checkpoint.
 >
-> Kết thúc báo cáo rõ SHA/PR, các file đã tạo, test PASS/FAIL, số topic và bài hiện có, lỗi còn lại, hướng dẫn sử dụng một lệnh cho writer W1/W2/W3, và vị trí mở công tắc production. Không báo hoàn thành 1.000/10.000 bài nếu mới chỉ dựng framework.
+> Kết thúc báo cáo rõ SHA/PR, các file đã tạo, test PASS/FAIL, số topic và bài hiện có, lỗi còn lại, hướng dẫn sử dụng một lệnh cho writer W1–W9, và vị trí mở công tắc production. Không báo hoàn thành 1.000/10.000 bài nếu mới chỉ dựng framework.
 
 ---
 
