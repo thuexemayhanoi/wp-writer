@@ -745,6 +745,24 @@
         "seo_description": "Dừng đèn đỏ khi đang đi xe số: Yamaha khuyên trả số về nhưng chưa nói về số nào, cách chờ trên xe côn tay theo Honda, Yamaha và mốc tắt máy 20 giây của hãng.",
         "checked_at": "2026-10-18T02:03:21.654278+00:00"
       }
+    },
+    "NT-000202": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-18T02:05:20.721933+00:00",
+      "source_hash": "944b2c6ae0ade25c916e414ce08c52e373cb523b5e2818a1cb99cba5f002ae3a",
+      "slug": "di-dung-so-tren-xe-so-moc-toc-do-tham-khao-dau-hieu-sai-so-va-luc-nen-ve-so",
+      "expected_status": "publish",
+      "category_id": 161,
+      "visible_hash": "1e10e55ab8d2214b227848896bee95742d22a9859e80583023053265f06f9305",
+      "first_paragraph": "Đi đúng số trên xe số nghĩa là để số khớp với tốc độ xe đang chạy: theo Yamaha Motor Việt Nam, đi chậm thì dùng số nhỏ, đi nhanh thì lên số lớn, và sang số phù hợp giúp xe vận hành ổn định, tiết kiệm xăng, tăng tuổi thọ động cơ. Các mốc tốc độ của chính Yamaha lại không giống nhau giữa các bài (số 2 là 10 đến 20, 10 đến 25 hoặc 10 đến 30 km/h tùy bài và loại xe), nên hãy coi chúng là khoảng tham khảo và dựa thêm vào tiếng máy, cảm giác xe và sách hướng dẫn. Dấu hiệu đang đi sai số thường là xe giật và nghe lọc cọc khi số quá cao, máy bị ì khi ép số, hoặc máy gằn khi để số thấp quá lâu.",
+      "meta_title": "Đi đúng số trên xe số: mốc tốc độ, dấu hiệu sai số, lúc về số",
+      "meta_description": "Đi đúng số trên xe số thế nào? Đối chiếu các mốc tốc độ tham khảo của Yamaha, cách nghe tiếng máy nhận ra sai số, chạy ép số và lúc nên về số khi giảm tốc.",
+      "intended_taxonomy_key": "road-safety",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "5f048cbce93576ba18fffc574f1fe288f1a811d8",
+      "run_id": "39088633500",
+      "updated_at": "2026-10-18T02:05:20.723180+00:00"
     }
   },
   "categories": {}
