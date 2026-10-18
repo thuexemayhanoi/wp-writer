@@ -1,22 +1,25 @@
 # Universal writer contract — Nguyễn Tú
 
+**Writer pool (18/10/2026):** W1–W9 là 9 vị trí dùng chung hàng đợi. Claude App/AI App tự nhận vị trí trống bằng `--slot auto` (hoặc request GitHub), mỗi phiên giữ tối đa một vị trí và tối đa 10 Topic ID. Không cấp khóa Ed25519, không xác thực tài khoản Claude, không dùng API AI. Giữ nguyên lease còn hạn, checkpoint, chống trùng Topic ID và QA/Publisher đang chạy; Publisher tiếp tục đăng 2 bài mỗi lô.
+
+
 > **QUY TRÌNH DUY NHẤT — ĐANG CHẠY (lệnh chủ 2026-10-17, đúng sơ đồ "Giờ giữ quy trình đơn giản")**
 >
-> 1. **W1 / W2 / W3 viết bài** từ chủ đề PLANNED, nộp bằng `scripts/writer-session.py`.
+> 1. **W1–W9 viết bài** từ chủ đề PLANNED, nộp bằng `scripts/writer-session.py`.
 > 2. **QA ≥85 + kiểm tra trùng + danh mục** (G1–G6 trong `scripts/qa.py`; G7 xác minh sau đăng). Lỗi mạng được thử lại tối đa 3 lần; Claude tự sửa nội dung tối đa 10 lượt và lưu checkpoint theo Topic ID + session; chỉ bài có rủi ro thật bị giữ riêng, một bài lỗi không chặn bài khác.
 > 3. **Publisher → WordPress công khai**, tự chạy ngay sau QA thành công trên `main` (workflow `Universal WordPress Publisher`; cron :17/:47 chỉ là dự phòng). **Đã kích hoạt tự động**: `mode=production`, `production_enabled=true`.
 >
 > Ngoài QA, sổ ledger ghi trước POST và đọc lại sau đăng, chỉ `paused` / `emergency_stop` của chủ mới dừng được việc đăng. Không có bước duyệt tay và không cờ `acceptance_passed` / `security_controls_verified` nào chặn đăng. Chỉ coi một bài là đã đăng khi ledger có `phase=VERIFIED` và URL công khai mở được; GitHub Actions `success` chưa chứng minh điều đó. Khi chủ đổi công tắc production phải sửa khối này, README và `docs/INSTANT-PUBLISHING.md`.
 
 
-> **BẮT BUỘC CHO W1/W2/W3 — SEO QA V2:** Trước khi nộp bài, tối ưu tự nhiên theo intent để đạt **SEO ≥85/100** và Quality ≥85, đồng thời qua đủ G1–G6. Đọc [quy tắc điểm SEO của website chính](docs/SEO-QA-V2.md). Nếu dưới 85, sửa các mục trong seo_recommendations, cập nhật full-file writer hash và chạy lại QA; không tự sửa điểm trong JSON hoặc tắt gate. Không nhồi từ khóa, ảnh, FAQ hay CTA thuê xe vô nghĩa. **Các lỗi trùng intent, nguồn bịa, thông tin chủ sai, URL/canonical, category hoặc link sai luôn chặn xuất bản bất kể điểm.**
+> **BẮT BUỘC CHO W1–W9 — SEO QA V2:** Trước khi nộp bài, tối ưu tự nhiên theo intent để đạt **SEO ≥85/100** và Quality ≥85, đồng thời qua đủ G1–G6. Đọc [quy tắc điểm SEO của website chính](docs/SEO-QA-V2.md). Nếu dưới 85, sửa các mục trong seo_recommendations, cập nhật full-file writer hash và chạy lại QA; không tự sửa điểm trong JSON hoặc tắt gate. Không nhồi từ khóa, ảnh, FAQ hay CTA thuê xe vô nghĩa. **Các lỗi trùng intent, nguồn bịa, thông tin chủ sai, URL/canonical, category hoặc link sai luôn chặn xuất bản bất kể điểm.**
 
 
 > **NGUỒN VÀ LIÊN KẾT NGOÀI (18/10/2026):** Writer được nghiên cứu website chính hãng, cơ quan nhà nước, tài liệu khoa học/kỹ thuật và nguồn đáng tin; lưu bằng chứng thật trong YAML `sources`. Bài viết **được dẫn link ngoài HTTPS phù hợp ngữ cảnh** đến các nguồn hữu ích (không giới hạn mạng xã hội, không cấm Honda/Yamaha/VinFast/nguồn pháp luật). G5 vẫn chặn link không an toàn, link chuyển hướng trá hình; kiểm tra link nội bộ công khai như cũ. Không bắt buộc chèn backlink ra ngoài, không tạo link quảng cáo/spam. G3 vẫn kiểm chứng nguồn thực tế, luật và thông tin doanh nghiệp. Xem `docs/SEO-QA-V2.md`.
 
 > **NGHIÊN CỨU RỘNG, KHÔNG KHÓA WEBSITE:** AI Researcher và Writer được tự tìm kiếm website đối thủ cho thuê xe, các hãng Honda/Yamaha/VinFast/Dat Bike và hãng khác, xe máy/xe điện/xe đạp, các phương tiện giao thông, báo chí, luật, du lịch Hà Nội/Việt Nam, địa điểm, ẩm thực, kỹ thuật và tài liệu khoa học. Được so sánh mô hình dịch vụ, ý tưởng, cấu trúc nội dung, ưu/nhược, thông số và tìm content gap. **Không sao chép nội dung đối thủ, không lấy giá/đánh giá của đối thủ làm giá/trải nghiệm Nguyễn Tú, không bịa nguồn.** Một nguồn gốc xác minh được đã đủ cho chủ đề hẹp; thêm nguồn khác khi thông tin tranh cãi, biến động, pháp lý hoặc an toàn. G3 không dùng danh sách tên miền đóng cho nội dung tổng quát. Trang luật cần nguồn chính thức; nguồn khó mở ở GitHub chỉ có thể dùng snapshot nghiên cứu đã ghi nhận nguyên bản và phải công khai trạng thái không kiểm tra live. Không vượt QA SEO 85, không phá URL, taxonomy hay chống trùng.
 
-> **QA → WordPress ngay, 2+2+2+2+2:** xem [Instant Publishing](docs/INSTANT-PUBLISHING.md). Publisher được nối sau QA PASS; không có thời gian nghỉ bắt buộc giữa các batch. **Lệnh chủ 2026-10-17: Production tự động BẬT** (`mode=production`, `production_enabled=true`) theo luồng đơn giản W1/W2/W3 → QA (≥85, kiểm tra trùng, đúng danh mục) → Publisher → WordPress công khai. `acceptance_passed` và `security_controls_verified` không còn chặn đăng; hai cờ đó vẫn `false` vì chưa có kiểm chứng tương ứng — không gán `true` giả. Các bài #3882, #3888, #3890, #3930–#3932, #3935, #3938–#3945 đã công khai thủ công (WPVibe/owner); #3947–#3956 do chính GitHub Publisher tự đăng (ledger có `run_id` của Actions).
+> **QA → WordPress ngay, 2+2+2+2+2:** xem [Instant Publishing](docs/INSTANT-PUBLISHING.md). Publisher được nối sau QA PASS; không có thời gian nghỉ bắt buộc giữa các batch. **Lệnh chủ 2026-10-17: Production tự động BẬT** (`mode=production`, `production_enabled=true`) theo luồng đơn giản W1–W9 → QA (≥85, kiểm tra trùng, đúng danh mục) → Publisher → WordPress công khai. `acceptance_passed` và `security_controls_verified` không còn chặn đăng; hai cờ đó vẫn `false` vì chưa có kiểm chứng tương ứng — không gán `true` giả. Các bài #3882, #3888, #3890, #3930–#3932, #3935, #3938–#3945 đã công khai thủ công (WPVibe/owner); #3947–#3956 do chính GitHub Publisher tự đăng (ledger có `run_id` của Actions).
 
 **Autonomous research queue:** read [docs/AUTONOMOUS-TOPIC-RESEARCH.md](docs/AUTONOMOUS-TOPIC-RESEARCH.md) and `data/research/auto/batch-*.jsonl`. The scheduled no-key scanner creates `NTD-` proposals, **not** AI-validated `PLANNED` topics. A researching AI must independently find and verify sources, compare old WordPress content, submit a `data/candidates/*.jsonl` batch with its exact `origin_id`, and pass Topic QA. Never invent researcher citations, historical content hashes or turn an RSS headline into legal/price evidence.
 
@@ -26,7 +29,7 @@
 
 Only this repository and https://thuexemaynguyentu.com are in scope. Read the README, docs/WRITER-QUICKSTART.md, data/business-facts.json and your topic before writing. **There is NO Excel dependency in wp-writer.** The source of topic IDs, titles, intent and target taxonomy is `data/topics.jsonl`; the immutable category parent/child map is `data/taxonomy.json`, verified against WordPress REST. Never import the Nguyễn Hà matrix or `wp-aiwriter` IDs/categories. See [side-by-side workflow comparison](docs/WORKFLOW-COMPARISON-WP-AIWRITER.md).
 
-* External AI providers share the same W1/W2/W3 contract. No AI model, AI API key or writer is run in Actions.
+* External AI providers share the same W1–W9 contract. No AI model, AI API key or writer is run in Actions.
 * Supporting articles: **1,600–5,000 useful Vietnamese words**, excluding frontmatter, markup, keyword lists, references and navigation. This requirement supersedes the older README word minimum.
 * Use only PLANNED topics, claim via scripts/writer-session.py with a stable public session label. A live lease cannot be stolen. Resume your REPAIR first. Do not edit another writer's draft. Do not invent facts or first-hand experience.
 * Writer-editable inputs: owned posts/drafts/NT-XXXXXX.md and data/candidates/*.jsonl. Registry writes only through the CAS session tool. Coordinator-only: topic/taxonomy/facts/config/code/workflows/QA/checkpoints/ledger.
@@ -42,7 +45,7 @@ Only this repository and https://thuexemaynguyentu.com are in scope. Read the RE
 
 - Manual owner-approved canaries: `NT-000037` → WordPress `#3888` in `Blog > Xe Điện > Chăm sóc xe điện` (`#160`), and `NT-000047` → WordPress `#3890` in `Blog > Pháp Lý & Kinh Nghiệm > An toàn khi di chuyển` (`#161`). Do **not** recreate or edit them.
 - Ledger `data/state/publication-ledger.json` controls publication identity. A new article's source hash, exact Topic ID, category ancestry and WordPress permalink are mandatory. Do not interpret a GitHub Actions `success` as a WordPress publish; read the ledger (`phase=VERIFIED`) and the public URL.
-- No topic Excel/category boundary approvals. AI may research the next genuinely distinct search intents via `data/candidates/*.jsonl` and Topic QA, and claim new `PLANNED` topics through W1/W2/W3. Writing still requires a running external AI session.
+- No topic Excel/category boundary approvals. AI may research the next genuinely distinct search intents via `data/candidates/*.jsonl` and Topic QA, and claim new `PLANNED` topics through W1–W9. Writing still requires a running external AI session.
 
 ## External Research Agent V2 — kế thừa cơ chế tốt của /global
 
