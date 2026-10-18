@@ -2,7 +2,7 @@
 
 **Site:** https://thuexemaynguyentu.com/ — repository thuexemayhanoi/wp-writer.
 
-**Mandatory rule:** Each new article needs **SEO QA ≥85/100**, quality score ≥75/100, and **PASS all six independent gates** before it is eligible for WordPress publication. This is the repository's own deterministic pre-publication QA, **not** an actual Yoast score, a Google ranking, or proof of indexing.
+**Mandatory rule:** Each new article needs **SEO QA ≥85/100**, quality score ≥85/100, and **PASS all six independent gates** before it is eligible for WordPress publication. This is the repository's own deterministic pre-publication QA, **not** an actual Yoast score, a Google ranking, or proof of indexing.
 
 ## 100-point SEO rubric
 

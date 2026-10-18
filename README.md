@@ -9,7 +9,7 @@
 > Không có bước duyệt tay; `acceptance_passed` và `security_controls_verified` không chặn đăng. Dừng khẩn chỉ bằng `paused` / `emergency_stop` trong `config/production-policy.json` (chỉ chủ đổi). Chỉ coi là đã đăng khi ledger có `phase=VERIFIED` và URL công khai mở được.
 
 
-> **SEO QA V2 / Website chính:** Bài mới chỉ đủ điều kiện WordPress **Published** khi **SEO ≥85/100**, Quality ≥75 và cả sáu cổng đều PASS. QA chấm title/meta, câu trả lời đầu bài, H2, linking, anchor, URL theo intent; SEO 84 → FAIL/REPAIR. Không bắt buộc ảnh/FAQ/CTA quảng cáo cho mọi bài. Xem [SEO QA V2](docs/SEO-QA-V2.md). **Production BẬT từ 17/10/2026** (lệnh chủ); ngưỡng QA không đổi.
+> **SEO QA V2 / Website chính:** Bài mới chỉ đủ điều kiện WordPress **Published** khi **SEO ≥85/100**, Quality ≥85 và cả sáu cổng đều PASS. QA chấm title/meta, câu trả lời đầu bài, H2, linking, anchor, URL theo intent; SEO 84 → FAIL/REPAIR. Không bắt buộc ảnh/FAQ/CTA quảng cáo cho mọi bài. Xem [SEO QA V2](docs/SEO-QA-V2.md). **Production BẬT từ 17/10/2026** (lệnh chủ); ngưỡng QA không đổi.
 
 
 **AI bên ngoài — một lệnh để bắt đầu:** [AI-START-HERE.md](docs/AI-START-HERE.md). Nhận tối đa 10 chủ đề, QA từng bài, tự nộp và nhận tiếp; không xin duyệt từng bài. Publisher nối ngay sau QA và **Production đang BẬT** (lệnh chủ 17/10/2026): bài QA PASS lên WordPress ngay. Chỉ coi là đã đăng khi ledger có `phase=VERIFIED` và URL công khai mở được.
@@ -388,7 +388,7 @@ Kế thừa ý tưởng tốt từ `/blog` và `/wp-aiwriter`, nhưng **không s
 
 ### Điểm QA nội bộ định hướng
 
-- Quality Score **≥75/100** và SEO Score **≥70/100** nếu triển khai scorer có tiêu chí/bằng chứng rõ ràng.
+- Quality Score **≥85/100** và SEO Score **≥85/100** (ngưỡng hiện hành trong `config/qa-rules.json`; đặc tả gốc ghi 75/70).
 - Gate riêng `business_fact=PASS`, `legal=PASS|NOT_REQUIRED`, `critical_failure=false`.
 - `90+` chỉ ghi nhãn nội bộ EXCELLENT, **không** đồng nghĩa Google đánh giá tốt hoặc bài có khả năng lên top.
 - Điểm tự động bằng pattern/proxy **không thay thế fact-check thực chất**; nếu không có bằng chứng phải REVIEW thay vì cộng điểm ảo.

@@ -4,7 +4,7 @@ This document is the single operating procedure for external Claude/W1/W2/W3 ses
 
 ## What actually runs
 
-W1/W2/W3 write and repair prose INSIDE their already-active Claude sessions. Python runs unchanged real G1–G6 QA and maintains revisions. GitHub Actions checks and records; it DOES NOT call Claude, an LLM or a paid API. The single trusted Publisher creates WordPress posts and runs G7. SEO >=85/100, quality >=75/100, 1,600–5,000 real words and all independent hard gates remain compulsory. Never edit config/qa-rules.json. Network/infrastructure retries remain at 3; content-repair limit is config/writer-repair.json (10).
+W1/W2/W3 write and repair prose INSIDE their already-active Claude sessions. Python runs unchanged real G1–G6 QA and maintains revisions. GitHub Actions checks and records; it DOES NOT call Claude, an LLM or a paid API. The single trusted Publisher creates WordPress posts and runs G7. SEO >=85/100, quality >=85/100, 1,600–5,000 real words and all independent hard gates remain compulsory. Never edit config/qa-rules.json. Network/infrastructure retries remain at 3; content-repair limit is config/writer-repair.json (10).
 
 Failing drafts and repair journals live ONLY on private-to-the-topic Git branches named repair/SESSION/NT-XXXXXX. Example: repair/claude_A/NT-000101. Checkpoint file on that branch: data/repair-checkpoints/SESSION/NT-XXXXXX.json. These branches never trigger the WordPress publishing workflow. Do not manually edit counters or claim/QA registries. Never force push.
 

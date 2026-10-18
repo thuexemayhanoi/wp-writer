@@ -150,6 +150,51 @@ class ResearcherToolingTests(unittest.TestCase):
         self.assertEqual(report['topics'][0]['nearest'][0]['id'], 'WP2556')
         self.assertTrue(report['how_to_resolve'])
 
+    def test_a_row_another_researcher_pushed_first_owns_the_intent(self):
+        mine = {'topic_id': 'NT-990002', 'title': 'Cách đọc thông số lốp xe máy 80/90-14',
+                'primary_keyword': 'đọc thông số lốp xe máy', 'proposed_slug': 'b'}
+        theirs = dict(mine, topic_id='NT-980001', title='Đọc thông số lốp xe máy 80/90-14 như thế nào', proposed_slug='c')
+        registered = dict(theirs, topic_id='NT-980002', title='Một chủ đề khác hẳn về áo mưa bộ')
+        ref = 'refs/remotes/origin/research/'
+        branches = {'peer-fresh': ('NT-980001', theirs), 'peer-stale': ('NT-980003', dict(theirs, topic_id='NT-980003')),
+                    'peer-registered': ('NT-980002', registered), 'me': ('NT-990002', mine)}
+        stamps = {'peer-fresh': 1000, 'peer-stale': 1000 - research.PEER_MAX_AGE - 1, 'peer-registered': 1000, 'me': 1000}
+
+        def fake_git(*args):
+            if args[0] == 'fetch':
+                return ''
+            if args[0] == 'for-each-ref':
+                return '\n'.join('%s%s %d' % (ref, name, stamps[name]) for name in branches)
+            name = args[3].rpartition('/')[2] if args[0] == 'ls-tree' else args[1].split(':')[0].rpartition('/')[2]
+            if args[0] == 'ls-tree':
+                return 'data/candidates/%s-0001.jsonl' % name
+            return json.dumps(branches[name][1], ensure_ascii=False)
+
+        with patch.object(research, 'git_read', side_effect=fake_git), \
+             patch.object(research, 'topics', lambda: [{'topic_id': 'NT-980002'}]):
+            rows, sessions = research.peer_rows('me', clock=1000)
+        self.assertEqual([r['topic_id'] for r in rows], ['NT-980001'])  # not stale, not registered, not mine
+        self.assertEqual(rows[0]['topic_qa_status'], 'PEER_PENDING')
+        self.assertEqual(sessions, {'peer-fresh': 1})
+        with tempfile.TemporaryDirectory() as folder:
+            (Path(folder) / 'data/candidates').mkdir(parents=True)
+            (Path(folder) / 'data/candidates/me-0001.jsonl').write_text(json.dumps(mine, ensure_ascii=False) + '\n',
+                                                                       encoding='utf-8')
+            with patch.object(research, 'ROOT', Path(folder)), patch.object(research, 'topics', lambda: []), \
+                 patch.object(research, 'load', lambda path, default=None: {'items': SITE_POSTS}), \
+                 patch.object(research, 'peer_rows', return_value=(rows, sessions)):
+                with_peers = research.intent_check('data/candidates/me-0001.jsonl')
+                without = research.intent_check('data/candidates/me-0001.jsonl', peers=False)
+        self.assertEqual(with_peers['topics'][0]['errors'], ['intent collision:NT-980001'])
+        self.assertEqual(with_peers['peers'], {'pending_rows': 1, 'from': {'peer-fresh': 1}})
+        self.assertEqual(without['topics'][0]['verdict'], 'PASS')
+
+    def test_peer_check_degrades_to_the_registry_when_git_is_unreachable(self):
+        with patch.object(research, 'git_read', side_effect=ValueError('Git research command failed: fetch origin')):
+            rows, note = research.peer_rows('me')
+        self.assertEqual(rows, [])
+        self.assertIn('unavailable', note)
+
     def test_plan_reports_the_order_without_touching_anything(self):
         plan = research.refill_plan()
         self.assertIn('state', plan)
@@ -192,3 +237,12 @@ class SweepTests(unittest.TestCase):
              patch.object(intake, 'ingest', side_effect=lambda b, c, d=False: seen.append(d) or {'status': 'WOULD_INGEST'}):
             intake.sweep(dry_run=True)
         self.assertEqual(seen, [True])
+
+    def test_the_intake_workflow_sweeps_on_every_event_and_has_its_own_concurrency_group(self):
+        text = (ROOT / '.github/workflows/topic-research-intake.yml').read_text()
+        self.assertIn('group: wp-writer-research-intake', text)
+        self.assertNotIn('group: wp-writer-state', text)  # a shared group starved the pending intake run
+        self.assertIn('python scripts/research_intake.py --sweep', text)
+        self.assertIn('if: always() && job.status', text)
+        for trigger in ('workflow_run:', 'schedule:', 'workflow_dispatch:'):
+            self.assertIn(trigger, text)

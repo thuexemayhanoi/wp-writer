@@ -40,7 +40,7 @@ Nội dung không thêm H1 (WordPress tự dùng title), có ít nhất 4 H2 h�
 
 ## SEO QA V2 — yêu cầu trước khi nộp bài (từ 17/10/2026)
 
-Tất cả bài mới phải đạt **SEO score nội bộ ≥85/100**, Quality ≥75, và **PASS cả sáu gates**. Xem [bảng chấm điểm và tiêu chuẩn site chính](SEO-QA-V2.md).
+Tất cả bài mới phải đạt **SEO score nội bộ ≥85/100**, Quality ≥85, và **PASS cả sáu gates**. Xem [bảng chấm điểm và tiêu chuẩn site chính](SEO-QA-V2.md).
 
 - SEO title và meta description phải thể hiện đúng search intent, viết tự nhiên; đừng cố nhồi exact keyword.
 - Mở bài trả lời trực tiếp, H2 liên quan thực tế và có giá trị, không lặp mẫu kéo dài.

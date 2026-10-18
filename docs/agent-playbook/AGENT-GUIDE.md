@@ -44,7 +44,7 @@ rental-procedures, rental-costs, rental-50cc, ebikes, battery-charging, electric
 - meta_title 15–70 chars; meta_description 100–180 chars; both must contain most primary-keyword tokens.
 - No raw HTML/`<…>`, no "data:", "TODO/TBD/placeholder", no phone numbers, no repeated paragraph; no sentence repeated ≥3 times (NB: the splitter cuts at every "." so a price like "250.000 đồng" repeated in 3 places trips "Repeated sentence" — rephrase).
 - Do not claim shop services; link to money pages only naturally (max 1–2) and with no prices/deposit numbers (they must match business-facts if present).
-- SEO score must reach ≥85 (target 100), quality ≥75, status PASS. Fix by editing the body/spec, never by touching QA.
+- SEO score must reach ≥85 (target 100), quality ≥85, status PASS. Fix by editing the body/spec, never by touching QA.
 - Style: practical, specific, hedged for time-sensitive facts, no padding, no keyword stuffing, no marketing superlatives. Explain how to verify; give checklists; separate what the source says from your own advice.
 
 ## AUTO-REPAIR WRITER — 10 CONTENT REVISIONS (18/10/2026)

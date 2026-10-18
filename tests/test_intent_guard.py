@@ -196,6 +196,52 @@ class WaiverTests(unittest.TestCase):
         self.assertEqual(result['errors'], ['intent collision:WP2556'])
 
 
+class LatePublicationTests(unittest.TestCase):
+    """A post the factory published after the research snapshot cannot have been read: REVIEW is dropped, FAIL never."""
+    TITLE = 'Cách kiểm tra lốp xe máy trước khi đi xa'
+
+    def result(self, published, research, title=None, post_id=2521):
+        inventory = [dict(item, factory_published_at=published) if item['id'] == post_id and published else item
+                     for item in INVENTORY]
+        candidate = topic('NT-000300', title or self.TITLE, status=None, research=research)
+        return guard.assess_topic(candidate, [candidate], inventory, new_ids={'NT-000300'})
+
+    def test_a_post_published_after_the_research_is_not_held_against_the_topic(self):
+        found = self.result('2026-10-18T02:05:00+00:00', {'reviewed_at': '2026-10-18T02:00:00+00:00'})
+        self.assertEqual(found['review'], [])
+        self.assertEqual(found['matches'][0]['id'], 'WP2521')  # still reported for the audit trail
+
+    def test_a_post_that_existed_when_the_researcher_read_still_needs_a_written_reason(self):
+        found = self.result('2026-10-18T01:55:00+00:00', {'reviewed_at': '2026-10-18T02:00:00+00:00'})
+        self.assertEqual(found['review'], ['near intent:WP2521'])
+
+    def test_the_snapshot_time_wins_over_the_review_time(self):
+        research = {'reviewed_at': '2026-10-18T02:09:00+00:00', 'inventory_updated_at': '2026-10-18T02:04:00+00:00'}
+        self.assertEqual(self.result('2026-10-18T02:05:00+00:00', research)['review'], [])
+        late_snapshot = dict(research, inventory_updated_at='2026-10-18T02:06:00+00:00')
+        self.assertEqual(self.result('2026-10-18T02:05:00+00:00', late_snapshot)['review'], ['near intent:WP2521'])
+
+    def test_a_post_the_factory_did_not_publish_is_never_waived(self):
+        found = self.result(None, {'reviewed_at': '2026-10-18T02:00:00+00:00'})
+        self.assertEqual(found['review'], ['near intent:WP2521'])
+
+    def test_a_row_without_any_research_time_is_never_waived(self):
+        self.assertEqual(self.result('2026-10-18T02:05:00+00:00', {})['review'], ['near intent:WP2521'])
+
+    def test_a_fail_is_never_waived_by_publication_time(self):
+        found = self.result('2026-10-18T02:05:00+00:00', {'reviewed_at': '2026-10-18T02:00:00+00:00'},
+                            title='Xe 50cc có cần bằng lái không?', post_id=2556)
+        self.assertEqual(found['errors'], ['intent collision:WP2556'])
+
+    def test_only_wordpress_posts_can_be_late(self):
+        index = guard.IntentIndex([], [])
+        index.published_at = {'WP1': '2026-10-18T02:05:00+00:00'}
+        research = {'reviewed_at': '2026-10-18T02:00:00+00:00'}
+        late = {'kind': 'wordpress', 'id': 'WP1'}
+        self.assertTrue(guard._published_after_research(late, {'research': research}, index))
+        self.assertFalse(guard._published_after_research(dict(late, kind='topic:PLANNED'), {'research': research}, index))
+
+
 class CalibrationTests(unittest.TestCase):
     """The thresholds were tuned on the real site: distinct posts pass, true overlaps are flagged."""
     # Overlapping commercial rental guides that the owner already publishes side by side.

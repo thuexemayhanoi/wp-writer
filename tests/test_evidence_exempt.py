@@ -57,6 +57,15 @@ class EvidenceExemptTests(unittest.TestCase):
         self.assertEqual(result['status'], 'REVIEW')
         self.assertIn('nearest full content not reviewed', result['review'])
 
+    def test_the_inventory_snapshot_time_is_the_reference_when_recorded(self):
+        # Published after the researcher's snapshot but before the review was written down: still not readable.
+        self.topic['research']['reviewed_at'] = '2026-10-17T19:00:00+00:00'
+        self.topic['research']['inventory_updated_at'] = '2026-10-17T18:50:00+00:00'
+        between = {**self.factory, 'factory_published_at': '2026-10-17T18:55:00+00:00'}
+        self.assertEqual(self.gate(self.baseline, between)['status'], 'PASS')
+        before = {**self.factory, 'factory_published_at': '2026-10-17T18:40:00+00:00'}
+        self.assertEqual(self.gate(self.baseline, before)['status'], 'REVIEW')
+
     def test_a_page_without_the_factory_stamp_is_never_waived(self):
         self.topic['research']['reviewed_at'] = '2026-10-17T19:00:00+00:00'
         self.assertEqual(self.gate(self.baseline, self.factory)['status'], 'REVIEW')
