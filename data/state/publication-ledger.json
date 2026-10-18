@@ -4443,7 +4443,7 @@
       }
     },
     "NT-000324": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T09:04:20.702090+00:00",
       "source_hash": "56811d480b9d77231996f42d55f40f19fbf483a9eab399ac12289cc92d5e9ccf",
       "slug": "vao-cua-xe-may-an-toan-giam-toc-truoc-cua-di-dung-lan-va-tang-ga-tu-tu-khi-ra-khoi-cua",
@@ -4458,8 +4458,37 @@
       "category_warning": null,
       "git_commit": "12b678736ce51751511356d452c85984e8a67609",
       "run_id": "39113651665",
-      "updated_at": "2026-10-18T09:04:24.256641+00:00",
-      "wp_id": 4043
+      "updated_at": "2026-10-18T09:04:29.887306+00:00",
+      "wp_id": 4043,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/vao-cua-xe-may-an-toan-giam-toc-truoc-cua-di-dung-lan-va-tang-ga-tu-tu-khi-ra-khoi-cua/",
+      "verified_at": "2026-10-18T09:04:29.887298+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4043,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/vao-cua-xe-may-an-toan-giam-toc-truoc-cua-di-dung-lan-va-tang-ga-tu-tu-khi-ra-khoi-cua/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/vao-cua-xe-may-an-toan-giam-toc-truoc-cua-di-dung-lan-va-tang-ga-tu-tu-khi-ra-khoi-cua/",
+        "seo_title": "Vào cua xe máy an toàn: sáu bước cua vòng theo Honda Việt Nam",
+        "seo_description": "Vào cua xe máy an toàn theo sáu bước cua vòng trong tài liệu huấn luyện của Honda Việt Nam, kèm cách dùng gương, chở người ngồi sau và cua khi đường trơn, sương mù.",
+        "checked_at": "2026-10-18T09:04:29.887279+00:00"
+      }
     }
   },
   "categories": {}
