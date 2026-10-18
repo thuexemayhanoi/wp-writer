@@ -4587,7 +4587,7 @@
       }
     },
     "NT-000556": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:01:07.248741+00:00",
       "source_hash": "d45fc0ace81ff13687968a7ce9329859d5ef58bfc2f4ebf8123191b5587e57cc",
       "slug": "pu-luong-bang-xe-may-tu-ha-noi-quoc-lo-6-qua-mai-chau-hay-duong-ho-chi-minh-qua-cuc-phuong",
@@ -4602,8 +4602,37 @@
       "category_warning": null,
       "git_commit": "787ea058f3dc3498e5fa41e036bbf432d3dcd872",
       "run_id": "39133898923",
-      "updated_at": "2026-10-18T14:01:10.996778+00:00",
-      "wp_id": 4061
+      "updated_at": "2026-10-18T14:01:17.770484+00:00",
+      "wp_id": 4061,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/pu-luong-bang-xe-may-tu-ha-noi-quoc-lo-6-qua-mai-chau-hay-duong-ho-chi-minh-qua-cuc-phuong/",
+      "verified_at": "2026-10-18T14:01:17.770477+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4061,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/pu-luong-bang-xe-may-tu-ha-noi-quoc-lo-6-qua-mai-chau-hay-duong-ho-chi-minh-qua-cuc-phuong/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/pu-luong-bang-xe-may-tu-ha-noi-quoc-lo-6-qua-mai-chau-hay-duong-ho-chi-minh-qua-cuc-phuong/",
+        "seo_title": "Pù Luông bằng xe máy từ Hà Nội: quốc lộ 6 hay đường Hồ Chí Minh",
+        "seo_description": "Pù Luông bằng xe máy từ Hà Nội: hai hướng qua Mai Châu hoặc Cúc Phương theo VnExpress, thời gian 4 đến 6 giờ là ước tính ô tô, cách chọn mùa và đi trong khu bảo tồn.",
+        "checked_at": "2026-10-18T14:01:17.770459+00:00"
+      }
     }
   },
   "categories": {}
