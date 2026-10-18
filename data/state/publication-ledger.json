@@ -1179,7 +1179,7 @@
       }
     },
     "NT-000263": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T02:21:05.216217+00:00",
       "source_hash": "b653ece950fbcef9a040cafff110c94354850f4b503c5a39fec3adc21bf0db95",
       "slug": "kiem-tra-muc-nhot-xe-may-cach-xem-que-tham-va-kinh-tham-nhot-doc-vach-min-max",
@@ -1194,8 +1194,37 @@
       "category_warning": null,
       "git_commit": "92a43bf381eb09d2382a7be05a7dc8956f9c4d92",
       "run_id": "39089629280",
-      "updated_at": "2026-10-18T02:21:08.986332+00:00",
-      "wp_id": 3970
+      "updated_at": "2026-10-18T02:21:14.958301+00:00",
+      "wp_id": 3970,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/kiem-tra-muc-nhot-xe-may-cach-xem-que-tham-va-kinh-tham-nhot-doc-vach-min-max/",
+      "verified_at": "2026-10-18T02:21:14.958294+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3970,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/kiem-tra-muc-nhot-xe-may-cach-xem-que-tham-va-kinh-tham-nhot-doc-vach-min-max/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/kiem-tra-muc-nhot-xe-may-cach-xem-que-tham-va-kinh-tham-nhot-doc-vach-min-max/",
+        "seo_title": "Kiểm tra mức nhớt xe máy: que thăm, kính thăm và vạch Min – Max",
+        "seo_description": "Kiểm tra mức nhớt xe máy bằng que thăm hoặc kính thăm nhớt: các bước theo hướng dẫn của Yamaha, cách đọc vạch Min – Max, màu nhớt và điều cần đối chiếu sách hướng dẫn.",
+        "checked_at": "2026-10-18T02:21:14.958277+00:00"
+      }
     }
   },
   "categories": {}
