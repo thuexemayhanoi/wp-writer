@@ -843,7 +843,7 @@
       }
     },
     "NT-000203": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T02:08:38.910482+00:00",
       "source_hash": "c65327dd16757a30bbcc7d0bb5068b6f9898b76a74356ce4ee16a4031d278702",
       "slug": "sang-so-xe-con-tay-em-con-ra-ga-vao-bop-con-nhanh-nha-con-cham-va-cach-ve-so-khi-giam-toc",
@@ -858,8 +858,37 @@
       "category_warning": null,
       "git_commit": "fa638b362a7da9018ce259aac34a3336cf26c05c",
       "run_id": "39088910527",
-      "updated_at": "2026-10-18T02:08:42.593377+00:00",
-      "wp_id": 3963
+      "updated_at": "2026-10-18T02:08:48.002560+00:00",
+      "wp_id": 3963,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/sang-so-xe-con-tay-em-con-ra-ga-vao-bop-con-nhanh-nha-con-cham-va-cach-ve-so-khi-giam-toc/",
+      "verified_at": "2026-10-18T02:08:48.002553+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3963,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/sang-so-xe-con-tay-em-con-ra-ga-vao-bop-con-nhanh-nha-con-cham-va-cach-ve-so-khi-giam-toc/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/sang-so-xe-con-tay-em-con-ra-ga-vao-bop-con-nhanh-nha-con-cham-va-cach-ve-so-khi-giam-toc/",
+        "seo_title": "Sang số xe côn tay êm: côn ra ga vào, nhả côn chậm, về số giảm tốc",
+        "seo_description": "Sang số xe côn tay êm: nguyên tắc bóp côn nhanh nhả côn chậm, côn ra ga vào, trình tự về số khi giảm tốc và những điểm các nguồn nói khác nhau, kèm cách tập ở nơi vắng.",
+        "checked_at": "2026-10-18T02:08:48.002534+00:00"
+      }
     }
   },
   "categories": {}
