@@ -35,7 +35,7 @@ Số 8 PLANNED / 72 research là **snapshot ban đầu**, không phải số m�
 
 ### SEO V2 trên website chính — không chấp nhận SEO thấp
 
-Mỗi bài phải đạt SEO ≥85/100 và quality ≥75/100; G1–G6 vẫn PASS độc lập. Xem [SEO QA V2](SEO-QA-V2.md). Khi nhận SEO_SCORE_BELOW_MIN, đọc seo_checks / seo_recommendations, cải thiện nội dung thực chất và chạy lại SHA-256 + QA rồi mới push. Không khai giả SEO score. Từ 17/10/2026 Production đã BẬT: bài push lên `main` và qua QA sẽ được Publisher đăng lên WordPress ngay, nên chỉ push khi bài đã tự rà soát nguồn và số liệu.
+Mỗi bài phải đạt SEO ≥85/100 và quality ≥85/100; G1–G6 vẫn PASS độc lập. Xem [SEO QA V2](SEO-QA-V2.md). Khi nhận SEO_SCORE_BELOW_MIN, đọc seo_checks / seo_recommendations, cải thiện nội dung thực chất và chạy lại SHA-256 + QA rồi mới push. Không khai giả SEO score. Từ 17/10/2026 Production đã BẬT: bài push lên `main` và qua QA sẽ được Publisher đăng lên WordPress ngay, nên chỉ push khi bài đã tự rà soát nguồn và số liệu.
 
 ## AUTO-REPAIR WRITER — 10 CONTENT REVISIONS (18/10/2026)
 

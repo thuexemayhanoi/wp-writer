@@ -67,7 +67,7 @@ The remote research branch/checkpoint is the source of truth. A dirty clone or d
 - Verify all prices, deposit and delivery claims against data/business-facts.json; legal sources must be authoritative and current; fake first-hand experience is forbidden.
 - Approved canonical capacity is currently 1,000; research proposal ceiling is 10,000 and is not permission to publish that many.
 - The discovery scheduler emits up to 20 research leads/run and caps unresearched backlog at 300. They remain AWAITING_AI_RESEARCH until an external AI actually researches them.
-- Topic QA PASS is separate from Writer article QA. Every newly written article must meet SEO V2 >=85, Quality >=75 and all six gates before WordPress publication can be considered.
+- Topic QA PASS is separate from Writer article QA. Every newly written article must meet SEO V2 >=85, Quality >=85 and all six gates before WordPress publication can be considered.
 - Research batches never publish; the Publisher (production ON since 2026-10-17) only posts QA-PASS articles written from PLANNED topics.
 
 ## Files

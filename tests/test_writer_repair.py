@@ -111,7 +111,7 @@ class CheckpointTests(unittest.TestCase):
     def test_qa_rules_remain_unchanged(self):
         rules = common.load("config/qa-rules.json")
         self.assertEqual(rules["seo_min"], 85)
-        self.assertEqual(rules["quality_min"], 75)
+        self.assertEqual(rules["quality_min"], 85)
 
 
 class GitBranchPersistenceTests(unittest.TestCase):

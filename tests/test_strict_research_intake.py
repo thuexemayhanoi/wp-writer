@@ -192,3 +192,12 @@ class SweepTests(unittest.TestCase):
              patch.object(intake, 'ingest', side_effect=lambda b, c, d=False: seen.append(d) or {'status': 'WOULD_INGEST'}):
             intake.sweep(dry_run=True)
         self.assertEqual(seen, [True])
+
+    def test_the_intake_workflow_sweeps_on_every_event_and_has_its_own_concurrency_group(self):
+        text = (ROOT / '.github/workflows/topic-research-intake.yml').read_text()
+        self.assertIn('group: wp-writer-research-intake', text)
+        self.assertNotIn('group: wp-writer-state', text)  # a shared group starved the pending intake run
+        self.assertIn('python scripts/research_intake.py --sweep', text)
+        self.assertIn('if: always() && job.status', text)
+        for trigger in ('workflow_run:', 'schedule:', 'workflow_dispatch:'):
+            self.assertIn(trigger, text)
