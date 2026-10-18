@@ -1,30 +1,30 @@
 {
-  "at": "2026-10-18T07:57:53.945357+00:00",
+  "at": "2026-10-18T08:04:59.922430+00:00",
   "stages": {
     "IDEA": 180,
     "RESEARCH": 72,
     "REJECTED": 1,
     "PLANNED": 10,
-    "PLANNED_HOLD": 2,
-    "CLAIMED": 11,
+    "PLANNED_HOLD": 3,
+    "CLAIMED": 20,
     "AUTHORED": 1,
     "QA_PASS": 0,
     "PUBLISHED": 105,
     "WP_DRAFT": 0
   },
-  "topic_rows": 202,
+  "topic_rows": 212,
   "ready": 10,
   "ready_ids": [
-    "NT-000551",
-    "NT-000552",
-    "NT-000553",
-    "NT-000554",
-    "NT-000555",
-    "NT-000556",
-    "NT-000557",
-    "NT-000558",
-    "NT-000559",
-    "NT-000560"
+    "NT-000521",
+    "NT-000522",
+    "NT-000523",
+    "NT-000524",
+    "NT-000525",
+    "NT-000526",
+    "NT-000527",
+    "NT-000528",
+    "NT-000529",
+    "NT-000530"
   ],
   "on_hold": {
     "NT-000111": {
@@ -38,6 +38,12 @@
       "since": "2026-10-17",
       "checked": "owner open-source policy 18 Oct: unreadable sources no longer block; held for intent overlap with published posts",
       "unblock": "tách ý định hoặc nghiên cứu lại thành chủ đề mới"
+    },
+    "NT-000285": {
+      "reason": "Trùng ý định với bài đã đăng #3981 (NT-000227, đèn AHO/DRL): cùng hai mục hỏi đáp Honda, cả 6 ý của outline đã có ở bài đó (phiên seodev-w20 đã đối chiếu và không viết).",
+      "since": "2026-10-18",
+      "checked": "writer seodev-w20 đối chiếu nội dung #3981 ngày 2026-10-18; điều phối viên giữ lại để tránh bài trùng",
+      "unblock": "tách ý định khỏi #3981 hoặc nghiên cứu lại thành chủ đề mới"
     }
   },
   "min_ready": 900,
@@ -45,6 +51,6 @@
   "needs_research": true,
   "shortfall": 890,
   "room_to_target_max": 1090,
-  "lifetime_planned": 129,
+  "lifetime_planned": 139,
   "note": "PLANNED counts only topics a writer can still take. Published, claimed, authored, held, RESEARCH and IDEA are never added to it."
 }

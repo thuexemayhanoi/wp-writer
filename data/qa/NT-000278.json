@@ -70,16 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=phu-kien&search=honda",
-      "supports": "Honda Việt Nam (mục hỏi đáp, cập nhật 21/09/2021): dầu tổng hợp cao cấp MA SL 10W-30 (1,2 L) cho xe côn tay và xe phân khối lớn; dầu chai MA cho xe số.",
-      "sha256": "045e71290e2a8ac2a9d8c4fb58a5bf580005d18648184321954b09240cffa6e7",
-      "verified_at": "2026-10-18T07:57:06.942948+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -114,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T07:57:20.591151+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T08:03:16.788289+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "fca19a9a0757ebdd0dd0c00a3439fae56f8b17974a5a2f2dfe042519245444c2",
+  "inventory_sha256": "d2dfefa179e0120a1a08ecc18d4f65fcb5177f9779470718b472e42b58a5c989",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
