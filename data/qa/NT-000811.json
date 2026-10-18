@@ -1,0 +1,170 @@
+{
+  "topic_id": "NT-000811",
+  "status": "PASS",
+  "source_sha256": "a7f48cb12803004a365538f228d40760ee2023fa887521cbcf518deb34450164",
+  "body_sha256": "a5cff36b0ffc7c1bf62797b5f8cb6c1c49764d1e9f1b566f916941499ce903d4",
+  "word_count": 3736,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://travel.gc.ca/destinations/vietnam",
+      "supports": "Trang tư vấn của Canada (cập nhật 13/10/2026): lừa đảo bài bạc ở Hà Nội và TP HCM; lời mời về nhà gặp người thân quan tâm đến việc sang Canada, ván bài nhỏ ban đầu, có nạn nhân mất hàng nghìn đô la; các bước nếu bị lừa (đến nơi an toàn, ghi tên và địa chỉ nơi bị giữ, báo công an và xin biên bản, báo ngân hàng); mục Credit card and ATM fraud: lừa đảo thẻ và ATM xảy ra thường xuyên, các lời khuyên; mục tội phạm giả làm tài xế taxi ở sân bay Nội Bài ép nạn nhân rút tiền ở ATM",
+      "sha256": "126c661b0baedc6f2c337d9d931cfdb12a6a068ad2779ba0c38fbef1e0fbf156",
+      "verified_at": "2026-10-18T23:59:20.105133+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+      "supports": "Trang Smartraveller của Úc (cập nhật 24/09/2026): mục Scams: nhiều du khách là nạn nhân của lừa đảo thẻ tín dụng, thẻ ghi nợ, taxi và bài bạc; skimming thẻ xảy ra khắp Việt Nam; cẩn thận người quá thân thiện mời về nhà và ván bài gian lận; giữ thẻ trong tầm mắt, không để lộ mã PIN, kiểm tra sao kê; chỉ dùng ATM tại ngân hàng, khách sạn uy tín và trung tâm mua sắm; báo công an nếu bị lừa bài bạc",
+      "sha256": "b21f280d5c64c04d3676dbcb17d6d239db87531c6c946119451121226fe3e36f",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    },
+    {
+      "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/vietnam/",
+      "supports": "Trang của Bộ Ngoại giao Ireland (cập nhật 22/04/2026): mục Money: thẻ tín dụng ngày càng phổ biến nhưng ngoài các trung tâm lớn có thể chỉ nhận tiền mặt; ATM còn ít và chỉ có ở các thành phố lớn và khu du lịch; nên mang đủ tiền cho chuyến đi; mục an toàn: không mang cùng lúc thẻ, vé và tiền mặt",
+      "sha256": "82d2f11f624816ffdbed44f00cd33eb26b9f7f3409f8403611f1917fa1b86b51",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 880,
+        "title": "Thuê Xe Máy Vinhomes Ocean Park – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "b43165d661569b15fff3fe73a40aa6936cbb4c895b1f2469ce22cab0ddf134d9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 912,
+        "title": "Cho Thuê Xe Máy Gần Hai Bà Trưng Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "e3a1939cca55f0bccd95c320658c1807feb7d19588435fda4d8fbc016652f731",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2367,
+        "title": "Có Nên Sạc Xe Máy Điện Tại Nhà? Kinh Nghiệm An Toàn Khi Sử Dụng",
+        "why": "stale",
+        "content_hash": "8768183f030319ed7647591d37ba6e25af1e5ac274f69cc230b87c74a28fe158",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2395,
+        "title": "Trạm đổi pin VinFast hoạt động thế nào và phù hợp với ai khi dùng?",
+        "why": "stale",
+        "content_hash": "9f9843961c374c21766abd5bb5050f062102544f65af6bdc3a63b572f32ea88e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4058,
+        "title": "Thuê xe máy khi chăm người nhà ở bệnh viện Hà Nội: tính ngày thuê và sắp lịch đi lại",
+        "why": "stale",
+        "content_hash": "92611919afd9af68489111c1f99c127439f1c41b7a945f6d846768a64175f9f5",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T23:59:26.466818+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "9cce5779dc8efd8d7bf01ac04413162891a6b781632822567779dbb430e20f6e",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
