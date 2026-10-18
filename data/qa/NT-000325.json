@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.honda.com.vn/tin-tuc/ve-honda/honda-viet-nam-trien-khai-huong-dan-phap-luat-ve-trat-tu-an-toan-giao-thong-va-ky-nang-lai-xe-an-toan-tren-dia-ban-trong-diem",
-      "supports": "Honda Việt Nam (tin 28/01/2026): chương trình huấn luyện kỹ năng lái xe an toàn cho người dân 18–70 tuổi tại Đan Phượng, Hà Nội, tập trung kỹ năng phán đoán và phòng tránh rủi ro trong điều kiện thực tế như đi từ đường nhánh ra đường chính, lái xe ban đêm.",
-      "sha256": "34c4f243c31f518f45068cb3fe7ce02122297688858789129c8bea28c7b3938e",
-      "verified_at": "2026-10-18T09:04:34.340007+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vov.gov.vn/kinh-nghiem-tranh-va-cham-khi-qua-cac-nut-giao-dtnew-404295",
-      "supports": "VOV (cập nhật 03/07/2022): kinh nghiệm qua nút giao: giảm tốc độ trước khi tới nút giao, quan sát xe cắt ngang (bên trái trước, bên phải sau), có thể dừng hẳn rồi quan sát; gặp xe chạy tốc độ cao thì tránh vì họ có thể không nhìn thấy bạn.",
-      "sha256": "8971d2809ab5afff371e2fbadb92eceec58af02c58dcb6308ca7068839fb3fd9",
-      "verified_at": "2026-10-18T09:04:40.341295+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vov.gov.vn/nhung-luu-y-cho-chi-em-khi-di-xe-may-duoi-troi-nang-nong-de-tranh-tai-nan-dtnew-1083453",
-      "supports": "VOV (17/07/2025): thói quen rẽ và chuyển hướng theo cảm tính, đợi đến lúc rẽ mới bật xi nhan rồi rẽ luôn khiến người đi sau trở tay không kịp.",
-      "sha256": "7594e18764655b041b3aa9c479eda19dd28200a7d3ee9a06537605ab5f262268",
-      "verified_at": "2026-10-18T09:04:45.697811+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -130,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T09:04:55.251035+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T09:06:06.803583+00:00",
+  "live_links_checked": false,
   "legal_required": true,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "69e328005d431c59d5a99d3f17d3b1a3e08da0a81beba00158496e38307508d4",
+  "inventory_sha256": "49f1213d0ed2a6e8bd1b052c8e4a44018f1c648a3bcbe12a57a9823b9c32179c",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

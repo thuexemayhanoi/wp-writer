@@ -70,48 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://tuoitre.vn/plo/khoang-cach-an-toan-khi-lai-xe-bai-hoc-dau-tien-cho-nguoi-moi-109906309.htm",
-      "supports": "Pháp Luật TP.HCM trên tuoitre.vn (29/04/2026), bài chung cho người lái xe: cách đếm 2–3 giây bằng mốc cố định, khoảng cách lý tưởng theo tốc độ, tăng khoảng cách 1,5–2 lần khi mưa, sương; tăng khoảng cách khi đi sau xe tải, xe khách lớn, ban đêm.",
-      "sha256": "e87cfc4b2baf799b22593b56e81e366f7c5575b825f1cd806d33181c965fce95",
-      "verified_at": "2026-10-18T09:02:57.311861+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.mps.gov.vn/bai-viet/canh-sat-giao-thong-lao-cai-tuyen-truyen-an-toan-tren-tuyen-duong-mu-suong-sa-pa-1766843851",
-      "supports": "Cổng thông tin Bộ Công an (mps.gov.vn, 27/12/2025): CSGT Lào Cai hướng dẫn giữ khoảng cách an toàn tuyệt đối với xe phía trước khi sương mù và đường trơn.",
-      "sha256": "8e0ac81910d0f990d374f9e9f9f384f0bff999deff3a4d5d2c857e4689fb31b4",
-      "verified_at": "2026-10-18T09:03:00.286821+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vov.gov.vn/di-xe-may-mua-mua-bao-can-luu-y-dieu-gi-dtnew-214937",
-      "supports": "VOV (29/10/2020): nhiều người bám sát đuôi xe trước nên khi xe đó báo rẽ hoặc dừng đột ngột thì xử lý không kịp; nên giữ khoảng cách với xe trước và sau.",
-      "sha256": "59630003e0b4e805a1976a68fb5c304241981795b9efd8044891e83b259bd456",
-      "verified_at": "2026-10-18T09:03:18.191662+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vov.gov.vn/bi-quyet-di-duong-an-toan-trong-mua-bao-dtnew-1100124",
-      "supports": "VOV (24/07/2025), chuyên gia an toàn giao thông: khi mưa bão giữ khoảng cách xa hơn bình thường để kịp xử lý tình huống bất ngờ.",
-      "sha256": "aaf22643278857cd6581f77e50dcefc2a65ab7422af27c626673ee4ec06ade2e",
-      "verified_at": "2026-10-18T09:03:36.777583+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://tuoitre.vn/canh-sat-giao-thong-tp-hcm-canh-bao-diem-mu-cua-xe-tai-trong-lon-xe-may-de-bi-nuot-chung-20250904170725021.htm",
-      "supports": "Tuổi Trẻ (04/09/2025) dẫn Phòng CSGT Công an TP.HCM: khi dừng chờ đèn đỏ không đứng quá sát phía sau đuôi xe và hông xe tải, xe khách lớn.",
-      "sha256": "385542b2e9d3274674c1a9f46af168d848d2e207dde0fde5ec9a61983f045e87",
-      "verified_at": "2026-10-18T09:03:39.176913+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -137,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T09:03:46.743341+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T09:06:06.457503+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "7e6e7c7cff340ce596cc1f026e73b6553833e419f1cfa6320b9088c305fdc774",
+  "inventory_sha256": "49f1213d0ed2a6e8bd1b052c8e4a44018f1c648a3bcbe12a57a9823b9c32179c",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

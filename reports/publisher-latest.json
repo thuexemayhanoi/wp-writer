@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-18T09:05:35.589765+00:00",
-  "attempted": 4,
+  "at": "2026-10-18T09:07:37.666070+00:00",
+  "attempted": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -99,11 +99,11 @@
       ],
       "source_evidence": [],
       "evidence_recheck": null,
-      "at": "2026-10-18T09:02:54.568642+00:00",
+      "at": "2026-10-18T09:07:37.623607+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "7e6e7c7cff340ce596cc1f026e73b6553833e419f1cfa6320b9088c305fdc774",
+      "inventory_sha256": "48249a28125b5f0e7f9896cd24e3e8119c9c7bf90cf21b1eb9268799f1f10cc4",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -118,38 +118,6 @@
         "exhausted": false,
         "needs_owner": false
       }
-    },
-    {
-      "topic_id": "NT-000323",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000324",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000325",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000326",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
-      "category_warning": null
     }
   ],
   "backlog_drains_on": "successful Writer QA or fallback schedule",
