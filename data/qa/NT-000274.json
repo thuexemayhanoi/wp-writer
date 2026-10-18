@@ -1,10 +1,10 @@
 {
   "topic_id": "NT-000274",
-  "status": "REVIEW",
-  "source_sha256": "840ea7bce574e789af7c4b9b6c85b9139d49a1732c3cd81629d60faa5decb3cc",
+  "status": "PASS",
+  "source_sha256": "f8fd2a33cb8975dc42af8756cf591c3b1b346337b7cbce4bcb14ff963814fea3",
   "body_sha256": "4b70c5f9328df5316029dcea0a5feedf72a7dda19c81dcbeb3f5477f484c7015",
   "word_count": 2816,
-  "quality_score": 85,
+  "quality_score": 100,
   "seo_score": 100,
   "seo_min_required": 85,
   "seo_checks": {
@@ -53,9 +53,7 @@
     },
     "3": {
       "errors": [],
-      "review": [
-        "Source REVIEW: ValueError: Source excerpt not found"
-      ]
+      "review": []
     },
     "4": {
       "errors": [],
@@ -71,19 +69,8 @@
     }
   },
   "errors": [],
-  "review": [
-    "Source REVIEW: ValueError: Source excerpt not found"
-  ],
-  "source_evidence": [
-    {
-      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=phu-kien&search=honda",
-      "supports": "Honda Việt Nam (mục hỏi đáp, cập nhật 21/09/2021): dầu truyền động cuối (dầu láp) theo tiêu chuẩn Honda thay khoảng 2 năm một lần, rút ngắn khi tải nặng hoặc chạy đường dài; kiểm tra khi đi qua đoạn ngập nước.",
-      "sha256": "045e71290e2a8ac2a9d8c4fb58a5bf580005d18648184321954b09240cffa6e7",
-      "verified_at": "2026-10-18T07:50:01.767601+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "review": [],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -109,21 +96,19 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T07:50:10.663080+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T11:44:56.209561+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "42f142702a75b5d05f67e2d041281ca0c708a23a7e7b8e3b6052c20e98c60079",
+  "inventory_sha256": "5d5e16d063703dd6c3ed2098a51c20509c1db06375a5c219cd2b2a91f95def21",
   "triage": {
-    "hold_class": "REAL_RISK",
-    "real_risk": [
-      "G3: Source REVIEW: ValueError: Source excerpt not found"
-    ],
+    "hold_class": "NONE",
+    "real_risk": [],
     "writer_repair": [],
     "infra_pending": []
   },
   "recheck": {
-    "attempts": 1,
+    "attempts": 0,
     "max": 3,
     "exhausted": false,
     "needs_owner": false

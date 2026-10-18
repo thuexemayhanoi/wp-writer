@@ -1,10 +1,10 @@
 {
   "topic_id": "NT-000275",
-  "status": "REVIEW",
-  "source_sha256": "b3e8b109a938463b5cc63d863223163fbdd3bb0132a8d4bb26ae44817f957a09",
+  "status": "PASS",
+  "source_sha256": "4da4d896292c2654cff8d768d0792d8214ada7571d61799fd6ad1667dcbfeae1",
   "body_sha256": "1762aa25f18bddb9fc07b5151372d45032b175f10b7a92ca6ba9439adba8e4a5",
   "word_count": 2620,
-  "quality_score": 85,
+  "quality_score": 100,
   "seo_score": 100,
   "seo_min_required": 85,
   "seo_checks": {
@@ -53,9 +53,7 @@
     },
     "3": {
       "errors": [],
-      "review": [
-        "Source REVIEW: ValueError: Source excerpt not found"
-      ]
+      "review": []
     },
     "4": {
       "errors": [],
@@ -71,19 +69,8 @@
     }
   },
   "errors": [],
-  "review": [
-    "Source REVIEW: ValueError: Source excerpt not found"
-  ],
-  "source_evidence": [
-    {
-      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=phu-kien&search=honda",
-      "supports": "Honda Việt Nam (mục hỏi đáp, cập nhật 21/09/2021): dầu chai MB SL 10W-30 cho xe ga với ba dung tích; dầu truyền động cuối thay khoảng 2 năm.",
-      "sha256": "045e71290e2a8ac2a9d8c4fb58a5bf580005d18648184321954b09240cffa6e7",
-      "verified_at": "2026-10-18T07:50:23.041804+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "review": [],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -100,21 +87,19 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T07:50:32.036985+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T11:44:56.403888+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "42f142702a75b5d05f67e2d041281ca0c708a23a7e7b8e3b6052c20e98c60079",
+  "inventory_sha256": "62593a0e5382f919a5ffa9172120f3c13a02bf2841752568dba31ef462cf528a",
   "triage": {
-    "hold_class": "REAL_RISK",
-    "real_risk": [
-      "G3: Source REVIEW: ValueError: Source excerpt not found"
-    ],
+    "hold_class": "NONE",
+    "real_risk": [],
     "writer_repair": [],
     "infra_pending": []
   },
   "recheck": {
-    "attempts": 1,
+    "attempts": 0,
     "max": 3,
     "exhausted": false,
     "needs_owner": false

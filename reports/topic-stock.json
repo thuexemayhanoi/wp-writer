@@ -1,18 +1,18 @@
 {
-  "at": "2026-10-18T07:52:25.830680+00:00",
+  "at": "2026-10-18T11:46:46.563011+00:00",
   "stages": {
-    "IDEA": 180,
+    "IDEA": 200,
     "RESEARCH": 72,
     "REJECTED": 1,
     "PLANNED": 0,
-    "PLANNED_HOLD": 2,
-    "CLAIMED": 12,
-    "AUTHORED": 7,
+    "PLANNED_HOLD": 3,
+    "CLAIMED": 26,
+    "AUTHORED": 1,
     "QA_PASS": 0,
-    "PUBLISHED": 98,
+    "PUBLISHED": 109,
     "WP_DRAFT": 0
   },
-  "topic_rows": 192,
+  "topic_rows": 212,
   "ready": 0,
   "ready_ids": [],
   "on_hold": {
@@ -27,6 +27,12 @@
       "since": "2026-10-17",
       "checked": "owner open-source policy 18 Oct: unreadable sources no longer block; held for intent overlap with published posts",
       "unblock": "tách ý định hoặc nghiên cứu lại thành chủ đề mới"
+    },
+    "NT-000285": {
+      "reason": "Trùng ý định với bài đã đăng #3981 (NT-000227, đèn AHO/DRL): cùng hai mục hỏi đáp Honda, cả 6 ý của outline đã có ở bài đó (phiên seodev-w20 đã đối chiếu và không viết).",
+      "since": "2026-10-18",
+      "checked": "writer seodev-w20 đối chiếu nội dung #3981 ngày 2026-10-18; điều phối viên giữ lại để tránh bài trùng",
+      "unblock": "tách ý định khỏi #3981 hoặc nghiên cứu lại thành chủ đề mới"
     }
   },
   "min_ready": 900,
@@ -34,6 +40,6 @@
   "needs_research": true,
   "shortfall": 900,
   "room_to_target_max": 1100,
-  "lifetime_planned": 119,
+  "lifetime_planned": 139,
   "note": "PLANNED counts only topics a writer can still take. Published, claimed, authored, held, RESEARCH and IDEA are never added to it."
 }

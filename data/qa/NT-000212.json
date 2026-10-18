@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-chay-xe-exciter-150-cho-nguoi-moi-va-cac-luu-y-can-nho/",
-      "supports": "Yamaha (đăng 20.07.2020): xe côn tay Exciter 150 lên dốc: giảm tốc, về số thấp ở chân dốc, nhả côn và lên ga từ từ; dốc càng cao số càng thấp (ví dụ số 3, số 2, số 1).",
-      "sha256": "1c6f9d6482dd2ab68d15051ea392a10da4e14070417209dd238ee8cd20dc103e",
-      "verified_at": "2026-10-18T07:49:15.411937+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/huong-dan-cach-chay-xe-so-an-toan-cho-nguoi-moi-bat-dau/",
-      "supports": "Yamaha (bài xe số): lên dốc đứng về số thấp và giữ nguyên số, không chuyển số giữa dốc; gần đỉnh giảm ga, giữ số và buông trôi qua đỉnh.",
-      "sha256": "2717d5fe7f3999006e51b2866f47b2d1e720f77dd53085fd8590ed8a28d96318",
-      "verified_at": "2026-10-18T07:49:16.609963+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dantri.com.vn/doi-song/nhung-luu-y-giup-lai-xe-con-tay-an-toan-20250327161555986.htm",
-      "supports": "Dân trí (27/03/2025, bài có yếu tố quảng bá Yamaha): khi lên dốc nên về số thấp hơn và thả hết tay côn để xe chạy bền bỉ hơn.",
-      "sha256": "96cba69ab6cf64565ba7a7170eade26a2377fec6a35b3f53055e4f0a668847c1",
-      "verified_at": "2026-10-18T07:49:19.208965+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -130,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T07:49:29.070444+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T11:44:51.581148+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "54bae8519eb5b35506b53f2cdabea4a77e3e2d3abd9a3f15c1c2e4c599d8e5f1",
+  "inventory_sha256": "700edab5f7bfab511d778dd985eb4ebc3a4fa98fb466a2a2e9955f35ec286887",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
