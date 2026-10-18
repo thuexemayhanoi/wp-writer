@@ -5499,7 +5499,7 @@
       }
     },
     "NT-000530": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:18:30.267116+00:00",
       "source_hash": "211269f702cc5e2ed73e492dedbe6e843504534254b8f36db3633d6a4d5989ed",
       "slug": "ca-tru-o-ha-noi-buoi-hat-ba-nguoi-56-the-cach-va-vi-sao-unesco-xep-vao-dien-bao-ve-khan-cap",
@@ -5514,8 +5514,37 @@
       "category_warning": null,
       "git_commit": "e0327f5556485c1e6a474156113d0d9a8c238ceb",
       "run_id": "39135086720",
-      "updated_at": "2026-10-18T14:18:33.651085+00:00",
-      "wp_id": 4081
+      "updated_at": "2026-10-18T14:18:40.447455+00:00",
+      "wp_id": 4081,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ca-tru-o-ha-noi-buoi-hat-ba-nguoi-56-the-cach-va-vi-sao-unesco-xep-vao-dien-bao-ve-khan-cap/",
+      "verified_at": "2026-10-18T14:18:40.447448+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4081,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ca-tru-o-ha-noi-buoi-hat-ba-nguoi-56-the-cach-va-vi-sao-unesco-xep-vao-dien-bao-ve-khan-cap/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ca-tru-o-ha-noi-buoi-hat-ba-nguoi-56-the-cach-va-vi-sao-unesco-xep-vao-dien-bao-ve-khan-cap/",
+        "seo_title": "Ca trù ở Hà Nội: nhóm ba người, 56 thể cách và diện bảo vệ khẩn cấp",
+        "seo_description": "Ca trù ở Hà Nội là gì: nhóm hát ba người theo UNESCO, 56 thể cách, vì sao ca trù thuộc Danh sách cần bảo vệ khẩn cấp và tình hình 14 câu lạc bộ theo cổng Bộ năm 2025.",
+        "checked_at": "2026-10-18T14:18:40.447430+00:00"
+      }
     }
   },
   "categories": {}
