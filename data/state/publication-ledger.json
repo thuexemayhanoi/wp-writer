@@ -2955,7 +2955,7 @@
       }
     },
     "NT-000309": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T07:24:10.459762+00:00",
       "source_hash": "5f79bab5cc9d532c5e96fc1fee7fd791ea267d3486e2cd520c1d69c453261ebc",
       "slug": "xe-dap-dien-co-phai-doi-mu-bao-hiem-khong-dieu-luat-ve-xe-dap-may-tu-nam-2025",
@@ -2970,8 +2970,37 @@
       "category_warning": null,
       "git_commit": "c580f17e153899b1472aa292fa0001fc17cc23b1",
       "run_id": "39107147569",
-      "updated_at": "2026-10-18T07:24:14.440147+00:00",
-      "wp_id": 4012
+      "updated_at": "2026-10-18T07:24:20.143301+00:00",
+      "wp_id": 4012,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-dap-dien-co-phai-doi-mu-bao-hiem-khong-dieu-luat-ve-xe-dap-may-tu-nam-2025/",
+      "verified_at": "2026-10-18T07:24:20.143294+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4012,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-dap-dien-co-phai-doi-mu-bao-hiem-khong-dieu-luat-ve-xe-dap-may-tu-nam-2025/",
+        "categories": [
+          166
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-dap-dien-co-phai-doi-mu-bao-hiem-khong-dieu-luat-ve-xe-dap-may-tu-nam-2025/",
+        "seo_title": "Xe đạp điện có phải đội mũ bảo hiểm không? Điều luật xe đạp máy 2025",
+        "seo_description": "Xe đạp điện có phải đội mũ bảo hiểm không: Điều 31 khoản 3 về xe đạp máy, định nghĩa xe đạp máy, người ngồi sau và nơi tra cứu văn bản, theo nguồn của Bộ Công an và Hà Nội.",
+        "checked_at": "2026-10-18T07:24:20.143275+00:00"
+      }
     }
   },
   "categories": {}
