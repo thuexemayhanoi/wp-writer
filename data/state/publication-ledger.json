@@ -1803,7 +1803,7 @@
       }
     },
     "NT-000267": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T04:14:57.668150+00:00",
       "source_hash": "dbc572b91fcbc8b84eb1866dece2e9f3d7e4b0067a179a8e2d7fed05d77c9614",
       "slug": "khoi-xe-may-mau-trang-hay-den-y-nghia-tung-mau-va-khi-nao-nen-dung-xe-di-kiem-tra",
@@ -1818,8 +1818,37 @@
       "category_warning": null,
       "git_commit": "d114101fc34919e084ecc7adcf00a3ebb280d7bd",
       "run_id": "39096329877",
-      "updated_at": "2026-10-18T04:15:01.475669+00:00",
-      "wp_id": 3983
+      "updated_at": "2026-10-18T04:15:07.434111+00:00",
+      "wp_id": 3983,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/khoi-xe-may-mau-trang-hay-den-y-nghia-tung-mau-va-khi-nao-nen-dung-xe-di-kiem-tra/",
+      "verified_at": "2026-10-18T04:15:07.434104+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3983,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/khoi-xe-may-mau-trang-hay-den-y-nghia-tung-mau-va-khi-nao-nen-dung-xe-di-kiem-tra/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/khoi-xe-may-mau-trang-hay-den-y-nghia-tung-mau-va-khi-nao-nen-dung-xe-di-kiem-tra/",
+        "seo_title": "Khói xe máy màu trắng hay đen: cách phân biệt và xử lý",
+        "seo_description": "Khói xe máy màu trắng hay đen báo hiệu điều gì? Phân biệt hơi nước buổi sáng với khói bất thường, nguyên nhân hãng nêu và lúc nên dừng để kiểm tra.",
+        "checked_at": "2026-10-18T04:15:07.434084+00:00"
+      }
     }
   },
   "categories": {}
