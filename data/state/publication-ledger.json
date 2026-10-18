@@ -2859,7 +2859,7 @@
       }
     },
     "NT-000304": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T07:22:16.720008+00:00",
       "source_hash": "a23bab24027c3dc6dea900e16822cfec651c3e65d23ab0b6ac7b940c4c757056",
       "slug": "thoi-gian-sac-day-pin-xe-may-dien-uoc-tinh-tu-dung-luong-kwh-va-cong-suat-bo-sac",
@@ -2874,8 +2874,37 @@
       "category_warning": null,
       "git_commit": "c580f17e153899b1472aa292fa0001fc17cc23b1",
       "run_id": "39107147569",
-      "updated_at": "2026-10-18T07:22:20.724552+00:00",
-      "wp_id": 4010
+      "updated_at": "2026-10-18T07:22:26.436126+00:00",
+      "wp_id": 4010,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/thoi-gian-sac-day-pin-xe-may-dien-uoc-tinh-tu-dung-luong-kwh-va-cong-suat-bo-sac/",
+      "verified_at": "2026-10-18T07:22:26.436119+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4010,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/thoi-gian-sac-day-pin-xe-may-dien-uoc-tinh-tu-dung-luong-kwh-va-cong-suat-bo-sac/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/thoi-gian-sac-day-pin-xe-may-dien-uoc-tinh-tu-dung-luong-kwh-va-cong-suat-bo-sac/",
+        "seo_title": "Thời gian sạc đầy pin xe máy điện: ước tính từ kWh và công suất sạc",
+        "seo_description": "Cách ước tính thời gian sạc đầy pin xe máy điện bằng kWh chia kW, kèm ví dụ số liệu VinFast Evo200 Lite, Yamaha NEO's, sạc từ 20% và mốc 8 giờ liên tục của PCCC.",
+        "checked_at": "2026-10-18T07:22:26.436098+00:00"
+      }
     }
   },
   "categories": {}
