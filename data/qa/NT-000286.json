@@ -70,24 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=xe-may&category_child=tu-van-su-dung-xe-may",
-      "supports": "Trang hỏi đáp Honda Việt Nam (cập nhật 23/09/2021, đọc 17/10/2026) liệt kê các lưu ý khi rửa xe: nước lạnh, xốp hoặc vải mềm, chờ nguội, không vòi cao áp, tránh nước vào ống bô, kiểm tra phanh sau khi rửa.",
-      "sha256": "420e72828b520fc637c7a12be6ad8462d94753015ebce5658488e8d7fa639046",
-      "verified_at": "2026-10-18T14:04:15.583124+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/xe-may-de-ngoai-mua-co-sao-khong/",
-      "supports": "Bài Yamaha Motor Việt Nam về xe máy để ngoài mưa (đăng 11/03/2026, đọc 17/10/2026) nêu nước ở đầu nối điện hoặc cầu chì gây chạm mạch, nước bám đĩa phanh và nên rửa xe sau khi đi mưa.",
-      "sha256": "16274f53da3a537b9b52dd7ee8041c32d09642355f504db550e1fe22049d2ccd",
-      "verified_at": "2026-10-18T14:04:17.296896+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -113,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T14:04:26.432948+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T14:15:08.887427+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "e74525ecdae6ed993724bd6195024d4443ba649e2cf2012805f23c1b72cac4d5",
+  "inventory_sha256": "29367c444766677a76e2bff0aaaf75a330466cfa01ccf361cd21d4ef40be226d",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

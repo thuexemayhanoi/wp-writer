@@ -1,0 +1,125 @@
+{
+  "topic_id": "NT-000530",
+  "status": "PASS",
+  "source_sha256": "211269f702cc5e2ed73e492dedbe6e843504534254b8f36db3633d6a4d5989ed",
+  "body_sha256": "f3a17cfbed71ca405f8b8ac8702712c910518817d8fc26410ec48d7f795bf95f",
+  "word_count": 2703,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://ich.unesco.org/en/USL/ca-tru-singing-00309",
+      "supports": "Hồ sơ UNESCO: ca trù ghi danh năm 2009 vào Danh sách di sản cần bảo vệ khẩn cấp; nhóm hát gồm ba người (ca nương và hai nhạc công đàn ba dây, trống chầu); 56 thể cách; bốn mục đích xã hội; nguy cơ mai một do số người thực hành giảm và lớn tuổi.",
+      "sha256": "5bbf6f546b7ba1d067c23d26763759de225b19b7384c025f5ae51a9da25d53b5",
+      "verified_at": "2026-10-18T14:18:19.417811+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://bvhttdl.gov.vn/ha-noi-hoi-sinh-nhung-di-san-van-hoa-phi-vat-the-20250704084825345.htm",
+      "supports": "Cổng Bộ VHTTDL (4/7/2025): ca trù vẫn nằm trong danh sách di sản cần bảo vệ khẩn cấp của nhân loại nhưng ở Hà Nội đang phát triển với 14 câu lạc bộ, giáo phường, hàng trăm người thực hành và khoảng 30-40 nghệ nhân có khả năng truyền dạy.",
+      "sha256": "c337c3b723ec6b2a3d37033e12dd6079c230df931d924e5fb8e0bbae7d8638b8",
+      "verified_at": "2026-10-18T14:18:21.036721+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://bvhttdl.gov.vn/ca-tru-cua-viet-nam-duoc-unesco-ghi-danh-vao-danh-sach-can-bao-ve-khan-cap-210.htm",
+      "supports": "Cổng Bộ VHTTDL (2009): ca trù phát triển ít nhất từ thế kỷ 15, truyền qua các giáo phường, từng bị quên lãng từ những năm 1950-1980 và cần hỗ trợ nghệ nhân truyền dạy cho ca nương, kép đàn trẻ.",
+      "sha256": "9e6d7fbcd82589eea42ee003bc20bfb662eba38a6742345cd9387ab14d48b456",
+      "verified_at": "2026-10-18T14:18:22.393710+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://hanoimoi.vn/chi-em-nha-ca-tru-56524.html",
+      "supports": "Báo Hà Nội Mới (bài không rõ năm): hai chị em là thế hệ thứ 7 theo nghiệp ca trù của dòng họ ở giáo phường Thái Hà; chuyện ca nương được vua Thành Thái thưởng đất lập ấp Thái Hà là lời kể trong gia đình.",
+      "sha256": "d2c741c5c4e549f5c3819fdecaddd6bd07fe5cbe175ae6e8374a84ef4e20484d",
+      "verified_at": "2026-10-18T14:18:23.565515+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-18T14:18:30.199588+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "64a5e8129682880d3a4577bcbc193c9a10fedcb59e2cf7ceec667e3f966f817c",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
