@@ -3147,7 +3147,7 @@
       }
     },
     "NT-000368": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T07:25:49.520425+00:00",
       "source_hash": "a7f7e9602378c8c5c86440db06489eda633c431bb463c6357ad8383381492790",
       "slug": "trang-an-hay-tam-coc-chon-chuyen-thuyen-nao-khi-chi-co-mot-ngay-di-ninh-binh-tu-ha-noi",
@@ -3162,8 +3162,37 @@
       "category_warning": null,
       "git_commit": "c580f17e153899b1472aa292fa0001fc17cc23b1",
       "run_id": "39107147569",
-      "updated_at": "2026-10-18T07:25:53.287880+00:00",
-      "wp_id": 4016
+      "updated_at": "2026-10-18T07:25:58.986165+00:00",
+      "wp_id": 4016,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/trang-an-hay-tam-coc-chon-chuyen-thuyen-nao-khi-chi-co-mot-ngay-di-ninh-binh-tu-ha-noi/",
+      "verified_at": "2026-10-18T07:25:58.986159+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4016,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/trang-an-hay-tam-coc-chon-chuyen-thuyen-nao-khi-chi-co-mot-ngay-di-ninh-binh-tu-ha-noi/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/trang-an-hay-tam-coc-chon-chuyen-thuyen-nao-khi-chi-co-mot-ngay-di-ninh-binh-tu-ha-noi/",
+        "seo_title": "Tràng An hay Tam Cốc: chọn chuyến thuyền nào trong một ngày?",
+        "seo_description": "Tràng An hay Tam Cốc khi chỉ có một ngày ở Ninh Bình? So sánh thời lượng, tuyến thuyền và lời dặn an toàn theo vietnam.travel để chọn chuyến phù hợp.",
+        "checked_at": "2026-10-18T07:25:58.986139+00:00"
+      }
     }
   },
   "categories": {}
