@@ -5595,7 +5595,7 @@
       }
     },
     "NT-000559": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:19:22.000099+00:00",
       "source_hash": "4689e343fcfaa62a8806c32c7f35ffc2fad363cc82cc496d8e81795ea99c0e39",
       "slug": "canh-bao-lu-quet-sat-lo-dat-tra-o-dau-va-dau-hieu-nao-nen-hoan-chuyen-xe-may-mien-nui",
@@ -5610,8 +5610,37 @@
       "category_warning": null,
       "git_commit": "e0327f5556485c1e6a474156113d0d9a8c238ceb",
       "run_id": "39135086720",
-      "updated_at": "2026-10-18T14:19:25.958701+00:00",
-      "wp_id": 4083
+      "updated_at": "2026-10-18T14:19:31.210845+00:00",
+      "wp_id": 4083,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/canh-bao-lu-quet-sat-lo-dat-tra-o-dau-va-dau-hieu-nao-nen-hoan-chuyen-xe-may-mien-nui/",
+      "verified_at": "2026-10-18T14:19:31.210839+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4083,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/canh-bao-lu-quet-sat-lo-dat-tra-o-dau-va-dau-hieu-nao-nen-hoan-chuyen-xe-may-mien-nui/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/canh-bao-lu-quet-sat-lo-dat-tra-o-dau-va-dau-hieu-nao-nen-hoan-chuyen-xe-may-mien-nui/",
+        "seo_title": "Cảnh báo lũ quét, sạt lở đất: tra ở đâu, khi nào hoãn xe máy miền núi",
+        "seo_description": "Cảnh báo lũ quét, sạt lở đất: tra ở hệ thống thời gian thực của Cục Khí tượng Thủy văn, đọc chú giải các mức cảnh báo và biết dấu hiệu nên hoãn chuyến xe máy vùng núi.",
+        "checked_at": "2026-10-18T14:19:31.210822+00:00"
+      }
     }
   },
   "categories": {}
