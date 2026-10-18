@@ -5881,6 +5881,24 @@
         "seo_description": "Nồng độ cồn khi lái xe máy bị xử lý thế nào? Ba mức theo Điều 7 Nghị định 168/2024/NĐ-CP, mức phạt, điểm bị trừ, thời hạn tước giấy phép và cách đọc đơn vị đo.",
         "checked_at": "2026-10-18T14:28:06.453583+00:00"
       }
+    },
+    "NT-000586": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-18T14:28:30.447126+00:00",
+      "source_hash": "bbc01b091b8fc4a4d0f8532c96277546995412e8717fdebb3a8d498461f8ab34",
+      "slug": "do-chinh-xac-cua-phan-tram-pin-xe-dien-vi-sao-con-so-tren-dong-ho-chi-la-uoc-tinh",
+      "expected_status": "publish",
+      "category_id": 168,
+      "visible_hash": "f51a6e2501a1010246ef3f40699336d65c40561578d34201018cc38acdd3f184",
+      "first_paragraph": "Độ chính xác của phần trăm pin xe điện có giới hạn vì con số trên đồng hồ không đo trực tiếp lượng điện còn lại mà do hệ thống của xe tính ra, thường dựa vào điện áp, dòng điện vào ra và ngưỡng ngắt của bộ quản lý pin (BMS). Theo Battery University, cách đo bằng điện áp đơn giản nhưng có thể lệch vì vật liệu cell và nhiệt độ ảnh hưởng đến điện áp, còn đường cong xả của pin lithium sắt phốt phát (LFP) và NMC rất phẳng nên vùng giữa khó ước tính. Dat Bike và VinFast cũng mô tả những trường hợp phần trăm hiển thị không khớp năng lượng thực, chẳng hạn khi cell lệch nhất khiến BMS ngắt sạc hoặc ngắt xả sớm. Vì vậy hãy xem phần trăm pin là chỉ báo có sai số: chừa dự phòng, theo dõi mức tụt thực tế trên quãng đường quen và mang xe đến hãng khi số nhảy bất thường lặp lại, thay vì tự xả cạn pin để chỉnh đồng hồ.",
+      "meta_title": "Độ chính xác của phần trăm pin xe điện: vì sao chỉ là ước tính",
+      "meta_description": "Độ chính xác của phần trăm pin xe điện bị giới hạn vì chỉ là ước tính từ điện áp, dòng điện và BMS; xem nguồn nói gì và cách dùng con số này thận trọng.",
+      "intended_taxonomy_key": "electric-tech",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "5c810055e9fa70a06936c5b2f18ce99194ed0704",
+      "run_id": "39135864972",
+      "updated_at": "2026-10-18T14:28:30.449629+00:00"
     }
   },
   "categories": {}
