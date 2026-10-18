@@ -3435,7 +3435,7 @@
       }
     },
     "NT-000365": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T07:35:30.677119+00:00",
       "source_hash": "c55c9516121e68442181aa0d9f04cce642c46a561b5c8398f766facf0bbfb630",
       "slug": "chua-tay-phuong-o-thach-that-bo-tuong-kien-truc-va-cach-sap-xep-nua-buoi-tham-quan-tu-ha-noi",
@@ -3450,8 +3450,37 @@
       "category_warning": null,
       "git_commit": "93ae93c1642c2b4a7bd3a26f671602a78533a914",
       "run_id": "39107691174",
-      "updated_at": "2026-10-18T07:35:34.505209+00:00",
-      "wp_id": 4022
+      "updated_at": "2026-10-18T07:35:40.412608+00:00",
+      "wp_id": 4022,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/chua-tay-phuong-o-thach-that-bo-tuong-kien-truc-va-cach-sap-xep-nua-buoi-tham-quan-tu-ha-noi/",
+      "verified_at": "2026-10-18T07:35:40.412602+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4022,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/chua-tay-phuong-o-thach-that-bo-tuong-kien-truc-va-cach-sap-xep-nua-buoi-tham-quan-tu-ha-noi/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/chua-tay-phuong-o-thach-that-bo-tuong-kien-truc-va-cach-sap-xep-nua-buoi-tham-quan-tu-ha-noi/",
+        "seo_title": "Chùa Tây Phương ở Thạch Thất: bộ tượng, kiến trúc và nửa buổi đi",
+        "seo_description": "Chùa Tây Phương ở Thạch Thất: bộ tượng Phật gỗ mít, bố cục tam quan và chùa chính, các mốc xếp hạng, cách chia nửa buổi tham quan và chuẩn bị đi xe máy từ Hà Nội.",
+        "checked_at": "2026-10-18T07:35:40.412582+00:00"
+      }
     }
   },
   "categories": {}
