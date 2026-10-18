@@ -1,0 +1,165 @@
+{
+  "topic_id": "NT-000321",
+  "status": "PASS",
+  "source_sha256": "36f0ce1cbbeab70a569c99bd0c5f3b602e7d3f14a1207cbb6a1cf51945c00c2d",
+  "body_sha256": "6e44181c66756732d8db48363ab51cbf131b4e9e85f030ab2d8ac1591d8e6a4e",
+  "word_count": 3807,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.mps.gov.vn/bai-viet/canh-sat-giao-thong-lao-cai-tuyen-truyen-an-toan-tren-tuyen-duong-mu-suong-sa-pa-1766843851",
+      "supports": "Cổng thông tin Bộ Công an (mps.gov.vn, 27/12/2025): Phòng CSGT Công an tỉnh Lào Cai hướng dẫn lái xe khi sương mù và đường trơn trên QL 4D: giảm tốc, giữ khoảng cách tuyệt đối với xe phía trước, hạn chế phanh gấp, mở bán kính lớn hơn khi vào cua.",
+      "sha256": "21b8d1fe4766ffe260ca7aedfd60a76f8bf4c9b349ff6ad53faf06028ea81240",
+      "verified_at": "2026-10-18T14:04:52.201504+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vov.gov.vn/bi-quyet-di-duong-an-toan-trong-mua-bao-dtnew-1100124",
+      "supports": "VOV (24/07/2025), chuyên gia an toàn giao thông: danh sách kỹ năng khi mưa bão: bật đèn chiếu sáng và đèn sương mù, tốc độ chậm đều, tránh phanh gấp, đi theo vệt xe trước, giữ khoảng cách xa hơn bình thường; có nêu phanh sau nhiều hơn phanh trước.",
+      "sha256": "3daae9f572dca15fb8fe310a18acca8d4633241dd03746bfdda908f05c919aa7",
+      "verified_at": "2026-10-18T14:04:56.369919+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vov.gov.vn/di-xe-may-mua-mua-bao-can-luu-y-dieu-gi-dtnew-214937",
+      "supports": "VOV (29/10/2020): khi trời mưa độ bám của lốp và hiệu quả phanh giảm nên đi nhanh rất nguy hiểm khi cần phanh gấp; bật đèn cốt để người đối diện nhận biết; không bám đuôi xe trước; phanh sớm, từ từ.",
+      "sha256": "1a1f775775f4e2558f66bffb0cd2cbc9045110257f90121a919189a0a056e400",
+      "verified_at": "2026-10-18T14:05:01.184879+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/huong-dan-cach-chay-xe-so-an-toan-cho-nguoi-moi-bat-dau/",
+      "supports": "Yamaha Motor Việt Nam (cập nhật 03/2026): trên đường trơn ướt hoặc nhiều cát sỏi, đi số thấp và giảm tốc độ để tránh trượt ngã; phanh mạnh hơn ở phanh trước, nhẹ hơn ở phanh sau, tăng lực dần.",
+      "sha256": "2717d5fe7f3999006e51b2866f47b2d1e720f77dd53085fd8590ed8a28d96318",
+      "verified_at": "2026-10-18T14:05:02.417779+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://tuoitre.vn/plo/khoang-cach-an-toan-khi-lai-xe-bai-hoc-dau-tien-cho-nguoi-moi-109906309.htm",
+      "supports": "Pháp Luật TP.HCM trên tuoitre.vn (29/04/2026), bài chung cho người lái xe: mưa, đường trơn hoặc sương mù làm quãng phanh tăng đáng kể nên cần tăng khoảng cách gấp 1,5–2 lần.",
+      "sha256": "e87cfc4b2baf799b22593b56e81e366f7c5575b825f1cd806d33181c965fce95",
+      "verified_at": "2026-10-18T14:05:03.595495+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dantri.com.vn/du-lich/kinh-nghiem-giu-mang-song-khi-do-deo-o-tam-dao-nen-di-xe-so-hay-xe-ga-20250422122958567.htm",
+      "supports": "Dân trí (23/04/2025): người có kinh nghiệm cung đường đèo Tam Đảo khuyên người đi lần đầu không đổ đèo lúc chiều tối vì sương mù làm ướt đường, gây trơn trượt.",
+      "sha256": "e074586feb2f19780dda35f8fbb8ddd216f4bd5f4cfdd062c694f3fab509f393",
+      "verified_at": "2026-10-18T14:05:06.035608+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 4051,
+        "title": "Thuê xe máy Hà Nội vào ngày mưa: khi nào nên lùi giờ nhận và kiểm tra gì trước khi chạy?",
+        "why": "stale",
+        "content_hash": "6cf70a5e919d453dbe3c15e8dc9ed97616caa41d0b3239c73331a63a003192fb",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T14:05:12.437992+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "3414229697033b01e70854c5c329624eab2f1559d59afbd5a5e3f909786dcb46",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

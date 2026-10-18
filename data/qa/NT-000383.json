@@ -74,20 +74,20 @@
   "evidence_recheck": {
     "pages": [
       {
-        "id": 2055,
-        "title": "App Thuê Xe Máy Hà Nội Nguyễn Tú – Chọn Xe & Tính Giá Nhanh",
+        "id": 4059,
+        "title": "Thuê xe máy đi phỏng vấn ở Hà Nội trong một ngày: xếp lịch, chọn xe và trả đúng giờ",
         "why": "stale",
-        "content_hash": "984922cf520fb43f859f4ca1d858e29bed5cd5f00813797ff934b0b5fb7da7fc",
-        "jaccard": 0.0,
+        "content_hash": "0ffbbff60edf006739890cca423af4e81cb5346ee434c29859648be6bdb57675",
+        "jaccard": 0.002,
         "intent_match": null,
         "verdict": "INDEPENDENT"
       },
       {
-        "id": 2399,
-        "title": "Honda ICON e: có gì đáng chú ý với người dùng xe điện đô thị?",
+        "id": 4060,
+        "title": "Thuê xe máy mang máy ảnh và laptop đi nhiều điểm ở Hà Nội: chọn xe, xếp đồ, giữ tài sản",
         "why": "stale",
-        "content_hash": "548de8447050fd0d5b76ead88b2cb93eeac7c91d679ca89f64b42afda3bc3023",
-        "jaccard": 0.0,
+        "content_hash": "584f824812a9722445c863b0480c4d8fb9b5cfcccab9e5bbca8a4de6ce3e0be4",
+        "jaccard": 0.003,
         "intent_match": null,
         "verdict": "INDEPENDENT"
       }
@@ -96,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T11:45:04.208478+00:00",
+  "at": "2026-10-18T14:01:54.862305+00:00",
   "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "baae33943ea42957c83ce61aee5ef9faae7f07c0dbe1674c28b68b6e7b00f0eb",
+  "inventory_sha256": "36980977c8bb122bca9e25c0356be69f9ebf9fc1390bf106fbda9694d266e764",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
