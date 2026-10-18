@@ -1563,7 +1563,7 @@
       }
     },
     "NT-000224": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T02:41:53.845065+00:00",
       "source_hash": "76885d826f9f3a1c56b1b5e74488ee4284207575f7732b7aa7e841140bd07a72",
       "slug": "ngat-dong-co-tam-thoi-tren-xe-tay-ga-idling-stop-va-sss-hoat-dong-ra-sao",
@@ -1578,8 +1578,37 @@
       "category_warning": null,
       "git_commit": "607ea2771b21c2248d1c6d2d090ed5d3c756a4a8",
       "run_id": "39090800922",
-      "updated_at": "2026-10-18T02:41:57.067964+00:00",
-      "wp_id": 3978
+      "updated_at": "2026-10-18T02:42:03.030410+00:00",
+      "wp_id": 3978,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ngat-dong-co-tam-thoi-tren-xe-tay-ga-idling-stop-va-sss-hoat-dong-ra-sao/",
+      "verified_at": "2026-10-18T02:42:03.030402+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3978,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ngat-dong-co-tam-thoi-tren-xe-tay-ga-idling-stop-va-sss-hoat-dong-ra-sao/",
+        "categories": [
+          156
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ngat-dong-co-tam-thoi-tren-xe-tay-ga-idling-stop-va-sss-hoat-dong-ra-sao/",
+        "seo_title": "Ngắt động cơ tạm thời trên xe tay ga: Idling Stop và SSS",
+        "seo_description": "Ngắt động cơ tạm thời trên xe tay ga hoạt động ra sao? Tóm tắt Idling Stop của Honda và Stop&Start System của Yamaha, ngưỡng thời gian, cách nổ lại.",
+        "checked_at": "2026-10-18T02:42:03.030380+00:00"
+      }
     }
   },
   "categories": {}
