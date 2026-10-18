@@ -56,6 +56,10 @@ Không trộn `wp-aiwriter` (blog.rentbikehanoi.com) và **KHÔNG sử dụng Ex
 
 Dựa hoàn toàn vào `data/topics.jsonl` + `data/taxonomy.json` (mỗi bài một topic ID, intent, parent chain). AI có thể nhận đồng thời các topic PLANNED thuộc các leaf category khác nhau. Đúng full ancestry mới được public (Production đang bật); thiếu category thì draft + lý do; không tự suy từ tiêu đề hay nhập file Excel. Xem [so sánh wp-aiwriter / wp-writer](WORKFLOW-COMPARISON-WP-AIWRITER.md). Bài `NT-000079` / WordPress #3882 cần kiểm tra sai khác trạng thái so với draft acceptance lịch sử trước khi đưa vào lô mới.
 
+## Phân luồng viết trước, tối ưu theo duyệt (18/10/2026)
+
+Danh sách SEO đã được rà với 283 Topic Registry và 323 mục WordPress: **17 gợi ý nghiên cứu chưa qua QA**, **8 ý tưởng HOLD do nghi trùng**. `research_v2.py hints --limit 10` bỏ qua HOLD. Đọc [báo cáo chủ website cần duyệt từng URL](../reports/seo-priority-review-2026-10-18.md) trước khi chỉnh sửa trang chủ, 50cc, xe điện hoặc landing page. **Chỉ đề xuất tối ưu và chờ chủ duyệt; không tự thay đổi WordPress.** Khi còn chủ đề claimable PLANNED, Writer đã nhận lease viết/QA/push theo cơ chế hiện có; khi READY=0 thì ưu tiên làm Research QA, không bypass pipeline. Thứ hạng và số lượt hiển thị trong báo cáo là dữ liệu lịch sử, không phải bảo đảm lên trang 1.
+
 ## Cơ hội SEO có dữ liệu thật — ưu tiên nghiên cứu (18/10/2026)
 
 Trước khi lấy những gợi ý RSS chung, đọc [25 chủ đề SEO và 10 URL/nhóm từ khóa nên củng cố](../data/research/seo-opportunities-2026-10-18.json). Dữ liệu GSC từ SiteGuru (16/09–15/10/2026) và Ubersuggest thị trường Việt Nam; các con số trên từng gợi ý **thuộc từ khóa cha**, không phải lượng tìm kiếm đã xác minh của tiêu đề bài dự kiến. Không cam kết trang 1 sau vài tháng.
