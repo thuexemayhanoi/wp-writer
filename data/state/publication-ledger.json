@@ -6555,7 +6555,7 @@
       }
     },
     "NT-000679": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:56:06.891610+00:00",
       "source_hash": "832e274885879f515ed79423b9dad260587077b9b9e85267f88ca6712c48fcdd",
       "slug": "mu-bao-hiem-gia-va-kem-chat-luong-o-viet-nam-who-noi-gi-va-vi-sao-doi-mu-chua-du-de-an-toan",
@@ -6570,8 +6570,37 @@
       "category_warning": null,
       "git_commit": "389039dbd9e6d6ebaa4a8d2c07ce279d2ce366ed",
       "run_id": "39137893703",
-      "updated_at": "2026-10-18T14:56:10.498156+00:00",
-      "wp_id": 4103
+      "updated_at": "2026-10-18T14:56:16.594421+00:00",
+      "wp_id": 4103,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/mu-bao-hiem-gia-va-kem-chat-luong-o-viet-nam-who-noi-gi-va-vi-sao-doi-mu-chua-du-de-an-toan/",
+      "verified_at": "2026-10-18T14:56:16.594414+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4103,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/mu-bao-hiem-gia-va-kem-chat-luong-o-viet-nam-who-noi-gi-va-vi-sao-doi-mu-chua-du-de-an-toan/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/mu-bao-hiem-gia-va-kem-chat-luong-o-viet-nam-who-noi-gi-va-vi-sao-doi-mu-chua-du-de-an-toan/",
+        "seo_title": "Mũ bảo hiểm giả và kém chất lượng ở Việt Nam: WHO nói gì?",
+        "seo_description": "Mũ bảo hiểm giả và kém chất lượng ở Việt Nam theo hai văn bản của WHO (2017 và 16/9/2026): bốn điều kiện để mũ cứu được người, số liệu nào đã cũ và giới hạn của bài.",
+        "checked_at": "2026-10-18T14:56:16.594396+00:00"
+      }
     }
   },
   "categories": {}
