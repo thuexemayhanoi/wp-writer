@@ -2715,7 +2715,7 @@
       }
     },
     "NT-000387": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T07:17:27.818472+00:00",
       "source_hash": "ec9884406c2b9df1ffe672e6ddff5e6fabf8c0c6ff465a1ff57fac7df0205bde",
       "slug": "tri-thuc-nau-co-bat-trang-mam-co-lang-gom-gom-nhung-mon-gi-va-vi-sao-duoc-ghi-danh-di-san",
@@ -2730,8 +2730,37 @@
       "category_warning": null,
       "git_commit": "c59b8586d81914c1fda982924f9aa7eb41468dd1",
       "run_id": "39106725943",
-      "updated_at": "2026-10-18T07:17:31.584926+00:00",
-      "wp_id": 4007
+      "updated_at": "2026-10-18T07:17:37.314877+00:00",
+      "wp_id": 4007,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tri-thuc-nau-co-bat-trang-mam-co-lang-gom-gom-nhung-mon-gi-va-vi-sao-duoc-ghi-danh-di-san/",
+      "verified_at": "2026-10-18T07:17:37.314871+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4007,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tri-thuc-nau-co-bat-trang-mam-co-lang-gom-gom-nhung-mon-gi-va-vi-sao-duoc-ghi-danh-di-san/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tri-thuc-nau-co-bat-trang-mam-co-lang-gom-gom-nhung-mon-gi-va-vi-sao-duoc-ghi-danh-di-san/",
+        "seo_title": "Tri thức nấu cỗ Bát Tràng: mâm cỗ gồm món gì và vì sao được ghi danh",
+        "seo_description": "Tri thức nấu cỗ Bát Tràng theo Cục Di sản văn hóa: cỗ bát trân 6 bát 8 đĩa, canh măng mực, su hào xào mực, cách tổ chức mâm cỗ và Quyết định 2229/QĐ-BVHTTDL.",
+        "checked_at": "2026-10-18T07:17:37.314853+00:00"
+      }
     }
   },
   "categories": {}
