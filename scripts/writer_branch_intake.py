@@ -21,6 +21,7 @@ from intake import run as admit_submissions
 REPO = "thuexemayhanoi/wp-writer"
 LEDGER = "data/state/publication-ledger.json"
 MAX_ARTICLES = 10
+ATTEMPTS = 4  # admissions per run when main moves underneath it
 MAX_ARTICLE_BYTES = 400_000
 BRANCH_RE = re.compile(r"writer/[a-zA-Z0-9][a-zA-Z0-9_./-]{2,75}$")
 SHA_RE = re.compile(r"[0-9a-f]{40}$")
@@ -173,14 +174,36 @@ def ingest(branch, sha, dry_run=True):
             "main_commit": committed, "branch": branch, "at": now()}
 
 
+def refresh_trusted_main():
+    """Move the throw-away Actions checkout to the newest main before a retry (never a developer's working tree)."""
+    if os.getenv("GITHUB_ACTIONS") != "true":
+        raise ValueError("Trusted main GitHub Actions required to refresh the checkout")
+    git_read("fetch", "--no-tags", "origin", "main")
+    git_read("reset", "--hard", "origin/main")
+    git_read("clean", "-fdq", "--", "posts/drafts")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--branch", required=True)
     ap.add_argument("--sha", required=True)
     ap.add_argument("--apply", action="store_true")
     args = ap.parse_args()
-    print(json.dumps(ingest(args.branch, args.sha, dry_run=not args.apply),
-                     ensure_ascii=False, indent=2))
+    # Writers commit to main all day and the registry is in almost every commit, so the compare-and-swap in
+    # RemoteState.persist can lose a race with a commit that landed while this run was checking the article. Nothing
+    # was pushed in that case: take the newest main and redo the whole admission (QA included) instead of failing.
+    attempts = ATTEMPTS if args.apply else 1
+    for attempt in range(attempts):
+        try:
+            result = ingest(args.branch, args.sha, dry_run=not args.apply)
+            break
+        except RuntimeError as exc:
+            if "State conflict" not in str(exc) or attempt == attempts - 1:
+                raise
+            print("WRITER_BRANCH_INTAKE_RETRY: main moved during admission (%s); attempt %d of %d"
+                  % (exc, attempt + 2, attempts))
+            refresh_trusted_main()
+    print(json.dumps(result, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":

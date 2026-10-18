@@ -1,4 +1,6 @@
 """Regression tests: Writer branch input is data, never executable code."""
+import contextlib
+import io
 import sys
 import unittest
 from pathlib import Path
@@ -7,6 +9,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
+import writer_branch_intake as intake_module
 from writer_branch_intake import check_changed_paths, verify_source, ingest
 
 
@@ -80,6 +83,69 @@ class WriterBranchSecurityTests(unittest.TestCase):
             self.assertNotIn("secrets.WP_", str(job))
         self.assertIn("--apply", str(jintake["steps"]))
         self.assertIn("head_repository.full_name", jintake["if"])
+
+
+CONFLICT = RuntimeError("State conflict; reconcile before another WordPress write: data/state/writer-claims.json")
+
+
+class WriterBranchRetryTests(unittest.TestCase):
+    """A writer committing to main while the trusted job checks an article must not turn the run red."""
+
+    def run_main(self, outcomes, apply=True):
+        self.calls, self.refreshed = [], []
+
+        def fake_ingest(branch, sha, dry_run=True):
+            self.calls.append(dry_run)
+            outcome = outcomes.pop(0)
+            if isinstance(outcome, Exception):
+                raise outcome
+            return outcome
+
+        argv = ["writer_branch_intake.py", "--branch", "writer/s-good", "--sha", "a" * 40] + (["--apply"] if apply else [])
+        out = io.StringIO()
+        with patch.object(intake_module, "ingest", fake_ingest), \
+                patch.object(intake_module, "refresh_trusted_main", lambda: self.refreshed.append(1)), \
+                patch.object(sys, "argv", argv), contextlib.redirect_stdout(out):
+            intake_module.main()
+        return out.getvalue()
+
+    def test_a_race_with_another_commit_is_redone_on_the_newest_main(self):
+        printed = self.run_main([CONFLICT, CONFLICT, {"status": "ADMITTED", "count": 1}])
+        self.assertEqual((len(self.calls), len(self.refreshed)), (3, 2))
+        self.assertIn("ADMITTED", printed)
+        self.assertEqual(printed.count("WRITER_BRANCH_INTAKE_RETRY"), 2)
+
+    def test_a_clean_run_never_refreshes(self):
+        self.run_main([{"status": "ADMITTED", "count": 1}])
+        self.assertEqual((len(self.calls), len(self.refreshed)), (1, 0))
+
+    def test_only_a_state_conflict_is_retried(self):
+        with self.assertRaisesRegex(RuntimeError, "source unavailable"):
+            self.run_main([RuntimeError("Writer Git source unavailable: fetch")])
+        self.assertEqual((len(self.calls), len(self.refreshed)), (1, 0))
+        with self.assertRaisesRegex(ValueError, "WRITER_QA_BLOCKED"):
+            self.run_main([ValueError("WRITER_QA_BLOCKED NT-000111 REVIEW SEO=70")])
+        self.assertEqual((len(self.calls), len(self.refreshed)), (1, 0))
+
+    def test_a_conflict_that_never_clears_stops_after_the_attempt_limit(self):
+        with self.assertRaisesRegex(RuntimeError, "State conflict"):
+            self.run_main([CONFLICT] * intake_module.ATTEMPTS)
+        self.assertEqual((len(self.calls), len(self.refreshed)), (intake_module.ATTEMPTS, intake_module.ATTEMPTS - 1))
+
+    def test_the_read_only_check_is_never_retried(self):
+        with self.assertRaisesRegex(RuntimeError, "State conflict"):
+            self.run_main([CONFLICT], apply=False)
+        self.assertEqual((len(self.calls), len(self.refreshed)), (1, 0))
+
+    def test_the_checkout_is_refreshed_only_inside_trusted_github_actions(self):
+        with patch.object(intake_module, "git_read") as git, patch.dict("os.environ", {"GITHUB_ACTIONS": "false"}):
+            with self.assertRaisesRegex(ValueError, "Trusted main"):
+                intake_module.refresh_trusted_main()
+        git.assert_not_called()
+        with patch.object(intake_module, "git_read") as git, patch.dict("os.environ", {"GITHUB_ACTIONS": "true"}):
+            intake_module.refresh_trusted_main()
+        self.assertEqual([call.args[0] for call in git.call_args_list], ["fetch", "reset", "clean"])
+        self.assertIn("origin/main", git.call_args_list[1].args)
 
 
 if __name__ == "__main__":
