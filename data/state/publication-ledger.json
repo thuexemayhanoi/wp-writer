@@ -6603,7 +6603,7 @@
       }
     },
     "NT-000672": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T23:25:32.427139+00:00",
       "source_hash": "1f0636c21e2589b1bdc429cda679e57a0f94574a1e1546064e303c99727794ae",
       "slug": "cam-xuat-canh-sau-tai-nan-xe-may-o-viet-nam-anh-uc-va-canada-canh-bao-gi-ve-boi-thuong",
@@ -6618,8 +6618,37 @@
       "category_warning": null,
       "git_commit": "0759ab2bc46a9e5244fefdc38272cb2cf57dedd9",
       "run_id": "39176203566",
-      "updated_at": "2026-10-18T23:25:36.403061+00:00",
-      "wp_id": 4107
+      "updated_at": "2026-10-18T23:25:42.523291+00:00",
+      "wp_id": 4107,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cam-xuat-canh-sau-tai-nan-xe-may-o-viet-nam-anh-uc-va-canada-canh-bao-gi-ve-boi-thuong/",
+      "verified_at": "2026-10-18T23:25:42.523284+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4107,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cam-xuat-canh-sau-tai-nan-xe-may-o-viet-nam-anh-uc-va-canada-canh-bao-gi-ve-boi-thuong/",
+        "categories": [
+          159
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cam-xuat-canh-sau-tai-nan-xe-may-o-viet-nam-anh-uc-va-canada-canh-bao-gi-ve-boi-thuong/",
+        "seo_title": "Cấm xuất cảnh sau tai nạn xe máy ở Việt Nam: Anh, Úc, Canada nói gì",
+        "seo_description": "Cấm xuất cảnh sau tai nạn xe máy ở Việt Nam: tổng hợp cảnh báo của trang chính phủ Anh, Úc, Canada về điều tra, bồi thường, hộ chiếu và việc nên làm, kèm ngày cập nhật.",
+        "checked_at": "2026-10-18T23:25:42.523266+00:00"
+      }
     }
   },
   "categories": {}
