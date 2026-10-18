@@ -3289,6 +3289,24 @@
         "seo_description": "Cầu Long Biên đóng để sửa chữa: các đợt đóng 1/11–31/12/2025 và 28/3–27/5/2026, mở lại từ 28/5/2026, đường vòng cho xe máy và cách theo dõi thông báo mới.",
         "checked_at": "2026-10-18T07:26:49.757248+00:00"
       }
+    },
+    "NT-000305": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-18T07:33:12.848904+00:00",
+      "source_hash": "0e575892229a265c03ec46beddb2e2339851e15d96a9b9338b3968f22e8abd65",
+      "slug": "doc-thong-so-pin-xe-may-dien-v-ah-wh-va-kwh-noi-len-dieu-gi",
+      "expected_status": "publish",
+      "category_id": 168,
+      "visible_hash": "2f249f9994b101974a30f56e6c0072a8faa47a63e8f4968037e42f371189cb14",
+      "first_paragraph": "Đọc thông số pin xe máy điện bắt đầu từ bốn ký hiệu: V là điện áp, Ah (ampe-giờ) cho biết pin có thể cấp dòng bao nhiêu ampe trong bao nhiêu giờ, còn Wh và kWh là năng lượng pin chứa được, tính bằng V nhân Ah rồi chia 1.000 để ra kWh. Với số liệu hãng công bố, pin lithium-ion 51,1 V và 23,2 Ah của Yamaha NEO's cho khoảng 1,19 kWh (phép tính của bài), còn VinFast Evo200 Lite ghi thẳng “3.5 KWh (48Ah)”. Hai pin cùng Ah nhưng khác V thì chứa năng lượng khác nhau, nên muốn so hai xe hãy so kWh và xem điều kiện hãng dùng để công bố quãng đường, thay vì chỉ so Ah.",
+      "meta_title": "Đọc thông số pin xe máy điện: V, Ah, Wh và kWh nói lên điều gì",
+      "meta_description": "Đọc thông số pin xe máy điện: V, Ah, Wh, kWh và công suất bộ sạc, cách tính kWh từ V và Ah bằng số liệu Yamaha NEO's, VinFast Evo200 Lite và điều kiện công bố quãng đường.",
+      "intended_taxonomy_key": "electric-tech",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "93ae93c1642c2b4a7bd3a26f671602a78533a914",
+      "run_id": "39107691174",
+      "updated_at": "2026-10-18T07:33:12.850792+00:00"
     }
   },
   "categories": {}
