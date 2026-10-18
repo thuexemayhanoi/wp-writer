@@ -45,6 +45,41 @@ class EvidenceExemptTests(unittest.TestCase):
         self.assertEqual(result['status'], 'FAIL')
         self.assertTrue(any(e.startswith('existing URL collision') for e in result['errors']))
 
+    def test_a_factory_post_published_after_the_research_is_not_demanded_as_evidence(self):
+        self.topic['research']['reviewed_at'] = '2026-10-17T19:00:00+00:00'
+        late = {**self.factory, 'factory_published_at': '2026-10-17T19:30:00+00:00'}
+        self.assertEqual(self.gate(self.baseline, late)['status'], 'PASS')
+
+    def test_a_factory_post_that_existed_when_the_researcher_read_is_still_demanded(self):
+        self.topic['research']['reviewed_at'] = '2026-10-17T19:00:00+00:00'
+        early = {**self.factory, 'factory_published_at': '2026-10-17T18:00:00+00:00'}
+        result = self.gate(self.baseline, early)
+        self.assertEqual(result['status'], 'REVIEW')
+        self.assertIn('nearest full content not reviewed', result['review'])
+
+    def test_a_page_without_the_factory_stamp_is_never_waived(self):
+        self.topic['research']['reviewed_at'] = '2026-10-17T19:00:00+00:00'
+        self.assertEqual(self.gate(self.baseline, self.factory)['status'], 'REVIEW')
+
+    def test_without_reviewed_at_nothing_is_waived(self):
+        late = {**self.factory, 'factory_published_at': '2026-10-17T19:30:00+00:00'}
+        self.assertEqual(self.gate(self.baseline, late)['status'], 'REVIEW')
+
+    def test_the_waiver_does_not_hide_identity_collisions(self):
+        self.topic['research']['reviewed_at'] = '2026-10-17T19:00:00+00:00'
+        late = {**self.factory, 'factory_published_at': '2026-10-17T19:30:00+00:00', 'slug': 'nhu-cau-doc-lap'}
+        result = self.gate(self.baseline, late)
+        self.assertEqual(result['status'], 'FAIL')
+        self.assertTrue(any(e.startswith('existing URL collision') for e in result['errors']))
+
+    def test_stamp_factory_posts_uses_the_ledger_verification_time(self):
+        from topic_factory import stamp_factory_posts
+        ledger = {'posts': {'NT-1': {'wp_id': 2, 'verified_at': '2026-10-17T19:12:13+00:00'},
+                            'NT-2': {'wp_id': None}}}
+        out = stamp_factory_posts([self.baseline, self.factory], ledger)
+        self.assertNotIn('factory_published_at', out[0])
+        self.assertEqual(out[1]['factory_published_at'], '2026-10-17T19:12:13+00:00')
+
     def test_changed_baseline_content_is_still_stale(self):
         result = self.gate({**self.baseline, 'content_hash': 'edited'})
         self.assertEqual(result['status'], 'REVIEW')
