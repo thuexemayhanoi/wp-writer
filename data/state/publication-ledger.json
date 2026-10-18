@@ -2475,7 +2475,7 @@
       }
     },
     "NT-000386": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T07:11:42.386725+00:00",
       "source_hash": "374e2f1e5797d22dfad425afe37f69093bc0dc19d0167edc1d434cd9eb14c69d",
       "slug": "banh-cuon-thanh-tri-nghe-lam-banh-duoc-ghi-danh-di-san-quoc-gia-va-nhung-net-rieng-cua-mon-an",
@@ -2490,8 +2490,37 @@
       "category_warning": null,
       "git_commit": "7adfe17c68dce79d017a42f647ec8711c59d7e89",
       "run_id": "39106450119",
-      "updated_at": "2026-10-18T07:11:46.172254+00:00",
-      "wp_id": 4002
+      "updated_at": "2026-10-18T07:11:51.753677+00:00",
+      "wp_id": 4002,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/banh-cuon-thanh-tri-nghe-lam-banh-duoc-ghi-danh-di-san-quoc-gia-va-nhung-net-rieng-cua-mon-an/",
+      "verified_at": "2026-10-18T07:11:51.753672+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4002,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/banh-cuon-thanh-tri-nghe-lam-banh-duoc-ghi-danh-di-san-quoc-gia-va-nhung-net-rieng-cua-mon-an/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/banh-cuon-thanh-tri-nghe-lam-banh-duoc-ghi-danh-di-san-quoc-gia-va-nhung-net-rieng-cua-mon-an/",
+        "seo_title": "Bánh cuốn Thanh Trì: nghề làm bánh được ghi danh di sản quốc gia",
+        "seo_description": "Bánh cuốn Thanh Trì là nghề làm bánh ở phường Vĩnh Hưng được ghi danh di sản quốc gia: cách làm theo Cục Di sản văn hóa, cách ăn kèm và các mốc ngày ghi danh.",
+        "checked_at": "2026-10-18T07:11:51.753651+00:00"
+      }
     }
   },
   "categories": {}
