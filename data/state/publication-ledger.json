@@ -1659,7 +1659,7 @@
       }
     },
     "NT-000226": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T02:49:04.243151+00:00",
       "source_hash": "99aae2eb72998bcd9bbd601083b9f77cad64b6ad9bb424340e1813eb32bb1038",
       "slug": "cong-tac-chan-chong-ben-tren-xe-tay-ga-vi-sao-ha-chan-chong-thi-may-khong-no",
@@ -1674,8 +1674,37 @@
       "category_warning": null,
       "git_commit": "a82e00b46c768e6079d47c634bd4ec27e1f8c2b8",
       "run_id": "39091322799",
-      "updated_at": "2026-10-18T02:49:08.083770+00:00",
-      "wp_id": 3980
+      "updated_at": "2026-10-18T02:49:13.761207+00:00",
+      "wp_id": 3980,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cong-tac-chan-chong-ben-tren-xe-tay-ga-vi-sao-ha-chan-chong-thi-may-khong-no/",
+      "verified_at": "2026-10-18T02:49:13.761200+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3980,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cong-tac-chan-chong-ben-tren-xe-tay-ga-vi-sao-ha-chan-chong-thi-may-khong-no/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cong-tac-chan-chong-ben-tren-xe-tay-ga-vi-sao-ha-chan-chong-thi-may-khong-no/",
+        "seo_title": "Công tắc chân chống bên trên xe tay ga: vì sao máy không nổ",
+        "seo_description": "Công tắc chân chống bên trên xe tay ga làm gì, vì sao hạ chân chống thì máy không nổ? Cách kiểm tra chân chống, bụi bẩn và dây điện theo Honda, Yamaha.",
+        "checked_at": "2026-10-18T02:49:13.761181+00:00"
+      }
     }
   },
   "categories": {}
