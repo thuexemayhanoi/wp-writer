@@ -13,7 +13,7 @@ Unlike /global, this is the Nguyen Tu MAIN commercial WordPress site. Helpful in
         → read-only Topic Research QA validates source, intent, collision and taxonomy
         → successful PUSH triggers Trusted Research Intake on main code
         → verify same green SHA, independent gate, immutable batch receipt, CAS commit
-        → Topic Registry PLANNED → available to W1/W2/W3 Writers
+        → Topic Registry PLANNED → available to W1–W9 Writers
         → Writer QA six gates + SEO >=85 → Publisher (production ON since 2026-10-17)
 
 Both new workflows are isolated from WordPress credentials. AI research needs an ACTIVE Claude/Mistral/ChatGPT/Gemini session; GitHub only handles ingestion, quality checks, checkpoints and state transitions. A successful workflow is not itself proof of facts or Google indexing.
