@@ -110,10 +110,15 @@ def gate(topic, others, inventory, taxonomy):
     if topic.get('taxonomy_key') not in {x['taxonomy_key'] for x in taxonomy}: errors.append('unknown taxonomy key')
     if topic.get('taxonomy_key')=='uncategorized': errors.append('Uncategorized forbidden')
     if topic.get('canonical_target')!=SITE+'/'+topic.get('proposed_slug','')+'/': errors.append('canonical mismatch')
+    admitted=topic.get('topic_qa_status')=='PLANNED'
     for other in others:
         # A rejected idea never became content: it owns no title, slug or intent (intent_guard.topic_entry says the
         # same). Without this, the duplicate that was rejected for copying a PLANNED topic blocked that topic's article.
         if other['topic_id']==topic['topic_id'] or other.get('topic_qa_status')=='REJECTED': continue
+        # An already admitted topic was compared with every row that existed when it was admitted. A row still waiting
+        # in RESEARCH (a later REVIEW) is judged against this topic when that row is promoted, and never holds up an
+        # admitted topic's finished article.
+        if admitted and other.get('topic_qa_status')=='RESEARCH': continue
         if (other.get('proposed_slug')==topic.get('proposed_slug') or
             norm(other['title'])==norm(topic['title']) or
             (topic.get('intent_key') and topic.get('intent_key')==other.get('intent_key'))):

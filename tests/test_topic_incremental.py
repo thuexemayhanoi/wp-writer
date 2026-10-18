@@ -38,15 +38,22 @@ class RejectedRowsOwnNothingTests(unittest.TestCase):
     def test_a_rejected_near_duplicate_does_not_block_the_topic_it_duplicated(self):
         self.assertNotIn('near topic:NT-000287',self.verdict(self.near_copy(topic_qa_status='REJECTED'))['review'])
 
-    def test_a_live_near_duplicate_still_does(self):
-        for status in ('RESEARCH','PLANNED'):
-            self.assertIn('near topic:NT-000287',self.verdict(self.near_copy(topic_qa_status=status))['review'])
+    def test_an_admitted_near_duplicate_still_does(self):
+        self.assertIn('near topic:NT-000287',self.verdict(self.near_copy(topic_qa_status='PLANNED'))['review'])
+
+    def test_an_admitted_topic_is_not_held_up_by_a_row_still_waiting_in_research(self):
+        waiting=self.near_copy(topic_qa_status='RESEARCH')
+        self.assertNotIn('near topic:NT-000287',self.verdict(waiting)['review'])
+        # the waiting row itself is still judged against the admitted topic when it is gated
+        self.assertIn('near topic:NT-000226',
+                      topic_factory.gate(waiting,[self.topic(),waiting],[],self.TAX)['review'])
 
     def test_a_rejected_row_owns_no_slug_title_or_intent(self):
         same=self.topic(topic_id='NT-000287',topic_qa_status='REJECTED')
         self.assertFalse([e for e in self.verdict(same)['errors'] if e.startswith('topic identity collision')])
-        self.assertTrue([e for e in self.verdict(dict(same,topic_qa_status='RESEARCH'))['errors']
-                         if e=='topic identity collision:NT-000287'])
+        waiting=dict(same,topic_qa_status='RESEARCH')
+        self.assertTrue([e for e in topic_factory.gate(waiting,[self.topic(),waiting],[],self.TAX)['errors']
+                         if e=='topic identity collision:NT-000226'])
 
 
 class IncrementalTopicRefillTests(unittest.TestCase):
