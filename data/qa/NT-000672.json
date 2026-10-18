@@ -1,0 +1,168 @@
+{
+  "topic_id": "NT-000672",
+  "status": "PASS",
+  "source_sha256": "1f0636c21e2589b1bdc429cda679e57a0f94574a1e1546064e303c99727794ae",
+  "body_sha256": "3e6fce07738bed4a94094372319f31c69981e00039f5bb30746a6e60ad4fcdab",
+  "word_count": 3767,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.gov.uk/foreign-travel-advice/vietnam/safety-and-security",
+      "supports": "Trang FCDO của Anh (cập nhật 21/09/2026) cảnh báo sau tai nạn có thể bị truy cứu hình sự, phải bồi thường cho người bị thương dù nhẹ và có thể bị cấm rời nước trong thời gian điều tra.",
+      "sha256": "a2d5eeadc18979325d7eabf475624e42e88db391550a35a45fab429cad2935c1",
+      "verified_at": "2026-10-18T23:24:18.739249+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+      "supports": "Trang Smartraveller của Úc (cập nhật 24/09/2026) có mục Exit bans nêu nhà chức trách có thể áp lệnh cấm xuất cảnh, trong đó có điều tra liên quan tai nạn xe cơ giới.",
+      "sha256": "0fda54ad76e991c5bda450bb9b4d62b83a19052c60b5a8af41cb7af61f08bde2",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "TimeoutError"
+    },
+    {
+      "url": "https://travel.gc.ca/destinations/vietnam",
+      "supports": "Trang tư vấn của Canada (cập nhật 13/10/2026) nêu người lái xe gây tai nạn có thể bị truy cứu hình sự, phải bồi thường và bị cấm rời nước cho đến khi bồi thường xong.",
+      "sha256": "126c661b0baedc6f2c337d9d931cfdb12a6a068ad2779ba0c38fbef1e0fbf156",
+      "verified_at": "2026-10-18T23:25:24.710768+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/vietnam/",
+      "supports": "Trang của Bộ Ngoại giao Ireland (cập nhật 22/04/2026) nhắc nếu xảy ra tai nạn, các bên thứ ba liên quan nhiều khả năng ít hoặc không có bảo hiểm.",
+      "sha256": "5da5c0daef1afafd45ce7b1d603d67349d61baf7515d46e4974e26ee9e6d6a23",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://vn.usembassy.gov/security-and-safety-advice-for-vietnam/",
+      "supports": "Trang Đại sứ quán Mỹ (đăng 07/2022, sửa 06/07/2023) nêu gọi 113 để báo tai nạn giao thông, 115 cho xe cứu thương; thông tin cũ hơn các trang khác.",
+      "sha256": "df6e38a5b28b14efba20a173bdfb7b9fe6d7eae27e7ac405a1234390634b538b",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://www.gov.uk/foreign-travel-advice/vietnam/getting-help",
+      "supports": "Trang Getting help của FCDO nhắc liên hệ đơn vị du lịch và công ty bảo hiểm khi gặp sự cố nghiêm trọng ở nước ngoài và cho người thân biết số hợp đồng bảo hiểm.",
+      "sha256": "6dcdb1e2a8e52b2df0afc52741270bc8d589f9d686ff225f42d04ea004d15db6",
+      "verified_at": "2026-10-18T23:25:26.071089+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2355,
+        "title": "Bao nhiêu tuổi được đi xe máy điện? Những điều cần biết",
+        "why": "stale",
+        "content_hash": "df4e397638303da8d179daafae395db634b027fd262d47406e50b3e2c2cf527c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2521,
+        "title": "Cách kiểm tra lốp xe máy để phát hiện mòn, nứt và áp suất bất thường",
+        "why": "stale",
+        "content_hash": "08080c3d371127024550acb47d9ddf7feb4cdba807bbb1f3996c8e47b110a33d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T23:25:32.294921+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "a3bc19e21b41862eb71ee57fa836a9fca6d29b890fa591f3bbb9c1d54cb0354e",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
