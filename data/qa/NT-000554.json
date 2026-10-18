@@ -70,24 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vnexpress.net/cam-nang-du-lich-ta-xua-4656282.html",
-      "supports": "Cẩm nang VnExpress (cập nhật 9/6/2026): Tà Xùa cách Hà Nội 240 km, nổi tiếng săn mây từ tháng 10 đến 4; đi hướng Sơn Tây, cầu Trung Hà, ngã ba Thu Cúc theo QL32 rồi rẽ phải QL37 qua Phù Yên, Bắc Yên; đường lên hẹp, dốc, nhiều cua.",
-      "sha256": "d8c6c4d1575126d8a84848130964c3c08d8ec7f7b21e2d258da59e8d521ccb56",
-      "verified_at": "2026-10-18T14:18:45.370140+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnam.travel/things-to-do/ta-xua-staircase-thousand-clouds",
-      "supports": "vietnam.travel (trang Ta Xua): tháng 1 đến 3 là mùa săn mây phù hợp nhất, có mốc mây sớm tháng 7; từ Hà Nội mất khoảng 5 giờ; xã nằm giữa Trạm Tấu và Bắc Yên, cách Mộc Châu hơn 100 km.",
-      "sha256": "25ca09ac7aaf34403ea2e8937ce5e58f9ef01420cdff6a26fa5cb6d2ba0e1775",
-      "verified_at": "2026-10-18T14:18:46.369663+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -113,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T14:18:54.739005+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T14:21:42.184992+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "91e46b85598b7551736fa0eba81e94b818788115b81edfeeb9b70ffa4725f83a",
+  "inventory_sha256": "10b1ee55738e9e1911411b51db109582e8509b0034a9911b6e42b69346ff7c83",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
