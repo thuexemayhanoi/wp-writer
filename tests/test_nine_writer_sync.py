@@ -7,6 +7,7 @@ import sys
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
 TOOL = ROOT / "agent-tools" / "build_article.py"
 RUNBOOKS = (
     "README.md", "AGENTS.md",
