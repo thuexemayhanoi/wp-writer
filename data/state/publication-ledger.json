@@ -4107,7 +4107,7 @@
       }
     },
     "NT-000273": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T07:54:57.061109+00:00",
       "source_hash": "b8dc1a1c702fd9bb6614479e2a1d1aa77d92f8252cbbb07d0c1f0237f071af0b",
       "slug": "honda-vision-dung-nhot-gi-do-bao-nhieu-dau-may-bugi-va-xang-theo-sach-huong-dan",
@@ -4122,8 +4122,37 @@
       "category_warning": null,
       "git_commit": "2390faa2b9fc944be80c686cf5ea69d0b0018053",
       "run_id": "39109245013",
-      "updated_at": "2026-10-18T07:55:00.898746+00:00",
-      "wp_id": 4036
+      "updated_at": "2026-10-18T07:55:06.952382+00:00",
+      "wp_id": 4036,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/honda-vision-dung-nhot-gi-do-bao-nhieu-dau-may-bugi-va-xang-theo-sach-huong-dan/",
+      "verified_at": "2026-10-18T07:55:06.952377+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4036,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/honda-vision-dung-nhot-gi-do-bao-nhieu-dau-may-bugi-va-xang-theo-sach-huong-dan/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/honda-vision-dung-nhot-gi-do-bao-nhieu-dau-may-bugi-va-xang-theo-sach-huong-dan/",
+        "seo_title": "Honda Vision dùng nhớt gì, đổ bao nhiêu: thông số theo sách hướng dẫn",
+        "seo_description": "Honda Vision dùng nhớt gì, đổ bao nhiêu lít: chuẩn JASO MB, SAE 10W-30, bugi MR8C-9N và xăng RON 91 theo sách hướng dẫn của Honda Việt Nam, kèm cách đối chiếu mã kiểu xe.",
+        "checked_at": "2026-10-18T07:55:06.952356+00:00"
+      }
     }
   },
   "categories": {}
