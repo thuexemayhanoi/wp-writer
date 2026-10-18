@@ -30,6 +30,21 @@ def ingest(path):
         done.append((r['url'], len(text), rec['sha256'][:12], r.get('title')))
     return done, failed
 
+def ingest_parallel(path):
+    """Parallel web_fetch(full_content=true) spill file: {results:[{url,title,full_content}], errors:[{url,error_type}]}."""
+    data = json.loads(Path(path).read_text(encoding='utf-8'))
+    done, failed = [], [f.get('url') for f in data.get('errors', [])]
+    for r in data.get('results', []):
+        text = r.get('full_content') or ''
+        rec = {'url': r['url'], 'title': (r.get('title') or '').strip(), 'text': text,
+               'sha256': hashlib.sha256(text.encode('utf-8')).hexdigest(),
+               'chars': len(text), 'read_at': TODAY, 'tool': 'parallel web_fetch(full_content)',
+               'spill_file': str(path), 'publish_date': r.get('publish_date')}
+        (SRC / (key(r['url']) + '.json')).write_text(json.dumps(rec, ensure_ascii=False), encoding='utf-8')
+        done.append((r['url'], len(text), rec['sha256'][:12], rec['title']))
+    return done, failed
+
+
 def load(url):
     p = SRC / (key(url) + '.json')
     if not p.exists(): raise KeyError('not read: ' + url)
@@ -56,6 +71,10 @@ if __name__ == '__main__':
     cmd = sys.argv[1]
     if cmd == 'ingest':
         done, failed = ingest(sys.argv[2])
+        for d in done: print(d)
+        print('FAILED:', failed)
+    elif cmd == 'ingest-parallel':
+        done, failed = ingest_parallel(sys.argv[2])
         for d in done: print(d)
         print('FAILED:', failed)
     elif cmd == 'grep':

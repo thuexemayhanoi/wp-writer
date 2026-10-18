@@ -29,3 +29,24 @@ A finished example: `example/NT-000401/`.
 
 Same hard rules as the rest of the playbook: never edit scripts/, config/, the registry, the ledger or WordPress; research only
 through `scripts/research_v2.py push`; writers only through `scripts/writer-session.py`; no invented evidence.
+
+## Working modes (added 18/10/2026)
+
+**Existing mode** (the topic is already PLANNED and claimed): `python pkg.py brief NT-000xxx` prints a compact work order (registered
+outline, scope, source requirements, internal-link candidates, and the registered source pages; long pages are cut to the paragraphs
+that matter, the Honda FAQ page to its relevant Q&A pairs; PDFs may be named but never cited). The writer then adds only a six-field
+`spec.json` (`existing: true`, meta_title, meta_description, direct_answer, link_rationale, internal_links) and `body.md`;
+`python pkg.py check NT-000xxx` simulates the real QA (6 gates, quality/SEO) and audits numbers and copied passages;
+`python pkg.py assemble NT-000xxx --slot Wn --session <label>` writes `posts/drafts/NT-000xxx.md`, then
+`python scripts/writer-repair.py save --session <label> --id NT-000xxx --note "..."` runs the real QA, stores the checkpoint branch and
+submits through `writer-session.py push`. Brief for the writer agent: `docs/agent-playbook/EXISTING-MODE-BRIEF.md`.
+
+**Scouted mode** (the topic is not in the registry yet): write the research fields in `pkgs/<ID>/spec.json` (verified excerpts via
+`bench.source`), screen it with `python concept.py '[["phrase"],["a","b"]]'` (which published posts already discuss the concepts; the
+lexical intent guard misses semantic duplicates) and `python pkg.py intent ...`, then `python brief_local.py <ID>` prints the work order for
+a writer agent (brief: `docs/agent-playbook/SCOUTED-TOPIC-BRIEF.md`). Research batches go out through
+`python pkg.py batch --number N <IDs>` followed by `scripts/research_v2.py intent-check / checkpoint / check / push` from a research worktree.
+
+Helpers: `peek.py <url> [chars]` (article body without page chrome), `stock.py` (writer-visible stock and leases, read-only),
+`python bench.py ingest <tavily-result-file>` / `python bench.py ingest-parallel <parallel-fetch-result-file>` (store pages with exact
+text and SHA-256; the Parallel fetch keeps the diacritics intact, Tavily drops many "â"/"ã").

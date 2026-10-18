@@ -1,11 +1,13 @@
 """Vietnamese syllable vocabulary from the site's own posts. Used to spot Tavily's dropped-'â' artifacts
 ('nhn', 'dn', 'đy', 'gy', 'chn'...) before an excerpt is trusted as live-page evidence."""
-import collections, json, os, re, subprocess
+import json, os, re, collections, subprocess
 from pathlib import Path
-ROOT = Path(os.environ.get('WPW_ROOT') or subprocess.run(['git', 'rev-parse', '--show-toplevel'], capture_output=True, text=True).stdout.strip() or '.')
-INV = ROOT / 'data/existing-content-inventory.json'
+_ROOT = Path(os.environ.get('WPW_ROOT') or subprocess.run(['git', 'rev-parse', '--show-toplevel'], capture_output=True, text=True).stdout.strip() or '.')
+INV = _ROOT / 'data/existing-content-inventory.json'
 _TOK = re.compile(r"[^\W\d_]+", re.UNICODE)
 _VOCAB = None
+# short syllables that are also what a word with a dropped plain "â" turns into: lâu/sâu/câu/đâu/nâu/mâu/âu, tây/mây/vây
+RISKY = {'lu', 'su', 'cu', 'đu', 'nu', 'mu', 'u', 'ty', 'my', 'vy'}
 
 def vocab():
     global _VOCAB
@@ -21,7 +23,12 @@ def suspects(text, allow=()):
     allow = {a.lower() for a in allow}
     out = []
     for t in _TOK.findall(text.lower()):
-        if t in v or t in allow:
+        if t in allow:
+            continue
+        if t in RISKY:
+            out.append(t)
+            continue
+        if t in v:
             continue
         if re.fullmatch(r'[a-z]+', t) and len(t) > 3:   # plain latin word (brand / English term): not an artifact signal
             continue
