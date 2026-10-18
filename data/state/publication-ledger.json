@@ -5931,7 +5931,7 @@
       }
     },
     "NT-000611": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:29:03.753229+00:00",
       "source_hash": "57120d86df55d1ee5d8a40b24ea79f8539d5f07a0f1b2b04cac95a70d6b3ce9d",
       "slug": "che-do-lai-eco-xe-may-dien-eco-va-sport-doi-gi-hang-mo-ta-ra-sao-ve-toc-do-va-quang-duong",
@@ -5946,8 +5946,37 @@
       "category_warning": null,
       "git_commit": "5c810055e9fa70a06936c5b2f18ce99194ed0704",
       "run_id": "39135864972",
-      "updated_at": "2026-10-18T14:29:07.990871+00:00",
-      "wp_id": 4090
+      "updated_at": "2026-10-18T14:29:14.063447+00:00",
+      "wp_id": 4090,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/che-do-lai-eco-xe-may-dien-eco-va-sport-doi-gi-hang-mo-ta-ra-sao-ve-toc-do-va-quang-duong/",
+      "verified_at": "2026-10-18T14:29:14.063441+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4090,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/che-do-lai-eco-xe-may-dien-eco-va-sport-doi-gi-hang-mo-ta-ra-sao-ve-toc-do-va-quang-duong/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/che-do-lai-eco-xe-may-dien-eco-va-sport-doi-gi-hang-mo-ta-ra-sao-ve-toc-do-va-quang-duong/",
+        "seo_title": "Chế độ lái Eco xe máy điện: Eco và Sport đổi gì theo từng hãng",
+        "seo_description": "Chế độ lái Eco xe máy điện đổi gì: cách VinFast Feliz S, Theon, Yamaha NEO's và Dat Bike Quantum mô tả ECO, SPORT, STD, D, S về tốc độ và quãng đường.",
+        "checked_at": "2026-10-18T14:29:14.063423+00:00"
+      }
     }
   },
   "categories": {}
