@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-18T07:57:51.654790+00:00",
-  "attempted": 7,
+  "at": "2026-10-18T11:46:43.403074+00:00",
+  "attempted": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -20,62 +20,6 @@
         }
       },
       "action": "manual reconciliation; never create/update automatically"
-    },
-    {
-      "topic_id": "NT-000213",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 170,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "engine-care",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000273",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 170,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "engine-care",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000274",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 170,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "engine-care",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000275",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 170,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "engine-care",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000276",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 170,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "engine-care",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000277",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 170,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "engine-care",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000278",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 170,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "engine-care",
-      "category_warning": null
     },
     {
       "topic_id": "NT-000290",
@@ -155,11 +99,11 @@
       ],
       "source_evidence": [],
       "evidence_recheck": null,
-      "at": "2026-10-18T07:57:51.623478+00:00",
+      "at": "2026-10-18T11:46:43.350918+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "642d1f95b24fc6ba1db8a561bbd55ad6c0cb86c65f852a4c2c2eef5a01de854f",
+      "inventory_sha256": "d761b95603daf1b01921a6f1dee01c5091eac6030699a4bfc3ffbe610acd0eb7",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [

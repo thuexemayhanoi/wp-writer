@@ -1,7 +1,7 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 10,
+  "ready_stock": 0,
   "trigger_below_ready": 900,
   "rounds_opened": 1,
   "unlimited_rounds": true,
@@ -37,13 +37,13 @@
       {
         "taxonomy_key": "battery-charging",
         "quota": 14,
-        "known_now": 8,
+        "known_now": 9,
         "allocation": 57
       },
       {
         "taxonomy_key": "rental-guide",
-        "quota": 13,
-        "known_now": 0,
+        "quota": 12,
+        "known_now": 2,
         "allocation": 46
       },
       {
@@ -51,6 +51,12 @@
         "quota": 12,
         "known_now": 11,
         "allocation": 55
+      },
+      {
+        "taxonomy_key": "electric-maintenance",
+        "quota": 11,
+        "known_now": 4,
+        "allocation": 41
       },
       {
         "taxonomy_key": "electric-tech",
@@ -65,12 +71,6 @@
         "allocation": 41
       },
       {
-        "taxonomy_key": "electric-maintenance",
-        "quota": 10,
-        "known_now": 4,
-        "allocation": 41
-      },
-      {
         "taxonomy_key": "driving-licence",
         "quota": 8,
         "known_now": 4,
@@ -81,12 +81,6 @@
         "quota": 8,
         "known_now": 22,
         "allocation": 50
-      },
-      {
-        "taxonomy_key": "rental-procedures",
-        "quota": 8,
-        "known_now": 9,
-        "allocation": 36
       },
       {
         "taxonomy_key": "reviews",
@@ -107,16 +101,22 @@
         "allocation": 32
       },
       {
+        "taxonomy_key": "green-travel",
+        "quota": 7,
+        "known_now": 4,
+        "allocation": 27
+      },
+      {
         "taxonomy_key": "hanoi-travel",
         "quota": 7,
         "known_now": 11,
         "allocation": 36
       },
       {
-        "taxonomy_key": "green-travel",
-        "quota": 6,
-        "known_now": 4,
-        "allocation": 27
+        "taxonomy_key": "rental-procedures",
+        "quota": 7,
+        "known_now": 11,
+        "allocation": 36
       },
       {
         "taxonomy_key": "rental-50cc",
@@ -139,7 +139,7 @@
       {
         "taxonomy_key": "rental-costs",
         "quota": 5,
-        "known_now": 4,
+        "known_now": 5,
         "allocation": 23
       },
       {
@@ -157,19 +157,19 @@
     ],
     "next_batch_categories": {
       "battery-charging": 1,
+      "destinations": 1,
       "driving-licence": 1,
       "electric-maintenance": 1,
       "electric-tech": 1,
       "electric-transition": 1,
       "legal": 1,
       "rental-guide": 1,
-      "rental-procedures": 1,
       "trip-planning": 1,
       "urban-mobility": 1
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 256,
+    "published_wordpress_items": 273,
     "topics_in_factory": 212,
     "topics_by_status": {
       "PLANNED": 139,

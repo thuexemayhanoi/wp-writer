@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/mua-xe-may-moi-can-chu-y-gi/",
-      "supports": "Yamaha (15.02.2021, sửa 04.04.2026): xe mới sau khi châm dầu và đổ xăng nên tắt máy, đạp cần khởi động 5–10 lần; không vừa bấm đề vừa đạp; nổ tại chỗ khoảng 10 phút khi máy đã nổ đều; thay nhớt sau 500 km.",
-      "sha256": "9cdde7707ee5f04e1f2369bf17eef3bc9c7cf9c146a7fec422f7a6924c5cd2b7",
-      "verified_at": "2026-10-18T07:54:17.381551+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-chay-roda-xe-may/",
-      "supports": "Yamaha (21.11.2023): nổ máy khoảng 1 phút trước khi chạy và không nên nổ lâu hơn 5 phút vì có thể quá nhiệt; thay nhớt lần đầu 500–1.000 km (khác bài mua xe mới).",
-      "sha256": "6943670e0145a080ff9afd311630ef99df0d1b6444eb3f0df1364a97d56df504",
-      "verified_at": "2026-10-18T07:54:19.828168+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap",
-      "supports": "Honda (hỏi đáp 2021): nổ máy tại chỗ để chạy rà là không cần thiết, làm mát kém với xe làm mát bằng không khí.",
-      "sha256": "9c118ce0311b1c33f329afacc9c07b1c2e95480803364d181c207346b3051b78",
-      "verified_at": "2026-10-18T07:54:22.319095+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -121,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T07:54:31.970222+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T11:44:51.768521+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "0a338872d11eae2d4f87d828dd6e13b1a1d50d75ecc7a14f05c45917556a1672",
+  "inventory_sha256": "c88f5a0d039d6691aba319cbe4618ecef4af047f08dd5ab5b1558d0d0b72c93a",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
