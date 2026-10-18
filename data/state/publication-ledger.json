@@ -5787,7 +5787,7 @@
       }
     },
     "NT-000560": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:24:37.451612+00:00",
       "source_hash": "a70448a2dfd837d013abe312e0b3aaa47c8a3c2afb894801ad6715e3241e8c0d",
       "slug": "ho-ba-be-bang-xe-may-tu-ha-noi-quoc-lo-3-cu-tinh-lo-256-hay-257-va-nen-o-lai-may-dem",
@@ -5802,8 +5802,37 @@
       "category_warning": null,
       "git_commit": "7273a494611150e07f74086119d44aa1a914b13f",
       "run_id": "39135461332",
-      "updated_at": "2026-10-18T14:24:41.444564+00:00",
-      "wp_id": 4087
+      "updated_at": "2026-10-18T14:24:47.567560+00:00",
+      "wp_id": 4087,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ho-ba-be-bang-xe-may-tu-ha-noi-quoc-lo-3-cu-tinh-lo-256-hay-257-va-nen-o-lai-may-dem/",
+      "verified_at": "2026-10-18T14:24:47.567553+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4087,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ho-ba-be-bang-xe-may-tu-ha-noi-quoc-lo-3-cu-tinh-lo-256-hay-257-va-nen-o-lai-may-dem/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ho-ba-be-bang-xe-may-tu-ha-noi-quoc-lo-3-cu-tinh-lo-256-hay-257-va-nen-o-lai-may-dem/",
+        "seo_title": "Hồ Ba Bể bằng xe máy từ Hà Nội: quốc lộ 3 cũ, tỉnh lộ 256 hay 257",
+        "seo_description": "Hồ Ba Bể bằng xe máy từ Hà Nội: quốc lộ 3 cũ tới Bắc Kạn, tỉnh lộ 256 hay 257 vào hồ theo VnExpress, thời gian ước tính sáu tiếng và nên ở lại mấy đêm.",
+        "checked_at": "2026-10-18T14:24:47.567529+00:00"
+      }
     }
   },
   "categories": {}
