@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vuonquocgiabavi.com.vn/diem-tuyen-du-lich/",
-      "supports": "Trang chính thức của Vườn quốc gia Ba Vì liệt kê 12 tuyến du lịch chia thành ba nhóm: tâm linh, phế tích thời Pháp và khám phá thiên nhiên.",
-      "sha256": "546efad1ce7f97277e2ef30215f3338618cd2a648d498cce4fad69cc04dc1c1d",
-      "verified_at": "2026-10-18T07:24:27.759867+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vuonquocgiabavi.com.vn/vuon-quoc-gia-ba-vi-chuyen-di-trong-ngay-ngoan-muc-den-thien-duong-thien-nhien/",
-      "supports": "Bài đăng lại trên website vườn nói chuyến tham quan vườn có thể hoàn thành trong một ngày và đưa lịch gợi ý từ lúc xuất phát từ Hà Nội đến khi quay về.",
-      "sha256": "2e7d5a43905a1269d39b8cafc68326f5cc4d0913129d4a3b3d7b6b1a4b80686f",
-      "verified_at": "2026-10-18T07:24:30.294343+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnam.travel/things-to-do/5-hanoi-day-trips",
-      "supports": "vietnam.travel mô tả Ba Vì là điểm đi trong ngày, có thể leo một trong ba đỉnh với đền thờ Hồ Chí Minh và các tiền đồn Pháp bỏ hoang.",
-      "sha256": "d3d1ae32e72969cdcc60af691b87c65deafe482e5c75dd7ef5e3a341be5e863e",
-      "verified_at": "2026-10-18T07:24:31.532052+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -112,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T07:24:44.915340+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T07:27:25.258634+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "228c821772b2dbbbe5771f2aafd5e7711b85d953e7e952a7f65bc096f2fd884c",
+  "inventory_sha256": "ae8a35b23f5e7b9a19e6c2c81f37be22ad1c9c2d81d4761907706ee8a2a4e4d3",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

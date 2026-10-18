@@ -70,43 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
-      "supports": "PCCC (24/05/2024): khi thay pin, ắc quy, bộ sạc phải chọn đúng chủng loại, đồng bộ với thông số của sạc điện, động cơ và bộ điều khiển; không dùng loại không rõ nguồn gốc; không đổi kết cấu hay lắp thiết bị ảnh hưởng dây dẫn và nguồn điện của xe.",
-      "sha256": "353fd2641d5b5be10ce7341c58d9bbf33befd5b1c8cb7c4fc563f6726c98bee4",
-      "research_checked_at": "2026-10-17",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    },
-    {
-      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/khuyen-cao-mot-so-bien-phap-bao-dam-an-toan-phong-chay-va-chua-chay-doi-voi-phuong-tien-giao-thong-co-gioi-4821",
-      "supports": "PCCC (11/08/2025): không lắp thêm thiết bị điện, phụ kiện làm tăng công suất tiêu thụ so với thiết kế của nhà sản xuất; dùng bộ sạc chính hãng, tương thích với xe.",
-      "sha256": "6e07585b7860780d378e49e4e9c237405e1afb2cd364f013adeec96560c7c85a",
-      "research_checked_at": "2026-10-17",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    },
-    {
-      "url": "https://vinfastauto.com/vn_vi/huong-dan-su-dung-pin-lithium-vinfast-dung-cach",
-      "supports": "VinFast (bài 19/02/2021): không tự ý hoặc để người khác tự ý tháo rời, sửa chữa pin và các bộ phận của pin; dùng đúng bộ sạc của hãng.",
-      "sha256": "8a20f6d2efd236773b2d21adfa4b30b5aa7875aa956930afd30098e61c764071",
-      "research_checked_at": "2026-10-17",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
-      "supports": "Yamaha NEO's: không dùng pin lithium-ion cho mục đích khác ngoài xe này; không dùng pin vỏ hư hỏng, nứt hoặc có mùi lạ.",
-      "sha256": "157e78293aed6b4d00dc72457a005186ab9a3736b4c91cf32f78fd7c48672392",
-      "verified_at": "2026-10-18T07:22:30.905665+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -132,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T07:22:35.258283+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T07:27:24.290040+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "97277f72497740756756898f1f1bec7ab88d7c752f210e470979f4ab5406be94",
+  "inventory_sha256": "ae8a35b23f5e7b9a19e6c2c81f37be22ad1c9c2d81d4761907706ee8a2a4e4d3",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

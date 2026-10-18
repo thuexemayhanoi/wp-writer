@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vietnam.travel/things-to-do/perfect-day-ninh-binh",
-      "supports": "vietnam.travel: Ninh Bình cách Hà Nội hai giờ và có lịch trình mẫu một ngày gồm Hoa Lư, Tràng An, ăn trưa gần Tam Cốc, chùa Bích Động và Hang Múa.",
-      "sha256": "3dc2bffc55690ac99ac9acc07682212f3c8f61e30b3906516cd0a953dc78f4d7",
-      "verified_at": "2026-10-18T07:25:18.694188+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnam.travel/things-to-do/5-hanoi-day-trips",
-      "supports": "vietnam.travel (5 điểm đi trong ngày): Ninh Bình cách Hà Nội hai tiếng rưỡi về phía tây nam, có thể xem trong một ngày nhưng nên sắp xếp tour trước.",
-      "sha256": "d3d1ae32e72969cdcc60af691b87c65deafe482e5c75dd7ef5e3a341be5e863e",
-      "verified_at": "2026-10-18T07:25:19.635438+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnam.travel/things-to-do/guide-boat-tours-ninh-binh",
-      "supports": "vietnam.travel (hướng dẫn tuyến thuyền): Ninh Bình cách Hà Nội khoảng 100 km, hợp một chuyến cuối tuần; Hoa Lư cách Hà Nội 100 km.",
-      "sha256": "0192edf89577dc882f212aa0614dd7517b6d4421f226062b368758cbb4b95dea",
-      "verified_at": "2026-10-18T07:25:20.424779+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -112,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T07:25:30.312269+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T07:27:26.092273+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "eccf3f9bec8a3ee4ef25da1cbe17d846c4d070ed1a95390576e807b102d0ecbe",
+  "inventory_sha256": "ae8a35b23f5e7b9a19e6c2c81f37be22ad1c9c2d81d4761907706ee8a2a4e4d3",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

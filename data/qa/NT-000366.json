@@ -1,0 +1,124 @@
+{
+  "topic_id": "NT-000366",
+  "status": "PASS",
+  "source_sha256": "d24e03debb0aa86b0048b938ceb6072141bd344563a3e1d4e4837aafa848dcbb",
+  "body_sha256": "d8974a64d2be0b91636ad5e97c5868e81a4030c33a54b5d57566c868facf8f24",
+  "word_count": 2615,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vietnam.travel/things-to-do/7-essential-things-do-mai-chau",
+      "supports": "vietnam.travel: hành trình từ Hà Nội tới Mai Châu khoảng ba giờ, có thể tự lái xe máy; buổi sáng là lúc đi đẹp nhất nhờ cảnh đèo Thung Khe và thung lũng.",
+      "sha256": "f7c3f50ed70c3b346d28f13200bfda00fde26a1036104dbb52b6afa9df81acd1",
+      "verified_at": "2026-10-18T07:35:44.027206+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vietnam.travel/things-to-do/5-hanoi-day-trips",
+      "supports": "vietnam.travel (5 điểm đi trong ngày từ Hà Nội): Mai Châu cách khoảng ba tiếng rưỡi lái xe; có thể dành một ngày tham quan thung lũng hoặc ngủ nhà sàn của người Tày.",
+      "sha256": "d3d1ae32e72969cdcc60af691b87c65deafe482e5c75dd7ef5e3a341be5e863e",
+      "verified_at": "2026-10-18T07:35:45.187547+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2535,
+        "title": "Lịch bảo dưỡng xe máy Honda: các mốc nên kiểm tra theo thời gian",
+        "why": "stale",
+        "content_hash": "c705587e1fddf801c67af2ee8927918bea23539eb6755e4f4da4fe7ae47943cb",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T07:35:52.601325+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "a660af448785893466c38f29aae666638d957b3a19dbb43b1377a4ac698062a0",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

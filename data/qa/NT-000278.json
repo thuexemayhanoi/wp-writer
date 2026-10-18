@@ -1,0 +1,140 @@
+{
+  "topic_id": "NT-000278",
+  "status": "REVIEW",
+  "source_sha256": "1a5f5d06d5205bc8d1d804f1e259bfbbe2afac4f0466081a0e6c4d5560b0bb5c",
+  "body_sha256": "398936cdfe5951f551ec853c6f8bbf9ee50a2bfb3c12c984978baf0e9a0757ad",
+  "word_count": 2801,
+  "quality_score": 85,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": [
+        "Source REVIEW: ValueError: Source excerpt not found"
+      ]
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [
+    "Source REVIEW: ValueError: Source excerpt not found"
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=phu-kien&search=honda",
+      "supports": "Honda Việt Nam (mục hỏi đáp, cập nhật 21/09/2021): dầu tổng hợp cao cấp MA SL 10W-30 (1,2 L) cho xe côn tay và xe phân khối lớn; dầu chai MA cho xe số.",
+      "sha256": "045e71290e2a8ac2a9d8c4fb58a5bf580005d18648184321954b09240cffa6e7",
+      "verified_at": "2026-10-18T07:32:51.241986+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2381,
+        "title": "VinFast Evo có gì đáng chú ý? Đánh giá theo nhu cầu đi hằng ngày",
+        "why": "stale",
+        "content_hash": "c851a814cae42699ad2ea480aaa5a00f4dace79f20e59b496f4f870eece8687b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2584,
+        "title": "Honda Vision có phù hợp khách du lịch di chuyển trong Hà Nội không?",
+        "why": "stale",
+        "content_hash": "1b0da83421e494f9d8ee85b9bcd1582804c1209b75ed3f4defded42f09ef81f1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2628,
+        "title": "Hồ Tây Hà Nội có gì chơi? 15 địa điểm đẹp và nơi ngắm hoàng hôn",
+        "why": "stale",
+        "content_hash": "9dcfec99089691e394b8ba69fd2de3ba9c034e4502a342ed8b22e2756bdfc363",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T07:33:04.228568+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "f90d6b9d81384c207ba19a77789bf1e7a21da99e5f8905367740a050145d61b6",
+  "triage": {
+    "hold_class": "REAL_RISK",
+    "real_risk": [
+      "G3: Source REVIEW: ValueError: Source excerpt not found"
+    ],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 1,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

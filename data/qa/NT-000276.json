@@ -1,0 +1,131 @@
+{
+  "topic_id": "NT-000276",
+  "status": "REVIEW",
+  "source_sha256": "08d08003efed45a0029d7c63bf643d8fad6b9f81c23615f3266bd0ce46011062",
+  "body_sha256": "5439c11843e101cc9bd1e6ba8f8b0e0335932d70c7c8f811a27fc80c1d9e816a",
+  "word_count": 2613,
+  "quality_score": 85,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": [
+        "Source REVIEW: ValueError: Source excerpt not found"
+      ]
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [
+    "Source REVIEW: ValueError: Source excerpt not found"
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=phu-kien&search=honda",
+      "supports": "Honda Việt Nam (mục hỏi đáp, cập nhật 21/09/2021): điều kiện bình thường thì sau 1.000 km đầu tiên bắt buộc thay dầu rồi cứ 6.000 km thay một lần.",
+      "sha256": "b3c3def11d2b0bee91f7a5882e8c27fc243ba61fe6afab0c8ea73ccf2e350453",
+      "verified_at": "2026-10-18T07:30:28.032742+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2428,
+        "title": "Dat Bike và VinFast: hãng nào phù hợp người thường xuyên đi xa?",
+        "why": "stale",
+        "content_hash": "8cb4cfc90c1561cb4c7dda67912d337a2c3081d39753b6d91e45717fd20b02b7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2487,
+        "title": "Honda Air Blade và Yamaha NVX: so sánh theo nhu cầu đi hằng ngày",
+        "why": "stale",
+        "content_hash": "5aa5f13fa0a11058b6d28e6b9191a782e6c63c5a62363a636a4172b4688054ed",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T07:30:41.101993+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "f90d6b9d81384c207ba19a77789bf1e7a21da99e5f8905367740a050145d61b6",
+  "triage": {
+    "hold_class": "REAL_RISK",
+    "real_risk": [
+      "G3: Source REVIEW: ValueError: Source excerpt not found"
+    ],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 1,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

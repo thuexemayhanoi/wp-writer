@@ -70,24 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vietnam.travel/things-to-do/guide-boat-tours-ninh-binh",
-      "supports": "vietnam.travel so sánh Tam Cốc (gần trung tâm du lịch, nhanh, tiết kiệm hơn) với Tràng An, mô tả ba tuyến thuyền Tràng An 2–4 giờ và chuyến Tam Cốc khoảng hai giờ.",
-      "sha256": "0192edf89577dc882f212aa0614dd7517b6d4421f226062b368758cbb4b95dea",
-      "verified_at": "2026-10-18T07:25:43.930891+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnam.travel/things-to-do/perfect-day-ninh-binh",
-      "supports": "vietnam.travel: ở Tràng An đi thuyền chèo giữa núi đá, chui qua hang thấp phải cúi đầu và gặp phim trường Kong: Skull Island đi bộ vào được.",
-      "sha256": "3dc2bffc55690ac99ac9acc07682212f3c8f61e30b3906516cd0a953dc78f4d7",
-      "verified_at": "2026-10-18T07:25:44.635686+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -113,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T07:25:49.465694+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T07:27:26.250801+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "9c6dbb1eb46cfb063f90c8e6892ac80847bc39f565c9e4ebe48d240110ac79f4",
+  "inventory_sha256": "ae8a35b23f5e7b9a19e6c2c81f37be22ad1c9c2d81d4761907706ee8a2a4e4d3",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

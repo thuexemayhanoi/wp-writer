@@ -70,42 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vinfastauto.com/vn_vi/cach-sac-pin-xe-may-dien-vinfast-evo200-lite",
-      "supports": "VinFast Evo200 Lite (không ghi ngày đăng trong nội dung đã đọc): pin 3,5 kWh (48 Ah), bộ sạc tiêu chuẩn 400 W (72 V/5,5 A), sạc 400 W khoảng 10 giờ từ 0 đến 100% và khoảng 8 giờ từ 20 đến 100%, sạc 1000 W khoảng 4 giờ và 3 giờ 30 phút; BMS; sau 100% nên để sạc đến khi đèn xanh; chờ khoảng một giờ sau khi dùng xe; duy trì pin 20–80%; chỉ dùng bộ sạc đi kèm hoặc tương đương do VinFast cung cấp.",
-      "sha256": "15c8a6ff50bcd5cd6db2abd9464a08edc643017594cdef6c15db732d8a09db01",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
-      "supports": "Yamaha NEO's (đăng 26/04/2023, sửa đổi 14/11/2024): sạc đầy 0–100% khoảng 9 giờ tính từ lúc đáy đồng hồ mức pin nhấp nháy; có thể kéo dài khi pin lâu không dùng hoặc xuống cấp; phụ thuộc nhiệt độ bên trong pin và chưa gồm thời gian chờ sạc; dung tích pin 23,2 Ah; chế độ chờ sạc.",
-      "sha256": "157e78293aed6b4d00dc72457a005186ab9a3736b4c91cf32f78fd7c48672392",
-      "verified_at": "2026-10-18T07:22:08.800501+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/giai-dap-xe-may-dien-sac-bao-lau-thi-day-di-duoc-bao-xa/",
-      "supports": "Yamaha Motor Việt Nam (bài giải đáp 06/04/2023): thời gian sạc đầy xe máy điện thường dao động từ 8 đến 10 giờ; NEO's sạc xấp xỉ 9 giờ và có thể thay đổi tùy nhiệt độ bên trong pin; pin lithium-ion 51,1 V.",
-      "sha256": "45752c5a3e99c7a37d9c8341d0c0379eb3be8a935f0766c9784f9a69f721cc9a",
-      "verified_at": "2026-10-18T07:22:11.152942+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
-      "supports": "Cục Cảnh sát PCCC và CNCH (đăng 24/05/2024): không sạc ngay sau khi chạy xe, chờ bình điện nguội khoảng 20 phút, không sạc quá 8 giờ liên tục, ngắt khóa điện khi sạc, thường xuyên kiểm tra khi sạc, ngừng sạc trước khi ra khỏi nhà hoặc đi ngủ; sạc thời gian quá dài và tần suất quá cao là cách sạc sai; dùng bộ sạc đúng thông số, đồng bộ với pin.",
-      "sha256": "353fd2641d5b5be10ce7341c58d9bbf33befd5b1c8cb7c4fc563f6726c98bee4",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -122,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T07:22:16.663281+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T07:27:23.665157+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "307ccc121cb2844862bbc5a9e346b0a4775d0343ce07f62ac0da07e7d95bd52a",
+  "inventory_sha256": "ae8a35b23f5e7b9a19e6c2c81f37be22ad1c9c2d81d4761907706ee8a2a4e4d3",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
