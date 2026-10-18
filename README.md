@@ -3,7 +3,7 @@
 > **QUY TRÌNH ĐƠN GIẢN — ĐANG CHẠY (lệnh chủ 17/10/2026)**
 >
 > 1. **W1 / W2 / W3 viết bài** từ chủ đề PLANNED (`scripts/writer-session.py`).
-> 2. **QA ≥85 + kiểm tra trùng + danh mục** (G1–G6, `scripts/qa.py`). Lỗi sửa được tự đọc lại tối đa 3 lần; chỉ bài có rủi ro thật (trùng URL/intent, sai danh mục, nguồn không xác minh được, sai pháp lý/giá) bị giữ riêng, và không chặn bài khác.
+> 2. **QA ≥85 + kiểm tra trùng + danh mục** (G1–G6, `scripts/qa.py`). Lỗi mạng được thử lại tối đa 3 lần; Claude tự sửa nội dung tối đa 10 lượt và lưu checkpoint theo Topic ID + session; chỉ bài có rủi ro thật (trùng URL/intent, sai danh mục, nguồn không xác minh được, sai pháp lý/giá) bị giữ riêng, và không chặn bài khác.
 > 3. **Publisher → WordPress công khai**, tự kích hoạt ngay sau QA thành công trên `main` (cron :17/:47 chỉ là dự phòng); G7 xác minh ID, URL, trạng thái và SEO meta sau đăng. **Trạng thái: ĐÃ kích hoạt tự động** (`production_enabled=true`).
 >
 > Không có bước duyệt tay; `acceptance_passed` và `security_controls_verified` không chặn đăng. Dừng khẩn chỉ bằng `paused` / `emergency_stop` trong `config/production-policy.json` (chỉ chủ đổi). Chỉ coi là đã đăng khi ledger có `phase=VERIFIED` và URL công khai mở được.
@@ -35,12 +35,14 @@ Khác **wp-aiwriter** sử dụng Excel cố định (data/topics.json), **wp-wr
 
 ## MASTER README / MASTER WORK SPECIFICATION — Nguyễn Tú
 
-## Nâng cấp native auto-delivery (chuẩn bị bật)
+> **Lịch sử:** đây là đặc tả gốc ngày 16/10/2026. Từ 17/10/2026 các câu "`production_enabled=false` mặc định", "dry-run", "chờ chủ phê duyệt production" bên dưới **không còn hiệu lực**; trạng thái thật là Production ĐANG BẬT (khối "QUY TRÌNH ĐƠN GIẢN" ở đầu file).
+
+## Nâng cấp native auto-delivery (ĐANG CHẠY từ 17/10/2026)
 
 Sau khi Writer push bài, hệ thống tự intake + QA và định tuyến bài đạt chuẩn sang WordPress:
-- **Production được nghiệm thu:** category chính xác → xuất bản công khai; thiếu/sai category → WordPress nháp với lý do mapping và taxonomy đích trong ledger.
+- **Production (đang bật):** category chính xác → xuất bản công khai; thiếu/sai category → WordPress nháp với lý do mapping và taxonomy đích trong ledger.
 - **Staging được duyệt:** mọi bài đạt QA vào WordPress nháp, không public.
-- **Production và staging đều chưa được phê duyệt đầy đủ:** dry-run, không gửi WordPress. Cần bảo vệ branch/secrets và nghiệm thu Yoast trước khi kích hoạt.
+- **Trạng thái hiện tại (từ 17/10/2026): Production ĐÃ BẬT** theo lệnh chủ; `dry-run` chỉ là chế độ khi chủ tắt công tắc (`production_enabled=false` hoặc `mode=dry_run`).
 - Tạo tối đa 2 bài/lần chạy, giới hạn riêng bài mới public/nháp theo ngày. Không auto-update hoặc auto-promote draft đã có.
 - Chỉ tham khảo hành vi của wp-aiwriter; code và Topic Factory của wp-writer hoàn toàn độc lập.
 
@@ -414,9 +416,9 @@ Repository Actions Secrets đã được người chủ thêm (không đọc/hi�
 
 ### Chế độ xuất bản (giai đoạn)
 
-1. `dry_run` — mô phỏng, không ghi WordPress.
-2. `draft_only` — tạo nháp thật, readback, dành cho acceptance test.
-3. `production_enabled` — **chỉ bật sau owner approval và kiểm thử**, lúc đó bài đạt PASS và taxonomy hợp lệ có thể `publish` tự động theo batch đã định.
+1. `dry_run` — mô phỏng, không ghi WordPress (chế độ khi chủ tắt công tắc).
+2. `draft_only` — tạo nháp thật, readback, chỉ dành cho thử nghiệm.
+3. `production` — **ĐANG BẬT từ 17/10/2026 theo lệnh chủ**: bài đạt PASS và taxonomy hợp lệ được `publish` tự động theo lô 2×5, không cần duyệt từng bài.
 4. `pause` / `emergency_stop` — dừng trước bài mới, không xóa gì đã đăng.
 
 **Lô xuất bản:** đề xuất tối đa **2 bài/lượt** khi production, xử lý backlog tuần tự/tái kích hoạt có kiểm soát, không spam REST. Gộp writer push tối đa 10 draft nếu hợp lệ nhưng publisher vẫn chia lô 2. Mỗi bước lưu receipt và checkpoint. Giới hạn số bài/ngày hoặc giờ có thể chỉnh trong config một nơi; không mặc định hàng nghìn bài/ngày.
@@ -549,12 +551,12 @@ Yêu cầu bảng dữ liệu theo URL thực:
 - Content QA + topic intent/duplicate/SEO/business/legal/source + REPAIR.
 - Test tranh chấp đồng thời, quota/mất phiên, recover và hash evidence.
 
-### Phase 3 — WordPress publisher an toàn
+### Phase 3 — WordPress publisher an toàn *(lịch sử: đã hoàn thành; Production ĐÃ BẬT từ 17/10/2026)*
 
 - Tận dụng chính xác ba Actions Secrets hiện có; không hỏi lại mật khẩu, không in secret.
 - Test API authenticate/read only; reuse smoke test nháp ID 3861 chỉ để đối chiếu, không publish/xóa.
 - Dry-run publisher → viết và xuất bản **một bài nháp kiểm thử MỚI chỉ khi chủ duyệt cụ thể** → verify; kiểm soát safe failure/timeout/duplicate/category mismatch.
-- Triển khai publish gate có **production_enabled=false mặc định**. Chủ bật khi có đủ bằng chứng và phê duyệt.
+- Triển khai publish gate. *(Ban đầu `production_enabled=false`; chủ đã bật ngày 17/10/2026, bài QA PASS lên WordPress tự động.)*
 
 ### Phase 4 — Topic Factory 1.000 + Internal Linking
 
@@ -636,3 +638,6 @@ README này là **bản chốt yêu cầu và nguồn hướng dẫn Work**, kh�
 
 [Research V2 runbook](docs/RESEARCH-V2-GLOBAL-ADAPTATION.md): external AI lấy 10 gợi ý, đối chiếu nội dung WordPress hiện có, kiểm tra ít nhất 2 nguồn độc lập và nhận diện search intent; nộp 10 chủ đề/lượt ở nhánh research/<session> với checkpoint SHA-256. Research QA read-only PASS sẽ kích hoạt trusted-main intake, tự cập nhật topic JSONL thành PLANNED (không Excel). Mất quota/mất môi trường dùng lệnh resume để đọc đúng dữ liệu GitHub, không làm lại nghiên cứu đã nộp. GitHub Actions không tự vận hành mô hình AI, không bật WordPress Production; bài viết vẫn phải SEO ≥85 và qua đủ 6 cổng QA.
 
+## AUTO-REPAIR WRITER — 10 CONTENT REVISIONS (18/10/2026)
+
+Read docs/WRITER-AUTO-REPAIR.md (single authoritative procedure). The active Claude session first repairs owned unfinished Topic IDs; if none, it continues writing legitimately PLANNED topics. To initialize QA and a durable baseline, run python scripts/writer-repair.py save --session SESSION --id NT-XXXXXX --note "Initial draft". After each actual edit, run the same save command with an accurate change note. QA is re-executed, SHA-256 and score/errors are stored, and the draft + checkpoint are committed to an isolated repair/SESSION/NT-XXXXXX branch. A new changed version counts as one repair, up to 10; identical bytes do not count. Use python scripts/writer-repair.py resume --session SESSION --id NT-XXXXXX after a quota interruption. Live lease ownership is always checked; no force pushes, no edited QA evidence. Genuine PASS goes through the unchanged writer-session.py push and Publisher. REAL_RISK or exhausted limit remains held, never falsely PASS. Infra/network retry stays 3, separate from content-repair limit 10. GitHub Actions never writes prose or calls an AI without an actual external model connection.

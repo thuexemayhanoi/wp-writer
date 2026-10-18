@@ -1,6 +1,6 @@
 # Factory-state — nhánh riêng cho sổ xuất bản và các Writer
 
-**Trạng thái (17/10/2026): ĐÃ TẠO NHÁNH + ĐÃ VIẾT BỘ CAS RIÊNG, CHƯA CHUYỂN PRODUCTION.**
+**Trạng thái (17/10/2026): ĐÃ TẠO NHÁNH + ĐÃ VIẾT BỘ CAS RIÊNG, CHƯA CHUYỂN NGUỒN TRẠNG THÁI SANG NHÁNH NÀY** (Production vẫn đăng bình thường từ `main` theo lệnh chủ 17/10/2026).
 
 - Nhánh đã tồn tại: [factory-state](https://github.com/thuexemayhanoi/wp-writer/tree/factory-state).
 - Nhánh kỹ thuật chạy chương trình: `main` (QA + Publisher + Topic Factory). `factory-state` **không được dùng để chạy mã**; chỉ được đọc các file dữ liệu đã kiểm tra.

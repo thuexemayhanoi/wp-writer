@@ -23,7 +23,7 @@ Không trộn `wp-aiwriter` (blog.rentbikehanoi.com) và **KHÔNG sử dụng Ex
 > nếu còn quota và còn chủ đề. Không hỏi duyệt từng bài; chỉ báo khi gặp
 > BLOCKED, hết chủ đề, thiếu nguồn hoặc việc ngoài phạm vi.
 >
-> **CẢNH BÁO:** Plugin WordPress `Git it Write` đang cấu hình cùng repo `wp-writer` và có thể đăng `posts/**` ngoài G1–G6. Không dùng webhook, nút import hoặc đồng bộ plugin này để xuất bản. Nhà điều hành phải ngắt nó sau xác nhận rồi mới mở Production GitHub.
+> **CẢNH BÁO:** Plugin WordPress `Git it Write` đang cấu hình cùng repo `wp-writer` và có thể đăng `posts/**` ngoài G1–G6. Không dùng webhook, nút import hoặc đồng bộ plugin này để xuất bản. Plugin đã được kiểm tra ở trạng thái INACTIVE ngày 17/10/2026 (Production GitHub đang bật); không kích hoạt lại và không dùng nó để xuất bản.
 >
 > **Lưu ý:** chỉ file bài viết, request Writer và candidate nghiên cứu là
 > dữ liệu Writer được sửa. **Tuyệt đối không sửa** workflows, scripts,
@@ -35,7 +35,7 @@ Không trộn `wp-aiwriter` (blog.rentbikehanoi.com) và **KHÔNG sử dụng Ex
 1. `Universal writer QA` đánh giá bài. Bài PASS đi tiếp; bài FAIL/REVIEW có biên bản REPAIR.
 2. `Universal WordPress Publisher` tự kích hoạt trên kết quả QA thành công của `main` — không đợi 30 phút mới bắt đầu.
 3. Production đang bật (lệnh chủ 17/10/2026): Publisher xử lý tối đa **5 nhóm × 2 bài/lượt**; category đúng mới công khai, không khớp thì nháp; ghi ledger trước REST POST và xác minh URL sau POST (biên bản G7).
-4. **Từ 17/10/2026 Production BẬT theo lệnh chủ**: bài qua QA lên WordPress ngay. Các bài #3882, #3888, #3890, #3930–#3932, #3935, #3938–#3945 được xuất bản thủ công, KHÔNG phải Publisher tự đăng. AI tiếp tục viết và QA, đừng tạo lại các Topic ID đã có trong publication ledger.
+4. **Từ 17/10/2026 Production BẬT theo lệnh chủ**: bài qua QA lên WordPress ngay. Các bài #3882, #3888, #3890, #3930–#3932, #3935, #3938–#3945 được xuất bản thủ công (không phải Publisher); #3947–#3956 do chính GitHub Publisher tự đăng. AI tiếp tục viết và QA, đừng tạo lại các Topic ID đã có trong publication ledger.
 5. Lịch 30 phút là cơ chế dự phòng, **không phải** khoảng nghỉ bắt buộc giữa các cặp bài.
 
 ## Không mắc kẹt vì hạn mức AI
@@ -49,9 +49,12 @@ Không trộn `wp-aiwriter` (blog.rentbikehanoi.com) và **KHÔNG sử dụng Ex
 
 ## Không cần Excel, không yêu cầu duyệt lần lượt từng danh mục
 
-Dựa hoàn toàn vào `data/topics.jsonl` + `data/taxonomy.json` (mỗi bài một topic ID, intent, parent chain). AI có thể nhận đồng thời các topic PLANNED thuộc các leaf category khác nhau. Đúng full ancestry mới đủ điều kiện public khi Production bật; thiếu category thì draft + lý do; không tự suy từ tiêu đề hay nhập file Excel. Xem [so sánh wp-aiwriter / wp-writer](WORKFLOW-COMPARISON-WP-AIWRITER.md). Bài `NT-000079` / WordPress #3882 cần kiểm tra sai khác trạng thái so với draft acceptance lịch sử trước khi đưa vào lô mới.
+Dựa hoàn toàn vào `data/topics.jsonl` + `data/taxonomy.json` (mỗi bài một topic ID, intent, parent chain). AI có thể nhận đồng thời các topic PLANNED thuộc các leaf category khác nhau. Đúng full ancestry mới được public (Production đang bật); thiếu category thì draft + lý do; không tự suy từ tiêu đề hay nhập file Excel. Xem [so sánh wp-aiwriter / wp-writer](WORKFLOW-COMPARISON-WP-AIWRITER.md). Bài `NT-000079` / WordPress #3882 cần kiểm tra sai khác trạng thái so với draft acceptance lịch sử trước khi đưa vào lô mới.
 
 ## Researcher — tự nghiên cứu 10 chủ đề rồi cấp cho Writer
 
 Khi PLANNED sẵn sàng viết còn dưới 900 (mục tiêu kho 1.000 chủ đề trong trần đã duyệt), bộ điều khiển tự mở đơn 100–200 chủ đề, hết đợt này mở đợt khác ([hệ thống tự bổ sung](SELF-REPLENISHING-TOPICS.md)): chạy `python scripts/research_v2.py plan` để xem đơn, quota danh mục và batch kế tiếp, và `python scripts/research_v2.py intent-check --file data/candidates/<session>-NNNN.jsonl` trước mỗi lần push. Nếu hàng đợi PLANNED thấp, không cần tự nghĩ tiêu đề lung tung. Đọc [Research V2 Global adaptation](RESEARCH-V2-GLOBAL-ADAPTATION.md), chạy python scripts/research_v2.py hints --limit 10; AI thực sự duyệt nguồn HTTPS, đối chiếu các WordPress posts có intent gần nhất và soạn một batch 10 Topic Registry JSONL trên nhánh research/<stable-session>. Chạy checkpoint, check và push. GitHub Research QA (read-only) PASS -> trusted main auto-intake -> topic thành PLANNED cho W1/W2/W3. Khi mạng/quota gián đoạn dùng resume --apply cùng tên session. Không dùng Google News RSS làm fact source, không sử dụng Excel và không tự nhận các topic chưa PLANNED.
 
+## AUTO-REPAIR WRITER — 10 CONTENT REVISIONS (18/10/2026)
+
+Read docs/WRITER-AUTO-REPAIR.md (single authoritative procedure). The active Claude session first repairs owned unfinished Topic IDs; if none, it continues writing legitimately PLANNED topics. To initialize QA and a durable baseline, run python scripts/writer-repair.py save --session SESSION --id NT-XXXXXX --note "Initial draft". After each actual edit, run the same save command with an accurate change note. QA is re-executed, SHA-256 and score/errors are stored, and the draft + checkpoint are committed to an isolated repair/SESSION/NT-XXXXXX branch. A new changed version counts as one repair, up to 10; identical bytes do not count. Use python scripts/writer-repair.py resume --session SESSION --id NT-XXXXXX after a quota interruption. Live lease ownership is always checked; no force pushes, no edited QA evidence. Genuine PASS goes through the unchanged writer-session.py push and Publisher. REAL_RISK or exhausted limit remains held, never falsely PASS. Infra/network retry stays 3, separate from content-repair limit 10. GitHub Actions never writes prose or calls an AI without an actual external model connection.

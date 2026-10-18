@@ -1,5 +1,7 @@
 # Implementation checkpoint
 
+> **Lịch sử 16/10/2026.** Câu "Production disabled" bên dưới là trạng thái lúc đó. Hiện Production ĐANG BẬT theo lệnh chủ 17/10/2026 (xem khối "QUY TRÌNH ĐƠN GIẢN" ở README.md).
+
 2026-10-16: all 9 Excel sheets extracted losslessly. README read in full. Reference /blog writer CAS, leases, QA/REPAIR, refill and /wp-aiwriter write-ahead idempotency reviewed read-only. Prior conversation “Truy xuất dữ liệu phiên” retrieved. Smoke run 38886147525 confirmed SUCCESS. Original smoke workflow and post 3861 unchanged.
 
 Phase 1: audit importer and live REST inventory implemented. Authenticated Actions audit reads published/draft/private/pending/future; never requests Trash. Private contents are not committed to this public repository; hashes/IDs only. Products use public Store API; baseline exclusions retained if inaccessible.

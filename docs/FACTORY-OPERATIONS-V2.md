@@ -18,12 +18,12 @@ Supported statuses:
 
 | Status | Interpretation |
 |---|---|
-| `SAFE_OFF` | Production and unattended staging are OFF; waiting articles are expected |
+| `SAFE_OFF` | Only when the owner switched delivery off (`mode=dry_run`): waiting articles are expected. Not the current state; Production is ON since 2026-10-17 |
 | `PAUSED` | Owner emergency-stop or pause |
 | `DELIVERY_PENDING` | Authenticated receipt and QA PASS awaiting next publisher within 120 minutes |
 | `STALLED` | QA-PASS admitted article waiting >120 minutes despite approved delivery being ON; workflow FAIL |
 | `NEEDS_RECONCILE` | WordPress POST intent unresolved; workflow FAIL, never POST again blindly |
-| `CONFIG_BLOCKED` | Delivery requested but security/owner/SEO acceptance flags not all met; workflow FAIL |
+| `CONFIG_BLOCKED` | Delivery requested but the owner approval reference or the Yoast SEO adapter flag is missing (`acceptance_passed` and `security_controls_verified` no longer count); workflow FAIL |
 | `SOURCE_MISMATCH` | QA PASS snapshot differs from immutable submitted article hash; workflow FAIL |
 | `NEEDS_TOPIC_EXPANSION` | Cannot assign a valid new topic; external research needed, not fake content |
 | `AWAITING_WRITERS` | At least one claimable topic but no active external AI lease |
@@ -70,7 +70,7 @@ A QA-PASS source with `live_links_checked=false` is **technical QA only**. Produ
 
 ## Safety boundaries
 
-**Production remains OFF.** All new jobs are read-only and have no WordPress secrets. The existing WordPress publisher retains its write-ahead CAS ledger and strict owner gating. These changes do not grant an AI GitHub user permission to alter protected code, and do not bypass CODEOWNERS limitations, site protection, SEO REST compatibility or the need for a real E2E trial. Existing URLs, legacy posts/categories, draft #3861 and stored ledger entries remain intact.
+**Production is ON (owner order 2026-10-17): QA PASS → public WordPress.** The jobs described here (watchdog, dashboard, post-publish SEO QA, refill controller) are read-only and have no WordPress secrets; only the Publisher writes, with its write-ahead CAS ledger. They do not grant an AI GitHub user permission to alter protected code. Existing URLs, legacy posts/categories, draft #3861 and stored ledger entries remain intact.
 
 Deploy only after green CI; do not auto-merge if tests fail. Roll back only application code, never reset remote publication or writer state.
 

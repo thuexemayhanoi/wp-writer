@@ -31,7 +31,7 @@ Trạng thái đã kiểm chứng ngày 16/10/2026. Không nhầm site đích:
 ## Điều đã được xác minh trực tiếp
 
 - `wp-aiwriter` hiện có QA workflow và Publisher kích hoạt live từ QA `success`, nhưng nhiều run gần nhất đang bị `cancelled` do các push mới; không đánh đồng lịch sử Actions với số bài public. Việc loop không nghỉ chỉ áp dụng khi đầu vào sẵn sàng và QA/credentials tốt.
-- `wp-writer` `writer-qa.yml` và `wordpress-publisher.yml` đã nối `workflow_run` đúng; các run `success` có `DRY_RUN: no WordPress writes`. Trần chủ sở hữu đã tăng lên 1.000/ngày từ 17/10/2026; không đảm bảo có 1.000 bài QA PASS hoặc server đủ chịu tải.
+- `wp-writer` `writer-qa.yml` và `wordpress-publisher.yml` đã nối `workflow_run` đúng; các run `success` trước 17/10/2026 ghi `DRY_RUN: no WordPress writes`; từ lệnh chủ 17/10/2026 Publisher đăng thật (#3947–#3956 có `run_id` Actions trong ledger). Trần chủ sở hữu đã tăng lên 1.000/ngày từ 17/10/2026; không đảm bảo có 1.000 bài QA PASS hoặc server đủ chịu tải.
 - WordPress site Nguyễn Tú có category con `#160 Chăm sóc xe điện` dưới `#157 Xe Điện`, và `#161 An toàn khi di chuyển` dưới `#159 Pháp Lý & Kinh Nghiệm`. Cả 2 bài QA PASS mới đã được chủ cho phép **đăng thủ công qua WPVibe**: `NT-000037` → `#3888`, `NT-000047` → `#3890`; công khai, canonical/title/description/robots đọc được. Xem `reports/manual-wp-smoke-20261016.json`.
 - PR đối soát ledger và taxonomy phải QA PASS trước merge. Hai bài thủ công không chứng minh GitHub Publisher tự đăng; không thay đổi chính sách Production, secrets hoặc bảo vệ code đặc quyền chỉ dựa vào kết quả đó.
 
@@ -40,7 +40,7 @@ Trạng thái đã kiểm chứng ngày 16/10/2026. Không nhầm site đích:
 1. Hoàn thiện ghi nhận 2 bài thủ công vào ledger để không POST lại; rà soát `NT-000079/#3882` vì WordPress từng có trạng thái khác với report draft cũ.
 2. Nguồn topic là JSONL: external AI nghiên cứu nội dung không trùng và gửi `data/candidates/*.jsonl` → Topic QA, W1/W2/W3 nhận khi PLANNED; không tự sinh 1000 bài placeholder.
 3. Category `data/taxonomy.json` phải đúng full parent chain trên WordPress. Nếu leaf không có, đưa nháp với lý do; chỉ tạo category có quyền phê duyệt riêng (`allow_category_create`) khi không rỗng và quy trình có ledger.
-4. Nghiệm thu **1 bài public qua chính GitHub Publisher** với live frontend SEO + ledger + idempotent rerun. Chỉ khi có bằng chứng đó mới đặt `acceptance_passed`/`security_controls_verified` thành `true`; từ lệnh chủ 17/10/2026 Production đã BẬT và hai cờ không còn chặn đăng.
+4. Nghiệm thu **1 bài public qua chính GitHub Publisher** với live frontend SEO + ledger + idempotent rerun. Chỉ khi có bằng chứng đó mới đặt `acceptance_passed`/`security_controls_verified` thành `true`; từ lệnh chủ 17/10/2026 Production đã BẬT và hai cờ không còn chặn đăng. Cập nhật: #3947–#3956 đã do chính GitHub Publisher đăng và có biên bản trong ledger; lần chạy lại cùng ID có chủ đích chưa được nghiệm thu riêng nên hai cờ vẫn `false`.
 5. Từ đó AI push → QA PASS → Publisher xử lý ngay theo 2+2+2+2+2, ngày trần 1.000 (10/lượt), không phải duyệt từng category Excel và không đợi 30 phút.
 
 ## Lưu ý về số liệu

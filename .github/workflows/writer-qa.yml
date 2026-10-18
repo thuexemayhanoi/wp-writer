@@ -1,3 +1,7 @@
+# STEP 2 of the owner's simple flow (order 2026-10-17):
+#   W1/W2/W3 write  ->  [QA >=85 + duplicate check + category]  ->  Publisher  ->  public WordPress.
+# A successful run on a main push triggers "Universal WordPress Publisher" (step 3) automatically.
+# This workflow holds no WordPress credentials.
 name: Universal writer QA (no WordPress credentials)
 on:
   workflow_dispatch:

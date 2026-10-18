@@ -1,0 +1,156 @@
+{
+  "topic_id": "NT-000206",
+  "status": "PASS",
+  "source_sha256": "ffef9383ea147612d26d99095b071aacbf59c219e42be8094478818b4a7d7ba1",
+  "body_sha256": "deacc7c69dfd43d4bc72420305098121d1bab99da582a73485cd07607211fe8a",
+  "word_count": 3008,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/huong-dan-cach-chay-xe-so-an-toan-cho-nguoi-moi-bat-dau/",
+      "supports": "Yamaha Motor Việt Nam (bài hướng dẫn chạy xe số cho người mới, đăng năm 2025): khi dừng đỗ tạm thời như dừng đèn đỏ nên trả số về, không nêu rõ về số nào; cùng bài dùng cụm trả về số thấp khi leo dốc đứng.",
+      "sha256": "2717d5fe7f3999006e51b2866f47b2d1e720f77dd53085fd8590ed8a28d96318",
+      "verified_at": "2026-10-18T02:02:47.859098+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/ra-con-la-gi-loi-ich-va-tac-hai-khi-ra-con-can-hieu-ro/",
+      "supports": "Yamaha Motor Việt Nam (bài rà côn, đăng năm 2026): xe côn tay tắc đường hạn chế rà côn liên tục, nhấp–nhả côn nhẹ, mồi ga ở số thấp hoặc trả số về N, nhả côn hoàn toàn khi dừng lâu; rà côn liên tục làm mòn lá côn, tốn nhiên liệu, quá nhiệt, xe yếu.",
+      "sha256": "e5c746d746ec63fd6d21dc8f983ece49da2561d3d2081e84ada9ece0b11031d0",
+      "verified_at": "2026-10-18T02:02:51.280408+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-di-xe-may-tiet-kiem-xang/",
+      "supports": "Yamaha Motor Việt Nam (bài tiết kiệm xăng, đăng năm 2024): chủ động tắt máy khi dừng quá 20 giây; tránh tăng ga đột ngột sau khi dừng đèn đỏ; vừa vặn ga vừa phanh làm mòn guốc côn.",
+      "sha256": "a2457fd18c078ef4f866a88ae2491f1bffa6080ffa86f52687616fbda9fbf2a4",
+      "verified_at": "2026-10-18T02:02:54.574815+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap",
+      "supports": "Honda Việt Nam (hỏi đáp về vận hành xe côn tay, cập nhật 21/09/2021): hạn chế rà côn vì nhanh mòn lá côn, trường hợp xấu gây cháy lá côn.",
+      "sha256": "27952d089177026da7d53ab20653ac75c399ed7cebecdeb32efa171f1b8c602b",
+      "verified_at": "2026-10-18T02:02:57.623613+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vnexpress.net/nhung-luu-y-cho-nguoi-moi-chay-xe-con-tay-3486989.html",
+      "supports": "VnExpress (bài cho người mới chạy xe côn tay): nên về N khi dừng và nổ máy ở N rồi mới vào số 1, không để số 1, 2, 3 rồi thả côn cho xe chết máy; mô tả cách về số 0 từ số 1; lỗi nhả côn khi xuất phát.",
+      "sha256": "ec4585cbc32e8d46b965d13a69f6cd206a92b766527cb128b576a38d23acae56",
+      "verified_at": "2026-10-18T02:03:01.452101+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://thanhnien.vn/lai-xe-may-the-nao-cho-tiet-kiem-nhien-lieu-18525092800072001.htm",
+      "supports": "Báo Thanh Niên (đăng năm 2025): dừng đèn đỏ quá lâu mà không tắt máy làm xe tiêu hao nhiên liệu nhiều hơn, không nêu số giây.",
+      "sha256": "9b05f4259855879b9bff1bc8490ef1aea3918da989bc7307888c38eecda31711",
+      "verified_at": "2026-10-18T02:03:03.582116+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2632,
+        "title": "Cầu Long Biên Hà Nội: Đi lúc nào đẹp, chụp ảnh ở đâu và chơi gì gần đó?",
+        "why": "stale",
+        "content_hash": "36dfb351fe0b68f0a6c25d3903504798235bac27df1d97f4c68ca001b55d25e3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T02:03:12.278715+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "753c3954544d1f364ac675edf5035b88604dfa48f592f421996610ddf160dc70",
+  "inventory_sha256": "08eeb7a770bbde65b8a835e6592569d906b2e175590e10d8e15f8ec741f7b159",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

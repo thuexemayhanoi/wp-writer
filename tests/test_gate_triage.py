@@ -102,6 +102,14 @@ class RecheckCounterTests(unittest.TestCase):
             annotate(current := failing(sha), state)
             self.assertEqual(current['recheck']['attempts'], expected, sha)
             state = state_entry(current)
+        self.assertFalse(current['recheck']['needs_owner'])
+        self.assertEqual(current['recheck']['max'], 10)
+        for sha in ('d', 'e', 'f', 'g', 'h', 'i'):
+            annotate(current := failing(sha), state)
+            state = state_entry(current)
+            self.assertFalse(current['recheck']['needs_owner'])
+        annotate(current := failing('j'), state)
+        self.assertEqual(current['recheck']['attempts'], 10)
         self.assertTrue(current['recheck']['needs_owner'])
         self.assertEqual(current['triage']['hold_class'], 'WRITER_REPAIR')
 

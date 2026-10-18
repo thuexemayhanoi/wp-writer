@@ -58,6 +58,23 @@ def exempt_factory_posts(inventory, ledger):
     return [dict(p,evidence_exempt=True) if p.get('id') in ids and not p.get('evidence_exempt') else p
             for p in inventory]
 
+def _utc(value):
+    try:
+        parsed=dt.datetime.fromisoformat(str(value).replace('Z','+00:00'))
+    except (TypeError,ValueError):
+        return None
+    return parsed if parsed.tzinfo else parsed.replace(tzinfo=dt.timezone.utc)
+
+def stamp_factory_posts(inventory, ledger):
+    """Stamp every post this factory published with the time its Publisher verified it (`factory_published_at`).
+
+    Topic QA uses the stamp for one narrow waiver: a researcher cannot have read a post that was published
+    after the research was done (`research.reviewed_at`), so that post is not demanded as review evidence.
+    Posts that already existed when the researcher read, and every legacy post, are still demanded.
+    """
+    when={r.get('wp_id'):(r.get('verified_at') or r.get('updated_at')) for r in ((ledger or {}).get('posts') or {}).values() if r.get('wp_id')}
+    return [dict(p,factory_published_at=when[p['id']]) if when.get(p.get('id')) else p for p in inventory]
+
 def drop_own_post(inventory, ledger, topic_id):
     """A draft never collides with its own already published WordPress post."""
     own=(((ledger or {}).get('posts') or {}).get(topic_id) or {}).get('wp_id')
@@ -98,17 +115,22 @@ def gate(topic, others, inventory, taxonomy):
     if not research.get('reviewer') or not research.get('difference_summary') or not topic.get('intent_key'):
         review.append('full-content semantic review missing')
     checked_hashes=research.get('reviewed_content_hashes',{})
+    reviewed_at=_utc(research.get('reviewed_at'))
+    def published_after_review(p):
+        # Sibling articles the factory itself publishes while a batch waits for intake cannot have been read yet.
+        at=_utc(p.get('factory_published_at'))
+        return bool(at and reviewed_at and at>reviewed_at)
     def covered(p):
         # One hash per page; a list when a reviewer re-read the page after it was edited.
         seen=checked_hashes.get(str(p['id']))
         return p.get('content_hash') in (seen if isinstance(seen,list) else [seen])
-    stale=[p for p in nearest if not covered(p)]
+    stale=[p for p in nearest if not covered(p) and not published_after_review(p)]
     if not checked_hashes or stale:
         # Name the pages and their current hash so the reviewer re-reads exactly those.
         review.append('reviewed full-content evidence stale or missing'+
                       (': '+', '.join('%s=%s'%(p['id'],p.get('content_hash')) for p in stale) if stale else ''))
     reviewed=set(research.get('reviewed_existing_ids',[]))
-    unreviewed=[p['id'] for p in nearest if p['id'] not in reviewed]
+    unreviewed=[p['id'] for p in nearest if p['id'] not in reviewed and not published_after_review(p)]
     if unreviewed: review.append('nearest full content not reviewed')
     if len(topic.get('outline',[]))<5 or not research.get('usefulness') or not research.get('scope_exclusions'):
         review.append('usefulness/outline/scope evidence incomplete')
@@ -140,14 +162,21 @@ def research_qa_verdicts(candidate_path):
     if not fresh:return {}
     return {r['topic_id']:r['status'] for r in validate_candidates(fresh)}
 
-def run(candidate_path=None, verdicts=None):
-    rows=topics(); inv=load('data/existing-content-inventory.json',{}).get('items',[]); tax=load('data/taxonomy.json')['items']
+def run(candidate_path=None, verdicts=None, only_ids=None):
+    rows=topics(); inv=stamp_factory_posts(load('data/existing-content-inventory.json',{}).get('items',[]),load('data/state/publication-ledger.json',{})); tax=load('data/taxonomy.json')['items']
     # Refill is incremental: a later candidate must never revoke an approved
     # incumbent topic or silently invalidate an already-submitted article.
     # The new batch is still checked against ALL incumbents and its own peers.
-    incumbent_ids={t['topic_id'] for t in rows}
-    incumbent_evidence=load('reports/topic-qa.json',{}) if candidate_path else {}
-    new_ids=set()
+    # `only_ids` re-gates registered RESEARCH rows in place and can only PROMOTE them (see regate()): every
+    # other row, and any such row that does not pass, keeps its status and evidence untouched.
+    only=set(only_ids or ())
+    incumbent_ids={t['topic_id'] for t in rows}-only
+    incumbent_evidence=load('reports/topic-qa.json',{}) if (candidate_path or only) else {}
+    new_ids=set(only)
+    if only and any(t['topic_id'] in only and t.get('topic_qa_status')!='RESEARCH' for t in rows):
+        raise ValueError('Only RESEARCH rows can be re-gated')
+    if only and not only<={t['topic_id'] for t in rows}:
+        raise ValueError('Unknown topic ID to re-gate')
     if candidate_path:
         discovery=load('data/state/topic-discovery-ledger.json',{'proposals':{}})
         used_origins={str(t.get('origin_id')) for t in rows if str(t.get('origin_id','')).startswith('NTD-')}
@@ -170,7 +199,7 @@ def run(candidate_path=None, verdicts=None):
     # One corpus build serves the whole batch: every WordPress item plus every live topic row.
     index=IntentIndex(inv,rows) if new_ids else None
     for t in rows:
-        if candidate_path and t['topic_id'] in incumbent_ids:
+        if (candidate_path or only) and t['topic_id'] in incumbent_ids:
             # Keep original verdict, research state, and immutable identity.
             # A malicious/duplicate new idea must be rejected on its own merits,
             # never by demoting an existing PLANNED or already-authored topic.
@@ -193,6 +222,11 @@ def run(candidate_path=None, verdicts=None):
                 if strict!='PASS' and result['status']=='PASS':
                     result=dict(result,status='FAIL' if strict=='FAIL' else 'REVIEW',
                                 research_qa=strict or 'MISSING')
+        if t['topic_id'] in only:
+            if result['status']!='PASS':
+                evidence[t['topic_id']]=incumbent_evidence.get(t['topic_id']) or result  # not promoted: nothing changes
+                continue
+            result=dict(result,regated=True)
         evidence[t['topic_id']]=result
         t['topic_qa_status']='PLANNED' if result['status']=='PASS' else 'REJECTED' if result['status']=='FAIL' else 'RESEARCH'
         # Populate a verified REST category ID only after Topic QA has approved
@@ -209,8 +243,26 @@ def run(candidate_path=None, verdicts=None):
     # reports/refill-request.json belongs to scripts/refill_controller.py (ready stock, not lifetime PLANNED).
     print(json.dumps({k:sum(x['status']==k for x in evidence.values()) for k in ('PASS','REVIEW','FAIL')}))
 
+def regate(ids):
+    """Re-gate registered RESEARCH rows with today's rules and promote the ones that pass strict Research QA.
+
+    For rows that were refused only because the evidence rule moved under them (a sibling article went live
+    after the researcher read, or the intake ran late): registered rows are immutable and still own their search
+    intent, so a new ID for the same idea would collide with the stuck row. Nothing is ever demoted or rejected.
+    """
+    from research_v2 import validate_candidates
+    ids=list(dict.fromkeys(i.strip() for i in ids if i.strip()))
+    rows=topics(); chosen=[t for t in rows if t['topic_id'] in ids]
+    if len(chosen)!=len(ids):raise ValueError('Unknown topic ID to re-gate')
+    verdicts={r['topic_id']:r['status'] for r in validate_candidates(chosen,incumbent=[t for t in rows if t['topic_id'] not in ids])}
+    run(None,verdicts,only_ids=ids)
+    after={t['topic_id']:t['topic_qa_status'] for t in topics()}
+    return {i:(verdicts.get(i),after[i]) for i in ids}
+
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--import-candidates');a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--import-candidates');p.add_argument('--regate',help='comma-separated RESEARCH topic IDs to re-gate and promote when they pass');a=p.parse_args()
+    if a.regate:
+        print(json.dumps(regate(a.regate.split(',')),ensure_ascii=False));return
     # Importing candidates always requires Research QA; only a full manual re-audit skips it.
     run(a.import_candidates,research_qa_verdicts(a.import_candidates) if a.import_candidates else None)
 

@@ -1,0 +1,92 @@
+{
+  "topic_id": "NT-000116",
+  "status": "PASS",
+  "source_sha256": "f4d1dd8569018b006bbda51e7892e2381f3fbc9eaeaafea65997fc50d131f6e4",
+  "body_sha256": "befb6c0e45edc01b762d8192c525c9cdc5925634310692f69b615f4b38a3056f",
+  "word_count": 3241,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": null,
+  "at": "2026-10-18T02:01:24.798645+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "753c3954544d1f364ac675edf5035b88604dfa48f592f421996610ddf160dc70",
+  "inventory_sha256": "469be17265547e73ea67c9d756f936313bc9ea2a5e3e929d62a9c8ffdcff5751",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
