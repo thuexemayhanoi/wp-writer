@@ -70,48 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://bvhttdl.gov.vn/17-di-san-van-hoa-phi-vat-the-duoc-vao-danh-muc-di-san-van-hoa-phi-vat-the-quoc-gia-20240813171136882.htm",
-      "supports": "Cổng Bộ VHTTDL (tin về 17 di sản, địa chỉ trang có ngày 13/8/2024): theo Quyết định 2316/QĐ-BVHTTDL, nghề ướp trà sen Quảng An (phường Quảng An, quận Tây Hồ) được đưa vào danh mục di sản văn hóa phi vật thể quốc gia; nghề gắn với giống sen bách diệp.",
-      "sha256": "afc3ecb2010689ee41637c9bde9e6d7c9f794bd53552a7a1bdb43078d97736a7",
-      "verified_at": "2026-10-18T14:11:47.203155+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://tapchicongthuong.vn/ghi-danh-pho-ha-noi-va-nghe-uop-tra-sen-quang-an-la-di-san-van-hoa-phi-vat-the-quoc-gia-125034.htm",
-      "supports": "Tạp chí Công Thương: quy trình làm trà sen khô từ tuyển nguyên liệu đến bảo quản, 7 lần ủ gạo và sấy, một kg trà cần 1.200-1.500 bông sen; khó khăn do ruộng sen thu hẹp và ô nhiễm; kế hoạch mở rộng diện tích sen bách diệp.",
-      "sha256": "dba7f897265caec4876e5c63256fd4ff3630173098149370290211c0988a01be",
-      "verified_at": "2026-10-18T14:11:48.816082+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://thanglong.chinhphu.vn/tra-sen-mon-qua-tinh-hoa-tu-lang-nghe-thu-do-103250707155932629.htm",
-      "supports": "thanglong.chinhphu.vn (7/2025): ướp 1 kg trà sen cần từ 1.500 đến hơn 2.000 bông sen bách diệp trồng tại Hồ Tây; qua 21 ngày với 7 lần vào hương gạo sen và 7 lần sấy; Bộ VHTTDL đưa nghề vào danh mục di sản quốc gia.",
-      "sha256": "451ff89f0004a1f50a5674ba0630ed94cac7da179c5a56cf975c4df25a8b58c8",
-      "verified_at": "2026-10-18T14:11:51.805710+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://hanoimoi.vn/dau-nam-thuong-tra-sen-bach-diep-692730.html",
-      "supports": "Báo Hà Nội Mới: trà sen Quảng An do nghệ nhân làng Quảng Bá (phường Quảng An) sản xuất; trà sen Bách Diệp là chè Tân Cương Thái Nguyên ướp trong sen Bách Diệp trồng ở hồ Đầm Trị; nêu tháng 12-2024 là thời điểm ghi danh (khác ngày trên cổng Bộ VHTTDL).",
-      "sha256": "3447e9ef0ff22bce092f683d65e8078d1444556b1da2d6b21de86fe3e111cbde",
-      "verified_at": "2026-10-18T14:11:53.378008+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://bvhttdl.gov.vn/le-hoi-van-hoa-am-thuc-ha-noi-2025-ton-vinh-gia-tri-di-san-am-thuc-truyen-thong-20251217085250974.htm",
-      "supports": "Bộ VHTTDL (17/12/2025): nghề làm trà sen Quảng An (phường Tây Hồ) nằm trong 7 di sản ẩm thực Hà Nội đã ghi danh quốc gia.",
-      "sha256": "ef96c8a6f33f0121984c88e2fdb65824734aea4c25f1124d43ae1aa2f6993c5b",
-      "verified_at": "2026-10-18T14:11:55.151863+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -155,11 +114,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T14:12:01.209842+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T14:15:19.911406+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "c4075359202610d16683f2434a34b62173b3a15febeb929d170809f882c6ed9a",
+  "inventory_sha256": "5549e2d6422bfcc062b5035e134906ebd79c6c9b76ad2a0a1b27079fc29c79f5",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
