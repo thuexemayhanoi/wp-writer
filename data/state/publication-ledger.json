@@ -1947,7 +1947,7 @@
       }
     },
     "NT-000232": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T04:18:12.577876+00:00",
       "source_hash": "8cd6724220a36ea7b47aad0d967ff362fecbe159140b0313dd5039c82a19b097",
       "slug": "ket-noi-dien-thoai-voi-xe-tay-ga-y-connect-cua-yamaha-va-bluetooth-my-honda-hoat-dong-ra-sao",
@@ -1962,8 +1962,37 @@
       "category_warning": null,
       "git_commit": "5f7132203a83c6fcb48c013be854528ebb61d9c2",
       "run_id": "39096513381",
-      "updated_at": "2026-10-18T04:18:16.510795+00:00",
-      "wp_id": 3986
+      "updated_at": "2026-10-18T04:18:22.674330+00:00",
+      "wp_id": 3986,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ket-noi-dien-thoai-voi-xe-tay-ga-y-connect-cua-yamaha-va-bluetooth-my-honda-hoat-dong-ra-sao/",
+      "verified_at": "2026-10-18T04:18:22.674325+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3986,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ket-noi-dien-thoai-voi-xe-tay-ga-y-connect-cua-yamaha-va-bluetooth-my-honda-hoat-dong-ra-sao/",
+        "categories": [
+          156
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ket-noi-dien-thoai-voi-xe-tay-ga-y-connect-cua-yamaha-va-bluetooth-my-honda-hoat-dong-ra-sao/",
+        "seo_title": "Kết nối điện thoại với xe tay ga: Y-Connect và My Honda+",
+        "seo_description": "Kết nối điện thoại với xe tay ga qua Yamaha Y-Connect hoặc My Honda+ trên SH350i: tính năng, cách ghép đôi, phạm vi Bluetooth và lưu ý khi dùng xe thuê.",
+        "checked_at": "2026-10-18T04:18:22.674302+00:00"
+      }
     }
   },
   "categories": {}
