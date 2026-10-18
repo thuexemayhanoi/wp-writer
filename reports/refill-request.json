@@ -1,7 +1,7 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 8,
+  "ready_stock": 5,
   "trigger_below_ready": 900,
   "rounds_opened": 1,
   "unlimited_rounds": true,
@@ -169,11 +169,11 @@
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 186,
+    "published_wordpress_items": 187,
     "topics_in_factory": 121,
     "topics_by_status": {
-      "PLANNED": 47,
-      "RESEARCH": 74
+      "PLANNED": 49,
+      "RESEARCH": 72
     },
     "rule": "A candidate is compared with EVERY published WordPress item and EVERY topic in the factory (any status except REJECTED), and with the other new rows of the same research run."
   },
