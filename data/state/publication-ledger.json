@@ -2043,7 +2043,7 @@
       }
     },
     "NT-000283": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T05:27:17.360818+00:00",
       "source_hash": "f2e4fa96f1cbcc2849495acf62b190714b0237c85e59905616fa032d7cb01fbe",
       "slug": "doc-thong-so-lop-xe-may-y-nghia-80-90-14-m-c-40p-va-vi-sao-lop-truoc-lop-sau-khac-nhau",
@@ -2058,8 +2058,37 @@
       "category_warning": null,
       "git_commit": "475aabb03d23a315e23f2f6dcde40dd9ad5cd994",
       "run_id": "39100509862",
-      "updated_at": "2026-10-18T05:27:20.913919+00:00",
-      "wp_id": 3991
+      "updated_at": "2026-10-18T05:27:26.143855+00:00",
+      "wp_id": 3991,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/doc-thong-so-lop-xe-may-y-nghia-80-90-14-m-c-40p-va-vi-sao-lop-truoc-lop-sau-khac-nhau/",
+      "verified_at": "2026-10-18T05:27:26.143842+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3991,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/doc-thong-so-lop-xe-may-y-nghia-80-90-14-m-c-40p-va-vi-sao-lop-truoc-lop-sau-khac-nhau/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/doc-thong-so-lop-xe-may-y-nghia-80-90-14-m-c-40p-va-vi-sao-lop-truoc-lop-sau-khac-nhau/",
+        "seo_title": "Đọc thông số lốp xe máy: hiểu 80/90-14 M/C 40P",
+        "seo_description": "Đọc thông số lốp xe máy từ bề rộng, tỷ lệ thành lốp đến chỉ số tải và tốc độ; hiểu vì sao lốp trước, lốp sau khác nhau và cách đối chiếu đúng xe.",
+        "checked_at": "2026-10-18T05:27:26.143824+00:00"
+      }
     }
   },
   "categories": {}
