@@ -1,5 +1,7 @@
 # Universal writer contract — Nguyễn Tú
 
+**Ưu tiên SEO Search Console (18/10/2026):** Khi nghiên cứu chủ đề mới, dùng `python scripts/research_v2.py hints --limit 10` để nhận các cơ hội ưu tiên từ [`data/research/seo-opportunities-2026-10-18.json`](data/research/seo-opportunities-2026-10-18.json). Có 25 ý tưởng bài hỗ trợ và 10 hạng mục bảo vệ/nâng cấp URL hiện có. Hints là *đề xuất nghiên cứu*, không phải PLANNED hay quyền tạo bài; AI ngoài phải đối chiếu toàn bộ WordPress, nguồn thật và vượt Research QA trước khi Writer W1–W9 nhận. Giữ nguyên homepage làm URL chủ lực “thuê xe máy Hà Nội”, không tạo trang dịch vụ trùng, doorway hoặc sửa URL/title/canonical cũ khi chưa được chủ duyệt. QA SEO/Quality ≥85, Production, lease, Publisher và checkpoint không đổi.
+
 **Quy trình vận hành chung hiện hành:** [WRITER-RESEARCH-CONTRACT.md](docs/WRITER-RESEARCH-CONTRACT.md). Đồng bộ W1–W9, nguồn nghiên cứu và vòng lặp tiếp tục; không API AI, không thêm khóa/bước duyệt tay. Một nguồn gốc đủ chứng minh có thể đủ cho chủ đề hẹp; bổ sung đối chiếu khi cần. SEO/Quality ≥85 và G1–G7 không đổi.
 
 **Writer pool (18/10/2026):** W1–W9 là 9 vị trí dùng chung hàng đợi. Claude App/AI App tự nhận vị trí trống bằng `--slot auto` (hoặc request GitHub), mỗi phiên giữ tối đa một vị trí và tối đa 10 Topic ID. Không cấp khóa Ed25519, không xác thực tài khoản Claude, không dùng API AI. Giữ nguyên lease còn hạn, checkpoint, chống trùng Topic ID và QA/Publisher đang chạy; Publisher tiếp tục đăng 2 bài mỗi lô.
