@@ -115,7 +115,8 @@ def gate(topic, others, inventory, taxonomy):
     if not research.get('reviewer') or not research.get('difference_summary') or not topic.get('intent_key'):
         review.append('full-content semantic review missing')
     checked_hashes=research.get('reviewed_content_hashes',{})
-    reviewed_at=_utc(research.get('reviewed_at'))
+    # The researcher's view of the site: the inventory snapshot used when recorded, else the review time.
+    reviewed_at=_utc(research.get('inventory_updated_at')) or _utc(research.get('reviewed_at'))
     def published_after_review(p):
         # Sibling articles the factory itself publishes while a batch waits for intake cannot have been read yet.
         at=_utc(p.get('factory_published_at'))
