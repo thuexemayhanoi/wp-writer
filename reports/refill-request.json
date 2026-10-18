@@ -1,21 +1,21 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 17,
+  "ready_stock": 25,
   "trigger_below_ready": 900,
   "rounds_opened": 1,
   "unlimited_rounds": true,
   "approved_capacity": 1000,
-  "topic_rows": 136,
-  "capacity_remaining": 864,
+  "topic_rows": 146,
+  "capacity_remaining": 854,
   "order": {
     "id": "RF-0001",
     "round": 1,
     "target_min": 200,
     "target_max": 300,
-    "accepted_so_far": 30,
-    "remaining_to_min": 170,
-    "remaining_to_max": 270,
+    "accepted_so_far": 38,
+    "remaining_to_min": 162,
+    "remaining_to_max": 262,
     "batches_still_needed": 17,
     "batch_size": 10,
     "capacity_limited": false,
@@ -53,15 +53,15 @@
         "allocation": 46
       },
       {
-        "taxonomy_key": "electric-maintenance",
-        "quota": 10,
-        "known_now": 3,
+        "taxonomy_key": "electric-tech",
+        "quota": 11,
+        "known_now": 0,
         "allocation": 41
       },
       {
-        "taxonomy_key": "electric-tech",
+        "taxonomy_key": "electric-maintenance",
         "quota": 10,
-        "known_now": 0,
+        "known_now": 3,
         "allocation": 41
       },
       {
@@ -95,6 +95,12 @@
         "allocation": 32
       },
       {
+        "taxonomy_key": "green-travel",
+        "quota": 7,
+        "known_now": 2,
+        "allocation": 27
+      },
+      {
         "taxonomy_key": "legal",
         "quota": 7,
         "known_now": 22,
@@ -113,22 +119,16 @@
         "allocation": 59
       },
       {
-        "taxonomy_key": "road-safety",
-        "quota": 7,
-        "known_now": 22,
-        "allocation": 50
-      },
-      {
         "taxonomy_key": "destinations",
         "quota": 6,
         "known_now": 3,
         "allocation": 27
       },
       {
-        "taxonomy_key": "green-travel",
+        "taxonomy_key": "road-safety",
         "quota": 6,
-        "known_now": 2,
-        "allocation": 27
+        "known_now": 26,
+        "allocation": 50
       },
       {
         "taxonomy_key": "electric",
@@ -150,8 +150,8 @@
       },
       {
         "taxonomy_key": "engine-care",
-        "quota": 4,
-        "known_now": 34,
+        "quota": 3,
+        "known_now": 39,
         "allocation": 50
       }
     ],
@@ -170,10 +170,11 @@
   },
   "dedupe_universe": {
     "published_wordpress_items": 194,
-    "topics_in_factory": 136,
+    "topics_in_factory": 146,
     "topics_by_status": {
-      "PLANNED": 61,
-      "RESEARCH": 75
+      "PLANNED": 69,
+      "REJECTED": 1,
+      "RESEARCH": 76
     },
     "rule": "A candidate is compared with EVERY published WordPress item and EVERY topic in the factory (any status except REJECTED), and with the other new rows of the same research run."
   },
