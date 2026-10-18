@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-18T02:51:52.102801+00:00",
-  "attempted": 1,
+  "at": "2026-10-18T02:53:19.465224+00:00",
+  "attempted": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -20,14 +20,6 @@
         }
       },
       "action": "manual reconciliation; never create/update automatically"
-    },
-    {
-      "topic_id": "NT-000228",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 170,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "engine-care",
-      "category_warning": null
     }
   ],
   "backlog_drains_on": "successful Writer QA or fallback schedule",

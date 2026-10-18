@@ -4,8 +4,8 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-18T02:51:54.384511+00:00 |
-| existing_published_posts | 185 |
+| at | 2026-10-18T02:53:21.569810+00:00 |
+| existing_published_posts | 186 |
 | existing_pages | 10 |
 | existing_products | 13 |
 | candidate_topics | 182 |
@@ -43,7 +43,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | delivery_mode | production |
 | production_enabled | True |
 | draft_staging_enabled | False |
-| qa_pass_live_checked | 1 |
+| qa_pass_live_checked | 0 |
 | qa_pass_awaiting_wordpress | 0 |
 | queued_topic_ids | [] |
 | pending_wordpress_intents | [] |
