@@ -1,20 +1,31 @@
 {
-  "at": "2026-10-18T07:52:25.830680+00:00",
+  "at": "2026-10-18T07:57:53.945357+00:00",
   "stages": {
     "IDEA": 180,
     "RESEARCH": 72,
     "REJECTED": 1,
-    "PLANNED": 0,
+    "PLANNED": 10,
     "PLANNED_HOLD": 2,
-    "CLAIMED": 12,
-    "AUTHORED": 7,
+    "CLAIMED": 11,
+    "AUTHORED": 1,
     "QA_PASS": 0,
-    "PUBLISHED": 98,
+    "PUBLISHED": 105,
     "WP_DRAFT": 0
   },
-  "topic_rows": 192,
-  "ready": 0,
-  "ready_ids": [],
+  "topic_rows": 202,
+  "ready": 10,
+  "ready_ids": [
+    "NT-000551",
+    "NT-000552",
+    "NT-000553",
+    "NT-000554",
+    "NT-000555",
+    "NT-000556",
+    "NT-000557",
+    "NT-000558",
+    "NT-000559",
+    "NT-000560"
+  ],
   "on_hold": {
     "NT-000111": {
       "reason": "Trùng ý định với bài đã đăng #3947/#3948 (mũ bảo hiểm đạt chuẩn, nhãn, dấu CR); chỉ viết nếu tách phạm vi thành \"điểm mới của QCVN 2:2021 so với bản cũ\", hoặc bỏ.",
@@ -32,8 +43,8 @@
   "min_ready": 900,
   "max_ready": 1100,
   "needs_research": true,
-  "shortfall": 900,
-  "room_to_target_max": 1100,
-  "lifetime_planned": 119,
+  "shortfall": 890,
+  "room_to_target_max": 1090,
+  "lifetime_planned": 129,
   "note": "PLANNED counts only topics a writer can still take. Published, claimed, authored, held, RESEARCH and IDEA are never added to it."
 }
