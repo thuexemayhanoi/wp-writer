@@ -4875,7 +4875,7 @@
       }
     },
     "NT-000526": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:06:12.321535+00:00",
       "source_hash": "e4f43708f4e7620f5ddd6d6520eed4287b4312fa606b4592d71b07c3d5f7eb12",
       "slug": "nghe-lam-com-me-tri-tu-thoc-dong-sua-den-me-com-goi-la-sen-va-thoi-diem-vao-vu",
@@ -4890,8 +4890,37 @@
       "category_warning": null,
       "git_commit": "81bfb3fb5a701c88a73205c032408fd153203280",
       "run_id": "39134125621",
-      "updated_at": "2026-10-18T14:06:16.347816+00:00",
-      "wp_id": 4067
+      "updated_at": "2026-10-18T14:06:22.023058+00:00",
+      "wp_id": 4067,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nghe-lam-com-me-tri-tu-thoc-dong-sua-den-me-com-goi-la-sen-va-thoi-diem-vao-vu/",
+      "verified_at": "2026-10-18T14:06:22.023052+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4067,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nghe-lam-com-me-tri-tu-thoc-dong-sua-den-me-com-goi-la-sen-va-thoi-diem-vao-vu/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nghe-lam-com-me-tri-tu-thoc-dong-sua-den-me-com-goi-la-sen-va-thoi-diem-vao-vu/",
+        "seo_title": "Nghề làm cốm Mễ Trì: công đoạn, thóc đông sữa và hai vụ cốm",
+        "seo_description": "Nghề làm cốm Mễ Trì từ thóc nếp non đông sữa đến cốm gói lá sen: các công đoạn theo VOV và Hà Nội Mới, hai vụ cốm trong năm và mốc ghi danh di sản.",
+        "checked_at": "2026-10-18T14:06:22.023028+00:00"
+      }
     }
   },
   "categories": {}
