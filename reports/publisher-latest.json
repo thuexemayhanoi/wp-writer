@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-18T08:04:57.497896+00:00",
-  "attempted": 0,
+  "at": "2026-10-18T14:01:18.948336+00:00",
+  "attempted": 1,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -99,11 +99,11 @@
       ],
       "source_evidence": [],
       "evidence_recheck": null,
-      "at": "2026-10-18T08:04:57.464252+00:00",
+      "at": "2026-10-18T14:00:48.504033+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "b06ba012780e1049a2465434949303cf95f0978904932ce705e57e11f3395957",
+      "inventory_sha256": "dfe019919bf86366ba532d095277c2315dd7ee7f601b56a1246694d2902d2e52",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -118,6 +118,14 @@
         "exhausted": false,
         "needs_owner": false
       }
+    },
+    {
+      "topic_id": "NT-000556",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 173,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "vietnam-travel",
+      "category_warning": null
     }
   ],
   "backlog_drains_on": "successful Writer QA or fallback schedule",

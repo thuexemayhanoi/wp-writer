@@ -71,12 +71,27 @@
   "errors": [],
   "review": [],
   "source_evidence": [],
-  "evidence_recheck": null,
-  "at": "2026-10-18T08:03:10.648553+00:00",
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 4046,
+        "title": "Nhận xe máy thuê tại homestay Hà Nội không có lễ tân: hẹn giao, kiểm tra và trả xe",
+        "why": "stale",
+        "content_hash": "408ee1c935cbed2cc7b830b85734e14e93e1a4c5ee2cc36d01097733e2853eb2",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T13:58:46.564877+00:00",
   "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "262db48181b1239a342fa28af32745f6850745e77236fb66902a4dc8b4b3ce97",
+  "inventory_sha256": "20667e6838497af30be6eb69a38bacef645ac86c0b80e054ea140d63d32c51d1",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
