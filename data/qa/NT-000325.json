@@ -1,0 +1,150 @@
+{
+  "topic_id": "NT-000325",
+  "status": "PASS",
+  "source_sha256": "a35b0e325abc6bb6edc8d4fb69c4d73c6cb5d0ba23aea4f5c3842198404032e0",
+  "body_sha256": "e25a5c32540c2740c18e50b4dc93da06932c11afd1151221ae1298c9a2a2a1a0",
+  "word_count": 3751,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/tin-tuc/ve-honda/honda-viet-nam-trien-khai-huong-dan-phap-luat-ve-trat-tu-an-toan-giao-thong-va-ky-nang-lai-xe-an-toan-tren-dia-ban-trong-diem",
+      "supports": "Honda Việt Nam (tin 28/01/2026): chương trình huấn luyện kỹ năng lái xe an toàn cho người dân 18–70 tuổi tại Đan Phượng, Hà Nội, tập trung kỹ năng phán đoán và phòng tránh rủi ro trong điều kiện thực tế như đi từ đường nhánh ra đường chính, lái xe ban đêm.",
+      "sha256": "34c4f243c31f518f45068cb3fe7ce02122297688858789129c8bea28c7b3938e",
+      "verified_at": "2026-10-18T09:04:34.340007+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vov.gov.vn/kinh-nghiem-tranh-va-cham-khi-qua-cac-nut-giao-dtnew-404295",
+      "supports": "VOV (cập nhật 03/07/2022): kinh nghiệm qua nút giao: giảm tốc độ trước khi tới nút giao, quan sát xe cắt ngang (bên trái trước, bên phải sau), có thể dừng hẳn rồi quan sát; gặp xe chạy tốc độ cao thì tránh vì họ có thể không nhìn thấy bạn.",
+      "sha256": "8971d2809ab5afff371e2fbadb92eceec58af02c58dcb6308ca7068839fb3fd9",
+      "verified_at": "2026-10-18T09:04:40.341295+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vov.gov.vn/nhung-luu-y-cho-chi-em-khi-di-xe-may-duoi-troi-nang-nong-de-tranh-tai-nan-dtnew-1083453",
+      "supports": "VOV (17/07/2025): thói quen rẽ và chuyển hướng theo cảm tính, đợi đến lúc rẽ mới bật xi nhan rồi rẽ luôn khiến người đi sau trở tay không kịp.",
+      "sha256": "7594e18764655b041b3aa9c479eda19dd28200a7d3ee9a06537605ab5f262268",
+      "verified_at": "2026-10-18T09:04:45.697811+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 925,
+        "title": "Thuê Xe Điện Hà Nội – Chọn Xe Máy Điện Hay Xe Đạp Điện?",
+        "why": "stale",
+        "content_hash": "838c9d37eced2e74deeb9b1fb50c29d75e84a717e3f8dd7c79c8cc8599007bf1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2515,
+        "title": "Bình ắc quy xe máy dùng được bao lâu? Khi nào nên kiểm tra lại?",
+        "why": "stale",
+        "content_hash": "26576df935c21a29be7d5e9013419bbd9273bc6c5f99f106848143996460de9a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2521,
+        "title": "Cách kiểm tra lốp xe máy để phát hiện mòn, nứt và áp suất bất thường",
+        "why": "stale",
+        "content_hash": "08080c3d371127024550acb47d9ddf7feb4cdba807bbb1f3996c8e47b110a33d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T09:04:55.251035+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "69e328005d431c59d5a99d3f17d3b1a3e08da0a81beba00158496e38307508d4",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
