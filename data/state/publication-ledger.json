@@ -6459,7 +6459,7 @@
       }
     },
     "NT-000673": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:39:28.614092+00:00",
       "source_hash": "cd200b212bb4a6a6f40cb9218e316030e59ccf747712a640d7ebf0faf7a1c5db",
       "slug": "bao-hiem-du-lich-khi-di-xe-may-o-viet-nam-uc-anh-ireland-va-canada-dan-kiem-tra-dieu-gi",
@@ -6474,8 +6474,37 @@
       "category_warning": null,
       "git_commit": "71303a43722e9ddcff85275eb9bace9db8e031d9",
       "run_id": "39136366022",
-      "updated_at": "2026-10-18T14:39:32.452559+00:00",
-      "wp_id": 4101
+      "updated_at": "2026-10-18T14:39:38.173830+00:00",
+      "wp_id": 4101,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bao-hiem-du-lich-khi-di-xe-may-o-viet-nam-uc-anh-ireland-va-canada-dan-kiem-tra-dieu-gi/",
+      "verified_at": "2026-10-18T14:39:38.173824+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4101,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bao-hiem-du-lich-khi-di-xe-may-o-viet-nam-uc-anh-ireland-va-canada-dan-kiem-tra-dieu-gi/",
+        "categories": [
+          163
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bao-hiem-du-lich-khi-di-xe-may-o-viet-nam-uc-anh-ireland-va-canada-dan-kiem-tra-dieu-gi/",
+        "seo_title": "Bảo hiểm du lịch khi đi xe máy ở Việt Nam: các trang dặn kiểm tra gì",
+        "seo_description": "Bảo hiểm du lịch khi đi xe máy ở Việt Nam: trang chính phủ Úc, Anh, Ireland và Canada dặn kiểm tra hoạt động được bảo hiểm, loại trừ, phí bổ sung và vận chuyển y tế.",
+        "checked_at": "2026-10-18T14:39:38.173805+00:00"
+      }
     }
   },
   "categories": {}
