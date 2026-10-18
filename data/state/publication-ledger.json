@@ -6313,6 +6313,24 @@
         "seo_description": "Sạc pin xe điện trong khoảng nào? So sánh mốc 20–80% và 20–100% của Dat Bike, VinFast, Bosch, Shimano cùng bảng độ sâu xả của Battery University để đọc đúng sổ tay xe.",
         "checked_at": "2026-10-18T14:36:45.546215+00:00"
       }
+    },
+    "NT-000588": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-18T14:37:12.283537+00:00",
+      "source_hash": "09378c2df99ce66ebcf6e302b645fb47d8062b95f881a544f7dd12437395ddab",
+      "slug": "un-38-3-va-iec-62133-la-gi-hai-nhom-thu-nghiem-an-toan-pin-lithium-khac-nhau-o-diem-nao",
+      "expected_status": "publish",
+      "category_id": 168,
+      "visible_hash": "823529f4121e9f493cbf67354b846469cb02f907b4b453f49a0524bb9074f230",
+      "first_paragraph": "UN 38.3 và IEC 62133 là hai tên chuẩn thử nghiệm pin lithium hỏi hai câu khác nhau. UN 38.3 là bộ thử nghiệm xem cell và pin lithium có ổn định khi vận chuyển hay không (theo mô tả của các phòng thử nghiệm, gồm thử nhiệt, mô phỏng độ cao, sốc, va đập, rung, đoản mạch ngoài, sạc quá và xả cưỡng bức), còn IEC 62133-2 nêu yêu cầu và phép thử để cell và pin lithium kín vận hành an toàn trong ứng dụng cầm tay, khi dùng đúng và khi lạm dụng có thể lường trước. Cả hai đều nói về cell hoặc pin chứ không phải bảo đảm cho cả chiếc xe, và các trang đã đọc không cho biết chuẩn nào áp dụng cho pin xe máy điện: IEC 62619 dành cho pin công nghiệp và loại trừ phương tiện đường bộ, còn IEC 62660-1 quy định thử hiệu năng và tuổi thọ cell dùng để đẩy xe điện. Vì vậy khi thấy một trong các tên này trên nhãn hay giấy chứng nhận, hãy đọc đủ tên chuẩn, bản, đơn vị thử và đối tượng được thử.",
+      "meta_title": "UN 38.3 và IEC 62133 là gì: hai nhóm thử nghiệm pin lithium khác nhau",
+      "meta_description": "UN 38.3 và IEC 62133 là gì: UN 38.3 thử độ ổn định khi vận chuyển, IEC 62133-2 thử vận hành an toàn cho pin lithium cầm tay; cách đọc nhãn và giới hạn phạm vi.",
+      "intended_taxonomy_key": "electric-tech",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "71303a43722e9ddcff85275eb9bace9db8e031d9",
+      "run_id": "39136366022",
+      "updated_at": "2026-10-18T14:37:12.285229+00:00"
     }
   },
   "categories": {}
