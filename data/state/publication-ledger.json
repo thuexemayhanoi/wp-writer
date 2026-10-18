@@ -5739,7 +5739,7 @@
       }
     },
     "NT-000555": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:24:13.851360+00:00",
       "source_hash": "c79987bfb795c9c9d1893286a02e36aa3ba47138d8bd4c51debd6c59da3b858f",
       "slug": "moc-chau-bang-xe-may-theo-quoc-lo-6-cu-doan-chu-s-may-mu-thung-khe-va-cach-chia-2-ngay",
@@ -5754,8 +5754,37 @@
       "category_warning": null,
       "git_commit": "7273a494611150e07f74086119d44aa1a914b13f",
       "run_id": "39135461332",
-      "updated_at": "2026-10-18T14:24:17.928917+00:00",
-      "wp_id": 4086
+      "updated_at": "2026-10-18T14:24:24.140963+00:00",
+      "wp_id": 4086,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/moc-chau-bang-xe-may-theo-quoc-lo-6-cu-doan-chu-s-may-mu-thung-khe-va-cach-chia-2-ngay/",
+      "verified_at": "2026-10-18T14:24:24.140957+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4086,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/moc-chau-bang-xe-may-theo-quoc-lo-6-cu-doan-chu-s-may-mu-thung-khe-va-cach-chia-2-ngay/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/moc-chau-bang-xe-may-theo-quoc-lo-6-cu-doan-chu-s-may-mu-thung-khe-va-cach-chia-2-ngay/",
+        "seo_title": "Mộc Châu bằng xe máy theo quốc lộ 6 cũ: chữ S, Thung Khe, chia 2 ngày",
+        "seo_description": "Mộc Châu bằng xe máy theo quốc lộ 6 cũ theo VnExpress: bốn đến năm tiếng, cung chữ S ở Vân Hồ, mây mù từ Thung Khe, cách chia 2 ngày trên cao nguyên và lưu ý đường nhánh.",
+        "checked_at": "2026-10-18T14:24:24.140931+00:00"
+      }
     }
   },
   "categories": {}
