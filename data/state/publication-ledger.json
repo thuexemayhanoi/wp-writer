@@ -1419,7 +1419,7 @@
       }
     },
     "NT-000222": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T02:35:54.629331+00:00",
       "source_hash": "21dcfb6a9df023fbab9cacccf9c4f0c850f379df06cc726f05dae8175cf10264",
       "slug": "chia-fob-smart-key-cua-honda-cach-tat-he-thong-khi-do-xe-va-bat-tat-am-bao-xac-dinh-vi-tri",
@@ -1434,8 +1434,37 @@
       "category_warning": null,
       "git_commit": "3159cadcc2f6ebde10da72b7fadb937c5035cda8",
       "run_id": "39090374788",
-      "updated_at": "2026-10-18T02:35:58.515003+00:00",
-      "wp_id": 3975
+      "updated_at": "2026-10-18T02:36:04.784488+00:00",
+      "wp_id": 3975,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/chia-fob-smart-key-cua-honda-cach-tat-he-thong-khi-do-xe-va-bat-tat-am-bao-xac-dinh-vi-tri/",
+      "verified_at": "2026-10-18T02:36:04.784482+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3975,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/chia-fob-smart-key-cua-honda-cach-tat-he-thong-khi-do-xe-va-bat-tat-am-bao-xac-dinh-vi-tri/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/chia-fob-smart-key-cua-honda-cach-tat-he-thong-khi-do-xe-va-bat-tat-am-bao-xac-dinh-vi-tri/",
+        "seo_title": "Chìa FOB Smart Key của Honda: cách tắt hệ thống và âm báo",
+        "seo_description": "Chìa FOB Smart Key của Honda tắt hoàn toàn hay tạm thời thế nào, bật tắt âm báo xác định vị trí ra sao? Tóm tắt hỏi đáp Honda theo từng dòng xe.",
+        "checked_at": "2026-10-18T02:36:04.784461+00:00"
+      }
     }
   },
   "categories": {}
