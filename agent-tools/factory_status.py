@@ -32,6 +32,33 @@ def branches():
     return {line.split('refs/heads/')[1]: line.split()[0] for line in out.splitlines() if 'refs/heads/' in line}
 
 
+def read_remote_checkpoint(branch, head):
+    """Checkpoint JSON of a research branch at `head`, or None when it cannot be read (offline, never fetched)."""
+    session = branch.split('/', 1)[1]
+    try:
+        raw = subprocess.run(['git', 'show', head + ':data/research/checkpoints/' + session + '.json'], cwd=ROOT,
+                             capture_output=True, text=True, timeout=60)
+    except (OSError, subprocess.SubprocessError):
+        return None
+    try:
+        return json.loads(raw.stdout) if raw.returncode == 0 else None
+    except ValueError:
+        return None
+
+
+def is_ingested(branch, head, ledger, read_checkpoint=read_remote_checkpoint):
+    """A research branch counts as ingested when trusted intake accepted every batch its checkpoint lists.
+
+    Comparing the branch head with the ledger's research_commit is wrong after a checkpoint-only push (for example
+    `checkpoint --final` on an already accepted batch): the head moves, the batches do not.
+    """
+    if any(b.get('research_branch') == branch and b.get('research_commit') == head for b in ledger.values()):
+        return True
+    checkpoint = read_checkpoint(branch, head)
+    batches = (checkpoint or {}).get('batches') or []
+    return bool(batches) and all((ledger.get(b.get('path')) or {}).get('sha256') == b.get('sha256') for b in batches)
+
+
 def status():
     inputs = refill_controller.build_inputs()
     rows, stock = inputs['rows'], inputs['stock']
@@ -43,7 +70,8 @@ def status():
         allocation[domain['taxonomy_key']] += domain['initial_allocation']
     ledger = (inputs['intake_ledger'] or {}).get('batches', {})
     heads = branches()
-    ingested = {b.get('research_branch'): b.get('research_commit') for b in ledger.values()}
+    subprocess.run(['git', 'fetch', '--no-tags', '--quiet', 'origin', '+refs/heads/research/*:refs/remotes/origin/research/*'],
+                   cwd=ROOT, capture_output=True, timeout=120)
     plan = research_v2.refill_plan()
     return {
         'approved_capacity': inputs['approved_capacity'], 'topic_rows': len(rows),
@@ -55,7 +83,7 @@ def status():
         'intake': {'batches': len(ledger),
                    'accepted_topics': sum(len(b.get('accepted_ids') or []) for b in ledger.values()),
                    'not_accepted': {k: v for b in ledger.values() for k, v in (b.get('not_accepted') or {}).items()}},
-        'research_branches': {b: {'head': h[:7], 'ingested': ingested.get(b) == h} for b, h in sorted(heads.items())},
+        'research_branches': {b: {'head': h[:7], 'ingested': is_ingested(b, h, ledger)} for b, h in sorted(heads.items())},
         'by_category': {k: {'allocation': allocation[k], 'known_now': have.get(k, 0), 'ready': ready.get(k, 0),
                             'deficit': max(0, allocation[k] - have.get(k, 0))}
                         for k in sorted(allocation, key=lambda k: -max(0, allocation[k] - have.get(k, 0)))},
