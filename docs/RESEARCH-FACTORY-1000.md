@@ -1,6 +1,6 @@
 # Research factory 1.000 — checkpoint và cách tiếp tục chỉ từ GitHub
 
-Lệnh chủ MASTER WORK — RESEARCH FACTORY 1.000 SEO TOPICS: xây kho **1.000 chủ đề đã nghiên cứu thật**, không trùng ý định, đúng danh mục cha/con, đủ dữ liệu để W1/W2/W3 viết 1.600–5.000 từ. Giữ nguyên mọi chủ đề và bài đã đăng; chỉ bổ sung phần còn thiếu.
+Lệnh chủ MASTER WORK — RESEARCH FACTORY 1.000 SEO TOPICS: xây kho **1.000 chủ đề đã nghiên cứu thật**, không trùng ý định, đúng danh mục cha/con, đủ dữ liệu để W1–W9 viết 1.600–5.000 từ. Giữ nguyên mọi chủ đề và bài đã đăng; chỉ bổ sung phần còn thiếu.
 
 ## Giới hạn cứng (không ai tự đổi)
 - `approved_capacity` = **1.000** trong `config/production-policy.json` (chỉ chủ repo đổi). Nó đếm **mọi dòng** trong `data/topics.jsonl`: PLANNED, RESEARCH, REJECTED, đã đăng. Hiện 101 dòng (29 PLANNED/đã đăng, 72 seed RESEARCH) nên còn **899 chỗ trống**. Hai hệ quả phải nói thẳng:
@@ -65,8 +65,8 @@ Số chủ đề đã nghiên cứu · số PASS được tiếp nhận · số 
 5. Lô REVIEW: sửa đúng lý do (thường là nguồn, ý định hoặc bằng chứng đọc lại) và nộp **lô mới với ID mới** nếu dòng cũ đã vào kho; không tự gán PASS.
 6. Không sửa registry, config, ledger, workflow hay bài WordPress cũ bằng tay.
 
-## Writer chạy song song (3 slot W1–W3, lease 12 giờ)
-Mỗi lượt giao 5 chủ đề cho một writer (session `seodev-wN`, ID mới mỗi lần). Chọn từ `factory_status.py` → `ready_ids`, ưu tiên chủ đề có tính thời vụ (ví dụ NT-000361 hoa dã quỳ Ba Vì 2026) và rải đều danh mục. Writer nào hết quota: `writer-session.py` giữ lease, phiên sau đọc ledger trên `origin/main` (bài `VERIFIED` không viết lại) rồi tiếp tục; không `begin` lại khi lease còn.
+## Writer chạy song song (9 vị trí W1–W9, lease 12 giờ)
+Mỗi lượt có thể giao 1–10 chủ đề cho một Writer, ví dụ 5 chủ đề (session `seodev-wN`, ID mới mỗi lần). Chọn từ `factory_status.py` → `ready_ids`, ưu tiên chủ đề có tính thời vụ (ví dụ NT-000361 hoa dã quỳ Ba Vì 2026) và rải đều danh mục. Writer nào hết quota: `writer-session.py` giữ lease, phiên sau đọc ledger trên `origin/main` (bài `VERIFIED` không viết lại) rồi tiếp tục; không `begin` lại khi lease còn.
 
 QA đã tối ưu để chạy tuyến tính theo số bản nháp (mỗi văn bản chỉ băm shingle một lần), nên Writer QA và Publisher vẫn dưới giới hạn 40 phút khi có hàng trăm bài. Bước cuối của Publisher (`save_reports.py`) bỏ qua report đã bị commit khác đi trước thay vì báo đỏ; `RemoteState.persist` chỉ kiểm tra xung đột trên các đường dẫn mà tiến trình đó thật sự đổi.
 
