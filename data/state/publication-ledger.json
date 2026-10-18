@@ -3627,7 +3627,7 @@
       }
     },
     "NT-000385": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T07:38:21.018757+00:00",
       "source_hash": "c6371abe6e9743ad1e3a6a832b6fb9f1c0e4a8f193524f3791ff95d0715a196b",
       "slug": "nghi-quyet-57-2025-ve-vung-phat-thai-thap-lo-trinh-han-che-xe-may-xang-o-ha-noi-den-nam-2031",
@@ -3642,8 +3642,37 @@
       "category_warning": null,
       "git_commit": "93ae93c1642c2b4a7bd3a26f671602a78533a914",
       "run_id": "39107691174",
-      "updated_at": "2026-10-18T07:38:24.961672+00:00",
-      "wp_id": 4026
+      "updated_at": "2026-10-18T07:38:30.722920+00:00",
+      "wp_id": 4026,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nghi-quyet-57-2025-ve-vung-phat-thai-thap-lo-trinh-han-che-xe-may-xang-o-ha-noi-den-nam-2031/",
+      "verified_at": "2026-10-18T07:38:30.722914+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4026,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nghi-quyet-57-2025-ve-vung-phat-thai-thap-lo-trinh-han-che-xe-may-xang-o-ha-noi-den-nam-2031/",
+        "categories": [
+          177
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nghi-quyet-57-2025-ve-vung-phat-thai-thap-lo-trinh-han-che-xe-may-xang-o-ha-noi-den-nam-2031/",
+        "seo_title": "Nghị quyết 57/2025 về vùng phát thải thấp: lộ trình xe máy xăng 2031",
+        "seo_description": "Nghị quyết 57/2025 về vùng phát thải thấp của Hà Nội: bốn mốc đến 2031, điểm khác với Đề án thông qua 15/6/2026 và điều bản tóm tắt nêu, chưa nêu về xe máy xăng.",
+        "checked_at": "2026-10-18T07:38:30.722895+00:00"
+      }
     }
   },
   "categories": {}
