@@ -2377,6 +2377,24 @@
         "seo_description": "Giảm xóc xe máy chảy dầu, nảy khi qua ổ gà, kêu hoặc lệch lái là dấu hiệu gì? Tìm hiểu nguyên nhân, mức độ nguy hiểm và thời điểm cần kiểm tra.",
         "checked_at": "2026-10-18T06:42:27.617135+00:00"
       }
+    },
+    "NT-000306": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-18T07:09:36.525997+00:00",
+      "source_hash": "661bfb4c0a3f82c806a11b126fac158fc01506a564cf1962ee35325ad351b49d",
+      "slug": "xe-may-dien-sac-khong-vao-dien-thu-tu-kiem-tra-truoc-khi-mang-di-bao-hanh",
+      "expected_status": "publish",
+      "category_id": 160,
+      "visible_hash": "a0027ef133731fcb0987c2e8001ced753b174dcd43629b17c6fd553ffb3ba0a7",
+      "first_paragraph": "Khi xe máy điện sạc không vào điện, hãy kiểm tra theo thứ tự từ việc đơn giản và an toàn đến việc cần kỹ thuật viên: cắm lại phích dứt khoát sau khi rút nguồn đủ lâu, xác nhận xe đã tắt hẳn (và bật công tắc pin nếu hãng yêu cầu cho đúng mẫu xe đó), lau khô phích cắm, rồi quan sát đèn báo của bộ sạc và đồng hồ. Nếu đèn bộ sạc vẫn không sáng, xe báo không sạc được, hoặc bộ sạc ồn bất thường, có mùi hôi hay khói, hãy dừng thử và mang xe đến đại lý chính hãng; đừng tự mở bộ sạc hay pin và đừng dùng bộ sạc không rõ nguồn gốc. Khoảng chờ cụ thể giữa các thao tác khác nhau theo từng hãng và từng mẫu xe, nên cần đối chiếu sách hướng dẫn của đúng xe.",
+      "meta_title": "Xe máy điện sạc không vào điện: thứ tự kiểm tra trước khi bảo hành",
+      "meta_description": "Xe máy điện sạc không vào điện: thứ tự kiểm tra từ cắm lại phích, công tắc pin, nhiệt độ đến lúc phải dừng và mang đến đại lý, theo tài liệu VinFast, Yamaha và PCCC.",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "7adfe17c68dce79d017a42f647ec8711c59d7e89",
+      "run_id": "39106450119",
+      "updated_at": "2026-10-18T07:09:36.527457+00:00"
     }
   },
   "categories": {}
