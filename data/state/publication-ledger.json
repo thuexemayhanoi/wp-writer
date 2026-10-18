@@ -2569,6 +2569,24 @@
         "seo_description": "Đối chiếu khuyến cáo sạc xe máy điện qua đêm của Cục Cảnh sát PCCC và CNCH (2024, 2025) với trang VinFast: điều kiện đi kèm, mốc 8 giờ liên tục và việc cần làm trước khi cắm sạc.",
         "checked_at": "2026-10-18T07:15:03.304883+00:00"
       }
+    },
+    "NT-000302": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-18T07:15:11.565069+00:00",
+      "source_hash": "f408105fdca1f696bda676d91e7c4106784ae1e4fe840f944694936bf9eac7f1",
+      "slug": "nhiet-do-sac-pin-xe-may-dien-cac-moc-0-35-c-10-45-c-va-20-45-c-hieu-the-nao",
+      "expected_status": "publish",
+      "category_id": 167,
+      "visible_hash": "fbef4c240273ac75bbcc07ec4bb5f0140938c183450d9296ecaf8cad8a8d63b6",
+      "first_paragraph": "Nhiệt độ sạc pin xe máy điện không có một con số chung, vì các mốc 0–35°C, 10–45°C và 20–45°C đo ba thứ khác nhau và đến từ ba tài liệu khác nhau. Mốc 0–35°C là điều kiện nhiệt độ của nơi sạc trong khuyến cáo của Cục Cảnh sát PCCC và CNCH (24/05/2024) cho ắc quy, pin xe điện nói chung; 20–45°C là “nhiệt độ lý tưởng khi sạc” trên một trang hướng dẫn chung của VinFast; 10–45°C là nhiệt độ hoạt động của pin, xuất hiện trên trang pin lithium VinFast đời đầu (19/02/2021) và trên trang Evo200 Lite. Trang Evo200 Lite còn nêu hai mốc về chính viên pin (không nên sạc khi pin từ 45°C trở lên, pin tự từ chối sạc khi bên trong vượt 55°C), còn mốc 72°C là mức quá nhiệt ở hai trang VinFast khác. Bài này xếp từng mốc theo nguồn, ngày, đối tượng đo và mẫu pin, và không gộp chúng thành một “khoảng chuẩn”.",
+      "meta_title": "Nhiệt độ sạc pin xe máy điện: các mốc 0–35°C, 10–45°C và 20–45°C",
+      "meta_description": "Giải thích các mốc nhiệt độ sạc pin xe máy điện của PCCC, VinFast và Yamaha: nhiệt độ nơi sạc, nhiệt độ hoạt động của pin, ngưỡng 55°C, 72°C và cách chờ pin nguội.",
+      "intended_taxonomy_key": "battery-charging",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "c59b8586d81914c1fda982924f9aa7eb41468dd1",
+      "run_id": "39106725943",
+      "updated_at": "2026-10-18T07:15:11.567459+00:00"
     }
   },
   "categories": {}
