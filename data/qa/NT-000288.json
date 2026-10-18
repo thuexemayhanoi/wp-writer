@@ -70,24 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.michelin.co.uk/motorbike/advice-motorbike/tyre-basics/motorcycle-handlebar-vibration-and-wobble",
-      "supports": "Michelin (bài về rung tay lái, lắc tay lái và giật, cập nhật 23/05/2025, đọc 17/10/2026) nêu rung thường do bánh mất cân bằng hoặc lốp lắp lệch tâm, lắc tay lái liên quan lốp mòn nhiều và áp suất sai, cách phản ứng là không gồng tay, giữ tay lái lỏng hơn và giảm tốc.",
-      "sha256": "b0acbbee109de153268ea10fd01b3f97c4963816539b8a7a8bc1da5e373fba7d",
-      "verified_at": "2026-10-18T07:46:06.260128+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/phuoc-xe-may-la-gi/",
-      "supports": "Bài Yamaha về phuộc xe máy (đăng 10/03/2026, đọc 17/10/2026) nêu xe lệch lái hoặc mất cân bằng có thể do một bên phuộc yếu hoặc cong, và phuộc yếu khiến xe nảy, rung giật.",
-      "sha256": "18afd776531320a880dd9af700be2621f878a74d819e3fcac973367536580603",
-      "verified_at": "2026-10-18T07:46:07.997759+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -131,11 +114,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T07:46:16.413138+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T07:47:53.236888+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "70c5768780c664474024cc481c9ae881c2299a6d9fae4f133c4c2048d4f5f965",
+  "inventory_sha256": "21e3964a9c6ac5573cf2c1248fb637e06c12b7d241474abf8447d55bec946ce8",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
