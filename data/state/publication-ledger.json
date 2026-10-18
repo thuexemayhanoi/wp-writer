@@ -1323,7 +1323,7 @@
       }
     },
     "NT-000221": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T02:31:55.941247+00:00",
       "source_hash": "64c81529e52c30ddab7d12fe5a6bf7cd8b3b590673e052423a16ce40770879a7",
       "slug": "smart-key-xe-tay-ga-khong-mo-duoc-kiem-tra-pin-chia-ac-quy-va-ma-id-khan-cap",
@@ -1338,8 +1338,37 @@
       "category_warning": null,
       "git_commit": "3f0fe539fc7983f73ebb6649ab6e3306e5d5bc05",
       "run_id": "39090255831",
-      "updated_at": "2026-10-18T02:31:59.774594+00:00",
-      "wp_id": 3973
+      "updated_at": "2026-10-18T02:32:06.047458+00:00",
+      "wp_id": 3973,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/smart-key-xe-tay-ga-khong-mo-duoc-kiem-tra-pin-chia-ac-quy-va-ma-id-khan-cap/",
+      "verified_at": "2026-10-18T02:32:06.047451+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3973,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/smart-key-xe-tay-ga-khong-mo-duoc-kiem-tra-pin-chia-ac-quy-va-ma-id-khan-cap/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/smart-key-xe-tay-ga-khong-mo-duoc-kiem-tra-pin-chia-ac-quy-va-ma-id-khan-cap/",
+        "seo_title": "Smart Key xe tay ga không mở được: pin chìa, ắc quy, mã ID",
+        "seo_description": "Smart Key xe tay ga không mở được? Kiểm tra remote, nhiễu sóng, pin chìa, ắc quy và hiểu mã ID khẩn cấp khác nhau giữa Yamaha và Honda.",
+        "checked_at": "2026-10-18T02:32:06.047433+00:00"
+      }
     }
   },
   "categories": {}
