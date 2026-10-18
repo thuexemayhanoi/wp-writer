@@ -70,40 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/ve-sinh-noi-xe-tay-ga/",
-      "supports": "Yamaha Motor Việt Nam (09/07/2025): bộ nồi là hệ truyền động đai; nên làm sạch khoảng 7.000–8.000 km hoặc sớm hơn khi có dấu hiệu; bảng chi tiết và dấu hiệu cần thay (bi nồi, kẹp trượt, bố ba càng, lò xo, dây curoa).",
-      "sha256": "fdcab4bf575249706049a996a4ca4e0d4a9696cabff9a1c431cdf838a14f1b5c",
-      "verified_at": "2026-10-18T14:03:46.133515+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/khi-nao-nen-thay-noi-xe-tay-ga/",
-      "supports": "Yamaha Motor Việt Nam (09/03/2022): bộ nồi gồm cụm nồi trước, cụm nồi sau và dây curoa; khoảng 5.000 km thay bố ba càng và chuông nồi sau, khoảng 20.000 km thay toàn bộ; các tiếng kêu và rung báo hỏng.",
-      "sha256": "eb572cec0a5bcc7b2757e851cde04cf8f7bec27f102a037e48b9bcfb7614b5dc",
-      "verified_at": "2026-10-18T14:03:49.865455+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/xe-may-bi-hut-ga-8-cach-khac-phuc-nhanh-chong-nhat/",
-      "supports": "Yamaha Motor Việt Nam (12/12/2021): các chi tiết bên trong bộ nồi xuống cấp có thể gây hụt ga, hao xăng và ì máy; nên thường xuyên vệ sinh nồi.",
-      "sha256": "52ccf0dc525bb411815efbae95a01f00beae3728eb1ea506ed7627ad5f65764b",
-      "verified_at": "2026-10-18T14:03:51.130410+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.honda.com.vn/xe-may/dich-vu-sau-ban-hang/chinh-sach-bao-hanh-xe",
-      "supports": "Honda Việt Nam (chính sách bảo hành xe từ 350cc trở xuống, áp dụng từ 15/8/2025): đĩa ly hợp, dây đai và bi văng ly hợp nằm trong bảng các phụ tùng hao mòn theo thời gian sử dụng.",
-      "sha256": "aa47a4cd9d7657b454d74242d5224a3043b9940fe791852908d563db78e6cb90",
-      "verified_at": "2026-10-18T14:03:52.691111+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -120,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T14:04:01.599562+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T14:08:40.883999+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "159988abe2ed20dd867fe8a96091bcc06f44bc1d66dc5ccf85da8259a66bb31a",
+  "inventory_sha256": "7554016887b88eafa9a1ef52e2e5134033f80229d291b4ca31f0971047b753a4",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

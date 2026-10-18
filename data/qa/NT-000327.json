@@ -70,48 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vnexpress.net/cach-do-deo-an-toan-bang-xe-so-va-xe-ga-4469551.html",
-      "supports": "VnExpress (30/05/2022): rủi ro hàng đầu khi đổ đèo là mất phanh do phanh liên tục; không được tắt máy; xe số về số thấp để phanh động cơ; xe ga dùng hộp số CVT nên khó hơn, người ít kinh nghiệm tốt nhất không đổ đèo bằng xe ga; mô tả kỹ thuật mớm ga cho dính côn ở 15–20 km/h.",
-      "sha256": "fc3c3568aa7ac886c293a198db1d49be4db76f9e1c48cc7960e816f72f7e26c8",
-      "verified_at": "2026-10-18T14:05:26.929387+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dantri.com.vn/du-lich/kinh-nghiem-giu-mang-song-khi-do-deo-o-tam-dao-nen-di-xe-so-hay-xe-ga-20250422122958567.htm",
-      "supports": "Dân trí (23/04/2025), kỹ thuật viên hãng xe và người đi quen đèo Tam Đảo: xuống dốc dùng số 2 hoặc số 1 kết hợp phanh, tốc độ an toàn 20–25 km/h, lên số nào xuống số đó; xe ga không có số để ghìm tốc nên dễ cháy phanh; phối hợp hai phanh, bóp nhấn nhả, không tắt máy, dừng nghỉ giữa chặng.",
-      "sha256": "e074586feb2f19780dda35f8fbb8ddd216f4bd5f4cfdd062c694f3fab509f393",
-      "verified_at": "2026-10-18T14:05:29.102312+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/huong-dan-cach-chay-xe-so-an-toan-cho-nguoi-moi-bat-dau/",
-      "supports": "Yamaha Motor Việt Nam (cập nhật 03/2026), bài hướng dẫn chạy xe số: khi xuống dốc trả tay ga về và dùng đúng số đã dùng khi lên dốc, dốc quá đứng thì về số thấp nhất.",
-      "sha256": "2717d5fe7f3999006e51b2866f47b2d1e720f77dd53085fd8590ed8a28d96318",
-      "verified_at": "2026-10-18T14:05:30.735859+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnamnet.vn/bi-kip-do-deo-xe-tay-ga-mot-cach-an-toan-525009.html",
-      "supports": "VietNamNet (20/04/2019, theo Cartime): xe ga xuống dốc không về số thấp được, không bóp phanh liên tục, không tắt máy; mô tả kỹ thuật mớm ga để côn bám; kinh nghiệm người dùng, còn tranh cãi.",
-      "sha256": "a9b5ac9f9ce82e9d9217f6beeaa665d0a66aca619ce7684fc330d8627f92a3d6",
-      "verified_at": "2026-10-18T14:05:32.828302+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vov.gov.vn/suong-mu-day-dac-tiem-an-nhieu-nguy-co-tai-nan-tren-deo-pha-din-dtnew-229244",
-      "supports": "VOV (09/01/2021) về đèo Pha Đin khi sương mù: mưa nhỏ làm nền đường trơn, các phương tiện đặc biệt là xe tải lớn phải đi số thấp để lên, xuống đèo.",
-      "sha256": "a5586cee683f039322ae04465e46eddcebd081eab677917c7910bb9a76b890ee",
-      "verified_at": "2026-10-18T14:05:37.301241+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -146,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T14:05:43.613303+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T14:08:47.568765+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "19e2633d53328e59e198b80c7619136baf60613dec9b24aadbe67071d9d9b925",
+  "inventory_sha256": "7554016887b88eafa9a1ef52e2e5134033f80229d291b4ca31f0971047b753a4",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

@@ -1,0 +1,150 @@
+{
+  "topic_id": "NT-000557",
+  "status": "PASS",
+  "source_sha256": "603b9ee48e7a5b48e7fe3fd9906caaad0bb4175a69e1e2e7cedfab70e9527eb2",
+  "body_sha256": "eafdc37f5cc533542c380b0f1c7381e9abcf85c7379d0d189ec08aff806be251",
+  "word_count": 3589,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/cam-nang-du-lich-cao-bang-4445913.html",
+      "supports": "Cẩm nang VnExpress (cập nhật 5/1/2026): Cao Bằng cách Hà Nội khoảng 280 km; lưu ý đổ xăng đầy bình vì ít trạm xăng; hai hướng QL4 qua Lạng Sơn và QL3 qua Bắc Kạn; đường qua Bắc Kạn quanh co hơn; lịch trình 3 ngày 2 đêm; nếu đi xe máy nhớ mặc áo ấm, mang áo mưa.",
+      "sha256": "1b75d2bae03cca521e60d72365a5de9b206e3976ecf411ec6368e3b48298f784",
+      "verified_at": "2026-10-18T14:13:38.531900+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vietnam.travel/things-to-do/discovering-cao-bang-7-must-do-experiences",
+      "supports": "vietnam.travel: khoảng cách Hà Nội tới thành phố Cao Bằng khoảng 280 km, mất khoảng tám giờ tùy phương tiện; mùa khô tháng 10 đến 4, mùa lạnh tháng 11 đến 2.",
+      "sha256": "6e6534b09ed0ff84ac036d9989340849aaadb982a1bea786abaf20db6616505f",
+      "verified_at": "2026-10-18T14:13:39.562871+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.unesco.org/en/iggp/non-nuoc-cao-bang-unesco-global-geopark",
+      "supports": "Trang UNESCO về Công viên địa chất toàn cầu Non Nước Cao Bằng: cách Hà Nội khoảng 300 km, tám dân tộc bản địa, được công nhận năm 2018, diện tích 339.000 ha.",
+      "sha256": "d5eca0279123a7a81e8b8b6e826affe1ab672b8b26e015a984a5c3b7b7d1de59",
+      "verified_at": "2026-10-18T14:13:40.321975+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 4050,
+        "title": "Thuê xe máy đi làm theo ca ở Hà Nội: chọn giờ nhận, gửi xe và trả xe đúng hạn",
+        "why": "stale",
+        "content_hash": "f5a41002206250a00b0d4b19ec54ada261a36c020a5c2f89aa531c79304f4012",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4055,
+        "title": "Thuê 2 xe máy cùng lúc ở Hà Nội: chuẩn bị giấy tờ, giao nhận và hoàn cọc từng xe",
+        "why": "stale",
+        "content_hash": "029d48a9e900c89ea965179099932a9ddb51ee071f065aca1c29903fd58a13c9",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4056,
+        "title": "Đổi khách sạn giữa kỳ thuê xe máy Hà Nội: giữ xe ở đâu, chuyển hành lý và đổi nơi trả",
+        "why": "stale",
+        "content_hash": "fcd4a86c62969cb4812af213b0e424c5549b185d290ed9a416d5e9d816804528",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T14:13:49.833340+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "4dcb2e8190822d3b2e96331efd44f595d111ccbe0701a4bd1d9ae8e0ac61f2f0",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
