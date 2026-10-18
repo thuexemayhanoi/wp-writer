@@ -4203,7 +4203,7 @@
       }
     },
     "NT-000275": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T07:55:49.762153+00:00",
       "source_hash": "4da4d896292c2654cff8d768d0792d8214ada7571d61799fd6ad1667dcbfeae1",
       "slug": "honda-lead-125-dung-xang-gi-ron-91-hay-92-muc-ethanol-cho-phep-va-nhot-theo-sach-huong-dan",
@@ -4218,8 +4218,37 @@
       "category_warning": null,
       "git_commit": "2390faa2b9fc944be80c686cf5ea69d0b0018053",
       "run_id": "39109245013",
-      "updated_at": "2026-10-18T07:55:53.405728+00:00",
-      "wp_id": 4038
+      "updated_at": "2026-10-18T07:55:59.033476+00:00",
+      "wp_id": 4038,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/honda-lead-125-dung-xang-gi-ron-91-hay-92-muc-ethanol-cho-phep-va-nhot-theo-sach-huong-dan/",
+      "verified_at": "2026-10-18T07:55:59.033471+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4038,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/honda-lead-125-dung-xang-gi-ron-91-hay-92-muc-ethanol-cho-phep-va-nhot-theo-sach-huong-dan/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/honda-lead-125-dung-xang-gi-ron-91-hay-92-muc-ethanol-cho-phep-va-nhot-theo-sach-huong-dan/",
+        "seo_title": "Honda LEAD 125 dùng xăng gì: RON 91 hay 92, ethanol và nhớt theo sách",
+        "seo_description": "Honda LEAD 125 dùng xăng gì: RON 91 hay 92 tùy nhóm mã kiểu, ethanol không quá 10% (TH, II TH tới 20%), nhớt JASO MB theo sách hướng dẫn của Honda Việt Nam.",
+        "checked_at": "2026-10-18T07:55:59.033451+00:00"
+      }
     }
   },
   "categories": {}
