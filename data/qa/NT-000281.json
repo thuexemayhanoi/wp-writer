@@ -71,12 +71,27 @@
   "errors": [],
   "review": [],
   "source_evidence": [],
-  "evidence_recheck": null,
-  "at": "2026-10-18T11:44:57.200727+00:00",
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 4049,
+        "title": "Thuê xe máy điện ở chung cư Hà Nội không có chỗ sạc riêng: cần kiểm tra gì trước khi đặt?",
+        "why": "stale",
+        "content_hash": "60ea270b75576e53780d251f2026ebec6088930775beded46df2ce5bc3601d66",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T13:58:56.607521+00:00",
   "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "c9f264107b515b911b464b57e2530076ddd3b6f5f507187468f64a7d0c4f29f0",
+  "inventory_sha256": "ca21785d585e69e52e3e818dc888665361c027258cfc96ac7ac23024f8d9330a",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
