@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-18T02:00:05.828795+00:00",
-  "attempted": 0,
+  "at": "2026-10-18T02:03:22.899583+00:00",
+  "attempted": 1,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -20,6 +20,14 @@
         }
       },
       "action": "manual reconciliation; never create/update automatically"
+    },
+    {
+      "topic_id": "NT-000206",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 161,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "road-safety",
+      "category_warning": null
     }
   ],
   "backlog_drains_on": "successful Writer QA or fallback schedule",
