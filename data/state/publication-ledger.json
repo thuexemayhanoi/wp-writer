@@ -5307,7 +5307,7 @@
       }
     },
     "NT-000558": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:14:17.065050+00:00",
       "source_hash": "0469aa8bca7d159abbf2979302a20fbe3942a6d016ca35930389fc9d332e5f92",
       "slug": "mua-buom-cuc-phuong-thang-nao-gio-nao-vao-rung-va-di-xe-may-tu-ha-noi-ngay-hay-o-lai",
@@ -5322,8 +5322,37 @@
       "category_warning": null,
       "git_commit": "d29fe33dd73de36f0fbc6fa6ab9206487f345ab6",
       "run_id": "39134627843",
-      "updated_at": "2026-10-18T14:14:21.378446+00:00",
-      "wp_id": 4076
+      "updated_at": "2026-10-18T14:14:28.165868+00:00",
+      "wp_id": 4076,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/mua-buom-cuc-phuong-thang-nao-gio-nao-vao-rung-va-di-xe-may-tu-ha-noi-ngay-hay-o-lai/",
+      "verified_at": "2026-10-18T14:14:28.165861+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4076,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/mua-buom-cuc-phuong-thang-nao-gio-nao-vao-rung-va-di-xe-may-tu-ha-noi-ngay-hay-o-lai/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/mua-buom-cuc-phuong-thang-nao-gio-nao-vao-rung-va-di-xe-may-tu-ha-noi-ngay-hay-o-lai/",
+        "seo_title": "Mùa bướm Cúc Phương: tháng nào, giờ nào, đi xe máy ngày hay ở lại",
+        "seo_description": "Mùa bướm Cúc Phương theo vietnam.travel và Báo Văn hóa: tháng 4 và 5, giờ đẹp từ 10 đến 14 giờ, từ Hà Nội 120 km đi xe máy trong ngày hay ở lại xem đom đóm.",
+        "checked_at": "2026-10-18T14:14:28.165843+00:00"
+      }
     }
   },
   "categories": {}
