@@ -3099,7 +3099,7 @@
       }
     },
     "NT-000367": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T07:25:30.367293+00:00",
       "source_hash": "1eb2c8cd974b9b14ff6a4eba0e8546dd4722141508fe616880bf722e0fdb4c17",
       "slug": "ha-noi-di-ninh-binh-bang-xe-may-mot-ngay-hay-hai-ngay-va-cach-xep-hoa-lu-trang-an-hang-mua",
@@ -3114,8 +3114,37 @@
       "category_warning": null,
       "git_commit": "c580f17e153899b1472aa292fa0001fc17cc23b1",
       "run_id": "39107147569",
-      "updated_at": "2026-10-18T07:25:34.254287+00:00",
-      "wp_id": 4015
+      "updated_at": "2026-10-18T07:25:40.795233+00:00",
+      "wp_id": 4015,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ha-noi-di-ninh-binh-bang-xe-may-mot-ngay-hay-hai-ngay-va-cach-xep-hoa-lu-trang-an-hang-mua/",
+      "verified_at": "2026-10-18T07:25:40.795227+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4015,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ha-noi-di-ninh-binh-bang-xe-may-mot-ngay-hay-hai-ngay-va-cach-xep-hoa-lu-trang-an-hang-mua/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ha-noi-di-ninh-binh-bang-xe-may-mot-ngay-hay-hai-ngay-va-cach-xep-hoa-lu-trang-an-hang-mua/",
+        "seo_title": "Hà Nội đi Ninh Bình bằng xe máy: một ngày hay hai ngày?",
+        "seo_description": "Hà Nội đi Ninh Bình bằng xe máy nên đi một ngày hay hai ngày? Cách tính giờ từ số của vietnam.travel và cách xếp Hoa Lư, Tràng An, Hang Múa.",
+        "checked_at": "2026-10-18T07:25:40.795206+00:00"
+      }
     }
   },
   "categories": {}
