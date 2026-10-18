@@ -2811,7 +2811,7 @@
       }
     },
     "NT-000303": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T07:21:54.818225+00:00",
       "source_hash": "0b0a659fcaf60aaf6a072c392e6ea152d2d06583d757a5b8fd518b4e42e32671",
       "slug": "den-bao-tren-bo-sac-xe-may-dien-den-do-den-xanh-va-den-nhap-nhay-nghia-la-gi",
@@ -2826,8 +2826,37 @@
       "category_warning": null,
       "git_commit": "c580f17e153899b1472aa292fa0001fc17cc23b1",
       "run_id": "39107147569",
-      "updated_at": "2026-10-18T07:21:58.814765+00:00",
-      "wp_id": 4009
+      "updated_at": "2026-10-18T07:22:04.564780+00:00",
+      "wp_id": 4009,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/den-bao-tren-bo-sac-xe-may-dien-den-do-den-xanh-va-den-nhap-nhay-nghia-la-gi/",
+      "verified_at": "2026-10-18T07:22:04.564774+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4009,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/den-bao-tren-bo-sac-xe-may-dien-den-do-den-xanh-va-den-nhap-nhay-nghia-la-gi/",
+        "categories": [
+          167
+        ],
+        "canonical": "https://thuexemaynguyentu.com/den-bao-tren-bo-sac-xe-may-dien-den-do-den-xanh-va-den-nhap-nhay-nghia-la-gi/",
+        "seo_title": "Đèn báo trên bộ sạc xe máy điện: đèn đỏ, đèn xanh, nhấp nháy là gì",
+        "seo_description": "Đèn báo trên bộ sạc xe máy điện không có bảng màu chung: đèn xanh của VinFast và Yamaha NEO's mang nghĩa khác nhau; cách đọc đúng trang tài liệu và việc cần làm khi đèn bất thường.",
+        "checked_at": "2026-10-18T07:22:04.564751+00:00"
+      }
     }
   },
   "categories": {}
