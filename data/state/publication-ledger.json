@@ -5163,7 +5163,7 @@
       }
     },
     "NT-000552": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:12:55.960184+00:00",
       "source_hash": "aa638c117ba14b800ac2cb9c00accbb271837d4d63ce97893efc5351cde187b8",
       "slug": "di-ha-giang-thang-nao-dep-lua-chin-tam-giac-mach-hoa-xuan-va-mua-duong-tron-thang-5-8",
@@ -5178,8 +5178,37 @@
       "category_warning": null,
       "git_commit": "d29fe33dd73de36f0fbc6fa6ab9206487f345ab6",
       "run_id": "39134627843",
-      "updated_at": "2026-10-18T14:12:59.709331+00:00",
-      "wp_id": 4073
+      "updated_at": "2026-10-18T14:13:05.713887+00:00",
+      "wp_id": 4073,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/di-ha-giang-thang-nao-dep-lua-chin-tam-giac-mach-hoa-xuan-va-mua-duong-tron-thang-5-8/",
+      "verified_at": "2026-10-18T14:13:05.713881+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4073,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/di-ha-giang-thang-nao-dep-lua-chin-tam-giac-mach-hoa-xuan-va-mua-duong-tron-thang-5-8/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/di-ha-giang-thang-nao-dep-lua-chin-tam-giac-mach-hoa-xuan-va-mua-duong-tron-thang-5-8/",
+        "seo_title": "Đi Hà Giang tháng nào đẹp: lúa, tam giác mạch, hoa xuân, đường trơn",
+        "seo_description": "Đi Hà Giang tháng nào đẹp? Đối chiếu khung tháng của vietnam.travel và UNESCO cho lúa vàng, tam giác mạch, hoa xuân, kèm cảnh báo đường trơn tháng 5 đến 8 cho người đi xe máy.",
+        "checked_at": "2026-10-18T14:13:05.713862+00:00"
+      }
     }
   },
   "categories": {}
