@@ -51,7 +51,19 @@
         "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "WP #2596 đã viết kiểm tra trước nhận xe, phải kiểm tra khác biệt nội dung."
+      "triage_note": "WP #2596 đã viết kiểm tra trước nhận xe, phải kiểm tra khác biệt nội dung.",
+      "triage": {
+        "decision": "RESEARCH_READY",
+        "reason": "Checklist tại thời điểm nhận xe thuê khác bài kiểm tra trước chuyến đi xa và bài kiểm tra xe cũ để mua; giữ phạm vi giao nhận thuê.",
+        "review_references": [
+          891,
+          2519,
+          2596
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-02",
@@ -81,7 +93,19 @@
         "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới.",
+      "triage": {
+        "decision": "REVIEW_INTENT",
+        "reason": "Đã có NT-000001 so sánh kỳ thuê 1 và 3 ngày, NT-000009 chi phí một tuần và URL hướng dẫn chi phí; đối chiếu ý định trước khi thêm.",
+        "review_references": [
+          "NT-000001",
+          "NT-000009",
+          476
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-03",
@@ -105,7 +129,17 @@
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới.",
+      "triage": {
+        "decision": "REVIEW_INTENT",
+        "reason": "URL thuê xe theo tháng hiện có đã nói tiền thuê, cọc, giao xe, trả sớm/muộn, bảo dưỡng; cần chứng minh khoảng trống riêng.",
+        "review_references": [
+          1060
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-04",
@@ -129,7 +163,17 @@
         "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "Chủ đề NT-000004 đã có ý định biên nhận đặt cọc."
+      "triage_note": "Chủ đề NT-000004 đã có ý định biên nhận đặt cọc.",
+      "triage": {
+        "decision": "DO_NOT_CREATE_DUPLICATE",
+        "reason": "Đã có NT-000004 'Kiểm tra biên nhận đặt cọc xe máy: các thông tin nên có'; cùng mục đích.",
+        "review_references": [
+          "NT-000004"
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-05",
@@ -155,7 +199,19 @@
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
       },
       "decision": "RESEARCH_FIRST",
-      "triage_note": "Hỏi phí trả xe trễ theo hợp đồng, khác phần giá thuê gốc; phải soát nội dung WP đầy đủ trước khi nộp."
+      "triage_note": "Hỏi phí trả xe trễ theo hợp đồng, khác phần giá thuê gốc; phải soát nội dung WP đầy đủ trước khi nộp.",
+      "triage": {
+        "decision": "RESEARCH_READY",
+        "reason": "Khác NT-000002 về gia hạn hợp đồng và bài 2 ngày 1 đêm; chỉ phân tích tình huống trả xe trễ không được gia hạn, không tự bịa mức phạt.",
+        "review_references": [
+          "NT-000002",
+          4047,
+          1060
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-06",
@@ -181,7 +237,18 @@
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
       },
       "decision": "RESEARCH_FIRST",
-      "triage_note": "Hướng dẫn ảnh hiện trạng và biên bản bàn giao, chưa thấy tiêu đề cùng intent trong kiểm tra 283 chủ đề + 323 mục WP."
+      "triage_note": "Hướng dẫn ảnh hiện trạng và biên bản bàn giao, chưa thấy tiêu đề cùng intent trong kiểm tra 283 chủ đề + 323 mục WP.",
+      "triage": {
+        "decision": "RESEARCH_READY",
+        "reason": "Có nhắc chụp ảnh ở các bài giao xe nhưng chưa có hướng dẫn thực hành riêng về góc ảnh, tên tệp và đối chiếu trước/sau.",
+        "review_references": [
+          4046,
+          891
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-07",
@@ -205,7 +272,19 @@
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới.",
+      "triage": {
+        "decision": "RESEARCH_READY",
+        "reason": "So sánh thuê Vision với Air Blade theo tháng riêng biệt với bài so sánh Honda Vision/Yamaha Janus và thông tin sản phẩm.",
+        "review_references": [
+          412,
+          674,
+          2483
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-08",
@@ -231,7 +310,18 @@
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới.",
+      "triage": {
+        "decision": "RESEARCH_READY",
+        "reason": "Khác hướng dẫn xe Vision đơn lẻ; tập trung lựa chọn xe số so với xe ga để thuê, theo lộ trình, hành lý và ngân sách.",
+        "review_references": [
+          410,
+          2441
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-09",
@@ -257,7 +347,19 @@
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới.",
+      "triage": {
+        "decision": "RESEARCH_READY",
+        "reason": "Checklist bàn giao xe ga 50cc thuê riêng với hướng dẫn giá/thủ tục 50cc và checklist bảo dưỡng trước hành trình.",
+        "review_references": [
+          895,
+          901,
+          2519
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-10",
@@ -283,7 +385,17 @@
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "NT-000017 đã đề cập 50cc trong giao thông phố đông."
+      "triage_note": "NT-000017 đã đề cập 50cc trong giao thông phố đông.",
+      "triage": {
+        "decision": "DO_NOT_CREATE_DUPLICATE",
+        "reason": "NT-000017 đã đặt cùng câu hỏi về xe 50cc chạy đường phố đông.",
+        "review_references": [
+          "NT-000017"
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-11",
@@ -309,7 +421,17 @@
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới.",
+      "triage": {
+        "decision": "REVIEW_INTENT",
+        "reason": "Thông tin điều kiện người lái đã xuất hiện trên trang thuê 50cc; cần thẩm tra luật hiện hành và chỉ tạo nếu còn intent riêng.",
+        "review_references": [
+          895
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-12",
@@ -335,7 +457,17 @@
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới.",
+      "triage": {
+        "decision": "RESEARCH_READY",
+        "reason": "Vấn đề tính quãng đường và điểm sạc cho người đi làm khác trang ở chung cư không có chỗ sạc; giữ phạm vi.",
+        "review_references": [
+          4049
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-13",
@@ -361,7 +493,18 @@
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "WP #2370 về chi phí xe điện so với xe xăng, cần ưu tiên nâng cấp."
+      "triage_note": "WP #2370 về chi phí xe điện so với xe xăng, cần ưu tiên nâng cấp.",
+      "triage": {
+        "decision": "RESEARCH_READY",
+        "reason": "So chi phí THUÊ theo tháng giữa xe điện và xe xăng khác chi phí sở hữu/sử dụng xe máy thông thường.",
+        "review_references": [
+          2562,
+          476
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-14",
@@ -390,7 +533,17 @@
         "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "WP #2374 đã có xe máy điện đi mưa."
+      "triage_note": "WP #2374 đã có xe máy điện đi mưa.",
+      "triage": {
+        "decision": "DO_NOT_CREATE_DUPLICATE",
+        "reason": "Bài 'Xe máy điện đi mưa có an toàn không? Cách sử dụng đúng và bền' đã trả lời ý định chính.",
+        "review_references": [
+          2374
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-15",
@@ -414,7 +567,17 @@
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới.",
+      "triage": {
+        "decision": "RESEARCH_READY",
+        "reason": "Nhu cầu thuê xe đạp điện để đi làm ngắn ngày chưa thấy bài riêng trong inventory; kiểm chứng quãng đường/giá theo xe thực tế.",
+        "review_references": [
+          2397
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-16",
@@ -438,7 +601,18 @@
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới.",
+      "triage": {
+        "decision": "RESEARCH_READY",
+        "reason": "Checklist giao nhận xe đạp điện thuê là nhiệm vụ khác các bài về đèn bộ sạc; giữ phạm vi kiểm tra trước ký nhận.",
+        "review_references": [
+          4009,
+          2596
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-17",
@@ -462,7 +636,18 @@
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
       },
       "decision": "RESEARCH_FIRST",
-      "triage_note": "Hướng dẫn di chuyển từ Long Biên đến Phố Cổ, nhu cầu riêng với bài thuê xe Phố Cổ; kiểm tra thực tế dừng/đỗ."
+      "triage_note": "Hướng dẫn di chuyển từ Long Biên đến Phố Cổ, nhu cầu riêng với bài thuê xe Phố Cổ; kiểm tra thực tế dừng/đỗ.",
+      "triage": {
+        "decision": "RESEARCH_READY",
+        "reason": "Lộ trình và điểm đỗ xe thuê đi Long Biên→Phố Cổ khác bài du lịch Phố Cổ đi bộ; chỉ nêu bãi/đường có nguồn cập nhật.",
+        "review_references": [
+          2615,
+          4006
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-18",
@@ -483,7 +668,17 @@
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới.",
+      "triage": {
+        "decision": "RESEARCH_READY",
+        "reason": "Cách đi xe THUÊ vòng Hồ Tây/điểm dừng đỗ khác bài danh sách 15 điểm chơi; phải xác thực quy định giao thông.",
+        "review_references": [
+          2628
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-19",
@@ -507,7 +702,18 @@
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới.",
+      "triage": {
+        "decision": "REVIEW_INTENT",
+        "reason": "Đã có bài nhận xe homestay và NT-000007 về điểm hẹn trả xe; phân biệt điểm giao chung với trường hợp cụ thể.",
+        "review_references": [
+          4046,
+          "NT-000007"
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-20",
@@ -534,7 +740,17 @@
         "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "WP #1061 là trang thuê xe máy sân bay Nội Bài."
+      "triage_note": "WP #1061 là trang thuê xe máy sân bay Nội Bài.",
+      "triage": {
+        "decision": "REVIEW_INTENT",
+        "reason": "Landing page sân bay Nội Bài đã có quy trình xác nhận giao nhận, giờ, phí và cọc; ưu tiên tối ưu chính URL này.",
+        "review_references": [
+          1061
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-21",
@@ -560,7 +776,19 @@
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới.",
+      "triage": {
+        "decision": "REVIEW_INTENT",
+        "reason": "Đã có nhiều bài chọn xe theo lịch trình/du lịch trong phố; cần góc lịch trình 1 ngày độc lập.",
+        "review_references": [
+          2600,
+          2584,
+          2582
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-22",
@@ -589,7 +817,17 @@
         "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "NT-000008 nghiên cứu giấy tờ người nước ngoài."
+      "triage_note": "NT-000008 nghiên cứu giấy tờ người nước ngoài.",
+      "triage": {
+        "decision": "DO_NOT_CREATE_DUPLICATE",
+        "reason": "NT-000008 đã có cùng truy vấn khách nước ngoài cần giấy tờ thuê xe.",
+        "review_references": [
+          "NT-000008"
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-23",
@@ -618,7 +856,17 @@
         "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới.",
+      "triage": {
+        "decision": "DO_NOT_CREATE_DUPLICATE",
+        "reason": "Bài thuê xe máy Hà Nội ngày mưa đã hướng dẫn lùi giờ nhận, kiểm tra phanh/lốp và phương án an toàn.",
+        "review_references": [
+          4051
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-24",
@@ -647,7 +895,17 @@
         "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "WP #3948 / NT-000110 đã có đội mũ đúng cách."
+      "triage_note": "WP #3948 / NT-000110 đã có đội mũ đúng cách.",
+      "triage": {
+        "decision": "DO_NOT_CREATE_DUPLICATE",
+        "reason": "Bài 'Mũ bảo hiểm đi kèm xe máy thuê: cách kiểm tra, thử vừa đầu và yêu cầu đổi mũ' trùng intent.",
+        "review_references": [
+          4057
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     },
     {
       "id": "SEO-20261018-25",
@@ -668,7 +926,18 @@
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
       },
       "decision": "REVIEW_BEFORE_RESEARCH",
-      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới.",
+      "triage": {
+        "decision": "REVIEW_INTENT",
+        "reason": "NT-000005 đã có kế hoạch ngân sách kỳ thuê theo tuần, bài 3–7 ngày cần phần khác biệt rõ.",
+        "review_references": [
+          "NT-000005",
+          476
+        ],
+        "checked_at": "2026-10-18",
+        "basis": "full registry (283 topic rows), WordPress inventory (323 entries), selected body spot-check",
+        "passed_research_qa": false
+      }
     }
   ],
   "existing_url_priorities": [
@@ -790,5 +1059,16 @@
     "approved_for_external_research_only": 3,
     "held_for_further_intent_review": 22,
     "note": "Shortlist is a research order only. Candidate full-content/source checks and Topic QA must pass before any W1–W9 writer can claim a new article."
+  },
+  "audit": {
+    "completed_at": "2026-10-18",
+    "topic_rows_compared": 283,
+    "wordpress_inventory_items_compared": 323,
+    "decisions": {
+      "RESEARCH_READY": 12,
+      "REVIEW_INTENT": 7,
+      "DO_NOT_CREATE_DUPLICATE": 6
+    },
+    "note": "Research-ready means eligible for source research; NOT verified search volume for new title, Topic QA PASS, PLANNED, or published."
   }
 }
