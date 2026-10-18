@@ -1,0 +1,141 @@
+{
+  "topic_id": "NT-000553",
+  "status": "PASS",
+  "source_sha256": "a4917817dfd239e16a50b9dde3e05a80f33f1389255b5a63a6199aa7e2ac4f81",
+  "body_sha256": "7b1e2383295e09cacd286ffb0047c684b8ad3cb64bf5e7d55f9c6eb19a1235e9",
+  "word_count": 3062,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vietnam.travel/things-to-do/4-things-youll-love-about-mu-cang-chai",
+      "supports": "vietnam.travel mô tả Mù Cang Chải là nơi chạy xe máy tuyệt vời: đoạn đường từ thị trấn tới Tú Lệ qua đèo Khau Phạ, vòng tới Nghĩa Lộ, lên bản Mồ Dề; sáu đến tám giờ đường bộ từ Hà Nội; các mùa của ruộng bậc thang.",
+      "sha256": "f954b4a3e5c753645804822e48d18b87015281742c1edcb9ce7defd758d311ed",
+      "verified_at": "2026-10-18T14:13:09.036841+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://bvhttdl.gov.vn/mua-vang-ruc-ro-tren-nhung-thua-ruong-bac-thang-o-mu-cang-chai-20241021154913296.htm",
+      "supports": "Cổng thông tin Bộ Văn hóa, Thể thao và Du lịch (21/10/2024): giữa tháng 10 ruộng vào vụ thu hoạch; năm 2019 danh thắng ruộng bậc thang Mù Cang Chải được xếp hạng Di tích quốc gia đặc biệt, hơn 800 ha ở sáu xã.",
+      "sha256": "434a4dfe50fcdc21e780d40dbdb232e81a8ad6d365171faedb287ebfea0707af",
+      "verified_at": "2026-10-18T14:13:11.054941+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vnexpress.net/cam-nang-du-lich-mu-cang-chai-4158151.html",
+      "supports": "Cẩm nang VnExpress (cập nhật 14/1/2026): Mù Cang Chải cách Hà Nội khoảng 300 km, quốc lộ 32 là đường chính, lộ trình gợi ý qua Sơn Tây, cầu Trung Hà, Thanh Sơn, Văn Chấn, Nghĩa Lộ, Tú Lệ, đèo Khau Phạ; mùa đổ nước cuối tháng 5, mùa vàng tháng 9 đến 10.",
+      "sha256": "52d28fce75100a23a320a1eb62614e64510578b0c2c44fcad3d4c1bc87f68740",
+      "verified_at": "2026-10-18T14:13:13.133668+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 4055,
+        "title": "Thuê 2 xe máy cùng lúc ở Hà Nội: chuẩn bị giấy tờ, giao nhận và hoàn cọc từng xe",
+        "why": "stale",
+        "content_hash": "029d48a9e900c89ea965179099932a9ddb51ee071f065aca1c29903fd58a13c9",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4056,
+        "title": "Đổi khách sạn giữa kỳ thuê xe máy Hà Nội: giữ xe ở đâu, chuyển hành lý và đổi nơi trả",
+        "why": "stale",
+        "content_hash": "fcd4a86c62969cb4812af213b0e424c5549b185d290ed9a416d5e9d816804528",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T14:13:22.301437+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "069787e782b660d8dff56d53e7c1d1c3a46c2dcb919371b7bad6ba183c456cf0",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
