@@ -1,5 +1,8 @@
 # AI ngoài bắt đầu tại đây — một lệnh, không xin duyệt từng bài
 
+**Writer pool (18/10/2026):** W1–W9 là 9 vị trí dùng chung hàng đợi. Claude App/AI App tự nhận vị trí trống bằng `--slot auto` (hoặc request GitHub), mỗi phiên giữ tối đa một vị trí và tối đa 10 Topic ID. Không cấp khóa Ed25519, không xác thực tài khoản Claude, không dùng API AI. Giữ nguyên lease còn hạn, checkpoint, chống trùng Topic ID và QA/Publisher đang chạy; Publisher tiếp tục đăng 2 bài mỗi lô.
+
+
 **Chỉ repo:** `thuexemayhanoi/wp-writer` — **WordPress đích:** `https://thuexemaynguyentu.com`.
 Không trộn `wp-aiwriter` (blog.rentbikehanoi.com) và **KHÔNG sử dụng Excel Nguyễn Hà**. `data/topics.jsonl` là danh sách ID/keyword/intent/topic mới, `data/taxonomy.json` là cây danh mục cha/con; WordPress REST dùng để xác minh đầy đủ parent/slug/ID. Với mỗi bài, AI phải giữ nguyên `taxonomy_key` của Topic ID; `wordpress_category_id` chỉ là bản sao ID đã xác minh, **không thay thế quy trình đối chiếu toàn bộ cây cha/con** trong Publisher. Không tự chọn danh mục khác, không gửi bài thẳng tới WordPress bằng Git it Write. Chủ đề mới chỉ được nhận sau Topic QA thành PLANNED.
 
@@ -53,7 +56,7 @@ Dựa hoàn toàn vào `data/topics.jsonl` + `data/taxonomy.json` (mỗi bài m�
 
 ## Researcher — tự nghiên cứu 10 chủ đề rồi cấp cho Writer
 
-Khi PLANNED sẵn sàng viết còn dưới 900 (mục tiêu kho 1.000 chủ đề trong trần đã duyệt), bộ điều khiển tự mở đơn 100–200 chủ đề, hết đợt này mở đợt khác ([hệ thống tự bổ sung](SELF-REPLENISHING-TOPICS.md)): chạy `python scripts/research_v2.py plan` để xem đơn, quota danh mục và batch kế tiếp, và `python scripts/research_v2.py intent-check --file data/candidates/<session>-NNNN.jsonl` trước mỗi lần push. Nếu hàng đợi PLANNED thấp, không cần tự nghĩ tiêu đề lung tung. Đọc [Research V2 Global adaptation](RESEARCH-V2-GLOBAL-ADAPTATION.md), chạy python scripts/research_v2.py hints --limit 10; AI thực sự duyệt nguồn HTTPS, đối chiếu các WordPress posts có intent gần nhất và soạn một batch 10 Topic Registry JSONL trên nhánh research/<stable-session>. Chạy checkpoint, check và push. GitHub Research QA (read-only) PASS -> trusted main auto-intake -> topic thành PLANNED cho W1/W2/W3. Khi mạng/quota gián đoạn dùng resume --apply cùng tên session. Không dùng Google News RSS làm fact source, không sử dụng Excel và không tự nhận các topic chưa PLANNED.
+Khi PLANNED sẵn sàng viết còn dưới 900 (mục tiêu kho 1.000 chủ đề trong trần đã duyệt), bộ điều khiển tự mở đơn 100–200 chủ đề, hết đợt này mở đợt khác ([hệ thống tự bổ sung](SELF-REPLENISHING-TOPICS.md)): chạy `python scripts/research_v2.py plan` để xem đơn, quota danh mục và batch kế tiếp, và `python scripts/research_v2.py intent-check --file data/candidates/<session>-NNNN.jsonl` trước mỗi lần push. Nếu hàng đợi PLANNED thấp, không cần tự nghĩ tiêu đề lung tung. Đọc [Research V2 Global adaptation](RESEARCH-V2-GLOBAL-ADAPTATION.md), chạy python scripts/research_v2.py hints --limit 10; AI thực sự duyệt nguồn HTTPS, đối chiếu các WordPress posts có intent gần nhất và soạn một batch 10 Topic Registry JSONL trên nhánh research/<stable-session>. Chạy checkpoint, check và push. GitHub Research QA (read-only) PASS -> trusted main auto-intake -> topic thành PLANNED cho W1–W9. Khi mạng/quota gián đoạn dùng resume --apply cùng tên session. Không dùng Google News RSS làm fact source, không sử dụng Excel và không tự nhận các topic chưa PLANNED.
 
 ## AUTO-REPAIR WRITER — 10 CONTENT REVISIONS (18/10/2026)
 
