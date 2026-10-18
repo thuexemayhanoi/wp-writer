@@ -1899,7 +1899,7 @@
       }
     },
     "NT-000364": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T04:15:56.135811+00:00",
       "source_hash": "c8e2b1cc41cd924306829e46b6d755bf01c098fc46b54621a0d28ab07365a650",
       "slug": "khu-di-tich-co-loa-gom-nhung-gi-ba-vong-thanh-den-thuong-dinh-am-my-chau-va-chua-bao-son",
@@ -1914,8 +1914,37 @@
       "category_warning": null,
       "git_commit": "d114101fc34919e084ecc7adcf00a3ebb280d7bd",
       "run_id": "39096329877",
-      "updated_at": "2026-10-18T04:15:59.596138+00:00",
-      "wp_id": 3985
+      "updated_at": "2026-10-18T04:16:05.638935+00:00",
+      "wp_id": 3985,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/khu-di-tich-co-loa-gom-nhung-gi-ba-vong-thanh-den-thuong-dinh-am-my-chau-va-chua-bao-son/",
+      "verified_at": "2026-10-18T04:16:05.638927+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3985,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/khu-di-tich-co-loa-gom-nhung-gi-ba-vong-thanh-den-thuong-dinh-am-my-chau-va-chua-bao-son/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/khu-di-tich-co-loa-gom-nhung-gi-ba-vong-thanh-den-thuong-dinh-am-my-chau-va-chua-bao-son/",
+        "seo_title": "Khu di tích Cổ Loa gồm những gì? Thành, đền, đình, chùa",
+        "seo_description": "Khu di tích Cổ Loa gồm ba vòng thành, đền Thượng, đình Cổ Loa, am Mỵ Châu, chùa Bảo Sơn và Mạch Tràng. Xem các điểm nổi bật cùng cách chia thời gian tham quan.",
+        "checked_at": "2026-10-18T04:16:05.638911+00:00"
+      }
     }
   },
   "categories": {}
