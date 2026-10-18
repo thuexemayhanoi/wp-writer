@@ -3483,7 +3483,7 @@
       }
     },
     "NT-000366": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T07:35:52.658180+00:00",
       "source_hash": "d24e03debb0aa86b0048b938ceb6072141bd344563a3e1d4e4837aafa848dcbb",
       "slug": "ha-noi-di-mai-chau-bang-xe-may-di-ve-trong-ngay-hay-ngu-lai-mot-dem-trong-nha-san",
@@ -3498,8 +3498,37 @@
       "category_warning": null,
       "git_commit": "93ae93c1642c2b4a7bd3a26f671602a78533a914",
       "run_id": "39107691174",
-      "updated_at": "2026-10-18T07:35:56.524512+00:00",
-      "wp_id": 4023
+      "updated_at": "2026-10-18T07:36:02.936375+00:00",
+      "wp_id": 4023,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ha-noi-di-mai-chau-bang-xe-may-di-ve-trong-ngay-hay-ngu-lai-mot-dem-trong-nha-san/",
+      "verified_at": "2026-10-18T07:36:02.936368+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4023,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ha-noi-di-mai-chau-bang-xe-may-di-ve-trong-ngay-hay-ngu-lai-mot-dem-trong-nha-san/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ha-noi-di-mai-chau-bang-xe-may-di-ve-trong-ngay-hay-ngu-lai-mot-dem-trong-nha-san/",
+        "seo_title": "Hà Nội đi Mai Châu bằng xe máy: về trong ngày hay ngủ lại?",
+        "seo_description": "Hà Nội đi Mai Châu bằng xe máy: vietnam.travel ước tính khoảng ba đến ba tiếng rưỡi; còn bao nhiêu giờ ở thung lũng nếu về trong ngày và khi nào nên ngủ nhà sàn.",
+        "checked_at": "2026-10-18T07:36:02.936349+00:00"
+      }
     }
   },
   "categories": {}
