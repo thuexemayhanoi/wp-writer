@@ -1,0 +1,109 @@
+{
+  "topic_id": "NT-000281",
+  "status": "PASS",
+  "source_sha256": "22b48b7d135e7a2ee3bee609ef2764d372b1370b43ee9565ac85a7cae9ac914e",
+  "body_sha256": "cddb112b5233626a94c2e4c8060a72b792e20c8f58846d682ee73214ecf6e9c2",
+  "word_count": 2794,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/thay-dau-phanh-thang-xe-may-dinh-ky/",
+      "supports": "Bài Yamaha Motor Việt Nam (đăng 26/04/2023, đọc 17/10/2026) nêu dầu phanh hút ẩm gây biến chất, mốc khoảng 20.000-25.000 km, ký hiệu DOT trên bình chứa, không châm thêm và không trộn loại.",
+      "sha256": "0570bd3c8c96c85daf5852ceef1b37c38f919ae067c29e28b77d59f668742dfd",
+      "verified_at": "2026-10-18T05:45:07.044413+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cac-bo-phan-xe-may-va-dieu-can-biet-de-bao-duong-xe-dinh-ky/",
+      "supports": "Bài Yamaha về các bộ phận xe máy (đăng 06/12/2022, sửa 14/11/2024) nêu má phanh và dầu phanh nên bảo trì sau mỗi 15.000-20.000 km, dầu cạn hoặc bẩn làm bóp phanh khó hơn.",
+      "sha256": "82b2e3f711d1497b94ed4a866b4d11e12a60deefcda5639fcd6a6bf857004f30",
+      "verified_at": "2026-10-18T05:45:08.417508+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-18T05:45:16.340533+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "8138df3b1b94d974e13e53eaa08200d72d8f86ce70f9032b0b183a3fe0785ca2",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

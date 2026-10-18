@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-18T05:27:27.716208+00:00",
-  "attempted": 1,
+  "at": "2026-10-18T05:45:26.349610+00:00",
+  "attempted": 2,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -22,7 +22,15 @@
       "action": "manual reconciliation; never create/update automatically"
     },
     {
-      "topic_id": "NT-000283",
+      "topic_id": "NT-000268",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 170,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "engine-care",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000281",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 170,
       "category_resolution": "EXACT",
