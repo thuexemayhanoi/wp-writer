@@ -1,21 +1,21 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 0,
+  "ready_stock": 8,
   "trigger_below_ready": 900,
   "rounds_opened": 1,
   "unlimited_rounds": true,
   "approved_capacity": 1000,
-  "topic_rows": 111,
-  "capacity_remaining": 889,
+  "topic_rows": 121,
+  "capacity_remaining": 879,
   "order": {
     "id": "RF-0001",
     "round": 1,
     "target_min": 200,
     "target_max": 300,
-    "accepted_so_far": 10,
-    "remaining_to_min": 190,
-    "remaining_to_max": 290,
+    "accepted_so_far": 18,
+    "remaining_to_min": 182,
+    "remaining_to_max": 282,
     "batches_still_needed": 19,
     "batch_size": 10,
     "capacity_limited": false,
@@ -53,28 +53,22 @@
         "allocation": 46
       },
       {
+        "taxonomy_key": "electric-maintenance",
+        "quota": 10,
+        "known_now": 3,
+        "allocation": 41
+      },
+      {
         "taxonomy_key": "electric-tech",
         "quota": 10,
         "known_now": 0,
         "allocation": 41
       },
       {
-        "taxonomy_key": "electric-maintenance",
-        "quota": 9,
-        "known_now": 3,
-        "allocation": 41
-      },
-      {
         "taxonomy_key": "electric-transition",
-        "quota": 9,
+        "quota": 10,
         "known_now": 3,
         "allocation": 41
-      },
-      {
-        "taxonomy_key": "engine-care",
-        "quota": 8,
-        "known_now": 17,
-        "allocation": 50
       },
       {
         "taxonomy_key": "hanoi-travel",
@@ -131,6 +125,12 @@
         "allocation": 27
       },
       {
+        "taxonomy_key": "engine-care",
+        "quota": 6,
+        "known_now": 27,
+        "allocation": 50
+      },
+      {
         "taxonomy_key": "green-travel",
         "quota": 6,
         "known_now": 2,
@@ -170,10 +170,10 @@
   },
   "dedupe_universe": {
     "published_wordpress_items": 186,
-    "topics_in_factory": 111,
+    "topics_in_factory": 121,
     "topics_by_status": {
-      "PLANNED": 39,
-      "RESEARCH": 72
+      "PLANNED": 47,
+      "RESEARCH": 74
     },
     "rule": "A candidate is compared with EVERY published WordPress item and EVERY topic in the factory (any status except REJECTED), and with the other new rows of the same research run."
   },
