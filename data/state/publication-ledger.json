@@ -6363,7 +6363,7 @@
       }
     },
     "NT-000612": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:37:34.529338+00:00",
       "source_hash": "e5660a2564adfa668a4187d2d8db6fbf2be2b43e04e7730687e2105a1341b499",
       "slug": "phanh-tai-sinh-xe-may-dien-kich-hoat-bang-tay-phanh-tay-ga-hay-nha-ga-tuy-hang",
@@ -6378,8 +6378,37 @@
       "category_warning": null,
       "git_commit": "71303a43722e9ddcff85275eb9bace9db8e031d9",
       "run_id": "39136366022",
-      "updated_at": "2026-10-18T14:37:38.705587+00:00",
-      "wp_id": 4099
+      "updated_at": "2026-10-18T14:37:44.523453+00:00",
+      "wp_id": 4099,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/phanh-tai-sinh-xe-may-dien-kich-hoat-bang-tay-phanh-tay-ga-hay-nha-ga-tuy-hang/",
+      "verified_at": "2026-10-18T14:37:44.523448+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4099,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/phanh-tai-sinh-xe-may-dien-kich-hoat-bang-tay-phanh-tay-ga-hay-nha-ga-tuy-hang/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/phanh-tai-sinh-xe-may-dien-kich-hoat-bang-tay-phanh-tay-ga-hay-nha-ga-tuy-hang/",
+        "seo_title": "Phanh tái sinh xe máy điện: tay phanh, tay ga hay nhả ga tùy hãng",
+        "seo_description": "Phanh tái sinh xe máy điện kích hoạt thế nào: sổ hướng dẫn VinFast Feliz S, Theon, Dat Bike Quantum và Weaver mô tả tay phanh, chiều vặn tay ga và phanh động cơ ra sao.",
+        "checked_at": "2026-10-18T14:37:44.523429+00:00"
+      }
     }
   },
   "categories": {}
