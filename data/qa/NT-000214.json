@@ -74,11 +74,11 @@
   "evidence_recheck": {
     "pages": [
       {
-        "id": 2569,
-        "title": "Xe ga tốn xăng hơn xe số bao nhiêu khi sử dụng trong thành phố?",
+        "id": 4050,
+        "title": "Thuê xe máy đi làm theo ca ở Hà Nội: chọn giờ nhận, gửi xe và trả xe đúng hạn",
         "why": "stale",
-        "content_hash": "0e0403a44ff6ce7c19068379c2905b55413b5e6b08f79ca8a2a469fd0114f8e0",
-        "jaccard": 0.0,
+        "content_hash": "f5a41002206250a00b0d4b19ec54ada261a36c020a5c2f89aa531c79304f4012",
+        "jaccard": 0.001,
         "intent_match": null,
         "verdict": "INDEPENDENT"
       }
@@ -87,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T11:44:51.969446+00:00",
+  "at": "2026-10-18T14:01:45.860058+00:00",
   "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "8d064cdceb7407936093df32d3ef276f81246b862f0f4d2a58837ea43433451c",
+  "inventory_sha256": "4c8896e19a524ac5fd957b6f53c26bdce0ec785c5c96ab9a94b139db884ed715",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

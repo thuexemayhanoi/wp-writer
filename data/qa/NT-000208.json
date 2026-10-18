@@ -74,20 +74,20 @@
   "evidence_recheck": {
     "pages": [
       {
-        "id": 912,
-        "title": "Cho Thuê Xe Máy Gần Hai Bà Trưng Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
         "why": "stale",
-        "content_hash": "e3a1939cca55f0bccd95c320658c1807feb7d19588435fda4d8fbc016652f731",
-        "jaccard": 0.0,
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.002,
         "intent_match": null,
         "verdict": "INDEPENDENT"
       },
       {
-        "id": 925,
-        "title": "Thuê Xe Điện Hà Nội – Chọn Xe Máy Điện Hay Xe Đạp Điện?",
+        "id": 4053,
+        "title": "Thuê xe máy Hà Nội đi công tác 3–5 ngày: chọn xe, dự trù chi phí và sắp lịch trả",
         "why": "stale",
-        "content_hash": "838c9d37eced2e74deeb9b1fb50c29d75e84a717e3f8dd7c79c8cc8599007bf1",
-        "jaccard": 0.0,
+        "content_hash": "10253f4071ea9522162e7b5ec6b75dfc3be0638bd9a1598e0136485ddfd9dbec",
+        "jaccard": 0.002,
         "intent_match": null,
         "verdict": "INDEPENDENT"
       }
@@ -96,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T11:44:50.788559+00:00",
+  "at": "2026-10-18T14:01:45.025800+00:00",
   "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "75afd237a52c3bb84598a42d0cf6847d813573d632cdafc02fc2b7528b48a1a7",
+  "inventory_sha256": "55443d94075206ae17e2f0c2a5bb73166d3534c7f0bec6ab70e7c8c3949190c0",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
