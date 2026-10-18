@@ -4,15 +4,15 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-18T05:45:28.396674+00:00 |
-| existing_published_posts | 192 |
+| at | 2026-10-18T05:50:13.848756+00:00 |
+| existing_published_posts | 194 |
 | existing_pages | 10 |
 | existing_products | 13 |
 | candidate_topics | 192 |
 | planned_topics | 119 |
 | claimable_topics | 16 |
 | ready_stock | 11 |
-| stock_stages | {'IDEA': 180, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 11, 'PLANNED_HOLD': 2, 'CLAIMED': 47, 'AUTHORED': 0, 'QA_PASS': 0, 'PUBLISHED': 59, 'WP_DRAFT': 0} |
+| stock_stages | {'IDEA': 180, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 11, 'PLANNED_HOLD': 2, 'CLAIMED': 46, 'AUTHORED': 0, 'QA_PASS': 0, 'PUBLISHED': 60, 'WP_DRAFT': 0} |
 | needs_research | True |
 | research_shortfall | 889 |
 | refill_trigger_below_ready | 900 |
@@ -21,17 +21,17 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | refill_order | RF-0001 |
 | refill_accepted_so_far | 84 |
 | writing | 50 |
-| draft_authored | 56 |
-| qa_pass | 56 |
+| draft_authored | 57 |
+| qa_pass | 57 |
 | qa_fail | 0 |
 | qa_review | 0 |
 | repair_queue | 0 |
 | held_by_class | {} |
-| g7_pass | 34 |
+| g7_pass | 35 |
 | g7_not_recorded | 25 |
 | wordpress_draft | 0 |
-| wordpress_published | 59 |
-| verified_public | 59 |
+| wordpress_published | 60 |
+| verified_public | 60 |
 | indexed | None |
 | topic_collisions | 1 |
 | category_mapping_errors | 0 |
@@ -43,12 +43,12 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | delivery_mode | production |
 | production_enabled | True |
 | draft_staging_enabled | False |
-| qa_pass_live_checked | 2 |
+| qa_pass_live_checked | 1 |
 | qa_pass_awaiting_wordpress | 0 |
 | queued_topic_ids | [] |
 | pending_wordpress_intents | [] |
 | blocked_writer_sessions | [] |
-| last_wordpress_verified_at | 2026-10-18T05:45:25.201106+00:00 |
+| last_wordpress_verified_at | 2026-10-18T05:50:10.307686+00:00 |
 | capacity | 10000 |
 | authenticated_inventory | True |
 | test_drafts_excluded | 2 |
