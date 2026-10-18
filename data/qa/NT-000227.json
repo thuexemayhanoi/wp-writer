@@ -70,16 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap",
-      "supports": "Honda Việt Nam (hỏi đáp cập nhật 21/09/2021 và 28/10/2021): AHO là đèn chiếu sáng phía trước tự bật khi động cơ khởi động; áp dụng từ 2019; mục đích nhận diện; cách dùng chiếu gần chiếu xa; không nên chế thêm công tắc đèn pha.",
-      "sha256": "27952d089177026da7d53ab20653ac75c399ed7cebecdeb32efa171f1b8c602b",
-      "verified_at": "2026-10-18T02:49:21.389187+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -96,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T02:49:26.212266+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T02:50:09.221874+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "01e79e167467b6205a06dd413a3495898a92be0f0045c19344443a93bb8ade08",
+  "inventory_sha256": "fa0b38fd850e8949d00337168ae0fd1a1ade9115b2814af897e7c1dd211cc49a",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
