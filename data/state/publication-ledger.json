@@ -4347,7 +4347,7 @@
       }
     },
     "NT-000278": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T07:57:20.628436+00:00",
       "source_hash": "2353bed570a987b2bb16e393d93e6361aa68f485c3adaa702e1ea4982aba3018",
       "slug": "honda-winner-x-dung-nhot-gi-jaso-ma-nuoc-lam-mat-boi-tron-xich-va-bugi-theo-sach-huong-dan",
@@ -4362,8 +4362,37 @@
       "category_warning": null,
       "git_commit": "2390faa2b9fc944be80c686cf5ea69d0b0018053",
       "run_id": "39109245013",
-      "updated_at": "2026-10-18T07:57:24.346344+00:00",
-      "wp_id": 4041
+      "updated_at": "2026-10-18T07:57:30.066554+00:00",
+      "wp_id": 4041,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/honda-winner-x-dung-nhot-gi-jaso-ma-nuoc-lam-mat-boi-tron-xich-va-bugi-theo-sach-huong-dan/",
+      "verified_at": "2026-10-18T07:57:30.066548+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4041,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/honda-winner-x-dung-nhot-gi-jaso-ma-nuoc-lam-mat-boi-tron-xich-va-bugi-theo-sach-huong-dan/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/honda-winner-x-dung-nhot-gi-jaso-ma-nuoc-lam-mat-boi-tron-xich-va-bugi-theo-sach-huong-dan/",
+        "seo_title": "Honda Winner X dùng nhớt gì: JASO MA, nước làm mát, xích và bugi",
+        "seo_description": "Honda Winner X dùng nhớt gì: JASO MA, SAE 10W-30 và 1,1 lít sau khi xả; nước làm mát 0,57 lít, dầu xích cho xích phớt O, bugi MR9C-9N theo sách hướng dẫn của Honda.",
+        "checked_at": "2026-10-18T07:57:30.066529+00:00"
+      }
     }
   },
   "categories": {}
