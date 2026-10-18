@@ -891,7 +891,7 @@
       }
     },
     "NT-000208": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T02:09:04.190996+00:00",
       "source_hash": "3ad85ca25edb3554338633c00349fab0a4b7e238044d2a894466cba15cc8a5ef",
       "slug": "dau-nhot-cho-xe-so-va-xe-con-tay-chon-chuan-jaso-ma-hay-mb-va-vi-sao-dung-sai-de-truot-con",
@@ -906,8 +906,37 @@
       "category_warning": null,
       "git_commit": "fa638b362a7da9018ce259aac34a3336cf26c05c",
       "run_id": "39088910527",
-      "updated_at": "2026-10-18T02:09:07.839266+00:00",
-      "wp_id": 3964
+      "updated_at": "2026-10-18T02:09:13.286594+00:00",
+      "wp_id": 3964,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/dau-nhot-cho-xe-so-va-xe-con-tay-chon-chuan-jaso-ma-hay-mb-va-vi-sao-dung-sai-de-truot-con/",
+      "verified_at": "2026-10-18T02:09:13.286587+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3964,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/dau-nhot-cho-xe-so-va-xe-con-tay-chon-chuan-jaso-ma-hay-mb-va-vi-sao-dung-sai-de-truot-con/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/dau-nhot-cho-xe-so-va-xe-con-tay-chon-chuan-jaso-ma-hay-mb-va-vi-sao-dung-sai-de-truot-con/",
+        "seo_title": "Dầu nhớt cho xe số, xe côn tay: chọn JASO MA hay MB, vì sao trượt côn",
+        "seo_description": "Dầu nhớt cho xe số và xe côn tay nên chọn chuẩn JASO MA hay MB: các cấp Yamaha liệt kê, lời Honda về trượt côn, cách đọc nhãn chai và chỗ các nguồn chưa thống nhất.",
+        "checked_at": "2026-10-18T02:09:13.286567+00:00"
+      }
     }
   },
   "categories": {}
