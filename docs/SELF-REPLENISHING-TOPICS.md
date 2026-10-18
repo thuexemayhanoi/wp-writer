@@ -28,7 +28,7 @@ GitHub Actions **không chạy AI**: bộ điều khiển chỉ **quyết địn
 | `scripts/intent_guard.py` | Kiểm tra trùng search intent với toàn bộ kho (xem dưới) |
 | `scripts/topic_factory.py`, `research_v2.py`, `research_intake.py` | Research QA dùng intent guard; intake truyền verdict nghiêm ngặt |
 | `python scripts/research_v2.py plan` | Đơn đang mở, quota từng danh mục, 10 chủ đề kế tiếp nên rơi vào danh mục nào |
-| `python scripts/research_v2.py intent-check --file …` | Soát trùng intent trước khi push (không cần nguồn) |
+| `python scripts/research_v2.py intent-check --file …` | Soát trùng intent trước khi push (không cần nguồn); xét cả hàng chờ của các nhánh `research/*` khác chưa được tiếp nhận (`--no-peers` để tắt khi offline). Bài nhà máy đăng sau mốc snapshot nghiên cứu không bị tính là REVIEW (FAIL thì không bao giờ được miễn) |
 
 **Ready stock** = chủ đề PLANNED mà writer còn nhận được: chưa claim, chưa có bản nháp/receipt, chưa đăng, không bị `hold`. Lịch sử PLANNED không được cộng vào.
 
