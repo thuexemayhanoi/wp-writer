@@ -2,6 +2,7 @@
 import base64
 import contextlib
 import datetime as dt
+import functools
 import hashlib
 import html
 import json
@@ -71,7 +72,9 @@ def visible(value):
     p = Text(); p.feed(value)
     return ' '.join(html.unescape(' '.join(p.parts)).split())
 
+@functools.lru_cache(maxsize=100_000)
 def norm(value):
+    # Pure and called with the same titles and page texts thousands of times per QA run; memoized per process.
     return ' '.join(re.findall(r'[a-z0-9]+', ''.join(c for c in unicodedata.normalize('NFD', visible(value).lower().replace('đ','d')) if unicodedata.category(c) != 'Mn')))
 
 def slugify(value):
