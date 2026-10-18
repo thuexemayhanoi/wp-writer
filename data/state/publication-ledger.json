@@ -2809,6 +2809,24 @@
         "seo_description": "Chả cá Lã Vọng được ghi danh là tri thức chế biến và thưởng thức: bốn mặt theo VOV, phố Chả Cá, các mốc 13/8, 18/8 và 19/12/2025, cách thưởng thức có hiểu biết.",
         "checked_at": "2026-10-18T07:17:59.468261+00:00"
       }
+    },
+    "NT-000303": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-18T07:21:54.818225+00:00",
+      "source_hash": "0b0a659fcaf60aaf6a072c392e6ea152d2d06583d757a5b8fd518b4e42e32671",
+      "slug": "den-bao-tren-bo-sac-xe-may-dien-den-do-den-xanh-va-den-nhap-nhay-nghia-la-gi",
+      "expected_status": "publish",
+      "category_id": 167,
+      "visible_hash": "51051983002eea479bfe6cb38ee2f1133ed5bb441da058b701befe646c673b6e",
+      "first_paragraph": "Không có một bảng màu chung cho đèn báo trên bộ sạc xe máy điện, và cùng một màu xanh có thể mang nghĩa gần như ngược nhau giữa hai hãng. Trên hai trang VinFast đã đọc, đèn đỏ sáng là đang sạc và đèn xanh sáng là pin đầy (trang Evo200 Lite thêm: hoặc bộ sạc chưa được kết nối với xe); còn với Yamaha NEO's, đèn xanh lá nhấp nháy là chế độ chờ sạc và đèn xanh tắt khi pin đầy. Vì vậy ý nghĩa của đèn chỉ đáng tin khi đọc đúng hãng, đúng mẫu xe và đúng trang tài liệu, rồi đối chiếu với đồng hồ trên xe và sách hướng dẫn. Bài này tổng hợp ba trang của hai hãng và một khuyến cáo của Cục Cảnh sát PCCC và CNCH, không suy ra ý nghĩa đèn cho hãng hoặc mẫu xe chưa có tài liệu.",
+      "meta_title": "Đèn báo trên bộ sạc xe máy điện: đèn đỏ, đèn xanh, nhấp nháy là gì",
+      "meta_description": "Đèn báo trên bộ sạc xe máy điện không có bảng màu chung: đèn xanh của VinFast và Yamaha NEO's mang nghĩa khác nhau; cách đọc đúng trang tài liệu và việc cần làm khi đèn bất thường.",
+      "intended_taxonomy_key": "battery-charging",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "c580f17e153899b1472aa292fa0001fc17cc23b1",
+      "run_id": "39107147569",
+      "updated_at": "2026-10-18T07:21:54.820078+00:00"
     }
   },
   "categories": {}
