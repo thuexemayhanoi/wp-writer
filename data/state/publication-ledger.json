@@ -5547,7 +5547,7 @@
       }
     },
     "NT-000554": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:18:54.805492+00:00",
       "source_hash": "d17286295cffafc9d48629035f1698c3b39e88235d87c440a4b69166d62441a4",
       "slug": "san-may-ta-xua-bang-xe-may-thang-nao-co-may-di-quoc-lo-32-roi-37-va-len-doc-ra-sao",
@@ -5562,8 +5562,37 @@
       "category_warning": null,
       "git_commit": "e0327f5556485c1e6a474156113d0d9a8c238ceb",
       "run_id": "39135086720",
-      "updated_at": "2026-10-18T14:18:58.687853+00:00",
-      "wp_id": 4082
+      "updated_at": "2026-10-18T14:19:04.342932+00:00",
+      "wp_id": 4082,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/san-may-ta-xua-bang-xe-may-thang-nao-co-may-di-quoc-lo-32-roi-37-va-len-doc-ra-sao/",
+      "verified_at": "2026-10-18T14:19:04.342925+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4082,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/san-may-ta-xua-bang-xe-may-thang-nao-co-may-di-quoc-lo-32-roi-37-va-len-doc-ra-sao/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/san-may-ta-xua-bang-xe-may-thang-nao-co-may-di-quoc-lo-32-roi-37-va-len-doc-ra-sao/",
+        "seo_title": "Săn mây Tà Xùa bằng xe máy: tháng nào có mây, QL32 rồi QL37, lên dốc",
+        "seo_description": "Săn mây Tà Xùa bằng xe máy: mùa mây theo vietnam.travel (tháng 1 đến 3) và VnExpress (tháng 10 đến 4), đường Hà Nội theo QL32 rồi QL37, lưu ý đường hẹp, dốc, không lên núi lúc tối.",
+        "checked_at": "2026-10-18T14:19:04.342908+00:00"
+      }
     }
   },
   "categories": {}
