@@ -5835,7 +5835,7 @@
       }
     },
     "NT-000341": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:27:55.699225+00:00",
       "source_hash": "78f7b4a5f43fa215ab0714fbdce297cbc9cf74197305c9beb51afdd23e30d1fc",
       "slug": "nong-do-con-khi-lai-xe-may-ba-muc-vi-pham-muc-phat-so-diem-bi-tru-va-thoi-han-tuoc-quyen-lai",
@@ -5850,8 +5850,37 @@
       "category_warning": null,
       "git_commit": "5c810055e9fa70a06936c5b2f18ce99194ed0704",
       "run_id": "39135864972",
-      "updated_at": "2026-10-18T14:28:00.175671+00:00",
-      "wp_id": 4088
+      "updated_at": "2026-10-18T14:28:06.453609+00:00",
+      "wp_id": 4088,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nong-do-con-khi-lai-xe-may-ba-muc-vi-pham-muc-phat-so-diem-bi-tru-va-thoi-han-tuoc-quyen-lai/",
+      "verified_at": "2026-10-18T14:28:06.453602+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4088,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nong-do-con-khi-lai-xe-may-ba-muc-vi-pham-muc-phat-so-diem-bi-tru-va-thoi-han-tuoc-quyen-lai/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nong-do-con-khi-lai-xe-may-ba-muc-vi-pham-muc-phat-so-diem-bi-tru-va-thoi-han-tuoc-quyen-lai/",
+        "seo_title": "Nồng độ cồn khi lái xe máy: 3 mức phạt, điểm trừ, tước giấy phép",
+        "seo_description": "Nồng độ cồn khi lái xe máy bị xử lý thế nào? Ba mức theo Điều 7 Nghị định 168/2024/NĐ-CP, mức phạt, điểm bị trừ, thời hạn tước giấy phép và cách đọc đơn vị đo.",
+        "checked_at": "2026-10-18T14:28:06.453583+00:00"
+      }
     }
   },
   "categories": {}
