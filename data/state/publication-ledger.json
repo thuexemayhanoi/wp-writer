@@ -1371,7 +1371,7 @@
       }
     },
     "NT-000266": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T02:32:31.216178+00:00",
       "source_hash": "abe74961a22fc29c4fc539733e9d97114de9ad11a9d66eb66336baea4f4ced07",
       "slug": "moc-thay-bugi-xe-may-vi-sao-honda-va-yamaha-neu-so-km-khac-nhau-va-cach-doi-chieu-so-huong-dan",
@@ -1386,8 +1386,37 @@
       "category_warning": null,
       "git_commit": "3f0fe539fc7983f73ebb6649ab6e3306e5d5bc05",
       "run_id": "39090255831",
-      "updated_at": "2026-10-18T02:32:34.873244+00:00",
-      "wp_id": 3974
+      "updated_at": "2026-10-18T02:32:40.647612+00:00",
+      "wp_id": 3974,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/moc-thay-bugi-xe-may-vi-sao-honda-va-yamaha-neu-so-km-khac-nhau-va-cach-doi-chieu-so-huong-dan/",
+      "verified_at": "2026-10-18T02:32:40.647606+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3974,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/moc-thay-bugi-xe-may-vi-sao-honda-va-yamaha-neu-so-km-khac-nhau-va-cach-doi-chieu-so-huong-dan/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/moc-thay-bugi-xe-may-vi-sao-honda-va-yamaha-neu-so-km-khac-nhau-va-cach-doi-chieu-so-huong-dan/",
+        "seo_title": "Mốc thay bugi xe máy: vì sao Honda và Yamaha nêu số km khác nhau",
+        "seo_description": "Mốc thay bugi xe máy của Honda là 8.000 km, Yamaha nêu 10.000 km; Air Blade và PCX 2016 là 12.000 km. Cách đọc các con số khác nhau và đối chiếu sổ hướng dẫn của xe.",
+        "checked_at": "2026-10-18T02:32:40.647589+00:00"
+      }
     }
   },
   "categories": {}
