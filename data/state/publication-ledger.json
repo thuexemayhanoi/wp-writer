@@ -1515,7 +1515,7 @@
       }
     },
     "NT-000214": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T02:41:30.379772+00:00",
       "source_hash": "7e57b5d2ed3dbe134c2c4747615ad51acf7ef7f6a0ce37a693a096baf3f1f2fc",
       "slug": "xe-con-tay-hay-chet-may-khi-xuat-phat-cac-loi-con-ga-so-thuong-gap-va-cach-tap",
@@ -1530,8 +1530,37 @@
       "category_warning": null,
       "git_commit": "607ea2771b21c2248d1c6d2d090ed5d3c756a4a8",
       "run_id": "39090800922",
-      "updated_at": "2026-10-18T02:41:34.177760+00:00",
-      "wp_id": 3977
+      "updated_at": "2026-10-18T02:41:40.104398+00:00",
+      "wp_id": 3977,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-con-tay-hay-chet-may-khi-xuat-phat-cac-loi-con-ga-so-thuong-gap-va-cach-tap/",
+      "verified_at": "2026-10-18T02:41:40.104391+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3977,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-con-tay-hay-chet-may-khi-xuat-phat-cac-loi-con-ga-so-thuong-gap-va-cach-tap/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-con-tay-hay-chet-may-khi-xuat-phat-cac-loi-con-ga-so-thuong-gap-va-cach-tap/",
+        "seo_title": "Xe côn tay hay chết máy khi xuất phát: lỗi côn, ga, số và cách tập",
+        "seo_description": "Xe côn tay hay chết máy khi xuất phát: các lỗi thả côn vội, kéo ga sớm, đi số cao lúc chậm theo Yamaha, VnExpress, Dân trí và cách tập ở nơi vắng.",
+        "checked_at": "2026-10-18T02:41:40.104368+00:00"
+      }
     }
   },
   "categories": {}
