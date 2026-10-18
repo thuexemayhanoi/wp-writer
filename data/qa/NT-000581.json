@@ -1,0 +1,134 @@
+{
+  "topic_id": "NT-000581",
+  "status": "PASS",
+  "source_sha256": "453c5c598947d5f91257193bc4c4111a59f9a137f8d7b387a00c8174afe80603",
+  "body_sha256": "ae4e0e6c6ce11eff19eec508cf79a2af0ca9fd75e667f920d43ca80972ac9a2d",
+  "word_count": 3285,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2349,
+        "title": "Xe máy điện giá bao nhiêu? Các nhóm giá phổ biến hiện nay",
+        "why": "stale",
+        "content_hash": "7cbacf7f21600cfcf6443eefa80b95d210de98f76fea5ef8dade3a018e9a3e6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2473,
+        "title": "Yamaha FreeGo và Honda Vision: Khác nhau thế nào khi đi trong phố?",
+        "why": "stale",
+        "content_hash": "7ead5893fc147627e2ba631c69446ed2f5e8550ab42a98c49ed2be3d0b920658",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2540,
+        "title": "Xe máy hao xăng bất thường do đâu? Các nguyên nhân thường gặp",
+        "why": "stale",
+        "content_hash": "5c70a54e235309eb24f97e3e7ea779c89f838366ff1a2bd96487d780ea3eb0c2",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2542,
+        "title": "Xe máy bị nóng máy nhanh do đâu? Những điểm nên kiểm tra đầu tiên",
+        "why": "stale",
+        "content_hash": "994e220a440cdb5f8e90756cb7e6d0319a7cf0377e7377b9dd7b0b64ed9e9f51",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T22:37:40.435633+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "26268dc0a2bc8c77ff039553e5a08a8804214c421bb1caa70d03b2da68bd655d",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -70,48 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vietnam.travel/things-to-do/ha-giang-loop-four-day-road-trip",
-      "supports": "vietnam.travel (cơ quan du lịch quốc gia) mô tả vòng Hà Giang 4 ngày: QL4C hướng đông bắc từ Hà Giang tới Bảo Lâm, QL34 hướng tây nam về lại Hà Giang; ngày 1 nghỉ Yên Minh, ngày 2 Đồng Văn, ngày 3 Mèo Vạc, Mã Pí Lèng và Bảo Lâm, ngày 4 về thành phố.",
-      "sha256": "88ad4a4b81491c99090d3285c46ddaebe4618d63198033b9175c97861be952d9",
-      "verified_at": "2026-10-18T14:06:25.133429+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnam.travel/node/199",
-      "supports": "Trang điểm đến của vietnam.travel ghi từ Hà Nội mất khoảng sáu đến bảy tiếng bằng ô tô hoặc xe giường nằm và phần lớn du khách đi vòng bằng xe máy; ghi chú Hà Giang nay thuộc tỉnh Tuyên Quang từ 2025.",
-      "sha256": "7233e44f2ce5a68a48dbc5eed6732a21e9a51f3354334fb62a9ea8eb661f60ac",
-      "verified_at": "2026-10-18T14:06:26.049748+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnam.travel/things-to-do/ha-giang-loop",
-      "supports": "Trang The Ha Giang Loop của vietnam.travel: Hà Giang cách Hà Nội khoảng 300 km về phía bắc và chỉ đi tới được bằng đường bộ; vòng đi qua bốn huyện Quản Bạ, Yên Minh, Đồng Văn, Mèo Vạc.",
-      "sha256": "abbd9c96db42d206453f8996719e5551bdbbb6c1273aacc4ecee380cc139a5b8",
-      "verified_at": "2026-10-18T14:06:27.128997+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnam.travel/things-to-do/ha-giang-adventures",
-      "supports": "Trang Roadside adventures in Ha Giang của vietnam.travel ghi chuyển từ Hà Nội mất sáu tiếng, nghỉ ở Thôn Tha ngay ngoài thành phố; Cổng trời Quản Bạ là cửa vào công viên địa chất; chợ Phố Cáo họp mỗi tuần một lần, lịch khó xác định.",
-      "sha256": "35640647db5134ced8489b7009435dc7b2bf88fc1f1a6c2d10f1cc6314ca532a",
-      "verified_at": "2026-10-18T14:06:28.081148+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.unesco.org/en/iggp/dong-van-karst-plateau-unesco-global-geopark",
-      "supports": "Trang UNESCO về Công viên địa chất toàn cầu Cao nguyên đá Đồng Văn nêu đèo Mã Pí Lèng cao tới 1.200 m nhìn xuống sông Nho Quế và Cổng trời Quản Bạ là điểm ngắm toàn cảnh.",
-      "sha256": "21efe3c1cffde5c594778926b919b4483e8355bee0cb91207363dfbf7445aefe",
-      "verified_at": "2026-10-18T14:06:30.189213+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -155,11 +114,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T14:06:44.311721+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T22:37:37.772750+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "cb928209ffa2130b076a69ba19880aab49079507abdf8838ad92118978e689f6",
+  "inventory_sha256": "7713eef8f59699dc6ae2da9d2b284d7e1709c791d70e0a04f18e769809212941",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

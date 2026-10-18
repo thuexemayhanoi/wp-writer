@@ -1,0 +1,125 @@
+{
+  "topic_id": "NT-000588",
+  "status": "PASS",
+  "source_sha256": "09378c2df99ce66ebcf6e302b645fb47d8062b95f881a544f7dd12437395ddab",
+  "body_sha256": "b339c5e1646f507ee93c1d1b9612b61264da7aa8ecdf94426b34e54a77b05208",
+  "word_count": 2675,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2415,
+        "title": "Honda ICON e: và Yamaha NEO's khác nhau ở điểm nào khi sử dụng?",
+        "why": "stale",
+        "content_hash": "46d798529e84be3408ca9645084bcb3ab939b77426292e48c1867fa9e8a729f8",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2455,
+        "title": "Honda Winner R phù hợp nhu cầu nào? Ưu nhược điểm khi dùng hằng ngày",
+        "why": "stale",
+        "content_hash": "62cdfb3ed2a4b39833e7b0c1ddd61f2653117e6cb5c7d08b7c97cc2f159b08d9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2493,
+        "title": "Bao lâu nên thay dầu xe máy? Cách nhận biết thời điểm phù hợp",
+        "why": "stale",
+        "content_hash": "8ca2a243a492015121237f25a06d048e4ab5297e91295fbbbae60ec93a619529",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T22:37:41.488564+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "7fbf9f7d39096e10be528cc8080a7923943be9a733f47160a9ed94e71738196a",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
