@@ -2521,6 +2521,24 @@
         "seo_description": "Bánh cuốn Thanh Trì là nghề làm bánh ở phường Vĩnh Hưng được ghi danh di sản quốc gia: cách làm theo Cục Di sản văn hóa, cách ăn kèm và các mốc ngày ghi danh.",
         "checked_at": "2026-10-18T07:11:51.753651+00:00"
       }
+    },
+    "NT-000301": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-18T07:14:53.101160+00:00",
+      "source_hash": "f0878337ae8e0b5ee3087ea81baad35b469e2203256c6b67160078df81e8b03f",
+      "slug": "sac-xe-may-dien-qua-dem-co-quan-pccc-va-hang-xe-khuyen-cao-khac-nhau-o-diem-nao",
+      "expected_status": "publish",
+      "category_id": 167,
+      "visible_hash": "afe69af76350237b5bc244f085dc99fffa24c3a3bdf675cf186bcc9f624f59d4",
+      "first_paragraph": "Về sạc xe máy điện qua đêm, các nguồn đã đọc không nói giống nhau. Cục Cảnh sát PCCC và CNCH, trong trang đăng ngày 24/05/2024 về an toàn khi sạc xe điện, dặn ngừng sạc trước khi ra khỏi nhà hoặc đi ngủ và viết “tuyệt đối không sạc qua đêm”; trong trang đăng ngày 11/08/2025 về phương tiện giao thông cơ giới nói chung, cơ quan này chỉ viết “hạn chế việc sạc qua đêm”. Trang hướng dẫn của VinFast (đăng năm 2021, sửa đổi tháng 3/2023) lại viết rằng “hoàn toàn có thể” sạc xe máy qua đêm, với điều kiện xe có chức năng tự ngắt khi đầy điện và dùng đúng bộ sạc chính hãng đi kèm. Bài này không chọn bên nào “đúng” thay bạn: nó đặt từng câu cạnh nhau, ghi rõ nguồn, ngày và phạm vi, rồi nêu cách sắp xếp thận trọng, tách riêng khỏi phần trích dẫn.",
+      "meta_title": "Sạc xe máy điện qua đêm: PCCC và hãng xe khuyến cáo khác nhau thế nào",
+      "meta_description": "Đối chiếu khuyến cáo sạc xe máy điện qua đêm của Cục Cảnh sát PCCC và CNCH (2024, 2025) với trang VinFast: điều kiện đi kèm, mốc 8 giờ liên tục và việc cần làm trước khi cắm sạc.",
+      "intended_taxonomy_key": "battery-charging",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "c59b8586d81914c1fda982924f9aa7eb41468dd1",
+      "run_id": "39106725943",
+      "updated_at": "2026-10-18T07:14:53.103714+00:00"
     }
   },
   "categories": {}
