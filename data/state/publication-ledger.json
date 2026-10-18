@@ -2857,6 +2857,24 @@
         "seo_description": "Đèn báo trên bộ sạc xe máy điện không có bảng màu chung: đèn xanh của VinFast và Yamaha NEO's mang nghĩa khác nhau; cách đọc đúng trang tài liệu và việc cần làm khi đèn bất thường.",
         "checked_at": "2026-10-18T07:22:04.564751+00:00"
       }
+    },
+    "NT-000304": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-18T07:22:16.720008+00:00",
+      "source_hash": "a23bab24027c3dc6dea900e16822cfec651c3e65d23ab0b6ac7b940c4c757056",
+      "slug": "thoi-gian-sac-day-pin-xe-may-dien-uoc-tinh-tu-dung-luong-kwh-va-cong-suat-bo-sac",
+      "expected_status": "publish",
+      "category_id": 168,
+      "visible_hash": "b07cbe6e0df1becb686b993b6207b98bf1e99fbdc15ba7fb4bce936e1bdd7f3d",
+      "first_paragraph": "Thời gian sạc đầy pin xe máy điện có thể ước tính thô bằng cách lấy năng lượng của pin (kWh) chia cho công suất bộ sạc (kW), rồi coi kết quả là mức thấp nhất vì thực tế còn có hao hụt và các giai đoạn sạc khác. Với số liệu VinFast công bố cho Evo200 Lite (pin 3,5 kWh, bộ sạc tiêu chuẩn 400 W), phép chia cho 8,75 giờ trong khi hãng nêu khoảng 10 giờ từ 0 đến 100%; Yamaha nêu khoảng 9 giờ cho NEO's nhưng không nêu công suất bộ sạc nên không thể tính. Hãy dùng phép tính để lên lịch sơ bộ, còn mốc đáng tin là con số trong sách hướng dẫn của đúng xe và đúng bộ sạc đi kèm.",
+      "meta_title": "Thời gian sạc đầy pin xe máy điện: ước tính từ kWh và công suất sạc",
+      "meta_description": "Cách ước tính thời gian sạc đầy pin xe máy điện bằng kWh chia kW, kèm ví dụ số liệu VinFast Evo200 Lite, Yamaha NEO's, sạc từ 20% và mốc 8 giờ liên tục của PCCC.",
+      "intended_taxonomy_key": "electric-tech",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "c580f17e153899b1472aa292fa0001fc17cc23b1",
+      "run_id": "39107147569",
+      "updated_at": "2026-10-18T07:22:16.721874+00:00"
     }
   },
   "categories": {}
