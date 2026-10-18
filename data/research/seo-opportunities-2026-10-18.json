@@ -27,7 +27,7 @@
     {
       "id": "SEO-20261018-01",
       "kind": "new_supporting_research",
-      "state": "AWAITING_EXTERNAL_RESEARCH",
+      "state": "HOLD_EXISTING_INTENT",
       "priority": "P1",
       "taxonomy_key": "rental-guide",
       "title_hint": "Checklist kiểm tra xe thuê trước khi nhận tại Hà Nội",
@@ -42,12 +42,19 @@
         "ubersuggest_sd": 14
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "reason": "Bài WordPress #2596 đã có checklist kiểm tra trước khi nhận xe; cần đọc cả bài và xác minh góc nhìn mới.",
+        "related": [
+          "WP2596"
+        ],
+        "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
+      }
     },
     {
       "id": "SEO-20261018-02",
       "kind": "new_supporting_research",
-      "state": "AWAITING_EXTERNAL_RESEARCH",
+      "state": "HOLD_EXISTING_INTENT",
       "priority": "P1",
       "taxonomy_key": "rental-costs",
       "title_hint": "Thuê xe máy 3 ngày hay một tuần: cách so tổng chi phí thật",
@@ -62,7 +69,15 @@
         "ubersuggest_sd": 12
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "reason": "Chủ đề đang nghiên cứu NT-000001 (chi phí thuê một ngày hoặc ba ngày) và NT-000009 (chi phí so xe một tuần); cần phân biệt phạm vi.",
+        "related": [
+          "NT-000001",
+          "NT-000009"
+        ],
+        "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
+      }
     },
     {
       "id": "SEO-20261018-03",
@@ -80,12 +95,16 @@
         "gsc_impressions": 8
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
+        "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
+      }
     },
     {
       "id": "SEO-20261018-04",
       "kind": "new_supporting_research",
-      "state": "AWAITING_EXTERNAL_RESEARCH",
+      "state": "HOLD_EXISTING_INTENT",
       "priority": "P1",
       "taxonomy_key": "rental-procedures",
       "title_hint": "Cách lập biên nhận tiền cọc khi thuê xe máy",
@@ -95,7 +114,14 @@
       "target_existing_url": "https://thuexemaynguyentu.com/",
       "metrics": null,
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "reason": "Chủ đề nghiên cứu NT-000004 đã nhắm biên nhận đặt cọc xe máy; nguy cơ trùng search intent.",
+        "related": [
+          "NT-000004"
+        ],
+        "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
+      }
     },
     {
       "id": "SEO-20261018-05",
@@ -115,7 +141,11 @@
         "ubersuggest_sd": 14
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
+        "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
+      }
     },
     {
       "id": "SEO-20261018-06",
@@ -135,7 +165,11 @@
         "ubersuggest_sd": 14
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
+        "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
+      }
     },
     {
       "id": "SEO-20261018-07",
@@ -153,7 +187,11 @@
         "gsc_impressions": 12
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
+        "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
+      }
     },
     {
       "id": "SEO-20261018-08",
@@ -173,7 +211,11 @@
         "ubersuggest_sd": 12
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
+        "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
+      }
     },
     {
       "id": "SEO-20261018-09",
@@ -193,7 +235,11 @@
         "ubersuggest_sd": 15
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
+        "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
+      }
     },
     {
       "id": "SEO-20261018-10",
@@ -213,7 +259,11 @@
         "ubersuggest_sd": 15
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
+        "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
+      }
     },
     {
       "id": "SEO-20261018-11",
@@ -233,7 +283,11 @@
         "ubersuggest_sd": 15
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
+        "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
+      }
     },
     {
       "id": "SEO-20261018-12",
@@ -253,7 +307,11 @@
         "ubersuggest_sd": 9
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
+        "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
+      }
     },
     {
       "id": "SEO-20261018-13",
@@ -273,12 +331,16 @@
         "ubersuggest_sd": 9
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
+        "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
+      }
     },
     {
       "id": "SEO-20261018-14",
       "kind": "new_supporting_research",
-      "state": "AWAITING_EXTERNAL_RESEARCH",
+      "state": "HOLD_EXISTING_INTENT",
       "priority": "P2",
       "taxonomy_key": "electric",
       "title_hint": "Đi xe máy điện trong ngày mưa: lưu ý an toàn khi thuê xe",
@@ -293,7 +355,14 @@
         "ubersuggest_sd": 9
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "reason": "Bài WordPress #2374 đã giải thích xe máy điện đi mưa có an toàn không; nên bổ sung chứ chưa tạo bài gần giống.",
+        "related": [
+          "WP2374"
+        ],
+        "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
+      }
     },
     {
       "id": "SEO-20261018-15",
@@ -311,7 +380,11 @@
         "gsc_impressions": 85
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
+        "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
+      }
     },
     {
       "id": "SEO-20261018-16",
@@ -329,7 +402,11 @@
         "gsc_impressions": 85
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
+        "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
+      }
     },
     {
       "id": "SEO-20261018-17",
@@ -347,7 +424,11 @@
         "gsc_impressions": 30
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
+        "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
+      }
     },
     {
       "id": "SEO-20261018-18",
@@ -362,7 +443,11 @@
       "target_existing_url": "https://thuexemaynguyentu.com/",
       "metrics": null,
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
+        "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
+      }
     },
     {
       "id": "SEO-20261018-19",
@@ -380,12 +465,16 @@
         "gsc_impressions": 21
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
+        "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
+      }
     },
     {
       "id": "SEO-20261018-20",
       "kind": "new_supporting_research",
-      "state": "AWAITING_EXTERNAL_RESEARCH",
+      "state": "HOLD_EXISTING_INTENT",
       "priority": "P3",
       "taxonomy_key": "rental-guide",
       "title_hint": "Thuê xe máy gần sân bay Nội Bài: những điều phải xác nhận trước",
@@ -398,7 +487,14 @@
         "gsc_impressions": 7
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "reason": "Landing page WordPress #1061 đã dành cho dịch vụ thuê xe máy sân bay Nội Bài; không tạo thêm trang chiếm cùng intent.",
+        "related": [
+          "WP1061"
+        ],
+        "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
+      }
     },
     {
       "id": "SEO-20261018-21",
@@ -418,12 +514,16 @@
         "ubersuggest_sd": 12
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
+        "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
+      }
     },
     {
       "id": "SEO-20261018-22",
       "kind": "new_supporting_research",
-      "state": "AWAITING_EXTERNAL_RESEARCH",
+      "state": "HOLD_EXISTING_INTENT",
       "priority": "P3",
       "taxonomy_key": "rental-procedures",
       "title_hint": "Giấy tờ dành cho khách nước ngoài thuê xe máy ở Việt Nam",
@@ -438,12 +538,19 @@
         "ubersuggest_sd": 14
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "reason": "Chủ đề nghiên cứu NT-000008 đã hỏi giấy tờ của người nước ngoài thuê xe tại Việt Nam; gần như cùng intent.",
+        "related": [
+          "NT-000008"
+        ],
+        "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
+      }
     },
     {
       "id": "SEO-20261018-23",
       "kind": "new_supporting_research",
-      "state": "AWAITING_EXTERNAL_RESEARCH",
+      "state": "HOLD_EXISTING_INTENT",
       "priority": "P3",
       "taxonomy_key": "road-safety",
       "title_hint": "Lái xe máy thuê ở Hà Nội khi trời mưa: kiểm tra lốp và phanh",
@@ -458,12 +565,19 @@
         "ubersuggest_sd": 14
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "reason": "Bài WordPress #4051 đã nói thuê xe máy Hà Nội ngày mưa và kiểm tra trước khi chạy; cần review toàn văn trước.",
+        "related": [
+          "WP4051"
+        ],
+        "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
+      }
     },
     {
       "id": "SEO-20261018-24",
       "kind": "new_supporting_research",
-      "state": "AWAITING_EXTERNAL_RESEARCH",
+      "state": "HOLD_EXISTING_INTENT",
       "priority": "P3",
       "taxonomy_key": "road-safety",
       "title_hint": "Chọn mũ bảo hiểm khi nhận xe thuê: cách kiểm tra độ vừa và khóa cài",
@@ -478,7 +592,14 @@
         "ubersuggest_sd": 14
       },
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "reason": "Bài WordPress #3948 đã hướng dẫn đội mũ bảo hiểm đúng cách, kiểm tra độ vừa và cài quai.",
+        "related": [
+          "WP3948"
+        ],
+        "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
+      }
     },
     {
       "id": "SEO-20261018-25",
@@ -493,7 +614,11 @@
       "target_existing_url": "https://thuexemaynguyentu.com/",
       "metrics": null,
       "metrics_scope": "Vietnam (Ubersuggest) / 2026-09-16..2026-10-15 (SiteGuru GSC)",
-      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission."
+      "evidence_note": "Measured data is for parent_query, not for this proposed long-tail title. Verify independent demand, existing full-content gap and authoritative claims before admission.",
+      "precheck": {
+        "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
+        "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
+      }
     }
   ],
   "existing_url_priorities": [
@@ -597,5 +722,15 @@
       "recommended_action": "Treat as homepage synonym: improve existing service clarity and contextual internal links without duplicate pages.",
       "requires_owner_approval_for_title_meta_changes": true
     }
-  ]
+  ],
+  "precheck": {
+    "at": "2026-10-18",
+    "scope": "Compared topic titles and existing WordPress inventory (323 items) plus 283 canonical topic entries; this is a preliminary title-based screen, not a complete semantic/content audit.",
+    "total": 25,
+    "hold_existing_intent": 8,
+    "remaining_research_candidates": 17,
+    "ready_to_write": 0,
+    "writer_status": "All 9 W1-W9 slots have active claim records; do not hijack or auto-release leases.",
+    "wordpress_changes": 0
+  }
 }
