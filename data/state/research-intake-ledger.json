@@ -186,6 +186,39 @@
         "NT-000232"
       ],
       "not_accepted": {}
+    },
+    "data/candidates/seodev-r9-0001.jsonl": {
+      "sha256": "59c87bc330fc76b7344db1961b162e06424c718d765be39d70473695c8fb8660",
+      "at": "2026-10-18T02:18:24.671477+00:00",
+      "state": "TOPIC_QA_APPLIED",
+      "research_branch": "research/seodev-r9",
+      "research_commit": "7d5630e5c5a9ba7052e6c68a594c90ffae487951",
+      "topic_ids": [
+        "NT-000281",
+        "NT-000282",
+        "NT-000283",
+        "NT-000284",
+        "NT-000285",
+        "NT-000286",
+        "NT-000287",
+        "NT-000288",
+        "NT-000289",
+        "NT-000290"
+      ],
+      "accepted_ids": [
+        "NT-000281",
+        "NT-000282",
+        "NT-000283",
+        "NT-000284",
+        "NT-000285",
+        "NT-000286",
+        "NT-000288",
+        "NT-000289"
+      ],
+      "not_accepted": {
+        "NT-000287": "REJECTED",
+        "NT-000290": "RESEARCH"
+      }
     }
   }
 }
