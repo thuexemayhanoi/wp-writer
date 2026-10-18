@@ -5643,7 +5643,7 @@
       }
     },
     "NT-000674": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:20:45.400798+00:00",
       "source_hash": "15e9dbe35baac9047bb93e812fd0433ec9380647c098dfedcbffc2498354a9df",
       "slug": "so-khan-cap-khi-tai-nan-xe-may-o-viet-nam-goi-113-114-hay-115-va-nhung-gioi-han-ve-ngon-ngu",
@@ -5658,8 +5658,37 @@
       "category_warning": null,
       "git_commit": "e0327f5556485c1e6a474156113d0d9a8c238ceb",
       "run_id": "39135086720",
-      "updated_at": "2026-10-18T14:20:48.885761+00:00",
-      "wp_id": 4084
+      "updated_at": "2026-10-18T14:20:54.588095+00:00",
+      "wp_id": 4084,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/so-khan-cap-khi-tai-nan-xe-may-o-viet-nam-goi-113-114-hay-115-va-nhung-gioi-han-ve-ngon-ngu/",
+      "verified_at": "2026-10-18T14:20:54.588090+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4084,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/so-khan-cap-khi-tai-nan-xe-may-o-viet-nam-goi-113-114-hay-115-va-nhung-gioi-han-ve-ngon-ngu/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/so-khan-cap-khi-tai-nan-xe-may-o-viet-nam-goi-113-114-hay-115-va-nhung-gioi-han-ve-ngon-ngu/",
+        "seo_title": "Số khẩn cấp khi tai nạn xe máy ở Việt Nam: 113, 114, 115",
+        "seo_description": "Số khẩn cấp khi tai nạn xe máy ở Việt Nam là 113, 114, 115 theo bốn trang chính phủ nước ngoài. Bài nêu giới hạn tiếng Việt, thời gian chờ và cách chuẩn bị.",
+        "checked_at": "2026-10-18T14:20:54.588071+00:00"
+      }
     }
   },
   "categories": {}
