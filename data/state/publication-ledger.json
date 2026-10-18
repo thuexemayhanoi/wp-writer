@@ -5259,7 +5259,7 @@
       }
     },
     "NT-000557": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:13:49.899780+00:00",
       "source_hash": "603b9ee48e7a5b48e7fe3fd9906caaad0bb4175a69e1e2e7cedfab70e9527eb2",
       "slug": "cao-bang-bang-xe-may-tu-ha-noi-quoc-lo-3-hay-quoc-lo-4-do-day-binh-xang-va-xep-3-ngay-2-dem",
@@ -5274,8 +5274,37 @@
       "category_warning": null,
       "git_commit": "d29fe33dd73de36f0fbc6fa6ab9206487f345ab6",
       "run_id": "39134627843",
-      "updated_at": "2026-10-18T14:13:54.036224+00:00",
-      "wp_id": 4075
+      "updated_at": "2026-10-18T14:14:00.052007+00:00",
+      "wp_id": 4075,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cao-bang-bang-xe-may-tu-ha-noi-quoc-lo-3-hay-quoc-lo-4-do-day-binh-xang-va-xep-3-ngay-2-dem/",
+      "verified_at": "2026-10-18T14:14:00.052000+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4075,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cao-bang-bang-xe-may-tu-ha-noi-quoc-lo-3-hay-quoc-lo-4-do-day-binh-xang-va-xep-3-ngay-2-dem/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cao-bang-bang-xe-may-tu-ha-noi-quoc-lo-3-hay-quoc-lo-4-do-day-binh-xang-va-xep-3-ngay-2-dem/",
+        "seo_title": "Cao Bằng bằng xe máy từ Hà Nội: quốc lộ 3 hay 4, xăng, 3 ngày 2 đêm",
+        "seo_description": "Cao Bằng bằng xe máy từ Hà Nội: quốc lộ 4 qua Lạng Sơn hay quốc lộ 3 qua Bắc Kạn theo VnExpress, đổ đầy bình xăng, chọn mùa và cách xếp 3 ngày 2 đêm cho xe máy.",
+        "checked_at": "2026-10-18T14:14:00.051980+00:00"
+      }
     }
   },
   "categories": {}
