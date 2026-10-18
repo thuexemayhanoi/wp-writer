@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=su-dung-xe&category_child=tu-van-su-dung-xe-may",
-      "supports": "Honda Việt Nam (mục hỏi đáp cập nhật 21/09/2021): khói đen sau ống xả nghĩa là một lượng xăng không được đốt hết; ba nguyên nhân cần kiểm tra (hệ thống khởi động bướm gió hoặc mạch làm giàu, lọc gió tắc hoặc bẩn, bộ chế hòa khí).",
-      "sha256": "26e6baa445ee51d1aac7d997ced33abb20f106fe6c78e71a2bd39c672cd0936f",
-      "verified_at": "2026-10-18T04:14:48.094564+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/xe-may-ra-khoi-den-co-sao-khong-nguyen-nhan-cach-xu-ly/",
-      "supports": "Yamaha Motor Việt Nam (11/06/2026): khói đen là nhiên liệu không cháy hết; nguyên nhân gồm lọc gió bẩn, hệ thống đề, chế hòa khí, xăng có tạp chất; hậu quả và cách xử lý.",
-      "sha256": "7245a974d43d774e710b8a5003003e4f3cd2ab1857ee85bcfe9b1315495ec9d8",
-      "verified_at": "2026-10-18T04:14:49.903030+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/nguyen-nhan-xe-may-ra-khoi-trang-va-cach-khac-phuc-hieu-qua/",
-      "supports": "Yamaha Motor Việt Nam (11/06/2026): nguyên nhân khói trắng (dầu nhớt lọt buồng đốt, nước hoặc tạp chất trong nhiên liệu, lọc gió bẩn, hơi nước ngưng tụ), cách phân biệt bình thường và bất thường.",
-      "sha256": "2547f1a1965a3bdb66f1e69c9d260277e92dde736efdcf803c32c80018e73973",
-      "verified_at": "2026-10-18T04:14:53.213488+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -121,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T04:14:57.602130+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T04:16:50.369083+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "213c882c707eef59fa739c50ee9aba9d7572254f5062d518a2bb26fddffad040",
+  "inventory_sha256": "e54358b5567eb74ad0bff243aa52262404405fdc0f5f8e152f57863906592e45",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

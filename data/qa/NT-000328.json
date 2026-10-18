@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://tuoitre.vn/canh-sat-giao-thong-tp-hcm-canh-bao-diem-mu-cua-xe-tai-trong-lon-xe-may-de-bi-nuot-chung-20250904170725021.htm",
-      "supports": "Tuổi Trẻ (04/09/2025) dẫn Phòng CSGT Công an TP.HCM: điểm mù của xe tải trọng lớn nguy hiểm nhất với người đi xe máy, xe đạp, người đi bộ; khuyến cáo không đi gần, ngay trước đầu xe, sát hai bên thành xe hoặc cắt ngang hướng xe; đường cong hoặc chuyển hướng giảm tốc, nhường ô tô; không vượt xe đã có tín hiệu; không đứng sát đuôi và hông xe khi chờ đèn đỏ.",
-      "sha256": "385542b2e9d3274674c1a9f46af168d848d2e207dde0fde5ec9a61983f045e87",
-      "verified_at": "2026-10-18T04:15:28.168982+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://tuoitre.vn/csgt-dak-lak-khuyen-cao-ve-diem-mu-sau-vu-nguoi-phu-nu-bi-cuon-vao-gam-container-20260302103429231.htm",
-      "supports": "Tuổi Trẻ (02/03/2026) dẫn Phòng CSGT Công an tỉnh Đắk Lắk: định nghĩa điểm mù, ba khu vực mù chính (đầu xe, hai bên hông, phía sau), xe tải và container có phạm vi rộng hơn; người đi đường đi đúng làn, không chạy sát hông hoặc phía sau xe lớn, nếu lỡ vào vùng khuất thì nhanh chóng rời đi, tránh vượt hoặc chuyển hướng đột ngột.",
-      "sha256": "7d747081c2cc43df7420f7aeb57104d26d3b22caffa4337b0e550eb69efb2926",
-      "verified_at": "2026-10-18T04:15:30.236184+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/huong-dan-cach-chay-xe-so-an-toan-cho-nguoi-moi-bat-dau/",
-      "supports": "Yamaha Motor Việt Nam (cập nhật 03/2026): khi vào đường đông và muốn chuyển hướng, nhìn gương chiếu hậu để nhận biết tín hiệu và khoảng cách của những xe đi sau.",
-      "sha256": "2717d5fe7f3999006e51b2866f47b2d1e720f77dd53085fd8590ed8a28d96318",
-      "verified_at": "2026-10-18T04:15:33.926001+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -121,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T04:15:38.498076+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T04:16:50.573277+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "628807f772c4112257f723b93f9ed65f8e9b8792cd8ebaae11a2f7e4a855c4af",
+  "inventory_sha256": "e54358b5567eb74ad0bff243aa52262404405fdc0f5f8e152f57863906592e45",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
