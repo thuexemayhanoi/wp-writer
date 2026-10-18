@@ -24,7 +24,9 @@ def main():
     ap.add_argument('--session', default='s-seodev-20261017a')
     a = ap.parse_args()
     specs = json.loads(pathlib.Path(a.specs).read_text())
-    inv = load('data/existing-content-inventory.json', {}).get('items', [])
+    inv_doc = load('data/existing-content-inventory.json', {})
+    inv = inv_doc.get('items', [])
+    inv_updated = inv_doc.get('updated_at')
     tax = {t['taxonomy_key']: t for t in load('data/taxonomy.json')['items']}
     published = {p['url'] for p in inv if p.get('status') == 'publish'}
     today = dt.date.today().isoformat()
@@ -61,7 +63,7 @@ def main():
             'qa_status': 'NOT_AUTHORED', 'publication_status': 'NOT_SUBMITTED', 'wp_post_id': None,
             'wp_permalink': None, 'source_hash': None, 'timestamps': {'created_at': now()},
             'research': {
-                'reviewer': a.session, 'reviewed_at': now(),
+                'reviewer': a.session, 'reviewed_at': now(), 'inventory_updated_at': inv_updated,
                 'method': 'đọc toàn văn nguồn chính thức qua trích xuất trang và lưu hash văn bản đã đọc; đối chiếu tiêu đề và content_hash của 5 bài gần nhất theo độ tương đồng tiêu đề; tìm toàn văn từ khóa chính trong toàn bộ inventory WordPress để phát hiện bài đã nhắc; không dựa vào RSS; không phải dữ liệu lượng tìm kiếm',
                 'difference_summary': s['difference_summary'], 'usefulness': s['usefulness'],
                 'scope_exclusions': s['scope_exclusions'],

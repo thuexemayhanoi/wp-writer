@@ -48,7 +48,7 @@ class RefillLivenessTests(unittest.TestCase):
     def test_queue_above_threshold_needs_no_refill(self):
         with patch.object(refill,'ROOT',self.root),\
              patch.object(refill,'load',lambda path,default=None: {'min_claimable_queue':100}),\
-             patch.object(refill,'topics',lambda:[{'topic_qa_status':'PLANNED'}]*100),\
+             patch.object(refill,'topics',lambda:[{'topic_qa_status':'PLANNED'}]*refill.refill_policy()['trigger_below_ready']),\
              patch.object(refill,'RemoteState',DummyState):
             self.assertIsNone(refill.run())
 

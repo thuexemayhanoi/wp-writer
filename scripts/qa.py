@@ -1,6 +1,7 @@
 """Six independent hard gates. Scores never override FAIL/REVIEW."""
 import argparse
 import datetime as dt
+import functools
 import html
 import json
 import http.client
@@ -41,7 +42,28 @@ def shingles(body):
     words=norm(body).split()
     return {tuple(words[i:i+5]) for i in range(max(0,len(words)-4))}
 
-def jaccard(a,b):return len(a&b)/max(1,len(a|b))
+def jaccard(a,b):
+    shared=len(a&b)
+    return shared/max(1,len(a)+len(b)-shared)
+
+@functools.cache
+def fingerprint(text):
+    """Hashed 5-word shingles of a text. Equal texts are shingled once per process, so comparing every draft with every
+    other draft and every public page costs one pass over each text instead of one per pair (the set-of-tuples
+    `shingles` made a 200-draft QA run take close to an hour). Only for comparing two fingerprints with each other."""
+    words=norm(text).split()
+    return frozenset(hash(tuple(words[i:i+5])) for i in range(max(0,len(words)-4)))
+
+_DRAFT_FINGERPRINTS={}
+
+def draft_fingerprint(path):
+    """Fingerprint of another draft's counted text, or None when it cannot be read; re-parsed only when the file changed."""
+    raw=path.read_bytes();key=digest(raw);hit=_DRAFT_FINGERPRINTS.get(path)
+    if hit and hit[0]==key:return hit[1]
+    try:value=fingerprint(counted_text(read_article(path)[1]))
+    except Exception:value=None
+    _DRAFT_FINGERPRINTS[path]=(key,value)
+    return value
 
 def mdlinks(body):return [(a,u) for a,u in re.findall(r'(?<!!)\[([^\]]*)\]\(([^\s)]+)(?:\s+[^)]*)?\)',body)]
 
@@ -258,8 +280,19 @@ def failure_label(exc):
     if isinstance(exc,(ValueError,RuntimeError)):return name+': '+str(exc)
     return name
 
+# A host whose connection failed on every retry (typically a .gov.vn site that blocks or times out GitHub's runners) is
+# not contacted again in this process: each further source on it would only burn another 3 x 20 s. The research
+# snapshot fallback still applies, because the skipped read raises the same kind of transient URLError.
+SOURCE_HOSTS_DOWN={}
+
+def reset_source_host_cache():
+    SOURCE_HOSTS_DOWN.clear()
+
 def read_source(url,attempts=3):
     """One live read exactly like the Publisher's; transient failures are retried up to `attempts` times."""
+    host=(urllib.parse.urlsplit(url).hostname or '').lower()
+    if host in SOURCE_HOSTS_DOWN:
+        raise urllib.error.URLError(TimeoutError('timed out (host already unreachable in this run)'))
     for attempt in range(1,max(1,attempts)+1):
         try:
             opener=urllib.request.build_opener(Redirect())
@@ -267,7 +300,10 @@ def read_source(url,attempts=3):
             with opener.open(req,timeout=20) as response:
                 return response.read(8_000_000).decode('utf-8',errors='replace'),attempt
         except Exception as exc:
-            if attempt>=attempts or not is_transient(exc):raise
+            if attempt>=attempts or not is_transient(exc):
+                if host and is_transient(exc) and not isinstance(exc,urllib.error.HTTPError):
+                    SOURCE_HOSTS_DOWN[host]=failure_label(exc)  # a server that answered (5xx/429) is not "down"
+                raise
             time.sleep(RETRY_DELAYS[min(attempt-1,len(RETRY_DELAYS)-1)])
 
 
@@ -323,7 +359,7 @@ def verify_sources(sources, live=False, trusted_research=None, legal=False):
     return errors, evidence
 
 
-def evidence_recheck(topic,rows,inv,body_shingles,identity,rules):
+def evidence_recheck(topic,rows,inv,body_shingles,identity,rules,page_shingles=shingles):
     """G4 found nearest pages without review evidence (new, or edited after the research): re-read them against THIS article.
 
     Not a bypass: a page is lifted only when its text overlap with the article stays under `max_jaccard` AND the
@@ -341,7 +377,7 @@ def evidence_recheck(topic,rows,inv,body_shingles,identity,rules):
     checked=[]
     for pid in ids:
         page=by.get(pid) or {}
-        overlap=jaccard(body_shingles,shingles(page['content_text'])) if page.get('content_text') else None
+        overlap=jaccard(body_shingles,page_shingles(page['content_text'])) if page.get('content_text') else None
         hit=matched.get('WP'+str(pid))
         checked.append({'id':pid,'title':page.get('title'),'why':'stale' if pid in pages.get('stale',[]) else 'unreviewed',
             'content_hash':page.get('content_hash'),'jaccard':None if overlap is None else round(overlap,3),'intent_match':hit,
@@ -426,16 +462,16 @@ def evaluate(path,topic,rows=None,inv=None,link_checker=None,live=False,check_cl
     if re.search(r'(?i)tôi đã (?:thử|chạy|trải nghiệm)|khách hàng đánh giá 5|100% an toàn',body):g3['review'].append('Unverified experience/review/absolute claim')
     identity=topic_gate(topic,rows,inv,load('data/taxonomy.json')['items'])
     g4['errors']+=identity['errors'];g4['review']+=identity['review']
-    body_shingles=shingles(counted_text(body))
+    body_shingles=fingerprint(counted_text(body))
     for p in inv:
-        if p.get('content_text') and jaccard(body_shingles,shingles(p['content_text']))>=rules['near_duplicate_jaccard']:
+        if p.get('content_text') and jaccard(body_shingles,fingerprint(p['content_text']))>=rules['near_duplicate_jaccard']:
             g4['errors'].append('Near duplicate existing:'+str(p['id']))
     for other in (ROOT/'posts/drafts').glob('NT-*.md'):
         if other.resolve()==path.resolve():continue
-        try:othermeta,otherbody,_=read_article(other)
-        except Exception:continue
-        if jaccard(body_shingles,shingles(counted_text(otherbody)))>=rules['near_duplicate_jaccard']:g4['errors'].append('Near duplicate draft:'+other.name)
-    recheck=evidence_recheck(topic,rows,inv,body_shingles,identity,rules)
+        other_shingles=draft_fingerprint(other)
+        if other_shingles is None:continue
+        if jaccard(body_shingles,other_shingles)>=rules['near_duplicate_jaccard']:g4['errors'].append('Near duplicate draft:'+other.name)
+    recheck=evidence_recheck(topic,rows,inv,body_shingles,identity,rules,page_shingles=fingerprint)
     if recheck and recheck['independent']:
         g4['review']=[r for r in g4['review'] if not r.startswith(EVIDENCE_REASONS)]
     public_urls={p.get('url') for p in inv if p.get('status')=='publish'}|{SITE+'/'}
@@ -495,6 +531,7 @@ def evaluate_safely(path,topic,rows,live=False,inv=None):
 def main():
     p=argparse.ArgumentParser();p.add_argument('--live',action='store_true');a=p.parse_args()
     rows=topics();results=[]
+    inv=load('data/existing-content-inventory.json',{}).get('items',[])  # read once, not once per draft
     for path in sorted((ROOT/'posts/drafts').glob('NT-*.md')):
         match=[t for t in rows if t['topic_id']==path.stem]
         if len(match)!=1:
@@ -502,7 +539,7 @@ def main():
             r={'topic_id':path.stem,'status':'FAIL','source_sha256':digest(path.read_bytes()),
                'errors':['Unknown or ambiguous draft ID'],'review':[],'at':now()}
         else:
-            r=evaluate_safely(path,match[0],rows,live=a.live)
+            r=evaluate_safely(path,match[0],rows,live=a.live,inv=inv)
         annotate(r)
         save('data/qa/'+path.stem+'.json',r);results.append(r)
     save('reports/repair-queue.json',[r for r in results if r['status']!='PASS'])

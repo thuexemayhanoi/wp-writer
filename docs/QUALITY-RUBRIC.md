@@ -7,6 +7,6 @@
 5. Links: đúng URL đã publish trong inventory; live QA kiểm HTTP và indexability; có link cluster và lý do ngữ cảnh. Query/draft links bị chặn.
 6. Publish safety: submission hash/session, mapping key và toàn bộ parent path, site allowlist, legacy protected registry, production gate và create-only ledger.
 
-Quality ≥75 và SEO ≥70 là chỉ báo kỹ thuật. Chúng không ghi đè bất kỳ hard gate FAIL hoặc REVIEW nào. Nội dung lỗi vào REPAIR đúng ID; writer sửa rồi push lại qua cùng contract. Những đánh giá semantic/factual dựa vào nghiên cứu thật của external writer, không phải bằng chứng Google hay bảo đảm sự thật hoàn toàn từ regex.
+Quality ≥85 và SEO ≥70 là chỉ báo kỹ thuật. Chúng không ghi đè bất kỳ hard gate FAIL hoặc REVIEW nào. Nội dung lỗi vào REPAIR đúng ID; writer sửa rồi push lại qua cùng contract. Những đánh giá semantic/factual dựa vào nghiên cứu thật của external writer, không phải bằng chứng Google hay bảo đảm sự thật hoàn toàn từ regex.
 
 QA evidence chứa file hash, body hash, rules hash, inventory hash, thời điểm và source evidence; file thay đổi phải QA lại. Kết quả unit test với fixture tổng hợp không phải bài SEO thật đạt QA. Báo cáo phải tách hai loại.

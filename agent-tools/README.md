@@ -13,7 +13,7 @@ cp docs/agent-playbook/*.md $WPW_SCRATCH/ && cp docs/agent-playbook/HOST-CENSUS.
 The playbooks use `S=$WPW_SCRATCH` (they were written with an absolute scratchpad path: replace it with yours).
 Tools: `similar.py` (nearest published posts and registry topics), `srcnote.py` (store/check the page text a source note was
 taken from), `build_research.py` (specs -> registry rows + local Research QA), `build_article.py` (body + spec -> draft + real QA),
-`body.py` (helper).
+`body.py` (helper), `factory_status.py` (read-only status for the per-wave report: capacity, stages, ready stock, order, intake, `research/*` branches not yet ingested, category deficits).
 
 Hard rules that still apply: never edit scripts/, tests/, config/, data/topics.jsonl, data/taxonomy.json, the inventory, the
 ledger or WordPress; research pushes only through `scripts/research_v2.py push`; writers push only through

@@ -14,6 +14,48 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 import topic_factory
 
 
+class RejectedRowsOwnNothingTests(unittest.TestCase):
+    """NT-000287 was rejected for copying NT-000226; its tombstone then held NT-000226's finished article in REVIEW."""
+    TAX=[{'taxonomy_key':'reviews'}]
+
+    def topic(self, **extra):
+        base={'topic_id':'NT-000226','title':'Hướng dẫn kiểm tra xe máy khi nhận xe',
+              'proposed_slug':'huong-dan-kiem-tra-xe-may-khi-nhan-xe',
+              'canonical_target':topic_factory.SITE+'/huong-dan-kiem-tra-xe-may-khi-nhan-xe/',
+              'intent_key':'check-rental-handover','taxonomy_key':'reviews','primary_keyword':'kiểm tra xe',
+              'search_intent':'information','topic_qa_status':'PLANNED'}
+        base.update(extra)
+        return base
+
+    def verdict(self, other):
+        incumbent=self.topic()
+        return topic_factory.gate(incumbent,[incumbent,other],[],self.TAX)
+
+    def near_copy(self, **extra):
+        return self.topic(topic_id='NT-000287',title='Hướng dẫn kiểm tra xe máy trước khi nhận xe',
+                          proposed_slug='kiem-tra-xe-may-truoc-khi-nhan-xe',intent_key='another-key',**extra)
+
+    def test_a_rejected_near_duplicate_does_not_block_the_topic_it_duplicated(self):
+        self.assertNotIn('near topic:NT-000287',self.verdict(self.near_copy(topic_qa_status='REJECTED'))['review'])
+
+    def test_an_admitted_near_duplicate_still_does(self):
+        self.assertIn('near topic:NT-000287',self.verdict(self.near_copy(topic_qa_status='PLANNED'))['review'])
+
+    def test_an_admitted_topic_is_not_held_up_by_a_row_still_waiting_in_research(self):
+        waiting=self.near_copy(topic_qa_status='RESEARCH')
+        self.assertNotIn('near topic:NT-000287',self.verdict(waiting)['review'])
+        # the waiting row itself is still judged against the admitted topic when it is gated
+        self.assertIn('near topic:NT-000226',
+                      topic_factory.gate(waiting,[self.topic(),waiting],[],self.TAX)['review'])
+
+    def test_a_rejected_row_owns_no_slug_title_or_intent(self):
+        same=self.topic(topic_id='NT-000287',topic_qa_status='REJECTED')
+        self.assertFalse([e for e in self.verdict(same)['errors'] if e.startswith('topic identity collision')])
+        waiting=dict(same,topic_qa_status='RESEARCH')
+        self.assertTrue([e for e in topic_factory.gate(waiting,[self.topic(),waiting],[],self.TAX)['errors']
+                         if e=='topic identity collision:NT-000226'])
+
+
 class IncrementalTopicRefillTests(unittest.TestCase):
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory()

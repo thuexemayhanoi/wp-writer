@@ -40,7 +40,7 @@ Nội dung không thêm H1 (WordPress tự dùng title), có ít nhất 4 H2 h�
 
 ## SEO QA V2 — yêu cầu trước khi nộp bài (từ 17/10/2026)
 
-Tất cả bài mới phải đạt **SEO score nội bộ ≥85/100**, Quality ≥75, và **PASS cả sáu gates**. Xem [bảng chấm điểm và tiêu chuẩn site chính](SEO-QA-V2.md).
+Tất cả bài mới phải đạt **SEO score nội bộ ≥85/100**, Quality ≥85, và **PASS cả sáu gates**. Xem [bảng chấm điểm và tiêu chuẩn site chính](SEO-QA-V2.md).
 
 - SEO title và meta description phải thể hiện đúng search intent, viết tự nhiên; đừng cố nhồi exact keyword.
 - Mở bài trả lời trực tiếp, H2 liên quan thực tế và có giá trị, không lặp mẫu kéo dài.
@@ -51,3 +51,7 @@ Tất cả bài mới phải đạt **SEO score nội bộ ≥85/100**, Quality 
 - Nếu đạt 85 nhưng trùng intent, sai category cha/con, sai canonical hoặc nguồn không đáng tin vẫn FAIL/REVIEW. Không sửa URL hoặc bài cũ để nâng điểm.
 
 Số 85 là thang điểm nội bộ của repo, **không phải điểm Yoast hoặc điểm xếp hạng Google**. WordPress thực tế còn được xác minh sau đăng; ngưỡng mới không tự kích hoạt Production.
+
+## AUTO-REPAIR WRITER — 10 CONTENT REVISIONS (18/10/2026)
+
+Read docs/WRITER-AUTO-REPAIR.md (single authoritative procedure). The active Claude session first repairs owned unfinished Topic IDs; if none, it continues writing legitimately PLANNED topics. To initialize QA and a durable baseline, run python scripts/writer-repair.py save --session SESSION --id NT-XXXXXX --note "Initial draft". After each actual edit, run the same save command with an accurate change note. QA is re-executed, SHA-256 and score/errors are stored, and the draft + checkpoint are committed to an isolated repair/SESSION/NT-XXXXXX branch. A new changed version counts as one repair, up to 10; identical bytes do not count. Use python scripts/writer-repair.py resume --session SESSION --id NT-XXXXXX after a quota interruption. Live lease ownership is always checked; no force pushes, no edited QA evidence. Genuine PASS goes through the unchanged writer-session.py push and Publisher. REAL_RISK or exhausted limit remains held, never falsely PASS. Infra/network retry stays 3, separate from content-repair limit 10. GitHub Actions never writes prose or calls an AI without an actual external model connection.

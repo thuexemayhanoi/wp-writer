@@ -191,7 +191,7 @@ class StrayDraftQATests(unittest.TestCase):
             (root / 'posts/drafts/NT-000777.md').write_text('stray draft', encoding='utf-8')
             saved = {}
 
-            def fake_eval(path, topic, rows=None, live=False):
+            def fake_eval(path, topic, rows=None, live=False, inv=None):
                 return {'topic_id': topic['topic_id'], 'status': 'PASS', 'errors': [], 'review': [],
                         'source_sha256': digest(path.read_bytes()), 'word_count': 1700, 'gates': {}}
 

@@ -10,17 +10,20 @@ import json
 import re
 import subprocess
 import sys
+import time
 from pathlib import Path
 from urllib.parse import urlsplit
 
 from common import ROOT, digest, load, norm, now, topics
 from intent_guard import IntentIndex
-from topic_factory import apply_intent_guard, gate
+from topic_factory import apply_intent_guard, gate, stamp_factory_posts
 
 BRANCH = re.compile(r'^research/([a-z][a-z0-9_-]{3,70})$')
 TOPIC = re.compile(r'^NT-[0-9]{6}$')
 SHA = re.compile(r'^[a-f0-9]{64}$')
 MAX_BATCH_BYTES = 400_000
+PEER_MAX_AGE = 6 * 3600  # a pushed batch that intake has not registered after six hours is stale, not pending
+CANDIDATE_FILE = re.compile(r'^data/candidates/([a-z][a-z0-9_-]{3,70})-[0-9]{4}\.jsonl$')
 MAX_CHECKPOINT_BYTES = 120_000
 MAX_SOURCES = 12
 
@@ -120,7 +123,9 @@ def validate_candidates(rows, *, incumbent=None, inventory=None, taxonomy=None,
     factory (any status except REJECTED), and among the new rows themselves.
     """
     incumbent = topics() if incumbent is None else incumbent
-    inventory = load('data/existing-content-inventory.json', {}).get('items', []) if inventory is None else inventory
+    inventory = (stamp_factory_posts(load('data/existing-content-inventory.json', {}).get('items', []),
+                                     load('data/state/publication-ledger.json', {}))
+                 if inventory is None else inventory)
     taxonomy = load('data/taxonomy.json', {}).get('items', []) if taxonomy is None else taxonomy
     discovery = load('data/state/topic-discovery-ledger.json', {'proposals': {}}) if discovery is None else discovery
     accepted = load('data/state/research-intake-ledger.json', {'batches': {}}) if accepted is None else accepted
@@ -408,14 +413,55 @@ def refill_plan():
             'instruction': request.get('instruction')}
 
 
-def intent_check(path):
+def peer_rows(own_session=None, *, clock=None):
+    """Rows other researchers pushed to research/* that trusted intake has not registered yet.
+
+    A researcher's local intent-check only sees the registry, so two researchers working in parallel can pick the
+    same idea (NT-000287 repeated NT-000226). A pushed row waits for intake as a PEER_PENDING topic that owns its
+    intent exactly like an admitted one, so whoever pushes second retitles. Branches whose head is older than
+    PEER_MAX_AGE are stale, not pending. Never raises: offline, the check simply runs without peers.
+    Returns (rows, {session: row count} or {'unavailable': reason}).
+    """
+    try:
+        git_read('fetch', '--no-tags', '--quiet', 'origin', '+refs/heads/research/*:refs/remotes/origin/research/*')
+        refs = git_read('for-each-ref', '--format=%(refname) %(committerdate:unix)',
+                        'refs/remotes/origin/research/').splitlines()
+    except (ValueError, OSError) as exc:
+        return [], {'unavailable': str(exc)[:120]}
+    known = {t['topic_id'] for t in topics()}
+    now_ts = time.time() if clock is None else clock
+    pending, sessions = [], {}
+    for line in refs:
+        ref, _, stamp = line.partition(' ')
+        session = ref.rpartition('refs/remotes/origin/research/')[2]
+        if not session or session == own_session or not stamp.isdigit() or now_ts - int(stamp) > PEER_MAX_AGE:
+            continue
+        try:
+            names = git_read('ls-tree', '-r', '--name-only', ref, '--', 'data/candidates').splitlines()
+            for name in names:
+                match = CANDIDATE_FILE.fullmatch(name)
+                if not match or match.group(1) != session:
+                    continue
+                for row in parse_batch(git_read('show', ref + ':' + name), name):
+                    if isinstance(row.get('topic_id'), str) and row['topic_id'] not in known:
+                        pending.append(dict(row, topic_qa_status='PEER_PENDING'))
+                        sessions[session] = sessions.get(session, 0) + 1
+        except (ValueError, OSError):
+            continue  # an unreadable peer branch never blocks the check
+    return pending, sessions
+
+
+def intent_check(path, peers=True):
     """Pre-push search-intent screen for a candidate file: no sources needed, any row count."""
     from intent_guard import assess_topic
     raw = (ROOT / path).read_text(encoding='utf-8')
     rows = [json.loads(line) for line in raw.splitlines() if line.strip()]
     incumbent = topics()
-    inventory = load('data/existing-content-inventory.json', {}).get('items', [])
-    everything = incumbent + rows
+    inventory = stamp_factory_posts(load('data/existing-content-inventory.json', {}).get('items', []),
+                                    load('data/state/publication-ledger.json', {}))
+    own = re.fullmatch(r'(.+)-[0-9]{4}\.jsonl', Path(path).name)
+    pending, from_sessions = peer_rows(own.group(1) if own else None) if peers else ([], {'skipped': 'peers off'})
+    everything = incumbent + pending + rows
     index = IntentIndex(inventory, everything)
     new_ids = {t['topic_id'] for t in rows}
     report = []
@@ -430,7 +476,9 @@ def intent_check(path):
     return {'file': path, 'rows': len(rows),
             'fail': sum(r['verdict'] == 'FAIL' for r in report),
             'review': sum(r['verdict'] == 'REVIEW' for r in report), 'topics': report,
-            'how_to_resolve': ['FAIL: retitle and re-scope; it can never be waived.',
+            'peers': {'pending_rows': len(pending), 'from': from_sessions},
+            'how_to_resolve': ['FAIL: retitle and re-scope; it can never be waived. A collision with a topic of '
+                               'another researcher who pushed first (peers) is resolved the same way.',
                                'REVIEW: add research.resolved_intent_collisions = {"<id>": "<why the reader '
                                'question differs, 40+ chars>"}; for a WordPress page (WP<id>) also record its '
                                'current content hash in research.reviewed_content_hashes."']}
@@ -447,6 +495,8 @@ def main():
             pass
         elif command == 'intent-check':
             p.add_argument('--file', required=True)
+            p.add_argument('--no-peers', action='store_true',
+                           help='skip the other researchers\' pushed-but-not-ingested rows')
         else:
             p.add_argument('--branch', required=True)
         if command == 'checkpoint':
@@ -463,7 +513,7 @@ def main():
     elif args.command == 'plan':
         output = refill_plan()
     elif args.command == 'intent-check':
-        output = intent_check(args.file)
+        output = intent_check(args.file, peers=not args.no_peers)
     elif args.command == 'checkpoint':
         output = checkpoint(args.branch, final=args.final)
     elif args.command == 'verify-branch':

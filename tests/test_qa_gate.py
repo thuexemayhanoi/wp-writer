@@ -5,8 +5,10 @@ import tempfile
 import unittest
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
+import qa
 from qa_gate import validate_complete
 from common import digest
+from unittest.mock import patch
 
 
 class PerArticleEligibilityTests(unittest.TestCase):
@@ -86,6 +88,45 @@ class PerArticleEligibilityTests(unittest.TestCase):
         p.write_text(json.dumps(x))
         with self.assertRaisesRegex(ValueError,'Invalid QA result'):
             validate_complete(self.root)
+
+class FingerprintScalingTests(unittest.TestCase):
+    """Near-duplicate checks compare every draft with every other draft and public page: shingle each text once."""
+
+    def test_fingerprint_jaccard_equals_the_exact_tuple_jaccard(self):
+        a = qa.counted_text('Một hai ba bốn năm sáu bảy tám chín mười mười một mười hai ' * 6)
+        b = qa.counted_text('Một hai ba bốn năm sáu bảy tám chín mười đổi khác hoàn toàn sau đó ' * 6)
+        self.assertAlmostEqual(qa.jaccard(qa.fingerprint(a), qa.fingerprint(b)),
+                               qa.jaccard(qa.shingles(a), qa.shingles(b)))
+        self.assertEqual(qa.jaccard(set(), set()), 0)
+        self.assertEqual(qa.jaccard({1, 2, 3}, {2, 3, 4}), 0.5)
+
+    def test_equal_texts_are_shingled_once(self):
+        qa.fingerprint.cache_clear()
+        text = 'xe máy số côn tay ' * 40
+        first = qa.fingerprint(text)
+        self.assertIs(qa.fingerprint(text), first)
+        self.assertEqual(qa.fingerprint.cache_info().hits, 1)
+
+    def test_a_draft_is_re_parsed_only_when_its_content_changes(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / 'NT-000001.md'
+            article = '---\ntitle: x\n---\n' + ' '.join('từ%d' % i for i in range(60))
+            path.write_text(article, encoding='utf-8')
+            qa._DRAFT_FINGERPRINTS.clear()
+            with patch.object(qa, 'read_article', wraps=qa.read_article) as read:
+                first = qa.draft_fingerprint(path)
+                self.assertIs(qa.draft_fingerprint(path), first)
+                self.assertEqual(read.call_count, 1)
+                path.write_text(article + ' thêm vài từ mới để đổi nội dung bài viết này', encoding='utf-8')
+                self.assertNotEqual(qa.draft_fingerprint(path), first)
+                self.assertEqual(read.call_count, 2)
+
+    def test_an_unreadable_draft_has_no_fingerprint(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / 'NT-000002.md'
+            path.write_text('no frontmatter at all', encoding='utf-8')
+            qa._DRAFT_FINGERPRINTS.clear()
+            self.assertIsNone(qa.draft_fingerprint(path))
 
 
 if __name__=='__main__':
