@@ -416,7 +416,8 @@ def intent_check(path):
     raw = (ROOT / path).read_text(encoding='utf-8')
     rows = [json.loads(line) for line in raw.splitlines() if line.strip()]
     incumbent = topics()
-    inventory = load('data/existing-content-inventory.json', {}).get('items', [])
+    inventory = stamp_factory_posts(load('data/existing-content-inventory.json', {}).get('items', []),
+                                    load('data/state/publication-ledger.json', {}))
     everything = incumbent + rows
     index = IntentIndex(inventory, everything)
     new_ids = {t['topic_id'] for t in rows}

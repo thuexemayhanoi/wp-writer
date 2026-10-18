@@ -75,6 +75,23 @@ def stamp_factory_posts(inventory, ledger):
     when={r.get('wp_id'):(r.get('verified_at') or r.get('updated_at')) for r in ((ledger or {}).get('posts') or {}).values() if r.get('wp_id')}
     return [dict(p,factory_published_at=when[p['id']]) if when.get(p.get('id')) else p for p in inventory]
 
+def with_snapshot(topic, inventory):
+    """A registered row that predates `research.inventory_updated_at` gets the snapshot time inferred from what it read.
+
+    The row names the pages it reviewed. The newest factory-published page among them proves the researcher's
+    snapshot is no older than that page's verification, so a sibling article verified after it was not readable
+    yet. Rows that already carry `inventory_updated_at`, and rows that read no factory page, are returned as is.
+    The inferred time is recorded (`inventory_updated_at_inferred`) when a re-gated row is promoted.
+    """
+    research=topic.get('research') or {}
+    if research.get('inventory_updated_at'):
+        return topic
+    read={str(i) for i in research.get('reviewed_existing_ids') or []}|{str(k) for k in research.get('reviewed_content_hashes') or {}}
+    seen=[at for at in (_utc(p.get('factory_published_at')) for p in inventory if str(p.get('id')) in read) if at]
+    if not seen:
+        return topic
+    return dict(topic,research=dict(research,inventory_updated_at=max(seen).isoformat(),inventory_updated_at_inferred=True))
+
 def drop_own_post(inventory, ledger, topic_id):
     """A draft never collides with its own already published WordPress post."""
     own=(((ledger or {}).get('posts') or {}).get(topic_id) or {}).get('wp_id')
@@ -214,9 +231,12 @@ def run(candidate_path=None, verdicts=None, only_ids=None):
                     'topic_hash':digest(json.dumps(t,ensure_ascii=False,sort_keys=True)),
                     'preserved_incumbent':True}
             continue
-        result=gate(t,rows,inv,tax)
+        # A re-gated row is judged with the snapshot time inferred from its own evidence; the inference is kept
+        # only when the row is promoted.
+        probe=with_snapshot(t,inv) if t['topic_id'] in only else t
+        result=gate(probe,rows,inv,tax)
         if t['topic_id'] in new_ids:
-            result=apply_intent_guard(result,t,rows,inv,new_ids,index)
+            result=apply_intent_guard(result,probe,rows,inv,new_ids,index)
             if verdicts is not None:
                 # Only a Research QA PASS may become PLANNED; a missing verdict never passes.
                 strict=verdicts.get(t['topic_id'])
@@ -228,6 +248,7 @@ def run(candidate_path=None, verdicts=None, only_ids=None):
                 evidence[t['topic_id']]=incumbent_evidence.get(t['topic_id']) or result  # not promoted: nothing changes
                 continue
             result=dict(result,regated=True)
+            t['research']=probe['research']
         evidence[t['topic_id']]=result
         t['topic_qa_status']='PLANNED' if result['status']=='PASS' else 'REJECTED' if result['status']=='FAIL' else 'RESEARCH'
         # Populate a verified REST category ID only after Topic QA has approved
@@ -250,12 +271,15 @@ def regate(ids):
     For rows that were refused only because the evidence rule moved under them (a sibling article went live
     after the researcher read, or the intake ran late): registered rows are immutable and still own their search
     intent, so a new ID for the same idea would collide with the stuck row. Nothing is ever demoted or rejected.
+    A row recorded before `research.inventory_updated_at` existed is judged with a snapshot time inferred from the
+    factory pages it read (`with_snapshot`); the inference is written into the row only when it is promoted.
     """
     from research_v2 import validate_candidates
     ids=list(dict.fromkeys(i.strip() for i in ids if i.strip()))
     rows=topics(); chosen=[t for t in rows if t['topic_id'] in ids]
     if len(chosen)!=len(ids):raise ValueError('Unknown topic ID to re-gate')
-    verdicts={r['topic_id']:r['status'] for r in validate_candidates(chosen,incumbent=[t for t in rows if t['topic_id'] not in ids])}
+    inv=stamp_factory_posts(load('data/existing-content-inventory.json',{}).get('items',[]),load('data/state/publication-ledger.json',{}))
+    verdicts={r['topic_id']:r['status'] for r in validate_candidates([with_snapshot(t,inv) for t in chosen],incumbent=[t for t in rows if t['topic_id'] not in ids])}
     run(None,verdicts,only_ids=ids)
     after={t['topic_id']:t['topic_qa_status'] for t in topics()}
     return {i:(verdicts.get(i),after[i]) for i in ids}
