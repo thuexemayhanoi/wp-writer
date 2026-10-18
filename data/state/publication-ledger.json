@@ -5691,7 +5691,7 @@
       }
     },
     "NT-000525": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:23:46.189036+00:00",
       "source_hash": "310ece0c4b7aee7ae14f435b4f439a3b74fb7d52f384be714481cd1ec84b5514",
       "slug": "nghe-quy-vang-bac-kieu-ky-o-gia-lam-cac-cong-doan-dap-quy-va-ly-do-lang-giu-nghe-den-nay",
@@ -5706,8 +5706,37 @@
       "category_warning": null,
       "git_commit": "7273a494611150e07f74086119d44aa1a914b13f",
       "run_id": "39135461332",
-      "updated_at": "2026-10-18T14:23:50.376191+00:00",
-      "wp_id": 4085
+      "updated_at": "2026-10-18T14:23:56.474105+00:00",
+      "wp_id": 4085,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nghe-quy-vang-bac-kieu-ky-o-gia-lam-cac-cong-doan-dap-quy-va-ly-do-lang-giu-nghe-den-nay/",
+      "verified_at": "2026-10-18T14:23:56.474098+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4085,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nghe-quy-vang-bac-kieu-ky-o-gia-lam-cac-cong-doan-dap-quy-va-ly-do-lang-giu-nghe-den-nay/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nghe-quy-vang-bac-kieu-ky-o-gia-lam-cac-cong-doan-dap-quy-va-ly-do-lang-giu-nghe-den-nay/",
+        "seo_title": "Nghề quỳ vàng bạc Kiêu Kỵ ở Gia Lâm: công đoạn đập quỳ, lệ làng",
+        "seo_description": "Nghề quỳ vàng bạc Kiêu Kỵ ở Gia Lâm: ba khâu chính và các bước đập quỳ theo hồ sơ Cục Di sản, tổ nghề, lệ làng, vì sao làng giữ nghề và chỗ các nguồn nói khác nhau.",
+        "checked_at": "2026-10-18T14:23:56.474074+00:00"
+      }
     }
   },
   "categories": {}
