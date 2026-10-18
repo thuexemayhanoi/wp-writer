@@ -5883,7 +5883,7 @@
       }
     },
     "NT-000586": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:28:30.447126+00:00",
       "source_hash": "bbc01b091b8fc4a4d0f8532c96277546995412e8717fdebb3a8d498461f8ab34",
       "slug": "do-chinh-xac-cua-phan-tram-pin-xe-dien-vi-sao-con-so-tren-dong-ho-chi-la-uoc-tinh",
@@ -5898,8 +5898,37 @@
       "category_warning": null,
       "git_commit": "5c810055e9fa70a06936c5b2f18ce99194ed0704",
       "run_id": "39135864972",
-      "updated_at": "2026-10-18T14:28:34.410274+00:00",
-      "wp_id": 4089
+      "updated_at": "2026-10-18T14:28:40.557960+00:00",
+      "wp_id": 4089,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/do-chinh-xac-cua-phan-tram-pin-xe-dien-vi-sao-con-so-tren-dong-ho-chi-la-uoc-tinh/",
+      "verified_at": "2026-10-18T14:28:40.557953+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4089,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/do-chinh-xac-cua-phan-tram-pin-xe-dien-vi-sao-con-so-tren-dong-ho-chi-la-uoc-tinh/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/do-chinh-xac-cua-phan-tram-pin-xe-dien-vi-sao-con-so-tren-dong-ho-chi-la-uoc-tinh/",
+        "seo_title": "Độ chính xác của phần trăm pin xe điện: vì sao chỉ là ước tính",
+        "seo_description": "Độ chính xác của phần trăm pin xe điện bị giới hạn vì chỉ là ước tính từ điện áp, dòng điện và BMS; xem nguồn nói gì và cách dùng con số này thận trọng.",
+        "checked_at": "2026-10-18T14:28:40.557937+00:00"
+      }
     }
   },
   "categories": {}
