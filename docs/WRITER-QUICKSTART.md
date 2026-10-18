@@ -1,5 +1,8 @@
 # Viết bằng Claude, ChatGPT, Gemini, Mistral hoặc AI khác
 
+**Writer pool (18/10/2026):** W1–W9 là 9 vị trí dùng chung hàng đợi. Claude App/AI App tự nhận vị trí trống bằng `--slot auto` (hoặc request GitHub), mỗi phiên giữ tối đa một vị trí và tối đa 10 Topic ID. Không cấp khóa Ed25519, không xác thực tài khoản Claude, không dùng API AI. Giữ nguyên lease còn hạn, checkpoint, chống trùng Topic ID và QA/Publisher đang chạy; Publisher tiếp tục đăng 2 bài mỗi lô.
+
+
 Repo duy nhất: https://github.com/thuexemayhanoi/wp-writer. WordPress duy nhất: https://thuexemaynguyentu.com. Writer chỉ cần quyền GitHub; không cần mật khẩu WordPress hay AI API key.
 
 Đọc README, AGENTS, business-facts và topic được giao. Cài Python dependencies và sử dụng session công khai ổn định, riêng cho từng phiên:
