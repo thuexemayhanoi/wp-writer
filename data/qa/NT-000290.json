@@ -1,10 +1,10 @@
 {
   "topic_id": "NT-000290",
-  "status": "REVIEW",
-  "source_sha256": "42924251309da59ce35deaf1c26f17b2120afe3ee7c53871f76d2ef09851fa65",
-  "body_sha256": "c01a4a489bdb0a1cad74a43f33e43881da6da151236d28d8762d9335387ee1fd",
-  "word_count": 2140,
-  "quality_score": 85,
+  "status": "PASS",
+  "source_sha256": "3ba5981dcaa633e865fefca86cfd2ed44897721882f949b8a524d1d117c5395c",
+  "body_sha256": "6c22c5a36e3da3877a5b673f834f3571826e94cf72545afe0c547a64a7f74b0b",
+  "word_count": 2216,
+  "quality_score": 100,
   "seo_score": 100,
   "seo_min_required": 85,
   "seo_checks": {
@@ -53,9 +53,7 @@
     },
     "3": {
       "errors": [],
-      "review": [
-        "Source REVIEW: ValueError: Source excerpt not found"
-      ]
+      "review": []
     },
     "4": {
       "errors": [],
@@ -71,26 +69,31 @@
     }
   },
   "errors": [],
-  "review": [
-    "Source REVIEW: ValueError: Source excerpt not found"
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/training-material",
+      "supports": "Trang Tài liệu đào tạo của Honda Việt Nam (đọc 18/10/2026) liệt kê video Kiểm tra xe máy trước khi tham gia giao thông trong phần Hướng dẫn lái xe an toàn và liên kết tới Sách kỹ thuật lái xe an toàn, tài liệu mà bài thuật lại; chi tiết về phanh cơ nằm trong bản PDF của sách.",
+      "sha256": "96b76f16832b716acec144390554fe6d7819db45e328bf524a201dc50661058e",
+      "verified_at": "2026-10-18T14:33:48.523571+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
   ],
-  "source_evidence": [],
   "evidence_recheck": null,
-  "at": "2026-10-18T14:27:35.141073+00:00",
+  "at": "2026-10-18T14:33:56.769705+00:00",
   "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "54bb9ea4b16bf7a7d270a1b7e42f8481ae4a99d1a336fc5c74801802b100957e",
+  "inventory_sha256": "7435018c48791c40425d0aa4d98c522910be257b4e9da1c807228b892e1e1004",
   "triage": {
-    "hold_class": "REAL_RISK",
-    "real_risk": [
-      "G3: Source REVIEW: ValueError: Source excerpt not found"
-    ],
+    "hold_class": "NONE",
+    "real_risk": [],
     "writer_repair": [],
     "infra_pending": []
   },
   "recheck": {
-    "attempts": 1,
+    "attempts": 0,
     "max": 3,
     "exhausted": false,
     "needs_owner": false

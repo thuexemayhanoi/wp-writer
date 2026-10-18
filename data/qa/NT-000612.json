@@ -1,0 +1,149 @@
+{
+  "topic_id": "NT-000612",
+  "status": "PASS",
+  "source_sha256": "e5660a2564adfa668a4187d2d8db6fbf2be2b43e04e7730687e2105a1341b499",
+  "body_sha256": "e53047557af9d48aee51b8436e85456261e92fb351272c1a0ce9ddbeda057fe7",
+  "word_count": 2844,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn sử dụng xe Quantum (Dat Bike): phanh động cơ tích hợp ở tay ga điện, độ ghì tỉ lệ với góc nhả ga, chỉ hoạt động ở chế độ D và S, mỗi lần nhả ga nạp lại khoảng 10% pin; khi bóp phanh tay động cơ tự ngắt",
+      "sha256": "ac94fe3ed316f103e53e5432bd19ff4ab03fb1a738bf12bc0e21783d719b9e85",
+      "verified_at": "2026-10-18T14:37:25.899863+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-weaver-en/",
+      "supports": "Hướng dẫn sử dụng Dat Bike Weaver (bản tiếng Anh): nhả ga là động cơ tự tạo lực phanh, mỗi lần nhả ga còn nạp pin, má phanh bền hơn; khi dắt xe có thể thấy nặng do phanh động cơ",
+      "sha256": "f20921c83e38a1986d61aaf36c70f24702e073545efd1926d4ca3fa4ac07d548",
+      "verified_at": "2026-10-18T14:37:27.307584+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/cong-nghe-tren-xe-may-dien-dat-bike/",
+      "supports": "Trang công nghệ của Dat Bike: phanh tái sinh biến mô-tơ thành máy phát điện khi giảm tốc, sạc ngược vào pin; hãng nêu tăng quãng đường thêm khoảng 10 – 15% tùy điều kiện lái",
+      "sha256": "26ff80f001d43e29650c39ff251adec1f5f4d32e1570debae068539bde572349",
+      "verified_at": "2026-10-18T14:37:28.644646+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://afdc.energy.gov/fueleconomy/animations/hybrids/hybrid/hybridbraking.html",
+      "supports": "Trung tâm dữ liệu nhiên liệu thay thế của Bộ Năng lượng Hoa Kỳ (AFDC): phanh tái sinh đảo vai trò động cơ điện để bánh xe quay động cơ tạo điện, và việc dùng năng lượng bánh xe quay động cơ làm xe chậm lại",
+      "sha256": "baaca2e8e1a1ae0a73f9adf00d6910f94bdff28fc8c7c1c35104913b06632b9a",
+      "verified_at": "2026-10-18T14:37:29.064137+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 862,
+        "title": "Cho Thuê Xe Máy Gần Tây Hồ Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "b0b3ebf305a54ce7dd2071018d62d234aa1338aeb544eef72a5d63a841fba288",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T14:37:34.470281+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "de035ad26978cb0b99ab184e1f1f5a2cd76b965f0245f093d62edfb13962231a",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

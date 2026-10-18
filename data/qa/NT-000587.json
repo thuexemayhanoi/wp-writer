@@ -1,0 +1,184 @@
+{
+  "topic_id": "NT-000587",
+  "status": "REVIEW",
+  "source_sha256": "93c397a9967273a9746a339fc97fed862f0a704094e9e0b41a112ca5647c0c2b",
+  "body_sha256": "7c1e0b0aa7a8d02e0d3a9b4f44ade08a624eea92b02b482665262b5a61983f70",
+  "word_count": 2658,
+  "quality_score": 85,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": [
+        "Source REVIEW: ValueError: Source excerpt not found"
+      ]
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [
+    "Source REVIEW: ValueError: Source excerpt not found"
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.iec.ch/ip-ratings",
+      "supports": "IEC (trang IP ratings): mã IP có hai chữ số; chữ số đầu chống vật rắn thang 0 đến 6 (không có bụi lọt vào), chữ số sau chống chất lỏng thang 0 đến 9; mã tạo ra để tránh nhầm lẫn với từ mơ hồ như waterproof; điều kiện thử đầy đủ nằm trong IEC 60529.",
+      "sha256": "7f779f61572ad780b49df419c0550200612e25f627d3784e452ebc50d6794653",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://www.iec.ch/blog/how-know-if-your-smart-phone-really-waterproof",
+      "supports": "IEC (bài blog 26/02/2018, viết về điện thoại): mức 8 do hãng thiết kế phép thử và có thể khác nhau; tối thiểu phải chịu ngâm tới độ sâu 1 m trong 30 phút không có tác hại.",
+      "sha256": "340cb6c7e0e148257272966faea10c3524bf552e122c4d11b8d5119d5a648f31",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://www.iec.ch/blog/ip-ratings-waterproof-phones",
+      "supports": "IEC (bài blog 14/09/2018, viết về điện thoại): IP67 và IP68 cùng đạt điểm 6 về bụi nhưng có khác biệt đáng kể giữa mức 7 và mức 8 về nước.",
+      "sha256": "2aea7935e89751936c151a2fc3d8b2c8695e55cca79cc8deae1b533f99fcf5d2",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://webstore.iec.ch/en/publication/2447",
+      "supports": "IEC Webstore: IEC 60529 (Degrees of protection provided by enclosures, IP Code) dùng để phân loại mức bảo vệ do vỏ bọc của thiết bị điện có điện áp định mức không quá 72,5 kV.",
+      "sha256": "37a4a0eead48c06bded8486d25152bc2e4bb67fa4b0ea7c811688e135dfdfd4d",
+      "verified_at": "2026-10-18T14:36:48.767310+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.westmarine.com/west-advisor/Understanding-IP-Ratings.html",
+      "supports": "West Marine (nhà bán lẻ hàng hải): mã IP mô tả hiệu năng trong điều kiện thử của IEC 60529, do hãng hoặc phòng thử độc lập thực hiện; IPX7 là ngâm tạm thời tới 1 m trong 30 phút, chữ X là không có xếp hạng vật rắn; IP68 do hãng đặt độ sâu và thời gian nên chưa chắc hơn IPX7.",
+      "sha256": "60afa7abcbf90f24cc9db105eb211dd0d6308dd162ac16b61af1bcb864b874e0",
+      "verified_at": "2026-10-18T14:36:52.272505+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/kham-pha-thong-so-ky-thuat-xe-may-dien-vinfast-feliz-s",
+      "supports": "VinFast (trang thông số Feliz S): động cơ đạt tiêu chuẩn chống nước IP67 do IEC quy ước; trang viết tiêu chuẩn này cho phép phương tiện vận hành ổn định ở mức nước ngập tới 0,5 m trong 30 phút (lời của trang).",
+      "sha256": "d938582b7e5f836827f3642c28c6a6ba7f8f8ddf47469c84c1a6bc3d4a1b440a",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/cach-sac-pin-xe-may-dien-vinfast-evo200-lite",
+      "supports": "VinFast (trang sạc pin Evo200 Lite, đọc ngày 17/10/2026): thông số cơ bản của pin gồm tiêu chuẩn chống bụi - nước IP67.",
+      "sha256": "15c8a6ff50bcd5cd6db2abd9464a08edc643017594cdef6c15db732d8a09db01",
+      "research_checked_at": "2026-10-17",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2367,
+        "title": "Có Nên Sạc Xe Máy Điện Tại Nhà? Kinh Nghiệm An Toàn Khi Sử Dụng",
+        "why": "stale",
+        "content_hash": "8768183f030319ed7647591d37ba6e25af1e5ac274f69cc230b87c74a28fe158",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2378,
+        "title": "Xe máy điện VinFast: các mẫu đáng chú ý và điểm khác biệt",
+        "why": "stale",
+        "content_hash": "37ef98f1fa6912ab03a40b59b7957c089abbadee5f0ea45c7e3fcf1b939d9074",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T14:37:00.515212+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "a326d19113f0601e8cfeb4ba2b3787114ba0f8e3efbbb280a6d1652ddda2f388",
+  "triage": {
+    "hold_class": "REAL_RISK",
+    "real_risk": [
+      "G3: Source REVIEW: ValueError: Source excerpt not found"
+    ],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 1,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
