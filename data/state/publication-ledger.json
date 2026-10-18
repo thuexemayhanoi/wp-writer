@@ -3819,7 +3819,7 @@
       }
     },
     "NT-000270": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T07:43:20.503649+00:00",
       "source_hash": "09f04bc91488775a551330ba5561751d825d92fb6e5e79f42124dd8f44d1fe69",
       "slug": "xe-may-hut-ga-hoac-tat-may-giua-duong-cac-nhom-nguyen-nhan-yamaha-neu-va-viec-can-lam-ngay",
@@ -3834,8 +3834,37 @@
       "category_warning": null,
       "git_commit": "ac212f533cd8ebe42db5c10e0cfa2fe994a4c465",
       "run_id": "39108416003",
-      "updated_at": "2026-10-18T07:43:24.441915+00:00",
-      "wp_id": 4030
+      "updated_at": "2026-10-18T07:43:30.152537+00:00",
+      "wp_id": 4030,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-hut-ga-hoac-tat-may-giua-duong-cac-nhom-nguyen-nhan-yamaha-neu-va-viec-can-lam-ngay/",
+      "verified_at": "2026-10-18T07:43:30.152531+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4030,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-hut-ga-hoac-tat-may-giua-duong-cac-nhom-nguyen-nhan-yamaha-neu-va-viec-can-lam-ngay/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-hut-ga-hoac-tat-may-giua-duong-cac-nhom-nguyen-nhan-yamaha-neu-va-viec-can-lam-ngay/",
+        "seo_title": "Xe máy hụt ga hoặc tắt máy giữa đường: nguyên nhân và việc làm ngay",
+        "seo_description": "Xe máy hụt ga hoặc tắt máy giữa đường: Yamaha dặn giảm ga, tấp vào nơi an toàn, kiểm tra nhớt và nước làm mát; các nhóm nguyên nhân và việc không nên tự làm.",
+        "checked_at": "2026-10-18T07:43:30.152510+00:00"
+      }
     }
   },
   "categories": {}
