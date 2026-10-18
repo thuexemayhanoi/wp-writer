@@ -379,7 +379,7 @@ def research_hints(limit=10):
         priority_data = json.loads(priority_path.read_text(encoding='utf-8'))
         for item in priority_data.get('opportunities', []):
             origin = str(item.get('id', ''))
-            if (not origin.startswith('SEO-') or origin in consumed
+            if (item.get('decision') != 'RESEARCH_FIRST' or not origin.startswith('SEO-') or origin in consumed
                     or origin in submissions or not item.get('title_hint')
                     or item.get('state') != 'AWAITING_EXTERNAL_RESEARCH'):
                 continue
