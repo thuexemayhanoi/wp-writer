@@ -1,5 +1,7 @@
 # Research V2 — Global-style ten-topic research, QA, recovery and automatic refill
 
+Operating authority: [shared W1–W9 research/writer contract](WRITER-RESEARCH-CONTRACT.md). One verified original source can suffice for a narrow topic; corroborate high-risk/changing claims. Continue accepted batches within the owner's scope; no AI API, new writer keys or manual approval step.
+
 Repo: thuexemayhanoi/wp-writer → https://thuexemaynguyentu.com/.
 
 Unlike /global, this is the Nguyen Tu MAIN commercial WordPress site. Helpful informational, travel and rental intent may be used only if distinct from existing protected service/landing pages. No Excel, no model API, no automatic LLM, no WordPress production change.

@@ -1,5 +1,7 @@
 # Agent tools (coordinator-owned helpers for external AI sessions)
 
+Shared operating/source rules: [WRITER-RESEARCH-CONTRACT.md](../docs/WRITER-RESEARCH-CONTRACT.md). Use existing helpers with AI Apps; no new AI API/key or per-batch approval. One verified original source can suffice for a narrow topic, with corroboration where needed.
+
 Not production code and not run by any workflow. An external AI session (researcher or writer) that works from a fresh
 container restores its scratchpad from here, then follows `docs/agent-playbook/`.
 
