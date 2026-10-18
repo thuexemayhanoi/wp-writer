@@ -70,24 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/day-curoa-xe-may/",
-      "supports": "Yamaha Motor Việt Nam (11/10/2021): khuyến cáo thay dây curoa khi xe chạy 9.000–15.000 km, xe vận hành liên tục có thể thay trong khoảng 5.000–30.000 km, tuổi thọ phụ thuộc nhiệt độ bộ truyền động, các dấu hiệu cần thay.",
-      "sha256": "10a43add80a3c40a35501528e7aa2e137ff1b028d32c8945d68794f949e3ddf9",
-      "verified_at": "2026-10-18T06:38:33.227759+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/dich-vu/cach-bao-duong-xe-may-xe-tay-ga-yamaha/",
-      "supports": "Yamaha Motor Việt Nam (trang bảo dưỡng xe tay ga cập nhật 2026): theo khuyến nghị của nhà sản xuất, dây curoa bảo trì mỗi 8.000 km và thay thế sau 20.000 km.",
-      "sha256": "caf466f5b9da3a8a480581260f23ac2c2cbdb2a62eca979c80e79dd44ce63ce6",
-      "verified_at": "2026-10-18T06:38:34.706175+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -113,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T06:38:42.806379+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T06:40:58.133639+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "c93beb75ae7aa06464541b81b6c1670f8a403d5e8c75a7d83692ced9b8453f98",
+  "inventory_sha256": "cf600ecda22ed4ba1bb0a867e5611a86a68137be976c141d8d5eb2a0c1fe3321",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

@@ -70,24 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-chay-xe-exciter-150-cho-nguoi-moi-va-cac-luu-y-can-nho/",
-      "supports": "Yamaha (đăng 20.07.2020): xe côn tay Yamaha vận hành kiểu số 1 đạp xuống, số 2–5 móc lên; cách về số N từ số 1 hoặc số 2 bằng cách bóp hết tay côn rồi đạp nhẹ hoặc móc nhẹ cần số.",
-      "sha256": "1c6f9d6482dd2ab68d15051ea392a10da4e14070417209dd238ee8cd20dc103e",
-      "verified_at": "2026-10-18T06:38:10.173341+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/kinh-nghiem-va-cach-chay-xe-con-tay/",
-      "supports": "Yamaha (bài xe côn tay): bước đầu tiên khi khởi động là trả số về 0 trước khi nổ máy.",
-      "sha256": "7cef2489516cc2bb01041f0b9217629b7b7e697c3d9ca07a83db174bc7f8a0ec",
-      "verified_at": "2026-10-18T06:38:11.717781+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -113,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T06:38:17.771991+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T06:40:56.192453+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "6c723194ec56071f76498aa593940a7284e2975f7529355d6723968cd58c4f68",
+  "inventory_sha256": "cf600ecda22ed4ba1bb0a867e5611a86a68137be976c141d8d5eb2a0c1fe3321",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
