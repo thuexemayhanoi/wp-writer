@@ -1,0 +1,174 @@
+{
+  "topic_id": "NT-000341",
+  "status": "PASS",
+  "source_sha256": "78f7b4a5f43fa215ab0714fbdce297cbc9cf74197305c9beb51afdd23e30d1fc",
+  "body_sha256": "a2147a064c13b73b7d2c832362a3545847d097f0b872c659b0e47f4c1e19dd4f",
+  "word_count": 3203,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/8dfd8842-bdce-40b4-98ce-cd7530dbfc6b?page=%2F",
+      "supports": "Bộ Công an (hỏi đáp, 21/02/2026) nêu ba mức theo điểm a khoản 6, điểm b khoản 8, điểm d khoản 9 Điều 7 Nghị định 168/2024/NĐ-CP: 2-3 triệu đồng và trừ 04 điểm; 6-8 triệu đồng và trừ 10 điểm; 8-10 triệu đồng và tước quyền sử dụng giấy phép lái xe 22-24 tháng.",
+      "sha256": "6851d0197d59e3872de08efe9ba0b907391ad6abcb77b1ddc42f735df4942daa",
+      "verified_at": "2026-10-18T14:27:38.191211+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/cac-muc-xu-phat-vi-pham-nong-do-con-doi-voi-nguoi-dieu-khien-phuong-tien-giao-thong-d1-t1648",
+      "supports": "Bài Chính sách mới của Bộ Công an (28/01/2025) nêu Điều 7 Nghị định 168/2024/NĐ-CP có hiệu lực từ 01/01/2025 và các mức xử phạt, trừ điểm giấy phép lái của người điều khiển xe mô tô, xe gắn máy theo ba ngưỡng nồng độ cồn.",
+      "sha256": "b7ef0ccfee5d631302b340f9f88acad5d2032b2a5c360b666005c0c860831a0f",
+      "verified_at": "2026-10-18T14:27:40.276293+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/muc-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-an-toan-giao-thong-duong-bo-tu-01012025-d1-t1624",
+      "supports": "Bài Chính sách mới của Bộ Công an (31/12/2024) giới thiệu Nghị định 168/2024/NĐ-CP (04 chương, 55 điều, hiệu lực từ 01/01/2025) và tóm tắt mức phạt nồng độ cồn đối với xe máy từ 02 đến 10 triệu đồng.",
+      "sha256": "f812c323ff3244cf8d107679440cc83afd94564b8f42882573d5f70a6cd6c917",
+      "verified_at": "2026-10-18T14:27:42.901031+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=212167",
+      "supports": "Trang văn bản của Cổng thông tin điện tử Chính phủ: Nghị định 168/2024/NĐ-CP ban hành 26-12-2024, có hiệu lực từ 01-01-2025.",
+      "sha256": "ff72ce76603616d861f5a40d64d2559b41c576aa782418a7ab43d11c3b613d6c",
+      "verified_at": "2026-10-18T14:27:46.857660+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?docid=218613&pageid=27160",
+      "supports": "Trang văn bản của Cổng thông tin điện tử Chính phủ: Nghị định 238/2026/NĐ-CP ban hành 26-06-2026, có hiệu lực từ 15-08-2026, sửa đổi, bổ sung một số điều của Nghị định 168/2024/NĐ-CP.",
+      "sha256": "bf4f8e90d6c3c494057f6c1dc075e2bfdaa821ad3b38691dd344a56b531e0ca0",
+      "verified_at": "2026-10-18T14:27:48.026354+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/chinh-phu-ban-hanh-nghi-dinh-so-238-2026-nd-cp-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-168-2024-nd-cp-1786704471",
+      "supports": "Bài của Bộ Công an (16/08/2026) về Nghị định 238/2026/NĐ-CP nêu hiệu lực từ 15/8/2026 và các nội dung mới chính (thiết bị an toàn cho trẻ em trên ô tô, kinh doanh vận tải, thẩm quyền xử phạt).",
+      "sha256": "58c98808bc2e62087084139241ea1ec15facf0992c784466f8522daad32654d7",
+      "verified_at": "2026-10-18T14:27:50.337678+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 891,
+        "title": "Hợp Đồng Thuê Xe Máy Hà Nội Có Cần Đặt Cọc Không? Tư Vấn Nhanh",
+        "why": "stale",
+        "content_hash": "dfef1f80adfed1e1d9366a3b620ef84119b9cf4fc4ea34f66fe16eb22f52bcca",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2578,
+        "title": "Có nên mua xe máy cũ để đi ngắn hạn? Những điểm cần cân nhắc",
+        "why": "stale",
+        "content_hash": "2edb32e1617a09723b835349742c0b85646c6fe086eb11610946f0b304bbc7ff",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4058,
+        "title": "Thuê xe máy khi chăm người nhà ở bệnh viện Hà Nội: tính ngày thuê và sắp lịch đi lại",
+        "why": "stale",
+        "content_hash": "92611919afd9af68489111c1f99c127439f1c41b7a945f6d846768a64175f9f5",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T14:27:55.610482+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "54bb9ea4b16bf7a7d270a1b7e42f8481ae4a99d1a336fc5c74801802b100957e",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

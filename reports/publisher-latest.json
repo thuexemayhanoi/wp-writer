@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-18T14:24:49.077997+00:00",
-  "attempted": 3,
+  "at": "2026-10-18T14:31:31.760536+00:00",
+  "attempted": 6,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -99,11 +99,11 @@
       ],
       "source_evidence": [],
       "evidence_recheck": null,
-      "at": "2026-10-18T14:23:34.221351+00:00",
+      "at": "2026-10-18T14:27:35.141073+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "d763f9fb5632f35c78635a86032a97310204b97d4421f749f3b3156baa16df66",
+      "inventory_sha256": "54bb9ea4b16bf7a7d270a1b7e42f8481ae4a99d1a336fc5c74801802b100957e",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -120,15 +120,31 @@
       }
     },
     {
-      "topic_id": "NT-000525",
+      "topic_id": "NT-000341",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 172,
+      "category_id": 161,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "hanoi-travel",
+      "intended_taxonomy_key": "road-safety",
       "category_warning": null
     },
     {
-      "topic_id": "NT-000555",
+      "topic_id": "NT-000586",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 168,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-tech",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000611",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 168,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-tech",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000675",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 175,
       "category_resolution": "EXACT",
@@ -136,11 +152,19 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-000560",
+      "topic_id": "NT-000676",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 173,
+      "category_id": 175,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "vietnam-travel",
+      "intended_taxonomy_key": "trip-planning",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000677",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 175,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "trip-planning",
       "category_warning": null
     }
   ],
