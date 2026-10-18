@@ -3337,6 +3337,24 @@
         "seo_description": "Đọc thông số pin xe máy điện: V, Ah, Wh, kWh và công suất bộ sạc, cách tính kWh từ V và Ah bằng số liệu Yamaha NEO's, VinFast Evo200 Lite và điều kiện công bố quãng đường.",
         "checked_at": "2026-10-18T07:33:22.318948+00:00"
       }
+    },
+    "NT-000310": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-18T07:34:39.084867+00:00",
+      "source_hash": "4e7a5099682ba356e2d5adcaab0d555945db66b84a1adb5b0182ba4d34d306fa",
+      "slug": "bms-tren-pin-xe-may-dien-he-thong-quan-ly-pin-giam-sat-va-bao-ve-nhung-gi",
+      "expected_status": "publish",
+      "category_id": 168,
+      "visible_hash": "1ec381f018117e7bc7491a6a246027c55d877ed213100db42682cbfb87323211",
+      "first_paragraph": "BMS trên pin xe máy điện (Battery Management System, hệ thống quản lý pin) là hệ thống được tích hợp vào pin; theo cách VinFast mô tả cho pin xe máy điện VinFast Evo200 Lite, BMS giám sát tình trạng pin tự động và liên tục, giúp tối ưu quá trình sạc và bảo vệ pin khỏi rủi ro hư hỏng, và khi các chức năng bảo vệ được kích hoạt thì pin có thể tự từ chối phản hồi và cắt điện đầu ra. Người dùng có thể nhìn thấy các cơ chế bảo vệ pin qua những biểu hiện như pin tự từ chối sạc khi quá nóng hoặc xe vào “chế độ chờ sạc”. Đó là mô tả chức năng của hãng, không phải kiểm chứng độc lập hay bảo đảm tuyệt đối, và BMS không thay thế bộ sạc chính hãng, nơi sạc an toàn và việc theo dõi khi sạc mà cơ quan PCCC khuyến cáo.",
+      "meta_title": "BMS trên pin xe máy điện: hệ thống quản lý pin giám sát, bảo vệ gì?",
+      "meta_description": "BMS trên pin xe máy điện là gì: theo tài liệu VinFast và Yamaha, hệ thống quản lý pin giám sát, tối ưu sạc và bảo vệ pin ra sao, cùng giới hạn cần biết theo khuyến cáo PCCC.",
+      "intended_taxonomy_key": "electric-tech",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "93ae93c1642c2b4a7bd3a26f671602a78533a914",
+      "run_id": "39107691174",
+      "updated_at": "2026-10-18T07:34:39.086678+00:00"
     }
   },
   "categories": {}
