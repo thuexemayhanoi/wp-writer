@@ -111,7 +111,9 @@ def gate(topic, others, inventory, taxonomy):
     if topic.get('taxonomy_key')=='uncategorized': errors.append('Uncategorized forbidden')
     if topic.get('canonical_target')!=SITE+'/'+topic.get('proposed_slug','')+'/': errors.append('canonical mismatch')
     for other in others:
-        if other['topic_id']==topic['topic_id']: continue
+        # A rejected idea never became content: it owns no title, slug or intent (intent_guard.topic_entry says the
+        # same). Without this, the duplicate that was rejected for copying a PLANNED topic blocked that topic's article.
+        if other['topic_id']==topic['topic_id'] or other.get('topic_qa_status')=='REJECTED': continue
         if (other.get('proposed_slug')==topic.get('proposed_slug') or
             norm(other['title'])==norm(topic['title']) or
             (topic.get('intent_key') and topic.get('intent_key')==other.get('intent_key'))):
