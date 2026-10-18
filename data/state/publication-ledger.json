@@ -4249,6 +4249,24 @@
         "seo_description": "Honda LEAD 125 dùng xăng gì: RON 91 hay 92 tùy nhóm mã kiểu, ethanol không quá 10% (TH, II TH tới 20%), nhớt JASO MB theo sách hướng dẫn của Honda Việt Nam.",
         "checked_at": "2026-10-18T07:55:59.033451+00:00"
       }
+    },
+    "NT-000276": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-18T07:56:15.267686+00:00",
+      "source_hash": "58a75568e3124a3514329cc9f72c0af217be01f226a07ca548c9e08fe22a8e63",
+      "slug": "honda-sh-mode-dung-xang-ron-92-hay-95-va-nhot-gi-thong-so-theo-sach-huong-dan-kem-den-thay-dau",
+      "expected_status": "publish",
+      "category_id": 170,
+      "visible_hash": "a6d7f9f95a12d2edfd3421f09a6eccdd3322479e4eaf2c256fcf568125e82fcb",
+      "first_paragraph": "Honda SH Mode dùng xăng RON 92 hay 95? Cả hai con số đều có trong sách hướng dẫn SH Mode của Honda Việt Nam: bảng thông số ghi hai dòng xăng không chì, một dòng khuyên dùng RON 92 hoặc cao hơn và một dòng khuyên dùng RON 95 hoặc cao hơn, theo thứ tự hai nhóm mã kiểu “Ngoại trừ kiểu II E, II ED” và “Kiểu II E, II ED”. Phần văn bản đã đọc không gán chắc từng dòng cho từng nhóm, nên bài không chọn hộ bạn: cần xác định mã kiểu của xe rồi đối chiếu với sách. Về nhớt, sách khuyên dầu máy Honda 4 kỳ đạt API SJ hoặc cao hơn, JASO T 903 loại MB và SAE 10W-30; sách cũng mô tả đèn THAY DẦU sáng lần đầu khi xe chạy 1.000 km và sau đó mỗi 6.000 km kể từ lần cài đặt lại đầu tiên.",
+      "meta_title": "Honda SH Mode dùng xăng RON 92 hay 95 và nhớt gì: thông số theo sách",
+      "meta_description": "Honda SH Mode dùng xăng RON 92 hay 95 và nhớt gì: sách ghi hai dòng RON theo mã kiểu, ethanol không quá 10%, nhớt JASO MB, kèm đèn THAY DẦU ở 1.000 km rồi 6.000 km.",
+      "intended_taxonomy_key": "engine-care",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "2390faa2b9fc944be80c686cf5ea69d0b0018053",
+      "run_id": "39109245013",
+      "updated_at": "2026-10-18T07:56:15.268589+00:00"
     }
   },
   "categories": {}
