@@ -2331,7 +2331,7 @@
       }
     },
     "NT-000282": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T06:42:18.044601+00:00",
       "source_hash": "ce2177d2d27e9c4bb0626c5f59373ac3f51436ba56e4da77f68577fe5abd190a",
       "slug": "giam-xoc-xe-may-chay-dau-co-sao-khong-cac-dau-hieu-phuoc-yeu-va-khi-nao-nen-dua-xe-di-kiem-tra",
@@ -2346,8 +2346,37 @@
       "category_warning": null,
       "git_commit": "370e37cf0329235cd4e87d10fd53aa104315012f",
       "run_id": "39104648334",
-      "updated_at": "2026-10-18T06:42:21.871992+00:00",
-      "wp_id": 3998
+      "updated_at": "2026-10-18T06:42:27.617162+00:00",
+      "wp_id": 3998,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/giam-xoc-xe-may-chay-dau-co-sao-khong-cac-dau-hieu-phuoc-yeu-va-khi-nao-nen-dua-xe-di-kiem-tra/",
+      "verified_at": "2026-10-18T06:42:27.617156+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3998,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/giam-xoc-xe-may-chay-dau-co-sao-khong-cac-dau-hieu-phuoc-yeu-va-khi-nao-nen-dua-xe-di-kiem-tra/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/giam-xoc-xe-may-chay-dau-co-sao-khong-cac-dau-hieu-phuoc-yeu-va-khi-nao-nen-dua-xe-di-kiem-tra/",
+        "seo_title": "Giảm xóc xe máy chảy dầu có sao không? Dấu hiệu phuộc yếu",
+        "seo_description": "Giảm xóc xe máy chảy dầu, nảy khi qua ổ gà, kêu hoặc lệch lái là dấu hiệu gì? Tìm hiểu nguyên nhân, mức độ nguy hiểm và thời điểm cần kiểm tra.",
+        "checked_at": "2026-10-18T06:42:27.617135+00:00"
+      }
     }
   },
   "categories": {}
