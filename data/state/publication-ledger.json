@@ -1995,7 +1995,7 @@
       }
     },
     "NT-000361": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T04:19:06.482643+00:00",
       "source_hash": "cba7053ffb6a3f03126afe9b9b54d1af61aa869a23954f882e096cf2b4b4829f",
       "slug": "hoa-da-quy-ba-vi-2026-di-xe-may-ngay-nao-duong-nao-va-gui-xe-o-dau-de-ngam-hoa",
@@ -2010,8 +2010,37 @@
       "category_warning": null,
       "git_commit": "5f7132203a83c6fcb48c013be854528ebb61d9c2",
       "run_id": "39096513381",
-      "updated_at": "2026-10-18T04:19:10.671296+00:00",
-      "wp_id": 3987
+      "updated_at": "2026-10-18T04:19:16.798016+00:00",
+      "wp_id": 3987,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/hoa-da-quy-ba-vi-2026-di-xe-may-ngay-nao-duong-nao-va-gui-xe-o-dau-de-ngam-hoa/",
+      "verified_at": "2026-10-18T04:19:16.798010+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3987,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/hoa-da-quy-ba-vi-2026-di-xe-may-ngay-nao-duong-nao-va-gui-xe-o-dau-de-ngam-hoa/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/hoa-da-quy-ba-vi-2026-di-xe-may-ngay-nao-duong-nao-va-gui-xe-o-dau-de-ngam-hoa/",
+        "seo_title": "Hoa dã quỳ Ba Vì 2026: ngày đi, đường lên và chỗ gửi xe máy",
+        "seo_description": "Hoa dã quỳ Ba Vì 2026 nở rộ từ 01/11 đến 23/11 theo thông báo của vườn: đường từ Hà Nội, chỗ gửi xe, đoạn đi bộ, lưu ý xuống dốc và ngày nên đi bằng xe máy.",
+        "checked_at": "2026-10-18T04:19:16.797989+00:00"
+      }
     }
   },
   "categories": {}
