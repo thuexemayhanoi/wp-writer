@@ -1,0 +1,150 @@
+{
+  "topic_id": "NT-000529",
+  "status": "PASS",
+  "source_sha256": "526b8c7b8bc72990086a17258650fcc82592fb214b48062f45efb2ff49be3f06",
+  "body_sha256": "b25186bbffba4e97481b2d043c20c13c5963ef556a83304c057af7a6543f9b57",
+  "word_count": 2284,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://bvhttdl.gov.vn/ha-noi-chinh-thuc-cong-nhan-diem-du-lich-lang-nghe-det-lua-van-phuc-ha-dong.htm",
+      "supports": "Cổng Bộ VHTTDL (đăng lại theo Hà Nội Mới): Quyết định 3971/QĐ-UBND công nhận làng nghề dệt lụa Vạn Phúc là điểm du lịch; hồ sơ phường Hà Đông nêu hơn 4.000 hộ dân, khoảng 14.620 nhân khẩu, cách trung tâm khoảng 10 km, quy hoạch 54,68 ha; xưởng và nghệ nhân mở cửa đón khách.",
+      "sha256": "a98e25f040a176b24624912b393777cb0d02294f2c65063b4da98740bf37d8d9",
+      "verified_at": "2026-10-18T14:17:57.786700+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://hanoimoi.vn/van-phuc-giu-gin-sac-lua-nghin-nam-680143.html",
+      "supports": "Báo Hà Nội Mới: Bộ VHTTDL công bố ngày 6/3/2023 nghề dệt lụa Vạn Phúc thuộc Danh mục di sản văn hóa phi vật thể quốc gia; quy trình dệt (guồng, mắc cửi, nối cửi, dệt, chuội, nhuộm); làng kết nối nhiều tour; du khách tham quan đình, chùa và Di tích Nhà lưu niệm Chủ tịch Hồ Chí Minh.",
+      "sha256": "c866b90b645097b17c4323ec39fbc5d1b5efbccb471fc5b8ed49aaa779f3080e",
+      "verified_at": "2026-10-18T14:17:58.857768+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://hanoimoi.vn/van-phuc-noi-mach-nguon-di-san-645466.html",
+      "supports": "Báo Hà Nội Mới: UBND thành phố công nhận Vạn Phúc là Điểm đến Du lịch Thủ đô (cùng năm 2023 với công bố di sản); nghề dệt lụa tơ tằm có từ hơn 1.000 năm trước (theo lời bài); mỗi máy chỉ dệt được 5-7 m lụa mỗi ngày.",
+      "sha256": "80837c44e8ec201647dabd7274a798f840723e63e52a6abc65d023acde9c95b9",
+      "verified_at": "2026-10-18T14:17:59.926413+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 4049,
+        "title": "Thuê xe máy điện ở chung cư Hà Nội không có chỗ sạc riêng: cần kiểm tra gì trước khi đặt?",
+        "why": "stale",
+        "content_hash": "60ea270b75576e53780d251f2026ebec6088930775beded46df2ce5bc3601d66",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4050,
+        "title": "Thuê xe máy đi làm theo ca ở Hà Nội: chọn giờ nhận, gửi xe và trả xe đúng hạn",
+        "why": "stale",
+        "content_hash": "f5a41002206250a00b0d4b19ec54ada261a36c020a5c2f89aa531c79304f4012",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T14:18:05.611611+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "9fbc7f4dfdb05a3335f3882cb85d1f302d72836f16a0e3dbbf7b1627640d6412",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

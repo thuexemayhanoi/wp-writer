@@ -1,0 +1,177 @@
+{
+  "topic_id": "NT-000674",
+  "status": "PASS",
+  "source_sha256": "15e9dbe35baac9047bb93e812fd0433ec9380647c098dfedcbffc2498354a9df",
+  "body_sha256": "b4a859b4471315e7258519e695dd16dc56cbc5aa22f2c7d99eb255cd239f2ddc",
+  "word_count": 2689,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.gov.uk/foreign-travel-advice/vietnam/getting-help",
+      "supports": "Trang Getting help của FCDO (cập nhật 21/09/2026) nêu số cứu thương 115, cứu hỏa 114, công an 113, tìm kiếm cứu nạn 112 và nhắc tổng đài chỉ dùng tiếng Việt.",
+      "sha256": "6dcdb1e2a8e52b2df0afc52741270bc8d589f9d686ff225f42d04ea004d15db6",
+      "verified_at": "2026-10-18T14:19:33.971919+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+      "supports": "Trang Smartraveller của Úc (cập nhật 24/09/2026) nêu 113, 114, 115, tổng đài chỉ nói tiếng Việt, có thể không ổn định và phải chờ lâu; nhắc mang phiên dịch và lấy biên bản.",
+      "sha256": "0fda54ad76e991c5bda450bb9b4d62b83a19052c60b5a8af41cb7af61f08bde2",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "TimeoutError"
+    },
+    {
+      "url": "https://travel.gc.ca/destinations/vietnam",
+      "supports": "Trang tư vấn của Canada (cập nhật 13/10/2026) nêu 113, 114, 115 và nhận xét xe cứu thương có thể chậm vì kẹt xe nên cân nhắc đi taxi hoặc xe riêng đến bệnh viện.",
+      "sha256": "126c661b0baedc6f2c337d9d931cfdb12a6a068ad2779ba0c38fbef1e0fbf156",
+      "verified_at": "2026-10-18T14:20:39.628991+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vn.usembassy.gov/security-and-safety-advice-for-vietnam/",
+      "supports": "Trang Đại sứ quán Mỹ (đăng 07/2022, sửa 06/07/2023, thông tin cũ hơn) nêu 113 công an, 114 cứu hỏa, 115 cứu thương và gọi 113 để báo tai nạn giao thông.",
+      "sha256": "df6e38a5b28b14efba20a173bdfb7b9fe6d7eae27e7ac405a1234390634b538b",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://vietnam.travel/plan-your-trip/health-safety",
+      "supports": "Trang Health and Safety của cổng du lịch quốc gia Việt Nam nêu Hà Nội, Đà Nẵng, TP.HCM có bệnh viện công và tư có nhân viên nói tiếng Anh.",
+      "sha256": "06f7ba3596fe25e940afdee22936478493785411a5ddbe292d3dcd4fbd10ba30",
+      "verified_at": "2026-10-18T14:20:40.925549+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 931,
+        "title": "So Sánh Giá Thuê Xe Máy Điện Và Xe Đạp Điện Tại Hà Nội",
+        "why": "stale",
+        "content_hash": "6ecf7e9ed22bffd8cd1b7503e82157d22124c0c18b557dbf6c98245fa34fb529",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2355,
+        "title": "Bao nhiêu tuổi được đi xe máy điện? Những điều cần biết",
+        "why": "stale",
+        "content_hash": "df4e397638303da8d179daafae395db634b027fd262d47406e50b3e2c2cf527c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2359,
+        "title": "Pin Lithium Và Ắc Quy Xe Máy Điện Khác Nhau Như Thế Nào Khi Dùng?",
+        "why": "stale",
+        "content_hash": "bad77afd59bcc932b63ec50e4d14d9c1f4c164d9587ac616c550e0651324d6c3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2562,
+        "title": "Chi phí sử dụng xe máy một tháng gồm những khoản nào phổ biến?",
+        "why": "stale",
+        "content_hash": "0e027bc06fdc27cef9d43033bb86723109f122a63e8485c8dd6f92fa12334be6",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T14:20:45.335195+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "f9651fc3fdb0ed1778f7b356cbed2bb458993bf91cd4373ab5a580b0a2d8bb9b",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

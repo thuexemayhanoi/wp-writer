@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vietnam.travel/things-to-do/4-things-youll-love-about-mu-cang-chai",
-      "supports": "vietnam.travel mô tả Mù Cang Chải là nơi chạy xe máy tuyệt vời: đoạn đường từ thị trấn tới Tú Lệ qua đèo Khau Phạ, vòng tới Nghĩa Lộ, lên bản Mồ Dề; sáu đến tám giờ đường bộ từ Hà Nội; các mùa của ruộng bậc thang.",
-      "sha256": "f954b4a3e5c753645804822e48d18b87015281742c1edcb9ce7defd758d311ed",
-      "verified_at": "2026-10-18T14:13:09.036841+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://bvhttdl.gov.vn/mua-vang-ruc-ro-tren-nhung-thua-ruong-bac-thang-o-mu-cang-chai-20241021154913296.htm",
-      "supports": "Cổng thông tin Bộ Văn hóa, Thể thao và Du lịch (21/10/2024): giữa tháng 10 ruộng vào vụ thu hoạch; năm 2019 danh thắng ruộng bậc thang Mù Cang Chải được xếp hạng Di tích quốc gia đặc biệt, hơn 800 ha ở sáu xã.",
-      "sha256": "434a4dfe50fcdc21e780d40dbdb232e81a8ad6d365171faedb287ebfea0707af",
-      "verified_at": "2026-10-18T14:13:11.054941+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnexpress.net/cam-nang-du-lich-mu-cang-chai-4158151.html",
-      "supports": "Cẩm nang VnExpress (cập nhật 14/1/2026): Mù Cang Chải cách Hà Nội khoảng 300 km, quốc lộ 32 là đường chính, lộ trình gợi ý qua Sơn Tây, cầu Trung Hà, Thanh Sơn, Văn Chấn, Nghĩa Lộ, Tú Lệ, đèo Khau Phạ; mùa đổ nước cuối tháng 5, mùa vàng tháng 9 đến 10.",
-      "sha256": "52d28fce75100a23a320a1eb62614e64510578b0c2c44fcad3d4c1bc87f68740",
-      "verified_at": "2026-10-18T14:13:13.133668+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -121,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T14:13:22.301437+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T14:15:21.356758+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "069787e782b660d8dff56d53e7c1d1c3a46c2dcb919371b7bad6ba183c456cf0",
+  "inventory_sha256": "5549e2d6422bfcc062b5035e134906ebd79c6c9b76ad2a0a1b27079fc29c79f5",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
