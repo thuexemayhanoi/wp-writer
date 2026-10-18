@@ -26,7 +26,7 @@ def row(topic_id, title, status, slug=None, **research):
 
 
 class RegateTests(unittest.TestCase):
-    def go(self, rows, ids, verdicts=None):
+    def go(self, rows, ids, verdicts=None, **overrides):
         self.rows = copy.deepcopy(rows)
         old = {r['topic_id']: {'status': 'REVIEW', 'errors': [], 'review': ['old evidence']} for r in rows}
         self.saved = {}
@@ -34,6 +34,7 @@ class RegateTests(unittest.TestCase):
                                                                     'content_hash': 'h1', 'title_hash': 'x1'}]},
                  'data/state/publication-ledger.json': {'posts': {}},
                  'data/taxonomy.json': {'items': copy.deepcopy(TAX)}, 'reports/topic-qa.json': old}
+        files.update(overrides)
         verdicts = verdicts if verdicts is not None else {i: 'PASS' for i in ids}
         with patch.object(tf, 'topics', side_effect=lambda: self.rows), \
              patch.object(tf, 'load', side_effect=lambda path, default=None: files.get(path, default)), \
@@ -70,6 +71,58 @@ class RegateTests(unittest.TestCase):
         planned = row('NT-2', 'Chủ đề đã duyệt khác hẳn hai', 'PLANNED')
         with self.assertRaisesRegex(ValueError, 'Only RESEARCH rows'):
             self.go([planned], ['NT-2'])
+
+    def legacy_world(self, sibling_verified):
+        """A row recorded before `inventory_updated_at` existed: it read pages 1 and 3 (3 is a factory post verified at
+        02:03), then built at 02:09; the factory verified page 2 at `sibling_verified`, which it never read."""
+        items = [{'id': 1, 'title': 'Trang cũ hẳn khác', 'slug': 'cu', 'content_hash': 'h1', 'title_hash': 'x1'},
+                 {'id': 2, 'title': 'Bài anh em mới đăng', 'slug': 'anh-em', 'content_hash': 'h2', 'title_hash': 'x2'},
+                 {'id': 3, 'title': 'Bài nhà máy đã đọc', 'slug': 'da-doc', 'content_hash': 'h3', 'title_hash': 'x3'}]
+        ledger = {'posts': {'NT-A': {'wp_id': 2, 'verified_at': sibling_verified},
+                            'NT-B': {'wp_id': 3, 'verified_at': '2026-10-18T02:03:00+00:00'}}}
+        stuck = row('NT-1', 'Bản đồ nhu cầu độc lập một', 'RESEARCH', reviewed_at='2026-10-18T02:09:00+00:00',
+                    reviewed_content_hashes={'1': 'h1', '3': 'h3'}, reviewed_existing_ids=[1, 3])
+        return stuck, {'data/existing-content-inventory.json': {'items': items},
+                       'data/state/publication-ledger.json': ledger}
+
+    def test_a_legacy_row_is_judged_with_the_snapshot_inferred_from_the_factory_pages_it_read(self):
+        stuck, files = self.legacy_world('2026-10-18T02:05:00+00:00')
+        after = self.go([stuck], ['NT-1'], **files)
+        self.assertEqual(after['NT-1']['topic_qa_status'], 'PLANNED')
+        research = after['NT-1']['research']
+        self.assertEqual(research['inventory_updated_at'], '2026-10-18T02:03:00+00:00')
+        self.assertTrue(research['inventory_updated_at_inferred'])
+
+    def test_a_sibling_verified_before_the_inferred_snapshot_is_still_demanded_and_nothing_is_written(self):
+        stuck, files = self.legacy_world('2026-10-18T02:02:00+00:00')
+        after = self.go([stuck], ['NT-1'], **files)
+        self.assertEqual(after['NT-1']['topic_qa_status'], 'RESEARCH')
+        self.assertNotIn('inventory_updated_at', after['NT-1']['research'])
+        self.assertNotIn('inventory_updated_at_inferred', after['NT-1']['research'])
+
+    def test_with_snapshot_never_overrides_a_recorded_snapshot_or_invents_one(self):
+        inventory = [{'id': 3, 'factory_published_at': '2026-10-18T02:03:00+00:00'},
+                     {'id': 4, 'factory_published_at': '2026-10-18T02:30:00+00:00'}]
+        built = '2026-10-18T02:09:00+00:00'
+        recorded = {'research': {'inventory_updated_at': '2026-10-18T01:00:00+00:00', 'reviewed_existing_ids': [3],
+                                 'reviewed_at': built}}
+        self.assertIs(tf.with_snapshot(recorded, inventory), recorded)
+        read_nothing = {'research': {'reviewed_existing_ids': [99], 'reviewed_content_hashes': {'98': 'x'},
+                                     'reviewed_at': built}}
+        self.assertIs(tf.with_snapshot(read_nothing, inventory), read_nothing)
+        no_build_time = {'research': {'reviewed_existing_ids': [3]}}
+        self.assertIs(tf.with_snapshot(no_build_time, inventory), no_build_time)
+        by_hash_only = {'research': {'reviewed_content_hashes': {'3': 'h3'}, 'reviewed_at': built}}
+        inferred = tf.with_snapshot(by_hash_only, inventory)
+        self.assertEqual(inferred['research']['inventory_updated_at'], '2026-10-18T02:03:00+00:00')
+        self.assertNotIn('inventory_updated_at', by_hash_only['research'])  # the input row is never mutated
+
+    def test_a_build_long_after_the_newest_page_it_read_proves_nothing_about_the_snapshot(self):
+        inventory = [{'id': 3, 'factory_published_at': '2026-10-17T13:25:00+00:00'}]
+        long_after = {'research': {'reviewed_existing_ids': [3], 'reviewed_at': '2026-10-18T02:04:00+00:00'}}
+        self.assertIs(tf.with_snapshot(long_after, inventory), long_after)
+        before_the_page = {'research': {'reviewed_existing_ids': [3], 'reviewed_at': '2026-10-17T13:00:00+00:00'}}
+        self.assertIs(tf.with_snapshot(before_the_page, inventory), before_the_page)
 
     def test_regate_computes_the_strict_verdict_against_everyone_but_the_chosen_rows(self):
         stuck = row('NT-1', 'Bản đồ nhu cầu độc lập một', 'RESEARCH')

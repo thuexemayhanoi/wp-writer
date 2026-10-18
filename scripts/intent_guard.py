@@ -17,12 +17,15 @@ It is intentionally conservative:
           plus the same question type). This can never be waived: re-scope or
           retitle the topic.
 * REVIEW  substantial overlap. The researcher resolves it only by recording a
-          written justification in ``research.resolved_intent_collisions``.
+          written justification in ``research.resolved_intent_collisions``. A
+          post the factory itself published AFTER the research snapshot cannot
+          have been read: its REVIEW is not held against the topic (a FAIL still is).
 * PASS    no meaningful overlap with any known URL or topic.
 
 Machine similarity is a screen, not proof of a distinct reader question: the
 existing full-content review evidence in ``topic_factory.gate`` still applies.
 """
+import datetime as dt
 import html
 import math
 import re
@@ -180,6 +183,14 @@ def _profiles(*texts):
     return result
 
 
+def _utc(value):
+    try:
+        parsed = dt.datetime.fromisoformat(str(value).replace('Z', '+00:00'))
+    except (TypeError, ValueError):
+        return None
+    return parsed if parsed.tzinfo else parsed.replace(tzinfo=dt.timezone.utc)
+
+
 def inventory_entry(item):
     """A WordPress item is known by its title and its SEO title."""
     label = item.get('title') or ''
@@ -219,6 +230,9 @@ class IntentIndex:
         self.size = len(self.entries)
         self._weights = {}
         self.content_hash = {'WP' + str(item.get('id')): item.get('content_hash') for item in inventory}
+        # When the factory's own Publisher verified a post (stamped by topic_factory.stamp_factory_posts).
+        self.published_at = {'WP' + str(item.get('id')): item['factory_published_at']
+                             for item in inventory if item.get('factory_published_at')}
 
     def weight(self, token):
         value = self._weights.get(token)
@@ -358,6 +372,21 @@ def _resolved(match, topic, index, cfg):
     return current in (seen if isinstance(seen, list) else [seen])
 
 
+def _published_after_research(match, topic, index):
+    """A sibling article the factory published after the researcher read the site cannot have been read.
+
+    Its REVIEW overlap is not held against the topic (article QA still compares the finished text with every
+    public post). A FAIL overlap is never waived, and neither is a legacy page or a topic row: only a post
+    this factory verified after the research snapshot (`inventory_updated_at`, else `reviewed_at`).
+    """
+    if match['kind'] != 'wordpress':
+        return False
+    research = topic.get('research') or {}
+    seen = _utc(research.get('inventory_updated_at')) or _utc(research.get('reviewed_at'))
+    at = _utc(index.published_at.get(match['id']))
+    return bool(seen and at and at > seen)
+
+
 def assess_topic(topic, topic_rows, inventory, new_ids=None, index=None, config=None):
     """Errors/review findings for Topic QA; ``index`` lets a whole batch share one corpus build."""
     cfg = settings(config)
@@ -369,7 +398,7 @@ def assess_topic(topic, topic_rows, inventory, new_ids=None, index=None, config=
     for match in found:
         if match['severity'] == 'FAIL':
             errors.append('intent collision:' + match['id'])
-        elif not _resolved(match, topic, index, cfg):
+        elif not _resolved(match, topic, index, cfg) and not _published_after_research(match, topic, index):
             review.append('near intent:' + match['id'])
     limit = cfg['max_reported']
     return {'errors': errors[:limit], 'review': review[:limit], 'matches': found[:limit]}
