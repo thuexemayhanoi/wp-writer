@@ -21,6 +21,8 @@ python scripts/writer-session.py confirm --session s-your-session
 python scripts/writer-session.py heartbeat --session s-your-session
 ```
 
+Khi dùng `agent-tools/build_article.py`, luôn truyền `--slot Wn` chính xác theo vị trí đã nhận (`W1` đến `W9`) và `--session` của mình. Công cụ không tự gán W1 cho bài thật. Không có khóa Ed25519 hay API AI.
+
 Thay ID bằng ID thực đã nhận. `check`/`push` kiểm tra bằng QA chuẩn. `confirm` đọc ledger và registry mới nhất, không tự tạo nội dung. Giữ đúng session khi phục hồi sau quota. Sau khi bài đã được intake ghi receipt có hash bất biến **và QA mới tính lại đạt PASS**, `begin` được giải phóng ID đã nộp để nhận tiếp, **không chờ WordPress đăng xong (kể cả khi chủ tạm tắt công tắc production)**. Một submission đã chuyển qua bước này vẫn khóa ID khỏi writer khác; QA FAIL/REVIEW phải sửa qua REPAIR trước khi nhả lease. WordPress ledger/publisher vẫn chịu trách nhiệm xuất bản và đối soát riêng. Không đổi session để né REPAIR. Lease của người khác còn hạn không được chiếm; bản nháp của người khác hết lease chỉ được bàn giao sau khi chủ/coordinator cho phép.
 
 GitHub Actions tự nhận draft đã push, kiểm tra rồi lưu QA/REPAIR. Production tự động BẬT từ 17/10/2026 theo lệnh chủ (các bài #3882, #3888, #3890, #3930–#3945 trước đó đã được đăng thủ công và nằm trong ledger; #3947–#3956 do Publisher tự đăng). QA PASS kích hoạt Publisher **ngay**; xử lý tối đa 5 batch × 2 bài mỗi lượt, daily cap 1.000 (vẫn giới hạn 10 bài/lượt). Lịch :17/:47 chỉ dự phòng; không cần phiên AI còn mở để drain backlog bài **đã viết và push**. Actions không viết bài khi các phiên writer đã đóng.
