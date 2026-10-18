@@ -3531,7 +3531,7 @@
       }
     },
     "NT-000369": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T07:36:26.583915+00:00",
       "source_hash": "6cdbb17b8c3068f96d06c3a12532dbc7af91d1ae3bd0685dda6a5964460d5d7e",
       "slug": "di-tam-dao-bang-xe-may-nen-chon-xe-so-hay-xe-tay-ga-cho-doan-deo-va-cach-xuong-doc-giu-phanh",
@@ -3546,8 +3546,37 @@
       "category_warning": null,
       "git_commit": "93ae93c1642c2b4a7bd3a26f671602a78533a914",
       "run_id": "39107691174",
-      "updated_at": "2026-10-18T07:36:30.442682+00:00",
-      "wp_id": 4024
+      "updated_at": "2026-10-18T07:36:36.543518+00:00",
+      "wp_id": 4024,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/di-tam-dao-bang-xe-may-nen-chon-xe-so-hay-xe-tay-ga-cho-doan-deo-va-cach-xuong-doc-giu-phanh/",
+      "verified_at": "2026-10-18T07:36:36.543511+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4024,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/di-tam-dao-bang-xe-may-nen-chon-xe-so-hay-xe-tay-ga-cho-doan-deo-va-cach-xuong-doc-giu-phanh/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/di-tam-dao-bang-xe-may-nen-chon-xe-so-hay-xe-tay-ga-cho-doan-deo-va-cach-xuong-doc-giu-phanh/",
+        "seo_title": "Đi Tam Đảo bằng xe máy: chọn xe số hay xe tay ga cho đoạn đèo",
+        "seo_description": "Đi Tam Đảo bằng xe máy nên chọn xe số hay xe tay ga? Tổng hợp VnExpress, TTXVN, Yamaha và Vườn quốc gia Ba Vì về đoạn đèo, xuống dốc và giữ phanh.",
+        "checked_at": "2026-10-18T07:36:36.543493+00:00"
+      }
     }
   },
   "categories": {}
