@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-18T14:20:56.216925+00:00",
-  "attempted": 7,
+  "at": "2026-10-18T14:31:31.760536+00:00",
+  "attempted": 6,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -99,11 +99,11 @@
       ],
       "source_evidence": [],
       "evidence_recheck": null,
-      "at": "2026-10-18T14:17:03.691086+00:00",
+      "at": "2026-10-18T14:27:35.141073+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "29146d801c2af18ae316af262f63f4b1b1e73eedef2fed96f334986bf84b06fd",
+      "inventory_sha256": "54bb9ea4b16bf7a7d270a1b7e42f8481ae4a99d1a336fc5c74801802b100957e",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -120,59 +120,51 @@
       }
     },
     {
-      "topic_id": "NT-000523",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 172,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "hanoi-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000524",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 174,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "food-culture",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000529",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 172,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "hanoi-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000530",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 174,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "food-culture",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000554",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000559",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000674",
+      "topic_id": "NT-000341",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 161,
       "category_resolution": "EXACT",
       "intended_taxonomy_key": "road-safety",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000586",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 168,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-tech",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000611",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 168,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-tech",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000675",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 175,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "trip-planning",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000676",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 175,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "trip-planning",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000677",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 175,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "trip-planning",
       "category_warning": null
     }
   ],

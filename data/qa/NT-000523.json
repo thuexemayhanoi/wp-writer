@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://dsvh.gov.vn/le-hoi-chua-lang-3219",
-      "supports": "Cục Di sản văn hóa (hồ sơ tư liệu) mô tả Lễ hội chùa Láng tổ chức từ ngày 5 đến 8 tháng Ba, lịch từng ngày, vai trò các đô, lễ vật, tục hèm và việc ghi danh theo Quyết định 4611/QĐ-BVHTTDL ngày 20/12/2019.",
-      "sha256": "144f1f169a12f5c45cc1391192ea46f8212571b29bbec71604df87dd03057629",
-      "verified_at": "2026-10-18T14:17:06.101283+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://thanhnien.vn/dong-nguoi-un-u-tray-hoi-chua-lang-xem-ruoc-kieu-vua-qua-cau-phao-185230426191216566.htm",
-      "supports": "Báo Thanh Niên (26/4/2023): lễ hội chùa Láng diễn ra từ mùng 5 đến mùng 8 tháng Ba âm lịch, chính hội mùng 7; nghi thức Độ Hà (rước kiệu Thánh, kiệu vua qua sông Tô Lịch) được phục dựng lần đầu tiên sau hơn 70 năm gián đoạn.",
-      "sha256": "7212f9972fc02f24ad0e258f9a6efcc57aa3125117ccfac46e3a14df586472ff",
-      "verified_at": "2026-10-18T14:17:07.789052+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://hanoimoi.vn/nhung-le-hoi-ben-song-trong-tam-thuc-ha-noi-658195.html",
-      "supports": "Báo Hà Nội Mới: lễ hội chùa Láng có lễ rước kiệu qua sông Tô Lịch nhưng không phải năm nào cũng tổ chức mà tùy điều kiện, hoàn cảnh; lệ rước không đi trên cầu mà trai tráng lội qua sông; chùa xây từ đời vua Lý Anh Tông thờ Từ Đạo Hạnh và vua Lý Thần Tông.",
-      "sha256": "fdc6a8bfb40b5ebf0b0f0c1f94b7a575a04ea6e40f75cb39777cc1117de0713e",
-      "verified_at": "2026-10-18T14:17:09.227978+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -130,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T14:17:19.012123+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T14:25:44.425034+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "29146d801c2af18ae316af262f63f4b1b1e73eedef2fed96f334986bf84b06fd",
+  "inventory_sha256": "685263d9f962e8a9f81e9eb7d904b5a65fcfccd86b8365d567c9a4e83607dd1c",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

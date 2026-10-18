@@ -1,0 +1,156 @@
+{
+  "topic_id": "NT-000611",
+  "status": "PASS",
+  "source_sha256": "57120d86df55d1ee5d8a40b24ea79f8539d5f07a0f1b2b04cac95a70d6b3ce9d",
+  "body_sha256": "ccaaccc85498ea4836e4afe06b3a95269d58ea165006eda628fc40b7fb6f73f8",
+  "word_count": 3057,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/danh-gia-xe-may-dien-neos-yamaha/",
+      "supports": "Yamaha Motor Việt Nam (bài đăng 26/04/2023): NEO's có hai chế độ lái STD và ECO; khi pin dưới 20% xe tự kích hoạt ECO và giới hạn tốc độ ở 30 km/h",
+      "sha256": "f37c6f317eba7cee0be1d0c1e22bd40b227d3912831d994215b377ab836436d8",
+      "verified_at": "2026-10-18T14:28:47.033243+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-di-xe-may-dien-an-toan/",
+      "supports": "Yamaha Motor Việt Nam (bài đăng 26/04/2023): nêu công suất và tốc độ của NEO's theo hai chế độ Standard và Eco, và chế độ Eco phù hợp hành trình dài; số liệu không khớp hoàn toàn với trang sản phẩm",
+      "sha256": "3606afe89ec5d08d112abe17015a8608b9f6d9f35f8fb03ae03b37b0dcf6a24e",
+      "verified_at": "2026-10-18T14:28:48.695966+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+      "supports": "Trang sản phẩm Yamaha NEO's: hai chế độ lái STD và ECO; quãng đường trên 60 km chỉ được nêu cho chế độ ECO, dải tốc độ 30–35 km/h và khối lượng người cùng hàng hóa không quá 75 kg",
+      "sha256": "95c28d8a47c6fd266b0509ea5103445cc109678ba40bf0aeb38c668aa8dea9df",
+      "verified_at": "2026-10-18T14:28:50.234780+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/en/blogs/dat-bike-blog/tip-cac-che-do-lai-va-man-hinh-lcd-xe-quantum",
+      "supports": "Dat Bike (bài hướng dẫn Tip #3): xe Quantum có chế độ lái D và S, D có độ bốc bằng 2/3 chế độ S, đổi chế độ khi đang chạy phải xả hết tay ga rồi ấn nút đa chức năng",
+      "sha256": "50f83e5923b7b9afe68643cc2ab5b145674ad2c3cfece2931f2fa6166fa944ee",
+      "verified_at": "2026-10-18T14:28:52.774903+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn sử dụng xe Quantum (Dat Bike): chế độ S cho tốc độ phản ứng với tay ga nhanh và nhạy hơn; P là chế độ dừng mặc định, R là chế độ hỗ trợ dắt xe chỉ kích hoạt khi dưới 5 km/h",
+      "sha256": "ac94fe3ed316f103e53e5432bd19ff4ab03fb1a738bf12bc0e21783d719b9e85",
+      "verified_at": "2026-10-18T14:28:54.165741+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vnexpress.net/vinfast-theon-xe-may-cao-cap-nhat-cua-thuong-hieu-viet-4222425.html",
+      "supports": "Bài VnExpress 18/01/2021 về VinFast Theon lúc ra mắt: hai chế độ Eco và Sport, Eco giới hạn ở 50 km/h, tốc độ tối đa 90 km/h chỉ đạt được ở chế độ Sport",
+      "sha256": "021548d7f73e161f715aa6a38095bd0a0b75ca696de33c52be8bae74fb56104f",
+      "verified_at": "2026-10-18T14:28:56.638036+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2374,
+        "title": "Xe máy điện đi mưa có an toàn không? Cách sử dụng đúng và bền",
+        "why": "stale",
+        "content_hash": "f86d1aa55c92feadb7f1f7424eb5a8881f374d07d09eba557a5974bddc4ab23f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T14:29:03.683818+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "bb083a54cb20eb24f13d3e70cd76928906cc097d29a65d7d26e70148de71583b",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
