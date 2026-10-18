@@ -1035,7 +1035,7 @@
       }
     },
     "NT-000209": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T02:14:24.635138+00:00",
       "source_hash": "486a2224e8cab5da770515e0d51c3effaac44632481d67f78878429cb7402726",
       "slug": "thoi-quen-lai-xe-so-giup-tiet-kiem-xang-di-dung-so-tang-ga-em-va-giam-toc-som",
@@ -1050,8 +1050,37 @@
       "category_warning": null,
       "git_commit": "40e2d367e828d9bd7b9513fa0cf2126d2a59899d",
       "run_id": "39089205463",
-      "updated_at": "2026-10-18T02:14:28.419436+00:00",
-      "wp_id": 3967
+      "updated_at": "2026-10-18T02:14:33.920265+00:00",
+      "wp_id": 3967,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/thoi-quen-lai-xe-so-giup-tiet-kiem-xang-di-dung-so-tang-ga-em-va-giam-toc-som/",
+      "verified_at": "2026-10-18T02:14:33.920259+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3967,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/thoi-quen-lai-xe-so-giup-tiet-kiem-xang-di-dung-so-tang-ga-em-va-giam-toc-som/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/thoi-quen-lai-xe-so-giup-tiet-kiem-xang-di-dung-so-tang-ga-em-va-giam-toc-som/",
+        "seo_title": "Thói quen lái xe số giúp tiết kiệm xăng: đúng số, ga êm, giảm tốc sớm",
+        "seo_description": "Thói quen lái xe số giúp tiết kiệm xăng theo Yamaha và báo Thanh Niên: sang số hợp tốc độ, ga êm, giảm tốc sớm, mốc tắt máy 20 giây, tải trọng, lốp và lộ trình, không hứa con số.",
+        "checked_at": "2026-10-18T02:14:33.920242+00:00"
+      }
     }
   },
   "categories": {}
