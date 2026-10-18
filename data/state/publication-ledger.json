@@ -1611,7 +1611,7 @@
       }
     },
     "NT-000215": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T02:47:00.749823+00:00",
       "source_hash": "effe961467ef1eaf55b5d3af4b0e1f800327e20dc18214020de3d2d4e6af109b",
       "slug": "bo-con-xe-con-tay-can-kiem-tra-dau-hieu-xe-i-dinh-con-con-hu-va-do-ro-tay-con",
@@ -1626,8 +1626,37 @@
       "category_warning": null,
       "git_commit": "3b40535a5f8d876acaec7394f3eab3b59481b906",
       "run_id": "39091201608",
-      "updated_at": "2026-10-18T02:47:14.385218+00:00",
-      "wp_id": 3979
+      "updated_at": "2026-10-18T02:47:20.347264+00:00",
+      "wp_id": 3979,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bo-con-xe-con-tay-can-kiem-tra-dau-hieu-xe-i-dinh-con-con-hu-va-do-ro-tay-con/",
+      "verified_at": "2026-10-18T02:47:20.347259+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3979,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bo-con-xe-con-tay-can-kiem-tra-dau-hieu-xe-i-dinh-con-con-hu-va-do-ro-tay-con/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bo-con-xe-con-tay-can-kiem-tra-dau-hieu-xe-i-dinh-con-con-hu-va-do-ro-tay-con/",
+        "seo_title": "Bộ côn xe côn tay cần kiểm tra: xe ì, dính côn, côn hú, độ rơ tay côn",
+        "seo_description": "Bộ côn xe côn tay cần kiểm tra khi xe ì, dính côn, côn hú hoặc nóng máy: Yamaha nêu gì cho Exciter 150, độ rơ 8-12 mm, mốc 8.000 km và lúc nào nên đến cơ sở chính hãng.",
+        "checked_at": "2026-10-18T02:47:20.347234+00:00"
+      }
     }
   },
   "categories": {}
