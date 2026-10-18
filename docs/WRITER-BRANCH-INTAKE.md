@@ -22,6 +22,6 @@ Khi mã Publisher và Secrets được bảo vệ bằng quyền duyệt GitHub,
 
 ## Giới hạn đang còn
 
-**Chưa bật GitHub Ruleset yêu cầu pull request.** Đường branch mới **chỉ giải quyết đầu vào bài viết**, chưa thay thế hết các luồng CAS ghi trạng thái, claim, refill và ledger đang trực tiếp cập nhật `main`. Cần chuyển luồng trạng thái tương thích quy tắc bảo vệ, kiểm thử W1/W2/W3 và QA xanh **trước khi bật Ruleset**. Không ép Ruleset hiện tại và không tự đặt `security_controls_verified=true`.
+**Chưa bật GitHub Ruleset yêu cầu pull request.** Đường branch mới **chỉ giải quyết đầu vào bài viết**, chưa thay thế hết các luồng CAS ghi trạng thái, claim, refill và ledger đang trực tiếp cập nhật `main`. Cần chuyển luồng trạng thái tương thích quy tắc bảo vệ, kiểm thử W1–W9 và QA xanh **trước khi bật Ruleset**. Không ép Ruleset hiện tại và không tự đặt `security_controls_verified=true`.
 
 GitHub `wordpress-production` đã được giới hạn `main` và 3 Environment Secrets đã thử REST đọc thành công. Không cần cấu hình lại, không đưa mật khẩu cho Writer.

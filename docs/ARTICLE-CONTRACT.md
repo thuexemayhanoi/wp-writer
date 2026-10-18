@@ -29,6 +29,8 @@ editorial_review:
 ---
 ```
 
+**Lưu ý W1–W9:** `writer_slot: W1` phía trên chỉ là ví dụ. Phải điền **đúng W1…W9 mà lệnh `writer-session.py begin --slot auto` trả về**; không được tự gán W1 mặc định, đổi `writer_session` hoặc lấy bài của Writer khác.
+
 `primary_keyword`, intent và các identity phải lấy từ manifest, không tự suy theo ví dụ. Tính `body_sha256` bằng `hashlib.sha256(body.strip().encode()).hexdigest()` sau khi viết xong; không hash YAML. Submission receipt dùng SHA-256 **toàn bộ file** và do session tool ghi.
 
 Nguồn có cấu trúc: `url` HTTPS công khai đã kiểm chứng (được lấy từ website hãng, đối thủ, cơ quan nhà nước, du lịch, báo chí, kỹ thuật hoặc nghiên cứu), `checked_at` YYYY-MM-DD, `supports` mô tả khẳng định được nguồn chứng minh, `evidence_text` đoạn ngắn có thật trong nguồn, `source_sha256` hash văn bản nguồn đã đọc cho QA cục bộ. QA live ưu tiên tải lại để đối chiếu; nếu lỗi mạng tạm thời, chỉ chấp nhận snapshot bằng chứng đã trùng chính xác hồ sơ nghiên cứu của chính chủ đề và ghi rõ là chưa xác thực live. Nguồn pháp lý phải là cơ quan có thẩm quyền, được kiểm tra trong hạn xác minh. Thông tin kỹ thuật theo đúng model/đời xe; không dùng manual của mẫu khác.

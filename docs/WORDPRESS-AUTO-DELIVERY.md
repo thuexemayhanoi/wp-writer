@@ -1,11 +1,11 @@
 # Nâng cấp luồng Writer → WordPress (không sao chép /wp-aiwriter)
 
-> **Trạng thái hiện tại (từ 17/10/2026): Production ĐÃ BẬT.** Luồng: W1/W2/W3 viết → QA ≥85 + trùng + danh mục → Publisher → WordPress công khai tự động. Các nhánh "chưa duyệt / dry-run" và mục "điều kiện kích hoạt" bên dưới mô tả chế độ khi chủ tắt công tắc hoặc là lịch sử.
+> **Trạng thái hiện tại (từ 17/10/2026): Production ĐÃ BẬT.** Luồng: W1–W9 viết → QA ≥85 + trùng + danh mục → Publisher → WordPress công khai tự động. Các nhánh "chưa duyệt / dry-run" và mục "điều kiện kích hoạt" bên dưới mô tả chế độ khi chủ tắt công tắc hoặc là lịch sử.
 
 ## Luồng dữ liệu
 
 ```text
-W1 / W2 / W3 (AI bên ngoài)
+W1–W9 (AI App bên ngoài, tự nhận vị trí trống)
        |
    topic PLANNED + live lease
        |

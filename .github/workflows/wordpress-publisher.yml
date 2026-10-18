@@ -1,5 +1,5 @@
 # STEP 3 of the owner's simple flow (order 2026-10-17):
-#   W1/W2/W3 write  ->  QA >=85 + duplicate check + category  ->  [Publisher  ->  public WordPress].
+#   W1–W9 write  ->  QA >=85 + duplicate check + category  ->  [Publisher  ->  public WordPress].
 # Production is ON (config/production-policy.json): a QA-PASS article is posted automatically right after the
 # main-push QA run; the :17/:47 cron below is only a fallback. Only paused / emergency_stop stop it.
 name: Universal WordPress Publisher

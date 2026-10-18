@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build posts/drafts/NT-XXXXXX.md from a body file + a small spec JSON, then run repo QA.
 
-usage: build_article.py NT-000073 [--session S] [--slot W1] [--no-qa]
+usage: build_article.py NT-000073 --session S --slot W1..W9 [--no-qa]
 reads  scratchpad/bodies/<ID>.md   (markdown body only; first paragraph == direct answer)
        scratchpad/specs/<ID>.json  (meta_title, meta_description, link_rationale, business_claims, sources)
 writes posts/drafts/<ID>.md  (frontmatter identity copied from data/topics.jsonl)
@@ -11,15 +11,20 @@ import os, subprocess
 ROOT = pathlib.Path(os.environ.get('WPW_ROOT') or subprocess.run(['git','rev-parse','--show-toplevel'],capture_output=True,text=True).stdout.strip() or '/home/user/wp-writer')
 SP = pathlib.Path(os.environ.get('WPW_SCRATCH') or (pathlib.Path.home() / 'wp-writer-scratch'))
 sys.path.insert(0, str(ROOT / 'scripts'))
+WRITER_SLOTS = tuple(json.loads((ROOT / 'config/writer-slots.json').read_text(encoding='utf-8'))['slots'])
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('topic_id')
     ap.add_argument('--session', default='s-seodev-20261017a')
-    ap.add_argument('--slot', default='W1')
+    ap.add_argument('--slot', choices=WRITER_SLOTS, help='Use the W1..W9 slot returned by your live Writer claim')
     ap.add_argument('--no-qa', action='store_true')
     ap.add_argument('--prefly', help='research jsonl holding the not-yet-PLANNED topic row; writes to scratchpad/drafts_prefly, not the repo')
     a = ap.parse_args()
+    if a.slot is None and not a.prefly:
+        ap.error('--slot is required for a real article; use the W1..W9 slot in your active lease')
+    # Preflight files are scratch-only, never submitted; give them a placeholder slot.
+    writer_slot = a.slot or WRITER_SLOTS[0]
     rows = [json.loads(l) for l in (ROOT / 'data/topics.jsonl').read_text().splitlines() if l.strip()]
     if a.prefly:
         extra = [json.loads(l) for l in pathlib.Path(a.prefly).read_text().splitlines() if l.strip()]
@@ -35,7 +40,7 @@ def main():
         'topic_id': topic['topic_id'], 'title': topic['title'],
         'primary_keyword': topic['primary_keyword'], 'search_intent': topic['search_intent'],
         'taxonomy_key': topic['taxonomy_key'], 'canonical_target': topic['canonical_target'],
-        'writer_slot': a.slot, 'writer_session': a.session,
+        'writer_slot': writer_slot, 'writer_session': a.session,
         'meta_title': spec['meta_title'], 'meta_description': spec['meta_description'],
         'direct_answer': direct, 'link_rationale': spec['link_rationale'],
         'business_claims': spec.get('business_claims', []), 'sources': spec.get('sources', []),
