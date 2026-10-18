@@ -2379,7 +2379,7 @@
       }
     },
     "NT-000306": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T07:09:36.525997+00:00",
       "source_hash": "661bfb4c0a3f82c806a11b126fac158fc01506a564cf1962ee35325ad351b49d",
       "slug": "xe-may-dien-sac-khong-vao-dien-thu-tu-kiem-tra-truoc-khi-mang-di-bao-hanh",
@@ -2394,8 +2394,37 @@
       "category_warning": null,
       "git_commit": "7adfe17c68dce79d017a42f647ec8711c59d7e89",
       "run_id": "39106450119",
-      "updated_at": "2026-10-18T07:09:40.428710+00:00",
-      "wp_id": 4000
+      "updated_at": "2026-10-18T07:09:46.162804+00:00",
+      "wp_id": 4000,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-dien-sac-khong-vao-dien-thu-tu-kiem-tra-truoc-khi-mang-di-bao-hanh/",
+      "verified_at": "2026-10-18T07:09:46.162798+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4000,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-dien-sac-khong-vao-dien-thu-tu-kiem-tra-truoc-khi-mang-di-bao-hanh/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-dien-sac-khong-vao-dien-thu-tu-kiem-tra-truoc-khi-mang-di-bao-hanh/",
+        "seo_title": "Xe máy điện sạc không vào điện: thứ tự kiểm tra trước khi bảo hành",
+        "seo_description": "Xe máy điện sạc không vào điện: thứ tự kiểm tra từ cắm lại phích, công tắc pin, nhiệt độ đến lúc phải dừng và mang đến đại lý, theo tài liệu VinFast, Yamaha và PCCC.",
+        "checked_at": "2026-10-18T07:09:46.162777+00:00"
+      }
     }
   },
   "categories": {}
