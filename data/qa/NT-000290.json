@@ -1,0 +1,98 @@
+{
+  "topic_id": "NT-000290",
+  "status": "REVIEW",
+  "source_sha256": "42924251309da59ce35deaf1c26f17b2120afe3ee7c53871f76d2ef09851fa65",
+  "body_sha256": "c01a4a489bdb0a1cad74a43f33e43881da6da151236d28d8762d9335387ee1fd",
+  "word_count": 2140,
+  "quality_score": 85,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": [
+        "Source REVIEW: ValueError: Source excerpt not found"
+      ]
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [
+    "Source REVIEW: ValueError: Source excerpt not found"
+  ],
+  "source_evidence": [],
+  "evidence_recheck": null,
+  "at": "2026-10-18T07:52:23.030152+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "42f142702a75b5d05f67e2d041281ca0c708a23a7e7b8e3b6052c20e98c60079",
+  "triage": {
+    "hold_class": "REAL_RISK",
+    "real_risk": [
+      "G3: Source REVIEW: ValueError: Source excerpt not found"
+    ],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 1,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
