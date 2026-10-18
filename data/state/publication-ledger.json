@@ -6219,7 +6219,7 @@
       }
     },
     "NT-000581": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:35:00.194853+00:00",
       "source_hash": "453c5c598947d5f91257193bc4c4111a59f9a137f8d7b387a00c8174afe80603",
       "slug": "pin-lfp-va-pin-nmc-tren-xe-dien-cung-la-lithium-ion-khac-nhau-o-dau-ve-do-ben-va-an-toan",
@@ -6234,8 +6234,37 @@
       "category_warning": null,
       "git_commit": "71303a43722e9ddcff85275eb9bace9db8e031d9",
       "run_id": "39136366022",
-      "updated_at": "2026-10-18T14:35:04.640230+00:00",
-      "wp_id": 4096
+      "updated_at": "2026-10-18T14:35:10.312756+00:00",
+      "wp_id": 4096,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/pin-lfp-va-pin-nmc-tren-xe-dien-cung-la-lithium-ion-khac-nhau-o-dau-ve-do-ben-va-an-toan/",
+      "verified_at": "2026-10-18T14:35:10.312750+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4096,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/pin-lfp-va-pin-nmc-tren-xe-dien-cung-la-lithium-ion-khac-nhau-o-dau-ve-do-ben-va-an-toan/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/pin-lfp-va-pin-nmc-tren-xe-dien-cung-la-lithium-ion-khac-nhau-o-dau-ve-do-ben-va-an-toan/",
+        "seo_title": "Pin LFP và pin NMC trên xe điện: khác nhau về độ bền và an toàn",
+        "seo_description": "So sánh pin LFP và pin NMC trên xe điện theo Battery University và IEA: điện áp, năng lượng riêng, số chu kỳ, ngưỡng thoát nhiệt và cách tra loại pin của xe.",
+        "checked_at": "2026-10-18T14:35:10.312731+00:00"
+      }
     }
   },
   "categories": {}
