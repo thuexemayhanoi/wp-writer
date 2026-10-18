@@ -128,7 +128,10 @@ def prepare(branch, sha):
                 qa = evaluate(tmp, row_by_id[topic_id], rows=rows, check_claim=False)
             if qa["status"] != "PASS" or qa["seo_score"] < 85:
                 raise ValueError("WRITER_QA_BLOCKED " + topic_id + " " +
-                                 qa["status"] + " SEO=" + str(qa.get("seo_score")))
+                                 qa["status"] + " SEO=" + str(qa.get("seo_score")) +
+                                 " QUALITY=" + str(qa.get("quality_score")) +
+                                 " ERRORS=" + json.dumps(qa.get("errors", []), ensure_ascii=False) +
+                                 " REVIEW=" + json.dumps(qa.get("review", []), ensure_ascii=False))
             prepared.append({"path": path, "raw": raw, "topic_id": topic_id,
                              "hash": hash_value, "status": "QA_PASS", "body": body})
         # Compare the whole incoming batch, not just each article against main.
