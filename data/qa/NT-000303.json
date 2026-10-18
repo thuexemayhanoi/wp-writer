@@ -1,0 +1,128 @@
+{
+  "topic_id": "NT-000303",
+  "status": "PASS",
+  "source_sha256": "0b0a659fcaf60aaf6a072c392e6ea152d2d06583d757a5b8fd518b4e42e32671",
+  "body_sha256": "41f16d86375fa153bdead1ebc6ecf6ed1ad1dc40c806bbe54d5b7467221b7e41",
+  "word_count": 2805,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vinfastauto.com/vn_vi/huong-dan-su-dung-pin-lithium-vinfast-dung-cach",
+      "supports": "VinFast (bài 19/02/2021, xe phiên bản pin lithium, không nêu mẫu): đèn đỏ là đang sạc, đèn xanh là pin đã đầy, đèn đỏ nhấp nháy thì kiểm tra lại nguồn điện hoặc cắm lại chân sạc; sau khi đạt 100% pin vẫn được sạc dòng nhỏ đến khi đèn chuyển xanh; thời gian sạc hiển thị trên mặt đồng hồ; tắt xe trước khi sạc; thao tác cắm sạc dứt khoát.",
+      "sha256": "8a20f6d2efd236773b2d21adfa4b30b5aa7875aa956930afd30098e61c764071",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/cach-sac-pin-xe-may-dien-vinfast-evo200-lite",
+      "supports": "VinFast Evo200 Lite (không ghi ngày đăng trong nội dung đã đọc): đèn đỏ sáng là đang sạc, đèn đỏ nhấp nháy là sạc hoặc pin có sự cố, đèn xanh sáng là pin đầy hoặc sạc chưa kết nối với xe; xanh sáng hoặc đỏ nhấp nháy sau khi cắm thì rút phích AC cắm lại; để sạc tiếp tục đến khi đèn xanh; các khoảng chờ 30 giây và 10 giây; chỉ dùng bộ sạc đi kèm hoặc tương đương do VinFast cung cấp.",
+      "sha256": "15c8a6ff50bcd5cd6db2abd9464a08edc643017594cdef6c15db732d8a09db01",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+      "supports": "Yamaha NEO's (đăng 26/04/2023, sửa đổi 14/11/2024): chế độ chờ sạc và ba dấu hiệu nhận biết (đèn bộ sạc nhấp nháy xanh lá, các vạch đồng hồ pin nhấp nháy); khi pin đầy đèn xanh lá trên bộ sạc và đồng hồ pin tắt; pin không sạc được hoặc đèn báo bộ sạc không sáng thì mang đến đại lý; tiếng ồn bất thường, mùi hôi, khói thì rút phích và mang đến đại lý.",
+      "sha256": "157e78293aed6b4d00dc72457a005186ab9a3736b4c91cf32f78fd7c48672392",
+      "verified_at": "2026-10-18T07:20:43.828186+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "supports": "Cục Cảnh sát PCCC và CNCH (đăng 24/05/2024): khi sạc không ngắt khóa điện (vừa sạc vừa xả), bộ sạc có thể không chuyển sang dòng sạc duy trì (không nhảy đèn) và các hậu quả trang nêu; không sạc khi thiết bị sạc hoặc phương tiện gặp lỗi; bộ sạc không đúng thông số hoặc không đồng bộ với pin có thể gây chập điện hoặc nổ.",
+      "sha256": "353fd2641d5b5be10ce7341c58d9bbf33befd5b1c8cb7c4fc563f6726c98bee4",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-18T07:21:54.745646+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "d099f179a0eccde01bd43d3994e16a61126d5dfb1a356cf49ff87b3cb48b4781",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

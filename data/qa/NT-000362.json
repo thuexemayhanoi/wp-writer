@@ -1,0 +1,132 @@
+{
+  "topic_id": "NT-000362",
+  "status": "PASS",
+  "source_sha256": "c55edf392d3255a5c223f330fb451f27cdd178c5d1b820e104ca685a1f05d4b9",
+  "body_sha256": "95cc6a5bd609bbca43c2d0d2ae0f5ea74dd02e6b7954aa995efce75640dced34",
+  "word_count": 4040,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vuonquocgiabavi.com.vn/diem-tuyen-du-lich/",
+      "supports": "Trang chính thức của Vườn quốc gia Ba Vì liệt kê 12 tuyến du lịch chia thành ba nhóm: tâm linh, phế tích thời Pháp và khám phá thiên nhiên.",
+      "sha256": "546efad1ce7f97277e2ef30215f3338618cd2a648d498cce4fad69cc04dc1c1d",
+      "verified_at": "2026-10-18T07:24:27.759867+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vuonquocgiabavi.com.vn/vuon-quoc-gia-ba-vi-chuyen-di-trong-ngay-ngoan-muc-den-thien-duong-thien-nhien/",
+      "supports": "Bài đăng lại trên website vườn nói chuyến tham quan vườn có thể hoàn thành trong một ngày và đưa lịch gợi ý từ lúc xuất phát từ Hà Nội đến khi quay về.",
+      "sha256": "2e7d5a43905a1269d39b8cafc68326f5cc4d0913129d4a3b3d7b6b1a4b80686f",
+      "verified_at": "2026-10-18T07:24:30.294343+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vietnam.travel/things-to-do/5-hanoi-day-trips",
+      "supports": "vietnam.travel mô tả Ba Vì là điểm đi trong ngày, có thể leo một trong ba đỉnh với đền thờ Hồ Chí Minh và các tiền đồn Pháp bỏ hoang.",
+      "sha256": "d3d1ae32e72969cdcc60af691b87c65deafe482e5c75dd7ef5e3a341be5e863e",
+      "verified_at": "2026-10-18T07:24:31.532052+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2618,
+        "title": "Văn Miếu Quốc Tử Giám: Giá vé, giờ mở cửa và kinh nghiệm tham quan",
+        "why": "stale",
+        "content_hash": "426391b4a1b312c4ae032e08a55ed06562622b9568773cc1c5c177e7f50417cc",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T07:24:44.915340+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "228c821772b2dbbbe5771f2aafd5e7711b85d953e7e952a7f65bc096f2fd884c",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

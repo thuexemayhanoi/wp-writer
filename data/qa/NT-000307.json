@@ -70,43 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/khuyen-cao-mot-so-bien-phap-bao-dam-an-toan-phong-chay-va-chua-chay-doi-voi-phuong-tien-giao-thong-co-gioi-4821",
-      "supports": "PCCC (11/08/2025): khi thấy lửa, khói hoặc nhiệt độ cao bất thường - bình tĩnh, tắt động cơ nếu có thể, hô hoán, gọi 114; với xe điện dùng bình chữa cháy gốc nước hoặc cát ẩm; cháy lớn thì ra khu vực an toàn chờ lực lượng chức năng.",
-      "sha256": "6e07585b7860780d378e49e4e9c237405e1afb2cd364f013adeec96560c7c85a",
-      "research_checked_at": "2026-10-17",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    },
-    {
-      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
-      "supports": "PCCC (24/05/2024): không sạc khi thiết bị sạc hoặc phương tiện gặp lỗi; pin có dấu hiệu phù, nứt thì thay pin mới; liệt kê nguyên nhân gây phồng, chập, cháy khi sạc.",
-      "sha256": "353fd2641d5b5be10ce7341c58d9bbf33befd5b1c8cb7c4fc563f6726c98bee4",
-      "research_checked_at": "2026-10-17",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
-      "supports": "Yamaha NEO's: bộ sạc ồn bất thường, mùi hôi hoặc khói thì rút phích ngay và mang đến đại lý, không tự sửa; không dùng pin vỏ hư hỏng, nứt hoặc có mùi lạ.",
-      "sha256": "157e78293aed6b4d00dc72457a005186ab9a3736b4c91cf32f78fd7c48672392",
-      "verified_at": "2026-10-18T07:15:24.888625+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vinfastauto.com/vn_vi/huong-dan-cach-sac-xe-dien-khong-chai-pin",
-      "supports": "VinFast: thấy mùi lạ khi sạc thì dừng sạc ngay; khi pin nóng trên 72°C nên dừng sạc và mang pin tới showroom hoặc đại lý ủy quyền.",
-      "sha256": "4a5d5091f67d9749dc71f3d2ee63c9e263ea001bdb9d058f7bfda36aefc261fd",
-      "research_checked_at": "2026-10-17",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -132,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T07:15:29.323198+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T07:18:32.056942+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "06438f9b98ea1470a8634dd1fc0a589af91d11a16caab6279da3c0144e02cb97",
+  "inventory_sha256": "a6849a3e37c4b4de501b2b76432169ef3d6bf10a0bb1da7a62b00483ced53582",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

@@ -1,0 +1,133 @@
+{
+  "topic_id": "NT-000383",
+  "status": "PASS",
+  "source_sha256": "b36ee5a50255c90cc96c8f81102a2a2114260945d53b25da96d5c63aebb06e56",
+  "body_sha256": "2c0a3c1437442a7ca7f84fc2b105d52cb8fc0a9ad7b8492076bf6ed391cc3dbc",
+  "word_count": 2779,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://thanglong.chinhphu.vn/ha-noi-mien-phi-xe-buyt-bo-tri-220-diem-gui-xe-trong-vung-phat-thai-thap-103260701085847009.htm",
+      "supports": "Sở Xây dựng Hà Nội (qua Báo điện tử Chính phủ, đăng 01/07/2026): miễn vé các tuyến xe buýt trợ giá cho hành khách di chuyển trong phạm vi Vành đai 1 từ 1/7/2026 đến hết 30/6/2027; không áp dụng xe buýt kinh doanh và xe buýt du lịch; 45 tuyến và nhánh tuyến (29 tuyến có điểm đầu hoặc cuối trong khu vực, 16 tuyến đi qua); 44 trạm xe đạp công cộng với 456 xe; 220 bãi và điểm trông giữ xe; 10 bãi Park and Ride dự kiến.",
+      "sha256": "24fd71e1bec2c9124231676a6b88b5daf87cbe9f5affa68d308bab35770624d8",
+      "verified_at": "2026-10-18T07:26:03.713558+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vov.gov.vn/nguoi-dan-ha-noi-thay-gi-sau-gan-1-tuan-mien-phi-xe-buyt-vanh-dai-1-dtnew-1152903",
+      "supports": "VOV (cập nhật 06/07/2026), thuật lại thông tin của Trung tâm Quản lý và Điều hành giao thông Hà Nội sau gần một tuần triển khai: căn cứ Nghị quyết 68/2026 của HĐND; 45 tuyến thuộc diện áp dụng; tuyến đi qua cả trong và ngoài Vành đai 1 được tạm tính tiền toàn tuyến rồi tự động hoàn phần quãng đường trong phạm vi miễn dựa trên điểm xuống; ví dụ điểm Hào Nam; vướng mắc thẻ vé điện tử, quét mã QR; 133,230 lượt đi miễn phí đến ngày đăng.",
+      "sha256": "e57c6d977a850b23baa14ec44560cae01bab563019f9957a66683e5d91bd1c72",
+      "verified_at": "2026-10-18T07:26:09.130634+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2055,
+        "title": "App Thuê Xe Máy Hà Nội Nguyễn Tú – Chọn Xe & Tính Giá Nhanh",
+        "why": "stale",
+        "content_hash": "984922cf520fb43f859f4ca1d858e29bed5cd5f00813797ff934b0b5fb7da7fc",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2399,
+        "title": "Honda ICON e: có gì đáng chú ý với người dùng xe điện đô thị?",
+        "why": "stale",
+        "content_hash": "548de8447050fd0d5b76ead88b2cb93eeac7c91d679ca89f64b42afda3bc3023",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T07:26:14.593688+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "f3a8573922d2b1a9ff0a54a77dcbe3eeee241bc6c984a15cb2857a7b431b7e4a",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

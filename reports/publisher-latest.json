@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-18T07:18:00.905992+00:00",
-  "attempted": 6,
+  "at": "2026-10-18T07:26:51.258704+00:00",
+  "attempted": 10,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -22,7 +22,260 @@
       "action": "manual reconciliation; never create/update automatically"
     },
     {
-      "topic_id": "NT-000301",
+      "topic_id": "NT-000273",
+      "status": "REVIEW",
+      "source_sha256": "90b615b7643c38b506ff0d4392a15b22ab5c46bbcc64338a8cdbb63eb888b79f",
+      "body_sha256": "f3c46ff9089141316f542b5adfce71be03d583dca0cfc3cab250c0d6e3c4ab2b",
+      "word_count": 3171,
+      "quality_score": 85,
+      "seo_score": 100,
+      "seo_min_required": 85,
+      "seo_checks": {
+        "seo_title_relevance": {
+          "points": 15,
+          "max": 15
+        },
+        "meta_description_relevance": {
+          "points": 15,
+          "max": 15
+        },
+        "opening_intent_focus": {
+          "points": 15,
+          "max": 15
+        },
+        "direct_answer": {
+          "points": 10,
+          "max": 10
+        },
+        "headings_usefulness": {
+          "points": 15,
+          "max": 15
+        },
+        "verified_contextual_links": {
+          "points": 15,
+          "max": 15
+        },
+        "descriptive_anchor": {
+          "points": 5,
+          "max": 5
+        },
+        "canonical_identity": {
+          "points": 10,
+          "max": 10
+        }
+      },
+      "seo_recommendations": [],
+      "gates": {
+        "1": {
+          "errors": [],
+          "review": []
+        },
+        "2": {
+          "errors": [],
+          "review": []
+        },
+        "3": {
+          "errors": [],
+          "review": [
+            "Source REVIEW: ValueError: Source excerpt not found"
+          ]
+        },
+        "4": {
+          "errors": [],
+          "review": []
+        },
+        "5": {
+          "errors": [],
+          "review": []
+        },
+        "6": {
+          "errors": [],
+          "review": []
+        }
+      },
+      "errors": [],
+      "review": [
+        "Source REVIEW: ValueError: Source excerpt not found"
+      ],
+      "source_evidence": [
+        {
+          "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=phu-kien&search=honda",
+          "supports": "Honda Việt Nam (mục hỏi đáp, cập nhật 21/09/2021): 1.000 km đầu bắt buộc thay dầu rồi 6.000 km một lần cho xe gắn máy, rút ngắn khi dùng nhiều; dầu chai MB cho xe ga.",
+          "sha256": "b3c3def11d2b0bee91f7a5882e8c27fc243ba61fe6afab0c8ea73ccf2e350453",
+          "verified_at": "2026-10-18T07:19:59.469666+00:00",
+          "verification_method": "live",
+          "live_checked": true
+        }
+      ],
+      "evidence_recheck": {
+        "pages": [
+          {
+            "id": 2381,
+            "title": "VinFast Evo có gì đáng chú ý? Đánh giá theo nhu cầu đi hằng ngày",
+            "why": "stale",
+            "content_hash": "c851a814cae42699ad2ea480aaa5a00f4dace79f20e59b496f4f870eece8687b",
+            "jaccard": 0.0,
+            "intent_match": null,
+            "verdict": "INDEPENDENT"
+          }
+        ],
+        "independent": true,
+        "max_jaccard": 0.25,
+        "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+      },
+      "at": "2026-10-18T07:20:22.000578+00:00",
+      "live_links_checked": true,
+      "legal_required": false,
+      "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+      "inventory_sha256": "d099f179a0eccde01bd43d3994e16a61126d5dfb1a356cf49ff87b3cb48b4781",
+      "triage": {
+        "hold_class": "REAL_RISK",
+        "real_risk": [
+          "G3: Source REVIEW: ValueError: Source excerpt not found"
+        ],
+        "writer_repair": [],
+        "infra_pending": []
+      },
+      "recheck": {
+        "attempts": 1,
+        "max": 3,
+        "exhausted": false,
+        "needs_owner": false
+      }
+    },
+    {
+      "topic_id": "NT-000274",
+      "status": "REVIEW",
+      "source_sha256": "840ea7bce574e789af7c4b9b6c85b9139d49a1732c3cd81629d60faa5decb3cc",
+      "body_sha256": "4b70c5f9328df5316029dcea0a5feedf72a7dda19c81dcbeb3f5477f484c7015",
+      "word_count": 2816,
+      "quality_score": 85,
+      "seo_score": 100,
+      "seo_min_required": 85,
+      "seo_checks": {
+        "seo_title_relevance": {
+          "points": 15,
+          "max": 15
+        },
+        "meta_description_relevance": {
+          "points": 15,
+          "max": 15
+        },
+        "opening_intent_focus": {
+          "points": 15,
+          "max": 15
+        },
+        "direct_answer": {
+          "points": 10,
+          "max": 10
+        },
+        "headings_usefulness": {
+          "points": 15,
+          "max": 15
+        },
+        "verified_contextual_links": {
+          "points": 15,
+          "max": 15
+        },
+        "descriptive_anchor": {
+          "points": 5,
+          "max": 5
+        },
+        "canonical_identity": {
+          "points": 10,
+          "max": 10
+        }
+      },
+      "seo_recommendations": [],
+      "gates": {
+        "1": {
+          "errors": [],
+          "review": []
+        },
+        "2": {
+          "errors": [],
+          "review": []
+        },
+        "3": {
+          "errors": [],
+          "review": [
+            "Source REVIEW: ValueError: Source excerpt not found"
+          ]
+        },
+        "4": {
+          "errors": [],
+          "review": []
+        },
+        "5": {
+          "errors": [],
+          "review": []
+        },
+        "6": {
+          "errors": [],
+          "review": []
+        }
+      },
+      "errors": [],
+      "review": [
+        "Source REVIEW: ValueError: Source excerpt not found"
+      ],
+      "source_evidence": [
+        {
+          "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=phu-kien&search=honda",
+          "supports": "Honda Việt Nam (mục hỏi đáp, cập nhật 21/09/2021): dầu truyền động cuối (dầu láp) theo tiêu chuẩn Honda thay khoảng 2 năm một lần, rút ngắn khi tải nặng hoặc chạy đường dài; kiểm tra khi đi qua đoạn ngập nước.",
+          "sha256": "b3c3def11d2b0bee91f7a5882e8c27fc243ba61fe6afab0c8ea73ccf2e350453",
+          "verified_at": "2026-10-18T07:20:27.523738+00:00",
+          "verification_method": "live",
+          "live_checked": true
+        }
+      ],
+      "evidence_recheck": {
+        "pages": [
+          {
+            "id": 2417,
+            "title": "Xe máy điện Yadea có tốt không? Ưu nhược điểm người dùng cần biết",
+            "why": "stale",
+            "content_hash": "0164531f890f08be8f0da4a90ffbe1bc5d7ce5908bd8637d53cc98b9fed34354",
+            "jaccard": 0.0,
+            "intent_match": null,
+            "verdict": "INDEPENDENT"
+          },
+          {
+            "id": 2630,
+            "title": "Chùa Trấn Quốc Hà Nội: Lịch sử, giờ mở cửa và kinh nghiệm tham quan",
+            "why": "stale",
+            "content_hash": "1cedf563cfdadc1e4b3bafa07d97d0868a00d865df06edb4c401019a91229635",
+            "jaccard": 0.0,
+            "intent_match": null,
+            "verdict": "INDEPENDENT"
+          }
+        ],
+        "independent": true,
+        "max_jaccard": 0.25,
+        "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+      },
+      "at": "2026-10-18T07:20:41.270991+00:00",
+      "live_links_checked": true,
+      "legal_required": false,
+      "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+      "inventory_sha256": "d099f179a0eccde01bd43d3994e16a61126d5dfb1a356cf49ff87b3cb48b4781",
+      "triage": {
+        "hold_class": "REAL_RISK",
+        "real_risk": [
+          "G3: Source REVIEW: ValueError: Source excerpt not found"
+        ],
+        "writer_repair": [],
+        "infra_pending": []
+      },
+      "recheck": {
+        "attempts": 1,
+        "max": 3,
+        "exhausted": false,
+        "needs_owner": false
+      }
+    },
+    {
+      "topic_id": "NT-000303",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 167,
       "category_resolution": "EXACT",
@@ -30,43 +283,75 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-000302",
+      "topic_id": "NT-000304",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 167,
+      "category_id": 168,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "battery-charging",
+      "intended_taxonomy_key": "electric-tech",
       "category_warning": null
     },
     {
-      "topic_id": "NT-000307",
+      "topic_id": "NT-000308",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 167,
+      "category_id": 166,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "battery-charging",
+      "intended_taxonomy_key": "ebikes",
       "category_warning": null
     },
     {
-      "topic_id": "NT-000382",
+      "topic_id": "NT-000309",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 176,
+      "category_id": 166,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "urban-mobility",
+      "intended_taxonomy_key": "ebikes",
       "category_warning": null
     },
     {
-      "topic_id": "NT-000387",
+      "topic_id": "NT-000362",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 174,
+      "category_id": 175,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "food-culture",
+      "intended_taxonomy_key": "trip-planning",
       "category_warning": null
     },
     {
-      "topic_id": "NT-000388",
+      "topic_id": "NT-000363",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 174,
+      "category_id": 175,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "food-culture",
+      "intended_taxonomy_key": "trip-planning",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000367",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 173,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "vietnam-travel",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000368",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 173,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "vietnam-travel",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000383",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 177,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "green-travel",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000384",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 175,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "trip-planning",
       "category_warning": null
     }
   ],

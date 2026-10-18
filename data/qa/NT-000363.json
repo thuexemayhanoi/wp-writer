@@ -1,0 +1,132 @@
+{
+  "topic_id": "NT-000363",
+  "status": "PASS",
+  "source_sha256": "758133d8beec5658247d9b58ffe9b5bfc823ffd690c5177590f564e47c6d78fc",
+  "body_sha256": "eed6f77524cf55bc1009e6936ee09be56e8ccb3d22c5166c46ea03f44152ee27",
+  "word_count": 2544,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://bvhttdl.gov.vn/le-hoi-du-lich-chua-huong-bao-ton-di-san-gan-voi-phat-trien-du-lich-lay-du-khach-lam-trung-tam-2026020614094767.htm",
+      "supports": "Bộ VHTTDL đăng thông tin Ban tổ chức: lễ hội du lịch chùa Hương 2026 diễn ra 18/2–11/5/2026, khai hội 22/2/2026 (mùng 6 tháng Giêng), bốn tuyến tham quan chính và khoảng 20 điểm.",
+      "sha256": "52e6a051d0c6c2960b020c34677d1d4953ebddc9e7df6eec29c308df5ffc1294",
+      "verified_at": "2026-10-18T07:24:59.037279+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vietnam.travel/things-to-do/festival-event/perfume-pagoda-festival",
+      "supports": "vietnam.travel (cơ quan du lịch quốc gia): chùa Hương cách Hà Nội khoảng 70 km, hành hương qua núi đá vôi, sông, ruộng lúa; có thể tham quan quanh năm nhưng lễ hội là dịp đặc biệt.",
+      "sha256": "16cfa5708063f209fb8610d177218d49c61d05a202c9f3c76999ada27e630662",
+      "verified_at": "2026-10-18T07:24:59.993574+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vietnam.travel/things-to-do/5-hanoi-day-trips",
+      "supports": "vietnam.travel mô tả hành trình tới chùa Hương gần hai giờ từ Hà Nội, đi thuyền trên suối Yến và leo bậc đá tới cửa động.",
+      "sha256": "d3d1ae32e72969cdcc60af691b87c65deafe482e5c75dd7ef5e3a341be5e863e",
+      "verified_at": "2026-10-18T07:25:00.761840+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2542,
+        "title": "Xe máy bị nóng máy nhanh do đâu? Những điểm nên kiểm tra đầu tiên",
+        "why": "stale",
+        "content_hash": "994e220a440cdb5f8e90756cb7e6d0319a7cf0377e7377b9dd7b0b64ed9e9f51",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T07:25:05.150846+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "87ab7b3f52bb48ff4d77a696bb624c3264d7258bd2443ed5285dfcb153ac25c1",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

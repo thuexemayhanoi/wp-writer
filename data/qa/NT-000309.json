@@ -1,0 +1,110 @@
+{
+  "topic_id": "NT-000309",
+  "status": "PASS",
+  "source_sha256": "5f79bab5cc9d532c5e96fc1fee7fd791ea267d3486e2cd520c1d69c453261ebc",
+  "body_sha256": "f119373669f1db88014e034d68b3dd43ddf8ecde1751ac1bdcdf612f876de30e",
+  "word_count": 2554,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/muc-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-an-toan-giao-thong-duong-bo-tu-01012025-d1-t1624",
+      "supports": "Bộ Công an (31/12/2024): Nghị định 168/2024/NĐ-CP có hiệu lực từ 01/01/2025; người điều khiển xe đạp máy phải đội \"mũ bảo hiểm cho người đi mô tô, xe máy\" và cài quai đúng quy cách.",
+      "sha256": "e8efc1f655551f652800f70aed9f1c8772c2856b4ab7fa6003f6f90376d4a0bc",
+      "verified_at": "2026-10-18T07:22:52.122360+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://pbgdpl.hanoi.gov.vn/giai-dap-phap-luat/-/asset_publisher/M248tqbaPaRY/content/-ieu-khien-xe-ap-ien-co-phai-oi-mu-bao-hiem-khong-",
+      "supports": "Trang thông tin tuyên truyền, phổ biến pháp luật của Sở Khoa học và Công nghệ Hà Nội (27/02/2025) trả lời trực tiếp câu hỏi xe đạp điện có phải đội mũ bảo hiểm: trích Điều 34 khoản 2 (xe đạp máy gồm cả xe đạp điện) và Điều 31, kết luận người ngồi trên xe đạp máy phải đội mũ và cài quai đúng quy cách.",
+      "sha256": "1e2e1c9b780101db4f30115e9a4452570cbf14ec783bfcc17140ae4605901f04",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-18T07:24:10.404120+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "42f799e4f6156d6dbcf4034f6acdbc6e64ac12c2cad5184088d916bf7939d66b",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

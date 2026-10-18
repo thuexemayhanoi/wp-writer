@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://dsvh.gov.vn/tri-thuc-nau-co-bat-trang-22256",
-      "supports": "Cục Di sản văn hóa (trang không ghi ngày, theo hồ sơ tư liệu của Cục): nguyên liệu và bối cảnh làng Bát Tràng, cỗ bát trân (6 bát, 8 đĩa) và cỗ 4 bát 4 đĩa, các món không thể thiếu, canh măng mực và su hào xào mực, cách tổ chức mâm cỗ (chuẩn bị 3-7 ngày), dụng cụ gốm Bát Tràng, khẩu quyết dân gian, và việc ghi danh theo Quyết định 2229/QĐ-BVHTTDL ngày 27/6/2025.",
-      "sha256": "2c194937c34bdd130f8c9fed3bd0bd81f6e69e603bf95158e18ad8623309cf7f",
-      "verified_at": "2026-10-18T07:17:12.415697+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://bvhttdl.gov.vn/le-hoi-van-hoa-am-thuc-ha-noi-2025-ton-vinh-gia-tri-di-san-am-thuc-truyen-thong-20251217085250974.htm",
-      "supports": "Bộ Văn hóa, Thể thao và Du lịch (17/12/2025): bài về Lễ hội văn hóa ẩm thực Hà Nội 2025 nêu con số 7 di sản ẩm thực đã ghi danh quốc gia kèm danh sách sáu tên, trong đó tri thức nấu cỗ Bát Tràng (xã Bát Tràng), và phần trình diễn nấu cỗ Bát Tràng tại lễ hội (19-21/12/2025).",
-      "sha256": "18a0206975622d5b57de10ebf6a1964cd5817a83024655b39a56b1da069c10de",
-      "verified_at": "2026-10-18T07:17:15.396699+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vov.gov.vn/cha-ca-la-vong-ngon-co-nao-dtnew-1107239",
-      "supports": "VOV (cập nhật 20/8/2025): ngày 13/8/2025 Bộ công bố Danh mục đối với chả cá Lã Vọng; nghề làm bánh cuốn Thanh Trì (phường Vĩnh Hưng) và tri thức nấu cỗ Bát Tràng (xã Bát Tràng) cùng được công nhận.",
-      "sha256": "617ffc78bb582a06136795623d109ca6e1cf92d56ac7603de7ee5d13e4a25cee",
-      "verified_at": "2026-10-18T07:17:20.644048+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -112,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T07:17:27.766028+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T07:18:35.221831+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "d0c8c3db121347c7f465201a235583f06295bdee7fb33d08dd65b94b3d14a9fe",
+  "inventory_sha256": "a6849a3e37c4b4de501b2b76432169ef3d6bf10a0bb1da7a62b00483ced53582",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

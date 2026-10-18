@@ -1,1 +1,30 @@
-{}
+{
+  "NT-000273": {
+    "status": "REVIEW",
+    "source_sha256": "90b615b7643c38b506ff0d4392a15b22ab5c46bbcc64338a8cdbb63eb888b79f",
+    "triage": {
+      "hold_class": "REAL_RISK"
+    },
+    "recheck": {
+      "attempts": 1,
+      "max": 3,
+      "exhausted": false,
+      "needs_owner": false
+    },
+    "at": "2026-10-18T07:20:22.000578+00:00"
+  },
+  "NT-000274": {
+    "status": "REVIEW",
+    "source_sha256": "840ea7bce574e789af7c4b9b6c85b9139d49a1732c3cd81629d60faa5decb3cc",
+    "triage": {
+      "hold_class": "REAL_RISK"
+    },
+    "recheck": {
+      "attempts": 1,
+      "max": 3,
+      "exhausted": false,
+      "needs_owner": false
+    },
+    "at": "2026-10-18T07:20:41.270991+00:00"
+  }
+}
