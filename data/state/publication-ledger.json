@@ -4201,6 +4201,24 @@
         "seo_description": "Honda Air Blade dùng nhớt gì: JASO MB, SAE 10W-30, nước làm mát Pre-mix 0,48 hoặc 0,37 lít, bugi LMAR8L-9 và xăng RON 91 hay 92 theo sách hướng dẫn, cách đọc mã kiểu.",
         "checked_at": "2026-10-18T07:55:31.937109+00:00"
       }
+    },
+    "NT-000275": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-18T07:55:49.762153+00:00",
+      "source_hash": "4da4d896292c2654cff8d768d0792d8214ada7571d61799fd6ad1667dcbfeae1",
+      "slug": "honda-lead-125-dung-xang-gi-ron-91-hay-92-muc-ethanol-cho-phep-va-nhot-theo-sach-huong-dan",
+      "expected_status": "publish",
+      "category_id": 170,
+      "visible_hash": "4ace7f422b19b13ed3f12be839424e4217392292783cd699e1a39478cac0bb8c",
+      "first_paragraph": "Honda LEAD 125 dùng xăng gì? Theo sách hướng dẫn LEAD 125 của Honda Việt Nam, xe chỉ dùng xăng không chì, nhưng mức RON khuyên dùng chia theo nhóm mã kiểu: nhóm AD, TH, II TH ghi RON 91 hoặc cao hơn, nhóm V, II V, III V ghi RON 92 hoặc cao hơn. Về ethanol, các nhóm trừ TH và II TH ghi không quá 10%, riêng TH và II TH ghi không quá 20%; bình xăng chứa 6,0 lít. Về nhớt, sách khuyên dầu máy Honda 4 kỳ cho xe máy đạt API SJ hoặc cao hơn, JASO T 903 loại MB và SAE 10W-30. Vì sách không đưa một con số chung cho mọi chiếc LEAD, việc đầu tiên là xác định xe của bạn thuộc nhóm mã nào.",
+      "meta_title": "Honda LEAD 125 dùng xăng gì: RON 91 hay 92, ethanol và nhớt theo sách",
+      "meta_description": "Honda LEAD 125 dùng xăng gì: RON 91 hay 92 tùy nhóm mã kiểu, ethanol không quá 10% (TH, II TH tới 20%), nhớt JASO MB theo sách hướng dẫn của Honda Việt Nam.",
+      "intended_taxonomy_key": "engine-care",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "2390faa2b9fc944be80c686cf5ea69d0b0018053",
+      "run_id": "39109245013",
+      "updated_at": "2026-10-18T07:55:49.763090+00:00"
     }
   },
   "categories": {}
