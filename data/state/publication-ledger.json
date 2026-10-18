@@ -6507,7 +6507,7 @@
       }
     },
     "NT-000678": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:55:39.311557+00:00",
       "source_hash": "5a5c89cedafd6f1664d218f2160c0612cb42f91318b17d382943b6e265a55b3e",
       "slug": "taxi-ung-dung-goi-xe-va-xe-om-o-viet-nam-anh-uc-canada-khuyen-du-khach-chon-the-nao",
@@ -6522,8 +6522,37 @@
       "category_warning": null,
       "git_commit": "389039dbd9e6d6ebaa4a8d2c07ce279d2ce366ed",
       "run_id": "39137893703",
-      "updated_at": "2026-10-18T14:55:43.106751+00:00",
-      "wp_id": 4102
+      "updated_at": "2026-10-18T14:55:49.332835+00:00",
+      "wp_id": 4102,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/taxi-ung-dung-goi-xe-va-xe-om-o-viet-nam-anh-uc-canada-khuyen-du-khach-chon-the-nao/",
+      "verified_at": "2026-10-18T14:55:49.332828+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4102,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/taxi-ung-dung-goi-xe-va-xe-om-o-viet-nam-anh-uc-canada-khuyen-du-khach-chon-the-nao/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/taxi-ung-dung-goi-xe-va-xe-om-o-viet-nam-anh-uc-canada-khuyen-du-khach-chon-the-nao/",
+        "seo_title": "Taxi, ứng dụng gọi xe và xe ôm ở Việt Nam: Anh, Úc, Canada khuyên gì",
+        "seo_description": "Taxi, ứng dụng gọi xe và xe ôm ở Việt Nam qua lời khuyên của Anh, Úc, Canada, Ireland: taxi chính thức, đặt xe qua ứng dụng, xe ôm, đón từ sân bay và khi nào tự lái xe máy.",
+        "checked_at": "2026-10-18T14:55:49.332811+00:00"
+      }
     }
   },
   "categories": {}
