@@ -6315,7 +6315,7 @@
       }
     },
     "NT-000588": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:37:12.283537+00:00",
       "source_hash": "09378c2df99ce66ebcf6e302b645fb47d8062b95f881a544f7dd12437395ddab",
       "slug": "un-38-3-va-iec-62133-la-gi-hai-nhom-thu-nghiem-an-toan-pin-lithium-khac-nhau-o-diem-nao",
@@ -6330,8 +6330,37 @@
       "category_warning": null,
       "git_commit": "71303a43722e9ddcff85275eb9bace9db8e031d9",
       "run_id": "39136366022",
-      "updated_at": "2026-10-18T14:37:16.316105+00:00",
-      "wp_id": 4098
+      "updated_at": "2026-10-18T14:37:22.168136+00:00",
+      "wp_id": 4098,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/un-38-3-va-iec-62133-la-gi-hai-nhom-thu-nghiem-an-toan-pin-lithium-khac-nhau-o-diem-nao/",
+      "verified_at": "2026-10-18T14:37:22.168130+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4098,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/un-38-3-va-iec-62133-la-gi-hai-nhom-thu-nghiem-an-toan-pin-lithium-khac-nhau-o-diem-nao/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/un-38-3-va-iec-62133-la-gi-hai-nhom-thu-nghiem-an-toan-pin-lithium-khac-nhau-o-diem-nao/",
+        "seo_title": "UN 38.3 và IEC 62133 là gì: hai nhóm thử nghiệm pin lithium khác nhau",
+        "seo_description": "UN 38.3 và IEC 62133 là gì: UN 38.3 thử độ ổn định khi vận chuyển, IEC 62133-2 thử vận hành an toàn cho pin lithium cầm tay; cách đọc nhãn và giới hạn phạm vi.",
+        "checked_at": "2026-10-18T14:37:22.168109+00:00"
+      }
     }
   },
   "categories": {}
