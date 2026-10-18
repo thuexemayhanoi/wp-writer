@@ -4,15 +4,15 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-18T23:25:44.198725+00:00 |
-| existing_published_posts | 301 |
+| at | 2026-10-18T23:29:32.289753+00:00 |
+| existing_published_posts | 302 |
 | existing_pages | 10 |
 | existing_products | 13 |
 | candidate_topics | 283 |
 | planned_topics | 210 |
 | claimable_topics | 6 |
 | ready_stock | 0 |
-| stock_stages | {'IDEA': 240, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 0, 'PLANNED_HOLD': 3, 'CLAIMED': 54, 'AUTHORED': 1, 'QA_PASS': 0, 'PUBLISHED': 152, 'WP_DRAFT': 0} |
+| stock_stages | {'IDEA': 240, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 0, 'PLANNED_HOLD': 3, 'CLAIMED': 53, 'AUTHORED': 1, 'QA_PASS': 0, 'PUBLISHED': 153, 'WP_DRAFT': 0} |
 | needs_research | True |
 | research_shortfall | 900 |
 | refill_trigger_below_ready | 900 |
@@ -20,18 +20,18 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | refill_state | REFILL_IN_PROGRESS |
 | refill_order | RF-0001 |
 | refill_accepted_so_far | 171 |
-| writing | 72 |
-| draft_authored | 150 |
-| qa_pass | 149 |
+| writing | 62 |
+| draft_authored | 151 |
+| qa_pass | 150 |
 | qa_fail | 0 |
 | qa_review | 1 |
 | repair_queue | 1 |
 | held_by_class | {'REAL_RISK': 1} |
-| g7_pass | 127 |
+| g7_pass | 128 |
 | g7_not_recorded | 25 |
 | wordpress_draft | 0 |
-| wordpress_published | 152 |
-| verified_public | 152 |
+| wordpress_published | 153 |
+| verified_public | 153 |
 | indexed | None |
 | topic_collisions | 1 |
 | category_mapping_errors | 0 |
@@ -48,7 +48,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | queued_topic_ids | [] |
 | pending_wordpress_intents | [] |
 | blocked_writer_sessions | [] |
-| last_wordpress_verified_at | 2026-10-18T23:25:42.523284+00:00 |
+| last_wordpress_verified_at | 2026-10-18T23:29:28.600425+00:00 |
 | capacity | 10000 |
 | authenticated_inventory | True |
 | test_drafts_excluded | 2 |
