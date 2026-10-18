@@ -4395,7 +4395,7 @@
       }
     },
     "NT-000323": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T09:03:46.856876+00:00",
       "source_hash": "0ced864d92c388cdbf11530c4f493f58695ab7e342a3cc421743f680676471e0",
       "slug": "khoang-cach-an-toan-khi-di-xe-may-quy-tac-2-giay-4-giay-va-cach-uoc-luong-bang-mat",
@@ -4410,8 +4410,37 @@
       "category_warning": null,
       "git_commit": "12b678736ce51751511356d452c85984e8a67609",
       "run_id": "39113651665",
-      "updated_at": "2026-10-18T09:03:50.759271+00:00",
-      "wp_id": 4042
+      "updated_at": "2026-10-18T09:03:56.550019+00:00",
+      "wp_id": 4042,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/khoang-cach-an-toan-khi-di-xe-may-quy-tac-2-giay-4-giay-va-cach-uoc-luong-bang-mat/",
+      "verified_at": "2026-10-18T09:03:56.550012+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4042,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/khoang-cach-an-toan-khi-di-xe-may-quy-tac-2-giay-4-giay-va-cach-uoc-luong-bang-mat/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/khoang-cach-an-toan-khi-di-xe-may-quy-tac-2-giay-4-giay-va-cach-uoc-luong-bang-mat/",
+        "seo_title": "Khoảng cách an toàn khi đi xe máy: quy tắc 2 giây và 4 giây",
+        "seo_description": "Khoảng cách an toàn khi đi xe máy theo tài liệu huấn luyện của Honda Việt Nam: quy tắc 2 giây, khi nào dùng 4 giây, bảng mét tham chiếu và cách đếm bằng mốc cố định.",
+        "checked_at": "2026-10-18T09:03:56.549993+00:00"
+      }
     }
   },
   "categories": {}
