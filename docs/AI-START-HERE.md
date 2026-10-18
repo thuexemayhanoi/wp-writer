@@ -58,7 +58,7 @@ Dựa hoàn toàn vào `data/topics.jsonl` + `data/taxonomy.json` (mỗi bài m�
 
 ## Cơ hội SEO có dữ liệu thật — ưu tiên nghiên cứu (18/10/2026)
 
-Trước khi lấy những gợi ý RSS chung, đọc [25 chủ đề SEO và 8 URL nên củng cố](../data/research/seo-opportunities-2026-10-18.json). Dữ liệu GSC từ SiteGuru (16/09–15/10/2026) và Ubersuggest thị trường Việt Nam; các con số trên từng gợi ý **thuộc từ khóa cha**, không phải lượng tìm kiếm đã xác minh của tiêu đề bài dự kiến. Không cam kết trang 1 sau vài tháng.
+Trước khi lấy những gợi ý RSS chung, đọc [25 chủ đề SEO và 10 URL/nhóm từ khóa nên củng cố](../data/research/seo-opportunities-2026-10-18.json). Dữ liệu GSC từ SiteGuru (16/09–15/10/2026) và Ubersuggest thị trường Việt Nam; các con số trên từng gợi ý **thuộc từ khóa cha**, không phải lượng tìm kiếm đã xác minh của tiêu đề bài dự kiến. Không cam kết trang 1 sau vài tháng.
 
 Khi chạy `python scripts/research_v2.py hints --limit 10`, hệ thống hiện **ưu tiên cơ hội SEO-...** chưa tiếp nhận/nộp trước các đề xuất NTD từ RSS. Người nghiên cứu chỉ nhận ý tưởng, kiểm tra trùng với toàn bộ WordPress/Topic Registry và bằng chứng nguồn, rồi nộp qua đúng research batch + Research QA → Trusted Intake; **không** thêm trực tiếp vào PLANNED hoặc đăng WordPress. Nếu cùng intent với URL cũ, **bỏ ý tưởng tạo bài** và ghi nhận nhu cầu nâng cấp URL hiện có: trang chủ cho "thuê xe máy Hà Nội", trang 50cc, danh mục xe điện, sản phẩm và trang thuê tháng. Không được viết trang khu vực hàng loạt theo kiểu doorway.
 
