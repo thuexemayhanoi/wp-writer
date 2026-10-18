@@ -45,11 +45,24 @@ class TopicTaxonomyTests(unittest.TestCase):
 
 class WriterTests(unittest.TestCase):
     def setUp(self):self.rows=[{'topic_id':f'NT-{i:06}','topic_qa_status':'PLANNED'} for i in range(1,12)]
-    def test_three_slots_disjoint(self):
+    def test_nine_slots_disjoint_and_tenth_refused(self):
+        rows=[{'topic_id':f'NT-{i:06}', 'topic_qa_status':'PLANNED'} for i in range(1,32)]
         r={'leases':{}}
-        for i in range(3):_,r=claim(r,self.rows,'session-'+str(i),count=3)
+        for i in range(9):
+            slot,r=claim(r,rows,'session-'+str(i),count=3)
+            self.assertEqual(slot,f'W{i+1}')
         ids=[x for v in r['leases'].values() for x in v['topic_ids']]
-        self.assertEqual(len(ids),len(set(ids)));self.assertEqual(len(r['leases']),3)
+        self.assertEqual(len(ids),27)
+        self.assertEqual(len(ids),len(set(ids)))
+        self.assertEqual(len(r['leases']),9)
+        with self.assertRaisesRegex(ValueError,'Slot has a valid lease'):
+            claim(r,rows,'session-tenth',count=1)
+    def test_explicit_w9_works_and_w10_rejected(self):
+        slot,r=claim({'leases':{}},self.rows,'session-nine','W9',count=2)
+        self.assertEqual(slot,'W9')
+        self.assertEqual(len(r['leases']['W9']['topic_ids']),2)
+        with self.assertRaisesRegex(ValueError,'Unknown slot'):
+            claim({'leases':{}},self.rows,'session-ten','W10',count=2)
     def test_no_lease_stealing(self):
         _,r=claim({'leases':{}},self.rows,'session-one','W1')
         with self.assertRaises(ValueError):claim(r,self.rows,'session-two','W1')

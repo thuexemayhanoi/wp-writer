@@ -59,6 +59,18 @@ class RequestStatusTests(unittest.TestCase):
         self.assertEqual(self.registry['leases']['W1']['topic_ids'],['NT-000002'])
         self.assertEqual(len(self.state.persisted),1)
 
+    def test_auto_claim_uses_w9_after_eight_other_sessions(self):
+        for i in range(1,9):
+            self.registry['leases'][f'W{i}']={
+                'session':f'other-session-{i}',
+                'topic_ids':[f'NT-{900000+i:06}'],
+                'claimed_at':'2026-10-18T00:00:00+00:00',
+                'expires_at':'2099-01-01T00:00:00+00:00'}
+        self.request()
+        self.execute_request()
+        self.assertEqual(self.registry['processed_requests'][self.session]['slot'],'W9')
+        self.assertEqual(self.registry['leases']['W9']['topic_ids'],['NT-000002'])
+
     def test_blocked_request_causes_nonzero_run_and_durable_reason(self):
         self.request(topic_ids=['NT-888888'])
         with self.assertRaisesRegex(SystemExit,'BLOCKED'):
