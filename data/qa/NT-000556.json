@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vnexpress.net/cam-nang-du-lich-pu-luong-4153045.html",
-      "supports": "Cẩm nang VnExpress (cập nhật 9/10/2026): Pù Luông cách Hà Nội khoảng 160 km; từ Hà Nội theo quốc lộ 6 qua Mai Châu, Hòa Bình rồi quốc lộ 15C, hoặc theo đường Hồ Chí Minh qua Cúc Phương, Cẩm Thủy; trong khu bảo tồn đi bằng xe máy, xe đạp hoặc trekking.",
-      "sha256": "8af7b85c8c363d76a935d947308751c6d9beb1f984f67b8ce1e0d6c4ea8caf28",
-      "verified_at": "2026-10-18T14:00:52.323050+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnam.travel/things-to-do/pu-luong-nature-lovers",
-      "supports": "vietnam.travel (trang Pu Luong for nature lovers): Pù Luông cách Hà Nội khoảng 150 km, đi ô tô chừng bốn tiếng rưỡi; có xe đưa đón có dừng ở Mai Châu; không có xe buýt thẳng, có xe tới Mai Châu rồi taxi 90 phút.",
-      "sha256": "6a2b3108e4d73a52f4f2be59c3f4ffbbc7d5e00dec0a406ada586c0e9e32fd52",
-      "verified_at": "2026-10-18T14:00:53.585661+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnam.travel/things-to-do/7-amazing-national-parks-vietnam",
-      "supports": "vietnam.travel (trang 7 amazing national parks): Pù Luông cách Mai Châu một giờ, cách Hà Nội bốn đến sáu tiếng tùy mùa; mưa bão kéo dài tháng 7 đến 10, rét tháng 12 đến 2; thời điểm tốt nhất đầu tháng 10 khi lúa vàng.",
-      "sha256": "bb6ebf2dcf53ea059f4d2e5e30f5fe326050a1b6eafc69002f75705664d8dc94",
-      "verified_at": "2026-10-18T14:00:54.585451+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -112,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T14:01:07.170574+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T14:01:56.226349+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "dfe019919bf86366ba532d095277c2315dd7ee7f601b56a1246694d2902d2e52",
+  "inventory_sha256": "e0c23ae76d9c75b4a572a20b3a35345effc0c8800ad5496d28a1acc4348107bd",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
