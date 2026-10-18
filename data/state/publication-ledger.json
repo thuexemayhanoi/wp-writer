@@ -6265,6 +6265,24 @@
         "seo_description": "So sánh pin LFP và pin NMC trên xe điện theo Battery University và IEA: điện áp, năng lượng riêng, số chu kỳ, ngưỡng thoát nhiệt và cách tra loại pin của xe.",
         "checked_at": "2026-10-18T14:35:10.312731+00:00"
       }
+    },
+    "NT-000582": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-18T14:36:35.894423+00:00",
+      "source_hash": "1a0d51801ba4128c179e1f4536606fb83b0165830f0591decdbffbf23b4e68a8",
+      "slug": "sac-pin-xe-dien-trong-khoang-nao-20-80-hay-20-100-do-sau-xa-va-tuoi-tho-pin-lithium",
+      "expected_status": "publish",
+      "category_id": 167,
+      "visible_hash": "32e47d7c91694e76af3fe5628ffcf8e19bb85cf66c62b6ed59e8725940fe7a69",
+      "first_paragraph": "Sạc pin xe điện trong khoảng nào phụ thuộc vào hãng và loại pin của đúng mẫu xe, vì các nguồn đã đọc nêu những mốc khác nhau: 20–80% (Dat Bike, và VinFast với pin lithium nói chung), 20–100% kèm sạc đầy định kỳ (VinFast, trang về pin LFP/Gotion), còn Bosch cho biết pin lithium-ion không có hiệu ứng nhớ và có thể sạc ngắn ở bất kỳ mức pin nào. Điểm chung là hạn chế để pin về cạn thường xuyên và tránh giữ pin đầy lâu khi không dùng; mốc cụ thể thì hãy theo sổ tay của xe, không lấy một con số làm quy tắc cho mọi xe.",
+      "meta_title": "Sạc pin xe điện trong khoảng nào: 20–80% hay 20–100% theo từng nguồn",
+      "meta_description": "Sạc pin xe điện trong khoảng nào? So sánh mốc 20–80% và 20–100% của Dat Bike, VinFast, Bosch, Shimano cùng bảng độ sâu xả của Battery University để đọc đúng sổ tay xe.",
+      "intended_taxonomy_key": "battery-charging",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "71303a43722e9ddcff85275eb9bace9db8e031d9",
+      "run_id": "39136366022",
+      "updated_at": "2026-10-18T14:36:35.896704+00:00"
     }
   },
   "categories": {}
