@@ -1,0 +1,132 @@
+{
+  "topic_id": "NT-000215",
+  "status": "PASS",
+  "source_sha256": "effe961467ef1eaf55b5d3af4b0e1f800327e20dc18214020de3d2d4e6af109b",
+  "body_sha256": "897c121b5eb7d12820b7e0c08b638c158bf585250e408ff7740b15aa130e2efb",
+  "word_count": 2749,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-bao-duong-xe-may-exciter-150-de-giu-vung-tuoi-tho-xe/",
+      "supports": "Yamaha (đăng 09.09.2020, sửa 19.07.2024): dấu hiệu bộ côn Exciter 150 cần kiểm tra (xe ì, dính côn, côn hú, máy nóng côn kêu trượt); kiểm tra côn sau 8.000 km; độ rơ chuẩn 8-12 mm; với dấu hiệu bộ côn không tự sửa ở nhà.",
+      "sha256": "7dad4c94591b6f1370ebaa0e7d73132dd4ccf6c9bf6737b9082cfd613cb85634",
+      "verified_at": "2026-10-18T02:46:43.991895+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap",
+      "supports": "Honda (hỏi đáp 2021): hành trình tự do tay côn thay đổi sau một thời gian sử dụng; nếu không điều chỉnh đúng tiêu chuẩn có thể xảy ra hiện tượng rà côn; cần kiểm tra và bảo dưỡng định kỳ.",
+      "sha256": "27952d089177026da7d53ab20653ac75c399ed7cebecdeb32efa171f1b8c602b",
+      "verified_at": "2026-10-18T02:46:46.721475+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/kinh-nghiem-va-cach-chay-xe-con-tay/",
+      "supports": "Yamaha (bài xe côn tay): rà tay côn liên tục làm các lá trong bộ nồi trượt ma sát, mòn nhanh, xe bị ì và vận hành yếu.",
+      "sha256": "7cef2489516cc2bb01041f0b9217629b7b7e697c3d9ca07a83db174bc7f8a0ec",
+      "verified_at": "2026-10-18T02:46:48.099305+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2349,
+        "title": "Xe máy điện giá bao nhiêu? Các nhóm giá phổ biến hiện nay",
+        "why": "stale",
+        "content_hash": "7cbacf7f21600cfcf6443eefa80b95d210de98f76fea5ef8dade3a018e9a3e6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T02:47:00.698476+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "d34b2d7372ad0f5103028425d23ef63363553718fb7984d8bbee4d41f2b90811",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

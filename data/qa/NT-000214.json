@@ -70,40 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-chay-xe-exciter-150-cho-nguoi-moi-va-cac-luu-y-can-nho/",
-      "supports": "Yamaha (đăng 20.07.2020): người mới ở phố đông hay để xe chết máy vì bóp/thả côn và vào ga không đều; nhả côn quá nhanh dễ chết máy; đi số cao khi tốc độ thấp dễ chết máy; nguyên tắc \"nhả côn tăng ga\".",
-      "sha256": "1c6f9d6482dd2ab68d15051ea392a10da4e14070417209dd238ee8cd20dc103e",
-      "verified_at": "2026-10-18T02:41:11.743369+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnexpress.net/nhung-luu-y-cho-nguoi-moi-chay-xe-con-tay-3486989.html",
-      "supports": "VnExpress: người mới sợ chết máy nên kéo ga ngay khi mới ra côn chút ít khiến máy gầm mà xe không đi; thả côn quá vội thì chết máy; tốc độ chậm mà chạy số cao có thể chết máy.",
-      "sha256": "ec4585cbc32e8d46b965d13a69f6cd206a92b766527cb128b576a38d23acae56",
-      "verified_at": "2026-10-18T02:41:14.149148+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/kinh-nghiem-va-cach-chay-xe-con-tay/",
-      "supports": "Yamaha (bài xe côn tay): ngắt côn nhanh, nhả côn từ từ giúp xe không giật, bốc đầu hoặc chết máy; thả côn vội vàng sẽ chết máy.",
-      "sha256": "7cef2489516cc2bb01041f0b9217629b7b7e697c3d9ca07a83db174bc7f8a0ec",
-      "verified_at": "2026-10-18T02:41:15.545543+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dantri.com.vn/doi-song/nhung-luu-y-giup-lai-xe-con-tay-an-toan-20250327161555986.htm",
-      "supports": "Dân trí (27/03/2025, bài có yếu tố quảng bá Yamaha): khi khởi động cần bóp côn, vào số, nhả côn đúng nhịp, nếu không xe có thể giật cục hoặc tắt máy.",
-      "sha256": "b64d36bf02f00f5d720c9dd1f3c9a290ddad249efaae9bf45a342fd01c5a020a",
-      "verified_at": "2026-10-18T02:41:18.390959+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -120,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T02:41:30.296303+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T02:45:25.674476+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "08dc8bfb9c5ea29c16f1d89028bf65901c838871008955924dac2851a4a32d51",
+  "inventory_sha256": "1ef5014942764eeb8b65762bb02c2582dfd8149f14fc61bc6b9bcb91c90cc2ba",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

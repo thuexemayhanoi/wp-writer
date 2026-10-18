@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-18T02:42:04.235771+00:00",
-  "attempted": 2,
+  "at": "2026-10-18T02:47:21.902873+00:00",
+  "attempted": 1,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -22,19 +22,11 @@
       "action": "manual reconciliation; never create/update automatically"
     },
     {
-      "topic_id": "NT-000214",
+      "topic_id": "NT-000215",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
+      "category_id": 170,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000224",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 156,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "reviews",
+      "intended_taxonomy_key": "engine-care",
       "category_warning": null
     }
   ],
