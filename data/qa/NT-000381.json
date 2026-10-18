@@ -1,0 +1,157 @@
+{
+  "topic_id": "NT-000381",
+  "status": "PASS",
+  "source_sha256": "00291f47fbd9e1570df890c14df8f3b658ef3fb3ad895284685f6a347202969e",
+  "body_sha256": "7c3fdcb7cbefadc2e7113da4e4b0d4570ca2427db6e68dce064cbade8d5a8a3e",
+  "word_count": 3637,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://thanglong.chinhphu.vn/ha-noi-mien-phi-xe-buyt-bo-tri-220-diem-gui-xe-trong-vung-phat-thai-thap-103260701085847009.htm",
+      "supports": "Sở Xây dựng Hà Nội (qua Báo điện tử Chính phủ, đăng 01/07/2026): giai đoạn 1 thí điểm từ 1/7 đến hết 31/12/2026; Khu vực 1 gồm không gian phố đi bộ hồ Hoàn Kiếm, khu phố cổ và chợ đêm, cấm xe mô tô, xe gắn máy và ô tô từ 19h đến 24h thứ Sáu, thứ Bảy, Chủ nhật (trừ phương tiện thuộc phạm vi quản lý của Bộ Quốc phòng và Bộ Công an); Khu vực 2 là các tuyến đường bao quanh, hạn chế ô tô trên 16 chỗ trong giờ cao điểm; 4 điểm trung chuyển đón, trả khách; 220 bãi và điểm trông giữ xe; miễn vé xe buýt trợ giá trong Vành đai 1 đến hết 30/6/2027; 44 trạm xe đạp công cộng; 10 bãi Park and Ride dự kiến; các phường chịu trách nhiệm tuyên truyền.",
+      "sha256": "24fd71e1bec2c9124231676a6b88b5daf87cbe9f5affa68d308bab35770624d8",
+      "verified_at": "2026-10-18T07:09:52.177451+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://thanglong.chinhphu.vn/dieu-chinh-thoi-gian-hoat-dong-cua-khong-gian-di-bo-ho-hoan-kiem-103250307150053069.htm",
+      "supports": "Báo điện tử Chính phủ (đăng 07/03/2025), tin về một đợt điều chỉnh tạm thời cho sự kiện: các tuyến phố đi bộ khu vực phố cổ hoạt động từ 19h đến 24h thứ Sáu, thứ Bảy, Chủ nhật và thời gian của không gian đi bộ từng được điều chỉnh; chỉ làm bối cảnh, không phải lịch hiện hành của đợt thí điểm 2026.",
+      "sha256": "106cbc67edc183cfc5790ae7342b37d2934c1d64cdd526a5fb127df03e8bc0d1",
+      "verified_at": "2026-10-18T07:09:54.296001+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vietnamnet.vn/tu-1-7-nguoi-dan-di-lai-the-nao-trong-vung-phat-thai-thap-vanh-dai-1-ha-noi-2531117.html",
+      "supports": "Vietnamnet (metadata trang ghi đăng 30/06/2026), nêu phương án tổ chức giao thông của Sở Xây dựng: Vùng 1 được bao quanh bởi 12 tuyến phố (thêm Ngô Quyền), Vùng 2 giới hạn bởi 10 tuyến (thêm Thợ Nhuộm, Hàng Bông, Phan Đình Phùng), khác với danh sách của Đề án trên cổng thông tin Hà Nội.",
+      "sha256": "2092a04fe70a2c7565cbb29d79eb6f3227a2c2a8d5da32f0702fcf9cc26f2cbd",
+      "verified_at": "2026-10-18T07:09:56.885682+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vietnamnet.vn/ha-noi-chinh-thuc-thi-diem-vung-phat-thai-thap-quanh-ho-guom-tu-1-7-2526098.html",
+      "supports": "Vietnamnet, bản tin ngay sau phiên HĐND thông qua Đề án (15/6/2026; bản đọc không hiện ngày đăng): Khu vực 1 duy trì quy định của không gian đi bộ Hồ Gươm, cấm xe máy, xe gắn máy và ô tô từ 19h đến 24h thứ Sáu, thứ Bảy, Chủ nhật; xe ưu tiên và phương tiện có giấy phép hoạt động cả ngày lẫn đêm; khuyến khích hạn chế xe mô tô sản xuất trước 2008 và xe gắn máy sản xuất trước 2016.",
+      "sha256": "a779b1d27fc151ee9c45221ea814b51f3bdd609a9673f5543a5652e70ba192de",
+      "verified_at": "2026-10-18T07:09:59.425577+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://tuoitre.vn/ha-noi-cong-bo-de-an-vung-phat-thai-thap-ap-dung-tu-ngay-1-7-100260630153418275.htm",
+      "supports": "Tuổi Trẻ, bài về thông cáo ngày 30/6/2026 của Sở Nông nghiệp và Môi trường Hà Nội: không cấm đồng loạt xe mô tô, xe gắn máy, ô tô chạy xăng, dầu trên toàn Vành đai 1; biện pháp cụ thể bắt đầu ở Khu vực 1 và Khu vực 2 phường Hoàn Kiếm theo loại phương tiện và khung giờ; Khu vực 1 cấm toàn bộ phương tiện đường bộ 19h-24h thứ Sáu, thứ Bảy, Chủ nhật; xe ưu tiên theo quy định của pháp luật hoạt động cả ngày lẫn đêm; ranh giới theo bản đồ kèm Quyết định 3273 của UBND thành phố (bản đồ chưa được đọc).",
+      "sha256": "4266d49333ce4fcfef81e530e3a94cac5ba466ec342bffd0db33b1bf18a428d4",
+      "verified_at": "2026-10-18T07:10:01.541353+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://hanoi.gov.vn/tin-tuc-su-kien-noi-bat/thong-qua-de-an-vung-phat-thai-thap-trong-vanh-dai-1-4260615190120617.htm",
+      "supports": "Cổng thông tin Hà Nội (đăng 20:27 15/06/2026), bản đọc đã lưu: HĐND thông qua Đề án; giai đoạn 1 gồm 119 tuyến phố và 5 ngõ chia hai khu vực; các phố bao quanh Khu vực 1 (11 tuyến) và giới hạn Khu vực 2 (7 tuyến); trong thời gian thí điểm thành phố tập trung tuyên truyền; khuyến khích hạn chế xe mô tô, xe gắn máy chạy xăng hoạt động trên nền tảng ứng dụng, xe mô tô sản xuất trước 2008 và xe gắn máy trước 2016. Kiểm tra tự động ngày 18/10/2026 không mở được trang nên dùng bản chụp nghiên cứu.",
+      "sha256": "5e798fe9c4aa2ea4bab94e5166b69b9d4de05cb9dd6cc08b1f0698f134464840",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 847,
+        "title": "Cho Thuê Xe Máy Long Biên Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "b5fb83c364291e411f4ac4fd85d1405db1ab931f77358a7ddd0a893eaba8aaa1",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T07:11:17.594972+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "28e1b6a32cf2b12a3f96d037b73d8052f5b03c4d80455f498e0839974068ac4c",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "topic_id": "NT-000306",
+  "status": "PASS",
+  "source_sha256": "661bfb4c0a3f82c806a11b126fac158fc01506a564cf1962ee35325ad351b49d",
+  "body_sha256": "8042a5d24a6d41dfa9a47887a8b360772fd72790f2b9394d4604e0b378d600d7",
+  "word_count": 3495,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vinfastauto.com/vn_vi/co-nen-sac-xe-may-qua-dem-khong-4-luu-y-nap-nang-luong-dung-cach",
+      "supports": "VinFast (bài đăng 2021, sửa đổi 03/2023): sạc không vào có thể do thao tác cắm sạc không dứt khoát, kết nối chập chờn khiến bộ sạc chuyển sang chế độ tự bảo vệ; nên rút phích rồi cắm lại, và mang xe đến nhà phân phối chính hãng nếu vẫn lỗi.",
+      "sha256": "034821dfa0d0c9d05e292eb894daa6ecff3e288e6951159d2643a083f271560d",
+      "research_checked_at": "2026-10-17",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/cach-sac-pin-xe-may-dien-vinfast-evo200-lite",
+      "supports": "VinFast Evo200 Lite: phải bật công tắc pin dưới yên trước khi cắm sạc thì mới sạc được; đèn xanh sáng hoặc đèn đỏ nhấp nháy sau khi cắm thì rút phích AC rồi cắm lại; pin vượt 55°C tự từ chối sạc.",
+      "sha256": "15c8a6ff50bcd5cd6db2abd9464a08edc643017594cdef6c15db732d8a09db01",
+      "research_checked_at": "2026-10-17",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+      "supports": "Yamaha NEO's: nếu pin không sạc được (màn hình báo hoặc đèn bộ sạc không sáng) thì mang xe đến đại lý Yamaha; bộ sạc ồn, mùi hôi hoặc khói thì rút phích ngay; chế độ chờ sạc có thể tạm dừng sạc khi quá nóng hoặc quá lạnh.",
+      "sha256": "157e78293aed6b4d00dc72457a005186ab9a3736b4c91cf32f78fd7c48672392",
+      "verified_at": "2026-10-18T07:08:19.085298+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "supports": "PCCC (24/05/2024): không sạc cho phương tiện khi phát hiện thiết bị sạc hoặc phương tiện gặp lỗi; sạc bằng bộ sạc đúng thông số, đồng bộ với pin.",
+      "sha256": "353fd2641d5b5be10ce7341c58d9bbf33befd5b1c8cb7c4fc563f6726c98bee4",
+      "research_checked_at": "2026-10-17",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-18T07:09:36.479068+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "7f80022d257fa9d216f139a4c8543df352587b0591561bbd866b2cba719c5b0c",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

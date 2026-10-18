@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-18T06:42:29.152571+00:00",
-  "attempted": 1,
+  "at": "2026-10-18T07:11:53.200530+00:00",
+  "attempted": 3,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -22,11 +22,27 @@
       "action": "manual reconciliation; never create/update automatically"
     },
     {
-      "topic_id": "NT-000282",
+      "topic_id": "NT-000306",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 170,
+      "category_id": 160,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "engine-care",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000381",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 176,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000386",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 174,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "food-culture",
       "category_warning": null
     }
   ],
