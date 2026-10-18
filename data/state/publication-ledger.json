@@ -2667,7 +2667,7 @@
       }
     },
     "NT-000382": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T07:16:58.195784+00:00",
       "source_hash": "a81acff0b1da4b63bf052bed8c59303df05a77989f47e3886d68c455feef616d",
       "slug": "gui-xe-may-quanh-ho-guom-va-pho-co-diem-do-xe-thanh-pho-cong-bo-cho-dot-thi-diem-1-7-2026",
@@ -2682,8 +2682,37 @@
       "category_warning": null,
       "git_commit": "c59b8586d81914c1fda982924f9aa7eb41468dd1",
       "run_id": "39106725943",
-      "updated_at": "2026-10-18T07:17:02.163298+00:00",
-      "wp_id": 4006
+      "updated_at": "2026-10-18T07:17:07.994097+00:00",
+      "wp_id": 4006,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/gui-xe-may-quanh-ho-guom-va-pho-co-diem-do-xe-thanh-pho-cong-bo-cho-dot-thi-diem-1-7-2026/",
+      "verified_at": "2026-10-18T07:17:07.994092+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4006,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/gui-xe-may-quanh-ho-guom-va-pho-co-diem-do-xe-thanh-pho-cong-bo-cho-dot-thi-diem-1-7-2026/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/gui-xe-may-quanh-ho-guom-va-pho-co-diem-do-xe-thanh-pho-cong-bo-cho-dot-thi-diem-1-7-2026/",
+        "seo_title": "Gửi xe máy quanh Hồ Gươm và phố cổ: điểm đỗ xe thành phố công bố",
+        "seo_description": "Gửi xe máy quanh Hồ Gươm và phố cổ: các điểm đỗ xe Sở công bố trước đợt thí điểm 1/7/2026, điều danh mục chưa nói (loại xe, phí, giờ) và cách xác nhận tại chỗ.",
+        "checked_at": "2026-10-18T07:17:07.994074+00:00"
+      }
     }
   },
   "categories": {}
