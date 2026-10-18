@@ -6075,7 +6075,7 @@
       }
     },
     "NT-000677": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:31:20.254224+00:00",
       "source_hash": "98ffb444c5c1bb66f1bb5e1376405164e7d8d8587cb4f140bc11ad3e74a83b9c",
       "slug": "mua-bao-o-viet-nam-keo-dai-den-thang-may-du-khach-di-xe-may-nen-theo-doi-canh-bao-nao",
@@ -6090,8 +6090,37 @@
       "category_warning": null,
       "git_commit": "5c810055e9fa70a06936c5b2f18ce99194ed0704",
       "run_id": "39135864972",
-      "updated_at": "2026-10-18T14:31:24.117015+00:00",
-      "wp_id": 4093
+      "updated_at": "2026-10-18T14:31:30.061140+00:00",
+      "wp_id": 4093,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/mua-bao-o-viet-nam-keo-dai-den-thang-may-du-khach-di-xe-may-nen-theo-doi-canh-bao-nao/",
+      "verified_at": "2026-10-18T14:31:30.061133+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4093,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/mua-bao-o-viet-nam-keo-dai-den-thang-may-du-khach-di-xe-may-nen-theo-doi-canh-bao-nao/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/mua-bao-o-viet-nam-keo-dai-den-thang-may-du-khach-di-xe-may-nen-theo-doi-canh-bao-nao/",
+        "seo_title": "Mùa bão ở Việt Nam kéo dài đến tháng mấy: đối chiếu bốn nguồn",
+        "seo_description": "Mùa bão ở Việt Nam kéo dài đến tháng mấy? Bốn nguồn chính phủ Anh, Úc, Mỹ và Canada nêu mốc khác nhau, kèm mùa mưa, lũ và nơi nên theo dõi cảnh báo.",
+        "checked_at": "2026-10-18T14:31:30.061115+00:00"
+      }
     }
   },
   "categories": {}
