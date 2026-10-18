@@ -70,40 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
-      "supports": "Hướng dẫn sử dụng xe Quantum (Dat Bike): phanh động cơ tích hợp ở tay ga điện, độ ghì tỉ lệ với góc nhả ga, chỉ hoạt động ở chế độ D và S, mỗi lần nhả ga nạp lại khoảng 10% pin; khi bóp phanh tay động cơ tự ngắt",
-      "sha256": "ac94fe3ed316f103e53e5432bd19ff4ab03fb1a738bf12bc0e21783d719b9e85",
-      "verified_at": "2026-10-18T14:37:25.899863+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dat.bike/en/huong-dan-su-dung-xe-weaver-en/",
-      "supports": "Hướng dẫn sử dụng Dat Bike Weaver (bản tiếng Anh): nhả ga là động cơ tự tạo lực phanh, mỗi lần nhả ga còn nạp pin, má phanh bền hơn; khi dắt xe có thể thấy nặng do phanh động cơ",
-      "sha256": "f20921c83e38a1986d61aaf36c70f24702e073545efd1926d4ca3fa4ac07d548",
-      "verified_at": "2026-10-18T14:37:27.307584+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dat.bike/cong-nghe-tren-xe-may-dien-dat-bike/",
-      "supports": "Trang công nghệ của Dat Bike: phanh tái sinh biến mô-tơ thành máy phát điện khi giảm tốc, sạc ngược vào pin; hãng nêu tăng quãng đường thêm khoảng 10 – 15% tùy điều kiện lái",
-      "sha256": "26ff80f001d43e29650c39ff251adec1f5f4d32e1570debae068539bde572349",
-      "verified_at": "2026-10-18T14:37:28.644646+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://afdc.energy.gov/fueleconomy/animations/hybrids/hybrid/hybridbraking.html",
-      "supports": "Trung tâm dữ liệu nhiên liệu thay thế của Bộ Năng lượng Hoa Kỳ (AFDC): phanh tái sinh đảo vai trò động cơ điện để bánh xe quay động cơ tạo điện, và việc dùng năng lượng bánh xe quay động cơ làm xe chậm lại",
-      "sha256": "baaca2e8e1a1ae0a73f9adf00d6910f94bdff28fc8c7c1c35104913b06632b9a",
-      "verified_at": "2026-10-18T14:37:29.064137+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -129,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T14:37:34.470281+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T14:52:39.480595+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "de035ad26978cb0b99ab184e1f1f5a2cd76b965f0245f093d62edfb13962231a",
+  "inventory_sha256": "f224da64ab5042000d5e72e7606d5dc296a95e6ed4ba9905d8085e46e30f9877",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

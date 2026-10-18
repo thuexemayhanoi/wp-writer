@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-18T14:39:39.940499+00:00",
-  "attempted": 8,
+  "at": "2026-10-18T14:56:17.860499+00:00",
+  "attempted": 2,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -20,38 +20,6 @@
         }
       },
       "action": "manual reconciliation; never create/update automatically"
-    },
-    {
-      "topic_id": "NT-000290",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000342",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 171,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "driving-licence",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000581",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 168,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "electric-tech",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000582",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 167,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "battery-charging",
-      "category_warning": null
     },
     {
       "topic_id": "NT-000587",
@@ -161,7 +129,7 @@
           "url": "https://webstore.iec.ch/en/publication/2447",
           "supports": "IEC Webstore: IEC 60529 (Degrees of protection provided by enclosures, IP Code) dùng để phân loại mức bảo vệ do vỏ bọc của thiết bị điện có điện áp định mức không quá 72,5 kV.",
           "sha256": "37a4a0eead48c06bded8486d25152bc2e4bb67fa4b0ea7c811688e135dfdfd4d",
-          "verified_at": "2026-10-18T14:36:48.767310+00:00",
+          "verified_at": "2026-10-18T14:54:12.024283+00:00",
           "verification_method": "live",
           "live_checked": true
         },
@@ -169,7 +137,7 @@
           "url": "https://www.westmarine.com/west-advisor/Understanding-IP-Ratings.html",
           "supports": "West Marine (nhà bán lẻ hàng hải): mã IP mô tả hiệu năng trong điều kiện thử của IEC 60529, do hãng hoặc phòng thử độc lập thực hiện; IPX7 là ngâm tạm thời tới 1 m trong 30 phút, chữ X là không có xếp hạng vật rắn; IP68 do hãng đặt độ sâu và thời gian nên chưa chắc hơn IPX7.",
           "sha256": "60afa7abcbf90f24cc9db105eb211dd0d6308dd162ac16b61af1bcb864b874e0",
-          "verified_at": "2026-10-18T14:36:52.272505+00:00",
+          "verified_at": "2026-10-18T14:54:13.330280+00:00",
           "verification_method": "live",
           "live_checked": true
         },
@@ -217,11 +185,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-18T14:37:00.515212+00:00",
+      "at": "2026-10-18T14:54:22.809984+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "a326d19113f0601e8cfeb4ba2b3787114ba0f8e3efbbb280a6d1652ddda2f388",
+      "inventory_sha256": "47670804904219508f94bf361882adbe929c81f7369ad6a43a5de3bcfbfd5330",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -238,35 +206,19 @@
       }
     },
     {
-      "topic_id": "NT-000588",
+      "topic_id": "NT-000678",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 168,
+      "category_id": 176,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "electric-tech",
+      "intended_taxonomy_key": "urban-mobility",
       "category_warning": null
     },
     {
-      "topic_id": "NT-000612",
+      "topic_id": "NT-000679",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 168,
+      "category_id": 161,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "electric-tech",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000671",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 171,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "driving-licence",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000673",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 163,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "rental-procedures",
+      "intended_taxonomy_key": "road-safety",
       "category_warning": null
     }
   ],

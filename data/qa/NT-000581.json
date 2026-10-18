@@ -70,76 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.batteryuniversity.com/article/bu-205-types-of-lithium-ion",
-      "supports": "Battery University BU-205 (cập nhật 08/12/2023): LFP chịu điều kiện sạc đầy tốt hơn các hệ lithium-ion khác nhưng điện áp danh định thấp hơn nên năng lượng riêng thấp hơn; bảng số liệu LFP, NMC.",
-      "sha256": "1e06cd66fcb6154d9a8fca749b060d5c9dae6a09403034e8f879f448c6d7a521",
-      "verified_at": "2026-10-18T14:34:44.997921+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.iea.org/reports/global-ev-outlook-2025/electric-vehicle-batteries",
-      "supports": "IEA Global EV Outlook 2025: mật độ năng lượng pack LFP thấp hơn NMC khoảng 1/5 theo khối lượng và 1/3 theo thể tích, bù lại LFP có thể sạc tới 100% mà không suy giảm đáng kể trong khi NMC thường giới hạn 80%.",
-      "sha256": "532f2bc5c613f795686307eda9d4dd8ebd9a76d6c1869672cb3d1dfdb694dde0",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://www.batteryuniversity.com/article/bu-903-how-to-measure-state-of-charge",
-      "supports": "Battery University BU-903: đường cong xả của LFP, NMC và Li-manganese rất phẳng, 80% năng lượng nằm trong vùng điện áp phẳng nên ước tính phần trăm pin bằng điện áp khó chính xác.",
-      "sha256": "0867c29cc98649dd64c00a479eb7253081ac202e7644af9c0986aeee6e4c8485",
-      "verified_at": "2026-10-18T14:34:48.146456+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vinfastauto.com/vn_vi/kham-pha-thong-so-ky-thuat-xe-may-dien-vinfast-feliz-s",
-      "supports": "Trang VinFast về Feliz S: xe dùng pin LFP do VinFast hợp tác Gotion High-Tech nghiên cứu, sản xuất.",
-      "sha256": "d938582b7e5f836827f3642c28c6a6ba7f8f8ddf47469c84c1a6bc3d4a1b440a",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://vinfastauto.com/vn_vi/cach-sac-pin-xe-may-dien-vinfast-evo200-lite",
-      "supports": "Trang VinFast về Evo200 Lite: pin LFP đặt cố định dưới sàn để chân, sản xuất không phụ thuộc coban và niken.",
-      "sha256": "15c8a6ff50bcd5cd6db2abd9464a08edc643017594cdef6c15db732d8a09db01",
-      "research_checked_at": "2026-10-17",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://dat.bike/cach-sac-pin-cho-xe-dat-bike-quantum-moi-mua/",
-      "supports": "Trang Dat Bike về Quantum: cell LFP trên Quantum hoạt động trong vùng điện áp 2,7–3,65 V.",
-      "sha256": "0b78674be9ab8c8021f70ddc00f0d9b34ffd77f149fcbeaaf9546b355a6f65a1",
-      "verified_at": "2026-10-18T14:34:49.815937+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries",
-      "supports": "IEA Global EV Outlook 2026: cell LFP thế hệ mới nhất tới 205 Wh/kg so với 265 Wh/kg của NMC.",
-      "sha256": "f66c8d6b6bf0d2eb049a446556f4b9b1e0857b297be08f3210434209c6d74d28",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://www.batteryuniversity.com/article/bu-409-charging-lithium-ion",
-      "supports": "Battery University BU-409 (25/10/2021): pin sạc đầy có ngưỡng thoát nhiệt thấp hơn pin sạc một phần (NMC ở mức sạc đầy 170–180°C); LFP sạc tới 3,65 V mỗi cell và bộ sạc cho LFP không tương thích với bộ sạc lithium-ion 3,6 V thông thường; trang cũng nêu tăng dòng sạc không rút ngắn nhiều thời gian đầy.",
-      "sha256": "10546a3d1bae756f43c8666a791ca1d0d764cb7708261042fce6f49e2eb60190",
-      "verified_at": "2026-10-18T14:34:53.140375+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -183,11 +114,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T14:35:00.134842+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T14:52:37.894374+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "7bf5911a090b88c2f2d356484a86651dbfa0e7a78c0b867736da1e19e0aa199b",
+  "inventory_sha256": "f224da64ab5042000d5e72e7606d5dc296a95e6ed4ba9905d8085e46e30f9877",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

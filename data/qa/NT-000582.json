@@ -70,95 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries",
-      "supports": "Battery University BU-808 (cập nhật 11/10/2023): độ sâu xả quyết định số chu kỳ; xả nông bền hơn; xả một phần không sao, lithium-ion không có hiệu ứng nhớ.",
-      "sha256": "54e2c3993a1ba98ab508519d2ba8f4b5a748b24af0d28fd4c15ac7c9a03d7a43",
-      "verified_at": "2026-10-18T14:35:15.776118+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.bosch-ebike.com/us/news/12-questions-about-the-ebike-battery",
-      "supports": "Bosch eBike Systems: hiệu ứng nhớ (giảm dung lượng do xả không hết thường xuyên) không xảy ra với pin lithium-ion.",
-      "sha256": "a8f289f33fe36e25d7d5f0aee3178a8782ece4ad510184f94b1f331e8bc532b1",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
-      "supports": "Dat Bike: pin lithium-ion chịu áp lực lớn nhất khi quá đầy (>90%) hoặc quá cạn (<20%); nguyên tắc \"sạc nông\", rút sạc khoảng 80%.",
-      "sha256": "0f548a2d957b60a67e6ebedf06b634d0ac4677b2ff843c447af7f49b2a5f7ad3",
-      "verified_at": "2026-10-18T14:35:17.688264+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vinfastauto.com/vn_vi/cau-hoi-thuong-gap-khi-tim-hieu-pin-xe-may-dien-vinfast",
-      "supports": "VinFast (pin lithium xe máy điện): tuổi thọ pin tốt hơn khi dùng và bảo quản trong khoảng 20–80% dung lượng.",
-      "sha256": "9ba66891fdacef6f8097e3cc11a4cb8eb94fb66bd96096c6f9c7f6d03148f0b9",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://vinfastauto.com/vn_vi/luu-y-su-dung-doi-voi-pin-cell-lfp-gotion",
-      "supports": "VinFast (trang pin LFP/Gotion, nói chung \"các dòng xe VinFast\"): hoạt động tốt nhất trong khoảng 20–100% SoC, sạc đầy 100% ít nhất mỗi tháng để BMS cân bằng cell.",
-      "sha256": "5382e1b0280b3edcdb4489fff90d49fa25ddfcacdeb3ce0c479bf6197915b0ee",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://bike.shimano.com/support-and-service/faq/STP0A.html",
-      "supports": "Shimano STEPS (S-6100): sạc lặp lại khi chỉ báo ở vùng 100%–80% có thể làm giảm hiệu năng pin Li-ion.",
-      "sha256": "a1dd97369f1254c5eb5260beb181bc833118a3dd3a38ca24f3804ad14b579bec",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://www.iea.org/reports/global-ev-outlook-2025/electric-vehicle-batteries",
-      "supports": "IEA 2025: LFP có thể đạt 100% SoC khi cần mà không suy giảm đáng kể, NMC thường giới hạn 80%.",
-      "sha256": "532f2bc5c613f795686307eda9d4dd8ebd9a76d6c1869672cb3d1dfdb694dde0",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://vinfastauto.com/vn_vi/huong-dan-su-dung-pin-lithium-vinfast-dung-cach",
-      "supports": "VinFast (trang pin lithium): khuyến cáo duy trì dung lượng pin trên 20% khi sử dụng (pin sáng 1 đèn LED).",
-      "sha256": "8a20f6d2efd236773b2d21adfa4b30b5aa7875aa956930afd30098e61c764071",
-      "research_checked_at": "2026-10-17",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://dat.bike/cach-sac-pin-cho-xe-dat-bike-quantum-moi-mua/",
-      "supports": "Dat Bike Quantum: khuyến cáo xe mới sạc đầy ít nhất 1 lần/tuần để cân bằng điện áp giữa các cell.",
-      "sha256": "0b78674be9ab8c8021f70ddc00f0d9b34ffd77f149fcbeaaf9546b355a6f65a1",
-      "verified_at": "2026-10-18T14:35:19.602327+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.rei.com/learn/expert-advice/e-bike-charging.html",
-      "supports": "REI Co-op (lời khuyên chuyên gia về xe đạp điện): pin lithium-ion đời mới không cần xả cạn trước khi sạc; có thể bổ sung sạc bất kỳ lúc nào.",
-      "sha256": "0029bb74285e3a2ee6d4f38f458bfb4eaceb5b553829e68369a71878228d2383",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "TimeoutError"
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -184,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T14:36:35.831266+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T14:52:38.155268+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "a702d06b520318e72452cc3db623f8ddfbdd270d27fdbc369b4367bbdb1287a9",
+  "inventory_sha256": "f224da64ab5042000d5e72e7606d5dc296a95e6ed4ba9905d8085e46e30f9877",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

@@ -1,0 +1,175 @@
+{
+  "topic_id": "NT-000679",
+  "status": "PASS",
+  "source_sha256": "832e274885879f515ed79423b9dad260587077b9b9e85267f88ca6712c48fcdd",
+  "body_sha256": "42996a6d02885bae37b392973c0d00b9375f38ce3ee8258c8393848821f57940",
+  "word_count": 3751,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.who.int/vietnam/news/speeches/speech/speech-of-dr-angela-pratt-at-the-safe-helmets-for-asia-pacific-(shap)-summit-2026",
+      "supports": "Bài phát biểu của đại diện WHO tại Việt Nam ngày 16/09/2026 nêu mũ chỉ cứu người khi thiết kế an toàn, vừa, đội đúng, đội thường xuyên và đạt chuẩn phù hợp; mũ giả hoặc kém chất lượng còn bán rộng rãi ở Việt Nam.",
+      "sha256": "4aef69faea91d515970612fcb0e199eb7d9b9c9fde6205e15809f4b73da5d8eb",
+      "verified_at": "2026-10-18T14:55:52.448596+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.who.int/vietnam/news/speeches/speech/statement-of-dr-kidong-park-on-the-occasion-of-10-year-anniversary-of-helmet-regulation-in-viet-nam",
+      "supports": "Phát biểu của đại diện WHO ngày 17/12/2017 nêu tỷ lệ đội mũ trên 90% nhưng đội đúng và đạt chuẩn chỉ hơn 70%, và nghiên cứu năm 2013 chỉ 40% mũ mới ghi đạt chuẩn vượt thử nghiệm va đập; số liệu cũ.",
+      "sha256": "38e8cbc47e048989aeed7a3e477caeb55db4cd2e4240f31a70545349546e227e",
+      "verified_at": "2026-10-18T14:55:52.610955+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://travel.gc.ca/destinations/vietnam",
+      "supports": "Trang tư vấn của Canada (cập nhật 13/10/2026) nêu người lái và người ngồi sau xe máy phải đội mũ bảo hiểm ở Việt Nam.",
+      "sha256": "126c661b0baedc6f2c337d9d931cfdb12a6a068ad2779ba0c38fbef1e0fbf156",
+      "verified_at": "2026-10-18T14:55:53.582718+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=211194&classid=1&typegroupid=3",
+      "supports": "Cổng văn bản Chính phủ ghi Luật số 36/2024/QH15 ban hành 27-06-2024, có hiệu lực 01-01-2025, dùng để xác định số hiệu và hiệu lực của luật.",
+      "sha256": "abb08b8e0d08714d18341b602eba4326603b141b728e141d334ee74092b606ce",
+      "verified_at": "2026-10-18T14:55:58.585383+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.gov.uk/foreign-travel-advice/vietnam/safety-and-security",
+      "supports": "Trang FCDO của Anh (cập nhật 21/09/2026) nhắc dùng mũ tốt và nêu người lái, người ngồi sau đi xe máy không đội mũ là vi phạm.",
+      "sha256": "a2d5eeadc18979325d7eabf475624e42e88db391550a35a45fab429cad2935c1",
+      "verified_at": "2026-10-18T14:55:58.748061+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+      "supports": "Trang Smartraveller của Úc (cập nhật 24/09/2026) nhắc luôn đội mũ đạt chuẩn an toàn Úc khi đi xe máy.",
+      "sha256": "0fda54ad76e991c5bda450bb9b4d62b83a19052c60b5a8af41cb7af61f08bde2",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 847,
+        "title": "Cho Thuê Xe Máy Long Biên Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "b5fb83c364291e411f4ac4fd85d1405db1ab931f77358a7ddd0a893eaba8aaa1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2588,
+        "title": "Xe số nào tiết kiệm cho người ở Hà Nội từ một đến ba tháng dài ngày?",
+        "why": "stale",
+        "content_hash": "3999a6360763f969b09aaaedde2cebedb8d5351b1b6007c094286363fe5cecfa",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4057,
+        "title": "Mũ bảo hiểm đi kèm xe máy thuê: cách kiểm tra, thử vừa đầu và yêu cầu đổi mũ",
+        "why": "stale",
+        "content_hash": "882e284b19aff377f0d89fc74bb720334b6dd3673b272359304d9ff586e8ebcd",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T14:56:06.820283+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "232cd69f2db7428e92f912f0a501577000ca6c0f0e58bf41e174efa5a517e3c3",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
