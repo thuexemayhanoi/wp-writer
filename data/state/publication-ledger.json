@@ -5211,7 +5211,7 @@
       }
     },
     "NT-000553": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:13:22.367281+00:00",
       "source_hash": "a4917817dfd239e16a50b9dde3e05a80f33f1389255b5a63a6199aa7e2ac4f81",
       "slug": "mu-cang-chai-bang-xe-may-tu-ha-noi-di-quoc-lo-32-qua-deo-khau-pha-va-chon-thang-lua-chin",
@@ -5226,8 +5226,37 @@
       "category_warning": null,
       "git_commit": "d29fe33dd73de36f0fbc6fa6ab9206487f345ab6",
       "run_id": "39134627843",
-      "updated_at": "2026-10-18T14:13:26.253476+00:00",
-      "wp_id": 4074
+      "updated_at": "2026-10-18T14:13:33.328233+00:00",
+      "wp_id": 4074,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/mu-cang-chai-bang-xe-may-tu-ha-noi-di-quoc-lo-32-qua-deo-khau-pha-va-chon-thang-lua-chin/",
+      "verified_at": "2026-10-18T14:13:33.328228+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4074,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/mu-cang-chai-bang-xe-may-tu-ha-noi-di-quoc-lo-32-qua-deo-khau-pha-va-chon-thang-lua-chin/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/mu-cang-chai-bang-xe-may-tu-ha-noi-di-quoc-lo-32-qua-deo-khau-pha-va-chon-thang-lua-chin/",
+        "seo_title": "Mù Cang Chải bằng xe máy từ Hà Nội: quốc lộ 32, đèo Khau Phạ, mùa lúa",
+        "seo_description": "Mù Cang Chải bằng xe máy từ Hà Nội: tuyến quốc lộ 32 theo VnExpress, đèo Khau Phạ, các mùa nước đổ và lúa chín, kèm lưu ý đường nhánh khó đi và điều nguồn chưa nêu.",
+        "checked_at": "2026-10-18T14:13:33.328210+00:00"
+      }
     }
   },
   "categories": {}
