@@ -4,15 +4,15 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-18T14:56:20.361153+00:00 |
-| existing_published_posts | 299 |
+| at | 2026-10-18T18:07:58.743355+00:00 |
+| existing_published_posts | 301 |
 | existing_pages | 10 |
 | existing_products | 13 |
 | candidate_topics | 283 |
 | planned_topics | 210 |
 | claimable_topics | 6 |
 | ready_stock | 0 |
-| stock_stages | {'IDEA': 200, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 0, 'PLANNED_HOLD': 3, 'CLAIMED': 55, 'AUTHORED': 1, 'QA_PASS': 0, 'PUBLISHED': 151, 'WP_DRAFT': 0} |
+| stock_stages | {'IDEA': 220, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 0, 'PLANNED_HOLD': 3, 'CLAIMED': 55, 'AUTHORED': 1, 'QA_PASS': 0, 'PUBLISHED': 151, 'WP_DRAFT': 0} |
 | needs_research | True |
 | research_shortfall | 900 |
 | refill_trigger_below_ready | 900 |
@@ -20,7 +20,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | refill_state | REFILL_IN_PROGRESS |
 | refill_order | RF-0001 |
 | refill_accepted_so_far | 171 |
-| writing | 75 |
+| writing | 72 |
 | draft_authored | 149 |
 | qa_pass | 148 |
 | qa_fail | 0 |
@@ -43,7 +43,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | delivery_mode | production |
 | production_enabled | True |
 | draft_staging_enabled | False |
-| qa_pass_live_checked | 2 |
+| qa_pass_live_checked | 0 |
 | qa_pass_awaiting_wordpress | 0 |
 | queued_topic_ids | [] |
 | pending_wordpress_intents | [] |
