@@ -1,11 +1,11 @@
 # Nâng cấp luồng Writer → WordPress (không sao chép /wp-aiwriter)
 
-> **Trạng thái hiện tại (từ 17/10/2026): Production ĐÃ BẬT.** Luồng: W1/W2/W3 viết → QA ≥85 + trùng + danh mục → Publisher → WordPress công khai tự động. Các nhánh "chưa duyệt / dry-run" và mục "điều kiện kích hoạt" bên dưới mô tả chế độ khi chủ tắt công tắc hoặc là lịch sử.
+> **Trạng thái hiện tại (từ 17/10/2026): Production ĐÃ BẬT.** Luồng: W1–W9 viết → QA ≥85 + trùng + danh mục → Publisher → WordPress công khai tự động. Các nhánh "chưa duyệt / dry-run" và mục "điều kiện kích hoạt" bên dưới mô tả chế độ khi chủ tắt công tắc hoặc là lịch sử.
 
 ## Luồng dữ liệu
 
 ```text
-W1 / W2 / W3 (AI bên ngoài)
+W1–W9 (AI App bên ngoài, tự nhận vị trí trống)
        |
    topic PLANNED + live lease
        |
@@ -45,7 +45,7 @@ Hiện `mode=production` (lệnh chủ 17/10/2026); `mode=dry_run` là chế đ�
 - Giới hạn **2 bài mỗi batch, tối đa 5 batch liên tục mỗi workflow run (2+2+2+2+2)**; giới hạn tổng tạo bài mới mỗi ngày theo `max_new_posts_daily` hoặc `max_new_drafts_daily` theo trạng thái.
 - Có lịch chạy định kỳ và push-trigger: phiên Writer hoàn tất rồi rời khỏi máy không làm mất queue.
 
-**Không đưa mật khẩu WP cho Writer.** External Writer không cần WP login hay AI API. Nhưng nếu Writer có quyền ghi main hoặc thay đổi workflow/config thì repo hiện **chưa an toàn** để bật WordPress secrets. CODEOWNERS **không tự bảo vệ** file. Cần bảo vệ nhánh, bắt buộc duyệt sửa engine/workflow, và GitHub Environment secrets trước khi kích hoạt cả staging lẫn production.
+**Writer dùng kết nối GitHub hiện có, không cần WP login hoặc API AI.** Publisher dùng kết nối WordPress đang hoạt động. Theo lệnh chủ 17–18/10/2026, không thêm khóa Writer, xác thực tài khoản AI, yêu cầu bảo vệ nhánh mới hoặc bước duyệt tay để bài QA PASS được đăng production. CODEOWNERS là thông tin phân công review, không phải bằng chứng đã kiểm chứng bảo mật. Các đề xuất audit cũ bên dưới không phải điều kiện xuất bản hiện hành. [Quy trình chung W1–W9](WRITER-RESEARCH-CONTRACT.md).
 
 ### Không tự thay đổi nội dung cũ
 

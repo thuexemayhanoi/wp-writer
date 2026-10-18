@@ -10,6 +10,7 @@ Khi mã Publisher và Secrets được bảo vệ bằng quyền duyệt GitHub,
 - Cấm Writer gửi `scripts/`, `.github/`, `config/`, `data/state/`, danh mục, file Secrets và mọi đường dẫn khác; cấm xóa và đổi tên.
 - QA trên nhánh không có mật khẩu WordPress và dùng **mã Python từ `main`**, không chạy mã từ nhánh Writer. Mỗi bài phải qua G1–G6 và SEO ≥85.
 - Sau khi QA nhánh xanh, job Intake riêng kiểm tra lại **đúng mã commit**, mã gốc `main`, lease, source hash và chống trùng. Nếu hợp lệ mới cập nhật article và receipt qua cơ chế CAS. Luồng Writer QA/Pubisher cũ trên `main` tiếp tục xử lý.
+- Các phiên Writer khác vẫn commit vào `main` (registry nằm trong gần như mọi commit). Nếu `main` đổi trong lúc job Intake đang kiểm tra bài, bước CAS từ chối ghi đè (`State conflict`): job **không đỏ ngay** mà lấy `main` mới nhất của runner (`git fetch` + `reset --hard origin/main`, chỉ trong GitHub Actions) rồi kiểm tra và nhập lại, tối đa 4 lần. Lỗi khác (QA không đạt, nhánh đã đổi, đường dẫn bị cấm) không bao giờ được thử lại.
 - Mọi thao tác WordPress vẫn theo Publisher cũ; `emergency_stop=true` và `production_enabled=false` **không bị thay đổi** bởi nâng cấp này.
 
 ## Khi sử dụng thử
@@ -22,6 +23,6 @@ Khi mã Publisher và Secrets được bảo vệ bằng quyền duyệt GitHub,
 
 ## Giới hạn đang còn
 
-**Chưa bật GitHub Ruleset yêu cầu pull request.** Đường branch mới **chỉ giải quyết đầu vào bài viết**, chưa thay thế hết các luồng CAS ghi trạng thái, claim, refill và ledger đang trực tiếp cập nhật `main`. Cần chuyển luồng trạng thái tương thích quy tắc bảo vệ, kiểm thử W1/W2/W3 và QA xanh **trước khi bật Ruleset**. Không ép Ruleset hiện tại và không tự đặt `security_controls_verified=true`.
+**Chưa bật GitHub Ruleset yêu cầu pull request.** Đường branch mới **chỉ giải quyết đầu vào bài viết**, chưa thay thế hết các luồng CAS ghi trạng thái, claim, refill và ledger đang trực tiếp cập nhật `main`. Cần chuyển luồng trạng thái tương thích quy tắc bảo vệ, kiểm thử W1–W9 và QA xanh **trước khi bật Ruleset**. Không ép Ruleset hiện tại và không tự đặt `security_controls_verified=true`.
 
 GitHub `wordpress-production` đã được giới hạn `main` và 3 Environment Secrets đã thử REST đọc thành công. Không cần cấu hình lại, không đưa mật khẩu cho Writer.

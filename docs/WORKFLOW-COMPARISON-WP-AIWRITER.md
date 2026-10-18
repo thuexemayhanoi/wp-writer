@@ -19,7 +19,7 @@ Trạng thái đã kiểm chứng ngày 16/10/2026. Không nhầm site đích:
 | Website | blog.rentbikehanoi.com | thuexemaynguyentu.com |
 | Nguồn tiêu đề/chuyên mục | 355 dòng Excel → `data/topics.json`, checksum bất biến | `data/topics.jsonl` + `data/taxonomy.json` + Topic QA, **không Excel** |
 | ID bài | Excel #146–500 | `NT-XXXXXX` duy nhất |
-| Quyền viết | Writer viết đúng title/category_path Excel | Writer claim W1/W2/W3 PLANNED; lease CAS + receipt SHA-256 |
+| Quyền viết | Writer viết đúng title/category_path Excel | Writer claim W1–W9 PLANNED; lease CAS + receipt SHA-256 |
 | QA tối thiểu | Python tests + content QA, ≥1000 từ cho bài mới | 6 gate, 1600–5000 từ có chất lượng, evidence/editorial, duplicate guard |
 | Đúng danh mục cha/con | Excel `category_path` → đầy đủ ancestry | `taxonomy_key` → `parent_key` chain → WordPress REST ID/slug/name/parent |
 | Thiếu/sai taxonomy | WordPress draft + ghi lý do | WordPress draft ở fallback Blog + intended taxonomy + warning (khi production được duyệt) |
@@ -38,7 +38,7 @@ Trạng thái đã kiểm chứng ngày 16/10/2026. Không nhầm site đích:
 ## Triển khai tiếp để đăng liên tục không cần Excel
 
 1. Hoàn thiện ghi nhận 2 bài thủ công vào ledger để không POST lại; rà soát `NT-000079/#3882` vì WordPress từng có trạng thái khác với report draft cũ.
-2. Nguồn topic là JSONL: external AI nghiên cứu nội dung không trùng và gửi `data/candidates/*.jsonl` → Topic QA, W1/W2/W3 nhận khi PLANNED; không tự sinh 1000 bài placeholder.
+2. Nguồn topic là JSONL: external AI nghiên cứu nội dung không trùng và gửi `data/candidates/*.jsonl` → Topic QA, W1–W9 nhận khi PLANNED; không tự sinh 1000 bài placeholder.
 3. Category `data/taxonomy.json` phải đúng full parent chain trên WordPress. Nếu leaf không có, đưa nháp với lý do; chỉ tạo category có quyền phê duyệt riêng (`allow_category_create`) khi không rỗng và quy trình có ledger.
 4. Nghiệm thu **1 bài public qua chính GitHub Publisher** với live frontend SEO + ledger + idempotent rerun. Chỉ khi có bằng chứng đó mới đặt `acceptance_passed`/`security_controls_verified` thành `true`; từ lệnh chủ 17/10/2026 Production đã BẬT và hai cờ không còn chặn đăng. Cập nhật: #3947–#3956 đã do chính GitHub Publisher đăng và có biên bản trong ledger; lần chạy lại cùng ID có chủ đích chưa được nghiệm thu riêng nên hai cờ vẫn `false`.
 5. Từ đó AI push → QA PASS → Publisher xử lý ngay theo 2+2+2+2+2, ngày trần 1.000 (10/lượt), không phải duyệt từng category Excel và không đợi 30 phút.

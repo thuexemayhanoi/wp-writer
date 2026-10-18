@@ -1,10 +1,15 @@
 # WRITER AUTO REPAIR — 10 LOOPS + DURABLE GIT CHECKPOINT
 
-This document is the single operating procedure for external Claude/W1/W2/W3 sessions in thuexemayhanoi/wp-writer. WordPress target is https://thuexemaynguyentu.com/. Read README, AGENTS, AI-START-HERE, WRITER-QUICKSTART, ARTICLE-CONTRACT and the assigned topic first.
+Overall source/continuous-writing procedure: [shared W1–W9 contract](WRITER-RESEARCH-CONTRACT.md). This document remains authoritative for repair commands and counting. No new API AI, keys or per-revision approval; QA thresholds remain unchanged.
+
+**Writer pool (18/10/2026):** W1–W9 là 9 vị trí dùng chung hàng đợi. Claude App/AI App tự nhận vị trí trống bằng `--slot auto` (hoặc request GitHub), mỗi phiên giữ tối đa một vị trí và tối đa 10 Topic ID. Không cấp khóa Ed25519, không xác thực tài khoản Claude, không dùng API AI. Giữ nguyên lease còn hạn, checkpoint, chống trùng Topic ID và QA/Publisher đang chạy; Publisher tiếp tục đăng 2 bài mỗi lô.
+
+
+This document is the single operating procedure for external Claude/W1–W9 sessions in thuexemayhanoi/wp-writer. WordPress target is https://thuexemaynguyentu.com/. Read README, AGENTS, AI-START-HERE, WRITER-QUICKSTART, ARTICLE-CONTRACT and the assigned topic first.
 
 ## What actually runs
 
-W1/W2/W3 write and repair prose INSIDE their already-active Claude sessions. Python runs unchanged real G1–G6 QA and maintains revisions. GitHub Actions checks and records; it DOES NOT call Claude, an LLM or a paid API. The single trusted Publisher creates WordPress posts and runs G7. SEO >=85/100, quality >=85/100, 1,600–5,000 real words and all independent hard gates remain compulsory. Never edit config/qa-rules.json. Network/infrastructure retries remain at 3; content-repair limit is config/writer-repair.json (10).
+W1–W9 write and repair prose INSIDE their already-active Claude sessions. Python runs unchanged real G1–G6 QA and maintains revisions. GitHub Actions checks and records; it DOES NOT call Claude, an LLM or a paid API. The single trusted Publisher creates WordPress posts and runs G7. SEO >=85/100, quality >=85/100, 1,600–5,000 real words and all independent hard gates remain compulsory. Never edit config/qa-rules.json. Network/infrastructure retries remain at 3; content-repair limit is config/writer-repair.json (10).
 
 Failing drafts and repair journals live ONLY on private-to-the-topic Git branches named repair/SESSION/NT-XXXXXX. Example: repair/claude_A/NT-000101. Checkpoint file on that branch: data/repair-checkpoints/SESSION/NT-XXXXXX.json. These branches never trigger the WordPress publishing workflow. Do not manually edit counters or claim/QA registries. Never force push.
 

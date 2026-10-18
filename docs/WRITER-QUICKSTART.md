@@ -1,5 +1,10 @@
 # Viết bằng Claude, ChatGPT, Gemini, Mistral hoặc AI khác
 
+Theo [quy trình chung W1–W9](WRITER-RESEARCH-CONTRACT.md): một nguồn gốc đã xác minh có thể đủ cho chủ đề hẹp, thêm đối chiếu khi cần. Nộp từng bài/cặp khi đạt, hết batch thì nhận tiếp cùng session theo phạm vi chủ giao, không chờ WordPress và không xin duyệt từng lượt. QA và kết nối hiện tại giữ nguyên; không thêm API AI/khóa.
+
+**Writer pool (18/10/2026):** W1–W9 là 9 vị trí dùng chung hàng đợi. Claude App/AI App tự nhận vị trí trống bằng `--slot auto` (hoặc request GitHub), mỗi phiên giữ tối đa một vị trí và tối đa 10 Topic ID. Không cấp khóa Ed25519, không xác thực tài khoản Claude, không dùng API AI. Giữ nguyên lease còn hạn, checkpoint, chống trùng Topic ID và QA/Publisher đang chạy; Publisher tiếp tục đăng 2 bài mỗi lô.
+
+
 Repo duy nhất: https://github.com/thuexemayhanoi/wp-writer. WordPress duy nhất: https://thuexemaynguyentu.com. Writer chỉ cần quyền GitHub; không cần mật khẩu WordPress hay AI API key.
 
 Đọc README, AGENTS, business-facts và topic được giao. Cài Python dependencies và sử dụng session công khai ổn định, riêng cho từng phiên:
@@ -17,6 +22,8 @@ python scripts/writer-session.py push --ids NT-000037 --session s-your-session
 python scripts/writer-session.py confirm --session s-your-session
 python scripts/writer-session.py heartbeat --session s-your-session
 ```
+
+Khi dùng `agent-tools/build_article.py`, luôn truyền `--slot Wn` chính xác theo vị trí đã nhận (`W1` đến `W9`) và `--session` của mình. Công cụ không tự gán W1 cho bài thật. Không có khóa Ed25519 hay API AI.
 
 Thay ID bằng ID thực đã nhận. `check`/`push` kiểm tra bằng QA chuẩn. `confirm` đọc ledger và registry mới nhất, không tự tạo nội dung. Giữ đúng session khi phục hồi sau quota. Sau khi bài đã được intake ghi receipt có hash bất biến **và QA mới tính lại đạt PASS**, `begin` được giải phóng ID đã nộp để nhận tiếp, **không chờ WordPress đăng xong (kể cả khi chủ tạm tắt công tắc production)**. Một submission đã chuyển qua bước này vẫn khóa ID khỏi writer khác; QA FAIL/REVIEW phải sửa qua REPAIR trước khi nhả lease. WordPress ledger/publisher vẫn chịu trách nhiệm xuất bản và đối soát riêng. Không đổi session để né REPAIR. Lease của người khác còn hạn không được chiếm; bản nháp của người khác hết lease chỉ được bàn giao sau khi chủ/coordinator cho phép.
 

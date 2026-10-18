@@ -1,5 +1,7 @@
 # Hệ thống tự bổ sung chủ đề (self-replenishing topics)
 
+Nghiên cứu và Writer theo [quy trình chung W1–W9](WRITER-RESEARCH-CONTRACT.md): một nguồn gốc đủ bằng chứng có thể đủ cho chủ đề hẹp, thêm đối chiếu khi cần; không API AI, không thêm khóa hoặc bước duyệt tay. QA giữ nguyên.
+
 Lệnh chủ MASTER WORK 1.000 chủ đề (2026-10-17): kho phải được lấp tới trần đã duyệt `approved_capacity` = 1.000 dòng. Khi **PLANNED sẵn sàng viết** còn **dưới 900**, hệ thống mở một đợt nghiên cứu **100–200 chủ đề mới** và mở tiếp đợt sau cho tới khi hết trần (`CAPACITY_BLOCKED`; chỉ chủ repo được nâng trần). Luôn áp dụng: kiểm tra trùng search intent với **toàn bộ bài đã đăng và chủ đề đang xử lý**; **chỉ chủ đề đạt Research QA mới vào PLANNED**; **không giới hạn số đợt**; không tạo nội dung trùng lặp; không sửa URL cũ. (Lịch sử: các bản dán của lệnh từng ghi "dưới 50 / 200–300", "dưới 30 / 100–200" và "dưới 100 / 100–200" (kho dự phòng); lệnh MASTER WORK 1.000 thay thế chúng; muốn đổi chỉ sửa `config/refill-policy.json`.)
 
 ## Vòng lặp
@@ -8,7 +10,7 @@ Lệnh chủ MASTER WORK 1.000 chủ đề (2026-10-17): kho phải được l�
 ready PLANNED < 900 ──► scripts/refill_controller.py mở đơn RF-n (100–200 chủ đề)
         ▲                       │  reports/refill-request.json  (quota theo danh mục, batch kế tiếp)
         │                       ▼
-        │        AI nghiên cứu ngoài (Research V2): 10 chủ đề/batch, ≥2 nguồn HTTPS độc lập đã đọc thật
+        │        AI nghiên cứu ngoài: 10 chủ đề/batch, nguồn thật theo quy định chung
         │                       │  python scripts/research_v2.py plan | intent-check | checkpoint | push
         │                       ▼
         │        Research QA (read-only) ──► Trusted Intake trên main ──► CHỈ dòng PASS → PLANNED
@@ -76,7 +78,7 @@ Hai cách hợp lệ (không API key trong Actions):
 
 - **Phiên AI thủ công / định kỳ**: Claude Code Routine (cron) hoặc bất kỳ AI có quyền GitHub. Prompt chuẩn:
 
-> Đọc AGENTS.md, docs/SELF-REPLENISHING-TOPICS.md, docs/RESEARCH-V2-GLOBAL-ADAPTATION.md. Chạy `python scripts/research_v2.py plan`. Nếu `state` không phải `REFILL_OPENED` hoặc `REFILL_IN_PROGRESS`, dừng và báo "không có đơn". Nếu có đơn: tạo hoặc `resume --apply` nhánh `research/<session ổn định>`; mỗi batch 10 chủ đề theo `next_batch_categories`, đọc thật ≥2 nguồn HTTPS độc lập cho từng chủ đề, đối chiếu toàn bộ bài cũ gần nhất, chạy `intent-check`, rồi `checkpoint`, `check`, `push`. Đợi Research QA và Trusted Intake xanh, chạy lại `plan`, lặp tới khi `remaining_to_min` = 0 hoặc hết hạn mức phiên (lưu session ID). Không bịa nguồn/hash; không sửa script, workflow, config, URL cũ.
+> Đọc AGENTS.md, docs/SELF-REPLENISHING-TOPICS.md và docs/WRITER-RESEARCH-CONTRACT.md. Chạy `python scripts/research_v2.py plan`. Nếu `state` không phải `REFILL_OPENED` hoặc `REFILL_IN_PROGRESS`, báo "không có đơn nghiên cứu"; Writer vẫn có thể viết PLANNED hợp lệ. Nếu có đơn: tạo hoặc `resume --apply` nhánh `research/<session ổn định>`; mỗi batch 10 chủ đề theo `next_batch_categories`, đọc nguồn thật theo quy định chung (một nguồn gốc đủ cho phạm vi hẹp, thêm đối chiếu khi cần), đối chiếu bài cũ, chạy `intent-check`, `checkpoint`, `check`, `push`. Sau Research QA/Trusted Intake, chạy lại `plan`, tiếp tục trong đơn hiện tại hoặc đơn kế tiếp đã mở, tới giới hạn chủ giao/trần kho hoặc hết hạn mức phiên; lưu session/checkpoint. Không bịa nguồn/hash; không sửa script, workflow, config, URL cũ.
 
 - Nhiều phiên song song được phép: intake chạy tuần tự dưới `wp-writer-state`, dòng trùng của phiên đến sau bị guard chặn.
 
