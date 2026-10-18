@@ -49,7 +49,9 @@
           "WP2596"
         ],
         "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "WP #2596 đã viết kiểm tra trước nhận xe, phải kiểm tra khác biệt nội dung."
     },
     {
       "id": "SEO-20261018-02",
@@ -77,7 +79,9 @@
           "NT-000009"
         ],
         "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
     },
     {
       "id": "SEO-20261018-03",
@@ -99,7 +103,9 @@
       "precheck": {
         "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
     },
     {
       "id": "SEO-20261018-04",
@@ -121,13 +127,15 @@
           "NT-000004"
         ],
         "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "Chủ đề NT-000004 đã có ý định biên nhận đặt cọc."
     },
     {
       "id": "SEO-20261018-05",
       "kind": "new_supporting_research",
       "state": "AWAITING_EXTERNAL_RESEARCH",
-      "priority": "P1",
+      "priority": "P0",
       "taxonomy_key": "rental-procedures",
       "title_hint": "Trả xe thuê trễ: cần xác nhận những khoản phí và thủ tục nào?",
       "primary_keyword_suggestion": "thủ tục trả xe máy thuê muộn",
@@ -145,13 +153,15 @@
       "precheck": {
         "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
-      }
+      },
+      "decision": "RESEARCH_FIRST",
+      "triage_note": "Hỏi phí trả xe trễ theo hợp đồng, khác phần giá thuê gốc; phải soát nội dung WP đầy đủ trước khi nộp."
     },
     {
       "id": "SEO-20261018-06",
       "kind": "new_supporting_research",
       "state": "AWAITING_EXTERNAL_RESEARCH",
-      "priority": "P1",
+      "priority": "P0",
       "taxonomy_key": "rental-procedures",
       "title_hint": "Chụp ảnh biên bản bàn giao xe máy: những góc nào cần lưu?",
       "primary_keyword_suggestion": "cách chụp ảnh bàn giao xe máy thuê",
@@ -169,7 +179,9 @@
       "precheck": {
         "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
-      }
+      },
+      "decision": "RESEARCH_FIRST",
+      "triage_note": "Hướng dẫn ảnh hiện trạng và biên bản bàn giao, chưa thấy tiêu đề cùng intent trong kiểm tra 283 chủ đề + 323 mục WP."
     },
     {
       "id": "SEO-20261018-07",
@@ -191,7 +203,9 @@
       "precheck": {
         "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
     },
     {
       "id": "SEO-20261018-08",
@@ -215,7 +229,9 @@
       "precheck": {
         "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
     },
     {
       "id": "SEO-20261018-09",
@@ -239,7 +255,9 @@
       "precheck": {
         "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
     },
     {
       "id": "SEO-20261018-10",
@@ -263,7 +281,9 @@
       "precheck": {
         "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "NT-000017 đã đề cập 50cc trong giao thông phố đông."
     },
     {
       "id": "SEO-20261018-11",
@@ -287,7 +307,9 @@
       "precheck": {
         "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
     },
     {
       "id": "SEO-20261018-12",
@@ -311,7 +333,9 @@
       "precheck": {
         "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
     },
     {
       "id": "SEO-20261018-13",
@@ -335,7 +359,9 @@
       "precheck": {
         "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "WP #2370 về chi phí xe điện so với xe xăng, cần ưu tiên nâng cấp."
     },
     {
       "id": "SEO-20261018-14",
@@ -362,7 +388,9 @@
           "WP2374"
         ],
         "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "WP #2374 đã có xe máy điện đi mưa."
     },
     {
       "id": "SEO-20261018-15",
@@ -384,7 +412,9 @@
       "precheck": {
         "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
     },
     {
       "id": "SEO-20261018-16",
@@ -406,13 +436,15 @@
       "precheck": {
         "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
     },
     {
       "id": "SEO-20261018-17",
       "kind": "new_supporting_research",
       "state": "AWAITING_EXTERNAL_RESEARCH",
-      "priority": "P2",
+      "priority": "P0",
       "taxonomy_key": "hanoi-travel",
       "title_hint": "Nhận xe thuê ở Long Biên để đi Phố Cổ: chuẩn bị tuyến đường và chỗ đỗ",
       "primary_keyword_suggestion": "đi xe máy từ Long Biên đến Phố Cổ",
@@ -428,7 +460,9 @@
       "precheck": {
         "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
-      }
+      },
+      "decision": "RESEARCH_FIRST",
+      "triage_note": "Hướng dẫn di chuyển từ Long Biên đến Phố Cổ, nhu cầu riêng với bài thuê xe Phố Cổ; kiểm tra thực tế dừng/đỗ."
     },
     {
       "id": "SEO-20261018-18",
@@ -447,7 +481,9 @@
       "precheck": {
         "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
     },
     {
       "id": "SEO-20261018-19",
@@ -469,7 +505,9 @@
       "precheck": {
         "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
     },
     {
       "id": "SEO-20261018-20",
@@ -494,7 +532,9 @@
           "WP1061"
         ],
         "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "WP #1061 là trang thuê xe máy sân bay Nội Bài."
     },
     {
       "id": "SEO-20261018-21",
@@ -518,7 +558,9 @@
       "precheck": {
         "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
     },
     {
       "id": "SEO-20261018-22",
@@ -545,7 +587,9 @@
           "NT-000008"
         ],
         "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "NT-000008 nghiên cứu giấy tờ người nước ngoài."
     },
     {
       "id": "SEO-20261018-23",
@@ -572,7 +616,9 @@
           "WP4051"
         ],
         "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
     },
     {
       "id": "SEO-20261018-24",
@@ -599,7 +645,9 @@
           "WP3948"
         ],
         "decision": "REVIEW_OR_UPGRADE_EXISTING_NOT_NEW_POST"
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "WP #3948 / NT-000110 đã có đội mũ đúng cách."
     },
     {
       "id": "SEO-20261018-25",
@@ -618,7 +666,9 @@
       "precheck": {
         "decision": "CANDIDATE_ONLY_PENDING_FULL_CONTENT_AND_SOURCE_RESEARCH",
         "note": "Keyword parent has evidence but exact topic intent and existing full content must be verified before Topic QA."
-      }
+      },
+      "decision": "REVIEW_BEFORE_RESEARCH",
+      "triage_note": "Chưa so sánh đầy đủ search intent, nội dung WordPress và đề xuất đã đăng; không tự đẩy bài mới."
     }
   ],
   "existing_url_priorities": [
@@ -732,5 +782,13 @@
     "ready_to_write": 0,
     "writer_status": "All 9 W1-W9 slots have active claim records; do not hijack or auto-release leases.",
     "wordpress_changes": 0
+  },
+  "triage": {
+    "checked_at": "2026-10-18",
+    "registry_checked": 283,
+    "wordpress_inventory_checked": 323,
+    "approved_for_external_research_only": 3,
+    "held_for_further_intent_review": 22,
+    "note": "Shortlist is a research order only. Candidate full-content/source checks and Topic QA must pass before any W1–W9 writer can claim a new article."
   }
 }
