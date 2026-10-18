@@ -70,33 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vinfastauto.com/vn_vi/cach-sac-pin-xe-may-dien-vinfast-evo200-lite",
-      "supports": "VinFast Evo200 Lite (không ghi ngày đăng trong nội dung đã đọc): pin 3,5 kWh (48 Ah); bộ sạc 72 V/5,5 A công suất điện tối đa khoảng 400 W từ nguồn AC 220 V/50 Hz; chỉ dùng bộ sạc đi kèm hoặc tương đương do VinFast cung cấp; phạm vi di chuyển 205 km sau một lần sạc theo điều kiện tiêu chuẩn VinFast.",
-      "sha256": "15c8a6ff50bcd5cd6db2abd9464a08edc643017594cdef6c15db732d8a09db01",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
-      "supports": "Yamaha NEO's (đăng 26/04/2023, sửa đổi 14/11/2024): pin lithium-ion dung tích 23,2 Ah, quãng đường 72 km mỗi lần sạc đầy ở tốc độ không đổi 30 km/h với người lái 75 kg; lắp thêm một pin phụ lên đến 144 km; nguồn điện sạc AC 220–240 V.",
-      "sha256": "157e78293aed6b4d00dc72457a005186ab9a3736b4c91cf32f78fd7c48672392",
-      "verified_at": "2026-10-18T07:33:06.740754+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/giai-dap-xe-may-dien-sac-bao-lau-thi-day-di-duoc-bao-xa/",
-      "supports": "Yamaha Motor Việt Nam (bài giải đáp 06/04/2023): pin Lithium-ion 51,1 V của NEO's, quãng đường 72 km ở 30 km/h với người lái 75 kg; quãng đường công bố dựa trên điều kiện sử dụng lý tưởng, thực tế phụ thuộc tải trọng, tốc độ, địa hình, loại pin và bảo dưỡng; ví dụ 70–80 km cho một người và 65–70 km cho hai người.",
-      "sha256": "45752c5a3e99c7a37d9c8341d0c0379eb3be8a935f0766c9784f9a69f721cc9a",
-      "verified_at": "2026-10-18T07:33:08.356196+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -113,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T07:33:12.781205+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T07:41:02.798673+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "f90d6b9d81384c207ba19a77789bf1e7a21da99e5f8905367740a050145d61b6",
+  "inventory_sha256": "1e786d7d0610964e5875251e444ebfcc05ff0d71029a2201958e267f187fce36",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

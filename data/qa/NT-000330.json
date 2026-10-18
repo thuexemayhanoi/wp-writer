@@ -1,0 +1,151 @@
+{
+  "topic_id": "NT-000330",
+  "status": "PASS",
+  "source_sha256": "4f57090ae39122e5351e5612bbdfc1dce8ea0a12e4faa9b96ac8fc325f19c1c3",
+  "body_sha256": "0b5eb5d3b276b4d0f29a4841a0da5e7729edf9f9e1f0f3197ad8aace2c80edc9",
+  "word_count": 2441,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/huong-dan-cach-chay-xe-so-an-toan-cho-nguoi-moi-bat-dau/",
+      "supports": "Yamaha Motor Việt Nam (cập nhật 03/2026): khi kẹt xe, quá đông phương tiện phải đi chậm thì vừa ấn tay ga vừa chống chân trái xuống đường để không loạng choạng hay ngã; tư thế ngồi thẳng lưng, khép hai đầu gối vào yên, tập trung; tăng giảm ga đúng cách để giữ cân bằng.",
+      "sha256": "2717d5fe7f3999006e51b2866f47b2d1e720f77dd53085fd8590ed8a28d96318",
+      "verified_at": "2026-10-18T07:46:54.652183+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vov.gov.vn/nhung-luu-y-cho-chi-em-khi-di-xe-may-duoi-troi-nang-nong-de-tranh-tai-nan-dtnew-1083453",
+      "supports": "VOV (17/07/2025): váy, áo chống nắng dài và giày cao gót nhọn có thể vướng vào bánh xe hoặc mắc vào tà áo, gây khó điều khiển; chân yếu đi xe tay ga nặng, cao, mặc áo dài đến gót phải loay hoay điều khiển.",
+      "sha256": "a45399f5c82ec7474bad01ddb93096a65e9fc82bc8e5f2a64d8cb48e3b274451",
+      "verified_at": "2026-10-18T07:46:58.462778+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 868,
+        "title": "Thuê Xe Máy Gần Đống Đa Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "ba1ec71dfb2fbdc6d28b06931efdd59bd55ff37a920f7477428f406fb29c5bff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2393,
+        "title": "Thuê pin hay mua pin xe máy điện VinFast: phương án nào hợp lý?",
+        "why": "stale",
+        "content_hash": "b26adf50a482554d3cb08a77a5edd2ce3012f2ce554cb624584729fd43c82f18",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2535,
+        "title": "Lịch bảo dưỡng xe máy Honda: các mốc nên kiểm tra theo thời gian",
+        "why": "stale",
+        "content_hash": "c705587e1fddf801c67af2ee8927918bea23539eb6755e4f4da4fe7ae47943cb",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2553,
+        "title": "Đăng ký biển số xe máy trực tuyến: hồ sơ và các bước cần chuẩn bị",
+        "why": "stale",
+        "content_hash": "07c18eff30a0c8796b3fd7944021fa719dc4afaaacb4f55eb99e40c062e94782",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T07:47:06.475190+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "5358145ff622d8fbaf49269129669db36a66ecf90a7976937dcf98321d32abad",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

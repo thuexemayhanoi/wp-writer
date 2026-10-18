@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-18T07:40:30.013583+00:00",
-  "attempted": 10,
+  "at": "2026-10-18T07:47:17.394464+00:00",
+  "attempted": 5,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -20,6 +20,22 @@
         }
       },
       "action": "manual reconciliation; never create/update automatically"
+    },
+    {
+      "topic_id": "NT-000230",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 170,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "engine-care",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000270",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 170,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "engine-care",
+      "category_warning": null
     },
     {
       "topic_id": "NT-000273",
@@ -101,8 +117,8 @@
         {
           "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=phu-kien&search=honda",
           "supports": "Honda Việt Nam (mục hỏi đáp, cập nhật 21/09/2021): 1.000 km đầu bắt buộc thay dầu rồi 6.000 km một lần cho xe gắn máy, rút ngắn khi dùng nhiều; dầu chai MB cho xe ga.",
-          "sha256": "b3c3def11d2b0bee91f7a5882e8c27fc243ba61fe6afab0c8ea73ccf2e350453",
-          "verified_at": "2026-10-18T07:28:54.731209+00:00",
+          "sha256": "045e71290e2a8ac2a9d8c4fb58a5bf580005d18648184321954b09240cffa6e7",
+          "verified_at": "2026-10-18T07:43:39.300034+00:00",
           "verification_method": "live",
           "live_checked": true
         }
@@ -123,11 +139,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-18T07:29:08.006261+00:00",
+      "at": "2026-10-18T07:43:48.540171+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "f90d6b9d81384c207ba19a77789bf1e7a21da99e5f8905367740a050145d61b6",
+      "inventory_sha256": "70c5768780c664474024cc481c9ae881c2299a6d9fae4f133c4c2048d4f5f965",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -223,8 +239,8 @@
         {
           "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=phu-kien&search=honda",
           "supports": "Honda Việt Nam (mục hỏi đáp, cập nhật 21/09/2021): dầu truyền động cuối (dầu láp) theo tiêu chuẩn Honda thay khoảng 2 năm một lần, rút ngắn khi tải nặng hoặc chạy đường dài; kiểm tra khi đi qua đoạn ngập nước.",
-          "sha256": "b3c3def11d2b0bee91f7a5882e8c27fc243ba61fe6afab0c8ea73ccf2e350453",
-          "verified_at": "2026-10-18T07:29:12.812748+00:00",
+          "sha256": "045e71290e2a8ac2a9d8c4fb58a5bf580005d18648184321954b09240cffa6e7",
+          "verified_at": "2026-10-18T07:43:53.436098+00:00",
           "verification_method": "live",
           "live_checked": true
         }
@@ -254,11 +270,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-18T07:29:24.388339+00:00",
+      "at": "2026-10-18T07:44:03.022261+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "f90d6b9d81384c207ba19a77789bf1e7a21da99e5f8905367740a050145d61b6",
+      "inventory_sha256": "70c5768780c664474024cc481c9ae881c2299a6d9fae4f133c4c2048d4f5f965",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -354,8 +370,8 @@
         {
           "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=phu-kien&search=honda",
           "supports": "Honda Việt Nam (mục hỏi đáp, cập nhật 21/09/2021): dầu chai MB SL 10W-30 cho xe ga với ba dung tích; dầu truyền động cuối thay khoảng 2 năm.",
-          "sha256": "b3c3def11d2b0bee91f7a5882e8c27fc243ba61fe6afab0c8ea73ccf2e350453",
-          "verified_at": "2026-10-18T07:29:51.252734+00:00",
+          "sha256": "045e71290e2a8ac2a9d8c4fb58a5bf580005d18648184321954b09240cffa6e7",
+          "verified_at": "2026-10-18T07:44:17.836615+00:00",
           "verification_method": "live",
           "live_checked": true
         }
@@ -376,11 +392,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-18T07:30:04.627754+00:00",
+      "at": "2026-10-18T07:44:27.402420+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "f90d6b9d81384c207ba19a77789bf1e7a21da99e5f8905367740a050145d61b6",
+      "inventory_sha256": "70c5768780c664474024cc481c9ae881c2299a6d9fae4f133c4c2048d4f5f965",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -476,8 +492,8 @@
         {
           "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=phu-kien&search=honda",
           "supports": "Honda Việt Nam (mục hỏi đáp, cập nhật 21/09/2021): điều kiện bình thường thì sau 1.000 km đầu tiên bắt buộc thay dầu rồi cứ 6.000 km thay một lần.",
-          "sha256": "b3c3def11d2b0bee91f7a5882e8c27fc243ba61fe6afab0c8ea73ccf2e350453",
-          "verified_at": "2026-10-18T07:30:28.032742+00:00",
+          "sha256": "045e71290e2a8ac2a9d8c4fb58a5bf580005d18648184321954b09240cffa6e7",
+          "verified_at": "2026-10-18T07:44:39.480728+00:00",
           "verification_method": "live",
           "live_checked": true
         }
@@ -507,11 +523,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-18T07:30:41.101993+00:00",
+      "at": "2026-10-18T07:44:48.874686+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "f90d6b9d81384c207ba19a77789bf1e7a21da99e5f8905367740a050145d61b6",
+      "inventory_sha256": "70c5768780c664474024cc481c9ae881c2299a6d9fae4f133c4c2048d4f5f965",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -608,7 +624,7 @@
           "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=phu-kien&search=honda",
           "supports": "Honda Việt Nam (mục hỏi đáp, cập nhật 21/09/2021): dầu chai MA SL 10W-30 cho xe số với ba dung tích; sau 1.000 km đầu thay dầu rồi 6.000 km một lần.",
           "sha256": "045e71290e2a8ac2a9d8c4fb58a5bf580005d18648184321954b09240cffa6e7",
-          "verified_at": "2026-10-18T07:32:15.734429+00:00",
+          "verified_at": "2026-10-18T07:45:35.332404+00:00",
           "verification_method": "live",
           "live_checked": true
         }
@@ -629,11 +645,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-18T07:32:31.423027+00:00",
+      "at": "2026-10-18T07:45:44.858414+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "f90d6b9d81384c207ba19a77789bf1e7a21da99e5f8905367740a050145d61b6",
+      "inventory_sha256": "70c5768780c664474024cc481c9ae881c2299a6d9fae4f133c4c2048d4f5f965",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -730,7 +746,7 @@
           "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_tab=phu-kien&search=honda",
           "supports": "Honda Việt Nam (mục hỏi đáp, cập nhật 21/09/2021): dầu tổng hợp cao cấp MA SL 10W-30 (1,2 L) cho xe côn tay và xe phân khối lớn; dầu chai MA cho xe số.",
           "sha256": "045e71290e2a8ac2a9d8c4fb58a5bf580005d18648184321954b09240cffa6e7",
-          "verified_at": "2026-10-18T07:32:51.241986+00:00",
+          "verified_at": "2026-10-18T07:45:55.568646+00:00",
           "verification_method": "live",
           "live_checked": true
         }
@@ -769,11 +785,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-18T07:33:04.228568+00:00",
+      "at": "2026-10-18T07:46:04.848120+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "f90d6b9d81384c207ba19a77789bf1e7a21da99e5f8905367740a050145d61b6",
+      "inventory_sha256": "70c5768780c664474024cc481c9ae881c2299a6d9fae4f133c4c2048d4f5f965",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -790,23 +806,7 @@
       }
     },
     {
-      "topic_id": "NT-000305",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 168,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "electric-tech",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000310",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 168,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "electric-tech",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000329",
+      "topic_id": "NT-000288",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 161,
       "category_resolution": "EXACT",
@@ -814,59 +814,19 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-000365",
+      "topic_id": "NT-000289",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 172,
+      "category_id": 161,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "hanoi-travel",
+      "intended_taxonomy_key": "road-safety",
       "category_warning": null
     },
     {
-      "topic_id": "NT-000366",
+      "topic_id": "NT-000330",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 173,
+      "category_id": 161,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "vietnam-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000369",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000370",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 172,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "hanoi-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000385",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 177,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "green-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000389",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 174,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "food-culture",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000390",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 172,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "hanoi-travel",
+      "intended_taxonomy_key": "road-safety",
       "category_warning": null
     }
   ],

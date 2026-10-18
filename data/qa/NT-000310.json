@@ -70,49 +70,13 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vinfastauto.com/vn_vi/cach-sac-pin-xe-may-dien-vinfast-evo200-lite",
-      "supports": "VinFast Evo200 Lite: pin tích hợp BMS giám sát tình trạng pin tự động và liên tục, tối ưu quá trình sạc, bảo vệ pin; khi chức năng bảo vệ kích hoạt pin có thể tự động từ chối phản hồi và cắt điện đầu ra; BMS hoạt động cả khi xe dừng nghỉ.",
-      "sha256": "15c8a6ff50bcd5cd6db2abd9464a08edc643017594cdef6c15db732d8a09db01",
-      "research_checked_at": "2026-10-17",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
-      "supports": "Yamaha NEO's: chế độ chờ sạc là trạng thái tự động kiểm soát hoặc ngừng sạc để bảo vệ pin không vượt nhiệt độ cho phép khi sạc; dấu hiệu là đèn bộ sạc nhấp nháy xanh lá.",
-      "sha256": "157e78293aed6b4d00dc72457a005186ab9a3736b4c91cf32f78fd7c48672392",
-      "verified_at": "2026-10-18T07:33:26.035775+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vinfastauto.com/vn_vi/co-nen-sac-xe-may-qua-dem-khong-4-luu-y-nap-nang-luong-dung-cach",
-      "supports": "VinFast (bài 2021, sửa 03/2023): khi kết nối sạc chập chờn thì bộ sạc chuyển về chế độ tự bảo vệ, không sạc cho pin; bộ sạc chính hãng có chức năng tự ngắt khi đầy.",
-      "sha256": "034821dfa0d0c9d05e292eb894daa6ecff3e288e6951159d2643a083f271560d",
-      "research_checked_at": "2026-10-17",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
-      "supports": "PCCC (24/05/2024): dùng bộ sạc không đúng thông số, không đồng bộ với pin có thể gây chập hoặc nổ; không ngắt khóa điện khi sạc làm bộ sạc điều khiển sai; hệ thống bảo vệ không thay thế việc sạc đúng cách.",
-      "sha256": "353fd2641d5b5be10ce7341c58d9bbf33befd5b1c8cb7c4fc563f6726c98bee4",
-      "research_checked_at": "2026-10-17",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": null,
-  "at": "2026-10-18T07:34:39.028450+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T07:41:03.656670+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "b2ca947c97dc4957f23708544a8c5d37722231c5f9ccdc0b9c3dfb608d4e96d9",
+  "inventory_sha256": "1e786d7d0610964e5875251e444ebfcc05ff0d71029a2201958e267f187fce36",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

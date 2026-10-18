@@ -70,16 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vietnam.travel/things-to-do/vietnam-national-fine-arts-museum-must-see-destination-hanoi",
-      "supports": "vietnam.travel: Bảo tàng Mỹ thuật Việt Nam gồm 3 tầng, trên 3.000 m2, trưng bày thường trực khoảng 2.000 hiện vật từ cổ đại đến hiện đại, kèm triển lãm cá nhân.",
-      "sha256": "966a7428ea351dd1436cc3f218f0aeb095fa19834d72187fb1cf634b843aff48",
-      "verified_at": "2026-10-18T07:36:40.146185+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -96,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T07:36:46.879709+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T07:41:06.668221+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "248655c6c1b7c2b3a3c8d8bdd27e939448607047e55e6294e765eb2258b6e76a",
+  "inventory_sha256": "1e786d7d0610964e5875251e444ebfcc05ff0d71029a2201958e267f187fce36",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

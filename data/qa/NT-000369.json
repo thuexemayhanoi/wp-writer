@@ -70,40 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vnexpress.net/cam-nang-du-lich-tam-dao-4454746.html",
-      "supports": "VnExpress (25/4/2022): Tam Đảo cách Hà Nội khoảng 80 km, đi xe máy nên chọn xe số vì đường nhiều dốc và khúc cua; chặng gồm 50 km quốc lộ 2, 24 km quốc lộ 2B và gần 13 km đèo.",
-      "sha256": "8eedd2e589059f39408c7a0f01a0c8be8f91e13251570a1bce175c0d132779d4",
-      "verified_at": "2026-10-18T07:36:07.635554+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnammedia.vnanet.vn/news/thuong-nong-nguoi-dan-ong-cuu-xe-may-mat-phanh-khi-do-deo-tam-dao-40923.htm",
-      "supports": "TTXVN (31/5/2022) đưa tin một xe ga mất phanh khi đổ đèo Tam Đảo; người trên xe cho biết người lái không quen đường đèo và phanh liên tục dẫn đến hỏng.",
-      "sha256": "7ae625c336868cce4d41bfa944eda1b68cae1e3c484399d4f65043dc1639f2f3",
-      "verified_at": "2026-10-18T07:36:09.881570+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/huong-dan-cach-chay-xe-so-an-toan-cho-nguoi-moi-bat-dau/",
-      "supports": "Yamaha Motor Việt Nam hướng dẫn khi xuống dốc nên trả tay ga và dùng đúng số đã dùng khi lên dốc, dốc quá đứng thì về số thấp nhất (viết cho xe số).",
-      "sha256": "2717d5fe7f3999006e51b2866f47b2d1e720f77dd53085fd8590ed8a28d96318",
-      "verified_at": "2026-10-18T07:36:12.938153+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vuonquocgiabavi.com.vn/huong-dan-tham-quan-mua-hoa-da-quy-nam-2026/",
-      "supports": "Vườn quốc gia Ba Vì dặn người đi xe: kiểm tra xe, đổ thêm xăng trước khi leo núi và tuyệt đối không tắt máy, về số mo hay thả trôi xe khi xuống dốc.",
-      "sha256": "ed27649857b91ccb2caab52b0b0c8674c0a1210773adc0f3bdfe112f4ad65f37",
-      "verified_at": "2026-10-18T07:36:16.179766+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -120,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T07:36:26.526487+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T07:41:06.532623+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "9ad429bb223009599f1634678ab198f8eb2675ee295d0c46eef209a2211c4f3e",
+  "inventory_sha256": "1e786d7d0610964e5875251e444ebfcc05ff0d71029a2201958e267f187fce36",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

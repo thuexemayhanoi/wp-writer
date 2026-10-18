@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vov.gov.vn/bi-quyet-di-duong-an-toan-trong-mua-bao-dtnew-1100124",
-      "supports": "VOV (24/07/2025), chuyên gia an toàn giao thông: mưa bão có nhiều rủi ro (đường trơn, chết máy, cây đổ, hố ga, hạn chế tầm nhìn); nếu thấy nguy hiểm như ngập sâu, cây đổ, dây điện mắc qua đường thì dừng lại chờ ở vị trí an toàn hơn; kiểm tra đèn, phanh, lốp, nhiên liệu, mang áo mưa và dụng cụ sửa chữa cơ bản.",
-      "sha256": "ffc0a6ca1a3baf6320b9add78bac57d002796b14dc0e3d1f8e53f905946a23f2",
-      "verified_at": "2026-10-18T07:34:54.303116+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vov.gov.vn/di-xe-may-mua-mua-bao-can-luu-y-dieu-gi-dtnew-214937",
-      "supports": "VOV (29/10/2020): khu nhà cao tầng hút gió, gió giật mạnh có thể làm nhiều xe ngã; nếu gió quá lớn thì dừng, xuống xe dắt bộ, tìm nơi an toàn; chọn đường ít cây; mũ bảo hiểm kín đầu; áo mưa bộ.",
-      "sha256": "feb2887ffd0ce937f660a9ebe82f569044880fbf637b2fb06d21557770b09813",
-      "verified_at": "2026-10-18T07:34:57.421919+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://hatinh.gov.vn/vi/bai-viet/ky-nang-lai-xe-trong-giong-bao",
-      "supports": "Cổng thông tin điện tử tỉnh Hà Tĩnh (06/09/2024), bài đăng lại từ VnExpress cho người lái xe: dừng tại chỗ được phép dừng hoặc nơi có mái che kiên cố, tránh đỗ dưới cây to hoặc cột điện, không trú gầm cầu hầm đường bộ nếu cản trở giao thông; tránh cầu cao vì gió giật, đặc biệt với xe máy.",
-      "sha256": "38262c971af732ecbb31fe9248112e560256d0d661f0372e93b07a0cb0dd59bd",
-      "verified_at": "2026-10-18T07:35:00.198644+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -112,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T07:35:07.576300+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T07:41:04.191251+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "d12095888590cdbc5a34cbe871bb81b5afd2a90b3455e8be6ebcbecc3ac5d3b4",
+  "inventory_sha256": "1e786d7d0610964e5875251e444ebfcc05ff0d71029a2201958e267f187fce36",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
