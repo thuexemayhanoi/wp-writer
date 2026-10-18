@@ -157,3 +157,38 @@ class ResearcherToolingTests(unittest.TestCase):
         if plan['order']['id']:
             self.assertGreaterEqual(plan['order']['target_max'], plan['order']['target_min'])
             self.assertLessEqual(sum(plan['next_batch_categories'].values()), 10)
+
+
+class SweepTests(unittest.TestCase):
+    """A workflow_run intake can be cancelled while queued; the sweep ingests what it missed."""
+
+    def test_the_sweep_tries_every_head_and_one_bad_branch_never_hides_another(self):
+        heads = {'research/a': 'a' * 40, 'research/b': 'b' * 40, 'research/c': 'c' * 40}
+
+        def fake_ingest(branch, commit, dry_run=False):
+            if branch == 'research/b':
+                raise ValueError('Research branch moved after green QA; retry on new green SHA')
+            status = 'ALREADY_INGESTED' if branch == 'research/a' else 'RESEARCH_ACCEPTED'
+            return {'status': status, 'branch': branch}
+
+        with patch.object(intake, 'research_heads', return_value=heads), \
+             patch.object(intake, 'ingest', side_effect=fake_ingest):
+            out = intake.sweep()
+        self.assertEqual(out['research/a']['status'], 'ALREADY_INGESTED')
+        self.assertEqual(out['research/b']['status'], 'SKIPPED')
+        self.assertIn('moved after green QA', out['research/b']['reason'])
+        self.assertEqual(out['research/c']['status'], 'RESEARCH_ACCEPTED')
+
+    def test_research_heads_reads_ls_remote_and_ignores_other_refs(self):
+        raw = ('a' * 40 + '\trefs/heads/research/seodev-r5\n' + 'b' * 40 + '\trefs/heads/main\n' +
+               'c' * 40 + '\trefs/heads/research/seodev-r8\n')
+        with patch.object(intake, 'git_checked', return_value=raw):
+            self.assertEqual(intake.research_heads(), {'research/seodev-r5': 'a' * 40,
+                                                       'research/seodev-r8': 'c' * 40})
+
+    def test_the_sweep_passes_the_dry_run_flag_through(self):
+        seen = []
+        with patch.object(intake, 'research_heads', return_value={'research/a': 'a' * 40}), \
+             patch.object(intake, 'ingest', side_effect=lambda b, c, d=False: seen.append(d) or {'status': 'WOULD_INGEST'}):
+            intake.sweep(dry_run=True)
+        self.assertEqual(seen, [True])

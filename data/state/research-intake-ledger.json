@@ -98,6 +98,39 @@
         "NT-000210"
       ],
       "not_accepted": {}
+    },
+    "data/candidates/seodev-r8-0001.jsonl": {
+      "sha256": "a9f8d1e3d2fe6c15df885b47ddc731987d99401b136dfbad5ce0b9bce9830acf",
+      "at": "2026-10-18T01:57:41.593012+00:00",
+      "state": "TOPIC_QA_APPLIED",
+      "research_branch": "research/seodev-r8",
+      "research_commit": "e84c123d674b834ce0b4322c93dd8197193a0c13",
+      "topic_ids": [
+        "NT-000261",
+        "NT-000263",
+        "NT-000264",
+        "NT-000265",
+        "NT-000266",
+        "NT-000267",
+        "NT-000268",
+        "NT-000270",
+        "NT-000271",
+        "NT-000272"
+      ],
+      "accepted_ids": [
+        "NT-000263",
+        "NT-000264",
+        "NT-000265",
+        "NT-000266",
+        "NT-000267",
+        "NT-000268",
+        "NT-000271",
+        "NT-000272"
+      ],
+      "not_accepted": {
+        "NT-000261": "RESEARCH",
+        "NT-000270": "RESEARCH"
+      }
     }
   }
 }

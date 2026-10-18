@@ -62,6 +62,10 @@ def http(code):
 
 
 class TransientRetryTests(unittest.TestCase):
+    def setUp(self):
+        qa.reset_source_host_cache()
+        self.addCleanup(qa.reset_source_host_cache)
+
     def run_sources(self, outcomes):
         opener = Opener(outcomes)
         with patch('qa.urllib.request.build_opener', return_value=opener), patch('qa.time.sleep'):
@@ -86,6 +90,43 @@ class TransientRetryTests(unittest.TestCase):
         opener, errors, _ = self.run_sources(['<html><body><p>không có đoạn đó</p></body></html>'])
         self.assertEqual(opener.calls, 1)
         self.assertEqual(errors, ['Source REVIEW: ValueError: Source excerpt not found'])
+
+
+class UnreachableHostTests(unittest.TestCase):
+    """A host that timed out on every retry is not contacted again in the same run (saves 3 x 20 s per further source)."""
+    def setUp(self):
+        qa.reset_source_host_cache()
+        self.addCleanup(qa.reset_source_host_cache)
+
+    def test_a_host_that_timed_out_three_times_is_skipped_for_its_other_sources(self):
+        opener = Opener([timeout(), timeout(), timeout()])
+        with patch('qa.urllib.request.build_opener', return_value=opener), patch('qa.time.sleep'):
+            with self.assertRaises(urllib.error.URLError):
+                qa.read_source('https://csgt.example.gov.vn/a')
+            self.assertEqual(opener.calls, 3)
+            with self.assertRaises(urllib.error.URLError) as caught:
+                qa.read_source('https://csgt.example.gov.vn/b')
+        self.assertEqual(opener.calls, 3)  # no extra network call for the second source
+        self.assertTrue(qa.is_transient(caught.exception))  # so the research snapshot fallback still applies
+        self.assertIn('timed out', str(caught.exception.reason))
+
+    def test_the_skipped_source_still_passes_through_the_research_snapshot_fallback(self):
+        first, second = source('https://csgt.example.gov.vn/a'), source('https://csgt.example.gov.vn/b')
+        opener = Opener([timeout(), timeout(), timeout()])
+        with patch('qa.urllib.request.build_opener', return_value=opener), patch('qa.time.sleep'):
+            errors, evidence = qa.verify_sources([first, second], live=True, trusted_research=[dict(first), dict(second)])
+        self.assertEqual((errors, opener.calls), ([], 3))
+        self.assertEqual([e['verification_method'] for e in evidence], ['research_snapshot_fallback'] * 2)
+        self.assertFalse(any(e['live_checked'] for e in evidence))
+
+    def test_a_server_that_answered_with_5xx_and_other_hosts_are_still_read(self):
+        opener = Opener([http(503), http(503), http(503), PAGE_TEXT, PAGE_TEXT])
+        with patch('qa.urllib.request.build_opener', return_value=opener), patch('qa.time.sleep'):
+            with self.assertRaises(urllib.error.HTTPError):
+                qa.read_source('https://www.honda.com.vn/a')
+            self.assertEqual(qa.read_source('https://www.honda.com.vn/b')[1], 1)  # same host, it had answered
+            self.assertEqual(qa.read_source('https://yamaha-motor.com.vn/c')[1], 1)  # other host
+        self.assertEqual(opener.calls, 5)
 
 
 class EvidenceRecheckTests(unittest.TestCase):

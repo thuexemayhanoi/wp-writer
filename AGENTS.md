@@ -3,7 +3,7 @@
 > **QUY TRÌNH DUY NHẤT — ĐANG CHẠY (lệnh chủ 2026-10-17, đúng sơ đồ "Giờ giữ quy trình đơn giản")**
 >
 > 1. **W1 / W2 / W3 viết bài** từ chủ đề PLANNED, nộp bằng `scripts/writer-session.py`.
-> 2. **QA ≥85 + kiểm tra trùng + danh mục** (G1–G6 trong `scripts/qa.py`; G7 xác minh sau đăng). Lỗi sửa được tự đọc lại tối đa 3 lần; chỉ bài có rủi ro thật bị giữ riêng, một bài lỗi không chặn bài khác.
+> 2. **QA ≥85 + kiểm tra trùng + danh mục** (G1–G6 trong `scripts/qa.py`; G7 xác minh sau đăng). Lỗi mạng được thử lại tối đa 3 lần; Claude tự sửa nội dung tối đa 10 lượt và lưu checkpoint theo Topic ID + session; chỉ bài có rủi ro thật bị giữ riêng, một bài lỗi không chặn bài khác.
 > 3. **Publisher → WordPress công khai**, tự chạy ngay sau QA thành công trên `main` (workflow `Universal WordPress Publisher`; cron :17/:47 chỉ là dự phòng). **Đã kích hoạt tự động**: `mode=production`, `production_enabled=true`.
 >
 > Ngoài QA, sổ ledger ghi trước POST và đọc lại sau đăng, chỉ `paused` / `emergency_stop` của chủ mới dừng được việc đăng. Không có bước duyệt tay và không cờ `acceptance_passed` / `security_controls_verified` nào chặn đăng. Chỉ coi một bài là đã đăng khi ledger có `phase=VERIFIED` và URL công khai mở được; GitHub Actions `success` chưa chứng minh điều đó. Khi chủ đổi công tắc production phải sửa khối này, README và `docs/INSTANT-PUBLISHING.md`.
@@ -55,3 +55,7 @@ Lệnh chủ MASTER WORK 1.000 chủ đề: khi PLANNED sẵn sàng viết còn 
 ## Self-healing gates G1–G7 — lệnh chủ 2026-10-17
 
 QA SEO/Quality ≥85, kiểm tra trùng, đúng danh mục **không đổi**. Lỗi tạm thời (nguồn/liên kết hết thời gian, 5xx, 429) máy tự đọc lại tối đa 3 lần; G4 thiếu bằng chứng cho trang bị sửa/mới thì đọc lại nội dung trang đó so với bài (chỉ gỡ khi không chồng văn bản và không trùng intent); inventory tự làm mới khi WordPress đổi. Chỉ giữ bài có rủi ro thật (trùng URL/intent, sai danh mục, nguồn không xác minh được, sai pháp lý/giá/thông tin chủ); một bài lỗi không chặn bài khác. G7 ghi biên nhận xác minh sau đăng (ID, URL, trạng thái, canonical, SEO title/description, danh mục) vào ledger. Chi tiết: [docs/SELF-HEALING-GATES.md](docs/SELF-HEALING-GATES.md).
+
+## AUTO-REPAIR WRITER — 10 CONTENT REVISIONS (18/10/2026)
+
+Read docs/WRITER-AUTO-REPAIR.md (single authoritative procedure). The active Claude session first repairs owned unfinished Topic IDs; if none, it continues writing legitimately PLANNED topics. To initialize QA and a durable baseline, run python scripts/writer-repair.py save --session SESSION --id NT-XXXXXX --note "Initial draft". After each actual edit, run the same save command with an accurate change note. QA is re-executed, SHA-256 and score/errors are stored, and the draft + checkpoint are committed to an isolated repair/SESSION/NT-XXXXXX branch. A new changed version counts as one repair, up to 10; identical bytes do not count. Use python scripts/writer-repair.py resume --session SESSION --id NT-XXXXXX after a quota interruption. Live lease ownership is always checked; no force pushes, no edited QA evidence. Genuine PASS goes through the unchanged writer-session.py push and Publisher. REAL_RISK or exhausted limit remains held, never falsely PASS. Infra/network retry stays 3, separate from content-repair limit 10. GitHub Actions never writes prose or calls an AI without an actual external model connection.

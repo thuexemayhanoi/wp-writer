@@ -173,20 +173,50 @@ def ingest(branch, commit, dry_run=False):
             'branch': branch, 'main_commit': sha}
 
 
+def research_heads():
+    """Every research/<session> branch on origin with the commit it points at."""
+    heads = {}
+    for line in git_checked('ls-remote', '--heads', 'origin', 'refs/heads/research/*').splitlines():
+        sha, _, ref = line.partition('\t')
+        if ref.startswith('refs/heads/research/') and len(sha) == 40:
+            heads[ref[len('refs/heads/'):]] = sha
+    return dict(sorted(heads.items()))
+
+
+def sweep(dry_run=False):
+    """Fallback for the event path: ingest every research branch whose head was never accepted.
+
+    A workflow_run intake can be cancelled when it queues behind other jobs of the shared `wp-writer-state`
+    concurrency group, and nothing retries it, so a green batch would stay out of the registry for good. The
+    sweep calls the same `ingest` (trusted main code re-validates every row; an ingested batch is skipped as
+    ALREADY_INGESTED), and one bad branch never hides another.
+    """
+    results = {}
+    for branch, commit in research_heads().items():
+        try:
+            results[branch] = ingest(branch, commit, dry_run)
+        except Exception as exc:  # noqa: BLE001 - reported per branch, never raised past the loop
+            results[branch] = {'status': 'SKIPPED', 'branch': branch, 'reason': str(exc)[:300]}
+    return results
+
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--branch', required=True)
-    parser.add_argument('--sha', required=True)
+    parser.add_argument('--branch')
+    parser.add_argument('--sha')
+    parser.add_argument('--sweep', action='store_true', help='ingest every research/* branch not yet accepted')
     parser.add_argument('--dry-run', action='store_true')
     args = parser.parse_args()
+    if not args.sweep and not (args.branch and args.sha):
+        parser.error('--branch and --sha are required unless --sweep is given')
     if not args.dry_run:
         # No local invocation may mutate the project main registry by accident.
         if (os.environ.get('GITHUB_ACTIONS') != 'true' or
                 os.environ.get('GITHUB_REPOSITORY') != 'thuexemayhanoi/wp-writer' or
                 os.environ.get('GITHUB_REF') != 'refs/heads/main'):
             raise ValueError('Trusted GitHub Actions main required for applying research')
-    print(json.dumps(ingest(args.branch, args.sha, args.dry_run),
-                     ensure_ascii=False, indent=2))
+    result = sweep(args.dry_run) if args.sweep else ingest(args.branch, args.sha, args.dry_run)
+    print(json.dumps(result, ensure_ascii=False, indent=2))
 
 
 if __name__ == '__main__':

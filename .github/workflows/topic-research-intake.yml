@@ -3,6 +3,11 @@ on:
   workflow_run:
     workflows: ["External Topic Research QA (read-only)"]
     types: [completed]
+  # Fallback for a workflow_run intake that was cancelled while queued behind other jobs of the shared
+  # wp-writer-state group: ingest every research/* branch that was never accepted (same trusted code path).
+  schedule:
+    - cron: '41 * * * *'
+  workflow_dispatch:
 permissions:
   contents: write
 concurrency:
@@ -12,10 +17,11 @@ jobs:
   intake:
     if: >-
       github.repository == 'thuexemayhanoi/wp-writer' &&
-      github.event.workflow_run.conclusion == 'success' &&
-      github.event.workflow_run.event == 'push' &&
-      github.event.workflow_run.head_repository.full_name == github.repository &&
-      startsWith(github.event.workflow_run.head_branch, 'research/')
+      (github.event_name != 'workflow_run' || (
+        github.event.workflow_run.conclusion == 'success' &&
+        github.event.workflow_run.event == 'push' &&
+        github.event.workflow_run.head_repository.full_name == github.repository &&
+        startsWith(github.event.workflow_run.head_branch, 'research/')))
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -33,7 +39,14 @@ jobs:
         run: |
           python -m unittest discover -s tests -p test_research_v2.py -v
           python scripts/validate.py
+      - name: Fallback sweep of research branches the event path missed (schedule / manual)
+        if: github.event_name != 'workflow_run'
+        run: |
+          git config user.name 'wp-writer-research-intake'
+          git config user.email 'wp-writer-research-intake@users.noreply.github.com'
+          python scripts/research_intake.py --sweep
       - name: Verify green source SHA, enforce strict research QA, then CAS import
+        if: github.event_name == 'workflow_run'
         env:
           RESEARCH_BRANCH: ${{ github.event.workflow_run.head_branch }}
           GREEN_SHA: ${{ github.event.workflow_run.head_sha }}

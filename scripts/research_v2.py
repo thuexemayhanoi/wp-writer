@@ -15,7 +15,7 @@ from urllib.parse import urlsplit
 
 from common import ROOT, digest, load, norm, now, topics
 from intent_guard import IntentIndex
-from topic_factory import apply_intent_guard, gate
+from topic_factory import apply_intent_guard, gate, stamp_factory_posts
 
 BRANCH = re.compile(r'^research/([a-z][a-z0-9_-]{3,70})$')
 TOPIC = re.compile(r'^NT-[0-9]{6}$')
@@ -120,7 +120,9 @@ def validate_candidates(rows, *, incumbent=None, inventory=None, taxonomy=None,
     factory (any status except REJECTED), and among the new rows themselves.
     """
     incumbent = topics() if incumbent is None else incumbent
-    inventory = load('data/existing-content-inventory.json', {}).get('items', []) if inventory is None else inventory
+    inventory = (stamp_factory_posts(load('data/existing-content-inventory.json', {}).get('items', []),
+                                     load('data/state/publication-ledger.json', {}))
+                 if inventory is None else inventory)
     taxonomy = load('data/taxonomy.json', {}).get('items', []) if taxonomy is None else taxonomy
     discovery = load('data/state/topic-discovery-ledger.json', {'proposals': {}}) if discovery is None else discovery
     accepted = load('data/state/research-intake-ledger.json', {'batches': {}}) if accepted is None else accepted
