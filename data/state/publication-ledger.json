@@ -6217,6 +6217,24 @@
         "seo_description": "Điểm giấy phép lái xe có 12 điểm: nguyên tắc trừ điểm, ví dụ điểm trừ của lỗi xe máy, khi nào phục hồi đủ 12 điểm và cách xem điểm trên VNeID theo Bộ Công an.",
         "checked_at": "2026-10-18T14:34:39.779910+00:00"
       }
+    },
+    "NT-000581": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-18T14:35:00.194853+00:00",
+      "source_hash": "453c5c598947d5f91257193bc4c4111a59f9a137f8d7b387a00c8174afe80603",
+      "slug": "pin-lfp-va-pin-nmc-tren-xe-dien-cung-la-lithium-ion-khac-nhau-o-dau-ve-do-ben-va-an-toan",
+      "expected_status": "publish",
+      "category_id": 168,
+      "visible_hash": "0ae91fea93320df1389947547d1e63d9c370235c5e306462aa32ea946de39930",
+      "first_paragraph": "Pin LFP và pin NMC trên xe điện đều thuộc họ lithium-ion; điểm khác nhau nằm ở vật liệu cực dương, lithium sắt phosphate ở LFP và hỗn hợp niken, mangan, coban ở NMC. Theo số ước tính của Battery University, LFP có điện áp mỗi cell và năng lượng riêng thấp hơn NMC, nhưng số chu kỳ ước tính cao hơn và ngưỡng thoát nhiệt cao hơn; theo IEA, năng lượng riêng thấp hơn nghĩa là cùng một lượng điện thì bộ pin LFP thường to và nặng hơn. Đây là số chung của nguồn kỹ thuật chứ không phải thông số của một mẫu xe, nên hãy hỏi hãng loại pin cụ thể, khuyến cáo sạc và cách cất giữ của đúng mẫu xe.",
+      "meta_title": "Pin LFP và pin NMC trên xe điện: khác nhau về độ bền và an toàn",
+      "meta_description": "So sánh pin LFP và pin NMC trên xe điện theo Battery University và IEA: điện áp, năng lượng riêng, số chu kỳ, ngưỡng thoát nhiệt và cách tra loại pin của xe.",
+      "intended_taxonomy_key": "electric-tech",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "71303a43722e9ddcff85275eb9bace9db8e031d9",
+      "run_id": "39136366022",
+      "updated_at": "2026-10-18T14:35:00.196695+00:00"
     }
   },
   "categories": {}
