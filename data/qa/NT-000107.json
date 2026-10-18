@@ -71,12 +71,27 @@
   "errors": [],
   "review": [],
   "source_evidence": [],
-  "evidence_recheck": null,
-  "at": "2026-10-18T13:58:46.367822+00:00",
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 4054,
+        "title": "Thuê xe máy đi xem phòng trọ ở Hà Nội: xếp lịch khảo sát, gửi xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "5d877b968a3e9b4218759e74edb64aa0e8b842897cadb48686b422876f7f89a1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T14:01:42.472092+00:00",
   "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "7a85ed0f81c328a565be98bb86867e1a5e7f4fea5fa5897d5221368139a27c20",
+  "inventory_sha256": "ea403e8359e88268daa931a04841cf8e1825e2564ceaefb6d7b3e485a7dff9e2",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
