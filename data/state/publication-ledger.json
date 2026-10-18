@@ -6123,7 +6123,7 @@
       }
     },
     "NT-000290": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:33:56.837697+00:00",
       "source_hash": "3ba5981dcaa633e865fefca86cfd2ed44897721882f949b8a524d1d117c5395c",
       "slug": "tay-phanh-co-xe-may-hanh-trinh-tu-do-bao-nhieu-la-dung-va-cach-do-bang-ngon-tay-theo-honda",
@@ -6138,8 +6138,37 @@
       "category_warning": null,
       "git_commit": "71303a43722e9ddcff85275eb9bace9db8e031d9",
       "run_id": "39136366022",
-      "updated_at": "2026-10-18T14:34:00.701753+00:00",
-      "wp_id": 4094
+      "updated_at": "2026-10-18T14:34:06.482936+00:00",
+      "wp_id": 4094,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tay-phanh-co-xe-may-hanh-trinh-tu-do-bao-nhieu-la-dung-va-cach-do-bang-ngon-tay-theo-honda/",
+      "verified_at": "2026-10-18T14:34:06.482929+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4094,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tay-phanh-co-xe-may-hanh-trinh-tu-do-bao-nhieu-la-dung-va-cach-do-bang-ngon-tay-theo-honda/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tay-phanh-co-xe-may-hanh-trinh-tu-do-bao-nhieu-la-dung-va-cach-do-bang-ngon-tay-theo-honda/",
+        "seo_title": "Tay phanh cơ xe máy: đo khoảng dịch chuyển bằng ngón tay theo Honda",
+        "seo_description": "Tay phanh cơ xe máy: Honda hướng dẫn bóp nhả vài lần, đo khoảng dịch chuyển của đuôi cần phanh bằng ngón trỏ từ 2 đến 2,5 cm, và khi nào nên nhờ thợ chỉnh.",
+        "checked_at": "2026-10-18T14:34:06.482909+00:00"
+      }
     }
   },
   "categories": {}
