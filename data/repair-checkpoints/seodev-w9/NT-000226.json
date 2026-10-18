@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "topic_id": "NT-000226",
+  "writer": "W2",
+  "session_id": "seodev-w9",
+  "source_sha256": "99aae2eb72998bcd9bbd601083b9f77cad64b6ad9bb424340e1813eb32bb1038",
+  "repair_attempts": 0,
+  "repair_limit": 10,
+  "qa_status": "REVIEW",
+  "seo_score": 100,
+  "quality_score": 100,
+  "hold_class": "REAL_RISK",
+  "remaining_errors": [
+    "near topic:NT-000287",
+    "G4: near topic:NT-000287"
+  ],
+  "completed_edits": [],
+  "history": [
+    {
+      "revision": 1,
+      "repair_attempt": 0,
+      "source_sha256": "99aae2eb72998bcd9bbd601083b9f77cad64b6ad9bb424340e1813eb32bb1038",
+      "qa_status": "REVIEW",
+      "seo_score": 100,
+      "quality_score": 100,
+      "errors": [
+        "near topic:NT-000287",
+        "G4: near topic:NT-000287"
+      ],
+      "edit_note": "Initial draft: QA content gates pass (SEO 100, quality 100); only registry-level G4 review near topic NT-000287 (REJECTED twin) remains",
+      "evaluated_at": "2026-10-18T02:44:10.433502+00:00"
+    }
+  ],
+  "next_action": "HOLD_FOR_REVIEW",
+  "updated_at": "2026-10-18T02:44:10.433502+00:00"
+}
