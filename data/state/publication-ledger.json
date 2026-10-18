@@ -4827,7 +4827,7 @@
       }
     },
     "NT-000327": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:05:43.659259+00:00",
       "source_hash": "6c7e144a314c38cac7020f6c041f458a1e7a1672cd542b26712c6673fd63e164",
       "slug": "do-deo-bang-xe-ga-vi-sao-kho-ghim-toc-do-cach-phanh-ngat-quang-va-khi-nao-nen-chon-xe-so",
@@ -4842,8 +4842,37 @@
       "category_warning": null,
       "git_commit": "81bfb3fb5a701c88a73205c032408fd153203280",
       "run_id": "39134125621",
-      "updated_at": "2026-10-18T14:05:49.336811+00:00",
-      "wp_id": 4066
+      "updated_at": "2026-10-18T14:05:54.880776+00:00",
+      "wp_id": 4066,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/do-deo-bang-xe-ga-vi-sao-kho-ghim-toc-do-cach-phanh-ngat-quang-va-khi-nao-nen-chon-xe-so/",
+      "verified_at": "2026-10-18T14:05:54.880771+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4066,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/do-deo-bang-xe-ga-vi-sao-kho-ghim-toc-do-cach-phanh-ngat-quang-va-khi-nao-nen-chon-xe-so/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/do-deo-bang-xe-ga-vi-sao-kho-ghim-toc-do-cach-phanh-ngat-quang-va-khi-nao-nen-chon-xe-so/",
+        "seo_title": "Đổ đèo bằng xe ga: cách phanh ngắt quãng và khi nào chọn xe số",
+        "seo_description": "Đổ đèo bằng xe ga khó ở đâu? Tổng hợp VnExpress, Dân trí, VietNamNet: vì sao dễ cháy phanh, cách dùng hai phanh nhấn nhả, không tắt máy và khi nào nên chọn xe số.",
+        "checked_at": "2026-10-18T14:05:54.880749+00:00"
+      }
     }
   },
   "categories": {}
