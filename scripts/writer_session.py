@@ -1,4 +1,4 @@
-"""Provider-neutral W1/W2/W3 with CAS, immutable submission receipts."""
+"""Provider-neutral W1..W9 with CAS, immutable submission receipts."""
 import argparse
 import datetime as dt
 import json
@@ -7,13 +7,18 @@ from common import ROOT, digest, git, load, now, save, topics
 from git_state import RemoteState
 
 REG='data/state/writer-claims.json'
+WRITER_CONFIG=load('config/writer-slots.json')
+SLOTS=tuple(WRITER_CONFIG['slots'])
+MAX_TOPICS=int(WRITER_CONFIG['max_topics_per_slot'])
+LEASE_HOURS=int(WRITER_CONFIG['lease_hours'])
+CAS_ATTEMPTS=int(WRITER_CONFIG['cas_attempts'])
 
 def live_leases(registry, epoch=None):
     at=epoch or dt.datetime.now(dt.timezone.utc)
     active={k:v for k,v in registry.get('leases',{}).items() if dt.datetime.fromisoformat(v['expires_at'])>at}
     ids=[]; sessions=[]
     for slot,v in active.items():
-        if slot not in ('W1','W2','W3'):raise ValueError('Unknown slot')
+        if slot not in SLOTS:raise ValueError('Unknown slot')
         ids.extend(v['topic_ids']);sessions.append(v['session'])
     if len(ids)!=len(set(ids)) or len(sessions)!=len(set(sessions)):raise ValueError('Ambiguous live lease registry')
     return active
@@ -51,13 +56,14 @@ def writer_finished(topic_id, registry, ledger, rows):
 
 def claim(registry, rows, session, slot='auto', count=2, epoch=None, requested_ids=None, completed_ids=None):
     if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_-]{3,79}',session):raise ValueError('Use a stable public session label, never a credential')
-    if not 1<=count<=10:raise ValueError('Lease size 1..10')
+    if not 1<=count<=MAX_TOPICS:raise ValueError('Lease size 1..'+str(MAX_TOPICS))
+    if slot!='auto' and slot not in SLOTS:raise ValueError('Unknown slot')
     at=epoch or dt.datetime.now(dt.timezone.utc);active=live_leases(registry,at)
     mine=[(k,v) for k,v in active.items() if v['session']==session]
     if mine:
         if slot!='auto' and mine[0][0]!=slot:raise ValueError('Session already owns another slot')
         return mine[0][0],registry
-    if slot=='auto':slot=next((s for s in ('W1','W2','W3') if s not in active),None)
+    if slot=='auto':slot=next((s for s in SLOTS if s not in active),None)
     if not slot or slot in active:raise ValueError('Slot has a valid lease')
     used={i for v in active.values() for i in v['topic_ids']}
     submitted=registry.get('submissions',{})
@@ -70,7 +76,7 @@ def claim(registry, rows, session, slot='auto', count=2, epoch=None, requested_i
         if repairs and not set(repairs)<=set(requested_ids):raise ValueError('Resume owned REPAIR before new IDs')
         eligible=[i for i in eligible if i in requested_ids]
     if not eligible:raise ValueError('No claimable PLANNED topic; research candidates first')
-    active[slot]={'session':session,'topic_ids':eligible[:count],'claimed_at':at.isoformat(),'expires_at':(at+dt.timedelta(hours=12)).isoformat()}
+    active[slot]={'session':session,'topic_ids':eligible[:count],'claimed_at':at.isoformat(),'expires_at':(at+dt.timedelta(hours=LEASE_HOURS)).isoformat()}
     registry['leases']=active
     return slot,registry
 
@@ -85,8 +91,8 @@ def remote_snapshot():
     return base,reg,rows
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('action',choices=['begin','status','heartbeat','release','check','push','confirm']);p.add_argument('--session',required=True);p.add_argument('--slot',default='auto',choices=['auto','W1','W2','W3']);p.add_argument('--count',type=int,default=2);p.add_argument('--ids',default='');a=p.parse_args()
-    for attempt in range(4):
+    p=argparse.ArgumentParser();p.add_argument('action',choices=['begin','status','heartbeat','release','check','push','confirm']);p.add_argument('--session',required=True);p.add_argument('--slot',default='auto',choices=['auto',*SLOTS]);p.add_argument('--count',type=int,default=2);p.add_argument('--ids',default='');a=p.parse_args()
+    for attempt in range(CAS_ATTEMPTS):
         base,reg,rows=remote_snapshot()
         if a.action in ('status','confirm'):
             print(json.dumps({'leases':reg.get('leases',{}),'submissions':reg.get('submissions',{}),'ledger':json.loads(git('show',base+':data/state/publication-ledger.json'))},ensure_ascii=False));return
@@ -137,7 +143,7 @@ def main():
             commit=state.persist(paths,'content: '+a.action+' '+a.session)
             print(json.dumps({'commit':commit,'session':a.session,'leases':reg['leases']}));return
         except RuntimeError:
-            if attempt==3:raise
+            if attempt==CAS_ATTEMPTS-1:raise
     raise RuntimeError('CAS exhausted')
 
 if __name__=='__main__': main()
