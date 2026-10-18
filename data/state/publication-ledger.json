@@ -5451,7 +5451,7 @@
       }
     },
     "NT-000529": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:18:05.677360+00:00",
       "source_hash": "526b8c7b8bc72990086a17258650fcc82592fb214b48062f45efb2ff49be3f06",
       "slug": "lang-lua-van-phuc-o-ha-dong-diem-du-lich-lang-nghe-duoc-ha-noi-cong-nhan-va-cach-xem-nghe-det",
@@ -5466,8 +5466,37 @@
       "category_warning": null,
       "git_commit": "e0327f5556485c1e6a474156113d0d9a8c238ceb",
       "run_id": "39135086720",
-      "updated_at": "2026-10-18T14:18:09.273896+00:00",
-      "wp_id": 4080
+      "updated_at": "2026-10-18T14:18:15.154082+00:00",
+      "wp_id": 4080,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lang-lua-van-phuc-o-ha-dong-diem-du-lich-lang-nghe-duoc-ha-noi-cong-nhan-va-cach-xem-nghe-det/",
+      "verified_at": "2026-10-18T14:18:15.154075+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4080,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lang-lua-van-phuc-o-ha-dong-diem-du-lich-lang-nghe-duoc-ha-noi-cong-nhan-va-cach-xem-nghe-det/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lang-lua-van-phuc-o-ha-dong-diem-du-lich-lang-nghe-duoc-ha-noi-cong-nhan-va-cach-xem-nghe-det/",
+        "seo_title": "Làng lụa Vạn Phúc ở Hà Đông: ba lớp công nhận và cách xem nghề dệt",
+        "seo_description": "Làng lụa Vạn Phúc ở Hà Đông: di sản quốc gia, Điểm đến Du lịch Thủ đô và điểm du lịch làng nghề khác nhau thế nào, quy trình dệt theo Hà Nội Mới và cách xem nghề dệt.",
+        "checked_at": "2026-10-18T14:18:15.154058+00:00"
+      }
     }
   },
   "categories": {}
