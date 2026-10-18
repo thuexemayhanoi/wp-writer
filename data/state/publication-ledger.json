@@ -5355,7 +5355,7 @@
       }
     },
     "NT-000523": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:17:19.091622+00:00",
       "source_hash": "61e6609670bc53030c7e86e6bed605fed99703ceef167ef1f2e5d460e747f847",
       "slug": "le-hoi-chua-lang-lich-5-8-thang-ba-am-lich-nghi-thuc-giai-y-phuc-va-chuyen-ruoc-kieu-qua-song-to-lich",
@@ -5370,8 +5370,37 @@
       "category_warning": null,
       "git_commit": "e0327f5556485c1e6a474156113d0d9a8c238ceb",
       "run_id": "39135086720",
-      "updated_at": "2026-10-18T14:17:23.089325+00:00",
-      "wp_id": 4078
+      "updated_at": "2026-10-18T14:17:28.677554+00:00",
+      "wp_id": 4078,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/le-hoi-chua-lang-lich-5-8-thang-ba-am-lich-nghi-thuc-giai-y-phuc-va-chuyen-ruoc-kieu-qua-song-to-lich/",
+      "verified_at": "2026-10-18T14:17:28.677548+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4078,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/le-hoi-chua-lang-lich-5-8-thang-ba-am-lich-nghi-thuc-giai-y-phuc-va-chuyen-ruoc-kieu-qua-song-to-lich/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/le-hoi-chua-lang-lich-5-8-thang-ba-am-lich-nghi-thuc-giai-y-phuc-va-chuyen-ruoc-kieu-qua-song-to-lich/",
+        "seo_title": "Lễ hội chùa Láng: lịch 5–8 tháng Ba, Giải y phục, rước kiệu",
+        "seo_description": "Lễ hội chùa Láng ở Láng Thượng, Đống Đa: lịch mùng 5 đến mùng 8 tháng Ba âm lịch theo Cục Di sản, nghi thức Giải y phục và chuyện rước kiệu qua sông Tô Lịch.",
+        "checked_at": "2026-10-18T14:17:28.677529+00:00"
+      }
     }
   },
   "categories": {}
