@@ -4779,7 +4779,7 @@
       }
     },
     "NT-000321": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:05:12.479996+00:00",
       "source_hash": "36f0ce1cbbeab70a569c99bd0c5f3b602e7d3f14a1207cbb6a1cf51945c00c2d",
       "slug": "di-xe-may-khi-suong-mu-va-mua-phun-giu-tam-nhin-giam-toc-va-phanh-som-tren-duong-uot",
@@ -4794,8 +4794,37 @@
       "category_warning": null,
       "git_commit": "81bfb3fb5a701c88a73205c032408fd153203280",
       "run_id": "39134125621",
-      "updated_at": "2026-10-18T14:05:16.473422+00:00",
-      "wp_id": 4065
+      "updated_at": "2026-10-18T14:05:22.042610+00:00",
+      "wp_id": 4065,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/di-xe-may-khi-suong-mu-va-mua-phun-giu-tam-nhin-giam-toc-va-phanh-som-tren-duong-uot/",
+      "verified_at": "2026-10-18T14:05:22.042605+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4065,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/di-xe-may-khi-suong-mu-va-mua-phun-giu-tam-nhin-giam-toc-va-phanh-som-tren-duong-uot/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/di-xe-may-khi-suong-mu-va-mua-phun-giu-tam-nhin-giam-toc-va-phanh-som-tren-duong-uot/",
+        "seo_title": "Đi xe máy khi sương mù và mưa phùn: giảm tốc, phanh sớm",
+        "seo_description": "Đi xe máy khi sương mù và mưa phùn: bật đèn, giảm tốc, giữ khoảng cách, phanh sớm và nhẹ. Các nguồn đồng ý ở đâu, khác nhau ở đâu và khi nào nên dừng chờ.",
+        "checked_at": "2026-10-18T14:05:22.042583+00:00"
+      }
     }
   },
   "categories": {}
