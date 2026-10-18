@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-18T07:11:53.200530+00:00",
-  "attempted": 3,
+  "at": "2026-10-18T07:18:00.905992+00:00",
+  "attempted": 6,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -22,15 +22,31 @@
       "action": "manual reconciliation; never create/update automatically"
     },
     {
-      "topic_id": "NT-000306",
+      "topic_id": "NT-000301",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 160,
+      "category_id": 167,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "electric-maintenance",
+      "intended_taxonomy_key": "battery-charging",
       "category_warning": null
     },
     {
-      "topic_id": "NT-000381",
+      "topic_id": "NT-000302",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 167,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "battery-charging",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000307",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 167,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "battery-charging",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000382",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 176,
       "category_resolution": "EXACT",
@@ -38,7 +54,15 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-000386",
+      "topic_id": "NT-000387",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 174,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "food-culture",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000388",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 174,
       "category_resolution": "EXACT",

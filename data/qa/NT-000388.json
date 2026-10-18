@@ -1,0 +1,141 @@
+{
+  "topic_id": "NT-000388",
+  "status": "PASS",
+  "source_sha256": "34fda10965e468b1164c77977811b7bb446279915d2d753f601b96f145a1febf",
+  "body_sha256": "5463c85b73b24686c3028bbc294574dd41e8cb9d518f3d342f9782b445a8e019",
+  "word_count": 2306,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vov.gov.vn/cha-ca-la-vong-ngon-co-nao-dtnew-1107239",
+      "supports": "VOV (cập nhật 20/8/2025): tri thức chế biến và thưởng thức Chả cá Lã Vọng được Bộ công nhận là di sản văn hóa phi vật thể quốc gia, ngày 13/8/2025 Bộ công bố Danh mục; diễn giải bốn mặt của tri thức (chọn cá, ướp và nướng sơ, hoàn thiện trên bàn ăn, tập quán ăn kèm), phố Chả Cá và hơn 130 năm; đây là diễn giải của bài báo, chưa đối chiếu với hồ sơ di sản.",
+      "sha256": "a8bb8adf76310bb818664755f89f55a2a030ffaca27f662812ec06507030c61c",
+      "verified_at": "2026-10-18T07:17:43.472907+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://bvhttdl.gov.vn/le-hoi-van-hoa-am-thuc-ha-noi-2025-ton-vinh-gia-tri-di-san-am-thuc-truyen-thong-20251217085250974.htm",
+      "supports": "Bộ Văn hóa, Thể thao và Du lịch (17/12/2025): tại lễ khai mạc Lễ hội văn hóa ẩm thực Hà Nội 2025 tối 19/12 sẽ công bố quyết định ghi danh Tri thức chế biến và thưởng thức chả cá Lã Vọng (Thành phố Hà Nội); gặp gia đình dòng họ Đoàn và nghe câu chuyện 6 đời; lễ hội 19-21/12 tại Công viên Thống Nhất.",
+      "sha256": "18a0206975622d5b57de10ebf6a1964cd5817a83024655b39a56b1da069c10de",
+      "verified_at": "2026-10-18T07:17:45.381880+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://bvhttdl.gov.vn/hanh-trinh-chinh-phuc-vi-giac-cua-du-khach-trai-nghiem-am-thuc-ha-noi-20250826081344504.htm",
+      "supports": "Bộ Văn hóa, Thể thao và Du lịch (26/8/2025): câu nêu mốc 'Ngày 18/8 vừa qua' ba đặc sản của Hà Nội (bánh cuốn, chả cá Lã Vọng, mâm cỗ Bát Tràng) được công nhận di sản văn hóa phi vật thể quốc gia; chỉ dùng để nêu mốc ngày, không dùng thông tin giá hay quán trong bài đó.",
+      "sha256": "8b178ae99b01b83047beff60dd23308ee87681d5d39843ef5420e7c0d647db83",
+      "verified_at": "2026-10-18T07:17:46.947420+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 940,
+        "title": "Khám Phá Hồ Hoàn Kiếm – Biểu Tượng Thủ Đô Hà Nội",
+        "why": "stale",
+        "content_hash": "cb8272501ca6511846e96aff0a58ef15afbac79b89800337da2fb514b849b235",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 952,
+        "title": "Chùa Một Cột – Kiến Trúc Độc Đáo Ngàn Năm Tại Hà Nội",
+        "why": "stale",
+        "content_hash": "31366a9378d9b2888c9cbc4751710f29186c73b59f0470f664a12f6e2665c835",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T07:17:50.205858+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "4274e9535ac2479318af6bc829aa80eee2860939dbb1f83a7a33da2b16c711ef",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

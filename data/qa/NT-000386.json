@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://dsvh.gov.vn/nghe-lam-banh-cuon-thanh-tri-22236",
-      "supports": "Cục Di sản văn hóa (trang không ghi ngày, theo hồ sơ tư liệu của Cục): nghề làm bánh cuốn gắn với Thanh Trì (phường Vĩnh Hưng), điều kiện nguyên liệu, kỹ thuật tráng bằng hơi nước trên vải căng miệng nồi, cách ăn truyền thống, dụng cụ, và việc đưa nghề vào Danh mục quốc gia theo Quyết định 2228/QĐ-BVHTTDL ngày 27/6/2025.",
-      "sha256": "e561d907f204d0f8a5b82efd34593f0436ea141a527d2e32a8d171e0d5a2027d",
-      "verified_at": "2026-10-18T07:11:33.234074+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://thanglong.chinhphu.vn/nghe-lam-banh-cuon-thanh-tri-duoc-ghi-danh-di-san-van-hoa-phi-vat-the-quoc-gia-103260318125933241.htm",
-      "supports": "Báo điện tử Chính phủ (18/3/2026): Thứ trưởng Hồ An Phong trao Quyết định ghi danh nghề làm bánh cuốn Thanh Trì cho đại diện chính quyền và nhân dân phường Vĩnh Hưng; lời đại diện phường về kế hoạch bảo tồn và không gian trải nghiệm trong thời gian tới.",
-      "sha256": "e66d04686355100b706df933b1d0619806ddcca4ee4edba1cbb9bd7e923a871e",
-      "verified_at": "2026-10-18T07:11:36.035754+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://bvhttdl.gov.vn/hanh-trinh-chinh-phuc-vi-giac-cua-du-khach-trai-nghiem-am-thuc-ha-noi-20250826081344504.htm",
-      "supports": "Bộ Văn hóa, Thể thao và Du lịch (26/8/2025): câu nêu mốc 'Ngày 18/8 vừa qua' ba đặc sản của Hà Nội (bánh cuốn, chả cá Lã Vọng, mâm cỗ Bát Tràng) được công nhận di sản văn hóa phi vật thể quốc gia; chỉ dùng để nêu mốc ngày, không dùng thông tin giá hay quán trong bài đó.",
-      "sha256": "8b178ae99b01b83047beff60dd23308ee87681d5d39843ef5420e7c0d647db83",
-      "verified_at": "2026-10-18T07:11:38.091406+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -121,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T07:11:42.352480+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T07:12:24.169301+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "ed96bd1521caa5c33444bdde96a5b99c72f38ab3a61132f128db60554ae27d67",
+  "inventory_sha256": "27fc7d2c9359b8c1a259e8e4a6536ce19e3477e6e9dbd00746de51ff58d2b017",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

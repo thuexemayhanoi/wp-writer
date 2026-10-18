@@ -1,0 +1,133 @@
+{
+  "topic_id": "NT-000382",
+  "status": "PASS",
+  "source_sha256": "a81acff0b1da4b63bf052bed8c59303df05a77989f47e3886d68c455feef616d",
+  "body_sha256": "85f78984aba2c8cef9c342911204a56e8290485e4d59421f59e4b80d02bb0475",
+  "word_count": 2546,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vietnamnet.vn/tu-1-7-ha-noi-trien-khai-vung-phat-thai-thap-nguoi-dan-gui-xe-o-dau-2509683.html",
+      "supports": "Vietnamnet (bản đọc không hiện ngày đăng; cổng phường Giảng Võ đăng lại lúc 17:14 ngày 24/04/2026), nêu danh mục điểm đỗ xe hiện có do Sở Nông nghiệp và Môi trường công bố: Đinh Tiên Hoàng, Lý Thái Tổ, Ngô Quyền, vườn hoa Diên Hồng, khu Nhà hát Lớn và Tràng Tiền, Quang Trung (24/24h), Melia (không nhận gửi qua đêm), bãi cao tầng 502 Trần Nhật Duật, bãi thông minh, chợ Đồng Xuân, trung tâm thương mại Hàng Da, vỉa hè được cấp phép trông giữ xe máy; mục đích để người dân gửi phương tiện cá nhân rồi chuyển sang phương tiện công cộng hoặc phương tiện xanh.",
+      "sha256": "8ce7cd9df458bcead4bf41bdbe27fd0278d3829790dd664b70f9d8921274de3a",
+      "verified_at": "2026-10-18T07:15:43.357295+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://thanglong.chinhphu.vn/ha-noi-mien-phi-xe-buyt-bo-tri-220-diem-gui-xe-trong-vung-phat-thai-thap-103260701085847009.htm",
+      "supports": "Sở Xây dựng Hà Nội (qua Báo điện tử Chính phủ, đăng 01/07/2026): giai đoạn 1 thí điểm từ 1/7 đến hết 31/12/2026; Khu vực 1 cấm xe mô tô, xe gắn máy và ô tô 19h-24h thứ Sáu, thứ Bảy, Chủ nhật; 220 bãi và điểm trông giữ xe quanh khu vực phát thải thấp; 4 điểm trung chuyển đón, trả khách; dự kiến 10 bãi Park and Ride; miễn vé xe buýt trợ giá trong Vành đai 1 đến hết 30/6/2027; 44 trạm xe đạp công cộng với 456 xe.",
+      "sha256": "24fd71e1bec2c9124231676a6b88b5daf87cbe9f5affa68d308bab35770624d8",
+      "verified_at": "2026-10-18T07:15:46.590007+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://giangvo.hanoi.gov.vn/thong-tin-cong-khai/tu-1-7-ha-noi-trien-khai-vung-phat-thai-thap-nguoi-dan-gui-xe-o-dau-2808260424171435438.htm",
+      "supports": "Cổng thông tin phường Giảng Võ (giangvo.hanoi.gov.vn), bản đăng lại bài Vietnamnet lúc 17:14 ngày 24/04/2026, bản đọc đã lưu: xác nhận mốc ngày của danh mục điểm đỗ xe (trước khi thí điểm bắt đầu, còn dùng chữ dự kiến) và nội dung danh mục. Kiểm tra tự động ngày 18/10/2026 không mở được trang nên dùng bản chụp nghiên cứu.",
+      "sha256": "592c7d144602b1c387329fc2470b72da3e4a2747c08577fcdf6d854b9815d675",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 851,
+        "title": "Cho Thuê Xe Máy Gia Lâm Hà Nội – Giá, Loại Xe, Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "7dae290d3e4e9e5120329c0193e0a3f96eb5ffdf5d0eb717ae185c764659fe68",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T07:16:58.139051+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "6e993ddf64155eb32be37e4d686b9769ec7f207031615606fb9b612bd7cf146b",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
