@@ -4299,7 +4299,7 @@
       }
     },
     "NT-000277": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T07:56:52.637286+00:00",
       "source_hash": "f7884600e20fafec22454be858f1719dc3202caf7259a2e831ace9335c9ba061",
       "slug": "wave-110-thay-nhot-bao-nhieu-lit-xich-chung-bao-nhieu-mm-so-lieu-trong-sach-huong-dan-cua-honda",
@@ -4314,8 +4314,37 @@
       "category_warning": null,
       "git_commit": "2390faa2b9fc944be80c686cf5ea69d0b0018053",
       "run_id": "39109245013",
-      "updated_at": "2026-10-18T07:56:56.256161+00:00",
-      "wp_id": 4040
+      "updated_at": "2026-10-18T07:57:02.101244+00:00",
+      "wp_id": 4040,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/wave-110-thay-nhot-bao-nhieu-lit-xich-chung-bao-nhieu-mm-so-lieu-trong-sach-huong-dan-cua-honda/",
+      "verified_at": "2026-10-18T07:57:02.101239+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4040,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/wave-110-thay-nhot-bao-nhieu-lit-xich-chung-bao-nhieu-mm-so-lieu-trong-sach-huong-dan-cua-honda/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/wave-110-thay-nhot-bao-nhieu-lit-xich-chung-bao-nhieu-mm-so-lieu-trong-sach-huong-dan-cua-honda/",
+        "seo_title": "Honda Wave 110 thay nhớt bao nhiêu lít, xích chùng bao nhiêu mm?",
+        "seo_description": "Honda Wave 110 thay nhớt bao nhiêu lít: 0,8 lít sau khi xả, 1,0 lít sau khi rã máy, nhớt JASO MA, độ chùng xích 25 – 35 mm, bugi và xăng theo sách hướng dẫn của Honda.",
+        "checked_at": "2026-10-18T07:57:02.101218+00:00"
+      }
     }
   },
   "categories": {}
