@@ -70,24 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://dsvh.gov.vn/di-tich-lich-su-va-kien-truc-nghe-thuat-chua-thay-va-khu-vuc-nui-da-sai-son,-hoang-xa-phuong-cach-1252",
-      "supports": "Cục Di sản văn hóa mô tả quần thể chùa Thầy và núi Sài Sơn, thủy đình ở hồ Long Trì, các chùa đền trong quần thể, Hội Thầy từ mùng 5 đến mùng 8 tháng Ba âm lịch (chính hội mùng 7) và việc xếp hạng di tích quốc gia đặc biệt.",
-      "sha256": "e1707c40b599f41a94d7b0fd051580cba318f6fba49e55b23e95755374f3b0e1",
-      "verified_at": "2026-10-18T14:11:19.737505+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://hanoimoi.vn/quoc-oai-khai-hoi-chua-thay-2026-lan-toa-gia-tri-di-san-ket-noi-van-hoa-du-lich-746089.html",
-      "supports": "Báo Hà Nội Mới: tối 20/4/2026 xã Quốc Oai tổ chức lễ khai hội chùa Thầy và khai mạc Tuần lễ văn hóa - du lịch; các nghi lễ Mộc dục, rước kiệu, múa rối nước được duy trì; thả đèn hoa đăng ở hồ Long Trì.",
-      "sha256": "06db0ee84bd18db238bf8359f437d5e3b8ddb3b842c454fd4cb969014e660097",
-      "verified_at": "2026-10-18T14:11:21.464283+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -131,11 +114,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T14:11:31.560919+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T14:21:39.867130+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "b68214a74ae64e0cf762ef412cce9f381e9a5b2e0ecc01a28c86b33bfdf8da39",
+  "inventory_sha256": "1873d8a2c9ac6cc7a79dd816a1b2adad5fa9e5bec2689fc3553caa60df3bedd0",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

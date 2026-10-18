@@ -70,48 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://dsvh.gov.vn/hoi-giong-o-den-phu-dong-va-den-soc-486",
-      "supports": "Cục Di sản văn hóa mô tả Hội Gióng ở đền Phù Đổng (Gia Lâm) từ mùng 7 đến mùng 9 tháng Tư âm lịch và ở đền Sóc (Sóc Sơn) từ mùng 6 đến mùng 8 tháng Giêng, cùng các vai, trận đánh cờ, lệ cướp chiếu, tục cướp hoa tre và việc UNESCO ghi danh tháng 11/2010.",
-      "sha256": "2ecd5691c5963c98a54a2deb5ba50cdc7c066cd326b3a78e380d2aa79ead878a",
-      "verified_at": "2026-10-18T14:10:45.609069+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://ich.unesco.org/en/RL/giong-festival-of-phu-djong-and-soc-temples-00443",
-      "supports": "Hồ sơ UNESCO mô tả hội Gióng đền Phù Đổng ở tháng Tư âm lịch với múa cờ và 28 bé gái 9-13 tuổi đóng tướng giặc, còn lễ hội đền Sóc ở tháng Giêng gồm lễ tắm tượng và rước hoa tre.",
-      "sha256": "b494eafc07fc8858c0e7d329d7e70cea9c856e2488d5b19212cad28e6b24e6fe",
-      "verified_at": "2026-10-18T14:10:46.796619+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.sggp.org.vn/tung-bung-khai-hoi-giong-den-soc-2024-post726862.html",
-      "supports": "Báo Sài Gòn Giải Phóng về khai hội đền Sóc 2024 (15-17/2): rước kiệu các lễ vật vào đền Thượng và điểm tán lộc để du khách xin hoa tre mà không tranh cướp.",
-      "sha256": "c3f947af8e9f97c2255f139cce3a1db0a57a9c295f26321a4d71a74a9eebc73a",
-      "verified_at": "2026-10-18T14:10:49.460507+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://baophapluat.vn/khai-mac-hoi-giong-den-phu-dong-nam-2026.html",
-      "supports": "Báo Pháp Luật Việt Nam: mùa Hội Gióng đền Phù Đổng 2026 khai mạc tối 23/5 và kéo dài đến hết 25/5/2026, tức ngày 9/4 âm lịch, làm ví dụ đổi lịch âm sang dương.",
-      "sha256": "ad046ea6390fac53fb1960ea356cf4dc21ad05f3b9062d063c9beffd036f5499",
-      "verified_at": "2026-10-18T14:10:51.299127+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://baovanhoa.vn/doi-song-van-hoa/hoi-giong-2019-khong-con-lon-xon-vi-tranh-cuop-36271.html",
-      "supports": "Báo Văn hóa 2019: lễ khai hội Gióng đền Sóc đón 8 lễ vật do các thôn cung tiến và diễn ra an toàn, không còn cảnh tranh cướp lễ vật.",
-      "sha256": "3b9f0fc3ac24de60626d248b0e8c948663b443b7430f4520641a5921c143eba1",
-      "verified_at": "2026-10-18T14:10:54.330528+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -146,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T14:11:05.878066+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T14:21:39.677936+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "99ded5709c2877e9e564ed0bb49313b8b59d3b3a52ede871bd4b5a50c75b2836",
+  "inventory_sha256": "ceed58c1e6b8933906b429b28a6cb26c95ba9a19fe3d474727dcccbb9b48e0ea",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

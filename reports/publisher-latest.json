@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-18T14:14:29.750541+00:00",
-  "attempted": 8,
+  "at": "2026-10-18T14:24:49.077997+00:00",
+  "attempted": 3,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -99,11 +99,11 @@
       ],
       "source_evidence": [],
       "evidence_recheck": null,
-      "at": "2026-10-18T14:10:42.558268+00:00",
+      "at": "2026-10-18T14:23:34.221351+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "99ded5709c2877e9e564ed0bb49313b8b59d3b3a52ede871bd4b5a50c75b2836",
+      "inventory_sha256": "d763f9fb5632f35c78635a86032a97310204b97d4421f749f3b3156baa16df66",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -120,7 +120,15 @@
       }
     },
     {
-      "topic_id": "NT-000521",
+      "topic_id": "NT-000525",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 172,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "hanoi-travel",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000555",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 175,
       "category_resolution": "EXACT",
@@ -128,59 +136,11 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-000522",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000527",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 174,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "food-culture",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000528",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 174,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "food-culture",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000552",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000553",
+      "topic_id": "NT-000560",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 173,
       "category_resolution": "EXACT",
       "intended_taxonomy_key": "vietnam-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000557",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 173,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "vietnam-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000558",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
       "category_warning": null
     }
   ],

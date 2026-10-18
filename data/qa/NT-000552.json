@@ -70,48 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vietnam.travel/node/199",
-      "supports": "Trang điểm đến của vietnam.travel: khí hậu mát quanh năm, đường ướt và trơn từ tháng 5 đến tháng 8; thời điểm tốt nhất tháng 9 đến 11 khi lúa vàng và tam giác mạch nở.",
-      "sha256": "7233e44f2ce5a68a48dbc5eed6732a21e9a51f3354334fb62a9ea8eb661f60ac",
-      "verified_at": "2026-10-18T14:12:42.077583+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnam.travel/things-to-do/buckwheat-bounty-ha-giang",
-      "supports": "Trang The Buckwheat Bounty of Ha Giang của vietnam.travel: hoa tam giác mạch trắng cuối tháng 9, hồng khi sang tháng 11, đỏ sẫm cuối tháng 12; lễ hội thường giữa đến cuối tháng 11.",
-      "sha256": "a4af7d7ec1abdc38d4065e729a817dfa055eb08bfe91a66f711e75c1755ffbae",
-      "verified_at": "2026-10-18T14:12:43.239435+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.unesco.org/en/iggp/dong-van-karst-plateau-unesco-global-geopark",
-      "supports": "Trang UNESCO về công viên địa chất Đồng Văn: tháng 10 đến 11 đồi và ruộng bậc thang nở tam giác mạch sắc hồng trắng; tháng 1 đến 2 hoa đào, hoa mận.",
-      "sha256": "21efe3c1cffde5c594778926b919b4483e8355bee0cb91207363dfbf7445aefe",
-      "verified_at": "2026-10-18T14:12:44.598614+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnam.travel/things-to-do/ha-giang-loop",
-      "supports": "Trang The Ha Giang Loop của vietnam.travel: tháng 9 đến 10 ruộng lúa vàng, tháng 2 đến 3 hoa xuân nở.",
-      "sha256": "abbd9c96db42d206453f8996719e5551bdbbb6c1273aacc4ecee380cc139a5b8",
-      "verified_at": "2026-10-18T14:12:45.508945+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnam.travel/things-to-do/ha-giang-loop-where-nature-and-culture-come-one",
-      "supports": "Trang Ha Giang Loop của vietnam.travel về tháng 6: đầu mùa mưa, mưa chiều thường gặp, đi sớm sẽ có trời quang; thung lũng homestay ít khách hơn đỉnh mùa thu.",
-      "sha256": "479b28371c02968b57cb341cbb05110cff48554348ab9198836e4e3cac8b4386",
-      "verified_at": "2026-10-18T14:12:46.677684+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -137,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T14:12:55.895626+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-18T14:21:41.802027+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "bff2d4e075a8ddf87472d15ae476fa3abdc30237485c6ac1877d8e442329b53f",
+  "inventory_sha256": "298a69d67608dc9c3aeb27f426c9b9127df6c8c11a4606d8703cff7d06c69be1",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
