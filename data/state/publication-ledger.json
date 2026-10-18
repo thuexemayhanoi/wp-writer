@@ -4105,6 +4105,24 @@
         "seo_description": "Khởi động xe số mới lần đầu theo Yamaha: đạp cần khởi động 5–10 lần, không vừa bấm đề vừa đạp; thời gian để máy nổ khác nhau giữa Yamaha và Honda, nên hỏi đại lý.",
         "checked_at": "2026-10-18T07:54:41.402707+00:00"
       }
+    },
+    "NT-000273": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-18T07:54:57.061109+00:00",
+      "source_hash": "b8dc1a1c702fd9bb6614479e2a1d1aa77d92f8252cbbb07d0c1f0237f071af0b",
+      "slug": "honda-vision-dung-nhot-gi-do-bao-nhieu-dau-may-bugi-va-xang-theo-sach-huong-dan",
+      "expected_status": "publish",
+      "category_id": 170,
+      "visible_hash": "cf4f9528f45f249ee4cd242a735c497d43e60e46f451290c7791d25fe024a68e",
+      "first_paragraph": "Honda Vision dùng nhớt gì? Theo bản sách hướng dẫn sử dụng Honda Vision mà Honda Việt Nam đăng dưới dạng PDF, xe dùng dầu máy Honda 4 kỳ cho xe máy và dầu phải đạt đồng thời ba tiêu chí: JASO T 903 loại MB, độ nhớt SAE 10W-30 và phân loại API SG hoặc cao hơn (trừ loại có chữ “Energy Conserving” hoặc “Resource Conserving” ở vòng ngoài nhãn API). Lượng dầu động cơ sách ghi là 0,7 lít sau khi xả, 0,7 lít sau khi xả và vệ sinh lưới lọc, 0,8 lít sau khi rã máy; bugi tiêu chuẩn là MR8C-9N của NGK với khe hở bugi 0,80 – 0,90 mm; xăng khuyên dùng là xăng không chì RON 91 hoặc cao hơn, chứa cồn không quá 10% ethanol. Đây là số liệu của đúng cuốn sách đã đọc, nên hãy đối chiếu với sách của chính chiếc xe bạn đang đi trước khi áp dụng.",
+      "meta_title": "Honda Vision dùng nhớt gì, đổ bao nhiêu: thông số theo sách hướng dẫn",
+      "meta_description": "Honda Vision dùng nhớt gì, đổ bao nhiêu lít: chuẩn JASO MB, SAE 10W-30, bugi MR8C-9N và xăng RON 91 theo sách hướng dẫn của Honda Việt Nam, kèm cách đối chiếu mã kiểu xe.",
+      "intended_taxonomy_key": "engine-care",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "2390faa2b9fc944be80c686cf5ea69d0b0018053",
+      "run_id": "39109245013",
+      "updated_at": "2026-10-18T07:54:57.062506+00:00"
     }
   },
   "categories": {}
