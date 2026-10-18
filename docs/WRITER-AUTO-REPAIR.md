@@ -1,5 +1,7 @@
 # WRITER AUTO REPAIR — 10 LOOPS + DURABLE GIT CHECKPOINT
 
+Overall source/continuous-writing procedure: [shared W1–W9 contract](WRITER-RESEARCH-CONTRACT.md). This document remains authoritative for repair commands and counting. No new API AI, keys or per-revision approval; QA thresholds remain unchanged.
+
 **Writer pool (18/10/2026):** W1–W9 là 9 vị trí dùng chung hàng đợi. Claude App/AI App tự nhận vị trí trống bằng `--slot auto` (hoặc request GitHub), mỗi phiên giữ tối đa một vị trí và tối đa 10 Topic ID. Không cấp khóa Ed25519, không xác thực tài khoản Claude, không dùng API AI. Giữ nguyên lease còn hạn, checkpoint, chống trùng Topic ID và QA/Publisher đang chạy; Publisher tiếp tục đăng 2 bài mỗi lô.
 
 

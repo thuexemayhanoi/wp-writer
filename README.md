@@ -1,5 +1,7 @@
 # WP-WRITER — UNIVERSAL AI CONTENT FACTORY FOR WORDPRESS
 
+**Quy trình vận hành chung hiện hành:** [W1–W9 nghiên cứu/viết liên tục bằng AI App, không API AI](docs/WRITER-RESEARCH-CONTRACT.md). Một nguồn gốc đã xác minh có thể đủ cho chủ đề hẹp; thêm nguồn đối chiếu khi cần. QA không đổi, không thêm khóa hoặc bước duyệt tay.
+
 **Writer pool (18/10/2026):** W1–W9 là 9 vị trí dùng chung hàng đợi. Claude App/AI App tự nhận vị trí trống bằng `--slot auto` (hoặc request GitHub), mỗi phiên giữ tối đa một vị trí và tối đa 10 Topic ID. Không cấp khóa Ed25519, không xác thực tài khoản Claude, không dùng API AI. Giữ nguyên lease còn hạn, checkpoint, chống trùng Topic ID và QA/Publisher đang chạy; Publisher tiếp tục đăng 2 bài mỗi lô.
 
 
@@ -46,7 +48,7 @@ Sau khi Writer push bài, hệ thống tự intake + QA và định tuyến bài
 - **Production (đang bật):** category chính xác → xuất bản công khai; thiếu/sai category → WordPress nháp với lý do mapping và taxonomy đích trong ledger.
 - **Staging được duyệt:** mọi bài đạt QA vào WordPress nháp, không public.
 - **Trạng thái hiện tại (từ 17/10/2026): Production ĐÃ BẬT** theo lệnh chủ; `dry-run` chỉ là chế độ khi chủ tắt công tắc (`production_enabled=false` hoặc `mode=dry_run`).
-- Tạo tối đa 2 bài/lần chạy, giới hạn riêng bài mới public/nháp theo ngày. Không auto-update hoặc auto-promote draft đã có.
+- Tạo 2 bài/lô, tối đa 5 lô (10 bài) mỗi lần chạy; giới hạn riêng bài mới public/nháp theo ngày. Không auto-update hoặc auto-promote draft đã có.
 - Chỉ tham khảo hành vi của wp-aiwriter; code và Topic Factory của wp-writer hoàn toàn độc lập.
 
 Quy trình và điều kiện: [WordPress Auto Delivery](docs/WORDPRESS-AUTO-DELIVERY.md).
@@ -639,7 +641,7 @@ README này là **bản chốt yêu cầu và nguồn hướng dẫn Work**, kh�
 
 ## Global-style Research V2 — chủ đề mới có nghiên cứu và checkpoint
 
-[Research V2 runbook](docs/RESEARCH-V2-GLOBAL-ADAPTATION.md): external AI lấy 10 gợi ý, đối chiếu nội dung WordPress hiện có, kiểm tra ít nhất 2 nguồn độc lập và nhận diện search intent; nộp 10 chủ đề/lượt ở nhánh research/<session> với checkpoint SHA-256. Research QA read-only PASS sẽ kích hoạt trusted-main intake, tự cập nhật topic JSONL thành PLANNED (không Excel). Mất quota/mất môi trường dùng lệnh resume để đọc đúng dữ liệu GitHub, không làm lại nghiên cứu đã nộp. GitHub Actions không tự vận hành mô hình AI, không bật WordPress Production; bài viết vẫn phải SEO ≥85 và qua đủ 6 cổng QA.
+[Research V2 runbook](docs/RESEARCH-V2-GLOBAL-ADAPTATION.md): external AI lấy 10 gợi ý, đối chiếu nội dung WordPress hiện có, kiểm tra nguồn theo [quy định chung](docs/WRITER-RESEARCH-CONTRACT.md) và nhận diện search intent; nộp 10 chủ đề/lượt ở nhánh research/<session> với checkpoint SHA-256. Research QA read-only PASS sẽ kích hoạt trusted-main intake, tự cập nhật topic JSONL thành PLANNED (không Excel). Mất quota/mất môi trường dùng lệnh resume để đọc đúng dữ liệu GitHub, không làm lại nghiên cứu đã nộp. GitHub Actions không tự vận hành mô hình AI; Research Intake không đăng WordPress. Production Publisher đang bật, bài viết vẫn phải SEO/Quality ≥85 và qua đủ 6 cổng QA.
 
 ## AUTO-REPAIR WRITER — 10 CONTENT REVISIONS (18/10/2026)
 

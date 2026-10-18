@@ -1,5 +1,7 @@
 # Universal writer contract — Nguyễn Tú
 
+**Quy trình vận hành chung hiện hành:** [WRITER-RESEARCH-CONTRACT.md](docs/WRITER-RESEARCH-CONTRACT.md). Đồng bộ W1–W9, nguồn nghiên cứu và vòng lặp tiếp tục; không API AI, không thêm khóa/bước duyệt tay. Một nguồn gốc đủ chứng minh có thể đủ cho chủ đề hẹp; bổ sung đối chiếu khi cần. SEO/Quality ≥85 và G1–G7 không đổi.
+
 **Writer pool (18/10/2026):** W1–W9 là 9 vị trí dùng chung hàng đợi. Claude App/AI App tự nhận vị trí trống bằng `--slot auto` (hoặc request GitHub), mỗi phiên giữ tối đa một vị trí và tối đa 10 Topic ID. Không cấp khóa Ed25519, không xác thực tài khoản Claude, không dùng API AI. Giữ nguyên lease còn hạn, checkpoint, chống trùng Topic ID và QA/Publisher đang chạy; Publisher tiếp tục đăng 2 bài mỗi lô.
 
 

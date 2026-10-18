@@ -1,5 +1,7 @@
 # AI ngoài bắt đầu tại đây — một lệnh, không xin duyệt từng bài
 
+Đọc [quy trình chung W1–W9](WRITER-RESEARCH-CONTRACT.md) để dùng cùng quy định nguồn và tiếp tục sau mỗi batch; không API AI, không thêm khóa hoặc bước duyệt tay. Một nguồn gốc đã đọc, đủ bằng chứng có thể đủ cho chủ đề hẹp; đối chiếu thêm khi cần.
+
 **Writer pool (18/10/2026):** W1–W9 là 9 vị trí dùng chung hàng đợi. Claude App/AI App tự nhận vị trí trống bằng `--slot auto` (hoặc request GitHub), mỗi phiên giữ tối đa một vị trí và tối đa 10 Topic ID. Không cấp khóa Ed25519, không xác thực tài khoản Claude, không dùng API AI. Giữ nguyên lease còn hạn, checkpoint, chống trùng Topic ID và QA/Publisher đang chạy; Publisher tiếp tục đăng 2 bài mỗi lô.
 
 
