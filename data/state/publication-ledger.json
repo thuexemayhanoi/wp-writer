@@ -697,6 +697,24 @@
         "seo_description": "Chạy rà xe số mới nên đi bao nhiêu km đầu, tốc độ theo từng số ra sao, cần tránh gì? Đối chiếu khuyến cáo của Honda, Yamaha và cách chốt mốc theo sách hướng dẫn.",
         "checked_at": "2026-10-17T19:15:46.352415+00:00"
       }
+    },
+    "NT-000206": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-18T02:03:12.370122+00:00",
+      "source_hash": "ffef9383ea147612d26d99095b071aacbf59c219e42be8094478818b4a7d7ba1",
+      "slug": "dung-den-do-khi-dang-di-xe-so-ve-so-nao-nha-con-ra-sao-va-co-nen-tat-may",
+      "expected_status": "publish",
+      "category_id": 161,
+      "visible_hash": "74ccf022f078c939d8d1c936f33fbd0e0bc2e30dd6677a30a06a92fb43631c56",
+      "first_paragraph": "Dừng đèn đỏ khi đang đi xe số, Yamaha Motor Việt Nam khuyên trả số về, nhưng bài của hãng không nói rõ là về số thấp hay về N; với xe côn tay, một bài khác của Yamaha khuyên hạn chế rà côn liên tục, thay bằng nhấp–nhả côn nhẹ, mồi ga ở số thấp hoặc trả số về N và nhả côn hoàn toàn khi dừng lâu. Về chuyện tắt máy, chỉ Yamaha nêu mốc dừng quá 20 giây, còn báo Thanh Niên chỉ nói \"quá lâu\" mà không có số giây, nên đó là mốc tham khảo của một hãng chứ không phải quy tắc chung cho mọi xe.",
+      "meta_title": "Dừng đèn đỏ khi đang đi xe số: về số nào, nhả côn và tắt máy?",
+      "meta_description": "Dừng đèn đỏ khi đang đi xe số: Yamaha khuyên trả số về nhưng chưa nói về số nào, cách chờ trên xe côn tay theo Honda, Yamaha và mốc tắt máy 20 giây của hãng.",
+      "intended_taxonomy_key": "road-safety",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "7c5b4b55d7590dc2bdf4552ab5fa34fc3008f908",
+      "run_id": "39088547751",
+      "updated_at": "2026-10-18T02:03:12.371992+00:00"
     }
   },
   "categories": {}
