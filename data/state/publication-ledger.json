@@ -4731,7 +4731,7 @@
       }
     },
     "NT-000286": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:04:26.474748+00:00",
       "source_hash": "153a82ac9d206c08860c693335dca55d22a2813fde6b013daab092aeda22e3e7",
       "slug": "rua-xe-may-dung-cach-nen-xit-o-dau-tranh-nuoc-vao-dau-va-viec-can-kiem-tra-sau-khi-rua",
@@ -4746,8 +4746,37 @@
       "category_warning": null,
       "git_commit": "81bfb3fb5a701c88a73205c032408fd153203280",
       "run_id": "39134125621",
-      "updated_at": "2026-10-18T14:04:30.341160+00:00",
-      "wp_id": 4064
+      "updated_at": "2026-10-18T14:04:36.066437+00:00",
+      "wp_id": 4064,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/rua-xe-may-dung-cach-nen-xit-o-dau-tranh-nuoc-vao-dau-va-viec-can-kiem-tra-sau-khi-rua/",
+      "verified_at": "2026-10-18T14:04:36.066432+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4064,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/rua-xe-may-dung-cach-nen-xit-o-dau-tranh-nuoc-vao-dau-va-viec-can-kiem-tra-sau-khi-rua/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/rua-xe-may-dung-cach-nen-xit-o-dau-tranh-nuoc-vao-dau-va-viec-can-kiem-tra-sau-khi-rua/",
+        "seo_title": "Rửa xe máy đúng cách: tránh nước vào đâu, kiểm tra gì sau rửa",
+        "seo_description": "Rửa xe máy đúng cách theo Honda và Yamaha: chờ máy nguội, tráng nước lạnh, tránh vòi cao áp và nước vào ống bô, thử phanh, để đèn trước sáng và rửa sớm sau khi đi mưa.",
+        "checked_at": "2026-10-18T14:04:36.066411+00:00"
+      }
     }
   },
   "categories": {}
