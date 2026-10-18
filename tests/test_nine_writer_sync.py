@@ -50,6 +50,20 @@ class NineWriterCompatibilityTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("invalid choice", result.stderr)
 
+    def test_writer_auto_claim_skips_other_session_receipts(self):
+        from writer_session import claim
+        candidate_rows = [
+            {"topic_id": "NT-900001", "topic_qa_status": "PLANNED"},
+            {"topic_id": "NT-900002", "topic_qa_status": "PLANNED"},
+        ]
+        registry = {
+            "leases": {},
+            "submissions": {"NT-900001": {"session": "other-writer", "sha256": "recorded"}},
+        }
+        slot, updated = claim(registry, candidate_rows, "smoke-session-receipts", count=1)
+        self.assertEqual(slot, "W1")
+        self.assertEqual(updated["leases"]["W1"]["topic_ids"], ["NT-900002"])
+
     def test_active_runbooks_do_not_limit_writers_to_three(self):
         stale = re.compile(r"W1\s*/\s*W2\s*/\s*W3|W1[–-]W3\b|<W1\|W2\|W3",
                            re.IGNORECASE)
