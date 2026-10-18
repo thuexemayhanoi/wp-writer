@@ -795,7 +795,7 @@
       }
     },
     "NT-000207": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T02:05:44.453069+00:00",
       "source_hash": "61f98d0e8a49553c6e30b1d5ccf0fd6b09e33362510a300ff2b55a348dd610c6",
       "slug": "ra-con-tren-xe-con-tay-la-gi-khi-nao-chap-nhan-duoc-va-vi-sao-hang-khuyen-han-che",
@@ -810,8 +810,37 @@
       "category_warning": null,
       "git_commit": "5f048cbce93576ba18fffc574f1fe288f1a811d8",
       "run_id": "39088633500",
-      "updated_at": "2026-10-18T02:05:48.136990+00:00",
-      "wp_id": 3962
+      "updated_at": "2026-10-18T02:05:54.038913+00:00",
+      "wp_id": 3962,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ra-con-tren-xe-con-tay-la-gi-khi-nao-chap-nhan-duoc-va-vi-sao-hang-khuyen-han-che/",
+      "verified_at": "2026-10-18T02:05:54.038908+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3962,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ra-con-tren-xe-con-tay-la-gi-khi-nao-chap-nhan-duoc-va-vi-sao-hang-khuyen-han-che/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ra-con-tren-xe-con-tay-la-gi-khi-nao-chap-nhan-duoc-va-vi-sao-hang-khuyen-han-che/",
+        "seo_title": "Rà côn trên xe côn tay là gì? Khi nào chấp nhận được, vì sao hạn chế",
+        "seo_description": "Rà côn trên xe côn tay là gì: cách Yamaha và Honda mô tả, lúc có thể rà, hậu quả mòn lá côn khi rà liên tục, cách thay thế và vai trò của hành trình tự do tay côn.",
+        "checked_at": "2026-10-18T02:05:54.038891+00:00"
+      }
     }
   },
   "categories": {}
