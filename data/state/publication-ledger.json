@@ -5403,7 +5403,7 @@
       }
     },
     "NT-000524": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T14:17:44.043531+00:00",
       "source_hash": "fa160ac2f985727c1a3ec311046f6c03d9dacefb37f613ad6a33f3d33e247c7a",
       "slug": "hoi-thoi-com-thi-thi-cam-keo-lua-lay-nuoc-thoi-com-va-cac-moc-mung-7-8-thang-gieng",
@@ -5418,8 +5418,37 @@
       "category_warning": null,
       "git_commit": "e0327f5556485c1e6a474156113d0d9a8c238ceb",
       "run_id": "39135086720",
-      "updated_at": "2026-10-18T14:17:47.704497+00:00",
-      "wp_id": 4079
+      "updated_at": "2026-10-18T14:17:53.369360+00:00",
+      "wp_id": 4079,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/hoi-thoi-com-thi-thi-cam-keo-lua-lay-nuoc-thoi-com-va-cac-moc-mung-7-8-thang-gieng/",
+      "verified_at": "2026-10-18T14:17:53.369353+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4079,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/hoi-thoi-com-thi-thi-cam-keo-lua-lay-nuoc-thoi-com-va-cac-moc-mung-7-8-thang-gieng/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/hoi-thoi-com-thi-thi-cam-keo-lua-lay-nuoc-thoi-com-va-cac-moc-mung-7-8-thang-gieng/",
+        "seo_title": "Hội thổi cơm thi Thị Cấm: kéo lửa, lấy nước, thổi cơm",
+        "seo_description": "Hội thổi cơm thi Thị Cấm ở Nam Từ Liêm: mốc mùng 7–8 tháng Giêng, ba phần thi kéo lửa, lấy nước, thổi cơm theo Cục Di sản và cách đi xem hội làng cho đúng phép.",
+        "checked_at": "2026-10-18T14:17:53.369320+00:00"
+      }
     }
   },
   "categories": {}
