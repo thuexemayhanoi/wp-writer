@@ -3915,7 +3915,7 @@
       }
     },
     "NT-000289": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T07:46:41.888388+00:00",
       "source_hash": "072ad7a786f1b05adbfea640ea49592a4fa3cccad2a025d87469e48427022ddd",
       "slug": "doi-co-lop-hoac-mam-xe-may-vi-sao-michelin-honda-va-yamaha-khuyen-giu-thong-so-nguyen-ban",
@@ -3930,8 +3930,37 @@
       "category_warning": null,
       "git_commit": "ac212f533cd8ebe42db5c10e0cfa2fe994a4c465",
       "run_id": "39108416003",
-      "updated_at": "2026-10-18T07:46:45.521516+00:00",
-      "wp_id": 4032
+      "updated_at": "2026-10-18T07:46:50.831454+00:00",
+      "wp_id": 4032,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/doi-co-lop-hoac-mam-xe-may-vi-sao-michelin-honda-va-yamaha-khuyen-giu-thong-so-nguyen-ban/",
+      "verified_at": "2026-10-18T07:46:50.831449+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4032,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/doi-co-lop-hoac-mam-xe-may-vi-sao-michelin-honda-va-yamaha-khuyen-giu-thong-so-nguyen-ban/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/doi-co-lop-hoac-mam-xe-may-vi-sao-michelin-honda-va-yamaha-khuyen-giu-thong-so-nguyen-ban/",
+        "seo_title": "Đổi cỡ lốp hoặc mâm xe máy: vì sao hãng khuyên giữ thông số nguyên bản",
+        "seo_description": "Đổi cỡ lốp hoặc mâm xe máy: Michelin khuyên giữ kích thước gốc, Honda không thay mâm xe này vào xe kia, Yamaha dặn đúng chủng loại lốp; cách hỏi trước khi đổi.",
+        "checked_at": "2026-10-18T07:46:50.831428+00:00"
+      }
     }
   },
   "categories": {}
