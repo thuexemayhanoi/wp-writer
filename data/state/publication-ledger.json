@@ -2235,7 +2235,7 @@
       }
     },
     "NT-000211": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T06:38:17.822138+00:00",
       "source_hash": "1beceb9c86d6b1795ecaf7eec08cbf4bbfaae5bcec583c8a1bc7a863aaf63cd3",
       "slug": "so-n-tren-xe-con-tay-so-mo-nam-o-dau-cach-vao-so-n-dung-va-xu-ly-khi-xe-khong-lui-duoc",
@@ -2250,8 +2250,37 @@
       "category_warning": null,
       "git_commit": "370e37cf0329235cd4e87d10fd53aa104315012f",
       "run_id": "39104648334",
-      "updated_at": "2026-10-18T06:38:21.581685+00:00",
-      "wp_id": 3996
+      "updated_at": "2026-10-18T06:38:27.121994+00:00",
+      "wp_id": 3996,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/so-n-tren-xe-con-tay-so-mo-nam-o-dau-cach-vao-so-n-dung-va-xu-ly-khi-xe-khong-lui-duoc/",
+      "verified_at": "2026-10-18T06:38:27.121988+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3996,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/so-n-tren-xe-con-tay-so-mo-nam-o-dau-cach-vao-so-n-dung-va-xu-ly-khi-xe-khong-lui-duoc/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/so-n-tren-xe-con-tay-so-mo-nam-o-dau-cach-vao-so-n-dung-va-xu-ly-khi-xe-khong-lui-duoc/",
+        "seo_title": "Số N trên xe côn tay: cách vào số mo từ số 1 và số 2",
+        "seo_description": "Số N trên xe côn tay nằm giữa 1 và 2 trong ví dụ Yamaha Exciter 150. Xem cách tìm số mo khi dừng, trước lúc khởi động và vì sao xe số có thể khó lùi.",
+        "checked_at": "2026-10-18T06:38:27.121966+00:00"
+      }
     }
   },
   "categories": {}
