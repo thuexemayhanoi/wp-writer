@@ -103,14 +103,26 @@ class RegateTests(unittest.TestCase):
     def test_with_snapshot_never_overrides_a_recorded_snapshot_or_invents_one(self):
         inventory = [{'id': 3, 'factory_published_at': '2026-10-18T02:03:00+00:00'},
                      {'id': 4, 'factory_published_at': '2026-10-18T02:30:00+00:00'}]
-        recorded = {'research': {'inventory_updated_at': '2026-10-18T01:00:00+00:00', 'reviewed_existing_ids': [3]}}
+        built = '2026-10-18T02:09:00+00:00'
+        recorded = {'research': {'inventory_updated_at': '2026-10-18T01:00:00+00:00', 'reviewed_existing_ids': [3],
+                                 'reviewed_at': built}}
         self.assertIs(tf.with_snapshot(recorded, inventory), recorded)
-        read_nothing = {'research': {'reviewed_existing_ids': [99], 'reviewed_content_hashes': {'98': 'x'}}}
+        read_nothing = {'research': {'reviewed_existing_ids': [99], 'reviewed_content_hashes': {'98': 'x'},
+                                     'reviewed_at': built}}
         self.assertIs(tf.with_snapshot(read_nothing, inventory), read_nothing)
-        by_hash_only = {'research': {'reviewed_content_hashes': {'3': 'h3'}}}
+        no_build_time = {'research': {'reviewed_existing_ids': [3]}}
+        self.assertIs(tf.with_snapshot(no_build_time, inventory), no_build_time)
+        by_hash_only = {'research': {'reviewed_content_hashes': {'3': 'h3'}, 'reviewed_at': built}}
         inferred = tf.with_snapshot(by_hash_only, inventory)
         self.assertEqual(inferred['research']['inventory_updated_at'], '2026-10-18T02:03:00+00:00')
         self.assertNotIn('inventory_updated_at', by_hash_only['research'])  # the input row is never mutated
+
+    def test_a_build_long_after_the_newest_page_it_read_proves_nothing_about_the_snapshot(self):
+        inventory = [{'id': 3, 'factory_published_at': '2026-10-17T13:25:00+00:00'}]
+        long_after = {'research': {'reviewed_existing_ids': [3], 'reviewed_at': '2026-10-18T02:04:00+00:00'}}
+        self.assertIs(tf.with_snapshot(long_after, inventory), long_after)
+        before_the_page = {'research': {'reviewed_existing_ids': [3], 'reviewed_at': '2026-10-17T13:00:00+00:00'}}
+        self.assertIs(tf.with_snapshot(before_the_page, inventory), before_the_page)
 
     def test_regate_computes_the_strict_verdict_against_everyone_but_the_chosen_rows(self):
         stuck = row('NT-1', 'Bản đồ nhu cầu độc lập một', 'RESEARCH')

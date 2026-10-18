@@ -75,20 +75,26 @@ def stamp_factory_posts(inventory, ledger):
     when={r.get('wp_id'):(r.get('verified_at') or r.get('updated_at')) for r in ((ledger or {}).get('posts') or {}).values() if r.get('wp_id')}
     return [dict(p,factory_published_at=when[p['id']]) if when.get(p.get('id')) else p for p in inventory]
 
+SNAPSHOT_INFERENCE_WINDOW=dt.timedelta(minutes=30)
+
 def with_snapshot(topic, inventory):
     """A registered row that predates `research.inventory_updated_at` gets the snapshot time inferred from what it read.
 
     The row names the pages it reviewed. The newest factory-published page among them proves the researcher's
-    snapshot is no older than that page's verification, so a sibling article verified after it was not readable
-    yet. Rows that already carry `inventory_updated_at`, and rows that read no factory page, are returned as is.
-    The inferred time is recorded (`inventory_updated_at_inferred`) when a re-gated row is promoted.
+    snapshot is no older than that page's verification, and `reviewed_at` (the build) is no earlier than the snapshot,
+    so the snapshot lies between the two. Only when the build followed that page within SNAPSHOT_INFERENCE_WINDOW is
+    the page's time taken as the snapshot: a sibling article verified after it was not readable yet. A wider gap
+    proves nothing, so the row keeps `reviewed_at`. Rows that already carry `inventory_updated_at`, and rows that
+    read no factory page, are returned as is. The inferred time is recorded (`inventory_updated_at_inferred`) when a
+    re-gated row is promoted.
     """
     research=topic.get('research') or {}
     if research.get('inventory_updated_at'):
         return topic
     read={str(i) for i in research.get('reviewed_existing_ids') or []}|{str(k) for k in research.get('reviewed_content_hashes') or {}}
     seen=[at for at in (_utc(p.get('factory_published_at')) for p in inventory if str(p.get('id')) in read) if at]
-    if not seen:
+    built=_utc(research.get('reviewed_at'))
+    if not seen or not built or not dt.timedelta(0)<=built-max(seen)<=SNAPSHOT_INFERENCE_WINDOW:
         return topic
     return dict(topic,research=dict(research,inventory_updated_at=max(seen).isoformat(),inventory_updated_at_inferred=True))
 
@@ -272,7 +278,8 @@ def regate(ids):
     after the researcher read, or the intake ran late): registered rows are immutable and still own their search
     intent, so a new ID for the same idea would collide with the stuck row. Nothing is ever demoted or rejected.
     A row recorded before `research.inventory_updated_at` existed is judged with a snapshot time inferred from the
-    factory pages it read (`with_snapshot`); the inference is written into the row only when it is promoted.
+    factory pages it read, when it was built soon after the newest of them (`with_snapshot`); the inference is
+    written into the row only when it is promoted.
     """
     from research_v2 import validate_candidates
     ids=list(dict.fromkeys(i.strip() for i in ids if i.strip()))
