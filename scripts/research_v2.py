@@ -380,7 +380,8 @@ def research_hints(limit=10):
         for item in priority_data.get('opportunities', []):
             origin = str(item.get('id', ''))
             if (not origin.startswith('SEO-') or origin in consumed
-                    or origin in submissions or not item.get('title_hint')):
+                    or origin in submissions or not item.get('title_hint')
+                    or item.get('state') != 'AWAITING_EXTERNAL_RESEARCH'):
                 continue
             leads.append({
                 'origin_id': origin,
