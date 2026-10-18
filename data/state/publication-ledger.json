@@ -4539,7 +4539,7 @@
       }
     },
     "NT-000326": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T09:05:25.244229+00:00",
       "source_hash": "5f9e4c413af9db20f226e7a829d5cb2698d6c48653f62c00d75a1c109b8753fc",
       "slug": "qua-nga-tu-bang-xe-may-giam-toc-nhin-xe-cat-ngang-ben-trai-truoc-va-bao-hieu-re-som",
@@ -4554,8 +4554,37 @@
       "category_warning": null,
       "git_commit": "12b678736ce51751511356d452c85984e8a67609",
       "run_id": "39113651665",
-      "updated_at": "2026-10-18T09:05:28.818932+00:00",
-      "wp_id": 4045
+      "updated_at": "2026-10-18T09:05:34.346185+00:00",
+      "wp_id": 4045,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/qua-nga-tu-bang-xe-may-giam-toc-nhin-xe-cat-ngang-ben-trai-truoc-va-bao-hieu-re-som/",
+      "verified_at": "2026-10-18T09:05:34.346178+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4045,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/qua-nga-tu-bang-xe-may-giam-toc-nhin-xe-cat-ngang-ben-trai-truoc-va-bao-hieu-re-som/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/qua-nga-tu-bang-xe-may-giam-toc-nhin-xe-cat-ngang-ben-trai-truoc-va-bao-hieu-re-som/",
+        "seo_title": "Qua ngã tư bằng xe máy: giảm tốc, nhìn trái trước, báo rẽ sớm",
+        "seo_description": "Qua ngã tư bằng xe máy: giảm tốc, nhìn xe cắt ngang bên trái trước rồi bên phải, báo hiệu rẽ sớm và nắm sáu bước chuyển hướng trong tài liệu huấn luyện của Honda Việt Nam.",
+        "checked_at": "2026-10-18T09:05:34.346158+00:00"
+      }
     }
   },
   "categories": {}
