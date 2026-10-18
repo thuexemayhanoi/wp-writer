@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-18T14:01:18.948336+00:00",
-  "attempted": 1,
+  "at": "2026-10-18T14:06:55.959580+00:00",
+  "attempted": 7,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -20,6 +20,30 @@
         }
       },
       "action": "manual reconciliation; never create/update automatically"
+    },
+    {
+      "topic_id": "NT-000231",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 161,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "road-safety",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000272",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 170,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "engine-care",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000286",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 170,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "engine-care",
+      "category_warning": null
     },
     {
       "topic_id": "NT-000290",
@@ -99,11 +123,11 @@
       ],
       "source_evidence": [],
       "evidence_recheck": null,
-      "at": "2026-10-18T14:00:48.504033+00:00",
+      "at": "2026-10-18T14:04:48.955514+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "dfe019919bf86366ba532d095277c2315dd7ee7f601b56a1246694d2902d2e52",
+      "inventory_sha256": "3414229697033b01e70854c5c329624eab2f1559d59afbd5a5e3f909786dcb46",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -120,7 +144,31 @@
       }
     },
     {
-      "topic_id": "NT-000556",
+      "topic_id": "NT-000321",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 161,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "road-safety",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000327",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 161,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "road-safety",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000526",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 174,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "food-culture",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000551",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 173,
       "category_resolution": "EXACT",

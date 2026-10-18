@@ -74,11 +74,20 @@
   "evidence_recheck": {
     "pages": [
       {
-        "id": 851,
-        "title": "Cho Thuê Xe Máy Gia Lâm Hà Nội – Giá, Loại Xe, Thủ Tục | Nguyễn Tú",
+        "id": 4053,
+        "title": "Thuê xe máy Hà Nội đi công tác 3–5 ngày: chọn xe, dự trù chi phí và sắp lịch trả",
         "why": "stale",
-        "content_hash": "7dae290d3e4e9e5120329c0193e0a3f96eb5ffdf5d0eb717ae185c764659fe68",
-        "jaccard": 0.001,
+        "content_hash": "10253f4071ea9522162e7b5ec6b75dfc3be0638bd9a1598e0136485ddfd9dbec",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4060,
+        "title": "Thuê xe máy mang máy ảnh và laptop đi nhiều điểm ở Hà Nội: chọn xe, xếp đồ, giữ tài sản",
+        "why": "stale",
+        "content_hash": "584f824812a9722445c863b0480c4d8fb9b5cfcccab9e5bbca8a4de6ce3e0be4",
+        "jaccard": 0.003,
         "intent_match": null,
         "verdict": "INDEPENDENT"
       }
@@ -87,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T13:59:03.567307+00:00",
+  "at": "2026-10-18T14:01:54.729242+00:00",
   "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "9ddaa4bc8b3483b178936b4b3078f02f937308fce5152cd163d4675c976af4f3",
+  "inventory_sha256": "f9c753f5362482ba8a6d52f5f140c46a4a20c5a7f96c2dd971e0984a98936499",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

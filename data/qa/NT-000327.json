@@ -1,0 +1,166 @@
+{
+  "topic_id": "NT-000327",
+  "status": "PASS",
+  "source_sha256": "6c7e144a314c38cac7020f6c041f458a1e7a1672cd542b26712c6673fd63e164",
+  "body_sha256": "9f54ece1cb5da5a03fb8ffeee06c2d4a8e2a7a3c9e55e5183dc4116e04228f30",
+  "word_count": 3799,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/cach-do-deo-an-toan-bang-xe-so-va-xe-ga-4469551.html",
+      "supports": "VnExpress (30/05/2022): rủi ro hàng đầu khi đổ đèo là mất phanh do phanh liên tục; không được tắt máy; xe số về số thấp để phanh động cơ; xe ga dùng hộp số CVT nên khó hơn, người ít kinh nghiệm tốt nhất không đổ đèo bằng xe ga; mô tả kỹ thuật mớm ga cho dính côn ở 15–20 km/h.",
+      "sha256": "fc3c3568aa7ac886c293a198db1d49be4db76f9e1c48cc7960e816f72f7e26c8",
+      "verified_at": "2026-10-18T14:05:26.929387+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dantri.com.vn/du-lich/kinh-nghiem-giu-mang-song-khi-do-deo-o-tam-dao-nen-di-xe-so-hay-xe-ga-20250422122958567.htm",
+      "supports": "Dân trí (23/04/2025), kỹ thuật viên hãng xe và người đi quen đèo Tam Đảo: xuống dốc dùng số 2 hoặc số 1 kết hợp phanh, tốc độ an toàn 20–25 km/h, lên số nào xuống số đó; xe ga không có số để ghìm tốc nên dễ cháy phanh; phối hợp hai phanh, bóp nhấn nhả, không tắt máy, dừng nghỉ giữa chặng.",
+      "sha256": "e074586feb2f19780dda35f8fbb8ddd216f4bd5f4cfdd062c694f3fab509f393",
+      "verified_at": "2026-10-18T14:05:29.102312+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/huong-dan-cach-chay-xe-so-an-toan-cho-nguoi-moi-bat-dau/",
+      "supports": "Yamaha Motor Việt Nam (cập nhật 03/2026), bài hướng dẫn chạy xe số: khi xuống dốc trả tay ga về và dùng đúng số đã dùng khi lên dốc, dốc quá đứng thì về số thấp nhất.",
+      "sha256": "2717d5fe7f3999006e51b2866f47b2d1e720f77dd53085fd8590ed8a28d96318",
+      "verified_at": "2026-10-18T14:05:30.735859+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vietnamnet.vn/bi-kip-do-deo-xe-tay-ga-mot-cach-an-toan-525009.html",
+      "supports": "VietNamNet (20/04/2019, theo Cartime): xe ga xuống dốc không về số thấp được, không bóp phanh liên tục, không tắt máy; mô tả kỹ thuật mớm ga để côn bám; kinh nghiệm người dùng, còn tranh cãi.",
+      "sha256": "a9b5ac9f9ce82e9d9217f6beeaa665d0a66aca619ce7684fc330d8627f92a3d6",
+      "verified_at": "2026-10-18T14:05:32.828302+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vov.gov.vn/suong-mu-day-dac-tiem-an-nhieu-nguy-co-tai-nan-tren-deo-pha-din-dtnew-229244",
+      "supports": "VOV (09/01/2021) về đèo Pha Đin khi sương mù: mưa nhỏ làm nền đường trơn, các phương tiện đặc biệt là xe tải lớn phải đi số thấp để lên, xuống đèo.",
+      "sha256": "a5586cee683f039322ae04465e46eddcebd081eab677917c7910bb9a76b890ee",
+      "verified_at": "2026-10-18T14:05:37.301241+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2352,
+        "title": "Xe máy điện có cần bằng lái không? Cách phân biệt theo công suất",
+        "why": "stale",
+        "content_hash": "8c5c200eacd4af62c6f482e36bad9112feb65d56c6bb4032d8dbae3c82a64876",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2374,
+        "title": "Xe máy điện đi mưa có an toàn không? Cách sử dụng đúng và bền",
+        "why": "stale",
+        "content_hash": "f86d1aa55c92feadb7f1f7424eb5a8881f374d07d09eba557a5974bddc4ab23f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2532,
+        "title": "Bảo dưỡng xe máy Honda định kỳ gồm những hạng mục nào quan trọng?",
+        "why": "stale",
+        "content_hash": "3b3f8540d3f280a070202fee58502694cd67d9aa913f3fd5820127ff78745746",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T14:05:43.613303+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "19e2633d53328e59e198b80c7619136baf60613dec9b24aadbe67071d9d9b925",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
