@@ -74,6 +74,15 @@
   "evidence_recheck": {
     "pages": [
       {
+        "id": 562,
+        "title": "Cho Thuê Xe Máy ở Hà Nội – Giao Tận Nơi, Cọc Nhẹ | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "bef2a1222a528843870457f0106cf4c95a0e35e17def59be14a16504af267b6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
         "id": 2374,
         "title": "Xe máy điện đi mưa có an toàn không? Cách sử dụng đúng và bền",
         "why": "stale",
@@ -87,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T18:06:21.890298+00:00",
+  "at": "2026-10-18T20:43:23.786232+00:00",
   "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "870117f81c143a50a54eb338cc538754f2f7d1212be834007f3a96cb3c7790a9",
+  "inventory_sha256": "8791d9666fe281efb01fe41bc75cbd4c946f01c77c8ad7cc33a0662c118e4a07",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
