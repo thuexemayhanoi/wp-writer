@@ -2187,7 +2187,7 @@
       }
     },
     "NT-000284": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T05:50:00.732664+00:00",
       "source_hash": "5d7bd0564e483f6900f3778a65da861b18899737a725b493e0e1e313f6d94da5",
       "slug": "lop-co-sam-va-lop-khong-sam-xe-may-khac-nhau-the-nao-va-xu-ly-ra-sao-khi-bi-dinh-dam",
@@ -2202,8 +2202,37 @@
       "category_warning": null,
       "git_commit": "450055763b92ec66487de8cc1465328cfd37af2c",
       "run_id": "39101509183",
-      "updated_at": "2026-10-18T05:50:04.558842+00:00",
-      "wp_id": 3995
+      "updated_at": "2026-10-18T05:50:10.307691+00:00",
+      "wp_id": 3995,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lop-co-sam-va-lop-khong-sam-xe-may-khac-nhau-the-nao-va-xu-ly-ra-sao-khi-bi-dinh-dam/",
+      "verified_at": "2026-10-18T05:50:10.307686+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 3995,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lop-co-sam-va-lop-khong-sam-xe-may-khac-nhau-the-nao-va-xu-ly-ra-sao-khi-bi-dinh-dam/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lop-co-sam-va-lop-khong-sam-xe-may-khac-nhau-the-nao-va-xu-ly-ra-sao-khi-bi-dinh-dam/",
+        "seo_title": "Lốp có săm và lốp không săm xe máy: thủng thì xử lý sao?",
+        "seo_description": "Lốp có săm và lốp không săm xe máy khác gì nhau, TT/TL nghĩa là gì, bị đinh đâm nên dừng hay chạy tiếp? Đọc lưu ý về vành, vá lốp và kiểm tra an toàn.",
+        "checked_at": "2026-10-18T05:50:10.307662+00:00"
+      }
     }
   },
   "categories": {}
