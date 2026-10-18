@@ -71,12 +71,36 @@
   "errors": [],
   "review": [],
   "source_evidence": [],
-  "evidence_recheck": null,
-  "at": "2026-10-18T11:44:47.632457+00:00",
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 4049,
+        "title": "Thuê xe máy điện ở chung cư Hà Nội không có chỗ sạc riêng: cần kiểm tra gì trước khi đặt?",
+        "why": "stale",
+        "content_hash": "60ea270b75576e53780d251f2026ebec6088930775beded46df2ce5bc3601d66",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4051,
+        "title": "Thuê xe máy Hà Nội vào ngày mưa: khi nào nên lùi giờ nhận và kiểm tra gì trước khi chạy?",
+        "why": "stale",
+        "content_hash": "6cf70a5e919d453dbe3c15e8dc9ed97616caa41d0b3239c73331a63a003192fb",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T13:58:47.150801+00:00",
   "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "7c5db04a82d235be3491aab96d63d3252809a8e255cd686c2e93ef7654056dce",
+  "inventory_sha256": "3a14d5697ef3d6ddc0b65a6abc9f24b75cc49e9ce42ca6f144d55a48bd4d6767",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
