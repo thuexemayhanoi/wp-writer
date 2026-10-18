@@ -1,4 +1,4 @@
-# ROLE: WRITER (W1/W2/W3) — read AGENT-GUIDE.md first
+# ROLE: WRITER (W1–W9) — read AGENT-GUIDE.md first
 Goal: turn PLANNED topics into QA-PASS articles pushed to main via the session tool. Quality over speed; one real reader question answered well per article.
 
 ## Setup (once)
