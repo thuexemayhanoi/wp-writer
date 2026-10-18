@@ -3051,7 +3051,7 @@
       }
     },
     "NT-000363": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-18T07:25:05.206441+00:00",
       "source_hash": "758133d8beec5658247d9b58ffe9b5bfc823ffd690c5177590f564e47c6d78fc",
       "slug": "le-hoi-chua-huong-mua-hoi-keo-dai-den-khi-nao-va-nen-di-trong-mua-hoi-hay-ngoai-mua-hoi",
@@ -3066,8 +3066,37 @@
       "category_warning": null,
       "git_commit": "c580f17e153899b1472aa292fa0001fc17cc23b1",
       "run_id": "39107147569",
-      "updated_at": "2026-10-18T07:25:09.076447+00:00",
-      "wp_id": 4014
+      "updated_at": "2026-10-18T07:25:15.597227+00:00",
+      "wp_id": 4014,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/le-hoi-chua-huong-mua-hoi-keo-dai-den-khi-nao-va-nen-di-trong-mua-hoi-hay-ngoai-mua-hoi/",
+      "verified_at": "2026-10-18T07:25:15.597222+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4014,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/le-hoi-chua-huong-mua-hoi-keo-dai-den-khi-nao-va-nen-di-trong-mua-hoi-hay-ngoai-mua-hoi/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/le-hoi-chua-huong-mua-hoi-keo-dai-den-khi-nao-va-nen-di-trong-mua-hoi-hay-ngoai-mua-hoi/",
+        "seo_title": "Lễ hội chùa Hương 2026: mùa hội đến khi nào, đi trong hay ngoài mùa",
+        "seo_description": "Lễ hội chùa Hương 2026 diễn ra từ 18/2 đến hết 11/5/2026, khai hội 22/2 theo Ban tổ chức; cách chọn đi trong hay ngoài mùa hội và chuẩn bị đi xe máy từ Hà Nội.",
+        "checked_at": "2026-10-18T07:25:15.597201+00:00"
+      }
     }
   },
   "categories": {}
