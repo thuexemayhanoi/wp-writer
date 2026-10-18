@@ -17,6 +17,18 @@
       ],
       "claimed_at": "2026-10-18T03:02:25.598748+00:00",
       "expires_at": "2026-10-18T15:02:25.598748+00:00"
+    },
+    "W2": {
+      "session": "s-gpt6-five-20261018",
+      "topic_ids": [
+        "NT-000267",
+        "NT-000232",
+        "NT-000283",
+        "NT-000364",
+        "NT-000328"
+      ],
+      "claimed_at": "2026-10-18T03:54:51.494762+00:00",
+      "expires_at": "2026-10-18T15:54:51.494762+00:00"
     }
   },
   "processed_requests": {
@@ -48,11 +60,18 @@
       ]
     },
     "s-gpt6-five-20261018": {
-      "sha256": "a4ce53f2862ca4e471460a1518453c91eca8651e0986248c788ea6d81bf7561d",
-      "request_id": "gpt6-five-articles-smoke-20261018-01",
-      "at": "2026-10-18T03:52:51.754939+00:00",
-      "status": "BLOCKED",
-      "reason": "Requested topics not claimable"
+      "sha256": "0bb48c996b224c6e679a24fe637c69d8ce46974225541ec98c92ff87f8fe9472",
+      "request_id": "gpt6-five-articles-smoke-20261018-02",
+      "at": "2026-10-18T03:54:51.494884+00:00",
+      "status": "CLAIMED",
+      "slot": "W2",
+      "topic_ids": [
+        "NT-000267",
+        "NT-000232",
+        "NT-000283",
+        "NT-000364",
+        "NT-000328"
+      ]
     }
   },
   "submissions": {
