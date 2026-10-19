@@ -14542,7 +14542,7 @@
       }
     },
     "NT-000867": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:01:44.627538+00:00",
       "source_hash": "bc7a2c2c5a3f15b66b0d1de2d878b80687a78756b1917732b0a005ae99715daa",
       "slug": "vi-sao-tai-xe-noi-khong-thay-xe-may-den-pha-mau-ao-xi-nhan-coi-va-vi-tri-trong-lan-giup-nguoi-di-xe-may-duoc-nhin-thay",
@@ -14558,8 +14558,37 @@
       "category_warning": null,
       "git_commit": "b3087e619ac8c4b7eef855135710aecacb2a1141",
       "run_id": "39322982572",
-      "updated_at": "2026-10-19T21:01:48.563688+00:00",
-      "wp_id": 4290
+      "updated_at": "2026-10-19T21:01:54.617249+00:00",
+      "wp_id": 4290,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/vi-sao-tai-xe-noi-khong-thay-xe-may-den-pha-mau-ao-xi-nhan-coi-va-vi-tri-trong-lan-giup-nguoi-di-xe-may-duoc-nhin-thay/",
+      "verified_at": "2026-10-19T21:01:54.617241+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4290,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/vi-sao-tai-xe-noi-khong-thay-xe-may-den-pha-mau-ao-xi-nhan-coi-va-vi-tri-trong-lan-giup-nguoi-di-xe-may-duoc-nhin-thay/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/vi-sao-tai-xe-noi-khong-thay-xe-may-den-pha-mau-ao-xi-nhan-coi-va-vi-tri-trong-lan-giup-nguoi-di-xe-may-duoc-nhin-thay/",
+        "seo_title": "Người đi xe máy được nhìn thấy: đèn, màu áo, xi nhan, vị trí",
+        "seo_description": "Vì sao tài xế nói không thấy xe máy? Lời khuyên của NZTA, NSW, MSF, NHTSA và Honda Việt Nam để người đi xe máy được nhìn thấy: đèn, màu áo, xi nhan, còi, vị trí.",
+        "checked_at": "2026-10-19T21:01:54.617217+00:00"
+      }
     }
   },
   "categories": {}
