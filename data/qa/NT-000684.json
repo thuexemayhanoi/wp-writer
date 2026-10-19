@@ -70,33 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.gov.uk/guidance/living-in-vietnam",
-      "supports": "Hướng dẫn Living in Vietnam của chính phủ Anh (cập nhật 23/09/2025) nêu người nước ngoài phải đăng ký nơi lưu trú với công an trong 24 giờ, khách sạn xin giữ hộ chiếu để đăng ký nhưng không bắt buộc giữ cả thời gian lưu trú, ở nhà người quen phải đăng ký tại công an và chủ nhà phải đăng ký trước cho khách.",
-      "sha256": "fcf0a0ba9652db8f5d39ef45b603440cc391b01baf6de5dfda3102690ebf0698",
-      "verified_at": "2026-10-19T05:29:59.383885+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
-      "supports": "Trang Smartraveller của Úc (cập nhật 24/09/2026) nêu người nước ngoài phải đăng ký nơi lưu trú với công an trong 24 giờ, khách sạn thường đăng ký khi nhận phòng, ở nhà người quen phải đăng ký tại đồn công an và cần dùng đúng hộ chiếu đã dùng khi nhập cảnh.",
-      "sha256": "0fda54ad76e991c5bda450bb9b4d62b83a19052c60b5a8af41cb7af61f08bde2",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    },
-    {
-      "url": "https://travel.gc.ca/destinations/vietnam",
-      "supports": "Trang du lịch của Canada (cập nhật 13/10/2026) nêu phải báo có mặt với nhà chức trách khi đến, cơ sở lưu trú thương mại thường khai báo thay khách, ở chỗ không thương mại phải khai báo tại đồn công an gần nhất và dặn đòi lại hộ chiếu sau khi khách sạn đăng ký xong.",
-      "sha256": "126c661b0baedc6f2c337d9d931cfdb12a6a068ad2779ba0c38fbef1e0fbf156",
-      "verified_at": "2026-10-19T05:30:00.658562+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -140,11 +114,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T05:30:05.186935+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T05:43:37.348294+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "68ebd0c2ab8a9703b0825b7428096f86c9139435fb4658a37e0e624fa0781822",
+  "inventory_sha256": "f87524e6fc128585c8a5955da74e968c58c59296f63216e2b8e490f31da6e7e4",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
