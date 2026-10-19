@@ -9051,7 +9051,7 @@
       }
     },
     "NT-000643": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T04:14:42.683312+00:00",
       "source_hash": "e633058a86bbfb2c3f19dd4c562e1d703f48a19297abaf1050904263fdfa8141",
       "slug": "noi-chang-cuoi-tu-ga-metro-bang-xe-dap-cong-cong-quet-ma-mo-khoa-ra-sao-va-tram-day-gio-cao-diem-thi-sao",
@@ -9066,8 +9066,37 @@
       "category_warning": null,
       "git_commit": "95b117b8174c189dcedf3ec268fdd634d947e41a",
       "run_id": "39197833614",
-      "updated_at": "2026-10-19T04:14:46.073731+00:00",
-      "wp_id": 4158
+      "updated_at": "2026-10-19T04:14:51.509852+00:00",
+      "wp_id": 4158,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/noi-chang-cuoi-tu-ga-metro-bang-xe-dap-cong-cong-quet-ma-mo-khoa-ra-sao-va-tram-day-gio-cao-diem-thi-sao/",
+      "verified_at": "2026-10-19T04:14:51.509846+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4158,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/noi-chang-cuoi-tu-ga-metro-bang-xe-dap-cong-cong-quet-ma-mo-khoa-ra-sao-va-tram-day-gio-cao-diem-thi-sao/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/noi-chang-cuoi-tu-ga-metro-bang-xe-dap-cong-cong-quet-ma-mo-khoa-ra-sao-va-tram-day-gio-cao-diem-thi-sao/",
+        "seo_title": "Nối chặng cuối từ ga metro bằng xe đạp công cộng: quét mã, trạm đầy",
+        "seo_description": "Nối chặng cuối từ ga metro bằng xe đạp công cộng theo Hànộimới 17/10/2026: quét mã QR mở khóa xe TNGo, trạm đầy hoặc thiếu xe giờ cao điểm và cách dự phòng.",
+        "checked_at": "2026-10-19T04:14:51.509828+00:00"
+      }
     }
   },
   "categories": {}
