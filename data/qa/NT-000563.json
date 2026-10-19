@@ -70,40 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vnexpress.net/5-lua-chon-du-lich-gan-ha-noi-4091224.html",
-      "supports": "Bài VnExpress đăng 29/4/2020: với xe máy, lộ trình phổ biến nhất Hà Nội – Vĩnh Phúc – Phong Châu – Đoan Hùng – Yên Bái – Lào Cai – Sa Pa (360 km) và lộ trình thứ hai Hà Nội – Hòa Lạc – Sơn Tây – Thanh Sơn – dọc quốc lộ 32 – Sa Pa (420 km); đường dài, nhiều khúc cua lên núi.",
-      "sha256": "15f6bc8d7185ec8dae97791c9c0087a498b4bba79b2dc7ddd4a67d4cc6af4269",
-      "verified_at": "2026-10-19T05:55:15.420280+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnexpress.net/cam-nang-du-lich-sa-pa-4108517.html",
-      "supports": "Cẩm nang VnExpress về Sa Pa (cập nhật 16/4/2026): Sa Pa hợp du lịch quanh năm, chỉ cần tránh mùa mưa bão từ tháng 6 đến đầu tháng 8 vì lũ ống, lũ quét, sạt lở; mùa xuân 2–5, mùa thu 9–11, mùa đông 12–2.",
-      "sha256": "ee75d26f63d6b9f2e0a404fd44182263e0a389d8d7af3d2e64d8095779c7841f",
-      "verified_at": "2026-10-19T05:55:18.308042+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnam.travel/node/53",
-      "supports": "Trang điểm đến Sa Pa của vietnam.travel: mùa thu (tháng 9 đến 11) có ruộng bậc thang vàng và trời quang, tháng 3 đến 5 ôn hòa có hoa nở; khí hậu mát quanh năm, sáng sớm nhiều sương, mùa đông lạnh và thỉnh thoảng có sương giá quanh Fansipan.",
-      "sha256": "9bbb1c1a69c0a939c3aa5a0836424f5ae9afed78e742debd2e335ab304ce5fd4",
-      "verified_at": "2026-10-19T05:55:19.394076+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnmha.mae.gov.vn/tim-hieu-ve-khong-khi-lanh-ret-dam-ret-hai-15720.htm",
-      "supports": "Trang của Cục Khí tượng Thủy văn (1/1/2025): các thuật ngữ rét đậm, rét hại không áp dụng cho vùng núi vì ở đó rét hầu như kéo dài cả tháng; ví dụ Sa Pa rét đậm hầu như suốt tháng 12, tháng 1 và tháng 2.",
-      "sha256": "8d880e4d369e23526c90d115ba0bbafe033bf1868ce55995c502b4319de3af70",
-      "verified_at": "2026-10-19T05:55:23.695361+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -147,11 +114,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T05:55:33.500956+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T05:59:18.624127+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "9e932ca0a1361adaa5c287dcfd9ace31bb85afe2ef300187b77115d7cb950eb2",
+  "inventory_sha256": "9a96ae314aeeeb6d60f2b8a3620fcdfbaf4059137f79147391a5b9b0d35b059b",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

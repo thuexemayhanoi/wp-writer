@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vnexpress.net/kham-pha-ha-giang-bang-oto-hay-xe-may-4922903.html",
-      "supports": "Bài VnExpress đăng 12/8/2025: hướng dẫn viên Hà Giang nói ôtô thoải mái, không lo mưa nắng, hợp người lớn tuổi, gia đình có trẻ nhỏ và khách nhiều hành lý; xe máy dừng chụp ảnh bất cứ đâu, vào bản làng; nhiều người đau lưng vì lái xe máy đường dài; lựa chọn phụ thuộc nhu cầu, sở thích, sức khỏe và điều kiện kinh tế.",
-      "sha256": "5e9c7015711b9f139a26cf06f2ee3d5da76699a11ef79ab909de48a7459200cb",
-      "verified_at": "2026-10-19T05:57:07.436751+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dantri.com.vn/du-lich/goc-cua-trieu-view-phu-vang-mau-lua-chin-o-lao-cai-dep-nhu-tien-canh-20240823224315488.htm",
-      "supports": "Bài Dân trí đăng 24/8/2024: đi Y Tý tự phượt cần tay lái cứng và nhiều kinh nghiệm; đi ô tô nên chọn xe gầm cao; mùa lúa chín khách đông nên phải đặt homestay trước.",
-      "sha256": "8981ae2667e7c1260233bd840c2092224711e345484ab270fafa96a61aac16af",
-      "verified_at": "2026-10-19T05:57:10.277152+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnexpress.net/48-gio-o-bac-ha-4818553.html",
-      "supports": "Bài VnExpress đăng 22/11/2024: tới Suôi Thầu để đi dạo thảo nguyên và thăm vườn hoa chỉ đi được xe máy; đi ôtô phải đỗ dưới chân núi và đi bộ khá xa.",
-      "sha256": "b49f119a54160a157038ad810d9ea8b45b162204805814cde0b805fd08288b83",
-      "verified_at": "2026-10-19T05:57:12.272163+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -139,11 +114,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T05:57:16.880459+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T05:59:20.840464+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "97b86faabd9b1c2c73531b6d606119cbfd62a181959a4b13e92b19028e3b7cf5",
+  "inventory_sha256": "9a96ae314aeeeb6d60f2b8a3620fcdfbaf4059137f79147391a5b9b0d35b059b",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

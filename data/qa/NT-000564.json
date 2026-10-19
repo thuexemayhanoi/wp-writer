@@ -70,40 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vnexpress.net/phuot-xe-may-hon-200-km-len-dinh-mau-son-san-bang-4704757.html",
-      "supports": "Bài VnExpress 25/1/2024 kể một người Hà Nội đi xe máy lên Mẫu Sơn săn băng: dưới 5 độ C tay chân cóng, đường đèo nhỏ hẹp, nhiều sương mù, trơn trượt; trải nghiệm này chỉ hợp người có kinh nghiệm chạy xe đường dài.",
-      "sha256": "6cd6ef706ee9389e395af158241c418d41da388d8c33211994befa47651e1866",
-      "verified_at": "2026-10-19T05:55:49.709024+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnexpress.net/du-khach-ngu-o-oto-khi-len-mau-son-ngam-bang-gia-4429735.html",
-      "supports": "Bài VnExpress 20/2/2022: gần đỉnh ùn tắc, dòng xe chậm vì đường trơn; ùn tắc ở Km13+400; khoảng 2.500 lượt khách trong ngày, cơ sở lưu trú kín, một số khách ngủ qua đêm trên ôtô.",
-      "sha256": "2dfad015df0869dd3408fd6a4c0193414a0c458e1c17d4f44ac6e2f3c88d680f",
-      "verified_at": "2026-10-19T05:55:51.461986+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dantri.com.vn/o-to-xe-may/lai-xe-tren-duong-bang-tuyet-tiem-an-nhung-rui-ro-gi-20240124113245577.htm",
-      "supports": "Bài Dân trí 2024 về lái xe trên đường băng tuyết: tắc đường khi ô tô, xe máy kéo lên Mẫu Sơn, Phia Oắc; đường đèo núi trơn nguy hiểm kể cả với tài già; lời khuyên tốt nhất khi có băng tuyết là không nên mạo hiểm.",
-      "sha256": "94ba63c9cb0b787f149e9b31fbb344d5c199ff24735d56f90dbcf872db4227bd",
-      "verified_at": "2026-10-19T05:55:54.302852+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnexpress.net/cam-nang-du-lich-lang-son-4660039.html",
-      "supports": "Cẩm nang VnExpress về Lạng Sơn (cập nhật 13/10/2023): Mẫu Sơn cách thành phố Lạng Sơn 30 km theo quốc lộ 4B, cao 1.200–1.541 m, mùa đông lạnh, đỉnh Mẫu Sơn là một trong hai đỉnh phía Bắc thường có tuyết.",
-      "sha256": "d9b19ea97f4d8d1f62552f1b6ec67f0a8a49c33618af5d1277d094b22d42c188",
-      "verified_at": "2026-10-19T05:55:56.297233+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -156,11 +123,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T05:56:02.116823+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T05:59:19.078561+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "cae63d1510d1d900e0a7c095774b5545c7b53ae010f0c3131a7eaf5011763769",
+  "inventory_sha256": "9a96ae314aeeeb6d60f2b8a3620fcdfbaf4059137f79147391a5b9b0d35b059b",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

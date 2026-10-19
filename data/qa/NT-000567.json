@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vnexpress.net/48-gio-o-y-ty-4807822.html",
-      "supports": "Bài VnExpress đăng 25/10/2024: cung Lào Cai – Bát Xát – Trịnh Tường – Phìn Hồ – Y Tý dài khoảng 70 km trong đó có khoảng 4 km đường xấu; chợ phiên Y Tý họp sáng thứ Bảy; cung về Lào Cai khoảng 100 km; cả ba cung đường đang được sửa lại.",
-      "sha256": "908b0e3133caf0302ff95b49b443bb216fcb3c98612b85d3d7faec70cd238f87",
-      "verified_at": "2026-10-19T05:56:43.861438+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dantri.com.vn/du-lich/goc-cua-trieu-view-phu-vang-mau-lua-chin-o-lao-cai-dep-nhu-tien-canh-20240823224315488.htm",
-      "supports": "Bài Dân trí đăng 24/8/2024: từ Lào Cai qua Kim Thành, Trịnh Tường, Lũng Pô tới A Lù, hoặc từ Sa Pa qua Bản Xèo, Mường Hum, Ngải Thầu tới A Lù, đều khoảng 90 km; mùa vàng từ giữa tháng 8 tới cuối tháng 9; hành trình 2 ngày 1 đêm là vừa đủ.",
-      "sha256": "8981ae2667e7c1260233bd840c2092224711e345484ab270fafa96a61aac16af",
-      "verified_at": "2026-10-19T05:56:46.471776+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnexpress.net/meo-bo-tui-cho-nguoi-san-lua-chin-tay-bac-3821572.html",
-      "supports": "Bài VnExpress đăng 11/10/2018: quãng đường từ Hà Nội tới Y Tý khoảng 400 km; nhiều phượt thủ chạy xe máy từ Hà Nội nhưng lần đầu nên đi xe khách lên Lào Cai rồi thuê xe máy đi Y Tý.",
-      "sha256": "8fa60471e242ec9c51f292f60f49473c81c774ed83b441142029c85ab4e6b9f8",
-      "verified_at": "2026-10-19T05:56:48.498773+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -121,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T05:56:53.152412+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T05:59:20.141461+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "f69f7d322d3dbaebd82fb85a3a34922aa566d695d24e8daa8cdd24cc6ea42bf1",
+  "inventory_sha256": "9a96ae314aeeeb6d60f2b8a3620fcdfbaf4059137f79147391a5b9b0d35b059b",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
