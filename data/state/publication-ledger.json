@@ -9723,7 +9723,7 @@
       }
     },
     "NT-000821": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T04:29:41.066290+00:00",
       "source_hash": "e296548a2f73d6f069304afffb63c6e2e4f2ec9399624847389046f00e914c4c",
       "slug": "du-lich-viet-nam-dip-tet-nguyen-dan-cong-du-lich-quoc-gia-canada-anh-va-uc-nhac-gi-ve-dich-vu-dong-cua-di-lai-dat-ve-va-trom-cap",
@@ -9738,8 +9738,37 @@
       "category_warning": null,
       "git_commit": "2cb3f7cae1adecfb9e587dc89db04083e2c52c6b",
       "run_id": "39199122339",
-      "updated_at": "2026-10-19T04:29:44.747494+00:00",
-      "wp_id": 4172
+      "updated_at": "2026-10-19T04:29:50.557864+00:00",
+      "wp_id": 4172,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/du-lich-viet-nam-dip-tet-nguyen-dan-cong-du-lich-quoc-gia-canada-anh-va-uc-nhac-gi-ve-dich-vu-dong-cua-di-lai-dat-ve-va-trom-cap/",
+      "verified_at": "2026-10-19T04:29:50.557858+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4172,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/du-lich-viet-nam-dip-tet-nguyen-dan-cong-du-lich-quoc-gia-canada-anh-va-uc-nhac-gi-ve-dich-vu-dong-cua-di-lai-dat-ve-va-trom-cap/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/du-lich-viet-nam-dip-tet-nguyen-dan-cong-du-lich-quoc-gia-canada-anh-va-uc-nhac-gi-ve-dich-vu-dong-cua-di-lai-dat-ve-va-trom-cap/",
+        "seo_title": "Du lịch Việt Nam dịp Tết Nguyên đán: dịch vụ, đặt vé, trộm cắp",
+        "seo_description": "Du lịch Việt Nam dịp Tết Nguyên đán: cổng du lịch quốc gia, Canada, Anh và Úc nói gì về dịch vụ đóng cửa, đặt vé tàu xe và trộm cắp, và điều các nguồn không nói.",
+        "checked_at": "2026-10-19T04:29:50.557841+00:00"
+      }
     }
   },
   "categories": {}
