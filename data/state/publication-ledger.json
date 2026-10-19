@@ -9579,7 +9579,7 @@
       }
     },
     "NT-000644": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T04:26:47.880503+00:00",
       "source_hash": "1abba4e1e425a9e67c5d3ccd56982ce66130a6e560612743a5c1ee035039496d",
       "slug": "xe-buyt-dien-ha-noi-tuyen-nao-transerco-da-doi-sang-xe-dien-trong-thang-10-2026-va-lo-trinh-xanh-hoa-xe-buyt-den-nam-2030",
@@ -9594,8 +9594,37 @@
       "category_warning": null,
       "git_commit": "2cb3f7cae1adecfb9e587dc89db04083e2c52c6b",
       "run_id": "39199122339",
-      "updated_at": "2026-10-19T04:26:53.340210+00:00",
-      "wp_id": 4169
+      "updated_at": "2026-10-19T04:26:59.136322+00:00",
+      "wp_id": 4169,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-buyt-dien-ha-noi-tuyen-nao-transerco-da-doi-sang-xe-dien-trong-thang-10-2026-va-lo-trinh-xanh-hoa-xe-buyt-den-nam-2030/",
+      "verified_at": "2026-10-19T04:26:59.136315+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4169,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-buyt-dien-ha-noi-tuyen-nao-transerco-da-doi-sang-xe-dien-trong-thang-10-2026-va-lo-trinh-xanh-hoa-xe-buyt-den-nam-2030/",
+        "categories": [
+          177
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-buyt-dien-ha-noi-tuyen-nao-transerco-da-doi-sang-xe-dien-trong-thang-10-2026-va-lo-trinh-xanh-hoa-xe-buyt-den-nam-2030/",
+        "seo_title": "Xe buýt điện Hà Nội: tuyến Transerco đổi xe tháng 10/2026, mốc 2030",
+        "seo_description": "Xe buýt điện Hà Nội: Transerco đưa xe điện vào các tuyến 22A, 22B, 30, 50, 83, 33, 31 theo thông báo 5-15/10/2026, kèm lộ trình xanh hóa của thành phố đến 2030.",
+        "checked_at": "2026-10-19T04:26:59.136296+00:00"
+      }
     }
   },
   "categories": {}
