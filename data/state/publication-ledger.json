@@ -10347,7 +10347,7 @@
       }
     },
     "NT-000566": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T05:50:08.451745+00:00",
       "source_hash": "3bec3291b575c5e994b6660c7d4e35a460b25f2bbedc59d9c6383b0e6522f274",
       "slug": "cho-phien-bac-ha-bang-xe-may-tu-ha-noi-hop-chu-nhat-them-suoi-thau-va-can-cau-thu-bay",
@@ -10362,8 +10362,37 @@
       "category_warning": null,
       "git_commit": "c1580db9383e20571122792d26aedbe9b10a6ea6",
       "run_id": "39206216685",
-      "updated_at": "2026-10-19T05:50:12.103959+00:00",
-      "wp_id": 4185
+      "updated_at": "2026-10-19T05:50:17.990093+00:00",
+      "wp_id": 4185,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cho-phien-bac-ha-bang-xe-may-tu-ha-noi-hop-chu-nhat-them-suoi-thau-va-can-cau-thu-bay/",
+      "verified_at": "2026-10-19T05:50:17.990086+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4185,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cho-phien-bac-ha-bang-xe-may-tu-ha-noi-hop-chu-nhat-them-suoi-thau-va-can-cau-thu-bay/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cho-phien-bac-ha-bang-xe-may-tu-ha-noi-hop-chu-nhat-them-suoi-thau-va-can-cau-thu-bay/",
+        "seo_title": "Chợ phiên Bắc Hà bằng xe máy từ Hà Nội: Chủ nhật, Suôi Thầu, Cán Cấu",
+        "seo_description": "Chợ phiên Bắc Hà bằng xe máy từ Hà Nội: ngày họp theo VnExpress 2024 và Dân trí 2020, hành trình gần 300 km, chỗ ngủ lại, cách nối Suôi Thầu và Cán Cấu.",
+        "checked_at": "2026-10-19T05:50:17.990067+00:00"
+      }
     }
   },
   "categories": {}
