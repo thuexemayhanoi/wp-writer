@@ -70,24 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vnexpress.net/500-nam-thang-tram-cua-gio-cha-uoc-le-2940035.html",
-      "supports": "VnExpress (không rõ ngày đăng): nghề giò chả thôn Ước Lễ khoảng 500 năm theo nghệ nhân Nguyễn Đức Bình, gói lá chuối tây, chả quế quay than hoa, nghề đi khắp nơi, chỉ một hộ phục vụ tại làng, hai cái Tết.",
-      "sha256": "a0cb8171ba15fb75f97d6c25b55729f75320f4b671f9cc1ccb73f4f9559d4496",
-      "verified_at": "2026-10-19T21:36:41.850089+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://thanhnien.vn/gio-cha-uoc-le-mon-ngon-ha-noi-vuon-tam-the-gioi-1851110672.htm",
-      "supports": "Thanh Niên (bài kể của người viết, không rõ ngày): cách chọn thịt, giã, gói lá chuối ba lớp, luộc khoảng một giờ rồi thả nước lạnh; làng có cây cầu cong, cổng làng, chùa; không ai biết nghề có từ khi nào.",
-      "sha256": "df31dfb4c09547ec08c5e71a5e6789bd944384e7defe63049ea8172f59201402",
-      "verified_at": "2026-10-19T21:36:43.635333+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -140,11 +123,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T21:36:47.304662+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T21:41:59.457651+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "e7b887aa108ab0d8d6f914a64e45e825637b6ee0eeaeb3333c75cccb74fe2c50",
+  "inventory_sha256": "e147199d4a456e23937f7b489ffd85be707ab5187fb71860f3303ccc7bb44752",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

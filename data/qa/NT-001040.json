@@ -70,24 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://thanhnien.vn/goc-ky-hoa-nha-tho-lon-ha-noi-185240203220832067.htm",
-      "supports": "Thanh Niên (Góc ký họa, 3/2/2024): nhà thờ Lớn (40 phố Nhà Chung) xây trên đất cũ chùa Báo Thiên, Giám mục Puginier thiết kế, khởi công 1884, khánh thành Giáng sinh 1887, rộng 20,5 m, dài 64,5 m, tháp chuông gần 32 m, trùng tu hoàn thành năm 2022.",
-      "sha256": "295e9d100bd03bb61aa18c5b95f2e432e8a079011b0a11ed4a7b878141310dc6",
-      "verified_at": "2026-10-19T21:36:20.543535+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dantri.com.vn/du-lich/doc-dao-kien-truc-nha-tho-lon-ha-noi-20190416231700904.htm",
-      "supports": "Dân trí (16/4/2019): tên chính thức nhà thờ chính tòa Thánh Giuse, nhà thờ chính tòa của Tổng giáo phận Hà Nội, dài 64,5 m, rộng 20,5 m, hai tháp chuông cao 31,5 m, kiến trúc Gothic, sức chứa hàng nghìn người.",
-      "sha256": "dc764caf4c2ccde3a2bd2465280ecf7dbec68459470547cd9fcd18a610933971",
-      "verified_at": "2026-10-19T21:36:23.109161+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -113,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T21:36:26.801580+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T21:41:58.986296+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "8249de9628cdc509c237f74985cc49a952d2707aa47062b10cd51841b13b25aa",
+  "inventory_sha256": "e147199d4a456e23937f7b489ffd85be707ab5187fb71860f3303ccc7bb44752",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

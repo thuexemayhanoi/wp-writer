@@ -70,7 +70,24 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [],
+  "source_evidence": [
+    {
+      "url": "https://nhipsonghanoi.hanoimoi.vn/phat-trien-nghe-son-mai-ha-thai-640292.html",
+      "supports": "Hà Nội Mới (8/9/2023): làng nghề sơn mài Hạ Thái (xã Duyên Thái) nổi tiếng của huyện Thường Tín; ông Đỗ Hùng Chiêu: 15 công đoạn, làm vóc 9 lần sơn mài; sản phẩm OCOP 4 sao; xuất khẩu Hoa Kỳ.",
+      "sha256": "b30b8a04679932b071ba4aa3a2700dcc74835f937602fde23d93d02dd88ca3df",
+      "verified_at": "2026-10-19T21:45:36.154195+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://nhipsonghanoi.hanoimoi.vn/cong-nhan-diem-du-lich-lang-nghe-son-mai-ha-thai-628590.html",
+      "supports": "Hà Nội Mới (11/12/2020): UBND thành phố ra quyết định công nhận điểm du lịch làng nghề sơn mài Hạ Thái; sản phẩm bát, đĩa, lọ hoa, khay, tranh xuất khẩu nhiều nước.",
+      "sha256": "f26e71d547a0e24ed6192a947cac248e434102b8a52bd8d68acc560ad2e6a922",
+      "verified_at": "2026-10-19T21:45:37.687170+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
   "evidence_recheck": {
     "pages": [
       {
@@ -105,11 +122,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T21:32:48.504961+00:00",
-  "live_links_checked": false,
+  "at": "2026-10-19T21:45:43.815475+00:00",
+  "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "2742fb8a2345b08e36be10a849461cb896a6805cb0dd33da02224084ba490071",
+  "inventory_sha256": "ba280b5f7c4638fb0112e7fb0d138beb50591da92b1dbc138bf65b82133a3ffe",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

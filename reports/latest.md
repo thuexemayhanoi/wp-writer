@@ -4,15 +4,15 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-19T21:38:52.248797+00:00 |
-| existing_published_posts | 480 |
+| at | 2026-10-19T21:45:58.809042+00:00 |
+| existing_published_posts | 490 |
 | existing_pages | 10 |
 | existing_products | 13 |
 | candidate_topics | 488 |
 | planned_topics | 415 |
 | claimable_topics | 6 |
 | ready_stock | 0 |
-| stock_stages | {'IDEA': 260, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 0, 'PLANNED_HOLD': 3, 'CLAIMED': 66, 'AUTHORED': 2, 'QA_PASS': 4, 'PUBLISHED': 340, 'WP_DRAFT': 0} |
+| stock_stages | {'IDEA': 260, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 0, 'PLANNED_HOLD': 3, 'CLAIMED': 66, 'AUTHORED': 2, 'QA_PASS': 0, 'PUBLISHED': 344, 'WP_DRAFT': 0} |
 | needs_research | True |
 | research_shortfall | 900 |
 | refill_trigger_below_ready | 900 |
@@ -27,11 +27,11 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | qa_review | 1 |
 | repair_queue | 2 |
 | held_by_class | {'REAL_RISK': 2} |
-| g7_pass | 315 |
+| g7_pass | 319 |
 | g7_not_recorded | 25 |
 | wordpress_draft | 0 |
-| wordpress_published | 340 |
-| verified_public | 340 |
+| wordpress_published | 344 |
+| verified_public | 344 |
 | indexed | None |
 | topic_collisions | 1 |
 | category_mapping_errors | 0 |
@@ -43,12 +43,12 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | delivery_mode | production |
 | production_enabled | True |
 | draft_staging_enabled | False |
-| qa_pass_live_checked | 10 |
-| qa_pass_awaiting_wordpress | 4 |
-| queued_topic_ids | ['NT-001048', 'NT-001049', 'NT-001047', 'NT-001050'] |
+| qa_pass_live_checked | 4 |
+| qa_pass_awaiting_wordpress | 0 |
+| queued_topic_ids | [] |
 | pending_wordpress_intents | [] |
 | blocked_writer_sessions | [] |
-| last_wordpress_verified_at | 2026-10-19T21:38:45.135400+00:00 |
+| last_wordpress_verified_at | 2026-10-19T21:45:53.543303+00:00 |
 | capacity | 10000 |
 | authenticated_inventory | True |
 | test_drafts_excluded | 2 |

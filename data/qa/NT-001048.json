@@ -70,7 +70,24 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [],
+  "source_evidence": [
+    {
+      "url": "https://tuoitre.vn/bun-cha-la-mon-an-bieu-tuong-cua-ha-noi-20250324102051183.htm",
+      "supports": "Tuổi Trẻ (24/3/2025) dẫn Michelin Guide: bún chả là món biểu tượng của Hà Nội, nguồn gốc cuối thế kỷ 19 hoặc đầu 20, ảnh hưởng Pháp, chả miếng và chả băm nướng than, nước chấm, Obama - Bourdain 2016, năm quán được giới thiệu.",
+      "sha256": "fba43c4c131fda70b1976b00d19bf1ca222113c4c12eff764e8a7ee2acf0131a",
+      "verified_at": "2026-10-19T21:44:48.411106+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vnexpress.net/4-quan-bun-cha-lau-doi-nhat-ha-noi-4040027.html",
+      "supports": "VnExpress (10/1/2020): bún chả nằm trong danh sách “nhất định phải thử”; Đắc Kim mở năm 1966; chả làm từ thịt ba chỉ hoặc sát nách, nướng than; Sinh Từ gắn với tên cũ phố Nguyễn Khuyến.",
+      "sha256": "71fce85043bd53bba0cdd9f48e657d8e83de5438ab2f7c359a7df33ad02a7351",
+      "verified_at": "2026-10-19T21:44:51.989125+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
   "evidence_recheck": {
     "pages": [
       {
@@ -96,11 +113,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T21:32:47.666750+00:00",
-  "live_links_checked": false,
+  "at": "2026-10-19T21:44:56.555155+00:00",
+  "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "2742fb8a2345b08e36be10a849461cb896a6805cb0dd33da02224084ba490071",
+  "inventory_sha256": "3f9be9d1233bf86fcff15f8097cd8a5076426867be3bb251c621186c7dfa43d7",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

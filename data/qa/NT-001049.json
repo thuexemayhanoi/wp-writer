@@ -70,7 +70,32 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [],
+  "source_evidence": [
+    {
+      "url": "https://tuoitre.vn/cung-xem-tranh-dan-gian-hang-trong-va-dong-ho-591785.htm",
+      "supports": "Tuổi Trẻ (24/1/2014, nguồn UBND TP Hà Nội): tranh Hàng Trống sản xuất ở các phố Hàng Trống, Hàng Nón…, hai nội dung chính (tín ngưỡng, trang trí; chơi tranh Tết); tranh Đông Hồ thường thể hiện triết lý, ngụ ngôn, đạo đức.",
+      "sha256": "debc74c35dcc0065dec08306f7eb8db7dce05fbb355bcaa82af3c606664a8784",
+      "verified_at": "2026-10-19T21:45:11.838833+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://thanhnien.vn/40-buc-tranh-hang-trong-ke-chuyen-185240318204626687.htm",
+      "supports": "Thanh Niên (18/3/2024): triển lãm Tranh truyện Hàng Trống ở Bảo tàng Phụ nữ Việt Nam, 40 bức thuộc 10 bộ; tranh chia tranh thờ, sinh hoạt, thiên nhiên, tranh truyện, tranh Tết; kỹ thuật in khắc gỗ, pha màu; nguy cơ thất truyền.",
+      "sha256": "993a62a71db115d8a758847496d2f8bc0f0755d24df35fcc8af7960eaff0b694",
+      "verified_at": "2026-10-19T21:45:14.062201+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://thanhnien.vn/ha-noi-trien-lam-tranh-dan-gian-hang-trong-voi-nghe-thuat-hoa-kim-sa-1852401291521335.htm",
+      "supports": "Thanh Niên (29/1/2024): Chủ tịch UBND phường Hàng Trống nói dòng tranh đã mai một nhiều năm; triển lãm họa kim sa 10 tác phẩm tại đình Nam Hương, 75 phố Hàng Trống đến 25/2.",
+      "sha256": "59954edf2267a09a7a6ce1d5eea978dff1868f9c0c28f05187ab0976273e11d8",
+      "verified_at": "2026-10-19T21:45:16.330694+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
   "evidence_recheck": {
     "pages": [
       {
@@ -114,11 +139,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T21:32:48.084623+00:00",
-  "live_links_checked": false,
+  "at": "2026-10-19T21:45:20.993094+00:00",
+  "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "2742fb8a2345b08e36be10a849461cb896a6805cb0dd33da02224084ba490071",
+  "inventory_sha256": "01af5e8bd96f0248c99d75f81659dedd2c31692536374a9b7f98b9e16abc6484",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

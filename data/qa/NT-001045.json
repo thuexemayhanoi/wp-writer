@@ -70,24 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://tuoitre.vn/mot-vong-cho-hoa-tet-quang-ba-2020011119583178.htm",
-      "supports": "Tuổi Trẻ (11/1/2020): chợ hoa Quảng Bá là khu chợ bán buôn hoa lớn nhất miền Bắc, nhộn nhịp từ 3-4h sáng đến gần trưa; dịp Tết họp thâu đêm, mở rộng lên đê; nên đến lúc 1-2h sáng; hoa từ nhiều tỉnh.",
-      "sha256": "ef5d8332e4b7697b8a1186deb28d5bc14e28118e775340a7328c8fff856839e1",
-      "verified_at": "2026-10-19T21:38:08.571536+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://thanhnien.vn/som-hom-cho-hoa-quang-ba-1851033310.htm",
-      "supports": "Thanh Niên (bài tùy bút, không rõ ngày): buổi chợ bắt đầu từ một giờ sáng, chợ họp từ tối hôm trước nhưng tấp nập nhất lúc rạng sáng; mục đích dùng các loại hoa; rằm, mùng một đông hơn.",
-      "sha256": "039173eb34cee6e65fcb075ed14ac416baecbd8402c79c64634e08802d0eefb8",
-      "verified_at": "2026-10-19T21:38:10.300596+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -113,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T21:38:14.022771+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T21:42:01.319295+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "74723e2e75141348d1789aa96e2daf7673ec4b765b2814c5300d636533eae199",
+  "inventory_sha256": "e147199d4a456e23937f7b489ffd85be707ab5187fb71860f3303ccc7bb44752",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
