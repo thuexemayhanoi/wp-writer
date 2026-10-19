@@ -70,13 +70,62 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/winner-r",
+      "supports": "Trang Honda Winner R (bản Thể Thao hiển thị mặc định, đọc 19/10/2026): bảng thông số động cơ KC46E 149,2 cm3, 11,5 kW, độ cao yên 795 mm, gầm 153 mm, bình xăng 4,5 lít, mức tiêu thụ 2,59 L/100km kèm chú thích UDC, ABS bánh trước trên bản Thể thao và Đặc biệt.",
+      "sha256": "ea7332d8f9e9fb22063950873425ad0b812612f712eb4e580443f261a0699e37",
+      "verified_at": "2026-10-19T17:15:52.926602+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/winner-r?version=39&changeVersionFlag=1",
+      "supports": "Trang Honda Winner R bản Tiêu Chuẩn (version=39, đọc 19/10/2026): khối lượng bản thân 123 kg, bảng không có dòng dung tích nhớt máy, cùng chú thích UDC.",
+      "sha256": "db5c57b5fdd38a30c55859f35676a2060e73d66c4423ba4d463ece1bdaf27d43",
+      "verified_at": "2026-10-19T17:15:54.616598+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-tieu-chuan-d193/",
+      "supports": "Trang Yamaha Exciter 155 VVA bản Tiêu chuẩn (đọc 19/10/2026): 155,1 cm³, 13,6 kW, bình xăng 5,4 L, 2,07 lít/100 km, yên 795 mm, trọng lượng ướt 120 kg, phanh đĩa trước và sau, lốp 90/80-17 và 120/70-17.",
+      "sha256": "05722550099c81b7f259993e6563332ec317c64da3943140061b021fe6acbdf3",
+      "verified_at": "2026-10-19T17:15:56.723271+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-monster-d199/",
+      "supports": "Trang Yamaha Exciter 155 VVA TCS bản Monster (đọc 19/10/2026): phanh trước đĩa trang bị ABS, TCS, khóa thông minh, trọng lượng ướt 124 kg.",
+      "sha256": "312f8b342d43145528a1e7c501c47280f4e898945baec799e73ab5a6d730039b",
+      "verified_at": "2026-10-19T17:15:57.751010+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-sp-d191/",
+      "supports": "Trang Yamaha Exciter 155 VVA TCS bản SP (đọc 19/10/2026): trọng lượng ướt 124 kg, phanh trước trang bị ABS, cùng nhóm thông số với bản Monster.",
+      "sha256": "1d28855392bf5a9a041412d62b5caee026c15f103288246137c0ffb02c0911a0",
+      "verified_at": "2026-10-19T17:15:59.155865+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/yamaha-motor-viet-nam-ra-mat-exciter-155-vva-tcs-tiep-tuc-khang-dinh-vi-the-va-ky-niem-cot-moc-20-nam-out-trinh/",
+      "supports": "Bản tin Yamaha Motor Việt Nam ngày 11/07/2026 về Exciter 155 VVA-TCS: động cơ 18.5 PS, ABS trên đĩa trước 267 mm với cùm phanh 2 piston, phanh sau 203 mm.",
+      "sha256": "2b42e95d8bf2cc0c270104f89ad4bcaf0946a8b24f4509c5c5e32223844107be",
+      "verified_at": "2026-10-19T17:16:02.453903+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
   "evidence_recheck": null,
-  "at": "2026-10-19T16:42:55.047503+00:00",
-  "live_links_checked": false,
+  "at": "2026-10-19T17:16:12.152002+00:00",
+  "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "e6b4d14c5ded0f60694ff6d5552b557a288eb7c749e4964ec8be4282ff0f4932",
+  "inventory_sha256": "05e286f54dbf8d6435efff74c3d7f15934efe39b70c7230dbec7598e80ad718f",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

@@ -70,13 +70,46 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/air-blade-160125",
+      "supports": "Trang Honda Air Blade 160/125 (bảng 160cc hiển thị mặc định, đọc 19/10/2026): 156,9 cm3, 11,2 kW, 14,8 N.m, 113kg, yên 775mm, gầm 142mm, bình xăng 4,4L, 2,23l/100km, lốp 90/80-14 và 100/80-14, ABS bánh trước, hộc đồ 23,2 lít, USB loại C.",
+      "sha256": "6cb2126201703da63a69d50c16f1d290f10565ee5502a7d1ea653b5797adebce",
+      "verified_at": "2026-10-19T17:16:56.565593+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-160",
+      "supports": "Trang Honda Vario 160 (bản Thể Thao, đọc 19/10/2026): 156,9 cm³, 11,3 kW, 14,1 N·m, 118 kg, yên 778 mm, gầm 138 mm, bình xăng 5,5 L, 2,20 lít/100km, lốp 100/80-14 và 120/70-14, ABS bánh trước, hộc đồ 17,9 lít, USB loại A.",
+      "sha256": "2677a8d4df0972d2b75b181325d4070362ca1d153b489edfa106c9929a958d30",
+      "verified_at": "2026-10-19T17:16:57.183395+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/lexi-155-vva-abs-phien-ban-cao-cap-moi-bvy4/",
+      "supports": "Trang Yamaha LEXi 155 VVA-ABS phiên bản cao cấp mới (đọc 19/10/2026): 155,1 cc, 11,3 kW, 14,2 N.m, trọng lượng 118 kg, yên 768 mm, gầm tối thiểu 135 mm, bình xăng 4,2 lít, 2,19 l/100km, phanh trước đĩa có ABS, phanh sau tang trống.",
+      "sha256": "9d783862c6e2f474c049022c32b30c2b27ed3e740c47a260381204e90ce352cf",
+      "verified_at": "2026-10-19T17:16:59.231415+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/nvx-155-phien-ban-gp-2025-d111-2/",
+      "supports": "Trang Yamaha NVX 155 phiên bản GP 2025 (đọc 19/10/2026): 155,1cm3, 11,3 kW, 14,2 N.m, trọng lượng 131 kg, yên 790 mm, gầm tối thiểu 145 mm, bình xăng 5,5 lít, 2,21 l/100km, phanh đĩa đơn có ABS, cốp 24.5 lít, YECVT, TCS.",
+      "sha256": "6a45ad26fd2dfaf0fc16123a63dd631d9be9f8ac396e6d079c8cc0b5c6e8b2fc",
+      "verified_at": "2026-10-19T17:17:03.221436+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
   "evidence_recheck": null,
-  "at": "2026-10-19T16:42:55.533864+00:00",
-  "live_links_checked": false,
+  "at": "2026-10-19T17:17:15.777510+00:00",
+  "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "e6b4d14c5ded0f60694ff6d5552b557a288eb7c749e4964ec8be4282ff0f4932",
+  "inventory_sha256": "a12bf4f7c77cb40ade2e3478403d423ba63f7317c7c89e93b28f4e3625449411",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

@@ -70,7 +70,32 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-125",
+      "supports": "Trang Honda Vario 125 (bản Đặc Biệt hiển thị mặc định, đọc 19/10/2026): 125 cm3, 8,48 kW, 2,11l/100km, khối lượng 111 kg, kích thước 1919 x 687 x 1075 mm, yên 769 mm, gầm 131 mm, bình xăng 5,5 lít, EURO 4, Idling Stop, CBS, hộc đồ lên đến 18 lít, USB loại C.",
+      "sha256": "f47c062dfa0bbc189dfd00ccb54c2782ced456029d94204f269124a5ea4b079c",
+      "verified_at": "2026-10-19T17:16:27.136543+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-125?version=18&changeVersionFlag=1",
+      "supports": "Trang Honda Vario 125 bản Street (version=18, đọc 19/10/2026): khối lượng 112 kg, rộng 751 mm, cao 1076 mm, ghi đông trần, phối màu Đen vành cam và Đen vành trắng; các dòng khác như bản Đặc Biệt.",
+      "sha256": "4827ceac1afd0d378d715da8a8aac1f84c3621ef2a32dfe876ce358dec918085",
+      "verified_at": "2026-10-19T17:16:27.717158+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-160",
+      "supports": "Trang Honda Vario 160 (bản Thể Thao, đọc 19/10/2026): 156,9 cm³, 11,3 kW, 2,20 lít/100km, 118 kg, yên 778 mm, gầm 138 mm, bình xăng 5,5 L, lốp 100/80-14 và 120/70-14, ABS bánh trước, hộc đồ 17,9 lít, sàn để chân 422mm, USB loại A 10,5W.",
+      "sha256": "2677a8d4df0972d2b75b181325d4070362ca1d153b489edfa106c9929a958d30",
+      "verified_at": "2026-10-19T17:16:29.261715+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
   "evidence_recheck": {
     "pages": [
       {
@@ -96,11 +121,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T16:42:55.300068+00:00",
-  "live_links_checked": false,
+  "at": "2026-10-19T17:16:40.207102+00:00",
+  "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "e6b4d14c5ded0f60694ff6d5552b557a288eb7c749e4964ec8be4282ff0f4932",
+  "inventory_sha256": "05abc8980ab4e9f9dad4fe5ba4143b65c33a0de2e04130b220ad341d2004c7d4",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
