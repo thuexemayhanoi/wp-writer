@@ -1,0 +1,134 @@
+{
+  "topic_id": "NT-000589",
+  "status": "PASS",
+  "source_sha256": "1c081c72a110a6724e25bbe4502f2bc0e9a3bfa3a12dbdc26c2fcf54244ad9d7",
+  "body_sha256": "248a9790a4ebe27776e4e444aadb30000b3a8d130ca6dca42e373df9fb8cff17",
+  "word_count": 2738,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2393,
+        "title": "Thuê pin hay mua pin xe máy điện VinFast: phương án nào hợp lý?",
+        "why": "stale",
+        "content_hash": "b26adf50a482554d3cb08a77a5edd2ce3012f2ce554cb624584729fd43c82f18",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2437,
+        "title": "Các dòng xe máy Honda: tổng hợp mẫu phổ biến tại Việt Nam",
+        "why": "stale",
+        "content_hash": "5cff2a6706b84439a61843ab51b848da33a40d9c155c5eb687076b40c694e51f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2464,
+        "title": "Yamaha Janus phù hợp với ai? Những điểm đáng chú ý khi lựa chọn",
+        "why": "stale",
+        "content_hash": "0c040691e439a75bb84f66327d81dddb8d19e2ae59680e88c15bc7ee801a283a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2515,
+        "title": "Bình ắc quy xe máy dùng được bao lâu? Khi nào nên kiểm tra lại?",
+        "why": "stale",
+        "content_hash": "26576df935c21a29be7d5e9013419bbd9273bc6c5f99f106848143996460de9a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T04:01:02.925996+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "052a629bcc1b51ce4974442ef6c5504c558c84992b0b8ef2f64f5bda8c91d1bf",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

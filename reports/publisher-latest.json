@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-19T01:09:38.947822+00:00",
-  "attempted": 2,
+  "at": "2026-10-19T04:08:39.932177+00:00",
+  "attempted": 10,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -20,6 +20,46 @@
         }
       },
       "action": "manual reconciliation; never create/update automatically"
+    },
+    {
+      "topic_id": "NT-000531",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 172,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "hanoi-travel",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000532",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 172,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "hanoi-travel",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000533",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 172,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "hanoi-travel",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000583",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 167,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "battery-charging",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000585",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 160,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_warning": null
     },
     {
       "topic_id": "NT-000587",
@@ -129,15 +169,15 @@
           "url": "https://webstore.iec.ch/en/publication/2447",
           "supports": "IEC Webstore: IEC 60529 (Degrees of protection provided by enclosures, IP Code) dùng để phân loại mức bảo vệ do vỏ bọc của thiết bị điện có điện áp định mức không quá 72,5 kV.",
           "sha256": "37a4a0eead48c06bded8486d25152bc2e4bb67fa4b0ea7c811688e135dfdfd4d",
-          "verified_at": "2026-10-19T01:07:25.992919+00:00",
+          "verified_at": "2026-10-19T04:05:17.295089+00:00",
           "verification_method": "live",
           "live_checked": true
         },
         {
           "url": "https://www.westmarine.com/west-advisor/Understanding-IP-Ratings.html",
           "supports": "West Marine (nhà bán lẻ hàng hải): mã IP mô tả hiệu năng trong điều kiện thử của IEC 60529, do hãng hoặc phòng thử độc lập thực hiện; IPX7 là ngâm tạm thời tới 1 m trong 30 phút, chữ X là không có xếp hạng vật rắn; IP68 do hãng đặt độ sâu và thời gian nên chưa chắc hơn IPX7.",
-          "sha256": "f14d02dabcf1c94b9590c6d4dc25eb344b3fd89e0d0564baae75f921085dc9f1",
-          "verified_at": "2026-10-19T01:07:32.430234+00:00",
+          "sha256": "60afa7abcbf90f24cc9db105eb211dd0d6308dd162ac16b61af1bcb864b874e0",
+          "verified_at": "2026-10-19T04:05:18.859213+00:00",
           "verification_method": "live",
           "live_checked": true
         },
@@ -185,11 +225,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-19T01:07:41.572742+00:00",
+      "at": "2026-10-19T04:05:24.973909+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "db143a809c86d9cc7146a4bc7cd377624eb130adebab651a31286e06dec12e41",
+      "inventory_sha256": "4ef852a824097d86fd570f322bdcc43aa483bd0da48e4ecf9149f1f1a07a901a",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -206,19 +246,43 @@
       }
     },
     {
-      "topic_id": "NT-000817",
+      "topic_id": "NT-000590",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 174,
+      "category_id": 167,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "food-culture",
+      "intended_taxonomy_key": "battery-charging",
       "category_warning": null
     },
     {
-      "topic_id": "NT-000818",
+      "topic_id": "NT-000614",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
+      "category_id": 168,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
+      "intended_taxonomy_key": "electric-tech",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000615",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 168,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-tech",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000618",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 160,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000619",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 168,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-tech",
       "category_warning": null
     }
   ],

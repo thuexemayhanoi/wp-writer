@@ -1,0 +1,193 @@
+{
+  "topic_id": "NT-000583",
+  "status": "PASS",
+  "source_sha256": "8f110419833d5e02c05f4be6eb060a707f85c1ca9cb04971352b0d2f74c400b5",
+  "body_sha256": "5b5a2e8a762e9752b25fa21bacecbb59838ce2a4a2c7deee4bc0491e385f1dad",
+  "word_count": 2698,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-409-charging-lithium-ion",
+      "supports": "Battery University BU-409 (25/10/2021): tăng dòng sạc không rút ngắn nhiều thời gian đầy vì giai đoạn bão hòa kéo dài hơn; dòng lớn nạp nhanh khoảng 70% đầu.",
+      "sha256": "10546a3d1bae756f43c8666a791ca1d0d764cb7708261042fce6f49e2eb60190",
+      "verified_at": "2026-10-19T04:04:21.985779+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries",
+      "supports": "Battery University BU-808: pin kiểu Energy Cell nên sạc ở 1C hoặc thấp hơn; tránh bộ sạc \"ultra-fast\" sạc đầy dưới một giờ.",
+      "sha256": "54e2c3993a1ba98ab508519d2ba8f4b5a748b24af0d28fd4c15ac7c9a03d7a43",
+      "verified_at": "2026-10-19T04:04:23.547420+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-808b-what-causes-li-ion-to-die",
+      "supports": "Battery University BU-808b: mạ lithium trên bề mặt cực âm do tốc độ sạc cao là một trong bốn nguyên nhân suy giảm dung lượng.",
+      "sha256": "f9cdca4e8d4d3ef4ceafbaa8f8373c0956bbab9fd6525b879ef4991590326027",
+      "verified_at": "2026-10-19T04:04:24.960813+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.anl.gov/article/researchers-use-xrays-to-understand-the-flaws-of-battery-fast-charging",
+      "supports": "Argonne National Laboratory (11/02/2019): khi sạc bị đẩy nhanh, lithium có thể lắng thành kim loại trên bề mặt graphite (mạ lithium) làm giảm hiệu năng pin.",
+      "sha256": "1f835414f5abda645a8f8ea1b575dc2e93687a2160913ec60dc8b0a5b53a389f",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "supports": "Dat Bike: sạc nhanh không gây hại ngay nếu bộ sạc và BMS đạt chuẩn, nên ưu tiên sạc thường hằng ngày và để sạc nhanh khi cần.",
+      "sha256": "0f548a2d957b60a67e6ebedf06b634d0ac4677b2ff843c447af7f49b2a5f7ad3",
+      "verified_at": "2026-10-19T04:04:26.646978+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/luu-y-su-dung-doi-voi-pin-cell-lfp-gotion",
+      "supports": "VinFast (trang pin LFP/Gotion): hạn chế dùng liên tục các trạm sạc nhanh từ 120 kW vì có thể ảnh hưởng tuổi thọ pin.",
+      "sha256": "5382e1b0280b3edcdb4489fff90d49fa25ddfcacdeb3ce0c479bf6197915b0ee",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-205-types-of-lithium-ion",
+      "supports": "Battery University BU-205: sạc hoặc xả với dòng cao hơn hệ số C của cell gây nóng và áp lực quá mức.",
+      "sha256": "1e06cd66fcb6154d9a8fca749b060d5c9dae6a09403034e8f879f448c6d7a521",
+      "verified_at": "2026-10-19T04:04:28.431616+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/cau-hoi-thuong-gap-khi-tim-hieu-pin-xe-may-dien-vinfast",
+      "supports": "VinFast: sau khi đi xe nên đợi 30–60 phút cho pin nguội rồi mới sạc.",
+      "sha256": "9ba66891fdacef6f8097e3cc11a4cb8eb94fb66bd96096c6f9c7f6d03148f0b9",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2395,
+        "title": "Trạm đổi pin VinFast hoạt động thế nào và phù hợp với ai khi dùng?",
+        "why": "stale",
+        "content_hash": "9f9843961c374c21766abd5bb5050f062102544f65af6bdc3a63b572f32ea88e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2535,
+        "title": "Lịch bảo dưỡng xe máy Honda: các mốc nên kiểm tra theo thời gian",
+        "why": "stale",
+        "content_hash": "c705587e1fddf801c67af2ee8927918bea23539eb6755e4f4da4fe7ae47943cb",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T04:04:36.100938+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "64dc383cf5a5b0b0f46c69802b9264b48f02b588b4f37fdee41518d4c8fa7112",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "topic_id": "NT-000614",
+  "status": "PASS",
+  "source_sha256": "e956942036cb824ca7debeabf3576ff0e12e3a5bd95c7932ed952747380197d1",
+  "body_sha256": "37be14138ea512c09f78a148c4ca9205f19c5da2d133513925e278c996b148a1",
+  "word_count": 3074,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn sử dụng xe Quantum (Dat Bike): chế độ dừng Parking P là mặc định sau khi mở xe, xe bị ngắt năng lượng với tay ga nên không chạy dù vặn ga; P được kích hoạt nếu hạ chân chống nghiêng khi đang ở D, S hoặc R; dùng phanh tay thì động cơ tự ngắt",
+      "sha256": "ac94fe3ed316f103e53e5432bd19ff4ab03fb1a738bf12bc0e21783d719b9e85",
+      "verified_at": "2026-10-19T04:07:01.805918+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-weaver-en/",
+      "supports": "Hướng dẫn sử dụng Dat Bike Weaver (bản tiếng Anh): công tắc an toàn khi bật thì xe không phản hồi tay ga; bóp phanh thì động cơ tự ngắt và phải nhả phanh, đưa ga về 0 rồi mới tăng tốc lại; quá tải liên tục trên 7 giây xe tự ngắt, quá nhiệt xe giảm công suất rồi có thể dừng hẳn",
+      "sha256": "f20921c83e38a1986d61aaf36c70f24702e073545efd1926d4ca3fa4ac07d548",
+      "verified_at": "2026-10-19T04:07:03.308455+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/en/blogs/dat-bike-blog/tip-cac-che-do-lai-va-man-hinh-lcd-xe-quantum",
+      "supports": "Dat Bike (bài hướng dẫn Tip #3): nếu xe đang ở chế độ D, S hoặc R mà đá chân chống thì xe tự chuyển về P; chuyển về P khi dừng bằng cách xả hết ga, bóp phanh và ấn giữ nút đa chức năng",
+      "sha256": "50f83e5923b7b9afe68643cc2ab5b145674ad2c3cfece2931f2fa6166fa944ee",
+      "verified_at": "2026-10-19T04:07:05.637030+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/nguyen-nhan-xe-dien-khong-len-dien-va-cach-xu-ly/",
+      "supports": "Yamaha Motor Việt Nam (đăng 02/10/2023): trường hợp xe điện chết máy hoặc không lên điện có thể do pin hết điện hoặc hệ thống dây điện gặp vấn đề; nêu để phân biệt với các cơ chế an toàn do thiết kế",
+      "sha256": "2161d4bcfb34744e1090f64f233e8aa5c0d83cdd58cad01b8fd6f805f368b4b3",
+      "verified_at": "2026-10-19T04:07:07.266442+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2367,
+        "title": "Có Nên Sạc Xe Máy Điện Tại Nhà? Kinh Nghiệm An Toàn Khi Sử Dụng",
+        "why": "stale",
+        "content_hash": "8768183f030319ed7647591d37ba6e25af1e5ac274f69cc230b87c74a28fe158",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2559,
+        "title": "Các loại bằng lái xe máy hiện nay và cách phân biệt từng hạng",
+        "why": "stale",
+        "content_hash": "1dbe75f2df7dd3b894e673123e9c56ffdda9c772f072b8cb4682f49b0f264d0e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T04:07:17.615509+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "8eb8f8a8acb399254f6b638555be63621c93f806a0802016574d0e6d1070332c",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

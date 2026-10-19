@@ -1,0 +1,133 @@
+{
+  "topic_id": "NT-000532",
+  "status": "PASS",
+  "source_sha256": "fff4e66202297229f077dee86b961da66adac1c542bb06698440b3dc1541f103",
+  "body_sha256": "d59cb43d246bdef2fce870da9f50a720d95826d7ececdca396ce5f478369e477",
+  "word_count": 2881,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dsvh.gov.vn/le-ket-cha-phu-my-kieu-mai-3398",
+      "supports": "Cục Di sản văn hóa (hồ sơ tư liệu): hai làng Phú Mỹ và Kiều Mai giáp nhau, tục kết chạ ghi trong hương ước ngày 10 tháng Tư năm Cảnh Hưng thứ 6 (1745); hội lớn năm năm một lần từ năm 2020; các ngày hội mỗi làng, kiệu long đình và bát cống, trò chơi dân gian; Quyết định 1728/QĐ-BVHTTDL ngày 27/5/2021.",
+      "sha256": "623f71f62a37e9ee8d7d3c43d50ebbb6417e526692a79d9af02c0adefbde05f3",
+      "verified_at": "2026-10-19T04:03:26.513826+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://nhipsonghanoi.hanoimoi.vn/tuc-ket-cha-o-lang-phu-my-kieu-mai-624538.html",
+      "supports": "Báo Hà Nội Mới (Nhịp sống Hà Nội): tục kết chạ duy trì hàng trăm năm, câu ca \"Tháng Giêng em đến, tháng Hai chị về\"; bản khoán ước 1745 phục hồi năm Quý Dậu 1933 ghi ngày 7 tháng Giêng và ngày 20 tháng Hai; hội lớn năm năm một lần; trò chơi dân gian và hát cửa đình.",
+      "sha256": "86e9e961353b0c2b4b30d1e1cefde8bb57a61bf17a544ca3a37853c65aa8aaeb",
+      "verified_at": "2026-10-19T04:03:28.525527+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2507,
+        "title": "Chế chảy xăng do đâu? Dấu hiệu nhận biết và cách xử lý ban đầu",
+        "why": "stale",
+        "content_hash": "22253fe91355d6055381302fd78045e2b708effd15761afd43cac2531dcdd570",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2588,
+        "title": "Xe số nào tiết kiệm cho người ở Hà Nội từ một đến ba tháng dài ngày?",
+        "why": "stale",
+        "content_hash": "3999a6360763f969b09aaaedde2cebedb8d5351b1b6007c094286363fe5cecfa",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T04:03:39.103267+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "03bec77872b79c6529a7b91b90e5aa9a99de08e1a03880605c56be642ba8aa8d",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

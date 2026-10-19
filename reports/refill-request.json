@@ -6,16 +6,16 @@
   "rounds_opened": 1,
   "unlimited_rounds": true,
   "approved_capacity": 1000,
-  "topic_rows": 293,
-  "capacity_remaining": 707,
+  "topic_rows": 296,
+  "capacity_remaining": 704,
   "order": {
     "id": "RF-0001",
     "round": 1,
     "target_min": 200,
     "target_max": 300,
-    "accepted_so_far": 181,
-    "remaining_to_min": 19,
-    "remaining_to_max": 119,
+    "accepted_so_far": 184,
+    "remaining_to_min": 16,
+    "remaining_to_max": 116,
     "batches_still_needed": 2,
     "batch_size": 10,
     "capacity_limited": false,
@@ -30,8 +30,8 @@
       },
       {
         "taxonomy_key": "trip-planning",
-        "quota": 20,
-        "known_now": 31,
+        "quota": 19,
+        "known_now": 32,
         "allocation": 91
       },
       {
@@ -55,7 +55,7 @@
       {
         "taxonomy_key": "vietnam-travel",
         "quota": 12,
-        "known_now": 17,
+        "known_now": 18,
         "allocation": 55
       },
       {
@@ -125,6 +125,12 @@
         "allocation": 23
       },
       {
+        "taxonomy_key": "rental-costs",
+        "quota": 6,
+        "known_now": 6,
+        "allocation": 23
+      },
+      {
         "taxonomy_key": "food-culture",
         "quota": 5,
         "known_now": 17,
@@ -137,12 +143,6 @@
         "allocation": 36
       },
       {
-        "taxonomy_key": "rental-costs",
-        "quota": 5,
-        "known_now": 6,
-        "allocation": 23
-      },
-      {
         "taxonomy_key": "engine-care",
         "quota": 2,
         "known_now": 45,
@@ -151,17 +151,17 @@
       {
         "taxonomy_key": "road-safety",
         "quota": 2,
-        "known_now": 44,
+        "known_now": 45,
         "allocation": 50
       }
     ],
     "next_batch_categories": {
       "battery-charging": 1,
       "destinations": 1,
-      "driving-licence": 1,
       "electric": 1,
       "electric-transition": 1,
       "rental-50cc": 1,
+      "rental-costs": 1,
       "rental-guide": 1,
       "rental-procedures": 1,
       "reviews": 1,
@@ -169,10 +169,10 @@
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 330,
-    "topics_in_factory": 293,
+    "published_wordpress_items": 336,
+    "topics_in_factory": 296,
     "topics_by_status": {
-      "PLANNED": 220,
+      "PLANNED": 223,
       "REJECTED": 1,
       "RESEARCH": 72
     },

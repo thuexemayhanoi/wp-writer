@@ -1,0 +1,166 @@
+{
+  "topic_id": "NT-000619",
+  "status": "PASS",
+  "source_sha256": "cb1ba9e3ab4795ecb165f662988f24df9ada7166f448fb77ef7c1b1f5aca3d4a",
+  "body_sha256": "160bb5ced0516aa7d8d8755c672fb714ea1bde5684597aab8c10f2bff64add1f",
+  "word_count": 2482,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.cyclingweekly.com/news/product-news/electric-bike-motors-290320",
+      "supports": "Cycling Weekly (xe đạp điện): động cơ hub có thể có hộp số hoặc không, đặt ở hai đầu xe nên có thể làm xe mất cân bằng; mid-drive tốt khi lên dốc vì dẫn xích, nằm gần cảm biến lực đạp nên hệ thống hiệu quả hơn; khi sang số cần nhẹ nhàng.",
+      "sha256": "715665160bb94bdb6b76cf2ad7e71da613ca8d962671d9efd5a85062474a355a",
+      "verified_at": "2026-10-19T04:08:13.800297+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://electrek.co/2018/06/07/electric-bicycle-hub-motors-vs-mid-drive/",
+      "supports": "Electrek (2018, xe đạp điện): hub là hệ truyền động độc lập, ít hoặc không cần bảo dưỡng và không tạo thêm tải lên xích và bộ sang số; mid-drive nhẹ hơn và dùng bánh răng tốt hơn nên hợp địa hình dốc, off-road.",
+      "sha256": "ca5eaafe3e0044045f1a8378eb59e55d63a017f069b60aaec7e2412343fdffb6",
+      "verified_at": "2026-10-19T04:08:14.359330+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn sử dụng xe Quantum (Dat Bike): bảng thông số ghi động cơ BLDC Mid-Drive Motor và hệ truyền động bằng xích tỉ số truyền 4.0 (52/13); xích cần kiểm tra độ chùng, vệ sinh và bôi trơn theo bảng bảo dưỡng.",
+      "sha256": "ac94fe3ed316f103e53e5432bd19ff4ab03fb1a738bf12bc0e21783d719b9e85",
+      "verified_at": "2026-10-19T04:08:16.240869+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vnexpress.net/vinfast-theon-xe-may-cao-cap-nhat-cua-thuong-hieu-viet-4222425.html",
+      "supports": "Bài VnExpress 18/01/2021 về VinFast Theon: động cơ đặt giữa xe giúp phân bổ trọng lượng cân bằng hơn so với động cơ ở trục bánh sau; truyền tải bằng xích, bền hơn curoa, ít nhạy với thời tiết nhưng ồn hơn.",
+      "sha256": "021548d7f73e161f715aa6a38095bd0a0b75ca696de33c52be8bae74fb56104f",
+      "verified_at": "2026-10-19T04:08:19.386480+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+      "supports": "Trang sản phẩm Yamaha NEO's: động cơ điện không chổi than làm mát bằng không khí, truyền động trực tiếp, mô-men xoắn cao ở dải vòng tua thấp; trang không nêu vị trí động cơ.",
+      "sha256": "95c28d8a47c6fd266b0509ea5103445cc109678ba40bf0aeb38c668aa8dea9df",
+      "verified_at": "2026-10-19T04:08:22.962626+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 931,
+        "title": "So Sánh Giá Thuê Xe Máy Điện Và Xe Đạp Điện Tại Hà Nội",
+        "why": "stale",
+        "content_hash": "6ecf7e9ed22bffd8cd1b7503e82157d22124c0c18b557dbf6c98245fa34fb529",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2466,
+        "title": "Yamaha Sirius và Sirius FI khác nhau thế nào trong sử dụng thực tế?",
+        "why": "stale",
+        "content_hash": "67e4d995cc0179621caf5c7edbc5cd6d4adbce975b41f80c11a46fe52eac0947",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2485,
+        "title": "Honda Vision và Yamaha Grande khác nhau thế nào khi sử dụng?",
+        "why": "stale",
+        "content_hash": "9703b83fc962ecebe02b7b5ffd9c16749d3b18bd0a96a57af034e25e79a9fc7b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T04:08:27.676786+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "cd3c27010989a65afd384b8aa603c815f2b6472c745d2a7c0a16fbfd2237c01d",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
