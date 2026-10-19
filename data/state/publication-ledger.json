@@ -10539,7 +10539,7 @@
       }
     },
     "NT-000564": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T05:56:02.205505+00:00",
       "source_hash": "75120fd84df238b007a5fbc74d87b1b7283c6bdf4afe801a4feb3ad3f8680662",
       "slug": "san-bang-gia-mau-son-bang-xe-may-nghi-dem-o-lang-son-15-km-deo-hep-tron-va-co-nen-di-khong",
@@ -10554,8 +10554,37 @@
       "category_warning": null,
       "git_commit": "db7e6df978fe9266399ca08ecdfac39002649254",
       "run_id": "39206693185",
-      "updated_at": "2026-10-19T05:56:05.726276+00:00",
-      "wp_id": 4189
+      "updated_at": "2026-10-19T05:56:11.483703+00:00",
+      "wp_id": 4189,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/san-bang-gia-mau-son-bang-xe-may-nghi-dem-o-lang-son-15-km-deo-hep-tron-va-co-nen-di-khong/",
+      "verified_at": "2026-10-19T05:56:11.483696+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4189,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/san-bang-gia-mau-son-bang-xe-may-nghi-dem-o-lang-son-15-km-deo-hep-tron-va-co-nen-di-khong/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/san-bang-gia-mau-son-bang-xe-may-nghi-dem-o-lang-son-15-km-deo-hep-tron-va-co-nen-di-khong/",
+        "seo_title": "Săn băng giá Mẫu Sơn bằng xe máy: có nên đi không?",
+        "seo_description": "Săn băng giá Mẫu Sơn bằng xe máy từ Hà Nội: đường đèo 15 km, ùn tắc, kín chỗ nghỉ và cách cân nhắc có nên đi, theo VnExpress và Dân trí.",
+        "checked_at": "2026-10-19T05:56:11.483678+00:00"
+      }
     }
   },
   "categories": {}
