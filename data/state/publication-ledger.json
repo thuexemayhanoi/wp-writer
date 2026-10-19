@@ -8235,7 +8235,7 @@
       }
     },
     "NT-000531": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T04:03:12.897738+00:00",
       "source_hash": "1e8503868c8f46532069837aa1a1071c298c0e519d538f014401a69738f0d8e3",
       "slug": "le-hoi-nam-lang-moc-cac-ngay-thang-hai-am-lich-lang-dang-cai-va-dam-ruoc-cua-cac-lang-anh-em",
@@ -8250,8 +8250,37 @@
       "category_warning": null,
       "git_commit": "808802e85473f48f4050d13a633591fa201e2109",
       "run_id": "39197257385",
-      "updated_at": "2026-10-19T04:03:16.796916+00:00",
-      "wp_id": 4141
+      "updated_at": "2026-10-19T04:03:22.485580+00:00",
+      "wp_id": 4141,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/le-hoi-nam-lang-moc-cac-ngay-thang-hai-am-lich-lang-dang-cai-va-dam-ruoc-cua-cac-lang-anh-em/",
+      "verified_at": "2026-10-19T04:03:22.485572+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4141,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/le-hoi-nam-lang-moc-cac-ngay-thang-hai-am-lich-lang-dang-cai-va-dam-ruoc-cua-cac-lang-anh-em/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/le-hoi-nam-lang-moc-cac-ngay-thang-hai-am-lich-lang-dang-cai-va-dam-ruoc-cua-cac-lang-anh-em/",
+        "seo_title": "Lễ hội Năm làng Mọc: ngày tháng Hai âm lịch và làng đăng cai",
+        "seo_description": "Lễ hội Năm làng Mọc ở Thanh Xuân và Nam Từ Liêm: mốc mùng 10–12 và ngày 11, 12 tháng Hai âm lịch, làng đăng cai luân phiên, điểm đón đoàn rước và tế hội đồng.",
+        "checked_at": "2026-10-19T04:03:22.485554+00:00"
+      }
     }
   },
   "categories": {}
