@@ -70,7 +70,32 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/den-phanh-khong-sang-lo-hong-an-toan-cua-nhieu-dong-xe-dien-4645501.html",
+      "supports": "VnExpress (24/8/2023): xe điện giảm tốc nhanh khi nhả ga mà đèn phanh không sáng vì không có động tác đạp phanh; Consumer Reports 2023 thử 24 mẫu, 5 mẫu đèn không sáng; chuyên gia khuyên nhấn phanh cho đèn sáng khi xe đã dừng hẳn bằng phanh tái tạo; châu Âu bật đèn phanh khi giảm tốc trên 1,3 m/s2.",
+      "sha256": "99a19dc6d41b63188ed7d2e6ab6fd548df6ff4e997e7f518257407497e7941e7",
+      "verified_at": "2026-10-19T19:44:39.697844+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vnexpress.net/giam-toc-khong-sang-den-luu-y-khi-bam-duoi-xe-dien-5039990.html",
+      "supports": "VnExpress (12/2/2026): ở mức giảm tốc nhẹ hoặc trung bình, nhất là khi chỉ nhả ga, đèn phanh xe điện có thể không sáng; người đi sau nên giữ khoảng cách theo tốc độ thực tế và quan sát sự thay đổi khoảng cách thay vì chờ đèn phanh.",
+      "sha256": "3f8ae7fd428672b16429298d40ea4920df9b15c94e7638ec0dd070c3d9c36cde",
+      "verified_at": "2026-10-19T19:44:42.981132+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Regenerative_braking",
+      "supports": "Wikipedia, bài Regenerative braking (đọc 19/10/2026): một số mẫu ô tô không bật đèn phanh khi phanh tái sinh; hầu hết quy định không bắt buộc; tiêu chuẩn GB 21670-2025 bắt buộc đèn phanh khi giảm tốc vượt 1,3 m/s2.",
+      "sha256": "5950f68fd4bd68b14175ef3a022b399e69e9214c5d0e73c26b339f5974afc522",
+      "verified_at": "2026-10-19T19:44:43.294187+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
   "evidence_recheck": {
     "pages": [
       {
@@ -123,11 +148,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T17:13:48.020029+00:00",
-  "live_links_checked": false,
+  "at": "2026-10-19T19:44:53.868392+00:00",
+  "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "e6b4d14c5ded0f60694ff6d5552b557a288eb7c749e4964ec8be4282ff0f4932",
+  "inventory_sha256": "4b9bd664cd57fa4404438d30194a031d454579d46efe6f3e34996f3f20fef91c",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

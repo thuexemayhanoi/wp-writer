@@ -70,7 +70,256 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [],
+  "source_evidence": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Ride_height",
+      "supports": "Wikipedia: ride height hay ground clearance là khoảng cách ngắn nhất từ mặt phẳng đến bộ phận thấp nhất của xe (ô tô).",
+      "sha256": "f1e7d0396272de2edca1348b6a4e0ebd60379b6cb84019e699cfb1eeaf0fa7b0",
+      "verified_at": "2026-10-19T19:39:53.782157+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision",
+      "supports": "Trang Honda Vision 2026 bản Thể Thao: khoảng sáng gầm xe 175 mm, độ cao yên 785 mm.",
+      "sha256": "a0de2ca98ff57a265ff8cddfbcc2216023f3a4eaf1e64cf5c489d0959c390d89",
+      "verified_at": "2026-10-19T19:39:55.564349+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?version=104&changeVersionFlag=1",
+      "supports": "Trang Honda Vision 2026 bản Đặc Biệt: khoảng sáng gầm xe 152 mm, độ cao yên 761 mm.",
+      "sha256": "aca3b8a10d72864ac1d5e5473781e65c125e02643bc72db3ed1392b510ca66ad",
+      "verified_at": "2026-10-19T19:39:57.152925+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110",
+      "supports": "Trang Honda Wave Alpha 110 (đọc 19/10/2026): khoảng sáng gầm xe 134 mm, độ cao yên 770 mm.",
+      "sha256": "aacb68c68856b6d82a600409934ee4e02ec0c8897dc1aaa6621601fa38616a2d",
+      "verified_at": "2026-10-19T19:39:57.793479+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx",
+      "supports": "Trang Honda Wave RSX (đọc 19/10/2026): khoảng sáng gầm xe 135 mm, độ cao yên 760 mm.",
+      "sha256": "457fee4e30f7dae22667bd62b2d88593216cdfdb1001cbbcc034889c022f6ee1",
+      "verified_at": "2026-10-19T19:39:58.562676+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/future-125-fi",
+      "supports": "Trang Honda Future 125 FI (đọc 19/10/2026): khoảng sáng gầm xe 133 mm, độ cao yên 756 mm.",
+      "sha256": "80faad96830c6ae9b3fd16a6518c9141f4d013c15700f36759b47a56fc62d3c6",
+      "verified_at": "2026-10-19T19:39:59.129131+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/lead-abs",
+      "supports": "Trang Honda LEAD ABS (đọc 19/10/2026): khoảng sáng gầm xe 140 mm, độ cao yên 760 mm.",
+      "sha256": "6c4d6ccd18aab9aa1eef575421b3e98de645fb80fcee345abfe19d2ca25053f1",
+      "verified_at": "2026-10-19T19:39:59.677768+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/sh-mode-125",
+      "supports": "Trang Honda SH Mode 125: khoảng sáng gầm xe 151 mm.",
+      "sha256": "b1df3b138ceeaaf201fccab17d95e7f01195f058f014ea5703635930607aec47",
+      "verified_at": "2026-10-19T19:40:00.255227+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/air-blade-160125?version=93&changeVersionFlag=1",
+      "supports": "Trang Honda Air Blade 125 bản Tiêu Chuẩn (version=93) (đọc 19/10/2026): khoảng sáng gầm xe 141 mm, độ cao yên 775 mm.",
+      "sha256": "f13d3f88e3e0072a562ebcda4ab9cd27967ebc37d5272552e4ede04a1b151382",
+      "verified_at": "2026-10-19T19:40:01.015560+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/air-blade-160125",
+      "supports": "Trang Honda Air Blade 160: khoảng sáng gầm xe 142 mm.",
+      "sha256": "6cb2126201703da63a69d50c16f1d290f10565ee5502a7d1ea653b5797adebce",
+      "verified_at": "2026-10-19T19:40:01.607630+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-125",
+      "supports": "Trang Honda Vario 125: khoảng sáng gầm xe 131 mm.",
+      "sha256": "f47c062dfa0bbc189dfd00ccb54c2782ced456029d94204f269124a5ea4b079c",
+      "verified_at": "2026-10-19T19:40:02.801932+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-160",
+      "supports": "Trang Honda Vario 160 (đọc 19/10/2026): khoảng sáng gầm xe 138 mm, độ cao yên 778 mm.",
+      "sha256": "2677a8d4df0972d2b75b181325d4070362ca1d153b489edfa106c9929a958d30",
+      "verified_at": "2026-10-19T19:40:03.384290+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/winner-r",
+      "supports": "Trang Honda Winner R: khoảng sáng gầm xe 153 mm.",
+      "sha256": "ea7332d8f9e9fb22063950873425ad0b812612f712eb4e580443f261a0699e37",
+      "verified_at": "2026-10-19T19:40:03.933815+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-dac-biet-mau-moi-2025-bj7x-2/",
+      "supports": "Trang Yamaha Janus: độ cao gầm xe 135 mm.",
+      "sha256": "8d46689e8e708d57b379c3f286033786aeacc19ccb66eb681f7bae258d146397",
+      "verified_at": "2026-10-19T19:40:05.686554+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/latte-phien-ban-tieu-chuan-mau-moi-2025-b0r7/",
+      "supports": "Trang Yamaha Latte: độ cao gầm xe 125 mm.",
+      "sha256": "4a635ea5ac3948b7d02d9da3e7be44a99c84fd7e0bd7cd31818e6a6b643aac90",
+      "verified_at": "2026-10-19T19:40:07.224702+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+      "supports": "Trang Yamaha Grande: kích thước 1820mm x 684mm x 1155mm, độ cao gầm xe 127mm.",
+      "sha256": "e452a7781563d7491bbc32f84a4df7089806430ff24c1bec9c60aaf4e57fa22b",
+      "verified_at": "2026-10-19T19:40:08.725305+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/freego-s-abs-phien-ban-dac-biet-mau-moi-b4uc/",
+      "supports": "Trang Yamaha FreeGo S ABS phiên bản đặc biệt (đọc 19/10/2026): độ cao gầm xe 135 mm, độ cao yên xe 780 mm.",
+      "sha256": "6515966e5f93ce9a765216fb7e6cf7b246ea580c9f05b7db6e1cc9c7a5648a20",
+      "verified_at": "2026-10-19T19:40:12.125591+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/gear-125-hybrid-phien-ban-cao-cap-df94/",
+      "supports": "Trang Yamaha Gear 125 Hybrid phiên bản cao cấp (đọc 19/10/2026): độ cao gầm xe 135 mm (độ cao yên xe 750 mm ghi ở dòng khác của bảng).",
+      "sha256": "d94ca3ebc84da18b427f827104f493a73d2e54a6e843f3bfaec2171739fa0a0e",
+      "verified_at": "2026-10-19T19:40:14.596050+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-phanh-co-mau-moi-2025-bsaf/",
+      "supports": "Trang Yamaha Sirius FI: độ cao gầm xe 155 mm.",
+      "sha256": "11c4da132c6c10b3f08817ac25a1e72173ab2c10ea1a3f5665fb5a5464604aa1",
+      "verified_at": "2026-10-19T19:40:15.634957+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-rc-phien-ban-vanh-duc-mau-moi-2025-bgyf-g/",
+      "supports": "Trang Yamaha Sirius RC phiên bản vành đúc (đọc 19/10/2026): độ cao gầm xe 130 mm, độ cao yên xe 770 mm.",
+      "sha256": "0feb5859ccf4e5e51d22e3ec8051f04c0a7ebb0b1ccfe78def04e92447ddd5b6",
+      "verified_at": "2026-10-19T19:40:17.112194+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/",
+      "supports": "Trang Yamaha Jupiter Finn phiên bản cao cấp (đọc 19/10/2026): độ cao gầm xe 155 mm, độ cao yên xe 775 mm.",
+      "sha256": "0f159785da1590ffdeb5c8f4622d185ad9608bac6a43531cdfc8121b61abbd12",
+      "verified_at": "2026-10-19T19:40:18.150059+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/",
+      "supports": "Trang Yamaha PG-1 ABS: khoảng sáng gầm xe tối thiểu 190 mm.",
+      "sha256": "9caf9274c826355eb0853b001d427450c6dded1ff318e1568e4bbb6c06429cb8",
+      "verified_at": "2026-10-19T19:40:19.553132+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/",
+      "supports": "Trang Yamaha PG-1 ABS (đọc 19/10/2026): mô tả lốp trước và sau đều là lốp to bản 90/100 16 inch.",
+      "sha256": "9caf9274c826355eb0853b001d427450c6dded1ff318e1568e4bbb6c06429cb8",
+      "verified_at": "2026-10-19T19:40:20.738471+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-tieu-chuan-d193/",
+      "supports": "Trang Yamaha Exciter 155 VVA phiên bản Tiêu chuẩn (đọc 19/10/2026): khoảng sáng gầm xe tối thiểu 150 mm (độ cao yên xe 795 mm ghi ở dòng khác của bảng).",
+      "sha256": "a1f64e0372eb42d93de80904493355be4ac5b4935476a3e2836203a073e24dbc",
+      "verified_at": "2026-10-19T19:40:21.824018+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/nvx-155-phien-ban-gp-2025-d111-2/",
+      "supports": "Trang Yamaha NVX 155 phiên bản GP 2025 (đọc 19/10/2026): khoảng sáng gầm xe tối thiểu 145 mm (độ cao yên xe 790 mm ghi ở dòng khác của bảng).",
+      "sha256": "ece9114731680eff4dd23a222bb881e7a246bbd7c8277a30f98093ea7d426d53",
+      "verified_at": "2026-10-19T19:40:22.849698+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/lexi-155-vva-abs-phien-ban-cao-cap-moi-bvy4/",
+      "supports": "Trang Yamaha LEXi 155 VVA-ABS phiên bản cao cấp (đọc 19/10/2026): khoảng sáng gầm xe tối thiểu 135 mm (độ cao yên xe 768 mm ghi ở dòng khác của bảng).",
+      "sha256": "12d7f3d0a3086636a349c586c05c7ad98eaa12e84dcd8d5f4ce5eb952127ed47",
+      "verified_at": "2026-10-19T19:40:24.347763+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-2026-bfmg/",
+      "supports": "Trang Yamaha NEO's 2026 (xe điện) (đọc 19/10/2026): độ cao gầm xe 148 mm, độ cao yên xe 795 mm.",
+      "sha256": "5239562dfd4c441678be708b8485191d1dd5231d2c51abfeafe53ceab4dfdf19",
+      "verified_at": "2026-10-19T19:40:25.255243+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Trang hướng dẫn sử dụng Quantum của Dat Bike (đọc 19/10/2026): khoảng sáng gầm xe tối thiểu 145 mm, chiều cao yên xe 790 mm; trang không nêu số theo từng bản.",
+      "sha256": "ac94fe3ed316f103e53e5432bd19ff4ab03fb1a738bf12bc0e21783d719b9e85",
+      "verified_at": "2026-10-19T19:40:26.890985+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision",
+      "supports": "Trang Honda Vision (bản Thể thao hiển thị mặc định, đọc 19/10/2026): lốp trước 80/90-16M/C 43P.",
+      "sha256": "a0de2ca98ff57a265ff8cddfbcc2216023f3a4eaf1e64cf5c489d0959c390d89",
+      "verified_at": "2026-10-19T19:40:29.109522+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision",
+      "supports": "Trang Honda Vision mô tả bánh xe trước kích thước lớn 16 inch đem đến tư thế lái xe cao, thẳng cùng tầm nhìn thoáng rộng; trang không nối mô tả này với khoảng sáng gầm.",
+      "sha256": "a0de2ca98ff57a265ff8cddfbcc2216023f3a4eaf1e64cf5c489d0959c390d89",
+      "verified_at": "2026-10-19T19:40:30.874659+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?version=104&changeVersionFlag=1",
+      "supports": "Trang Honda Vision bản Đặc biệt (version=104, đọc 19/10/2026): lốp trước 80/90-14M/C 40P.",
+      "sha256": "aca3b8a10d72864ac1d5e5473781e65c125e02643bc72db3ed1392b510ca66ad",
+      "verified_at": "2026-10-19T19:40:31.419466+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
   "evidence_recheck": {
     "pages": [
       {
@@ -96,11 +345,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T17:13:38.400753+00:00",
-  "live_links_checked": false,
+  "at": "2026-10-19T19:40:42.244954+00:00",
+  "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "e6b4d14c5ded0f60694ff6d5552b557a288eb7c749e4964ec8be4282ff0f4932",
+  "inventory_sha256": "60dd762f86f7cf07f43f9fd6c8b0bd139fb8b0a2ca48ed1a5e3e55afe6bb9e3a",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

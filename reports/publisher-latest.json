@@ -1,14 +1,10 @@
 {
-  "at": "2026-10-19T17:17:28.179015+00:00",
-  "attempted": 3,
+  "at": "2026-10-19T19:46:22.447914+00:00",
+  "attempted": 10,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
-  "pilot": {
-    "id": "pilot-three-20261019",
-    "max_posts": 3,
-    "reserved": 3
-  },
+  "pilot": null,
   "qa": [
     {
       "topic_id": "NT-000079",
@@ -27,7 +23,7 @@
       "action": "manual reconciliation; never create/update automatically"
     },
     {
-      "topic_id": "NT-000711",
+      "topic_id": "NT-000714",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 156,
       "category_resolution": "EXACT",
@@ -35,7 +31,7 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-000712",
+      "topic_id": "NT-000715",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 156,
       "category_resolution": "EXACT",
@@ -43,11 +39,67 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-000713",
+      "topic_id": "NT-000716",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 156,
       "category_resolution": "EXACT",
       "intended_taxonomy_key": "reviews",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000717",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 156,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "reviews",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000718",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 156,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "reviews",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000719",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 156,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "reviews",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000720",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 156,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "reviews",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000830",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 161,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "road-safety",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000831",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 160,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000832",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 168,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-tech",
       "category_warning": null
     }
   ],
