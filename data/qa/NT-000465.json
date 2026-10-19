@@ -1,0 +1,157 @@
+{
+  "topic_id": "NT-000465",
+  "status": "PASS",
+  "source_sha256": "d47d4d528c8a5f271a51868b9749ec56788985382f0810af82a41f633614f961",
+  "body_sha256": "6048e8100c9742bd66aea927ffc2f29c355d2ddfaab03a185db00250c48225ad",
+  "word_count": 3003,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/mo-khoa-tinh-nang-tren-app-dat-bike/",
+      "supports": "Dat Bike (trang cập nhật 09/10/2026) mô tả chống trộm Quantum S: xe bị di chuyển bất ngờ hoặc đá chống thì kêu còi và nhấp nháy đèn xi nhan, bật bằng nút Khóa xe trong ứng dụng khi xe đang tắt; tìm xe bằng còi và đèn khi xe đang tắt.",
+      "sha256": "b215f9277851828153f9e3abc35a4e3fbd480aa3cc2783e6ef54dcb652610ce7",
+      "verified_at": "2026-10-19T09:22:20.383857+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/xe-may-dien-quantum-s1/",
+      "supports": "Trang sản phẩm Dat Bike Quantum S1 nêu tính năng Chống trộm (Anti-theft) xe tự hú còi và phát đèn cảnh báo khi phát hiện dấu hiệu trộm cắp, và Tìm xe trong bãi (Call My Bike) qua ứng dụng.",
+      "sha256": "6108ede6b85b083ec5cebb6edc94b2ff2fa335173859b68d5a0702a6ad8459c2",
+      "verified_at": "2026-10-19T09:22:22.538718+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-weaver-en/",
+      "supports": "Hướng dẫn Dat Bike Weaver nêu xe không có khóa cổ vì theo hãng khóa cổ chống trộm rất ít và có thể bị phá trong vài giây.",
+      "sha256": "f20921c83e38a1986d61aaf36c70f24702e073545efd1926d4ca3fa4ac07d548",
+      "verified_at": "2026-10-19T09:22:24.238948+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/danh-gia-xe-may-dien-neos-yamaha/",
+      "supports": "Yamaha Motor Việt Nam (26/04/2023) nêu với NEO's người dùng định vị vị trí xe qua kết nối ứng dụng Y-Connect.",
+      "sha256": "f37c6f317eba7cee0be1d0c1e22bd40b227d3912831d994215b377ab836436d8",
+      "verified_at": "2026-10-19T09:22:27.982766+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-mo-ban-hai-mau-xe-may-dien-honda-cuv-e-va-honda-uc3-trien-khai-he-thong-tram-doi-pin-va-tram-sac-pin-tai-cac-thanh-pho-lon",
+      "supports": "Honda Việt Nam (04/06/2026) nêu màn hình TFT của CUV e: và UC3 kết nối Honda RoadSync (Duo) hỗ trợ định vị và nghe gọi qua Bluetooth.",
+      "sha256": "d0bcc49d8498aed7218fef3d82bec271954f4d0b18e7b73c6135ef5051be2f63",
+      "verified_at": "2026-10-19T09:22:29.775841+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2370,
+        "title": "Chi Phí Đi Xe Máy Điện Mỗi Tháng So Với Xe Máy Xăng Phổ Thông: Bài Toán Chi Tiết Từ Người Dùng Thực Tế",
+        "why": "stale",
+        "content_hash": "92d045593ec18a74d2c912be44adc4f392b4b025734668676528c637f6ed0b2d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2395,
+        "title": "Trạm đổi pin VinFast hoạt động thế nào và phù hợp với ai khi dùng?",
+        "why": "stale",
+        "content_hash": "9f9843961c374c21766abd5bb5050f062102544f65af6bdc3a63b572f32ea88e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:22:38.107752+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "c0585dd2ea7d16de88ce95dfde5f95754ad3577cfabd20dea2e1928951c7588a",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

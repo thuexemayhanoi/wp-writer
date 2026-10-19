@@ -1,0 +1,110 @@
+{
+  "topic_id": "NT-000461",
+  "status": "PASS",
+  "source_sha256": "23e323d4a8a423fbf65056d2d41ad5a90b38ddd6c6b5086a9e0e2f14e569dae0",
+  "body_sha256": "716289e609d710e51755fc5dca3e7a226e68956f1dda1c012154edf9035aba84",
+  "word_count": 3795,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/vinfast-drgnfly-xe-dap-danh-cho-dan-choi-4786972.html",
+      "supports": "VnExpress (30/08/2024) mô tả pin 640 Wh đặt dưới yên và có thể tháo rời để sạc tại nhà, động cơ 250 W ở bánh sau, nút kích hoạt động cơ bên tay phải giữ bằng ngón cái, yên cố định độ cao và không có vè trước hoặc sau.",
+      "sha256": "d72e34fb948c2e03ea36fe36db9826061be1d85812e0d3b3d68f6ce20c653eb3",
+      "verified_at": "2026-10-19T09:21:55.068367+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-dap-dien-drgnfly",
+      "supports": "Trang VinFast (đọc 19/10/2026) nêu pin Lithium Ion 640 Wh tháo rời sạc đầy trong 5 giờ với bộ sạc 160 W, động cơ 250 W giới hạn bằng phần mềm, cảm biến mô-men xoắn và quãng đường lên tới 110 km (trợ lực), 75 km (tay ga toàn thời gian).",
+      "sha256": "a9d9cfd5e820be8af743e7fbbbf37bc34139f671ba058b32aee721ba1a1a25cf",
+      "research_checked_at": "2026-10-19",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-19T09:22:05.493704+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "6b2cb0578e5364accc529913788e3ae3fb2f97d34a8329e7221ce1592854dd3e",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
