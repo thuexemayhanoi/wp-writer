@@ -1,0 +1,193 @@
+{
+  "topic_id": "NT-000823",
+  "status": "FAIL",
+  "source_sha256": "dc5e7860d6505a29befb414005677d24ba9b1a5e1d121bf2622a72bcc4f199ff",
+  "body_sha256": "89609b21e5fc144b524de25d77c1da1e42f472542d3c9880ba7a807d9cdf657a",
+  "word_count": 3973,
+  "quality_score": 70,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": [
+        "Source REVIEW: ValueError: Source excerpt not found",
+        "Source REVIEW: ValueError: Source excerpt not found"
+      ]
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [
+    "Source REVIEW: ValueError: Source excerpt not found",
+    "Source REVIEW: ValueError: Source excerpt not found"
+  ],
+  "source_evidence": [
+    {
+      "url": "https://moitruong.net.vn/du-bao-mua-dong-2026-2027-ret-dam-ret-hai-co-the-xuat-hien-muon-tap-trung-thang-1-101775.html",
+      "supports": "Bài của Báo Tài nguyên và Môi trường (moitruong.net.vn) ngày 21/08/2026, thuật lại dự báo của Trung tâm Dự báo khí tượng thủy văn quốc gia (Cục Khí tượng Thủy văn, Bộ Nông nghiệp và Môi trường): mùa đông 2026-2027 nền nhiệt cao hơn trung bình nhiều năm, không khí lạnh yếu hơn và số ngày rét đậm, rét hại thấp hơn trung bình; giai đoạn tháng 12/2026-1/2027 rét đậm, rét hại có khả năng xuất hiện muộn hơn quy luật khí hậu nhưng không đồng nghĩa miền Bắc không có đợt rét mạnh; các đợt rét mạnh có khả năng tập trung vào tháng 1/2027, đặc biệt nửa cuối tháng; nhiệt độ tháng 10-11/2026 cao hơn trung bình 1-2 độ, tháng 12/2026 đến tháng 2/2027 cao hơn khoảng 0,5-1,5 độ; vùng núi cao Bắc Bộ còn nguy cơ băng giá, sương muối, thậm chí mưa tuyết",
+      "sha256": "88984351ac48fbb543648fcae6078f63a70045ceb3ac9f0dea7e9c7f07e52040",
+      "verified_at": "2026-10-19T05:02:14.376315+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://moitruong.net.vn/mien-bac-co-the-don-ret-dam-ret-hai-muon-trong-mua-dong-2026-2027-102437.html",
+      "supports": "Bài của moitruong.net.vn ngày 19/09/2026 về bản tin dự báo, cảnh báo khí hậu thời hạn mùa tháng 10/2026 đến tháng 3/2027 của Trung tâm Dự báo Khí tượng Thủy văn Quốc gia: không khí lạnh yếu hơn trung bình nhiều năm; rét đậm, rét hại có khả năng xuất hiện muộn hơn thông thường và số ngày thấp hơn trung bình; cơ quan chưa xác định thời điểm đợt rét đậm, rét hại đầu tiên; từ khoảng cuối tháng 2/2027 miền Bắc ít ngày mưa nhỏ, mưa phùn hơn trung bình; vẫn có thể có mưa lớn, nguy cơ ngập úng đô thị, lũ quét và sạt lở đất vùng núi; người dân cần theo dõi bản tin ngắn hạn ngay cả khi mùa rét được dự báo đến muộn",
+      "sha256": "54467bf7f17d72a78d6e18739f51fdb6a93143b46fc6685ff14c459e0ccebab6",
+      "verified_at": "2026-10-19T05:02:15.883041+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vov.vn/xa-hoi/bao-cuoi-nam-2026-co-the-it-hon-ret-dam-ret-hai-den-muon-post1338126.vov",
+      "supports": "Bài của VOV ngày 03/10/2026, ý kiến ông Nguyễn Văn Hưởng, Trưởng phòng Dự báo Thời tiết, Trung tâm Dự báo Khí tượng Thủy văn quốc gia: các tháng cuối năm 2026 không khí lạnh có xu hướng yếu hơn trung bình nhiều năm, rét đậm, rét hại có khả năng xuất hiện muộn hơn quy luật khí hậu và số ngày thấp hơn trung bình cùng thời kỳ; nghĩa là đầu mùa lạnh chưa nhiều đợt rét mạnh kéo dài, nhưng khi không khí lạnh tăng cường người dân vẫn cần theo dõi chặt các bản tin, đặc biệt ở miền núi phía Bắc; nhiệt độ trung bình tháng 10-11/2026 cao hơn trung bình 1-2 độ, tháng 12/2026 cao hơn 0,5-1,5 độ",
+      "sha256": "81766f02df98a021439e905063da75db6a07de78ce017dece73fdf093710089f",
+      "research_checked_at": "2026-10-19",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://vtv.vn/el-nino-rat-manh-mua-dong-2026-2027-lieu-co-ret-dam-100261015180910632.htm",
+      "supports": "Bài của VTV ngày 16/10/2026, thuật lại dự báo của Trung tâm Dự báo khí tượng thủy văn Quốc gia: từ tháng 11/2026 đến tháng 1/2027 El Nino được dự báo duy trì cường độ rất mạnh với xác suất 96%; tháng 11/2026 nhiệt độ cao hơn trung bình nhiều năm 1-2 độ, tháng 12/2026 và tháng 1/2027 cao hơn 0,5-1,5 độ; rét đậm, rét hại có thể xuất hiện muộn hơn quy luật khí hậu và số ngày ở Bắc Bộ và Bắc Trung Bộ phổ biến thấp hơn trung bình, nhưng vẫn có khả năng có đợt rét đậm, rét hại gây giảm nhiệt độ mạnh và kéo dài ngắn ngày; cuối mùa đông số ngày mưa nhỏ, mưa phùn ở miền Bắc có khả năng ít hơn trung bình; gió mùa Đông Bắc vẫn có thể gây gió mạnh, sóng lớn trên biển; dông, lốc, sét, mưa đá và gió giật mạnh vẫn có khả năng xảy ra",
+      "sha256": "af2887a0da95cb13bab9e31f68760d495a502a28fffb7ab0907e2c10bb73540e",
+      "verified_at": "2026-10-19T05:02:18.749405+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vietnam.travel/things-to-do/weather-and-climate-vietnam",
+      "supports": "Trang Weather and climate in Vietnam của cổng du lịch quốc gia Việt Nam (không ghi ngày), mục Hà Nội: tháng 12 đến tháng 3 mát đến lạnh, nhiều sương và mây; từ cuối tháng 12 đến tháng 3 khá lạnh, thấp nhất khoảng 10 độ, nên mặc ấm; tháng 9 đến tháng 11 mát, trời quang, nắng, khoảng 25 độ",
+      "sha256": "7f1ec970dd6bc817ab88bb2f277abf3a3997af3317886b196c981f83ffd50ba1",
+      "verified_at": "2026-10-19T05:02:19.849943+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://soyte.hatinh.gov.vn/tin-tuc-su-kien/so-y-te-chi-dao-tang-cuong-phong-chong-ret.html",
+      "supports": "Tin của Sở Y tế Hà Tĩnh ngày 25/12/2023 (đăng trên trang của Sở Y tế): đề nghị tuyên truyền phòng chống rét, trong đó cảnh báo để nhân dân biết về các tai nạn như ngộ độc khí CO do sưởi bằng than trong nhà kín, bỏng lửa, tử vong trẻ em do chở bằng xe máy đi ngoài trời rét, ngạt thở trẻ em do mặc quá nhiều áo ấm",
+      "sha256": "5de73479a52d70340bae02f84a982a1fa91599c1efdae7fbffa58d00832ea4d5",
+      "verified_at": "2026-10-19T05:02:28.556295+00:00",
+      "verification_method": "live",
+      "live_checked": true,
+      "attempts": 2
+    },
+    {
+      "url": "https://americanmotorcyclist.com/tips-for-cold-weather-riding",
+      "supports": "Bài Tips For Cold-Weather Riding của Hiệp hội Người đi mô tô Hoa Kỳ (AMA), tác giả Jim Witters, ngày 26/10/2020, viết cho mùa thu và mùa đông ở Hoa Kỳ: giữ nhiệt cơ thể bằng cách mặc nhiều lớp; lớp sát da bằng sợi tổng hợp thoát mồ hôi vì cotton ướt mồ hôi sẽ lạnh; lớp giữ ấm nhẹ như lông cừu nhân tạo (fleece) và nên có chỗ mang theo lớp sẽ cởi khi nắng lên; có thể cần nhiều đôi găng; bàn tay là điểm tiếp xúc quan trọng nhất giữa người lái và xe, khi lạnh thì khả năng điều khiển xe an toàn bị giảm; khăn trùm đầu mặt mỏng (balaclava) và mũ bảo hiểm kín mặt giúp giữ ấm; quần áo, găng, tay nắm và yên sưởi điện là lựa chọn thêm",
+      "sha256": "59cd18ac3d3cdf956f1a51b56408053bf71c174079a26d4536bb6056c855c3ce",
+      "verified_at": "2026-10-19T05:02:29.361274+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2378,
+        "title": "Xe máy điện VinFast: các mẫu đáng chú ý và điểm khác biệt",
+        "why": "stale",
+        "content_hash": "37ef98f1fa6912ab03a40b59b7957c089abbadee5f0ea45c7e3fcf1b939d9074",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2408,
+        "title": "Xe máy điện Honda: các mẫu đang được người dùng quan tâm",
+        "why": "stale",
+        "content_hash": "ded30343606cc54b9fa64db90b6a7c2bc7b959cdd75d5c4e2c0e9f4663dfce0b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4059,
+        "title": "Thuê xe máy đi phỏng vấn ở Hà Nội trong một ngày: xếp lịch, chọn xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "0ffbbff60edf006739890cca423af4e81cb5346ee434c29859648be6bdb57675",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T05:02:35.300732+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "aa0e2802f84f1d5cd9fc06c860c3a0033e6ca9d44ce17f00e8d57f05065a6c7d",
+  "triage": {
+    "hold_class": "REAL_RISK",
+    "real_risk": [
+      "G3: Source REVIEW: ValueError: Source excerpt not found",
+      "G3: Source REVIEW: ValueError: Source excerpt not found"
+    ],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 1,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
