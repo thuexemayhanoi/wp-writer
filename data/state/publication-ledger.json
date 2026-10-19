@@ -7371,7 +7371,7 @@
       }
     },
     "NT-000347": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T03:46:04.100076+00:00",
       "source_hash": "26441c30721ea4574ad0f3eea41504b15fa5c38ba20364312a75b2abeafc668d",
       "slug": "cho-muon-xe-may-co-bi-phat-khong-chu-xe-bi-phat-khi-giao-xe-cho-nguoi-khong-du-dieu-kien-lai",
@@ -7386,8 +7386,37 @@
       "category_warning": null,
       "git_commit": "38bc69a324114f1f907a43640152363ba3e280fc",
       "run_id": "39195944943",
-      "updated_at": "2026-10-19T03:46:07.495404+00:00",
-      "wp_id": 4123
+      "updated_at": "2026-10-19T03:46:12.775078+00:00",
+      "wp_id": 4123,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cho-muon-xe-may-co-bi-phat-khong-chu-xe-bi-phat-khi-giao-xe-cho-nguoi-khong-du-dieu-kien-lai/",
+      "verified_at": "2026-10-19T03:46:12.775070+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4123,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cho-muon-xe-may-co-bi-phat-khong-chu-xe-bi-phat-khi-giao-xe-cho-nguoi-khong-du-dieu-kien-lai/",
+        "categories": [
+          159
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cho-muon-xe-may-co-bi-phat-khong-chu-xe-bi-phat-khi-giao-xe-cho-nguoi-khong-du-dieu-kien-lai/",
+        "seo_title": "Cho mượn xe máy có bị phạt không: chủ xe giao xe sai điều kiện",
+        "seo_description": "Cho mượn xe máy có bị phạt không: chủ xe giao xe cho người không đủ điều kiện lái bị phạt 8 triệu đến 10 triệu đồng theo tin của Bộ Công an, và ai là người không đủ điều kiện.",
+        "checked_at": "2026-10-19T03:46:12.775043+00:00"
+      }
     }
   },
   "categories": {}
