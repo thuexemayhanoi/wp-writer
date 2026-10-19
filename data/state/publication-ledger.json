@@ -13660,7 +13660,7 @@
       }
     },
     "NT-000712": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T17:16:40.300584+00:00",
       "source_hash": "1aded3c19e908f8dbaa114ec35a06f6293e380a45bf61ce3954cbce75b3fd6fa",
       "slug": "vario-125-dac-biet-vario-125-street-va-vario-160-ba-phien-ban-honda-khac-nhau-o-nhung-so-nao",
@@ -13676,8 +13676,37 @@
       "category_warning": null,
       "git_commit": "14ee0463fdf8de3bfc2dde30f2f136b8951d20dd",
       "run_id": "39292035900",
-      "updated_at": "2026-10-19T17:16:44.896842+00:00",
-      "wp_id": 4262
+      "updated_at": "2026-10-19T17:16:51.013514+00:00",
+      "wp_id": 4262,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/vario-125-dac-biet-vario-125-street-va-vario-160-ba-phien-ban-honda-khac-nhau-o-nhung-so-nao/",
+      "verified_at": "2026-10-19T17:16:51.013509+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4262,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/vario-125-dac-biet-vario-125-street-va-vario-160-ba-phien-ban-honda-khac-nhau-o-nhung-so-nao/",
+        "categories": [
+          156
+        ],
+        "canonical": "https://thuexemaynguyentu.com/vario-125-dac-biet-vario-125-street-va-vario-160-ba-phien-ban-honda-khac-nhau-o-nhung-so-nao/",
+        "seo_title": "Vario 125 Đặc Biệt, Street và Vario 160: ba bản Honda khác ở số nào",
+        "seo_description": "Vario 125 Đặc Biệt, Vario 125 Street và Vario 160 theo trang Honda ngày 19/10/2026: động cơ, khối lượng, bề ngang, lốp, phanh, hộc đồ và cách hỏi đúng bản khi xem xe.",
+        "checked_at": "2026-10-19T17:16:51.013491+00:00"
+      }
     }
   },
   "categories": {}
