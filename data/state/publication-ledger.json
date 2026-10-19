@@ -7227,7 +7227,7 @@
       }
     },
     "NT-000346": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T03:41:28.647298+00:00",
       "source_hash": "e647217412138dcaa1f4daf93926c3cb2493f19ea0c1e636a199e44cb0f857ec",
       "slug": "phat-nguoi-xe-may-nhan-thong-bao-noi-giai-quyet-nghia-vu-cua-chu-xe-va-cach-tranh-bi-lua",
@@ -7242,8 +7242,37 @@
       "category_warning": null,
       "git_commit": "e8476d9d8360871ac1cac66d5f627bea48b17b81",
       "run_id": "39195609475",
-      "updated_at": "2026-10-19T03:41:32.975970+00:00",
-      "wp_id": 4120
+      "updated_at": "2026-10-19T03:41:38.989366+00:00",
+      "wp_id": 4120,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/phat-nguoi-xe-may-nhan-thong-bao-noi-giai-quyet-nghia-vu-cua-chu-xe-va-cach-tranh-bi-lua/",
+      "verified_at": "2026-10-19T03:41:38.989361+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4120,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/phat-nguoi-xe-may-nhan-thong-bao-noi-giai-quyet-nghia-vu-cua-chu-xe-va-cach-tranh-bi-lua/",
+        "categories": [
+          159
+        ],
+        "canonical": "https://thuexemaynguyentu.com/phat-nguoi-xe-may-nhan-thong-bao-noi-giai-quyet-nghia-vu-cua-chu-xe-va-cach-tranh-bi-lua/",
+        "seo_title": "Phạt nguội xe máy: nhận thông báo, nơi giải quyết, cách tránh lừa",
+        "seo_description": "Phạt nguội xe máy: chủ xe nhận thông báo ở đâu, giải quyết tại nơi nào, nghĩa vụ hợp tác theo Bộ Công an, xử lý qua iHanoi và cách nhận biết tin nhắn lừa đảo.",
+        "checked_at": "2026-10-19T03:41:38.989340+00:00"
+      }
     }
   },
   "categories": {}
