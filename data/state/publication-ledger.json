@@ -8955,7 +8955,7 @@
       }
     },
     "NT-000641": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T04:13:55.107904+00:00",
       "source_hash": "67e78c41f9e8f6b68bf78c984f94a42f78eadc8ba9fcf885560e46f78bc3a60c",
       "slug": "mang-xe-dap-gap-len-metro-ha-noi-ha-noi-metro-khuyen-cao-gi-ve-pin-lithium-va-viec-tu-choi-phuc-vu",
@@ -8970,8 +8970,37 @@
       "category_warning": null,
       "git_commit": "95b117b8174c189dcedf3ec268fdd634d947e41a",
       "run_id": "39197833614",
-      "updated_at": "2026-10-19T04:13:58.601666+00:00",
-      "wp_id": 4156
+      "updated_at": "2026-10-19T04:14:03.859099+00:00",
+      "wp_id": 4156,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/mang-xe-dap-gap-len-metro-ha-noi-ha-noi-metro-khuyen-cao-gi-ve-pin-lithium-va-viec-tu-choi-phuc-vu/",
+      "verified_at": "2026-10-19T04:14:03.859093+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4156,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/mang-xe-dap-gap-len-metro-ha-noi-ha-noi-metro-khuyen-cao-gi-ve-pin-lithium-va-viec-tu-choi-phuc-vu/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/mang-xe-dap-gap-len-metro-ha-noi-ha-noi-metro-khuyen-cao-gi-ve-pin-lithium-va-viec-tu-choi-phuc-vu/",
+        "seo_title": "Mang xe đạp gấp lên metro Hà Nội: khuyến cáo về pin lithium",
+        "seo_description": "Mang xe đạp gấp lên metro Hà Nội cần biết gì? Tóm tắt thông cáo 12/8/2025 của Hà Nội Metro về pin lithium, việc từ chối phục vụ và cách kiểm tra thông báo mới.",
+        "checked_at": "2026-10-19T04:14:03.859075+00:00"
+      }
     }
   },
   "categories": {}
