@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-19T04:22:39.942417+00:00",
-  "attempted": 7,
+  "at": "2026-10-19T04:29:51.896618+00:00",
+  "attempted": 5,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -22,15 +22,7 @@
       "action": "manual reconciliation; never create/update automatically"
     },
     {
-      "topic_id": "NT-000538",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 172,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "hanoi-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000539",
+      "topic_id": "NT-000540",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 172,
       "category_resolution": "EXACT",
@@ -145,7 +137,7 @@
           "url": "https://webstore.iec.ch/en/publication/2447",
           "supports": "IEC Webstore: IEC 60529 (Degrees of protection provided by enclosures, IP Code) dùng để phân loại mức bảo vệ do vỏ bọc của thiết bị điện có điện áp định mức không quá 72,5 kV.",
           "sha256": "37a4a0eead48c06bded8486d25152bc2e4bb67fa4b0ea7c811688e135dfdfd4d",
-          "verified_at": "2026-10-19T04:19:54.878647+00:00",
+          "verified_at": "2026-10-19T04:26:27.027952+00:00",
           "verification_method": "live",
           "live_checked": true
         },
@@ -153,7 +145,7 @@
           "url": "https://www.westmarine.com/west-advisor/Understanding-IP-Ratings.html",
           "supports": "West Marine (nhà bán lẻ hàng hải): mã IP mô tả hiệu năng trong điều kiện thử của IEC 60529, do hãng hoặc phòng thử độc lập thực hiện; IPX7 là ngâm tạm thời tới 1 m trong 30 phút, chữ X là không có xếp hạng vật rắn; IP68 do hãng đặt độ sâu và thời gian nên chưa chắc hơn IPX7.",
           "sha256": "60afa7abcbf90f24cc9db105eb211dd0d6308dd162ac16b61af1bcb864b874e0",
-          "verified_at": "2026-10-19T04:19:55.945083+00:00",
+          "verified_at": "2026-10-19T04:26:28.274411+00:00",
           "verification_method": "live",
           "live_checked": true
         },
@@ -201,11 +193,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-19T04:20:02.473816+00:00",
+      "at": "2026-10-19T04:26:34.463111+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "b279578d1855f02a02a1f04860ad62ef2cae3f7e1c661aa77984b6cd1a113cb9",
+      "inventory_sha256": "0432db221a233267ec69ab3fb062c237126ad063aa8d24aa895bd27ba1a4ada9",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -222,35 +214,11 @@
       }
     },
     {
-      "topic_id": "NT-000648",
+      "topic_id": "NT-000644",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 176,
+      "category_id": 177,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "urban-mobility",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000649",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000650",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 176,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "urban-mobility",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000806",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
+      "intended_taxonomy_key": "green-travel",
       "category_warning": null
     },
     {
@@ -334,7 +302,7 @@
           "url": "https://vnexpress.net/lich-su-80-nam-cua-ca-phe-trung-trong-khach-san-ha-noi-4878901.html",
           "supports": "VnExpress (27/04/2025): cà phê trứng ra đời năm 1946 ở khách sạn Metropole (nay là Sofitel Legend Metropole Hà Nội), do ông Nguyễn Văn Giảng pha chế khi sữa khan hiếm; ông mở quán cà phê mang tên mình ở phố cổ vào những năm 1960; khách sạn nói giữ nguyên công thức; được phục vụ trong tách giữ ấm.",
           "sha256": "f00d9fab33ed50abf4ea99f60bcf19ad452442b8c104ce74b3868046ca53fccd",
-          "verified_at": "2026-10-19T04:21:54.313286+00:00",
+          "verified_at": "2026-10-19T04:27:05.123903+00:00",
           "verification_method": "live",
           "live_checked": true
         },
@@ -342,7 +310,7 @@
           "url": "https://vnexpress.net/tach-ca-phe-trung-huyen-thoai-cua-ha-noi-3562380.html",
           "supports": "VnExpress (29/03/2017, theo CNN): con trai ông Giảng kể cha sáng tạo cà phê trứng năm 1946 khi pha chế ở khách sạn Metropole, thay sữa tươi bằng trứng vì thiếu sữa, sau đó rời khách sạn để bán cà phê thương hiệu riêng; cách phục vụ với thìa nhỏ và bát nước ấm; bài nêu hai địa chỉ quán Giảng lúc đó.",
           "sha256": "f556441b5b01bfad347ddb58d44c949de2ada6bac434846de80eb472572e95f1",
-          "verified_at": "2026-10-19T04:21:56.766556+00:00",
+          "verified_at": "2026-10-19T04:27:07.795823+00:00",
           "verification_method": "live",
           "live_checked": true
         },
@@ -350,7 +318,7 @@
           "url": "https://tuoitre.vn/michelin-guide-goi-ca-phe-cot-dua-la-giao-huong-nhiet-doi-ca-phe-trung-la-tuyet-tac-ha-noi-20240401134312135.htm",
           "supports": "Báo Tuổi Trẻ (01/04/2024) dẫn Michelin Guide: cà phê trứng là sáng tạo của cà phê Việt Nam trong bối cảnh khan hiếm; người sáng lập quán Giảng chuyển sang dùng lòng đỏ trứng, kết hợp bí quyết học từ khách sạn Metropole; Michelin gọi cà phê trứng là tuyệt tác của Hà Nội.",
           "sha256": "3a3972c09859a1f85de967bbabdfbcc881af87b89d7ca9889346f3a21cf5dd40",
-          "verified_at": "2026-10-19T04:21:59.013624+00:00",
+          "verified_at": "2026-10-19T04:27:10.150127+00:00",
           "verification_method": "live",
           "live_checked": true
         }
@@ -398,11 +366,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-19T04:22:12.171064+00:00",
+      "at": "2026-10-19T04:27:22.026648+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "e8955dcd0813737862e680e907d7bcb59622e647218d05132fa1ab8cfdb27e9f",
+      "inventory_sha256": "b248d771a00e6bdb24b02c929c2498b63b511c20758bee13bd775c7084146c28",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -419,11 +387,27 @@
       }
     },
     {
-      "topic_id": "NT-000808",
+      "topic_id": "NT-000819",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 174,
+      "category_id": 161,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "food-culture",
+      "intended_taxonomy_key": "road-safety",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000820",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 173,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "vietnam-travel",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000821",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 175,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "trip-planning",
       "category_warning": null
     }
   ],

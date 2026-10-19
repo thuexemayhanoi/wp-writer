@@ -70,40 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vnexpress.net/cam-nang-du-lich-vuon-quoc-gia-cuc-phuong-4779568.html",
-      "supports": "VnExpress, cẩm nang Vườn quốc gia Cúc Phương (cập nhật 14/04/2026): vị trí trên ranh giới Ninh Bình, Hòa Bình, Thanh Hóa, cổng chính ở huyện Nho Quan; cách Hà Nội gần 130 km, khoảng 2,5 đến 3 tiếng; mùa khô tháng 9 đến 12 hợp đi bộ trong rừng, mùa mưa tháng 4-5 là mùa bướm trắng và đom đóm; các khu lưu trú, điểm tham quan và lưu ý (trang phục gọn, giày đế bằng, đề phòng vắt và côn trùng, đặt chỗ sớm mùa bướm).",
-      "sha256": "6eaeda948a7743309735765b9af7c974fbd2fe5777aca861197e2a98e0d9c06c",
-      "verified_at": "2026-10-19T04:21:17.317136+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnexpress.net/huong-dan-chi-tiet-cac-tuyen-du-lich-tai-vuon-quoc-gia-cuc-phuong-4929730.html",
-      "supports": "VnExpress (23/08/2025): các tuyến theo năm khu (khu cổng vườn, hồ Mạc và tuyến chính, trung tâm Bống, khu trung tâm số 2, tuyến chuyên đề) với độ dài, thời gian ước tính và những tuyến bắt buộc có hướng dẫn viên.",
-      "sha256": "793af2d6793404d23ad73c2bf218a0656f655689d23fb6dbcbeec6f7b88d747f",
-      "verified_at": "2026-10-19T04:21:19.244121+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://thanhnien.vn/mot-ngay-o-rung-cuc-phuong-sang-buom-rop-troi-toi-dom-dom-ruc-sang-185260328200844972.htm",
-      "supports": "Báo Thanh Niên (30/03/2026): mùa bướm và đom đóm từ tháng 4 đến tháng 6; năm 2026 bướm đến sớm khoảng 2 tuần; bướm bay nhiều ngày nắng sau mưa rào; hơn 400 loài bướm; đom đóm nhiều vào đêm trời trong, không trăng, không mưa, khung 21-22 giờ.",
-      "sha256": "bbac0002833a88ceb7b1ca66d21d177c2f2ca2eff473f0ce5368f36d0edf332a",
-      "verified_at": "2026-10-19T04:21:21.410068+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://tuoitre.vn/dulichtphcm/hang-trieu-con-buom-bat-dau-vu-dieu-dep-me-hon-o-cuc-phuong-10772314.htm",
-      "supports": "Báo Tuổi Trẻ (19/04/2024): Vườn quốc gia Cúc Phương cho biết mùa bướm năm 2024 đến sớm gần hai tuần; mùa bướm từ trung tuần tháng 4 đến trung tuần tháng 6, cao điểm dịp 30/4-1/5; hôm nào tối mưa sáng nắng bướm xuất hiện nhiều nhất; diện tích hơn 22.400 ha.",
-      "sha256": "817c188328e763305bd32304ad5d7a5795ae794ad158cb3e27fe4b29d59d6f3d",
-      "verified_at": "2026-10-19T04:21:23.093417+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -138,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T04:21:37.733276+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T04:24:10.985533+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "c4da1342104131fc4e4069944a3e77eb31fcc9730c2002061b69e73d1abdbc5c",
+  "inventory_sha256": "e610cb51c8f489da806bfb4a7e64a752af4d6be3c482034f3ba48ade89df44a0",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

@@ -1,0 +1,184 @@
+{
+  "topic_id": "NT-000821",
+  "status": "PASS",
+  "source_sha256": "e296548a2f73d6f069304afffb63c6e2e4f2ec9399624847389046f00e914c4c",
+  "body_sha256": "a1cfeceddb2a9012afac59ec58eac4b0976b8f406e37528cfee6b34fd99069e7",
+  "word_count": 4371,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vietnam.travel/things-to-do/top-festivals-vietnam",
+      "supports": "Trang Top 10 festivals & holidays in Vietnam của cổng du lịch quốc gia Việt Nam (không ghi ngày), mục Lunar New Year: Tết là lễ hội lớn nhất và quan trọng nhất của Việt Nam, nhấn mạnh gia đình với nhiều người về quê ăn Tết, du khách vẫn có nhiều điều để thưởng thức trên cả nước; thường rơi vào tháng 1 hoặc tháng 2; đêm giao thừa là ngày quan trọng nhất theo âm lịch; gợi ý xem hoa ngoài trời và đón pháo hoa nửa đêm cùng người dân; Tết luôn vào ngày mùng một tháng Giêng âm lịch",
+      "sha256": "acad3ca22accfed0ba76fc6c60923acacb1c136860f5903e2a8317d989578e72",
+      "verified_at": "2026-10-19T04:29:31.244993+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vietnam.travel/faqs",
+      "supports": "Trang FAQs của cổng du lịch quốc gia Việt Nam (không ghi ngày), mục nói về thời điểm đi: trong dịp Tết nhiều cơ sở kinh doanh thường đóng cửa, có thể bất tiện cho du khách ít thời gian; cùng đoạn nhắc tháng 4 và tháng 5 có thể rất nóng và miền Trung có bão, lũ vào cuối mùa mưa",
+      "sha256": "9e5180b8d514f266749a1ac9b12af9a90fd825db51227b3e93738bb2930502ae",
+      "verified_at": "2026-10-19T04:29:32.252999+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://travel.gc.ca/destinations/vietnam",
+      "supports": "Trang tư vấn của Canada (cập nhật 13/10/2026), mục Tet celebrations: Tết được ăn vào khoảng cuối tháng 1 đến cuối tháng 2, thường kéo dài vài ngày và có thể ảnh hưởng đến việc cung cấp các dịch vụ thiết yếu như ngân hàng, dịch vụ công kể cả y tế, giao thông và phân phối thực phẩm; nên lập kế hoạch phù hợp. Mục Petty crime: móc túi, giật túi có thể tăng dịp lễ lớn như Tết. Mục Residential break-ins: đột nhập nhà ở có thể tăng trước và trong Tết, kẻ trộm có thể nhắm vào nhà hoặc căn hộ do du khách và người nước ngoài thuê hoặc sở hữu; ở nơi lưu trú có biện pháp an ninh phù hợp, khóa cửa và cửa sổ vào ban đêm và khi đi vắng",
+      "sha256": "126c661b0baedc6f2c337d9d931cfdb12a6a068ad2779ba0c38fbef1e0fbf156",
+      "verified_at": "2026-10-19T04:29:33.215174+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.gov.uk/foreign-travel-advice/vietnam/safety-and-security",
+      "supports": "Trang tư vấn của Anh (cập nhật 21/09/2026), mục Crime: kẻ giật túi hoạt động ở nơi đông người và nơi du khách thường đến; thường có sự gia tăng tội phạm vặt dịp Giáng sinh và Tết; giật túi bằng xe máy là phổ biến, nên cầm túi phía trước hoặc phía đối diện với dòng xe, chú ý xe máy tiến lại gần khi đi bộ, sẵn sàng đưa tài sản thay vì liều bị thương",
+      "sha256": "a2d5eeadc18979325d7eabf475624e42e88db391550a35a45fab429cad2935c1",
+      "verified_at": "2026-10-19T04:29:33.515088+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+      "supports": "Trang Smartraveller của Úc (cập nhật 24/09/2026), mục Petty crime: rạch túi phổ biến ở khu du lịch, chợ, tàu và xe buýt đông người và siêu thị, và tăng trong thời gian trước và trong các dịp lễ của Việt Nam và phương Tây; kẻ trộm đi xe máy giật túi người đi bộ, thường gây thương tích; nên cầm túi phía trước hoặc phía đối diện dòng xe, mang ít vật có giá trị",
+      "sha256": "b21f280d5c64c04d3676dbcb17d6d239db87531c6c946119451121226fe3e36f",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    },
+    {
+      "url": "https://vietnam.travel/plan-your-trip/transport-within-vietnam",
+      "supports": "Trang Transport within Vietnam của cổng du lịch quốc gia Việt Nam (không ghi ngày): đi dịp lễ và cao điểm của Việt Nam thì nên đặt vé tàu từ sớm; ngày thường vẫn nên mua vé trước vài ngày, vé đi trong ngày thì các chuyến nhanh và chỗ tốt thường hết; xe buýt open-tour thường nên đặt trước một đến hai ngày nhưng dịp lễ Việt Nam thì đặt trước ít nhất hai tuần",
+      "sha256": "1d4ad51d086b31d17ea89a069da7a26955c4d5676f7a76521735281b0ae58925",
+      "verified_at": "2026-10-19T04:29:34.477469+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2419,
+        "title": "Các mẫu xe máy điện Yadea đáng chú ý cho nhu cầu đi lại hằng ngày",
+        "why": "stale",
+        "content_hash": "7bc38bc17116cc544098848d7efca54f1bc888d1f57abe8145c1da084d9bbeb5",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2529,
+        "title": "Cách kiểm tra còi và gương chiếu hậu trước khi bắt đầu hành trình",
+        "why": "stale",
+        "content_hash": "007f62b63a70ea6f8600145b8d2ee9f85f0b8517ada9e45e7d465ddc4a57917a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2610,
+        "title": "Top địa điểm du lịch đẹp ở Hà Nội: Đi đâu, chơi gì và check-in ở đâu?",
+        "why": "stale",
+        "content_hash": "aa42ffbfca0e3b4188fde1e3cf3a06d9f9b9496580487304e5dbbd316db1a856",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2634,
+        "title": "Địa điểm du lịch ngoại thành Hà Nội: 15 nơi đẹp đi về trong ngày",
+        "why": "stale",
+        "content_hash": "2731adb7b543fe9e03020ef632b7c13b728e598511c01bf75b886ac18433f364",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T04:29:40.977832+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "6ea83dd3b8fe2dc26de3f46a72ecfedf8595e671380889fe24fe6bc2eed93184",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

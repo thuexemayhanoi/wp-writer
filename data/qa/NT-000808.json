@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vnexpress.net/com-mon-an-cu-mua-thu-la-nho-den-4361642.html",
-      "supports": "VnExpress (25/09/2021): vụ cốm mùa thu kéo dài khoảng 3 tháng từ đầu tháng 7 Âm lịch; cốm làng Vòng; cốm tươi có màu xanh mạ già pha ánh vàng; cách ăn từng miếng hoặc vo thành nắm, ăn cùng chuối, ăn trực tiếp trong gói lá sen; chế biến khi cốm khô; bối cảnh dịch bệnh năm 2021.",
-      "sha256": "a5a10a3aa5ede1cff8ad1e756370c3c7e7daa06bdb2d03c61f48a532b044a2d3",
-      "verified_at": "2026-10-19T04:22:16.185800+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vov.gov.vn/thom-nong-huong-com-ha-noi-dtnew-278990",
-      "supports": "VOV (18/07/2021): cốm chiêm xuất hiện từ tháng 4, cốm chính vụ từ tháng 8 đến tháng 10; hai làng cốm làng Vòng và Mễ Trì; chọn nếp non, rang, giã trong lời kể của thợ làm cốm làng Mễ Trì.",
-      "sha256": "d7b185984275dda886dc6c9af8ee1d04612ffc7e94ba59d1897a6166967b9295",
-      "verified_at": "2026-10-19T04:22:19.616947+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnexpress.net/nhung-mon-qua-ngon-tu-com-mua-thu-3058780.html",
-      "supports": "VnExpress (05/09/2014): cốm làng Vòng nổi tiếng; mỗi mẻ cốm có ba loại (cốm đầu hay cốm lá me, cốm giữa mùa, cốm cuối nia); ăn cốm cùng chuối tiêu trứng quốc; chả cốm, xôi cốm và các món quà làm từ cốm.",
-      "sha256": "56ef3e25d7452e2547a222965b9c4243ead036ce08d3a8ec8ae2b215463e5bff",
-      "verified_at": "2026-10-19T04:22:22.152616+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -139,11 +114,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T04:22:28.280832+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T04:24:11.657924+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "e8955dcd0813737862e680e907d7bcb59622e647218d05132fa1ab8cfdb27e9f",
+  "inventory_sha256": "e610cb51c8f489da806bfb4a7e64a752af4d6be3c482034f3ba48ade89df44a0",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
