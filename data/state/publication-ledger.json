@@ -7707,7 +7707,7 @@
       }
     },
     "NT-000805": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T03:51:43.510312+00:00",
       "source_hash": "706dc9a47f6298849e0516a05ad2c5b5b216b658ebc0843e416eba6f3ef47771",
       "slug": "non-la-lang-chuong-o-thanh-oai-nghe-lam-non-16-vanh-phien-cho-non-hop-ngay-nao-va-cach-den-lang",
@@ -7722,8 +7722,37 @@
       "category_warning": null,
       "git_commit": "38bc69a324114f1f907a43640152363ba3e280fc",
       "run_id": "39195944943",
-      "updated_at": "2026-10-19T03:51:47.244398+00:00",
-      "wp_id": 4130
+      "updated_at": "2026-10-19T03:51:52.512001+00:00",
+      "wp_id": 4130,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/non-la-lang-chuong-o-thanh-oai-nghe-lam-non-16-vanh-phien-cho-non-hop-ngay-nao-va-cach-den-lang/",
+      "verified_at": "2026-10-19T03:51:52.511993+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4130,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/non-la-lang-chuong-o-thanh-oai-nghe-lam-non-16-vanh-phien-cho-non-hop-ngay-nao-va-cach-den-lang/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/non-la-lang-chuong-o-thanh-oai-nghe-lam-non-16-vanh-phien-cho-non-hop-ngay-nao-va-cach-den-lang/",
+        "seo_title": "Nón lá làng Chuông: nghề làm nón 16 vành và phiên chợ nón",
+        "seo_description": "Nón lá làng Chuông ở Thanh Oai: công đoạn làm nón 16 vành, ngày họp chợ nón mà VnExpress và Thanh Niên ghi khác nhau, và cách đến làng bằng xe máy.",
+        "checked_at": "2026-10-19T03:51:52.511970+00:00"
+      }
     }
   },
   "categories": {}
