@@ -1,0 +1,150 @@
+{
+  "topic_id": "NT-000462",
+  "status": "PASS",
+  "source_sha256": "dc92b626548bdb3774180181098077e3bc2c724cf2f19cb6b586e0e01bcfce0a",
+  "body_sha256": "85c93e667a3858f80492f29bbad865021c01c02bb132a40c088594b724d01d81",
+  "word_count": 3655,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.chademo.com/eptwspec",
+      "supports": "Hiệp hội CHAdeMO (tin 28/02/2022) nêu đã phát hành giao thức cho xe máy và xe nhỏ: mở rộng chuẩn sang sạc DC công suất nhỏ khoảng 10 kW (120 V, tối đa 100 A), dựa trên IEC 61851-25, đầu nối nhỏ hơn đầu thông thường.",
+      "sha256": "5cee8e7c386567ae45a6c908bab58e3419a636a25a1d1895c6df8d648aceb088",
+      "verified_at": "2026-10-19T09:27:16.215216+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-mo-ban-hai-mau-xe-may-dien-honda-cuv-e-va-honda-uc3-trien-khai-he-thong-tram-doi-pin-va-tram-sac-pin-tai-cac-thanh-pho-lon",
+      "supports": "Honda Việt Nam (04/06/2026) nêu Honda Motor Charger Hub dành cho UC3 dùng chuẩn quốc tế CHAdeMO với công suất 1200 W mỗi đầu sạc, đăng ký và thanh toán qua MyHonda+, đặt tại cửa hàng ủy nhiệm kinh doanh xe điện, vận hành từ tháng 7/2026 (dự kiến); UC3 sạc nhanh 0–100% khoảng 4 giờ và 20–80% khoảng 2 giờ.",
+      "sha256": "d0bcc49d8498aed7218fef3d82bec271954f4d0b18e7b73c6135ef5051be2f63",
+      "verified_at": "2026-10-19T09:27:18.241598+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-ra-mat-o-to-civic-hybrid-cung-hai-mau-xe-may-dien-cuv-e-va-icon-e-hoan-toan-moi-tai-trien-lam-o-to-xe-may-viet-nam-2024",
+      "supports": "Honda Việt Nam (trang ra mắt 2024) nêu ICON e: cho sạc pin từ 25% đến 75% trong 3,5 giờ bằng bộ sạc thông thường, để đối chiếu với tốc độ sạc nhanh của UC3.",
+      "sha256": "9e65fe4a1408dc124e6647d86167587881143fdf441fe06a10866514690704b1",
+      "verified_at": "2026-10-19T09:27:19.597087+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2374,
+        "title": "Xe máy điện đi mưa có an toàn không? Cách sử dụng đúng và bền",
+        "why": "stale",
+        "content_hash": "f86d1aa55c92feadb7f1f7424eb5a8881f374d07d09eba557a5974bddc4ab23f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2572,
+        "title": "Bảo hiểm xe máy bắt buộc gồm những gì? Điều cần lưu ý khi mua",
+        "why": "stale",
+        "content_hash": "ce6003628f4d0d89bace38e8875f0d4d93d5b57145b42e9b61fb223237982e8f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:27:29.740602+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "09d8c822baffa32b821cbc9262eff21d53291e29382dc68bae203ad1f1da5564",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

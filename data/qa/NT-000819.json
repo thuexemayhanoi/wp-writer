@@ -1,0 +1,125 @@
+{
+  "topic_id": "NT-000819",
+  "status": "PASS",
+  "source_sha256": "ae3ef7011558434e2427b0ea7a75b0002d8b6e59a31f6c4de80ad2855a46fd64",
+  "body_sha256": "cae4cc39837253536438af409f30860283e818521493f37cbf7e5a2e456a09d5",
+  "word_count": 4570,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 562,
+        "title": "Cho Thuê Xe Máy ở Hà Nội – Giao Tận Nơi, Cọc Nhẹ | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "bef2a1222a528843870457f0106cf4c95a0e35e17def59be14a16504af267b6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2513,
+        "title": "Dấu hiệu má phanh xe máy cần thay và cách kiểm tra an toàn hằng ngày",
+        "why": "stale",
+        "content_hash": "f1040fa1950d3342eebff669b05d5319f4be2c2517c80ecddf1b4b239e6f5f16",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4059,
+        "title": "Thuê xe máy đi phỏng vấn ở Hà Nội trong một ngày: xếp lịch, chọn xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "0ffbbff60edf006739890cca423af4e81cb5346ee434c29859648be6bdb57675",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:25:45.337475+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "076e49a37051f515eb1f420468cfe72685ce3be1c6135d5998d4f014febefd65",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

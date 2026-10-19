@@ -1,0 +1,117 @@
+{
+  "topic_id": "NT-000706",
+  "status": "PASS",
+  "source_sha256": "75cbdf85bd7c46211e0a273338bb2e4b4465a0d8b198ebe64d2aced9a14aad45",
+  "body_sha256": "2eea4b3a47814aac675f77895f76d9cfbb9ce4177a7d8b0c57c2e4931369cbad",
+  "word_count": 2988,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110",
+      "supports": "Trang Honda Wave Alpha 110 (bản hiển thị mặc định, đọc 19/10/2026): động cơ 4 kỳ làm mát bằng không khí 109,2 cm3, 6,12 kW, bình xăng 3,7 L, 1,72 l/100km, hộp số cơ khí 4 số tròn, khởi động ghi \"Điện\".",
+      "sha256": "aacb68c68856b6d82a600409934ee4e02ec0c8897dc1aaa6621601fa38616a2d",
+      "verified_at": "2026-10-19T09:29:26.763914+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx",
+      "supports": "Trang Honda Wave RSX (bản hiển thị mặc định, đọc 19/10/2026): 109,2 cm3, 6,46 kW, bình xăng 4,0 L, 1,56 L/100 km, hộp số cơ khí 4 số vòng, khởi động đạp chân/điện, phun xăng điện tử PGM-FI trên mọi phiên bản.",
+      "sha256": "457fee4e30f7dae22667bd62b2d88593216cdfdb1001cbbcc034889c022f6ee1",
+      "verified_at": "2026-10-19T09:29:28.283440+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/future-125-fi",
+      "supports": "Trang Honda Future 125 FI (bản hiển thị mặc định, đọc 19/10/2026): 124,9 cm3, 6,83 kW, bình xăng 4,6 L, 1,47 Lít/100km, hộp số 4 số tròn, khởi động đạp chân / điện.",
+      "sha256": "80faad96830c6ae9b3fd16a6518c9141f4d013c15700f36759b47a56fc62d3c6",
+      "verified_at": "2026-10-19T09:29:29.045307+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-19T09:29:36.171121+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "088b948232dbe88c993d226958d6eaf02b39f1bd9f6050381e411d4cdbbf1eae",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

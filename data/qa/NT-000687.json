@@ -1,0 +1,134 @@
+{
+  "topic_id": "NT-000687",
+  "status": "PASS",
+  "source_sha256": "fff24f5489a5ac1ccd8909016ee09769863ed27954be710d79e98189d5979361",
+  "body_sha256": "f5e12dce35a0ee2e86bcf18e5a9af53e63c11a8934be65035b3d6900077748e3",
+  "word_count": 3280,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 476,
+        "title": "Giá Thuê Xe Máy Hà Nội – Cách So Sánh Chi Phí & Phụ Phí",
+        "why": "stale",
+        "content_hash": "b85a99bfde69ba548f851168070fe798486244a63f2dcf4facf999b2f5c11ff1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2424,
+        "title": "Dat Bike có những dòng xe nào? Tổng hợp các mẫu đáng chú ý",
+        "why": "stale",
+        "content_hash": "8547bbe19e35f1a3e720df88f2c659b744799c8f50115b8e6bfac67e10bf2889",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2535,
+        "title": "Lịch bảo dưỡng xe máy Honda: các mốc nên kiểm tra theo thời gian",
+        "why": "stale",
+        "content_hash": "c705587e1fddf801c67af2ee8927918bea23539eb6755e4f4da4fe7ae47943cb",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2562,
+        "title": "Chi phí sử dụng xe máy một tháng gồm những khoản nào phổ biến?",
+        "why": "stale",
+        "content_hash": "0e027bc06fdc27cef9d43033bb86723109f122a63e8485c8dd6f92fa12334be6",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:25:39.251474+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "8a3df4171b318309c217da6e6d2e88b9d3e961ac64ffee26b028853645c15614",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

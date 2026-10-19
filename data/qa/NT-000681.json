@@ -1,0 +1,125 @@
+{
+  "topic_id": "NT-000681",
+  "status": "PASS",
+  "source_sha256": "4d55858624c534cd008c31585a6d8b2869ebaf2fb7f8cdb64a266981d9e8be41",
+  "body_sha256": "d8b9206c2961b2f474f502da9a65131d40b26d49827ab5754df644da7ca4155f",
+  "word_count": 3631,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 895,
+        "title": "Thuê Xe Máy 50cc Hà Nội: Giá Xe Ga, Thủ Tục Và Nhận Xe",
+        "why": "stale",
+        "content_hash": "a0c1b6373f8bb8314548b46b88ed1278eebca02a48d4ff12655fbd79980b4a2b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2535,
+        "title": "Lịch bảo dưỡng xe máy Honda: các mốc nên kiểm tra theo thời gian",
+        "why": "stale",
+        "content_hash": "c705587e1fddf801c67af2ee8927918bea23539eb6755e4f4da4fe7ae47943cb",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4051,
+        "title": "Thuê xe máy Hà Nội vào ngày mưa: khi nào nên lùi giờ nhận và kiểm tra gì trước khi chạy?",
+        "why": "stale",
+        "content_hash": "6cf70a5e919d453dbe3c15e8dc9ed97616caa41d0b3239c73331a63a003192fb",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:25:37.455270+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "2ff76ac9ae6843dd44895883d55131a399800e8f0a573a8961211fd07ec26891",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "topic_id": "NT-000569",
+  "status": "PASS",
+  "source_sha256": "12f8d498d87e182d5ec081af3d9233d91e3700fa6e7258360f5bae678c037cf2",
+  "body_sha256": "7e37291b9f323a741c06a663aa54d6dad6849bd1a40b57704b731b610f540bfe",
+  "word_count": 3457,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2532,
+        "title": "Bảo dưỡng xe máy Honda định kỳ gồm những hạng mục nào quan trọng?",
+        "why": "stale",
+        "content_hash": "3b3f8540d3f280a070202fee58502694cd67d9aa913f3fd5820127ff78745746",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2562,
+        "title": "Chi phí sử dụng xe máy một tháng gồm những khoản nào phổ biến?",
+        "why": "stale",
+        "content_hash": "0e027bc06fdc27cef9d43033bb86723109f122a63e8485c8dd6f92fa12334be6",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4054,
+        "title": "Thuê xe máy đi xem phòng trọ ở Hà Nội: xếp lịch khảo sát, gửi xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "5d877b968a3e9b4218759e74edb64aa0e8b842897cadb48686b422876f7f89a1",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4056,
+        "title": "Đổi khách sạn giữa kỳ thuê xe máy Hà Nội: giữ xe ở đâu, chuyển hành lý và đổi nơi trả",
+        "why": "stale",
+        "content_hash": "fcd4a86c62969cb4812af213b0e424c5549b185d290ed9a416d5e9d816804528",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:25:23.909350+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "4d73d0d2796e048ece3511a5f9ff9fb6652cfe27445d30678c1d76265207a6f1",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

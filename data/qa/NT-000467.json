@@ -1,0 +1,117 @@
+{
+  "topic_id": "NT-000467",
+  "status": "PASS",
+  "source_sha256": "9133557b1511c7f7dbf467f2a5d7f9aeaedff9178c16ea99fc767c51dde70172",
+  "body_sha256": "cd1ddb1511b354a45946dece9998bac69375398f5c829d2d568a99db86905268",
+  "word_count": 3077,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/xe-may-dien-quantum-s1/",
+      "supports": "Trang sản phẩm Dat Bike Quantum S1 nêu Hill Assist: xe nhận biết đường dốc, tự kích hoạt Hill Assist và giữ xe không trôi khi thả phanh; thao tác bóp và thả phanh tạo lực đẩy để xe không tụt lại.",
+      "sha256": "6108ede6b85b083ec5cebb6edc94b2ff2fa335173859b68d5a0702a6ad8459c2",
+      "verified_at": "2026-10-19T09:27:44.400871+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/danh-gia-xe-may-dien-neos-yamaha/",
+      "supports": "Yamaha Motor Việt Nam (26/04/2023) nêu với NEO's nếu nhả tay ga thì động cơ tự hãm lại, không xảy ra tình trạng xe bị trôi như các xe máy điện khác, và độ nhạy tay ga giúp khởi hành ngang dốc.",
+      "sha256": "f37c6f317eba7cee0be1d0c1e22bd40b227d3912831d994215b377ab836436d8",
+      "verified_at": "2026-10-19T09:27:45.957123+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-weaver-en/",
+      "supports": "Hướng dẫn Dat Bike Weaver nêu phanh động cơ (phanh tái sinh) tích hợp vào tay ga: nhả ga là xe hãm, và khi bóp tay phanh công suất motor bị cắt, phải nhả hẳn phanh, đưa ga về 0 rồi tăng tốc lại.",
+      "sha256": "f20921c83e38a1986d61aaf36c70f24702e073545efd1926d4ca3fa4ac07d548",
+      "verified_at": "2026-10-19T09:27:47.050633+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-19T09:27:54.009577+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "71fc0e95292dea79e10cbd24545b58c9741f457f28eb805ca86d4ecd2e65ef39",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

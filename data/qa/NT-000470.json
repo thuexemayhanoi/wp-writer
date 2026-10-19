@@ -1,0 +1,133 @@
+{
+  "topic_id": "NT-000470",
+  "status": "PASS",
+  "source_sha256": "6331eb8424a20ce02a424631f32ec97ef9cb2bf61fac2536fcbf88229ad04aa0",
+  "body_sha256": "4992e7bb69c374263e0ed2674a46026ec94065fe87264893084e4ec835ea874e",
+  "word_count": 3783,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/danh-gia-xe-may-dien-neos-yamaha/",
+      "supports": "Yamaha Motor Việt Nam (26/04/2023) nêu động cơ, phanh sau và hệ thống điều khiển MCU của NEO's gắn vào càng sau nên rất thuận tiện để tháo bánh xe để vá hay thay thế lốp.",
+      "sha256": "f37c6f317eba7cee0be1d0c1e22bd40b227d3912831d994215b377ab836436d8",
+      "verified_at": "2026-10-19T09:28:34.477601+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-weaver-en/",
+      "supports": "Hướng dẫn Dat Bike Weaver nêu xe dùng vành và lốp tiêu chuẩn nên vá lốp không khác xe máy thông thường (kích thước lốp 70/90-17 trước, 80/90-17 sau).",
+      "sha256": "f20921c83e38a1986d61aaf36c70f24702e073545efd1926d4ca3fa4ac07d548",
+      "verified_at": "2026-10-19T09:28:35.681482+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/xe-may-dien-quantum-s1/",
+      "supports": "Trang sản phẩm Dat Bike Quantum S1 nêu lốp trước 90/80-16 và lốp sau 110/70-16 loại không săm Casumina, vành đúc 16 inch.",
+      "sha256": "6108ede6b85b083ec5cebb6edc94b2ff2fa335173859b68d5a0702a6ad8459c2",
+      "verified_at": "2026-10-19T09:28:37.353045+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-ra-mat-o-to-civic-hybrid-cung-hai-mau-xe-may-dien-cuv-e-va-icon-e-hoan-toan-moi-tai-trien-lam-o-to-xe-may-viet-nam-2024",
+      "supports": "Honda Việt Nam (trang ra mắt 2024) nêu ICON e: có động cơ tích hợp tại bánh sau với công suất 1,5 kW.",
+      "sha256": "9e65fe4a1408dc124e6647d86167587881143fdf441fe06a10866514690704b1",
+      "verified_at": "2026-10-19T09:28:39.507379+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/faq-maintenance/",
+      "supports": "Trang FAQ sửa chữa, bảo hành của Dat Bike (cập nhật 23/02/2026) nêu xe Dat Bike lắp ráp giống xe phổ thông nên nếu hư hỏng có thể mang ra tiệm bình thường sửa; Dat Bike hỗ trợ phụ kiện cần thiết, lỗi khó như phần mềm thì hãng đến tận nơi nếu còn bảo hành.",
+      "sha256": "c00ce0d8d5997b720849ffe52c59dcdf19efefe1177be14bc2aca249201c5182",
+      "verified_at": "2026-10-19T09:28:40.869269+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-19T09:28:46.876545+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "8a6023cc99e891afd25e19d0232ea57c55d5dd5052169e6de4252eca6d14aef8",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

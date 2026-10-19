@@ -1,0 +1,134 @@
+{
+  "topic_id": "NT-000682",
+  "status": "PASS",
+  "source_sha256": "c2d38b5ec638aee1f8f52d10fb22f02d5d8b73f6fcf079e346669f5c793610ee",
+  "body_sha256": "d92132262e21fbe81fc0556c66c5538cb48db12147a87663529806ffe87f9007",
+  "word_count": 4364,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 562,
+        "title": "Cho Thuê Xe Máy ở Hà Nội – Giao Tận Nơi, Cọc Nhẹ | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "bef2a1222a528843870457f0106cf4c95a0e35e17def59be14a16504af267b6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2355,
+        "title": "Bao nhiêu tuổi được đi xe máy điện? Những điều cần biết",
+        "why": "stale",
+        "content_hash": "df4e397638303da8d179daafae395db634b027fd262d47406e50b3e2c2cf527c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2498,
+        "title": "Khi nào cần tăng xích xe máy? Dấu hiệu dễ nhận biết khi sử dụng",
+        "why": "stale",
+        "content_hash": "cc66bddca00ff3ff900a51cce730848c80a7f0e8979caaf256eec12589620f67",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2500,
+        "title": "Dấu hiệu xích xe máy quá chùng và cách kiểm tra trước khi đi xa",
+        "why": "stale",
+        "content_hash": "d061c138b067d5f2223950a7aaa38ebe11024f983962f728d69b56d64948608d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:25:37.816321+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "822a5f57d4b9cc8e54f8e31a9c82df7b82acf0e54883a583dddc9f6d3fce6185",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

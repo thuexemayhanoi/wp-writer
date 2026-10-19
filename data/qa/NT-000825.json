@@ -1,0 +1,143 @@
+{
+  "topic_id": "NT-000825",
+  "status": "PASS",
+  "source_sha256": "3869994c8c8189564fd3f76d7803c315a82ee0251aa55372b79e2c5cb0d47c8e",
+  "body_sha256": "1cfcc987ff10edaf43545edb9756efca134134ab1557ad258de23771f094c3d0",
+  "word_count": 3760,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 1060,
+        "title": "Thuê Xe Máy Theo Tháng Hà Nội – Giá Rẻ, Xe Ga Xe Số",
+        "why": "stale",
+        "content_hash": "91ac037b4111a6094966dec9b372fd51efec1590c51c00cf3824949cf3142c8c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2343,
+        "title": "Xe máy điện: các hãng nổi bật và cách chọn xe phù hợp nhất",
+        "why": "stale",
+        "content_hash": "c6618e9c49c5f2f25650deea3da4d70c0b7ac0a3821f5dc81a038f2aae0716d7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2397,
+        "title": "Xe máy điện VinFast nào phù hợp đi phố và quãng đường ngắn hằng ngày?",
+        "why": "stale",
+        "content_hash": "2b93d3334950d29cdf087539809b34e2aca4cc02672b85bcc31d2f5de9a815aa",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2610,
+        "title": "Top địa điểm du lịch đẹp ở Hà Nội: Đi đâu, chơi gì và check-in ở đâu?",
+        "why": "stale",
+        "content_hash": "aa42ffbfca0e3b4188fde1e3cf3a06d9f9b9496580487304e5dbbd316db1a856",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4055,
+        "title": "Thuê 2 xe máy cùng lúc ở Hà Nội: chuẩn bị giấy tờ, giao nhận và hoàn cọc từng xe",
+        "why": "stale",
+        "content_hash": "029d48a9e900c89ea965179099932a9ddb51ee071f065aca1c29903fd58a13c9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:25:47.816944+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "19fdb2b0e36215c4e3dab1c41623bf92ff143792a1c45f8ff5ec809dbfff28b8",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

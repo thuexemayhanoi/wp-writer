@@ -1,0 +1,143 @@
+{
+  "topic_id": "NT-000564",
+  "status": "PASS",
+  "source_sha256": "75120fd84df238b007a5fbc74d87b1b7283c6bdf4afe801a4feb3ad3f8680662",
+  "body_sha256": "375b205953921be0b4c6eb87dd18f770222e71469fd59bdaf3a35a64857e7c22",
+  "word_count": 4045,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 931,
+        "title": "So Sánh Giá Thuê Xe Máy Điện Và Xe Đạp Điện Tại Hà Nội",
+        "why": "stale",
+        "content_hash": "6ecf7e9ed22bffd8cd1b7503e82157d22124c0c18b557dbf6c98245fa34fb529",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2419,
+        "title": "Các mẫu xe máy điện Yadea đáng chú ý cho nhu cầu đi lại hằng ngày",
+        "why": "stale",
+        "content_hash": "7bc38bc17116cc544098848d7efca54f1bc888d1f57abe8145c1da084d9bbeb5",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2515,
+        "title": "Bình ắc quy xe máy dùng được bao lâu? Khi nào nên kiểm tra lại?",
+        "why": "stale",
+        "content_hash": "26576df935c21a29be7d5e9013419bbd9273bc6c5f99f106848143996460de9a",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2540,
+        "title": "Xe máy hao xăng bất thường do đâu? Các nguyên nhân thường gặp",
+        "why": "stale",
+        "content_hash": "5c70a54e235309eb24f97e3e7ea779c89f838366ff1a2bd96487d780ea3eb0c2",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2559,
+        "title": "Các loại bằng lái xe máy hiện nay và cách phân biệt từng hạng",
+        "why": "stale",
+        "content_hash": "1dbe75f2df7dd3b894e673123e9c56ffdda9c772f072b8cb4682f49b0f264d0e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:25:22.192707+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "68e700d00aaf2a1aacca0aee11fe195e22d1646381f6a678791c164fb2b2a2dc",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

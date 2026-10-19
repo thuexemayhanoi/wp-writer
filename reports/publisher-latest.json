@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-19T04:15:33.303297+00:00",
-  "attempted": 10,
+  "at": "2026-10-19T09:30:03.819619+00:00",
+  "attempted": 6,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -22,43 +22,59 @@
       "action": "manual reconciliation; never create/update automatically"
     },
     {
-      "topic_id": "NT-000534",
+      "topic_id": "NT-000462",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 172,
+      "category_id": 167,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "hanoi-travel",
+      "intended_taxonomy_key": "battery-charging",
       "category_warning": null
     },
     {
-      "topic_id": "NT-000535",
+      "topic_id": "NT-000467",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
+      "category_id": 168,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
+      "intended_taxonomy_key": "electric-tech",
       "category_warning": null
     },
     {
-      "topic_id": "NT-000536",
+      "topic_id": "NT-000468",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 174,
+      "category_id": 169,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "food-culture",
+      "intended_taxonomy_key": "electric-transition",
       "category_warning": null
     },
     {
-      "topic_id": "NT-000537",
+      "topic_id": "NT-000470",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
+      "category_id": 160,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
+      "intended_taxonomy_key": "electric-maintenance",
       "category_warning": null
     },
     {
       "topic_id": "NT-000587",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 168,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-tech",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000706",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 156,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "reviews",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000807",
       "status": "REVIEW",
-      "source_sha256": "93c397a9967273a9746a339fc97fed862f0a704094e9e0b41a112ca5647c0c2b",
-      "body_sha256": "7c1e0b0aa7a8d02e0d3a9b4f44ade08a624eea92b02b482665262b5a61983f70",
-      "word_count": 2658,
+      "source_sha256": "313b7e8930de7aaf748b4e179a1398fceb38d740a14e2906c9aebef9db2e6f93",
+      "body_sha256": "2af93e67b379b5984419502e0fcb1fbc52a2d2e691e6c2e1e4b808d7ccde97c3",
+      "word_count": 3184,
       "quality_score": 85,
       "seo_score": 100,
       "seo_min_required": 85,
@@ -131,84 +147,65 @@
       ],
       "source_evidence": [
         {
-          "url": "https://www.iec.ch/ip-ratings",
-          "supports": "IEC (trang IP ratings): mã IP có hai chữ số; chữ số đầu chống vật rắn thang 0 đến 6 (không có bụi lọt vào), chữ số sau chống chất lỏng thang 0 đến 9; mã tạo ra để tránh nhầm lẫn với từ mơ hồ như waterproof; điều kiện thử đầy đủ nằm trong IEC 60529.",
-          "sha256": "7f779f61572ad780b49df419c0550200612e25f627d3784e452ebc50d6794653",
-          "research_checked_at": "2026-10-18",
-          "verification_method": "research_snapshot_fallback",
-          "live_checked": false,
-          "network_error": "HTTPError"
-        },
-        {
-          "url": "https://www.iec.ch/blog/how-know-if-your-smart-phone-really-waterproof",
-          "supports": "IEC (bài blog 26/02/2018, viết về điện thoại): mức 8 do hãng thiết kế phép thử và có thể khác nhau; tối thiểu phải chịu ngâm tới độ sâu 1 m trong 30 phút không có tác hại.",
-          "sha256": "340cb6c7e0e148257272966faea10c3524bf552e122c4d11b8d5119d5a648f31",
-          "research_checked_at": "2026-10-18",
-          "verification_method": "research_snapshot_fallback",
-          "live_checked": false,
-          "network_error": "HTTPError"
-        },
-        {
-          "url": "https://www.iec.ch/blog/ip-ratings-waterproof-phones",
-          "supports": "IEC (bài blog 14/09/2018, viết về điện thoại): IP67 và IP68 cùng đạt điểm 6 về bụi nhưng có khác biệt đáng kể giữa mức 7 và mức 8 về nước.",
-          "sha256": "2aea7935e89751936c151a2fc3d8b2c8695e55cca79cc8deae1b533f99fcf5d2",
-          "research_checked_at": "2026-10-18",
-          "verification_method": "research_snapshot_fallback",
-          "live_checked": false,
-          "network_error": "HTTPError"
-        },
-        {
-          "url": "https://webstore.iec.ch/en/publication/2447",
-          "supports": "IEC Webstore: IEC 60529 (Degrees of protection provided by enclosures, IP Code) dùng để phân loại mức bảo vệ do vỏ bọc của thiết bị điện có điện áp định mức không quá 72,5 kV.",
-          "sha256": "37a4a0eead48c06bded8486d25152bc2e4bb67fa4b0ea7c811688e135dfdfd4d",
-          "verified_at": "2026-10-19T04:13:18.933249+00:00",
+          "url": "https://vnexpress.net/lich-su-80-nam-cua-ca-phe-trung-trong-khach-san-ha-noi-4878901.html",
+          "supports": "VnExpress (27/04/2025): cà phê trứng ra đời năm 1946 ở khách sạn Metropole (nay là Sofitel Legend Metropole Hà Nội), do ông Nguyễn Văn Giảng pha chế khi sữa khan hiếm; ông mở quán cà phê mang tên mình ở phố cổ vào những năm 1960; khách sạn nói giữ nguyên công thức; được phục vụ trong tách giữ ấm.",
+          "sha256": "f00d9fab33ed50abf4ea99f60bcf19ad452442b8c104ce74b3868046ca53fccd",
+          "verified_at": "2026-10-19T09:29:50.647852+00:00",
           "verification_method": "live",
           "live_checked": true
         },
         {
-          "url": "https://www.westmarine.com/west-advisor/Understanding-IP-Ratings.html",
-          "supports": "West Marine (nhà bán lẻ hàng hải): mã IP mô tả hiệu năng trong điều kiện thử của IEC 60529, do hãng hoặc phòng thử độc lập thực hiện; IPX7 là ngâm tạm thời tới 1 m trong 30 phút, chữ X là không có xếp hạng vật rắn; IP68 do hãng đặt độ sâu và thời gian nên chưa chắc hơn IPX7.",
-          "sha256": "60afa7abcbf90f24cc9db105eb211dd0d6308dd162ac16b61af1bcb864b874e0",
-          "verified_at": "2026-10-19T04:13:20.676987+00:00",
+          "url": "https://vnexpress.net/tach-ca-phe-trung-huyen-thoai-cua-ha-noi-3562380.html",
+          "supports": "VnExpress (29/03/2017, theo CNN): con trai ông Giảng kể cha sáng tạo cà phê trứng năm 1946 khi pha chế ở khách sạn Metropole, thay sữa tươi bằng trứng vì thiếu sữa, sau đó rời khách sạn để bán cà phê thương hiệu riêng; cách phục vụ với thìa nhỏ và bát nước ấm; bài nêu hai địa chỉ quán Giảng lúc đó.",
+          "sha256": "f556441b5b01bfad347ddb58d44c949de2ada6bac434846de80eb472572e95f1",
+          "verified_at": "2026-10-19T09:29:52.467123+00:00",
           "verification_method": "live",
           "live_checked": true
         },
         {
-          "url": "https://vinfastauto.com/vn_vi/kham-pha-thong-so-ky-thuat-xe-may-dien-vinfast-feliz-s",
-          "supports": "VinFast (trang thông số Feliz S): động cơ đạt tiêu chuẩn chống nước IP67 do IEC quy ước; trang viết tiêu chuẩn này cho phép phương tiện vận hành ổn định ở mức nước ngập tới 0,5 m trong 30 phút (lời của trang).",
-          "sha256": "d938582b7e5f836827f3642c28c6a6ba7f8f8ddf47469c84c1a6bc3d4a1b440a",
-          "research_checked_at": "2026-10-18",
-          "verification_method": "research_snapshot_fallback",
-          "live_checked": false,
-          "network_error": "HTTPError"
-        },
-        {
-          "url": "https://vinfastauto.com/vn_vi/cach-sac-pin-xe-may-dien-vinfast-evo200-lite",
-          "supports": "VinFast (trang sạc pin Evo200 Lite, đọc ngày 17/10/2026): thông số cơ bản của pin gồm tiêu chuẩn chống bụi - nước IP67.",
-          "sha256": "15c8a6ff50bcd5cd6db2abd9464a08edc643017594cdef6c15db732d8a09db01",
-          "research_checked_at": "2026-10-17",
-          "verification_method": "research_snapshot_fallback",
-          "live_checked": false,
-          "network_error": "HTTPError"
+          "url": "https://tuoitre.vn/michelin-guide-goi-ca-phe-cot-dua-la-giao-huong-nhiet-doi-ca-phe-trung-la-tuyet-tac-ha-noi-20240401134312135.htm",
+          "supports": "Báo Tuổi Trẻ (01/04/2024) dẫn Michelin Guide: cà phê trứng là sáng tạo của cà phê Việt Nam trong bối cảnh khan hiếm; người sáng lập quán Giảng chuyển sang dùng lòng đỏ trứng, kết hợp bí quyết học từ khách sạn Metropole; Michelin gọi cà phê trứng là tuyệt tác của Hà Nội.",
+          "sha256": "3a3972c09859a1f85de967bbabdfbcc881af87b89d7ca9889346f3a21cf5dd40",
+          "verified_at": "2026-10-19T09:29:54.460259+00:00",
+          "verification_method": "live",
+          "live_checked": true
         }
       ],
       "evidence_recheck": {
         "pages": [
           {
-            "id": 2367,
-            "title": "Có Nên Sạc Xe Máy Điện Tại Nhà? Kinh Nghiệm An Toàn Khi Sử Dụng",
+            "id": 2582,
+            "title": "Xe nào phù hợp chạy trong phố Hà Nội? Gợi ý theo từng nhu cầu",
             "why": "stale",
-            "content_hash": "8768183f030319ed7647591d37ba6e25af1e5ac274f69cc230b87c74a28fe158",
+            "content_hash": "0f62d1c774af57a3c896ffd697700d31e6892614883dbc70f9970230ae26d134",
             "jaccard": 0.0,
             "intent_match": null,
             "verdict": "INDEPENDENT"
           },
           {
-            "id": 2378,
-            "title": "Xe máy điện VinFast: các mẫu đáng chú ý và điểm khác biệt",
+            "id": 2592,
+            "title": "Đi Hà Nội hai người nên chọn xe gì để thoải mái và dễ điều khiển?",
             "why": "stale",
-            "content_hash": "37ef98f1fa6912ab03a40b59b7957c089abbadee5f0ea45c7e3fcf1b939d9074",
-            "jaccard": 0.002,
+            "content_hash": "5c0894287bcacd6fb1f4e67cebc0eb2d421ebeddf8dc30ba47f488d03a2cf568",
+            "jaccard": 0.0,
+            "intent_match": null,
+            "verdict": "INDEPENDENT"
+          },
+          {
+            "id": 2632,
+            "title": "Cầu Long Biên Hà Nội: Đi lúc nào đẹp, chụp ảnh ở đâu và chơi gì gần đó?",
+            "why": "stale",
+            "content_hash": "36dfb351fe0b68f0a6c25d3903504798235bac27df1d97f4c68ca001b55d25e3",
+            "jaccard": 0.0,
+            "intent_match": null,
+            "verdict": "INDEPENDENT"
+          },
+          {
+            "id": 4055,
+            "title": "Thuê 2 xe máy cùng lúc ở Hà Nội: chuẩn bị giấy tờ, giao nhận và hoàn cọc từng xe",
+            "why": "stale",
+            "content_hash": "029d48a9e900c89ea965179099932a9ddb51ee071f065aca1c29903fd58a13c9",
+            "jaccard": 0.0,
             "intent_match": null,
             "verdict": "INDEPENDENT"
           }
@@ -217,11 +214,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-19T04:13:25.416062+00:00",
+      "at": "2026-10-19T09:30:03.743642+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "39d1dbe79589a779a3adf982aacac5f44c6ada287204747ec5957a6fe34a9477",
+      "inventory_sha256": "16912d53a5245332a47629f2b96c976311602519cd3c92dd519a4d4f66fc7099",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -236,54 +233,6 @@
         "exhausted": false,
         "needs_owner": false
       }
-    },
-    {
-      "topic_id": "NT-000620",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 166,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "ebikes",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000641",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 176,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "urban-mobility",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000642",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 177,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "green-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000643",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 176,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "urban-mobility",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000646",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000647",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 176,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "urban-mobility",
-      "category_warning": null
     }
   ],
   "backlog_drains_on": "successful Writer QA or fallback schedule",

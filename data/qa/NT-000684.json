@@ -1,0 +1,134 @@
+{
+  "topic_id": "NT-000684",
+  "status": "PASS",
+  "source_sha256": "29cc015223ad48e1fd646d8be05f6dd6fd3692e2d571947bdbe663cf810b0716",
+  "body_sha256": "fbb0fdd2c9b3bc85217fbf7f80b571d45702618a9d998d085a191ceed5c62f0f",
+  "word_count": 2562,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2355,
+        "title": "Bao nhiêu tuổi được đi xe máy điện? Những điều cần biết",
+        "why": "stale",
+        "content_hash": "df4e397638303da8d179daafae395db634b027fd262d47406e50b3e2c2cf527c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2359,
+        "title": "Pin Lithium Và Ắc Quy Xe Máy Điện Khác Nhau Như Thế Nào Khi Dùng?",
+        "why": "stale",
+        "content_hash": "bad77afd59bcc932b63ec50e4d14d9c1f4c164d9587ac616c550e0651324d6c3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2390,
+        "title": "Giá pin xe máy điện VinFast và những chi phí người dùng nên biết",
+        "why": "stale",
+        "content_hash": "c435ce6e6e7b1791b32ee311f65ed49f872191baee5071a5d5a3aec71094aef3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2632,
+        "title": "Cầu Long Biên Hà Nội: Đi lúc nào đẹp, chụp ảnh ở đâu và chơi gì gần đó?",
+        "why": "stale",
+        "content_hash": "36dfb351fe0b68f0a6c25d3903504798235bac27df1d97f4c68ca001b55d25e3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:25:38.127241+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "ca453d241de1612179395e18b9ef656c19e327d685e6eadf5da57b4044ace030",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

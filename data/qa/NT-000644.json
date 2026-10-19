@@ -1,0 +1,116 @@
+{
+  "topic_id": "NT-000644",
+  "status": "PASS",
+  "source_sha256": "1abba4e1e425a9e67c5d3ccd56982ce66130a6e560612743a5c1ee035039496d",
+  "body_sha256": "c9790eaa0752a05671c3184709d7e1cbcad59caf03807e48288da38495cf3536",
+  "word_count": 2871,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2397,
+        "title": "Xe máy điện VinFast nào phù hợp đi phố và quãng đường ngắn hằng ngày?",
+        "why": "stale",
+        "content_hash": "2b93d3334950d29cdf087539809b34e2aca4cc02672b85bcc31d2f5de9a815aa",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2632,
+        "title": "Cầu Long Biên Hà Nội: Đi lúc nào đẹp, chụp ảnh ở đâu và chơi gì gần đó?",
+        "why": "stale",
+        "content_hash": "36dfb351fe0b68f0a6c25d3903504798235bac27df1d97f4c68ca001b55d25e3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:25:32.169922+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "6e38db82190ce14788e1e72e291f4ecdc5fc310a43b9a92a4e94b43b9c0cf4a7",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

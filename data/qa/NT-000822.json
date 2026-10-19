@@ -1,0 +1,143 @@
+{
+  "topic_id": "NT-000822",
+  "status": "PASS",
+  "source_sha256": "2dbf5ad2bd2ffadaae0d81a2d05bc9c5256fe4e57269487c1b8134e709a6c5c9",
+  "body_sha256": "d6e1e66c09f06a16104668ed1bddf5bfaa918b95cc7e24b05d899448eab34157",
+  "word_count": 3967,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2588,
+        "title": "Xe số nào tiết kiệm cho người ở Hà Nội từ một đến ba tháng dài ngày?",
+        "why": "stale",
+        "content_hash": "3999a6360763f969b09aaaedde2cebedb8d5351b1b6007c094286363fe5cecfa",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2607,
+        "title": "Du lịch Hà Nội 1 ngày nên đi đâu? Lịch trình tự túc cho người lần đầu",
+        "why": "stale",
+        "content_hash": "a1cff81fdc7e8cafbd10b7cf581b564b2fb977ecda01fd7c7df50dab1077dfdb",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2610,
+        "title": "Top địa điểm du lịch đẹp ở Hà Nội: Đi đâu, chơi gì và check-in ở đâu?",
+        "why": "stale",
+        "content_hash": "aa42ffbfca0e3b4188fde1e3cf3a06d9f9b9496580487304e5dbbd316db1a856",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2632,
+        "title": "Cầu Long Biên Hà Nội: Đi lúc nào đẹp, chụp ảnh ở đâu và chơi gì gần đó?",
+        "why": "stale",
+        "content_hash": "36dfb351fe0b68f0a6c25d3903504798235bac27df1d97f4c68ca001b55d25e3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2634,
+        "title": "Địa điểm du lịch ngoại thành Hà Nội: 15 nơi đẹp đi về trong ngày",
+        "why": "stale",
+        "content_hash": "2731adb7b543fe9e03020ef632b7c13b728e598511c01bf75b886ac18433f364",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:25:46.582669+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "235baffc56038be28408eea751d7fa44e5ff32888a69109ff035347d185e2976",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
