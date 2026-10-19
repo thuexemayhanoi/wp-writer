@@ -4,29 +4,29 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-19T15:18:03.313351+00:00 |
+| at | 2026-10-19T16:41:13.972291+00:00 |
 | existing_published_posts | 447 |
 | existing_pages | 10 |
 | existing_products | 13 |
-| candidate_topics | 404 |
-| planned_topics | 331 |
-| claimable_topics | 6 |
-| ready_stock | 0 |
-| stock_stages | {'IDEA': 260, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 0, 'PLANNED_HOLD': 3, 'CLAIMED': 30, 'AUTHORED': 1, 'QA_PASS': 0, 'PUBLISHED': 297, 'WP_DRAFT': 0} |
+| candidate_topics | 444 |
+| planned_topics | 371 |
+| claimable_topics | 16 |
+| ready_stock | 10 |
+| stock_stages | {'IDEA': 260, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 10, 'PLANNED_HOLD': 3, 'CLAIMED': 47, 'AUTHORED': 0, 'QA_PASS': 14, 'PUBLISHED': 297, 'WP_DRAFT': 0} |
 | needs_research | True |
-| research_shortfall | 900 |
+| research_shortfall | 890 |
 | refill_trigger_below_ready | 900 |
 | refill_round_target | 100-200 |
 | refill_state | REFILL_IN_PROGRESS |
 | refill_order | RF-0002 |
 | refill_accepted_so_far | 52 |
-| writing | 67 |
-| draft_authored | 295 |
-| qa_pass | 294 |
-| qa_fail | 1 |
+| writing | 65 |
+| draft_authored | 308 |
+| qa_pass | 308 |
+| qa_fail | 0 |
 | qa_review | 0 |
-| repair_queue | 1 |
-| held_by_class | {'REAL_RISK': 1} |
+| repair_queue | 0 |
+| held_by_class | {} |
 | g7_pass | 272 |
 | g7_not_recorded | 25 |
 | wordpress_draft | 0 |
@@ -38,14 +38,14 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | empty_category_violations | 0 |
 | broken_links | None |
 | broken_links_note | No full HTTP crawl yet; inventory graph is not a broken-link proof |
-| remaining_topic_target | 669 |
-| remaining_candidate_target | 596 |
+| remaining_topic_target | 629 |
+| remaining_candidate_target | 556 |
 | delivery_mode | production |
 | production_enabled | True |
 | draft_staging_enabled | False |
-| qa_pass_live_checked | 0 |
-| qa_pass_awaiting_wordpress | 0 |
-| queued_topic_ids | [] |
+| qa_pass_live_checked | 1 |
+| qa_pass_awaiting_wordpress | 14 |
+| queued_topic_ids | ['NT-000711', 'NT-000831', 'NT-000830', 'NT-000845', 'NT-000720', 'NT-000714', 'NT-000717', 'NT-000719', 'NT-000715', 'NT-000716', 'NT-000832', 'NT-000718', 'NT-000713', 'NT-000712'] |
 | pending_wordpress_intents | [] |
 | blocked_writer_sessions | [] |
 | last_wordpress_verified_at | 2026-10-19T15:13:04.930454+00:00 |

@@ -1,0 +1,125 @@
+{
+  "topic_id": "NT-000720",
+  "status": "PASS",
+  "source_sha256": "121c21fa3ec9c972c190a8924a17c1674c8a6dd16b008d22c55a48b264880a1f",
+  "body_sha256": "91bb3bb1ac284319943f93885c6f4a6228718887a691f5e06cb8de06c3fab53d",
+  "word_count": 2701,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2411,
+        "title": "Honda ICON e: đi được bao nhiêu km và phù hợp quãng đường nào?",
+        "why": "stale",
+        "content_hash": "c51f9eca9b43c76b8f4f2101ab1c67f670c8d7d31345309ffbda12f55c573f6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2441,
+        "title": "Honda Vision có ưu nhược điểm gì khi sử dụng hằng ngày trong phố?",
+        "why": "stale",
+        "content_hash": "afe731aa2441d7ecdc450e2a9e5f0574a44dfcbbdc8455f0c3850b24a1490cca",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2461,
+        "title": "Yamaha Grande có ưu nhược điểm gì khi sử dụng trong thành phố?",
+        "why": "stale",
+        "content_hash": "9526d819fdd648a8f26ff9ae787179f2cfb4cc6ea0bab238f90056bcb0a335a7",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T16:38:39.194422+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "e6b4d14c5ded0f60694ff6d5552b557a288eb7c749e4964ec8be4282ff0f4932",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
