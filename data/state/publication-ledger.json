@@ -6891,7 +6891,7 @@
       }
     },
     "NT-000812": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T00:24:19.042468+00:00",
       "source_hash": "fb05351df1b56bc45a99ef6e541fb34bf4f1039d98e94b29a0a7165e9d68c8f9",
       "slug": "muoi-sot-xuat-huyet-va-dong-vat-khi-di-ngoai-thanh-canada-uc-ireland-va-cong-du-lich-quoc-gia-viet-nam-khuyen-phong-tranh-the-nao",
@@ -6906,8 +6906,37 @@
       "category_warning": null,
       "git_commit": "35fcf33eaa7d8ebf1ecc4693c8f5b090ea850013",
       "run_id": "39180304216",
-      "updated_at": "2026-10-19T00:24:23.085846+00:00",
-      "wp_id": 4113
+      "updated_at": "2026-10-19T00:24:28.888103+00:00",
+      "wp_id": 4113,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/muoi-sot-xuat-huyet-va-dong-vat-khi-di-ngoai-thanh-canada-uc-ireland-va-cong-du-lich-quoc-gia-viet-nam-khuyen-phong-tranh-the-nao/",
+      "verified_at": "2026-10-19T00:24:28.888096+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4113,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/muoi-sot-xuat-huyet-va-dong-vat-khi-di-ngoai-thanh-canada-uc-ireland-va-cong-du-lich-quoc-gia-viet-nam-khuyen-phong-tranh-the-nao/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/muoi-sot-xuat-huyet-va-dong-vat-khi-di-ngoai-thanh-canada-uc-ireland-va-cong-du-lich-quoc-gia-viet-nam-khuyen-phong-tranh-the-nao/",
+        "seo_title": "Phòng sốt xuất huyết khi du lịch Việt Nam: Canada, Úc, Ireland",
+        "seo_description": "Phòng sốt xuất huyết khi du lịch Việt Nam: tổng hợp lời khuyên về muỗi, bệnh dại và động vật của Canada, Úc, Ireland, cổng du lịch quốc gia, kèm gợi ý cho người đi xe máy.",
+        "checked_at": "2026-10-19T00:24:28.888079+00:00"
+      }
     }
   },
   "categories": {}
