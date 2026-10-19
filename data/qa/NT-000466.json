@@ -70,49 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/danh-gia-xe-may-dien-neos-yamaha/",
-      "supports": "Yamaha Motor Việt Nam (26/04/2023) nêu NEO's có hai chế độ STD và ECO; khi pin dưới 20% xe tự kích hoạt chế độ tiết kiệm pin ECO và giới hạn tốc độ 30 km/h; nhả tay ga thì động cơ tự hãm.",
-      "sha256": "f37c6f317eba7cee0be1d0c1e22bd40b227d3912831d994215b377ab836436d8",
-      "verified_at": "2026-10-19T09:34:16.335033+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-di-xe-may-dien-an-toan/",
-      "supports": "Yamaha Motor Việt Nam (26/04/2023) nêu NEO's chế độ Standard công suất 2,06 kW, 40 km/h; chế độ Eco công suất 1,58 kW ở 30 km/h và tốc độ giới hạn 35 km/h.",
-      "sha256": "3606afe89ec5d08d112abe17015a8608b9f6d9f35f8fb03ae03b37b0dcf6a24e",
-      "verified_at": "2026-10-19T09:34:17.665942+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dat.bike/en/huong-dan-su-dung-xe-weaver-en/",
-      "supports": "Hướng dẫn Dat Bike Weaver nêu cơ chế tự bảo vệ: quá tải liên tục hơn 7 giây thì xe tự cắt điện; chạy tốc độ cao hơn 1 giờ có thể quá nhiệt bộ điều khiển, xe giảm công suất rồi có thể dừng hẳn.",
-      "sha256": "f20921c83e38a1986d61aaf36c70f24702e073545efd1926d4ca3fa4ac07d548",
-      "verified_at": "2026-10-19T09:34:19.089504+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-ra-mat-o-to-civic-hybrid-cung-hai-mau-xe-may-dien-cuv-e-va-icon-e-hoan-toan-moi-tai-trien-lam-o-to-xe-may-viet-nam-2024",
-      "supports": "Honda Việt Nam (trang ra mắt 2024) nêu ICON e: có hai chế độ lái Tiêu chuẩn và ECO, ECO nhẹ nhàng phù hợp người mới và giúp kéo dài quãng đường thêm khoảng 15% so với chế độ tiêu chuẩn.",
-      "sha256": "9e65fe4a1408dc124e6647d86167587881143fdf441fe06a10866514690704b1",
-      "verified_at": "2026-10-19T09:34:21.841593+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vinfastauto.com/vn_vi/huong-dan-su-dung-pin-lithium-vinfast-dung-cach",
-      "supports": "VinFast (hướng dẫn pin lithium) khuyên duy trì dung lượng pin trên 20% khi sử dụng và nêu mốc nhiệt độ mà pin giới hạn công suất.",
-      "sha256": "8a20f6d2efd236773b2d21adfa4b30b5aa7875aa956930afd30098e61c764071",
-      "research_checked_at": "2026-10-17",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -129,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T09:34:27.589228+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T09:38:01.764079+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "911852b2d8d0c2168aab46377d2faa3d4ba2e866ec6e59acae817c85df00238a",
+  "inventory_sha256": "0df280b109cee7201b8b7d14491f07ae83db40ba55a951c7ff7e9af7d6e36557",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

@@ -1,0 +1,184 @@
+{
+  "topic_id": "NT-000595",
+  "status": "PASS",
+  "source_sha256": "d0b33e9809bd731a1b212fc2d0b4541571193e3cd0dba3652cc9926b12f0fca8",
+  "body_sha256": "f8aaf4b2ea27a1b73483cb910698df76c51f25cecc0e5f679132e0b62433a20b",
+  "word_count": 3200,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-804b-sulfation-and-how-to-prevent-it",
+      "supports": "Battery University BU-804b (08/02/2024): khi thiếu sạc kéo dài, chì sunfat vô định hình chuyển thành tinh thể ổn định bám trên bản cực âm, tạo tinh thể lớn làm giảm vật liệu hoạt động.",
+      "sha256": "a21f1947a379480043ed726117652b12d4985b0ee04f3b8f8f9d7cca744c40c4",
+      "verified_at": "2026-10-19T09:43:39.427558+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-403-charging-lead-acid",
+      "supports": "Battery University BU-403: ắc quy chì phải luôn cất ở trạng thái đã sạc; nạp bù mỗi 6 tháng để điện áp không xuống dưới 2,05 V/cell và gây sunfat.",
+      "sha256": "2277bfeccd8418f4236877fa3a50928587e5435f882365a235408bc9dab00e7e",
+      "verified_at": "2026-10-19T09:43:41.661195+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-702-how-to-store-batteries",
+      "supports": "Battery University BU-702: mức sạc thấp gây sunfat hóa, một lớp oxy hóa trên bản cực âm cản dòng điện.",
+      "sha256": "86336a078d7735103eab879f44634ad227c290fa85e899f6eb49a6b3ecceb426",
+      "verified_at": "2026-10-19T09:43:44.170734+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-201-how-does-the-lead-acid-battery-work",
+      "supports": "Battery University BU-201: ắc quy chì phải luôn cất ở mức sạc đầy; mức sạc thấp gây sunfat hóa làm mất hiệu suất.",
+      "sha256": "b0afcbf7a8bd8f0928bc63c9604384a1017acbf1e59d821f82892acdd02be7e2",
+      "verified_at": "2026-10-19T09:43:45.536017+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://pinaco.com/chinh-sach/huong-dan-su-dung-va-bao-duong-ac-quy-xe-dien-24-25.html",
+      "supports": "Pinaco (hướng dẫn ắc quy xe điện): nạp đúng cách kéo dài tuổi thọ; nạp nhiều hoặc ít đều làm giảm tuổi thọ.",
+      "sha256": "772fd17c22f5dc7ca35d919f7411da8a489e5ed93ad5688500c9ef931d5cb1b0",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-804-how-to-prolong-lead-acid-batteries",
+      "supports": "Battery University BU-804: ắc quy chì còn các hỏng hóc khác như ăn mòn, rụng vật liệu, đoản mạch, sunfat, mất nước, phân tầng axit; phần lớn giảm được nhờ xử lý đúng.",
+      "sha256": "516539c5c8604a4c5930801bca57e3bdd2bd0b72ceee4e096a6093a68266603a",
+      "verified_at": "2026-10-19T09:43:47.099570+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2441,
+        "title": "Honda Vision có ưu nhược điểm gì khi sử dụng hằng ngày trong phố?",
+        "why": "stale",
+        "content_hash": "afe731aa2441d7ecdc450e2a9e5f0574a44dfcbbdc8455f0c3850b24a1490cca",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2487,
+        "title": "Honda Air Blade và Yamaha NVX: so sánh theo nhu cầu đi hằng ngày",
+        "why": "stale",
+        "content_hash": "5aa5f13fa0a11058b6d28e6b9191a782e6c63c5a62363a636a4172b4688054ed",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2630,
+        "title": "Chùa Trấn Quốc Hà Nội: Lịch sử, giờ mở cửa và kinh nghiệm tham quan",
+        "why": "stale",
+        "content_hash": "1cedf563cfdadc1e4b3bafa07d97d0868a00d865df06edb4c401019a91229635",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4049,
+        "title": "Thuê xe máy điện ở chung cư Hà Nội không có chỗ sạc riêng: cần kiểm tra gì trước khi đặt?",
+        "why": "stale",
+        "content_hash": "60ea270b75576e53780d251f2026ebec6088930775beded46df2ce5bc3601d66",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:43:53.252702+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "438c0fd6f3f11ea38408e1eb019e1e74fc03d8b75e12ba12784e68a92974fb26",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

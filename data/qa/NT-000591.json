@@ -1,0 +1,159 @@
+{
+  "topic_id": "NT-000591",
+  "status": "PASS",
+  "source_sha256": "50192ff1bf2cf66ef709f72b531a39bb91b00f86861a80c4cb13f006c60f759d",
+  "body_sha256": "470c7983946fbbfce184b176ec57ae7fb617bdcbc0bddd53955c531a9b561281",
+  "word_count": 3655,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-409-charging-lithium-ion",
+      "supports": "Battery University BU-409: tăng dòng sạc không làm đầy nhanh hơn nhiều vì Giai đoạn 1 ngắn lại còn bão hòa ở Giai đoạn 2 dài ra; dòng lớn đưa pin lên khoảng 70% rất nhanh.",
+      "sha256": "10546a3d1bae756f43c8666a791ca1d0d764cb7708261042fce6f49e2eb60190",
+      "verified_at": "2026-10-19T09:40:29.852447+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.analog.com/en/resources/technical-articles/understanding-li-battery-operation-lessens-charging-safety-concerns.html",
+      "supports": "Analog Devices (ghi chú ứng dụng 2008): CCCV là phương pháp sạc lithium-ion được chấp nhận phổ biến duy nhất; dòng không đổi đến điện áp tối đa rồi giữ điện áp không đổi cho đến khi đạt tiêu chí kết thúc.",
+      "sha256": "bd2e1bf59e9acbb48d1cf8f5f8d9f5d207c3390943307685b8dc12758caf1a6e",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "TimeoutError"
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "supports": "Dat Bike (hướng dẫn sạc): sạc thường tại nhà 4–7 tiếng, sạc nhanh có thể chỉ 30 phút đến 2,5 giờ để đạt 80% dung lượng; hãng khuyên rút sạc khi pin báo đầy.",
+      "sha256": "0f548a2d957b60a67e6ebedf06b634d0ac4677b2ff843c447af7f49b2a5f7ad3",
+      "verified_at": "2026-10-19T09:41:36.889604+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-205-types-of-lithium-ion",
+      "supports": "Battery University BU-205: cell LFP có điện áp danh định thấp hơn (3,2 V/cell) nên năng lượng riêng thấp hơn các hệ chứa coban; điện áp giới hạn sạc của LFP khác cell cobalt/NMC.",
+      "sha256": "1e06cd66fcb6154d9a8fca749b060d5c9dae6a09403034e8f879f448c6d7a521",
+      "verified_at": "2026-10-19T09:41:38.129275+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 931,
+        "title": "So Sánh Giá Thuê Xe Máy Điện Và Xe Đạp Điện Tại Hà Nội",
+        "why": "stale",
+        "content_hash": "6ecf7e9ed22bffd8cd1b7503e82157d22124c0c18b557dbf6c98245fa34fb529",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4048,
+        "title": "Thuê xe máy Hà Nội khi xe cá nhân đang sửa: chọn kỳ thuê và gia hạn nếu gara trễ",
+        "why": "stale",
+        "content_hash": "5eaf7d3b4d760f2a4ab0df94807fe114a8927ceb0af3b0ea5d1d59453a46f20d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:41:50.845724+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "79886e6d4dcd2d469b36155d8b73af5131cd538b3675d00f50ed4d89351b7d23",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

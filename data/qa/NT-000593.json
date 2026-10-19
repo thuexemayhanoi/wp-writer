@@ -70,47 +70,13 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.batteryuniversity.com/article/bu-204-how-do-lithium-batteries-work",
-      "supports": "Battery University BU-204: cực dương là oxit kim loại, cực âm là carbon xốp; khi xả ion đi từ cực âm sang cực dương qua chất điện phân và màng ngăn, khi sạc chiều đảo lại.",
-      "sha256": "ea31771cdec82fd1b1343c0a71e3f6dc9c5f43d58d12940280d5124737de578f",
-      "verified_at": "2026-10-19T09:34:41.605748+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.anl.gov/science-101/batteries",
-      "supports": "Argonne National Laboratory (Science 101): khi pin hoạt động, ion lithium đi qua chất điện phân từ cực âm sang cực dương và phản ứng hóa học tạo electron, chuyển năng lượng hóa học thành dòng điện.",
-      "sha256": "7f6e85dc9dd37855a27e2e3bb55c6a92c8b3e202e492e05cc039f4004258902e",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://news.samsungsdi.com/global/articleView?seq=446",
-      "supports": "Samsung SDI (Battery Talk Talk, 18/08/2026): màng ngăn ngăn cực dương và cực âm chạm nhau nhưng có lỗ siêu nhỏ cho ion lithium đi qua.",
-      "sha256": "87181f2aae04585e0c2f0314826bae0e41c08a68dc1291446d77c171d28b3c78",
-      "verified_at": "2026-10-19T09:34:43.035468+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.batteryuniversity.com/article/bu-701-how-to-prime-batteries",
-      "supports": "Battery University BU-701: giữ pin Li-ion ở điện áp trên 4,10 V/cell trong khi nóng thúc đẩy oxy hóa chất điện phân; nóng kết hợp điện áp cao gây căng cho pin hơn cả chu kỳ khắc nghiệt.",
-      "sha256": "b260cfcd8e40cce59b75e4c64d644167b276c031e05377d78197d6fe4e2a3534",
-      "verified_at": "2026-10-19T09:34:44.152851+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": null,
-  "at": "2026-10-19T09:34:49.762298+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T09:38:20.726978+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "56b56ecfab1d986e3b1aaff8c4997d530c0de663c08e981a2184cb87605f013d",
+  "inventory_sha256": "0df280b109cee7201b8b7d14491f07ae83db40ba55a951c7ff7e9af7d6e36557",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

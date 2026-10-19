@@ -1,0 +1,149 @@
+{
+  "topic_id": "NT-000622",
+  "status": "PASS",
+  "source_sha256": "e1322fb1ab416004abd04caef822907e76d600181439a5f19c9e954270e24e91",
+  "body_sha256": "13b1c46cd241de2259537d33b3f1deb02d51087d205eef19c1e1a8edf46fbf09",
+  "word_count": 3257,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.radpowerbikes.com/blogs/the-scenic-route/what-is-pedal-assist",
+      "supports": "Rad Power Bikes: các xe bán ở Mỹ và Canada có tay ga bên phải ghi đông cho phép chạy không cần đạp, bản EU có tay vặn nửa vòng chỉ tăng thêm khi đang đạp; trợ lực khi đạp tắt sau 1-2 giây khi ngừng đạp, hoặc cắt ngay khi bóp phanh",
+      "sha256": "126a05a1fe2851026dc472d384e9d86fadf9b0b64187f7d2f44c682693679c02",
+      "verified_at": "2026-10-19T09:45:06.381209+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.trekbikes.com/us/en_US/ebike_faq/",
+      "supports": "Trek (FAQ xe đạp điện): xe trợ lực khi đạp khuếch đại lực bạn đặt lên bàn đạp, động cơ không hoạt động nếu không đạp, và mức hỗ trợ do mức trợ lực đã chọn quyết định",
+      "sha256": "18d840f1c06a36a9e74f5bbbdc163fc0b8d397db1aa060916d61d30ded8d06b8",
+      "verified_at": "2026-10-19T09:45:07.017007+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.cyclingweekly.com/group-tests/how-do-e-bikes-work-and-do-you-have-to-pedal-them-463025",
+      "supports": "Cycling Weekly: ở Anh và EU xe đạp điện hợp luật phải hỗ trợ khi đạp và giới hạn 25 km/h; nhiều bang của Mỹ có Class 2 điều khiển bằng tay ga tới 20 mph không cần đạp; Úc cho xe tay ga nhưng hỗ trợ tối đa 25 km/h",
+      "sha256": "c02ad67ed84fbc251d4954492c0bc222b93b5c2c9e88f6304bc21e655d53acc5",
+      "verified_at": "2026-10-19T09:45:07.077283+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://electrek.co/2023/10/16/torque-sensors-vs-cadence-sensors-for-electric-bikes/",
+      "supports": "Electrek (bài ngày 16/10/2023): với xe đạp điện chủ yếu dùng tay ga, việc chọn cảm biến vòng quay hay cảm biến mô-men xoắn gần như không quan trọng",
+      "sha256": "576fd587c3601be73623a94320e558419385137a050aaaadf660b89d6c882d81",
+      "verified_at": "2026-10-19T09:45:07.125902+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2480,
+        "title": "Yamaha NVX phù hợp đi phố hay đi xa? Ưu nhược điểm khi dùng hằng ngày",
+        "why": "stale",
+        "content_hash": "d3da460a8f59dcb298c118f8ac006c2276221d868f2c1c973911032d28fb831e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2592,
+        "title": "Đi Hà Nội hai người nên chọn xe gì để thoải mái và dễ điều khiển?",
+        "why": "stale",
+        "content_hash": "5c0894287bcacd6fb1f4e67cebc0eb2d421ebeddf8dc30ba47f488d03a2cf568",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:45:24.170449+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "94857d1daad45d48ccd7d064c6ff65e62c86e297bf139c9eb1d4004a6291cfd5",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

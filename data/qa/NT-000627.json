@@ -70,40 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/xe-may-dien-la-gi/",
-      "supports": "Yamaha Motor Việt Nam (bài \"Xe máy điện là gì? Xe máy điện và xe đạp điện có gì khác?\", đăng 05/04/2023): bảng so sánh nêu xe đạp điện có động cơ điện và bàn đạp trợ lực, nếu hết pin vẫn dùng bàn đạp để di chuyển; xe máy điện chỉ dùng động cơ điện, hết pin thì không khởi động được",
-      "sha256": "37c6dc0c9cad22f4f90aaa0dd5e59770e8bf9e3fb4777bb03840b3ee58b3fd5d",
-      "verified_at": "2026-10-19T09:35:06.501287+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.cyclingweekly.com/group-tests/how-do-e-bikes-work-and-do-you-have-to-pedal-them-463025",
-      "supports": "Cycling Weekly: có thể tắt hẳn động cơ và đi không trợ lực; phần lớn hệ thống không tạo lực cản khi tắt nhưng trọng lượng động cơ và pin làm việc đạp tốn sức hơn",
-      "sha256": "c02ad67ed84fbc251d4954492c0bc222b93b5c2c9e88f6304bc21e655d53acc5",
-      "verified_at": "2026-10-19T09:35:09.906584+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.bikeradar.com/advice/buyers-guides/what-is-an-electric-bike",
-      "supports": "BikeRadar (What is an electric bike?): khi đi hằng ngày lợi ích của động cơ lớn hơn phần nặng thêm, đặc biệt khi leo dốc, trừ khi hết pin; hệ thống động cơ và pin phổ biến nặng khoảng 6 đến 8 kg, nhẹ nhất dưới 4 kg",
-      "sha256": "d46e6425a7d84fb7588a50330f1a5328099021c46aaf28665fc750c014ef31af",
-      "verified_at": "2026-10-19T09:35:12.562030+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.radpowerbikes.com/blogs/the-scenic-route/what-is-pedal-assist",
-      "supports": "Rad Power Bikes: có thể đặt mức trợ lực về 0 để cảm nhận cách xe vận hành khi không có hỗ trợ, hoặc để tập luyện",
-      "sha256": "126a05a1fe2851026dc472d384e9d86fadf9b0b64187f7d2f44c682693679c02",
-      "verified_at": "2026-10-19T09:35:13.034777+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -129,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T09:35:24.094201+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T09:38:25.729368+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "dcb1346e3c9b4e2f94207bed58b059933e6a77161f84b5c9816a0cc3da6017f3",
+  "inventory_sha256": "0df280b109cee7201b8b7d14491f07ae83db40ba55a951c7ff7e9af7d6e36557",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

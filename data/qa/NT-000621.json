@@ -1,0 +1,141 @@
+{
+  "topic_id": "NT-000621",
+  "status": "PASS",
+  "source_sha256": "550ce766426017f4152a7aa1557751aae01a7b06edecdf3f42162c8e780ee694",
+  "body_sha256": "eddaaff600584d1bb55e3bef936ff068a7fcc34c3096993612acb96b67a311a8",
+  "word_count": 3857,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://electrek.co/2023/10/16/torque-sensors-vs-cadence-sensors-for-electric-bikes/",
+      "supports": "Electrek (bài ngày 16/10/2023): cảm biến vòng quay bàn đạp chỉ phát hiện tốc độ đạp, không biết đạp mạnh hay nhẹ, nên trợ lực gần như bật hoặc tắt theo vòng quay và thường có độ trễ khi mới đạp; cảm biến mô-men xoắn đo lực đặt lên bàn đạp hoặc dọc xích nên trợ lực tăng theo sức đạp, cảm giác gần xe đạp thường và độ trễ rất nhỏ; cảm biến mô-men xoắn có thể thêm vài trăm đô la vào giá xe (nhận xét của tác giả); với xe chủ yếu dùng tay ga thì khác biệt này không đáng kể",
+      "sha256": "576fd587c3601be73623a94320e558419385137a050aaaadf660b89d6c882d81",
+      "verified_at": "2026-10-19T09:44:43.923563+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.radpowerbikes.com/blogs/the-scenic-route/what-is-pedal-assist",
+      "supports": "Rad Power Bikes (bài \"What is Pedal Assist?\"): trợ lực khi đạp dùng cảm biến vòng quay gắn trong bộ truyền động, phát hiện bàn đạp quay rồi báo động cơ cấp mức trợ lực đã chọn; động cơ chạy sau khoảng 1-2 giây kể từ khi bắt đầu đạp, và có độ trễ 1-2 giây trước khi tắt khi ngừng đạp, bóp phanh thì cắt ngay",
+      "sha256": "126a05a1fe2851026dc472d384e9d86fadf9b0b64187f7d2f44c682693679c02",
+      "verified_at": "2026-10-19T09:44:44.268166+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.radpowerbikes.com/products/radrunner-max-electric-cargo-utility-bike",
+      "supports": "Trang sản phẩm Rad Power Bikes RadRunner Max (xe chở hàng): nêu cảm biến mô-men xoắn 90 Nm cấp lực đúng lúc cần, cho thấy cùng một hãng có mẫu dùng cảm biến mô-men xoắn",
+      "sha256": "5d11eda9d4d798f5308a6ffbe303d20bcaf0b668ac58331a2e20f86a8e1096d8",
+      "verified_at": "2026-10-19T09:44:44.698953+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.giant-bicycles.com/us/syncdrive",
+      "supports": "Trang Giant SyncDrive: hệ thống nhiều cảm biến theo dõi mô-men xoắn, vòng quay và địa hình theo thời gian thực để cấp lực đúng lúc; chế độ Smart Assist tự điều chỉnh mức hỗ trợ theo cách đi và địa hình",
+      "sha256": "cf5b6808db9385c34ba997f8874a4bbdfc72c38dc806440d25ae889638168bde",
+      "verified_at": "2026-10-19T09:44:45.496560+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.trekbikes.com/us/en_US/ebike_faq/",
+      "supports": "Trek (FAQ xe đạp điện): hệ thống xe đạp điện gồm động cơ, bộ điều khiển, pin và đôi khi có màn hình; phía sau còn có cảm biến công suất hoặc mô-men xoắn, cảm biến tốc độ và cảm biến theo dõi toàn hệ thống",
+      "sha256": "18d840f1c06a36a9e74f5bbbdc163fc0b8d397db1aa060916d61d30ded8d06b8",
+      "verified_at": "2026-10-19T09:44:46.222847+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.cyclingweekly.com/group-tests/how-do-e-bikes-work-and-do-you-have-to-pedal-them-463025",
+      "supports": "Cycling Weekly: theo luật Anh và EU, động cơ phải hỗ trợ khi đạp và tờ báo nói hệ thống có cảm biến mô-men xoắn đo công suất người đạp để điều khiển động cơ; đây là mô tả chung, khác với trường hợp xe dùng cảm biến vòng quay mà Electrek và Rad Power Bikes nêu",
+      "sha256": "c02ad67ed84fbc251d4954492c0bc222b93b5c2c9e88f6304bc21e655d53acc5",
+      "verified_at": "2026-10-19T09:44:46.525271+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-19T09:44:51.065373+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "2a39a53c3bd5243a97316576d2b43d713c60de9a3ee90a435dcd12f77de09ff6",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
