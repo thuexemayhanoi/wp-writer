@@ -6,7 +6,7 @@
   "batch_size": 3,
   "total_review_batches": 17,
   "checkpoint_date": "2026-10-20",
-  "completed_editorial_drafts": 3,
+  "completed_editorial_drafts": 6,
   "imported_into_topic_factory": 0,
   "published_new_articles": 0,
   "owner_approval_mode": "3 bài mỗi lượt duyệt",
@@ -32,10 +32,31 @@
       "file": "editorial/seo-51-phuong/batch-01/03-hoan-kiem.md",
       "h1": "Thuê xe máy phường Hoàn Kiếm: đi phố cổ chọn xe ga, xe số hay 50cc?",
       "approx_quality_word_count": 4484
+    },
+    {
+      "batch": 2,
+      "ward": "Việt Hưng",
+      "file": "editorial/seo-51-phuong/batch-02/04-viet-hung.md",
+      "h1": "Thuê xe máy phường Việt Hưng: chọn Honda Wave hay Yamaha Sirius để đi làm theo tuần?",
+      "approx_quality_word_count": 4495
+    },
+    {
+      "batch": 2,
+      "ward": "Tây Hồ",
+      "file": "editorial/seo-51-phuong/batch-02/05-tay-ho.md",
+      "h1": "Thuê xe máy phường Tây Hồ: chọn Honda Vision hay xe điện cho hành trình quanh hồ?",
+      "approx_quality_word_count": 4873
+    },
+    {
+      "batch": 2,
+      "ward": "Đống Đa",
+      "file": "editorial/seo-51-phuong/batch-02/06-dong-da.md",
+      "h1": "Thuê xe máy phường Đống Đa: sinh viên chọn Honda Wave, Cub 50 hay SYM 50cc?",
+      "approx_quality_word_count": 4622
     }
   ],
-  "pending_editorial": 48,
-  "next_review_batch": 2,
-  "publisher_status": "owner's global pilot-three-20261019 exhausted; do not raise without approval",
+  "pending_editorial": 45,
+  "next_review_batch": 3,
+  "publisher_status": "pilot-three-20261019 max_posts=3 reached; no new WordPress posts via ward editorial",
   "rule": "Không tạo bản sao trang dịch vụ, không tự gán Topic ID/Writer slot/receipt, không vượt qua QA."
 }
