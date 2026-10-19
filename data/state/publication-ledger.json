@@ -13903,6 +13903,25 @@
         "seo_description": "Khoảng sáng gầm xe 125–190 mm theo trang hãng: bảng số đo xe số, xe ga, xe côn tay Honda, Yamaha, nhãn gọi khác nhau và những điều con số không cho biết.",
         "checked_at": "2026-10-19T19:40:54.209225+00:00"
       }
+    },
+    "NT-000717": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-19T19:41:18.408775+00:00",
+      "source_hash": "55a03636f244efa7210e519851a8c63515601cabca12c5d0e7e0b55f6ad77d7f",
+      "slug": "kw-ps-nm-va-kgf-m-tren-trang-hang-cach-doi-don-vi-cong-suat-va-mo-men-xe-may-honda-yamaha",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 156,
+      "visible_hash": "7560ff786329f45f08097d72be050c5e94b5e1b9cf6519b92ecde49517085f0f",
+      "first_paragraph": "kW, PS, Nm và kgf·m trên trang hãng là bốn đơn vị chia thành hai cặp: kW và PS đo công suất, còn Nm (hay N.m, N·m) và kgf·m đo mô-men xoắn. Theo Wikipedia, một PS (mã lực hệ mét) xấp xỉ 735,5 W, tức khoảng 0,7355 kW, và một kgf được định nghĩa bằng 9,80665 N, nên một kgf·m tương ứng 9,80665 N·m. Hai trang Honda đã đọc (Winner R và Vario 160) chỉ ghi kW và N.m; một số trang Yamaha ghi thêm PS và kgf, và khi đổi theo các hệ số trên thì các số đó khớp, ví dụ Jupiter Finn ghi 6.6 kW kèm 9.0 PS trong khi 6,6 chia 0,7355 cho khoảng 8,97.",
+      "meta_title": "kW, PS, Nm và kgf·m trên trang hãng: cách đổi công suất, mô-men",
+      "meta_description": "kW, PS, Nm và kgf·m trên trang hãng Honda, Yamaha: cách đổi PS bằng kW chia 0,7355, kgf·m bằng N·m chia 9,80665 và vì sao phải đọc kèm vòng/phút.",
+      "intended_taxonomy_key": "reviews",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "55a95e3283e956d049b0055217266341922b355e",
+      "run_id": "39312220935",
+      "updated_at": "2026-10-19T19:41:18.410613+00:00"
     }
   },
   "categories": {}
