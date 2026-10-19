@@ -44,7 +44,7 @@ Với lịch đi học có mang ba lô hoặc thiết bị, nên xem cách cố 
 
 ## Xe ga 50cc: giá nhóm khác với mẫu xe được giao
 
-Hồ sơ doanh nghiệp ghi **xe tay ga 50cc 200.000 đồng/ngày** và tiền cọc tham khảo **4 triệu đồng**. Nhưng “xe ga 50cc” là một nhóm, không phải một tên mẫu duy nhất. Bạn có thể thích dòng SYM hoặc một mẫu thiết kế nhỏ, song cần hỏi **xe thực tế đang còn, tên mẫu, giấy tờ, ảnh, giá đúng lịch và điều kiện người lái**. Bài viết này không bảo đảm có bất kỳ mẫu SYM hoặc Cub cụ thể nào sẵn tại cửa hàng.
+Hồ sơ doanh nghiệp ghi **xe tay ga 50cc 200.000 đồng/ngày** và tiền cọc tham khảo **4 triệu đồng**. Đối chiếu thêm [trang thuê xe máy 50cc tại Hà Nội](https://thuexemaynguyentu.com/thue-xe-may-50cc-ha-noi/) để kiểm tra lựa chọn, nhưng thông tin trong bài vẫn phải được cửa hàng xác nhận. Nhưng “xe ga 50cc” là một nhóm, không phải một tên mẫu duy nhất. Bạn có thể thích dòng SYM hoặc một mẫu thiết kế nhỏ, song cần hỏi **xe thực tế đang còn, tên mẫu, giấy tờ, ảnh, giá đúng lịch và điều kiện người lái**. Bài viết này không bảo đảm có bất kỳ mẫu SYM hoặc Cub cụ thể nào sẵn tại cửa hàng.
 
 Trước khi lựa chọn, thử chống chân, thao tác phanh, tay ga, đèn và khóa. Xe dung tích nhỏ không đồng nghĩa người mới có thể an toàn chạy ngay trong phố đông. Nếu quen xe số mà chưa chạy ga, hãy làm quen ở khu vực phù hợp trước. Nếu cảm giác điều khiển không tự nhiên hoặc xe có dấu hiệu bất thường, không nên nhận chỉ vì cần đi học gấp.
 
