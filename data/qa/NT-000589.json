@@ -1,0 +1,167 @@
+{
+  "topic_id": "NT-000589",
+  "status": "PASS",
+  "source_sha256": "1c081c72a110a6724e25bbe4502f2bc0e9a3bfa3a12dbdc26c2fcf54244ad9d7",
+  "body_sha256": "248a9790a4ebe27776e4e444aadb30000b3a8d130ca6dca42e373df9fb8cff17",
+  "word_count": 2738,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-301a-types-of-battery-cells",
+      "supports": "Battery University BU-301a (cập nhật 24/04/2019): cell hình trụ dễ sản xuất, ổn định cơ học tốt, 18650 là trụ 18 mm x 65 mm dùng trong dụng cụ điện, thiết bị y tế, laptop và xe đạp điện; cell hộp tận dụng không gian nhưng có thể đắt hơn, tản nhiệt kém hơn và chu kỳ ngắn hơn cell trụ; cell túi mềm hiệu suất đóng gói 90-95%, cần chừa chỗ cho cell nở; không có định dạng chung cho cell hộp và túi mềm; các số liệu là của nguồn năm 2019.",
+      "sha256": "32134ebeee03e425bc1e66162cf2a60273173ea041ef4cc40402a66523d10e40",
+      "verified_at": "2026-10-19T03:42:17.856152+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://news.samsungsdi.com/global/articleView?seq=174",
+      "supports": "Samsung SDI (Battery101, nhà sản xuất cell): cell hình trụ sản xuất hàng loạt giá thấp nhưng thiếu linh hoạt về kích thước và xếp khít kém; cell hộp bọc nhôm, dày hơn cell trụ và chịu sốc tốt hơn cell túi mềm; cell túi mềm bọc màng mỏng, nhẹ, linh hoạt kích thước, kém lợi thế sản xuất hàng loạt so với cell trụ.",
+      "sha256": "dabd9dbe9273c51af03c483aff15e9acdd5da9809a18feb1596a735f338646e2",
+      "verified_at": "2026-10-19T03:42:18.981557+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/cach-sac-pin-cho-xe-dat-bike-quantum-moi-mua/",
+      "supports": "Dat Bike (xe Quantum): một pack pin xe điện gồm rất nhiều cell ghép nối với nhau, giữa các cell luôn có chênh lệch điện áp nên cần BMS theo dõi và cân bằng; cell LFP của Quantum hoạt động trong vùng 2,7 V đến 3,65 V; trang không nêu dạng cell.",
+      "sha256": "0b78674be9ab8c8021f70ddc00f0d9b34ffd77f149fcbeaaf9546b355a6f65a1",
+      "verified_at": "2026-10-19T03:42:20.276334+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-304b-making-lithium-ion-safe",
+      "supports": "Battery University BU-304b (cập nhật 25/10/2021): mỗi cell trong chuỗi cần giám sát điện áp riêng; PTC và CID hoạt động tốt ở pack nhỏ 2-3 cell nhưng thường bị lược bỏ ở pin nhiều cell lớn vì việc ngắt có thể xảy ra dây chuyền; liệt kê việc tháo rời pack và cell trong những điều không nên làm với pin lithium-ion.",
+      "sha256": "e9328dd3e9b9fa15e799c96bee06cbc54194de2b4009dcba9a3a16aaa1cf36b6",
+      "verified_at": "2026-10-19T03:42:21.943486+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2393,
+        "title": "Thuê pin hay mua pin xe máy điện VinFast: phương án nào hợp lý?",
+        "why": "stale",
+        "content_hash": "b26adf50a482554d3cb08a77a5edd2ce3012f2ce554cb624584729fd43c82f18",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2437,
+        "title": "Các dòng xe máy Honda: tổng hợp mẫu phổ biến tại Việt Nam",
+        "why": "stale",
+        "content_hash": "5cff2a6706b84439a61843ab51b848da33a40d9c155c5eb687076b40c694e51f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2464,
+        "title": "Yamaha Janus phù hợp với ai? Những điểm đáng chú ý khi lựa chọn",
+        "why": "stale",
+        "content_hash": "0c040691e439a75bb84f66327d81dddb8d19e2ae59680e88c15bc7ee801a283a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2515,
+        "title": "Bình ắc quy xe máy dùng được bao lâu? Khi nào nên kiểm tra lại?",
+        "why": "stale",
+        "content_hash": "26576df935c21a29be7d5e9013419bbd9273bc6c5f99f106848143996460de9a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T03:42:30.359833+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "d7266bf18b3eda0c73c2424474c7658d8348a7d5f91eb6654b638661aa4fe0a0",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
