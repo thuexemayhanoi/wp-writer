@@ -70,68 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.batteryuniversity.com/article/bu-701-how-to-prime-batteries",
-      "supports": "Battery University BU-701: pin lithium-ion không cần priming sau khi rời nhà máy; ắc quy chì cần formatting trong lúc dùng và không khuyến khích xả chu kỳ cố ý.",
-      "sha256": "b260cfcd8e40cce59b75e4c64d644167b276c031e05377d78197d6fe4e2a3534",
-      "verified_at": "2026-10-19T09:42:04.346402+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.batteryuniversity.com/article/bu-804-how-to-prolong-lead-acid-batteries",
-      "supports": "Battery University BU-804: ắc quy deep-cycle cần 20–50 chu kỳ đầy để đạt dung lượng đỉnh và hãng khuyên nhẹ nhàng trong giai đoạn đầu; ắc quy khởi động không cần priming.",
-      "sha256": "516539c5c8604a4c5930801bca57e3bdd2bd0b72ceee4e096a6093a68266603a",
-      "verified_at": "2026-10-19T09:42:05.267850+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://pinaco.com/chinh-sach/huong-dan-su-dung-va-bao-duong-ac-quy-xe-dien-24-25.html",
-      "supports": "Pinaco (hướng dẫn sử dụng ắc quy xe điện): ắc quy nên được nạp đầy sau khi sử dụng, không cần dùng hết điện mới nạp lại.",
-      "sha256": "772fd17c22f5dc7ca35d919f7411da8a489e5ed93ad5688500c9ef931d5cb1b0",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    },
-    {
-      "url": "https://pinaco.com/chi-tiet-pinaco-va-doi-song/nhung-thac-mac-thuong-gap-ve-ac-quy-xe-dien-1367.html",
-      "supports": "Pinaco (câu hỏi thường gặp, đăng lại 18/03/2021): xe mới nên sạc liên tục khoảng 12 tiếng, đi đến cạn rồi sạc 12 tiếng, lặp lại 2–3 lần; mâu thuẫn với hướng dẫn chính của Pinaco.",
-      "sha256": "5d349b00ac0856fae79f93c5f5f1bfa5872ddb7a9a88694787456fd816164390",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    },
-    {
-      "url": "https://vinfastauto.com/vn_vi/huong-dan-cach-sac-xe-dien-khong-chai-pin",
-      "supports": "Trang VinFast về sạc không chai pin: 3 lần sạc đầu khoảng 10 giờ \"để làm già ắc quy\", các lần sau sạc đủ thời gian theo thông số từng loại xe (trang trộn \"ắc quy\" và \"pin\").",
-      "sha256": "4a5d5091f67d9749dc71f3d2ee63c9e263ea001bdb9d058f7bfda36aefc261fd",
-      "research_checked_at": "2026-10-17",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://dat.bike/cach-sac-pin-cho-xe-dat-bike-quantum-moi-mua/",
-      "supports": "Dat Bike (Quantum): cell trên xe mới mua lệch áp là bình thường và có thể khắc phục bằng sạc đều trong thời gian đầu; BMS cân bằng cell.",
-      "sha256": "0b78674be9ab8c8021f70ddc00f0d9b34ffd77f149fcbeaaf9546b355a6f65a1",
-      "verified_at": "2026-10-19T09:42:08.525796+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
-      "supports": "Cục Cảnh sát PCCC và CNCH (24/05/2024): sau khi chạy chờ nguội khoảng 20 phút, không sạc quá 8 giờ liên tục, ngắt khóa điện khi sạc.",
-      "sha256": "353fd2641d5b5be10ce7341c58d9bbf33befd5b1c8cb7c4fc563f6726c98bee4",
-      "research_checked_at": "2026-10-17",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -148,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T09:43:25.545323+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T09:49:36.949281+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "9bc70250f1f73d2193e0a0bd9d24a1ca155987f3ca2d7515c707342d418f82f9",
+  "inventory_sha256": "dc4e532aad7cb6371b9e89789cc4774997dc86b4eb2ea85d231a1a340e005108",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
