@@ -14934,7 +14934,7 @@
       }
     },
     "NT-000876": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:27:10.450628+00:00",
       "source_hash": "265e8b6f6f492b97875dcc10beba4f9c0cd1380a5dfc0fd3ceabcb5830730ea6",
       "slug": "le-hoi-sen-ha-noi-2026-va-mua-sen-ho-tay-le-hoi-26-28-6-dien-ra-o-nhung-dau-sen-no-thang-nao-va-hai-sen-luc-may-gio",
@@ -14950,8 +14950,37 @@
       "category_warning": null,
       "git_commit": "0927396b58191acf78af0cf04b0ee3c0688197ef",
       "run_id": "39326750194",
-      "updated_at": "2026-10-19T21:27:15.392050+00:00",
-      "wp_id": 4298
+      "updated_at": "2026-10-19T21:27:21.500603+00:00",
+      "wp_id": 4298,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/le-hoi-sen-ha-noi-2026-va-mua-sen-ho-tay-le-hoi-26-28-6-dien-ra-o-nhung-dau-sen-no-thang-nao-va-hai-sen-luc-may-gio/",
+      "verified_at": "2026-10-19T21:27:21.500596+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4298,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/le-hoi-sen-ha-noi-2026-va-mua-sen-ho-tay-le-hoi-26-28-6-dien-ra-o-nhung-dau-sen-no-thang-nao-va-hai-sen-luc-may-gio/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/le-hoi-sen-ha-noi-2026-va-mua-sen-ho-tay-le-hoi-26-28-6-dien-ra-o-nhung-dau-sen-no-thang-nao-va-hai-sen-luc-may-gio/",
+        "seo_title": "Lễ hội Sen Hà Nội 2026 và mùa sen Hồ Tây: ở đâu, tháng nào, mấy giờ",
+        "seo_description": "Lễ hội Sen Hà Nội 2026 diễn ra 26–28/6 ở phường Tây Hồ và 16 xã, phường. Các báo nói sen Hồ Tây nở quanh tháng 6; giờ hái sen khác nhau và là giờ của người hái.",
+        "checked_at": "2026-10-19T21:27:21.500574+00:00"
+      }
     }
   },
   "categories": {}
