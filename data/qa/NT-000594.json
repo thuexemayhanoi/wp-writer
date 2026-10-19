@@ -70,67 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.batteryuniversity.com/article/bu-403-charging-lead-acid",
-      "supports": "Battery University BU-403: ắc quy chì sạc ba giai đoạn; giai đoạn dòng không đổi đưa ắc quy lên khoảng 70% trong 5–8 giờ, giai đoạn nạp bù cho 30% còn lại trong 7–10 giờ.",
-      "sha256": "2277bfeccd8418f4236877fa3a50928587e5435f882365a235408bc9dab00e7e",
-      "verified_at": "2026-10-19T09:51:51.898166+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://pinaco.com/chinh-sach/huong-dan-su-dung-va-bao-duong-ac-quy-xe-dien-24-25.html",
-      "supports": "Pinaco (hướng dẫn ắc quy xe điện): nên nạp khoảng 10–12 giờ với dòng điện bằng 1/10 dung lượng ắc quy.",
-      "sha256": "772fd17c22f5dc7ca35d919f7411da8a489e5ed93ad5688500c9ef931d5cb1b0",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    },
-    {
-      "url": "https://www.batteryuniversity.com/article/bu-804b-sulfation-and-how-to-prevent-it",
-      "supports": "Battery University BU-804b: sạc 8 giờ ban đêm cho xe lăn điện là chưa đủ, ắc quy chì cần định kỳ sạc 14–16 giờ để bão hòa; ví dụ ắc quy xe lăn thọ khoảng 2 năm so với gấp đôi ở xe golf.",
-      "sha256": "a21f1947a379480043ed726117652b12d4985b0ee04f3b8f8f9d7cca744c40c4",
-      "verified_at": "2026-10-19T09:51:53.593655+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
-      "supports": "Cục Cảnh sát PCCC và CNCH (24/05/2024): chờ bình nguội khoảng 20 phút sau khi chạy, không sạc quá 8 giờ liên tục, ngắt khóa điện khi sạc.",
-      "sha256": "353fd2641d5b5be10ce7341c58d9bbf33befd5b1c8cb7c4fc563f6726c98bee4",
-      "research_checked_at": "2026-10-17",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    },
-    {
-      "url": "https://www.batteryuniversity.com/article/bu-201-how-does-the-lead-acid-battery-work",
-      "supports": "Battery University BU-201: ắc quy chì không sạc nhanh được và với hầu hết loại sạc đầy mất 14–16 giờ.",
-      "sha256": "b0afcbf7a8bd8f0928bc63c9604384a1017acbf1e59d821f82892acdd02be7e2",
-      "verified_at": "2026-10-19T09:53:00.307998+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vinfastauto.com/vn_vi/huong-dan-cach-sac-xe-dien-khong-chai-pin",
-      "supports": "Trang VinFast về sạc không chai pin: các lần sạc sau chỉ cần sạc đủ thời gian theo thông số từng loại xe, đèn sạc xanh là đã đầy (trang trộn \"ắc quy\" và \"pin\").",
-      "sha256": "4a5d5091f67d9749dc71f3d2ee63c9e263ea001bdb9d058f7bfda36aefc261fd",
-      "research_checked_at": "2026-10-17",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://www.batteryuniversity.com/article/bu-804-how-to-prolong-lead-acid-batteries",
-      "supports": "Battery University BU-804: để giữ ắc quy chì tốt, sạc bão hòa 14–16 giờ; nếu không thể thì sạc bão hòa vài tuần một lần, tránh xả sâu và sạc càng thường xuyên càng tốt.",
-      "sha256": "516539c5c8604a4c5930801bca57e3bdd2bd0b72ceee4e096a6093a68266603a",
-      "verified_at": "2026-10-19T09:53:01.533793+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -165,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T09:53:20.031189+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T14:21:52.866891+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "751052361b7604b665c43bf64a897d187a31b90ed109506e22327a397ac64762",
+  "inventory_sha256": "81b0b174137f26b83b0dadf7a244c933545335dc75a1961ef3bd3361018f592a",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

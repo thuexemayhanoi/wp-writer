@@ -70,50 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.batteryuniversity.com/article/bu-403-charging-lead-acid",
-      "supports": "Battery University BU-403: ắc quy chì phải luôn cất ở trạng thái đã sạc, nạp bù mỗi 6 tháng để điện áp không xuống dưới 2,05 V/cell và gây sunfat; AGM nới lỏng hơn.",
-      "sha256": "2277bfeccd8418f4236877fa3a50928587e5435f882365a235408bc9dab00e7e",
-      "verified_at": "2026-10-19T09:53:38.399427+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.batteryuniversity.com/article/bu-702-how-to-store-batteries",
-      "supports": "Battery University BU-702: ắc quy chì kín khí cất tới 2 năm; kiểm tra và nạp khi còn 70% (2,07 V/cell, 12,42 V với bình 12 V).",
-      "sha256": "86336a078d7735103eab879f44634ad227c290fa85e899f6eb49a6b3ecceb426",
-      "verified_at": "2026-10-19T09:53:39.615963+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.batteryuniversity.com/article/bu-201-how-does-the-lead-acid-battery-work",
-      "supports": "Battery University BU-201: ắc quy chì tự xả khoảng 40% trong một năm, bằng NiCd trong ba tháng.",
-      "sha256": "b0afcbf7a8bd8f0928bc63c9604384a1017acbf1e59d821f82892acdd02be7e2",
-      "verified_at": "2026-10-19T09:53:40.817010+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://pinaco.com/chinh-sach/huong-dan-su-dung-va-bao-duong-ac-quy-xe-dien-24-25.html",
-      "supports": "Pinaco (hướng dẫn ắc quy xe điện): lưu trữ phải nạp no, cất nơi khô ráo thoáng mát, ngắt dây nối để tránh tự phóng.",
-      "sha256": "772fd17c22f5dc7ca35d919f7411da8a489e5ed93ad5688500c9ef931d5cb1b0",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    },
-    {
-      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
-      "supports": "Cục Cảnh sát PCCC và CNCH (24/05/2024): lâu không dùng xe nên sạc đầy rồi tháo rời khỏi xe; không để nơi nóng ẩm; bảo quản nơi cao ráo thoáng mát.",
-      "sha256": "353fd2641d5b5be10ce7341c58d9bbf33befd5b1c8cb7c4fc563f6726c98bee4",
-      "research_checked_at": "2026-10-17",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -148,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T09:53:50.616583+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T14:21:53.938184+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "bc40e9b0840c841fae5916933e4820091fa898e1d1a713957b5b0a8b91709acd",
+  "inventory_sha256": "dcf3e3d5279c506eec7df1e92989da3faa7ee996e185377667d3e731e7a7e206",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

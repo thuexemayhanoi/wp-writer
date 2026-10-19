@@ -70,47 +70,13 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.bikeradar.com/advice/workshop/electric-bike-maintenance",
-      "supports": "BikeRadar (hướng dẫn bảo dưỡng xe đạp điện): bảo dưỡng xe đạp điện về nhiều mặt không khác xe đạp thường nhưng bộ truyền động (tay quay, xích, líp, freehub) chịu lực lớn hơn và mòn nhiều hơn; rửa bằng nước từ xô hoặc vòi áp lực thấp, không dùng vòi xịt mạnh, tắt hệ thống và rút sạc trước khi rửa, để pin trong khung, đóng cổng sạc, tránh làm bẩn phanh đĩa; không rửa pin bằng vòi áp lực cao",
-      "sha256": "e824f65e404ec34376d18e6542ebdf8ea4661fb997e46f110098755a4ee8ce52",
-      "verified_at": "2026-10-19T09:54:11.744170+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.aventon.com/blogs/aventon_bikes/top-5-ebike-maintenance-tips-that-you-cant-live-without",
-      "supports": "Aventon (bài mẹo bảo dưỡng xe đạp điện): nên vệ sinh bộ truyền động ít nhất mỗi tuần nếu đi đều và thường xuyên hơn khi đi mưa; không dùng chất tẩy gia dụng vì có thể hại xích; nhìn phanh trước mỗi chuyến; kiểm tra áp suất lốp theo số in trên lốp; phanh trượt thì đưa xe đến tiệm",
-      "sha256": "0b350acc3396095ef06ffd42e36738a84392dc84a70fb7e53b251593ca822bb6",
-      "verified_at": "2026-10-19T09:54:12.236096+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.giant-bicycles.com/us/syncdrive",
-      "supports": "Trang Giant SyncDrive: động cơ SyncDrive nên được bảo dưỡng tại đại lý hoặc trung tâm dịch vụ ủy quyền của Giant, nơi kỹ thuật viên có dụng cụ và hiểu biết hệ thống",
-      "sha256": "cf5b6808db9385c34ba997f8874a4bbdfc72c38dc806440d25ae889638168bde",
-      "verified_at": "2026-10-19T09:54:13.428135+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.rei.com/learn/expert-advice/intro-to-electric-bike-maintenance.html",
-      "supports": "REI (Intro to Electric Bike Maintenance): xe đạp điện nặng hơn và thường được đi nhanh, đi xa hơn nên thường cần bảo dưỡng thường xuyên hơn; nên theo dõi độ mòn lốp, má phanh, xích và bộ truyền động; có dụng cụ đo mòn xích dễ dùng để biết lúc cần thay [KHÔNG vào frontmatter: rei.com quá thời gian chờ 20 giây khi runner đọc (2 lần probe)]",
-      "sha256": "ce2ba95cbbe0706dd7758b380960cc43fad1e471507ebb03b67e7e18673291ce",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "TimeoutError"
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": null,
-  "at": "2026-10-19T09:55:22.819149+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T14:21:58.904006+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "8741123f1e90d00ed546eb768b37c1b645b2b13c94ffb35512256ae6d58f1a8f",
+  "inventory_sha256": "3b238e7e764bf349aef1b2ebcb8fc64c5e2ff1e2858671e303d54df639a33eee",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

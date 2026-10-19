@@ -6,17 +6,17 @@
   "rounds_opened": 2,
   "unlimited_rounds": true,
   "approved_capacity": 1000,
-  "topic_rows": 369,
-  "capacity_remaining": 631,
+  "topic_rows": 379,
+  "capacity_remaining": 621,
   "order": {
     "id": "RF-0002",
     "round": 2,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 17,
-    "remaining_to_min": 83,
-    "remaining_to_max": 183,
-    "batches_still_needed": 9,
+    "accepted_so_far": 27,
+    "remaining_to_min": 73,
+    "remaining_to_max": 173,
+    "batches_still_needed": 8,
     "batch_size": 10,
     "capacity_limited": false,
     "stalled": false,
@@ -31,7 +31,7 @@
       {
         "taxonomy_key": "trip-planning",
         "quota": 9,
-        "known_now": 40,
+        "known_now": 44,
         "allocation": 91
       },
       {
@@ -67,7 +67,7 @@
       {
         "taxonomy_key": "vietnam-travel",
         "quota": 5,
-        "known_now": 26,
+        "known_now": 29,
         "allocation": 55
       },
       {
@@ -162,10 +162,10 @@
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 426,
-    "topics_in_factory": 369,
+    "published_wordpress_items": 451,
+    "topics_in_factory": 379,
     "topics_by_status": {
-      "PLANNED": 296,
+      "PLANNED": 306,
       "REJECTED": 1,
       "RESEARCH": 72
     },
