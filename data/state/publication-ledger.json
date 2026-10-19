@@ -11691,7 +11691,7 @@
       }
     },
     "NT-000621": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T09:44:51.144381+00:00",
       "source_hash": "550ce766426017f4152a7aa1557751aae01a7b06edecdf3f42162c8e780ee694",
       "slug": "cam-bien-mo-men-xoan-va-cam-bien-vong-quay-ban-dap-tren-xe-dap-dien-tro-luc-khac-nhau-the-nao",
@@ -11706,8 +11706,37 @@
       "category_warning": null,
       "git_commit": "7ff3727fdfd7716ef5c6484de6730f887653310c",
       "run_id": "39231410457",
-      "updated_at": "2026-10-19T09:44:56.365057+00:00",
-      "wp_id": 4215
+      "updated_at": "2026-10-19T09:45:03.695539+00:00",
+      "wp_id": 4215,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cam-bien-mo-men-xoan-va-cam-bien-vong-quay-ban-dap-tren-xe-dap-dien-tro-luc-khac-nhau-the-nao/",
+      "verified_at": "2026-10-19T09:45:03.695532+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4215,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cam-bien-mo-men-xoan-va-cam-bien-vong-quay-ban-dap-tren-xe-dap-dien-tro-luc-khac-nhau-the-nao/",
+        "categories": [
+          166
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cam-bien-mo-men-xoan-va-cam-bien-vong-quay-ban-dap-tren-xe-dap-dien-tro-luc-khac-nhau-the-nao/",
+        "seo_title": "So sánh cảm biến mô-men xoắn xe đạp điện và cảm biến vòng quay",
+        "seo_description": "Điểm khác nhau giữa cảm biến mô-men xoắn xe đạp điện và cảm biến vòng quay bàn đạp: trợ lực lúc xuất phát, dừng, leo dốc, và cách biết xe bạn dùng loại nào.",
+        "checked_at": "2026-10-19T09:45:03.695512+00:00"
+      }
     }
   },
   "categories": {}
