@@ -1,0 +1,150 @@
+{
+  "topic_id": "NT-000537",
+  "status": "PASS",
+  "source_sha256": "cf840c6bd39ee7e7dd5235ad475e4c3c2770154d10550a90069065ec3e217deb",
+  "body_sha256": "73cdc19c29e2998558059f1f6e9f41f2b703c0dd5a31df6743fecdbf904c5747",
+  "word_count": 2809,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://thanglong.chinhphu.vn/gin-giu-gia-tri-di-san-van-hoa-phi-vat-the-roi-nuoc-dao-thuc-103241105134944192.htm",
+      "supports": "thanglong.chinhphu.vn (Chuyên trang Thủ đô, 5/11/2024): múa rối nước Đào Thục do tổ nghề Đào Đăng Khiêm (Nguyễn Đăng Vinh, 1658-1732) truyền dạy; năm 1984 khôi phục đủ 17 tích trò cổ và thêm 7 tích trò mới; Bộ VHTTDL ghi danh ngày 12/3/2023; làng cách trung tâm khoảng 25 km, văn bia ghi nghề có từ thời Lê Trung Hưng.",
+      "sha256": "e713908f6b58fcd507eb8ad7e3b8e3fc350998585e5e70f73a7b84dd23bbe498",
+      "verified_at": "2026-10-19T04:12:50.037166+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://hanoimoi.vn/phuong-mua-roi-300-tuoi-o-dao-thuc-636734.html",
+      "supports": "Báo Hà Nội Mới: thủy đình đầu làng cạnh ngôi chùa cổ là sân khấu rối nước; theo nghệ nhân cao niên nghề được cụ Nguyễn Đăng Vinh truyền dạy từ thời vua Lê Dụ Tông (1706-1729), hơn 300 năm; phường rối lưu giữ hơn 20 tích trò cổ.",
+      "sha256": "9978fd00d7e9deac06df1b12b0ccb614ac9ee9500746645fd990ce4d651cb0bf",
+      "verified_at": "2026-10-19T04:12:51.523228+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://daidoanket.vn/di-san-mua-roi-10025200.html",
+      "supports": "Báo Đại Đoàn Kết (bài cũ, không rõ năm): phường rối nước Đào Thục nổi tiếng với truyền thống hơn 350 năm và các trò Dệt cửi trao con, Trâu chui lên ống, Lên võng xuống ngựa, Phùng Hưng đánh hổ, Thạch Sanh chém trăn tinh; nhà nghiên cứu cho rằng rối nước xuất hiện từ đời Lý.",
+      "sha256": "e7fbba9b5760eb0f239b81289bb4e8f14ec5e2ae4a65d49d1922d266195881d8",
+      "verified_at": "2026-10-19T04:12:52.898688+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2424,
+        "title": "Dat Bike có những dòng xe nào? Tổng hợp các mẫu đáng chú ý",
+        "why": "stale",
+        "content_hash": "8547bbe19e35f1a3e720df88f2c659b744799c8f50115b8e6bfac67e10bf2889",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2449,
+        "title": "Honda Wave Alpha có bền không? Những điểm đáng chú ý khi sử dụng",
+        "why": "stale",
+        "content_hash": "d8a40ae58fa571dd85e22dbc1f6b3b5670560ab68d10c51d1f233ed1c128d0a7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2503,
+        "title": "Xe máy khó nổ do đâu? Các nguyên nhân thường gặp và cách kiểm tra",
+        "why": "stale",
+        "content_hash": "1bb521d9de866fa24f421032913e8b1ee3e5f294cfdb38c1dfe0cd216a360f24",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T04:12:58.614667+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "5e4e0002f114ae6d2b71e6cde8ea9f6f46a380d07bbd6412ea0b4701fac9d6a6",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -70,24 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://dsvh.gov.vn/di-tich-lich-su-den-hung-2939",
-      "supports": "Cục Di sản văn hóa (dsvh.gov.vn): khu di tích Đền Hùng trên núi Hùng, đất Phong Châu; 4 ngôi đền, 1 chùa, 1 lăng; mô tả cổng đền, đền Hạ, đền Trung, đền Thượng, lăng, đền Giếng, đền Âu Cơ (553 bậc đá), đền Lạc Long Quân; UNESCO ghi danh tín ngưỡng thờ cúng Hùng Vương.",
-      "sha256": "8114fc34927d8c46f777be290b06bd34a401069df261861e3f4e75884e3ae269",
-      "verified_at": "2026-10-19T03:59:09.395276+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnexpress.net/cam-nang-du-lich-phu-tho-4462060.html",
-      "supports": "VnExpress (đăng 11/5/2022, cập nhật 4/1/2024): Phú Thọ cách Hà Nội khoảng 90 km về phía tây bắc; ô tô theo cao tốc Hà Nội - Lào Cai; xe máy và ô tô còn đi quốc lộ 2 hoặc quốc lộ 32; lễ hội Đền Hùng ngày 10 tháng Ba âm lịch.",
-      "sha256": "8d8fe31704291f4ace965d585f62b965d623af829b6c64f14fe8a39348f8ab58",
-      "verified_at": "2026-10-19T03:59:11.707707+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -104,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T03:59:16.160020+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T04:09:43.932631+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "47e665b6837fe6111eb8ec3116b82816b6ece94c543c539827b0ec1b1979459a",
+  "inventory_sha256": "40b8c82fb544ac63efe59f4daa016fe3e9e9d88f00a88ec3f53d032e235a78a6",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

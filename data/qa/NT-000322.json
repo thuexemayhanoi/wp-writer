@@ -70,40 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://dantri.com.vn/suc-khoe/nang-nong-gay-gat-bo-y-te-khuyen-han-che-ra-duong-tu-10h-den-16h-20260526175718006.htm",
-      "supports": "Dân trí (26/05/2026) dẫn Cục Phòng bệnh, Bộ Y tế: say nắng, say nóng, đột quỵ do nóng; biểu hiện cảnh báo; xử trí ban đầu; hạn chế ra đường từ 10h đến 16h; quần áo sáng màu thoáng mát; uống tối thiểu 1,5–2 lít nước mỗi ngày, chia nhiều lần; không dùng đồ uống có cồn.",
-      "sha256": "8e41afa94bf569efa2623ff8de5d5da30099a4101c21e25eb17327c40a99c901",
-      "verified_at": "2026-10-19T03:54:46.906931+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://tuoitre.vn/phunuonline/bo-y-te-huong-dan-xu-tri-cac-benh-do-nang-nong-1101583474.htm",
-      "supports": "Tuổi Trẻ, mục Phụ nữ (26/05/2026) dẫn Hướng dẫn chăm sóc sức khỏe mùa nắng nóng của Cục Phòng bệnh: biểu hiện mức nhẹ và nặng của say nắng, say nóng; xử trí ban đầu; gọi cấp cứu 115 khi nặng; hạn chế ra ngoài từ 10 giờ sáng đến 4 giờ chiều; nghỉ 15–20 phút sau 45 phút đến 1 giờ làm việc (khuyến cáo cho người lao động).",
-      "sha256": "fa0e223905c8d177b9eca04085de1805c6c52223fbfc9b9b293508e22d463330",
-      "verified_at": "2026-10-19T03:54:48.557314+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://tuoitre.vn/mac-vay-ao-chong-nang-che-bien-so-xe-khi-chay-tren-duong-bi-phat-the-nao-100260824143945636.htm",
-      "supports": "Tuổi Trẻ (24/08/2026) dẫn cảnh báo trước đó của Cục CSGT (Bộ Công an): chọn áo, váy chống nắng vừa vặn, không quá rộng dài vì dễ cuốn vào bánh xe; người ngồi sau mặc gọn, không để áo trùm phần đuôi xe; khẩu trang che kín mặt hoặc vành mũ rộng phủ ngoài mũ bảo hiểm hạn chế tầm nhìn khi chuyển hướng, quay đầu.",
-      "sha256": "ed8267851e8c079b60be03f866328b28df997cfa10bcc8fe3d37cf66c517aeb4",
-      "verified_at": "2026-10-19T03:54:50.649391+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vov.gov.vn/nhung-luu-y-cho-chi-em-khi-di-xe-may-duoi-troi-nang-nong-de-tranh-tai-nan-dtnew-1083453",
-      "supports": "VOV (17/07/2025): váy, áo chống nắng dài bị cuốn vào bánh xe; bịt mặt quá kín khuất tầm nhìn; kính râm hạn chế tầm nhìn; giày cao gót mắc vạt áo; thói quen rẽ theo cảm tính, bật xi nhan xong rẽ ngay.",
-      "sha256": "3f38c8131e6c4fefc456529899b2f10a8136b7d636a3118315130265401b35c6",
-      "verified_at": "2026-10-19T03:54:56.375298+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -129,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T03:55:08.008884+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T04:09:30.280846+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "d7477d6c5f3eef026629a04d5b65a91400e9e64f4a2077c256121255c4664e2d",
+  "inventory_sha256": "3f4443640805eae9970c7de8e4326384fee68de7929053bc834043c9e76e8576",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

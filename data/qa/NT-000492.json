@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vov.gov.vn/bao-ton-va-phat-huy-hieu-qua-cac-gia-tri-di-tich-thanh-co-son-tay-dtnew-446866",
-      "supports": "VOV (02/11/2022): thành xây năm 1822 hoàn toàn bằng đá ong, được công nhận di tích cấp quốc gia năm 1994; hiện trạng bảo tồn khiêm tốn, bia biển và hướng dẫn tham quan còn thiếu; thị xã định hình tuyến phố đi bộ và chuỗi di sản.",
-      "sha256": "7b54032400d9ef23ebcf5fd14782b5baa97eef044aa327b82d7a62fe415dedc5",
-      "verified_at": "2026-10-19T03:57:48.470124+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://nhipsonghanoi.hanoimoi.vn/chung-tay-bao-ton-phat-huy-gia-tri-di-san-thanh-co-son-tay-681580.html",
-      "supports": "Nhịp sống Hà Nội (Hà Nội Mới): đường tham quan từ cửa Tiền (phía Nam) đến cửa Hậu qua giếng Ngọc, cột cờ, Đoan Môn, Vọng Cung; tuyến phố đi bộ ven thành; xây năm 1822 theo Đại Nam nhất thống chí; 6 tháng đầu 2024 thị xã đón hơn 60 vạn lượt khách.",
-      "sha256": "46127f96001c9cfd454f6e75f727119a942d59c5b6c6ce902ba76619cacaf98f",
-      "verified_at": "2026-10-19T03:57:50.124003+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://hanoimoi.vn/thanh-co-son-tay-diem-nhan-hoi-tu-cua-van-hoa-xu-doai-7467.html",
-      "supports": "Hà Nội Mới (Lễ kỷ niệm 200 năm Thành cổ Sơn Tây 1822-2022, tối 12/11): hình thành năm 1822 làm trọng trấn phía Tây thành Hà Nội; xây hoàn toàn bằng đá ong; tòa thành duy nhất xây bằng đá ong ở Việt Nam; các hạng mục phòng ngự.",
-      "sha256": "279fc546582fff7d7325d6d2ffb8e314e5c56045a6cd2887feff7c846ade25b3",
-      "verified_at": "2026-10-19T03:57:51.759290+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -112,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T03:57:57.665051+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T04:09:42.580639+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "2b2dee54cb1513b1fbd8cdf50e7910db25cee430c73e99d9b02bfdf4727c67d3",
+  "inventory_sha256": "ed594e7bf5de938cb3efdf4ba7f441babc22b18c20d4df6c39156a097d9c47c8",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

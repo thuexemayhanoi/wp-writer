@@ -1,0 +1,141 @@
+{
+  "topic_id": "NT-000642",
+  "status": "PASS",
+  "source_sha256": "69277c3dda3eb9fcae21cbb3fc6eaef388f34fc9272ff6cc3d270cc5fa056ecc",
+  "body_sha256": "585fe8ad98fbc6ab3f8cf007b6dde7aa280c9ec7cca9afe83a5d32d4fd556f27",
+  "word_count": 3068,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://tngo.vn/tapgo",
+      "supports": "Trang thẻ trả trước TapGo của TNGo (đọc 18/10/2026) nêu thẻ cho phép thuê xe không cần tải ứng dụng, kích hoạt bằng tin nhắn tới số 8066, mở và trả khóa bằng cách chạm thẻ RFID.",
+      "sha256": "38ba562b22981907859bc0aa85f805c74c129056c7bc13402a5d6602377b1ec5",
+      "verified_at": "2026-10-19T04:14:10.041510+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://tngo.vn/vi/news/canh-bao-quan-trong-khi-su-dung-xe-dap-cong-cong-tngo.html",
+      "supports": "Thông báo ngày 6/3/2026 của TNGo nêu ba điều không được làm: đưa xe ra ngoài vùng dịch vụ, bỏ xe ở bãi giữ xe thu phí, bỏ xe ngoài các trạm TNGo đã cấp phép; vi phạm bị phạt tiền và có thể khóa dịch vụ.",
+      "sha256": "8748c8629d2273f5eba7399fc4563ac340a8d2c92b180724dcbe4b443ae85508",
+      "verified_at": "2026-10-19T04:14:11.445451+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://tngo.vn/news/thi-diem-dich-vu-xe-dap-cong-cong-tngo-tai-ha-noi.html",
+      "supports": "Tin trên trang TNGo ngày 5/12/2022 cho biết UBND thành phố Hà Nội cho phép thí điểm dịch vụ xe đạp công cộng TNGo tại 6 quận nội thành, giai đoạn 1 gồm 1.000 xe tại 94 trạm.",
+      "sha256": "5aee2c479ea60bd6ad0dcc49bd4d586612d8cecccb24d0dc9d95d2b2a3977536",
+      "verified_at": "2026-10-19T04:14:14.774891+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://hanoimoi.vn/xe-dap-xanh-ket-noi-metro-them-lua-chon-di-chuyen-cho-sinh-vien-ha-noi-1761608.html",
+      "supports": "Báo Hànộimới 17/10/2026 nêu người dùng quét mã QR trên điện thoại để mở khóa xe sau khi xuống tàu, ứng dụng cho biết vị trí trạm và số xe, TNGo ghi nhận trung bình mỗi ngày khoảng 500 lượt xe đạp và 900 lượt xe đạp điện.",
+      "sha256": "67c35e2864fc00829af5788dfaace97363ef9da6623a5c0a8ff856efa2312b77",
+      "verified_at": "2026-10-19T04:14:16.026501+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://tngo.vn/usermanual",
+      "supports": "Trang Hướng dẫn sử dụng của TNGo (đọc 19/10/2026): điều khoản hiệu lực từ 1/7/2021 liệt kê thông tin đăng ký tài khoản gồm số CCCD, hộ chiếu hoặc thẻ sinh viên còn hạn, ảnh giấy tờ mặt trước và mặt sau và ảnh chụp khuôn mặt; câu hỏi thường gặp nêu cần số điện thoại di động tại Việt Nam để đăng ký.",
+      "sha256": "3a0440e8c12e993f3c8302b59ed46715a674bf9dc668745ef9b8b6db161ada04",
+      "verified_at": "2026-10-19T04:14:17.552748+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://tngo.vn/vi/news/thong-bao-su-kien-trai-nghiem-mien-phi-xe-dap-dien-tngo.html",
+      "supports": "Thông báo sự kiện ngày 10/12/2025 trên tngo.vn hướng dẫn tải ứng dụng E-TNGo, mô tả là ứng dụng dành riêng cho xe đạp điện tại Hà Nội, đăng ký bằng email với mã OTP gửi về email và ảnh căn cước công dân hai mặt.",
+      "sha256": "50b545e7aaf9fd9dd9858e04c1267fe9ea80fcc975213d52072d10935e1b09c6",
+      "verified_at": "2026-10-19T04:14:18.553759+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-19T04:14:23.575967+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "d74bb4fedfe10af72414afebe4242fdbd0768c447d51eed0b35847d80e299599",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
