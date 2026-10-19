@@ -13611,7 +13611,7 @@
       }
     },
     "NT-000711": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T17:16:12.275441+00:00",
       "source_hash": "543ada9a5b1c9250120362aed68bdf7fe9df1de8c52d1232158d085efecef5bd",
       "slug": "honda-winner-r-va-yamaha-exciter-155-hai-xe-150-155cc-khac-nhau-o-thong-so-nao-theo-hang",
@@ -13627,8 +13627,37 @@
       "category_warning": null,
       "git_commit": "14ee0463fdf8de3bfc2dde30f2f136b8951d20dd",
       "run_id": "39292035900",
-      "updated_at": "2026-10-19T17:16:16.606152+00:00",
-      "wp_id": 4261
+      "updated_at": "2026-10-19T17:16:22.845055+00:00",
+      "wp_id": 4261,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/honda-winner-r-va-yamaha-exciter-155-hai-xe-150-155cc-khac-nhau-o-thong-so-nao-theo-hang/",
+      "verified_at": "2026-10-19T17:16:22.845048+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4261,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/honda-winner-r-va-yamaha-exciter-155-hai-xe-150-155cc-khac-nhau-o-thong-so-nao-theo-hang/",
+        "categories": [
+          156
+        ],
+        "canonical": "https://thuexemaynguyentu.com/honda-winner-r-va-yamaha-exciter-155-hai-xe-150-155cc-khac-nhau-o-thong-so-nao-theo-hang/",
+        "seo_title": "Winner R và Exciter 155: thông số khác nhau theo trang Honda, Yamaha",
+        "seo_description": "Honda Winner R và Yamaha Exciter 155 theo trang hãng ngày 19/10/2026: động cơ, kích thước, khối lượng, bình xăng, ABS, mức tiêu thụ và cách đối chiếu khi xem xe.",
+        "checked_at": "2026-10-19T17:16:22.845030+00:00"
+      }
     }
   },
   "categories": {}
