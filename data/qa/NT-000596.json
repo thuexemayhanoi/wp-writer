@@ -1,0 +1,157 @@
+{
+  "topic_id": "NT-000596",
+  "status": "PASS",
+  "source_sha256": "b499bde5c3964f6a2a211d075b4d9cf838e1de55d4cdf95d30142b6762aa1419",
+  "body_sha256": "326014254b12663c4d607ba2f9943ec5b0e5cf0ccbb19fd091098c528242a19c",
+  "word_count": 2998,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-201-how-does-the-lead-acid-battery-work",
+      "supports": "Battery University BU-201 (21/10/2021): ắc quy chì deep-cycle cho 200–300 chu kỳ xả/sạc tùy độ sâu xả; lão hóa nhanh hơn khi nhiệt độ cao và dòng xả lớn; bảng 3 cho số chu kỳ theo độ sâu xả.",
+      "sha256": "b0afcbf7a8bd8f0928bc63c9604384a1017acbf1e59d821f82892acdd02be7e2",
+      "verified_at": "2026-10-19T09:44:09.873216+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-804-how-to-prolong-lead-acid-batteries",
+      "supports": "Battery University BU-804 (02/11/2021): ắc quy deep-cycle cho 100–200 chu kỳ trước khi suy giảm dần; nên thay khi dung lượng còn 70–80%, không nên để dưới 50%.",
+      "sha256": "516539c5c8604a4c5930801bca57e3bdd2bd0b72ceee4e096a6093a68266603a",
+      "verified_at": "2026-10-19T09:44:12.796855+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-403-charging-lead-acid",
+      "supports": "Battery University BU-403: ắc quy chì giữ ở điện áp duy trì 2,25–2,30 V/cell và 20–25°C bắt đầu mất dung lượng vĩnh viễn vượt mốc 80% sau 4 năm, nhiều hơn nếu xả sâu định kỳ.",
+      "sha256": "2277bfeccd8418f4236877fa3a50928587e5435f882365a235408bc9dab00e7e",
+      "verified_at": "2026-10-19T09:44:16.099457+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://pinaco.com/chi-tiet-pinaco-va-doi-song/nhung-thac-mac-thuong-gap-ve-ac-quy-xe-dien-1367.html",
+      "supports": "Pinaco (câu hỏi thường gặp đăng lại 18/03/2021): ắc quy kém chất lượng chai sau vài tháng, ắc quy công nghệ cao bền tới 3–4 năm.",
+      "sha256": "5d349b00ac0856fae79f93c5f5f1bfa5872ddb7a9a88694787456fd816164390",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-701-how-to-prime-batteries",
+      "supports": "Battery University BU-701: ắc quy chì thường đạt dung lượng đầy đủ sau 50–100 chu kỳ.",
+      "sha256": "b260cfcd8e40cce59b75e4c64d644167b276c031e05377d78197d6fe4e2a3534",
+      "verified_at": "2026-10-19T09:44:18.982578+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-804b-sulfation-and-how-to-prevent-it",
+      "supports": "Battery University BU-804b: ví dụ ắc quy xe lăn điện thọ khoảng 2 năm so với gấp đôi ở xe golf cùng loại ắc quy, được cho là do chế độ sạc đủ hay không.",
+      "sha256": "a21f1947a379480043ed726117652b12d4985b0ee04f3b8f8f9d7cca744c40c4",
+      "verified_at": "2026-10-19T09:44:20.376184+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2419,
+        "title": "Các mẫu xe máy điện Yadea đáng chú ý cho nhu cầu đi lại hằng ngày",
+        "why": "stale",
+        "content_hash": "7bc38bc17116cc544098848d7efca54f1bc888d1f57abe8145c1da084d9bbeb5",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:44:27.995732+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "f0b78475467528397f9df247af1b9f5a1fb2771f457fa547205e7b50301ea8be",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

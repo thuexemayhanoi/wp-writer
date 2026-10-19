@@ -1,0 +1,116 @@
+{
+  "topic_id": "NT-000627",
+  "status": "PASS",
+  "source_sha256": "d38df40b5489324ce9aa2a3e560ee298b8747aed758727911fa5acbcacd9d6b5",
+  "body_sha256": "a16098ae00ce57370c21b7d723b62a15becbee15ab84766556897fabc781d034",
+  "word_count": 2576,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2388,
+        "title": "Xe máy điện VinFast đi được bao nhiêu km sau mỗi lần sạc đầy?",
+        "why": "stale",
+        "content_hash": "e5285dab933a9e8523fa7f789f9bd5d57691724f1704aeef3c150a4cd22802f9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2517,
+        "title": "Xe ga rung khi tăng tốc do đâu? Các nguyên nhân thường gặp khi dùng",
+        "why": "stale",
+        "content_hash": "44f236046c1f74ea9761d7bd0ae2d3b0ea286bc2118a85e0aadf8beb2df1afc1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:38:25.729368+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "0df280b109cee7201b8b7d14491f07ae83db40ba55a951c7ff7e9af7d6e36557",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
