@@ -7609,6 +7609,24 @@
         "seo_description": "Công suất danh định và tối đa xe máy điện khác nhau ra sao: cặp số của Yamaha NEO's, VinFast Feliz S, Dat Bike Quantum, Theon và cách so hai xe công bằng.",
         "checked_at": "2026-10-19T03:50:36.652046+00:00"
       }
+    },
+    "NT-000616": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-19T03:50:52.732031+00:00",
+      "source_hash": "3b895b323d596abcd17b6be81964746c43cc8dfc0a8453f18682ec67b7cda5d9",
+      "slug": "ap-suat-lop-xe-may-dien-moi-mau-mot-muc-kpa-nen-doc-trong-so-huong-dan-cua-dung-xe",
+      "expected_status": "publish",
+      "category_id": 160,
+      "visible_hash": "a1ea1013f2a8655ec66279772624fb6e22d4c60bf0c68fe751e431468c7d250e",
+      "first_paragraph": "Áp suất lốp xe máy điện không có một mức chung cho mọi xe: tài liệu của từng hãng ghi số kPa riêng cho từng mẫu xe, cỡ lốp và tải trọng. Sổ hướng dẫn VinFast Feliz S (mã BOL00008955, bản 07) ghi bánh trước 200 kPa và bánh sau 225 kPa, sổ hướng dẫn VinFast Theon (mã BOL00004723, bản 08) ghi 190 kPa và 210 kPa, còn hướng dẫn xe Dat Bike Quantum ghi 310 kPa (45 psi) cho cả người lái một mình lẫn khi có người ngồi sau. Vì vậy hãy tìm mức áp suất trong bảng thông số của sổ hướng dẫn đúng đời xe, hoặc trên tem dán ở xe nếu xe có tem, đo khi lốp nguội, và đừng lấy con số của xe khác để bơm.",
+      "meta_title": "Áp suất lốp xe máy điện: mỗi mẫu một mức kPa, đọc sổ đúng xe",
+      "meta_description": "Áp suất lốp xe máy điện không có mức chung: so sánh số kPa trong sổ VinFast Feliz S, Theon, Dat Bike Quantum và cách tìm đúng mức cho xe của bạn.",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "38bc69a324114f1f907a43640152363ba3e280fc",
+      "run_id": "39195944943",
+      "updated_at": "2026-10-19T03:50:52.734300+00:00"
     }
   },
   "categories": {}
