@@ -10491,7 +10491,7 @@
       }
     },
     "NT-000563": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T05:55:33.611912+00:00",
       "source_hash": "e493e1f5267fde15cde9283aac384f0cc63e768a756899e3cf2ec6ce32bb9f64",
       "slug": "sa-pa-bang-xe-may-tu-ha-noi-hai-lo-trinh-360-va-420-km-thang-nao-di-va-mua-mua-bao-thang-6-8",
@@ -10506,8 +10506,37 @@
       "category_warning": null,
       "git_commit": "db7e6df978fe9266399ca08ecdfac39002649254",
       "run_id": "39206693185",
-      "updated_at": "2026-10-19T05:55:37.222214+00:00",
-      "wp_id": 4188
+      "updated_at": "2026-10-19T05:55:42.976055+00:00",
+      "wp_id": 4188,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/sa-pa-bang-xe-may-tu-ha-noi-hai-lo-trinh-360-va-420-km-thang-nao-di-va-mua-mua-bao-thang-6-8/",
+      "verified_at": "2026-10-19T05:55:42.976048+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4188,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/sa-pa-bang-xe-may-tu-ha-noi-hai-lo-trinh-360-va-420-km-thang-nao-di-va-mua-mua-bao-thang-6-8/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/sa-pa-bang-xe-may-tu-ha-noi-hai-lo-trinh-360-va-420-km-thang-nao-di-va-mua-mua-bao-thang-6-8/",
+        "seo_title": "Sa Pa bằng xe máy từ Hà Nội: hai lộ trình và tháng nên đi",
+        "seo_description": "Sa Pa bằng xe máy từ Hà Nội theo VnExpress: lộ trình 360 và 420 km (bài 2020), tháng nên đi, mưa bão từ tháng 6 đến đầu tháng 8 và lời khuyên xe số ở đèo Ô Quy Hồ.",
+        "checked_at": "2026-10-19T05:55:42.976029+00:00"
+      }
     }
   },
   "categories": {}
