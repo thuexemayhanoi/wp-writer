@@ -70,41 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.gov.uk/foreign-travel-advice/vietnam/safety-and-security",
-      "supports": "Trang tư vấn của Anh (cập nhật 21/09/2026), mục Cigarettes and alcohol from street vendors: nên tránh mua rượu hoặc thuốc lá từ người bán rong hay người lạ vì không bảo đảm hàng thật; vape và các sản phẩm liên quan bị cấm, không mua được vape ở Việt Nam và không mang vape vào nước này",
-      "sha256": "a2d5eeadc18979325d7eabf475624e42e88db391550a35a45fab429cad2935c1",
-      "verified_at": "2026-10-19T05:31:18.306953+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://travel.gc.ca/destinations/vietnam",
-      "supports": "Trang tư vấn của Canada (cập nhật 13/10/2026), mục Electronic cigarettes and vaporizers: không thể mang thuốc lá điện tử hay thiết bị vape vào Việt Nam; mang vào, bán, dùng hay phân phối thuốc lá điện tử, thiết bị vape và dung dịch vape đều bất hợp pháp; người bị kết án có thể bị phạt nặng hoặc tù",
-      "sha256": "126c661b0baedc6f2c337d9d931cfdb12a6a068ad2779ba0c38fbef1e0fbf156",
-      "verified_at": "2026-10-19T05:31:19.465212+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
-      "supports": "Trang Smartraveller của Úc (cập nhật 24/09/2026), mục Local laws: bất hợp pháp khi mua, dùng, sở hữu, bán hoặc mang vào thuốc lá điện tử (e-cigarette), thiết bị vape và dung dịch vape; danh sách các hành vi bất hợp pháp này đi kèm câu rằng các hoạt động đó có thể dẫn đến bị bắt và tù",
-      "sha256": "b21f280d5c64c04d3676dbcb17d6d239db87531c6c946119451121226fe3e36f",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    },
-    {
-      "url": "https://en.baochinhphu.vn/viet-nam-to-ban-e-cigarettes-from-2025-111241201154851979.htm",
-      "supports": "Bài của Báo điện tử Chính phủ bản tiếng Anh (Viet Nam Government News) đăng 30/11/2024: Quốc hội ngày 30/11 thống nhất cấm thuốc lá điện tử từ 2025 để bảo vệ sức khỏe cộng đồng, trật tự và an toàn xã hội; quyết định theo đề xuất của Bộ Y tế vì thuốc lá điện tử có thể gây nghiện do hàm lượng nicotine cao và gây các bệnh nặng; Thủ tướng đã giao Bộ Tài chính chỉ đạo hải quan kiểm soát chặt việc vận chuyển thuốc lá điện tử và thuốc lá nung nóng lậu qua cửa khẩu",
-      "sha256": "4afbb97b40183d5a0d7616736d832ae8c2ef86150d3c484034db5241f8746585",
-      "verified_at": "2026-10-19T05:31:23.903051+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -157,11 +123,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T05:31:28.763712+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T05:33:20.757830+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "b5a37388c74e42e91b8d10a160dd62147817de2650dddfa185fe5f9957e62183",
+  "inventory_sha256": "cacbb9875fe680d2dd8ec2b6fbe7a05860a7dccf5bf65711802e7e903467ff53",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
