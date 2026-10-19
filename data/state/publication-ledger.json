@@ -15571,7 +15571,7 @@
       }
     },
     "NT-001044": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:37:52.864837+00:00",
       "source_hash": "076d8058dee1d8a53e9b787d5cc37d87c900ee83871c389f9c2d507ecbc6a821",
       "slug": "cho-long-bien-ha-noi-cho-dau-moi-hoa-qua-duoi-chan-cau-hop-thau-dem-cao-diem-0-2-gio-sang-va-xuong-cap",
@@ -15587,8 +15587,37 @@
       "category_warning": null,
       "git_commit": "831e787f61d4c3e1a9b7ce9fb2ac46efde8cc15c",
       "run_id": "39327874140",
-      "updated_at": "2026-10-19T21:37:57.121782+00:00",
-      "wp_id": 4311
+      "updated_at": "2026-10-19T21:38:03.319922+00:00",
+      "wp_id": 4311,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cho-long-bien-ha-noi-cho-dau-moi-hoa-qua-duoi-chan-cau-hop-thau-dem-cao-diem-0-2-gio-sang-va-xuong-cap/",
+      "verified_at": "2026-10-19T21:38:03.319915+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4311,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cho-long-bien-ha-noi-cho-dau-moi-hoa-qua-duoi-chan-cau-hop-thau-dem-cao-diem-0-2-gio-sang-va-xuong-cap/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cho-long-bien-ha-noi-cho-dau-moi-hoa-qua-duoi-chan-cau-hop-thau-dem-cao-diem-0-2-gio-sang-va-xuong-cap/",
+        "seo_title": "Chợ Long Biên Hà Nội: chợ đầu mối hoa quả, giờ cao điểm 0–2h",
+        "seo_description": "Chợ Long Biên Hà Nội là chợ đầu mối hoa quả dưới gầm cầu, nhộn nhịp về đêm. Tóm tắt quy mô, giờ cao điểm 0h–2h theo VnExpress và hiện trạng theo Dân trí 2/4/2025.",
+        "checked_at": "2026-10-19T21:38:03.319897+00:00"
+      }
     }
   },
   "categories": {}
