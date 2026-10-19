@@ -9531,7 +9531,7 @@
       }
     },
     "NT-000540": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T04:26:14.409920+00:00",
       "source_hash": "dd2df7aa7dd85957d24f87f1b23232a868e53a9909369b91bb3b7762eaf22986",
       "slug": "den-dong-co-o-tay-ho-hoi-the-trung-hieu-mung-4-thang-tu-am-lich-tho-than-trong-dong-va-viec-ghi-danh",
@@ -9546,8 +9546,37 @@
       "category_warning": null,
       "git_commit": "2cb3f7cae1adecfb9e587dc89db04083e2c52c6b",
       "run_id": "39199122339",
-      "updated_at": "2026-10-19T04:26:18.108211+00:00",
-      "wp_id": 4168
+      "updated_at": "2026-10-19T04:26:23.780011+00:00",
+      "wp_id": 4168,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/den-dong-co-o-tay-ho-hoi-the-trung-hieu-mung-4-thang-tu-am-lich-tho-than-trong-dong-va-viec-ghi-danh/",
+      "verified_at": "2026-10-19T04:26:23.780005+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4168,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/den-dong-co-o-tay-ho-hoi-the-trung-hieu-mung-4-thang-tu-am-lich-tho-than-trong-dong-va-viec-ghi-danh/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/den-dong-co-o-tay-ho-hoi-the-trung-hieu-mung-4-thang-tu-am-lich-tho-than-trong-dong-va-viec-ghi-danh/",
+        "seo_title": "Hội thề Trung hiếu đền Đồng Cổ: ngày hội âm lịch, thờ ai và ghi danh",
+        "seo_description": "Hội thề Trung hiếu đền Đồng Cổ ở Tây Hồ: mùng 4 hay mùng 3 và 4 tháng Tư âm lịch, đền xây năm 1028 hay 1020, lời thề, ghi danh di sản quốc gia năm 2023 và cách kiểm tra lịch.",
+        "checked_at": "2026-10-19T04:26:23.779986+00:00"
+      }
     }
   },
   "categories": {}
