@@ -1,0 +1,134 @@
+{
+  "topic_id": "NT-000854",
+  "status": "PASS",
+  "source_sha256": "91b3102e5de177d60c91a2ebf84a5ecdd6715c8e4db3627b5802d6a16ef3282a",
+  "body_sha256": "e957f34875272cfb519ed3bdef709f4ce5b7ba2956b83a54e3e6ff57a4642457",
+  "word_count": 3585,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://hart.honda.com.au/resources/safety-and-riding-tips/carrying-passengers-and-cargo",
+      "supports": "Trang Carrying passengers and cargo của HART (đại lý Honda tại Úc, © 2025): mỗi xe có tải tối đa do hãng quy định, là hiệu giữa khối lượng xe không tải và khối lượng tối đa cho phép của xe cùng tải, gồm người lái và người ngồi sau; túi hai bên, giá chở hàng cũng cộng thêm khối lượng; cần xem sách hướng dẫn để biết giới hạn khối lượng, áp suất lốp và cài đặt giảm xóc khi chở thêm",
+      "sha256": "92abd3952253214c4d1916bd38a41c46f994406febf73dc907aca3473d92c971",
+      "verified_at": "2026-10-19T14:34:37.452449+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2374,
+        "title": "Xe máy điện đi mưa có an toàn không? Cách sử dụng đúng và bền",
+        "why": "stale",
+        "content_hash": "f86d1aa55c92feadb7f1f7424eb5a8881f374d07d09eba557a5974bddc4ab23f",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2388,
+        "title": "Xe máy điện VinFast đi được bao nhiêu km sau mỗi lần sạc đầy?",
+        "why": "stale",
+        "content_hash": "e5285dab933a9e8523fa7f789f9bd5d57691724f1704aeef3c150a4cd22802f9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2569,
+        "title": "Xe ga tốn xăng hơn xe số bao nhiêu khi sử dụng trong thành phố?",
+        "why": "stale",
+        "content_hash": "0e0403a44ff6ce7c19068379c2905b55413b5e6b08f79ca8a2a469fd0114f8e0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T14:34:47.373016+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "3330cefaefeff4739dc13dfd0a209efdab91075e026a7ab8e115a28db6911137",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
