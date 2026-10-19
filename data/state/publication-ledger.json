@@ -12219,7 +12219,7 @@
       }
     },
     "NT-000630": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T09:56:33.747346+00:00",
       "source_hash": "7001099b0b9f5cd3cd0860a10c6da2711823119e92cd2957f441741548ee386d",
       "slug": "bo-dieu-khien-controller-tren-xe-dien-nam-giua-tay-ga-pin-va-dong-co-de-lam-gi",
@@ -12234,8 +12234,37 @@
       "category_warning": null,
       "git_commit": "ad7436cbb3bd456dab0d347148b62ea3ffb579a0",
       "run_id": "39232643217",
-      "updated_at": "2026-10-19T09:56:37.914368+00:00",
-      "wp_id": 4226
+      "updated_at": "2026-10-19T09:56:43.851904+00:00",
+      "wp_id": 4226,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bo-dieu-khien-controller-tren-xe-dien-nam-giua-tay-ga-pin-va-dong-co-de-lam-gi/",
+      "verified_at": "2026-10-19T09:56:43.851898+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4226,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bo-dieu-khien-controller-tren-xe-dien-nam-giua-tay-ga-pin-va-dong-co-de-lam-gi/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bo-dieu-khien-controller-tren-xe-dien-nam-giua-tay-ga-pin-va-dong-co-de-lam-gi/",
+        "seo_title": "Bộ điều khiển xe điện controller làm gì giữa tay ga, pin và động cơ",
+        "seo_description": "Bộ điều khiển xe điện controller nhận tín hiệu tay ga, điều tiết dòng điện từ pin tới động cơ. Bài đối chiếu Yamaha, Trek, Dat Bike, AFDC (ô tô điện), nêu rõ điều nguồn chưa nói.",
+        "checked_at": "2026-10-19T09:56:43.851880+00:00"
+      }
     }
   },
   "categories": {}
