@@ -12891,7 +12891,7 @@
       }
     },
     "NT-000844": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T14:41:08.790724+00:00",
       "source_hash": "3440f436cf3828b7d03582ff72554d2be33db6d1c526babfffde0ee375ba4643",
       "slug": "mua-vang-bac-son-bang-xe-may-tu-ha-noi-quoc-lo-3-roi-1b-le-hoi-thang-10-lang-quynh-son-va-leo-nui-na-lay",
@@ -12906,8 +12906,37 @@
       "category_warning": null,
       "git_commit": "aea88871b9149dde6a66bc7752c176882d264eb8",
       "run_id": "39270502236",
-      "updated_at": "2026-10-19T14:41:13.184478+00:00",
-      "wp_id": 4245
+      "updated_at": "2026-10-19T14:41:19.453365+00:00",
+      "wp_id": 4245,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/mua-vang-bac-son-bang-xe-may-tu-ha-noi-quoc-lo-3-roi-1b-le-hoi-thang-10-lang-quynh-son-va-leo-nui-na-lay/",
+      "verified_at": "2026-10-19T14:41:19.453358+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4245,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/mua-vang-bac-son-bang-xe-may-tu-ha-noi-quoc-lo-3-roi-1b-le-hoi-thang-10-lang-quynh-son-va-leo-nui-na-lay/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/mua-vang-bac-son-bang-xe-may-tu-ha-noi-quoc-lo-3-roi-1b-le-hoi-thang-10-lang-quynh-son-va-leo-nui-na-lay/",
+        "seo_title": "Mùa vàng Bắc Sơn bằng xe máy từ Hà Nội: thời điểm, đường đi, Nà Lay",
+        "seo_description": "Mùa vàng Bắc Sơn là tháng nào? Tổng hợp VnExpress 2018 và Báo Lạng Sơn 2023–2024: lễ hội tháng 10, đường xe máy quốc lộ 3 rồi 1B, làng Quỳnh Sơn, núi Nà Lay.",
+        "checked_at": "2026-10-19T14:41:19.453329+00:00"
+      }
     }
   },
   "categories": {}
