@@ -7323,7 +7323,7 @@
       }
     },
     "NT-000344": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T03:45:39.247566+00:00",
       "source_hash": "e21a01add28d68666b331a9cc47c443dcc63dd7dd354f4bddb3a5627a0d079a1",
       "slug": "deo-tai-nghe-khi-lai-xe-may-dieu-luat-cam-muc-phat-diem-bi-tru-ngoai-le-thiet-bi-tro-thinh",
@@ -7338,8 +7338,37 @@
       "category_warning": null,
       "git_commit": "38bc69a324114f1f907a43640152363ba3e280fc",
       "run_id": "39195944943",
-      "updated_at": "2026-10-19T03:45:42.891314+00:00",
-      "wp_id": 4122
+      "updated_at": "2026-10-19T03:45:47.930375+00:00",
+      "wp_id": 4122,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/deo-tai-nghe-khi-lai-xe-may-dieu-luat-cam-muc-phat-diem-bi-tru-ngoai-le-thiet-bi-tro-thinh/",
+      "verified_at": "2026-10-19T03:45:47.930367+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4122,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/deo-tai-nghe-khi-lai-xe-may-dieu-luat-cam-muc-phat-diem-bi-tru-ngoai-le-thiet-bi-tro-thinh/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/deo-tai-nghe-khi-lai-xe-may-dieu-luat-cam-muc-phat-diem-bi-tru-ngoai-le-thiet-bi-tro-thinh/",
+        "seo_title": "Đeo tai nghe khi lái xe máy: điều luật cấm, mức phạt, điểm trừ",
+        "seo_description": "Đeo tai nghe khi lái xe máy bị cấm theo điều nào? Mức phạt 800.000 đến 1.000.000 đồng, trừ 04 điểm theo Bộ Công an, ngoại lệ thiết bị trợ thính và điều văn bản chưa nói rõ.",
+        "checked_at": "2026-10-19T03:45:47.930343+00:00"
+      }
     }
   },
   "categories": {}
