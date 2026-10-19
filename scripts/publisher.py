@@ -54,6 +54,10 @@ def delivery_route(topic,policy,registry,categories,create_category=None,accepta
     if not (public or staging or acceptance_draft):
         raise ValueError('WordPress delivery is not approved')
     intended=topic['taxonomy_key']
+    # The owner's 51-ward campaign must never be staged as a WP draft,
+    # including explicit acceptance-draft/test modes.
+    if intended == 'hanoi-ward-rentals' and not public:
+        raise ValueError('HANOI_WARD_PUBLIC_ONLY: keep article on GitHub')
     try:
         term_id=resolve(intended,registry,categories)
         return {'status':'publish' if public else 'draft','category_id':term_id,
