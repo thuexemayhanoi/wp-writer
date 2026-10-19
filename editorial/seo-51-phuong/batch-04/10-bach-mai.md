@@ -84,7 +84,7 @@ Người ở trong ngõ hoặc gần khu học tập nên gửi vị trí chính
 
 Trước khi nhận chìa khóa, chụp ảnh tình trạng thân xe từ nhiều phía, các vết xước có sẵn, biển số và đồng hồ. Kiểm tra lốp, hai gương, tay phanh, chân phanh hoặc tay ga, đèn, còi, khóa và chống. Nếu là xe ga 50cc, hỏi chính xác tên mẫu và thông số giấy tờ; nếu là Wave, thử cách vào số ở nơi an toàn. Không cần tự tháo bộ phận kỹ thuật, nhưng dấu hiệu bất thường phải được nêu trước khi nhận.
 
-Đối chiếu số tiền cọc, giá kỳ thuê, ngày giờ nhận–trả và khoản phí khác trên tin nhắn hoặc hợp đồng. Giữ số hỗ trợ của cửa hàng; nếu xe gặp trục trặc giữa đường, dừng ở nơi an toàn và liên hệ bên cho thuê trước khi tự ý sửa. Một vết xước vốn đã có sẽ dễ giải thích khi cả hai bên cùng ghi nhận lúc giao.
+Đối chiếu số tiền cọc, giá kỳ thuê, ngày giờ nhận–trả và khoản phí khác trên tin nhắn hoặc hợp đồng. Có thể tham khảo [hướng dẫn hợp đồng thuê xe máy Nguyễn Tú](https://thuexemaynguyentu.com/hop-dong-thue-xe-may/) để có một danh sách điều khoản trước khi đặt. Giữ số hỗ trợ của cửa hàng; nếu xe gặp trục trặc giữa đường, dừng ở nơi an toàn và liên hệ bên cho thuê trước khi tự ý sửa. Một vết xước vốn đã có sẽ dễ giải thích khi cả hai bên cùng ghi nhận lúc giao.
 
 Khi trả xe, đối chiếu ảnh ban đầu, kiểm tra nhiên liệu theo thỏa thuận và đề nghị xác nhận khoản cọc đã hoàn trả. Không để tới ngày cuối mới hỏi tiền cọc được giữ trong trường hợp nào.
 
