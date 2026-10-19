@@ -11547,7 +11547,7 @@
       }
     },
     "NT-000592": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T09:43:25.625043+00:00",
       "source_hash": "125f0b208276565b13c869d7cd64315e81cb7f9ae4bfa5d9af83507d958218fa",
       "slug": "sac-lan-dau-cho-xe-dien-moi-mua-ac-quy-chi-va-pin-lithium-co-can-luyen-khong",
@@ -11562,8 +11562,37 @@
       "category_warning": null,
       "git_commit": "7ff3727fdfd7716ef5c6484de6730f887653310c",
       "run_id": "39231410457",
-      "updated_at": "2026-10-19T09:43:29.566248+00:00",
-      "wp_id": 4212
+      "updated_at": "2026-10-19T09:43:35.250532+00:00",
+      "wp_id": 4212,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/sac-lan-dau-cho-xe-dien-moi-mua-ac-quy-chi-va-pin-lithium-co-can-luyen-khong/",
+      "verified_at": "2026-10-19T09:43:35.250525+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4212,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/sac-lan-dau-cho-xe-dien-moi-mua-ac-quy-chi-va-pin-lithium-co-can-luyen-khong/",
+        "categories": [
+          167
+        ],
+        "canonical": "https://thuexemaynguyentu.com/sac-lan-dau-cho-xe-dien-moi-mua-ac-quy-chi-va-pin-lithium-co-can-luyen-khong/",
+        "seo_title": "Sạc lần đầu cho xe điện mới mua: ắc quy chì và pin lithium",
+        "seo_description": "Sạc lần đầu cho xe điện mới mua có cần luyện không? Battery University, Pinaco, VinFast, Dat Bike và PCCC nói gì về ắc quy chì, pin lithium và mốc 8 đến 12 giờ.",
+        "checked_at": "2026-10-19T09:43:35.250496+00:00"
+      }
     }
   },
   "categories": {}
