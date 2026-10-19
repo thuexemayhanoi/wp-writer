@@ -14052,7 +14052,7 @@
       }
     },
     "NT-000720": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T19:44:23.745738+00:00",
       "source_hash": "121c21fa3ec9c972c190a8924a17c1674c8a6dd16b008d22c55a48b264880a1f",
       "slug": "bao-hanh-xe-honda-va-yamaha-thoi-han-xe-xang-xe-dien-pin-lithium-va-hang-muc-khong-bao-hanh",
@@ -14068,8 +14068,37 @@
       "category_warning": null,
       "git_commit": "55a95e3283e956d049b0055217266341922b355e",
       "run_id": "39312220935",
-      "updated_at": "2026-10-19T19:44:27.844782+00:00",
-      "wp_id": 4280
+      "updated_at": "2026-10-19T19:44:33.944696+00:00",
+      "wp_id": 4280,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bao-hanh-xe-honda-va-yamaha-thoi-han-xe-xang-xe-dien-pin-lithium-va-hang-muc-khong-bao-hanh/",
+      "verified_at": "2026-10-19T19:44:33.944691+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4280,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bao-hanh-xe-honda-va-yamaha-thoi-han-xe-xang-xe-dien-pin-lithium-va-hang-muc-khong-bao-hanh/",
+        "categories": [
+          156
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bao-hanh-xe-honda-va-yamaha-thoi-han-xe-xang-xe-dien-pin-lithium-va-hang-muc-khong-bao-hanh/",
+        "seo_title": "Bảo hành xe Honda và Yamaha: thời hạn, pin lithium, hạng mục loại trừ",
+        "seo_description": "Bảo hành xe Honda và Yamaha theo trang chính sách: Honda 36 đến 33 tháng tùy ngày kích hoạt, Yamaha 3 năm có điều kiện, pin lithium, sạc và hạng mục không bảo hành.",
+        "checked_at": "2026-10-19T19:44:33.944671+00:00"
+      }
     }
   },
   "categories": {}
