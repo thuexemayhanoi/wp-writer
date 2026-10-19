@@ -4,17 +4,17 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-19T01:09:41.713982+00:00 |
-| existing_published_posts | 311 |
+| at | 2026-10-19T01:12:23.831288+00:00 |
+| existing_published_posts | 313 |
 | existing_pages | 10 |
 | existing_products | 13 |
-| candidate_topics | 293 |
-| planned_topics | 220 |
-| claimable_topics | 6 |
-| ready_stock | 0 |
-| stock_stages | {'IDEA': 240, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 0, 'PLANNED_HOLD': 3, 'CLAIMED': 53, 'AUTHORED': 1, 'QA_PASS': 0, 'PUBLISHED': 163, 'WP_DRAFT': 0} |
+| candidate_topics | 296 |
+| planned_topics | 223 |
+| claimable_topics | 9 |
+| ready_stock | 3 |
+| stock_stages | {'IDEA': 240, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 3, 'PLANNED_HOLD': 3, 'CLAIMED': 53, 'AUTHORED': 1, 'QA_PASS': 0, 'PUBLISHED': 163, 'WP_DRAFT': 0} |
 | needs_research | True |
-| research_shortfall | 900 |
+| research_shortfall | 897 |
 | refill_trigger_below_ready | 900 |
 | refill_round_target | 100-200 |
 | refill_state | REFILL_IN_PROGRESS |
@@ -38,12 +38,12 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | empty_category_violations | 0 |
 | broken_links | None |
 | broken_links_note | No full HTTP crawl yet; inventory graph is not a broken-link proof |
-| remaining_topic_target | 780 |
-| remaining_candidate_target | 707 |
+| remaining_topic_target | 777 |
+| remaining_candidate_target | 704 |
 | delivery_mode | production |
 | production_enabled | True |
 | draft_staging_enabled | False |
-| qa_pass_live_checked | 2 |
+| qa_pass_live_checked | 0 |
 | qa_pass_awaiting_wordpress | 0 |
 | queued_topic_ids | [] |
 | pending_wordpress_intents | [] |
