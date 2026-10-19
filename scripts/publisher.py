@@ -47,7 +47,7 @@ def delivery_route(topic,policy,registry,categories,create_category=None,accepta
     No category is guessed or created silently. Intended category and warning
     are recorded durably so an editor can later finish taxonomy on WordPress.
     """
-    if topic.get('campaign_id') == 'HN-51-WARDS' and topic.get('taxonomy_key') != 'hanoi-ward-rentals':
+    if (topic.get('campaign_id') == 'HN-51-WARDS' or str(topic.get('proposed_slug', '')).startswith('thue-xe-may-phuong-')) and topic.get('taxonomy_key') != 'hanoi-ward-rentals':
         raise ValueError('HANOI_WARD_CATEGORY_HOLD: campaign taxonomy must be hanoi-ward-rentals')
     if topic['taxonomy_key']=='uncategorized':
         raise ValueError('Uncategorized forbidden as intended taxonomy')
