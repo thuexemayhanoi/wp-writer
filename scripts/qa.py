@@ -425,7 +425,7 @@ def evaluate(path,topic,rows=None,inv=None,link_checker=None,live=False,check_cl
     except Exception as e:return {'topic_id':topic['topic_id'],'status':'FAIL','errors':[str(e)],
         'review':[],'source_sha256':digest(path.read_bytes()),'gates':gates,'at':now()}
     g1=gates['1'];g2=gates['2'];g3=gates['3'];g4=gates['4'];g5=gates['5'];g6=gates['6']
-    if topic.get('campaign_id') == 'HN-51-WARDS':
+    if topic.get('campaign_id') == 'HN-51-WARDS' or str(topic.get('proposed_slug', '')).startswith('thue-xe-may-phuong-'):
         if topic.get('taxonomy_key') != 'hanoi-ward-rentals':
             g6['errors'].append('HANOI_WARD_CATEGORY_MISMATCH: must use hanoi-ward-rentals')
         if meta.get('taxonomy_key') != 'hanoi-ward-rentals':
