@@ -43,7 +43,10 @@ class InstantPublishingTests(unittest.TestCase):
         p=json.loads((ROOT/'config/production-policy.json').read_text(encoding='utf-8'))
         self.assertEqual(p['batch_size'],2)
         self.assertEqual(p['max_batches_per_run'],5)
-        self.assertTrue(production_allowed(p))
+        # Current owner emergency stop must remain active. Test the normal
+        # production entitlement using a local copy, never by changing policy.
+        self.assertFalse(production_allowed(p))
+        self.assertTrue(production_allowed({**p,'emergency_stop':False}))
         self.assertIs(p['production_enabled'],True)
         self.assertTrue(p['owner_approval_ref'])
         self.assertTrue(p['seo_adapter_verified'])
@@ -54,11 +57,12 @@ class InstantPublishingTests(unittest.TestCase):
         p=json.loads((ROOT/'config/production-policy.json').read_text(encoding='utf-8'))
         self.assertEqual(p['mode'], 'production')
         self.assertIs(p['paused'], False)
-        self.assertIs(p['emergency_stop'], False)
+        self.assertIs(p['emergency_stop'], True)
         # Never performed, so never marked true; they no longer gate publication.
         self.assertIs(p['security_controls_verified'], False)
         self.assertIs(p['acceptance_passed'], False)
-        self.assertTrue(production_allowed(p))
+        self.assertFalse(production_allowed(p))
+        self.assertTrue(production_allowed({**p,'emergency_stop':False}))
 
     def test_unapproved_production_mode_never_loads_wp_credentials_or_posts(self):
         args=Namespace(persist_state=False, acceptance_topic=None,
@@ -67,7 +71,9 @@ class InstantPublishingTests(unittest.TestCase):
         def switched_off(path,*a,**k):
             data=real_load(path,*a,**k)
             if path=='config/production-policy.json':
-                data={**data,'production_enabled':False}
+                # Isolate the unapproved-production gate from the independent
+                # owner emergency stop, without mutating the stored policy.
+                data={**data,'production_enabled':False,'emergency_stop':False}
             return data
         capture=io.StringIO()
         with (patch('publisher.load', side_effect=switched_off),
