@@ -7179,7 +7179,7 @@
       }
     },
     "NT-000343": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T03:40:38.741408+00:00",
       "source_hash": "51f7bc35b14acd5f5c808e6412d67cecc66859f917209d364b5d14652d17b67f",
       "slug": "cho-2-nguoi-tren-xe-may-truong-hop-duoc-phep-muc-phat-cho-2-va-3-nguoi-tre-em-duoi-12-tuoi",
@@ -7194,8 +7194,37 @@
       "category_warning": null,
       "git_commit": "e8476d9d8360871ac1cac66d5f627bea48b17b81",
       "run_id": "39195609475",
-      "updated_at": "2026-10-19T03:40:42.776381+00:00",
-      "wp_id": 4119
+      "updated_at": "2026-10-19T03:40:48.860894+00:00",
+      "wp_id": 4119,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cho-2-nguoi-tren-xe-may-truong-hop-duoc-phep-muc-phat-cho-2-va-3-nguoi-tre-em-duoi-12-tuoi/",
+      "verified_at": "2026-10-19T03:40:48.860888+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4119,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cho-2-nguoi-tren-xe-may-truong-hop-duoc-phep-muc-phat-cho-2-va-3-nguoi-tre-em-duoi-12-tuoi/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cho-2-nguoi-tren-xe-may-truong-hop-duoc-phep-muc-phat-cho-2-va-3-nguoi-tre-em-duoi-12-tuoi/",
+        "seo_title": "Chở 2 người trên xe máy: ngoại lệ, mức phạt, trẻ em dưới 12 tuổi",
+        "seo_description": "Chở 2 người trên xe máy khi nào được phép? Bốn trường hợp ngoại lệ theo Luật 36/2024, mức phạt chở theo 02 người và từ 03 người trở lên, cách đếm người, trẻ em dưới 12 tuổi.",
+        "checked_at": "2026-10-19T03:40:48.860867+00:00"
+      }
     }
   },
   "categories": {}
