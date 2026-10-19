@@ -8425,6 +8425,24 @@
         "seo_description": "Sạc nhanh và sạc thường pin lithium khác nhau ở dòng sạc: hệ số C, hai giai đoạn sạc, mạ lithium và lời khuyên của Battery University, Argonne, Dat Bike, VinFast.",
         "checked_at": "2026-10-19T04:04:45.307828+00:00"
       }
+    },
+    "NT-000585": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-19T04:05:02.567390+00:00",
+      "source_hash": "55620d78454bf2d313442f2d53e1b7e5fe3938a02119f8cc79c096c1df6d45d4",
+      "slug": "pin-xe-dien-khi-troi-nong-va-troi-lanh-quang-duong-va-tuoi-tho-pin-thay-doi-ra-sao",
+      "expected_status": "publish",
+      "category_id": 160,
+      "visible_hash": "6651847b36d1ead2d46f68e2f947c821414ff0871c42abcd7a6a63e9494b9eff",
+      "first_paragraph": "Pin xe điện khi trời nóng và trời lạnh bị ảnh hưởng theo hai cách khác nhau: trời lạnh làm giảm tạm thời dung lượng dùng được nên quãng đường ngắn đi và phục hồi khi pin ấm lại, còn trời nóng không nhất thiết làm quãng đường giảm ngay mà rút ngắn tuổi thọ pin nếu pin chịu nhiệt cao lâu, nhất là khi đang đầy điện. Battery University nêu một pin cho 100% dung lượng ở 27°C có thể chỉ cho khoảng 50% ở âm 18°C, và tuổi thọ chu kỳ giảm 20% ở 30°C so với khoảng 20°C; đây là số chung cho các loại pin, không phải quãng đường của một mẫu xe máy điện.",
+      "meta_title": "Pin xe điện khi trời nóng và trời lạnh: quãng đường, tuổi thọ ra sao",
+      "meta_description": "Pin xe điện khi trời nóng và trời lạnh: lạnh làm giảm tạm thời quãng đường, nóng rút ngắn tuổi thọ pin. Số liệu Battery University, Giant, Bosch, Dat Bike, VinFast.",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "808802e85473f48f4050d13a633591fa201e2109",
+      "run_id": "39197257385",
+      "updated_at": "2026-10-19T04:05:02.569397+00:00"
     }
   },
   "categories": {}
