@@ -13227,7 +13227,7 @@
       }
     },
     "NT-000850": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T15:05:42.109351+00:00",
       "source_hash": "1dc3179d93da1217ee187d15dcf0ea9470cb1ba2de565ccb1c2e87765ff63588",
       "slug": "xe-may-dien-loi-nuoc-sau-bao-nhieu-thi-di-duoc-20-30-cm-nua-banh-duoi-60-cm-hay-sang-gam-xe-va-vi-sao-cac-nguon-neu-khac-nhau",
@@ -13242,8 +13242,37 @@
       "category_warning": null,
       "git_commit": "5a5940da17c01f75cb2ca2dd6c62e047ff2115ed",
       "run_id": "39273879833",
-      "updated_at": "2026-10-19T15:05:47.370895+00:00",
-      "wp_id": 4252
+      "updated_at": "2026-10-19T15:05:54.196256+00:00",
+      "wp_id": 4252,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-dien-loi-nuoc-sau-bao-nhieu-thi-di-duoc-20-30-cm-nua-banh-duoi-60-cm-hay-sang-gam-xe-va-vi-sao-cac-nguon-neu-khac-nhau/",
+      "verified_at": "2026-10-19T15:05:54.196248+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4252,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-dien-loi-nuoc-sau-bao-nhieu-thi-di-duoc-20-30-cm-nua-banh-duoi-60-cm-hay-sang-gam-xe-va-vi-sao-cac-nguon-neu-khac-nhau/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-dien-loi-nuoc-sau-bao-nhieu-thi-di-duoc-20-30-cm-nua-banh-duoi-60-cm-hay-sang-gam-xe-va-vi-sao-cac-nguon-neu-khac-nhau/",
+        "seo_title": "Xe máy điện lội nước sâu bao nhiêu: các mức theo từng nguồn",
+        "seo_description": "Xe máy điện lội nước sâu bao nhiêu? Bài đặt cạnh nhau các mốc 20–30 cm, nửa bánh, dưới 60 cm, sáng gầm xe và 0,5 m, ghi rõ nguồn, ngày và vì sao chúng khác nhau.",
+        "checked_at": "2026-10-19T15:05:54.196218+00:00"
+      }
     }
   },
   "categories": {}
