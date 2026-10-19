@@ -15228,7 +15228,7 @@
       }
     },
     "NT-001032": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:35:09.972125+00:00",
       "source_hash": "2874a025fe4fb4404839384858fb0d68844ebe143945feb8c00621fe39a18ef9",
       "slug": "cua-o-ha-noi-vi-sao-thanh-thang-long-tung-co-21-cua-o-va-o-quan-chuong-con-lai-nhung-gi",
@@ -15244,8 +15244,37 @@
       "category_warning": null,
       "git_commit": "831e787f61d4c3e1a9b7ce9fb2ac46efde8cc15c",
       "run_id": "39327874140",
-      "updated_at": "2026-10-19T21:35:15.057412+00:00",
-      "wp_id": 4304
+      "updated_at": "2026-10-19T21:35:20.722882+00:00",
+      "wp_id": 4304,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cua-o-ha-noi-vi-sao-thanh-thang-long-tung-co-21-cua-o-va-o-quan-chuong-con-lai-nhung-gi/",
+      "verified_at": "2026-10-19T21:35:20.722876+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4304,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cua-o-ha-noi-vi-sao-thanh-thang-long-tung-co-21-cua-o-va-o-quan-chuong-con-lai-nhung-gi/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cua-o-ha-noi-vi-sao-thanh-thang-long-tung-co-21-cua-o-va-o-quan-chuong-con-lai-nhung-gi/",
+        "seo_title": "Cửa ô Hà Nội: 21 cửa ô xưa và Ô Quan Chưởng còn lại",
+        "seo_description": "Cửa ô Hà Nội theo sử sách có 21 cửa, nay chỉ còn Ô Quan Chưởng. Bài đối chiếu Hà Nội Mới (18/9/2026) với VnExpress (25/12/2016) và nêu chỗ hai nguồn lệch nhau.",
+        "checked_at": "2026-10-19T21:35:20.722858+00:00"
+      }
     }
   },
   "categories": {}
