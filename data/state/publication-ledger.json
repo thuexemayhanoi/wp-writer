@@ -8763,7 +8763,7 @@
       }
     },
     "NT-000535": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T04:12:10.954419+00:00",
       "source_hash": "f634cefea30cb4a3b81e6cf92040b7e72aec9c9e6860a10296153375c39f8fa1",
       "slug": "den-hai-ba-trung-o-ha-noi-ha-loi-dong-nhan-hat-mon-co-ngay-hoi-chinh-vao-mung-6-cac-thang-gieng-hai-ba",
@@ -8778,8 +8778,37 @@
       "category_warning": null,
       "git_commit": "95b117b8174c189dcedf3ec268fdd634d947e41a",
       "run_id": "39197833614",
-      "updated_at": "2026-10-19T04:12:14.599415+00:00",
-      "wp_id": 4152
+      "updated_at": "2026-10-19T04:12:19.795713+00:00",
+      "wp_id": 4152,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/den-hai-ba-trung-o-ha-noi-ha-loi-dong-nhan-hat-mon-co-ngay-hoi-chinh-vao-mung-6-cac-thang-gieng-hai-ba/",
+      "verified_at": "2026-10-19T04:12:19.795706+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4152,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/den-hai-ba-trung-o-ha-noi-ha-loi-dong-nhan-hat-mon-co-ngay-hoi-chinh-vao-mung-6-cac-thang-gieng-hai-ba/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/den-hai-ba-trung-o-ha-noi-ha-loi-dong-nhan-hat-mon-co-ngay-hoi-chinh-vao-mung-6-cac-thang-gieng-hai-ba/",
+        "seo_title": "Lễ hội đền Hai Bà Trưng ở Hà Nội: ngày hội Hạ Lôi, Đồng Nhân, Hát Môn",
+        "seo_description": "Lễ hội đền Hai Bà Trưng ở Hà Nội: chính hội mùng 6 tháng Giêng (Hạ Lôi), tháng Hai (Đồng Nhân), tháng Ba (Hát Môn), khung ngày từng đền và lễ hội nào đã vào danh mục di sản.",
+        "checked_at": "2026-10-19T04:12:19.795687+00:00"
+      }
     }
   },
   "categories": {}
