@@ -1,0 +1,178 @@
+{
+  "topic_id": "NT-000810",
+  "status": "PASS",
+  "source_sha256": "fd7bc36681535726d6f0cd9ceed1b84140adee800362c3fdaac79388c36ad202",
+  "body_sha256": "eca88b547c958b57255e83d50f7db7ecbaf4b7b55c73fcbe69bee71c14a8ef43",
+  "word_count": 3811,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.gov.uk/foreign-travel-advice/vietnam/safety-and-security",
+      "supports": "Trang FCDO của Anh (cập nhật 21/09/2026): có người chết và bệnh nặng do đồ uống chứa methanol ở Việt Nam, kể cả đồ mua tại quán bar, cửa hàng và khách sạn được cấp phép ở khu du lịch; một lượng rất nhỏ cũng có thể gây chết người; không thể nhận biết methanol trong đồ uống bằng vị hay mùi; dẫn tới trang Travel Aware; tìm trợ giúp y tế khẩn cấp nếu có dấu hiệu sau khi uống; mục riêng khuyên tự mua đồ uống, để trong tầm mắt và thận trọng khi nhận đồ từ người lạ",
+      "sha256": "a2d5eeadc18979325d7eabf475624e42e88db391550a35a45fab429cad2935c1",
+      "verified_at": "2026-10-18T23:57:50.407462+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+      "supports": "Trang Smartraveller của Úc (cập nhật 24/09/2026): mục Drink spiking and methanol poisoning: người đã chết hoặc ốm nặng vì đồ uống bị nhiễm độc ở nước ngoài, kể cả người Úc; chỉ một ly cũng có thể gây tử vong; methanol có thể bị thêm vào hoặc vô tình tạo ra khi sản xuất rượu kém chất lượng; chỉ uống đồ có nhãn hiệu, còn niêm phong; cần trợ giúp y tế khẩn cấp nếu nghi bị nhiễm độc; lời khuyên về đồ uống bị bỏ thuốc",
+      "sha256": "b21f280d5c64c04d3676dbcb17d6d239db87531c6c946119451121226fe3e36f",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "TimeoutError"
+    },
+    {
+      "url": "https://travel.gc.ca/destinations/vietnam",
+      "supports": "Trang tư vấn của Canada (cập nhật 13/10/2026): một số người chết sau khi uống rượu gạo không kiểm soát bị pha tạp có nồng độ methanol cao; thận trọng khi uống rượu, chỉ dùng thương hiệu có uy tín, tránh mua của cá nhân hoặc người bán rong, tìm trợ giúp y tế nếu thấy ốm; mục Spiked food and drinks: đồ ăn, đồ uống, kẹo cao su, thuốc lá có thể chứa chất khiến người dùng dễ bị xâm hại hoặc cướp",
+      "sha256": "126c661b0baedc6f2c337d9d931cfdb12a6a068ad2779ba0c38fbef1e0fbf156",
+      "verified_at": "2026-10-18T23:58:56.129070+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/vietnam/",
+      "supports": "Trang của Bộ Ngoại giao Ireland (cập nhật 22/04/2026): cảnh giác với đồ uống, đồ ăn, thuốc lá bị bỏ thuốc nhất là buổi tối muộn ở quán bar; không để đồ ăn thức uống không trông và không nhận từ người lạ; rượu nấu tại nhà có thể nhiễm methanol, vi khuẩn hoặc hóa chất từ thuốc trừ sâu và nên tránh",
+      "sha256": "82d2f11f624816ffdbed44f00cd33eb26b9f7f3409f8403611f1917fa1b86b51",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 891,
+        "title": "Hợp Đồng Thuê Xe Máy Hà Nội Có Cần Đặt Cọc Không? Tư Vấn Nhanh",
+        "why": "stale",
+        "content_hash": "dfef1f80adfed1e1d9366a3b620ef84119b9cf4fc4ea34f66fe16eb22f52bcca",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2426,
+        "title": "Đánh giá Dat Bike Quantum: ưu nhược điểm và nhu cầu dùng thực tế",
+        "why": "stale",
+        "content_hash": "3c8d470345431fcbc37ef481fcc91babb838e88c276f79fcd299cde3305e020d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2632,
+        "title": "Cầu Long Biên Hà Nội: Đi lúc nào đẹp, chụp ảnh ở đâu và chơi gì gần đó?",
+        "why": "stale",
+        "content_hash": "36dfb351fe0b68f0a6c25d3903504798235bac27df1d97f4c68ca001b55d25e3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4049,
+        "title": "Thuê xe máy điện ở chung cư Hà Nội không có chỗ sạc riêng: cần kiểm tra gì trước khi đặt?",
+        "why": "stale",
+        "content_hash": "60ea270b75576e53780d251f2026ebec6088930775beded46df2ce5bc3601d66",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4060,
+        "title": "Thuê xe máy mang máy ảnh và laptop đi nhiều điểm ở Hà Nội: chọn xe, xếp đồ, giữ tài sản",
+        "why": "stale",
+        "content_hash": "584f824812a9722445c863b0480c4d8fb9b5cfcccab9e5bbca8a4de6ce3e0be4",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-18T23:59:06.451351+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "e5e4a96393e8dc67e3689db671ce71927217cb58eef989d2e33e79a2d87c5798",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
