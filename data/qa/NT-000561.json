@@ -1,0 +1,142 @@
+{
+  "topic_id": "NT-000561",
+  "status": "PASS",
+  "source_sha256": "26c2d00221826eff88b998c6648469d7abc7530613ddb91545e84ce0adb6c4b3",
+  "body_sha256": "28934042ed2faeb96682aafce321496cc64317965da12eadd2c0d5d0aa2ff45a",
+  "word_count": 3431,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/hoang-su-phi-vao-mua-dep-nhat-trong-nam-5122988.html",
+      "supports": "Bài VnExpress đăng 25/9/2026: lúa trồng mỗi năm một lần, tháng 5 là mùa đổ nước, tháng 9 là mùa gặt, mùa vàng thường kéo dài 2–3 tuần; Hoàng Su Phì cách Hà Nội khoảng 300 km, gần 6 tiếng, nên đi hướng Thượng Sơn – Túng Sán tới thị trấn Vinh Quang (cũ).",
+      "sha256": "3d235412179a9cf610813d120d2d08d683b49487bcee132ca3d3e873bd6f1a47",
+      "verified_at": "2026-10-19T05:45:18.661465+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vietnam.travel/things-to-do/ha-giang-loop-where-nature-and-culture-come-one",
+      "supports": "Trang Ha Giang Loop của vietnam.travel về tháng 6: ruộng bậc thang Hoang Su Phi nổi tiếng với hiện tượng mirror of the sky trong tháng 6, khi nông dân dẫn nước từ đỉnh núi xuống đổ ruộng cho vụ lúa mới.",
+      "sha256": "479b28371c02968b57cb341cbb05110cff48554348ab9198836e4e3cac8b4386",
+      "verified_at": "2026-10-19T05:45:19.443443+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 887,
+        "title": "Chi Phí Giao Xe Máy Tận Nơi Hà Nội – Cách Tính & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "6c27605fc8d85de1852488f84e098724f3408d70c6c8b62c581045e5fb205778",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 895,
+        "title": "Thuê Xe Máy 50cc Hà Nội: Giá Xe Ga, Thủ Tục Và Nhận Xe",
+        "why": "stale",
+        "content_hash": "a0c1b6373f8bb8314548b46b88ed1278eebca02a48d4ff12655fbd79980b4a2b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4049,
+        "title": "Thuê xe máy điện ở chung cư Hà Nội không có chỗ sạc riêng: cần kiểm tra gì trước khi đặt?",
+        "why": "stale",
+        "content_hash": "60ea270b75576e53780d251f2026ebec6088930775beded46df2ce5bc3601d66",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T05:45:26.229035+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "baba0f4c7639736a20a38a945ebf82d4a55702d650d82e09b31e0bb63da08bfb",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
