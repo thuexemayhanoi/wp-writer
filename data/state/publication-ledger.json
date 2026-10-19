@@ -15865,7 +15865,7 @@
       }
     },
     "NT-001050": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:45:43.924879+00:00",
       "source_hash": "d13042fe279878ed986eaeec06dd7496691caad85b3cbc48da2806460b9b123b",
       "slug": "son-mai-ha-thai-o-thuong-tin-15-cong-doan-khau-lam-voc-9-lan-son-mai-va-diem-du-lich-lang-nghe-2020",
@@ -15881,8 +15881,37 @@
       "category_warning": null,
       "git_commit": "ca73533373852b029f1fb4c13466b766ccb459a8",
       "run_id": "39328856675",
-      "updated_at": "2026-10-19T21:45:47.777479+00:00",
-      "wp_id": 4317
+      "updated_at": "2026-10-19T21:45:53.543311+00:00",
+      "wp_id": 4317,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/son-mai-ha-thai-o-thuong-tin-15-cong-doan-khau-lam-voc-9-lan-son-mai-va-diem-du-lich-lang-nghe-2020/",
+      "verified_at": "2026-10-19T21:45:53.543303+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4317,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/son-mai-ha-thai-o-thuong-tin-15-cong-doan-khau-lam-voc-9-lan-son-mai-va-diem-du-lich-lang-nghe-2020/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/son-mai-ha-thai-o-thuong-tin-15-cong-doan-khau-lam-voc-9-lan-son-mai-va-diem-du-lich-lang-nghe-2020/",
+        "seo_title": "Sơn mài Hạ Thái ở Thường Tín: 15 công đoạn, điểm du lịch 2020",
+        "seo_description": "Sơn mài Hạ Thái ở Thường Tín qua hai bài Hà Nội Mới: 15 công đoạn theo lời người làm nghề, khâu làm vóc 9 lần sơn, OCOP 4 sao và điểm du lịch làng nghề.",
+        "checked_at": "2026-10-19T21:45:53.543286+00:00"
+      }
     }
   },
   "categories": {}
