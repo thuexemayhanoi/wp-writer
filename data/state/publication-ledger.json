@@ -10299,7 +10299,7 @@
       }
     },
     "NT-000562": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T05:49:46.454313+00:00",
       "source_hash": "909ecf26510feba018d337aceba9d9a6ab75020884439888eca7592aaae1b5f4",
       "slug": "moc-chau-thang-nao-dep-hoa-man-man-chin-hong-gion-cai-trang-va-da-quy-theo-tung-thang",
@@ -10314,8 +10314,37 @@
       "category_warning": null,
       "git_commit": "c1580db9383e20571122792d26aedbe9b10a6ea6",
       "run_id": "39206216685",
-      "updated_at": "2026-10-19T05:49:50.119006+00:00",
-      "wp_id": 4184
+      "updated_at": "2026-10-19T05:49:55.900146+00:00",
+      "wp_id": 4184,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/moc-chau-thang-nao-dep-hoa-man-man-chin-hong-gion-cai-trang-va-da-quy-theo-tung-thang/",
+      "verified_at": "2026-10-19T05:49:55.900140+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4184,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/moc-chau-thang-nao-dep-hoa-man-man-chin-hong-gion-cai-trang-va-da-quy-theo-tung-thang/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/moc-chau-thang-nao-dep-hoa-man-man-chin-hong-gion-cai-trang-va-da-quy-theo-tung-thang/",
+        "seo_title": "Mộc Châu tháng nào đẹp: lịch hoa mận, mận chín, hồng, cải trắng",
+        "seo_description": "Mộc Châu tháng nào đẹp? Lịch hoa mận, mận chín, hồng giòn, cải trắng và dã quỳ theo từng tháng từ VnExpress và vietnam.travel, kèm lưu ý cho người đi xe máy.",
+        "checked_at": "2026-10-19T05:49:55.900122+00:00"
+      }
     }
   },
   "categories": {}
