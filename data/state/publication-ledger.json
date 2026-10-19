@@ -15326,7 +15326,7 @@
       }
     },
     "NT-001039": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:36:04.977163+00:00",
       "source_hash": "236b661cd2c15507819dd57b4085abc95f61dc20783e58af149ace2877b037aa",
       "slug": "lang-co-cu-da-nha-phap-viet-tuong-nep-mien-dong-va-bai-toan-bao-ton-ven-song-nhue",
@@ -15342,8 +15342,37 @@
       "category_warning": null,
       "git_commit": "831e787f61d4c3e1a9b7ce9fb2ac46efde8cc15c",
       "run_id": "39327874140",
-      "updated_at": "2026-10-19T21:36:09.517974+00:00",
-      "wp_id": 4306
+      "updated_at": "2026-10-19T21:36:15.298030+00:00",
+      "wp_id": 4306,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lang-co-cu-da-nha-phap-viet-tuong-nep-mien-dong-va-bai-toan-bao-ton-ven-song-nhue/",
+      "verified_at": "2026-10-19T21:36:15.298021+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4306,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lang-co-cu-da-nha-phap-viet-tuong-nep-mien-dong-va-bai-toan-bao-ton-ven-song-nhue/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lang-co-cu-da-nha-phap-viet-tuong-nep-mien-dong-va-bai-toan-bao-ton-ven-song-nhue/",
+        "seo_title": "Làng cổ Cự Đà ở đâu? Nhà cổ, tương, miến và chuyện bảo tồn",
+        "seo_description": "Làng cổ Cự Đà ven sông Nhuệ có gì? Tổng hợp từ Hà Nội Mới, VnExpress, Thanh Niên: nhà Pháp - Việt, đình chùa, tương, miến và việc bảo tồn.",
+        "checked_at": "2026-10-19T21:36:15.298003+00:00"
+      }
     }
   },
   "categories": {}
