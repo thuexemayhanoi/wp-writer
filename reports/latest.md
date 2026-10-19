@@ -4,17 +4,17 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-19T16:41:13.972291+00:00 |
+| at | 2026-10-19T16:43:11.786431+00:00 |
 | existing_published_posts | 447 |
 | existing_pages | 10 |
 | existing_products | 13 |
-| candidate_topics | 444 |
-| planned_topics | 371 |
-| claimable_topics | 16 |
-| ready_stock | 10 |
-| stock_stages | {'IDEA': 260, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 10, 'PLANNED_HOLD': 3, 'CLAIMED': 47, 'AUTHORED': 0, 'QA_PASS': 14, 'PUBLISHED': 297, 'WP_DRAFT': 0} |
+| candidate_topics | 484 |
+| planned_topics | 411 |
+| claimable_topics | 56 |
+| ready_stock | 50 |
+| stock_stages | {'IDEA': 260, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 50, 'PLANNED_HOLD': 3, 'CLAIMED': 47, 'AUTHORED': 0, 'QA_PASS': 14, 'PUBLISHED': 297, 'WP_DRAFT': 0} |
 | needs_research | True |
-| research_shortfall | 890 |
+| research_shortfall | 850 |
 | refill_trigger_below_ready | 900 |
 | refill_round_target | 100-200 |
 | refill_state | REFILL_IN_PROGRESS |
@@ -38,12 +38,12 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | empty_category_violations | 0 |
 | broken_links | None |
 | broken_links_note | No full HTTP crawl yet; inventory graph is not a broken-link proof |
-| remaining_topic_target | 629 |
-| remaining_candidate_target | 556 |
+| remaining_topic_target | 589 |
+| remaining_candidate_target | 516 |
 | delivery_mode | production |
 | production_enabled | True |
 | draft_staging_enabled | False |
-| qa_pass_live_checked | 1 |
+| qa_pass_live_checked | 0 |
 | qa_pass_awaiting_wordpress | 14 |
 | queued_topic_ids | ['NT-000711', 'NT-000831', 'NT-000830', 'NT-000845', 'NT-000720', 'NT-000714', 'NT-000717', 'NT-000719', 'NT-000715', 'NT-000716', 'NT-000832', 'NT-000718', 'NT-000713', 'NT-000712'] |
 | pending_wordpress_intents | [] |
