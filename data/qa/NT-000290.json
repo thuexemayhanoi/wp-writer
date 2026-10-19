@@ -1,10 +1,10 @@
 {
   "topic_id": "NT-000290",
-  "status": "REVIEW",
-  "source_sha256": "42924251309da59ce35deaf1c26f17b2120afe3ee7c53871f76d2ef09851fa65",
-  "body_sha256": "c01a4a489bdb0a1cad74a43f33e43881da6da151236d28d8762d9335387ee1fd",
-  "word_count": 2140,
-  "quality_score": 85,
+  "status": "PASS",
+  "source_sha256": "3ba5981dcaa633e865fefca86cfd2ed44897721882f949b8a524d1d117c5395c",
+  "body_sha256": "6c22c5a36e3da3877a5b673f834f3571826e94cf72545afe0c547a64a7f74b0b",
+  "word_count": 2216,
+  "quality_score": 100,
   "seo_score": 100,
   "seo_min_required": 85,
   "seo_checks": {
@@ -53,9 +53,7 @@
     },
     "3": {
       "errors": [],
-      "review": [
-        "Source REVIEW: ValueError: Source excerpt not found"
-      ]
+      "review": []
     },
     "4": {
       "errors": [],
@@ -71,26 +69,22 @@
     }
   },
   "errors": [],
-  "review": [
-    "Source REVIEW: ValueError: Source excerpt not found"
-  ],
+  "review": [],
   "source_evidence": [],
   "evidence_recheck": null,
-  "at": "2026-10-18T14:04:48.955514+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T01:10:26.483158+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "3414229697033b01e70854c5c329624eab2f1559d59afbd5a5e3f909786dcb46",
+  "inventory_sha256": "69cde21c1617d2a0a2441e779cbeef54370ca36f0246a21da6c3aaa042b5d4e3",
   "triage": {
-    "hold_class": "REAL_RISK",
-    "real_risk": [
-      "G3: Source REVIEW: ValueError: Source excerpt not found"
-    ],
+    "hold_class": "NONE",
+    "real_risk": [],
     "writer_repair": [],
     "infra_pending": []
   },
   "recheck": {
-    "attempts": 1,
+    "attempts": 0,
     "max": 3,
     "exhausted": false,
     "needs_owner": false

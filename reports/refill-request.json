@@ -1,22 +1,22 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 34,
+  "ready_stock": 0,
   "trigger_below_ready": 900,
   "rounds_opened": 1,
   "unlimited_rounds": true,
   "approved_capacity": 1000,
-  "topic_rows": 259,
-  "capacity_remaining": 741,
+  "topic_rows": 296,
+  "capacity_remaining": 704,
   "order": {
     "id": "RF-0001",
     "round": 1,
     "target_min": 200,
     "target_max": 300,
-    "accepted_so_far": 147,
-    "remaining_to_min": 53,
-    "remaining_to_max": 153,
-    "batches_still_needed": 6,
+    "accepted_so_far": 184,
+    "remaining_to_min": 16,
+    "remaining_to_max": 116,
+    "batches_still_needed": 2,
     "batch_size": 10,
     "capacity_limited": false,
     "stalled": false,
@@ -24,27 +24,27 @@
     "category_quotas": [
       {
         "taxonomy_key": "urban-mobility",
-        "quota": 25,
-        "known_now": 12,
+        "quota": 24,
+        "known_now": 18,
         "allocation": 92
       },
       {
         "taxonomy_key": "trip-planning",
-        "quota": 20,
-        "known_now": 25,
+        "quota": 19,
+        "known_now": 32,
         "allocation": 91
       },
       {
         "taxonomy_key": "battery-charging",
-        "quota": 14,
+        "quota": 15,
         "known_now": 12,
         "allocation": 57
       },
       {
-        "taxonomy_key": "vietnam-travel",
-        "quota": 14,
-        "known_now": 11,
-        "allocation": 55
+        "taxonomy_key": "rental-guide",
+        "quota": 13,
+        "known_now": 7,
+        "allocation": 46
       },
       {
         "taxonomy_key": "electric-transition",
@@ -53,10 +53,10 @@
         "allocation": 41
       },
       {
-        "taxonomy_key": "rental-guide",
+        "taxonomy_key": "vietnam-travel",
         "quota": 12,
-        "known_now": 7,
-        "allocation": 46
+        "known_now": 18,
+        "allocation": 55
       },
       {
         "taxonomy_key": "electric-maintenance",
@@ -65,46 +65,40 @@
         "allocation": 41
       },
       {
+        "taxonomy_key": "electric-tech",
+        "quota": 9,
+        "known_now": 14,
+        "allocation": 41
+      },
+      {
+        "taxonomy_key": "reviews",
+        "quota": 9,
+        "known_now": 32,
+        "allocation": 59
+      },
+      {
+        "taxonomy_key": "destinations",
+        "quota": 8,
+        "known_now": 3,
+        "allocation": 27
+      },
+      {
         "taxonomy_key": "driving-licence",
         "quota": 8,
         "known_now": 7,
         "allocation": 32
       },
       {
-        "taxonomy_key": "electric-tech",
-        "quota": 8,
-        "known_now": 14,
-        "allocation": 41
-      },
-      {
-        "taxonomy_key": "reviews",
-        "quota": 8,
-        "known_now": 32,
-        "allocation": 59
-      },
-      {
-        "taxonomy_key": "destinations",
-        "quota": 7,
-        "known_now": 3,
-        "allocation": 27
-      },
-      {
         "taxonomy_key": "ebikes",
-        "quota": 7,
+        "quota": 8,
         "known_now": 8,
         "allocation": 32
       },
       {
         "taxonomy_key": "green-travel",
         "quota": 7,
-        "known_now": 4,
+        "known_now": 6,
         "allocation": 27
-      },
-      {
-        "taxonomy_key": "hanoi-travel",
-        "quota": 7,
-        "known_now": 13,
-        "allocation": 36
       },
       {
         "taxonomy_key": "legal",
@@ -125,12 +119,6 @@
         "allocation": 59
       },
       {
-        "taxonomy_key": "food-culture",
-        "quota": 6,
-        "known_now": 13,
-        "allocation": 32
-      },
-      {
         "taxonomy_key": "rental-50cc",
         "quota": 6,
         "known_now": 3,
@@ -138,9 +126,21 @@
       },
       {
         "taxonomy_key": "rental-costs",
-        "quota": 5,
+        "quota": 6,
         "known_now": 6,
         "allocation": 23
+      },
+      {
+        "taxonomy_key": "food-culture",
+        "quota": 5,
+        "known_now": 17,
+        "allocation": 32
+      },
+      {
+        "taxonomy_key": "hanoi-travel",
+        "quota": 5,
+        "known_now": 22,
+        "allocation": 36
       },
       {
         "taxonomy_key": "engine-care",
@@ -151,29 +151,30 @@
       {
         "taxonomy_key": "road-safety",
         "quota": 2,
-        "known_now": 43,
+        "known_now": 45,
         "allocation": 50
       }
     ],
     "next_batch_categories": {
-      "urban-mobility": 2,
       "battery-charging": 1,
       "destinations": 1,
       "electric": 1,
       "electric-transition": 1,
       "rental-50cc": 1,
+      "rental-costs": 1,
       "rental-guide": 1,
       "rental-procedures": 1,
-      "vietnam-travel": 1
+      "reviews": 1,
+      "urban-mobility": 1
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 283,
-    "topics_in_factory": 259,
+    "published_wordpress_items": 336,
+    "topics_in_factory": 296,
     "topics_by_status": {
-      "PLANNED": 182,
+      "PLANNED": 223,
       "REJECTED": 1,
-      "RESEARCH": 76
+      "RESEARCH": 72
     },
     "rule": "A candidate is compared with EVERY published WordPress item and EVERY topic in the factory (any status except REJECTED), and with the other new rows of the same research run."
   },
