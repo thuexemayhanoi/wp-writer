@@ -9291,7 +9291,7 @@
       }
     },
     "NT-000648": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T04:20:12.985590+00:00",
       "source_hash": "8b3818d421b96f579fbf75a3a0ec911f5059f0076063dd6e9a392e7595d8f180",
       "slug": "gio-chay-metro-ha-noi-tu-9-2-2026-tau-6-10-hoac-15-phut-mot-chuyen-chay-tu-5h30-den-22h00-tren-tuyen-2a-va-3-1",
@@ -9306,8 +9306,37 @@
       "category_warning": null,
       "git_commit": "9c4e7b0f89ee9acbbb46112b2871d25ed8135297",
       "run_id": "39198432432",
-      "updated_at": "2026-10-19T04:20:16.853531+00:00",
-      "wp_id": 4163
+      "updated_at": "2026-10-19T04:20:22.954014+00:00",
+      "wp_id": 4163,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/gio-chay-metro-ha-noi-tu-9-2-2026-tau-6-10-hoac-15-phut-mot-chuyen-chay-tu-5h30-den-22h00-tren-tuyen-2a-va-3-1/",
+      "verified_at": "2026-10-19T04:20:22.954006+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4163,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/gio-chay-metro-ha-noi-tu-9-2-2026-tau-6-10-hoac-15-phut-mot-chuyen-chay-tu-5h30-den-22h00-tren-tuyen-2a-va-3-1/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/gio-chay-metro-ha-noi-tu-9-2-2026-tau-6-10-hoac-15-phut-mot-chuyen-chay-tu-5h30-den-22h00-tren-tuyen-2a-va-3-1/",
+        "seo_title": "Giờ chạy metro Hà Nội từ 9/2/2026: tàu 6, 10 hoặc 15 phút một chuyến",
+        "seo_description": "Giờ chạy metro Hà Nội từ 9/2/2026 theo thông báo của Hà Nội Metro: tần suất 6, 10, 15 phút một chuyến, hoạt động 5h30 đến 22h00 trên tuyến 2A và 3.1.",
+        "checked_at": "2026-10-19T04:20:22.953989+00:00"
+      }
     }
   },
   "categories": {}
