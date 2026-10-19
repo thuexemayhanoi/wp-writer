@@ -12411,7 +12411,7 @@
       }
     },
     "NT-000704": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T10:04:03.620355+00:00",
       "source_hash": "25886ca7e678da74c7b1ab8cfa150e7db78a96772278664d205b2ef8eabcabe0",
       "slug": "dung-tich-cop-xe-ga-so-lit-honda-va-yamaha-cong-bo-va-cop-dung-vua-may-mu-bao-hiem",
@@ -12426,8 +12426,37 @@
       "category_warning": null,
       "git_commit": "b435335e8426c4f9f969e3b42ffb7880d6b07d3d",
       "run_id": "39233919731",
-      "updated_at": "2026-10-19T10:04:08.969113+00:00",
-      "wp_id": 4230
+      "updated_at": "2026-10-19T10:04:15.678372+00:00",
+      "wp_id": 4230,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/dung-tich-cop-xe-ga-so-lit-honda-va-yamaha-cong-bo-va-cop-dung-vua-may-mu-bao-hiem/",
+      "verified_at": "2026-10-19T10:04:15.678366+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4230,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/dung-tich-cop-xe-ga-so-lit-honda-va-yamaha-cong-bo-va-cop-dung-vua-may-mu-bao-hiem/",
+        "categories": [
+          156
+        ],
+        "canonical": "https://thuexemaynguyentu.com/dung-tich-cop-xe-ga-so-lit-honda-va-yamaha-cong-bo-va-cop-dung-vua-may-mu-bao-hiem/",
+        "seo_title": "Dung tích cốp xe ga: số lít Honda, Yamaha công bố và cốp vừa mấy mũ",
+        "seo_description": "Dung tích cốp xe ga theo trang hãng: LEAD trên 37 lít, Air Blade 23,2 lít, Grande 27 lít, Janus 15.3 L, mẫu không nêu số lít và cách thử cốp bằng mũ, đồ thật.",
+        "checked_at": "2026-10-19T10:04:15.678345+00:00"
+      }
     }
   },
   "categories": {}
