@@ -14689,7 +14689,7 @@
       }
     },
     "NT-000870": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:03:06.550658+00:00",
       "source_hash": "2e8da5db5dff5f84acfd8f5b54fec3386ab12f61bae88bbd206fbfa4259e8e7c",
       "slug": "mat-duong-de-truot-khi-di-xe-may-cat-soi-bun-vach-son-nap-cong-kim-loai-mat-cau-luoi-thep-va-doan-uot-dau-con-mua",
@@ -14705,8 +14705,37 @@
       "category_warning": null,
       "git_commit": "b3087e619ac8c4b7eef855135710aecacb2a1141",
       "run_id": "39322982572",
-      "updated_at": "2026-10-19T21:03:10.551000+00:00",
-      "wp_id": 4293
+      "updated_at": "2026-10-19T21:03:16.702005+00:00",
+      "wp_id": 4293,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/mat-duong-de-truot-khi-di-xe-may-cat-soi-bun-vach-son-nap-cong-kim-loai-mat-cau-luoi-thep-va-doan-uot-dau-con-mua/",
+      "verified_at": "2026-10-19T21:03:16.701998+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4293,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/mat-duong-de-truot-khi-di-xe-may-cat-soi-bun-vach-son-nap-cong-kim-loai-mat-cau-luoi-thep-va-doan-uot-dau-con-mua/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/mat-duong-de-truot-khi-di-xe-may-cat-soi-bun-vach-son-nap-cong-kim-loai-mat-cau-luoi-thep-va-doan-uot-dau-con-mua/",
+        "seo_title": "Mặt đường dễ trượt khi đi xe máy: cát sỏi, vạch sơn, nắp cống",
+        "seo_description": "Mặt đường dễ trượt khi đi xe máy: nhựa đường ướt lúc mới mưa, cát sỏi, bùn, vạch sơn, nắp cống kim loại, cầu lưới thép và cách đi qua theo MSF, Transport for NSW, HART.",
+        "checked_at": "2026-10-19T21:03:16.701976+00:00"
+      }
     }
   },
   "categories": {}
