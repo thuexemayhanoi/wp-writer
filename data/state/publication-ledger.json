@@ -14199,7 +14199,7 @@
       }
     },
     "NT-000832": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T19:46:10.745345+00:00",
       "source_hash": "721cae981d878ae823db812605133ad2c92005768bc1b1d737144470ff679d50",
       "slug": "phanh-tai-sinh-thu-hoi-duoc-bao-nhieu-nang-luong-cac-con-so-3-10-65-va-10-25-do-nhung-gi-va-vi-sao-khong-so-truc-tiep-duoc",
@@ -14215,8 +14215,37 @@
       "category_warning": null,
       "git_commit": "55a95e3283e956d049b0055217266341922b355e",
       "run_id": "39312220935",
-      "updated_at": "2026-10-19T19:46:14.796091+00:00",
-      "wp_id": 4283
+      "updated_at": "2026-10-19T19:46:20.790999+00:00",
+      "wp_id": 4283,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/phanh-tai-sinh-thu-hoi-duoc-bao-nhieu-nang-luong-cac-con-so-3-10-65-va-10-25-do-nhung-gi-va-vi-sao-khong-so-truc-tiep-duoc/",
+      "verified_at": "2026-10-19T19:46:20.790993+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4283,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/phanh-tai-sinh-thu-hoi-duoc-bao-nhieu-nang-luong-cac-con-so-3-10-65-va-10-25-do-nhung-gi-va-vi-sao-khong-so-truc-tiep-duoc/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/phanh-tai-sinh-thu-hoi-duoc-bao-nhieu-nang-luong-cac-con-so-3-10-65-va-10-25-do-nhung-gi-va-vi-sao-khong-so-truc-tiep-duoc/",
+        "seo_title": "Phanh tái sinh thu hồi được bao nhiêu năng lượng: các con số đo gì",
+        "seo_description": "Phanh tái sinh thu hồi được bao nhiêu năng lượng? Các con số 3%, 10%, 65% và 10–25% đo những đại lượng khác nhau nên không so trực tiếp được; xem từng nguồn nói gì.",
+        "checked_at": "2026-10-19T19:46:20.790968+00:00"
+      }
     }
   },
   "categories": {}
