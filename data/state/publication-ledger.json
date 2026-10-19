@@ -14395,7 +14395,7 @@
       }
     },
     "NT-000864": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:00:10.111770+00:00",
       "source_hash": "f4840319b8e5f293b7955b34a67db95e82a656d92f1834dc2e7dabfcabb4eeef",
       "slug": "trekking-vuon-quoc-gia-cat-ba-cung-ngan-len-dinh-ngu-lam-hay-cung-10-km-toi-lang-viet-hai-va-cac-nguon-lech-nhau-o-dau-ve-thoi-gian-di",
@@ -14411,8 +14411,37 @@
       "category_warning": null,
       "git_commit": "b3087e619ac8c4b7eef855135710aecacb2a1141",
       "run_id": "39322982572",
-      "updated_at": "2026-10-19T21:00:14.328513+00:00",
-      "wp_id": 4287
+      "updated_at": "2026-10-19T21:00:29.381272+00:00",
+      "wp_id": 4287,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/trekking-vuon-quoc-gia-cat-ba-cung-ngan-len-dinh-ngu-lam-hay-cung-10-km-toi-lang-viet-hai-va-cac-nguon-lech-nhau-o-dau-ve-thoi-gian-di/",
+      "verified_at": "2026-10-19T21:00:29.381264+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4287,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/trekking-vuon-quoc-gia-cat-ba-cung-ngan-len-dinh-ngu-lam-hay-cung-10-km-toi-lang-viet-hai-va-cac-nguon-lech-nhau-o-dau-ve-thoi-gian-di/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/trekking-vuon-quoc-gia-cat-ba-cung-ngan-len-dinh-ngu-lam-hay-cung-10-km-toi-lang-viet-hai-va-cac-nguon-lech-nhau-o-dau-ve-thoi-gian-di/",
+        "seo_title": "Trekking Vườn quốc gia Cát Bà: cung Ngự Lâm hay cung 10 km Việt Hải",
+        "seo_description": "Trekking Vườn quốc gia Cát Bà: so cung ngắn lên đỉnh Ngự Lâm với cung 10 km tới làng Việt Hải và chỉ ra chỗ các nguồn ghi thời gian đi lệch nhau.",
+        "checked_at": "2026-10-19T21:00:29.381242+00:00"
+      }
     }
   },
   "categories": {}
