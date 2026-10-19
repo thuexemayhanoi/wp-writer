@@ -1,0 +1,143 @@
+{
+  "topic_id": "NT-000671",
+  "status": "PASS",
+  "source_sha256": "3207876dbe38efffd507ec6b957c914aa0e8a94f8a7ad9783fde0776a4c23610",
+  "body_sha256": "32ac9b9ef8e00ae77d8ea823aa7193bf9187c3f286c9837c0a7000231f1b563f",
+  "word_count": 3409,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 562,
+        "title": "Cho Thuê Xe Máy ở Hà Nội – Giao Tận Nơi, Cọc Nhẹ | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "bef2a1222a528843870457f0106cf4c95a0e35e17def59be14a16504af267b6b",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 912,
+        "title": "Cho Thuê Xe Máy Gần Hai Bà Trưng Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "e3a1939cca55f0bccd95c320658c1807feb7d19588435fda4d8fbc016652f731",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2362,
+        "title": "Trạm Sạc Xe Máy Điện Hoạt Động Ra Sao Và Cần Lưu Ý Gì Khi Sử Dụng?",
+        "why": "stale",
+        "content_hash": "a17c9cf060eb4fcc003a8361442a9640e3697f1a42863cfbcf483016e0e39b82",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2378,
+        "title": "Xe máy điện VinFast: các mẫu đáng chú ý và điểm khác biệt",
+        "why": "stale",
+        "content_hash": "37ef98f1fa6912ab03a40b59b7957c089abbadee5f0ea45c7e3fcf1b939d9074",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4057,
+        "title": "Mũ bảo hiểm đi kèm xe máy thuê: cách kiểm tra, thử vừa đầu và yêu cầu đổi mũ",
+        "why": "stale",
+        "content_hash": "882e284b19aff377f0d89fc74bb720334b6dd3673b272359304d9ff586e8ebcd",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T01:10:44.866933+00:00",
+  "live_links_checked": false,
+  "legal_required": true,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "26c1e1c6abe9f00040523e7a857a4408d4e25878e54e626c0fa36a3c866dc067",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

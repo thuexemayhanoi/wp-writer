@@ -70,40 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vnexpress.net/cam-nang-du-lich-moc-chau-4098678.html",
-      "supports": "Cẩm nang VnExpress (cập nhật 12/1/2026): đi xe máy nên theo quốc lộ 6 cũ, nhiều cảnh đẹp nhưng đường xuống cấp nhiều, mất khoảng 4 đến 5 tiếng; qua cung chữ S ở Vân Hồ; đoạn nhiều mây mù từ Thung Khe; đi 2 ngày hoặc 3 đến 4 ngày; đường vào Mu Náu và làng Nguyên Thủy nên đi xe số.",
-      "sha256": "57a120abce7b2415e58a3ea50bec5197b62af13bfcc4aaffb7f98fd92144d754",
-      "verified_at": "2026-10-18T14:24:00.651971+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnam.travel/things-to-do/moc-chau-your-one-stop-nature-escape",
-      "supports": "vietnam.travel: Mộc Châu ở Sơn La cách Hà Nội khoảng 200 km, cao nguyên dài 80 km, rộng 25 km, cao hơn 1.000 m, có thuê xe đạp và xe máy để khám phá sâu hơn.",
-      "sha256": "9772c9df32381975efe452d710fb5f304d4dc94fc15af44453bf2186830bcd4c",
-      "verified_at": "2026-10-18T14:24:01.860979+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnam.travel/things-to-do/moc-chau-eco-traveller-dream-destination",
-      "supports": "vietnam.travel (trang eco-traveller): Mộc Châu cách Hà Nội 200 km, độ cao 1.054 m; đồi chè cách thị trấn khoảng 25 phút; tour chè từ tháng 4 đến 12; đỉnh Pha Luông cách 40 km, leo mất một đến bốn giờ.",
-      "sha256": "6f78b76d3d58985ee025986bb6107acccda0e918727a21524aa666b368d21e55",
-      "verified_at": "2026-10-18T14:24:03.017306+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnam.travel/things-to-do/ta-xua-staircase-thousand-clouds",
-      "supports": "vietnam.travel (trang Ta Xua): Tà Xùa chỉ hơn 100 km tính từ trung tâm huyện Mộc Châu, nên có thể nối hai điểm trong một chuyến.",
-      "sha256": "25ca09ac7aaf34403ea2e8937ce5e58f9ef01420cdff6a26fa5cb6d2ba0e1775",
-      "verified_at": "2026-10-18T14:24:03.929504+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -138,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T14:24:13.787035+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T01:10:41.242122+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "87a821be4e8f48f5badb793e989145bdc1b032b8fe7b61f3bb6a33bc7931f795",
+  "inventory_sha256": "672055d891f47223394d58d58c3307af6f49b7c378d89e24f637894fa97cffd9",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

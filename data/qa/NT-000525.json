@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://dsvh.gov.vn/nghe-quy-vang-bac-kieu-ky-3419",
-      "supports": "Cục Di sản văn hóa (hồ sơ tư liệu): nghề quỳ vàng bạc làng Kiêu Kỵ, huyện Gia Lâm, ba khâu chính và các bước làm quỳ, lệ làng, lễ khai Tràng, giỗ tổ nghề và Quyết định 826/QĐ-BVHTTDL ngày 9/3/2021.",
-      "sha256": "d3f93dfc0738bed7bfb00847b0c0f0f35208d7b9548ec9140e480d011b228a6b",
-      "verified_at": "2026-10-18T14:23:37.315787+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://hanoimoi.vn/nghe-dat-quy-vang-bac-kieu-ky-duoc-ghi-danh-di-san-van-hoa-phi-vat-the-quoc-gia-644780.html",
-      "supports": "Báo Hà Nội Mới: lễ đón nhận chứng nhận ghi danh nghề quỳ, vàng, bạc Kiêu Kỵ là Di sản văn hóa phi vật thể quốc gia (sáng 12/10); Kiêu Kỵ là làng duy nhất ở Việt Nam chuyên làm dát vàng, bạc, quỳ; nghề xuất hiện từ hơn 300 năm trước, thời Hậu Lê.",
-      "sha256": "fce8d7e967e609ed01d1569768abacef3ea7d9f4aa9179dffa0f010e4f4c57b8",
-      "verified_at": "2026-10-18T14:23:39.322663+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://nhipsonghanoi.hanoimoi.vn/kieu-ky-phat-trien-lang-nghe-truyen-thong-684683.html",
-      "supports": "Báo Hà Nội Mới (nhipsonghanoi.hanoimoi.vn): Kiêu Kỵ là làng nghề duy nhất cả nước làm vàng quỳ, bạc quỳ dùng trong xây dựng, trang trí đình, đền, chùa, nghệ thuật điêu khắc, hội họa; hợp tác xã và 13 tổ hợp tác với 60 hộ cá thể; lá quỳ cạnh dài 4 cm kén từ giấy dó.",
-      "sha256": "1b6874d61637f467dc1e9d51c376fd5dcb4e2153e925d59883cd36209033bcbd",
-      "verified_at": "2026-10-18T14:23:41.015131+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -130,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T14:23:46.117238+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T01:10:38.580968+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "d763f9fb5632f35c78635a86032a97310204b97d4421f749f3b3156baa16df66",
+  "inventory_sha256": "aa2642fecfe30d3c6ea9b20cfed5e89891589a574ae21a98ae2341e7ebd399fa",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

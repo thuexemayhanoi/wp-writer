@@ -372,6 +372,36 @@ def research_hints(limit=10):
         except (ValueError, KeyError, json.JSONDecodeError):
             continue
     leads = []
+    # Curated Search Console/Ubersuggest opportunities are research leads only.
+    # They have no auto-intake/PLANNED privilege and require normal Topic QA.
+    priority_path = ROOT / 'data/research/seo-opportunities-2026-10-18.json'
+    if priority_path.is_file():
+        priority_data = json.loads(priority_path.read_text(encoding='utf-8'))
+        for item in priority_data.get('opportunities', []):
+            origin = str(item.get('id', ''))
+            if (item.get('decision') != 'RESEARCH_FIRST' or not origin.startswith('SEO-') or origin in consumed
+                    or origin in submissions or not item.get('title_hint')
+                    or item.get('state') != 'AWAITING_EXTERNAL_RESEARCH'):
+                continue
+            leads.append({
+                'origin_id': origin,
+                'taxonomy_key': item.get('taxonomy_key'),
+                'title_hint': item.get('title_hint'),
+                'primary_keyword_suggestion': item.get('primary_keyword_suggestion'),
+                'parent_query': item.get('parent_query'),
+                'parent_query_metrics': item.get('metrics'),
+                'target_existing_url': item.get('target_existing_url'),
+                'research_priority': item.get('priority'),
+                'questions': [
+                    'Bài hoặc trang hiện có đã giải đáp cùng search intent chưa?',
+                    'Có nguồn ngoài đủ chắc để chứng minh dữ kiện mới không?',
+                    'Đây có phải supporting article độc lập, không cạnh tranh trang chủ không?',
+                ],
+                'source_signals': [],
+                'status': 'NEEDS_EXTERNAL_AI_FACT_RESEARCH_NOT_READY_TO_WRITE',
+            })
+            if len(leads) >= limit:
+                return leads
     for p in sorted((ROOT / 'data/research/auto').glob('batch-*.jsonl')):
         for line in p.read_text(encoding='utf-8').splitlines():
             if not line.strip():
