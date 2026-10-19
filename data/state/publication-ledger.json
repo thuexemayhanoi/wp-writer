@@ -15032,7 +15032,7 @@
       }
     },
     "NT-001035": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:28:23.510029+00:00",
       "source_hash": "6409d75059373d949915d541c0bbe3c441e09a00c4e1cc76d499997a112987f0",
       "slug": "banh-chung-tranh-khuc-lang-nghe-o-thanh-tri-nguyen-lieu-chon-loc-va-vu-goi-banh-tu-dau-thang-chap",
@@ -15048,8 +15048,37 @@
       "category_warning": null,
       "git_commit": "0927396b58191acf78af0cf04b0ee3c0688197ef",
       "run_id": "39326750194",
-      "updated_at": "2026-10-19T21:28:27.870774+00:00",
-      "wp_id": 4300
+      "updated_at": "2026-10-19T21:28:34.337305+00:00",
+      "wp_id": 4300,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/banh-chung-tranh-khuc-lang-nghe-o-thanh-tri-nguyen-lieu-chon-loc-va-vu-goi-banh-tu-dau-thang-chap/",
+      "verified_at": "2026-10-19T21:28:34.337299+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4300,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/banh-chung-tranh-khuc-lang-nghe-o-thanh-tri-nguyen-lieu-chon-loc-va-vu-goi-banh-tu-dau-thang-chap/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/banh-chung-tranh-khuc-lang-nghe-o-thanh-tri-nguyen-lieu-chon-loc-va-vu-goi-banh-tu-dau-thang-chap/",
+        "seo_title": "Bánh chưng Tranh Khúc ở Thanh Trì: nguyên liệu và vụ gói bánh Tết",
+        "seo_description": "Bánh chưng Tranh Khúc ở xã Duyên Hà, Thanh Trì: nguyên liệu, các bước làm, số hộ làm nghề năm 2020 và vụ gói từ đầu tháng Chạp theo Thanh Niên, Tuổi Trẻ.",
+        "checked_at": "2026-10-19T21:28:34.337280+00:00"
+      }
     }
   },
   "categories": {}
