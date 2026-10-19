@@ -12795,7 +12795,7 @@
       }
     },
     "NT-000854": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T14:34:47.490605+00:00",
       "source_hash": "91b3102e5de177d60c91a2ebf84a5ecdd6715c8e4db3627b5802d6a16ef3282a",
       "slug": "xe-tay-ga-honda-cho-duoc-bao-nhieu-kg-kha-nang-cho-toi-da-gioi-han-hop-dung-do-moc-treo-tay-dat-sau-va-ap-suat-lop-khi-cho-hai-nguoi",
@@ -12810,8 +12810,37 @@
       "category_warning": null,
       "git_commit": "ec89a012d9e63b3543273a937587890cd0c43e83",
       "run_id": "39269297349",
-      "updated_at": "2026-10-19T14:34:52.600842+00:00",
-      "wp_id": 4243
+      "updated_at": "2026-10-19T14:34:58.908419+00:00",
+      "wp_id": 4243,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-tay-ga-honda-cho-duoc-bao-nhieu-kg-kha-nang-cho-toi-da-gioi-han-hop-dung-do-moc-treo-tay-dat-sau-va-ap-suat-lop-khi-cho-hai-nguoi/",
+      "verified_at": "2026-10-19T14:34:58.908412+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4243,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-tay-ga-honda-cho-duoc-bao-nhieu-kg-kha-nang-cho-toi-da-gioi-han-hop-dung-do-moc-treo-tay-dat-sau-va-ap-suat-lop-khi-cho-hai-nguoi/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-tay-ga-honda-cho-duoc-bao-nhieu-kg-kha-nang-cho-toi-da-gioi-han-hop-dung-do-moc-treo-tay-dat-sau-va-ap-suat-lop-khi-cho-hai-nguoi/",
+        "seo_title": "Xe tay ga Honda chở được bao nhiêu kg? Số liệu theo sách Honda",
+        "seo_description": "Xe tay ga Honda chở được bao nhiêu kg? Số liệu SH Mode, Vision, LEAD 125, Wave 110 trong sách: tải tối đa, giới hạn hộp đựng đồ, móc treo và áp suất lốp khi chở hai người.",
+        "checked_at": "2026-10-19T14:34:58.908393+00:00"
+      }
     }
   },
   "categories": {}
