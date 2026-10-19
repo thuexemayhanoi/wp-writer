@@ -10107,7 +10107,7 @@
       }
     },
     "NT-000686": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T05:30:26.288967+00:00",
       "source_hash": "b8b4f8e379cbb4b0334e25c59654bc6c483183dacaf89b07604de825798c4cb8",
       "slug": "bao-lo-trinh-cho-nguoi-than-va-dang-ky-nhan-ban-tin-dai-su-quan-truoc-chuyen-xe-may-duong-dai",
@@ -10122,8 +10122,37 @@
       "category_warning": null,
       "git_commit": "3e4e02f244d969e81281435c78da8bf54ca76832",
       "run_id": "39204485070",
-      "updated_at": "2026-10-19T05:30:30.235643+00:00",
-      "wp_id": 4180
+      "updated_at": "2026-10-19T05:30:36.325213+00:00",
+      "wp_id": 4180,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bao-lo-trinh-cho-nguoi-than-va-dang-ky-nhan-ban-tin-dai-su-quan-truoc-chuyen-xe-may-duong-dai/",
+      "verified_at": "2026-10-19T05:30:36.325208+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4180,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bao-lo-trinh-cho-nguoi-than-va-dang-ky-nhan-ban-tin-dai-su-quan-truoc-chuyen-xe-may-duong-dai/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bao-lo-trinh-cho-nguoi-than-va-dang-ky-nhan-ban-tin-dai-su-quan-truoc-chuyen-xe-may-duong-dai/",
+        "seo_title": "Báo lộ trình và đăng ký bản tin đại sứ quán khi đi xe máy đường dài",
+        "seo_description": "Báo lộ trình và đăng ký bản tin đại sứ quán khi đi xe máy đường dài: tóm tắt lời khuyên của các trang chính phủ Anh, Canada, Úc, Ireland và Mỹ, kèm ngày cập nhật của từng trang.",
+        "checked_at": "2026-10-19T05:30:36.325185+00:00"
+      }
     }
   },
   "categories": {}
