@@ -54,6 +54,12 @@ def delivery_route(topic,policy,registry,categories,create_category=None,accepta
     if not (public or staging or acceptance_draft):
         raise ValueError('WordPress delivery is not approved')
     intended=topic['taxonomy_key']
+    # Owner contract for all 51 Hanoi ward posts: EXACT category 182 or NO WP
+    # write. Unlike other silos, ward pages must never create WP drafts, fall
+    # back to Blog or auto-create per-ward categories when term 182 drifts.
+    ward_public_only=(intended=='hanoi-ward-rentals')
+    if ward_public_only and not public:
+        raise ValueError('Hanoi ward publication requires QA-approved production')
     try:
         term_id=resolve(intended,registry,categories)
         return {'status':'publish' if public else 'draft','category_id':term_id,
@@ -61,6 +67,10 @@ def delivery_route(topic,policy,registry,categories,create_category=None,accepta
                 'category_warning':None}
     except ValueError as exc:
         category_error=str(exc)
+    if ward_public_only:
+        # Do not publish under a wrong parent and do not create a fallback
+        # WordPress draft; keep the article on GitHub until REST reconciliation.
+        raise ValueError('Hanoi ward category blocked: '+category_error)
     if public and policy.get('allow_category_create') and create_category:
         # Only the explicitly approved, ledger-protected JIT path may write terms.
         try:
