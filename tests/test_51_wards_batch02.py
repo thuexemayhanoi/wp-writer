@@ -91,7 +91,7 @@ class WardBatch02EditorialTests(unittest.TestCase):
         meta_vi,body_vi=self.load_article(*WARDS[0][:2])
         meta_tay,body_tay=self.load_article(*WARDS[1][:2])
         meta_dong,body_dong=self.load_article(*WARDS[2][:2])
-        self.assertIn("chưa có dữ liệu",body_vi.lower())
+        self.assertIn("không có dữ liệu xác nhận",body_vi.lower())
         self.assertIn("Yamaha Sirius",body_vi)
         self.assertIn("chưa có mức giá",body_tay.lower())
         self.assertIn("xe điện",body_tay.lower())
