@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://dsvh.gov.vn/di-tich-lich-su-den-hat-mon-2971",
-      "supports": "Cục Di sản văn hóa: hội đền Hát Môn ngày 6 tháng 3 âm lịch; tục làm bánh trôi và lễ rước bánh trôi dâng Hai Bà là sinh hoạt văn hóa độc đáo; thần tích làng chép quán Tiên vốn là quán bán bánh trôi nước, bà hàng dâng cả gánh bánh cho Hai Bà ăn trước khi ra trận.",
-      "sha256": "56466d9db0ee750e011504576ebb313318e961fc71cff9aea59f2774ae91d8a9",
-      "verified_at": "2026-10-19T04:12:23.716827+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://nhipsonghanoi.hanoimoi.vn/banh-troi-va-hem-la-o-den-hat-mon-625793.html",
-      "supports": "Báo Hà Nội Mới (Nhịp sống Hà Nội): ngoài mâm bánh lễ của đền các gia đình đều làm bánh trôi dâng Hai Bà; \"hèm\" kiêng ăn bánh trôi hơn 60 ngày sau Giao thừa; mùng 6 tháng Ba âm lịch là ngày đầu tiên trong năm cúng và ăn bánh trôi sau khi tế lễ, dâng bánh kết thúc.",
-      "sha256": "e1ec1f917d7efb79fcdc1b43c3da4e26cea2619bf0cad2c91591f2a25090b241",
-      "verified_at": "2026-10-19T04:12:25.209702+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://hanoimoi.vn/hat-mon-tu-long-thanh-kinh-den-trach-nhiem-giu-gin-di-san-1760957.html",
-      "supports": "Báo Hà Nội Mới: đền Hát Môn có ba kỳ lễ chính hằng năm: mùng 6 tháng Ba (giỗ Hai Bà), mùng 4 tháng Chín (hội quân, lập đàn thề), 24 tháng Chạp (rước Mộc Dục).",
-      "sha256": "bf1a57798a44e1d4fa6a5a738eb340a49c20048c026e3c682dd5a27de50c6328",
-      "verified_at": "2026-10-19T04:12:26.291833+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -139,11 +114,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T04:12:36.573399+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T04:16:46.901074+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "3ba1a8ccb2c68efe8885ce01eb7a10c1e5733a95327c9ac43bd2e6c8d9fd2c9e",
+  "inventory_sha256": "cfc1d159545df0a038b2018eeef20e54c66b3a08e265a089848c501463ece29b",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

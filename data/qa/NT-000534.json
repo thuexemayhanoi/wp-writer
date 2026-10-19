@@ -70,24 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://dsvh.gov.vn/le-hoi-dinh-chem-1274",
-      "supports": "Cục Di sản văn hóa (hồ sơ tư liệu): đình Chèm thờ Lý Ông Trọng, hội từ 14 đến 16 tháng Năm âm lịch ở đình, chùa làng và bến Ngự; ba làng Chèm, Hoàng Xá, Hoàng Liên kết nghĩa anh em; lịch ngày 12 đến 16 (phục y, thi chè kho, rước nước, mộc dục, thả chim bồ câu); hội lớn năm năm một lần; Quyết định 2067/QĐ-BVHTTDL ngày 13/6/2016.",
-      "sha256": "20fcc7efe4ca3ad2dc1e5d804afe4ad86301c11ea3205b26adc63fac156f6f48",
-      "verified_at": "2026-10-19T04:11:35.266770+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://nhipsonghanoi.hanoimoi.vn/khai-mac-le-hoi-truyen-thong-dinh-chem-669656.html",
-      "supports": "Báo Hà Nội Mới (Nhịp sống Hà Nội): lễ hội truyền thống đình Chèm tổ chức từ 14 đến 16 tháng Năm hằng năm; năm 2024 khai mạc ngày 19-6, quy mô cấp quận, từ 19 đến 21-6 với rước nước trên sông Hồng, rước văn, mộc dục, phóng điểu và các hội thi nấu chè kho, bơi, cờ người, tổ tôm điếm.",
-      "sha256": "4893bb60559fd0540af9953f867902e7d955993a95b02fac34cee22ce3d4c17a",
-      "verified_at": "2026-10-19T04:11:36.377229+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -104,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T04:11:45.679065+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T04:16:46.249353+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "4cc7b1da26a0b9a5769c84212a3ef1c90fddcf3ffba2a131c6d9906bb63d27c3",
+  "inventory_sha256": "cfc1d159545df0a038b2018eeef20e54c66b3a08e265a089848c501463ece29b",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

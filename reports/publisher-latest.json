@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-19T04:15:33.303297+00:00",
-  "attempted": 10,
+  "at": "2026-10-19T04:22:39.942417+00:00",
+  "attempted": 7,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -22,7 +22,7 @@
       "action": "manual reconciliation; never create/update automatically"
     },
     {
-      "topic_id": "NT-000534",
+      "topic_id": "NT-000538",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 172,
       "category_resolution": "EXACT",
@@ -30,27 +30,11 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-000535",
+      "topic_id": "NT-000539",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
+      "category_id": 172,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000536",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 174,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "food-culture",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000537",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
+      "intended_taxonomy_key": "hanoi-travel",
       "category_warning": null
     },
     {
@@ -161,7 +145,7 @@
           "url": "https://webstore.iec.ch/en/publication/2447",
           "supports": "IEC Webstore: IEC 60529 (Degrees of protection provided by enclosures, IP Code) dùng để phân loại mức bảo vệ do vỏ bọc của thiết bị điện có điện áp định mức không quá 72,5 kV.",
           "sha256": "37a4a0eead48c06bded8486d25152bc2e4bb67fa4b0ea7c811688e135dfdfd4d",
-          "verified_at": "2026-10-19T04:13:18.933249+00:00",
+          "verified_at": "2026-10-19T04:19:54.878647+00:00",
           "verification_method": "live",
           "live_checked": true
         },
@@ -169,7 +153,7 @@
           "url": "https://www.westmarine.com/west-advisor/Understanding-IP-Ratings.html",
           "supports": "West Marine (nhà bán lẻ hàng hải): mã IP mô tả hiệu năng trong điều kiện thử của IEC 60529, do hãng hoặc phòng thử độc lập thực hiện; IPX7 là ngâm tạm thời tới 1 m trong 30 phút, chữ X là không có xếp hạng vật rắn; IP68 do hãng đặt độ sâu và thời gian nên chưa chắc hơn IPX7.",
           "sha256": "60afa7abcbf90f24cc9db105eb211dd0d6308dd162ac16b61af1bcb864b874e0",
-          "verified_at": "2026-10-19T04:13:20.676987+00:00",
+          "verified_at": "2026-10-19T04:19:55.945083+00:00",
           "verification_method": "live",
           "live_checked": true
         },
@@ -217,11 +201,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-19T04:13:25.416062+00:00",
+      "at": "2026-10-19T04:20:02.473816+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "39d1dbe79589a779a3adf982aacac5f44c6ada287204747ec5957a6fe34a9477",
+      "inventory_sha256": "b279578d1855f02a02a1f04860ad62ef2cae3f7e1c661aa77984b6cd1a113cb9",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -238,15 +222,7 @@
       }
     },
     {
-      "topic_id": "NT-000620",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 166,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "ebikes",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000641",
+      "topic_id": "NT-000648",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 176,
       "category_resolution": "EXACT",
@@ -254,23 +230,7 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-000642",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 177,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "green-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000643",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 176,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "urban-mobility",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000646",
+      "topic_id": "NT-000649",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 175,
       "category_resolution": "EXACT",
@@ -278,11 +238,192 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-000647",
+      "topic_id": "NT-000650",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 176,
       "category_resolution": "EXACT",
       "intended_taxonomy_key": "urban-mobility",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000806",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 175,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "trip-planning",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000807",
+      "status": "REVIEW",
+      "source_sha256": "313b7e8930de7aaf748b4e179a1398fceb38d740a14e2906c9aebef9db2e6f93",
+      "body_sha256": "2af93e67b379b5984419502e0fcb1fbc52a2d2e691e6c2e1e4b808d7ccde97c3",
+      "word_count": 3184,
+      "quality_score": 85,
+      "seo_score": 100,
+      "seo_min_required": 85,
+      "seo_checks": {
+        "seo_title_relevance": {
+          "points": 15,
+          "max": 15
+        },
+        "meta_description_relevance": {
+          "points": 15,
+          "max": 15
+        },
+        "opening_intent_focus": {
+          "points": 15,
+          "max": 15
+        },
+        "direct_answer": {
+          "points": 10,
+          "max": 10
+        },
+        "headings_usefulness": {
+          "points": 15,
+          "max": 15
+        },
+        "verified_contextual_links": {
+          "points": 15,
+          "max": 15
+        },
+        "descriptive_anchor": {
+          "points": 5,
+          "max": 5
+        },
+        "canonical_identity": {
+          "points": 10,
+          "max": 10
+        }
+      },
+      "seo_recommendations": [],
+      "gates": {
+        "1": {
+          "errors": [],
+          "review": []
+        },
+        "2": {
+          "errors": [],
+          "review": []
+        },
+        "3": {
+          "errors": [],
+          "review": [
+            "Source REVIEW: ValueError: Source excerpt not found"
+          ]
+        },
+        "4": {
+          "errors": [],
+          "review": []
+        },
+        "5": {
+          "errors": [],
+          "review": []
+        },
+        "6": {
+          "errors": [],
+          "review": []
+        }
+      },
+      "errors": [],
+      "review": [
+        "Source REVIEW: ValueError: Source excerpt not found"
+      ],
+      "source_evidence": [
+        {
+          "url": "https://vnexpress.net/lich-su-80-nam-cua-ca-phe-trung-trong-khach-san-ha-noi-4878901.html",
+          "supports": "VnExpress (27/04/2025): cà phê trứng ra đời năm 1946 ở khách sạn Metropole (nay là Sofitel Legend Metropole Hà Nội), do ông Nguyễn Văn Giảng pha chế khi sữa khan hiếm; ông mở quán cà phê mang tên mình ở phố cổ vào những năm 1960; khách sạn nói giữ nguyên công thức; được phục vụ trong tách giữ ấm.",
+          "sha256": "f00d9fab33ed50abf4ea99f60bcf19ad452442b8c104ce74b3868046ca53fccd",
+          "verified_at": "2026-10-19T04:21:54.313286+00:00",
+          "verification_method": "live",
+          "live_checked": true
+        },
+        {
+          "url": "https://vnexpress.net/tach-ca-phe-trung-huyen-thoai-cua-ha-noi-3562380.html",
+          "supports": "VnExpress (29/03/2017, theo CNN): con trai ông Giảng kể cha sáng tạo cà phê trứng năm 1946 khi pha chế ở khách sạn Metropole, thay sữa tươi bằng trứng vì thiếu sữa, sau đó rời khách sạn để bán cà phê thương hiệu riêng; cách phục vụ với thìa nhỏ và bát nước ấm; bài nêu hai địa chỉ quán Giảng lúc đó.",
+          "sha256": "f556441b5b01bfad347ddb58d44c949de2ada6bac434846de80eb472572e95f1",
+          "verified_at": "2026-10-19T04:21:56.766556+00:00",
+          "verification_method": "live",
+          "live_checked": true
+        },
+        {
+          "url": "https://tuoitre.vn/michelin-guide-goi-ca-phe-cot-dua-la-giao-huong-nhiet-doi-ca-phe-trung-la-tuyet-tac-ha-noi-20240401134312135.htm",
+          "supports": "Báo Tuổi Trẻ (01/04/2024) dẫn Michelin Guide: cà phê trứng là sáng tạo của cà phê Việt Nam trong bối cảnh khan hiếm; người sáng lập quán Giảng chuyển sang dùng lòng đỏ trứng, kết hợp bí quyết học từ khách sạn Metropole; Michelin gọi cà phê trứng là tuyệt tác của Hà Nội.",
+          "sha256": "3a3972c09859a1f85de967bbabdfbcc881af87b89d7ca9889346f3a21cf5dd40",
+          "verified_at": "2026-10-19T04:21:59.013624+00:00",
+          "verification_method": "live",
+          "live_checked": true
+        }
+      ],
+      "evidence_recheck": {
+        "pages": [
+          {
+            "id": 2582,
+            "title": "Xe nào phù hợp chạy trong phố Hà Nội? Gợi ý theo từng nhu cầu",
+            "why": "stale",
+            "content_hash": "0f62d1c774af57a3c896ffd697700d31e6892614883dbc70f9970230ae26d134",
+            "jaccard": 0.0,
+            "intent_match": null,
+            "verdict": "INDEPENDENT"
+          },
+          {
+            "id": 2592,
+            "title": "Đi Hà Nội hai người nên chọn xe gì để thoải mái và dễ điều khiển?",
+            "why": "stale",
+            "content_hash": "5c0894287bcacd6fb1f4e67cebc0eb2d421ebeddf8dc30ba47f488d03a2cf568",
+            "jaccard": 0.0,
+            "intent_match": null,
+            "verdict": "INDEPENDENT"
+          },
+          {
+            "id": 2632,
+            "title": "Cầu Long Biên Hà Nội: Đi lúc nào đẹp, chụp ảnh ở đâu và chơi gì gần đó?",
+            "why": "stale",
+            "content_hash": "36dfb351fe0b68f0a6c25d3903504798235bac27df1d97f4c68ca001b55d25e3",
+            "jaccard": 0.0,
+            "intent_match": null,
+            "verdict": "INDEPENDENT"
+          },
+          {
+            "id": 4055,
+            "title": "Thuê 2 xe máy cùng lúc ở Hà Nội: chuẩn bị giấy tờ, giao nhận và hoàn cọc từng xe",
+            "why": "stale",
+            "content_hash": "029d48a9e900c89ea965179099932a9ddb51ee071f065aca1c29903fd58a13c9",
+            "jaccard": 0.0,
+            "intent_match": null,
+            "verdict": "INDEPENDENT"
+          }
+        ],
+        "independent": true,
+        "max_jaccard": 0.25,
+        "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+      },
+      "at": "2026-10-19T04:22:12.171064+00:00",
+      "live_links_checked": true,
+      "legal_required": false,
+      "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+      "inventory_sha256": "e8955dcd0813737862e680e907d7bcb59622e647218d05132fa1ab8cfdb27e9f",
+      "triage": {
+        "hold_class": "REAL_RISK",
+        "real_risk": [
+          "G3: Source REVIEW: ValueError: Source excerpt not found"
+        ],
+        "writer_repair": [],
+        "infra_pending": []
+      },
+      "recheck": {
+        "attempts": 1,
+        "max": 3,
+        "exhausted": false,
+        "needs_owner": false
+      }
+    },
+    {
+      "topic_id": "NT-000808",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 174,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "food-culture",
       "category_warning": null
     }
   ],

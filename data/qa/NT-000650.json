@@ -70,7 +70,24 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [],
+  "source_evidence": [
+    {
+      "url": "https://hanoimoi.vn/ha-noi-ky-ket-hop-dong-thuc-hien-5-tuyen-duong-sat-do-thi-theo-hinh-thuc-chia-khoa-trao-tay-1761315.html",
+      "supports": "Hànộimới 15/10/2026: lễ ký hợp đồng chìa khóa trao tay 5 tuyến số 1, 2, 8, 10, 14 tổng chiều dài khoảng 253,5 km, nhu cầu vốn sơ bộ hơn 1 triệu tỷ đồng, mục tiêu hoàn thành năm 2030; lộ trình và chiều dài từng tuyến.",
+      "sha256": "eb41ae85a204942b5eee0c9dfcbd55204c105820466c1eab724a791eb2009e5e",
+      "verified_at": "2026-10-19T04:20:54.370650+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://thanhnien.vn/ha-noi-ky-hop-dong-chia-khoa-trao-tay-5-tuyen-metro-1-trieu-ti-dong-185261015163943832.htm",
+      "supports": "Thanh Niên 15/10/2026: hợp đồng chìa khóa trao tay giữa MRB và liên danh Vinhomes – SGC cho 5 tuyến metro dài hơn 250 km, nhu cầu vốn khoảng 1 triệu tỉ đồng, mục tiêu hoàn thành năm 2030; lộ trình từng tuyến.",
+      "sha256": "d09602506e46209d9462bdeab3f360909bfa9ca294e382e705996217a14f92df",
+      "verified_at": "2026-10-19T04:20:56.538161+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
   "evidence_recheck": {
     "pages": [
       {
@@ -96,11 +113,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T04:10:01.108013+00:00",
-  "live_links_checked": false,
+  "at": "2026-10-19T04:21:01.266781+00:00",
+  "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "3f8018878a4bcddb1efbad5bb0daa99db50789a42d5c958bda411c728560b2fa",
+  "inventory_sha256": "f04506ea9060d2635bf9e41e283efa2a7902415e05f7a4e4a9f6d78e1276cfe2",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

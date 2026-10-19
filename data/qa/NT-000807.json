@@ -1,10 +1,10 @@
 {
   "topic_id": "NT-000807",
-  "status": "PASS",
+  "status": "REVIEW",
   "source_sha256": "313b7e8930de7aaf748b4e179a1398fceb38d740a14e2906c9aebef9db2e6f93",
   "body_sha256": "2af93e67b379b5984419502e0fcb1fbc52a2d2e691e6c2e1e4b808d7ccde97c3",
   "word_count": 3184,
-  "quality_score": 100,
+  "quality_score": 85,
   "seo_score": 100,
   "seo_min_required": 85,
   "seo_checks": {
@@ -53,7 +53,9 @@
     },
     "3": {
       "errors": [],
-      "review": []
+      "review": [
+        "Source REVIEW: ValueError: Source excerpt not found"
+      ]
     },
     "4": {
       "errors": [],
@@ -69,8 +71,35 @@
     }
   },
   "errors": [],
-  "review": [],
-  "source_evidence": [],
+  "review": [
+    "Source REVIEW: ValueError: Source excerpt not found"
+  ],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/lich-su-80-nam-cua-ca-phe-trung-trong-khach-san-ha-noi-4878901.html",
+      "supports": "VnExpress (27/04/2025): cà phê trứng ra đời năm 1946 ở khách sạn Metropole (nay là Sofitel Legend Metropole Hà Nội), do ông Nguyễn Văn Giảng pha chế khi sữa khan hiếm; ông mở quán cà phê mang tên mình ở phố cổ vào những năm 1960; khách sạn nói giữ nguyên công thức; được phục vụ trong tách giữ ấm.",
+      "sha256": "f00d9fab33ed50abf4ea99f60bcf19ad452442b8c104ce74b3868046ca53fccd",
+      "verified_at": "2026-10-19T04:21:54.313286+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vnexpress.net/tach-ca-phe-trung-huyen-thoai-cua-ha-noi-3562380.html",
+      "supports": "VnExpress (29/03/2017, theo CNN): con trai ông Giảng kể cha sáng tạo cà phê trứng năm 1946 khi pha chế ở khách sạn Metropole, thay sữa tươi bằng trứng vì thiếu sữa, sau đó rời khách sạn để bán cà phê thương hiệu riêng; cách phục vụ với thìa nhỏ và bát nước ấm; bài nêu hai địa chỉ quán Giảng lúc đó.",
+      "sha256": "f556441b5b01bfad347ddb58d44c949de2ada6bac434846de80eb472572e95f1",
+      "verified_at": "2026-10-19T04:21:56.766556+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://tuoitre.vn/michelin-guide-goi-ca-phe-cot-dua-la-giao-huong-nhiet-doi-ca-phe-trung-la-tuyet-tac-ha-noi-20240401134312135.htm",
+      "supports": "Báo Tuổi Trẻ (01/04/2024) dẫn Michelin Guide: cà phê trứng là sáng tạo của cà phê Việt Nam trong bối cảnh khan hiếm; người sáng lập quán Giảng chuyển sang dùng lòng đỏ trứng, kết hợp bí quyết học từ khách sạn Metropole; Michelin gọi cà phê trứng là tuyệt tác của Hà Nội.",
+      "sha256": "3a3972c09859a1f85de967bbabdfbcc881af87b89d7ca9889346f3a21cf5dd40",
+      "verified_at": "2026-10-19T04:21:59.013624+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
   "evidence_recheck": {
     "pages": [
       {
@@ -114,19 +143,21 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T04:10:05.310860+00:00",
-  "live_links_checked": false,
+  "at": "2026-10-19T04:22:12.171064+00:00",
+  "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "3f8018878a4bcddb1efbad5bb0daa99db50789a42d5c958bda411c728560b2fa",
+  "inventory_sha256": "e8955dcd0813737862e680e907d7bcb59622e647218d05132fa1ab8cfdb27e9f",
   "triage": {
-    "hold_class": "NONE",
-    "real_risk": [],
+    "hold_class": "REAL_RISK",
+    "real_risk": [
+      "G3: Source REVIEW: ValueError: Source excerpt not found"
+    ],
     "writer_repair": [],
     "infra_pending": []
   },
   "recheck": {
-    "attempts": 0,
+    "attempts": 1,
     "max": 3,
     "exhausted": false,
     "needs_owner": false

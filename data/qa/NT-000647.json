@@ -70,24 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://metrohanoi.vn/metro-userguide/noi-quy/",
-      "supports": "Trang Nội quy đối với hành khách đi tàu của Hà Nội Metro (chín nhóm): vé, trật tự, tài sản, hành lý cồng kềnh quá 56 x 36 x 23 cm hoặc 18 kg, vật nuôi, đồ tươi sống, hút thuốc, vũ khí và hàng nguy hiểm, chỉ dẫn của nhân viên, trẻ em từ 6 tuổi trở xuống, từ chối phục vụ.",
-      "sha256": "eba538b691bb6bdb01e1b9a39b5b0ff950d16dc793cdb23b2ff48c29f9ee23bc",
-      "verified_at": "2026-10-19T04:15:18.734332+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://metrohanoi.vn/metro-userguide/nhung-luu-y-khi-su-dung-he-thong-metro/",
-      "supports": "Trang Văn hóa Metro của Hà Nội Metro: chín điều như nhường ghế, điện thoại im lặng, không đèn flash, nhờ nhân viên khi dùng xe lăn hoặc xe đẩy, không lên tàu khi cửa đóng, không hút thuốc, bỏ rác đúng nơi.",
-      "sha256": "c02991ae41bc176679376189128099fface1727f2529238363191c47a101b248",
-      "verified_at": "2026-10-19T04:15:20.549224+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -113,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T04:15:22.942596+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T04:16:58.768843+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "c4315b7827c1eef6056f285b3e35eeeb4e856dee3025dfbd10cc4226eccdf54f",
+  "inventory_sha256": "cfc1d159545df0a038b2018eeef20e54c66b3a08e265a089848c501463ece29b",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
