@@ -1,0 +1,158 @@
+{
+  "topic_id": "NT-000816",
+  "status": "PASS",
+  "source_sha256": "3e7b2113421d185dfc31558fbc1a3db43823148ada25bb9b05d208f10013f28a",
+  "body_sha256": "96f906d5b5aca5ea33c8bbd543b070c883327d63309f87f7e9f55efc9d82226e",
+  "word_count": 3787,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://travel.gc.ca/destinations/vietnam",
+      "supports": "Trang tư vấn của Canada (cập nhật 13/10/2026), mục Boating: tai nạn thuyền do quá tải và bảo dưỡng kém, kể cả ở Vịnh Hạ Long; chọn công ty thuyền có uy tín, bảo đảm công ty tour theo quy tắc an toàn mới nhất, không lên tàu có vẻ quá tải hoặc không đủ tiêu chuẩn đi biển; mục Ferries: tai nạn phà do quá tải và bảo dưỡng kém, nhất là tuyến TP HCM đi Vũng Tàu; mục Swimming and diving: bãi biển không phải lúc nào cũng có người trông coi",
+      "sha256": "126c661b0baedc6f2c337d9d931cfdb12a6a068ad2779ba0c38fbef1e0fbf156",
+      "verified_at": "2026-10-19T00:47:25.196290+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.gov.uk/foreign-travel-advice/vietnam/safety-and-security",
+      "supports": "Trang tư vấn của Anh (cập nhật 21/09/2026), mục Sea travel: hỏi hướng dẫn viên về hồ sơ an toàn và đăng ký của tàu, chứng chỉ của nhân viên; bảo đảm được hướng dẫn an toàn đầy đủ và có áo phao khi lên bất kỳ tàu nào; cân nhắc tiêu chuẩn an toàn trước chuyến tàu qua đêm ở Vịnh Hạ Long vì quá tải và tiêu chuẩn an toàn kém đã gây tai nạn những năm trước, một số tàu chìm nhanh và không báo trước",
+      "sha256": "a2d5eeadc18979325d7eabf475624e42e88db391550a35a45fab429cad2935c1",
+      "verified_at": "2026-10-19T00:47:26.275119+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+      "supports": "Trang Smartraveller của Úc (cập nhật 24/09/2026), mục Sea travel: tàu, tàu cánh ngầm và phà có thể không đạt tiêu chuẩn an toàn của Úc; tai nạn xảy ra, tàu đã chìm và có người chết, kể cả ở Vịnh Hạ Long; khi đi tàu thì hỏi công ty tour về hồ sơ an toàn và quy trình khẩn cấp, bảo đảm có đủ thiết bị an toàn như áo phao, nếu không có thiết bị phù hợp thì dùng nhà cung cấp khác",
+      "sha256": "b21f280d5c64c04d3676dbcb17d6d239db87531c6c946119451121226fe3e36f",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    },
+    {
+      "url": "https://e.vnexpress.net/news/news/inside-the-ha-long-bay-cruise-disaster-what-went-wrong-4917597.html",
+      "supports": "Bài phân tích của VnExpress International ngày 22/07/2025: tàu Vinh Xanh 58 chở 46 khách và 3 thuyền viên rời cảng Bãi Cháy lúc 12:55 ngày 19/7, đến 13:30 bị dông gần hang Đầu Gỗ lật, mất tín hiệu GPS lúc 14:05, lực lượng cứu hộ được báo lúc 15:30; đến 22/7 có 37 người chết, hai người mất tích, 10 người sống sót; tàu không có hệ thống báo nạn tự động; theo quy tắc của Quảng Ninh tàu phải đi theo tuyến được duyệt và theo dõi bằng GPS; dự báo thời tiết của vịnh cập nhật ba lần mỗi ngày, các bản tin 6:30 và 10:00 dự báo trời quang gió nhẹ; Thủ tướng yêu cầu điều tra quy mô lớn; các nhận định về nguyên nhân là ý kiến của người được dẫn",
+      "sha256": "82cb4a4c6cc5082d6a7c9fdc1f1e5f7855b6a0301269963235a560b1d6ebe6ce",
+      "verified_at": "2026-10-19T00:47:28.719936+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://e.vnexpress.net/news/news/death-toll-climbs-to-34-after-tourist-boat-carrying-53-capsizes-in-ha-long-bay-4916414.html",
+      "supports": "Bản tin của VnExpress International ngày 19/07/2025 (ghi bản lưu 21/07/2025 theo dữ liệu tìm kiếm): tàu chở 53 người gồm 48 khách và 5 thuyền viên bị dông đánh lật quanh 13:30, mất tín hiệu GPS lúc 14:05, 34 thi thể được tìm thấy và 11 người được cứu tại thời điểm viết; hầu hết hành khách từ Hà Nội đi theo gia đình, gồm hơn 20 trẻ em; Vịnh Hạ Long rộng hơn 1.500 km2 với gần 2.000 đảo và là Di sản thế giới của UNESCO; số liệu khác với bản ngày 22/7",
+      "sha256": "d76af0f11dbc0b0e23d04f05e6a6bc5a314186216b3cbb5d6afa00bf16477385",
+      "verified_at": "2026-10-19T00:47:31.342252+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2500,
+        "title": "Dấu hiệu xích xe máy quá chùng và cách kiểm tra trước khi đi xa",
+        "why": "stale",
+        "content_hash": "d061c138b067d5f2223950a7aaa38ebe11024f983962f728d69b56d64948608d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2596,
+        "title": "Những thứ cần kiểm tra trước khi nhận một chiếc xe máy sử dụng",
+        "why": "stale",
+        "content_hash": "26e2f6f6b72011f22f1c72c5d71add456975764e12b26f109f58c9c8e5e98b76",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T00:47:39.819545+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "b2c589508e376ba052380fe4c16627adde6fa8cec1c437807c085884ee77184f",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
