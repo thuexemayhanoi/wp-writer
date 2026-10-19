@@ -35,6 +35,16 @@ class BackpressureWorkflowTests(unittest.TestCase):
         self.assertEqual(qa["permissions"]["contents"], "read")
         self.assertIn("wp-writer-qa-", qa["concurrency"]["group"])
 
+    def test_scheduled_qa_is_cheap_during_owner_pause(self):
+        qa = workflow("writer-qa.yml")
+        steps = qa["jobs"]["tests-and-content"]["steps"]
+        gate = next(i for i, item in enumerate(steps) if item.get("id") == "schedule_gate")
+        self.assertIn("GITHUB_EVENT_NAME", steps[gate]["run"])
+        self.assertIn("emergency_stop", steps[gate]["run"])
+        self.assertIn("paused", steps[gate]["run"])
+        for step in steps[gate + 1:]:
+            self.assertIn("steps.schedule_gate.outputs.run_qa == 'true'", step.get("if", ""))
+
     def test_publisher_isolated_and_safe_to_resume_after_sweep(self):
         pub = workflow("wordpress-publisher.yml")
         on = events(pub)
