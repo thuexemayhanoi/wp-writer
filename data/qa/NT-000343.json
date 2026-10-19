@@ -70,56 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/mot-so-diem-moi-cua-luat-trat-tu-an-toan-giao-thong-duong-bo-2024-d1-t1495",
-      "supports": "Bài của Bộ Công an giới thiệu điểm mới của Luật 36/2024: khoản 1 Điều 33 cho phép chở tối đa hai người trong bốn trường hợp (người bệnh cấp cứu; áp giải người vi phạm pháp luật; trẻ em dưới 12 tuổi; người già yếu hoặc người khuyết tật).",
-      "sha256": "4d6488e9cbf0b773353e4f48cebc2cc66f7bd1b47da749d5e6ff148ccfc7f41e",
-      "verified_at": "2026-10-19T03:40:13.527450+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/cac-muc-xu-phat-mot-so-loi-vi-pham-giao-thong-thuong-gap-doi-voi-nguoi-dieu-khien-xe-may-d1-t1650",
-      "supports": "Bài Chính sách mới của Bộ Công an (26/01/2025): chở theo 02 người trên xe trái quy định bị phạt 400.000-600.000 đồng (trừ bốn trường hợp ngoại lệ).",
-      "sha256": "be88d14ef0a61b85e20044b5ce956eed4fc7c5acdf152d848b30edb7dd89dae0",
-      "verified_at": "2026-10-19T03:40:16.045576+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/muc-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-an-toan-giao-thong-duong-bo-tu-01012025-d1-t1624",
-      "supports": "Bài Chính sách mới của Bộ Công an (31/12/2024): chở theo từ 03 người trở lên trên xe bị phạt 600.000-800.000 đồng.",
-      "sha256": "612834363e8fe659b162a1c1819e9d463eb56db4f8f6d5e93c18b6158fb17cbd",
-      "verified_at": "2026-10-19T03:40:18.597926+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/tu-01012025-cong-an-xa-duoc-xu-ly-hanh-vi-vi-pham-phap-luat-doi-voi-nguoi-dieu-khien-xe-mo-to-xe-gan-may-xe-tho-so-d1-t1615",
-      "supports": "Bài của Bộ Công an: Công an xã được xử lý nhóm lỗi gồm chở quá số người quy định, trên đường xã, đường thôn thuộc địa bàn quản lý (từ 01/01/2025).",
-      "sha256": "5f8556f35f867f63f8570598c82a56ec7c510063885654201da47b2f6b7fd511",
-      "verified_at": "2026-10-19T03:40:22.320961+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=211194&classid=1&typegroupid=3",
-      "supports": "Trang văn bản của Cổng thông tin điện tử Chính phủ: Luật 36/2024/QH15 ban hành 27-06-2024, có hiệu lực từ 01-01-2025.",
-      "sha256": "49fed929e9c0bef94f878930c692ea5beaf60ee5ec8cecdf7e0253e22b77bcd4",
-      "verified_at": "2026-10-19T03:40:27.613519+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=212167",
-      "supports": "Trang văn bản của Cổng thông tin điện tử Chính phủ: Nghị định 168/2024/NĐ-CP ban hành 26-12-2024, có hiệu lực từ 01-01-2025.",
-      "sha256": "0e73e6b08be7e97b51749aaa31a738f514e0715f258f937c6ded5d5473e75e4f",
-      "verified_at": "2026-10-19T03:40:29.974339+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -145,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T03:40:38.680087+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T03:43:31.673841+00:00",
+  "live_links_checked": false,
   "legal_required": true,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "7789925044af5231d60edc8afd7906dd0f38b075435a5705d6055500e6d48f26",
+  "inventory_sha256": "a657ac8a9f2e622f522f848bea520bffa31f6c2e97c772ed08c279a8964771e8",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

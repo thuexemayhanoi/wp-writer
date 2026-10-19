@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-19T03:42:41.851442+00:00",
-  "attempted": 3,
+  "at": "2026-10-19T03:51:54.273923+00:00",
+  "attempted": 9,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -22,7 +22,7 @@
       "action": "manual reconciliation; never create/update automatically"
     },
     {
-      "topic_id": "NT-000343",
+      "topic_id": "NT-000344",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 161,
       "category_resolution": "EXACT",
@@ -30,11 +30,27 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-000346",
+      "topic_id": "NT-000347",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 159,
       "category_resolution": "EXACT",
       "intended_taxonomy_key": "legal",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000491",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 172,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "hanoi-travel",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000495",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 175,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "trip-planning",
       "category_warning": null
     },
     {
@@ -118,7 +134,7 @@
           "url": "https://www.batteryuniversity.com/article/bu-409-charging-lithium-ion",
           "supports": "Battery University BU-409 (25/10/2021): tăng dòng sạc không rút ngắn nhiều thời gian đầy vì giai đoạn bão hòa kéo dài hơn; dòng lớn nạp nhanh khoảng 70% đầu.",
           "sha256": "10546a3d1bae756f43c8666a791ca1d0d764cb7708261042fce6f49e2eb60190",
-          "verified_at": "2026-10-19T03:41:43.340559+00:00",
+          "verified_at": "2026-10-19T03:47:15.411183+00:00",
           "verification_method": "live",
           "live_checked": true
         },
@@ -126,7 +142,7 @@
           "url": "https://www.batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries",
           "supports": "Battery University BU-808: pin kiểu Energy Cell nên sạc ở 1C hoặc thấp hơn; tránh bộ sạc \"ultra-fast\" sạc đầy dưới một giờ.",
           "sha256": "54e2c3993a1ba98ab508519d2ba8f4b5a748b24af0d28fd4c15ac7c9a03d7a43",
-          "verified_at": "2026-10-19T03:41:45.521580+00:00",
+          "verified_at": "2026-10-19T03:47:17.221184+00:00",
           "verification_method": "live",
           "live_checked": true
         },
@@ -143,7 +159,7 @@
           "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
           "supports": "Dat Bike: sạc nhanh không gây hại ngay nếu bộ sạc và BMS đạt chuẩn, nên ưu tiên sạc thường hằng ngày và để sạc nhanh khi cần.",
           "sha256": "0f548a2d957b60a67e6ebedf06b634d0ac4677b2ff843c447af7f49b2a5f7ad3",
-          "verified_at": "2026-10-19T03:41:48.915602+00:00",
+          "verified_at": "2026-10-19T03:47:20.124583+00:00",
           "verification_method": "live",
           "live_checked": true
         },
@@ -160,7 +176,7 @@
           "url": "https://www.batteryuniversity.com/article/bu-205-types-of-lithium-ion",
           "supports": "Battery University BU-205: sạc hoặc xả với dòng cao hơn hệ số C của cell gây nóng và áp lực quá mức.",
           "sha256": "1e06cd66fcb6154d9a8fca749b060d5c9dae6a09403034e8f879f448c6d7a521",
-          "verified_at": "2026-10-19T03:41:51.661051+00:00",
+          "verified_at": "2026-10-19T03:47:22.412788+00:00",
           "verification_method": "live",
           "live_checked": true
         },
@@ -208,11 +224,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-19T03:42:02.863829+00:00",
+      "at": "2026-10-19T03:47:28.147811+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "d7266bf18b3eda0c73c2424474c7658d8348a7d5f91eb6654b638661aa4fe0a0",
+      "inventory_sha256": "a330709c922e7705bae218f730be326305c6f283502bf5fee33b8570ed64ced4",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -227,6 +243,14 @@
         "exhausted": false,
         "needs_owner": false
       }
+    },
+    {
+      "topic_id": "NT-000584",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 160,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_warning": null
     },
     {
       "topic_id": "NT-000587",
@@ -336,7 +360,7 @@
           "url": "https://webstore.iec.ch/en/publication/2447",
           "supports": "IEC Webstore: IEC 60529 (Degrees of protection provided by enclosures, IP Code) dùng để phân loại mức bảo vệ do vỏ bọc của thiết bị điện có điện áp định mức không quá 72,5 kV.",
           "sha256": "37a4a0eead48c06bded8486d25152bc2e4bb67fa4b0ea7c811688e135dfdfd4d",
-          "verified_at": "2026-10-19T03:42:04.354702+00:00",
+          "verified_at": "2026-10-19T03:50:05.180553+00:00",
           "verification_method": "live",
           "live_checked": true
         },
@@ -344,7 +368,7 @@
           "url": "https://www.westmarine.com/west-advisor/Understanding-IP-Ratings.html",
           "supports": "West Marine (nhà bán lẻ hàng hải): mã IP mô tả hiệu năng trong điều kiện thử của IEC 60529, do hãng hoặc phòng thử độc lập thực hiện; IPX7 là ngâm tạm thời tới 1 m trong 30 phút, chữ X là không có xếp hạng vật rắn; IP68 do hãng đặt độ sâu và thời gian nên chưa chắc hơn IPX7.",
           "sha256": "60afa7abcbf90f24cc9db105eb211dd0d6308dd162ac16b61af1bcb864b874e0",
-          "verified_at": "2026-10-19T03:42:07.586224+00:00",
+          "verified_at": "2026-10-19T03:50:08.730346+00:00",
           "verification_method": "live",
           "live_checked": true
         },
@@ -392,11 +416,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-19T03:42:14.994061+00:00",
+      "at": "2026-10-19T03:50:13.603283+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-      "inventory_sha256": "d7266bf18b3eda0c73c2424474c7658d8348a7d5f91eb6654b638661aa4fe0a0",
+      "inventory_sha256": "b619057da273f3d2107989d21845994e51c8301580775eb1381b8e33202ec275",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -413,11 +437,35 @@
       }
     },
     {
-      "topic_id": "NT-000589",
+      "topic_id": "NT-000613",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 168,
       "category_resolution": "EXACT",
       "intended_taxonomy_key": "electric-tech",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000616",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 160,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000617",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 160,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000805",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 172,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "hanoi-travel",
       "category_warning": null
     }
   ],

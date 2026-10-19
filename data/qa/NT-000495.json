@@ -1,0 +1,142 @@
+{
+  "topic_id": "NT-000495",
+  "status": "PASS",
+  "source_sha256": "118473c5610dd88e1d5b074238443a029ef56fab70093392f5287d98344f08b8",
+  "body_sha256": "5304dee307de0088d9bcb1a51aaca8919edccec67c23156d7043777ac36a9793",
+  "word_count": 3851,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dsvh.gov.vn/di-tich-lich-su-va-kien-truc-nghe-thuat-khu-di-tich-pho-hien-2992",
+      "supports": "Cục Di sản văn hóa (dsvh.gov.vn): Phố Hiến là thương cảng - đô thị XVII - XVIII bên sông Hồng; khu di tích gồm 16 di tích tiêu biểu; mô tả từng điểm; lễ hội văn hóa vùng Phố Hiến thường vào tháng Ba âm lịch.",
+      "sha256": "bae62b35b4641f84fe9e1b3837ad563ac47909caa5dfd1d9d7a16fd8b1b0a5e1",
+      "verified_at": "2026-10-19T03:46:54.917751+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vnexpress.net/cam-nang-du-lich-hung-yen-4890917.html",
+      "supports": "VnExpress (đăng 1/6/2025, cập nhật 9/6/2025): thành phố Hưng Yên cách trung tâm Hà Nội 55 km, khoảng 1 tiếng 15 phút; các tuyến kết nối; 16 di tích trong khu di tích quốc gia đặc biệt Phố Hiến; đền Mẫu, chùa Chuông, đình - chùa Hiến.",
+      "sha256": "6b7c27d7e1e95409afbd968e35d1a0d2ecb452d094699a2febc881f7e5eb1519",
+      "verified_at": "2026-10-19T03:46:57.302401+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2411,
+        "title": "Honda ICON e: đi được bao nhiêu km và phù hợp quãng đường nào?",
+        "why": "stale",
+        "content_hash": "c51f9eca9b43c76b8f4f2101ab1c67f670c8d7d31345309ffbda12f55c573f6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2622,
+        "title": "Hoàng thành Thăng Long có gì? Giá vé, giờ mở cửa và cách tham quan",
+        "why": "stale",
+        "content_hash": "1d198ab7452c92604271329801956283c798cb81955fe394ef94bb66188faaf3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4059,
+        "title": "Thuê xe máy đi phỏng vấn ở Hà Nội trong một ngày: xếp lịch, chọn xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "0ffbbff60edf006739890cca423af4e81cb5346ee434c29859648be6bdb57675",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T03:47:01.842647+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "57cee322f5e7afa7917448cbc217a06a7a85eebe2f92c1c8c10757027d920d4d",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

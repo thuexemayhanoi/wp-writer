@@ -70,40 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.batteryuniversity.com/article/bu-301a-types-of-battery-cells",
-      "supports": "Battery University BU-301a (cập nhật 24/04/2019): cell hình trụ dễ sản xuất, ổn định cơ học tốt, 18650 là trụ 18 mm x 65 mm dùng trong dụng cụ điện, thiết bị y tế, laptop và xe đạp điện; cell hộp tận dụng không gian nhưng có thể đắt hơn, tản nhiệt kém hơn và chu kỳ ngắn hơn cell trụ; cell túi mềm hiệu suất đóng gói 90-95%, cần chừa chỗ cho cell nở; không có định dạng chung cho cell hộp và túi mềm; các số liệu là của nguồn năm 2019.",
-      "sha256": "32134ebeee03e425bc1e66162cf2a60273173ea041ef4cc40402a66523d10e40",
-      "verified_at": "2026-10-19T03:42:17.856152+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://news.samsungsdi.com/global/articleView?seq=174",
-      "supports": "Samsung SDI (Battery101, nhà sản xuất cell): cell hình trụ sản xuất hàng loạt giá thấp nhưng thiếu linh hoạt về kích thước và xếp khít kém; cell hộp bọc nhôm, dày hơn cell trụ và chịu sốc tốt hơn cell túi mềm; cell túi mềm bọc màng mỏng, nhẹ, linh hoạt kích thước, kém lợi thế sản xuất hàng loạt so với cell trụ.",
-      "sha256": "dabd9dbe9273c51af03c483aff15e9acdd5da9809a18feb1596a735f338646e2",
-      "verified_at": "2026-10-19T03:42:18.981557+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dat.bike/cach-sac-pin-cho-xe-dat-bike-quantum-moi-mua/",
-      "supports": "Dat Bike (xe Quantum): một pack pin xe điện gồm rất nhiều cell ghép nối với nhau, giữa các cell luôn có chênh lệch điện áp nên cần BMS theo dõi và cân bằng; cell LFP của Quantum hoạt động trong vùng 2,7 V đến 3,65 V; trang không nêu dạng cell.",
-      "sha256": "0b78674be9ab8c8021f70ddc00f0d9b34ffd77f149fcbeaaf9546b355a6f65a1",
-      "verified_at": "2026-10-19T03:42:20.276334+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.batteryuniversity.com/article/bu-304b-making-lithium-ion-safe",
-      "supports": "Battery University BU-304b (cập nhật 25/10/2021): mỗi cell trong chuỗi cần giám sát điện áp riêng; PTC và CID hoạt động tốt ở pack nhỏ 2-3 cell nhưng thường bị lược bỏ ở pin nhiều cell lớn vì việc ngắt có thể xảy ra dây chuyền; liệt kê việc tháo rời pack và cell trong những điều không nên làm với pin lithium-ion.",
-      "sha256": "e9328dd3e9b9fa15e799c96bee06cbc54194de2b4009dcba9a3a16aaa1cf36b6",
-      "verified_at": "2026-10-19T03:42:21.943486+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -147,11 +114,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T03:42:30.359833+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T03:43:46.800636+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "d7266bf18b3eda0c73c2424474c7658d8348a7d5f91eb6654b638661aa4fe0a0",
+  "inventory_sha256": "a657ac8a9f2e622f522f848bea520bffa31f6c2e97c772ed08c279a8964771e8",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
