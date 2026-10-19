@@ -15277,7 +15277,7 @@
       }
     },
     "NT-001034": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:35:37.519122+00:00",
       "source_hash": "32bb6f00a0a00bc91af18f22b5b3eb173de51c1496abb25a3b8cbbad5fd3144b",
       "slug": "82-bia-tien-si-van-mieu-dung-1484-1780-khac-1-304-hay-1-305-tien-si-va-vi-sao-thanh-di-san-tu-lieu",
@@ -15293,8 +15293,37 @@
       "category_warning": null,
       "git_commit": "831e787f61d4c3e1a9b7ce9fb2ac46efde8cc15c",
       "run_id": "39327874140",
-      "updated_at": "2026-10-19T21:35:41.836916+00:00",
-      "wp_id": 4305
+      "updated_at": "2026-10-19T21:35:47.709948+00:00",
+      "wp_id": 4305,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/82-bia-tien-si-van-mieu-dung-1484-1780-khac-1-304-hay-1-305-tien-si-va-vi-sao-thanh-di-san-tu-lieu/",
+      "verified_at": "2026-10-19T21:35:47.709941+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4305,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/82-bia-tien-si-van-mieu-dung-1484-1780-khac-1-304-hay-1-305-tien-si-va-vi-sao-thanh-di-san-tu-lieu/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/82-bia-tien-si-van-mieu-dung-1484-1780-khac-1-304-hay-1-305-tien-si-va-vi-sao-thanh-di-san-tu-lieu/",
+        "seo_title": "82 bia tiến sĩ Văn Miếu: 1.304 hay 1.305 người và di sản tư liệu",
+        "seo_description": "82 bia tiến sĩ Văn Miếu dựng từ 1484 đến 1780: ba đợt dựng, nguồn nêu 1.304 hay 1.305 tiến sĩ và vì sao UNESCO ghi nhận là di sản tư liệu.",
+        "checked_at": "2026-10-19T21:35:47.709923+00:00"
+      }
     }
   },
   "categories": {}
