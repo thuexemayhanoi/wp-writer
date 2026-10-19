@@ -7947,7 +7947,7 @@
       }
     },
     "NT-000350": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T03:57:33.017190+00:00",
       "source_hash": "62e51d8a03c685eb3c38f16e93f718a794469e5d4fae3ab8a82d34e7918f185d",
       "slug": "cong-an-xa-xu-phat-xe-may-pham-vi-duong-xa-duong-thon-cac-loi-duoc-xu-ly-va-tham-quyen-phat",
@@ -7962,8 +7962,37 @@
       "category_warning": null,
       "git_commit": "01794ea20be233fefb393d85177c09314c353f1c",
       "run_id": "39196699167",
-      "updated_at": "2026-10-19T03:57:36.723529+00:00",
-      "wp_id": 4135
+      "updated_at": "2026-10-19T03:57:42.424565+00:00",
+      "wp_id": 4135,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cong-an-xa-xu-phat-xe-may-pham-vi-duong-xa-duong-thon-cac-loi-duoc-xu-ly-va-tham-quyen-phat/",
+      "verified_at": "2026-10-19T03:57:42.424558+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4135,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cong-an-xa-xu-phat-xe-may-pham-vi-duong-xa-duong-thon-cac-loi-duoc-xu-ly-va-tham-quyen-phat/",
+        "categories": [
+          159
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cong-an-xa-xu-phat-xe-may-pham-vi-duong-xa-duong-thon-cac-loi-duoc-xu-ly-va-tham-quyen-phat/",
+        "seo_title": "Công an xã xử phạt xe máy: đường xã, đường thôn và thẩm quyền phạt",
+        "seo_description": "Công an xã xử phạt xe máy trên đường xã, đường thôn theo Thông tư 73/2024/TT-BCA: các lỗi Bộ Công an nêu, mức phạt Điều 7 Nghị định 168 và thẩm quyền phạt của Trưởng Công an xã.",
+        "checked_at": "2026-10-19T03:57:42.424541+00:00"
+      }
     }
   },
   "categories": {}
