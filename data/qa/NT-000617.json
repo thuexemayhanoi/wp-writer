@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
-      "supports": "Hướng dẫn sử dụng xe Quantum (Dat Bike): trước khi lái nên kiểm tra mức dầu phanh nằm trên dấu mức thấp nhất, lốp cần kiểm tra trước khi vận hành, kiểm tra độ chùng xích trước khi lái; chân chống nghiêng có công tắc bảo vệ.",
-      "sha256": "ac94fe3ed316f103e53e5432bd19ff4ab03fb1a738bf12bc0e21783d719b9e85",
-      "verified_at": "2026-10-19T03:51:05.215374+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-di-xe-may-dien-an-toan/",
-      "supports": "Yamaha Motor Việt Nam (bài đăng 26/04/2023): nên kiểm tra tình trạng pin trước khi di chuyển để chắc chắn đủ pin cho quãng đường sẽ đi; bài không có danh mục kiểm tra trước khi chạy riêng.",
-      "sha256": "3606afe89ec5d08d112abe17015a8608b9f6d9f35f8fb03ae03b37b0dcf6a24e",
-      "verified_at": "2026-10-19T03:51:06.114365+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-bao-duong-xe-may-dien/",
-      "supports": "Yamaha Motor Việt Nam: khi bảo dưỡng xe máy điện cần chú ý phanh xe, tay ga, khung xe, yên xe; nếu không kiểm tra thường xuyên có thể hỏng bất ngờ; người dùng không tự ý thay bộ phận của xe mà đưa đến cơ sở uy tín.",
-      "sha256": "b362db4e13ea0817284f142044b88da3d76294a35b7f43859023c97f5358a1f7",
-      "verified_at": "2026-10-19T03:51:08.410538+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -112,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T03:51:14.427297+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T03:53:03.011434+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "df6ba39e9044b3b5feba031e95fd6ac9949383eea361ebfec43b8584d5cb0b11",
+  "inventory_sha256": "6b48ad7c1dcc2b70cd9ffe76d55743892d5fc49196ed55ce17b7958ae4e1fe2e",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

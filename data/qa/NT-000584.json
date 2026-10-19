@@ -70,111 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.batteryuniversity.com/article/bu-702-how-to-store-batteries",
-      "supports": "Battery University BU-702 (27/10/2021): lithium-ion nên cất ở trạng thái có sạc, lý tưởng khoảng 40%, để không tụt dưới 2,50 V/cell và vào chế độ ngủ.",
-      "sha256": "86336a078d7735103eab879f44634ad227c290fa85e899f6eb49a6b3ecceb426",
-      "verified_at": "2026-10-19T03:47:30.919634+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.bosch-ebike.com/us/news/12-questions-about-the-ebike-battery",
-      "supports": "Bosch eBike Systems: cất pin ở mức sạc 30–60%, nhiệt độ 0–20°C khi khô; nên tháo pin khỏi xe nếu để lâu.",
-      "sha256": "a8f289f33fe36e25d7d5f0aee3178a8782ece4ad510184f94b1f331e8bc532b1",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://www.bosch-ebike.com/en/service/battery-safety",
-      "supports": "Bosch eBike Systems (trang an toàn pin): mức sạc 30–60% là lý tưởng, tương ứng 2–3 đèn trên màn hình pin.",
-      "sha256": "c1f91a404803fe01180c714c046bd4416b22c7df90c063c17048d0106498f5f7",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://bike.shimano.com/support-and-service/faq/STP0A.html",
-      "supports": "Shimano STEPS (S-6540): tháo pin khỏi xe và để mức pin khoảng 70% khi cất; cất nơi mát khô 10–20°C; sạc bổ sung định kỳ.",
-      "sha256": "a1dd97369f1254c5eb5260beb181bc833118a3dd3a38ca24f3804ad14b579bec",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
-      "supports": "Dat Bike: mức sạc lưu trữ lý tưởng 50–60%, kiểm tra 1–2 tháng một lần.",
-      "sha256": "0f548a2d957b60a67e6ebedf06b634d0ac4677b2ff843c447af7f49b2a5f7ad3",
-      "verified_at": "2026-10-19T03:47:32.620293+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vinfastauto.com/vn_vi/huong-dan-cach-sac-xe-dien-khong-chai-pin",
-      "supports": "VinFast (trang cách sạc không chai pin): khuyến cáo pin còn khoảng 40–50% khi cất; nếu không dùng trên 14 ngày nên để tối thiểu 50% (trang trộn từ \"ắc quy\" và \"pin\").",
-      "sha256": "4a5d5091f67d9749dc71f3d2ee63c9e263ea001bdb9d058f7bfda36aefc261fd",
-      "research_checked_at": "2026-10-17",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://vinfastauto.com/vn_vi/goi-y-xe-dien-bao-pin-ao-nguyen-nhan-cach-khac-phuc-va-cach-theo-doi-pin",
-      "supports": "VinFast (trang pin báo ảo): duy trì dung lượng pin ở mức 50% khi không sử dụng, vì pin vẫn hao mòn tự nhiên.",
-      "sha256": "aa76e9d55e71bf554c7cc20e69c8e31639b8b115b10e15527e899c59a9e0c076",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
-      "supports": "Cục Cảnh sát PCCC và CNCH (24/05/2024, hướng dẫn chung cho ắc quy và pin xe điện): lâu không dùng thì sạc đầy rồi tháo rời, để nơi cao ráo thoáng mát.",
-      "sha256": "353fd2641d5b5be10ce7341c58d9bbf33befd5b1c8cb7c4fc563f6726c98bee4",
-      "research_checked_at": "2026-10-17",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    },
-    {
-      "url": "https://www.batteryuniversity.com/article/bu-802b-what-does-elevated-self-discharge-do",
-      "supports": "Battery University BU-802b: Li-ion tự xả khoảng 5% trong 24 giờ đầu rồi 1–2% mỗi tháng, mạch bảo vệ tiêu thụ thêm khoảng 3% mỗi tháng.",
-      "sha256": "5a0014572040c935e6512a1f69d8963557e53830a70760fccb6b8de35392cfc5",
-      "verified_at": "2026-10-19T03:48:39.050441+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.trekbikes.com/gb/en_GB/ebike_faq/",
-      "supports": "Trek (trang hỏi đáp xe đạp điện, bản UK): cất lâu thì giữ mức sạc khoảng 50%, pin thích nhiệt độ phòng.",
-      "sha256": "abaecb78b6ddb343cd5de513d585330453f50343d4fd3c27226f55f72d8ad0eb",
-      "verified_at": "2026-10-19T03:48:39.839075+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://electra.trekbikes.com/us/en_US/electric-bike-storage/",
-      "supports": "Electra (thuộc Trek, trang cất giữ xe đạp điện): giữ pin khoảng 80% khi cất lâu, tháo pin cất nơi mát khô.",
-      "sha256": "ffb4bafb5f347a2a4355e54cbfd167ae30bf6d055a03f016b39c9931b0442dba",
-      "verified_at": "2026-10-19T03:48:40.601601+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.rei.com/learn/expert-advice/e-bike-charging.html",
-      "supports": "REI Co-op: cất lâu nên giữ 30–70% điện; để về 0% quá lâu hoặc cất đầy đều có thể rút ngắn tuổi thọ pin.",
-      "sha256": "0029bb74285e3a2ee6d4f38f458bfb4eaceb5b553829e68369a71878228d2383",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "TimeoutError"
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -218,11 +114,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T03:49:52.436499+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T03:52:59.639284+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "a330709c922e7705bae218f730be326305c6f283502bf5fee33b8570ed64ced4",
+  "inventory_sha256": "6b48ad7c1dcc2b70cd9ffe76d55743892d5fc49196ed55ce17b7958ae4e1fe2e",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

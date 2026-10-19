@@ -1,0 +1,125 @@
+{
+  "topic_id": "NT-000619",
+  "status": "PASS",
+  "source_sha256": "cb1ba9e3ab4795ecb165f662988f24df9ada7166f448fb77ef7c1b1f5aca3d4a",
+  "body_sha256": "160bb5ced0516aa7d8d8755c672fb714ea1bde5684597aab8c10f2bff64add1f",
+  "word_count": 2482,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 931,
+        "title": "So Sánh Giá Thuê Xe Máy Điện Và Xe Đạp Điện Tại Hà Nội",
+        "why": "stale",
+        "content_hash": "6ecf7e9ed22bffd8cd1b7503e82157d22124c0c18b557dbf6c98245fa34fb529",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2466,
+        "title": "Yamaha Sirius và Sirius FI khác nhau thế nào trong sử dụng thực tế?",
+        "why": "stale",
+        "content_hash": "67e4d995cc0179621caf5c7edbc5cd6d4adbce975b41f80c11a46fe52eac0947",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2485,
+        "title": "Honda Vision và Yamaha Grande khác nhau thế nào khi sử dụng?",
+        "why": "stale",
+        "content_hash": "9703b83fc962ecebe02b7b5ffd9c16749d3b18bd0a96a57af034e25e79a9fc7b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T03:53:03.516613+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "6b48ad7c1dcc2b70cd9ffe76d55743892d5fc49196ed55ce17b7958ae4e1fe2e",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
