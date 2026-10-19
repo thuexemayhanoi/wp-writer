@@ -70,13 +70,30 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [],
+  "source_evidence": [
+    {
+      "url": "https://hanoimoi.vn/ha-noi-chu-dong-kiem-soat-o-nhiem-khong-khi-tu-som-tu-xa-1761498.html",
+      "supports": "Hànộimới 16/10/2026 nêu Kế hoạch 400/KH-UBND ngày 15/10/2026: cảnh báo sớm 5 đến 7 ngày, 48 đến 72 giờ siết công trường và vệ sinh đường phố, 24 giờ cập nhật dự báo, phản ánh qua ứng dụng iHanoi, số liệu PM2.5 năm 2025.",
+      "sha256": "45c39d1781d23f221a8a2068161818857499c62c26d17d864364a50b27fedc99",
+      "verified_at": "2026-10-19T04:20:27.212603+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://mae.gov.vn/hanh-ong-quyet-liet-kiem-soat-o-nhiem-khong-khi-tai-ha-noi-20109.htm",
+      "supports": "Trang Bộ Nông nghiệp và Môi trường 24/10/2025 nêu hệ thống mô hình dự báo ô nhiễm không khí cho khu vực Hà Nội mở rộng với hạn dự báo 7 ngày đã được thiết lập và yêu cầu xây dựng cảnh báo sớm nghịch nhiệt trong vòng 10 ngày.",
+      "sha256": "34d78b6b89b64eed3e82ad6778f0a4ece1994efcd4781fe67aadd872bf0e7136",
+      "verified_at": "2026-10-19T04:20:30.880085+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
   "evidence_recheck": null,
-  "at": "2026-10-19T04:10:00.813646+00:00",
-  "live_links_checked": false,
+  "at": "2026-10-19T04:20:37.997272+00:00",
+  "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "3f8018878a4bcddb1efbad5bb0daa99db50789a42d5c958bda411c728560b2fa",
+  "inventory_sha256": "9817c7948911a1e00c67bdd6d7eb45d30778b788e084e821273114f46435a05c",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

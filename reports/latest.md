@@ -4,15 +4,15 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-19T04:15:36.101532+00:00 |
-| existing_published_posts | 345 |
+| at | 2026-10-19T04:22:42.895474+00:00 |
+| existing_published_posts | 355 |
 | existing_pages | 10 |
 | existing_products | 13 |
 | candidate_topics | 350 |
 | planned_topics | 277 |
 | claimable_topics | 60 |
 | ready_stock | 54 |
-| stock_stages | {'IDEA': 240, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 54, 'PLANNED_HOLD': 3, 'CLAIMED': 8, 'AUTHORED': 1, 'QA_PASS': 6, 'PUBLISHED': 205, 'WP_DRAFT': 0} |
+| stock_stages | {'IDEA': 240, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 54, 'PLANNED_HOLD': 3, 'CLAIMED': 6, 'AUTHORED': 2, 'QA_PASS': 0, 'PUBLISHED': 212, 'WP_DRAFT': 0} |
 | needs_research | True |
 | research_shortfall | 846 |
 | refill_trigger_below_ready | 900 |
@@ -21,17 +21,17 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | refill_order | RF-0001 |
 | refill_accepted_so_far | 184 |
 | writing | 56 |
-| draft_authored | 209 |
-| qa_pass | 208 |
+| draft_authored | 211 |
+| qa_pass | 209 |
 | qa_fail | 0 |
-| qa_review | 1 |
-| repair_queue | 1 |
-| held_by_class | {'REAL_RISK': 1} |
-| g7_pass | 180 |
+| qa_review | 2 |
+| repair_queue | 2 |
+| held_by_class | {'REAL_RISK': 2} |
+| g7_pass | 187 |
 | g7_not_recorded | 25 |
 | wordpress_draft | 0 |
-| wordpress_published | 205 |
-| verified_public | 205 |
+| wordpress_published | 212 |
+| verified_public | 212 |
 | indexed | None |
 | topic_collisions | 1 |
 | category_mapping_errors | 0 |
@@ -43,12 +43,12 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | delivery_mode | production |
 | production_enabled | True |
 | draft_staging_enabled | False |
-| qa_pass_live_checked | 10 |
-| qa_pass_awaiting_wordpress | 6 |
-| queued_topic_ids | ['NT-000806', 'NT-000650', 'NT-000807', 'NT-000648', 'NT-000649', 'NT-000808'] |
+| qa_pass_live_checked | 7 |
+| qa_pass_awaiting_wordpress | 0 |
+| queued_topic_ids | [] |
 | pending_wordpress_intents | [] |
 | blocked_writer_sessions | [] |
-| last_wordpress_verified_at | 2026-10-19T04:15:31.737734+00:00 |
+| last_wordpress_verified_at | 2026-10-19T04:22:38.411781+00:00 |
 | capacity | 10000 |
 | authenticated_inventory | True |
 | test_drafts_excluded | 2 |

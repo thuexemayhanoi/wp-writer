@@ -1,0 +1,132 @@
+{
+  "topic_id": "NT-000539",
+  "status": "PASS",
+  "source_sha256": "2692328ab5531ee4b4e0f22b01d6db84c570a2ff74e58d15b878f4cd28204273",
+  "body_sha256": "935b7f718db559e87ce83a66bbde98844716b0a7d7ec903b4b4c35efe13ff363",
+  "word_count": 2261,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dsvh.gov.vn/go-dong-da-3285",
+      "supports": "Cục Di sản văn hóa (hồ sơ tư liệu): Gò Đống Đa (Công viên Văn hóa Đống Đa) ở phường Quang Trung, quận Đống Đa, một trong các bãi chiến trường trận đại phá quân Thanh mùa xuân Kỷ Dậu 1789; chùa Nam Đồng đối diện; xếp hạng Di tích quốc gia đặc biệt theo Quyết định 1820/QĐ-TTg ngày 24/12/2018.",
+      "sha256": "0d0939c670544badf9896180347c2a8ee6b0f6e70d57cf5063694a5f6dc94613",
+      "verified_at": "2026-10-19T04:19:29.505628+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://hanoimoi.vn/le-hoi-go-dong-da-the-hien-long-yeu-nuoc-va-tinh-than-thuong-vo-cua-dan-toc-692142.html",
+      "supports": "Báo Hà Nội Mới: tối 2-2-2025 (mùng 5 tháng Giêng) UBND quận Đống Đa tổ chức Lễ hội kỷ niệm 236 năm Chiến thắng Ngọc Hồi - Đống Đa tại Gò Đống Đa, lần đầu diễn ra vào buổi tối; lễ hội đến hết 4-2 (7 tháng Giêng Ất Tỵ); các hoạt động dâng hương, rước kiệu, múa lân, võ Bình Định gia, cờ tướng, cờ người, thư pháp.",
+      "sha256": "0356480b3e2b348bec372211d99b56ccbfccfc9fbd56e88afebe738a0fce3f45",
+      "verified_at": "2026-10-19T04:19:31.013253+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://baovanhoa.vn/van-hoa/tinh-than-than-toc-trong-ky-nguyen-moi-tai-le-hoi-dong-da-2026-205899.html",
+      "supports": "Báo Văn Hóa: Lễ hội kỷ niệm 237 năm Chiến thắng Ngọc Hồi - Đống Đa diễn ra sáng 21.2.2026 (mùng 5 tháng Giêng Bính Ngọ) tại Di tích quốc gia đặc biệt Gò Đống Đa, tiếp tục đến hết 22.2 (6 tháng Giêng); dâng hương, dâng hoa trước tượng đài và đền thờ Vua Quang Trung.",
+      "sha256": "2727509305f29954aacb295aa425cb5ec9fef8530a9de2437e0e9b56c5598a6a",
+      "verified_at": "2026-10-19T04:19:33.536069+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2610,
+        "title": "Top địa điểm du lịch đẹp ở Hà Nội: Đi đâu, chơi gì và check-in ở đâu?",
+        "why": "stale",
+        "content_hash": "aa42ffbfca0e3b4188fde1e3cf3a06d9f9b9496580487304e5dbbd316db1a856",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T04:19:41.255497+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "bb4bb24f50efb4c104cdd93d6d4b025cabbf92a1ff333dd2db60cac89d277eb0",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
