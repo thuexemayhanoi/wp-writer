@@ -1,8 +1,281 @@
 {
   "site": "https://thuexemaynguyentu.com",
-  "updated_at": "2026-10-19T01:12:06.519692+00:00",
+  "updated_at": "2026-10-19T03:45:16.670613+00:00",
   "authenticated": true,
   "items": [
+    {
+      "id": 4121,
+      "type": "posts",
+      "status": "publish",
+      "title": "Cell pin hình trụ, hộp và túi mềm: pin xe điện được ghép từ loại cell nào và khác nhau ra sao?",
+      "title_hash": "2a338dd6c02ac9dc6c4bf8f88e1f7ea2849a717aa4554516004ff08a0760dcc1",
+      "slug": "cell-pin-hinh-tru-hop-va-tui-mem-pin-xe-dien-duoc-ghep-tu-loai-cell-nao-va-khac-nhau-ra-sao",
+      "slug_hash": "bb4c69e32dd090f9e99b078bbf07ce35fc0b209c35571d3d4ad99fced32071b6",
+      "url": "https://thuexemaynguyentu.com/cell-pin-hinh-tru-hop-va-tui-mem-pin-xe-dien-duoc-ghep-tu-loai-cell-nao-va-khac-nhau-ra-sao/",
+      "canonical": "https://thuexemaynguyentu.com/cell-pin-hinh-tru-hop-va-tui-mem-pin-xe-dien-duoc-ghep-tu-loai-cell-nao-va-khac-nhau-ra-sao/",
+      "categories": [
+        168
+      ],
+      "content_hash": "e0164a40cb81ee2dd0c8db9ffaf58a6cc0d882346bcb267b5ba955d058100153",
+      "content_text": "Cell pin hình trụ, hộp và túi mềm là ba cách đóng gói cell lithium-ion thường gặp, và pin xe điện được ghép từ rất nhiều cell nối với nhau chứ không phải một “cục” duy nhất. Theo Battery University, cell hình trụ như 18650 (đường kính 18 mm, dài 65 mm) dễ sản xuất và ổn định cơ học tốt nhưng xếp khít kém; cell hộp tận dụng không gian tốt và linh hoạt về thiết kế nhưng có thể đắt hơn, tản nhiệt kém hiệu quả hơn và chu kỳ ngắn hơn cell trụ; cell túi mềm có hiệu suất đóng gói cao nhất (90–95%) và nhẹ nhưng cần chừa chỗ cho cell nở. Samsung SDI so sánh theo hướng tương tự và nói cell hộp bọc nhôm chịu sốc tốt hơn cell túi mềm. Các trang đã đọc không cho biết pin của mẫu xe máy điện nào dùng dạng cell nào; theo cách đọc của người viết, dạng cell chỉ là một yếu tố, hóa học cell, BMS và thiết kế pack cũng quan trọng không kém, nên hãy hỏi hãng loại cell và nhà sản xuất cell thay vì chỉ hỏi cell hình gì. Bài này dành cho người nghe nói “pin 18650”, “pin túi mềm” hay “pin hộp” khi tìm hiểu pin xe điện và muốn biết chúng là gì. Nội dung dựa trên các trang đọc ngày 18/10/2026: bài “Types of Battery Cells” (BU-301a, cập nhật ngày 24/04/2019) và bài “Making Lithium-ion Safe” (BU-304b) của Battery University, bài “Form of Battery” của Samsung SDI, một nhà sản xuất cell, và bài của Dat Bike về hiện tượng cell lệch áp ở xe Quantum. Số liệu của Battery University mang năm 2019; bài ghi rõ đó là số của nguồn, không viết như hiện trạng và không dùng phần giá hay dự báo của trang. Samsung SDI được dùng để so sánh định tính, không phải để quảng bá hay xếp hạng hãng nào. Bài chỉ giải thích: bài không hướng dẫn mua cell lẻ, ghép, thay hay chế pin, không khẳng định mẫu xe nào dùng dạng cell nào và không bàn cách xử lý pin phồng, vì đã có bài riêng. Chỗ nào là cách đọc của người viết, bài sẽ ghi rõ. Cell, pack và BMS: pin xe điện được ghép từ nhiều cell Theo cách giải thích của người viết, cell là đơn vị nhỏ nhất chứa năng lượng, còn pin hay pack trên xe là nhiều cell nối với nhau. Dat Bike viết rằng một pack pin xe điện gồm rất nhiều cell pin ghép nối với nhau, và giữa các cell luôn có chênh lệch điện áp, do quá trình sản xuất không thể làm các cell giống hệt nhau và do điều kiện sử dụng về sau. Vì thế cần BMS để theo dõi và điều chỉnh điện áp của từng cell, giữ cân bằng cho cả pack. Battery University cũng nêu rằng mỗi cell trong một chuỗi cần được giám sát điện áp riêng, và số cell càng nhiều thì mạch bảo vệ càng phức tạp. Hình dung của người viết: khi ai đó nói “pin xe này dùng cell 18650” hoặc “dùng cell túi mềm”, họ đang nói về viên gạch xây nên pack chứ không phải toàn bộ pin. Theo kiến thức phổ thông, cách nối nhiều cell với nhau quyết định điện áp và dung lượng của cả pack; muốn đọc các thông số ghi trên nhãn, hãy xem bài đọc thông số pin xe máy điện V, Ah, Wh và kWh . Cell pin hình trụ: 18650, 21700 và ưu nhược điểm Battery University gọi cell hình trụ là một trong những kiểu đóng gói được dùng rộng rãi nhất cho cả pin dùng một lần lẫn pin sạc. Ưu điểm trang nêu là dễ sản xuất và ổn định cơ học tốt; thân hình ống chịu được áp suất bên trong cao mà không biến dạng. Ứng dụng điển hình theo trang gồm dụng cụ điện, thiết bị y tế, laptop và xe đạp điện. Tên gọi “18650” chỉ kích thước: trụ kim loại đường kính 18 mm và dài 65 mm. Trang cũng nêu các dạng trụ khác như 20700, 21700 và 22700, cùng cell 26650 có đường kính 26 mm. Theo số liệu trong bài (cập nhật ngày 24/04/2019), 18650 có thể tích khoảng 16 cm³ với dung lượng khoảng 3.000 mAh, còn 21700 có thể tích khoảng 24 cm³ với dung lượng được nêu là tới 6.000 mAh. Trang nói một số nhà sản xuất lớn đã chọn 21700 vì dễ sản xuất, dung lượng tối ưu và các lợi ích khác. Đây là số liệu của một nguồn năm 2019, không phải hiện trạng thị trường. Hai nguồn nhấn mạnh hai mặt khác nhau về cách xếp cell trụ. Samsung SDI viết rằng cell trụ có định dạng chuẩn nên sản xuất hàng loạt được với giá thấp và dùng rộng, nhưng thiếu linh hoạt về kích thước, và do hình tròn nên kém hiệu quả về hình học khi xếp thành khối, khiến dung lượng và mật độ năng lượng kém thuận lợi hơn. Battery University thừa nhận cell trụ không tận dụng hết không gian vì để lại khoảng trống khi xếp cạnh nhau, nhưng nhận xét rằng mật độ năng lượng của cell 18650 cao hơn cell hộp hoặc túi mềm Li-ion, đủ bù cho khả năng xếp khít kém, và khoảng trống đó có thể dùng để làm mát. Trang còn nói cell trụ thường được đặt cách nhau để ngăn sự cố lan từ cell này sang cell khác nếu một cell gặp sự cố, khoảng cách ấy cũng hỗ trợ tản nhiệt, và cell trụ không đổi kích thước khi dùng. Cell hộp (prismatic): vỏ nhôm hoặc thép, dùng cho động lực xe điện Battery University mô tả cell hộp xuất hiện từ đầu những năm 1990 để đáp ứng nhu cầu mỏng hơn, bọc trong vỏ trông như hộp kẹo cao su hoặc thanh sô-cô-la nhỏ và tận dụng không gian nhờ cách xếp lớp; một số thiết kế cuộn rồi ép phẳng. Dạng nhỏ thường thấy trong điện thoại, máy tính bảng và laptop mỏng, dung lượng từ 800 mAh đến 4.000 mAh. Trang cũng nêu dạng lớn, vỏ nhôm hàn, dung lượng 20–50 Ah, chủ yếu dùng cho hệ truyền động của xe hybrid và xe điện. Trang lưu ý không có định dạng chung: mỗi nhà sản xuất tự thiết kế. Ưu nhược điểm theo trang: cell hộp tận dụng không gian tốt và cho thiết kế linh hoạt, nhưng có thể đắt hơn khi sản xuất, tản nhiệt kém hiệu quả hơn và chu kỳ ngắn hơn so với cell trụ. Samsung SDI mô tả cell hộp bọc nhôm, dày hơn cell trụ và chịu sốc tốt hơn cell túi mềm; tiêu đề của mục này còn ghi “chịu sốc và nhiệt tốt”. Hai nguồn so cell hộp với hai dạng khác nhau và nhấn mạnh hai khía cạnh khác nhau: Battery University so với cell trụ về nhiệt và chu kỳ, Samsung SDI so với cell túi mềm về sốc. Vì vậy bài không kết luận dạng nào tốt hơn. Cell túi mềm (pouch): nhẹ, đóng gói hiệu quả, cần chỗ cho cell nở Theo Battery University, cell túi mềm ra đời năm 1995 với thiết kế khác hẳn: thay cho ống kim loại, các lá dẫn được hàn vào điện cực rồi đưa ra ngoài trong một vỏ kín hoàn toàn. Trang gọi đây là giải pháp đơn giản, linh hoạt và nhẹ. Cell túi mềm tận dụng không gian hiệu quả nhất, đạt hiệu suất đóng gói 90–95%, cao nhất trong các dạng pack; bỏ vỏ kim loại giúp giảm khối lượng nhưng cell cần được đỡ và cần chừa chỗ để nở trong khoang pin. Trang nói loại này được dùng trong điện tử tiêu dùng, quân sự và ô tô, và chưa có cell túi mềm tiêu chuẩn: mỗi nhà sản xuất tự thiết kế. Cell túi mềm có thể cấp dòng tải cao nhưng hoạt động tốt nhất ở tải nhẹ và sạc vừa phải; theo phần tóm tắt của trang, tiếp xúc với ẩm và nhiệt độ cao có thể làm giảm tuổi thọ. Samsung SDI nói cell túi mềm được bọc trong màng mỏng mềm nên làm được pin phẳng và rộng, nhẹ, có nhiều kích thước và dung lượng, và là lựa chọn phổ biến cho thiết bị IT mỏng như điện thoại thông minh và máy tính bảng. Đổi lại, so với cell trụ, cell túi mềm kém hấp dẫn về sản xuất hàng loạt, điểm thấp hơn ở cả năng suất lẫn giá thành sản xuất. Cell nở ra: điều Battery University nói và điều bài không nói Cell hộp và cell túi mềm có một điểm chung đáng chú ý: nguồn nêu rằng thiết kế phải chừa chỗ cho cell nở. Với cell hộp, Battery University viết rằng hơi phồng do khí tích tụ là bình thường và phải tính trước khoảng dư; ví dụ một cell dày 5 mm có thể nở thành 8 mm sau 500 chu kỳ. Với cell túi mềm nhỏ, trang nêu mức nở 8–10% sau 500 chu kỳ, còn cell lớn có thể đạt mức đó sau 5.000 chu kỳ. Trang đồng thời nói phồng nặng là mối lo: đã có người dùng pin túi mềm báo cáo các sự cố phồng ở một lô sản xuất kém, áp lực sinh ra có thể làm nứt nắp pin và trong một số trường hợp làm vỡ màn hình và bo mạch. Khi thấy pin phồng, trang khuyên ngừng dùng, và không đâm thủng cell phồng ở gần nguồn nhiệt hay lửa vì khí thoát ra có thể bắt cháy. Trang còn nhận xét rằng cell phồng như bóng bay khi dùng bình thường thường gợi ý một lô sản xuất có lỗi. Có ba điều bài muốn nói rõ về đoạn này: Các số liệu trên là số thiết kế và quan sát của Battery University cho cell nói chung, chủ yếu trong thiết bị điện tử, theo bài cập nhật năm 2019. Đó không phải mốc “phồng bình thường” cho pin xe máy điện. Bài không nêu mức phồng nào là chấp nhận được với pin xe. Nếu pin xe có dấu hiệu phồng, nứt, nóng bất thường, mùi lạ hoặc khói, hãy làm theo bài về pin xe điện phồng hoặc bốc khói khi sạc và đưa pin cho đại lý hoặc người có chuyên môn kiểm tra. Các số liệu không dùng để tự đánh giá pin. Đừng tự đo, tự mở hay tự xử lý pin xe. Cell pin hình trụ, hộp và túi mềm đặt cạnh nhau Bảng dưới đây gom những điều hai nguồn nêu, ghi rõ nguồn nào nói gì. Hai nguồn không luôn so cùng một khía cạnh, nên bảng không phải bảng xếp hạng. Tiêu chí Cell hình trụ Cell hộp (prismatic) Cell túi mềm (pouch) Vỏ Ống kim loại (Battery University) Vỏ nhôm hoặc thép (Battery University); bọc nhôm, dày hơn cell trụ (Samsung SDI) Màng mỏng mềm, không có vỏ kim loại (Samsung SDI, Battery University) Điểm mạnh theo nguồn Dễ sản xuất, ổn định cơ học tốt (Battery University); sản xuất hàng loạt, giá thấp, dùng rộng (Samsung SDI) Tận dụng không gian, thiết kế linh hoạt (Battery University); chịu sốc tốt hơn cell túi mềm (Samsung SDI) Hiệu suất đóng gói 90–95%, nhẹ (Battery University); linh hoạt kích thước và dung lượng, làm được pin phẳng rộng (Samsung SDI) Điểm yếu theo nguồn Xếp khít kém, để lại khoảng trống (Battery University, Samsung SDI); kém linh hoạt về kích thước (Samsung SDI) Có thể đắt hơn, tản nhiệt kém hiệu quả hơn, chu kỳ ngắn hơn cell trụ; cần chừa chỗ cho cell nở (Battery University) Cần đỡ và chừa chỗ cho cell nở; ẩm và nhiệt cao có thể giảm tuổi thọ (Battery University); kém lợi thế sản xuất hàng loạt so với cell trụ (Samsung SDI) Ứng dụng nguồn nêu Dụng cụ điện, thiết bị y tế, laptop, xe đạp điện (Battery University) Cell nhỏ: điện thoại, máy tính bảng, laptop mỏng; cell lớn: xe hybrid và xe điện (Battery University) Điện tử tiêu dùng, quân sự, ô tô (Battery University); thiết bị IT mỏng (Samsung SDI) Ghi chú 18650 là 18 mm × 65 mm Không có định dạng chung, mỗi hãng tự thiết kế Không có cell túi mềm tiêu chuẩn, mỗi hãng tự thiết kế Vì sao dạng cell không quyết định chất lượng pin xe Theo cách đọc của người viết, dạng cell trả lời câu hỏi “viên gạch hình gì”. Chất lượng của cả pin còn phụ thuộc nhiều lớp khác mà các nguồn đã đọc gợi ý: Cách ghép pack và mạch bảo vệ. Battery University nêu PTC và CID, hai thiết bị bảo vệ trong cell, hoạt động tốt ở pack nhỏ 2 hoặc 3 cell nhưng thường bị lược bỏ ở pin nhiều cell lớn vì việc ngắt có thể xảy ra dây chuyền. Nghĩa là tính năng bảo vệ của một cell không tự động có ở cả pack. BMS và cân bằng cell. Dat Bike giải thích cell luôn lệch điện áp và BMS làm việc liên tục để cân bằng. Để biết tài liệu của hãng nói BMS giám sát và bảo vệ những gì, hãy xem bài về BMS trên pin xe máy điện . Bố trí cell trong pack. Battery University nói cell trụ thường được đặt cách nhau để ngăn sự cố lan và hỗ trợ tản nhiệt, còn cell hộp và cell túi mềm cần khoang chắc hoặc chỗ để nở. Chất lượng lô sản xuất. Battery University gắn hiện tượng phồng khi dùng bình thường với một lô có lỗi. Hóa học cell. Trang của Dat Bike nói về cell LFP và vùng điện áp từ 2,7 V đến 3,65 V của chúng, không nói dạng cell. Vì vậy bài không xếp hạng dạng nào là tốt nhất và không khẳng định dạng nào an toàn hơn. Cũng vì các trang đã đọc không nêu dạng cell của pin xe, bài không suy từ tên hãng ra dạng cell mà pin của hãng đó dùng. Câu hỏi nên hỏi hãng về cell của pin xe điện Các câu hỏi dưới đây là gợi ý của người viết, dùng được khi bạn mua xe, thuê xe hoặc đơn giản là muốn hiểu pin trên xe mình. Hóa học của cell là gì? Ví dụ LFP hay NMC. Cell dạng hình trụ, hộp hay túi mềm? Nếu là hình trụ, mã kích thước là gì. Ai sản xuất cell, và hãng có tài liệu thử nghiệm nào không? Một tên nhà sản xuất cell và tài liệu đi kèm cho phép bạn kiểm tra thêm thay vì chỉ nghe “cell xịn”. BMS có giám sát điện áp từng cell và cân bằng cell không? Dat Bike mô tả điều này cho pack của hãng. Pack được thiết kế để quản lý nhiệt và chừa khoảng dư cho cell thế nào? Câu này dành cho người thật sự muốn đi sâu; hãng không nhất thiết trả lời chi tiết. Khi pin có dấu hiệu bất thường như phồng, nóng hoặc mùi lạ, hãng hướng dẫn gì? Hãy xin hướng dẫn bằng văn bản hoặc đối chiếu sổ tay. Thông số V, Ah, kWh ghi trên nhãn nghĩa là gì? Bài đọc thông số pin xe máy điện giúp bạn hiểu đơn vị, nhưng không thay được tài liệu của hãng. Nếu bạn tìm hiểu cell 18650 vì định tự ghép hoặc sửa pin xe: bài này chỉ giải thích, không hướng dẫn mua cell lẻ, ghép hay thay cell. Bài “Making Lithium-ion Safe” của Battery University liệt kê việc tháo rời pack và cell trong những điều không nên làm với pin lithium-ion. Thông tin của hãng và của các nguồn kỹ thuật có thể được cập nhật, nên nếu trang nguồn thay đổi sau ngày đọc 18/10/2026 thì hãy ưu tiên bản mới nhất. Nguồn tham khảo BU-301a: Types of Battery Cells , Battery University, cập nhật 24/04/2019, đọc ngày 18/10/2026. [Battery101] Form of Battery , Samsung SDI, đọc ngày 18/10/2026. Thay đổi cách tính phần trăm pin và cách sạc pin cho xe Dat Bike Quantum mới mua , Dat Bike, đọc ngày 18/10/2026. BU-304b: Making Lithium-ion Safe , Battery University, cập nhật 25/10/2021, đọc ngày 18/10/2026.",
+      "links": [
+        {
+          "url": "https://thuexemaynguyentu.com/doc-thong-so-pin-xe-may-dien-v-ah-wh-va-kwh-noi-len-dieu-gi/",
+          "anchor": "bài đọc thông số pin xe máy điện V, Ah, Wh và kWh"
+        },
+        {
+          "url": "https://thuexemaynguyentu.com/pin-xe-dien-phong-hoac-boc-khoi-khi-sac-viec-can-lam-ngay/",
+          "anchor": "bài về pin xe điện phồng hoặc bốc khói khi sạc"
+        },
+        {
+          "url": "https://thuexemaynguyentu.com/bms-tren-pin-xe-may-dien-he-thong-quan-ly-pin-giam-sat-va-bao-ve-nhung-gi/",
+          "anchor": "bài về BMS trên pin xe máy điện"
+        },
+        {
+          "url": "https://thuexemaynguyentu.com/doc-thong-so-pin-xe-may-dien-v-ah-wh-va-kwh-noi-len-dieu-gi/",
+          "anchor": "Bài đọc thông số pin xe máy điện"
+        },
+        {
+          "url": "https://www.batteryuniversity.com/article/bu-301a-types-of-battery-cells",
+          "anchor": "BU-301a: Types of Battery Cells"
+        },
+        {
+          "url": "https://news.samsungsdi.com/global/articleView?seq=174",
+          "anchor": "[Battery101] Form of Battery"
+        },
+        {
+          "url": "https://dat.bike/cach-sac-pin-cho-xe-dat-bike-quantum-moi-mua/",
+          "anchor": "Thay đổi cách tính phần trăm pin và cách sạc pin cho xe Dat Bike Quantum mới mua"
+        },
+        {
+          "url": "https://www.batteryuniversity.com/article/bu-304b-making-lithium-ion-safe",
+          "anchor": "BU-304b: Making Lithium-ion Safe"
+        }
+      ],
+      "seo_title": "Cell pin hình trụ, hộp và túi mềm: khác nhau ra sao trên pin xe điện",
+      "meta_description": "Cell pin hình trụ, hộp và túi mềm khác nhau thế nào: ưu nhược điểm theo Battery University và Samsung SDI, vì sao pin xe điện ghép từ nhiều cell và nên hỏi hãng gì.",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "schema_types": [
+        [
+          "Article",
+          "BlogPosting"
+        ],
+        "WebPage",
+        "BreadcrumbList",
+        "WebSite",
+        "Person"
+      ],
+      "verified_at": "2026-10-19T03:45:09.211558+00:00",
+      "source": "authenticated REST"
+    },
+    {
+      "id": 4120,
+      "type": "posts",
+      "status": "publish",
+      "title": "Phạt nguội xe máy: nhận thông báo, nơi giải quyết, nghĩa vụ của chủ xe và cách tránh bị lừa",
+      "title_hash": "ffd06c3cbff8985ae9c43591842c66a21226dfc37f78602d2cae37a65e09f912",
+      "slug": "phat-nguoi-xe-may-nhan-thong-bao-noi-giai-quyet-nghia-vu-cua-chu-xe-va-cach-tranh-bi-lua",
+      "slug_hash": "8d9aea356302154199deb80eadcdf6727f5e337c0282b1b16b8ad884a3e5698e",
+      "url": "https://thuexemaynguyentu.com/phat-nguoi-xe-may-nhan-thong-bao-noi-giai-quyet-nghia-vu-cua-chu-xe-va-cach-tranh-bi-lua/",
+      "canonical": "https://thuexemaynguyentu.com/phat-nguoi-xe-may-nhan-thong-bao-noi-giai-quyet-nghia-vu-cua-chu-xe-va-cach-tranh-bi-lua/",
+      "categories": [
+        159
+      ],
+      "content_hash": "cb340634dd05ec4bc0ecd7bbd7d57fd3327a5e850a194e3c023a98f4c4276e21",
+      "content_text": "Phạt nguội xe máy là cách xử lý vi phạm được camera hoặc thiết bị kỹ thuật ghi lại khi cơ quan chức năng chưa dừng ngay được xe. Theo khoản 8 Điều 47 Nghị định 168/2024/NĐ-CP, như Bộ Công an trích trong trả lời ngày 24/01/2025, cơ quan chức năng gửi thông báo cho chủ phương tiện, và chủ phương tiện có nghĩa vụ hợp tác để xác định người đã điều khiển xe. Người nhận thông báo có thể đến nơi phát hiện vi phạm, Phòng Cảnh sát giao thông nơi cư trú hoặc địa điểm tiếp nhận khác do Phòng Cảnh sát giao thông công bố, theo hướng dẫn của Cục Cảnh sát giao thông ngày 05/03/2025. Bài dựa trên các trang của Bộ Công an đọc ngày 18/10/2026: hai trả lời hỏi đáp (ngày 24/01/2025 và ngày 20/05/2025), hướng dẫn của Cục Cảnh sát giao thông đăng ngày 05/03/2025, bài về ứng dụng Công dân Thủ đô số iHanoi của Phòng Cảnh sát giao thông Công an thành phố Hà Nội đăng ngày 07/01/2026, cùng trang văn bản của Cổng thông tin điện tử Chính phủ về Nghị định 168/2024/NĐ-CP và Nghị định 238/2026/NĐ-CP. Một vài chi tiết bổ sung được đọc từ toàn văn Luật Trật tự, an toàn giao thông đường bộ, bản PDF Nghị định 238/2026/NĐ-CP và bài của Báo Chính phủ ngày 06/08/2025; chúng luôn được ghi rõ nguồn và là thông tin đọc từ toàn văn hoặc trang tin, chưa kiểm tra lại trực tiếp. Bài không tư vấn pháp lý cho từng trường hợp, không bàn hợp đồng thuê hay cho mượn xe, không liệt kê mức phạt từng lỗi và không nêu chính sách của cửa hàng nào. Một điểm cần nói trước: câu hỏi mà Bộ Công an trả lời ngày 24/01/2025 là của một chủ xe ô tô cho thuê tự lái. Tuy vậy, khoản 8 và khoản 11 Điều 47 mà Bộ trích nguyên văn dùng chữ \"phương tiện\" nói chung. Bài này đọc đó là quy tắc chung của điều khoản, không phải quy tắc riêng cho ô tô, và cũng không phải một quy định riêng dành cho xe máy. Phạt nguội xe máy theo khoản 8 Điều 47 Nghị định 168/2024/NĐ-CP Nghị định 168/2024/NĐ-CP ban hành ngày 26-12-2024 và có hiệu lực từ ngày 01-01-2025, theo trang văn bản của Cổng thông tin điện tử Chính phủ. Khoản 8 Điều 47 là điều khoản mà Bộ Công an trích khi trả lời câu hỏi về \"phạt nguội\". Điều khoản này áp dụng cho hành vi vi phạm hành chính \"được phát hiện thông qua sử dụng phương tiện, thiết bị kỹ thuật nghiệp vụ mà cơ quan chức năng chưa dừng ngay được phương tiện để xử lý\". Khi đó, theo bản trích của Bộ Công an: Cơ quan chức năng gửi thông báo yêu cầu chủ phương tiện và cá nhân, tổ chức có liên quan (nếu có) đến trụ sở cơ quan, đơn vị của người có thẩm quyền xử phạt để giải quyết vụ việc. Việc thông báo được thực hiện bằng văn bản, hoặc bằng phương thức điện tử qua Ứng dụng giao thông trên thiết bị di động dành cho công dân do Bộ Công an xây dựng, quản lý, vận hành khi đáp ứng điều kiện về cơ sở hạ tầng, kỹ thuật, thông tin. Cơ quan chức năng đồng thời cập nhật thông tin về phương tiện vi phạm trên Trang thông tin điện tử của Cục Cảnh sát giao thông. Chủ phương tiện có nghĩa vụ hợp tác với cơ quan chức năng để xác định người đã điều khiển phương tiện thực hiện hành vi vi phạm. Điều khoản này không nêu số tiền phạt hay hình thức xử phạt của từng lỗi; những nội dung đó nằm ở các điều khác của nghị định và phụ thuộc vào hành vi cụ thể, nên bài không liệt kê. Điều khoản cũng không nói thông báo phải gửi trong bao lâu, nên bài không nêu thời hạn nào. Nghị định 168/2024/NĐ-CP đã được sửa đổi, bổ sung một số điều bằng Nghị định 238/2026/NĐ-CP, ban hành ngày 26-06-2026 và có hiệu lực từ ngày 15-08-2026, theo trang văn bản của Cổng thông tin điện tử Chính phủ. Bản PDF toàn văn của nghị định này mà bài đọc ngày 18/10/2026 cho thấy ở Điều 47 chỉ có điểm h khoản 3 và điểm c khoản 5 được sửa; khoản 8 và khoản 11, hai khoản bài trích ở đây, không nằm trong số được sửa. Đó là thông tin đọc từ toàn văn qua công cụ trích xuất văn bản, có thể có sai sót nhỏ và chưa kiểm tra lại trực tiếp, nên bạn vẫn nên đối chiếu văn bản hiện hành trước khi làm theo bất kỳ nội dung nào dưới đây. Nghĩa vụ của chủ xe máy khi nhận thông báo phạt nguội Điểm b khoản 8 Điều 47 đặt nghĩa vụ hợp tác lên chủ phương tiện và phân biệt hai loại chủ xe: Loại chủ phương tiện Trường hợp bị xử phạt theo điều khoản Cá nhân Không hợp tác với cơ quan chức năng, không chứng minh hoặc không giải trình được mình không phải là người đã điều khiển phương tiện thực hiện hành vi vi phạm thì bị xử phạt đối với hành vi vi phạm được phát hiện Tổ chức Không hợp tác với cơ quan chức năng, không giải trình để xác định được người đã điều khiển phương tiện thì bị xử phạt vi phạm hành chính đối với tổ chức thực hiện hành vi vi phạm được phát hiện, trừ trường hợp phương tiện bị chiếm đoạt, sử dụng trái phép Nguồn của bảng: bản trích khoản 8 Điều 47 trong trả lời của Bộ Công an ngày 24/01/2025. Với chủ xe là cá nhân, điều khoản nhắc ba tình huống dẫn đến bị xử phạt: không hợp tác với cơ quan chức năng; không chứng minh được mình không phải người đã lái xe; không giải trình được điều đó. Điều khoản không liệt kê loại giấy tờ hay chứng cứ nào được coi là đủ để chứng minh hoặc giải trình, nên bài không đưa ra danh sách như vậy. Điều khoản này nói về quan hệ giữa chủ phương tiện và cơ quan chức năng. Nó không nói người cho mượn, người cho thuê và người sử dụng xe chia nhau khoản tiền phạt thế nào, nên bài không khẳng định ai phải trả tiền phạt giữa hai bên. Đó là nội dung của thỏa thuận hoặc hợp đồng giữa các bên và nằm ngoài các nguồn bài đã đọc. Nếu bạn sắp thuê xe, mục về các điều khoản cần đọc kỹ trong cẩm nang thuê xe máy du lịch Hà Nội dành cho người lần đầu của website là nơi nên đọc trước khi ký, còn bài này chỉ nói điều Bộ Công an nêu về nghĩa vụ của chủ phương tiện. Luật Trật tự, an toàn giao thông đường bộ cũng liệt kê trong các hành vi bị nghiêm cấm việc \"không khai báo, khai báo gian dối hoặc cung cấp thông tin, tài liệu không đúng sự thật để trốn tránh trách nhiệm khi bị phát hiện vi phạm pháp luật về trật tự, an toàn giao thông đường bộ\" (khoản 25 Điều 9). Đây là thông tin đọc từ toàn văn Luật số 36/2024/QH15 trên trang xaydungchinhsach.chinhphu.vn và từ văn bản hợp nhất của luật (đã gồm các sửa đổi của Luật số 118/2025/QH15) trên cổng thông tin điện tử Chính phủ, đọc ngày 18/10/2026, chưa kiểm tra lại trực tiếp. Bài hiểu rằng khi cơ quan chức năng hỏi, thông tin chủ xe cung cấp nên trung thực và đầy đủ. Gợi ý của người viết (không phải quy định): Nếu bạn cho người khác dùng xe, hãy ghi lại ngày giờ giao nhận và cách liên lạc với người dùng xe. Khi có thông báo, thông tin này giúp bạn đối chiếu thời gian, địa điểm vi phạm và trả lời cơ quan chức năng nhanh hơn. Đừng bỏ qua thông báo với suy nghĩ rằng người dùng xe sẽ tự lo. Phần về khoản 11 Điều 47 ở dưới cho thấy thông báo không được giải quyết có thể kéo theo hậu quả khác ngoài khoản phạt. Nhận thông báo và giải quyết phạt nguội ở đâu Hướng dẫn của Cục Cảnh sát giao thông đăng trên trang của Bộ Công an ngày 05/03/2025, với tiêu đề \"Hướng dẫn nộp \"phạt nguội\" và tham gia giao thông khi đang trong thời gian chờ cấp, đổi giấy phép lái xe\", nêu rằng người dân khi nhận được thông báo vi phạm có thể đến các địa điểm sau để giải quyết vụ việc vi phạm hành chính: Nơi phát hiện vi phạm. Phòng Cảnh sát giao thông nơi người dân cư trú. Các địa điểm tiếp nhận việc xử lý, giải quyết \"phạt nguội\" khác do Phòng Cảnh sát giao thông công bố. Cùng hướng dẫn nêu thêm: với các trường hợp vi phạm được thông báo trước ngày 01/3, trong đó có yêu cầu đến Công an cấp huyện để giải quyết, người dân liên hệ Phòng Cảnh sát giao thông nơi cư trú hoặc nơi phát hiện vi phạm. Bài của Cục cũng cho biết việc bố trí lực lượng thực hiện nhiệm vụ là theo chỉ đạo của Bộ Công an \"khi không tổ chức Công an cấp huyện\". Vì vậy bài này không chỉ Công an quận, huyện hay phường là nơi giải quyết phạt nguội. Gợi ý của người viết: đối chiếu địa chỉ ghi trong thông báo với ba nhóm địa điểm trên. Nếu thông báo yêu cầu một nơi khác, một cách thanh toán lạ hoặc một đường link, hãy kiểm tra lại bằng kênh chính thức trước khi làm theo. Về tra cứu, nguồn nêu hai nơi. Khoản 8 Điều 47 nói thông tin về phương tiện vi phạm được cập nhật trên Trang thông tin điện tử của Cục Cảnh sát giao thông. Trong trả lời ngày 20/05/2025, Bộ Công an hướng dẫn một người hỏi, người này có xe khác gắn biển số giống xe của mình và bị \"phạt nguội\", rằng cần tra cứu trên trang web www.csgt.vn để biết phương tiện vi phạm ở đâu, rồi liên hệ cơ quan Công an đã gửi thông báo vi phạm để được hướng dẫn giải quyết. Bài lấy phần hướng dẫn tra cứu và liên hệ, không bàn riêng tình huống biển số trùng. Các nguồn bài đọc chỉ nêu tên trang, không mô tả từng bước thao tác, nên bài cũng không viết hướng dẫn từng bước trên trang đó. Phạt nguội xe máy ở Hà Nội: Camera AI, ứng dụng iHanoi và sáu bước xử lý Bài ngày 07/01/2026 trên trang của Bộ Công an, thuật lại hướng dẫn của Phòng Cảnh sát giao thông Công an thành phố Hà Nội, cho biết Công an thành phố triển khai xử lý vi phạm hành chính toàn trình trong lĩnh vực trật tự, an toàn giao thông đường bộ trên môi trường điện tử thông qua ứng dụng Công dân Thủ đô số, gọi là iHanoi. Theo bài, từ ngày 13/12/2025 Trung tâm Điều khiển giao thông Hà Nội đi vào hoạt động; hệ thống máy chủ phân tích AI của Trung tâm được kết nối đồng bộ với hệ thống quản lý phương tiện cơ giới đường bộ và cơ sở dữ liệu quốc gia về dân cư, nhờ đó lực lượng Cảnh sát giao thông có thể phát hiện, xác định chủ phương tiện và xử lý vi phạm toàn trình trên môi trường điện tử. Phạm vi của hướng dẫn này hẹp: đó là các hành vi vi phạm được phát hiện qua hệ thống Camera AI. Với các hành vi này, người dân có thể chọn một trong hai hình thức: trực tiếp tại trụ sở các Đội Cảnh sát giao thông, hoặc xử lý trên môi trường điện tử qua iHanoi \"mà không phải đến cơ quan Công an\". Bài không mở rộng hướng dẫn cho toàn quốc hay cho mọi hình thức phạt nguội ở Hà Nội, và cũng không nêu tình hình sau ngày 07/01/2026. Sáu bước xử lý trên iHanoi theo bài: Bước Nội dung theo bài của Bộ Công an ngày 07/01/2026 1 Sau khi phát hiện vi phạm, hệ thống gửi thông báo kèm thông tin, hình ảnh vi phạm đến chủ sở hữu phương tiện qua ứng dụng iHanoi 2 Người dân vào mục \"Giao thông - Thông báo phạt nguội\" để xem thông tin, hình ảnh. Chưa đồng tình thì có thể trực tiếp đến cơ quan Công an để kiểm tra, đối chiếu; đồng ý thì xác nhận vi phạm toàn trình trên hệ thống, cơ quan Công an lập biên bản vi phạm hành chính và gửi trên hệ thống 3 Người vi phạm kiểm tra, đối chiếu thông tin, xác nhận nội dung và ký số vào biên bản, rồi gửi lại trên iHanoi 4 Cơ quan Công an căn cứ biên bản đã xác nhận để ra quyết định xử phạt và gửi qua iHanoi 5 Người vi phạm nhận quyết định, kiểm tra thông tin cá nhân, hành vi vi phạm, mức xử phạt, rồi nộp phạt qua mã QR trên hệ thống 6 Thanh toán thành công, hệ thống hiển thị biên lai và tự động gửi lên hệ thống; cơ quan Công an xác nhận việc chấp hành, ra quyết định trả lại tang vật, phương tiện bị tạm giữ (nếu có) Một vài điểm cần đọc kỹ: Ở bước 3, bài nói để tạo và sử dụng chữ ký số cá nhân, người dân có thể tải ứng dụng trên Google Play Store hoặc App Store. Bài viết này không mô tả cách tạo chữ ký số vì nguồn không nêu chi tiết. Bước 6 trong bài còn nhắc việc gỡ thông báo đình chỉ đăng kiểm đối với ô tô. Phần đó nêu riêng cho ô tô nên bài này không áp dụng cho xe máy. Theo bài, thông báo ở bước 1 được gửi đến \"chủ sở hữu phương tiện\"; bài không nói thêm về trường hợp người lái là người khác. Bài của Công an Hà Nội nói với chủ phương tiện và người dân nói chung; nguồn không nói gì về người nước ngoài hay khách du lịch, nên bài này không trả lời câu hỏi đó. Không giải quyết thông báo thì sao: khoản 11 Điều 47 Khoản 11 Điều 47, cũng được Bộ Công an trích trong trả lời ngày 24/01/2025, nói về trường hợp quá thời hạn hẹn đến giải quyết vụ việc vi phạm ghi trong biên bản vi phạm hành chính hoặc trong thông báo của người có thẩm quyền xử phạt, hoặc quá thời hạn thi hành quyết định xử phạt, mà chủ phương tiện vi phạm, người vi phạm chưa giải quyết vụ việc hoặc chưa chấp hành quyết định xử phạt. Khi đó: Người có thẩm quyền xử phạt gửi thông báo cho cơ quan đăng kiểm (đối với phương tiện có quy định phải kiểm định), cơ quan đăng ký xe và cơ quan cấp giấy phép lái xe (nếu đã xác định được người vi phạm). Việc gửi thông báo thực hiện bằng văn bản hoặc bằng phương thức điện tử thông qua kết nối, chia sẻ dữ liệu khi đáp ứng điều kiện về cơ sở hạ tầng, kỹ thuật, thông tin. Trước khi đăng kiểm, đăng ký xe, cấp, đổi, cấp lại giấy phép lái xe, các cơ quan này có trách nhiệm tra cứu dữ liệu phương tiện vi phạm, người vi phạm do cơ quan Cảnh sát giao thông gửi thông báo. Nếu tra cứu có thông tin về phương tiện vi phạm, người vi phạm thì chưa giải quyết việc đăng kiểm, đăng ký phương tiện vi phạm, chưa cấp, đổi, cấp lại giấy phép lái xe đối với người vi phạm. Sau khi chủ phương tiện, người vi phạm đã giải quyết vụ việc theo quy định, người có thẩm quyền xử phạt phải gửi thông báo ngay cho các cơ quan trên để thực hiện việc đăng kiểm, đăng ký xe, cấp, đổi, cấp lại giấy phép lái xe. Hai lưu ý khi đọc. Thứ nhất, điều khoản nói cơ quan đăng kiểm \"đối với phương tiện có quy định phải kiểm định\"; bài không khẳng định xe máy thuộc diện phải đăng kiểm. Thứ hai, điều khoản nói chung về \"đăng ký xe\" và \"cấp, đổi, cấp lại giấy phép lái xe\"; bài không xác định từng loại thủ tục cụ thể, chẳng hạn sang tên hay đổi biển số, có bị ảnh hưởng hay không. Nếu bạn đang cần làm thủ tục như vậy, có thể tham khảo bài thủ tục sang tên xe máy cũ và bài đăng ký biển số xe máy trực tuyến của website để biết các bước, rồi hỏi cơ quan đăng ký xe nếu thông tin vi phạm có ảnh hưởng đến hồ sơ của bạn. Bài này không thay thế hướng dẫn của cơ quan đó. Thông báo đến muộn: ngày vi phạm quyết định văn bản áp dụng Phạt nguội có đặc điểm là thông báo có thể đến sau ngày vi phạm một thời gian. Bài của Bộ Công an đăng ngày 31/12/2024 giới thiệu Nghị định 168/2024/NĐ-CP nêu quy tắc chuyển tiếp: hành vi vi phạm hành chính về trật tự, an toàn giao thông trong lĩnh vực giao thông đường bộ xảy ra và kết thúc trước ngày nghị định có hiệu lực thi hành, sau đó mới bị phát hiện hoặc đang xem xét giải quyết, thì áp dụng nghị định đang có hiệu lực tại thời điểm thực hiện hành vi vi phạm để xử phạt. Bản PDF toàn văn Nghị định 238/2026/NĐ-CP có điều khoản chuyển tiếp cùng nội dung đối với ngày có hiệu lực 15-08-2026 (thông tin đọc từ toàn văn, chưa kiểm tra lại trực tiếp). Bài hiểu rằng, theo hai điều khoản này, mốc để xác định nghị định nào được áp dụng là thời điểm xảy ra hành vi, không phải ngày bạn nhận thông báo. Đây là cách hiểu của bài để bạn biết nên đối chiếu ngày nào trong thông báo; bài không phân tích từng tình huống cụ thể và không nêu thời hiệu xử phạt vì nguồn đã đọc không nói về vấn đề đó. Cảnh giác lừa đảo liên quan phạt nguội Cùng hướng dẫn ngày 05/03/2025, Cục Cảnh sát giao thông cảnh báo rằng đã xuất hiện trường hợp các đối tượng lợi dụng thông tin xử lý \"phạt nguội\", cấp đổi giấy phép lái xe để lừa đảo, chiếm đoạt tài sản. Cục khuyến cáo người dân nêu cao cảnh giác, thường xuyên theo dõi hướng dẫn trên các kênh thông tin chính thống, và nêu các điều sau: Tuyệt đối không cung cấp thông tin cá nhân cho bất kỳ ai khi chưa xác định chính xác đó là người được giao thẩm quyền thực hiện việc \"phạt nguội\", cấp, đổi giấy phép lái xe. Không làm theo yêu cầu của người lạ liên lạc qua số điện thoại gọi đến, tự xưng là cán bộ Công an, để hướng dẫn cài đặt ứng dụng, kích hoạt tài khoản, các phần mềm ứng dụng, đường \"link lạ\", hoặc yêu cầu chuyển tiền. Không truy cập vào các địa chỉ website lạ, không cài đặt các \"phần mềm lạ\" từ các đường \"link lạ\", từ kho ứng dụng không chính thống, không rõ nguồn gốc, hoặc những phần mềm đòi hỏi yêu cầu cấp quyền truy cập cao vào thông tin người dùng. Báo Chính phủ ngày 06/08/2025 thuật lại rằng Cục Cảnh sát giao thông khẳng định không thông báo vi phạm trật tự an toàn giao thông qua điện thoại hoặc nhắn tin tới người dân, và mọi trường hợp nhắn tin hoặc gọi điện thông báo lỗi vi phạm đều là giả mạo, có dấu hiệu lừa đảo. Bài báo nêu các thủ đoạn như giả mạo Cổng dịch vụ công quốc gia hoặc dựng các trang thanh toán, thông báo \"phạt nguội\" khác nhau để người dân đăng nhập, truy cập đường link, nhằm chiếm đoạt quyền điều khiển điện thoại hoặc tiền trong tài khoản. Đây là thông tin đọc từ trang của Báo Chính phủ, chưa kiểm tra lại trực tiếp. Bài hiểu rằng điều này không mâu thuẫn với khoản 8 Điều 47: thông báo điện tử hợp lệ theo điều khoản đó gửi qua Ứng dụng giao thông trên thiết bị di động do Bộ Công an quản lý, khác với tin nhắn hay cuộc gọi từ số lạ. Đây là cách hiểu của bài, không phải lời của nguồn. Nếu bạn nhận một thông báo lạ, các bước hợp lý theo gợi ý của người viết là: không bấm vào đường link và không cài ứng dụng được gửi kèm; đối chiếu biển số, thời gian, địa điểm với việc dùng xe; tra cứu chủ động bằng kênh chính thức mà Bộ Công an nêu, tự gõ địa chỉ vào trình duyệt thay vì bấm link trong tin nhắn; và khi cần xác nhận, liên hệ cơ quan Công an có địa chỉ được ghi trong thông báo chính thức. Bài không nêu số điện thoại nào, vì thông tin liên hệ nên lấy từ trang chính thức của cơ quan thay vì từ tin nhắn. Hai tình huống khác hay gặp: mua xe cũ chưa sang tên và nhận thông báo không phải của mình Mua xe cũ nhưng chưa sang tên. Bài xe máy cũ mua lại có cần đổi biển số không của website nêu rằng khi xe dính phạt nguội, cơ quan chức năng tra ra chủ xe trên giấy tờ là người đã bán xe từ lâu, rất khó xác định người đang thực sự sử dụng. Đó là nhận định của bài đó; các nguồn của Bộ Công an trong bài này chỉ nói thông báo gửi cho \"chủ phương tiện\". Nếu bạn vừa mua xe cũ, việc sang tên theo bài thủ tục sang tên xe máy cũ là cách đưa thông tin đăng ký về đúng người đang dùng xe (gợi ý của người viết). Nhận thông báo cho xe không phải của mình. Trả lời ngày 20/05/2025 của Bộ Công an là ví dụ: người hỏi có xe khác gắn biển số giống xe của mình và bị \"phạt nguội\". Bộ hướng dẫn tra cứu trên trang web www.csgt.vn để biết phương tiện vi phạm ở đâu, rồi liên hệ cơ quan Công an đã gửi thông báo để được hướng dẫn giải quyết. Bài không có nguồn nào mô tả thêm các bước khiếu nại, nên không viết thêm. Danh sách kiểm tra nhanh khi nhận thông báo phạt nguội Thông báo đến bằng kênh nào? Theo khoản 8 Điều 47, đó là văn bản hoặc ứng dụng do Bộ Công an quản lý. Tin nhắn, cuộc gọi hay đường link lạ cần được kiểm tra lại bằng kênh chính thức. Biển số, ngày giờ và địa điểm trong thông báo có khớp với lịch sử dụng xe của bạn không? Ai đã lái xe vào thời điểm đó? Bạn là chủ phương tiện cá nhân hay tổ chức? Nghĩa vụ hợp tác và cách xử phạt khi không hợp tác được nêu riêng cho từng loại. Thông báo ghi hạn hẹn giải quyết nào? Quá hạn mà chưa giải quyết thì khoản 11 Điều 47 có thể kéo theo thông báo đến cơ quan đăng kiểm, đăng ký xe, cấp giấy phép lái xe. Nơi giải quyết có nằm trong ba nhóm địa điểm Cục Cảnh sát giao thông nêu không? Ở Hà Nội, nếu vi phạm do hệ thống Camera AI phát hiện, bạn có thể đến Đội Cảnh sát giao thông hoặc xử lý qua iHanoi theo sáu bước. Không chuyển tiền, không bấm link lạ, không cài ứng dụng ngoài kho chính thống và không cung cấp thông tin cá nhân cho người chưa xác định được thẩm quyền. Chụp lại thông báo, lưu biên lai và quyết định xử phạt sau khi giải quyết. Những điều bài chưa trả lời và cách kiểm tra văn bản hiện hành Bài không trả lời năm câu hỏi sau vì các nguồn đã đọc không nói đến: mức phạt của từng lỗi vi phạm; thời hiệu xử phạt; các bước thao tác chi tiết trên trang csgt.vn hay trên ứng dụng của Bộ Công an; ứng dụng iHanoi có dùng được cho người nước ngoài hay không; và tình hình xử lý phạt nguội ở Hà Nội sau ngày 07/01/2026. Bài cũng không bàn ô tô, vì mức phạt và hậu quả đối với ô tô khác xe máy, và không nêu chính sách thu lại tiền phạt hay hợp đồng của bất kỳ cửa hàng nào. Mọi nội dung pháp lý ở trên là thông tin đọc ngày 18/10/2026. Nghị định 168/2024/NĐ-CP đã được sửa đổi bằng Nghị định 238/2026/NĐ-CP, còn Luật Trật tự, an toàn giao thông đường bộ đã được sửa đổi bằng Luật số 118/2025/QH15, nên trước khi làm theo, hãy đối chiếu bản hiện hành trên các trang chính thức của Chính phủ hoặc Bộ Công an. Nguồn tham khảo Các trang dùng làm nguồn chính, đọc ngày 18/10/2026: Tài xế thuê xe tự lái bị phạt nguội sẽ bị xử lý như thế nào? , mục Hỏi đáp của Bộ Công an, trả lời ngày 24/01/2025. Hướng dẫn nộp \"phạt nguội\" và tham gia giao thông khi đang trong thời gian chờ cấp, đổi giấy phép lái xe , Cục Cảnh sát giao thông trên trang của Bộ Công an, ngày 05/03/2025. Hà Nội: Hướng dẫn theo dõi và thực hiện xử phạt vi phạm giao thông qua ứng dụng Công dân Thủ đô số - iHanoi , trang của Bộ Công an, ngày 07/01/2026. Cách xử lý khi có xe khác gắn biển số giống xe của mình tham gia giao thông và bị \"phạt nguội\" , mục Hỏi đáp của Bộ Công an, ngày 20/05/2025. Nghị định số 168/2024/NĐ-CP , trang văn bản của Cổng thông tin điện tử Chính phủ (ban hành 26-12-2024, hiệu lực 01-01-2025). Nghị định số 238/2026/NĐ-CP , trang văn bản của Cổng thông tin điện tử Chính phủ (ban hành 26-06-2026, hiệu lực 15-08-2026). Mức xử phạt vi phạm hành chính về trật tự, an toàn giao thông đường bộ từ 01/01/2025 , mục Chính sách mới của Bộ Công an, ngày 31/12/2024 (dùng cho quy tắc chuyển tiếp). Tài liệu chỉ đọc, bài dùng kèm nhãn và chưa kiểm tra lại trực tiếp: Toàn văn Luật Trật tự, an toàn giao thông đường bộ , trang xaydungchinhsach.chinhphu.vn, đọc ngày 18/10/2026. Văn bản hợp nhất Luật Trật tự, an toàn giao thông đường bộ số 55/VBHN-VPQH , bản PDF trên cổng thông tin điện tử Chính phủ, đọc ngày 18/10/2026. Bản PDF Nghị định số 238/2026/NĐ-CP , trên cổng thông tin điện tử Chính phủ, đọc ngày 18/10/2026. Cục CSGT khẳng định không thông báo vi phạm trật tự an toàn giao thông qua điện thoại , Báo Chính phủ, ngày 06/08/2025, đọc ngày 18/10/2026.",
+      "links": [
+        {
+          "url": "https://thuexemaynguyentu.com/thue-xe-may-du-lich-ha-noi-huong-dan-toan-dien-tu-a-z-cho-nguoi-lan-dau/",
+          "anchor": "cẩm nang thuê xe máy du lịch Hà Nội dành cho người lần đầu"
+        },
+        {
+          "url": "https://thuexemaynguyentu.com/thu-tuc-sang-ten-xe-may-cu-gom-nhung-buoc-nao-theo-quy-dinh-hien-nay/",
+          "anchor": "thủ tục sang tên xe máy cũ"
+        },
+        {
+          "url": "https://thuexemaynguyentu.com/dang-ky-bien-so-xe-may-truc-tuyen-ho-so-va-cac-buoc-can-chuan-bi/",
+          "anchor": "đăng ký biển số xe máy trực tuyến"
+        },
+        {
+          "url": "https://thuexemaynguyentu.com/xe-may-cu-mua-lai-co-can-doi-bien-so-khong-cac-truong-hop-can-biet/",
+          "anchor": "xe máy cũ mua lại có cần đổi biển số không"
+        },
+        {
+          "url": "https://thuexemaynguyentu.com/thu-tuc-sang-ten-xe-may-cu-gom-nhung-buoc-nao-theo-quy-dinh-hien-nay/",
+          "anchor": "thủ tục sang tên xe máy cũ"
+        },
+        {
+          "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/7511a592-d684-4380-978a-26ebfc4adff4?page=%2F",
+          "anchor": "Tài xế thuê xe tự lái bị phạt nguội sẽ bị xử lý như thế nào?"
+        },
+        {
+          "url": "https://bocongan.gov.vn/bai-viet/huong-dan-nop-phat-nguoi-va-tham-gia-giao-thong-khi-dang-trong-thoi-gian-cho-cap-doi-giay-phep-lai-xe-d139-t43826",
+          "anchor": "Hướng dẫn nộp \"phạt nguội\" và tham gia giao thông khi đang trong thời gian chờ cấp, đổi giấy phép lái xe"
+        },
+        {
+          "url": "https://bocongan.gov.vn/bai-viet/phong-canh-sat-giao-thong-ha-noi-huong-dan-nguoi-dan-theo-doi-thong-tin-va-thuc-hien-xu-phat-vi-pham-ttatgt-qua-ung-dung-cong-dan-thu-do-so-ihanoi-1767781260",
+          "anchor": "Hà Nội: Hướng dẫn theo dõi và thực hiện xử phạt vi phạm giao thông qua ứng dụng Công dân Thủ đô số - iHanoi"
+        },
+        {
+          "url": "https://bocongan.gov.vn/hoi-dap/chi-tiet-cau-hoi/fb5d3a04-cc61-4468-b78e-d6a948d23af9?page=%2F",
+          "anchor": "Cách xử lý khi có xe khác gắn biển số giống xe của mình tham gia giao thông và bị \"phạt nguội\""
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=212167",
+          "anchor": "Nghị định số 168/2024/NĐ-CP"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=218613&pageid=27160",
+          "anchor": "Nghị định số 238/2026/NĐ-CP"
+        },
+        {
+          "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/muc-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-an-toan-giao-thong-duong-bo-tu-01012025-d1-t1624",
+          "anchor": "Mức xử phạt vi phạm hành chính về trật tự, an toàn giao thông đường bộ từ 01/01/2025"
+        },
+        {
+          "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm",
+          "anchor": "Toàn văn Luật Trật tự, an toàn giao thông đường bộ"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/55-vbhn-vpqh.pdf",
+          "anchor": "Văn bản hợp nhất Luật Trật tự, an toàn giao thông đường bộ số 55/VBHN-VPQH"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/238-ndcp.signed.pdf",
+          "anchor": "Bản PDF Nghị định số 238/2026/NĐ-CP"
+        },
+        {
+          "url": "https://baochinhphu.vn/csgt-khong-thong-bao-vi-pham-trat-tu-atgt-qua-dien-thoai-cong-bo-them-duong-day-nong-102250806184505248.htm",
+          "anchor": "Cục CSGT khẳng định không thông báo vi phạm trật tự an toàn giao thông qua điện thoại"
+        }
+      ],
+      "seo_title": "Phạt nguội xe máy: nhận thông báo, nơi giải quyết, cách tránh lừa",
+      "meta_description": "Phạt nguội xe máy: chủ xe nhận thông báo ở đâu, giải quyết tại nơi nào, nghĩa vụ hợp tác theo Bộ Công an, xử lý qua iHanoi và cách nhận biết tin nhắn lừa đảo.",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "schema_types": [
+        [
+          "Article",
+          "BlogPosting"
+        ],
+        "WebPage",
+        "BreadcrumbList",
+        "WebSite",
+        "Person"
+      ],
+      "verified_at": "2026-10-19T03:45:09.216482+00:00",
+      "source": "authenticated REST"
+    },
+    {
+      "id": 4119,
+      "type": "posts",
+      "status": "publish",
+      "title": "Chở 2 người trên xe máy: trường hợp được phép, mức phạt chở 2 và 3 người, trẻ em dưới 12 tuổi",
+      "title_hash": "9d5b14840e152db5e34c26c278fb9a1c70a59b924346db959e7094610e500805",
+      "slug": "cho-2-nguoi-tren-xe-may-truong-hop-duoc-phep-muc-phat-cho-2-va-3-nguoi-tre-em-duoi-12-tuoi",
+      "slug_hash": "2149de6a172048e21ece2173c4c51001ac325cc6619222b9ad804174460eb398",
+      "url": "https://thuexemaynguyentu.com/cho-2-nguoi-tren-xe-may-truong-hop-duoc-phep-muc-phat-cho-2-va-3-nguoi-tre-em-duoi-12-tuoi/",
+      "canonical": "https://thuexemaynguyentu.com/cho-2-nguoi-tren-xe-may-truong-hop-duoc-phep-muc-phat-cho-2-va-3-nguoi-tre-em-duoi-12-tuoi/",
+      "categories": [
+        161
+      ],
+      "content_hash": "efc5b34dae3db65e69ac55953c07a62859cdf0e479865612cf3c67045418f27d",
+      "content_text": "Người lái xe mô tô hai bánh, xe gắn máy chỉ được chở một người, trừ bốn trường hợp được chở tối đa hai người: chở người bệnh đi cấp cứu, áp giải người có hành vi vi phạm pháp luật, chở trẻ em dưới 12 tuổi, chở người già yếu hoặc người khuyết tật (khoản 1 Điều 33 Luật Trật tự, an toàn giao thông đường bộ, có hiệu lực từ 01/01/2025). Với chở 2 người trên xe máy ngoài các trường hợp đó, nghị định ghi là \"chở theo 02 người\" và phạt từ 400.000 đến 600.000 đồng; \"chở theo từ 03 người trở lên\" bị phạt từ 600.000 đến 800.000 đồng, theo các bài của Bộ Công an đăng ngày 26/01/2025 và 31/12/2024. Theo cách đọc của người viết, các con số 02 và 03 đếm người ngồi thêm, không tính người lái. Hãy kiểm tra văn bản hiện hành trước khi áp dụng. Câu hỏi \"chở 2 người trên xe máy có bị phạt không\" dễ gây nhầm vì cách đếm. Có người đếm cả người lái, nên nói \"chở 2 người\" khi trên xe có người lái và một người ngồi sau. Trong câu chữ của luật, \"chỉ được chở một người\" nói về người được chở, tức người ngồi thêm trên xe, và theo cách đọc của người viết thì không tính người lái. Cách đếm này suy ra từ câu chữ của luật và nghị định; các trang đã đọc không có câu giải thích riêng, nên bài sẽ ghi rõ từng chỗ nào là cách đọc của người viết. Nội dung dựa trên các trang của Bộ Công an và Cổng thông tin điện tử Chính phủ, đọc ngày 17 và 18/10/2026. Đây là thông tin tham khảo, không phải tư vấn pháp lý cho một vụ việc cụ thể. Quy tắc chung: người lái xe máy chỉ được chở một người Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 được ban hành ngày 27-06-2024 và có hiệu lực từ ngày 01-01-2025, theo trang văn bản của Cổng thông tin điện tử Chính phủ. Bài của Bộ Công an giới thiệu một số điểm mới của luật viết rằng, theo khoản 1 Điều 33, người lái xe mô tô hai bánh, xe gắn máy chỉ được chở một người, trừ những trường hợp được chở tối đa hai người sẽ nêu ở phần sau. Cũng trong bài đó, Bộ Công an nhận xét rằng so với Luật Giao thông đường bộ 2008, luật năm 2024 bổ sung thêm trường hợp xe máy được chở tối đa hai người. Quy tắc ở khoản 1 Điều 33 ghi cho xe mô tô hai bánh và xe gắn máy. Bài này không bàn xe mô tô ba bánh, xe thô sơ, xe đạp máy hay xe dùng để kinh doanh vận tải. Người viết cũng đối chiếu khoản 1 Điều 33 trong Văn bản hợp nhất số 55/VBHN-VPQH, ban hành ngày 23-03-2026 (đọc qua bản trích nguyên văn từ tệp văn bản của Cổng thông tin điện tử Chính phủ, thông tin đọc kèm, chưa kiểm tra trực tiếp khi đăng bài). Câu chữ của khoản này, gồm cả bốn trường hợp ngoại lệ, vẫn giống với những gì bài của Bộ Công an nêu. Bốn trường hợp được chở tối đa hai người Theo bài của Bộ Công an, bốn trường hợp được chở tối đa hai người gồm: Chở người bệnh đi cấp cứu. Áp giải người có hành vi vi phạm pháp luật. Trẻ em dưới 12 tuổi. Người già yếu hoặc người khuyết tật. Có ba điều cần lưu ý khi đọc danh sách này. Thứ nhất, câu chữ của luật liệt kê đúng bốn trường hợp; ngoài bốn trường hợp đó, quy tắc chung vẫn là chỉ chở một người. Thứ hai, mốc tuổi của trẻ em theo luật hiện hành là dưới 12 tuổi. Nếu bạn gặp tài liệu hoặc bài viết cũ ghi một mốc tuổi khác, hãy đối chiếu với văn bản hiện hành, vì bài này chỉ nêu mốc theo trích dẫn của Bộ Công an về khoản 1 Điều 33. Thứ ba, các trang đã đọc không nêu cách chứng minh tuổi của trẻ, tình trạng già yếu hay khuyết tật, nên bài không đặt ra tiêu chuẩn như giấy tờ hay chiều cao nào. Nếu bạn không chắc một người có thuộc trường hợp ngoại lệ hay không, hãy hỏi cơ quan có thẩm quyền trước chuyến đi thay vì tự suy đoán. Cách đếm người: chở một, chở 2 và chở từ 3 người trở lên Văn bản dùng hai cách viết khác nhau. Luật viết \"chỉ được chở một người\" và \"chở tối đa hai người\". Nghị định 168/2024/NĐ-CP, theo các bài của Bộ Công an, viết \"chở theo 02 người trên xe\" và \"chở theo từ 03 người trở lên trên xe\". Theo cách đọc của người viết, các con số này đếm người được chở, không tính người lái. Bảng sau minh họa cách áp dụng câu chữ. Đây là ví dụ để hiểu cách đọc, không phải câu trích từ nguồn và không mô tả một vụ việc có thật. Ai ngồi trên xe Số người được chở (không tính người lái) Cách đọc theo câu chữ Người lái và một người lớn 1 Đúng quy tắc chung: chỉ chở một người Người lái, một người lớn và một trẻ em dưới 12 tuổi 2 Thuộc trường hợp trẻ em dưới 12 tuổi nên được chở tối đa hai người Người lái và hai người lớn, không ai thuộc trường hợp ngoại lệ 2 \"Chở theo 02 người\" ngoài trường hợp ngoại lệ: phạt từ 400.000 đến 600.000 đồng Người lái và từ ba người trở lên 3 trở lên \"Chở theo từ 03 người trở lên\": phạt từ 600.000 đến 800.000 đồng Các tổ hợp khác, chẳng hạn hai trẻ em cùng ngồi sau hoặc một người già yếu đi cùng một người lớn, không được các trang đã đọc phân tích. Bài không suy diễn thêm cho những trường hợp đó. Mức phạt chở theo 02 người và chở theo từ 03 người trở lên Hai mức phạt theo các bài của Bộ Công an như sau: Hành vi Mức phạt tiền Trang của Bộ Công an Chở theo 02 người trên xe, trừ trường hợp chở người bệnh đi cấp cứu, trẻ em dưới 12 tuổi, người già yếu hoặc người khuyết tật, áp giải người có hành vi vi phạm pháp luật từ 400.000 đến 600.000 đồng Bài Chính sách mới đăng ngày 26/01/2025 Chở theo từ 03 người trở lên trên xe từ 600.000 đến 800.000 đồng Bài đăng ngày 31/12/2024; bài ngày 26/01/2025 nêu cùng mức Bài ngày 26/01/2025 viết về mức xử phạt một số lỗi thường gặp của người điều khiển xe mô tô, xe gắn máy theo Điều 7 Nghị định 168/2024/NĐ-CP. Hành vi chở theo 02 người ngoài các trường hợp ngoại lệ được xếp cùng nhóm mức 400.000 đến 600.000 đồng với các hành vi như dừng xe, đỗ xe ở lòng đường gây cản trở giao thông hay tụ tập từ 03 xe trở lên ở lòng đường. Còn chở theo từ 03 người trở lên nằm cùng nhóm 600.000 đến 800.000 đồng với các hành vi như điều khiển xe chạy dàn hàng ngang từ 03 xe trở lên, điều khiển xe kéo theo xe khác hay vật khác, dừng xe hoặc đỗ xe trên cầu. Về điều khoản và điểm trừ, theo toàn văn Nghị định 168/2024/NĐ-CP (thông tin đọc kèm, chưa kiểm tra trực tiếp khi đăng bài), chở theo 02 người nằm ở điểm g khoản 2 Điều 7, còn chở theo từ 03 người trở lên nằm ở điểm b khoản 3 Điều 7. Bảng trừ điểm ở khoản 13 cùng điều xếp điểm b khoản 3 vào nhóm trừ 02 điểm giấy phép lái xe, và điểm g khoản 2 không có trong bảng đó. Hiểu theo toàn văn, chở theo 02 người chỉ bị phạt tiền, còn chở theo từ 03 người trở lên bị phạt tiền và trừ 02 điểm. Số điểm này chỉ có trong toàn văn đọc kèm; các bài của Bộ Công an đã đọc cho phần mức phạt không nêu điểm trừ. Cách điểm được trừ và được phục hồi có trong bài điểm giấy phép lái xe: 12 điểm, bị trừ khi nào, bao lâu được phục hồi và cách xem trên VNeID . Cần lưu ý về thời điểm. Theo trang văn bản của Cổng thông tin điện tử Chính phủ, Nghị định 238/2026/NĐ-CP được ban hành ngày 26-06-2026, có hiệu lực từ ngày 15-08-2026 và sửa đổi, bổ sung một số điều của Nghị định 168/2024/NĐ-CP. Hai bài của Bộ Công an nêu mức phạt ở trên đều đăng trước ngày 15/08/2026. Vì vậy hãy đối chiếu văn bản hợp nhất mới nhất trước khi dùng các con số. Điều kiện đi kèm khi chở thêm người: mũ bảo hiểm và hành vi bị cấm Việc được chở thêm người không thay thế các điều kiện an toàn khác. Theo toàn văn luật (khoản 2 Điều 33, thông tin đọc kèm, chưa kiểm tra trực tiếp khi đăng bài), người lái xe và người được chở trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy phải đội mũ bảo hiểm theo đúng quy chuẩn kỹ thuật quốc gia và cài quai đúng quy cách. Mức xử phạt đối với người ngồi sau không đội mũ, cùng các ngoại lệ về độ tuổi, do nghị định quy định riêng và không nằm trong phạm vi bài này. Cách đội mũ và chọn mũ cho trẻ đã có hai bài riêng: đội mũ bảo hiểm đúng cách: kiểm tra độ vừa, cài quai và thử kéo mũ trước mỗi chuyến đi và mũ bảo hiểm cho trẻ em đạt chuẩn: kiểm tra cỡ đầu, dấu hợp quy và quai mũ trước khi mua . Cũng theo toàn văn luật (khoản 4 Điều 33), người được chở trên xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy không được thực hiện các hành vi sau: mang, vác vật cồng kềnh; sử dụng ô; bám, kéo hoặc đẩy các phương tiện khác; đứng trên yên, giá đèo hàng hoặc ngồi trên tay lái; và hành vi khác gây mất trật tự, an toàn giao thông đường bộ. Nghị định có mức xử phạt riêng cho một số hành vi này, bài không liệt kê. Gợi ý của người viết: vì các điều cấm này áp dụng cho chính người được chở, hãy nhắc người ngồi sau, nhất là trẻ nhỏ hoặc người già yếu, trước khi xuất phát. Bài này không bàn ghế ngồi dành cho trẻ em, đai an toàn hay tư thế ngồi sau trên xe máy; đó là các chủ đề riêng. Ai kiểm tra và xử lý việc chở quá số người Theo bài của Bộ Công an đăng ngày 20/12/2024 về Thông tư 73/2024/TT-BCA, Thông tư này quy định công tác tuần tra, kiểm soát, xử lý vi phạm pháp luật về trật tự, an toàn giao thông đường bộ của Cảnh sát giao thông. Cùng bài viết cho biết Công an xã được tuần tra, kiểm soát, xử lý vi phạm trên các tuyến đường xã, đường thôn thuộc địa bàn quản lý. Khi phát hiện người điều khiển xe mô tô, xe gắn máy, xe thô sơ có các hành vi vi phạm theo quy định, bài nêu ví dụ như không đội mũ bảo hiểm theo quy định, chở quá số người quy định, chở hàng hóa cồng kềnh hoặc quá kích thước giới hạn quy định, thì lực lượng này được xử lý theo quy định của pháp luật. Như vậy chở quá số người quy định nằm trong nhóm lỗi mà Công an xã xử lý được, nhưng chỉ trên đường xã, đường thôn thuộc địa bàn quản lý của mình. Bài của Bộ Công an không nêu mức phạt cụ thể trong phần này, và bài viết này cũng không mô tả cách lập biên bản, nộp phạt hay khiếu nại. Gợi ý của người viết khi đi nhiều người bằng xe máy Phần này là lời khuyên chung của người viết, không phải điều khoản pháp luật. Trước khi xuất phát, đếm số người ngồi thêm trên xe, không tính người lái. Nếu có hơn một người ngồi thêm, hãy xác định từng người thuộc trường hợp nào trong bốn trường hợp ngoại lệ. Nếu cả nhóm đông hơn số người được phép ngồi trên một xe (người lái cùng một người ngồi thêm) và không thuộc trường hợp ngoại lệ, hãy tách thành nhiều xe hoặc dùng phương tiện khác thay vì dồn lên một xe. Khi chưa chắc một người có được tính là \"già yếu\" hay không, đừng dựa vào ước đoán. Hãy chọn phương án không cần dùng ngoại lệ hoặc hỏi cơ quan có thẩm quyền. Nếu bạn đang cân nhắc chọn xe cho chuyến đi hai người (người lái và một người ngồi sau), bài đi Hà Nội hai người nên chọn xe gì để thoải mái và dễ điều khiển bàn về việc chọn xe. Bài này chỉ bàn quy định về số người, không bàn việc chọn xe. Khi có trẻ nhỏ ngồi cùng, hãy kiểm tra mũ của trẻ và của người lớn trước mỗi chuyến, theo hai bài về mũ bảo hiểm đã nêu ở trên. Bảng tóm tắt và những điều bài viết chưa trả lời Bảng tóm tắt, theo các trang của Bộ Công an đã đọc (cách đếm người là cách đọc của người viết): Nội dung Điều các trang nêu Lưu ý Quy tắc chung Xe mô tô hai bánh, xe gắn máy chỉ được chở một người (khoản 1 Điều 33 Luật) Hiệu lực từ 01/01/2025 Trường hợp được chở tối đa hai người Người bệnh đi cấp cứu; áp giải người có hành vi vi phạm pháp luật; trẻ em dưới 12 tuổi; người già yếu hoặc người khuyết tật Không nêu cách chứng minh Chở theo 02 người ngoài ngoại lệ Phạt từ 400.000 đến 600.000 đồng Theo bài ngày 26/01/2025 Chở theo từ 03 người trở lên Phạt từ 600.000 đến 800.000 đồng Theo bài ngày 31/12/2024; theo toàn văn đọc kèm có trừ 02 điểm Người kiểm tra Cảnh sát giao thông; Công an xã trên đường xã, đường thôn Bài ngày 20/12/2024 Những điều bài viết này chưa trả lời, vì các trang đã đọc không nêu hoặc thuộc chủ đề khác: Cách chứng minh tuổi của trẻ em, tình trạng già yếu hay khuyết tật. Các tổ hợp người ngồi ngoài những ví dụ trong bảng đếm người. Xe mô tô ba bánh, xe thô sơ, xe đạp máy và xe kinh doanh vận tải. Ghế ngồi, đai an toàn cho trẻ em và tư thế ngồi sau. Giới hạn xếp hàng hóa trên xe máy. Mức phạt đối với người ngồi sau không đội mũ. Quy định của từng cửa hàng cho thuê xe về số người được chở. Thông tin pháp luật thay đổi theo thời gian. Bài này phản ánh các trang được đọc ngày 17 và 18/10/2026 và chỉ nhằm giúp bạn hiểu cách đọc quy định, không thay thế văn bản hiện hành hay tư vấn của người có chuyên môn. Nguồn tham khảo Một số điểm mới của Luật Trật tự, an toàn giao thông đường bộ 2024 , Bộ Công an, đọc ngày 18/10/2026. Các mức xử phạt một số lỗi vi phạm giao thông thường gặp đối với người điều khiển xe máy , Bộ Công an, đăng ngày 26/01/2025, đọc ngày 17/10/2026. Mức xử phạt vi phạm hành chính về trật tự, an toàn giao thông đường bộ từ 01/01/2025 , Bộ Công an, đăng ngày 31/12/2024, đọc ngày 17/10/2026. Từ 01/01/2025, Công an xã được xử lý hành vi vi phạm pháp luật đối với người điều khiển xe mô tô, xe gắn máy, xe thô sơ , Bộ Công an, đăng ngày 20/12/2024, đọc ngày 18/10/2026. Luật số 36/2024/QH15: Luật Trật tự, an toàn giao thông đường bộ , trang văn bản của Cổng thông tin điện tử Chính phủ, đọc ngày 18/10/2026. Nghị định 168/2024/NĐ-CP , trang văn bản của Cổng thông tin điện tử Chính phủ, đọc ngày 18/10/2026. Nghị định 238/2026/NĐ-CP và Văn bản hợp nhất số 55/VBHN-VPQH , trang văn bản của Cổng thông tin điện tử Chính phủ, đọc ngày 18/10/2026. Tài liệu đọc kèm, chưa kiểm tra trực tiếp khi đăng bài, người viết đọc ngày 18/10/2026: toàn văn Luật Trật tự, an toàn giao thông đường bộ , toàn văn Nghị định 168/2024/NĐ-CP và tệp PDF của Văn bản hợp nhất 55/VBHN-VPQH .",
+      "links": [
+        {
+          "url": "https://thuexemaynguyentu.com/diem-giay-phep-lai-xe-12-diem-bi-tru-khi-nao-bao-lau-duoc-phuc-hoi-va-cach-xem-tren-vneid/",
+          "anchor": "điểm giấy phép lái xe: 12 điểm, bị trừ khi nào, bao lâu được phục hồi và cách xem trên VNeID"
+        },
+        {
+          "url": "https://thuexemaynguyentu.com/doi-mu-bao-hiem-dung-cach-kiem-tra-do-vua-cai-quai-va-thu-keo-mu-truoc-moi-chuyen-di/",
+          "anchor": "đội mũ bảo hiểm đúng cách: kiểm tra độ vừa, cài quai và thử kéo mũ trước mỗi chuyến đi"
+        },
+        {
+          "url": "https://thuexemaynguyentu.com/mu-bao-hiem-cho-tre-em-dat-chuan-kiem-tra-co-dau-dau-hop-quy-va-quai-mu-truoc-khi-mua/",
+          "anchor": "mũ bảo hiểm cho trẻ em đạt chuẩn: kiểm tra cỡ đầu, dấu hợp quy và quai mũ trước khi mua"
+        },
+        {
+          "url": "https://thuexemaynguyentu.com/di-ha-noi-hai-nguoi-nen-chon-xe-gi-de-thoai-mai-va-de-dieu-khien/",
+          "anchor": "đi Hà Nội hai người nên chọn xe gì để thoải mái và dễ điều khiển"
+        },
+        {
+          "url": "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/mot-so-diem-moi-cua-luat-trat-tu-an-toan-giao-thong-duong-bo-2024-d1-t1495",
+          "anchor": "Một số điểm mới của Luật Trật tự, an toàn giao thông đường bộ 2024"
+        },
+        {
+          "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/cac-muc-xu-phat-mot-so-loi-vi-pham-giao-thong-thuong-gap-doi-voi-nguoi-dieu-khien-xe-may-d1-t1650",
+          "anchor": "Các mức xử phạt một số lỗi vi phạm giao thông thường gặp đối với người điều khiển xe máy"
+        },
+        {
+          "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/muc-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-an-toan-giao-thong-duong-bo-tu-01012025-d1-t1624",
+          "anchor": "Mức xử phạt vi phạm hành chính về trật tự, an toàn giao thông đường bộ từ 01/01/2025"
+        },
+        {
+          "url": "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/tu-01012025-cong-an-xa-duoc-xu-ly-hanh-vi-vi-pham-phap-luat-doi-voi-nguoi-dieu-khien-xe-mo-to-xe-gan-may-xe-tho-so-d1-t1615",
+          "anchor": "Từ 01/01/2025, Công an xã được xử lý hành vi vi phạm pháp luật đối với người điều khiển xe mô tô, xe gắn máy, xe thô sơ"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=211194&classid=1&typegroupid=3",
+          "anchor": "Luật số 36/2024/QH15: Luật Trật tự, an toàn giao thông đường bộ"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=212167",
+          "anchor": "Nghị định 168/2024/NĐ-CP"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=218613&pageid=27160",
+          "anchor": "Nghị định 238/2026/NĐ-CP"
+        },
+        {
+          "url": "https://vanban.chinhphu.vn/?docid=217295&pageid=27160",
+          "anchor": "Văn bản hợp nhất số 55/VBHN-VPQH"
+        },
+        {
+          "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm",
+          "anchor": "toàn văn Luật Trật tự, an toàn giao thông đường bộ"
+        },
+        {
+          "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm",
+          "anchor": "toàn văn Nghị định 168/2024/NĐ-CP"
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/55-vbhn-vpqh.pdf",
+          "anchor": "tệp PDF của Văn bản hợp nhất 55/VBHN-VPQH"
+        }
+      ],
+      "seo_title": "Chở 2 người trên xe máy: ngoại lệ, mức phạt, trẻ em dưới 12 tuổi",
+      "meta_description": "Chở 2 người trên xe máy khi nào được phép? Bốn trường hợp ngoại lệ theo Luật 36/2024, mức phạt chở theo 02 người và từ 03 người trở lên, cách đếm người, trẻ em dưới 12 tuổi.",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "schema_types": [
+        [
+          "Article",
+          "BlogPosting"
+        ],
+        "WebPage",
+        "BreadcrumbList",
+        "WebSite",
+        "Person"
+      ],
+      "verified_at": "2026-10-19T03:45:09.220772+00:00",
+      "source": "authenticated REST"
+    },
     {
       "id": 4118,
       "type": "posts",
@@ -71,7 +344,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.790242+00:00",
+      "verified_at": "2026-10-19T03:45:09.225800+00:00",
       "source": "authenticated REST"
     },
     {
@@ -150,7 +423,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.795143+00:00",
+      "verified_at": "2026-10-19T03:45:09.230693+00:00",
       "source": "authenticated REST"
     },
     {
@@ -217,7 +490,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.799018+00:00",
+      "verified_at": "2026-10-19T03:45:09.234613+00:00",
       "source": "authenticated REST"
     },
     {
@@ -292,7 +565,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.804078+00:00",
+      "verified_at": "2026-10-19T03:45:09.239629+00:00",
       "source": "authenticated REST"
     },
     {
@@ -375,7 +648,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.809569+00:00",
+      "verified_at": "2026-10-19T03:45:09.245251+00:00",
       "source": "authenticated REST"
     },
     {
@@ -446,7 +719,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.815359+00:00",
+      "verified_at": "2026-10-19T03:45:09.251020+00:00",
       "source": "authenticated REST"
     },
     {
@@ -517,7 +790,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.820307+00:00",
+      "verified_at": "2026-10-19T03:45:09.255978+00:00",
       "source": "authenticated REST"
     },
     {
@@ -588,7 +861,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.825427+00:00",
+      "verified_at": "2026-10-19T03:45:09.261088+00:00",
       "source": "authenticated REST"
     },
     {
@@ -655,7 +928,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.830084+00:00",
+      "verified_at": "2026-10-19T03:45:09.265754+00:00",
       "source": "authenticated REST"
     },
     {
@@ -726,7 +999,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.834281+00:00",
+      "verified_at": "2026-10-19T03:45:09.269909+00:00",
       "source": "authenticated REST"
     },
     {
@@ -801,7 +1074,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.839266+00:00",
+      "verified_at": "2026-10-19T03:45:09.274780+00:00",
       "source": "authenticated REST"
     },
     {
@@ -880,7 +1153,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.843563+00:00",
+      "verified_at": "2026-10-19T03:45:09.279130+00:00",
       "source": "authenticated REST"
     },
     {
@@ -959,7 +1232,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.848472+00:00",
+      "verified_at": "2026-10-19T03:45:09.284103+00:00",
       "source": "authenticated REST"
     },
     {
@@ -1034,7 +1307,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.853073+00:00",
+      "verified_at": "2026-10-19T03:45:09.288703+00:00",
       "source": "authenticated REST"
     },
     {
@@ -1113,7 +1386,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.857123+00:00",
+      "verified_at": "2026-10-19T03:45:09.292607+00:00",
       "source": "authenticated REST"
     },
     {
@@ -1196,7 +1469,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.862549+00:00",
+      "verified_at": "2026-10-19T03:45:09.297962+00:00",
       "source": "authenticated REST"
     },
     {
@@ -1275,7 +1548,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.866382+00:00",
+      "verified_at": "2026-10-19T03:45:09.301713+00:00",
       "source": "authenticated REST"
     },
     {
@@ -1354,7 +1627,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.870682+00:00",
+      "verified_at": "2026-10-19T03:45:09.305948+00:00",
       "source": "authenticated REST"
     },
     {
@@ -1461,7 +1734,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.877214+00:00",
+      "verified_at": "2026-10-19T03:45:09.312383+00:00",
       "source": "authenticated REST"
     },
     {
@@ -1556,7 +1829,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.881931+00:00",
+      "verified_at": "2026-10-19T03:45:09.317051+00:00",
       "source": "authenticated REST"
     },
     {
@@ -1651,7 +1924,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.886654+00:00",
+      "verified_at": "2026-10-19T03:45:09.321641+00:00",
       "source": "authenticated REST"
     },
     {
@@ -1722,7 +1995,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.889527+00:00",
+      "verified_at": "2026-10-19T03:45:09.324331+00:00",
       "source": "authenticated REST"
     },
     {
@@ -1793,7 +2066,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.892929+00:00",
+      "verified_at": "2026-10-19T03:45:09.327584+00:00",
       "source": "authenticated REST"
     },
     {
@@ -1864,7 +2137,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.896389+00:00",
+      "verified_at": "2026-10-19T03:45:09.330713+00:00",
       "source": "authenticated REST"
     },
     {
@@ -1939,7 +2212,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.899888+00:00",
+      "verified_at": "2026-10-19T03:45:09.334122+00:00",
       "source": "authenticated REST"
     },
     {
@@ -2022,7 +2295,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.904000+00:00",
+      "verified_at": "2026-10-19T03:45:09.338220+00:00",
       "source": "authenticated REST"
     },
     {
@@ -2105,7 +2378,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.909010+00:00",
+      "verified_at": "2026-10-19T03:45:09.343181+00:00",
       "source": "authenticated REST"
     },
     {
@@ -2192,7 +2465,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.914291+00:00",
+      "verified_at": "2026-10-19T03:45:09.348418+00:00",
       "source": "authenticated REST"
     },
     {
@@ -2255,7 +2528,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.919334+00:00",
+      "verified_at": "2026-10-19T03:45:09.353409+00:00",
       "source": "authenticated REST"
     },
     {
@@ -2334,7 +2607,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.924722+00:00",
+      "verified_at": "2026-10-19T03:45:09.358703+00:00",
       "source": "authenticated REST"
     },
     {
@@ -2397,7 +2670,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.928732+00:00",
+      "verified_at": "2026-10-19T03:45:09.362705+00:00",
       "source": "authenticated REST"
     },
     {
@@ -2468,7 +2741,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.932160+00:00",
+      "verified_at": "2026-10-19T03:45:09.366094+00:00",
       "source": "authenticated REST"
     },
     {
@@ -2535,7 +2808,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.936897+00:00",
+      "verified_at": "2026-10-19T03:45:09.370628+00:00",
       "source": "authenticated REST"
     },
     {
@@ -2602,7 +2875,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.941451+00:00",
+      "verified_at": "2026-10-19T03:45:09.374998+00:00",
       "source": "authenticated REST"
     },
     {
@@ -2669,7 +2942,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.945526+00:00",
+      "verified_at": "2026-10-19T03:45:09.378953+00:00",
       "source": "authenticated REST"
     },
     {
@@ -2732,7 +3005,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.949685+00:00",
+      "verified_at": "2026-10-19T03:45:09.382943+00:00",
       "source": "authenticated REST"
     },
     {
@@ -2803,7 +3076,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.952623+00:00",
+      "verified_at": "2026-10-19T03:45:09.385812+00:00",
       "source": "authenticated REST"
     },
     {
@@ -2874,7 +3147,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.955883+00:00",
+      "verified_at": "2026-10-19T03:45:09.389009+00:00",
       "source": "authenticated REST"
     },
     {
@@ -2949,7 +3222,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.959945+00:00",
+      "verified_at": "2026-10-19T03:45:09.393324+00:00",
       "source": "authenticated REST"
     },
     {
@@ -3020,7 +3293,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.966285+00:00",
+      "verified_at": "2026-10-19T03:45:09.399432+00:00",
       "source": "authenticated REST"
     },
     {
@@ -3091,7 +3364,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.970489+00:00",
+      "verified_at": "2026-10-19T03:45:09.403519+00:00",
       "source": "authenticated REST"
     },
     {
@@ -3170,7 +3443,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.974776+00:00",
+      "verified_at": "2026-10-19T03:45:09.407658+00:00",
       "source": "authenticated REST"
     },
     {
@@ -3237,7 +3510,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.977840+00:00",
+      "verified_at": "2026-10-19T03:45:09.410694+00:00",
       "source": "authenticated REST"
     },
     {
@@ -3308,7 +3581,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.982551+00:00",
+      "verified_at": "2026-10-19T03:45:09.415286+00:00",
       "source": "authenticated REST"
     },
     {
@@ -3375,7 +3648,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.985862+00:00",
+      "verified_at": "2026-10-19T03:45:09.418543+00:00",
       "source": "authenticated REST"
     },
     {
@@ -3454,7 +3727,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.990685+00:00",
+      "verified_at": "2026-10-19T03:45:09.423287+00:00",
       "source": "authenticated REST"
     },
     {
@@ -3541,7 +3814,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.994536+00:00",
+      "verified_at": "2026-10-19T03:45:09.427026+00:00",
       "source": "authenticated REST"
     },
     {
@@ -3608,7 +3881,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:00.998041+00:00",
+      "verified_at": "2026-10-19T03:45:09.430453+00:00",
       "source": "authenticated REST"
     },
     {
@@ -3683,7 +3956,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.001911+00:00",
+      "verified_at": "2026-10-19T03:45:09.434309+00:00",
       "source": "authenticated REST"
     },
     {
@@ -3762,7 +4035,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.006779+00:00",
+      "verified_at": "2026-10-19T03:45:09.438941+00:00",
       "source": "authenticated REST"
     },
     {
@@ -3825,7 +4098,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.010847+00:00",
+      "verified_at": "2026-10-19T03:45:09.442851+00:00",
       "source": "authenticated REST"
     },
     {
@@ -3896,7 +4169,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.016507+00:00",
+      "verified_at": "2026-10-19T03:45:09.448476+00:00",
       "source": "authenticated REST"
     },
     {
@@ -3959,7 +4232,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.020378+00:00",
+      "verified_at": "2026-10-19T03:45:09.452291+00:00",
       "source": "authenticated REST"
     },
     {
@@ -4030,7 +4303,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.026628+00:00",
+      "verified_at": "2026-10-19T03:45:09.458437+00:00",
       "source": "authenticated REST"
     },
     {
@@ -4081,7 +4354,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.028334+00:00",
+      "verified_at": "2026-10-19T03:45:09.460101+00:00",
       "source": "authenticated REST"
     },
     {
@@ -4136,7 +4409,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.029877+00:00",
+      "verified_at": "2026-10-19T03:45:09.461613+00:00",
       "source": "authenticated REST"
     },
     {
@@ -4191,7 +4464,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.031675+00:00",
+      "verified_at": "2026-10-19T03:45:09.463390+00:00",
       "source": "authenticated REST"
     },
     {
@@ -4258,7 +4531,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.033540+00:00",
+      "verified_at": "2026-10-19T03:45:09.465216+00:00",
       "source": "authenticated REST"
     },
     {
@@ -4317,7 +4590,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.035194+00:00",
+      "verified_at": "2026-10-19T03:45:09.466804+00:00",
       "source": "authenticated REST"
     },
     {
@@ -4376,7 +4649,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.036919+00:00",
+      "verified_at": "2026-10-19T03:45:09.468521+00:00",
       "source": "authenticated REST"
     },
     {
@@ -4431,7 +4704,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.039079+00:00",
+      "verified_at": "2026-10-19T03:45:09.470669+00:00",
       "source": "authenticated REST"
     },
     {
@@ -4494,7 +4767,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.041083+00:00",
+      "verified_at": "2026-10-19T03:45:09.472661+00:00",
       "source": "authenticated REST"
     },
     {
@@ -4557,7 +4830,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.043044+00:00",
+      "verified_at": "2026-10-19T03:45:09.474642+00:00",
       "source": "authenticated REST"
     },
     {
@@ -4616,7 +4889,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.045024+00:00",
+      "verified_at": "2026-10-19T03:45:09.476593+00:00",
       "source": "authenticated REST"
     },
     {
@@ -4683,7 +4956,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.047099+00:00",
+      "verified_at": "2026-10-19T03:45:09.478628+00:00",
       "source": "authenticated REST"
     },
     {
@@ -4746,7 +5019,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.048975+00:00",
+      "verified_at": "2026-10-19T03:45:09.480528+00:00",
       "source": "authenticated REST"
     },
     {
@@ -4805,7 +5078,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.051128+00:00",
+      "verified_at": "2026-10-19T03:45:09.482618+00:00",
       "source": "authenticated REST"
     },
     {
@@ -4860,7 +5133,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.052928+00:00",
+      "verified_at": "2026-10-19T03:45:09.484394+00:00",
       "source": "authenticated REST"
     },
     {
@@ -4915,7 +5188,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.054610+00:00",
+      "verified_at": "2026-10-19T03:45:09.486055+00:00",
       "source": "authenticated REST"
     },
     {
@@ -4982,7 +5255,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.058228+00:00",
+      "verified_at": "2026-10-19T03:45:09.489674+00:00",
       "source": "authenticated REST"
     },
     {
@@ -5049,7 +5322,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.061850+00:00",
+      "verified_at": "2026-10-19T03:45:09.493327+00:00",
       "source": "authenticated REST"
     },
     {
@@ -5120,7 +5393,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.065615+00:00",
+      "verified_at": "2026-10-19T03:45:09.497249+00:00",
       "source": "authenticated REST"
     },
     {
@@ -5195,7 +5468,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.069893+00:00",
+      "verified_at": "2026-10-19T03:45:09.501578+00:00",
       "source": "authenticated REST"
     },
     {
@@ -5274,7 +5547,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.071922+00:00",
+      "verified_at": "2026-10-19T03:45:09.503647+00:00",
       "source": "authenticated REST"
     },
     {
@@ -5353,7 +5626,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.074300+00:00",
+      "verified_at": "2026-10-19T03:45:09.506037+00:00",
       "source": "authenticated REST"
     },
     {
@@ -5432,7 +5705,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.076570+00:00",
+      "verified_at": "2026-10-19T03:45:09.508259+00:00",
       "source": "authenticated REST"
     },
     {
@@ -5511,7 +5784,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.079152+00:00",
+      "verified_at": "2026-10-19T03:45:09.510794+00:00",
       "source": "authenticated REST"
     },
     {
@@ -5590,7 +5863,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.082030+00:00",
+      "verified_at": "2026-10-19T03:45:09.513656+00:00",
       "source": "authenticated REST"
     },
     {
@@ -5669,7 +5942,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.086618+00:00",
+      "verified_at": "2026-10-19T03:45:09.518168+00:00",
       "source": "authenticated REST"
     },
     {
@@ -5744,7 +6017,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.089238+00:00",
+      "verified_at": "2026-10-19T03:45:09.520772+00:00",
       "source": "authenticated REST"
     },
     {
@@ -5819,7 +6092,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.092559+00:00",
+      "verified_at": "2026-10-19T03:45:09.524085+00:00",
       "source": "authenticated REST"
     },
     {
@@ -5894,7 +6167,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.095894+00:00",
+      "verified_at": "2026-10-19T03:45:09.527457+00:00",
       "source": "authenticated REST"
     },
     {
@@ -5965,7 +6238,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.098427+00:00",
+      "verified_at": "2026-10-19T03:45:09.530026+00:00",
       "source": "authenticated REST"
     },
     {
@@ -6028,7 +6301,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.100757+00:00",
+      "verified_at": "2026-10-19T03:45:09.532363+00:00",
       "source": "authenticated REST"
     },
     {
@@ -6123,7 +6396,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.105270+00:00",
+      "verified_at": "2026-10-19T03:45:09.536895+00:00",
       "source": "authenticated REST"
     },
     {
@@ -6194,7 +6467,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.108151+00:00",
+      "verified_at": "2026-10-19T03:45:09.539763+00:00",
       "source": "authenticated REST"
     },
     {
@@ -6273,7 +6546,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.112969+00:00",
+      "verified_at": "2026-10-19T03:45:09.544535+00:00",
       "source": "authenticated REST"
     },
     {
@@ -6340,7 +6613,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.116236+00:00",
+      "verified_at": "2026-10-19T03:45:09.547776+00:00",
       "source": "authenticated REST"
     },
     {
@@ -6419,7 +6692,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.121371+00:00",
+      "verified_at": "2026-10-19T03:45:09.552989+00:00",
       "source": "authenticated REST"
     },
     {
@@ -6474,7 +6747,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.124610+00:00",
+      "verified_at": "2026-10-19T03:45:09.556240+00:00",
       "source": "authenticated REST"
     },
     {
@@ -6553,7 +6826,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.128269+00:00",
+      "verified_at": "2026-10-19T03:45:09.559922+00:00",
       "source": "authenticated REST"
     },
     {
@@ -6616,7 +6889,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.132926+00:00",
+      "verified_at": "2026-10-19T03:45:09.564580+00:00",
       "source": "authenticated REST"
     },
     {
@@ -6675,7 +6948,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.138734+00:00",
+      "verified_at": "2026-10-19T03:45:09.570498+00:00",
       "source": "authenticated REST"
     },
     {
@@ -6746,7 +7019,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.141868+00:00",
+      "verified_at": "2026-10-19T03:45:09.573680+00:00",
       "source": "authenticated REST"
     },
     {
@@ -6817,7 +7090,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.145760+00:00",
+      "verified_at": "2026-10-19T03:45:09.577593+00:00",
       "source": "authenticated REST"
     },
     {
@@ -6880,7 +7153,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.150108+00:00",
+      "verified_at": "2026-10-19T03:45:09.581941+00:00",
       "source": "authenticated REST"
     },
     {
@@ -6943,7 +7216,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.154132+00:00",
+      "verified_at": "2026-10-19T03:45:09.585962+00:00",
       "source": "authenticated REST"
     },
     {
@@ -7006,7 +7279,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.158634+00:00",
+      "verified_at": "2026-10-19T03:45:09.590372+00:00",
       "source": "authenticated REST"
     },
     {
@@ -7065,7 +7338,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.162497+00:00",
+      "verified_at": "2026-10-19T03:45:09.594224+00:00",
       "source": "authenticated REST"
     },
     {
@@ -7136,7 +7409,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.166225+00:00",
+      "verified_at": "2026-10-19T03:45:09.597936+00:00",
       "source": "authenticated REST"
     },
     {
@@ -7199,7 +7472,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.170537+00:00",
+      "verified_at": "2026-10-19T03:45:09.602315+00:00",
       "source": "authenticated REST"
     },
     {
@@ -7278,7 +7551,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.179951+00:00",
+      "verified_at": "2026-10-19T03:45:09.611669+00:00",
       "source": "authenticated REST"
     },
     {
@@ -7349,7 +7622,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.183354+00:00",
+      "verified_at": "2026-10-19T03:45:09.615088+00:00",
       "source": "authenticated REST"
     },
     {
@@ -7416,7 +7689,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.186625+00:00",
+      "verified_at": "2026-10-19T03:45:09.618343+00:00",
       "source": "authenticated REST"
     },
     {
@@ -7483,7 +7756,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.190844+00:00",
+      "verified_at": "2026-10-19T03:45:09.622520+00:00",
       "source": "authenticated REST"
     },
     {
@@ -7550,7 +7823,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.194492+00:00",
+      "verified_at": "2026-10-19T03:45:09.626178+00:00",
       "source": "authenticated REST"
     },
     {
@@ -7609,7 +7882,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.197510+00:00",
+      "verified_at": "2026-10-19T03:45:09.629179+00:00",
       "source": "authenticated REST"
     },
     {
@@ -7672,7 +7945,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.201308+00:00",
+      "verified_at": "2026-10-19T03:45:09.632959+00:00",
       "source": "authenticated REST"
     },
     {
@@ -7739,7 +8012,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.205311+00:00",
+      "verified_at": "2026-10-19T03:45:09.636925+00:00",
       "source": "authenticated REST"
     },
     {
@@ -7806,7 +8079,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.209292+00:00",
+      "verified_at": "2026-10-19T03:45:09.640841+00:00",
       "source": "authenticated REST"
     },
     {
@@ -7881,7 +8154,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.213947+00:00",
+      "verified_at": "2026-10-19T03:45:09.645553+00:00",
       "source": "authenticated REST"
     },
     {
@@ -7944,7 +8217,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.218951+00:00",
+      "verified_at": "2026-10-19T03:45:09.650533+00:00",
       "source": "authenticated REST"
     },
     {
@@ -8003,7 +8276,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.222347+00:00",
+      "verified_at": "2026-10-19T03:45:09.653969+00:00",
       "source": "authenticated REST"
     },
     {
@@ -8082,7 +8355,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.227494+00:00",
+      "verified_at": "2026-10-19T03:45:09.659076+00:00",
       "source": "authenticated REST"
     },
     {
@@ -8153,7 +8426,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.231744+00:00",
+      "verified_at": "2026-10-19T03:45:09.663339+00:00",
       "source": "authenticated REST"
     },
     {
@@ -8212,7 +8485,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.234069+00:00",
+      "verified_at": "2026-10-19T03:45:09.665685+00:00",
       "source": "authenticated REST"
     },
     {
@@ -8275,7 +8548,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.236229+00:00",
+      "verified_at": "2026-10-19T03:45:09.667849+00:00",
       "source": "authenticated REST"
     },
     {
@@ -8330,7 +8603,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.238301+00:00",
+      "verified_at": "2026-10-19T03:45:09.669927+00:00",
       "source": "authenticated REST"
     },
     {
@@ -8381,7 +8654,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.240375+00:00",
+      "verified_at": "2026-10-19T03:45:09.671986+00:00",
       "source": "authenticated REST"
     },
     {
@@ -8432,7 +8705,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.242204+00:00",
+      "verified_at": "2026-10-19T03:45:09.673781+00:00",
       "source": "authenticated REST"
     },
     {
@@ -8483,7 +8756,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.244142+00:00",
+      "verified_at": "2026-10-19T03:45:09.675703+00:00",
       "source": "authenticated REST"
     },
     {
@@ -8530,7 +8803,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.245924+00:00",
+      "verified_at": "2026-10-19T03:45:09.677489+00:00",
       "source": "authenticated REST"
     },
     {
@@ -8613,7 +8886,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.250969+00:00",
+      "verified_at": "2026-10-19T03:45:09.682422+00:00",
       "source": "authenticated REST"
     },
     {
@@ -8668,7 +8941,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.253070+00:00",
+      "verified_at": "2026-10-19T03:45:09.684525+00:00",
       "source": "authenticated REST"
     },
     {
@@ -8719,7 +8992,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.255248+00:00",
+      "verified_at": "2026-10-19T03:45:09.686711+00:00",
       "source": "authenticated REST"
     },
     {
@@ -8770,7 +9043,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.257095+00:00",
+      "verified_at": "2026-10-19T03:45:09.688573+00:00",
       "source": "authenticated REST"
     },
     {
@@ -8825,7 +9098,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.258830+00:00",
+      "verified_at": "2026-10-19T03:45:09.690326+00:00",
       "source": "authenticated REST"
     },
     {
@@ -8892,7 +9165,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.261753+00:00",
+      "verified_at": "2026-10-19T03:45:09.693297+00:00",
       "source": "authenticated REST"
     },
     {
@@ -8951,7 +9224,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.264219+00:00",
+      "verified_at": "2026-10-19T03:45:09.695803+00:00",
       "source": "authenticated REST"
     },
     {
@@ -9014,7 +9287,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.267265+00:00",
+      "verified_at": "2026-10-19T03:45:09.698891+00:00",
       "source": "authenticated REST"
     },
     {
@@ -9097,7 +9370,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.270671+00:00",
+      "verified_at": "2026-10-19T03:45:09.702375+00:00",
       "source": "authenticated REST"
     },
     {
@@ -9156,7 +9429,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.274584+00:00",
+      "verified_at": "2026-10-19T03:45:09.706291+00:00",
       "source": "authenticated REST"
     },
     {
@@ -9239,7 +9512,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.278062+00:00",
+      "verified_at": "2026-10-19T03:45:09.709810+00:00",
       "source": "authenticated REST"
     },
     {
@@ -9306,7 +9579,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.281779+00:00",
+      "verified_at": "2026-10-19T03:45:09.713540+00:00",
       "source": "authenticated REST"
     },
     {
@@ -9377,7 +9650,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.285761+00:00",
+      "verified_at": "2026-10-19T03:45:09.717609+00:00",
       "source": "authenticated REST"
     },
     {
@@ -9460,7 +9733,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.289021+00:00",
+      "verified_at": "2026-10-19T03:45:09.720958+00:00",
       "source": "authenticated REST"
     },
     {
@@ -9527,7 +9800,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.293737+00:00",
+      "verified_at": "2026-10-19T03:45:09.725812+00:00",
       "source": "authenticated REST"
     },
     {
@@ -9610,7 +9883,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.298316+00:00",
+      "verified_at": "2026-10-19T03:45:09.730558+00:00",
       "source": "authenticated REST"
     },
     {
@@ -9685,7 +9958,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.301121+00:00",
+      "verified_at": "2026-10-19T03:45:09.733506+00:00",
       "source": "authenticated REST"
     },
     {
@@ -9752,7 +10025,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.304911+00:00",
+      "verified_at": "2026-10-19T03:45:09.737363+00:00",
       "source": "authenticated REST"
     },
     {
@@ -9835,7 +10108,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.308442+00:00",
+      "verified_at": "2026-10-19T03:45:09.741002+00:00",
       "source": "authenticated REST"
     },
     {
@@ -9902,7 +10175,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.310622+00:00",
+      "verified_at": "2026-10-19T03:45:09.743331+00:00",
       "source": "authenticated REST"
     },
     {
@@ -9977,7 +10250,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.313138+00:00",
+      "verified_at": "2026-10-19T03:45:09.745858+00:00",
       "source": "authenticated REST"
     },
     {
@@ -10036,7 +10309,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.316110+00:00",
+      "verified_at": "2026-10-19T03:45:09.748900+00:00",
       "source": "authenticated REST"
     },
     {
@@ -10103,7 +10376,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.319248+00:00",
+      "verified_at": "2026-10-19T03:45:09.752023+00:00",
       "source": "authenticated REST"
     },
     {
@@ -10166,7 +10439,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.321424+00:00",
+      "verified_at": "2026-10-19T03:45:09.754232+00:00",
       "source": "authenticated REST"
     },
     {
@@ -10225,7 +10498,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.325019+00:00",
+      "verified_at": "2026-10-19T03:45:09.757895+00:00",
       "source": "authenticated REST"
     },
     {
@@ -10292,7 +10565,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.327455+00:00",
+      "verified_at": "2026-10-19T03:45:09.760366+00:00",
       "source": "authenticated REST"
     },
     {
@@ -10359,7 +10632,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.331303+00:00",
+      "verified_at": "2026-10-19T03:45:09.764205+00:00",
       "source": "authenticated REST"
     },
     {
@@ -10442,7 +10715,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.334116+00:00",
+      "verified_at": "2026-10-19T03:45:09.767074+00:00",
       "source": "authenticated REST"
     },
     {
@@ -10505,7 +10778,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.337689+00:00",
+      "verified_at": "2026-10-19T03:45:09.770640+00:00",
       "source": "authenticated REST"
     },
     {
@@ -10572,7 +10845,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.340266+00:00",
+      "verified_at": "2026-10-19T03:45:09.773281+00:00",
       "source": "authenticated REST"
     },
     {
@@ -10647,7 +10920,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.343378+00:00",
+      "verified_at": "2026-10-19T03:45:09.776552+00:00",
       "source": "authenticated REST"
     },
     {
@@ -10734,7 +11007,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.345878+00:00",
+      "verified_at": "2026-10-19T03:45:09.779140+00:00",
       "source": "authenticated REST"
     },
     {
@@ -10805,7 +11078,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.349330+00:00",
+      "verified_at": "2026-10-19T03:45:09.782548+00:00",
       "source": "authenticated REST"
     },
     {
@@ -10896,7 +11169,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.352723+00:00",
+      "verified_at": "2026-10-19T03:45:09.785935+00:00",
       "source": "authenticated REST"
     },
     {
@@ -10963,7 +11236,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.355269+00:00",
+      "verified_at": "2026-10-19T03:45:09.788492+00:00",
       "source": "authenticated REST"
     },
     {
@@ -11022,7 +11295,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.358387+00:00",
+      "verified_at": "2026-10-19T03:45:09.791603+00:00",
       "source": "authenticated REST"
     },
     {
@@ -11089,7 +11362,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.361512+00:00",
+      "verified_at": "2026-10-19T03:45:09.794746+00:00",
       "source": "authenticated REST"
     },
     {
@@ -11152,7 +11425,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.364372+00:00",
+      "verified_at": "2026-10-19T03:45:09.797611+00:00",
       "source": "authenticated REST"
     },
     {
@@ -11219,7 +11492,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.367634+00:00",
+      "verified_at": "2026-10-19T03:45:09.800915+00:00",
       "source": "authenticated REST"
     },
     {
@@ -11290,7 +11563,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.370491+00:00",
+      "verified_at": "2026-10-19T03:45:09.803817+00:00",
       "source": "authenticated REST"
     },
     {
@@ -11361,7 +11634,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.373945+00:00",
+      "verified_at": "2026-10-19T03:45:09.807336+00:00",
       "source": "authenticated REST"
     },
     {
@@ -11420,7 +11693,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.375705+00:00",
+      "verified_at": "2026-10-19T03:45:09.809156+00:00",
       "source": "authenticated REST"
     },
     {
@@ -11475,7 +11748,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.377384+00:00",
+      "verified_at": "2026-10-19T03:45:09.810879+00:00",
       "source": "authenticated REST"
     },
     {
@@ -11530,7 +11803,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.379010+00:00",
+      "verified_at": "2026-10-19T03:45:09.812550+00:00",
       "source": "authenticated REST"
     },
     {
@@ -11593,7 +11866,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.380984+00:00",
+      "verified_at": "2026-10-19T03:45:09.814528+00:00",
       "source": "authenticated REST"
     },
     {
@@ -11652,7 +11925,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.382597+00:00",
+      "verified_at": "2026-10-19T03:45:09.816172+00:00",
       "source": "authenticated REST"
     },
     {
@@ -11711,7 +11984,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.384408+00:00",
+      "verified_at": "2026-10-19T03:45:09.818001+00:00",
       "source": "authenticated REST"
     },
     {
@@ -11770,7 +12043,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.385909+00:00",
+      "verified_at": "2026-10-19T03:45:09.819594+00:00",
       "source": "authenticated REST"
     },
     {
@@ -11813,7 +12086,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.388038+00:00",
+      "verified_at": "2026-10-19T03:45:09.822228+00:00",
       "source": "authenticated REST"
     },
     {
@@ -11876,7 +12149,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.390839+00:00",
+      "verified_at": "2026-10-19T03:45:09.825125+00:00",
       "source": "authenticated REST"
     },
     {
@@ -11939,7 +12212,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.392760+00:00",
+      "verified_at": "2026-10-19T03:45:09.827100+00:00",
       "source": "authenticated REST"
     },
     {
@@ -11998,7 +12271,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.394482+00:00",
+      "verified_at": "2026-10-19T03:45:09.828819+00:00",
       "source": "authenticated REST"
     },
     {
@@ -12045,7 +12318,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.396196+00:00",
+      "verified_at": "2026-10-19T03:45:09.830520+00:00",
       "source": "authenticated REST"
     },
     {
@@ -12092,7 +12365,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.398523+00:00",
+      "verified_at": "2026-10-19T03:45:09.832798+00:00",
       "source": "authenticated REST"
     },
     {
@@ -12151,7 +12424,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.400750+00:00",
+      "verified_at": "2026-10-19T03:45:09.835044+00:00",
       "source": "authenticated REST"
     },
     {
@@ -12206,7 +12479,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.402550+00:00",
+      "verified_at": "2026-10-19T03:45:09.836909+00:00",
       "source": "authenticated REST"
     },
     {
@@ -12258,7 +12531,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.410027+00:00",
+      "verified_at": "2026-10-19T03:45:09.844453+00:00",
       "source": "authenticated REST"
     },
     {
@@ -12310,7 +12583,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.415392+00:00",
+      "verified_at": "2026-10-19T03:45:09.849768+00:00",
       "source": "authenticated REST"
     },
     {
@@ -12362,7 +12635,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.420873+00:00",
+      "verified_at": "2026-10-19T03:45:09.855259+00:00",
       "source": "authenticated REST"
     },
     {
@@ -12414,7 +12687,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.427085+00:00",
+      "verified_at": "2026-10-19T03:45:09.861504+00:00",
       "source": "authenticated REST"
     },
     {
@@ -12466,7 +12739,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.435698+00:00",
+      "verified_at": "2026-10-19T03:45:09.870015+00:00",
       "source": "authenticated REST"
     },
     {
@@ -12526,7 +12799,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.441842+00:00",
+      "verified_at": "2026-10-19T03:45:09.876130+00:00",
       "source": "authenticated REST"
     },
     {
@@ -12578,7 +12851,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.447624+00:00",
+      "verified_at": "2026-10-19T03:45:09.881805+00:00",
       "source": "authenticated REST"
     },
     {
@@ -12630,7 +12903,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.453964+00:00",
+      "verified_at": "2026-10-19T03:45:09.888068+00:00",
       "source": "authenticated REST"
     },
     {
@@ -12686,7 +12959,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.473577+00:00",
+      "verified_at": "2026-10-19T03:45:09.907546+00:00",
       "source": "authenticated REST"
     },
     {
@@ -12746,7 +13019,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.482530+00:00",
+      "verified_at": "2026-10-19T03:45:09.916673+00:00",
       "source": "authenticated REST"
     },
     {
@@ -12802,7 +13075,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.493748+00:00",
+      "verified_at": "2026-10-19T03:45:09.927988+00:00",
       "source": "authenticated REST"
     },
     {
@@ -12854,7 +13127,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.497773+00:00",
+      "verified_at": "2026-10-19T03:45:09.932119+00:00",
       "source": "authenticated REST"
     },
     {
@@ -12914,7 +13187,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.501698+00:00",
+      "verified_at": "2026-10-19T03:45:09.936025+00:00",
       "source": "authenticated REST"
     },
     {
@@ -12974,7 +13247,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.506973+00:00",
+      "verified_at": "2026-10-19T03:45:09.941301+00:00",
       "source": "authenticated REST"
     },
     {
@@ -13026,7 +13299,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.511534+00:00",
+      "verified_at": "2026-10-19T03:45:09.945940+00:00",
       "source": "authenticated REST"
     },
     {
@@ -13078,7 +13351,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.515607+00:00",
+      "verified_at": "2026-10-19T03:45:09.950051+00:00",
       "source": "authenticated REST"
     },
     {
@@ -13130,7 +13403,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.519832+00:00",
+      "verified_at": "2026-10-19T03:45:09.954459+00:00",
       "source": "authenticated REST"
     },
     {
@@ -13186,7 +13459,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.525326+00:00",
+      "verified_at": "2026-10-19T03:45:09.960076+00:00",
       "source": "authenticated REST"
     },
     {
@@ -13242,7 +13515,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.529499+00:00",
+      "verified_at": "2026-10-19T03:45:09.964232+00:00",
       "source": "authenticated REST"
     },
     {
@@ -13294,7 +13567,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.534079+00:00",
+      "verified_at": "2026-10-19T03:45:09.968810+00:00",
       "source": "authenticated REST"
     },
     {
@@ -13346,7 +13619,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.538396+00:00",
+      "verified_at": "2026-10-19T03:45:09.973188+00:00",
       "source": "authenticated REST"
     },
     {
@@ -13398,7 +13671,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.542776+00:00",
+      "verified_at": "2026-10-19T03:45:09.977644+00:00",
       "source": "authenticated REST"
     },
     {
@@ -13462,7 +13735,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.547595+00:00",
+      "verified_at": "2026-10-19T03:45:09.982518+00:00",
       "source": "authenticated REST"
     },
     {
@@ -13514,7 +13787,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.551998+00:00",
+      "verified_at": "2026-10-19T03:45:09.987072+00:00",
       "source": "authenticated REST"
     },
     {
@@ -13566,7 +13839,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.556640+00:00",
+      "verified_at": "2026-10-19T03:45:09.991706+00:00",
       "source": "authenticated REST"
     },
     {
@@ -13618,7 +13891,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.562220+00:00",
+      "verified_at": "2026-10-19T03:45:09.997294+00:00",
       "source": "authenticated REST"
     },
     {
@@ -13670,7 +13943,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.567226+00:00",
+      "verified_at": "2026-10-19T03:45:10.002340+00:00",
       "source": "authenticated REST"
     },
     {
@@ -13722,7 +13995,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.572418+00:00",
+      "verified_at": "2026-10-19T03:45:10.007606+00:00",
       "source": "authenticated REST"
     },
     {
@@ -13774,7 +14047,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.578660+00:00",
+      "verified_at": "2026-10-19T03:45:10.013921+00:00",
       "source": "authenticated REST"
     },
     {
@@ -13826,7 +14099,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.584669+00:00",
+      "verified_at": "2026-10-19T03:45:10.020020+00:00",
       "source": "authenticated REST"
     },
     {
@@ -13878,7 +14151,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.590241+00:00",
+      "verified_at": "2026-10-19T03:45:10.025626+00:00",
       "source": "authenticated REST"
     },
     {
@@ -13930,7 +14203,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.596100+00:00",
+      "verified_at": "2026-10-19T03:45:10.031445+00:00",
       "source": "authenticated REST"
     },
     {
@@ -13982,7 +14255,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.602141+00:00",
+      "verified_at": "2026-10-19T03:45:10.037529+00:00",
       "source": "authenticated REST"
     },
     {
@@ -14034,7 +14307,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.607855+00:00",
+      "verified_at": "2026-10-19T03:45:10.043249+00:00",
       "source": "authenticated REST"
     },
     {
@@ -14102,7 +14375,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.614247+00:00",
+      "verified_at": "2026-10-19T03:45:10.049607+00:00",
       "source": "authenticated REST"
     },
     {
@@ -14170,7 +14443,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.619954+00:00",
+      "verified_at": "2026-10-19T03:45:10.055317+00:00",
       "source": "authenticated REST"
     },
     {
@@ -14258,7 +14531,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.626557+00:00",
+      "verified_at": "2026-10-19T03:45:10.061908+00:00",
       "source": "authenticated REST"
     },
     {
@@ -14310,7 +14583,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.632062+00:00",
+      "verified_at": "2026-10-19T03:45:10.067329+00:00",
       "source": "authenticated REST"
     },
     {
@@ -14362,7 +14635,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.637614+00:00",
+      "verified_at": "2026-10-19T03:45:10.072889+00:00",
       "source": "authenticated REST"
     },
     {
@@ -14414,7 +14687,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.642933+00:00",
+      "verified_at": "2026-10-19T03:45:10.078202+00:00",
       "source": "authenticated REST"
     },
     {
@@ -14478,7 +14751,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.648670+00:00",
+      "verified_at": "2026-10-19T03:45:10.083993+00:00",
       "source": "authenticated REST"
     },
     {
@@ -14530,7 +14803,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.654362+00:00",
+      "verified_at": "2026-10-19T03:45:10.089768+00:00",
       "source": "authenticated REST"
     },
     {
@@ -14582,7 +14855,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.660687+00:00",
+      "verified_at": "2026-10-19T03:45:10.096161+00:00",
       "source": "authenticated REST"
     },
     {
@@ -14634,7 +14907,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.665724+00:00",
+      "verified_at": "2026-10-19T03:45:10.101296+00:00",
       "source": "authenticated REST"
     },
     {
@@ -14686,7 +14959,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.671165+00:00",
+      "verified_at": "2026-10-19T03:45:10.106726+00:00",
       "source": "authenticated REST"
     },
     {
@@ -14738,7 +15011,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.675973+00:00",
+      "verified_at": "2026-10-19T03:45:10.111501+00:00",
       "source": "authenticated REST"
     },
     {
@@ -14790,7 +15063,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.682238+00:00",
+      "verified_at": "2026-10-19T03:45:10.117729+00:00",
       "source": "authenticated REST"
     },
     {
@@ -14842,7 +15115,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.687127+00:00",
+      "verified_at": "2026-10-19T03:45:10.122616+00:00",
       "source": "authenticated REST"
     },
     {
@@ -14894,7 +15167,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.692974+00:00",
+      "verified_at": "2026-10-19T03:45:10.128541+00:00",
       "source": "authenticated REST"
     },
     {
@@ -14950,7 +15223,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.700300+00:00",
+      "verified_at": "2026-10-19T03:45:10.135832+00:00",
       "source": "authenticated REST"
     },
     {
@@ -15002,7 +15275,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.706948+00:00",
+      "verified_at": "2026-10-19T03:45:10.142499+00:00",
       "source": "authenticated REST"
     },
     {
@@ -15054,7 +15327,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.713954+00:00",
+      "verified_at": "2026-10-19T03:45:10.149468+00:00",
       "source": "authenticated REST"
     },
     {
@@ -15106,7 +15379,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.720851+00:00",
+      "verified_at": "2026-10-19T03:45:10.156380+00:00",
       "source": "authenticated REST"
     },
     {
@@ -15158,7 +15431,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.727768+00:00",
+      "verified_at": "2026-10-19T03:45:10.163287+00:00",
       "source": "authenticated REST"
     },
     {
@@ -15210,7 +15483,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.733099+00:00",
+      "verified_at": "2026-10-19T03:45:10.168589+00:00",
       "source": "authenticated REST"
     },
     {
@@ -15262,7 +15535,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.737821+00:00",
+      "verified_at": "2026-10-19T03:45:10.173279+00:00",
       "source": "authenticated REST"
     },
     {
@@ -15314,7 +15587,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.744194+00:00",
+      "verified_at": "2026-10-19T03:45:10.179625+00:00",
       "source": "authenticated REST"
     },
     {
@@ -15366,7 +15639,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.751127+00:00",
+      "verified_at": "2026-10-19T03:45:10.186540+00:00",
       "source": "authenticated REST"
     },
     {
@@ -15418,7 +15691,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.755379+00:00",
+      "verified_at": "2026-10-19T03:45:10.190720+00:00",
       "source": "authenticated REST"
     },
     {
@@ -15470,7 +15743,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.760031+00:00",
+      "verified_at": "2026-10-19T03:45:10.195439+00:00",
       "source": "authenticated REST"
     },
     {
@@ -15522,7 +15795,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.764477+00:00",
+      "verified_at": "2026-10-19T03:45:10.199858+00:00",
       "source": "authenticated REST"
     },
     {
@@ -15574,7 +15847,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.770254+00:00",
+      "verified_at": "2026-10-19T03:45:10.205565+00:00",
       "source": "authenticated REST"
     },
     {
@@ -15626,7 +15899,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.776275+00:00",
+      "verified_at": "2026-10-19T03:45:10.211418+00:00",
       "source": "authenticated REST"
     },
     {
@@ -15682,7 +15955,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.781492+00:00",
+      "verified_at": "2026-10-19T03:45:10.216490+00:00",
       "source": "authenticated REST"
     },
     {
@@ -15734,7 +16007,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.786841+00:00",
+      "verified_at": "2026-10-19T03:45:10.221757+00:00",
       "source": "authenticated REST"
     },
     {
@@ -15786,7 +16059,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.792291+00:00",
+      "verified_at": "2026-10-19T03:45:10.227158+00:00",
       "source": "authenticated REST"
     },
     {
@@ -15838,7 +16111,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.797636+00:00",
+      "verified_at": "2026-10-19T03:45:10.232361+00:00",
       "source": "authenticated REST"
     },
     {
@@ -15890,7 +16163,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.802942+00:00",
+      "verified_at": "2026-10-19T03:45:10.237557+00:00",
       "source": "authenticated REST"
     },
     {
@@ -15942,7 +16215,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.808277+00:00",
+      "verified_at": "2026-10-19T03:45:10.242752+00:00",
       "source": "authenticated REST"
     },
     {
@@ -16010,7 +16283,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.812936+00:00",
+      "verified_at": "2026-10-19T03:45:10.247348+00:00",
       "source": "authenticated REST"
     },
     {
@@ -16062,7 +16335,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.819511+00:00",
+      "verified_at": "2026-10-19T03:45:10.253818+00:00",
       "source": "authenticated REST"
     },
     {
@@ -16134,7 +16407,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.828594+00:00",
+      "verified_at": "2026-10-19T03:45:10.262702+00:00",
       "source": "authenticated REST"
     },
     {
@@ -16190,7 +16463,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.833252+00:00",
+      "verified_at": "2026-10-19T03:45:10.267305+00:00",
       "source": "authenticated REST"
     },
     {
@@ -16242,7 +16515,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.836730+00:00",
+      "verified_at": "2026-10-19T03:45:10.270637+00:00",
       "source": "authenticated REST"
     },
     {
@@ -16330,7 +16603,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.841638+00:00",
+      "verified_at": "2026-10-19T03:45:10.275421+00:00",
       "source": "authenticated REST"
     },
     {
@@ -16458,7 +16731,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.847126+00:00",
+      "verified_at": "2026-10-19T03:45:10.280763+00:00",
       "source": "authenticated REST"
     },
     {
@@ -16518,7 +16791,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.849436+00:00",
+      "verified_at": "2026-10-19T03:45:10.283153+00:00",
       "source": "authenticated REST"
     },
     {
@@ -16570,7 +16843,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.853632+00:00",
+      "verified_at": "2026-10-19T03:45:10.287287+00:00",
       "source": "authenticated REST"
     },
     {
@@ -16622,7 +16895,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.858591+00:00",
+      "verified_at": "2026-10-19T03:45:10.292180+00:00",
       "source": "authenticated REST"
     },
     {
@@ -16674,7 +16947,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.862893+00:00",
+      "verified_at": "2026-10-19T03:45:10.296431+00:00",
       "source": "authenticated REST"
     },
     {
@@ -16726,7 +16999,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.867142+00:00",
+      "verified_at": "2026-10-19T03:45:10.300593+00:00",
       "source": "authenticated REST"
     },
     {
@@ -16778,7 +17051,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.872400+00:00",
+      "verified_at": "2026-10-19T03:45:10.305724+00:00",
       "source": "authenticated REST"
     },
     {
@@ -16831,7 +17104,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.877618+00:00",
+      "verified_at": "2026-10-19T03:45:10.310945+00:00",
       "source": "authenticated REST"
     },
     {
@@ -16883,7 +17156,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.882663+00:00",
+      "verified_at": "2026-10-19T03:45:10.315957+00:00",
       "source": "authenticated REST"
     },
     {
@@ -16935,7 +17208,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.887348+00:00",
+      "verified_at": "2026-10-19T03:45:10.320633+00:00",
       "source": "authenticated REST"
     },
     {
@@ -16987,7 +17260,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.892488+00:00",
+      "verified_at": "2026-10-19T03:45:10.325683+00:00",
       "source": "authenticated REST"
     },
     {
@@ -17047,7 +17320,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.893967+00:00",
+      "verified_at": "2026-10-19T03:45:10.327183+00:00",
       "source": "authenticated REST"
     },
     {
@@ -17099,7 +17372,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.899306+00:00",
+      "verified_at": "2026-10-19T03:45:10.332138+00:00",
       "source": "authenticated REST"
     },
     {
@@ -17151,7 +17424,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.904853+00:00",
+      "verified_at": "2026-10-19T03:45:10.337612+00:00",
       "source": "authenticated REST"
     },
     {
@@ -17207,7 +17480,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.906325+00:00",
+      "verified_at": "2026-10-19T03:45:10.339112+00:00",
       "source": "authenticated REST"
     },
     {
@@ -17291,7 +17564,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.912202+00:00",
+      "verified_at": "2026-10-19T03:45:10.344985+00:00",
       "source": "authenticated REST"
     },
     {
@@ -17351,7 +17624,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.917097+00:00",
+      "verified_at": "2026-10-19T03:45:10.349947+00:00",
       "source": "authenticated REST"
     },
     {
@@ -17403,7 +17676,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.920552+00:00",
+      "verified_at": "2026-10-19T03:45:10.353450+00:00",
       "source": "authenticated REST"
     },
     {
@@ -17475,7 +17748,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.927230+00:00",
+      "verified_at": "2026-10-19T03:45:10.360018+00:00",
       "source": "authenticated REST"
     },
     {
@@ -17535,7 +17808,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.933270+00:00",
+      "verified_at": "2026-10-19T03:45:10.366094+00:00",
       "source": "authenticated REST"
     },
     {
@@ -17611,7 +17884,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.939185+00:00",
+      "verified_at": "2026-10-19T03:45:10.372075+00:00",
       "source": "authenticated REST"
     },
     {
@@ -17663,7 +17936,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.944344+00:00",
+      "verified_at": "2026-10-19T03:45:10.377242+00:00",
       "source": "authenticated REST"
     },
     {
@@ -17715,7 +17988,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.950261+00:00",
+      "verified_at": "2026-10-19T03:45:10.383114+00:00",
       "source": "authenticated REST"
     },
     {
@@ -17783,7 +18056,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.957534+00:00",
+      "verified_at": "2026-10-19T03:45:10.390307+00:00",
       "source": "authenticated REST"
     },
     {
@@ -17879,7 +18152,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.963429+00:00",
+      "verified_at": "2026-10-19T03:45:10.396607+00:00",
       "source": "authenticated REST"
     },
     {
@@ -17931,7 +18204,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.968312+00:00",
+      "verified_at": "2026-10-19T03:45:10.401627+00:00",
       "source": "authenticated REST"
     },
     {
@@ -18023,7 +18296,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.975027+00:00",
+      "verified_at": "2026-10-19T03:45:10.408185+00:00",
       "source": "authenticated REST"
     },
     {
@@ -18075,7 +18348,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.979994+00:00",
+      "verified_at": "2026-10-19T03:45:10.413060+00:00",
       "source": "authenticated REST"
     },
     {
@@ -18131,7 +18404,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.985342+00:00",
+      "verified_at": "2026-10-19T03:45:10.418318+00:00",
       "source": "authenticated REST"
     },
     {
@@ -18183,7 +18456,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.990754+00:00",
+      "verified_at": "2026-10-19T03:45:10.423666+00:00",
       "source": "authenticated REST"
     },
     {
@@ -18235,7 +18508,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:01.997229+00:00",
+      "verified_at": "2026-10-19T03:45:10.430008+00:00",
       "source": "authenticated REST"
     },
     {
@@ -18287,7 +18560,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.003185+00:00",
+      "verified_at": "2026-10-19T03:45:10.436030+00:00",
       "source": "authenticated REST"
     },
     {
@@ -18354,7 +18627,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.006386+00:00",
+      "verified_at": "2026-10-19T03:45:10.439199+00:00",
       "source": "authenticated REST"
     },
     {
@@ -18438,7 +18711,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.008473+00:00",
+      "verified_at": "2026-10-19T03:45:10.441271+00:00",
       "source": "authenticated REST"
     },
     {
@@ -18550,7 +18823,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.010804+00:00",
+      "verified_at": "2026-10-19T03:45:10.443588+00:00",
       "source": "authenticated REST"
     },
     {
@@ -18658,7 +18931,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.013556+00:00",
+      "verified_at": "2026-10-19T03:45:10.446343+00:00",
       "source": "authenticated REST"
     },
     {
@@ -18730,7 +19003,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.019283+00:00",
+      "verified_at": "2026-10-19T03:45:10.452070+00:00",
       "source": "authenticated REST"
     },
     {
@@ -18810,7 +19083,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.024086+00:00",
+      "verified_at": "2026-10-19T03:45:10.456919+00:00",
       "source": "authenticated REST"
     },
     {
@@ -18878,7 +19151,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.029868+00:00",
+      "verified_at": "2026-10-19T03:45:10.462630+00:00",
       "source": "authenticated REST"
     },
     {
@@ -18950,7 +19223,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.050284+00:00",
+      "verified_at": "2026-10-19T03:45:10.480971+00:00",
       "source": "authenticated REST"
     },
     {
@@ -19062,7 +19335,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.059743+00:00",
+      "verified_at": "2026-10-19T03:45:10.490501+00:00",
       "source": "authenticated REST"
     },
     {
@@ -19146,7 +19419,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.071557+00:00",
+      "verified_at": "2026-10-19T03:45:10.502445+00:00",
       "source": "authenticated REST"
     },
     {
@@ -19218,7 +19491,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.085521+00:00",
+      "verified_at": "2026-10-19T03:45:10.516384+00:00",
       "source": "authenticated REST"
     },
     {
@@ -19298,7 +19571,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.094822+00:00",
+      "verified_at": "2026-10-19T03:45:10.525818+00:00",
       "source": "authenticated REST"
     },
     {
@@ -19398,7 +19671,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.101257+00:00",
+      "verified_at": "2026-10-19T03:45:10.532292+00:00",
       "source": "authenticated REST"
     },
     {
@@ -19510,7 +19783,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.106116+00:00",
+      "verified_at": "2026-10-19T03:45:10.537191+00:00",
       "source": "authenticated REST"
     },
     {
@@ -19586,7 +19859,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.113194+00:00",
+      "verified_at": "2026-10-19T03:45:10.544323+00:00",
       "source": "authenticated REST"
     },
     {
@@ -19654,7 +19927,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.118796+00:00",
+      "verified_at": "2026-10-19T03:45:10.549957+00:00",
       "source": "authenticated REST"
     },
     {
@@ -19710,7 +19983,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.120539+00:00",
+      "verified_at": "2026-10-19T03:45:10.551906+00:00",
       "source": "authenticated REST"
     },
     {
@@ -19778,7 +20051,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.126619+00:00",
+      "verified_at": "2026-10-19T03:45:10.558084+00:00",
       "source": "authenticated REST"
     },
     {
@@ -19842,7 +20115,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.139514+00:00",
+      "verified_at": "2026-10-19T03:45:10.571232+00:00",
       "source": "authenticated REST"
     },
     {
@@ -19910,7 +20183,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.149124+00:00",
+      "verified_at": "2026-10-19T03:45:10.581064+00:00",
       "source": "authenticated REST"
     },
     {
@@ -19978,7 +20251,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.157360+00:00",
+      "verified_at": "2026-10-19T03:45:10.589435+00:00",
       "source": "authenticated REST"
     },
     {
@@ -20050,7 +20323,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.164548+00:00",
+      "verified_at": "2026-10-19T03:45:10.596719+00:00",
       "source": "authenticated REST"
     },
     {
@@ -20138,7 +20411,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.170720+00:00",
+      "verified_at": "2026-10-19T03:45:10.602974+00:00",
       "source": "authenticated REST"
     },
     {
@@ -20222,7 +20495,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.179036+00:00",
+      "verified_at": "2026-10-19T03:45:10.611374+00:00",
       "source": "authenticated REST"
     },
     {
@@ -20322,7 +20595,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.183654+00:00",
+      "verified_at": "2026-10-19T03:45:10.616097+00:00",
       "source": "authenticated REST"
     },
     {
@@ -20430,7 +20703,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.191515+00:00",
+      "verified_at": "2026-10-19T03:45:10.623948+00:00",
       "source": "authenticated REST"
     },
     {
@@ -20502,7 +20775,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.198453+00:00",
+      "verified_at": "2026-10-19T03:45:10.630917+00:00",
       "source": "authenticated REST"
     },
     {
@@ -20658,7 +20931,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.206758+00:00",
+      "verified_at": "2026-10-19T03:45:10.639365+00:00",
       "source": "authenticated REST"
     },
     {
@@ -20704,7 +20977,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.207098+00:00",
+      "verified_at": "2026-10-19T03:45:10.639707+00:00",
       "source": "authenticated REST"
     },
     {
@@ -20859,7 +21132,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.217887+00:00",
+      "verified_at": "2026-10-19T03:45:10.650353+00:00",
       "source": "authenticated REST"
     },
     {
@@ -20893,7 +21166,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.219531+00:00",
+      "verified_at": "2026-10-19T03:45:10.652011+00:00",
       "source": "authenticated REST"
     },
     {
@@ -20964,7 +21237,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.229089+00:00",
+      "verified_at": "2026-10-19T03:45:10.661577+00:00",
       "source": "authenticated REST"
     },
     {
@@ -21014,7 +21287,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.236968+00:00",
+      "verified_at": "2026-10-19T03:45:10.669350+00:00",
       "source": "authenticated REST"
     },
     {
@@ -21048,7 +21321,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.237635+00:00",
+      "verified_at": "2026-10-19T03:45:10.670034+00:00",
       "source": "authenticated REST"
     },
     {
@@ -21090,7 +21363,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.238451+00:00",
+      "verified_at": "2026-10-19T03:45:10.670813+00:00",
       "source": "authenticated REST"
     },
     {
@@ -21133,7 +21406,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.240397+00:00",
+      "verified_at": "2026-10-19T03:45:10.672745+00:00",
       "source": "authenticated REST"
     },
     {
@@ -21175,7 +21448,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.246932+00:00",
+      "verified_at": "2026-10-19T03:45:10.679230+00:00",
       "source": "authenticated REST"
     },
     {
@@ -21222,7 +21495,7 @@
         "WebSite",
         "Person"
       ],
-      "verified_at": "2026-10-19T01:12:02.247709+00:00",
+      "verified_at": "2026-10-19T03:45:10.680029+00:00",
       "source": "authenticated REST"
     },
     {
@@ -21277,7 +21550,7 @@
       "meta_description": null,
       "robots": null,
       "schema_types": [],
-      "verified_at": "2026-10-19T01:12:02.251042+00:00",
+      "verified_at": "2026-10-19T03:45:10.683438+00:00",
       "source": "authenticated REST"
     },
     {
@@ -21332,7 +21605,7 @@
       "meta_description": null,
       "robots": null,
       "schema_types": [],
-      "verified_at": "2026-10-19T01:12:02.254395+00:00",
+      "verified_at": "2026-10-19T03:45:10.686809+00:00",
       "source": "authenticated REST"
     },
     {
@@ -21391,7 +21664,7 @@
       "meta_description": null,
       "robots": null,
       "schema_types": [],
-      "verified_at": "2026-10-19T01:12:02.257253+00:00",
+      "verified_at": "2026-10-19T03:45:10.689729+00:00",
       "source": "authenticated REST"
     },
     {
@@ -21446,7 +21719,7 @@
       "meta_description": null,
       "robots": null,
       "schema_types": [],
-      "verified_at": "2026-10-19T01:12:02.260038+00:00",
+      "verified_at": "2026-10-19T03:45:10.692564+00:00",
       "source": "authenticated REST"
     },
     {
@@ -21505,7 +21778,7 @@
       "meta_description": null,
       "robots": null,
       "schema_types": [],
-      "verified_at": "2026-10-19T01:12:02.262975+00:00",
+      "verified_at": "2026-10-19T03:45:10.695519+00:00",
       "source": "authenticated REST"
     },
     {
@@ -21572,7 +21845,7 @@
       "meta_description": null,
       "robots": null,
       "schema_types": [],
-      "verified_at": "2026-10-19T01:12:02.264575+00:00",
+      "verified_at": "2026-10-19T03:45:10.697131+00:00",
       "source": "authenticated REST"
     },
     {
@@ -21631,7 +21904,7 @@
       "meta_description": null,
       "robots": null,
       "schema_types": [],
-      "verified_at": "2026-10-19T01:12:02.267215+00:00",
+      "verified_at": "2026-10-19T03:45:10.699773+00:00",
       "source": "authenticated REST"
     },
     {
@@ -21690,7 +21963,7 @@
       "meta_description": null,
       "robots": null,
       "schema_types": [],
-      "verified_at": "2026-10-19T01:12:02.269788+00:00",
+      "verified_at": "2026-10-19T03:45:10.702383+00:00",
       "source": "authenticated REST"
     },
     {
@@ -21753,7 +22026,7 @@
       "meta_description": null,
       "robots": null,
       "schema_types": [],
-      "verified_at": "2026-10-19T01:12:02.271989+00:00",
+      "verified_at": "2026-10-19T03:45:10.704604+00:00",
       "source": "authenticated REST"
     },
     {
@@ -21824,7 +22097,7 @@
       "meta_description": null,
       "robots": null,
       "schema_types": [],
-      "verified_at": "2026-10-19T01:12:02.273406+00:00",
+      "verified_at": "2026-10-19T03:45:10.706042+00:00",
       "source": "authenticated REST"
     },
     {
@@ -21891,7 +22164,7 @@
       "meta_description": null,
       "robots": null,
       "schema_types": [],
-      "verified_at": "2026-10-19T01:12:02.274588+00:00",
+      "verified_at": "2026-10-19T03:45:10.707227+00:00",
       "source": "authenticated REST"
     },
     {
@@ -21966,7 +22239,7 @@
       "meta_description": null,
       "robots": null,
       "schema_types": [],
-      "verified_at": "2026-10-19T01:12:02.276097+00:00",
+      "verified_at": "2026-10-19T03:45:10.708745+00:00",
       "source": "authenticated REST"
     },
     {
@@ -22045,7 +22318,7 @@
       "meta_description": null,
       "robots": null,
       "schema_types": [],
-      "verified_at": "2026-10-19T01:12:02.277714+00:00",
+      "verified_at": "2026-10-19T03:45:10.710351+00:00",
       "source": "authenticated REST"
     },
     {

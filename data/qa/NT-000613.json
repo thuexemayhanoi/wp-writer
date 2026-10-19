@@ -1,0 +1,166 @@
+{
+  "topic_id": "NT-000613",
+  "status": "PASS",
+  "source_sha256": "67a8061164d6b2a5b05ca85c50b684766c1668585dc666796cf95e5a505f1de8",
+  "body_sha256": "1e26742091a678fbd0b3813db6a10b1b9c4e0808147b83f7d2e424c5f19214ad",
+  "word_count": 2159,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+      "supports": "Trang sản phẩm Yamaha NEO's: công suất tối đa 2.3 kW và công suất danh định 2 kW (cùng mô-men xoắn cực đại 43,49 Nm); nêu đồng thời hai chỉ tiêu trên một bảng thông số",
+      "sha256": "95c28d8a47c6fd266b0509ea5103445cc109678ba40bf0aeb38c668aa8dea9df",
+      "verified_at": "2026-10-19T03:50:15.898991+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn sử dụng xe Quantum (Dat Bike): bảng thông số nêu công suất danh định 3000W và công suất tối đa 7000W cho động cơ BLDC Mid-Drive",
+      "sha256": "ac94fe3ed316f103e53e5432bd19ff4ab03fb1a738bf12bc0e21783d719b9e85",
+      "verified_at": "2026-10-19T03:50:17.136971+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vnexpress.net/vinfast-theon-xe-may-cao-cap-nhat-cua-thuong-hieu-viet-4222425.html",
+      "supports": "Bài VnExpress 18/01/2021 về VinFast Theon lúc ra mắt: công suất tối đa 7.100 W nhưng danh định chỉ 3.500 W; chạy thông thường ở mức danh định, lên tốc độ tối đa hoặc vượt dốc mới dùng tới công suất tối đa",
+      "sha256": "67f441d3350a7f359ebefffe161643fe19e6770a53ef3ddae77a5967a9f99ae9",
+      "verified_at": "2026-10-19T03:50:19.794695+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.cyclingweekly.com/products/why-e-bike-torque-numbers-matter-more-than-you-think",
+      "supports": "Cycling Weekly (xe đạp điện): công suất động cơ được đo liên tục (thường 250 W) trong khi công suất đỉnh thoáng qua có thể lớn hơn; mô-men xoắn nhân tốc độ quay cho ra công suất tính bằng watt",
+      "sha256": "6bb9a102201c2949181b021d3e5cd9d1b441e6b08518feb7fc03d4d0ee589c71",
+      "verified_at": "2026-10-19T03:50:20.134834+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-di-xe-may-dien-an-toan/",
+      "supports": "Yamaha Motor Việt Nam (bài 26/04/2023): NEO's nêu công suất theo chế độ, Standard 2,06 kW và Eco 1,58 kW, khác cặp số trên trang sản phẩm; dùng làm ví dụ về số liệu không khớp giữa các trang của cùng một hãng",
+      "sha256": "3606afe89ec5d08d112abe17015a8608b9f6d9f35f8fb03ae03b37b0dcf6a24e",
+      "verified_at": "2026-10-19T03:50:21.924105+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 925,
+        "title": "Thuê Xe Điện Hà Nội – Chọn Xe Máy Điện Hay Xe Đạp Điện?",
+        "why": "stale",
+        "content_hash": "838c9d37eced2e74deeb9b1fb50c29d75e84a717e3f8dd7c79c8cc8599007bf1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2417,
+        "title": "Xe máy điện Yadea có tốt không? Ưu nhược điểm người dùng cần biết",
+        "why": "stale",
+        "content_hash": "0164531f890f08be8f0da4a90ffbe1bc5d7ce5908bd8637d53cc98b9fed34354",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2521,
+        "title": "Cách kiểm tra lốp xe máy để phát hiện mòn, nứt và áp suất bất thường",
+        "why": "stale",
+        "content_hash": "08080c3d371127024550acb47d9ddf7feb4cdba807bbb1f3996c8e47b110a33d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T03:50:26.570400+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "b619057da273f3d2107989d21845994e51c8301580775eb1381b8e33202ec275",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "topic_id": "NT-000805",
+  "status": "PASS",
+  "source_sha256": "706dc9a47f6298849e0516a05ad2c5b5b216b658ebc0843e416eba6f3ef47771",
+  "body_sha256": "a1f21eaed8e52f6d9d1ceaa58aa028c874449757e0b9040991f84647f08966a0",
+  "word_count": 3421,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://thanglong.chinhphu.vn/non-la-lang-chuong-giu-hon-van-hoa-viet-103240117115141963.htm",
+      "supports": "Báo điện tử Chính phủ (chuyên trang Thủ đô Hà Nội, 10/02/2024): làng nghề nón lá hơn 300 năm tuổi ở xã Phương Trung, huyện Thanh Oai, cạnh sông Đáy; lời kể các cụ về thế kỷ VIII; các loại nón (ba tầm, quai thao, lá già ghép sống); nón có 16 lớp vòng; công đoạn chọn lá, vòng nón bằng cật tre nứa, khâu nón, hơ diêm sinh. Địa chỉ cuối của bài sau khi baochinhphu.vn chuyển hướng sang thanglong.chinhphu.vn.",
+      "sha256": "9a3cc4dfef73813192c4ca9b9162e8fd0f47456823cd1f21cd5186ca33306564",
+      "verified_at": "2026-10-19T03:51:29.154418+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vnexpress.net/cho-non-lang-chuong-4733697.html",
+      "supports": "VnExpress (13/04/2024): phiên chợ nón họp mỗi tháng 5 ngày, hai tiếng từ khoảng 4h đến 6h sáng ở sân đình rộng hơn 400 m2; người bán đi tìm người mua; bán buôn theo lô tối thiểu 10 chiếc; giá bán buôn dao động theo mũi khâu.",
+      "sha256": "a4afcd079998ba25da0d93959f421547ac601606d55c4617428bc0ddf542f7de",
+      "verified_at": "2026-10-19T03:51:31.909049+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://thanhnien.vn/net-dep-non-la-lang-chuong-185602920.htm",
+      "supports": "Báo Thanh Niên (23/10/2016): làng Chuông có 6 xóm đều làm nón; lá cọ, 16 vành; phiên chợ họp 4, 10, 14, 20, 30 âm lịch; đường từ Hà Đông theo quốc lộ 21B khoảng 10 km hoặc men đê sông Đáy; đây là bài cũ.",
+      "sha256": "59c3d88b8f1c1d941fbcdb0546bbe9cbcaf041c834fd522e9e616645219954f2",
+      "verified_at": "2026-10-19T03:51:33.239889+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2615,
+        "title": "Phố cổ Hà Nội có gì chơi? 15 địa điểm, món ngon và lịch trình đi bộ",
+        "why": "stale",
+        "content_hash": "e9addb8498afd5d9d13bd70c14aa17da5a5746f6ac0ac5ba4247af9d1591d5ff",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4050,
+        "title": "Thuê xe máy đi làm theo ca ở Hà Nội: chọn giờ nhận, gửi xe và trả xe đúng hạn",
+        "why": "stale",
+        "content_hash": "f5a41002206250a00b0d4b19ec54ada261a36c020a5c2f89aa531c79304f4012",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T03:51:43.433800+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "7fd6d550a054a21dd58381af1b21d2f141551d1764dc3c460012b49abd7c76e8",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
