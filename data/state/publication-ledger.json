@@ -15179,7 +15179,7 @@
       }
     },
     "NT-001038": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:29:38.052737+00:00",
       "source_hash": "13c18f7fe216dda6b9a6976cdd379877a90b02a89f187c76b3865d451d982283",
       "slug": "che-lam-thach-xa-vi-sao-goi-la-che-ma-la-banh-nguyen-lieu-cach-lam-va-cach-an-voi-che-xanh",
@@ -15195,8 +15195,37 @@
       "category_warning": null,
       "git_commit": "0927396b58191acf78af0cf04b0ee3c0688197ef",
       "run_id": "39326750194",
-      "updated_at": "2026-10-19T21:29:42.425387+00:00",
-      "wp_id": 4303
+      "updated_at": "2026-10-19T21:29:48.919039+00:00",
+      "wp_id": 4303,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/che-lam-thach-xa-vi-sao-goi-la-che-ma-la-banh-nguyen-lieu-cach-lam-va-cach-an-voi-che-xanh/",
+      "verified_at": "2026-10-19T21:29:48.919033+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4303,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/che-lam-thach-xa-vi-sao-goi-la-che-ma-la-banh-nguyen-lieu-cach-lam-va-cach-an-voi-che-xanh/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/che-lam-thach-xa-vi-sao-goi-la-che-ma-la-banh-nguyen-lieu-cach-lam-va-cach-an-voi-che-xanh/",
+        "seo_title": "Chè lam Thạch Xá là bánh gì? Nguyên liệu và cách làm",
+        "seo_description": "Chè lam Thạch Xá là bánh mứt dẻo từ nếp, gừng, mật mía và lạc chứ không phải món chè nước. Nguyên liệu, cách làm và cách ăn với chè xanh theo VnExpress, Tuổi Trẻ.",
+        "checked_at": "2026-10-19T21:29:48.919015+00:00"
+      }
     }
   },
   "categories": {}
