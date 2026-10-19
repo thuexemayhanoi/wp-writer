@@ -70,16 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://hart.honda.com.au/resources/safety-and-riding-tips/carrying-passengers-and-cargo",
-      "supports": "Trang Carrying passengers and cargo của HART (đại lý Honda tại Úc, © 2025), phần Cargo: ba điều cần cân nhắc là trọng lượng, vị trí và độ chắc chắn; giữ trọng lượng thấp và gần tâm xe, chia đều hai bên; đặt đồ nặng trong 'tam giác tải' giữa đầu người lái và hai trục bánh; túi đặt trước không được cản việc lái; giá chở hàng đặt đồ cao và ra sau làm nhẹ bánh trước và có thể gây mất ổn định; không buộc đồ lên tay lái, phuộc trước hay chắn bùn trước vì có thể làm lái mất ổn định; hàng phải chắc, không xê dịch, không vướng bộ phận chuyển động; mỗi xe có tải tối đa do hãng nêu",
-      "sha256": "92abd3952253214c4d1916bd38a41c46f994406febf73dc907aca3473d92c971",
-      "verified_at": "2026-10-19T14:41:37.213382+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -105,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T14:41:42.708990+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T14:45:07.054579+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "5a5553e2c4f0ea57ee8466674665d132dc50c835759ef5df1c475ada9b1d64c6",
+  "inventory_sha256": "eb9ff6f3cf92e17cf27f8ae36dc0daf3499a9866fd480a695a57755ea6b392a7",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
