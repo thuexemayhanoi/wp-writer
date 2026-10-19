@@ -109,7 +109,7 @@ def gate(topic, others, inventory, taxonomy):
     errors += ['missing:'+k for k in required if not topic.get(k)]
     if topic.get('taxonomy_key') not in {x['taxonomy_key'] for x in taxonomy}: errors.append('unknown taxonomy key')
     if topic.get('taxonomy_key')=='uncategorized': errors.append('Uncategorized forbidden')
-    if topic.get('campaign_id') == 'HN-51-WARDS' and topic.get('taxonomy_key') != 'hanoi-ward-rentals':
+    if (topic.get('campaign_id') == 'HN-51-WARDS' or str(topic.get('proposed_slug', '')).startswith('thue-xe-may-phuong-')) and topic.get('taxonomy_key') != 'hanoi-ward-rentals':
         errors.append('HANOI_WARD_CATEGORY_MISMATCH: must use hanoi-ward-rentals')
     if topic.get('canonical_target')!=SITE+'/'+topic.get('proposed_slug','')+'/': errors.append('canonical mismatch')
     admitted=topic.get('topic_qa_status')=='PLANNED'
