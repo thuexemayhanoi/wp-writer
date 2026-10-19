@@ -1,9 +1,9 @@
 {
   "topic_id": "NT-000683",
   "status": "PASS",
-  "source_sha256": "64aeee295aa24dc67f953b3c6fab5599b4faa8b3defb7dc986336772a6fc55e9",
-  "body_sha256": "37cbf1c463daa7972b9c89d8c88245ad685fb4d76a3e9d3c601725a8fb929925",
-  "word_count": 2914,
+  "source_sha256": "c6dd11d785f6acffc8617f5da0c4ad2fa5c981efbec5f6d1f53d8fc6e5ca1fcd",
+  "body_sha256": "8c2b8979a1497d756501ccd78a4fec64fd8fcca944a105ed35de0b6a28621db7",
+  "word_count": 2858,
   "quality_score": 100,
   "seo_score": 100,
   "seo_min_required": 85,
@@ -75,7 +75,7 @@
       "url": "https://travel.gc.ca/destinations/vietnam",
       "supports": "Trang du lịch của Canada (cập nhật 13/10/2026) nêu nhà chức trách có thể yêu cầu xuất trình giấy tờ bất cứ lúc nào, nên mang giấy tờ tùy thân hoặc bản photo, giữ bản photo hộ chiếu ở nơi an toàn và lưu bản số giấy tờ.",
       "sha256": "126c661b0baedc6f2c337d9d931cfdb12a6a068ad2779ba0c38fbef1e0fbf156",
-      "verified_at": "2026-10-19T09:56:48.468088+00:00",
+      "verified_at": "2026-10-19T10:01:18.204723+00:00",
       "verification_method": "live",
       "live_checked": true
     },
@@ -83,7 +83,7 @@
       "url": "https://www.gov.uk/foreign-travel-advice/vietnam/safety-and-security",
       "supports": "Trang FCDO của Anh (cập nhật 21/09/2026) khuyên giữ hộ chiếu ở nơi an toàn và mang cả bản ảnh lẫn bản số của hộ chiếu, và nhắc luôn mang giấy tờ tùy thân có ảnh.",
       "sha256": "a2d5eeadc18979325d7eabf475624e42e88db391550a35a45fab429cad2935c1",
-      "verified_at": "2026-10-19T09:56:49.768714+00:00",
+      "verified_at": "2026-10-19T10:01:19.387634+00:00",
       "verification_method": "live",
       "live_checked": true
     },
@@ -109,7 +109,7 @@
       "url": "https://www.gov.uk/guidance/living-in-vietnam",
       "supports": "Hướng dẫn Living in Vietnam của chính phủ Anh (cập nhật 23/09/2025) nêu phải luôn mang giấy tờ tùy thân theo người; bài chỉ dùng ý này và không bàn việc giữ hộ chiếu khi thuê xe.",
       "sha256": "fcf0a0ba9652db8f5d39ef45b603440cc391b01baf6de5dfda3102690ebf0698",
-      "verified_at": "2026-10-19T09:56:51.486933+00:00",
+      "verified_at": "2026-10-19T10:01:21.277625+00:00",
       "verification_method": "live",
       "live_checked": true
     },
@@ -117,7 +117,7 @@
       "url": "https://www.gov.uk/foreign-travel-advice/vietnam/safety-and-security",
       "supports": "Trang FCDO của Anh (cập nhật 21/9/2026), mục Personal ID: phải luôn mang giấy tờ tùy thân có ảnh; nhà chức trách chấp nhận bản in trang ảnh của hộ chiếu và thị thực.",
       "sha256": "a2d5eeadc18979325d7eabf475624e42e88db391550a35a45fab429cad2935c1",
-      "verified_at": "2026-10-19T09:56:51.554264+00:00",
+      "verified_at": "2026-10-19T10:01:21.385798+00:00",
       "verification_method": "live",
       "live_checked": true
     },
@@ -125,7 +125,7 @@
       "url": "https://travel.gc.ca/destinations/vietnam",
       "supports": "Trang du lịch của Canada (cập nhật 13/10/2026), mục Identification: luôn mang giấy tờ tùy thân hợp lệ hoặc bản photo của nó.",
       "sha256": "126c661b0baedc6f2c337d9d931cfdb12a6a068ad2779ba0c38fbef1e0fbf156",
-      "verified_at": "2026-10-19T09:56:53.160585+00:00",
+      "verified_at": "2026-10-19T10:01:22.800904+00:00",
       "verification_method": "live",
       "live_checked": true
     },
@@ -133,7 +133,7 @@
       "url": "https://travel.gc.ca/destinations/vietnam",
       "supports": "Trang du lịch của Canada (cập nhật 13/10/2026), mục Identification: khi bay nội địa phải đi bằng đúng hộ chiếu đã dùng để nhập cảnh Việt Nam.",
       "sha256": "126c661b0baedc6f2c337d9d931cfdb12a6a068ad2779ba0c38fbef1e0fbf156",
-      "verified_at": "2026-10-19T09:56:54.733021+00:00",
+      "verified_at": "2026-10-19T10:01:24.112963+00:00",
       "verification_method": "live",
       "live_checked": true
     }
@@ -190,11 +190,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T09:57:05.754489+00:00",
+  "at": "2026-10-19T10:01:36.932509+00:00",
   "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "62d8b26015847d22d28d1ca88a76eb3f6f2b0f5a6189f9b49ae60e5681fee703",
+  "inventory_sha256": "ec831ce561880c7e3dc28c407c9cb9585e442b1a9679d46d0b6629743501988f",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

@@ -1,0 +1,245 @@
+{
+  "topic_id": "NT-000705",
+  "status": "PASS",
+  "source_sha256": "0f7626733df76fa244471b79f34646a6ca96ff5c9383a81cc653e30b37df92f4",
+  "body_sha256": "81e9eb230c1b1eea6b66be02e3cc9d731a379bd391666502433db60319259295",
+  "word_count": 2764,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/sh-mode-125",
+      "supports": "Trang Honda SH Mode 125: ABS bánh trước áp dụng trên phiên bản thể thao, đặc biệt và cao cấp.",
+      "sha256": "b1df3b138ceeaaf201fccab17d95e7f01195f058f014ea5703635930607aec47",
+      "verified_at": "2026-10-19T10:04:22.002898+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/lead-abs",
+      "supports": "Trang Honda LEAD ABS: ABS bánh trước trên phiên bản đặc biệt.",
+      "sha256": "6c4d6ccd18aab9aa1eef575421b3e98de645fb80fcee345abfe19d2ca25053f1",
+      "verified_at": "2026-10-19T10:04:23.813682+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/air-blade-160125",
+      "supports": "Trang Honda Air Blade 160/125: có đoạn nói ABS trên bánh trước (không nêu phiên bản trong đoạn).",
+      "sha256": "6cb2126201703da63a69d50c16f1d290f10565ee5502a7d1ea653b5797adebce",
+      "verified_at": "2026-10-19T10:04:25.500303+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/freego-s-abs-phien-ban-dac-biet-mau-moi-b4uc/",
+      "supports": "Trang Yamaha FreeGo S ABS đặc biệt: phanh trước đĩa thuỷ lực trang bị ABS, phanh sau tang trống cơ khí.",
+      "sha256": "bd8035f082f6e3c6ecf2408a4b188437078ae9beec60559b23344638c7770e50",
+      "verified_at": "2026-10-19T10:04:26.730284+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/lexi-155-vva-abs-phien-ban-cao-cap-moi-bvy4/",
+      "supports": "Trang Yamaha LEXi 155 VVA-ABS cao cấp: phanh trước đĩa, dẫn động thuỷ lực, trang bị ABS.",
+      "sha256": "4365ce2763f6d153e4a0b809f2e421ffca2d3dcbb9df6bd9d5ce18ab77ba0440",
+      "verified_at": "2026-10-19T10:04:28.015700+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/nvx-155-phien-ban-gp-2025-d111-2/",
+      "supports": "Trang Yamaha NVX 155: phanh trước đĩa đơn thuỷ lực có ABS.",
+      "sha256": "9a961cf55a3602a8ae09fd40d0561ed82d05aca1aae06b369fcbac821b79a6d3",
+      "verified_at": "2026-10-19T10:04:28.872582+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-sp-d191/",
+      "supports": "Trang Yamaha Exciter 155 VVA-TCS bản SP: phanh trước đĩa trang bị ABS.",
+      "sha256": "27382596d7138a690c1f76906f2b33a4f95766ae4f5cb50fc33a6124d1a3a459",
+      "verified_at": "2026-10-19T10:04:30.454820+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-tieu-chuan-d193/",
+      "supports": "Trang Yamaha Exciter 155 VVA-TCS bản Tiêu chuẩn: phanh trước ghi \"Phanh đĩa\", không có chữ ABS.",
+      "sha256": "8ce9f435e428438fb5343b034ad28acc9494a426bcc33054469a490fbbcd2ff9",
+      "verified_at": "2026-10-19T10:04:31.509935+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/nhung-mau-xe-tay-ga-co-phanh-abs/",
+      "supports": "Bài Yamaha liệt kê phiên bản có ABS: LEXi mọi phiên bản; Grande Giới hạn và Đặc biệt; FreeGo S Đặc biệt; NVX mọi phiên bản; Exciter 155 Cao cấp.",
+      "sha256": "1fe9c155a75226f93b75a6901c86d311b139f0a419e619312d1c546af22279d5",
+      "verified_at": "2026-10-19T10:04:34.637355+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/phanh-abs-tren-xe-may-la-gi-co-che-hoat-dong/",
+      "supports": "Bài Yamaha (8/2026) giải thích ABS, nói ABS không hẳn rút ngắn quãng đường phanh mà chủ yếu chống trượt bánh.",
+      "sha256": "1bbf7753fac2324e585f06e3a86289737f2fa56a1c7088da22693d2240c257b8",
+      "verified_at": "2026-10-19T10:04:35.567251+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+      "supports": "Trang Yamaha Grande tiêu chuẩn: phanh trước đĩa đơn thủy lực, phanh sau tang trống, không có chữ ABS.",
+      "sha256": "d6a32aaa7f748b47ea5a3bbac8ab079192286a756611548f402df0daecd4de90",
+      "verified_at": "2026-10-19T10:04:36.816189+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-dac-biet-mau-moi-2025-bj7x-2/",
+      "supports": "Trang Yamaha Janus 125 đặc biệt: phanh trước đĩa dẫn động thủy lực, phanh sau tang trống, không có chữ ABS.",
+      "sha256": "446ecd335b0181ed9eecab09f5b145cc9dd9d02cf8854349148b7a5c14fa99c0",
+      "verified_at": "2026-10-19T10:04:37.692957+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-monster-d199/",
+      "supports": "Trang Yamaha Exciter 155 VVA-TCS phiên bản Monster (đọc 19/10/2026): dòng phanh trước ghi phanh đĩa trang bị ABS.",
+      "sha256": "2fcc1469443a8bf6486c0c8ec9e6d6487a5f27a2f76727e30b8bcd1ec78e65be",
+      "verified_at": "2026-10-19T10:04:38.754551+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/yamaha-motor-viet-nam-ra-mat-exciter-155-vva-tcs-tiep-tuc-khang-dinh-vi-the-va-ky-niem-cot-moc-20-nam-out-trinh/",
+      "supports": "Bài ra mắt Exciter 155 VVA-TCS của Yamaha Motor Việt Nam (đề ngày 11/7/2026): phanh đĩa trước trang bị ABS 267mm ở phiên bản SP và Giới hạn; phiên bản Tiêu chuẩn và Cao cấp phanh đĩa trước 245mm.",
+      "sha256": "2b42e95d8bf2cc0c270104f89ad4bcaf0946a8b24f4509c5c5e32223844107be",
+      "verified_at": "2026-10-19T10:04:40.200122+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/latte-phien-ban-tieu-chuan-mau-moi-2025-b0r7/",
+      "supports": "Trang Yamaha Latte phiên bản tiêu chuẩn (màu mới 2025, đọc 19/10/2026): dòng phanh trước là phanh đĩa đơn thuỷ lực, không có chữ ABS; phanh sau phanh cơ (đùm).",
+      "sha256": "957a7c87cb8d7e28bcfad762064b6bd8c4ee80beb2fdb62df8f0ec2a05c09491",
+      "verified_at": "2026-10-19T10:04:42.518167+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/so-sanh-yamaha-exciter-155-vva-tcs-2026-va-phien-ban-2025-co-gi-moi/",
+      "supports": "Bài so sánh Exciter 155 VVA-TCS 2026 với phiên bản 2025 của Yamaha (đọc 19/10/2026): gọi đời trước là phiên bản VVA-ABS cũ.",
+      "sha256": "ce906a234bb1275448a50727f5374b7f2dbd96959b4b46854c89c2345d17e54b",
+      "verified_at": "2026-10-19T10:04:45.405238+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2542,
+        "title": "Xe máy bị nóng máy nhanh do đâu? Những điểm nên kiểm tra đầu tiên",
+        "why": "stale",
+        "content_hash": "994e220a440cdb5f8e90756cb7e6d0319a7cf0377e7377b9dd7b0b64ed9e9f51",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2547,
+        "title": "Xe máy cũ mua lại có cần đổi biển số không? Các trường hợp cần biết",
+        "why": "stale",
+        "content_hash": "8e256c8d7edb51c20df3e42a005401c4640d03564a72f2e47b73d39dfade3fea",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T10:04:57.123186+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "88f67f55ceb81c3cc7e4b02ef33cc567cfd72418f4ccb173e99d002fe10532b0",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

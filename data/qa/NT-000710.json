@@ -1,0 +1,182 @@
+{
+  "topic_id": "NT-000710",
+  "status": "PASS",
+  "source_sha256": "b54563b493961ec1701b92ab9593a32e129cdbd672763b31c50f40e74e7f61da",
+  "body_sha256": "dbc76ba60a675b4855862b1e469b739b32353c0835dcd18d3e4e488667c62b9c",
+  "word_count": 3033,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/so-sanh-yamaha-exciter-155-vva-tcs-2026-va-phien-ban-2025-co-gi-moi/",
+      "supports": "Bài so sánh của Yamaha (đăng 21/8/2026, đọc 19/10/2026): Exciter 155 VVA-TCS có tỷ số nén 11.6:1, công suất 18.5 PS so với 17.9 PS của thế hệ cũ, nhông dĩa 46T lên 48T, mức tiêu thụ 2.00 lít/100km và hơn 260km với bình 5.4 lít.",
+      "sha256": "ce906a234bb1275448a50727f5374b7f2dbd96959b4b46854c89c2345d17e54b",
+      "verified_at": "2026-10-19T10:06:14.478386+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/yamaha-motor-viet-nam-ra-mat-exciter-155-vva-tcs-tiep-tuc-khang-dinh-vi-the-va-ky-niem-cot-moc-20-nam-out-trinh/",
+      "supports": "Bài ra mắt Exciter 155 VVA-TCS (đề ngày 11/7/2026, đọc 19/10/2026): phanh đĩa trước 267mm có ABS ở phiên bản SP và Giới hạn, 245mm ở phiên bản Tiêu chuẩn và Cao cấp; Smart Key chỉ trên Cao cấp, SP và Giới hạn; bảng thông số ghi 2.07 lít/100km.",
+      "sha256": "2b42e95d8bf2cc0c270104f89ad4bcaf0946a8b24f4509c5c5e32223844107be",
+      "verified_at": "2026-10-19T10:06:15.393387+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-monster-d199/",
+      "supports": "Trang Yamaha Exciter 155 VVA TCS bản Monster (đọc 19/10/2026): bình xăng 5,4 L, mức tiêu thụ 2,07 lít/100 km, độ cao yên 795 mm, phanh trước đĩa trang bị ABS, khoảng 265 km mỗi bình đầy.",
+      "sha256": "2fcc1469443a8bf6486c0c8ec9e6d6487a5f27a2f76727e30b8bcd1ec78e65be",
+      "verified_at": "2026-10-19T10:06:17.596211+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-sp-d191/",
+      "supports": "Trang Yamaha Exciter 155 VVA TCS bản SP (đọc 19/10/2026): trọng lượng ướt 124 kg, khoảng sáng gầm tối thiểu 150 mm, tải trọng lớn nhất 150 kg, phanh trước đĩa trang bị ABS.",
+      "sha256": "27382596d7138a690c1f76906f2b33a4f95766ae4f5cb50fc33a6124d1a3a459",
+      "verified_at": "2026-10-19T10:06:18.464295+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-tieu-chuan-d193/",
+      "supports": "Trang Yamaha Exciter 155 VVA bản Tiêu chuẩn (đọc 19/10/2026): trọng lượng ướt 120 kg, phanh trước ghi phanh đĩa không có chữ ABS, không có mục TCS, khóa thông minh hay Y-On.",
+      "sha256": "8ce9f435e428438fb5343b034ad28acc9494a426bcc33054469a490fbbcd2ff9",
+      "verified_at": "2026-10-19T10:06:20.753862+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/phanh-abs-tren-xe-may-la-gi-co-che-hoat-dong/",
+      "supports": "Bài Yamaha về phanh ABS (đăng 21/8/2026, đọc 19/10/2026): ABS và cụm phanh 2 piston là trang bị chỉ có trên Phiên bản SP và Phiên bản Giới hạn của Exciter 155.",
+      "sha256": "1bbf7753fac2324e585f06e3a86289737f2fa56a1c7088da22693d2240c257b8",
+      "verified_at": "2026-10-19T10:06:22.961164+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/nhung-mau-xe-tay-ga-co-phanh-abs/",
+      "supports": "Bài Yamaha về các mẫu xe có ABS (chú thích dữ liệu đến 18/4/2025, đọc 19/10/2026): Exciter 155 có hai phiên bản tiêu chuẩn và cao cấp, bản cao cấp có thêm ABS; dùng làm ví dụ cùng tên phiên bản có thể khác trang bị.",
+      "sha256": "1fe9c155a75226f93b75a6901c86d311b139f0a419e619312d1c546af22279d5",
+      "verified_at": "2026-10-19T10:06:24.225855+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 841,
+        "title": "Dịch vụ Cho Thuê Xe Máy Hà Nội Gần Hồ Hoàn Kiếm",
+        "why": "stale",
+        "content_hash": "2fd8a54dd17f2343bb342755c3d523dae5e4a63d02a06fdc3073e6e3bc357a05",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 925,
+        "title": "Thuê Xe Điện Hà Nội – Chọn Xe Máy Điện Hay Xe Đạp Điện?",
+        "why": "stale",
+        "content_hash": "838c9d37eced2e74deeb9b1fb50c29d75e84a717e3f8dd7c79c8cc8599007bf1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2413,
+        "title": "Honda ICON e: có cần bằng lái không và ai nên sử dụng mẫu xe này?",
+        "why": "stale",
+        "content_hash": "1cec213da2c026074a8eef073c5eee4f24e6a5ee5a39071584bb8e1f1a96c4a5",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T10:06:30.076754+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "91cf1a310187f655b71336876f9e603849c5f0ae77c7339882068700c9092879",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
