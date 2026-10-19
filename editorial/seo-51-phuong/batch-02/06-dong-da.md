@@ -65,7 +65,7 @@ Nhóm xe gắn máy được pháp luật xác định theo **vận tốc thiế
 
 **Điều khoản thuê xe được Nguyễn Tú công bố hiện yêu cầu người thuê tối thiểu 18 tuổi.** Vì vậy người 16–17 tuổi không nên nghĩ cứ tìm được xe mang nhãn “50cc” là có thể thuê theo chính sách cửa hàng. Cần hỏi trước, không sử dụng giấy tờ người khác hoặc để người đủ tuổi ký hợp đồng rồi giao xe trái thỏa thuận. Nếu là xe Wave hoặc mô tô trên ngưỡng cần giấy phép lái xe, người lái phải có giấy phép phù hợp và đáp ứng các điều kiện hiện hành.
 
-Tên thương mại **SYM 50**, “Cub” hoặc chữ “xe điện” chưa thể xác nhận phân loại pháp lý. Khi có nghi vấn, đối chiếu đúng giấy đăng ký, tài liệu phương tiện và quy định. Một bài SEO không thể thay việc kiểm tra thực tế trước khi nhận chìa khóa.
+Tên thương mại **SYM 50**, “Cub” hoặc chữ “xe điện” chưa thể xác nhận phân loại pháp lý. Khi có nghi vấn, đối chiếu đúng giấy đăng ký, tài liệu phương tiện và quy định. Có thể xem thêm [trang thuê xe máy 50cc ở Hà Nội](https://thuexemaynguyentu.com/thue-xe-may-50cc-ha-noi/) để hiểu loại dịch vụ và những thông tin phải xác nhận. Một bài SEO không thể thay việc kiểm tra thực tế trước khi nhận chìa khóa.
 
 ## Bảng giá tham khảo: đừng quên tiền cọc
 
