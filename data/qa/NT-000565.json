@@ -1,0 +1,151 @@
+{
+  "topic_id": "NT-000565",
+  "status": "PASS",
+  "source_sha256": "f0bacbbb7736f29ad1529d7777d5b0a374424d9bf09f4a4c54aaff77b76bd009",
+  "body_sha256": "5d06fb24ea6b5db09e217092540ad2b6687ee4e4c86ac64d96910b0b8aa531a7",
+  "word_count": 4027,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnmha.mae.gov.vn/tim-hieu-ve-khong-khi-lanh-ret-dam-ret-hai-15720.htm",
+      "supports": "Trang giải thích của Cục Khí tượng Thủy văn (1/1/2025): rét đậm khi nhiệt độ trung bình ngày từ 13 đến 15 độ C, rét hại khi dưới 13 độ C; các thuật ngữ chủ yếu cho đồng bằng, trung du Bắc Bộ và Bắc Trung Bộ, không áp dụng cho vùng núi; Sa Pa rét đậm hầu như suốt tháng 12, 1, 2.",
+      "sha256": "8d880e4d369e23526c90d115ba0bbafe033bf1868ce55995c502b4319de3af70",
+      "verified_at": "2026-10-19T05:56:18.711965+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vov.gov.vn/thoi-diem-nao-xuat-hien-ret-dam-ret-hai-dtnew-1032772",
+      "supports": "Bài VOV (22/10/2024) trích ông Nguyễn Văn Hưởng, Trung tâm Dự báo KTTV Quốc gia: dưới 15 độ C là rét đậm, dưới 13 độ C là rét hại; nhiệt độ thấp nhất ở đồng bằng có thể 7–10 độ, vùng núi 0–4 độ, vùng núi cao dưới 0; cần đề phòng sương muối, băng giá, mưa tuyết.",
+      "sha256": "fbdaf00eaa8cf0f39c1db16b7b790fd7d0934e41800f1a3fde2368cbbb386be6",
+      "verified_at": "2026-10-19T05:56:23.986760+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2370,
+        "title": "Chi Phí Đi Xe Máy Điện Mỗi Tháng So Với Xe Máy Xăng Phổ Thông: Bài Toán Chi Tiết Từ Người Dùng Thực Tế",
+        "why": "stale",
+        "content_hash": "92d045593ec18a74d2c912be44adc4f392b4b025734668676528c637f6ed0b2d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2542,
+        "title": "Xe máy bị nóng máy nhanh do đâu? Những điểm nên kiểm tra đầu tiên",
+        "why": "stale",
+        "content_hash": "994e220a440cdb5f8e90756cb7e6d0319a7cf0377e7377b9dd7b0b64ed9e9f51",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2559,
+        "title": "Các loại bằng lái xe máy hiện nay và cách phân biệt từng hạng",
+        "why": "stale",
+        "content_hash": "1dbe75f2df7dd3b894e673123e9c56ffdda9c772f072b8cb4682f49b0f264d0e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4049,
+        "title": "Thuê xe máy điện ở chung cư Hà Nội không có chỗ sạc riêng: cần kiểm tra gì trước khi đặt?",
+        "why": "stale",
+        "content_hash": "60ea270b75576e53780d251f2026ebec6088930775beded46df2ce5bc3601d66",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T05:56:28.646085+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "3200e420ad1713e82b59d946abac5e28d4ed3f78588e43d6d7712e288e69d140",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

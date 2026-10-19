@@ -70,40 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vnexpress.net/cam-nang-du-lich-dien-bien-4687746.html",
-      "supports": "Cẩm nang du lịch Điện Biên của VnExpress (21/12/2023): đèo Pha Đin dài 32 km, thuộc QL6, cửa ngõ vào tỉnh Điện Biên, điểm cao nhất 1.648 m, một bên là vách núi, một bên là vực.",
-      "sha256": "9354364a5ae7a0810a74512937fed9cc07466d5c09d61662127150909e20fa9c",
-      "verified_at": "2026-10-19T05:50:48.907253+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dantri.com.vn/du-lich/kinh-nghiem-xuong-mau-de-phuot-thu-vuot-3-con-deo-an-tuong-nhat-viet-nam-2017042813083356.htm",
-      "supports": "Bài Dân trí 28/4/2017 (từ Tiền Phong): đèo Pha Đin dài 32 km, cao nhất 1.648 m, độ dốc một số đoạn tới 19% và những vòng cua tay áo liên tiếp.",
-      "sha256": "69201fdad91081a50fe46b78f0b0381fc73fd9410185c9b1f2dba922fc420ca3",
-      "verified_at": "2026-10-19T05:50:51.674946+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dantri.com.vn/du-lich/kham-pha-tu-dai-deo-nghe-ga-gay-vang-3-nuoc-20160314094135427.htm",
-      "supports": "Bài Dân trí 14/3/2016: đèo Pha Đin có độ cao hơn 1200 m so với mặt nước biển, một bên dốc núi dựng đứng, bên kia là vực sâu.",
-      "sha256": "9a51c3a9eed0ca9cdffefc02a33bd349718b5223386065d271ccc31916a15458",
-      "verified_at": "2026-10-19T05:50:54.489060+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vov.gov.vn/deo-pha-din-ngay-ay-bay-gio-dtnew-787699",
-      "supports": "Bài VOV đăng 30/4/2024: năm 2020 đèo Pha Đin được Bộ Văn hóa, Thể thao và Du lịch công nhận là di tích quốc gia.",
-      "sha256": "cad553d9262c375415cb663b58272c6557e566bab6ebb30f99690facd90ced2e",
-      "verified_at": "2026-10-19T05:50:58.122709+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -156,11 +123,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T05:51:05.240674+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T05:53:06.878062+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "e19a657bb327e35f59e2c5d778fa4b232ee9fbe9f7a6819c63268b695df75f8c",
+  "inventory_sha256": "4c20008ee5fe1f91efaf191dbc7d552c80fa2c1e474fb7149da115dc9e4b85ef",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vnexpress.net/cam-nang-du-lich-dien-bien-4687746.html",
-      "supports": "Cẩm nang du lịch Điện Biên của VnExpress (21/12/2023): đường bộ từ Hà Nội tới TP Điện Biên Phủ dài 450 km, theo CT08, CT02, QL6 qua Hòa Bình hoặc DT87, QL32, QL37 qua Hòa Bình và Sơn La, khoảng 10 tiếng; bắt buộc qua đèo Pha Đin dài 32 km.",
-      "sha256": "9354364a5ae7a0810a74512937fed9cc07466d5c09d61662127150909e20fa9c",
-      "verified_at": "2026-10-19T05:50:23.514314+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dantri.com.vn/du-lich/kinh-nghiem-xuong-mau-de-phuot-thu-vuot-3-con-deo-an-tuong-nhat-viet-nam-2017042813083356.htm",
-      "supports": "Bài Dân trí 28/4/2017 (từ Tiền Phong): gợi ý hành trình Hà Nội – Mộc Châu – Điện Biên – Sa Pa – Hà Nội, tổng hơn 1.000 km trong 4 ngày 3 đêm, qua đèo Pha Đin và đèo Ô Quy Hồ.",
-      "sha256": "69201fdad91081a50fe46b78f0b0381fc73fd9410185c9b1f2dba922fc420ca3",
-      "verified_at": "2026-10-19T05:50:26.253392+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dantri.com.vn/du-lich/kham-pha-tu-dai-deo-nghe-ga-gay-vang-3-nuoc-20160314094135427.htm",
-      "supports": "Bài Dân trí 14/3/2016: nên đi Điện Biên vào tháng 3 dương lịch để gặp mùa hoa ban, tháng 5 dịp 7/5, tháng 8–9 để săn ảnh cánh đồng vàng.",
-      "sha256": "9a51c3a9eed0ca9cdffefc02a33bd349718b5223386065d271ccc31916a15458",
-      "verified_at": "2026-10-19T05:50:29.042465+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -130,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T05:50:33.666971+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T05:53:06.200997+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "7ff81410e8a478b7f544705a99eb13a2fd16f138e0e064bbd147e27bfb8ea369",
+  "inventory_sha256": "4c20008ee5fe1f91efaf191dbc7d552c80fa2c1e474fb7149da115dc9e4b85ef",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

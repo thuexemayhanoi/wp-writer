@@ -1,0 +1,167 @@
+{
+  "topic_id": "NT-000563",
+  "status": "PASS",
+  "source_sha256": "e493e1f5267fde15cde9283aac384f0cc63e768a756899e3cf2ec6ce32bb9f64",
+  "body_sha256": "d9507ca6dce716523655987fef765d768510bfc8eed7f44f5ee1ac34e8dd807b",
+  "word_count": 4151,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/5-lua-chon-du-lich-gan-ha-noi-4091224.html",
+      "supports": "Bài VnExpress đăng 29/4/2020: với xe máy, lộ trình phổ biến nhất Hà Nội – Vĩnh Phúc – Phong Châu – Đoan Hùng – Yên Bái – Lào Cai – Sa Pa (360 km) và lộ trình thứ hai Hà Nội – Hòa Lạc – Sơn Tây – Thanh Sơn – dọc quốc lộ 32 – Sa Pa (420 km); đường dài, nhiều khúc cua lên núi.",
+      "sha256": "15f6bc8d7185ec8dae97791c9c0087a498b4bba79b2dc7ddd4a67d4cc6af4269",
+      "verified_at": "2026-10-19T05:55:15.420280+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vnexpress.net/cam-nang-du-lich-sa-pa-4108517.html",
+      "supports": "Cẩm nang VnExpress về Sa Pa (cập nhật 16/4/2026): Sa Pa hợp du lịch quanh năm, chỉ cần tránh mùa mưa bão từ tháng 6 đến đầu tháng 8 vì lũ ống, lũ quét, sạt lở; mùa xuân 2–5, mùa thu 9–11, mùa đông 12–2.",
+      "sha256": "ee75d26f63d6b9f2e0a404fd44182263e0a389d8d7af3d2e64d8095779c7841f",
+      "verified_at": "2026-10-19T05:55:18.308042+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vietnam.travel/node/53",
+      "supports": "Trang điểm đến Sa Pa của vietnam.travel: mùa thu (tháng 9 đến 11) có ruộng bậc thang vàng và trời quang, tháng 3 đến 5 ôn hòa có hoa nở; khí hậu mát quanh năm, sáng sớm nhiều sương, mùa đông lạnh và thỉnh thoảng có sương giá quanh Fansipan.",
+      "sha256": "9bbb1c1a69c0a939c3aa5a0836424f5ae9afed78e742debd2e335ab304ce5fd4",
+      "verified_at": "2026-10-19T05:55:19.394076+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vnmha.mae.gov.vn/tim-hieu-ve-khong-khi-lanh-ret-dam-ret-hai-15720.htm",
+      "supports": "Trang của Cục Khí tượng Thủy văn (1/1/2025): các thuật ngữ rét đậm, rét hại không áp dụng cho vùng núi vì ở đó rét hầu như kéo dài cả tháng; ví dụ Sa Pa rét đậm hầu như suốt tháng 12, tháng 1 và tháng 2.",
+      "sha256": "8d880e4d369e23526c90d115ba0bbafe033bf1868ce55995c502b4319de3af70",
+      "verified_at": "2026-10-19T05:55:23.695361+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 1061,
+        "title": "Thuê Xe Máy Sân Bay Nội Bài – Giao Nhận Thuận Tiện",
+        "why": "stale",
+        "content_hash": "423a6a42599344f5c9cfd2dd202f1be8a068f292b4753812f1fb90d65ac75984",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2532,
+        "title": "Bảo dưỡng xe máy Honda định kỳ gồm những hạng mục nào quan trọng?",
+        "why": "stale",
+        "content_hash": "3b3f8540d3f280a070202fee58502694cd67d9aa913f3fd5820127ff78745746",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2600,
+        "title": "Cách chọn xe máy phù hợp khi lịch trình chủ yếu di chuyển trong phố",
+        "why": "stale",
+        "content_hash": "782e81a248515b0121bb96f7a114ce29f0c8ceb33137bb7a23e8a4d857d27bfe",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4051,
+        "title": "Thuê xe máy Hà Nội vào ngày mưa: khi nào nên lùi giờ nhận và kiểm tra gì trước khi chạy?",
+        "why": "stale",
+        "content_hash": "6cf70a5e919d453dbe3c15e8dc9ed97616caa41d0b3239c73331a63a003192fb",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T05:55:33.500956+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "9e932ca0a1361adaa5c287dcfd9ace31bb85afe2ef300187b77115d7cb950eb2",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
