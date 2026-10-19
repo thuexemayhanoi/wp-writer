@@ -7131,7 +7131,7 @@
       }
     },
     "NT-000818": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T01:09:26.508691+00:00",
       "source_hash": "8cb3013be17b164bb1d26ea56c49704a2cf2010a5932ce3a694989006e684790",
       "slug": "xe-khach-tau-hoa-va-may-bay-noi-dia-o-viet-nam-cong-du-lich-quoc-gia-canada-anh-va-uc-nhac-gi-khi-khong-tu-lai-xe-may-di-duong-dai",
@@ -7146,8 +7146,37 @@
       "category_warning": null,
       "git_commit": "36dc3c7be726849a63aefdf0c3cc05a373815151",
       "run_id": "39183627166",
-      "updated_at": "2026-10-19T01:09:30.840048+00:00",
-      "wp_id": 4118
+      "updated_at": "2026-10-19T01:09:37.284367+00:00",
+      "wp_id": 4118,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-khach-tau-hoa-va-may-bay-noi-dia-o-viet-nam-cong-du-lich-quoc-gia-canada-anh-va-uc-nhac-gi-khi-khong-tu-lai-xe-may-di-duong-dai/",
+      "verified_at": "2026-10-19T01:09:37.284361+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4118,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-khach-tau-hoa-va-may-bay-noi-dia-o-viet-nam-cong-du-lich-quoc-gia-canada-anh-va-uc-nhac-gi-khi-khong-tu-lai-xe-may-di-duong-dai/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-khach-tau-hoa-va-may-bay-noi-dia-o-viet-nam-cong-du-lich-quoc-gia-canada-anh-va-uc-nhac-gi-khi-khong-tu-lai-xe-may-di-duong-dai/",
+        "seo_title": "Đi xe khách, tàu hỏa và máy bay nội địa ở Việt Nam: Canada, Anh, Úc",
+        "seo_description": "Đi xe khách, tàu hỏa và máy bay nội địa ở Việt Nam: cổng du lịch quốc gia, Canada, Anh, Úc nói gì về tai nạn xe khách, cuống vé tàu và hộ chiếu khi bay.",
+        "checked_at": "2026-10-19T01:09:37.284342+00:00"
+      }
     }
   },
   "categories": {}
