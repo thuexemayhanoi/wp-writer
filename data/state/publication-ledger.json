@@ -10155,7 +10155,7 @@
       }
     },
     "NT-000687": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T05:30:45.164159+00:00",
       "source_hash": "fff24f5489a5ac1ccd8909016ee09769863ed27954be710d79e98189d5979361",
       "slug": "di-bo-va-qua-duong-giua-dong-xe-may-o-viet-nam-vi-sao-cac-trang-chinh-thuc-dan-nhin-moi-huong",
@@ -10170,8 +10170,37 @@
       "category_warning": null,
       "git_commit": "3e4e02f244d969e81281435c78da8bf54ca76832",
       "run_id": "39204485070",
-      "updated_at": "2026-10-19T05:30:49.502902+00:00",
-      "wp_id": 4181
+      "updated_at": "2026-10-19T05:30:55.519476+00:00",
+      "wp_id": 4181,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/di-bo-va-qua-duong-giua-dong-xe-may-o-viet-nam-vi-sao-cac-trang-chinh-thuc-dan-nhin-moi-huong/",
+      "verified_at": "2026-10-19T05:30:55.519470+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4181,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/di-bo-va-qua-duong-giua-dong-xe-may-o-viet-nam-vi-sao-cac-trang-chinh-thuc-dan-nhin-moi-huong/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/di-bo-va-qua-duong-giua-dong-xe-may-o-viet-nam-vi-sao-cac-trang-chinh-thuc-dan-nhin-moi-huong/",
+        "seo_title": "Qua đường giữa dòng xe máy ở Việt Nam: vì sao nên nhìn mọi hướng",
+        "seo_description": "Qua đường giữa dòng xe máy ở Việt Nam: Anh, Úc, Canada, Ireland và Mỹ dặn gì về vỉa hè, xe máy đi ngược chiều, cầu vượt và việc nhìn kỹ mọi hướng.",
+        "checked_at": "2026-10-19T05:30:55.519448+00:00"
+      }
     }
   },
   "categories": {}
