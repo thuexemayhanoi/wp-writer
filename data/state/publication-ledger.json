@@ -14003,7 +14003,7 @@
       }
     },
     "NT-000719": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T19:43:14.744960+00:00",
       "source_hash": "a80c6d0bb9b113fd4cc6ce6b990bfe5711368f279c6497a21fd5175938985511",
       "slug": "xe-may-dien-neo-s-feliz-s-va-quantum-do-cao-yen-khoang-sang-gam-lop-va-cop-theo-trang-hang",
@@ -14019,8 +14019,37 @@
       "category_warning": null,
       "git_commit": "55a95e3283e956d049b0055217266341922b355e",
       "run_id": "39312220935",
-      "updated_at": "2026-10-19T19:43:19.111664+00:00",
-      "wp_id": 4279
+      "updated_at": "2026-10-19T19:43:25.451877+00:00",
+      "wp_id": 4279,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-dien-neo-s-feliz-s-va-quantum-do-cao-yen-khoang-sang-gam-lop-va-cop-theo-trang-hang/",
+      "verified_at": "2026-10-19T19:43:25.451872+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4279,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-dien-neo-s-feliz-s-va-quantum-do-cao-yen-khoang-sang-gam-lop-va-cop-theo-trang-hang/",
+        "categories": [
+          156
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-dien-neo-s-feliz-s-va-quantum-do-cao-yen-khoang-sang-gam-lop-va-cop-theo-trang-hang/",
+        "seo_title": "Xe máy điện NEO's, Feliz S và Quantum: yên, gầm, lốp, cốp theo hãng",
+        "seo_description": "Xe máy điện NEO's, Feliz S và Quantum theo trang hãng: độ cao yên, khoảng sáng gầm, lốp, phanh, cốp và khối lượng, kèm những ô trang không ghi.",
+        "checked_at": "2026-10-19T19:43:25.451852+00:00"
+      }
     }
   },
   "categories": {}
