@@ -8283,7 +8283,7 @@
       }
     },
     "NT-000532": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T04:03:39.179824+00:00",
       "source_hash": "fff4e66202297229f077dee86b961da66adac1c542bb06698440b3dc1541f103",
       "slug": "le-ket-cha-phu-my-kieu-mai-hoi-giao-hieu-tu-nam-1745-hoi-lon-nam-nam-mot-lan-va-cac-moc-ngay",
@@ -8298,8 +8298,37 @@
       "category_warning": null,
       "git_commit": "808802e85473f48f4050d13a633591fa201e2109",
       "run_id": "39197257385",
-      "updated_at": "2026-10-19T04:03:42.756814+00:00",
-      "wp_id": 4142
+      "updated_at": "2026-10-19T04:03:48.552061+00:00",
+      "wp_id": 4142,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/le-ket-cha-phu-my-kieu-mai-hoi-giao-hieu-tu-nam-1745-hoi-lon-nam-nam-mot-lan-va-cac-moc-ngay/",
+      "verified_at": "2026-10-19T04:03:48.552054+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4142,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/le-ket-cha-phu-my-kieu-mai-hoi-giao-hieu-tu-nam-1745-hoi-lon-nam-nam-mot-lan-va-cac-moc-ngay/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/le-ket-cha-phu-my-kieu-mai-hoi-giao-hieu-tu-nam-1745-hoi-lon-nam-nam-mot-lan-va-cac-moc-ngay/",
+        "seo_title": "Lễ kết chạ Phú Mỹ - Kiều Mai: hội giao hiếu 1745 và các mốc ngày",
+        "seo_description": "Lễ kết chạ Phú Mỹ - Kiều Mai: hương ước 1745, hội lớn năm năm một lần từ 2020, mốc mùng 5–7 và mùng 9–12 tháng Giêng, và vì sao các nguồn nêu ngày khác nhau.",
+        "checked_at": "2026-10-19T04:03:48.552036+00:00"
+      }
     }
   },
   "categories": {}
