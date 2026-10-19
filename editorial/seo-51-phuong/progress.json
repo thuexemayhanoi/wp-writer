@@ -6,7 +6,7 @@
   "batch_size": 3,
   "total_review_batches": 17,
   "checkpoint_date": "2026-10-20",
-  "completed_editorial_drafts": 9,
+  "completed_editorial_drafts": 12,
   "imported_into_topic_factory": 0,
   "published_new_articles": 0,
   "owner_approval_mode": "3 bài mỗi lượt duyệt",
@@ -74,10 +74,31 @@
       "file": "editorial/seo-51-phuong/batch-03/09-hai-ba-trung.md",
       "h1": "Thuê xe máy phường Hai Bà Trưng: chọn Honda Vision hay Wave khi có nhiều điểm hẹn?",
       "approx_quality_word_count": 4854
+    },
+    {
+      "batch": 4,
+      "ward": "Bạch Mai",
+      "file": "editorial/seo-51-phuong/batch-04/10-bach-mai.md",
+      "h1": "Thuê xe máy phường Bạch Mai: chọn Wave hay xe ga 50cc khi đi học, đi thực tập?",
+      "approx_quality_word_count": 4033
+    },
+    {
+      "batch": 4,
+      "ward": "Vĩnh Tuy",
+      "file": "editorial/seo-51-phuong/batch-04/11-vinh-tuy.md",
+      "h1": "Thuê xe máy phường Vĩnh Tuy: Honda Vision hay Air Blade cho lịch qua cầu, đi nhiều điểm?",
+      "approx_quality_word_count": 4342
+    },
+    {
+      "batch": 4,
+      "ward": "Cầu Giấy",
+      "file": "editorial/seo-51-phuong/batch-04/12-cau-giay.md",
+      "h1": "Thuê xe máy phường Cầu Giấy: Honda Vision hay Yamaha Janus cho người đi làm một tuần?",
+      "approx_quality_word_count": 4791
     }
   ],
-  "pending_editorial": 42,
-  "next_review_batch": 4,
-  "publisher_status": "Owner pilot-three-20261019 exhausted; no new WordPress posts from 51-ward editorial",
+  "pending_editorial": 39,
+  "next_review_batch": 5,
+  "publisher_status": "publisher_pilot max_posts=3 already consumed; no ward batch editorial article published",
   "rule": "Không tạo bản sao trang dịch vụ, không tự gán Topic ID/Writer slot/receipt, không vượt qua QA."
 }
