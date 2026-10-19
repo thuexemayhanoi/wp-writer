@@ -1,0 +1,150 @@
+{
+  "topic_id": "NT-001033",
+  "status": "PASS",
+  "source_sha256": "64f38a92081678056835da8c0183789e58ac7fb12024f5e2d0437c37a2bc1aac",
+  "body_sha256": "3ad433a17744413054f99d2defec784bc621e7d9aefc05d85452d954d751701c",
+  "word_count": 3563,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://nhipsonghanoi.hanoimoi.vn/cot-co-ha-noi-627635.html",
+      "supports": "Hà Nội Mới – Nhịp sống Hà Nội (6/11/2021): cột cờ cao 33,4 m, 41,4 m tính cả cán cờ, 54 bậc thang xoáy ốc, xây 1805–1812, nằm trong khuôn viên Bảo tàng Lịch sử Quân sự Việt Nam.",
+      "sha256": "89da1ca33108de9303898601681689ffbc6d7455131064ed68d3388b3a24d559",
+      "verified_at": "2026-10-19T21:27:43.132682+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vnexpress.net/cot-co-hon-200-tuoi-con-nguyen-ven-cua-ha-noi-3882001.html",
+      "supports": "VnExpress: Kỳ đài xây 1805–1812 dưới thời Gia Long trên phần đất phía nam Hoàng thành Thăng Long, ba tầng đế, thân tám cạnh, 54 bậc thang, thần công phát hiện năm 2003 ở chân cột.",
+      "sha256": "3fe11c07a26679c222d69664bbbf4f7eeed550806c230a22617fb8e88407c21f",
+      "verified_at": "2026-10-19T21:27:50.188256+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vnexpress.net/cot-co-ha-noi-duoc-xay-dung-thoi-vua-nao-3660367-p10.html",
+      "supports": "VnExpress: cột cờ Hà Nội được công nhận là Di tích lịch sử văn hóa quốc gia năm 1989.",
+      "sha256": "34cafc27871ed2e15225420b18332d717e8d58a1fc974276aa9395781969571b",
+      "verified_at": "2026-10-19T21:27:52.498106+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2586,
+        "title": "Honda Cub 50cc có phù hợp đi Hà Nội dài ngày và quãng đường hỗn hợp?",
+        "why": "stale",
+        "content_hash": "0536961ad35e1232748bd3a286f39f1c319c253058082e75bc61c31b404481ce",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2632,
+        "title": "Cầu Long Biên Hà Nội: Đi lúc nào đẹp, chụp ảnh ở đâu và chơi gì gần đó?",
+        "why": "stale",
+        "content_hash": "36dfb351fe0b68f0a6c25d3903504798235bac27df1d97f4c68ca001b55d25e3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4051,
+        "title": "Thuê xe máy Hà Nội vào ngày mưa: khi nào nên lùi giờ nhận và kiểm tra gì trước khi chạy?",
+        "why": "stale",
+        "content_hash": "6cf70a5e919d453dbe3c15e8dc9ed97616caa41d0b3239c73331a63a003192fb",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T21:27:58.758270+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "96505c2459a18a63c9d32ef8c72c2de098aeb594e43191e222969086342e54ce",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

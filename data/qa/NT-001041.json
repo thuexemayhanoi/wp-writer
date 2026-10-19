@@ -1,0 +1,143 @@
+{
+  "topic_id": "NT-001041",
+  "status": "PASS",
+  "source_sha256": "30efd1d72da315d8c3fb84e9b16bbd9f382e892f09df1a82f8cb4aae3e121f9b",
+  "body_sha256": "7441577e4fb79e82ff29be2a9255ae0e0c004d41144e27254d58934c490052e0",
+  "word_count": 3306,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2559,
+        "title": "Các loại bằng lái xe máy hiện nay và cách phân biệt từng hạng",
+        "why": "stale",
+        "content_hash": "1dbe75f2df7dd3b894e673123e9c56ffdda9c772f072b8cb4682f49b0f264d0e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2582,
+        "title": "Xe nào phù hợp chạy trong phố Hà Nội? Gợi ý theo từng nhu cầu",
+        "why": "stale",
+        "content_hash": "0f62d1c774af57a3c896ffd697700d31e6892614883dbc70f9970230ae26d134",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2594,
+        "title": "Đi ngoại thành Hà Nội nên chọn xe ga hay xe côn tay để phù hợp hơn?",
+        "why": "stale",
+        "content_hash": "c828fb01d0925dea14287531e51418ebeef09564d4fb50f52a2398ebd052935e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2630,
+        "title": "Chùa Trấn Quốc Hà Nội: Lịch sử, giờ mở cửa và kinh nghiệm tham quan",
+        "why": "stale",
+        "content_hash": "1cedf563cfdadc1e4b3bafa07d97d0868a00d865df06edb4c401019a91229635",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2634,
+        "title": "Địa điểm du lịch ngoại thành Hà Nội: 15 nơi đẹp đi về trong ngày",
+        "why": "stale",
+        "content_hash": "2731adb7b543fe9e03020ef632b7c13b728e598511c01bf75b886ac18433f364",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T21:22:49.240385+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "60640c1cf0f7a116439540f74350fc13a4ca65b34dccf78ec247918cb33bbb2b",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

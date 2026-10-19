@@ -70,16 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://hart.honda.com.au/resources/safety-and-riding-tips",
-      "supports": "Trang chỉ mục Safety & Riding Tips của HART (Honda Australia Rider Training; bản quyền 2025), đoạn tóm tắt mục Attitude. How you think, is how you ride: tác giả cho rằng quan niệm phổ biến 'everyone is out to kill you' hay 'ride like you are invisible' nên được thách thức và đề nghị câu mới 'everyone drives like I do', tức đặt mình vào vị trí người lái xe đang tới để biết họ sẽ làm gì; bản đã đọc chỉ có đoạn tóm tắt này, không có trang đầy đủ | Cùng trang chỉ mục HART: quan niệm 'ride like you are invisible' được nêu để thách thức; đối chiếu với MSF, nơi chính câu 'ride as if you're invisible' được dùng như một mẹo giữ cảnh giác",
-      "sha256": "a7f811aebb79a92e0d32f0691746b5c594be28355b9cdcb3b5663a0b7bdf6af5",
-      "verified_at": "2026-10-19T21:01:33.777577+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -132,11 +123,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T21:01:44.513674+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T21:22:44.044088+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "bbcc8fed7aad7c1df6d16cd5c0c04d98efd9e8b7c24c3d98deefbfd0fc124936",
+  "inventory_sha256": "60640c1cf0f7a116439540f74350fc13a4ca65b34dccf78ec247918cb33bbb2b",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
