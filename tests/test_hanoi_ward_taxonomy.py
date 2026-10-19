@@ -36,6 +36,16 @@ class HanoiWardTaxonomyTests(unittest.TestCase):
         self.assertEqual(sum(item["slug"]==row["slug"] for item in self.items),1)
         self.assertEqual(sum(item["taxonomy_key"]==key for item in self.items),1)
 
+    def test_rest_snapshot_matches_verified_wordpress_term(self):
+        snapshot=json.loads((ROOT/"data"/"existing-taxonomy.json").read_text(encoding="utf-8"))
+        matches=[t for t in snapshot["items"] if t["id"]==182]
+        self.assertEqual(len(matches),1)
+        term=matches[0]
+        self.assertEqual(term["parent"],162)
+        self.assertEqual(term["slug"],"thue-xe-may-theo-phuong-ha-noi")
+        self.assertEqual(term["name"],"Thuê xe máy theo phường Hà Nội")
+        self.assertEqual(term["link"],"https://thuexemaynguyentu.com/blog/huong-dan-thue-xe/thue-xe-may-theo-phuong-ha-noi/")
+
     def test_existing_ancestor_terms_unchanged(self):
         self.assertEqual(self.registry["blog"]["wordpress_term_id"],69)
         self.assertEqual(self.registry["blog"]["wordpress_parent_id"],0)
