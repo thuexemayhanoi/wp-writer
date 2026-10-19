@@ -11451,7 +11451,7 @@
       }
     },
     "NT-000707": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T09:36:23.570757+00:00",
       "source_hash": "7a2695ecb9315e24a49a080a21931652b3258377a040c6745159c1e561ca0bc8",
       "slug": "honda-vision-2026-bon-phien-ban-ban-the-thao-banh-truoc-16-inch-khac-ba-ban-con-lai-o-dau",
@@ -11466,8 +11466,37 @@
       "category_warning": null,
       "git_commit": "80ab666f88f5e45b26040a5a66357e835a5d25c3",
       "run_id": "39230484656",
-      "updated_at": "2026-10-19T09:36:27.613818+00:00",
-      "wp_id": 4210
+      "updated_at": "2026-10-19T09:36:35.324223+00:00",
+      "wp_id": 4210,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/honda-vision-2026-bon-phien-ban-ban-the-thao-banh-truoc-16-inch-khac-ba-ban-con-lai-o-dau/",
+      "verified_at": "2026-10-19T09:36:35.324218+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4210,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/honda-vision-2026-bon-phien-ban-ban-the-thao-banh-truoc-16-inch-khac-ba-ban-con-lai-o-dau/",
+        "categories": [
+          156
+        ],
+        "canonical": "https://thuexemaynguyentu.com/honda-vision-2026-bon-phien-ban-ban-the-thao-banh-truoc-16-inch-khac-ba-ban-con-lai-o-dau/",
+        "seo_title": "Honda Vision 2026 bốn phiên bản: bản Thể thao khác ba bản còn lại",
+        "seo_description": "Honda Vision 2026 bốn phiên bản theo trang hãng: số chung của cả bốn và những dòng riêng của bản Thể thao bánh trước 16 inch về yên, gầm, khối lượng.",
+        "checked_at": "2026-10-19T09:36:35.324200+00:00"
+      }
     }
   },
   "categories": {}
