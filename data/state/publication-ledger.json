@@ -13179,7 +13179,7 @@
       }
     },
     "NT-000848": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T15:04:58.458404+00:00",
       "source_hash": "c9667155bce4b81dffc3de6b0a4f40dac5d5f107b057c0b017046824aa946087",
       "slug": "xe-may-dien-ngap-nuoc-co-sac-duoc-khong-tat-khoa-cho-kho-va-dua-xe-di-kiem-tra-theo-thanh-nien-vnexpress-va-hang-xe",
@@ -13194,8 +13194,37 @@
       "category_warning": null,
       "git_commit": "5a5940da17c01f75cb2ca2dd6c62e047ff2115ed",
       "run_id": "39273879833",
-      "updated_at": "2026-10-19T15:05:02.963460+00:00",
-      "wp_id": 4251
+      "updated_at": "2026-10-19T15:05:09.790016+00:00",
+      "wp_id": 4251,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-dien-ngap-nuoc-co-sac-duoc-khong-tat-khoa-cho-kho-va-dua-xe-di-kiem-tra-theo-thanh-nien-vnexpress-va-hang-xe/",
+      "verified_at": "2026-10-19T15:05:09.790009+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4251,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-dien-ngap-nuoc-co-sac-duoc-khong-tat-khoa-cho-kho-va-dua-xe-di-kiem-tra-theo-thanh-nien-vnexpress-va-hang-xe/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-dien-ngap-nuoc-co-sac-duoc-khong-tat-khoa-cho-kho-va-dua-xe-di-kiem-tra-theo-thanh-nien-vnexpress-va-hang-xe/",
+        "seo_title": "Xe máy điện ngập nước có sạc được không: tắt khóa, chờ khô, kiểm tra",
+        "seo_description": "Xe máy điện ngập nước có sạc được không? Tổng hợp lời khuyên của Thanh Niên, VnExpress, VinFast, Yadea: tắt khóa, không khởi động lại, chưa sạc khi còn ướt, đưa xe đi kiểm tra.",
+        "checked_at": "2026-10-19T15:05:09.789985+00:00"
+      }
     }
   },
   "categories": {}
