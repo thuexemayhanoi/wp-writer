@@ -54,6 +54,14 @@ def delivery_route(topic,policy,registry,categories,create_category=None,accepta
     if not (public or staging or acceptance_draft):
         raise ValueError('WordPress delivery is not approved')
     intended=topic['taxonomy_key']
+    # A researcher must not reclassify a known Hanoi-ward manuscript as an
+    # ordinary blog/rental-guide post to bypass the campaign category.
+    queue=load('editorial/seo-51-phuong/pipeline-queue.json',{'entries':[]})
+    ward_slugs={x.get('proposed_slug') for x in queue.get('entries',[])}
+    is_ward_campaign=(topic.get('campaign')=='HN-51-WARDS' or
+                      topic.get('proposed_slug') in ward_slugs)
+    if is_ward_campaign and intended!='hanoi-ward-rentals':
+        raise ValueError('Hanoi ward campaign requires taxonomy hanoi-ward-rentals, not '+str(intended))
     # Owner contract for all 51 Hanoi ward posts: EXACT category 182 or NO WP
     # write. Unlike other silos, ward pages must never create WP drafts, fall
     # back to Blog or auto-create per-ward categories when term 182 drifts.
