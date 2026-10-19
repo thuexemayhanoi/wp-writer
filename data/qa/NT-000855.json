@@ -1,0 +1,125 @@
+{
+  "topic_id": "NT-000855",
+  "status": "PASS",
+  "source_sha256": "2f08b488ede196a3facf2a3ce075f9aebfb481d1ee0942fe9139f0fd2f61a333",
+  "body_sha256": "e842d2dfe006028194298adae191e97bda8857d1af077a13c20a0c0ed80948d5",
+  "word_count": 3559,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://hart.honda.com.au/resources/safety-and-riding-tips/carrying-passengers-and-cargo",
+      "supports": "Trang Carrying passengers and cargo của HART (đại lý Honda tại Úc, © 2025), phần Cargo: ba điều cần cân nhắc là trọng lượng, vị trí và độ chắc chắn; giữ trọng lượng thấp và gần tâm xe, chia đều hai bên; đặt đồ nặng trong 'tam giác tải' giữa đầu người lái và hai trục bánh; túi đặt trước không được cản việc lái; giá chở hàng đặt đồ cao và ra sau làm nhẹ bánh trước và có thể gây mất ổn định; không buộc đồ lên tay lái, phuộc trước hay chắn bùn trước vì có thể làm lái mất ổn định; hàng phải chắc, không xê dịch, không vướng bộ phận chuyển động; mỗi xe có tải tối đa do hãng nêu",
+      "sha256": "92abd3952253214c4d1916bd38a41c46f994406febf73dc907aca3473d92c971",
+      "verified_at": "2026-10-19T14:41:37.213382+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2362,
+        "title": "Trạm Sạc Xe Máy Điện Hoạt Động Ra Sao Và Cần Lưu Ý Gì Khi Sử Dụng?",
+        "why": "stale",
+        "content_hash": "a17c9cf060eb4fcc003a8361442a9640e3697f1a42863cfbcf483016e0e39b82",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2370,
+        "title": "Chi Phí Đi Xe Máy Điện Mỗi Tháng So Với Xe Máy Xăng Phổ Thông: Bài Toán Chi Tiết Từ Người Dùng Thực Tế",
+        "why": "stale",
+        "content_hash": "92d045593ec18a74d2c912be44adc4f392b4b025734668676528c637f6ed0b2d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T14:41:42.708990+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "5a5553e2c4f0ea57ee8466674665d132dc50c835759ef5df1c475ada9b1d64c6",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
