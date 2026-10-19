@@ -79,8 +79,10 @@ class BackpressureWorkflowTests(unittest.TestCase):
 
     def test_owner_release_requires_emergency_stop_or_durable_pilot(self):
         policy = json.loads((ROOT / "config" / "production-policy.json").read_text(encoding="utf-8"))
-        from publisher import pilot_settings
-        self.assertTrue(policy["emergency_stop"] or pilot_settings(policy) is not None)
+        pilot=policy.get("publisher_pilot")
+        self.assertTrue(policy["emergency_stop"] or (
+            isinstance(pilot,dict) and isinstance(pilot.get("id"),str)
+            and type(pilot.get("max_posts")) is int and 1<=pilot["max_posts"]<=10))
 
 
 if __name__ == "__main__":
