@@ -14297,7 +14297,7 @@
       }
     },
     "NT-000862": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T20:59:08.372822+00:00",
       "source_hash": "8a65e78a57a60893ebe2137fb38d671feda15334225fbc4a9687bee69b7313a0",
       "slug": "do-son-co-gi-ngoai-tam-bien-chua-hang-den-ba-de-dinh-bao-dai-thap-tuong-long-ben-k15-va-dao-hon-dau-xep-theo-thu-tu-nao",
@@ -14313,8 +14313,37 @@
       "category_warning": null,
       "git_commit": "b3087e619ac8c4b7eef855135710aecacb2a1141",
       "run_id": "39322982572",
-      "updated_at": "2026-10-19T20:59:12.416594+00:00",
-      "wp_id": 4285
+      "updated_at": "2026-10-19T20:59:18.497452+00:00",
+      "wp_id": 4285,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/do-son-co-gi-ngoai-tam-bien-chua-hang-den-ba-de-dinh-bao-dai-thap-tuong-long-ben-k15-va-dao-hon-dau-xep-theo-thu-tu-nao/",
+      "verified_at": "2026-10-19T20:59:18.497444+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4285,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/do-son-co-gi-ngoai-tam-bien-chua-hang-den-ba-de-dinh-bao-dai-thap-tuong-long-ben-k15-va-dao-hon-dau-xep-theo-thu-tu-nao/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/do-son-co-gi-ngoai-tam-bien-chua-hang-den-ba-de-dinh-bao-dai-thap-tuong-long-ben-k15-va-dao-hon-dau-xep-theo-thu-tu-nao/",
+        "seo_title": "Đồ Sơn có gì ngoài tắm biển: 6 điểm di tích và thứ tự đi",
+        "seo_description": "Đồ Sơn có gì ngoài tắm biển? Tóm tắt chùa Hang, đền Bà Đế, dinh Bảo Đại, tháp Tường Long, bến K15, đảo Hòn Dấu theo từng trang nguồn, kèm gợi ý thứ tự đi.",
+        "checked_at": "2026-10-19T20:59:18.497422+00:00"
+      }
     }
   },
   "categories": {}
