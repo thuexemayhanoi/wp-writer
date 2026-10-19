@@ -70,67 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.gov.uk/guidance/living-in-vietnam",
-      "supports": "Hướng dẫn Living in Vietnam của chính phủ Anh (cập nhật 23/09/2025) nêu không khuyên đi xe máy khi mưa lớn hoặc ban đêm, và ngoài khu đô thị đường cùng chiếu sáng có thể kém nên cần thận trọng thêm.",
-      "sha256": "fcf0a0ba9652db8f5d39ef45b603440cc391b01baf6de5dfda3102690ebf0698",
-      "verified_at": "2026-10-19T05:24:19.960996+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://travel.gc.ca/destinations/vietnam",
-      "supports": "Trang du lịch của Canada (cập nhật 13/10/2026) khuyên tránh đi sau khi trời tối hoặc khi thời tiết xấu, tránh nơi hẻo lánh nhất là ban đêm, và nêu đường xá kém, ổ gà, đường trơn mùa mưa.",
-      "sha256": "126c661b0baedc6f2c337d9d931cfdb12a6a068ad2779ba0c38fbef1e0fbf156",
-      "verified_at": "2026-10-19T05:24:21.111986+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnam.travel/things-to-do/ha-giang-loop-four-day-road-trip",
-      "supports": "Trang Ha Giang loop của cổng du lịch quốc gia Việt Nam nêu chướng ngại và công trường có thể xuất hiện bất cứ lúc nào và dặn vào cua thận trọng, chạy ban ngày và dừng khi trời tối.",
-      "sha256": "88ad4a4b81491c99090d3285c46ddaebe4618d63198033b9175c97861be952d9",
-      "verified_at": "2026-10-19T05:24:21.998836+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/vietnam/",
-      "supports": "Trang của Bộ Ngoại giao Ireland (cập nhật 22/04/2026) nêu tai nạn thường xuyên vì lái xe kém, phương tiện bảo dưỡng kém và chiếu sáng không đủ, và dặn dùng taxi có giấy phép sau khi trời tối.",
-      "sha256": "5da5c0daef1afafd45ce7b1d603d67349d61baf7515d46e4974e26ee9e6d6a23",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
-      "supports": "Trang Smartraveller của Úc (cập nhật 24/09/2026) dặn cảnh giác trên tàu, xe khách đêm và các đoạn đường vắng.",
-      "sha256": "0fda54ad76e991c5bda450bb9b4d62b83a19052c60b5a8af41cb7af61f08bde2",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    },
-    {
-      "url": "https://www.gov.uk/foreign-travel-advice/vietnam/safety-and-security",
-      "supports": "Trang FCDO của Anh (cập nhật 21/09/2026) nêu tai nạn xe khách có nhiều khả năng xảy ra vào ban đêm.",
-      "sha256": "a2d5eeadc18979325d7eabf475624e42e88db391550a35a45fab429cad2935c1",
-      "verified_at": "2026-10-19T05:24:23.271846+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vn.usembassy.gov/security-and-safety-advice-for-vietnam/",
-      "supports": "Trang Đại sứ quán Mỹ (đăng 07/2022, sửa 06/07/2023, thông tin cũ hơn) nêu lượng xe lớn, việc tuân thủ luật giao thông lỏng lẻo và thiếu cưỡng chế nên cần cảnh giác hơn khi lái, đi xe máy hoặc đi bộ.",
-      "sha256": "df6e38a5b28b14efba20a173bdfb7b9fe6d7eae27e7ac405a1234390634b538b",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -165,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T05:24:29.664365+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T05:26:33.036285+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "e4a180ea3ae965216b97dbdeddbaf978e27676be162aa17d7991dc4075f7f89c",
+  "inventory_sha256": "063f199e5fd62694d9c52c3c2f61e55b7f6da0ab378af6a59b87b8cfe43a518b",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

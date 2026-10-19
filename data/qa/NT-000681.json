@@ -70,41 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.gov.uk/foreign-travel-advice/vietnam/health",
-      "supports": "Trang Health của FCDO Anh (cập nhật 21/09/2026) nêu cần bảo hiểm cho điều trị tại chỗ và sơ tán y tế bất ngờ, khoản nên có (xe cứu thương hàng không, hồi hương), gọi 115 xin xe cứu thương, báo công ty bảo hiểm sớm và Đại sứ quán Anh không trả viện phí hay cung cấp trợ giúp y tế.",
-      "sha256": "39f1c7ba6375d837a02c996a732d30e54db091046ba1d25f7bebdb7ee2006442",
-      "verified_at": "2026-10-19T05:22:53.051663+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
-      "supports": "Trang Smartraveller của Úc (cập nhật 24/09/2026) nêu chất lượng y tế khác nhau, bệnh viện công ngoài Hà Nội và TP.HCM kém, bệnh viện có thể yêu cầu trả tiền trước kể cả khi cấp cứu và sơ tán y tế có thể rất đắt.",
-      "sha256": "0fda54ad76e991c5bda450bb9b4d62b83a19052c60b5a8af41cb7af61f08bde2",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "TimeoutError"
-    },
-    {
-      "url": "https://travel.gc.ca/destinations/vietnam",
-      "supports": "Trang du lịch của Canada (cập nhật 13/10/2026) nêu cơ sở y tế hạn chế ngoài Hà Nội và TP.HCM, phòng khám tư thường đủ trang bị hơn, cứu thương có thể đến chậm vì kẹt xe, sơ tán y tế rất đắt và cần bảo hiểm gồm sơ tán và viện phí.",
-      "sha256": "126c661b0baedc6f2c337d9d931cfdb12a6a068ad2779ba0c38fbef1e0fbf156",
-      "verified_at": "2026-10-19T05:23:59.094943+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vietnam.travel/plan-your-trip/health-safety",
-      "supports": "Trang Health and Safety của cổng du lịch quốc gia Việt Nam nêu các thành phố lớn có bệnh viện công và tư với nhân viên nói tiếng Anh, còn ở vùng quê hiệu thuốc và bệnh viện có thể ở xa.",
-      "sha256": "06f7ba3596fe25e940afdee22936478493785411a5ddbe292d3dcd4fbd10ba30",
-      "verified_at": "2026-10-19T05:24:00.289168+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -139,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T05:24:06.517911+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T05:26:32.332973+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "91597a2f3e809d299d9215dcb69a4ed2a762df37990d3854ba8cd37b70f60a9b",
+  "inventory_sha256": "063f199e5fd62694d9c52c3c2f61e55b7f6da0ab378af6a59b87b8cfe43a518b",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
