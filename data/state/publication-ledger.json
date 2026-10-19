@@ -7419,7 +7419,7 @@
       }
     },
     "NT-000491": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T03:46:41.790668+00:00",
       "source_hash": "ce926d5f890bf8e6e57dba17061363cd2ee3350b9db1463a66ce4afa4d76a44d",
       "slug": "lang-co-duong-lam-xem-gi-trong-nua-ngay-tu-cong-mong-phu-den-den-phung-hung-va-lang-ngo-quyen",
@@ -7434,8 +7434,37 @@
       "category_warning": null,
       "git_commit": "38bc69a324114f1f907a43640152363ba3e280fc",
       "run_id": "39195944943",
-      "updated_at": "2026-10-19T03:46:45.686412+00:00",
-      "wp_id": 4124
+      "updated_at": "2026-10-19T03:46:50.712671+00:00",
+      "wp_id": 4124,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lang-co-duong-lam-xem-gi-trong-nua-ngay-tu-cong-mong-phu-den-den-phung-hung-va-lang-ngo-quyen/",
+      "verified_at": "2026-10-19T03:46:50.712663+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4124,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lang-co-duong-lam-xem-gi-trong-nua-ngay-tu-cong-mong-phu-den-den-phung-hung-va-lang-ngo-quyen/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lang-co-duong-lam-xem-gi-trong-nua-ngay-tu-cong-mong-phu-den-den-phung-hung-va-lang-ngo-quyen/",
+        "seo_title": "Làng cổ Đường Lâm: xem gì trong nửa ngày từ Hà Nội",
+        "seo_description": "Làng cổ Đường Lâm có những điểm nào: cổng làng Mông Phụ, đền Phùng Hưng, lăng Ngô Quyền, nhà đá ong, và cách đọc các số liệu lệch nhau giữa các nguồn.",
+        "checked_at": "2026-10-19T03:46:50.712640+00:00"
+      }
     }
   },
   "categories": {}
