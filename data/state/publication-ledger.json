@@ -9963,7 +9963,7 @@
       }
     },
     "NT-000824": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T05:25:12.110319+00:00",
       "source_hash": "b538bbc190a79a9fdfbc71f792fcffca6f645f9ed21989ac2b181d1d57970f02",
       "slug": "de-lai-ho-chieu-khi-thue-xe-may-va-nhan-phong-o-viet-nam-anh-ireland-canada-va-uc-khuyen-gi-cong-du-lich-quoc-gia-noi-gi-va-nen-hoi-gi",
@@ -9978,8 +9978,37 @@
       "category_warning": null,
       "git_commit": "6a6772cb5c0e0edb915daf243a880be49b35a255",
       "run_id": "39203972454",
-      "updated_at": "2026-10-19T05:25:16.008725+00:00",
-      "wp_id": 4177
+      "updated_at": "2026-10-19T05:25:22.093448+00:00",
+      "wp_id": 4177,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/de-lai-ho-chieu-khi-thue-xe-may-va-nhan-phong-o-viet-nam-anh-ireland-canada-va-uc-khuyen-gi-cong-du-lich-quoc-gia-noi-gi-va-nen-hoi-gi/",
+      "verified_at": "2026-10-19T05:25:22.093443+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4177,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/de-lai-ho-chieu-khi-thue-xe-may-va-nhan-phong-o-viet-nam-anh-ireland-canada-va-uc-khuyen-gi-cong-du-lich-quoc-gia-noi-gi-va-nen-hoi-gi/",
+        "categories": [
+          163
+        ],
+        "canonical": "https://thuexemaynguyentu.com/de-lai-ho-chieu-khi-thue-xe-may-va-nhan-phong-o-viet-nam-anh-ireland-canada-va-uc-khuyen-gi-cong-du-lich-quoc-gia-noi-gi-va-nen-hoi-gi/",
+        "seo_title": "Để lại hộ chiếu khi thuê xe máy ở Việt Nam: các trang nói gì",
+        "seo_description": "Để lại hộ chiếu khi thuê xe máy ở Việt Nam: cổng du lịch quốc gia, Anh, Ireland, Canada và Úc viết gì, các trang khác nhau ra sao và nên hỏi gì trước khi giao giấy tờ.",
+        "checked_at": "2026-10-19T05:25:22.093431+00:00"
+      }
     }
   },
   "categories": {}
