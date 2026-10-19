@@ -11163,7 +11163,7 @@
       }
     },
     "NT-000463": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T09:33:28.929073+00:00",
       "source_hash": "0c3f1833940b0d2238ab52ad7868d01d97b5069d2238a33467037997e26ca5bc",
       "slug": "pin-xe-may-dien-thao-roi-hay-co-dinh-hang-mo-ta-cach-sac-doi-pin-va-vi-tri-dat-pin-the-nao",
@@ -11178,8 +11178,37 @@
       "category_warning": null,
       "git_commit": "80ab666f88f5e45b26040a5a66357e835a5d25c3",
       "run_id": "39230484656",
-      "updated_at": "2026-10-19T09:33:35.015636+00:00",
-      "wp_id": 4204
+      "updated_at": "2026-10-19T09:33:43.600238+00:00",
+      "wp_id": 4204,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/pin-xe-may-dien-thao-roi-hay-co-dinh-hang-mo-ta-cach-sac-doi-pin-va-vi-tri-dat-pin-the-nao/",
+      "verified_at": "2026-10-19T09:33:43.600232+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4204,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/pin-xe-may-dien-thao-roi-hay-co-dinh-hang-mo-ta-cach-sac-doi-pin-va-vi-tri-dat-pin-the-nao/",
+        "categories": [
+          167
+        ],
+        "canonical": "https://thuexemaynguyentu.com/pin-xe-may-dien-thao-roi-hay-co-dinh-hang-mo-ta-cach-sac-doi-pin-va-vi-tri-dat-pin-the-nao/",
+        "seo_title": "Pin xe máy điện tháo rời hay cố định: Honda, Yamaha, VinFast",
+        "seo_description": "Pin xe máy điện tháo rời hay cố định? Đối chiếu lời Honda, Yamaha, VinFast về vị trí đặt pin, cách sạc và đổi pin, kèm những điểm trang hãng không nêu.",
+        "checked_at": "2026-10-19T09:33:43.600211+00:00"
+      }
     }
   },
   "categories": {}
