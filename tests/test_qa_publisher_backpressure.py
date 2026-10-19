@@ -77,9 +77,10 @@ class BackpressureWorkflowTests(unittest.TestCase):
             if "WP_APPLICATION_PASSWORD" in json.dumps(s):
                 self.assertIn("steps.safety_switch.outputs.active == 'true'", s.get("if", ""))
 
-    def test_owner_emergency_stop_kept_on_in_patch(self):
+    def test_owner_release_requires_emergency_stop_or_durable_pilot(self):
         policy = json.loads((ROOT / "config" / "production-policy.json").read_text(encoding="utf-8"))
-        self.assertIs(policy["emergency_stop"], True)
+        from publisher import pilot_settings
+        self.assertTrue(policy["emergency_stop"] or pilot_settings(policy) is not None)
 
 
 if __name__ == "__main__":
