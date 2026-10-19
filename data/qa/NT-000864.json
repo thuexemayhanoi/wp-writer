@@ -1,0 +1,160 @@
+{
+  "topic_id": "NT-000864",
+  "status": "PASS",
+  "source_sha256": "f4840319b8e5f293b7955b34a67db95e82a656d92f1834dc2e7dabfcabb4eeef",
+  "body_sha256": "8197a852996f0e66ae03e4f79352c0d1e5dbc7eb57b84c1d2b054d660e228c07",
+  "word_count": 3768,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/48-gio-o-cat-ba-4677622.html",
+      "supports": "Bài '48 giờ ở Cát Bà' của VnExpress (17/11/2023, theo tư vấn của một cán bộ Vườn quốc gia Cát Bà): trekking 6 km hoặc 10 km tùy nhu cầu và sức khỏe; cung ngắn nhất khoảng 2 km tới đỉnh Ngự Lâm rồi quay lại cổng vườn và tham quan động Trung Trang khoảng 2 tiếng; bắt đầu từ 8h30 hoặc 9h; cung 10 km qua đỉnh Mây Bầu, ao Ếch và kết thúc ở làng Việt Hải; chọn giày chống trượt và mang đồ ăn nhẹ | Cùng bài VnExpress 17/11/2023: cung 10 km mất khoảng 4 tiếng; địa hình nhiều đoạn bằng xuyên rừng, có leo dốc, chủ yếu vách đá cao trung bình và chỉ một số ít đoạn ngắn cao gắt; làng Việt Hải là làng chài nhỏ khoảng 400 dân sâu trong vườn quốc gia, có lưu trú, ăn uống; thuê tour trọn gói thì không phải trả phí vào cổng; mùa thu đông ít khách",
+      "sha256": "d00c05eac400241bd490aeecff16d574d82ee9af9e83aead6e08702fc2627e2e",
+      "verified_at": "2026-10-19T20:59:59.333834+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vnexpress.net/cam-nang-du-lich-cat-ba-4136515.html",
+      "supports": "Cẩm nang du lịch Cát Bà của VnExpress (đăng 7/5/2022, cập nhật 16/4/2026), mục Vườn quốc gia Cát Bà: khu dự trữ sinh quyển thế giới, leo núi 4 đến 8 giờ hoặc tuyến ngắn khoảng hơn 2 giờ, đi bộ, xe đạp, xe máy hay ôtô trong 2 đến 3 giờ cũng là lựa chọn của nhiều người; rừng Kim Giao, đỉnh Ngự Lâm, xem thú rừng ban đêm, hang động; đường từ bến phà vào trung tâm đảo khoảng 20 km ven biển và xuyên rừng quốc gia | Cùng cẩm nang VnExpress: hang Quân Y cách trung tâm thị trấn khoảng 8,5 km trên đường vào vườn, là bệnh viện dã chiến xây 1963 đến 1965 với 17 phòng ở ba tầng; động Trung Trang dài khoảng 300 m, nhũ đá khoảng 6 triệu năm tuổi, cùng hướng với hang Quân Y; pháo đài Thần Công (cao điểm 177) với hai khẩu pháo lớn xây từ những năm 1940, nhìn toàn cảnh vịnh, hợp ngắm bình minh và hoàng hôn",
+      "sha256": "e9e8d20296b18f322891ea7bace3fc525095401402403f2a342c343e4cf6ecb9",
+      "verified_at": "2026-10-19T21:00:01.064511+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2493,
+        "title": "Bao lâu nên thay dầu xe máy? Cách nhận biết thời điểm phù hợp",
+        "why": "stale",
+        "content_hash": "8ca2a243a492015121237f25a06d048e4ab5297e91295fbbbae60ec93a619529",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2517,
+        "title": "Xe ga rung khi tăng tốc do đâu? Các nguyên nhân thường gặp khi dùng",
+        "why": "stale",
+        "content_hash": "44f236046c1f74ea9761d7bd0ae2d3b0ea286bc2118a85e0aadf8beb2df1afc1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2578,
+        "title": "Có nên mua xe máy cũ để đi ngắn hạn? Những điểm cần cân nhắc",
+        "why": "stale",
+        "content_hash": "2edb32e1617a09723b835349742c0b85646c6fe086eb11610946f0b304bbc7ff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2610,
+        "title": "Top địa điểm du lịch đẹp ở Hà Nội: Đi đâu, chơi gì và check-in ở đâu?",
+        "why": "stale",
+        "content_hash": "aa42ffbfca0e3b4188fde1e3cf3a06d9f9b9496580487304e5dbbd316db1a856",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2632,
+        "title": "Cầu Long Biên Hà Nội: Đi lúc nào đẹp, chụp ảnh ở đâu và chơi gì gần đó?",
+        "why": "stale",
+        "content_hash": "36dfb351fe0b68f0a6c25d3903504798235bac27df1d97f4c68ca001b55d25e3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T21:00:09.995576+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "483362ed6759a9602a11f07010678a92f4d4a3965fed6019a2c9ff6bfb139c89",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
