@@ -11739,7 +11739,7 @@
       }
     },
     "NT-000622": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T09:45:24.246050+00:00",
       "source_hash": "e1322fb1ab416004abd04caef822907e76d600181439a5f19c9e954270e24e91",
       "slug": "pedal-assist-va-tay-ga-throttle-tren-xe-dap-dien-hai-cach-dieu-khien-dong-co-khac-nhau-the-nao",
@@ -11754,8 +11754,37 @@
       "category_warning": null,
       "git_commit": "7ff3727fdfd7716ef5c6484de6730f887653310c",
       "run_id": "39231410457",
-      "updated_at": "2026-10-19T09:45:28.272160+00:00",
-      "wp_id": 4216
+      "updated_at": "2026-10-19T09:45:35.185783+00:00",
+      "wp_id": 4216,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/pedal-assist-va-tay-ga-throttle-tren-xe-dap-dien-hai-cach-dieu-khien-dong-co-khac-nhau-the-nao/",
+      "verified_at": "2026-10-19T09:45:35.185778+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4216,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/pedal-assist-va-tay-ga-throttle-tren-xe-dap-dien-hai-cach-dieu-khien-dong-co-khac-nhau-the-nao/",
+        "categories": [
+          166
+        ],
+        "canonical": "https://thuexemaynguyentu.com/pedal-assist-va-tay-ga-throttle-tren-xe-dap-dien-hai-cach-dieu-khien-dong-co-khac-nhau-the-nao/",
+        "seo_title": "Pedal assist và tay ga trên xe đạp điện: khác nhau thế nào?",
+        "seo_description": "Pedal assist và tay ga trên xe đạp điện khác nhau ở chỗ nào: xe có chạy khi không đạp không, tay ga có ở mọi xe không, quy tắc mỗi nơi ra sao và cách kiểm tra xe của bạn.",
+        "checked_at": "2026-10-19T09:45:35.185757+00:00"
+      }
     }
   },
   "categories": {}
