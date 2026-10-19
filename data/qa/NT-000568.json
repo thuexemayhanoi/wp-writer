@@ -1,0 +1,150 @@
+{
+  "topic_id": "NT-000568",
+  "status": "PASS",
+  "source_sha256": "05810009a466565f91f36815b8a09ba76603c671f7397fa0a100ded932f2b6c5",
+  "body_sha256": "5361b597f30036169579adc3c5ec09f3e1f5cce0702b63c2e3f896a45d875f44",
+  "word_count": 3560,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/cam-nang-du-lich-dien-bien-4687746.html",
+      "supports": "Cẩm nang du lịch Điện Biên của VnExpress (21/12/2023): đường bộ từ Hà Nội tới TP Điện Biên Phủ dài 450 km, theo CT08, CT02, QL6 qua Hòa Bình hoặc DT87, QL32, QL37 qua Hòa Bình và Sơn La, khoảng 10 tiếng; bắt buộc qua đèo Pha Đin dài 32 km.",
+      "sha256": "9354364a5ae7a0810a74512937fed9cc07466d5c09d61662127150909e20fa9c",
+      "verified_at": "2026-10-19T05:50:23.514314+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dantri.com.vn/du-lich/kinh-nghiem-xuong-mau-de-phuot-thu-vuot-3-con-deo-an-tuong-nhat-viet-nam-2017042813083356.htm",
+      "supports": "Bài Dân trí 28/4/2017 (từ Tiền Phong): gợi ý hành trình Hà Nội – Mộc Châu – Điện Biên – Sa Pa – Hà Nội, tổng hơn 1.000 km trong 4 ngày 3 đêm, qua đèo Pha Đin và đèo Ô Quy Hồ.",
+      "sha256": "69201fdad91081a50fe46b78f0b0381fc73fd9410185c9b1f2dba922fc420ca3",
+      "verified_at": "2026-10-19T05:50:26.253392+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dantri.com.vn/du-lich/kham-pha-tu-dai-deo-nghe-ga-gay-vang-3-nuoc-20160314094135427.htm",
+      "supports": "Bài Dân trí 14/3/2016: nên đi Điện Biên vào tháng 3 dương lịch để gặp mùa hoa ban, tháng 5 dịp 7/5, tháng 8–9 để săn ảnh cánh đồng vàng.",
+      "sha256": "9a51c3a9eed0ca9cdffefc02a33bd349718b5223386065d271ccc31916a15458",
+      "verified_at": "2026-10-19T05:50:29.042465+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 891,
+        "title": "Hợp Đồng Thuê Xe Máy Hà Nội Có Cần Đặt Cọc Không? Tư Vấn Nhanh",
+        "why": "stale",
+        "content_hash": "dfef1f80adfed1e1d9366a3b620ef84119b9cf4fc4ea34f66fe16eb22f52bcca",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4056,
+        "title": "Đổi khách sạn giữa kỳ thuê xe máy Hà Nội: giữ xe ở đâu, chuyển hành lý và đổi nơi trả",
+        "why": "stale",
+        "content_hash": "fcd4a86c62969cb4812af213b0e424c5549b185d290ed9a416d5e9d816804528",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4059,
+        "title": "Thuê xe máy đi phỏng vấn ở Hà Nội trong một ngày: xếp lịch, chọn xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "0ffbbff60edf006739890cca423af4e81cb5346ee434c29859648be6bdb57675",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T05:50:33.666971+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "7ff81410e8a478b7f544705a99eb13a2fd16f138e0e064bbd147e27bfb8ea369",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

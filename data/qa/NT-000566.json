@@ -1,0 +1,142 @@
+{
+  "topic_id": "NT-000566",
+  "status": "PASS",
+  "source_sha256": "3bec3291b575c5e994b6660c7d4e35a460b25f2bbedc59d9c6383b0e6522f274",
+  "body_sha256": "5ce59848db4c7d63afcdae641cf12f1bbab807c29653e47aac6007a36c1753de",
+  "word_count": 3363,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/48-gio-o-bac-ha-4818553.html",
+      "supports": "Bài VnExpress đăng 22/11/2024: phiên chợ Bắc Hà họp từ sáng sớm Chủ nhật hằng tuần đến 14h và chia thành các khu ăn uống, thổ cẩm, thảo dược, gia súc, gia cầm, nông cụ; hành trình từ Hà Nội gần 300 km; Suôi Thầu cách trung tâm Bắc Hà khoảng 35 km, trên thảo nguyên chỉ xe máy vào được.",
+      "sha256": "b49f119a54160a157038ad810d9ea8b45b162204805814cde0b805fd08288b83",
+      "verified_at": "2026-10-19T05:50:00.978998+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dantri.com.vn/du-lich/hap-dan-cho-phien-vung-cao-lao-cai-20200803192853270.htm",
+      "supports": "Bài Dân trí đăng 4/8/2020: lịch chợ phiên vùng cao Lào Cai theo thứ trong tuần, trong đó Bắc Hà, Sa Pa, Mường Khương, Si Ma Cai, Bát Xát họp Chủ nhật còn Cán Cấu, Pha Long, Ý Tý họp thứ Bảy.",
+      "sha256": "77568188fe2868f4be9733cf4b87d94a87b8cea0dd556914457eca781b515ac6",
+      "verified_at": "2026-10-19T05:50:03.746224+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2437,
+        "title": "Các dòng xe máy Honda: tổng hợp mẫu phổ biến tại Việt Nam",
+        "why": "stale",
+        "content_hash": "5cff2a6706b84439a61843ab51b848da33a40d9c155c5eb687076b40c694e51f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2503,
+        "title": "Xe máy khó nổ do đâu? Các nguyên nhân thường gặp và cách kiểm tra",
+        "why": "stale",
+        "content_hash": "1bb521d9de866fa24f421032913e8b1ee3e5f294cfdb38c1dfe0cd216a360f24",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2507,
+        "title": "Chế chảy xăng do đâu? Dấu hiệu nhận biết và cách xử lý ban đầu",
+        "why": "stale",
+        "content_hash": "22253fe91355d6055381302fd78045e2b708effd15761afd43cac2531dcdd570",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T05:50:08.367203+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "fb887199ae9e24536fb3edd46f9c5b4636f70ef882f883081ea9e44a1a906c34",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
