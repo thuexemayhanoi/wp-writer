@@ -32,6 +32,34 @@ class DeliveryRoutingTests(unittest.TestCase):
         # Synthetic missing-term fixture: troubleshooting is deliberately uncreated.
         self.unmapped={**self.exact,'topic_id':'NT-000075','taxonomy_key':'troubleshooting'}
 
+    def test_hanoi_ward_only_publishes_in_single_exact_category_182(self):
+        topic={**self.exact,'topic_id':'NT-001771',
+               'taxonomy_key':'hanoi-ward-rentals'}
+        route=delivery_route(topic,self.production,self.registry,self.live)
+        self.assertEqual(route['status'],'publish')
+        self.assertEqual(route['category_id'],182)
+        self.assertEqual(route['category_resolution'],'EXACT')
+
+    def test_hanoi_ward_never_falls_back_to_wrong_category_or_draft(self):
+        topic={**self.exact,'topic_id':'NT-001771',
+               'taxonomy_key':'hanoi-ward-rentals'}
+        for changes in ({'parent':69},{'slug':'other-slug'},
+                        {'name':'Other category'}):
+            changed=[dict(x,**changes) if x['id']==182 else x
+                     for x in self.live]
+            with self.subTest(changes=changes):
+                with self.assertRaisesRegex(ValueError,'Hanoi ward category blocked'):
+                    delivery_route(topic,self.production,self.registry,changed,
+                                   create_category=lambda _: self.fail('Must never create ward term'))
+        missing=[x for x in self.live if x['id']!=182]
+        with self.assertRaisesRegex(ValueError,'Hanoi ward category blocked'):
+            delivery_route(topic,{**self.production,'allow_category_create':True},
+                           self.registry,missing,create_category=lambda _: self.fail('No new category'))
+        with self.assertRaisesRegex(ValueError,'Hanoi ward publication requires'):
+            delivery_route(topic,self.staging,self.registry,self.live)
+        with self.assertRaisesRegex(ValueError,'Hanoi ward publication requires'):
+            delivery_route(topic,self.staging,self.registry,self.live,acceptance_draft=True)
+
     def test_exact_path_publishes_only_with_full_approval(self):
         self.assertTrue(production_allowed(self.production))
         decision=delivery_route(self.exact,self.production,self.registry,self.live)
