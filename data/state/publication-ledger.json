@@ -11355,7 +11355,7 @@
       }
     },
     "NT-000627": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T09:35:24.153777+00:00",
       "source_hash": "d38df40b5489324ce9aa2a3e560ee298b8747aed758727911fa5acbcacd9d6b5",
       "slug": "xe-dap-dien-het-pin-giua-duong-dap-tiep-duoc-khong-xe-nang-ra-sao-va-cac-nguon-noi-gi",
@@ -11370,8 +11370,37 @@
       "category_warning": null,
       "git_commit": "80ab666f88f5e45b26040a5a66357e835a5d25c3",
       "run_id": "39230484656",
-      "updated_at": "2026-10-19T09:35:28.555608+00:00",
-      "wp_id": 4208
+      "updated_at": "2026-10-19T09:35:36.515671+00:00",
+      "wp_id": 4208,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-dap-dien-het-pin-giua-duong-dap-tiep-duoc-khong-xe-nang-ra-sao-va-cac-nguon-noi-gi/",
+      "verified_at": "2026-10-19T09:35:36.515666+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4208,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-dap-dien-het-pin-giua-duong-dap-tiep-duoc-khong-xe-nang-ra-sao-va-cac-nguon-noi-gi/",
+        "categories": [
+          166
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-dap-dien-het-pin-giua-duong-dap-tiep-duoc-khong-xe-nang-ra-sao-va-cac-nguon-noi-gi/",
+        "seo_title": "Xe đạp điện hết pin có đạp được không? Các nguồn nói gì",
+        "seo_description": "Xe đạp điện hết pin có đạp được không? Yamaha Việt Nam, Cycling Weekly và BikeRadar nói gì về đạp tiếp, độ nặng của xe và cách chuẩn bị trước chuyến đi.",
+        "checked_at": "2026-10-19T09:35:36.515646+00:00"
+      }
     }
   },
   "categories": {}
