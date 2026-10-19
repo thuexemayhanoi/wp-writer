@@ -8811,7 +8811,7 @@
       }
     },
     "NT-000536": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T04:12:36.651692+00:00",
       "source_hash": "f9fe8fde29222afcfe92c6546e429da0c887df7f8f25714e240781df0550829c",
       "slug": "banh-troi-o-den-hat-mon-vi-sao-dan-lang-kieng-an-banh-troi-hon-60-ngay-va-tuc-ruoc-banh-dang-hai-ba",
@@ -8826,8 +8826,37 @@
       "category_warning": null,
       "git_commit": "95b117b8174c189dcedf3ec268fdd634d947e41a",
       "run_id": "39197833614",
-      "updated_at": "2026-10-19T04:12:40.150138+00:00",
-      "wp_id": 4153
+      "updated_at": "2026-10-19T04:12:45.167610+00:00",
+      "wp_id": 4153,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/banh-troi-o-den-hat-mon-vi-sao-dan-lang-kieng-an-banh-troi-hon-60-ngay-va-tuc-ruoc-banh-dang-hai-ba/",
+      "verified_at": "2026-10-19T04:12:45.167603+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4153,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/banh-troi-o-den-hat-mon-vi-sao-dan-lang-kieng-an-banh-troi-hon-60-ngay-va-tuc-ruoc-banh-dang-hai-ba/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/banh-troi-o-den-hat-mon-vi-sao-dan-lang-kieng-an-banh-troi-hon-60-ngay-va-tuc-ruoc-banh-dang-hai-ba/",
+        "seo_title": "Bánh trôi đền Hát Môn: hèm kiêng ăn hơn 60 ngày và tục dâng bánh",
+        "seo_description": "Bánh trôi đền Hát Môn là lễ vật dâng Hai Bà: hèm kiêng ăn hơn 60 ngày sau Giao thừa, mùng 6 tháng Ba âm lịch được ăn bánh, thần tích quán Tiên và cách làm bánh lễ theo bài báo.",
+        "checked_at": "2026-10-19T04:12:45.167584+00:00"
+      }
     }
   },
   "categories": {}
