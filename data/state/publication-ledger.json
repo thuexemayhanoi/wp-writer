@@ -14248,7 +14248,7 @@
       }
     },
     "NT-000860": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T20:58:32.005747+00:00",
       "source_hash": "3d2702f73fb5fcdc37f55acdefb88ef3b1d71870e1aa767da89155a0c6a2ba2d",
       "slug": "lang-du-lich-cong-dong-quynh-son-o-lang-son-danh-hieu-lang-du-lich-tot-nhat-2025-cua-un-tourism-nghia-la-gi-va-lang-co-gi-cho-khach",
@@ -14264,8 +14264,37 @@
       "category_warning": null,
       "git_commit": "b3087e619ac8c4b7eef855135710aecacb2a1141",
       "run_id": "39322982572",
-      "updated_at": "2026-10-19T20:58:35.815918+00:00",
-      "wp_id": 4284
+      "updated_at": "2026-10-19T20:58:43.091557+00:00",
+      "wp_id": 4284,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lang-du-lich-cong-dong-quynh-son-o-lang-son-danh-hieu-lang-du-lich-tot-nhat-2025-cua-un-tourism-nghia-la-gi-va-lang-co-gi-cho-khach/",
+      "verified_at": "2026-10-19T20:58:43.091550+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4284,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lang-du-lich-cong-dong-quynh-son-o-lang-son-danh-hieu-lang-du-lich-tot-nhat-2025-cua-un-tourism-nghia-la-gi-va-lang-co-gi-cho-khach/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lang-du-lich-cong-dong-quynh-son-o-lang-son-danh-hieu-lang-du-lich-tot-nhat-2025-cua-un-tourism-nghia-la-gi-va-lang-co-gi-cho-khach/",
+        "seo_title": "Làng du lịch cộng đồng Quỳnh Sơn: danh hiệu UN Tourism 2025",
+        "seo_description": "Làng du lịch cộng đồng Quỳnh Sơn ở Lạng Sơn nhận danh hiệu Làng Du lịch tốt nhất năm 2025 của UN Tourism: ý nghĩa, nhà sàn, nghề ngói, núi Nà Lay, homestay và cách đến.",
+        "checked_at": "2026-10-19T20:58:43.091525+00:00"
+      }
     }
   },
   "categories": {}
