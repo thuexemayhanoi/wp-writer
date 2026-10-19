@@ -46,7 +46,7 @@ Các món đồ giá trị như hộ chiếu, ví hoặc máy ảnh nên đượ
 
 Air Blade cũng là dòng xe ga phổ thông trong bảng giá tham khảo của Nguyễn Tú, **200.000 đồng/ngày** và **1.000.000 đồng/tuần**. Cùng mức giá tham khảo với Vision không có nghĩa hai chiếc đang sẵn hoặc có trang bị giống nhau. Hãy hỏi ảnh xe thực tế, đời xe nếu cần, khả năng chống chân, tư thế tay lái và tình trạng kỹ thuật thay vì chỉ chọn vì tên Air Blade nghe quen.
 
-Một người đã lái Air Blade lâu năm có thể thấy thao tác khóa, ga và phanh quen thuộc hơn. Người khác lại cảm thấy Vision dễ điều khiển. Để so công bằng, bạn nên thử chiếc được đề xuất trong điều kiện an toàn, không dựa vào bình luận “xe này mạnh hơn nên hợp qua cầu”. Lên dốc cầu, gặp gió hoặc chạy trong đường đông đòi hỏi kỹ năng đúng luật, không được giải quyết chỉ bằng lựa chọn tên xe.
+Một người đã lái Air Blade lâu năm có thể thấy thao tác khóa, ga và phanh quen thuộc hơn. Người khác lại cảm thấy Vision dễ điều khiển. Để so công bằng, bạn nên thử chiếc được đề xuất trong điều kiện an toàn, không dựa vào bình luận “xe này mạnh hơn nên hợp qua cầu”. Xem thêm [hướng dẫn chọn xe ga dễ điều khiển](https://thuexemaynguyentu.com/xe-ga-nao-de-lai-cho-nguoi-moi-tieu-chi-chon-xe-an-toan-hon/) để tự lập danh sách kiểm tra. Lên dốc cầu, gặp gió hoặc chạy trong đường đông đòi hỏi kỹ năng đúng luật, không được giải quyết chỉ bằng lựa chọn tên xe.
 
 Nếu đi nhiều chặng và mang tài liệu, xem cách giữ đồ gọn không làm mất cân bằng. Tuyệt đối không treo vali ở tay lái. Một chiếc xe phù hợp giúp bạn ít phải chú ý vào thao tác cơ bản và có thêm khả năng quan sát giao thông.
 
