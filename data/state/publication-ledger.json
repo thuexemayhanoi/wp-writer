@@ -12267,7 +12267,7 @@
       }
     },
     "NT-000683": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T10:01:37.066121+00:00",
       "source_hash": "c6dd11d785f6acffc8617f5da0c4ad2fa5c981efbec5f6d1f53d8fc6e5ca1fcd",
       "slug": "ho-chieu-goc-hay-ban-sao-khi-di-xe-may-duong-dai-o-viet-nam-my-canada-ireland-va-anh-dan-gi",
@@ -12282,8 +12282,37 @@
       "category_warning": null,
       "git_commit": "b435335e8426c4f9f969e3b42ffb7880d6b07d3d",
       "run_id": "39233919731",
-      "updated_at": "2026-10-19T10:01:41.954825+00:00",
-      "wp_id": 4227
+      "updated_at": "2026-10-19T10:01:48.414195+00:00",
+      "wp_id": 4227,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ho-chieu-goc-hay-ban-sao-khi-di-xe-may-duong-dai-o-viet-nam-my-canada-ireland-va-anh-dan-gi/",
+      "verified_at": "2026-10-19T10:01:48.414189+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4227,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ho-chieu-goc-hay-ban-sao-khi-di-xe-may-duong-dai-o-viet-nam-my-canada-ireland-va-anh-dan-gi/",
+        "categories": [
+          163
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ho-chieu-goc-hay-ban-sao-khi-di-xe-may-duong-dai-o-viet-nam-my-canada-ireland-va-anh-dan-gi/",
+        "seo_title": "Hộ chiếu bản gốc hay bản sao khi đi xe máy ở Việt Nam: các nước dặn gì",
+        "seo_description": "Hộ chiếu bản gốc hay bản sao khi đi xe máy ở Việt Nam? Đối chiếu lời dặn của trang chính phủ Anh, Ireland, Canada, Mỹ, cách lưu bản số và chia giấy tờ.",
+        "checked_at": "2026-10-19T10:01:48.414168+00:00"
+      }
     }
   },
   "categories": {}
