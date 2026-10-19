@@ -7851,7 +7851,7 @@
       }
     },
     "NT-000348": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T03:56:19.945908+00:00",
       "source_hash": "6115250cf6a0844a24e4865bf73c8f70d01001945fc0285947db9b34a67704fc",
       "slug": "lang-lach-danh-vong-khi-lai-xe-may-muc-phat-buong-hai-tay-di-mot-banh-va-tich-thu-xe",
@@ -7866,8 +7866,37 @@
       "category_warning": null,
       "git_commit": "01794ea20be233fefb393d85177c09314c353f1c",
       "run_id": "39196699167",
-      "updated_at": "2026-10-19T03:56:23.743887+00:00",
-      "wp_id": 4133
+      "updated_at": "2026-10-19T03:56:29.551830+00:00",
+      "wp_id": 4133,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lang-lach-danh-vong-khi-lai-xe-may-muc-phat-buong-hai-tay-di-mot-banh-va-tich-thu-xe/",
+      "verified_at": "2026-10-19T03:56:29.551824+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4133,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lang-lach-danh-vong-khi-lai-xe-may-muc-phat-buong-hai-tay-di-mot-banh-va-tich-thu-xe/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lang-lach-danh-vong-khi-lai-xe-may-muc-phat-buong-hai-tay-di-mot-banh-va-tich-thu-xe/",
+        "seo_title": "Lạng lách, đánh võng khi lái xe máy: mức phạt và tịch thu xe",
+        "seo_description": "Lạng lách, đánh võng khi lái xe máy bị phạt 8 triệu đến 10 triệu đồng theo Bộ Công an; toàn văn nghị định nêu tước giấy phép, tịch thu xe khi tái phạm, buông hai tay, đi một bánh.",
+        "checked_at": "2026-10-19T03:56:29.551805+00:00"
+      }
     }
   },
   "categories": {}
