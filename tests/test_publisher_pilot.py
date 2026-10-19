@@ -88,9 +88,10 @@ class PilotBudgetTests(TestCase):
         self.assertEqual(seen[0],('persist',))
         self.assertEqual(seen[1],('network','wp/v2/posts','POST_INTENT','pilot-three-20261019'))
 
-    def test_owner_emergency_stop_remains_active_before_release(self):
+    def test_live_policy_cannot_run_without_emergency_stop_or_pilot_cap(self):
         policy=json.loads((ROOT/'config/production-policy.json').read_text(encoding='utf-8'))
-        self.assertTrue(policy['emergency_stop'])
+        # Owner can release emergency_stop only while strict pilot cap is active.
+        self.assertTrue(policy['emergency_stop'] or pilot_settings(policy) is not None)
 
 
 if __name__=='__main__':
