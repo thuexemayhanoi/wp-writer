@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://nhipsonghanoi.hanoimoi.vn/cot-co-ha-noi-627635.html",
-      "supports": "Hà Nội Mới – Nhịp sống Hà Nội (6/11/2021): cột cờ cao 33,4 m, 41,4 m tính cả cán cờ, 54 bậc thang xoáy ốc, xây 1805–1812, nằm trong khuôn viên Bảo tàng Lịch sử Quân sự Việt Nam.",
-      "sha256": "89da1ca33108de9303898601681689ffbc6d7455131064ed68d3388b3a24d559",
-      "verified_at": "2026-10-19T21:27:43.132682+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnexpress.net/cot-co-hon-200-tuoi-con-nguyen-ven-cua-ha-noi-3882001.html",
-      "supports": "VnExpress: Kỳ đài xây 1805–1812 dưới thời Gia Long trên phần đất phía nam Hoàng thành Thăng Long, ba tầng đế, thân tám cạnh, 54 bậc thang, thần công phát hiện năm 2003 ở chân cột.",
-      "sha256": "3fe11c07a26679c222d69664bbbf4f7eeed550806c230a22617fb8e88407c21f",
-      "verified_at": "2026-10-19T21:27:50.188256+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnexpress.net/cot-co-ha-noi-duoc-xay-dung-thoi-vua-nao-3660367-p10.html",
-      "supports": "VnExpress: cột cờ Hà Nội được công nhận là Di tích lịch sử văn hóa quốc gia năm 1989.",
-      "sha256": "34cafc27871ed2e15225420b18332d717e8d58a1fc974276aa9395781969571b",
-      "verified_at": "2026-10-19T21:27:52.498106+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -130,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T21:27:58.758270+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T21:32:41.404214+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "96505c2459a18a63c9d32ef8c72c2de098aeb594e43191e222969086342e54ce",
+  "inventory_sha256": "2742fb8a2345b08e36be10a849461cb896a6805cb0dd33da02224084ba490071",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

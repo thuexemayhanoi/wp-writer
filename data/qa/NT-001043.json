@@ -70,7 +70,24 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [],
+  "source_evidence": [
+    {
+      "url": "https://dantri.com.vn/van-hoa/dieu-it-biet-ve-khue-van-cac-o-van-mieu-quoc-tu-giam-moi-mo-cua-tro-lai-20220219034248770.htm",
+      "supports": "Dân trí (19/2/2022): Khuê Văn Các xây năm 1805, cổng thứ hai của Văn Miếu, lầu vuông 8 mái trên nền gạch Bát Tràng, sao Khuê, được chọn biểu tượng Hà Nội năm 1999.",
+      "sha256": "568f5df925327931753a71d3d44876b805d516f791e271081e78a8251a806ced",
+      "verified_at": "2026-10-19T21:37:24.716105+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vnexpress.net/vi-tong-tran-cho-xay-khue-van-cac-cho-dong-xuan-3489671.html",
+      "supports": "VnExpress (29/10/2016): các công trình biểu tượng của Hà Nội (Khuê Văn Các, chợ Đồng Xuân, cột cờ) xây dưới thời Tổng trấn Bắc thành Nguyễn Văn Thành, khởi công từ 1804-1805; ông cho tu bổ Văn Miếu, xây thêm Khuê Văn Các.",
+      "sha256": "12f55fd080bb9062b93887f7674393138dd5d038ad7fc8b13124e9829ed70812",
+      "verified_at": "2026-10-19T21:37:26.398692+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
   "evidence_recheck": {
     "pages": [
       {
@@ -123,11 +140,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T21:22:49.823674+00:00",
-  "live_links_checked": false,
+  "at": "2026-10-19T21:37:30.087588+00:00",
+  "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "60640c1cf0f7a116439540f74350fc13a4ca65b34dccf78ec247918cb33bbb2b",
+  "inventory_sha256": "9a93a750eec06a7da81e71dba0d27ea232b99cd641c3a071ad772d46f001cee5",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

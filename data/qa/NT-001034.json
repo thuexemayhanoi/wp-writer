@@ -1,0 +1,167 @@
+{
+  "topic_id": "NT-001034",
+  "status": "PASS",
+  "source_sha256": "32bb6f00a0a00bc91af18f22b5b3eb173de51c1496abb25a3b8cbbad5fd3144b",
+  "body_sha256": "e0e14e5ee3a5d3241562247703c745ee93f0d35c7c129b779ed5a6cf5738ee95",
+  "word_count": 3667,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dsvh.gov.vn/di-tich-lich-su-va-kien-truc-nghe-thuat-van-mieu-quoc-tu-giam-2953",
+      "supports": "Cục Di sản văn hóa: 82 bia tiến sĩ dựng 1484–1780 của 82 khoa thi 1442–1779, ghi 1305 vị đỗ đại khoa, nhà bia dựng lại 1994, dựng ba đợt 1484/1653/1717, đá núi An Hoạch (Thanh Hóa).",
+      "sha256": "a7037ddb82f7036fd80ada1f270257def4b163cdfe28fe8acba29cb9ef05f7cf",
+      "verified_at": "2026-10-19T21:35:26.312017+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.unesco.org/en/memory-world/stone-stele-records-royal-examinations-le-and-mac-dynasties-1442-1779",
+      "supports": "UNESCO – Memory of the World: 82 bia ở Văn Miếu - Quốc Tử Giám dựng 1484–1780 cho các khoa thi 1442–1779; mỗi bia ghi ngày, người soạn, viết chữ, khắc; năm đăng ký 2011, năm nộp hồ sơ 2010.",
+      "sha256": "36581d8c82de71764cd5e2775785935658b9f080d66adabe697fc921d0e488d7",
+      "verified_at": "2026-10-19T21:35:28.396399+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vnexpress.net/bia-tien-si-van-mieu-duoc-cong-nhan-di-san-tu-lieu-the-gioi-2157008.html",
+      "supports": "VnExpress (2010): 82 bia ứng với 82 khoa thi, khắc tên 1304 tiến sĩ; bia đầu dựng 1484, bia cuối dựng 1780; thông tin công bố chiều 9/3 tại Macau, phiên họp Ủy ban Ký ức Thế giới khu vực châu Á - Thái Bình Dương.",
+      "sha256": "a46c75cfa3cd088eb456018a88f33f19465a71324ee562abdc5e18f17eb92466",
+      "verified_at": "2026-10-19T21:35:31.169476+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://hanoimoi.vn/82-bia-tien-sy-o-van-mieu-quoc-tu-giam-ha-noi-duoc-unesco-cong-nhan-la-di-san-tu-lieu-the-gioi-232906.html",
+      "supports": "Hà Nội Mới (9/3/2010): tin từ Ma Cao hồ sơ 82 bia tiến sĩ được công nhận di sản tư liệu thế giới thuộc chương trình Ký ức thế giới; hồ sơ “Bia đá các khoa thi triều Lê - Mạc (1442-1779)”.",
+      "sha256": "e04aff1cc1d2143c234c8467b1e1a2ce9a1811365e7d928957d2d0f2b6bd59e1",
+      "verified_at": "2026-10-19T21:35:32.379301+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2352,
+        "title": "Xe máy điện có cần bằng lái không? Cách phân biệt theo công suất",
+        "why": "stale",
+        "content_hash": "8c5c200eacd4af62c6f482e36bad9112feb65d56c6bb4032d8dbae3c82a64876",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2473,
+        "title": "Yamaha FreeGo và Honda Vision: Khác nhau thế nào khi đi trong phố?",
+        "why": "stale",
+        "content_hash": "7ead5893fc147627e2ba631c69446ed2f5e8550ab42a98c49ed2be3d0b920658",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2553,
+        "title": "Đăng ký biển số xe máy trực tuyến: hồ sơ và các bước cần chuẩn bị",
+        "why": "stale",
+        "content_hash": "07c18eff30a0c8796b3fd7944021fa719dc4afaaacb4f55eb99e40c062e94782",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4048,
+        "title": "Thuê xe máy Hà Nội khi xe cá nhân đang sửa: chọn kỳ thuê và gia hạn nếu gara trễ",
+        "why": "stale",
+        "content_hash": "5eaf7d3b4d760f2a4ab0df94807fe114a8927ceb0af3b0ea5d1d59453a46f20d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T21:35:37.409145+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "93ecbb7435e633ebe61c61274ebcb1fb0fb23511d118aa337d377cc29ca29b01",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

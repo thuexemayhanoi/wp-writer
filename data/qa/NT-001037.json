@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vnexpress.net/mon-bun-che-bien-tu-do-an-thua-4049999.html",
-      "supports": "VnExpress: trước kia bún thang là món gia đình không bán, bí quyết bà nội trợ phố cổ chế biến lại đồ thừa sau Tết; tên “thang” nghĩa là canh hoặc giống bốc thang thuốc Đông y; thành phần tô, nước chan ninh từ tôm he và xương lợn hoặc gà, ăn kèm mắm tôm.",
-      "sha256": "a0e875751ea34e4c01dab5292bbc4e79c0c5e027cefddde25f467dc50761d8da",
-      "verified_at": "2026-10-19T21:29:02.609661+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnexpress.net/khac-biet-bun-thang-cua-nguoi-ha-noi-va-hung-yen-4243647.html",
-      "supports": "VnExpress: tô bún thang Hà Nội như “khu vườn mùa hè” nhiều màu, gắn với cuốn diếp trong bữa cỗ hóa vàng; bún thang Hưng Yên dùng lươn đồng, cua đồng, bún rối Viên Tiêu và phần thang thái dày hơn.",
-      "sha256": "b7765701021115946a840595450d3aa009f28c0821532406b49034c23bb735a6",
-      "verified_at": "2026-10-19T21:29:05.156739+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dantri.com.vn/du-lich/bun-thang-co-am-net-tinh-tuy-cua-am-thuc-ha-thanh-2017052921201118.htm",
-      "supports": "Dân trí (30/5/2017): bún thang phổ biến ở Hà Nội những năm 1930–1940, nước dùng từ gà trống thiến và tôm he, hớt bọt cho trong, ăn kèm mắm tôm và nước mắm cà cuống.",
-      "sha256": "f12449c96cdb2affafe9f7d51bfec2d8718561e3af47a04ca49f82a9dfc5f12c",
-      "verified_at": "2026-10-19T21:29:07.713630+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -130,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T21:29:13.448853+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T21:32:43.106141+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "8de259ad3da95f24e1e803ce3930b6ea8e2d42ac8081efc7eba5e5fd43c95e07",
+  "inventory_sha256": "2742fb8a2345b08e36be10a849461cb896a6805cb0dd33da02224084ba490071",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

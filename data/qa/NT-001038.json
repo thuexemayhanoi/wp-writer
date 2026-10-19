@@ -70,24 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://tuoitre.vn/ngot-am-che-lam-533691.htm",
-      "supports": "Tuổi Trẻ: chè lam là bánh mứt; nổi tiếng khắp nơi là chè lam vùng Thạch Xá, Thạch Thất (Hà Tây xưa); nguyên liệu gạo nếp, gừng già, mật mía, lạc nhân; rang thóc nếp thành hoa rồi xay bột, vây bột, cán thỏi; ăn với chè xanh hãm nước mưa.",
-      "sha256": "eef1336a0444b5773eadc66b14dd8a64b768852855b9e2506c6a53cdc5992dcc",
-      "verified_at": "2026-10-19T21:29:28.634156+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnexpress.net/mon-banh-khien-nguoi-mien-nam-nham-la-do-uong-4346182.html",
-      "supports": "VnExpress (26/8/2021): tên chè lam khiến nhiều người miền Nam nhầm là chè ngọt hoặc nước lá chè; nếp cái hoa vàng, lạc rang, gừng già, mật mía, mạch nha; cách nấu và đổ khay bột nếp rang; thêm lá dứa, gấc.",
-      "sha256": "ec3f1b81d142679b72c412408ad6bcb4e607b61ee4e4b87522f98f76a145121e",
-      "verified_at": "2026-10-19T21:29:32.307729+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -122,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T21:29:37.969282+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T21:32:43.518368+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "690cceef1cfffc07437832f2e4dce02ad07adcefee4a7a53792fc322ad89f968",
+  "inventory_sha256": "2742fb8a2345b08e36be10a849461cb896a6805cb0dd33da02224084ba490071",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
