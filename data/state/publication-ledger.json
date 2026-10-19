@@ -12217,6 +12217,24 @@
         "seo_description": "Xe đạp điện nặng hơn xe đạp thường vì động cơ, pin và khung gia cố. Các nguồn nói gì về tay lái, việc phải phanh sớm hơn và cách dắt, nâng xe, kèm gợi ý làm quen.",
         "checked_at": "2026-10-19T09:56:21.651121+00:00"
       }
+    },
+    "NT-000630": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-19T09:56:33.747346+00:00",
+      "source_hash": "7001099b0b9f5cd3cd0860a10c6da2711823119e92cd2957f441741548ee386d",
+      "slug": "bo-dieu-khien-controller-tren-xe-dien-nam-giua-tay-ga-pin-va-dong-co-de-lam-gi",
+      "expected_status": "publish",
+      "category_id": 168,
+      "visible_hash": "efde42b0fe34d57f8e79c47e877cb731dbbe9101c0028d963e37869942e070b9",
+      "first_paragraph": "Bộ điều khiển xe điện controller là khối điện tử đứng giữa tay ga, pin và động cơ: Yamaha mô tả nó nhận tín hiệu từ tay ga để đưa ra dòng điện cho xe chạy, còn Bộ Năng lượng Mỹ, khi nói về ô tô điện, mô tả nó điều tiết điện từ pin và điều khiển tốc độ cùng mô-men xoắn của động cơ. Bên trong nó làm việc ra sao thì các nguồn không mô tả. Bài đối chiếu bốn trang, đọc trong tháng 10/2026: bài \"Xe máy điện là gì?\" của Yamaha Motor Việt Nam, đăng ngày 5 tháng 4 năm 2023, nói về xe máy điện nói chung; trang \"How Do All-Electric Cars Work?\" của Alternative Fuels Data Center (AFDC) thuộc Bộ Năng lượng Mỹ, nói về ô tô điện chứ không phải xe máy điện; phần hỏi đáp về xe đạp điện của hãng xe đạp Trek; và hướng dẫn sử dụng xe điện Quantum của Dat Bike, một mẫu xe cụ thể. Trang của AFDC và Trek không ghi ngày đăng trong nội dung đã đọc; đầu trang của Dat Bike ghi hai mốc ngày là 21 tháng 10 năm 2025 và 10 tháng 4 năm 2026 mà không nói mốc nào là ngày đăng.",
+      "meta_title": "Bộ điều khiển xe điện controller làm gì giữa tay ga, pin và động cơ",
+      "meta_description": "Bộ điều khiển xe điện controller nhận tín hiệu tay ga, điều tiết dòng điện từ pin tới động cơ. Bài đối chiếu Yamaha, Trek, Dat Bike, AFDC (ô tô điện), nêu rõ điều nguồn chưa nói.",
+      "intended_taxonomy_key": "electric-tech",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "ad7436cbb3bd456dab0d347148b62ea3ffb579a0",
+      "run_id": "39232643217",
+      "updated_at": "2026-10-19T09:56:33.749376+00:00"
     }
   },
   "categories": {}
