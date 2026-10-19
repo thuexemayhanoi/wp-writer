@@ -15718,7 +15718,7 @@
       }
     },
     "NT-001047": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:44:33.253882+00:00",
       "source_hash": "c9364765e3f726ad18fe398df8147969ff9c5332e072572444ae621e27c15ad3",
       "slug": "o-mai-hang-duong-pho-mut-o-mai-cua-pho-co-tiem-gia-loi-lap-1898-va-cach-o-mai-duoc-phoi-u",
@@ -15734,8 +15734,37 @@
       "category_warning": null,
       "git_commit": "ca73533373852b029f1fb4c13466b766ccb459a8",
       "run_id": "39328856675",
-      "updated_at": "2026-10-19T21:44:37.091421+00:00",
-      "wp_id": 4314
+      "updated_at": "2026-10-19T21:44:42.912342+00:00",
+      "wp_id": 4314,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/o-mai-hang-duong-pho-mut-o-mai-cua-pho-co-tiem-gia-loi-lap-1898-va-cach-o-mai-duoc-phoi-u/",
+      "verified_at": "2026-10-19T21:44:42.912334+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4314,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/o-mai-hang-duong-pho-mut-o-mai-cua-pho-co-tiem-gia-loi-lap-1898-va-cach-o-mai-duoc-phoi-u/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/o-mai-hang-duong-pho-mut-o-mai-cua-pho-co-tiem-gia-loi-lap-1898-va-cach-o-mai-duoc-phoi-u/",
+        "seo_title": "Ô mai Hàng Đường: phố mứt, tiệm Gia Lợi 1898 và cách phơi, ủ",
+        "seo_description": "Ô mai Hàng Đường qua hai bài báo: phố mứt của phố cổ Hà Nội, tiệm Gia Lợi lập năm 1898 theo Thanh Niên, cách phơi nắng, ủ ô mai và điểm hai nguồn kể khác nhau.",
+        "checked_at": "2026-10-19T21:44:42.912315+00:00"
+      }
     }
   },
   "categories": {}
