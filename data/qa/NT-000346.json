@@ -1,0 +1,148 @@
+{
+  "topic_id": "NT-000346",
+  "status": "PASS",
+  "source_sha256": "e647217412138dcaa1f4daf93926c3cb2493f19ea0c1e636a199e44cb0f857ec",
+  "body_sha256": "8690b4b310c229073d93d3c6116444272f2b70549947037b805a26693d911584",
+  "word_count": 4394,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/7511a592-d684-4380-978a-26ebfc4adff4?page=%2F",
+      "supports": "Bộ Công an trả lời (24/01/2025) trích khoản 8 và khoản 11 Điều 47 Nghị định 168/2024/NĐ-CP: gửi thông báo cho chủ phương tiện khi chưa dừng ngay được phương tiện; chủ phương tiện có nghĩa vụ hợp tác xác định người điều khiển, cá nhân không hợp tác hoặc không giải trình được bị xử phạt; quá thời hạn thì thông báo cho cơ quan đăng kiểm, đăng ký xe, cấp giấy phép lái xe.",
+      "sha256": "884654caed95ff25f970c8629bc82d3f8d0ba19db01c30a6648d4d9588676095",
+      "verified_at": "2026-10-19T03:40:53.599637+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://bocongan.gov.vn/bai-viet/huong-dan-nop-phat-nguoi-va-tham-gia-giao-thong-khi-dang-trong-thoi-gian-cho-cap-doi-giay-phep-lai-xe-d139-t43826",
+      "supports": "Hướng dẫn của Cục Cảnh sát giao thông (05/03/2025): nơi giải quyết thông báo \"phạt nguội\" (nơi phát hiện vi phạm, Phòng CSGT nơi cư trú hoặc địa điểm tiếp nhận do Phòng CSGT công bố), thông báo trước 01/3 yêu cầu đến Công an cấp huyện, và cảnh báo lừa đảo.",
+      "sha256": "099af9a369d0f9d98914c87b98cea87495c012f46d52992f9d88b4db244b8941",
+      "verified_at": "2026-10-19T03:40:56.444315+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://bocongan.gov.vn/bai-viet/phong-canh-sat-giao-thong-ha-noi-huong-dan-nguoi-dan-theo-doi-thong-tin-va-thuc-hien-xu-phat-vi-pham-ttatgt-qua-ung-dung-cong-dan-thu-do-so-ihanoi-1767781260",
+      "supports": "Bài của Bộ Công an (07/01/2026) hướng dẫn của Phòng Cảnh sát giao thông Hà Nội: vi phạm phát hiện qua hệ thống Camera AI có thể xử lý trực tiếp tại Đội CSGT hoặc trên môi trường điện tử qua ứng dụng iHanoi theo sáu bước, nộp phạt qua mã QR.",
+      "sha256": "ae985ac91ffceba2ef8494b086ec24bacc03b7e4ab609e3ce9c8a124da15dc04",
+      "verified_at": "2026-10-19T03:41:15.810148+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://bocongan.gov.vn/hoi-dap/chi-tiet-cau-hoi/fb5d3a04-cc61-4468-b78e-d6a948d23af9?page=%2F",
+      "supports": "Bộ Công an trả lời (20/05/2025): cần tra cứu trên trang web www.csgt.vn để biết phương tiện vi phạm ở đâu và liên hệ cơ quan Công an đã gửi thông báo vi phạm (\"phạt nguội\") để được hướng dẫn giải quyết.",
+      "sha256": "a702999cf2e6c2c770767efb79c8669d24e31f7ff8606f3d9140639901a8acdf",
+      "verified_at": "2026-10-19T03:41:18.686311+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=212167",
+      "supports": "Trang văn bản của Cổng thông tin điện tử Chính phủ: Nghị định 168/2024/NĐ-CP ban hành 26-12-2024, có hiệu lực từ 01-01-2025.",
+      "sha256": "0e73e6b08be7e97b51749aaa31a738f514e0715f258f937c6ded5d5473e75e4f",
+      "verified_at": "2026-10-19T03:41:20.637619+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 4058,
+        "title": "Thuê xe máy khi chăm người nhà ở bệnh viện Hà Nội: tính ngày thuê và sắp lịch đi lại",
+        "why": "stale",
+        "content_hash": "92611919afd9af68489111c1f99c127439f1c41b7a945f6d846768a64175f9f5",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T03:41:28.598191+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "d33d7742794b6828481ff25d510639a4111aa2f6dd4c847b862923a2899fd38b",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
