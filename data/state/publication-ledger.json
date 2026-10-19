@@ -13371,7 +13371,7 @@
       }
     },
     "NT-000838": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T15:10:55.258401+00:00",
       "source_hash": "6ab5598208c8839de1f042d5e7f6ac23a48f1a05c6860e7b14b9923acc06cedb",
       "slug": "epa-wltp-va-nedc-la-gi-ba-chuan-do-quang-duong-xe-dien-va-vi-sao-cung-mot-xe-ra-ba-con-so-khac-nhau",
@@ -13386,8 +13386,37 @@
       "category_warning": null,
       "git_commit": "8e265ef8aa3e7899d0f47efe56ed2b1d51691681",
       "run_id": "39274893290",
-      "updated_at": "2026-10-19T15:10:59.713993+00:00",
-      "wp_id": 4255
+      "updated_at": "2026-10-19T15:11:05.696776+00:00",
+      "wp_id": 4255,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/epa-wltp-va-nedc-la-gi-ba-chuan-do-quang-duong-xe-dien-va-vi-sao-cung-mot-xe-ra-ba-con-so-khac-nhau/",
+      "verified_at": "2026-10-19T15:11:05.696770+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4255,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/epa-wltp-va-nedc-la-gi-ba-chuan-do-quang-duong-xe-dien-va-vi-sao-cung-mot-xe-ra-ba-con-so-khac-nhau/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/epa-wltp-va-nedc-la-gi-ba-chuan-do-quang-duong-xe-dien-va-vi-sao-cung-mot-xe-ra-ba-con-so-khac-nhau/",
+        "seo_title": "EPA, WLTP và NEDC là gì: ba chuẩn đo quãng đường xe điện",
+        "seo_description": "EPA, WLTP và NEDC là gì? Giải thích ba chuẩn thử quãng đường xe điện trong phòng thí nghiệm, vì sao cùng một xe ra các con số khác nhau và cách hiểu MPGe.",
+        "checked_at": "2026-10-19T15:11:05.696752+00:00"
+      }
     }
   },
   "categories": {}
