@@ -1,0 +1,160 @@
+{
+  "topic_id": "NT-000839",
+  "status": "PASS",
+  "source_sha256": "62d0ad3a37b240971bc94abb7d170736b61cd699ba6e0654195b9a30a07f574d",
+  "body_sha256": "bdd02ad52764500437d0101931b8f357c0243b2a7a0d8003515dfce4828b6c6f",
+  "word_count": 3765,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vneconomy.vn/automotive/pin-natri-ion-co-thuc-su-la-buoc-dot-pha-thay-the-cho-pin-lithium-ion-truyen-thong.htm",
+      "supports": "VnEconomy (6/6/2023, Khôi Nguyên, chuyên mục Auto News): pin natri-ion (SIB) có cực dương, cực âm, dải phân cách và chất điện phân lỏng như lithium-ion nhưng dùng natri thay lithium; cả hai cực có thể làm bằng nhôm thay vì đồng đắt hơn ở cực dương; natri dồi dào nên chi phí sản xuất có thể thấp hơn và nguồn cung ít bấp bênh; natri ít phản ứng hóa học hơn nên giảm nguy cơ thoát nhiệt; CATL tiết lộ năm 2021 đầu tư công nghệ này | VnEconomy (6/6/2023): nhược điểm chính là mật độ năng lượng thấp hơn vì ion natri lớn và nặng hơn, ảnh hưởng phạm vi lái xe; theo bài năm 2023, natri-ion có vòng đời ngắn hơn, sạc chậm hơn và còn ở giai đoạn đầu, thiếu chuỗi cung ứng; số liệu gần đây của các hãng cell lớn khi đó cho thấy mật độ năng lượng gần cạnh tranh với LFP ở mức giá thấp hơn, mở ra khả năng cho xe bình dân và xe nhỏ; giới chuyên gia thận trọng cho đến khi có xe chạy thử thực tế",
+      "sha256": "9b1f37269f83789fb2ada309d05c568b1db479615b455dab349ee3971ec0ff65",
+      "verified_at": "2026-10-19T15:11:10.568446+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sodium-ion_battery",
+      "supports": "Wikipedia (Sodium-ion battery, nhãn cần cập nhật 7/2026, không ghi ngày): nêu hệ lưu trữ lưới điện cố định đang vận hành và xe có bộ pin natri-ion bán thương mại cho xe scooter hạng nhẹ (light scooters) của Yadea dùng công nghệ pin natri-ion HuaYu; CATL (2025) công bố Naxtra 175 Wh/kg so với LFP 185 Wh/kg, hỗ trợ sạc 5C, hơn 10.000 chu kỳ so với 4.500 chu kỳ của LFP tốt nhất, giữ 93% dung lượng ở −30 °C; Faradion nêu pin dạng túi 160 Wh/kg, 300 đến hơn 1.000 chu kỳ tùy độ sâu xả, bộ pin từng chứng minh cho ứng dụng e-bike và e-scooter | Wikipedia (Sodium-ion battery): lịch sử công nghệ: phát triển trong thập niên 1970 và đầu thập niên 1980; đến thập niên 1990 lithium-ion cho thấy triển vọng thương mại hơn nên sự quan tâm đến natri-ion giảm; đầu thập niên 2010 natri-ion được quan tâm trở lại, chủ yếu do chi phí nguyên liệu pin lithium-ion tăng",
+      "sha256": "29271c931aca90f0f594a88a5327490feda83155a0afd02e5fea36cb26a1934f",
+      "verified_at": "2026-10-19T15:11:10.820264+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2399,
+        "title": "Honda ICON e: có gì đáng chú ý với người dùng xe điện đô thị?",
+        "why": "stale",
+        "content_hash": "548de8447050fd0d5b76ead88b2cb93eeac7c91d679ca89f64b42afda3bc3023",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2415,
+        "title": "Honda ICON e: và Yamaha NEO's khác nhau ở điểm nào khi sử dụng?",
+        "why": "stale",
+        "content_hash": "46d798529e84be3408ca9645084bcb3ab939b77426292e48c1867fa9e8a729f8",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2422,
+        "title": "Yadea và VinFast khác nhau thế nào khi chọn xe máy điện",
+        "why": "stale",
+        "content_hash": "fad15df82e26c0a36f7ca807746c1f7a42149457965d7219044bd7238970ce07",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2622,
+        "title": "Hoàng thành Thăng Long có gì? Giá vé, giờ mở cửa và cách tham quan",
+        "why": "stale",
+        "content_hash": "1d198ab7452c92604271329801956283c798cb81955fe394ef94bb66188faaf3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4056,
+        "title": "Đổi khách sạn giữa kỳ thuê xe máy Hà Nội: giữ xe ở đâu, chuyển hành lý và đổi nơi trả",
+        "why": "stale",
+        "content_hash": "fcd4a86c62969cb4812af213b0e424c5549b185d290ed9a416d5e9d816804528",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T15:11:17.176863+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "b516862faf8fe273d668d6ba0bfc9fbe0c9b9bd1ddbfbdb51860ca4ecf9bf01a",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

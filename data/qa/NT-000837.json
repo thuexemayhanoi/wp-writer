@@ -1,0 +1,159 @@
+{
+  "topic_id": "NT-000837",
+  "status": "PASS",
+  "source_sha256": "9dc7273096413d6ac3bd46be65a22467b0d0fed134d7ccbcbf67a1bdd48d1639",
+  "body_sha256": "9b540649d7dc5b2ac957eece220fcd0e97eeb015765fa1533361d41017622ea1",
+  "word_count": 3782,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://thanhnien.vn/lam-gi-voi-hang-trieu-tan-pin-xe-dien-het-vong-doi-185250516114301928.htm",
+      "supports": "Thanh Niên (16/5/2025, Hà Khanh, 'Làm gì với hàng triệu tấn pin xe điện hết vòng đời?', thuật lại The Conversation và báo cáo Autocraft): pin đã qua sử dụng chia 3 nhóm theo sức khỏe: từ 80% trở lên tân trang dùng cho ô tô điện, xe máy, xe đạp, xe golf; 60–80% dùng cho lưu trữ điện cố định hoặc nguồn điện liên tục; dưới 60% cắt nhỏ, tinh chế thu khoáng chất cho pin mới; dự báo IEA hơn 11 triệu tấn pin lithium-ion bị loại bỏ vào năm 2035 | Thanh Niên (16/5/2025): nhóm pin trung bình còn 60–80% dung lượng dùng lại cho ứng dụng hoàn toàn khác như lưu trữ điện cố định hoặc nguồn điện liên tục; Autocraft nói hầu hết vấn đề pin EV bắt nguồn từ lỗi cell riêng lẻ, trung bình chỉ cần thay hơn một mô-đun mỗi bộ để khôi phục hơn 90% hiệu suất; 559 lần sửa pin thương mại năm 2024 cho thấy 92% mô-đun trong bộ pin 'hỏng' còn tái sử dụng được; cách sửa này giảm 93% CO2 so với thay và tái chế cả bộ 82,5 kWh",
+      "sha256": "db864856fc06286e72e375ec5b6e76301a9d9e935590955276949d661bf0d9e9",
+      "verified_at": "2026-10-19T15:10:18.957800+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Electric_vehicle_battery",
+      "supports": "Wikipedia (Electric vehicle battery, mục Reusing and repurposing, không ghi ngày): cuối vòng đời của pin xe điện còn phụ thuộc ý muốn của chủ xe, tình trạng bộ phận khác và va chạm, nhưng trong nghiên cứu tái sử dụng thường tính khi dung lượng còn 80%; tái sử dụng cho lưu trữ cố định giúp lấy thêm giá trị từ bộ pin; mỗi cell xuống cấp khác nhau và thông tin sức khỏe từ BMS lấy ở cấp bộ pin chứ không ở cấp cell; các dự án thành công dùng pin cũ cho cắt đỉnh tải hoặc lưu trữ bổ sung cho điện tái tạo | Wikipedia (Electric vehicle battery): tháo mô-đun và cell tốn kém, mất thời gian; mô-đun phải xả hết điện rồi tháo và ghép lại theo công suất, năng lượng của ứng dụng đời thứ hai; đơn vị tân trang có thể bán hoặc dùng lại phần điện xả ra để giảm chi phí; robot được dùng để tăng an toàn khi tháo; công nghệ pin thiếu minh bạch và thiếu chuẩn ghi nhãn hóa học; pin mới rẻ nhanh hơn dự đoán nên hàng tân trang kém hấp dẫn",
+      "sha256": "c7997fdbdac75c059573398f168f3e93d380b47d0e2a72484374df41fb22004a",
+      "verified_at": "2026-10-19T15:10:19.185885+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://thanhnien.vn/viet-nam-mien-bat-buoc-tai-che-pin-xe-dien-co-lo-hang-trieu-tan-rac-pin-185260408142255452.htm",
+      "supports": "Thanh Niên (8/4/2026, Hà Mai): bài chủ yếu nói về tỷ lệ tái chế bắt buộc nhưng có đoạn nói pin xe điện xuống mức 70–80% vẫn có thể làm hệ thống lưu trữ năng lượng (BESS) thêm hàng chục năm trước khi cần tái chế thực sự; mô tả kế hoạch ba giai đoạn của VinFast (thu hồi và quản lý, tái sử dụng, tái chế), trong đó pin không còn đủ hiệu năng chạy xe sẽ được ghép thành trạm tích trữ điện lưới, trạm sạc hoặc nguồn dự phòng cho nhà máy; chỉ dùng phần tái sử dụng, không dùng phần về nghĩa vụ tái chế | Thanh Niên (8/4/2026): VinFast ký biên bản ghi nhớ với Marubeni (Nhật Bản) để nghiên cứu sản xuất hệ thống lưu trữ năng lượng BESS từ pin xe điện cũ; theo kế hoạch này pin còn dùng được ở vòng đời thứ hai rồi mới đến tái chế hoàn toàn; đây là kế hoạch do hãng nêu và do báo thuật lại, bài không đánh giá mức thực hiện",
+      "sha256": "19593a20f77cc4a6f9b1917139446b42af9b4944093f961b6d250b09cc418669",
+      "verified_at": "2026-10-19T15:10:20.678029+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 925,
+        "title": "Thuê Xe Điện Hà Nội – Chọn Xe Máy Điện Hay Xe Đạp Điện?",
+        "why": "stale",
+        "content_hash": "838c9d37eced2e74deeb9b1fb50c29d75e84a717e3f8dd7c79c8cc8599007bf1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2417,
+        "title": "Xe máy điện Yadea có tốt không? Ưu nhược điểm người dùng cần biết",
+        "why": "stale",
+        "content_hash": "0164531f890f08be8f0da4a90ffbe1bc5d7ce5908bd8637d53cc98b9fed34354",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2550,
+        "title": "Thủ tục sang tên xe máy cũ gồm những bước nào theo quy định hiện nay?",
+        "why": "stale",
+        "content_hash": "bbb2cdb8032f56b92d9bccf003c045dc66a520285ee21afc89e36f956c1cf093",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2582,
+        "title": "Xe nào phù hợp chạy trong phố Hà Nội? Gợi ý theo từng nhu cầu",
+        "why": "stale",
+        "content_hash": "0f62d1c774af57a3c896ffd697700d31e6892614883dbc70f9970230ae26d134",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T15:10:29.410899+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "3cacda7559beafa14d12b36362d5e1b01877876403044a7399e8c49990d1a1ea",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
