@@ -70,48 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vnexpress.net/xe-dien-dung-pin-ben-khien-nganh-tai-che-kho-kiem-tien-5097494.html",
-      "supports": "VnExpress (15/7/2026, Hồ Tân theo NPR, thị trường Mỹ): pin LFP rẻ và bền hơn nên làm giảm giá trị vật liệu thu hồi; lithium vẫn có giá trị nhưng riêng sắt phốt phát gần như không mang lại lợi nhuận; doanh nghiệp tái chế nghiền pin thành khối đen (black mass) rồi tách vật liệu; trước đây pin chứa nhiều niken, coban nên tái chế còn bù được chi phí; ở Bắc Mỹ doanh nghiệp tái chế hiện thu thêm phí khi nhận pin LFP (bài nêu số USD mỗi kg, không dùng); phần lớn pin các cơ sở Mỹ tái chế hiện nay là pin lỗi khi sản xuất | VnExpress (15/7/2026): khi lượng xe điện lưu hành tăng và nhiều xe đến cuối vòng đời, số pin cần tái chế sẽ tăng mạnh nhưng phần lớn là LFP với giá trị vật liệu thấp; pin trên xe điện bền hơn dự đoán nên số lượng cần xử lý sau sử dụng còn khá ít; chuyên gia của Benchmark Mineral Intelligence nói nhiều doanh nghiệp đầu tư nhà máy tái chế vài năm trước chưa dự đoán LFP phát triển nhanh nên thiếu chuẩn bị; một số doanh nghiệp thu gom xe cũ thận trọng khi nhận xe điện vì lo chi phí xử lý pin",
-      "sha256": "abd5ee05af14fc0b441897ed2962be0f45e2442eacb0a1432e00e07b0616b078",
-      "verified_at": "2026-10-19T15:11:36.763380+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnexpress.net/pin-xe-dien-duoc-tai-che-nhu-the-nao-4919821.html",
-      "supports": "VnExpress (29/7/2025, Hồ Tân): pin lithium gồm lithium-ion và LFP được thu gom, khử điện, phân loại theo hóa học (lithium-ion, LFP, LCO), tách thành phần rồi nghiền thành bột đen; nhiệt luyện có nhược điểm khó thu lithium và graphite, thải nhiều CO2, tiêu tốn năng lượng và hiệu quả thấp với pin không chứa kim loại quý như LFP (không chứa cobalt, nickel, đồng); thủy luyện cho hiệu suất thu hồi cao với lithium, ít khí độc, năng lượng và chi phí thấp nhưng cần xử lý axit và nước thải; nhiều công ty kết hợp hai cách | VnExpress (29/7/2025): nhiều công ty tái chế kết hợp nhiệt luyện với thủy luyện để thu hồi lithium, giảm phát thải và nâng hiệu suất; ưu điểm của nhiệt luyện là dễ mở rộng quy mô, xử lý được pin không phân loại, tận dụng hạ tầng luyện kim sẵn có và thu hồi hiệu quả coban, niken",
-      "sha256": "c0ad8b1b771fc8fa81706299872b58b9ed009a7668139e8da8b238b31f759b71",
-      "verified_at": "2026-10-19T15:11:38.643197+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Electric_vehicle_battery",
-      "supports": "Wikipedia (Electric vehicle battery, không ghi ngày): trích kết quả của Ciez và Whitacre rằng với LFP lợi ích ròng về phát thải của tái chế là âm vì LFP không có coban và niken (đắt và tốn năng lượng để sản xuất) nên khai thác mới tiết kiệm năng lượng hơn; cùng đoạn nói với các sai số nêu trong biểu đồ thì không thể chọn chắc chắn cách tái chế tốt nhất (trực tiếp cho cell túi, thủy luyện cho cell trụ) | Wikipedia (Electric vehicle battery): giải thích kết quả nêu trên: vì cell LFP thiếu coban và niken là những kim loại đắt và tốn năng lượng để sản xuất nên khai thác mới hiệu quả hơn về năng lượng; cũng nêu năm 2019 chỉ khoảng 5% pin xe điện được tái chế",
-      "sha256": "c7997fdbdac75c059573398f168f3e93d380b47d0e2a72484374df41fb22004a",
-      "verified_at": "2026-10-19T15:11:38.872448+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Lithium-ion_battery_recycling",
-      "supports": "Wikipedia (Battery recycling, mục lithium-ion, không ghi ngày): giá trị coban thu hồi là phần then chốt của kinh tế tái chế và việc các hãng bỏ coban khỏi sản phẩm có thể vô tình làm giảm tái chế; thu lithium từ pin cũ đắt gấp năm lần lithium khai thác; nấu chảy thông thường không thu được lithium và mangan vì chúng nằm lại xỉ; các quy trình hiện nay thu hồi khoảng 25% đến 96% vật liệu của một cell lithium-ion | Wikipedia (Battery recycling): phương pháp làm mới tại chỗ (in-situ regeneration) phù hợp với vật liệu mà cơ chế xuống cấp thường là mất lithium bị giữ lại như LFP; một cell túi LFP trong phòng thí nghiệm còn 96% dung lượng sau lần làm mới thứ 6 ở 11.818 chu kỳ khi chạy ở 1C; phương pháp này chưa thương mại hóa nhưng được mô tả là triển vọng cho tính bền vững dài hạn của pin",
-      "sha256": "3a040c45aba4c64ed978029b16a7f1bdff92110aa5b12d50c5b09766f24b317a",
-      "verified_at": "2026-10-19T15:11:39.459290+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Lithium_iron_phosphate_battery",
-      "supports": "Wikipedia (Lithium iron phosphate battery, không ghi ngày): LFP là pin lithium không chứa coban; sắt và phosphate rất phổ biến trong vỏ Trái đất; LFP không chứa niken và coban là hai kim loại khan hiếm và đắt; thông số trong khung đầu trang: tuổi thọ theo thời gian trên 10 năm và theo chu kỳ 2.500–9.000 chu kỳ, năng lượng riêng 95–172 Wh/kg; tốc độ mất dung lượng chậm hơn các hóa học lithium-ion khác | Wikipedia (Lithium iron phosphate battery): sắt và phosphate rất phổ biến trong vỏ Trái đất; mối lo về quyền con người và môi trường được nêu với việc dùng coban và khai thác niken",
-      "sha256": "22ac98a0164d3c681c638320a4d210da2efb83fd0b5b9fa155482659a20d62ec",
-      "verified_at": "2026-10-19T15:11:39.636950+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -164,11 +123,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T15:11:45.806630+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T15:15:36.956487+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "c18f644a98f9ad9142aa0fd46049e06137cef9f12e4952a1fe0fd859beabfed7",
+  "inventory_sha256": "05652236f3784cdb4b399b814ab1b375e401d48166559436c6e9ebfa26cc578a",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

@@ -70,40 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://tuoitre.vn/nld/ly-do-xe-dien-it-chet-may-khi-ngap-196251004202342891.htm",
-      "supports": "Tuổi Trẻ (đăng lại từ Người Lao Động, 05/10/2025, Long Giang), Lý do xe điện ít 'chết máy' khi ngập: PGS-TS Đỗ Văn Dũng (Phó Chủ tịch Hội Ô tô - Máy động lực TP.HCM) nói ở vùng nước sâu hoặc ngập lâu xe điện vẫn có nguy cơ hỏng nghiêm trọng; ở vùng ven biển nước mặn tăng rủi ro ăn mòn pin, có thể gây cháy nổ vài ngày sau ngập; bài nói về xe điện nói chung | Tuổi Trẻ (05/10/2025): nước sâu hoặc ngập lâu vẫn có nguy cơ hỏng nghiêm trọng theo PGS-TS Đỗ Văn Dũng",
-      "sha256": "1663d49e9b8301b7c1a2cb24cd1ee826b325c128577533ef5a827d4d0623519c",
-      "verified_at": "2026-10-19T15:12:13.617829+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnexpress.net/rui-ro-khi-lam-dung-kha-nang-loi-nuoc-cua-xe-dien-4932121.html",
-      "supports": "VnExpress (27/08/2025, Hồ Tân), Rủi ro khi lạm dụng khả năng lội nước của xe điện: nước lọt vào pin tăng nguy cơ chập điện, pin phồng rộp, thậm chí cháy nổ; pin ngấm ẩm hoặc hỏng lớp cách điện thường phải thay cả cụm pin, chi phí có thể tới 30-40% giá trị xe; kỹ thuật viên phải tháo rời pin, mô-tơ để kiểm tra, sấy khô | VnExpress (27/08/2025): pin ngấm ẩm hoặc hỏng lớp cách điện thường phải thay cả cụm pin, chi phí có thể chiếm tới 30-40% giá trị xe (lời báo)",
-      "sha256": "e226c87ca931dd2e1e3989f05f3b56ce1dc07a2f914f71b9fe6dce29c849dd8b",
-      "verified_at": "2026-10-19T15:12:15.776926+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://thanhnien.vn/can-lam-gi-voi-xe-may-dien-bi-ngap-nuoc-do-lu-trieu-cuong-185251122170708519.htm",
-      "supports": "Thanh Niên (24/11/2025, Hoàng Cường), Cần làm gì với xe máy điện bị ngập nước do lũ, triều cường?: sạc khi xe còn ẩm có thể chập cháy bộ sạc hoặc hỏng cell pin, tiềm ẩn nguy cơ mất an toàn; với pin lithium, tiếp xúc nước thậm chí có thể hỏng cả pack pin; chỉ nên cắm sạc khi chắc chắn xe đã khô hoàn toàn | Thanh Niên (24/11/2025): chỉ nên cắm sạc khi chắc chắn xe máy điện đã khô hoàn toàn",
-      "sha256": "7a1268f1d1a3712f71883f4725d8e493342a65c3702a18ec1e9e53ec13c3c72d",
-      "verified_at": "2026-10-19T15:12:17.857302+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnexpress.net/luu-y-gi-khi-dung-xe-may-dien-mua-mua-ngap-trieu-cuong-5120582.html",
-      "supports": "VnExpress (14/10/2026, Quang Anh), Lưu ý gì khi dùng xe máy điện mùa mưa ngập, triều cường: theo VinFast, xe ngập nặng hoặc ngâm lâu thì không khởi động, không vận hành tiếp, không sạc pin; tắt hoàn toàn khóa điện và các công tắc; liên hệ hãng và đưa xe tới xưởng bằng phương tiện chuyên chở; kỹ thuật viên kiểm tra hệ thống điện, pin, động cơ",
-      "sha256": "76ba7fdc221ca4ad0504e4d0d653a78645e9e7bbb7152f67917ba75d2da2d94f",
-      "verified_at": "2026-10-19T15:12:19.919806+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -129,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T15:12:25.031416+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T15:15:41.085833+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "e254fddbaa49ceb99a4f0db21f22bfe3f8c5c77dc05fb873817abc7b87e03ec4",
+  "inventory_sha256": "05652236f3784cdb4b399b814ab1b375e401d48166559436c6e9ebfa26cc578a",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

@@ -70,48 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vnexpress.net/quang-duong-cua-xe-dien-duoc-do-the-nao-4565389.html",
-      "supports": "VnExpress (2/2/2023, Tân Phan theo Lifewire, 'Quãng đường của xe điện được đo thế nào'): ba chuẩn chính EPA (Mỹ), WLTP và NEDC (hai chuẩn sau do UNECE thông qua) vốn dùng cho ô tô xăng, dầu rồi thêm quãng đường cho xe điện; EPA đo trên thiết bị như 'máy chạy bộ khổng lồ', sạc đầy qua đêm rồi chạy đến cạn pin, nhiệt độ phòng, một người lái không hành khách hay hàng hóa; WLTP 4 giai đoạn, tổng 23 km, tốc độ 56,5/76,6/97,4/131,3 km/h, nhiệt độ cố định 23 °C; NEDC một giai đoạn, 20–30 °C, không tính điều hòa, đèn; MPGe quy đổi 33,7 kWh bằng 1 gallon xăng; ví dụ BMW i4 M50: EPA 434 km, WLTP 520 km, thực tế mùa hè 518 km (90 km/h) và 370 km (120 km/h), mùa đông 385 và 285 km | VnExpress (2/2/2023): các chuyên gia cho rằng quãng đường xe điện phụ thuộc nhiều yếu tố như tốc độ, thời tiết, việc dùng thiết bị điện trong xe, tình hình giao thông, mức cản gió của thân xe và thói quen chạy của tài xế nên con số ước tính chỉ mang tính tham khảo; NEDC lỗi thời nhất nên ít sát thực tế nhất; WLTP và EPA gần thực tế hơn, mức ước tính của WLTP thường nhỉnh hơn EPA; EPA tập trung điều kiện lái ở Mỹ, WLTP tập trung thị trường châu Âu",
-      "sha256": "489329848039ef4bf70f895096742a078921d5bcf8a6325b4ba5611b856706c4",
-      "verified_at": "2026-10-19T15:10:46.273550+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.epa.gov/greenvehicles/fuel-economy-and-ev-range-testing",
-      "supports": "US EPA (trang Fuel Economy and EV Range Testing, ghi cập nhật 1/7/2026): xe thường thử qua 5 chu trình (thành phố, đường cao tốc, tốc độ cao hoặc lái mạnh, nóng 95°F có điều hòa, lạnh 20°F có sưởi và khử sương); thử phạm vi xe điện bằng cách chạy từ đầy pin đến cạn pin trong phòng thí nghiệm trên dynamometer, một chu trình hoặc đa chu trình; kết quả được điều chỉnh vì điều hòa, lạnh, tốc độ cao và lái mạnh, cách phổ biến nhất là nhân 0,7, rồi gộp 55% thành phố và 45% cao tốc thành con số trên nhãn; ví dụ 200 dặm thử đường cao tốc thành 140 dặm thực tế | US EPA (cập nhật 1/7/2026): hãng xe có thể chọn thử đa chu trình gồm bốn chu trình thành phố, hai chu trình cao tốc và hai chu trình tốc độ không đổi; MPGe cho xe cắm sạc: 33,7 kWh điện tương đương năng lượng của 1 gallon xăng, xe đi 100 dặm với 33,7 kWh có 100 MPGe, và giá trị MPGe của EPA đã gồm tổn hao sạc (giả định sạc AC mức 2, gồm tổn hao dây sạc và bộ sạc trên xe); chi tiết quy trình nằm trong quy chế liên bang của Mỹ, bài không đi sâu",
-      "sha256": "4f5dbb7e5b5b4e9be43bef36cb65a2adde58fb622a8b77ea171be0494ae2818a",
-      "verified_at": "2026-10-19T15:10:48.190593+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.fueleconomy.gov/feg/fe_test_schedules.shtml",
-      "supports": "FuelEconomy.gov (trang Detailed Test Information, không ghi ngày): EPA chạy xe qua các lịch trình (cycles/schedules) quy định tốc độ từng thời điểm trong phòng thí nghiệm; xe điện và xe hybrid cắm sạc thử trên cùng chu trình, cùng điều kiện, nhưng để ước tính phạm vi thì chạy đến khi pin không còn đủ điện để xe đạt tốc độ và gia tốc yêu cầu; bảng thuộc tính các chu trình (thành phố, cao tốc, tốc độ cao, điều hòa, nhiệt độ lạnh) với tốc độ tối đa, tốc độ trung bình, quãng đường mô phỏng, số lần dừng | FuelEconomy.gov (Detailed Test Information): định nghĩa chu trình hay lịch trình thử là chuỗi thao tác lái quy định tốc độ xe tại từng thời điểm trong thử nghiệm phòng thí nghiệm; với xe đời 2007 trở về trước chỉ dùng hai lịch trình thành phố và cao tốc; từ xe đời 2008 có thêm ba bài thử để điều chỉnh kết quả cho tốc độ cao, điều hòa và nhiệt độ lạnh",
-      "sha256": "cfda2dcceb065a497053c3b73932b068063dbc375b0742cebd1a330f2ae73255",
-      "verified_at": "2026-10-19T15:10:48.756416+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Worldwide_Harmonised_Light_Vehicles_Test_Procedure",
-      "supports": "Wikipedia (Worldwide Harmonised Light Vehicles Test Procedure, không ghi ngày): WLTP là chuẩn chu trình lái toàn cầu cho khí thải, mức tiêu thụ và cả phạm vi chạy điện của xe điện cắm sạc; dài khoảng 30 phút so với 20 phút của NEDC, tốc độ trung bình 46,5 km/h và tối đa 131,3 km/h, quãng đường 23,25 km so với 11 km của NEDC; chia 4 phần với tốc độ tối đa 56,5, 76,6, 97,4 và 131,3 km/h; tính cả trang bị tùy chọn của từng xe; nêu mốc từ 1/9/2019 mọi xe nhẹ đăng ký mới ở EU phải tuân WLTP; bảng NEDC → WLTP: Renault Zoé 400 → 300 km, BMW i3 300 → 245 km, Hyundai Kona electric 64 kWh 546 → 482 km | Wikipedia (Worldwide Harmonised Light Vehicles Test Procedure): trong WLTP ảnh hưởng của trang bị tùy chọn được tính, mỗi mẫu xe cần hai phép đo (bản tiêu chuẩn và bản đầy đủ trang bị) để phản ánh khí động học, lực cản lăn và khối lượng; không quy định điểm sang số cố định như NEDC; dung sai cho phép và cách chuẩn bị xe trước khi thử chặt hơn NEDC",
-      "sha256": "5820c1b79adf13273e0b1708738710efb4c5fced8214ca941878d2f5fa44dc9a",
-      "verified_at": "2026-10-19T15:10:48.906404+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/New_European_Driving_Cycle",
-      "supports": "Wikipedia (New European Driving Cycle, không ghi ngày): NEDC cập nhật lần cuối năm 1997, gồm 4 chu trình đô thị ECE-15 lặp lại và một chu trình ngoài đô thị EUDC; bị chỉ trích nhiều lần vì số liệu tiêu hao khó đạt thực tế; thử khi xe nguội ở 20–30 °C, thường chạy ở 25 °C, trên băng thử con lăn; mọi phụ tải như điều hòa, đèn, sưởi kính sau đều tắt; dùng cả để ước tính phạm vi chạy điện của xe hybrid và xe điện pin; WLTP thay NEDC cho xe được duyệt bán ở châu Âu sau tháng 9/2018 và số liệu công bố của xe bán sau tháng 1/2019 nên dùng WLTP | Wikipedia (New European Driving Cycle): thử với mọi phụ tải phụ trợ tắt (máy nén và quạt điều hòa, đèn, sưởi kính sau); chu trình đô thị ECE-15 đại diện cho điều kiện lái trong thành phố châu Âu với tải động cơ thấp và tốc độ tối đa 50 km/h; chu trình được thiết kế cho xe xăng rồi dùng cả cho xe diesel và xe điện",
-      "sha256": "3afc77de27dec651789ed3f88a32ee725434216d41f4831fda6cfa723e94982c",
-      "verified_at": "2026-10-19T15:10:49.127048+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -155,11 +114,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T15:10:55.172180+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T15:15:36.076975+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "200faf5ba8c8e6b00eda3258f11b0c21f1ac5765d612c625f3e913baf2fb122d",
+  "inventory_sha256": "05652236f3784cdb4b399b814ab1b375e401d48166559436c6e9ebfa26cc578a",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

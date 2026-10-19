@@ -70,24 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vneconomy.vn/automotive/pin-natri-ion-co-thuc-su-la-buoc-dot-pha-thay-the-cho-pin-lithium-ion-truyen-thong.htm",
-      "supports": "VnEconomy (6/6/2023, Khôi Nguyên, chuyên mục Auto News): pin natri-ion (SIB) có cực dương, cực âm, dải phân cách và chất điện phân lỏng như lithium-ion nhưng dùng natri thay lithium; cả hai cực có thể làm bằng nhôm thay vì đồng đắt hơn ở cực dương; natri dồi dào nên chi phí sản xuất có thể thấp hơn và nguồn cung ít bấp bênh; natri ít phản ứng hóa học hơn nên giảm nguy cơ thoát nhiệt; CATL tiết lộ năm 2021 đầu tư công nghệ này | VnEconomy (6/6/2023): nhược điểm chính là mật độ năng lượng thấp hơn vì ion natri lớn và nặng hơn, ảnh hưởng phạm vi lái xe; theo bài năm 2023, natri-ion có vòng đời ngắn hơn, sạc chậm hơn và còn ở giai đoạn đầu, thiếu chuỗi cung ứng; số liệu gần đây của các hãng cell lớn khi đó cho thấy mật độ năng lượng gần cạnh tranh với LFP ở mức giá thấp hơn, mở ra khả năng cho xe bình dân và xe nhỏ; giới chuyên gia thận trọng cho đến khi có xe chạy thử thực tế",
-      "sha256": "9b1f37269f83789fb2ada309d05c568b1db479615b455dab349ee3971ec0ff65",
-      "verified_at": "2026-10-19T15:11:10.568446+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Sodium-ion_battery",
-      "supports": "Wikipedia (Sodium-ion battery, nhãn cần cập nhật 7/2026, không ghi ngày): nêu hệ lưu trữ lưới điện cố định đang vận hành và xe có bộ pin natri-ion bán thương mại cho xe scooter hạng nhẹ (light scooters) của Yadea dùng công nghệ pin natri-ion HuaYu; CATL (2025) công bố Naxtra 175 Wh/kg so với LFP 185 Wh/kg, hỗ trợ sạc 5C, hơn 10.000 chu kỳ so với 4.500 chu kỳ của LFP tốt nhất, giữ 93% dung lượng ở −30 °C; Faradion nêu pin dạng túi 160 Wh/kg, 300 đến hơn 1.000 chu kỳ tùy độ sâu xả, bộ pin từng chứng minh cho ứng dụng e-bike và e-scooter | Wikipedia (Sodium-ion battery): lịch sử công nghệ: phát triển trong thập niên 1970 và đầu thập niên 1980; đến thập niên 1990 lithium-ion cho thấy triển vọng thương mại hơn nên sự quan tâm đến natri-ion giảm; đầu thập niên 2010 natri-ion được quan tâm trở lại, chủ yếu do chi phí nguyên liệu pin lithium-ion tăng",
-      "sha256": "29271c931aca90f0f594a88a5327490feda83155a0afd02e5fea36cb26a1934f",
-      "verified_at": "2026-10-19T15:11:10.820264+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -140,11 +123,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T15:11:17.176863+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T15:15:36.523757+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "b516862faf8fe273d668d6ba0bfc9fbe0c9b9bd1ddbfbdb51860ca4ecf9bf01a",
+  "inventory_sha256": "05652236f3784cdb4b399b814ab1b375e401d48166559436c6e9ebfa26cc578a",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
