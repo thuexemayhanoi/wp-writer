@@ -104,11 +104,18 @@ class WardBatch02EditorialTests(unittest.TestCase):
     def test_progress_only_counts_editing_not_wordpress(self):
         progress=json.loads((ROOT/"editorial"/"seo-51-phuong"/"progress.json").read_text(encoding="utf-8"))
         self.assertEqual(progress["target_articles"],51)
-        self.assertEqual(progress["completed_editorial_drafts"],6)
+        # Batch 02 must remain intact as the 51-ward campaign advances.
+        # Do not freeze the *total* at 6, or the next batch's PR will fail.
+        self.assertGreaterEqual(progress["completed_editorial_drafts"],6)
         self.assertEqual(progress["published_new_articles"],0)
-        self.assertEqual(progress["next_review_batch"],3)
-        self.assertEqual(len(progress["completed"]),6)
-        self.assertEqual(len({entry["ward"] for entry in progress["completed"]}),6)
+        self.assertEqual(progress["next_review_batch"],
+                         progress["completed_editorial_drafts"]//3+1)
+        self.assertEqual(len(progress["completed"]),
+                         progress["completed_editorial_drafts"])
+        self.assertEqual(len({entry["ward"] for entry in progress["completed"]}),
+                         progress["completed_editorial_drafts"])
+        self.assertEqual([e["ward"] for e in progress["completed"][3:6]],
+                         [ward for ward,_,_ in WARDS])
         policy=json.loads((ROOT/"config"/"production-policy.json").read_text(encoding="utf-8"))
         self.assertEqual(policy["publisher_pilot"]["max_posts"],3)
 
