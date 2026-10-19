@@ -10635,7 +10635,7 @@
       }
     },
     "NT-000567": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T05:56:53.240437+00:00",
       "source_hash": "a5fafd1948f6ddf523da6a2857b911e2686661cddfffc2021967a610bfc42038",
       "slug": "y-ty-bang-xe-may-tu-ha-noi-ba-cung-duong-len-y-ty-cho-phien-thu-bay-va-mua-lua-chin",
@@ -10650,8 +10650,37 @@
       "category_warning": null,
       "git_commit": "db7e6df978fe9266399ca08ecdfac39002649254",
       "run_id": "39206693185",
-      "updated_at": "2026-10-19T05:56:56.912040+00:00",
-      "wp_id": 4191
+      "updated_at": "2026-10-19T05:57:02.774462+00:00",
+      "wp_id": 4191,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/y-ty-bang-xe-may-tu-ha-noi-ba-cung-duong-len-y-ty-cho-phien-thu-bay-va-mua-lua-chin/",
+      "verified_at": "2026-10-19T05:57:02.774456+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4191,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/y-ty-bang-xe-may-tu-ha-noi-ba-cung-duong-len-y-ty-cho-phien-thu-bay-va-mua-lua-chin/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/y-ty-bang-xe-may-tu-ha-noi-ba-cung-duong-len-y-ty-cho-phien-thu-bay-va-mua-lua-chin/",
+        "seo_title": "Y Tý bằng xe máy từ Hà Nội: cung đường, chợ phiên và mùa lúa chín",
+        "seo_description": "Y Tý bằng xe máy từ Hà Nội: khoảng 400 km theo VnExpress 2018, các cung đường từ Lào Cai, chợ phiên sáng thứ Bảy và mùa lúa chín, ghi rõ nguồn và năm từng thông tin.",
+        "checked_at": "2026-10-19T05:57:02.774437+00:00"
+      }
     }
   },
   "categories": {}
