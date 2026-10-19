@@ -15669,7 +15669,7 @@
       }
     },
     "NT-001046": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:38:35.400686+00:00",
       "source_hash": "129e2aff38be4a3ebad62f585cf690d2331232dc7ab8fd32b72fce4dc10390e4",
       "slug": "to-he-lang-xuan-la-phu-xuyen-nghe-nan-bot-nguon-goc-ten-goi-va-nguy-co-mai-mot-cua-lang-nghe",
@@ -15685,8 +15685,37 @@
       "category_warning": null,
       "git_commit": "831e787f61d4c3e1a9b7ce9fb2ac46efde8cc15c",
       "run_id": "39327874140",
-      "updated_at": "2026-10-19T21:38:39.498922+00:00",
-      "wp_id": 4313
+      "updated_at": "2026-10-19T21:38:45.135406+00:00",
+      "wp_id": 4313,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/to-he-lang-xuan-la-phu-xuyen-nghe-nan-bot-nguon-goc-ten-goi-va-nguy-co-mai-mot-cua-lang-nghe/",
+      "verified_at": "2026-10-19T21:38:45.135400+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4313,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/to-he-lang-xuan-la-phu-xuyen-nghe-nan-bot-nguon-goc-ten-goi-va-nguy-co-mai-mot-cua-lang-nghe/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/to-he-lang-xuan-la-phu-xuyen-nghe-nan-bot-nguon-goc-ten-goi-va-nguy-co-mai-mot-cua-lang-nghe/",
+        "seo_title": "Tò he làng Xuân La Phú Xuyên: tên gọi và nguy cơ mai một",
+        "seo_description": "Tò he làng Xuân La Phú Xuyên là gì? Bài giải thích món đồ chơi nặn từ bột, vì sao gọi là tò he và nguy cơ mai một của làng nghề theo hai bài báo.",
+        "checked_at": "2026-10-19T21:38:45.135382+00:00"
+      }
     }
   },
   "categories": {}
