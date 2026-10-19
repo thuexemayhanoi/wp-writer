@@ -77,12 +77,22 @@ class BackpressureWorkflowTests(unittest.TestCase):
             if "WP_APPLICATION_PASSWORD" in json.dumps(s):
                 self.assertIn("steps.safety_switch.outputs.active == 'true'", s.get("if", ""))
 
-    def test_owner_release_requires_emergency_stop_or_durable_pilot(self):
+    def test_owner_release_keeps_daily_and_serialized_limits_after_pilot(self):
         policy = json.loads((ROOT / "config" / "production-policy.json").read_text(encoding="utf-8"))
-        pilot=policy.get("publisher_pilot")
-        self.assertTrue(policy["emergency_stop"] or (
-            isinstance(pilot,dict) and isinstance(pilot.get("id"),str)
-            and type(pilot.get("max_posts")) is int and 1<=pilot["max_posts"]<=10))
+        # The 3-post pilot has been explicitly lifted for the next 2,000-topic
+        # campaign. Preserve explicit owner permission, daily limits, 2x5 runs
+        # and emergency stop rather than silently permitting unlimited writes.
+        self.assertIsNone(policy.get("publisher_pilot"))
+        self.assertTrue(policy.get("owner_approval_ref"))
+        self.assertTrue(policy.get("production_enabled"))
+        self.assertEqual(policy.get("approved_capacity"), 2000)
+        self.assertEqual(policy.get("batch_size"), 2)
+        self.assertEqual(policy.get("max_batches_per_run"), 5)
+        self.assertLessEqual(policy.get("max_new_posts_daily"), 1000)
+        self.assertIs(type(policy.get("emergency_stop")), bool)
+        self.assertIs(type(policy.get("paused")), bool)
+        self.assertFalse(policy.get("allow_category_create"))
+        self.assertEqual(policy.get("on_category_mismatch"), "draft")
 
 
 if __name__ == "__main__":
