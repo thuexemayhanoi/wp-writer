@@ -15620,7 +15620,7 @@
       }
     },
     "NT-001045": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:38:14.132238+00:00",
       "source_hash": "06e67dcac2eff45735ebdb41b735f585284ea17561f47c5324f8e264fd76baa9",
       "slug": "cho-hoa-quang-ba-cho-ban-buon-hoa-lon-nhat-mien-bac-hop-tu-3-4-gio-sang-mua-tet-hop-thau-dem",
@@ -15636,8 +15636,37 @@
       "category_warning": null,
       "git_commit": "831e787f61d4c3e1a9b7ce9fb2ac46efde8cc15c",
       "run_id": "39327874140",
-      "updated_at": "2026-10-19T21:38:18.274019+00:00",
-      "wp_id": 4312
+      "updated_at": "2026-10-19T21:38:23.923523+00:00",
+      "wp_id": 4312,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cho-hoa-quang-ba-cho-ban-buon-hoa-lon-nhat-mien-bac-hop-tu-3-4-gio-sang-mua-tet-hop-thau-dem/",
+      "verified_at": "2026-10-19T21:38:23.923516+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4312,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cho-hoa-quang-ba-cho-ban-buon-hoa-lon-nhat-mien-bac-hop-tu-3-4-gio-sang-mua-tet-hop-thau-dem/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cho-hoa-quang-ba-cho-ban-buon-hoa-lon-nhat-mien-bac-hop-tu-3-4-gio-sang-mua-tet-hop-thau-dem/",
+        "seo_title": "Chợ hoa Quảng Bá mấy giờ? Giờ họp ngày thường và mùa Tết",
+        "seo_description": "Chợ hoa Quảng Bá họp lúc mấy giờ? Tổng hợp từ Tuổi Trẻ và Thanh Niên: giờ nhộn nhịp, mùa Tết họp thâu đêm, nguồn hoa và điểm lệch giữa hai nguồn.",
+        "checked_at": "2026-10-19T21:38:23.923499+00:00"
+      }
     }
   },
   "categories": {}
