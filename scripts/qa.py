@@ -425,6 +425,11 @@ def evaluate(path,topic,rows=None,inv=None,link_checker=None,live=False,check_cl
     except Exception as e:return {'topic_id':topic['topic_id'],'status':'FAIL','errors':[str(e)],
         'review':[],'source_sha256':digest(path.read_bytes()),'gates':gates,'at':now()}
     g1=gates['1'];g2=gates['2'];g3=gates['3'];g4=gates['4'];g5=gates['5'];g6=gates['6']
+    if topic.get('campaign_id') == 'HN-51-WARDS':
+        if topic.get('taxonomy_key') != 'hanoi-ward-rentals':
+            g6['errors'].append('HANOI_WARD_CATEGORY_MISMATCH: must use hanoi-ward-rentals')
+        if meta.get('taxonomy_key') != 'hanoi-ward-rentals':
+            g6['errors'].append('HANOI_WARD_ARTICLE_CATEGORY_MISMATCH')
     for k in ('topic_id','title','primary_keyword','search_intent','taxonomy_key','canonical_target'):
         if meta.get(k)!=topic.get(k):g1['errors'].append('Manifest mismatch:'+k)
     if path.name!=topic['topic_id']+'.md':g1['errors'].append('Wrong draft path')
