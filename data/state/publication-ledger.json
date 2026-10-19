@@ -8859,7 +8859,7 @@
       }
     },
     "NT-000537": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T04:12:58.691636+00:00",
       "source_hash": "cf840c6bd39ee7e7dd5235ad475e4c3c2770154d10550a90069065ec3e217deb",
       "slug": "mua-roi-nuoc-dao-thuc-o-dong-anh-phuong-roi-lang-to-nghe-cac-tich-tro-co-va-viec-ghi-danh-di-san",
@@ -8874,8 +8874,37 @@
       "category_warning": null,
       "git_commit": "95b117b8174c189dcedf3ec268fdd634d947e41a",
       "run_id": "39197833614",
-      "updated_at": "2026-10-19T04:13:09.607956+00:00",
-      "wp_id": 4154
+      "updated_at": "2026-10-19T04:13:15.183831+00:00",
+      "wp_id": 4154,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/mua-roi-nuoc-dao-thuc-o-dong-anh-phuong-roi-lang-to-nghe-cac-tich-tro-co-va-viec-ghi-danh-di-san/",
+      "verified_at": "2026-10-19T04:13:15.183825+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4154,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/mua-roi-nuoc-dao-thuc-o-dong-anh-phuong-roi-lang-to-nghe-cac-tich-tro-co-va-viec-ghi-danh-di-san/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/mua-roi-nuoc-dao-thuc-o-dong-anh-phuong-roi-lang-to-nghe-cac-tich-tro-co-va-viec-ghi-danh-di-san/",
+        "seo_title": "Múa rối nước Đào Thục ở Đông Anh: tổ nghề, tích trò cổ và ghi danh",
+        "seo_description": "Múa rối nước Đào Thục ở Đông Anh: tổ nghề Nguyễn Đăng Vinh, tuổi nghề và số tích trò cổ khác nhau giữa nguồn, ghi danh di sản quốc gia 12/3/2023, cách tìm thông tin buổi diễn.",
+        "checked_at": "2026-10-19T04:13:15.183807+00:00"
+      }
     }
   },
   "categories": {}
