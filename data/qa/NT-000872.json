@@ -70,7 +70,32 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/khac-biet-giua-pho-nam-dinh-va-pho-ha-noi-4780799.html",
+      "supports": "Bài VnExpress Du lịch ngày 16/8/2024 (Tâm Anh, nguồn Lý lịch Di sản Văn hóa Phi vật thể quốc gia): phở Hà Nội và phở Nam Định được công nhận di sản quốc gia hôm 9/8, cả hai nơi đều được coi là nơi khai sinh phở; nước dùng Nam Định dùng nước mắm cốt vùng biển địa phương, xương ống thêm đuôi bò, nước lần hai; nước dùng Hà Nội ninh xương bò với gừng, hành củ nướng, quế, hồi, thảo quả, vớt bọt, lọc sau 24 tiếng, nêm muối và rất ít dùng nước mắm; Hà Nội gọi tái, chín, tái chín (thăn, nạm gầu hoặc lõi bò thái mỏng), có phở gà và quán thường chuyên một loại; Nam Định có tái, chín nhưng phở áp chảo phổ biến (tỏi, rau cải, cà chua, hành, cà rốt); bàn ăn hơi thấp, đũa tre và thìa; bánh phở xưa to bản tráng và thái tay, nay phần lớn thái bằng máy; quán phở máy lạnh từ miền Nam không phát triển ở Hà Nội | Cùng bài VnExpress 16/8/2024: chi tiết nước dùng Nam Định (nước mắm cốt, xương ống, đuôi bò, nước lần hai) đối chiếu với nước dùng Hà Nội nêm muối và rất ít dùng nước mắm; bài cũng nêu số cửa hàng phở theo thống kê của Sở Nam Định năm 2024 và Sở Hà Nội cuối năm 2023",
+      "sha256": "d67bef452a5f3a8048d4ff7e195d9d78f933cdf860dbfdf7253c3db81fb96ee6",
+      "verified_at": "2026-10-19T21:24:54.075266+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vnexpress.net/khac-biet-pho-bac-nam-trong-mat-chuyen-gia-michelin-4960235.html",
+      "supports": "Bài VnExpress Du lịch ngày 8/11/2025 (Tâm Anh, theo Michelin Guide): so sánh phở Hà Nội và phở TP HCM qua lời các bếp trưởng được Michelin vinh danh; phở miền Nam thường có tương đen, tương ớt ngọt, giá đỗ và nhiều rau thơm như húng quế, ngò gai, nước dùng đậm màu và ngọt hơn (nêm bằng đường phèn hoặc củ cải); thực khách Hà Nội có thể thêm chanh, giấm tỏi ớt nhưng gần như không dùng rau thơm hay tương đen; sự khác biệt lớn được định hình rõ sau năm 1954 khi người miền Bắc di cư vào Nam; nguồn gốc phở vẫn gây tranh luận | Cùng bài VnExpress 8/11/2025: lời một bếp trưởng ở Hà Nội mô tả bát phở Hà Nội truyền thống chỉ gồm bánh phở, nước dùng trong, thịt gà hoặc bò và hành lá; bài trích thêm bếp trưởng khác nói nguồn gốc phở có thể lấy cảm hứng từ ẩm thực Trung Hoa hoặc Pháp nhưng không ai thực sự chắc chắn",
+      "sha256": "f95856b9b04d3df89acecd25717470c24c84ef29eb18f189585a6eb60f9b695e",
+      "verified_at": "2026-10-19T21:24:56.604978+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://thanhnien.vn/pho-ha-noi-pho-nam-dinh-va-mi-quang-thanh-di-san-phi-vat-the-quoc-gia-185240812161314023.htm",
+      "supports": "Bài Thanh Niên (Trinh Nguyễn; mã trong địa chỉ trang cho thấy ngày 12/8/2024, bản đã đọc không hiển thị ngày): phở Hà Nội, phở Nam Định và mì Quảng cùng được ghi danh di sản phi vật thể quốc gia theo các quyết định của Bộ Văn hóa, Thể thao và Du lịch; theo hồ sơ di sản, không gian ban đầu của phở là những gánh phở rong quanh phố cổ Hà Nội và khắp thành phố Nam Định, sau chuyển sang cửa hàng cố định; hồ sơ phở Hà Nội mô tả quầy chế biến phía trước quán | Cùng bài Thanh Niên: theo hồ sơ phở Hà Nội, khu chế biến hình chữ L gồm hai nồi điện, một nồi nước dùng luôn sôi và một nồi nước nóng khoảng 70-80 độ C để chần bánh phở, bên kia là bàn có giá để thịt, rau, gia vị, rổ bánh phở, dao thớt; theo hồ sơ phở Nam Định, quầy chế biến đặt trước cửa hàng để khách xem thao tác của chủ quán",
+      "sha256": "2268fd082ad3aadc0dbc4090508af15ee9a8838eaa41e1c51f44758225d8a91e",
+      "verified_at": "2026-10-19T21:24:58.526217+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
   "evidence_recheck": {
     "pages": [
       {
@@ -114,11 +139,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T20:55:34.421189+00:00",
-  "live_links_checked": false,
+  "at": "2026-10-19T21:25:06.987675+00:00",
+  "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "60640c1cf0f7a116439540f74350fc13a4ca65b34dccf78ec247918cb33bbb2b",
+  "inventory_sha256": "d48022d7d0e2306391dfee59a819811c434db5c3ba088087d9736d56dd2636a8",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

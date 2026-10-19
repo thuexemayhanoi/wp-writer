@@ -70,24 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://hart.honda.com.au/resources/safety-and-riding-tips/visual-information-and-cues",
-      "supports": "Trang Visual information and cues của HART (Honda Australia Rider Training; chân trang ghi bản quyền Honda 2025): khoảng chín mươi phần trăm ấn tượng khi lái xe là thị giác; thị giác trung tâm chỉ là hình nón rộng 3 độ dùng để ước lượng khoảng cách và đọc chi tiết; thị giác ngoại vi nhạy hơn với ánh sáng và chuyển động; nghiên cứu theo dõi mắt cho thấy người mới có nhiều điểm dừng vào chi tiết không quan trọng còn người có kinh nghiệm nhìn xa theo hướng đi và dùng thị giác bên để giữ vị trí; ba điều giúp tập thói quen mắt tốt; mỗi lần dừng mắt 0,1 đến 0,3 giây; người mệt nhìn thấp và lệch trái, rượu bia làm mắt ít đảo | Cùng trang HART: ba khái niệm để có thói quen mắt tốt là tập trung vào đường định đi và giữ khoảng đệm đủ ở mọi hướng, ngẩng mắt nhìn xa phía trước, và buộc mắt di chuyển thường xuyên để nhận được trường thông tin rộng",
-      "sha256": "19b82c95c65dcc856a74f72ea1e20d1287a36d16101b7f2c277e4f6448ef5239",
-      "verified_at": "2026-10-19T21:01:58.548801+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://hart.honda.com.au/resources/safety-and-riding-tips/wet-weather-riding",
-      "supports": "Trang Wet weather riding của HART: nhìn xa hơn, nhất là khi trời mưa, là một trong những việc khó nhất khi đi xe máy; càng nhìn xa càng dễ lường trước và phản ứng sớm với điều kiện đường và hành động của người khác | Cùng trang HART về mưa: càng nhìn xa càng dễ lường trước và phản ứng sớm với đường và người khác; giữ kính mũ sạch giúp nước dễ trôi (không dùng trong bài vì liên quan mũ bảo hiểm)",
-      "sha256": "fd702490cea7efa67d4fbcc584a5cce7eb812249a71baac272bab025f84be8df",
-      "verified_at": "2026-10-19T21:01:59.596719+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -122,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T21:02:07.066189+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T21:22:44.384038+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "562e45aa87649221cd4f9e43b3faa3ffdfdd5c3472daa31562e47319436b6c8b",
+  "inventory_sha256": "60640c1cf0f7a116439540f74350fc13a4ca65b34dccf78ec247918cb33bbb2b",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

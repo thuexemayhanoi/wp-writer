@@ -1,0 +1,151 @@
+{
+  "topic_id": "NT-001036",
+  "status": "PASS",
+  "source_sha256": "d36b7a8c0bf221a57a905f71aa821774457608c9949941ecabd2e9d99b14d7b7",
+  "body_sha256": "52b08d746b22ff96b1de1edf66c3f2e67cdb49ff80e79305cd9f5aba1200dd52",
+  "word_count": 3292,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://tuoitre.vn/dulichtphcm/thu-ve-long-lai-nao-nuc-voi-ho-tay-va-banh-tom-10780445.htm",
+      "supports": "Tuổi Trẻ (22/8/2024): bánh tôm Hồ Tây xuất hiện ở Hà Nội từ những năm 30 thế kỷ XX, gánh hàng rong bán dọc đường Cổ Ngư (nay là Thanh Niên), phổ biến từ thập niên 50; tôm, bột, trứng, khoai lang; ăn nóng với nước chấm, dưa góp đu đủ xanh.",
+      "sha256": "800a0ef47ec4578d0c8e4af630885d46cf1628761a4a4742cc8d73eca8482a9d",
+      "verified_at": "2026-10-19T21:28:39.028697+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://thanhnien.vn/ho-tay-nguyen-ban-banh-tom-xua-185597711.htm",
+      "supports": "Thanh Niên: nguyên liệu bánh tôm Hồ Tây gồm bột mì, khoai lang thái sợi và tôm; ăn nóng với rau sống và nước chấm chua cay mặn ngọt; tên bánh tôm trong Nam khác với bánh tôm Hồ Tây.",
+      "sha256": "2781596963a559d1953231cd46b72c5439131d542938d26e50a7411e1fcf8fcd",
+      "verified_at": "2026-10-19T21:28:40.959608+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2401,
+        "title": "Đánh giá Honda ICON e: ưu nhược điểm và nhu cầu sử dụng phù hợp",
+        "why": "stale",
+        "content_hash": "8e7a7b14e3ebe7505700162b1498c681b742964d82d878fd31022d62543aecae",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2424,
+        "title": "Dat Bike có những dòng xe nào? Tổng hợp các mẫu đáng chú ý",
+        "why": "stale",
+        "content_hash": "8547bbe19e35f1a3e720df88f2c659b744799c8f50115b8e6bfac67e10bf2889",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2544,
+        "title": "Xe máy phát tiếng kêu lạ khi chạy: nguyên nhân và cách kiểm tra",
+        "why": "stale",
+        "content_hash": "e4d2a8c9ffb2a022afd07f0d6cf92ad77c06cdf6fcad04bb7bae33b34bab81ad",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2618,
+        "title": "Văn Miếu Quốc Tử Giám: Giá vé, giờ mở cửa và kinh nghiệm tham quan",
+        "why": "stale",
+        "content_hash": "426391b4a1b312c4ae032e08a55ed06562622b9568773cc1c5c177e7f50417cc",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T21:28:45.705920+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "0a298fa7d9f21092c1f5c8daf45af07829f68243e33fe6dba0efcd3a12d07280",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

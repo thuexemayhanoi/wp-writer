@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.nsw.gov.au/driving-boating-and-transport/roads-safety-and-rules/motorcycles-and-scooters/safe-riding-behaviour-for-motorcyclists/riding-conditions",
-      "supports": "Trang Riding conditions của Transport for NSW (chính quyền bang New South Wales, Úc; bản đã đọc không ghi ngày): mặt đường là một phần môi trường lái như thời tiết và giao thông; chỗ ẩm và mặt đường rời như sỏi, đất gây khó; đá vụn tích trên đường quanh co hoặc dốc, rêu giữa đường; nhựa đường ướt nhất là ngay khi bắt đầu mưa; sỏi, cát, bùn tụ trên mặt đường nhựa; vạch sơn và bề mặt thép như nắp cống có thể trơn khi ướt; khi đó giảm tốc, giảm độ nghiêng khi vào cua và phanh dần | Cùng trang NSW: vạch sơn và bề mặt thép như nắp cống có thể trơn khi ướt; trong các điều kiện đó giảm tốc, giảm mức nghiêng khi vào cua và dùng phanh dần",
-      "sha256": "1f788831370197efe7e8c91007ce6d68cee4a6111652b6e3797652313274296d",
-      "verified_at": "2026-10-19T21:02:53.011008+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://hart.honda.com.au/resources/safety-and-riding-tips/wet-weather-riding",
-      "supports": "Trang Wet weather riding của HART (Honda Australia Rider Training; chân trang ghi bản quyền Honda 2025), mục Grip: trời ướt có ít độ bám hơn đường khô; cách giải quyết là giảm nhu cầu bám của lốp, tức lái êm hơn và không đổi ga, phanh hay hướng quá đột ngột; gai lốp càng sâu càng dễ thoát nước nên lốp mòn trơn làm giảm độ bám khi ướt; quan niệm xả bớt hơi để lốp nóng lên và tăng diện tích tiếp xúc là không đúng, áp suất khuyến nghị giúp lốp giữ đúng hình dạng và mở rãnh gai để thoát nước | Cùng trang HART: gai lốp càng nhiều càng dễ thoát nước nên lốp trơn mòn làm giảm độ bám khi ướt; áp suất khuyến nghị giúp lốp giữ đúng hình dạng và mở rãnh gai",
-      "sha256": "fd702490cea7efa67d4fbcc584a5cce7eb812249a71baac272bab025f84be8df",
-      "verified_at": "2026-10-19T21:02:54.123103+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/huong-dan-cach-chay-xe-so-an-toan-cho-nguoi-moi-bat-dau",
-      "supports": "Bài Hướng dẫn cách chạy xe số an toàn cho người mới bắt đầu của Yamaha Motor Việt Nam (đăng 02/07/2025), mục Kỹ năng giữ thăng bằng: nếu đi trên đường trơn ướt hoặc có nhiều cát, sỏi thì đi xe ở số thấp và giảm tốc độ để tránh trượt, ngã; đây là bài viết cho xe số nên không nói cách tương đương cho xe tay ga | Cùng bài Yamaha xe số: đường trơn ướt hoặc nhiều cát sỏi thì đi số thấp và giảm tốc độ để tránh trượt ngã",
-      "sha256": "2717d5fe7f3999006e51b2866f47b2d1e720f77dd53085fd8590ed8a28d96318",
-      "verified_at": "2026-10-19T21:02:56.524510+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -139,11 +114,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T21:03:06.434855+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T21:22:45.039555+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "da080d7a4d4bfbe01c36bf887e970d21b4b3269d4dd7bf3822434847bc4e8543",
+  "inventory_sha256": "60640c1cf0f7a116439540f74350fc13a4ca65b34dccf78ec247918cb33bbb2b",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
