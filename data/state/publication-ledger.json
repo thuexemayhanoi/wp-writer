@@ -9003,7 +9003,7 @@
       }
     },
     "NT-000642": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T04:14:23.657571+00:00",
       "source_hash": "69277c3dda3eb9fcae21cbb3fc6eaef388f34fc9272ff6cc3d270cc5fa056ecc",
       "slug": "thue-xe-dap-cong-cong-tngo-o-ha-noi-can-so-dien-thoai-giay-to-nao-va-dung-ung-dung-hay-the-tapgo",
@@ -9018,8 +9018,37 @@
       "category_warning": null,
       "git_commit": "95b117b8174c189dcedf3ec268fdd634d947e41a",
       "run_id": "39197833614",
-      "updated_at": "2026-10-19T04:14:27.211485+00:00",
-      "wp_id": 4157
+      "updated_at": "2026-10-19T04:14:32.435361+00:00",
+      "wp_id": 4157,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/thue-xe-dap-cong-cong-tngo-o-ha-noi-can-so-dien-thoai-giay-to-nao-va-dung-ung-dung-hay-the-tapgo/",
+      "verified_at": "2026-10-19T04:14:32.435355+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4157,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/thue-xe-dap-cong-cong-tngo-o-ha-noi-can-so-dien-thoai-giay-to-nao-va-dung-ung-dung-hay-the-tapgo/",
+        "categories": [
+          177
+        ],
+        "canonical": "https://thuexemaynguyentu.com/thue-xe-dap-cong-cong-tngo-o-ha-noi-can-so-dien-thoai-giay-to-nao-va-dung-ung-dung-hay-the-tapgo/",
+        "seo_title": "Thuê xe đạp công cộng TNGo ở Hà Nội: số điện thoại, giấy tờ, TapGo",
+        "seo_description": "Thuê xe đạp công cộng TNGo ở Hà Nội: cần số điện thoại Việt Nam, giấy tờ gì, dùng ứng dụng TNGo, E-TNGo hay thẻ TapGo theo các trang của TNGo đọc 18-19/10/2026.",
+        "checked_at": "2026-10-19T04:14:32.435335+00:00"
+      }
     }
   },
   "categories": {}
