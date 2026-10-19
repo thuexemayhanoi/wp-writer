@@ -11499,7 +11499,7 @@
       }
     },
     "NT-000591": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T09:41:51.134389+00:00",
       "source_hash": "50192ff1bf2cf66ef709f72b531a39bb91b00f86861a80c4cb13f006c60f759d",
       "slug": "sac-pin-xe-dien-cham-khi-gan-day-vi-sao-dong-sac-giam-o-giai-doan-dien-ap-khong-doi",
@@ -11514,8 +11514,37 @@
       "category_warning": null,
       "git_commit": "7ff3727fdfd7716ef5c6484de6730f887653310c",
       "run_id": "39231410457",
-      "updated_at": "2026-10-19T09:41:55.215864+00:00",
-      "wp_id": 4211
+      "updated_at": "2026-10-19T09:42:00.949462+00:00",
+      "wp_id": 4211,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/sac-pin-xe-dien-cham-khi-gan-day-vi-sao-dong-sac-giam-o-giai-doan-dien-ap-khong-doi/",
+      "verified_at": "2026-10-19T09:42:00.949456+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4211,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/sac-pin-xe-dien-cham-khi-gan-day-vi-sao-dong-sac-giam-o-giai-doan-dien-ap-khong-doi/",
+        "categories": [
+          167
+        ],
+        "canonical": "https://thuexemaynguyentu.com/sac-pin-xe-dien-cham-khi-gan-day-vi-sao-dong-sac-giam-o-giai-doan-dien-ap-khong-doi/",
+        "seo_title": "Sạc pin xe điện chậm khi gần đầy: vì sao dòng sạc giảm",
+        "seo_description": "Sạc pin xe điện chậm khi gần đầy vì pin lithium-ion sạc theo hai giai đoạn: dòng không đổi rồi điện áp không đổi. Tổng hợp Battery University, Analog Devices và Dat Bike.",
+        "checked_at": "2026-10-19T09:42:00.949437+00:00"
+      }
     }
   },
   "categories": {}
