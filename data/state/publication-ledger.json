@@ -10873,6 +10873,24 @@
         "seo_description": "Quãng đường xe máy điện hãng công bố đo ở tốc độ, tải trọng nào? Điều kiện đo của Yamaha NEO's, Dat Bike Weaver, VinFast và cách ước lượng chuyến đi thận trọng.",
         "checked_at": "2026-10-19T09:23:19.838122+00:00"
       }
+    },
+    "NT-000462": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-19T09:27:29.844351+00:00",
+      "source_hash": "dc92b626548bdb3774180181098077e3bc2c724cf2f19cb6b586e0e01bcfce0a",
+      "slug": "chademo-cho-xe-hai-banh-chuan-sac-nhanh-dc-la-gi-va-honda-uc3-dung-dau-sac-1-200-w-ra-sao",
+      "expected_status": "publish",
+      "category_id": 167,
+      "visible_hash": "fff19339446a3c1ed8cdbbb792c78b8a3de06d1588da11c23cf2b84af7705f4e",
+      "first_paragraph": "CHAdeMO cho xe hai bánh là giao thức sạc DC công suất nhỏ do Hiệp hội CHAdeMO phát hành cho hội viên chính thức, tối đa khoảng 10 kW (120 V, dòng điện tối đa 100 A), dựa trên IEC 61851-25 và dùng đầu nối nhỏ hơn đầu nối thông thường; đó là tên một chuẩn, không phải tên một bộ sạc. Honda Việt Nam ghi mức 1.200 W cho bộ sạc đi kèm UC3 và cho mỗi đầu sạc của Honda Motor Charger Hub; riêng UC3 được ghi sạc từ 0 đến 100% trong khoảng 4 giờ và từ 20 đến 80% trong khoảng 2 giờ, còn mốc vận hành từ tháng 7/2026 được Honda ghi là dự kiến. Bài tổng hợp ba trang: tin của Hiệp hội CHAdeMO đăng ngày 28/02/2022, bài trên trang Sự kiện của Honda Việt Nam về UC3 và các trạm đề ngày 04/06/2026, và bài của Honda Việt Nam về triển lãm Ô tô & Xe máy Việt Nam 2024 đề ngày 23/10/2024, chỉ dùng để lấy mốc sạc của ICON e:. Phần chuẩn kỹ thuật chỉ lấy từ trang của hiệp hội; các con số 1.200 W, 4 giờ, 2 giờ và mốc triển khai chỉ lấy từ trang Honda ngày 04/06/2026. Bài không nêu phí hay giá, không khẳng định xe của hãng khác dùng được đầu sạc này, không so sánh tuổi thọ pin giữa sạc nhanh và sạc thường, và không liệt kê cửa hàng hay số liên hệ.",
+      "meta_title": "CHAdeMO cho xe hai bánh: chuẩn sạc DC và đầu sạc Honda UC3",
+      "meta_description": "CHAdeMO cho xe hai bánh là giao thức sạc DC công suất nhỏ, tối đa khoảng 10 kW, theo Hiệp hội CHAdeMO; Honda nêu đầu sạc 1.200 W cho UC3 và mốc tháng 7/2026 còn là dự kiến.",
+      "intended_taxonomy_key": "battery-charging",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "3f1e76149b99fb9688ee00b90e89b82a1d52230f",
+      "run_id": "39229673489",
+      "updated_at": "2026-10-19T09:27:29.846876+00:00"
     }
   },
   "categories": {}
