@@ -1,66 +1,6 @@
 {
   "version": 1,
   "leases": {
-    "W6": {
-      "session": "seodev-w29",
-      "topic_ids": [
-        "NT-000805",
-        "NT-000806",
-        "NT-000807",
-        "NT-000808"
-      ],
-      "claimed_at": "2026-10-19T03:34:30.809350+00:00",
-      "expires_at": "2026-10-19T15:34:30.809350+00:00"
-    },
-    "W7": {
-      "session": "seodev-w34",
-      "topic_ids": [
-        "NT-000701",
-        "NT-000702",
-        "NT-000703",
-        "NT-000704",
-        "NT-000705",
-        "NT-000706",
-        "NT-000707",
-        "NT-000708",
-        "NT-000709",
-        "NT-000710"
-      ],
-      "claimed_at": "2026-10-19T09:13:49.776238+00:00",
-      "expires_at": "2026-10-19T21:13:49.776238+00:00"
-    },
-    "W3": {
-      "session": "seodev-w32",
-      "topic_ids": [
-        "NT-000627",
-        "NT-000628",
-        "NT-000592",
-        "NT-000594",
-        "NT-000595",
-        "NT-000596",
-        "NT-000597",
-        "NT-000683"
-      ],
-      "claimed_at": "2026-10-19T09:14:26.744825+00:00",
-      "expires_at": "2026-10-19T21:14:26.744825+00:00"
-    },
-    "W4": {
-      "session": "seodev-w35",
-      "topic_ids": [
-        "NT-000711",
-        "NT-000712",
-        "NT-000713",
-        "NT-000714",
-        "NT-000715",
-        "NT-000716",
-        "NT-000717",
-        "NT-000718",
-        "NT-000719",
-        "NT-000720"
-      ],
-      "claimed_at": "2026-10-19T09:46:44.135746+00:00",
-      "expires_at": "2026-10-19T21:46:44.135746+00:00"
-    },
     "W5": {
       "session": "seodev-w36",
       "topic_ids": [
@@ -113,6 +53,74 @@
       ],
       "claimed_at": "2026-10-19T14:34:57.373391+00:00",
       "expires_at": "2026-10-20T02:34:57.373391+00:00"
+    },
+    "W9": {
+      "session": "s-claude-tu-20261019d",
+      "topic_ids": [
+        "NT-000872",
+        "NT-000873",
+        "NT-000874",
+        "NT-000875",
+        "NT-000876",
+        "NT-000860",
+        "NT-000862",
+        "NT-000863",
+        "NT-000864",
+        "NT-000865"
+      ],
+      "claimed_at": "2026-10-19T14:51:53.690692+00:00",
+      "expires_at": "2026-10-20T02:51:53.690692+00:00"
+    },
+    "W3": {
+      "session": "seodev-w37",
+      "topic_ids": [
+        "NT-001091",
+        "NT-001092",
+        "NT-001093",
+        "NT-001094",
+        "NT-001095",
+        "NT-001096",
+        "NT-001097",
+        "NT-001098",
+        "NT-001099",
+        "NT-001100"
+      ],
+      "claimed_at": "2026-10-19T16:34:29.391828+00:00",
+      "expires_at": "2026-10-20T04:34:29.391828+00:00"
+    },
+    "W4": {
+      "session": "seodev-w38",
+      "topic_ids": [
+        "NT-000931",
+        "NT-000932",
+        "NT-000933",
+        "NT-000934",
+        "NT-000935",
+        "NT-000936",
+        "NT-000937",
+        "NT-000938",
+        "NT-000939",
+        "NT-000940"
+      ],
+      "claimed_at": "2026-10-19T16:36:36.254418+00:00",
+      "expires_at": "2026-10-20T04:36:36.254418+00:00"
+    },
+    "W6": {
+      "session": "seodev-w39",
+      "topic_ids": [
+        "NT-001061",
+        "NT-001062",
+        "NT-001063",
+        "NT-001064",
+        "NT-001065",
+        "NT-001066",
+        "NT-001067",
+        "NT-001068",
+        "NT-001069",
+        "NT-001070"
+      ],
+      "claimed_at": "2026-10-19T16:36:52.415316+00:00",
+      "expires_at": "2026-10-20T04:36:52.415316+00:00"
     }
   },
   "processed_requests": {
@@ -2151,6 +2159,272 @@
       "slot": "W1",
       "submitted_at": "2026-10-19T14:39:11.588847+00:00",
       "lease_expires_at": "2026-10-19T22:00:58.070449+00:00"
+    },
+    "NT-000849": {
+      "sha256": "c6c21be7328f07fb1353bf0bb4e5d732108b26d89b08ca66a811b61e7e3a70ca",
+      "session": "s-claude-tu-20261019c",
+      "slot": "W8",
+      "submitted_at": "2026-10-19T14:52:06.885564+00:00",
+      "lease_expires_at": "2026-10-20T02:28:28.336661+00:00"
+    },
+    "NT-000848": {
+      "sha256": "c9667155bce4b81dffc3de6b0a4f40dac5d5f107b057c0b017046824aa946087",
+      "session": "s-claude-tu-20261019c",
+      "slot": "W8",
+      "submitted_at": "2026-10-19T14:56:16.997090+00:00",
+      "lease_expires_at": "2026-10-20T02:28:28.336661+00:00"
+    },
+    "NT-000850": {
+      "sha256": "1dc3179d93da1217ee187d15dcf0ea9470cb1ba2de565ccb1c2e87765ff63588",
+      "session": "s-claude-tu-20261019c",
+      "slot": "W8",
+      "submitted_at": "2026-10-19T14:59:38.176148+00:00",
+      "lease_expires_at": "2026-10-20T02:28:28.336661+00:00"
+    },
+    "NT-000851": {
+      "sha256": "a2916662a56bd0c4403d87d60e1fe55c6afb4fa55970529d8247985f0cc04ecb",
+      "session": "s-claude-tu-20261019c",
+      "slot": "W8",
+      "submitted_at": "2026-10-19T15:00:28.277344+00:00",
+      "lease_expires_at": "2026-10-20T02:28:28.336661+00:00"
+    },
+    "NT-000852": {
+      "sha256": "764053a9a0b4f32993550d4e6441f9f3e01568085de3373d888e3f26ee7b692e",
+      "session": "s-claude-tu-20261019c",
+      "slot": "W8",
+      "submitted_at": "2026-10-19T15:01:21.126088+00:00",
+      "lease_expires_at": "2026-10-20T02:28:28.336661+00:00"
+    },
+    "NT-000836": {
+      "sha256": "e8aaee4456d08fefd9ff03fac58efe84680489c594764fa3684d48324b41cf7e",
+      "session": "s-claude-tu-20261019b",
+      "slot": "W2",
+      "submitted_at": "2026-10-19T15:02:12.921952+00:00",
+      "lease_expires_at": "2026-10-20T02:34:57.373391+00:00"
+    },
+    "NT-000837": {
+      "sha256": "9dc7273096413d6ac3bd46be65a22467b0d0fed134d7ccbcbf67a1bdd48d1639",
+      "session": "s-claude-tu-20261019b",
+      "slot": "W2",
+      "submitted_at": "2026-10-19T15:03:02.613277+00:00",
+      "lease_expires_at": "2026-10-20T02:34:57.373391+00:00"
+    },
+    "NT-000838": {
+      "sha256": "6ab5598208c8839de1f042d5e7f6ac23a48f1a05c6860e7b14b9923acc06cedb",
+      "session": "s-claude-tu-20261019b",
+      "slot": "W2",
+      "submitted_at": "2026-10-19T15:03:47.480709+00:00",
+      "lease_expires_at": "2026-10-20T02:34:57.373391+00:00"
+    },
+    "NT-000839": {
+      "sha256": "62d0ad3a37b240971bc94abb7d170736b61cd699ba6e0654195b9a30a07f574d",
+      "session": "s-claude-tu-20261019b",
+      "slot": "W2",
+      "submitted_at": "2026-10-19T15:04:32.137871+00:00",
+      "lease_expires_at": "2026-10-20T02:34:57.373391+00:00"
+    },
+    "NT-000840": {
+      "sha256": "78d8400cd6389d5decba87ffff8cc01a73aa0f872854b4d287cb11306958bf70",
+      "session": "s-claude-tu-20261019b",
+      "slot": "W2",
+      "submitted_at": "2026-10-19T15:05:20.867128+00:00",
+      "lease_expires_at": "2026-10-20T02:34:57.373391+00:00"
+    },
+    "NT-000711": {
+      "sha256": "543ada9a5b1c9250120362aed68bdf7fe9df1de8c52d1232158d085efecef5bd",
+      "session": "seodev-w35",
+      "slot": "W4",
+      "submitted_at": "2026-10-19T16:10:26.953977+00:00",
+      "lease_expires_at": "2026-10-19T21:46:44.135746+00:00"
+    },
+    "NT-000716": {
+      "sha256": "ff2327a1a24f51ccfd74edc133ef8014f35b806a1fadc579ab1ec3b61149e039",
+      "session": "seodev-w35",
+      "slot": "W4",
+      "submitted_at": "2026-10-19T16:11:56.086688+00:00",
+      "lease_expires_at": "2026-10-19T21:46:44.135746+00:00"
+    },
+    "NT-000712": {
+      "sha256": "1aded3c19e908f8dbaa114ec35a06f6293e380a45bf61ce3954cbce75b3fd6fa",
+      "session": "seodev-w35",
+      "slot": "W4",
+      "submitted_at": "2026-10-19T16:13:09.113241+00:00",
+      "lease_expires_at": "2026-10-19T21:46:44.135746+00:00"
+    },
+    "NT-000717": {
+      "sha256": "55a03636f244efa7210e519851a8c63515601cabca12c5d0e7e0b55f6ad77d7f",
+      "session": "seodev-w35",
+      "slot": "W4",
+      "submitted_at": "2026-10-19T16:16:12.111178+00:00",
+      "lease_expires_at": "2026-10-19T21:46:44.135746+00:00"
+    },
+    "NT-000713": {
+      "sha256": "6b241ece86943042c2a693e94084d37d27da038a1507985d835ad3bcbd4536c1",
+      "session": "seodev-w35",
+      "slot": "W4",
+      "submitted_at": "2026-10-19T16:16:19.345057+00:00",
+      "lease_expires_at": "2026-10-19T21:46:44.135746+00:00"
+    },
+    "NT-000714": {
+      "sha256": "7da01f707427d55c84b4741a52db6dea8689b092ba7055fa4d885908c1556acc",
+      "session": "seodev-w35",
+      "slot": "W4",
+      "submitted_at": "2026-10-19T16:18:48.095143+00:00",
+      "lease_expires_at": "2026-10-19T21:46:44.135746+00:00"
+    },
+    "NT-000718": {
+      "sha256": "9a32b0d04d0c8f5aad8d7f2454878828328cffc66c17bf4c3c4735abd331a392",
+      "session": "seodev-w35",
+      "slot": "W4",
+      "submitted_at": "2026-10-19T16:20:27.493754+00:00",
+      "lease_expires_at": "2026-10-19T21:46:44.135746+00:00"
+    },
+    "NT-000715": {
+      "sha256": "b6fbbc520bd2bf884242ea126db9864a336602b89897e30b499358f870fbe56b",
+      "session": "seodev-w35",
+      "slot": "W4",
+      "submitted_at": "2026-10-19T16:22:34.756413+00:00",
+      "lease_expires_at": "2026-10-19T21:46:44.135746+00:00"
+    },
+    "NT-000719": {
+      "sha256": "a80c6d0bb9b113fd4cc6ce6b990bfe5711368f279c6497a21fd5175938985511",
+      "session": "seodev-w35",
+      "slot": "W4",
+      "submitted_at": "2026-10-19T16:26:09.119829+00:00",
+      "lease_expires_at": "2026-10-19T21:46:44.135746+00:00"
+    },
+    "NT-000830": {
+      "sha256": "815833625fdedf2f9002e5ceda33beda84c925c15c6f080f779b26273a1b53f7",
+      "session": "seodev-w36",
+      "slot": "W5",
+      "submitted_at": "2026-10-19T16:29:54.519415+00:00",
+      "lease_expires_at": "2026-10-19T21:55:35.766789+00:00"
+    },
+    "NT-000720": {
+      "sha256": "121c21fa3ec9c972c190a8924a17c1674c8a6dd16b008d22c55a48b264880a1f",
+      "session": "seodev-w35",
+      "slot": "W4",
+      "submitted_at": "2026-10-19T16:31:26.997472+00:00",
+      "lease_expires_at": "2026-10-19T21:46:44.135746+00:00"
+    },
+    "NT-000831": {
+      "sha256": "54e525ab21e7b53005c8af5e01772a7b24a41ff78ad72676437247801f3e89bf",
+      "session": "seodev-w36",
+      "slot": "W5",
+      "submitted_at": "2026-10-19T16:33:34.532746+00:00",
+      "lease_expires_at": "2026-10-19T21:55:35.766789+00:00"
+    },
+    "NT-000832": {
+      "sha256": "721cae981d878ae823db812605133ad2c92005768bc1b1d737144470ff679d50",
+      "session": "seodev-w36",
+      "slot": "W5",
+      "submitted_at": "2026-10-19T16:37:03.692614+00:00",
+      "lease_expires_at": "2026-10-19T21:55:35.766789+00:00"
+    },
+    "NT-000866": {
+      "sha256": "11596a1da1f257134e695ddfd5574566ded5b58c42f8e757b9c69af33d63ac5f",
+      "session": "s-claude-tu-20261019b",
+      "slot": "W2",
+      "submitted_at": "2026-10-19T20:34:19.766821+00:00",
+      "lease_expires_at": "2026-10-20T02:34:57.373391+00:00"
+    },
+    "NT-000867": {
+      "sha256": "bc7a2c2c5a3f15b66b0d1de2d878b80687a78756b1917732b0a005ae99715daa",
+      "session": "s-claude-tu-20261019b",
+      "slot": "W2",
+      "submitted_at": "2026-10-19T20:35:05.569139+00:00",
+      "lease_expires_at": "2026-10-20T02:34:57.373391+00:00"
+    },
+    "NT-000868": {
+      "sha256": "7b08635975b4a95ae42dcfa819de88dec67f2689e7074293ed0d1e56c804bedc",
+      "session": "s-claude-tu-20261019b",
+      "slot": "W2",
+      "submitted_at": "2026-10-19T20:35:49.231112+00:00",
+      "lease_expires_at": "2026-10-20T02:34:57.373391+00:00"
+    },
+    "NT-000869": {
+      "sha256": "6c38905d24b0a41f09e3acca826eb70afca4f7e3c2409932899483c00d1a8da1",
+      "session": "s-claude-tu-20261019b",
+      "slot": "W2",
+      "submitted_at": "2026-10-19T20:36:43.598186+00:00",
+      "lease_expires_at": "2026-10-20T02:34:57.373391+00:00"
+    },
+    "NT-000870": {
+      "sha256": "2e8da5db5dff5f84acfd8f5b54fec3386ab12f61bae88bbd206fbfa4259e8e7c",
+      "session": "s-claude-tu-20261019b",
+      "slot": "W2",
+      "submitted_at": "2026-10-19T20:37:16.435017+00:00",
+      "lease_expires_at": "2026-10-20T02:34:57.373391+00:00"
+    },
+    "NT-000876": {
+      "sha256": "265e8b6f6f492b97875dcc10beba4f9c0cd1380a5dfc0fd3ceabcb5830730ea6",
+      "session": "s-claude-tu-20261019d",
+      "slot": "W9",
+      "submitted_at": "2026-10-19T20:38:28.537510+00:00",
+      "lease_expires_at": "2026-10-20T02:51:53.690692+00:00"
+    },
+    "NT-000875": {
+      "sha256": "ad43cb0f49097082bdb54fd76144bcc61b4d665c1bfcba6380618ada2ca74d6d",
+      "session": "s-claude-tu-20261019d",
+      "slot": "W9",
+      "submitted_at": "2026-10-19T20:40:09.291295+00:00",
+      "lease_expires_at": "2026-10-20T02:51:53.690692+00:00"
+    },
+    "NT-000874": {
+      "sha256": "a217c06b4258ee74fffa4b2bc1430b22f9544b21abaa2c5f6c15f453033bf437",
+      "session": "s-claude-tu-20261019d",
+      "slot": "W9",
+      "submitted_at": "2026-10-19T20:42:18.215919+00:00",
+      "lease_expires_at": "2026-10-20T02:51:53.690692+00:00"
+    },
+    "NT-000862": {
+      "sha256": "8a65e78a57a60893ebe2137fb38d671feda15334225fbc4a9687bee69b7313a0",
+      "session": "s-claude-tu-20261019d",
+      "slot": "W9",
+      "submitted_at": "2026-10-19T20:43:10.146914+00:00",
+      "lease_expires_at": "2026-10-20T02:51:53.690692+00:00"
+    },
+    "NT-000872": {
+      "sha256": "0a7684dfcb0edcd6b95b2c25695418a110c3d13f34df18e6b82ee852b60d2a8b",
+      "session": "s-claude-tu-20261019d",
+      "slot": "W9",
+      "submitted_at": "2026-10-19T20:43:49.150062+00:00",
+      "lease_expires_at": "2026-10-20T02:51:53.690692+00:00"
+    },
+    "NT-000873": {
+      "sha256": "750ac897b7209182c4d698b949f76588766776a74cc2532bc69d742d1861b1e5",
+      "session": "s-claude-tu-20261019d",
+      "slot": "W9",
+      "submitted_at": "2026-10-19T20:44:44.202067+00:00",
+      "lease_expires_at": "2026-10-20T02:51:53.690692+00:00"
+    },
+    "NT-000860": {
+      "sha256": "3d2702f73fb5fcdc37f55acdefb88ef3b1d71870e1aa767da89155a0c6a2ba2d",
+      "session": "s-claude-tu-20261019d",
+      "slot": "W9",
+      "submitted_at": "2026-10-19T20:45:24.945800+00:00",
+      "lease_expires_at": "2026-10-20T02:51:53.690692+00:00"
+    },
+    "NT-000863": {
+      "sha256": "8fb435f76eee7aa39801bca625e7292923a94e62704d651d8de53c82bf809446",
+      "session": "s-claude-tu-20261019d",
+      "slot": "W9",
+      "submitted_at": "2026-10-19T20:46:05.453647+00:00",
+      "lease_expires_at": "2026-10-20T02:51:53.690692+00:00"
+    },
+    "NT-000865": {
+      "sha256": "ed29b151a46a4252da4c06bfcf8233957d12cdb472017c84dbd4af070e749ffb",
+      "session": "s-claude-tu-20261019d",
+      "slot": "W9",
+      "submitted_at": "2026-10-19T20:47:04.723991+00:00",
+      "lease_expires_at": "2026-10-20T02:51:53.690692+00:00"
+    },
+    "NT-000864": {
+      "sha256": "f4840319b8e5f293b7955b34a67db95e82a656d92f1834dc2e7dabfcabb4eeef",
+      "session": "s-claude-tu-20261019d",
+      "slot": "W9",
+      "submitted_at": "2026-10-19T20:49:08.396359+00:00",
+      "lease_expires_at": "2026-10-20T02:51:53.690692+00:00"
     }
   }
 }

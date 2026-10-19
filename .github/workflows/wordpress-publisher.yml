@@ -1,12 +1,13 @@
 # STEP 3 of the owner's simple flow (order 2026-10-17):
 #   W1–W9 write  ->  QA >=85 + duplicate check + category  ->  [Publisher  ->  public WordPress].
 # Production is ON (config/production-policy.json): a QA-PASS article is posted automatically right after the
-# main-push QA run; the :17/:47 cron below is only a fallback. Only paused / emergency_stop stop it.
+# main scheduled/dispatch QA run; the :17/:47 cron below is a fallback. paused/emergency_stop stop it.
 name: Universal WordPress Publisher
 on:
   workflow_dispatch:
-  # The primary execution path is the successful, completed *main push*
-  # Writer QA workflow. This replaces parallel push-based publishing.
+  # Only a completed successful QA on trusted main triggers new publishing.
+  # The QA workflow coalesces writer pushes every five minutes, so do not launch
+  # one privileged Publisher run for every Writer commit.
   workflow_run:
     workflows: ['Universal writer QA (no WordPress credentials)']
     types: [completed]
@@ -19,8 +20,10 @@ on:
     - cron: '17,47 * * * *'
 permissions:
   contents: write
+# Separate from writer-claim and topic-refill jobs: only ONE privileged WordPress
+# publisher may run, and unrelated state jobs cannot displace its pending run.
 concurrency:
-  group: wp-writer-state
+  group: wp-writer-publisher
   cancel-in-progress: false
 jobs:
   publisher:
@@ -30,7 +33,9 @@ jobs:
       github.repository == 'thuexemayhanoi/wp-writer' &&
       (github.event_name != 'workflow_run' ||
         (github.event.workflow_run.conclusion == 'success' &&
-         github.event.workflow_run.event == 'push' &&
+         (github.event.workflow_run.event == 'push' ||
+          github.event.workflow_run.event == 'schedule' ||
+          github.event.workflow_run.event == 'workflow_dispatch') &&
          github.event.workflow_run.head_branch == 'main'))
     # Secrets should be migrated to a restricted production Environment by owner admin.
     # This name alone is NOT adequate isolation; live branch security is also checked.
@@ -42,12 +47,43 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
+      # Read the CURRENT trusted main policy before any expensive QA/REST work.
+      # An emergency stop must be cheap and must not expose WordPress credentials.
+      - name: Check emergency/paused switch before heavy steps
+        id: safety_switch
+        run: |
+          python - <<'PY'
+          import json, os
+          with open('config/production-policy.json', encoding='utf-8') as fh:
+              policy=json.load(fh)
+          proceed=not (policy.get('emergency_stop') is True or policy.get('paused') is True)
+          pilot=policy.get('publisher_pilot')
+          if proceed and pilot is not None:
+              # Fast no-secret preflight. publisher.py independently validates
+              # pilot settings and rechecks ledger before each REST POST.
+              with open('data/state/publication-ledger.json', encoding='utf-8') as fh:
+                  ledger=json.load(fh)
+              reserved=sum(1 for topic,rec in ledger.get('posts',{}).items()
+                           if topic.startswith('NT-') and isinstance(rec,dict)
+                           and rec.get('pilot_id')==pilot.get('id'))
+              if reserved>=pilot.get('max_posts',0):
+                  proceed=False
+                  print('Pilot publication budget exhausted:', reserved)
+          with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as fh:
+              fh.write('active='+str(proceed).lower()+'\n')
+          print('Publisher processing enabled:', proceed)
+          PY
+      - name: Owner pause or pilot completion acknowledgement (no WordPress writes)
+        if: steps.safety_switch.outputs.active != 'true'
+        run: echo 'Owner emergency_stop/paused is active; intake, QA refresh and publishing are skipped.' >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        if: steps.safety_switch.outputs.active == 'true'
         with:
           python-version: '3.12'
-      - run: pip install -r requirements.txt
+      - if: steps.safety_switch.outputs.active == 'true'
+        run: pip install -r requirements.txt
       - name: Confirm the successful QA run is from trusted main history
-        if: github.event_name == 'workflow_run'
+        if: steps.safety_switch.outputs.active == 'true' && github.event_name == 'workflow_run'
         env:
           QA_HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
         run: |
@@ -57,18 +93,22 @@ jobs:
       # Unit tests already gate the Writer QA run that triggers this job; they are
       # not repeated here, so an unrelated test can never hold back a QA-PASS article.
       - name: Git identity for durable state commits
+        if: steps.safety_switch.outputs.active == 'true'
         run: |
           git config user.name 'wp-writer-bot'
           git config user.email 'wp-writer-bot@users.noreply.github.com'
       - name: Admit GitHub-only writer drafts by lease and immutable hash
+        if: steps.safety_switch.outputs.active == 'true'
         run: python scripts/intake.py
       # Writer QA runs without write permissions and uploads ephemeral receipts.
       # Recompute them here so save_reports.py persists all current PASS/REPAIR
       # checkpoints to main even while emergency_stop keeps WP publishing OFF.
       - name: Refresh every article QA checkpoint for durable GitHub reporting
+        if: steps.safety_switch.outputs.active == 'true'
         run: python scripts/qa_gate.py
       - name: Inspect mode before exposing WordPress credentials
         id: mode
+        if: steps.safety_switch.outputs.active == 'true'
         run: |
           python - <<'PY'
           import json,os,sys
@@ -78,18 +118,24 @@ jobs:
           active=production_allowed(p) or draft_staging_allowed(p)
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:f.write('active='+str(active).lower()+'\n')
           PY
-      - if: steps.mode.outputs.active != 'true'
+      - if: steps.safety_switch.outputs.active == 'true' && steps.mode.outputs.active != 'true'
         run: python scripts/publisher.py
       - name: QA-gated serialized REST publisher (2x5, production gated in code)
-        if: steps.mode.outputs.active == 'true'
+        if: steps.safety_switch.outputs.active == 'true' && steps.mode.outputs.active == 'true'
         env:
           WP_URL: ${{ secrets.WP_URL }}
           WP_USERNAME: ${{ secrets.WP_USERNAME }}
           WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
         run: python scripts/publisher.py --persist-state
-      - if: always()
+      # Only a durable G7 PASS with exact category ID 182 can increment the
+      # 51-ward WordPress count. This step never touches WordPress itself.
+      - name: Reconcile Hanoi ward campaign progress from true QA and G7 receipts
+        if: steps.safety_switch.outputs.active == 'true' && always()
+        continue-on-error: true
+        run: python scripts/hanoi_ward_progress.py --persist-state
+      - if: steps.safety_switch.outputs.active == 'true' && always()
         run: python scripts/reports.py
-      - if: always()
+      - if: steps.safety_switch.outputs.active == 'true' && always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
           name: factory-receipt-${{ github.run_id }}
@@ -97,5 +143,5 @@ jobs:
             reports/
             data/qa/
       - name: Persist QA, dashboard and repair queue without retriggering publisher
-        if: always()
+        if: steps.safety_switch.outputs.active == 'true' && always()
         run: python scripts/save_reports.py
