@@ -70,24 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://dsvh.gov.vn/le-hoi-nam-lang-moc-3399",
-      "supports": "Cục Di sản văn hóa (hồ sơ tư liệu): Lễ hội năm làng Mọc xưa gồm các làng Giáp Nhất, Chính Kinh, Cự Lộc, Quan Nhân, Phùng Khoang (sau còn bốn làng), diễn ra từ mùng 10 đến 12 tháng Hai; từ năm 1992 năm năm một hội lớn vào ngày 11 và 12 tháng Hai, luân phiên đăng cai; điểm đón đoàn rước, tế hội đồng và Quyết định 1727/QĐ-BVHTTDL ngày 27/5/2021.",
-      "sha256": "fabf519b772ff4f901b5e4954f368ce1a9ec577da2f1c380e7643f73ef5bd6b0",
-      "verified_at": "2026-10-19T04:02:53.559495+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://nhipsonghanoi.hanoimoi.vn/le-hoi-nam-lang-moc-net-dep-lang-que-giua-chon-do-thanh-624519.html",
-      "supports": "Báo Hà Nội Mới (Nhịp sống Hà Nội): lễ hội từ mùng 10 đến 12 tháng Hai, gián đoạn từ năm 1945 và được các làng khôi phục năm 1992; sáng ngày 11 mở cửa đình, rước nước, mộc dục, phong y; ngày 12 đám rước lớn rồi tế hội đồng; lễ vật riêng của từng làng; công nhận di sản quốc gia ngày 27/5/2021.",
-      "sha256": "710892ea75aba496beec241c5d62511f8a90fa673753d7b6ad198a2157a1a333",
-      "verified_at": "2026-10-19T04:02:55.426927+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -122,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T04:03:12.804930+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T04:09:47.580440+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "4ad773a6814279ad2ae0d5434adbede7d0238837debc39cdcc066b5fd39f88e3",
+  "inventory_sha256": "3f8018878a4bcddb1efbad5bb0daa99db50789a42d5c958bda411c728560b2fa",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
