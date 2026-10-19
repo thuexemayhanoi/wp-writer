@@ -100,5 +100,26 @@
   "pending_editorial": 39,
   "next_review_batch": 5,
   "publisher_status": "publisher_pilot max_posts=3 already consumed; no ward batch editorial article published",
-  "rule": "Không tạo bản sao trang dịch vụ, không tự gán Topic ID/Writer slot/receipt, không vượt qua QA."
+  "rule": "Không tạo bản sao trang dịch vụ, không tự gán Topic ID/Writer slot/receipt, không vượt qua QA.",
+  "taxonomy_key": "hanoi-ward-rentals",
+  "wordpress_category": {
+    "term_id": 182,
+    "parent_term_id": 162,
+    "ancestor_term_id": 69,
+    "slug": "thue-xe-may-theo-phuong-ha-noi",
+    "name": "Thuê xe máy theo phường Hà Nội",
+    "verified_via": "WordPress REST GET /wp/v2/categories/182",
+    "verified_date": "2026-10-20",
+    "status": "VERIFIED"
+  },
+  "pipeline_requirements": {
+    "category_must_match": "hanoi-ward-rentals",
+    "research_qa": "PASS",
+    "writer_seo_min": 85,
+    "writer_quality_min": 85,
+    "wordpress_status_on_pass": "publish",
+    "no_wordpress_draft": true,
+    "g7_verified_before_count": true,
+    "collision_or_category_error": "HOLD_AT_GITHUB"
+  }
 }
