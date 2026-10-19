@@ -9675,7 +9675,7 @@
       }
     },
     "NT-000820": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T04:29:17.737939+00:00",
       "source_hash": "28184d33441007053b822017276df7b4f447e8aa20babf44c4348268eab0d345",
       "slug": "nu-du-khach-di-mot-minh-o-viet-nam-canada-anh-uc-va-cong-du-lich-quoc-gia-noi-gi-ve-quay-roi-taxi-phuong-tien-cong-cong-va-viec-can-lam-neu-bi-tan-cong",
@@ -9690,8 +9690,37 @@
       "category_warning": null,
       "git_commit": "2cb3f7cae1adecfb9e587dc89db04083e2c52c6b",
       "run_id": "39199122339",
-      "updated_at": "2026-10-19T04:29:21.507175+00:00",
-      "wp_id": 4171
+      "updated_at": "2026-10-19T04:29:27.454331+00:00",
+      "wp_id": 4171,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nu-du-khach-di-mot-minh-o-viet-nam-canada-anh-uc-va-cong-du-lich-quoc-gia-noi-gi-ve-quay-roi-taxi-phuong-tien-cong-cong-va-viec-can-lam-neu-bi-tan-cong/",
+      "verified_at": "2026-10-19T04:29:27.454325+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4171,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nu-du-khach-di-mot-minh-o-viet-nam-canada-anh-uc-va-cong-du-lich-quoc-gia-noi-gi-ve-quay-roi-taxi-phuong-tien-cong-cong-va-viec-can-lam-neu-bi-tan-cong/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nu-du-khach-di-mot-minh-o-viet-nam-canada-anh-uc-va-cong-du-lich-quoc-gia-noi-gi-ve-quay-roi-taxi-phuong-tien-cong-cong-va-viec-can-lam-neu-bi-tan-cong/",
+        "seo_title": "Nữ du khách đi một mình ở Việt Nam: Canada, Anh, Úc nói gì",
+        "seo_description": "Nữ du khách đi một mình ở Việt Nam: cổng du lịch nói tội phạm nhằm vào phụ nữ ít gặp, Canada, Anh, Úc nói quấy rối và tấn công có xảy ra, kèm việc cần làm sau khi bị tấn công.",
+        "checked_at": "2026-10-19T04:29:27.454308+00:00"
+      }
     }
   },
   "categories": {}
