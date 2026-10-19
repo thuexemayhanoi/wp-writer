@@ -1,0 +1,125 @@
+{
+  "topic_id": "NT-000876",
+  "status": "PASS",
+  "source_sha256": "265e8b6f6f492b97875dcc10beba4f9c0cd1380a5dfc0fd3ceabcb5830730ea6",
+  "body_sha256": "62c3ae06058387f633e71cb01f5a2a680dced41ac879ae8c7fc71080babe5d68",
+  "word_count": 3675,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2359,
+        "title": "Pin Lithium Và Ắc Quy Xe Máy Điện Khác Nhau Như Thế Nào Khi Dùng?",
+        "why": "stale",
+        "content_hash": "bad77afd59bcc932b63ec50e4d14d9c1f4c164d9587ac616c550e0651324d6c3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2485,
+        "title": "Honda Vision và Yamaha Grande khác nhau thế nào khi sử dụng?",
+        "why": "stale",
+        "content_hash": "9703b83fc962ecebe02b7b5ffd9c16749d3b18bd0a96a57af034e25e79a9fc7b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2510,
+        "title": "Khi nào nên thay lốp xe máy? Những dấu hiệu không nên bỏ qua",
+        "why": "stale",
+        "content_hash": "7a0e5dd9b44715037f825f57642abfb14c121dc4db736a750bde66cb37b61478",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T20:55:36.564000+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "60640c1cf0f7a116439540f74350fc13a4ca65b34dccf78ec247918cb33bbb2b",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
