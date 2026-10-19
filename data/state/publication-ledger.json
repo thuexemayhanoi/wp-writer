@@ -6795,7 +6795,7 @@
       }
     },
     "NT-000809": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T00:02:19.782184+00:00",
       "source_hash": "f925e7d583fbea4758ff235f957912dc187472bcd25f90531be68c0795281b5c",
       "slug": "hoa-sua-ha-noi-mua-hoa-thang-may-nhung-pho-trong-nhieu-va-vi-sao-thanh-pho-cat-tia-992-cay-trong-thang-10-2026",
@@ -6810,8 +6810,37 @@
       "category_warning": null,
       "git_commit": "a4208f395154219c1664f493b0aca2f4c0558b4f",
       "run_id": "39178582977",
-      "updated_at": "2026-10-19T00:02:23.699113+00:00",
-      "wp_id": 4111
+      "updated_at": "2026-10-19T00:02:29.333173+00:00",
+      "wp_id": 4111,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/hoa-sua-ha-noi-mua-hoa-thang-may-nhung-pho-trong-nhieu-va-vi-sao-thanh-pho-cat-tia-992-cay-trong-thang-10-2026/",
+      "verified_at": "2026-10-19T00:02:29.333168+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4111,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/hoa-sua-ha-noi-mua-hoa-thang-may-nhung-pho-trong-nhieu-va-vi-sao-thanh-pho-cat-tia-992-cay-trong-thang-10-2026/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/hoa-sua-ha-noi-mua-hoa-thang-may-nhung-pho-trong-nhieu-va-vi-sao-thanh-pho-cat-tia-992-cay-trong-thang-10-2026/",
+        "seo_title": "Hoa sữa Hà Nội: mùa nở, phố trồng nhiều và đợt cắt tỉa 10/2026",
+        "seo_description": "Hoa sữa Hà Nội nở tháng mấy, phố nào trồng nhiều và vì sao thành phố cắt tỉa 992 cây từ 16 đến 20/10? Tổng hợp từ VnExpress, Thanh Niên và VOV.",
+        "checked_at": "2026-10-19T00:02:29.333149+00:00"
+      }
     }
   },
   "categories": {}
