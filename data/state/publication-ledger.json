@@ -13467,7 +13467,7 @@
       }
     },
     "NT-000840": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T15:11:45.901012+00:00",
       "source_hash": "78d8400cd6389d5decba87ffff8cc01a73aa0f872854b4d287cb11306958bf70",
       "slug": "pin-lfp-co-tai-che-duoc-khong-vi-sao-thieu-coban-niken-khien-tai-che-it-lai-va-cac-cach-thu-hoi-lithium",
@@ -13482,8 +13482,37 @@
       "category_warning": null,
       "git_commit": "8e265ef8aa3e7899d0f47efe56ed2b1d51691681",
       "run_id": "39274893290",
-      "updated_at": "2026-10-19T15:11:50.196533+00:00",
-      "wp_id": 4257
+      "updated_at": "2026-10-19T15:11:56.329964+00:00",
+      "wp_id": 4257,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/pin-lfp-co-tai-che-duoc-khong-vi-sao-thieu-coban-niken-khien-tai-che-it-lai-va-cac-cach-thu-hoi-lithium/",
+      "verified_at": "2026-10-19T15:11:56.329958+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4257,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/pin-lfp-co-tai-che-duoc-khong-vi-sao-thieu-coban-niken-khien-tai-che-it-lai-va-cac-cach-thu-hoi-lithium/",
+        "categories": [
+          169
+        ],
+        "canonical": "https://thuexemaynguyentu.com/pin-lfp-co-tai-che-duoc-khong-vi-sao-thieu-coban-niken-khien-tai-che-it-lai-va-cac-cach-thu-hoi-lithium/",
+        "seo_title": "Pin LFP có tái chế được không: ít lãi vì thiếu coban, niken",
+        "seo_description": "Pin LFP có tái chế được không? Có, nhưng ít lãi vì thiếu coban, niken. Tóm tắt VnExpress và Wikipedia về nhiệt luyện, thủy luyện, làm mới pin và phát thải.",
+        "checked_at": "2026-10-19T15:11:56.329941+00:00"
+      }
     }
   },
   "categories": {}
