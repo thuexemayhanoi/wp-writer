@@ -9387,7 +9387,7 @@
       }
     },
     "NT-000650": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T04:21:01.345441+00:00",
       "source_hash": "0e15d246cc8957bd5ddca58b24244346bcfc1e2ef1b9769719d8d6eb44304c59",
       "slug": "5-tuyen-metro-moi-cua-ha-noi-tuyen-so-1-2-8-10-14-di-qua-dau-va-moc-hoan-thanh-du-kien-nam-2030",
@@ -9402,8 +9402,37 @@
       "category_warning": null,
       "git_commit": "9c4e7b0f89ee9acbbb46112b2871d25ed8135297",
       "run_id": "39198432432",
-      "updated_at": "2026-10-19T04:21:05.355214+00:00",
-      "wp_id": 4165
+      "updated_at": "2026-10-19T04:21:11.826070+00:00",
+      "wp_id": 4165,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/5-tuyen-metro-moi-cua-ha-noi-tuyen-so-1-2-8-10-14-di-qua-dau-va-moc-hoan-thanh-du-kien-nam-2030/",
+      "verified_at": "2026-10-19T04:21:11.826063+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4165,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/5-tuyen-metro-moi-cua-ha-noi-tuyen-so-1-2-8-10-14-di-qua-dau-va-moc-hoan-thanh-du-kien-nam-2030/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/5-tuyen-metro-moi-cua-ha-noi-tuyen-so-1-2-8-10-14-di-qua-dau-va-moc-hoan-thanh-du-kien-nam-2030/",
+        "seo_title": "5 tuyến metro mới của Hà Nội: tuyến 1, 2, 8, 10, 14 và mốc năm 2030",
+        "seo_description": "5 tuyến metro mới của Hà Nội ký hợp đồng chìa khóa trao tay ngày 15/10/2026: lộ trình tuyến số 1, 2, 8, 10, 14, chiều dài và mốc hoàn thành năm 2030.",
+        "checked_at": "2026-10-19T04:21:11.826046+00:00"
+      }
     }
   },
   "categories": {}
