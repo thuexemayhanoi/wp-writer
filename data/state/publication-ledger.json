@@ -15375,7 +15375,7 @@
       }
     },
     "NT-001040": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:36:26.908711+00:00",
       "source_hash": "fcfdf65cc40e4ac160e9a997bf3fa498bc421e81ce73a5bce55a0ca67951d813",
       "slug": "nha-tho-lon-ha-noi-xay-tren-nen-chua-bao-thien-1884-1887-kien-truc-gothic-va-lan-trung-tu-nam-2022",
@@ -15391,8 +15391,37 @@
       "category_warning": null,
       "git_commit": "831e787f61d4c3e1a9b7ce9fb2ac46efde8cc15c",
       "run_id": "39327874140",
-      "updated_at": "2026-10-19T21:36:30.824243+00:00",
-      "wp_id": 4307
+      "updated_at": "2026-10-19T21:36:36.518308+00:00",
+      "wp_id": 4307,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nha-tho-lon-ha-noi-xay-tren-nen-chua-bao-thien-1884-1887-kien-truc-gothic-va-lan-trung-tu-nam-2022/",
+      "verified_at": "2026-10-19T21:36:36.518301+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4307,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nha-tho-lon-ha-noi-xay-tren-nen-chua-bao-thien-1884-1887-kien-truc-gothic-va-lan-trung-tu-nam-2022/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nha-tho-lon-ha-noi-xay-tren-nen-chua-bao-thien-1884-1887-kien-truc-gothic-va-lan-trung-tu-nam-2022/",
+        "seo_title": "Nhà thờ Lớn Hà Nội xây năm nào? Lịch sử, Gothic, trùng tu 2022",
+        "seo_description": "Nhà thờ Lớn Hà Nội ở số 40 phố Nhà Chung: xây trên đất chùa Báo Thiên 1884–1887, kiến trúc Gothic, trùng tu xong 2022, theo Thanh Niên và Dân trí.",
+        "checked_at": "2026-10-19T21:36:36.518283+00:00"
+      }
     }
   },
   "categories": {}
