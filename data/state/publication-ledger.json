@@ -12939,7 +12939,7 @@
       }
     },
     "NT-000855": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T14:41:42.813460+00:00",
       "source_hash": "2f08b488ede196a3facf2a3ce075f9aebfb481d1ee0942fe9139f0fd2f61a333",
       "slug": "xep-hanh-ly-len-xe-may-di-xa-dat-do-thap-va-gan-tam-xe-chia-deu-hai-ben-khong-buoc-len-tay-lai-va-kiem-tra-day-buoc-doc-duong",
@@ -12954,8 +12954,37 @@
       "category_warning": null,
       "git_commit": "aea88871b9149dde6a66bc7752c176882d264eb8",
       "run_id": "39270502236",
-      "updated_at": "2026-10-19T14:41:47.395973+00:00",
-      "wp_id": 4246
+      "updated_at": "2026-10-19T14:41:54.249924+00:00",
+      "wp_id": 4246,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xep-hanh-ly-len-xe-may-di-xa-dat-do-thap-va-gan-tam-xe-chia-deu-hai-ben-khong-buoc-len-tay-lai-va-kiem-tra-day-buoc-doc-duong/",
+      "verified_at": "2026-10-19T14:41:54.249916+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4246,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xep-hanh-ly-len-xe-may-di-xa-dat-do-thap-va-gan-tam-xe-chia-deu-hai-ben-khong-buoc-len-tay-lai-va-kiem-tra-day-buoc-doc-duong/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xep-hanh-ly-len-xe-may-di-xa-dat-do-thap-va-gan-tam-xe-chia-deu-hai-ben-khong-buoc-len-tay-lai-va-kiem-tra-day-buoc-doc-duong/",
+        "seo_title": "Cách xếp hành lý lên xe máy đi xa: đặt đâu, buộc gì, kiểm tra sao",
+        "seo_description": "Cách xếp hành lý lên xe máy khi đi xa theo HART, MSF, NHTSA và sách Honda: đặt đồ thấp, gần tâm xe, chia đều hai bên, không buộc lên tay lái, kiểm tra dây dọc đường.",
+        "checked_at": "2026-10-19T14:41:54.249889+00:00"
+      }
     }
   },
   "categories": {}
