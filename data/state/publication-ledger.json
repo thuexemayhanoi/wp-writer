@@ -7899,7 +7899,7 @@
       }
     },
     "NT-000349": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T03:56:58.123242+00:00",
       "source_hash": "77891ef913fea3c922981b0bee1c1f5fcca6c1e014ae13b986b48e5bf883382c",
       "slug": "vuot-den-do-di-nguoc-chieu-bang-xe-may-muc-phat-diem-bi-tru-di-len-via-he-va-ngoai-le",
@@ -7914,8 +7914,37 @@
       "category_warning": null,
       "git_commit": "01794ea20be233fefb393d85177c09314c353f1c",
       "run_id": "39196699167",
-      "updated_at": "2026-10-19T03:57:01.884874+00:00",
-      "wp_id": 4134
+      "updated_at": "2026-10-19T03:57:07.839031+00:00",
+      "wp_id": 4134,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/vuot-den-do-di-nguoc-chieu-bang-xe-may-muc-phat-diem-bi-tru-di-len-via-he-va-ngoai-le/",
+      "verified_at": "2026-10-19T03:57:07.839025+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4134,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/vuot-den-do-di-nguoc-chieu-bang-xe-may-muc-phat-diem-bi-tru-di-len-via-he-va-ngoai-le/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/vuot-den-do-di-nguoc-chieu-bang-xe-may-muc-phat-diem-bi-tru-di-len-via-he-va-ngoai-le/",
+        "seo_title": "Vượt đèn đỏ, đi ngược chiều bằng xe máy: mức phạt, điểm bị trừ",
+        "seo_description": "Vượt đèn đỏ, đi ngược chiều bằng xe máy và đi trên vỉa hè bị phạt 4 triệu đến 6 triệu đồng theo Bộ Công an; điểm bị trừ lấy từ toàn văn nghị định, kèm ngoại lệ có nguồn.",
+        "checked_at": "2026-10-19T03:57:07.839007+00:00"
+      }
     }
   },
   "categories": {}
