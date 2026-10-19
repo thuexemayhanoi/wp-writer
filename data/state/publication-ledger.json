@@ -10251,7 +10251,7 @@
       }
     },
     "NT-000561": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T05:45:26.319029+00:00",
       "source_hash": "26c2d00221826eff88b998c6648469d7abc7530613ddb91545e84ce0adb6c4b3",
       "slug": "hoang-su-phi-bang-xe-may-tu-ha-noi-huong-thuong-son-tung-san-mua-nuoc-do-va-mua-gat",
@@ -10266,8 +10266,37 @@
       "category_warning": null,
       "git_commit": "1504dc1a85c5714dd0a9592eebed3a9e285b3026",
       "run_id": "39205930684",
-      "updated_at": "2026-10-19T05:45:30.556943+00:00",
-      "wp_id": 4183
+      "updated_at": "2026-10-19T05:45:36.199662+00:00",
+      "wp_id": 4183,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/hoang-su-phi-bang-xe-may-tu-ha-noi-huong-thuong-son-tung-san-mua-nuoc-do-va-mua-gat/",
+      "verified_at": "2026-10-19T05:45:36.199656+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4183,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/hoang-su-phi-bang-xe-may-tu-ha-noi-huong-thuong-son-tung-san-mua-nuoc-do-va-mua-gat/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/hoang-su-phi-bang-xe-may-tu-ha-noi-huong-thuong-son-tung-san-mua-nuoc-do-va-mua-gat/",
+        "seo_title": "Hoàng Su Phì bằng xe máy từ Hà Nội: đường đi, mùa nước đổ, mùa gặt",
+        "seo_description": "Hoàng Su Phì bằng xe máy từ Hà Nội: khoảng 300 km theo VnExpress, hướng Thượng Sơn – Túng Sán, mùa nước đổ tháng 5–6 và mùa gặt tháng 9 chỉ 2–3 tuần.",
+        "checked_at": "2026-10-19T05:45:36.199636+00:00"
+      }
     }
   },
   "categories": {}
