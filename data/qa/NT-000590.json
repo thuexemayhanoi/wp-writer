@@ -70,7 +70,77 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [],
+  "source_evidence": [
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-801b-how-to-define-battery-life",
+      "supports": "Battery University BU-801b (cập nhật 29/10/2021): dung lượng là chỉ số sức khỏe chính, pin mới 100% và dải làm việc chấp nhận được 80-100%; pin lithium và niken cho 300-500 chu kỳ xả sạc đầy trước khi dưới 80%; ví dụ máy bộ đàm 100%/80%/70% ứng với 10/8/7 giờ; nhiệt độ cao, sạc siêu nhanh và xả mạnh cũng làm hại pin; đèn sẵn sàng của bộ sạc chỉ có nghĩa pin đã đầy.",
+      "sha256": "f64a77fd445b15053e76950fcb9d079f9aeea63af1d8a3b7cd28b4c3f4422a20",
+      "verified_at": "2026-10-19T04:05:27.628501+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries",
+      "supports": "Battery University BU-808 (cập nhật 11/10/2023): đếm chu kỳ chưa kết luận được vì độ sâu xả khác nhau và chưa có chuẩn định nghĩa một chu kỳ; nhà sản xuất thường nêu 300-500 chu kỳ cho Li-ion tiêu dùng và thường công bố chu kỳ ở độ sâu xả 80%; thử nghiệm phòng thí nghiệm thường cho số khó đạt ngoài thực tế; pin không chết đột ngột mà thời gian chạy ngắn dần; điều kiện môi trường quyết định tuổi thọ; các bảng lập cho Li-ion gốc cobalt.",
+      "sha256": "54e2c3993a1ba98ab508519d2ba8f4b5a748b24af0d28fd4c15ac7c9a03d7a43",
+      "verified_at": "2026-10-19T04:05:29.011859+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-808b-what-causes-li-ion-to-die",
+      "supports": "Battery University BU-808b (cập nhật 03/11/2021): bốn nguyên nhân nghi ngờ gây mất dung lượng của pin Li-ion: hao mòn cơ học điện cực hoặc mất lực ép ở cell túi mềm, lớp SEI lớn dần trên cực âm, oxy hóa chất điện phân ở cực dương và mạ lithium do sạc tốc độ cao.",
+      "sha256": "f9cdca4e8d4d3ef4ceafbaa8f8373c0956bbab9fd6525b879ef4991590326027",
+      "verified_at": "2026-10-19T04:05:30.590566+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.rei.com/learn/expert-advice/e-bike-charging.html",
+      "supports": "REI Co-op (xe đạp điện): thường sạc được 500-1.000 lần đầy trước khi bắt đầu mất dung lượng; chu kỳ đầy là xả và sạc trọn vẹn, có thể gộp nhiều lần sạc một phần; ví dụ dùng nửa pin rồi sạc ở 50% ước tính 1.000-2.000 lần sạc đầy; pin không tự nhiên chết mà mất dần dung lượng theo tuổi.",
+      "sha256": "0029bb74285e3a2ee6d4f38f458bfb4eaceb5b553829e68369a71878228d2383",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "TimeoutError"
+    },
+    {
+      "url": "https://www.bosch-ebike.com/us/news/12-questions-about-the-ebike-battery",
+      "supports": "Bosch eBike Systems: không thể dự đoán chính xác tuổi thọ; đại lý đo dung lượng hiện có bằng CapacityTester; pin là chi tiết hao mòn, dùng nhiều già nhanh; không có hiệu ứng nhớ với pin lithium-ion; pin vẫn già theo thời gian khi không dùng; nhiệt độ cao hoặc cất pin ở mức sạc thấp hay cao làm ngắn tuổi thọ.",
+      "sha256": "a8f289f33fe36e25d7d5f0aee3178a8782ece4ad510184f94b1f331e8bc532b1",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://bike.shimano.com/support-and-service/faq/STP0A.html",
+      "supports": "Shimano STEPS (hỏi đáp pin S-6100): với tối đa 1.000 lần sạc, pin giữ được 60% dung lượng ban đầu.",
+      "sha256": "a1dd97369f1254c5eb5260beb181bc833118a3dd3a38ca24f3804ad14b579bec",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/cau-hoi-thuong-gap-khi-tim-hieu-pin-xe-may-dien-vinfast",
+      "supports": "VinFast (hỏi đáp pin xe máy điện): tần suất sử dụng và cách sạc là hai yếu tố then chốt ảnh hưởng độ bền pin; pin lithium VinFast đã test sau 1.000 chu kỳ sạc xả vẫn còn 70% dung lượng, tương đương 6-8 năm sử dụng (cách quy đổi của hãng); pin lithium đặc biệt nhạy cảm với nhiệt độ cao.",
+      "sha256": "9ba66891fdacef6f8097e3cc11a4cb8eb94fb66bd96096c6f9c7f6d03148f0b9",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/goi-y-xe-dien-bao-pin-ao-nguyen-nhan-cach-khac-phuc-va-cach-theo-doi-pin",
+      "supports": "VinFast (trang pin ảo): ví dụ xe sạc đầy báo 100% nhưng dung lượng thực còn 95%, rất khó nhận biết; cách tốt nhất để nhận biết tình trạng pin là quan sát độ sụt khi vận hành và để kiểm tra là mang xe đến trung tâm bảo hành chính hãng; pin chai hoặc hết tuổi thọ thì nhân viên báo cần thay.",
+      "sha256": "aa76e9d55e71bf554c7cc20e69c8e31639b8b115b10e15527e899c59a9e0c076",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    }
+  ],
   "evidence_recheck": {
     "pages": [
       {
@@ -105,11 +175,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T03:53:01.249144+00:00",
-  "live_links_checked": false,
+  "at": "2026-10-19T04:06:47.280494+00:00",
+  "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "6b48ad7c1dcc2b70cd9ffe76d55743892d5fc49196ed55ce17b7958ae4e1fe2e",
+  "inventory_sha256": "4ef852a824097d86fd570f322bdcc43aa483bd0da48e4ecf9149f1f1a07a901a",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

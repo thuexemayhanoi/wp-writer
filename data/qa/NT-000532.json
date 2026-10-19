@@ -70,7 +70,24 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [],
+  "source_evidence": [
+    {
+      "url": "https://dsvh.gov.vn/le-ket-cha-phu-my-kieu-mai-3398",
+      "supports": "Cục Di sản văn hóa (hồ sơ tư liệu): hai làng Phú Mỹ và Kiều Mai giáp nhau, tục kết chạ ghi trong hương ước ngày 10 tháng Tư năm Cảnh Hưng thứ 6 (1745); hội lớn năm năm một lần từ năm 2020; các ngày hội mỗi làng, kiệu long đình và bát cống, trò chơi dân gian; Quyết định 1728/QĐ-BVHTTDL ngày 27/5/2021.",
+      "sha256": "623f71f62a37e9ee8d7d3c43d50ebbb6417e526692a79d9af02c0adefbde05f3",
+      "verified_at": "2026-10-19T04:03:26.513826+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://nhipsonghanoi.hanoimoi.vn/tuc-ket-cha-o-lang-phu-my-kieu-mai-624538.html",
+      "supports": "Báo Hà Nội Mới (Nhịp sống Hà Nội): tục kết chạ duy trì hàng trăm năm, câu ca \"Tháng Giêng em đến, tháng Hai chị về\"; bản khoán ước 1745 phục hồi năm Quý Dậu 1933 ghi ngày 7 tháng Giêng và ngày 20 tháng Hai; hội lớn năm năm một lần; trò chơi dân gian và hát cửa đình.",
+      "sha256": "86e9e961353b0c2b4b30d1e1cefde8bb57a61bf17a544ca3a37853c65aa8aaeb",
+      "verified_at": "2026-10-19T04:03:28.525527+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
   "evidence_recheck": {
     "pages": [
       {
@@ -96,11 +113,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T03:52:55.959736+00:00",
-  "live_links_checked": false,
+  "at": "2026-10-19T04:03:39.103267+00:00",
+  "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "6b48ad7c1dcc2b70cd9ffe76d55743892d5fc49196ed55ce17b7958ae4e1fe2e",
+  "inventory_sha256": "03bec77872b79c6529a7b91b90e5aa9a99de08e1a03880605c56be642ba8aa8d",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

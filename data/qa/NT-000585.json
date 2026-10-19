@@ -70,7 +70,92 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [],
+  "source_evidence": [
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-502-discharging-at-high-and-low-temperatures",
+      "supports": "Battery University BU-502 (27/10/2021): lạnh làm tăng nội trở và giảm dung lượng (100% ở 27°C chỉ còn khoảng 50% ở −18°C), phục hồi khi ấm lại; nóng làm giảm số chu kỳ.",
+      "sha256": "bc213d601568d3869d05e317fb3f20d81d3a1e8fc70ece2179801ee9353cd0f6",
+      "verified_at": "2026-10-19T04:04:48.926450+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries",
+      "supports": "Battery University BU-808: trên 30°C là nhiệt độ cao; để pin ở nhiệt độ cao và mức sạc đầy lâu có thể gây hại hơn cả việc sạc xả.",
+      "sha256": "54e2c3993a1ba98ab508519d2ba8f4b5a748b24af0d28fd4c15ac7c9a03d7a43",
+      "verified_at": "2026-10-19T04:04:50.104588+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-802b-what-does-elevated-self-discharge-do",
+      "supports": "Battery University BU-802b: tốc độ tự xả tăng theo nhiệt độ và thường gấp đôi sau mỗi 10°C.",
+      "sha256": "5a0014572040c935e6512a1f69d8963557e53830a70760fccb6b8de35392cfc5",
+      "verified_at": "2026-10-19T04:04:51.500558+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "supports": "Dat Bike: nhiệt độ là \"kẻ thù\" số một của pin lithium-ion; sạc khi nhiệt độ quá cao đẩy nhanh thoái hóa pin.",
+      "sha256": "0f548a2d957b60a67e6ebedf06b634d0ac4677b2ff843c447af7f49b2a5f7ad3",
+      "verified_at": "2026-10-19T04:04:53.000414+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.giant-bicycles.com/gb/electric-bike-battery-winter",
+      "supports": "Giant UK (EnergyPak): nhiệt độ thấp làm pin xe đạp điện cho ít quãng đường hơn; nên cất pin trong nhà và để ở nhiệt độ phòng trước khi sạc.",
+      "sha256": "a74371ad214126ab873bcc132c440272457f378f813b60f700fd89a378ac7be1",
+      "verified_at": "2026-10-19T04:04:54.091692+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.bosch-ebike.com/us/news/12-questions-about-the-ebike-battery",
+      "supports": "Bosch eBike Systems: thời tiết lạnh làm giảm hiệu năng pin; dưới 0°C nên cho pin ấm lên trong nhà trước khi đi.",
+      "sha256": "a8f289f33fe36e25d7d5f0aee3178a8782ece4ad510184f94b1f331e8bc532b1",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://www.iea.org/reports/global-ev-outlook-2025/electric-vehicle-batteries",
+      "supports": "IEA 2025: NMC có lợi thế ở khí hậu lạnh, nơi công nghệ LFP thường kém hiệu quả hơn.",
+      "sha256": "532f2bc5c613f795686307eda9d4dd8ebd9a76d6c1869672cb3d1dfdb694dde0",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/huong-dan-su-dung-pin-lithium-vinfast-dung-cach",
+      "supports": "VinFast (trang pin lithium): nhiệt độ hoạt động 10–45°C để pin hoạt động tốt nhất và hạn chế suy giảm dung lượng.",
+      "sha256": "8a20f6d2efd236773b2d21adfa4b30b5aa7875aa956930afd30098e61c764071",
+      "research_checked_at": "2026-10-17",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/cau-hoi-thuong-gap-khi-tim-hieu-pin-xe-may-dien-vinfast",
+      "supports": "VinFast: pin lithium đặc biệt nhạy cảm với nhiệt độ cao, nên tránh sạc khi pin đang nóng.",
+      "sha256": "9ba66891fdacef6f8097e3cc11a4cb8eb94fb66bd96096c6f9c7f6d03148f0b9",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://www.trekbikes.com/gb/en_GB/ebike_faq/",
+      "supports": "Trek (bản UK): pin lithium-ion hoạt động tốt hơn ở nhiệt độ phòng; để ngoài nhiệt độ khắc nghiệt có thể làm pin xuống cấp.",
+      "sha256": "abaecb78b6ddb343cd5de513d585330453f50343d4fd3c27226f55f72d8ad0eb",
+      "verified_at": "2026-10-19T04:04:54.987860+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
   "evidence_recheck": {
     "pages": [
       {
@@ -87,11 +172,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T03:52:59.884619+00:00",
-  "live_links_checked": false,
+  "at": "2026-10-19T04:05:02.485687+00:00",
+  "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "6b48ad7c1dcc2b70cd9ffe76d55743892d5fc49196ed55ce17b7958ae4e1fe2e",
+  "inventory_sha256": "23ae839cab04c3e9352a7e26fa92a16f17e85c04bf2d0535cf6ad915a180c815",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

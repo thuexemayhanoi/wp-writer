@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://dsvh.gov.vn/di-tich-lich-su-va-kien-truc-nghe-thuat-con-son-kiep-bac-2954",
-      "supports": "Cục Di sản văn hóa (dsvh.gov.vn): khu di tích quốc gia đặc biệt Côn Sơn - Kiếp Bạc gồm hai khu vực chính, mô tả các điểm và khoảng cách quanh đền Kiếp Bạc, hội Côn Sơn và lễ hội đền Kiếp Bạc theo âm lịch.",
-      "sha256": "2036606be94048c65166192b99612100644e9ca73e4ad756aad1c78682b5ac67",
-      "verified_at": "2026-10-19T03:58:44.625067+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://bvhttdl.gov.vn/di-san-van-hoa-the-gioi-con-son-kiep-bac-don-khoang-65-van-luot-du-khach-dip-cuoi-tuan-20250930081817981.htm",
-      "supports": "Cổng thông tin Bộ VHTTDL (30/9/2025, TTXVN): khoảng 6,5 vạn lượt khách cuối tuần 27-28/9/2025, xe nối đuôi, bãi xe gần kín từ sáng sớm; Lễ hội mùa Thu 2025; UNESCO ghi danh quần thể tháng 7/2025.",
-      "sha256": "1bab023018cb13e00e49b31e0fc09fee783908a0f5160a1ee847dedbe771ff00",
-      "verified_at": "2026-10-19T03:58:47.483772+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnexpress.net/con-son-kiep-bac-mot-coi-binh-yen-2887549.html",
-      "supports": "VnExpress (bài cũ): ước tính Côn Sơn - Kiếp Bạc cách Hà Nội chừng 80 km; đền Kiếp Bạc nhìn ra sông Lục Đầu (bến Bình Than thời Trần).",
-      "sha256": "d12ca342953aa86c4e49f89b6034bfaf999f22159d400dcc7cf90e3aea44f63d",
-      "verified_at": "2026-10-19T03:58:50.015493+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -112,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T03:58:55.985215+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T04:00:52.378710+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "1eedc333be759fc682289a4b985093906ac7de3698cac1eb8de85055259cfd5c",
+  "inventory_sha256": "4763d69ae45fa9bd589708efc28401cf4c7dec16908c120c50a065c882f4e702",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
