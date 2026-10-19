@@ -11883,7 +11883,7 @@
       }
     },
     "NT-000628": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T09:46:49.552803+00:00",
       "source_hash": "0daeac8eee77c866bd813d02405599c87841bfb89ca509c899c65c0f81f690c2",
       "slug": "xe-may-dien-het-pin-hoac-xit-lop-giua-duong-dat-xe-keo-re-hay-goi-xe-chuyen-cho",
@@ -11898,8 +11898,37 @@
       "category_warning": null,
       "git_commit": "7ff3727fdfd7716ef5c6484de6730f887653310c",
       "run_id": "39231410457",
-      "updated_at": "2026-10-19T09:46:53.195728+00:00",
-      "wp_id": 4219
+      "updated_at": "2026-10-19T09:46:59.264195+00:00",
+      "wp_id": 4219,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-dien-het-pin-hoac-xit-lop-giua-duong-dat-xe-keo-re-hay-goi-xe-chuyen-cho/",
+      "verified_at": "2026-10-19T09:46:59.264189+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4219,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-dien-het-pin-hoac-xit-lop-giua-duong-dat-xe-keo-re-hay-goi-xe-chuyen-cho/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-dien-het-pin-hoac-xit-lop-giua-duong-dat-xe-keo-re-hay-goi-xe-chuyen-cho/",
+        "seo_title": "Xe máy điện hết pin giữa đường: dắt xe, kéo rê hay gọi xe chở?",
+        "seo_description": "Xe máy điện hết pin giữa đường hoặc xịt lốp: Yamaha, Dat Bike, VnExpress và sổ VinFast Feliz S nói gì về dắt xe, kéo rê, gọi xe chuyên chở và việc chuẩn bị trước.",
+        "checked_at": "2026-10-19T09:46:59.264171+00:00"
+      }
     }
   },
   "categories": {}
