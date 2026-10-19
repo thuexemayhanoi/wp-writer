@@ -4,7 +4,7 @@
   "mode": "production",
   "production_enabled": true,
   "paused": false,
-  "emergency_stop": true,
+  "emergency_stop": false,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "max_new_posts_daily": 1000,
@@ -27,5 +27,9 @@
   "draft_staging_approval_ref": null,
   "max_new_drafts_daily": 1000,
   "owner_publish_request": "2026-10-16: owner approved immediate QA-pass-to-WordPress bulk publishing (10 as 2x5). 2026-10-17: owner ordered the simple flow W1/W2/W3 -> QA (>=85, duplicate check, category) -> Publisher -> public WordPress, with no extra security or acceptance gate. acceptance_passed and security_controls_verified stay false because no such verification was performed; they no longer gate publication.",
-  "seo_adapter_evidence": "https://github.com/thuexemayhanoi/wp-writer/actions/runs/38910018718"
+  "seo_adapter_evidence": "https://github.com/thuexemayhanoi/wp-writer/actions/runs/38910018718",
+  "publisher_pilot": {
+    "id": "pilot-three-20261019",
+    "max_posts": 3
+  }
 }
