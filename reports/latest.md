@@ -4,8 +4,8 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-19T00:24:32.675447+00:00 |
-| existing_published_posts | 307 |
+| at | 2026-10-19T00:33:13.288927+00:00 |
+| existing_published_posts | 308 |
 | existing_pages | 10 |
 | existing_products | 13 |
 | candidate_topics | 293 |
@@ -19,7 +19,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | refill_round_target | 100-200 |
 | refill_state | REFILL_IN_PROGRESS |
 | refill_order | RF-0001 |
-| refill_accepted_so_far | 174 |
+| refill_accepted_so_far | 181 |
 | writing | 67 |
 | draft_authored | 156 |
 | qa_pass | 155 |
@@ -43,7 +43,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | delivery_mode | production |
 | production_enabled | True |
 | draft_staging_enabled | False |
-| qa_pass_live_checked | 1 |
+| qa_pass_live_checked | 0 |
 | qa_pass_awaiting_wordpress | 0 |
 | queued_topic_ids | [] |
 | pending_wordpress_intents | [] |
