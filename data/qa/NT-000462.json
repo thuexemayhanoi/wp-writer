@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.chademo.com/eptwspec",
-      "supports": "Hiệp hội CHAdeMO (tin 28/02/2022) nêu đã phát hành giao thức cho xe máy và xe nhỏ: mở rộng chuẩn sang sạc DC công suất nhỏ khoảng 10 kW (120 V, tối đa 100 A), dựa trên IEC 61851-25, đầu nối nhỏ hơn đầu thông thường.",
-      "sha256": "5cee8e7c386567ae45a6c908bab58e3419a636a25a1d1895c6df8d648aceb088",
-      "verified_at": "2026-10-19T09:27:16.215216+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-mo-ban-hai-mau-xe-may-dien-honda-cuv-e-va-honda-uc3-trien-khai-he-thong-tram-doi-pin-va-tram-sac-pin-tai-cac-thanh-pho-lon",
-      "supports": "Honda Việt Nam (04/06/2026) nêu Honda Motor Charger Hub dành cho UC3 dùng chuẩn quốc tế CHAdeMO với công suất 1200 W mỗi đầu sạc, đăng ký và thanh toán qua MyHonda+, đặt tại cửa hàng ủy nhiệm kinh doanh xe điện, vận hành từ tháng 7/2026 (dự kiến); UC3 sạc nhanh 0–100% khoảng 4 giờ và 20–80% khoảng 2 giờ.",
-      "sha256": "d0bcc49d8498aed7218fef3d82bec271954f4d0b18e7b73c6135ef5051be2f63",
-      "verified_at": "2026-10-19T09:27:18.241598+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-ra-mat-o-to-civic-hybrid-cung-hai-mau-xe-may-dien-cuv-e-va-icon-e-hoan-toan-moi-tai-trien-lam-o-to-xe-may-viet-nam-2024",
-      "supports": "Honda Việt Nam (trang ra mắt 2024) nêu ICON e: cho sạc pin từ 25% đến 75% trong 3,5 giờ bằng bộ sạc thông thường, để đối chiếu với tốc độ sạc nhanh của UC3.",
-      "sha256": "9e65fe4a1408dc124e6647d86167587881143fdf441fe06a10866514690704b1",
-      "verified_at": "2026-10-19T09:27:19.597087+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -130,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T09:27:29.740602+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T09:31:00.625720+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "09d8c822baffa32b821cbc9262eff21d53291e29382dc68bae203ad1f1da5564",
+  "inventory_sha256": "c147ce61f9e5f08003889ccef52d5cf0a3038c31abe0576bd1211d29602573ac",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
