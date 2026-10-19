@@ -9627,7 +9627,7 @@
       }
     },
     "NT-000819": {
-      "phase": "POST_INTENT",
+      "phase": "VERIFY_PENDING",
       "created_at": "2026-10-19T04:27:50.948098+00:00",
       "source_hash": "ae3ef7011558434e2427b0ea7a75b0002d8b6e59a31f6c4de80ad2855a46fd64",
       "slug": "el-nino-2026-2027-va-chuyen-di-xe-may-o-viet-nam-wmo-noaa-canada-va-cuc-khi-tuong-thuy-van-noi-gi-ve-nang-nong-mua-lon-cuc-bo-va-it-bao",
@@ -9642,7 +9642,8 @@
       "category_warning": null,
       "git_commit": "2cb3f7cae1adecfb9e587dc89db04083e2c52c6b",
       "run_id": "39199122339",
-      "updated_at": "2026-10-19T04:27:50.950722+00:00"
+      "updated_at": "2026-10-19T04:27:54.991099+00:00",
+      "wp_id": 4170
     }
   },
   "categories": {}
