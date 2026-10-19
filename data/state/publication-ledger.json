@@ -9819,7 +9819,7 @@
       }
     },
     "NT-000823": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T05:19:38.254332+00:00",
       "source_hash": "1a1ede067d268ce5574c24b09e4e064d1870744a8d01da77fc7b2d4b18795bda",
       "slug": "di-xe-may-mua-dong-2026-2027-o-mien-bac-du-bao-ret-dam-den-muon-gio-lanh-khi-chay-xe-va-dieu-co-quan-y-te-dan-khi-troi-lanh",
@@ -9834,8 +9834,37 @@
       "category_warning": null,
       "git_commit": "6d9847eecea6f5b2e6df3dd037291f88fe1371ab",
       "run_id": "39203652392",
-      "updated_at": "2026-10-19T05:19:44.038289+00:00",
-      "wp_id": 4174
+      "updated_at": "2026-10-19T05:19:50.194991+00:00",
+      "wp_id": 4174,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/di-xe-may-mua-dong-2026-2027-o-mien-bac-du-bao-ret-dam-den-muon-gio-lanh-khi-chay-xe-va-dieu-co-quan-y-te-dan-khi-troi-lanh/",
+      "verified_at": "2026-10-19T05:19:50.194985+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4174,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/di-xe-may-mua-dong-2026-2027-o-mien-bac-du-bao-ret-dam-den-muon-gio-lanh-khi-chay-xe-va-dieu-co-quan-y-te-dan-khi-troi-lanh/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/di-xe-may-mua-dong-2026-2027-o-mien-bac-du-bao-ret-dam-den-muon-gio-lanh-khi-chay-xe-va-dieu-co-quan-y-te-dan-khi-troi-lanh/",
+        "seo_title": "Đi xe máy mùa đông 2026-2027 ở miền Bắc: rét muộn, gió lạnh, giữ ấm",
+        "seo_description": "Đi xe máy mùa đông 2026-2027 ở miền Bắc: các bài báo thuật lại dự báo nói rét đậm đến muộn nhưng vẫn có đợt rét mạnh; cơ quan y tế dặn giữ ấm, giữ khô ra sao.",
+        "checked_at": "2026-10-19T05:19:50.194961+00:00"
+      }
     }
   },
   "categories": {}
