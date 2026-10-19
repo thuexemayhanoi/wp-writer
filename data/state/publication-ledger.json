@@ -14885,7 +14885,7 @@
       }
     },
     "NT-000875": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:26:38.586154+00:00",
       "source_hash": "ad43cb0f49097082bdb54fd76144bcc61b4d665c1bfcba6380618ada2ca74d6d",
       "slug": "36-pho-phuong-ha-noi-vi-sao-nhieu-pho-co-mang-ten-hang-so-36-la-that-hay-tuong-trung-co-bao-nhieu-pho-hang-va-pho-nao-con-giu-nghe",
@@ -14901,8 +14901,37 @@
       "category_warning": null,
       "git_commit": "0927396b58191acf78af0cf04b0ee3c0688197ef",
       "run_id": "39326750194",
-      "updated_at": "2026-10-19T21:26:42.868029+00:00",
-      "wp_id": 4297
+      "updated_at": "2026-10-19T21:26:48.784036+00:00",
+      "wp_id": 4297,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/36-pho-phuong-ha-noi-vi-sao-nhieu-pho-co-mang-ten-hang-so-36-la-that-hay-tuong-trung-co-bao-nhieu-pho-hang-va-pho-nao-con-giu-nghe/",
+      "verified_at": "2026-10-19T21:26:48.784030+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4297,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/36-pho-phuong-ha-noi-vi-sao-nhieu-pho-co-mang-ten-hang-so-36-la-that-hay-tuong-trung-co-bao-nhieu-pho-hang-va-pho-nao-con-giu-nghe/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/36-pho-phuong-ha-noi-vi-sao-nhieu-pho-co-mang-ten-hang-so-36-la-that-hay-tuong-trung-co-bao-nhieu-pho-hang-va-pho-nao-con-giu-nghe/",
+        "seo_title": "36 phố phường Hà Nội: tên Hàng, số 36 và phố còn giữ nghề",
+        "seo_description": "36 phố phường Hà Nội là gì? Giải thích chữ Hàng đầu tên phố, con số 36 còn tranh cãi, 48 hay gần 50 phố Hàng và phố nào còn giữ nghề theo năm trang báo.",
+        "checked_at": "2026-10-19T21:26:48.784009+00:00"
+      }
     }
   },
   "categories": {}
