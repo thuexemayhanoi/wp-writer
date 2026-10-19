@@ -12075,7 +12075,7 @@
       }
     },
     "NT-000624": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T09:55:22.913911+00:00",
       "source_hash": "2cae4ddfe8367c1ee4d7f7b9d84bc0bd90ac758e0fe882c5fff520d993e04e97",
       "slug": "bao-duong-xe-dap-dien-khac-xe-dap-thuong-the-nao-xich-ma-phanh-lop-va-cong-sac-can-chu-y-gi",
@@ -12090,8 +12090,181 @@
       "category_warning": null,
       "git_commit": "ad7436cbb3bd456dab0d347148b62ea3ffb579a0",
       "run_id": "39232643217",
-      "updated_at": "2026-10-19T09:55:27.285822+00:00",
-      "wp_id": 4223
+      "updated_at": "2026-10-19T09:55:33.100747+00:00",
+      "wp_id": 4223,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bao-duong-xe-dap-dien-khac-xe-dap-thuong-the-nao-xich-ma-phanh-lop-va-cong-sac-can-chu-y-gi/",
+      "verified_at": "2026-10-19T09:55:33.100741+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4223,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bao-duong-xe-dap-dien-khac-xe-dap-thuong-the-nao-xich-ma-phanh-lop-va-cong-sac-can-chu-y-gi/",
+        "categories": [
+          166
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bao-duong-xe-dap-dien-khac-xe-dap-thuong-the-nao-xich-ma-phanh-lop-va-cong-sac-can-chu-y-gi/",
+        "seo_title": "Bảo dưỡng xe đạp điện khác xe đạp thường: xích, phanh, lốp, cổng sạc",
+        "seo_description": "Bảo dưỡng xe đạp điện khác xe đạp thường ở xích, má phanh, lốp, cách rửa xe và cổng sạc. Tổng hợp BikeRadar, Aventon, REI, Giant và sách VinFast, ghi rõ nguồn nào nói gì.",
+        "checked_at": "2026-10-19T09:55:33.100723+00:00"
+      }
+    },
+    "NT-000626": {
+      "phase": "VERIFIED",
+      "created_at": "2026-10-19T09:55:50.842593+00:00",
+      "source_hash": "370c8bc1bf3183d77c381ac9f6ae966288a33e5200e6df0c35105a5555c5725b",
+      "slug": "lai-xe-may-dien-lan-dau-thoi-quen-van-ga-bop-phanh-va-xuong-doc-can-doi-theo-huong-dan-cua-hang",
+      "expected_status": "publish",
+      "category_id": 168,
+      "visible_hash": "727295c4f3c13d7d539f905ad5d379195033014347da3f2dcbb00da2ef304645",
+      "first_paragraph": "Khi lái xe máy điện lần đầu, hãy vặn ga thật nhẹ vì Dat Bike, Yamaha NEO's và VinFast đều nói tới lực kéo mạnh của động cơ điện, và đừng rà phanh như xe xăng vì cả VinFast lẫn hướng dẫn sử dụng Dat Bike Quantum đều cho biết bóp phanh làm động cơ ngắt. Còn nhả ga có giúp xe ghì lại hay không, hoặc nên xuống dốc thế nào, phụ thuộc từng mẫu xe, nên phải đối chiếu sách hướng dẫn của đúng chiếc xe bạn cầm.",
+      "meta_title": "Lái xe máy điện lần đầu: đổi thói quen vặn ga, bóp phanh, xuống dốc",
+      "meta_description": "Lái xe máy điện lần đầu cần đổi thói quen vặn ga, bóp phanh và xuống dốc ra sao? Tóm tắt lời Dat Bike Quantum, Yamaha NEO's, VinFast cùng gợi ý riêng của bài.",
+      "intended_taxonomy_key": "electric-tech",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "ad7436cbb3bd456dab0d347148b62ea3ffb579a0",
+      "run_id": "39232643217",
+      "updated_at": "2026-10-19T09:56:00.938075+00:00",
+      "wp_id": 4224,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lai-xe-may-dien-lan-dau-thoi-quen-van-ga-bop-phanh-va-xuong-doc-can-doi-theo-huong-dan-cua-hang/",
+      "verified_at": "2026-10-19T09:56:00.938069+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4224,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lai-xe-may-dien-lan-dau-thoi-quen-van-ga-bop-phanh-va-xuong-doc-can-doi-theo-huong-dan-cua-hang/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lai-xe-may-dien-lan-dau-thoi-quen-van-ga-bop-phanh-va-xuong-doc-can-doi-theo-huong-dan-cua-hang/",
+        "seo_title": "Lái xe máy điện lần đầu: đổi thói quen vặn ga, bóp phanh, xuống dốc",
+        "seo_description": "Lái xe máy điện lần đầu cần đổi thói quen vặn ga, bóp phanh và xuống dốc ra sao? Tóm tắt lời Dat Bike Quantum, Yamaha NEO's, VinFast cùng gợi ý riêng của bài.",
+        "checked_at": "2026-10-19T09:56:00.938050+00:00"
+      }
+    },
+    "NT-000629": {
+      "phase": "VERIFIED",
+      "created_at": "2026-10-19T09:56:11.257453+00:00",
+      "source_hash": "0d97c90697417192300c6e9c89591708ef606e45632c1ee4afdec72fd9abb2a0",
+      "slug": "xe-dap-dien-nang-hon-xe-dap-thuong-anh-huong-the-nao-den-phanh-tay-lai-va-khi-dat-xe",
+      "expected_status": "publish",
+      "category_id": 166,
+      "visible_hash": "eb1d6cc69a8b62e33261db2852e647ede2c0a3350099580caa78430a48827605",
+      "first_paragraph": "Theo các nguồn đã đọc, xe đạp điện nặng hơn xe đạp thường vì có động cơ, pin và phần gia cố khung, nên xe có thể xử lý ì hơn, cần phanh sớm hơn và nặng tay hơn khi dắt hoặc nâng. Mức nặng khác nhau theo từng mẫu, vì vậy hãy đọc khối lượng trong tài liệu của đúng chiếc xe bạn dùng.",
+      "meta_title": "Xe đạp điện nặng hơn xe đạp thường: ảnh hưởng đến phanh, tay lái",
+      "meta_description": "Xe đạp điện nặng hơn xe đạp thường vì động cơ, pin và khung gia cố. Các nguồn nói gì về tay lái, việc phải phanh sớm hơn và cách dắt, nâng xe, kèm gợi ý làm quen.",
+      "intended_taxonomy_key": "ebikes",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "ad7436cbb3bd456dab0d347148b62ea3ffb579a0",
+      "run_id": "39232643217",
+      "updated_at": "2026-10-19T09:56:21.651146+00:00",
+      "wp_id": 4225,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-dap-dien-nang-hon-xe-dap-thuong-anh-huong-the-nao-den-phanh-tay-lai-va-khi-dat-xe/",
+      "verified_at": "2026-10-19T09:56:21.651140+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4225,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-dap-dien-nang-hon-xe-dap-thuong-anh-huong-the-nao-den-phanh-tay-lai-va-khi-dat-xe/",
+        "categories": [
+          166
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-dap-dien-nang-hon-xe-dap-thuong-anh-huong-the-nao-den-phanh-tay-lai-va-khi-dat-xe/",
+        "seo_title": "Xe đạp điện nặng hơn xe đạp thường: ảnh hưởng đến phanh, tay lái",
+        "seo_description": "Xe đạp điện nặng hơn xe đạp thường vì động cơ, pin và khung gia cố. Các nguồn nói gì về tay lái, việc phải phanh sớm hơn và cách dắt, nâng xe, kèm gợi ý làm quen.",
+        "checked_at": "2026-10-19T09:56:21.651121+00:00"
+      }
+    },
+    "NT-000630": {
+      "phase": "VERIFIED",
+      "created_at": "2026-10-19T09:56:33.747346+00:00",
+      "source_hash": "7001099b0b9f5cd3cd0860a10c6da2711823119e92cd2957f441741548ee386d",
+      "slug": "bo-dieu-khien-controller-tren-xe-dien-nam-giua-tay-ga-pin-va-dong-co-de-lam-gi",
+      "expected_status": "publish",
+      "category_id": 168,
+      "visible_hash": "efde42b0fe34d57f8e79c47e877cb731dbbe9101c0028d963e37869942e070b9",
+      "first_paragraph": "Bộ điều khiển xe điện controller là khối điện tử đứng giữa tay ga, pin và động cơ: Yamaha mô tả nó nhận tín hiệu từ tay ga để đưa ra dòng điện cho xe chạy, còn Bộ Năng lượng Mỹ, khi nói về ô tô điện, mô tả nó điều tiết điện từ pin và điều khiển tốc độ cùng mô-men xoắn của động cơ. Bên trong nó làm việc ra sao thì các nguồn không mô tả. Bài đối chiếu bốn trang, đọc trong tháng 10/2026: bài \"Xe máy điện là gì?\" của Yamaha Motor Việt Nam, đăng ngày 5 tháng 4 năm 2023, nói về xe máy điện nói chung; trang \"How Do All-Electric Cars Work?\" của Alternative Fuels Data Center (AFDC) thuộc Bộ Năng lượng Mỹ, nói về ô tô điện chứ không phải xe máy điện; phần hỏi đáp về xe đạp điện của hãng xe đạp Trek; và hướng dẫn sử dụng xe điện Quantum của Dat Bike, một mẫu xe cụ thể. Trang của AFDC và Trek không ghi ngày đăng trong nội dung đã đọc; đầu trang của Dat Bike ghi hai mốc ngày là 21 tháng 10 năm 2025 và 10 tháng 4 năm 2026 mà không nói mốc nào là ngày đăng.",
+      "meta_title": "Bộ điều khiển xe điện controller làm gì giữa tay ga, pin và động cơ",
+      "meta_description": "Bộ điều khiển xe điện controller nhận tín hiệu tay ga, điều tiết dòng điện từ pin tới động cơ. Bài đối chiếu Yamaha, Trek, Dat Bike, AFDC (ô tô điện), nêu rõ điều nguồn chưa nói.",
+      "intended_taxonomy_key": "electric-tech",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "ad7436cbb3bd456dab0d347148b62ea3ffb579a0",
+      "run_id": "39232643217",
+      "updated_at": "2026-10-19T09:56:43.851904+00:00",
+      "wp_id": 4226,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bo-dieu-khien-controller-tren-xe-dien-nam-giua-tay-ga-pin-va-dong-co-de-lam-gi/",
+      "verified_at": "2026-10-19T09:56:43.851898+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4226,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bo-dieu-khien-controller-tren-xe-dien-nam-giua-tay-ga-pin-va-dong-co-de-lam-gi/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bo-dieu-khien-controller-tren-xe-dien-nam-giua-tay-ga-pin-va-dong-co-de-lam-gi/",
+        "seo_title": "Bộ điều khiển xe điện controller làm gì giữa tay ga, pin và động cơ",
+        "seo_description": "Bộ điều khiển xe điện controller nhận tín hiệu tay ga, điều tiết dòng điện từ pin tới động cơ. Bài đối chiếu Yamaha, Trek, Dat Bike, AFDC (ô tô điện), nêu rõ điều nguồn chưa nói.",
+        "checked_at": "2026-10-19T09:56:43.851880+00:00"
+      }
     }
   },
   "categories": {}

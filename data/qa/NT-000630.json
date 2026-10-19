@@ -1,0 +1,176 @@
+{
+  "topic_id": "NT-000630",
+  "status": "PASS",
+  "source_sha256": "7001099b0b9f5cd3cd0860a10c6da2711823119e92cd2957f441741548ee386d",
+  "body_sha256": "48af117a9f55f75594677b20a2587b29ef71266aeb08929f7ab2b2e8bb8e6cac",
+  "word_count": 3712,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/xe-may-dien-la-gi/",
+      "supports": "Yamaha Motor Việt Nam (bài \"Xe máy điện là gì?\", đăng 05/04/2023): tay ga điều khiển ở bên phải làm nhiệm vụ tăng hoặc giảm tốc độ; bo mạch điều khiển nhận tín hiệu trực tiếp từ tay ga để đưa ra dòng điện hợp lý giúp xe di chuyển và còn cấp điện cho đèn xe",
+      "sha256": "37c6dc0c9cad22f4f90aaa0dd5e59770e8bf9e3fb4777bb03840b3ee58b3fd5d",
+      "verified_at": "2026-10-19T09:56:26.308174+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://afdc.energy.gov/vehicles/how-do-all-electric-cars-work",
+      "supports": "AFDC (Bộ Năng lượng Mỹ, trang về ô tô điện): bộ điều khiển điện tử công suất điều tiết dòng điện từ pin kéo, điều khiển tốc độ của động cơ kéo và mô-men xoắn mà nó tạo ra; trang nói về ô tô điện, không phải xe máy điện",
+      "sha256": "527e918e097b05135c16c2cd795f0828f281120b075b4aad1528e897218f099a",
+      "verified_at": "2026-10-19T09:56:26.836519+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.trekbikes.com/us/en_US/ebike_faq/",
+      "supports": "Trek (FAQ xe đạp điện): hệ thống xe đạp điện của các hãng thường gồm động cơ, bộ điều khiển, pin và đôi khi có màn hình",
+      "sha256": "18d840f1c06a36a9e74f5bbbdc163fc0b8d397db1aa060916d61d30ded8d06b8",
+      "verified_at": "2026-10-19T09:56:27.356001+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn sử dụng Dat Bike Quantum (mục thông số): động cơ, pack pin, cổng sạc và bộ điều khiển điện tử ECU (Controller) đạt chuẩn chống bụi nước IP67, các bộ phận còn lại IP65",
+      "sha256": "ac94fe3ed316f103e53e5432bd19ff4ab03fb1a738bf12bc0e21783d719b9e85",
+      "verified_at": "2026-10-19T09:56:28.791457+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2355,
+        "title": "Bao nhiêu tuổi được đi xe máy điện? Những điều cần biết",
+        "why": "stale",
+        "content_hash": "df4e397638303da8d179daafae395db634b027fd262d47406e50b3e2c2cf527c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2367,
+        "title": "Có Nên Sạc Xe Máy Điện Tại Nhà? Kinh Nghiệm An Toàn Khi Sử Dụng",
+        "why": "stale",
+        "content_hash": "8768183f030319ed7647591d37ba6e25af1e5ac274f69cc230b87c74a28fe158",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2393,
+        "title": "Thuê pin hay mua pin xe máy điện VinFast: phương án nào hợp lý?",
+        "why": "stale",
+        "content_hash": "b26adf50a482554d3cb08a77a5edd2ce3012f2ce554cb624584729fd43c82f18",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2580,
+        "title": "Đi Hà Nội nên chọn xe ga hay xe số để di chuyển thuận tiện hơn?",
+        "why": "stale",
+        "content_hash": "6aa38b717367fc0077cddd4330e078e59294b75c84a725df25d0c1ffd299712f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:56:33.650906+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "9a9b6a63e33dab0a439905a195e510b6295897c9168c0285ba6397ba94c5f81a",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

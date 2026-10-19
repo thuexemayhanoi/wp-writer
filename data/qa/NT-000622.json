@@ -70,40 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.radpowerbikes.com/blogs/the-scenic-route/what-is-pedal-assist",
-      "supports": "Rad Power Bikes: các xe bán ở Mỹ và Canada có tay ga bên phải ghi đông cho phép chạy không cần đạp, bản EU có tay vặn nửa vòng chỉ tăng thêm khi đang đạp; trợ lực khi đạp tắt sau 1-2 giây khi ngừng đạp, hoặc cắt ngay khi bóp phanh",
-      "sha256": "126a05a1fe2851026dc472d384e9d86fadf9b0b64187f7d2f44c682693679c02",
-      "verified_at": "2026-10-19T09:45:06.381209+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.trekbikes.com/us/en_US/ebike_faq/",
-      "supports": "Trek (FAQ xe đạp điện): xe trợ lực khi đạp khuếch đại lực bạn đặt lên bàn đạp, động cơ không hoạt động nếu không đạp, và mức hỗ trợ do mức trợ lực đã chọn quyết định",
-      "sha256": "18d840f1c06a36a9e74f5bbbdc163fc0b8d397db1aa060916d61d30ded8d06b8",
-      "verified_at": "2026-10-19T09:45:07.017007+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.cyclingweekly.com/group-tests/how-do-e-bikes-work-and-do-you-have-to-pedal-them-463025",
-      "supports": "Cycling Weekly: ở Anh và EU xe đạp điện hợp luật phải hỗ trợ khi đạp và giới hạn 25 km/h; nhiều bang của Mỹ có Class 2 điều khiển bằng tay ga tới 20 mph không cần đạp; Úc cho xe tay ga nhưng hỗ trợ tối đa 25 km/h",
-      "sha256": "c02ad67ed84fbc251d4954492c0bc222b93b5c2c9e88f6304bc21e655d53acc5",
-      "verified_at": "2026-10-19T09:45:07.077283+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://electrek.co/2023/10/16/torque-sensors-vs-cadence-sensors-for-electric-bikes/",
-      "supports": "Electrek (bài ngày 16/10/2023): với xe đạp điện chủ yếu dùng tay ga, việc chọn cảm biến vòng quay hay cảm biến mô-men xoắn gần như không quan trọng",
-      "sha256": "576fd587c3601be73623a94320e558419385137a050aaaadf660b89d6c882d81",
-      "verified_at": "2026-10-19T09:45:07.125902+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -129,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T09:45:24.170449+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T09:49:42.350489+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "94857d1daad45d48ccd7d064c6ff65e62c86e297bf139c9eb1d4004a6291cfd5",
+  "inventory_sha256": "dc4e532aad7cb6371b9e89789cc4774997dc86b4eb2ea85d231a1a340e005108",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

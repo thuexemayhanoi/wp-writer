@@ -1,0 +1,210 @@
+{
+  "topic_id": "NT-000683",
+  "status": "PASS",
+  "source_sha256": "64aeee295aa24dc67f953b3c6fab5599b4faa8b3defb7dc986336772a6fc55e9",
+  "body_sha256": "37cbf1c463daa7972b9c89d8c88245ad685fb4d76a3e9d3c601725a8fb929925",
+  "word_count": 2914,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://travel.gc.ca/destinations/vietnam",
+      "supports": "Trang du lịch của Canada (cập nhật 13/10/2026) nêu nhà chức trách có thể yêu cầu xuất trình giấy tờ bất cứ lúc nào, nên mang giấy tờ tùy thân hoặc bản photo, giữ bản photo hộ chiếu ở nơi an toàn và lưu bản số giấy tờ.",
+      "sha256": "126c661b0baedc6f2c337d9d931cfdb12a6a068ad2779ba0c38fbef1e0fbf156",
+      "verified_at": "2026-10-19T09:56:48.468088+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.gov.uk/foreign-travel-advice/vietnam/safety-and-security",
+      "supports": "Trang FCDO của Anh (cập nhật 21/09/2026) khuyên giữ hộ chiếu ở nơi an toàn và mang cả bản ảnh lẫn bản số của hộ chiếu, và nhắc luôn mang giấy tờ tùy thân có ảnh.",
+      "sha256": "a2d5eeadc18979325d7eabf475624e42e88db391550a35a45fab429cad2935c1",
+      "verified_at": "2026-10-19T09:56:49.768714+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/vietnam/",
+      "supports": "Trang của Bộ Ngoại giao Ireland (cập nhật 22/04/2026) dặn không mang hộ chiếu nếu không thật cần, mang bản photo trong người, để thêm một bản cùng giấy tờ bảo hiểm với người thân ở nhà và không để thẻ, vé và tiền cùng một chỗ.",
+      "sha256": "5da5c0daef1afafd45ce7b1d603d67349d61baf7515d46e4974e26ee9e6d6a23",
+      "research_checked_at": "2026-10-19",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://vn.usembassy.gov/security-and-safety-advice-for-vietnam/",
+      "supports": "Trang Đại sứ quán Mỹ (đăng 07/2022, sửa 06/07/2023, thông tin cũ hơn) nhắc luôn mang giấy tờ tùy thân gồm bản photo trang thông tin hộ chiếu và trang thị thực, và để tiền cùng giấy tờ ở các chỗ khác nhau trên người.",
+      "sha256": "df6e38a5b28b14efba20a173bdfb7b9fe6d7eae27e7ac405a1234390634b538b",
+      "research_checked_at": "2026-10-19",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://www.gov.uk/guidance/living-in-vietnam",
+      "supports": "Hướng dẫn Living in Vietnam của chính phủ Anh (cập nhật 23/09/2025) nêu phải luôn mang giấy tờ tùy thân theo người; bài chỉ dùng ý này và không bàn việc giữ hộ chiếu khi thuê xe.",
+      "sha256": "fcf0a0ba9652db8f5d39ef45b603440cc391b01baf6de5dfda3102690ebf0698",
+      "verified_at": "2026-10-19T09:56:51.486933+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.gov.uk/foreign-travel-advice/vietnam/safety-and-security",
+      "supports": "Trang FCDO của Anh (cập nhật 21/9/2026), mục Personal ID: phải luôn mang giấy tờ tùy thân có ảnh; nhà chức trách chấp nhận bản in trang ảnh của hộ chiếu và thị thực.",
+      "sha256": "a2d5eeadc18979325d7eabf475624e42e88db391550a35a45fab429cad2935c1",
+      "verified_at": "2026-10-19T09:56:51.554264+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://travel.gc.ca/destinations/vietnam",
+      "supports": "Trang du lịch của Canada (cập nhật 13/10/2026), mục Identification: luôn mang giấy tờ tùy thân hợp lệ hoặc bản photo của nó.",
+      "sha256": "126c661b0baedc6f2c337d9d931cfdb12a6a068ad2779ba0c38fbef1e0fbf156",
+      "verified_at": "2026-10-19T09:56:53.160585+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://travel.gc.ca/destinations/vietnam",
+      "supports": "Trang du lịch của Canada (cập nhật 13/10/2026), mục Identification: khi bay nội địa phải đi bằng đúng hộ chiếu đã dùng để nhập cảnh Việt Nam.",
+      "sha256": "126c661b0baedc6f2c337d9d931cfdb12a6a068ad2779ba0c38fbef1e0fbf156",
+      "verified_at": "2026-10-19T09:56:54.733021+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2355,
+        "title": "Bao nhiêu tuổi được đi xe máy điện? Những điều cần biết",
+        "why": "stale",
+        "content_hash": "df4e397638303da8d179daafae395db634b027fd262d47406e50b3e2c2cf527c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2550,
+        "title": "Thủ tục sang tên xe máy cũ gồm những bước nào theo quy định hiện nay?",
+        "why": "stale",
+        "content_hash": "bbb2cdb8032f56b92d9bccf003c045dc66a520285ee21afc89e36f956c1cf093",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2553,
+        "title": "Đăng ký biển số xe máy trực tuyến: hồ sơ và các bước cần chuẩn bị",
+        "why": "stale",
+        "content_hash": "07c18eff30a0c8796b3fd7944021fa719dc4afaaacb4f55eb99e40c062e94782",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2559,
+        "title": "Các loại bằng lái xe máy hiện nay và cách phân biệt từng hạng",
+        "why": "stale",
+        "content_hash": "1dbe75f2df7dd3b894e673123e9c56ffdda9c772f072b8cb4682f49b0f264d0e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4059,
+        "title": "Thuê xe máy đi phỏng vấn ở Hà Nội trong một ngày: xếp lịch, chọn xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "0ffbbff60edf006739890cca423af4e81cb5346ee434c29859648be6bdb57675",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:57:05.754489+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "62d8b26015847d22d28d1ca88a76eb3f6f2b0f5a6189f9b49ae60e5681fee703",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

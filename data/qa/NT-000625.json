@@ -70,32 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.aventon.com/blogs/aventon_bikes/is-it-safe-to-carry-kids-on-a-cargo-e-bike-everything-parents-need-to-know",
-      "supports": "Aventon (bài về chở trẻ em trên xe đạp điện chở hàng, mẫu Abound SR và LR): payload gồm người lái, hành khách và hàng cộng lại là 440 lb, giá sau 143 lb; nên cân tải thực tế thay vì ước lượng",
-      "sha256": "eebe76ad956e057803521315ad3d0f1706b5bcc866ff18e6b0572697d7bbca5d",
-      "verified_at": "2026-10-19T09:46:05.320542+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.trekbikes.com/us/en_US/fetch-plus-2",
-      "supports": "Trang Trek Fetch+ 2 (xe điện chở hàng): tổng sức chứa tới 440 lb; giá sau chịu 79 lb mỗi chỗ ngồi nên phần lớn người lớn không đạt giới hạn này",
-      "sha256": "cd50a858fc3006b8c859768066e57a72ad53341887b750c32b67baa2b18885df",
-      "verified_at": "2026-10-19T09:46:05.787134+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.radpowerbikes.com/products/radrunner-max-electric-cargo-utility-bike",
-      "supports": "Trang Rad Power Bikes RadRunner Max (xe điện chở hàng): khối lượng xe 82 lb, payload 420 lb trong đó người lái tối đa 275 lb, giá sau 120 lb",
-      "sha256": "5d11eda9d4d798f5308a6ffbe303d20bcaf0b668ac58331a2e20f86a8e1096d8",
-      "verified_at": "2026-10-19T09:46:06.262608+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -121,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T09:46:10.826312+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T09:49:43.342630+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "0fc1f808c1ab2bb6159151f0ce7a83542cddebd011a3b35f8f8e94971cc641a0",
+  "inventory_sha256": "dc4e532aad7cb6371b9e89789cc4774997dc86b4eb2ea85d231a1a340e005108",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

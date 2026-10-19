@@ -1,0 +1,134 @@
+{
+  "topic_id": "NT-000626",
+  "status": "PASS",
+  "source_sha256": "370c8bc1bf3183d77c381ac9f6ae966288a33e5200e6df0c35105a5555c5725b",
+  "body_sha256": "67e3c86f0e2e2baf0936fabb8db97324aa31ed9380973ad08a459128e3d15502",
+  "word_count": 3416,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/cong-nghe-tren-xe-may-dien-dat-bike/",
+      "supports": "Dat Bike (trang công nghệ xe máy điện): mô-tơ điện của Dat Bike cho mô-men xoắn cực đại ngay khi vặn ga, điều mà hãng nói xe xăng không làm được, giúp tăng tốc nhanh",
+      "sha256": "26ff80f001d43e29650c39ff251adec1f5f4d32e1570debae068539bde572349",
+      "verified_at": "2026-10-19T09:55:38.015801+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn sử dụng Dat Bike Quantum: khi dùng phanh tay động cơ tự ngắt để bảo đảm an toàn, muốn đi tiếp thì nhả phanh hoàn toàn và vặn ga lại; phanh động cơ ở tay ga có độ ghì tỉ lệ với góc nhả ga và chỉ hoạt động ở chế độ D và S",
+      "sha256": "ac94fe3ed316f103e53e5432bd19ff4ab03fb1a738bf12bc0e21783d719b9e85",
+      "verified_at": "2026-10-19T09:55:39.445491+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-di-xe-may-dien-an-toan/",
+      "supports": "Yamaha Motor Việt Nam (bài đăng 26/04/2023): cách khởi động là ngồi lên xe, hai chân chạm đất, tay trái bóp phanh, tay phải mở khóa, mở nguồn và điều khiển tay ga; không phanh quá gấp hoặc chuyển hướng đột ngột vì dễ trượt và ngã xe",
+      "sha256": "3606afe89ec5d08d112abe17015a8608b9f6d9f35f8fb03ae03b37b0dcf6a24e",
+      "verified_at": "2026-10-19T09:55:43.372941+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+      "supports": "Trang xe Yamaha NEO's (Yamaha Motor Việt Nam): động cơ điện không chổi than, truyền động trực tiếp, được phát triển để tạo mô-men xoắn cao ở dải vòng tua thấp giúp xe di chuyển mượt",
+      "sha256": "95c28d8a47c6fd266b0509ea5103445cc109678ba40bf0aeb38c668aa8dea9df",
+      "verified_at": "2026-10-19T09:55:44.662994+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/cach-di-xe-may-dien-an-toan",
+      "supports": "VinFast (trang hướng dẫn cách đi xe máy điện an toàn): xe điện có mô-men xoắn lớn hơn xe xăng nên vặn ga đột ngột xe dễ mất kiểm soát; bóp phanh thì động cơ ngắt hoàn toàn nên cần chỉnh tay ga khi lên hoặc xuống dốc và không rà phanh như xe xăng; không nên tắt hoặc khởi động xe nhiều lần, chở nặng hay phanh gấp [KHÔNG vào frontmatter: trang vinfastauto.com chặn runner (HTTP 403)]",
+      "sha256": "06a14591f340e65de36a9adea030e89ea84f9c0949af790d295399cb16820e2d",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-19T09:55:50.747976+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "f3fedd1eef7fe22a73ded44472ad0bb5f5e671ba7f1db6f7cbddc02246100ebe",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

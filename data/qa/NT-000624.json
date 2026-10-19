@@ -1,0 +1,126 @@
+{
+  "topic_id": "NT-000624",
+  "status": "PASS",
+  "source_sha256": "2cae4ddfe8367c1ee4d7f7b9d84bc0bd90ac758e0fe882c5fff520d993e04e97",
+  "body_sha256": "c8061c99328bf29392de656c7bfb370985833ff9e11473915c1e9b2ab6903436",
+  "word_count": 3380,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.bikeradar.com/advice/workshop/electric-bike-maintenance",
+      "supports": "BikeRadar (hướng dẫn bảo dưỡng xe đạp điện): bảo dưỡng xe đạp điện về nhiều mặt không khác xe đạp thường nhưng bộ truyền động (tay quay, xích, líp, freehub) chịu lực lớn hơn và mòn nhiều hơn; rửa bằng nước từ xô hoặc vòi áp lực thấp, không dùng vòi xịt mạnh, tắt hệ thống và rút sạc trước khi rửa, để pin trong khung, đóng cổng sạc, tránh làm bẩn phanh đĩa; không rửa pin bằng vòi áp lực cao",
+      "sha256": "e824f65e404ec34376d18e6542ebdf8ea4661fb997e46f110098755a4ee8ce52",
+      "verified_at": "2026-10-19T09:54:11.744170+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.aventon.com/blogs/aventon_bikes/top-5-ebike-maintenance-tips-that-you-cant-live-without",
+      "supports": "Aventon (bài mẹo bảo dưỡng xe đạp điện): nên vệ sinh bộ truyền động ít nhất mỗi tuần nếu đi đều và thường xuyên hơn khi đi mưa; không dùng chất tẩy gia dụng vì có thể hại xích; nhìn phanh trước mỗi chuyến; kiểm tra áp suất lốp theo số in trên lốp; phanh trượt thì đưa xe đến tiệm",
+      "sha256": "0b350acc3396095ef06ffd42e36738a84392dc84a70fb7e53b251593ca822bb6",
+      "verified_at": "2026-10-19T09:54:12.236096+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.giant-bicycles.com/us/syncdrive",
+      "supports": "Trang Giant SyncDrive: động cơ SyncDrive nên được bảo dưỡng tại đại lý hoặc trung tâm dịch vụ ủy quyền của Giant, nơi kỹ thuật viên có dụng cụ và hiểu biết hệ thống",
+      "sha256": "cf5b6808db9385c34ba997f8874a4bbdfc72c38dc806440d25ae889638168bde",
+      "verified_at": "2026-10-19T09:54:13.428135+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.rei.com/learn/expert-advice/intro-to-electric-bike-maintenance.html",
+      "supports": "REI (Intro to Electric Bike Maintenance): xe đạp điện nặng hơn và thường được đi nhanh, đi xa hơn nên thường cần bảo dưỡng thường xuyên hơn; nên theo dõi độ mòn lốp, má phanh, xích và bộ truyền động; có dụng cụ đo mòn xích dễ dùng để biết lúc cần thay [KHÔNG vào frontmatter: rei.com quá thời gian chờ 20 giây khi runner đọc (2 lần probe)]",
+      "sha256": "ce2ba95cbbe0706dd7758b380960cc43fad1e471507ebb03b67e7e18673291ce",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "TimeoutError"
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-19T09:55:22.819149+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "8741123f1e90d00ed546eb768b37c1b645b2b13c94ffb35512256ae6d58f1a8f",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
