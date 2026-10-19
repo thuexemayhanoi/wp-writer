@@ -7273,6 +7273,24 @@
         "seo_description": "Phạt nguội xe máy: chủ xe nhận thông báo ở đâu, giải quyết tại nơi nào, nghĩa vụ hợp tác theo Bộ Công an, xử lý qua iHanoi và cách nhận biết tin nhắn lừa đảo.",
         "checked_at": "2026-10-19T03:41:38.989340+00:00"
       }
+    },
+    "NT-000589": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-19T03:42:30.406539+00:00",
+      "source_hash": "1c081c72a110a6724e25bbe4502f2bc0e9a3bfa3a12dbdc26c2fcf54244ad9d7",
+      "slug": "cell-pin-hinh-tru-hop-va-tui-mem-pin-xe-dien-duoc-ghep-tu-loai-cell-nao-va-khac-nhau-ra-sao",
+      "expected_status": "publish",
+      "category_id": 168,
+      "visible_hash": "e0164a40cb81ee2dd0c8db9ffaf58a6cc0d882346bcb267b5ba955d058100153",
+      "first_paragraph": "Cell pin hình trụ, hộp và túi mềm là ba cách đóng gói cell lithium-ion thường gặp, và pin xe điện được ghép từ rất nhiều cell nối với nhau chứ không phải một “cục” duy nhất. Theo Battery University, cell hình trụ như 18650 (đường kính 18 mm, dài 65 mm) dễ sản xuất và ổn định cơ học tốt nhưng xếp khít kém; cell hộp tận dụng không gian tốt và linh hoạt về thiết kế nhưng có thể đắt hơn, tản nhiệt kém hiệu quả hơn và chu kỳ ngắn hơn cell trụ; cell túi mềm có hiệu suất đóng gói cao nhất (90–95%) và nhẹ nhưng cần chừa chỗ cho cell nở. Samsung SDI so sánh theo hướng tương tự và nói cell hộp bọc nhôm chịu sốc tốt hơn cell túi mềm. Các trang đã đọc không cho biết pin của mẫu xe máy điện nào dùng dạng cell nào; theo cách đọc của người viết, dạng cell chỉ là một yếu tố, hóa học cell, BMS và thiết kế pack cũng quan trọng không kém, nên hãy hỏi hãng loại cell và nhà sản xuất cell thay vì chỉ hỏi cell hình gì.",
+      "meta_title": "Cell pin hình trụ, hộp và túi mềm: khác nhau ra sao trên pin xe điện",
+      "meta_description": "Cell pin hình trụ, hộp và túi mềm khác nhau thế nào: ưu nhược điểm theo Battery University và Samsung SDI, vì sao pin xe điện ghép từ nhiều cell và nên hỏi hãng gì.",
+      "intended_taxonomy_key": "electric-tech",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "e8476d9d8360871ac1cac66d5f627bea48b17b81",
+      "run_id": "39195609475",
+      "updated_at": "2026-10-19T03:42:30.407749+00:00"
     }
   },
   "categories": {}
