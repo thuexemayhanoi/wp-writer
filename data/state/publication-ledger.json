@@ -14787,7 +14787,7 @@
       }
     },
     "NT-000873": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:25:40.075292+00:00",
       "source_hash": "750ac897b7209182c4d698b949f76588766776a74cc2532bc69d742d1861b1e5",
       "slug": "lich-hoa-ha-noi-12-thang-sua-ban-gao-loa-ken-bang-lang-phuong-cuc-hoa-mi-cai-ven-song-no-luc-nao-va-cac-bao-chi-noi-ngam-ra-sao",
@@ -14803,8 +14803,37 @@
       "category_warning": null,
       "git_commit": "0927396b58191acf78af0cf04b0ee3c0688197ef",
       "run_id": "39326750194",
-      "updated_at": "2026-10-19T21:25:44.975570+00:00",
-      "wp_id": 4295
+      "updated_at": "2026-10-19T21:25:51.395988+00:00",
+      "wp_id": 4295,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lich-hoa-ha-noi-12-thang-sua-ban-gao-loa-ken-bang-lang-phuong-cuc-hoa-mi-cai-ven-song-no-luc-nao-va-cac-bao-chi-noi-ngam-ra-sao/",
+      "verified_at": "2026-10-19T21:25:51.395982+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4295,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lich-hoa-ha-noi-12-thang-sua-ban-gao-loa-ken-bang-lang-phuong-cuc-hoa-mi-cai-ven-song-no-luc-nao-va-cac-bao-chi-noi-ngam-ra-sao/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lich-hoa-ha-noi-12-thang-sua-ban-gao-loa-ken-bang-lang-phuong-cuc-hoa-mi-cai-ven-song-no-luc-nao-va-cac-bao-chi-noi-ngam-ra-sao/",
+        "seo_title": "Lịch hoa Hà Nội 12 tháng: sưa, ban, bằng lăng, cúc họa mi nở khi nào",
+        "seo_description": "Lịch hoa Hà Nội 12 tháng theo báo: sưa, ban, gạo, loa kèn, bằng lăng, phượng, cúc họa mi, hoa cải nở khi nào, phố nào được nhắc và vì sao mốc có thể lệch.",
+        "checked_at": "2026-10-19T21:25:51.395960+00:00"
+      }
     }
   },
   "categories": {}
