@@ -11643,7 +11643,7 @@
       }
     },
     "NT-000596": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T09:44:28.072583+00:00",
       "source_hash": "b499bde5c3964f6a2a211d075b4d9cf838e1de55d4cdf95d30142b6762aa1419",
       "slug": "ac-quy-chi-xe-dien-dung-duoc-bao-lau-so-chu-ky-theo-do-sau-xa-nhiet-do-va-cach-sac",
@@ -11658,8 +11658,37 @@
       "category_warning": null,
       "git_commit": "7ff3727fdfd7716ef5c6484de6730f887653310c",
       "run_id": "39231410457",
-      "updated_at": "2026-10-19T09:44:32.920229+00:00",
-      "wp_id": 4214
+      "updated_at": "2026-10-19T09:44:39.087985+00:00",
+      "wp_id": 4214,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ac-quy-chi-xe-dien-dung-duoc-bao-lau-so-chu-ky-theo-do-sau-xa-nhiet-do-va-cach-sac/",
+      "verified_at": "2026-10-19T09:44:39.087979+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4214,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ac-quy-chi-xe-dien-dung-duoc-bao-lau-so-chu-ky-theo-do-sau-xa-nhiet-do-va-cach-sac/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ac-quy-chi-xe-dien-dung-duoc-bao-lau-so-chu-ky-theo-do-sau-xa-nhiet-do-va-cach-sac/",
+        "seo_title": "Ắc quy chì xe điện dùng được bao lâu: số chu kỳ và cách sạc",
+        "seo_description": "Ắc quy chì xe điện dùng được bao lâu? Nguồn nêu từ vài tháng đến 3–4 năm; số chu kỳ phụ thuộc độ sâu xả, nhiệt độ và cách sạc, nên bài không chọn một con số.",
+        "checked_at": "2026-10-19T09:44:39.087959+00:00"
+      }
     }
   },
   "categories": {}
