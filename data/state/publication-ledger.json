@@ -6987,7 +6987,7 @@
       }
     },
     "NT-000816": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T00:47:39.884823+00:00",
       "source_hash": "3e7b2113421d185dfc31558fbc1a3db43823148ada25bb9b05d208f10013f28a",
       "slug": "di-tau-du-lich-thuyen-va-pha-o-viet-nam-ke-ca-vinh-ha-long-canada-anh-uc-khuyen-kiem-tra-gi-truoc-khi-len-tau-va-bao-chi-ghi-nhan-gi-sau-vu-lat-tau-thang-7-2025",
@@ -7002,8 +7002,37 @@
       "category_warning": null,
       "git_commit": "47d4a429146319329db0604a3bda87043fdbbdcf",
       "run_id": "39182032315",
-      "updated_at": "2026-10-19T00:47:43.911294+00:00",
-      "wp_id": 4115
+      "updated_at": "2026-10-19T00:47:49.796443+00:00",
+      "wp_id": 4115,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/di-tau-du-lich-thuyen-va-pha-o-viet-nam-ke-ca-vinh-ha-long-canada-anh-uc-khuyen-kiem-tra-gi-truoc-khi-len-tau-va-bao-chi-ghi-nhan-gi-sau-vu-lat-tau-thang-7-2025/",
+      "verified_at": "2026-10-19T00:47:49.796436+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4115,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/di-tau-du-lich-thuyen-va-pha-o-viet-nam-ke-ca-vinh-ha-long-canada-anh-uc-khuyen-kiem-tra-gi-truoc-khi-len-tau-va-bao-chi-ghi-nhan-gi-sau-vu-lat-tau-thang-7-2025/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/di-tau-du-lich-thuyen-va-pha-o-viet-nam-ke-ca-vinh-ha-long-canada-anh-uc-khuyen-kiem-tra-gi-truoc-khi-len-tau-va-bao-chi-ghi-nhan-gi-sau-vu-lat-tau-thang-7-2025/",
+        "seo_title": "An toàn khi đi tàu du lịch Vịnh Hạ Long: Canada, Anh, Úc khuyên gì",
+        "seo_description": "An toàn khi đi tàu du lịch Vịnh Hạ Long: Canada, Anh, Úc khuyên kiểm tra gì trước khi lên tàu và VnExpress International ghi nhận gì về vụ lật tàu ngày 19/7/2025.",
+        "checked_at": "2026-10-19T00:47:49.796417+00:00"
+      }
     }
   },
   "categories": {}
