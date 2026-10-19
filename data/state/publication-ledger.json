@@ -12843,7 +12843,7 @@
       }
     },
     "NT-000843": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T14:40:46.644722+00:00",
       "source_hash": "6ef1f398aaffe9933384a1bee5a2fb23addebdfcec027ba43712db47d33e4073",
       "slug": "hoi-xuan-yen-tu-mung-10-thang-gieng-va-le-hoi-mua-thu-dong-khach-dip-tet-mien-ve-tham-quan-den-2028-gui-xe-may-ra-sao",
@@ -12858,8 +12858,37 @@
       "category_warning": null,
       "git_commit": "aea88871b9149dde6a66bc7752c176882d264eb8",
       "run_id": "39270502236",
-      "updated_at": "2026-10-19T14:40:51.103638+00:00",
-      "wp_id": 4244
+      "updated_at": "2026-10-19T14:40:57.871044+00:00",
+      "wp_id": 4244,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/hoi-xuan-yen-tu-mung-10-thang-gieng-va-le-hoi-mua-thu-dong-khach-dip-tet-mien-ve-tham-quan-den-2028-gui-xe-may-ra-sao/",
+      "verified_at": "2026-10-19T14:40:57.871036+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4244,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/hoi-xuan-yen-tu-mung-10-thang-gieng-va-le-hoi-mua-thu-dong-khach-dip-tet-mien-ve-tham-quan-den-2028-gui-xe-may-ra-sao/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/hoi-xuan-yen-tu-mung-10-thang-gieng-va-le-hoi-mua-thu-dong-khach-dip-tet-mien-ve-tham-quan-den-2028-gui-xe-may-ra-sao/",
+        "seo_title": "Hội xuân Yên Tử 2026: đông khách, miễn vé đến 2028, gửi xe máy",
+        "seo_description": "Hội xuân Yên Tử khai hội mùng 10 tháng Giêng 2026: các hãng tin nói gì về lượng khách dịp Tết, miễn vé đến 2028 (trừ cáp treo), gửi xe máy và lễ hội mùa thu.",
+        "checked_at": "2026-10-19T14:40:57.871008+00:00"
+      }
     }
   },
   "categories": {}
