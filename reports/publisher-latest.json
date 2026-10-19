@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-19T10:07:21.318085+00:00",
-  "attempted": 9,
+  "at": "2026-10-19T11:20:22.192436+00:00",
+  "attempted": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -20,78 +20,6 @@
         }
       },
       "action": "manual reconciliation; never create/update automatically"
-    },
-    {
-      "topic_id": "NT-000683",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 163,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "rental-procedures",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000702",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 156,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "reviews",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000703",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 156,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "reviews",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000704",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 156,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "reviews",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000705",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 156,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "reviews",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000708",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 156,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "reviews",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000709",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 156,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "reviews",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000710",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 156,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "reviews",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000807",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 174,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "food-culture",
-      "category_warning": null
     }
   ],
   "backlog_drains_on": "successful Writer QA or fallback schedule",
