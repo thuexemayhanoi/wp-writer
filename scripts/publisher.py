@@ -61,6 +61,13 @@ def delivery_route(topic,policy,registry,categories,create_category=None,accepta
                 'category_warning':None}
     except ValueError as exc:
         category_error=str(exc)
+    if intended == 'hanoi-ward-rentals':
+        # Owner 2026-10-20: the 51-ward campaign is public-only, with a
+        # PRE-EXISTING, verified child term 182 under rental-guide term 162.
+        # Never create terms per ward, use a fallback category, or issue a
+        # WordPress draft when the exact category readback drifts.
+        raise ValueError('HANOI_WARD_CATEGORY_HOLD: no WordPress write; ' +
+                         category_error)
     if public and policy.get('allow_category_create') and create_category:
         # Only the explicitly approved, ledger-protected JIT path may write terms.
         try:
