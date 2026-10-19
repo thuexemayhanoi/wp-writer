@@ -56,12 +56,19 @@ def reconcile(progress, rows, ledger, qa=None):
         entry["topic_id"] = topic_id
         entry["research_status"] = "PLANNED_RESEARCH_PASS"
         evidence = qa.get(topic_id) or {}
-        if evidence.get("status") == "PASS" and evidence.get("seo_score", -1) >= 85 and evidence.get("quality_score", -1) >= 85:
-            entry["writer_qa_status"] = "PASS"
-        elif evidence.get("status") in ("REVIEW", "FAIL"):
-            entry["writer_qa_status"] = evidence["status"]
         receipt = (ledger.get("posts") or {}).get(topic_id) or {}
+        qa_pass = (evidence.get("status") == "PASS" and
+                   evidence.get("seo_score", -1) >= 85 and
+                   evidence.get("quality_score", -1) >= 85 and
+                   evidence.get("source_sha256") == receipt.get("source_hash") and
+                   not evidence.get("errors") and not evidence.get("review"))
+        entry["writer_qa_status"] = ("PASS" if qa_pass else
+            evidence.get("status") if evidence.get("status") in ("REVIEW", "FAIL")
+            else "NOT_VERIFIED_CURRENT_RUN")
         g7 = receipt.get("g7") or {}
+        required_g7 = {"wordpress_status","slug","title","category",
+                       "ownership_marker","content","permalink",
+                       "public_page","indexable","seo_meta"}
         if (entry["writer_qa_status"] == "PASS" and
             receipt.get("phase") == "VERIFIED" and
             receipt.get("expected_status") == "publish" and
@@ -72,8 +79,7 @@ def reconcile(progress, rows, ledger, qa=None):
             g7.get("status") == "PASS" and
             g7.get("categories") == [TERM] and
             g7.get("url") == t.get("canonical_target") and
-            all(g7.get("checks", {}).values()) and
-            g7.get("checks")):
+            all(g7.get("checks", {}).get(key) is True for key in required_g7)):
             entry.update(
                 publication_status="WORDPRESS_PUBLISHED_G7_PASS",
                 wp_post_id=receipt["wp_id"],
