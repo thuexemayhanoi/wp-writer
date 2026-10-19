@@ -6,7 +6,7 @@
   "batch_size": 3,
   "total_review_batches": 17,
   "checkpoint_date": "2026-10-20",
-  "completed_editorial_drafts": 6,
+  "completed_editorial_drafts": 9,
   "imported_into_topic_factory": 0,
   "published_new_articles": 0,
   "owner_approval_mode": "3 bài mỗi lượt duyệt",
@@ -53,10 +53,31 @@
       "file": "editorial/seo-51-phuong/batch-02/06-dong-da.md",
       "h1": "Thuê xe máy phường Đống Đa: sinh viên chọn Honda Wave, Cub 50 hay SYM 50cc?",
       "approx_quality_word_count": 4622
+    },
+    {
+      "batch": 3,
+      "ward": "Ngọc Hà",
+      "file": "editorial/seo-51-phuong/batch-03/07-ngoc-ha.md",
+      "h1": "Thuê xe máy phường Ngọc Hà: Honda Click hay Yamaha Mio, đi ba ngày thế nào?",
+      "approx_quality_word_count": 4459
+    },
+    {
+      "batch": 3,
+      "ward": "Giảng Võ",
+      "file": "editorial/seo-51-phuong/batch-03/08-giang-vo.md",
+      "h1": "Thuê xe máy phường Giảng Võ: đi làm theo tháng chọn Honda Air Blade hay Wave?",
+      "approx_quality_word_count": 4763
+    },
+    {
+      "batch": 3,
+      "ward": "Hai Bà Trưng",
+      "file": "editorial/seo-51-phuong/batch-03/09-hai-ba-trung.md",
+      "h1": "Thuê xe máy phường Hai Bà Trưng: chọn Honda Vision hay Wave khi có nhiều điểm hẹn?",
+      "approx_quality_word_count": 4854
     }
   ],
-  "pending_editorial": 45,
-  "next_review_batch": 3,
-  "publisher_status": "pilot-three-20261019 max_posts=3 reached; no new WordPress posts via ward editorial",
+  "pending_editorial": 42,
+  "next_review_batch": 4,
+  "publisher_status": "Owner pilot-three-20261019 exhausted; no new WordPress posts from 51-ward editorial",
   "rule": "Không tạo bản sao trang dịch vụ, không tự gán Topic ID/Writer slot/receipt, không vượt qua QA."
 }
