@@ -1,4 +1,4 @@
-# Cụm SEO 51 phường Hà Nội — lô 03/17 đã biên tập
+# Cụm SEO 51 phường Hà Nội — lô 04/17 đã biên tập
 
 **Tình trạng:** Ba **bản biên tập** đã viết, **chưa phải bản thảo Topic Factory**, chưa gán ID/lease, chưa kiểm tra đủ Research QA và chưa đăng WordPress. Chỉ là kho bản gốc chuẩn bị nghiên cứu–tiếp nhận. Đây không phải bằng chứng G1–G7 PASS.
 
@@ -34,6 +34,18 @@ Tham khảo chính thức: [Ngọc Hà](https://ngocha.hanoi.gov.vn/gioi-thieu-c
 
 **Góc tìm kiếm khác nhau:** Ngọc Hà cho thuê xe ga Click/Mio 3 ngày; Giảng Võ so gói tháng Air Blade/Wave cho người làm việc; Hai Bà Trưng chọn Vision/Wave cho nhiều điểm hẹn. Không xác nhận chi nhánh tại ba phường, không suy đoán miễn phí giao xe hoặc xe còn sẵn. Mỗi bài có đúng một H1, liên kết nguồn chính thức và tối thiểu 2 liên kết nội bộ.
 
+## Lô 04/17 — Bạch Mai, Vĩnh Tuy, Cầu Giấy
+
+| Phường mới | H1 | File | Đếm từ theo quy tắc QA gần đúng |
+| --- | --- | --- | ---: |
+| Bạch Mai | Thuê xe máy phường Bạch Mai: chọn Wave hay xe ga 50cc khi đi học, đi thực tập? | [10-bach-mai.md](batch-04/10-bach-mai.md) | ~4.033 |
+| Vĩnh Tuy | Thuê xe máy phường Vĩnh Tuy: Honda Vision hay Air Blade cho lịch qua cầu, đi nhiều điểm? | [11-vinh-tuy.md](batch-04/11-vinh-tuy.md) | ~4.342 |
+| Cầu Giấy | Thuê xe máy phường Cầu Giấy: Honda Vision hay Yamaha Janus cho người đi làm một tuần? | [12-cau-giay.md](batch-04/12-cau-giay.md) | ~4.791 |
+
+Nguồn địa giới từ cổng chính quyền [Bạch Mai](https://bachmai.hanoi.gov.vn/dang-doan-the/dai-hoi-dai-bieu-dang-bo-phuong-bach-mai-lan-thu-nhatnhiem-ky-2025-2030-2821250729163538002.htm), [Vĩnh Tuy](https://vinhtuy.hanoi.gov.vn/gioi-thieu/y-nghia-ten-goi-phuong-vinh-tuy-moi-sau-01-7-2025-2823250629163913423.htm) và [Cầu Giấy](https://caugiay.hanoi.gov.vn/gioi-thieu-chung/gioi-thieu-chung-2805250626170626104.htm). NAP và giá tham khảo từ `data/business-facts.json`. Không khẳng định xe Janus, SYM hoặc Cub có sẵn, chi nhánh ở phường, giá xe điện/Janus, phí giao miễn phí hoặc hướng cầu luôn được phép đi. Bạch Mai nói đến quyết định Wave/50cc cho lịch thực tập; Vĩnh Tuy bàn chọn xe ga và giao thông qua sông; Cầu Giấy hướng đến làm việc theo tuần và đối chiếu Janus chưa có giá xác minh.
+
+**Lưu ý kiểm tra:** WPVibe đã báo giới hạn lượt gọi; vì vậy kiểm tra đối chiếu WordPress trực tiếp với ba bài mới **chưa hoàn tất**, phải làm lại trước Research Intake/đăng. Đây vẫn là 3 bản biên tập, chưa có G1–G7 hoặc Topic ID, không sửa dữ liệu Production.
+
 ## Phạm vi và nguồn
 
 - Sử dụng địa giới mới của phường [Bồ Đề](https://bode.hanoi.gov.vn/gioi-thieu-chung/gioi-thieu-phuong-bo-de-2831250626121314553.htm), [Cửa Nam](https://cuanam.hanoi.gov.vn/gioi-thieu/gioi-thieu-chung-ve-phuong-cua-nam-2801250629153745569.htm), [Hoàn Kiếm](https://hoankiem.hanoi.gov.vn/chi-dao-cua-dia-phuong/dai-hoi-dai-bieu-dang-bo-phuong-hoan-kiem-lan-thu-i-nhiem-ky-2025-2030-2812250723162946227.htm).
@@ -50,4 +62,4 @@ Tham khảo chính thức: [Ngọc Hà](https://ngocha.hanoi.gov.vn/gioi-thieu-c
 4. QA trên hệ thống phải xác nhận SEO ≥85, Quality ≥85, G1–G6; Publisher chỉ được chạy khi chính sách chủ website cho phép. `publisher_pilot.max_posts=3` đang sử dụng hết 3 lần trước; **không được tự nâng hoặc gỡ giới hạn**. Việc đăng mới đòi hỏi quyết định tách biệt của chủ website và xác minh G7.
 5. Sau khi xuất bản thành công, cập nhật `progress.json` với Topic ID, WordPress ID, permalink và ngày xác minh; không đếm bản thảo thành bài đã đăng.
 
-**Tiến độ biên tập:** **9/51**, còn **42 bài trong 14 lượt duyệt**. Đã biên tập lô 01–03; **0/9 bài biên tập được nhập Topic Factory hoặc đăng WordPress**. Không tự nới `publisher_pilot`. Theo kế hoạch chủ website duyệt mỗi lượt 3 bài.
+**Tiến độ biên tập:** **12/51**, còn **39 bài trong 13 lượt duyệt**. Đã biên tập lô 01–04; **0/12 bài biên tập được nhập Topic Factory hoặc đăng WordPress**. Không tự nới `publisher_pilot`. Lượt tự động mỗi giờ phải đọc `progress.json` để tránh trùng lượt thủ công.
