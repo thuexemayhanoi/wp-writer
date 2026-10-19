@@ -12555,7 +12555,7 @@
       }
     },
     "NT-000709": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T10:05:59.138456+00:00",
       "source_hash": "7aa6040689a2364b04ddf7cd49105425f15ca3ada7fc0acacaeeb7d749de58af",
       "slug": "janus-grande-freego-va-latte-bon-xe-ga-yamaha-125cc-khac-nhau-o-binh-xang-cop-va-phanh",
@@ -12570,8 +12570,37 @@
       "category_warning": null,
       "git_commit": "b435335e8426c4f9f969e3b42ffb7880d6b07d3d",
       "run_id": "39233919731",
-      "updated_at": "2026-10-19T10:06:04.056023+00:00",
-      "wp_id": 4233
+      "updated_at": "2026-10-19T10:06:10.363084+00:00",
+      "wp_id": 4233,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/janus-grande-freego-va-latte-bon-xe-ga-yamaha-125cc-khac-nhau-o-binh-xang-cop-va-phanh/",
+      "verified_at": "2026-10-19T10:06:10.363079+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4233,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/janus-grande-freego-va-latte-bon-xe-ga-yamaha-125cc-khac-nhau-o-binh-xang-cop-va-phanh/",
+        "categories": [
+          156
+        ],
+        "canonical": "https://thuexemaynguyentu.com/janus-grande-freego-va-latte-bon-xe-ga-yamaha-125cc-khac-nhau-o-binh-xang-cop-va-phanh/",
+        "seo_title": "Janus, Grande, FreeGo và Latte: khác nhau ở bình xăng, cốp, phanh",
+        "seo_description": "Janus, Grande, FreeGo và Latte theo trang Yamaha: cùng 124,9 cm3 nhưng khác bình xăng, cốp, phanh, lốp và phiên bản có ABS; cách hỏi đúng phiên bản khi thuê.",
+        "checked_at": "2026-10-19T10:06:10.363058+00:00"
+      }
     }
   },
   "categories": {}
