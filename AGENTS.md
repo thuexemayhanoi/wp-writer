@@ -1,5 +1,7 @@
 # Universal writer contract — Nguyễn Tú
 
+> **KHẨN CẤP 19/10/2026 — OWNER PAUSE / QUOTA CLAUDE:** `config/production-policy.json` đang có `emergency_stop=true`. Trong khi sửa pipeline, các AI Writer W1–W9 **không nhận chủ đề mới / không push tiếp bản thảo**; giữ nguyên lease, file và checkpoint của mình. GitHub không thể tự dừng phiên Claude đang mở ngoài hệ thống. QA trên `main` đã chuyển sang quét 5 phút/lượt để gộp nhiều push; Publisher có hàng đợi riêng và thoát sớm khi đang dừng. **Không tự tắt emergency_stop**; chỉ chủ website phê duyệt mở lại sau khi test và xác minh thực tế. Bài lỗi/REVIEW vẫn phải sửa, không hạ QA ≥85. Mọi đoạn nói 'QA tức thời theo từng push' dưới đây là mô tả lịch sử trước nâng cấp.
+
 **SEO Autopilot đã kiểm tra 18/10/2026:** Đọc [checkpoint và kết quả sửa thực tế](reports/seo-autopilot-2026-10-18.md) cùng `data/research/seo-autopilot-review-2026-10-18.json` trước khi đề xuất bài mới. Hoàn Kiếm và xe đạp điện tháng đã có URL; gia hạn đã có NT-000002. Ba ứng viên mới chỉ để nghiên cứu, còn HOLD; báo cáo không phải lô PLANNED. Giữ nguyên mọi lease, ledger, taxonomy, Production và QA hiện hành.
 
 **Quy tắc phân luồng đã kiểm tra (18/10/2026):** Nghiên cứu SEO ưu tiên có 17 gợi ý còn chờ đọc nguồn, 8 HOLD do nghi trùng; `scripts/research_v2.py hints` chỉ hiện gợi ý `AWAITING_EXTERNAL_RESEARCH`. Writer chỉ viết topic thật `PLANNED` đã claim hợp lệ; nếu READY=0 hoặc W1–W9 đang có lease, không chiếm chỗ, không xuất bản trực tiếp. Tối ưu trang/bài WordPress đã có: xem [báo cáo ưu tiên duyệt từng URL](reports/seo-priority-review-2026-10-18.md), chờ chủ duyệt từng thay đổi và giữ nguyên title/H1/slug/canonical khi chưa duyệt. Không cho writer tự chỉnh trang chủ, bài cũ hay danh mục. Trạng thái và thống kê là ảnh chụp lúc kiểm tra, không phải bảo đảm tồn tại slot sau này.
@@ -15,7 +17,7 @@
 >
 > 1. **W1–W9 viết bài** từ chủ đề PLANNED, nộp bằng `scripts/writer-session.py`.
 > 2. **QA ≥85 + kiểm tra trùng + danh mục** (G1–G6 trong `scripts/qa.py`; G7 xác minh sau đăng). Lỗi mạng được thử lại tối đa 3 lần; Claude tự sửa nội dung tối đa 10 lượt và lưu checkpoint theo Topic ID + session; chỉ bài có rủi ro thật bị giữ riêng, một bài lỗi không chặn bài khác.
-> 3. **Publisher → WordPress công khai**, tự chạy ngay sau QA thành công trên `main` (workflow `Universal WordPress Publisher`; cron :17/:47 chỉ là dự phòng). **Đã kích hoạt tự động**: `mode=production`, `production_enabled=true`.
+> 3. **Publisher → WordPress công khai**, tự chạy sau QA `main` thành công theo nhịp gộp 5 phút hoặc khi điều phối thủ công; cron :17/:47 là dự phòng. **Dừng khẩn cấp hiện hành 19/10:** `emergency_stop=true` chặn mọi ghi WordPress, dù `mode=production` và `production_enabled=true` còn giữ nguyên.
 >
 > Ngoài QA, sổ ledger ghi trước POST và đọc lại sau đăng, chỉ `paused` / `emergency_stop` của chủ mới dừng được việc đăng. Không có bước duyệt tay và không cờ `acceptance_passed` / `security_controls_verified` nào chặn đăng. Chỉ coi một bài là đã đăng khi ledger có `phase=VERIFIED` và URL công khai mở được; GitHub Actions `success` chưa chứng minh điều đó. Khi chủ đổi công tắc production phải sửa khối này, README và `docs/INSTANT-PUBLISHING.md`.
 
