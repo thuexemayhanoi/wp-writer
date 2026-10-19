@@ -103,14 +103,6 @@ Cách đặt câu hỏi này có hai lợi ích. Thứ nhất, cửa hàng trán
 
 Thông tin liên hệ chính của **Cho Thuê Xe Máy Nguyễn Tú** là **0942 467 674**, địa điểm **112 Nguyễn Văn Cừ, Bồ Đề, Hà Nội**. Khung giờ công bố **09:00–21:00 mỗi ngày**. Bạn có thể bắt đầu từ [trang chủ Nguyễn Tú](https://thuexemaynguyentu.com/) để xem đường đến cửa hàng và các lựa chọn đặt xe. Đó là một địa điểm kinh doanh; bài viết này không giới thiệu các “chi nhánh Bồ Đề” khác chưa được xác minh.
 
-## Chỉ dẫn nhận xe không nên bỏ qua
-
-Ngay cả khi ở rất gần địa điểm cho thuê, bạn cũng cần thống nhất **xe thực tế** chứ không chỉ tên dòng xe. Hai chiếc cùng là Vision có thể khác đời, ngoại hình, tình trạng lốp hoặc trang bị; hai chiếc Wave có thể mang cảm giác số và phanh khác nhau. Hãy đề nghị xem xe sẽ giao khi có điều kiện, hỏi trước nếu xe thay thế khác mẫu ban đầu và xác nhận quyền từ chối nếu không phù hợp với thỏa thuận.
-
-Trước khi khởi hành, lưu số cửa hàng vào danh bạ, mang giấy tờ cần thiết, sạc điện thoại đủ dùng và ghi nhớ giờ đóng cửa. Khi trả xe, đừng chọn lịch sát giờ đóng cửa mà không trao đổi; mất thời gian vì tắc đường hoặc đổi lộ trình có thể khiến việc bàn giao khó khăn. Nếu dự định trả xe tại nơi khác, đó phải là một phần được chấp thuận trong thỏa thuận, không phải quyết định tự phát lúc kết thúc chuyến.
-
-Sau cùng, cân nhắc tổng ngân sách gồm giá thuê, nhiên liệu, gửi xe, phí giao nhận đã xác nhận và khoản cọc tạm giữ. Người thuê mới thường nhìn thấy một con số giá ngày rồi quên số tiền thực sự cần chuẩn bị cho buổi nhận xe. Cách tính đầy đủ giúp lựa chọn Wave hoặc Vision bình tĩnh hơn.
-
 ## Hỏi đáp dành cho khách thuê xe tại Bồ Đề
 
 **Ở Ngọc Lâm hoặc Ngọc Thụy có được gọi là phường Bồ Đề mới không?** Một phần địa bàn trước đây được sắp xếp vào phường Bồ Đề mới. Để xác định chính xác địa chỉ, xem bản đồ hành chính chính thức hoặc xác nhận vị trí cụ thể; không nên tự kết luận mọi con đường mang tên phường cũ đều chuyển nguyên vẹn.
