@@ -9915,7 +9915,7 @@
       }
     },
     "NT-000685": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T05:24:29.733014+00:00",
       "source_hash": "c1aba833f28f407e8c6f3c79ccff40c87b39ba462777c622cc17bd319730c532",
       "slug": "chay-xe-may-sau-khi-troi-toi-o-viet-nam-vi-sao-cac-trang-chinh-thuc-dan-nen-tranh-duong-vang",
@@ -9930,8 +9930,37 @@
       "category_warning": null,
       "git_commit": "6a6772cb5c0e0edb915daf243a880be49b35a255",
       "run_id": "39203972454",
-      "updated_at": "2026-10-19T05:24:33.707077+00:00",
-      "wp_id": 4176
+      "updated_at": "2026-10-19T05:24:39.575818+00:00",
+      "wp_id": 4176,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/chay-xe-may-sau-khi-troi-toi-o-viet-nam-vi-sao-cac-trang-chinh-thuc-dan-nen-tranh-duong-vang/",
+      "verified_at": "2026-10-19T05:24:39.575814+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4176,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/chay-xe-may-sau-khi-troi-toi-o-viet-nam-vi-sao-cac-trang-chinh-thuc-dan-nen-tranh-duong-vang/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/chay-xe-may-sau-khi-troi-toi-o-viet-nam-vi-sao-cac-trang-chinh-thuc-dan-nen-tranh-duong-vang/",
+        "seo_title": "Chạy xe máy sau khi trời tối ở Việt Nam: lời khuyên chính thức",
+        "seo_description": "Chạy xe máy sau khi trời tối ở Việt Nam: Anh, Canada, Ireland, Úc, Mỹ và cổng du lịch quốc gia khuyên gì về đường vắng, chiếu sáng kém và xe khách đêm.",
+        "checked_at": "2026-10-19T05:24:39.575803+00:00"
+      }
     }
   },
   "categories": {}
