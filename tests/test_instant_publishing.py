@@ -77,7 +77,7 @@ class InstantPublishingTests(unittest.TestCase):
             if path=='config/production-policy.json':
                 # Isolate the unapproved-production gate from the independent
                 # owner emergency stop, without mutating the stored policy.
-                data={**data,'production_enabled':False,'emergency_stop':False}
+                data={**data,'production_enabled':False,'emergency_stop':False,'publisher_pilot':None}
             return data
         capture=io.StringIO()
         with (patch('publisher.load', side_effect=switched_off),
