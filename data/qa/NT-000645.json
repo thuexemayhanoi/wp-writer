@@ -1,0 +1,140 @@
+{
+  "topic_id": "NT-000645",
+  "status": "PASS",
+  "source_sha256": "3435932c0c361a521ca00ff8541e2027c58281600a9d5686b1f792545d6f4514",
+  "body_sha256": "15fd0df2a93e3a512e48501664b300a95e4fe1c35800dfc72d5d494119e849c9",
+  "word_count": 3021,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/dao-xong-4-km-doan-ngam-metro-nhon-ga-ha-noi-5061993.html",
+      "supports": "VnExpress 14/4/2026 trích MRB: TBM2 về ga S12 ngày 13/4/2026 hoàn thành 4 km hầm qua S9 đến S12; phần ngầm khoảng 63%, CP03 gần 77%; đoạn trên cao Nhổn – Cầu Giấy vận hành từ 8/8/2024; toàn tuyến dự kiến hoàn thành năm 2027.",
+      "sha256": "a81e77f018e303f4d9b28b62b78c9146193b8e4a5b2a407e276ecd073d87175e",
+      "verified_at": "2026-10-19T09:35:41.431141+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://thanhnien.vn/noi-thong-toan-bo-ham-ngam-tuyen-metro-nhon-ga-ha-noi-185260413211819923.htm",
+      "supports": "Thanh Niên 13/4/2026: phần ngầm gồm 4 km hầm, 4 ga ngầm, 1 giếng thoát hiểm đạt khoảng 63%, gói CP03 đạt 76,69%; dự án khởi công năm 2009 và dự kiến hoàn thành toàn tuyến năm 2027.",
+      "sha256": "ee507df5233c12a31096c116b1d9e10a815a2ca78d72c90136dc1bb5909e2166",
+      "verified_at": "2026-10-19T09:35:43.275238+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-network/thong-tin-nha-ga/tuyen-so-3-2/",
+      "supports": "Trang thông tin nhà ga tuyến số 3 của Hà Nội Metro nêu tuyến dài 12,5 km (8,5 km trên cao, 4 km ngầm) với 12 ga: 8 ga trên cao và 4 ga ngầm Kim Mã, Cát Linh, Văn Miếu, Ga Hà Nội.",
+      "sha256": "434fe10015eb7776a5da49f0f163336096d9d3b9519744785ea719bf1d3f8919",
+      "verified_at": "2026-10-19T09:35:45.177779+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://tuoitre.vn/bi-thu-ha-noi-thi-sat-ga-ngam-tuyen-metro-nhon-ga-ha-noi-yeu-cau-phai-xong-trong-nam-2027-20260509224152626.htm",
+      "supports": "Tuổi Trẻ 9/5/2026 (theo báo cáo của MRB): đoạn trên cao Nhổn – Cầu Giấy đã vận hành thương mại từ 8/8/2024; phần ngầm gồm 4 km hầm, 4 ga ngầm, 1 giếng thoát hiểm đạt khoảng 79,3%; hai máy TBM đã đào xong; theo kế hoạch lắp đặt hệ thống xong tháng 4/2027 và đưa đoạn ngầm vào khai thác thương mại cuối năm 2027.",
+      "sha256": "4a1613fb3de02f9188a3eb7ce50aadb057db683a6c939e03ef04c6da363aa49a",
+      "verified_at": "2026-10-19T09:35:47.265072+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2613,
+        "title": "Thuê Xe Máy Du Lịch Hà Nội: Hướng Dẫn Toàn Diện Từ A–Z Cho Người Lần Đầu",
+        "why": "stale",
+        "content_hash": "bba381bbf7c63d362331437ee0e9ba63294ca01b4eb144c43fe71ca1f20731a0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:35:52.841394+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "a9a8b473c10f7e005c217ed169774a0863ffddc97defa979aae107967d050f1b",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

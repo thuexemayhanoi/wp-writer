@@ -1,0 +1,156 @@
+{
+  "topic_id": "NT-000464",
+  "status": "PASS",
+  "source_sha256": "08099cde7fa377362ee463a4dda06a0947ab153d905c596717dc34e0d668e29d",
+  "body_sha256": "f4ca9abb398428d92a6ca86ac0497976eec430482f3ac0eeb9d5e1da502ac9a4",
+  "word_count": 3359,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/mo-khoa-tinh-nang-tren-app-dat-bike/",
+      "supports": "Dat Bike (trang cập nhật 09/10/2026) mô tả mở xe Quantum S bằng ứng dụng khi điện thoại kết nối Bluetooth và nhấn nút đa chức năng, mở khóa bằng ứng dụng hoặc thẻ RFID, nhiều điện thoại dùng chung xe nhưng chỉ một thiết bị kết nối mỗi lúc.",
+      "sha256": "b215f9277851828153f9e3abc35a4e3fbd480aa3cc2783e6ef54dcb652610ce7",
+      "verified_at": "2026-10-19T09:33:48.227105+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/xe-may-dien-quantum-s1/",
+      "supports": "Trang sản phẩm Dat Bike Quantum S1 nêu tính năng Autolock: bước lại gần thì xe tự mở khóa, một phút không di chuyển thì xe tự tắt máy và khóa.",
+      "sha256": "6108ede6b85b083ec5cebb6edc94b2ff2fa335173859b68d5a0702a6ad8459c2",
+      "verified_at": "2026-10-19T09:33:50.369626+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-weaver-en/",
+      "supports": "Hướng dẫn Dat Bike Weaver (cập nhật 14/04/2026) nêu xe chỉ có khóa điện tử (remote bật/tắt), không dùng chìa vật lý và không có khóa cổ.",
+      "sha256": "f20921c83e38a1986d61aaf36c70f24702e073545efd1926d4ca3fa4ac07d548",
+      "verified_at": "2026-10-19T09:33:51.782436+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/danh-gia-xe-may-dien-neos-yamaha/",
+      "supports": "Yamaha Motor Việt Nam (26/04/2023) nêu NEO's có hệ thống khóa thông minh tự động khởi động/tắt máy trong phạm vi gần, núm xoay mở/khóa xe và cốp.",
+      "sha256": "f37c6f317eba7cee0be1d0c1e22bd40b227d3912831d994215b377ab836436d8",
+      "verified_at": "2026-10-19T09:33:54.019414+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-mo-ban-hai-mau-xe-may-dien-honda-cuv-e-va-honda-uc3-trien-khai-he-thong-tram-doi-pin-va-tram-sac-pin-tai-cac-thanh-pho-lon",
+      "supports": "Honda Việt Nam (04/06/2026) liệt kê Hệ thống SMART Key trong trang bị của CUV e: và UC3 mà không mô tả chi tiết cách vận hành.",
+      "sha256": "d0bcc49d8498aed7218fef3d82bec271954f4d0b18e7b73c6135ef5051be2f63",
+      "verified_at": "2026-10-19T09:33:54.942255+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/faq-maintenance/",
+      "supports": "Trang FAQ sửa chữa, bảo hành của Dat Bike (cập nhật 23/02/2026, các tab Weaver) nêu nếu mất cả hai chìa khóa xe hoặc thẻ RFID và xe không còn kết nối ứng dụng thì phải mang xe đến cửa hàng Dat Bike để kỹ thuật viên lập trình lại.",
+      "sha256": "c00ce0d8d5997b720849ffe52c59dcdf19efefe1177be14bc2aca249201c5182",
+      "verified_at": "2026-10-19T09:33:56.447807+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2408,
+        "title": "Xe máy điện Honda: các mẫu đang được người dùng quan tâm",
+        "why": "stale",
+        "content_hash": "ded30343606cc54b9fa64db90b6a7c2bc7b959cdd75d5c4e2c0e9f4663dfce0b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:34:01.166631+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "bae414225a4d3f14880378968d48250392b552c820602fc30693b6f7bc006041",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

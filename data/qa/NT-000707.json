@@ -1,0 +1,141 @@
+{
+  "topic_id": "NT-000707",
+  "status": "PASS",
+  "source_sha256": "7a2695ecb9315e24a49a080a21931652b3258377a040c6745159c1e561ca0bc8",
+  "body_sha256": "1acc152f61d306bfcc56fc5e4519c22e15071a1dffd236fb3268cc510b4a2421",
+  "word_count": 2553,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision",
+      "supports": "Trang Honda Vision 2026, bản Thể thao hiển thị mặc định (đọc 19/10/2026): 97 kg, 1.925 mm x 686 mm x 1.126 mm, độ cao yên 785 mm, khoảng sáng gầm 175 mm, lốp trước 80/90-16; 109,5 cm3, 4,8 lít, 1,82 lít/100 km.",
+      "sha256": "a0de2ca98ff57a265ff8cddfbcc2216023f3a4eaf1e64cf5c489d0959c390d89",
+      "verified_at": "2026-10-19T09:36:09.883321+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?version=104&changeVersionFlag=1",
+      "supports": "Trang Honda Vision 2026 bản Đặc biệt (?version=104): 94 kg, 1.871 mm x 686 mm x 1.101 mm, độ cao yên 761 mm, khoảng sáng gầm 152 mm, lốp trước 80/90-14.",
+      "sha256": "aca3b8a10d72864ac1d5e5473781e65c125e02643bc72db3ed1392b510ca66ad",
+      "verified_at": "2026-10-19T09:36:10.629225+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?version=105&changeVersionFlag=1",
+      "supports": "Trang Honda Vision 2026 bản Cao cấp (?version=105): 94 kg, cùng kích thước, độ cao yên và lốp trước với bản Đặc biệt.",
+      "sha256": "9ee1ae734d9fd8be8c5b524d3d525c8d50f6bb1b0ad8f227d788adea12525237",
+      "verified_at": "2026-10-19T09:36:12.249132+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?version=106&changeVersionFlag=1",
+      "supports": "Trang Honda Vision 2026 bản Tiêu chuẩn (?version=106): 93 kg, cùng kích thước, độ cao yên và lốp trước với bản Đặc biệt.",
+      "sha256": "3c956acc33b3418a5d0329709ebfa988fb1df6c97d80f2b738567b6847498764",
+      "verified_at": "2026-10-19T09:36:12.865672+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap",
+      "supports": "Hỏi đáp Honda về Vision 2021: bản Cá tính có lốp trước 16-inch, khoảng sáng gầm tăng 10mm, độ cao yên và chiều dài cơ sở tăng so với các bản còn lại.",
+      "sha256": "ccee7d7dc829e900b7ad4376fb043ca4719f82bef04bf22ee2642c44dfc73fcd",
+      "verified_at": "2026-10-19T09:36:14.077114+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/tin-tuc/honda-viet-nam-gioi-thieu-phien-ban-moi-mau-xe-vision-2026-bat-sac-tu-tin",
+      "supports": "Bản tin Honda 13/12/2025 giới thiệu Vision 2026: bánh xe trước lớn 16 inch trên phiên bản Thể thao cho tư thế lái thoải mái, tầm nhìn rộng.",
+      "sha256": "3f55416d3561e1a5dd132b5f6be720f9f1fb876ef5a76beb22066dc5dfba508f",
+      "verified_at": "2026-10-19T09:36:15.233591+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-19T09:36:23.511562+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "7970a425beea2556bd18b2c1d1dfddc0cb9c3d932277036f0bc704c4076fdf22",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

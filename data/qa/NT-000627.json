@@ -1,0 +1,149 @@
+{
+  "topic_id": "NT-000627",
+  "status": "PASS",
+  "source_sha256": "d38df40b5489324ce9aa2a3e560ee298b8747aed758727911fa5acbcacd9d6b5",
+  "body_sha256": "a16098ae00ce57370c21b7d723b62a15becbee15ab84766556897fabc781d034",
+  "word_count": 2576,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/xe-may-dien-la-gi/",
+      "supports": "Yamaha Motor Việt Nam (bài \"Xe máy điện là gì? Xe máy điện và xe đạp điện có gì khác?\", đăng 05/04/2023): bảng so sánh nêu xe đạp điện có động cơ điện và bàn đạp trợ lực, nếu hết pin vẫn dùng bàn đạp để di chuyển; xe máy điện chỉ dùng động cơ điện, hết pin thì không khởi động được",
+      "sha256": "37c6dc0c9cad22f4f90aaa0dd5e59770e8bf9e3fb4777bb03840b3ee58b3fd5d",
+      "verified_at": "2026-10-19T09:35:06.501287+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.cyclingweekly.com/group-tests/how-do-e-bikes-work-and-do-you-have-to-pedal-them-463025",
+      "supports": "Cycling Weekly: có thể tắt hẳn động cơ và đi không trợ lực; phần lớn hệ thống không tạo lực cản khi tắt nhưng trọng lượng động cơ và pin làm việc đạp tốn sức hơn",
+      "sha256": "c02ad67ed84fbc251d4954492c0bc222b93b5c2c9e88f6304bc21e655d53acc5",
+      "verified_at": "2026-10-19T09:35:09.906584+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.bikeradar.com/advice/buyers-guides/what-is-an-electric-bike",
+      "supports": "BikeRadar (What is an electric bike?): khi đi hằng ngày lợi ích của động cơ lớn hơn phần nặng thêm, đặc biệt khi leo dốc, trừ khi hết pin; hệ thống động cơ và pin phổ biến nặng khoảng 6 đến 8 kg, nhẹ nhất dưới 4 kg",
+      "sha256": "d46e6425a7d84fb7588a50330f1a5328099021c46aaf28665fc750c014ef31af",
+      "verified_at": "2026-10-19T09:35:12.562030+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.radpowerbikes.com/blogs/the-scenic-route/what-is-pedal-assist",
+      "supports": "Rad Power Bikes: có thể đặt mức trợ lực về 0 để cảm nhận cách xe vận hành khi không có hỗ trợ, hoặc để tập luyện",
+      "sha256": "126a05a1fe2851026dc472d384e9d86fadf9b0b64187f7d2f44c682693679c02",
+      "verified_at": "2026-10-19T09:35:13.034777+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2388,
+        "title": "Xe máy điện VinFast đi được bao nhiêu km sau mỗi lần sạc đầy?",
+        "why": "stale",
+        "content_hash": "e5285dab933a9e8523fa7f789f9bd5d57691724f1704aeef3c150a4cd22802f9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2517,
+        "title": "Xe ga rung khi tăng tốc do đâu? Các nguyên nhân thường gặp khi dùng",
+        "why": "stale",
+        "content_hash": "44f236046c1f74ea9761d7bd0ae2d3b0ea286bc2118a85e0aadf8beb2df1afc1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:35:24.094201+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "dcb1346e3c9b4e2f94207bed58b059933e6a77161f84b5c9816a0cc3da6017f3",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
