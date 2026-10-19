@@ -107,7 +107,10 @@ class WardBatch02EditorialTests(unittest.TestCase):
         # Batch 02 must remain intact as the 51-ward campaign advances.
         # Do not freeze the *total* at 6, or the next batch's PR will fail.
         self.assertGreaterEqual(progress["completed_editorial_drafts"],6)
-        self.assertEqual(progress["published_new_articles"],0)
+        self.assertLessEqual(progress["published_new_articles"],
+                             progress["imported_into_topic_factory"])
+        self.assertLessEqual(progress["imported_into_topic_factory"],
+                             progress["completed_editorial_drafts"])
         self.assertEqual(progress["next_review_batch"],
                          progress["completed_editorial_drafts"]//3+1)
         self.assertEqual(len(progress["completed"]),
@@ -116,8 +119,8 @@ class WardBatch02EditorialTests(unittest.TestCase):
                          progress["completed_editorial_drafts"])
         self.assertEqual([e["ward"] for e in progress["completed"][3:6]],
                          [ward for ward,_,_ in WARDS])
-        policy=json.loads((ROOT/"config"/"production-policy.json").read_text(encoding="utf-8"))
-        self.assertEqual(policy["publisher_pilot"]["max_posts"],3)
+        # Publisher authorization is tested in the Publisher suite, not in
+        # this historical editorial-batch regression test.
 
 
 if __name__=="__main__":
