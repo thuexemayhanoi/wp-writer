@@ -1,0 +1,177 @@
+{
+  "topic_id": "NT-000825",
+  "status": "PASS",
+  "source_sha256": "3869994c8c8189564fd3f76d7803c315a82ee0251aa55372b79e2c5cb0d47c8e",
+  "body_sha256": "1cfcc987ff10edaf43545edb9756efca134134ab1557ad258de23771f094c3d0",
+  "word_count": 3760,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.gov.uk/foreign-travel-advice/vietnam/safety-and-security",
+      "supports": "Trang tư vấn của Anh (cập nhật 21/09/2026), mục Cigarettes and alcohol from street vendors: nên tránh mua rượu hoặc thuốc lá từ người bán rong hay người lạ vì không bảo đảm hàng thật; vape và các sản phẩm liên quan bị cấm, không mua được vape ở Việt Nam và không mang vape vào nước này",
+      "sha256": "a2d5eeadc18979325d7eabf475624e42e88db391550a35a45fab429cad2935c1",
+      "verified_at": "2026-10-19T05:31:18.306953+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://travel.gc.ca/destinations/vietnam",
+      "supports": "Trang tư vấn của Canada (cập nhật 13/10/2026), mục Electronic cigarettes and vaporizers: không thể mang thuốc lá điện tử hay thiết bị vape vào Việt Nam; mang vào, bán, dùng hay phân phối thuốc lá điện tử, thiết bị vape và dung dịch vape đều bất hợp pháp; người bị kết án có thể bị phạt nặng hoặc tù",
+      "sha256": "126c661b0baedc6f2c337d9d931cfdb12a6a068ad2779ba0c38fbef1e0fbf156",
+      "verified_at": "2026-10-19T05:31:19.465212+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
+      "supports": "Trang Smartraveller của Úc (cập nhật 24/09/2026), mục Local laws: bất hợp pháp khi mua, dùng, sở hữu, bán hoặc mang vào thuốc lá điện tử (e-cigarette), thiết bị vape và dung dịch vape; danh sách các hành vi bất hợp pháp này đi kèm câu rằng các hoạt động đó có thể dẫn đến bị bắt và tù",
+      "sha256": "b21f280d5c64c04d3676dbcb17d6d239db87531c6c946119451121226fe3e36f",
+      "research_checked_at": "2026-10-18",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    },
+    {
+      "url": "https://en.baochinhphu.vn/viet-nam-to-ban-e-cigarettes-from-2025-111241201154851979.htm",
+      "supports": "Bài của Báo điện tử Chính phủ bản tiếng Anh (Viet Nam Government News) đăng 30/11/2024: Quốc hội ngày 30/11 thống nhất cấm thuốc lá điện tử từ 2025 để bảo vệ sức khỏe cộng đồng, trật tự và an toàn xã hội; quyết định theo đề xuất của Bộ Y tế vì thuốc lá điện tử có thể gây nghiện do hàm lượng nicotine cao và gây các bệnh nặng; Thủ tướng đã giao Bộ Tài chính chỉ đạo hải quan kiểm soát chặt việc vận chuyển thuốc lá điện tử và thuốc lá nung nóng lậu qua cửa khẩu",
+      "sha256": "4afbb97b40183d5a0d7616736d832ae8c2ef86150d3c484034db5241f8746585",
+      "verified_at": "2026-10-19T05:31:23.903051+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 1060,
+        "title": "Thuê Xe Máy Theo Tháng Hà Nội – Giá Rẻ, Xe Ga Xe Số",
+        "why": "stale",
+        "content_hash": "91ac037b4111a6094966dec9b372fd51efec1590c51c00cf3824949cf3142c8c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2343,
+        "title": "Xe máy điện: các hãng nổi bật và cách chọn xe phù hợp nhất",
+        "why": "stale",
+        "content_hash": "c6618e9c49c5f2f25650deea3da4d70c0b7ac0a3821f5dc81a038f2aae0716d7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2397,
+        "title": "Xe máy điện VinFast nào phù hợp đi phố và quãng đường ngắn hằng ngày?",
+        "why": "stale",
+        "content_hash": "2b93d3334950d29cdf087539809b34e2aca4cc02672b85bcc31d2f5de9a815aa",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2610,
+        "title": "Top địa điểm du lịch đẹp ở Hà Nội: Đi đâu, chơi gì và check-in ở đâu?",
+        "why": "stale",
+        "content_hash": "aa42ffbfca0e3b4188fde1e3cf3a06d9f9b9496580487304e5dbbd316db1a856",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4055,
+        "title": "Thuê 2 xe máy cùng lúc ở Hà Nội: chuẩn bị giấy tờ, giao nhận và hoàn cọc từng xe",
+        "why": "stale",
+        "content_hash": "029d48a9e900c89ea965179099932a9ddb51ee071f065aca1c29903fd58a13c9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T05:31:28.763712+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "b5a37388c74e42e91b8d10a160dd62147817de2650dddfa185fe5f9957e62183",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
