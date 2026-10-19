@@ -12363,7 +12363,7 @@
       }
     },
     "NT-000703": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T10:03:27.443189+00:00",
       "source_hash": "9552e9467b62301050c89143d1e8cda72be27303099e359be1f5c70e919372cf",
       "slug": "khoi-luong-ban-than-va-trong-luong-uot-vi-sao-so-honda-va-yamaha-kho-so-truc-tiep",
@@ -12378,8 +12378,37 @@
       "category_warning": null,
       "git_commit": "b435335e8426c4f9f969e3b42ffb7880d6b07d3d",
       "run_id": "39233919731",
-      "updated_at": "2026-10-19T10:03:31.539924+00:00",
-      "wp_id": 4229
+      "updated_at": "2026-10-19T10:03:37.576339+00:00",
+      "wp_id": 4229,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/khoi-luong-ban-than-va-trong-luong-uot-vi-sao-so-honda-va-yamaha-kho-so-truc-tiep/",
+      "verified_at": "2026-10-19T10:03:37.576332+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4229,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/khoi-luong-ban-than-va-trong-luong-uot-vi-sao-so-honda-va-yamaha-kho-so-truc-tiep/",
+        "categories": [
+          156
+        ],
+        "canonical": "https://thuexemaynguyentu.com/khoi-luong-ban-than-va-trong-luong-uot-vi-sao-so-honda-va-yamaha-kho-so-truc-tiep/",
+        "seo_title": "Khối lượng bản thân và trọng lượng ướt: vì sao số Honda, Yamaha khó so",
+        "seo_description": "Khối lượng bản thân và trọng lượng ướt trên trang Honda, Yamaha: nhãn từng hãng dùng, bảng số kg từng mẫu, vì sao không nên trừ trực tiếp hai hãng và cách dắt thử xe.",
+        "checked_at": "2026-10-19T10:03:37.576311+00:00"
+      }
     }
   },
   "categories": {}
