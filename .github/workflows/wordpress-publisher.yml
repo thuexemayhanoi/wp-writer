@@ -127,6 +127,12 @@ jobs:
           WP_USERNAME: ${{ secrets.WP_USERNAME }}
           WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
         run: python scripts/publisher.py --persist-state
+      # Only a durable G7 PASS with exact category ID 182 can increment the
+      # 51-ward WordPress count. This step never touches WordPress itself.
+      - name: Reconcile Hanoi ward campaign progress from true QA and G7 receipts
+        if: steps.safety_switch.outputs.active == 'true' && always()
+        continue-on-error: true
+        run: python scripts/hanoi_ward_progress.py --persist-state
       - if: steps.safety_switch.outputs.active == 'true' && always()
         run: python scripts/reports.py
       - if: steps.safety_switch.outputs.active == 'true' && always()

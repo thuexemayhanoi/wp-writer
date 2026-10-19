@@ -10,6 +10,20 @@
 | Cửa Nam | Thuê xe máy phường Cửa Nam: chọn Air Blade, tính gói ngày hay tuần? | [02-cua-nam.md](batch-01/02-cua-nam.md) | 4.726 |
 | Hoàn Kiếm | Thuê xe máy phường Hoàn Kiếm: đi phố cổ chọn xe ga, xe số hay 50cc? | [03-hoan-kiem.md](batch-01/03-hoan-kiem.md) | 4.484 |
 
+## Quy tắc bắt buộc khi đưa bài lên WordPress (20/10/2026)
+
+**Đã tạo và đọc lại từ WordPress thật:**
+- Blog `id=69, parent=0`
+- Hướng dẫn thuê xe `id=162, parent=69`
+- **Thuê xe máy theo phường Hà Nội `id=182, parent=162, slug=thue-xe-may-theo-phuong-ha-noi`** — [xem archive](https://thuexemaynguyentu.com/blog/huong-dan-thue-xe/thue-xe-may-theo-phuong-ha-noi/).
+- Mã taxonomy chính thức trong `data/taxonomy.json`: **`hanoi-ward-rentals`**. Không tạo danh mục phường khác; không chọn `rental-guide` hoặc `blog` làm danh mục thay thế.
+
+**Thứ tự vận hành cho 51 bài:** giữ bài Markdown gốc trong `editorial/seo-51-phuong/` → so intent/slug/canonical với các bài đã đăng + toàn bộ Topic Factory → Researcher lập nguồn thật, evidence_text và source_sha256 (không tự tạo từ việc nhìn link) → Topic Factory **PLANNED** có `campaign_id: HN-51-WARDS` và `taxonomy_key: hanoi-ward-rentals` → Writer hợp lệ giữ lease của Topic ID, chuyển nội dung đã kiểm chứng thành Markdown theo `docs/ARTICLE-CONTRACT.md` (bỏ H1 Markdown, để WordPress title sinh H1; metadata và body SHA thật) → QA G1–G6, SEO ≥85, Quality ≥85, category/URL chính xác → Publisher duy nhất đăng trạng thái **publish** vào **đúng term ID 182** → đọc lại G7, kiểm chứng permalink, canonical, Yoast SEO và duy nhất `categories=[182]` → cập nhật `progress.json` có Topic ID/WordPress ID/URL thật.
+
+**Không WordPress draft, không giả QA PASS và không đăng nhầm:** nếu thiếu Research QA, writer lease, nguồn thật, sai taxonomy, trùng intent/slug, không thể đọc danh mục chính xác hoặc QA <85/REVIEW, **giữ tại GitHub để sửa**. Mã Publisher đã có chốt `HANOI_WARD_CATEGORY_HOLD` và `HANOI_WARD_PUBLIC_ONLY`; không tự tạo term mới và không fallback sang Blog/danh mục cha. Tài khoản WPVibe có thể hết quota, có thể dùng WP Agent để đọc lại WordPress.
+
+**Ưu tiên xử lý:** 9 bản đầu (Bồ Đề, Cửa Nam, Hoàn Kiếm, Việt Hưng, Tây Hồ, Đống Đa, Ngọc Hà, Giảng Võ, Hai Bà Trưng), rồi ba bản lô 04 (Bạch Mai, Vĩnh Tuy, Cầu Giấy). Hiện 12/51 bài viết xong nhưng **0 bài thuộc chiến dịch đã được nhập Topic Factory hoặc đăng WordPress**. Việc WP REST xác nhận 9 slug chưa bị trùng chính xác **không** thay cho kiểm tra trùng search intent. Lịch mỗi giờ và lượt duyệt thủ công cùng đọc `progress.json` để tránh tranh chấp.
+
 ## Lô 02/17 — Việt Hưng, Tây Hồ, Đống Đa
 
 | Phường mới | Tiêu đề H1 | File | Đếm từ sơ bộ theo quy tắc `scripts/qa.py` |

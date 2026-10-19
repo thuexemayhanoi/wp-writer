@@ -47,6 +47,8 @@ def delivery_route(topic,policy,registry,categories,create_category=None,accepta
     No category is guessed or created silently. Intended category and warning
     are recorded durably so an editor can later finish taxonomy on WordPress.
     """
+    if (topic.get('campaign_id') == 'HN-51-WARDS' or str(topic.get('proposed_slug', '')).startswith('thue-xe-may-phuong-')) and topic.get('taxonomy_key') != 'hanoi-ward-rentals':
+        raise ValueError('HANOI_WARD_CATEGORY_HOLD: campaign taxonomy must be hanoi-ward-rentals')
     if topic['taxonomy_key']=='uncategorized':
         raise ValueError('Uncategorized forbidden as intended taxonomy')
     public=production_allowed(policy)
@@ -54,6 +56,10 @@ def delivery_route(topic,policy,registry,categories,create_category=None,accepta
     if not (public or staging or acceptance_draft):
         raise ValueError('WordPress delivery is not approved')
     intended=topic['taxonomy_key']
+    # The owner's 51-ward campaign must never be staged as a WP draft,
+    # including explicit acceptance-draft/test modes.
+    if intended == 'hanoi-ward-rentals' and not public:
+        raise ValueError('HANOI_WARD_PUBLIC_ONLY: keep article on GitHub')
     try:
         term_id=resolve(intended,registry,categories)
         return {'status':'publish' if public else 'draft','category_id':term_id,
@@ -61,6 +67,13 @@ def delivery_route(topic,policy,registry,categories,create_category=None,accepta
                 'category_warning':None}
     except ValueError as exc:
         category_error=str(exc)
+    if intended == 'hanoi-ward-rentals':
+        # Owner 2026-10-20: the 51-ward campaign is public-only, with a
+        # PRE-EXISTING, verified child term 182 under rental-guide term 162.
+        # Never create terms per ward, use a fallback category, or issue a
+        # WordPress draft when the exact category readback drifts.
+        raise ValueError('HANOI_WARD_CATEGORY_HOLD: no WordPress write; ' +
+                         category_error)
     if public and policy.get('allow_category_create') and create_category:
         # Only the explicitly approved, ledger-protected JIT path may write terms.
         try:
