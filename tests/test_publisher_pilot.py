@@ -88,10 +88,19 @@ class PilotBudgetTests(TestCase):
         self.assertEqual(seen[0],('persist',))
         self.assertEqual(seen[1],('network','wp/v2/posts','POST_INTENT','pilot-three-20261019'))
 
-    def test_live_policy_cannot_run_without_emergency_stop_or_pilot_cap(self):
+    def test_owner_released_pilot_but_kept_serialized_batch_and_category_safety(self):
         policy=json.loads((ROOT/'config/production-policy.json').read_text(encoding='utf-8'))
-        # Owner can release emergency_stop only while strict pilot cap is active.
-        self.assertTrue(policy['emergency_stop'] or pilot_settings(policy) is not None)
+        from publisher import delivery_batch_limit
+        # The three-post canary is complete; owner explicitly approved continued
+        # QA-gated publication. Preserve the 2 x 5, daily and taxonomy limits.
+        self.assertIsNone(pilot_settings(policy))
+        self.assertEqual(delivery_batch_limit(policy),10)
+        self.assertLessEqual(policy['max_new_posts_daily'],1000)
+        self.assertTrue(production_allowed(policy))
+        self.assertFalse(policy['allow_category_create'])
+        self.assertEqual(policy['on_category_mismatch'],'draft')
+        self.assertEqual(policy['fallback_draft_taxonomy_key'],'blog')
+        self.assertEqual(policy['approved_capacity'],2000)
 
 
 if __name__=='__main__':
