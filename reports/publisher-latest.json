@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-19T11:20:22.192436+00:00",
+  "at": "2026-10-19T14:24:49.393902+00:00",
   "attempted": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -20,6 +20,175 @@
         }
       },
       "action": "manual reconciliation; never create/update automatically"
+    },
+    {
+      "topic_id": "NT-000845",
+      "status": "FAIL",
+      "source_sha256": "73cc4c11187acbfa73e99fe2d1da73e263a810a0b3fb697d41a6e38b0a8e2c79",
+      "body_sha256": "d23f58ff82dfbfec715cc4bf2b8a4c3cfa99a0f286e9cd3a826259d39740f7b0",
+      "word_count": 3614,
+      "quality_score": 70,
+      "seo_score": 100,
+      "seo_min_required": 85,
+      "seo_checks": {
+        "seo_title_relevance": {
+          "points": 15,
+          "max": 15
+        },
+        "meta_description_relevance": {
+          "points": 15,
+          "max": 15
+        },
+        "opening_intent_focus": {
+          "points": 15,
+          "max": 15
+        },
+        "direct_answer": {
+          "points": 10,
+          "max": 10
+        },
+        "headings_usefulness": {
+          "points": 15,
+          "max": 15
+        },
+        "verified_contextual_links": {
+          "points": 15,
+          "max": 15
+        },
+        "descriptive_anchor": {
+          "points": 5,
+          "max": 5
+        },
+        "canonical_identity": {
+          "points": 10,
+          "max": 10
+        }
+      },
+      "seo_recommendations": [],
+      "gates": {
+        "1": {
+          "errors": [],
+          "review": []
+        },
+        "2": {
+          "errors": [],
+          "review": []
+        },
+        "3": {
+          "errors": [],
+          "review": [
+            "Source REVIEW: ValueError: Source excerpt not found",
+            "Source REVIEW: ValueError: Source excerpt not found"
+          ]
+        },
+        "4": {
+          "errors": [],
+          "review": []
+        },
+        "5": {
+          "errors": [],
+          "review": []
+        },
+        "6": {
+          "errors": [],
+          "review": []
+        }
+      },
+      "errors": [],
+      "review": [
+        "Source REVIEW: ValueError: Source excerpt not found",
+        "Source REVIEW: ValueError: Source excerpt not found"
+      ],
+      "source_evidence": [
+        {
+          "url": "https://vnexpress.net/cam-nang-du-lich-do-son-5077128.html",
+          "supports": "Cẩm nang du lịch biển Đồ Sơn của VnExpress (đăng 31/5/2026, cập nhật 2/6/2026): Đồ Sơn thuộc Hải Phòng, cách trung tâm Hải Phòng khoảng 20 km và cách Hà Nội 120 km; lễ hội chọi trâu diễn ra ngày 9/8 âm lịch hằng năm ở sân vận động trung tâm phường Đồ Sơn, phần hội có 16 'ông trâu' thi đấu và người dân, khách vào cửa tự do; từ tháng 9 biển bắt đầu lạnh nhưng khách đổ về nhờ lễ hội, đẹp nhất là tháng 5 đến 8, tháng 10 đến tháng 4 không thích hợp tắm biển; cuối tuần đông, dễ tắc đường vào khu 2 và 3, gửi xe ở bãi có quản lý; từ trung tâm Hải Phòng đi đường Phạm Văn Đồng (ĐT353) gần 20 km, 20 đến 30 phút; xe máy là lựa chọn phổ biến để đi lại trong Đồ Sơn; hỏi giá hải sản trước | Cùng cẩm nang VnExpress 31/5/2026: tháng 9 biển bắt đầu lạnh nhưng là dịp khách đổ về Đồ Sơn nhờ lễ hội chọi trâu; thời điểm đẹp nhất để đến Đồ Sơn là tháng 5 đến 8 | Cùng cẩm nang VnExpress 31/5/2026: cuối tuần Đồ Sơn khá đông, dễ tắc đường vào khu 2 và khu 3; nên gửi xe ở bãi có quản lý, không đỗ tự phát",
+          "sha256": "826a200a0f13c4c8f7b88b29b1eca7aec88f4a32284bbb43ce3bfcf8875ac314",
+          "verified_at": "2026-10-19T14:24:29.013736+00:00",
+          "verification_method": "live",
+          "live_checked": true
+        },
+        {
+          "url": "https://vnexpress.net/cam-nang-du-lich-hai-phong-4462112.html",
+          "supports": "Cẩm nang du lịch Hải Phòng của VnExpress (cập nhật 31/5/2026, bài gốc 29/7/2022): Hải Phòng cách Hà Nội 120 km; đường bộ qua cao tốc Hà Nội - Hải Phòng (CT04/QL5B) khoảng 1,5 giờ nhưng 'đường chỉ dành cho ôtô', 'các phương tiện khách di chuyển theo QL5 cũ'; trang không nêu riêng xe máy; du khách đi tàu có thể gửi xe máy để chủ động phương tiện ở Hải Phòng | Cùng cẩm nang Hải Phòng của VnExpress: người đi tàu hỏa từ Hà Nội có thể gửi xe máy để chủ động phương tiện ở Hải Phòng; Hải Phòng cách Hà Nội 120 km",
+          "sha256": "03185241bf6f960e9675a3e739af8367aa4a1bb00651731da2e472ce710fc59e",
+          "verified_at": "2026-10-19T14:24:31.401215+00:00",
+          "verification_method": "live",
+          "live_checked": true
+        }
+      ],
+      "evidence_recheck": {
+        "pages": [
+          {
+            "id": 952,
+            "title": "Chùa Một Cột – Kiến Trúc Độc Đáo Ngàn Năm Tại Hà Nội",
+            "why": "stale",
+            "content_hash": "31366a9378d9b2888c9cbc4751710f29186c73b59f0470f664a12f6e2665c835",
+            "jaccard": 0.0,
+            "intent_match": null,
+            "verdict": "INDEPENDENT"
+          },
+          {
+            "id": 2449,
+            "title": "Honda Wave Alpha có bền không? Những điểm đáng chú ý khi sử dụng",
+            "why": "stale",
+            "content_hash": "d8a40ae58fa571dd85e22dbc1f6b3b5670560ab68d10c51d1f233ed1c128d0a7",
+            "jaccard": 0.0,
+            "intent_match": null,
+            "verdict": "INDEPENDENT"
+          },
+          {
+            "id": 2562,
+            "title": "Chi phí sử dụng xe máy một tháng gồm những khoản nào phổ biến?",
+            "why": "stale",
+            "content_hash": "0e027bc06fdc27cef9d43033bb86723109f122a63e8485c8dd6f92fa12334be6",
+            "jaccard": 0.0,
+            "intent_match": null,
+            "verdict": "INDEPENDENT"
+          },
+          {
+            "id": 2600,
+            "title": "Cách chọn xe máy phù hợp khi lịch trình chủ yếu di chuyển trong phố",
+            "why": "stale",
+            "content_hash": "782e81a248515b0121bb96f7a114ce29f0c8ceb33137bb7a23e8a4d857d27bfe",
+            "jaccard": 0.0,
+            "intent_match": null,
+            "verdict": "INDEPENDENT"
+          },
+          {
+            "id": 2622,
+            "title": "Hoàng thành Thăng Long có gì? Giá vé, giờ mở cửa và cách tham quan",
+            "why": "stale",
+            "content_hash": "1d198ab7452c92604271329801956283c798cb81955fe394ef94bb66188faaf3",
+            "jaccard": 0.0,
+            "intent_match": null,
+            "verdict": "INDEPENDENT"
+          }
+        ],
+        "independent": true,
+        "max_jaccard": 0.25,
+        "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+      },
+      "at": "2026-10-19T14:24:49.313880+00:00",
+      "live_links_checked": true,
+      "legal_required": false,
+      "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+      "inventory_sha256": "fbc588e8c79995007d5dee01d970c68b97cd5475dd91d5138162927b986da146",
+      "triage": {
+        "hold_class": "REAL_RISK",
+        "real_risk": [
+          "G3: Source REVIEW: ValueError: Source excerpt not found",
+          "G3: Source REVIEW: ValueError: Source excerpt not found"
+        ],
+        "writer_repair": [],
+        "infra_pending": []
+      },
+      "recheck": {
+        "attempts": 1,
+        "max": 3,
+        "exhausted": false,
+        "needs_owner": false
+      }
     }
   ],
   "backlog_drains_on": "successful Writer QA or fallback schedule",

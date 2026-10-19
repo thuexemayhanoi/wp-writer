@@ -4,7 +4,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-19T11:20:25.542045+00:00 |
+| at | 2026-10-19T14:24:49.887557+00:00 |
 | existing_published_posts | 428 |
 | existing_pages | 10 |
 | existing_products | 13 |
@@ -12,7 +12,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | planned_topics | 306 |
 | claimable_topics | 6 |
 | ready_stock | 0 |
-| stock_stages | {'IDEA': 240, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 0, 'PLANNED_HOLD': 3, 'CLAIMED': 25, 'AUTHORED': 0, 'QA_PASS': 0, 'PUBLISHED': 278, 'WP_DRAFT': 0} |
+| stock_stages | {'IDEA': 260, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 0, 'PLANNED_HOLD': 3, 'CLAIMED': 24, 'AUTHORED': 1, 'QA_PASS': 0, 'PUBLISHED': 278, 'WP_DRAFT': 0} |
 | needs_research | True |
 | research_shortfall | 900 |
 | refill_trigger_below_ready | 900 |
@@ -21,12 +21,12 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | refill_order | RF-0002 |
 | refill_accepted_so_far | 27 |
 | writing | 47 |
-| draft_authored | 275 |
+| draft_authored | 276 |
 | qa_pass | 275 |
-| qa_fail | 0 |
+| qa_fail | 1 |
 | qa_review | 0 |
-| repair_queue | 0 |
-| held_by_class | {} |
+| repair_queue | 1 |
+| held_by_class | {'REAL_RISK': 1} |
 | g7_pass | 253 |
 | g7_not_recorded | 25 |
 | wordpress_draft | 0 |
