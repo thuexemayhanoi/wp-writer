@@ -82,5 +82,11 @@ class HanoiWardCategoryTests(unittest.TestCase):
                     delivery_route({"taxonomy_key":KEY},{**production(),**change},
                                    by_key(),live_categories())
 
+    def test_even_approved_draft_mode_is_forbidden_for_ward_posts(self):
+        policy={**production(),"mode":"draft_only","production_enabled":False}
+        with self.assertRaisesRegex(ValueError,"HANOI_WARD_PUBLIC_ONLY"):
+            delivery_route({"taxonomy_key":KEY},policy,by_key(),live_categories(),
+                           acceptance_draft=True)
+
 if __name__=="__main__":
     unittest.main()
