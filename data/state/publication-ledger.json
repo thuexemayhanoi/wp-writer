@@ -13807,7 +13807,7 @@
       }
     },
     "NT-000715": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T19:39:40.087878+00:00",
       "source_hash": "b6fbbc520bd2bf884242ea126db9864a336602b89897e30b499358f870fbe56b",
       "slug": "winner-r-ghi-2-59-lit-100-km-doi-truoc-1-98-chu-thich-udc-noi-gi-ve-cach-do-muc-tieu-thu",
@@ -13823,8 +13823,37 @@
       "category_warning": null,
       "git_commit": "55a95e3283e956d049b0055217266341922b355e",
       "run_id": "39312220935",
-      "updated_at": "2026-10-19T19:39:44.265553+00:00",
-      "wp_id": 4275
+      "updated_at": "2026-10-19T19:39:50.593058+00:00",
+      "wp_id": 4275,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/winner-r-ghi-2-59-lit-100-km-doi-truoc-1-98-chu-thich-udc-noi-gi-ve-cach-do-muc-tieu-thu/",
+      "verified_at": "2026-10-19T19:39:50.593051+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4275,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/winner-r-ghi-2-59-lit-100-km-doi-truoc-1-98-chu-thich-udc-noi-gi-ve-cach-do-muc-tieu-thu/",
+        "categories": [
+          156
+        ],
+        "canonical": "https://thuexemaynguyentu.com/winner-r-ghi-2-59-lit-100-km-doi-truoc-1-98-chu-thich-udc-noi-gi-ve-cach-do-muc-tieu-thu/",
+        "seo_title": "Winner R ghi 2,59 lít/100 km, đời trước 1,98: UDC nói gì về cách đo",
+        "seo_description": "Winner R ghi 2,59 lít/100 km, đời trước 1,98: đọc chú thích UDC của Honda cùng mô tả của DieselNet, WMTC và tiêu chuẩn TCVN để biết con số mức tiêu thụ đo thế nào.",
+        "checked_at": "2026-10-19T19:39:50.593026+00:00"
+      }
     }
   },
   "categories": {}
