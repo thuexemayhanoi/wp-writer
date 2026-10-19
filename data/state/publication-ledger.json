@@ -9195,7 +9195,7 @@
       }
     },
     "NT-000538": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T04:19:13.911875+00:00",
       "source_hash": "a1af97b37d02d893e042069c17ca1748f8bcfbe4ba23d583cb2cbaa95e9d8266",
       "slug": "thang-long-tu-tran-bon-ngoi-den-tran-bon-phuong-kinh-thanh-tho-ai-o-dau-va-thu-tu-di-le-dau-nam",
@@ -9210,8 +9210,37 @@
       "category_warning": null,
       "git_commit": "9c4e7b0f89ee9acbbb46112b2871d25ed8135297",
       "run_id": "39198432432",
-      "updated_at": "2026-10-19T04:19:18.110182+00:00",
-      "wp_id": 4161
+      "updated_at": "2026-10-19T04:19:24.171804+00:00",
+      "wp_id": 4161,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/thang-long-tu-tran-bon-ngoi-den-tran-bon-phuong-kinh-thanh-tho-ai-o-dau-va-thu-tu-di-le-dau-nam/",
+      "verified_at": "2026-10-19T04:19:24.171797+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4161,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/thang-long-tu-tran-bon-ngoi-den-tran-bon-phuong-kinh-thanh-tho-ai-o-dau-va-thu-tu-di-le-dau-nam/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/thang-long-tu-tran-bon-ngoi-den-tran-bon-phuong-kinh-thanh-tho-ai-o-dau-va-thu-tu-di-le-dau-nam/",
+        "seo_title": "Thăng Long tứ trấn: bốn đền, thần được thờ, vị trí và thứ tự đi lễ",
+        "seo_description": "Thăng Long tứ trấn gồm đền Bạch Mã, Voi Phục, Kim Liên, Quán Thánh: thờ ai, ở đâu, năm xây các nguồn ghi khác nhau, xếp hạng ngày 18/01/2022 và thứ tự đi lễ Đông - Tây - Nam - Bắc.",
+        "checked_at": "2026-10-19T04:19:24.171779+00:00"
+      }
     }
   },
   "categories": {}
