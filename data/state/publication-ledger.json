@@ -14836,7 +14836,7 @@
       }
     },
     "NT-000874": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:26:10.872106+00:00",
       "source_hash": "a217c06b4258ee74fffa4b2bc1430b22f9544b21abaa2c5f6c15f453033bf437",
       "slug": "cuc-chi-nghia-trai-o-hung-yen-canh-dong-cach-ha-noi-20-30-km-no-thang-nao-duong-di-tu-ha-noi-va-vi-sao-cac-bai-bao-neu-moc-khac-nhau",
@@ -14852,8 +14852,37 @@
       "category_warning": null,
       "git_commit": "0927396b58191acf78af0cf04b0ee3c0688197ef",
       "run_id": "39326750194",
-      "updated_at": "2026-10-19T21:26:15.322440+00:00",
-      "wp_id": 4296
+      "updated_at": "2026-10-19T21:26:21.532888+00:00",
+      "wp_id": 4296,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cuc-chi-nghia-trai-o-hung-yen-canh-dong-cach-ha-noi-20-30-km-no-thang-nao-duong-di-tu-ha-noi-va-vi-sao-cac-bai-bao-neu-moc-khac-nhau/",
+      "verified_at": "2026-10-19T21:26:21.532882+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4296,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cuc-chi-nghia-trai-o-hung-yen-canh-dong-cach-ha-noi-20-30-km-no-thang-nao-duong-di-tu-ha-noi-va-vi-sao-cac-bai-bao-neu-moc-khac-nhau/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cuc-chi-nghia-trai-o-hung-yen-canh-dong-cach-ha-noi-20-30-km-no-thang-nao-duong-di-tu-ha-noi-va-vi-sao-cac-bai-bao-neu-moc-khac-nhau/",
+        "seo_title": "Cúc chi Nghĩa Trai nở tháng nào? Mốc nở và đường đi từ Hà Nội",
+        "seo_description": "Cúc chi Nghĩa Trai ở Hưng Yên nở tháng nào? Sáu trang báo nêu mốc khác nhau, khoảng cách 20–30 km và chỉ đường từ Hà Nội, kèm cách ứng xử ở ruộng đang thu hoạch.",
+        "checked_at": "2026-10-19T21:26:21.532862+00:00"
+      }
     }
   },
   "categories": {}
