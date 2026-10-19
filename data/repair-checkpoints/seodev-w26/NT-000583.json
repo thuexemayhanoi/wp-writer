@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "topic_id": "NT-000583",
+  "writer": "W8",
+  "session_id": "seodev-w26",
+  "source_sha256": "8f110419833d5e02c05f4be6eb060a707f85c1ca9cb04971352b0d2f74c400b5",
+  "repair_attempts": 0,
+  "repair_limit": 10,
+  "qa_status": "FAIL",
+  "seo_score": 100,
+  "quality_score": 100,
+  "hold_class": "REAL_RISK",
+  "remaining_errors": [
+    "Submission owner/hash mismatch",
+    "G6: Submission owner/hash mismatch"
+  ],
+  "completed_edits": [],
+  "history": [
+    {
+      "revision": 1,
+      "repair_attempt": 0,
+      "source_sha256": "8f110419833d5e02c05f4be6eb060a707f85c1ca9cb04971352b0d2f74c400b5",
+      "qa_status": "FAIL",
+      "seo_score": 100,
+      "quality_score": 100,
+      "errors": [
+        "Submission owner/hash mismatch",
+        "G6: Submission owner/hash mismatch"
+      ],
+      "edit_note": "Sửa trích dẫn nguồn BU-808b: câu bằng chứng đăng ký dính liền hai khối văn bản (neutrallower) nên QA live không tìm thấy; thay bằng câu liền mạch có thật trên trang, nội dung bài không đổi",
+      "evaluated_at": "2026-10-19T03:47:59.231360+00:00"
+    }
+  ],
+  "next_action": "HOLD_FOR_REVIEW",
+  "updated_at": "2026-10-19T03:47:59.231360+00:00"
+}
