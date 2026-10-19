@@ -12507,7 +12507,7 @@
       }
     },
     "NT-000708": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T10:05:25.331568+00:00",
       "source_hash": "be159bb580215aecb5316c4b2c163eef7c305d91aef31b21893fb48179d024bf",
       "slug": "lead-sh-mode-va-air-blade-125-ba-xe-ga-honda-125cc-khac-nhau-o-binh-xang-cop-va-banh-xe",
@@ -12522,8 +12522,37 @@
       "category_warning": null,
       "git_commit": "b435335e8426c4f9f969e3b42ffb7880d6b07d3d",
       "run_id": "39233919731",
-      "updated_at": "2026-10-19T10:05:29.803998+00:00",
-      "wp_id": 4232
+      "updated_at": "2026-10-19T10:05:36.239139+00:00",
+      "wp_id": 4232,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lead-sh-mode-va-air-blade-125-ba-xe-ga-honda-125cc-khac-nhau-o-binh-xang-cop-va-banh-xe/",
+      "verified_at": "2026-10-19T10:05:36.239133+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4232,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lead-sh-mode-va-air-blade-125-ba-xe-ga-honda-125cc-khac-nhau-o-binh-xang-cop-va-banh-xe/",
+        "categories": [
+          156
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lead-sh-mode-va-air-blade-125-ba-xe-ga-honda-125cc-khac-nhau-o-binh-xang-cop-va-banh-xe/",
+        "seo_title": "LEAD, SH Mode và Air Blade 125: khác nhau ở bình xăng, cốp, bánh xe",
+        "seo_description": "LEAD, SH Mode và Air Blade 125 theo trang Honda: cùng 124,8 cm3 nhưng khác bình xăng, cốp, cỡ lốp và công suất; cách đọc bản mặc định và hỏi đúng phiên bản.",
+        "checked_at": "2026-10-19T10:05:36.239112+00:00"
+      }
     }
   },
   "categories": {}
