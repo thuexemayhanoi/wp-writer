@@ -6939,7 +6939,7 @@
       }
     },
     "NT-000814": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T00:47:11.259693+00:00",
       "source_hash": "3adf7965e6d8f5996804e1adbb5ac06817eeabbb9f54eccded7edc69c7850a14",
       "slug": "bom-min-con-sot-lai-o-viet-nam-canada-anh-uc-ireland-va-cac-to-chuc-ra-pha-noi-vung-nao-con-nguy-co-va-nguoi-di-xe-may-nen-giu-duong-nao",
@@ -6954,8 +6954,37 @@
       "category_warning": null,
       "git_commit": "47d4a429146319329db0604a3bda87043fdbbdcf",
       "run_id": "39182032315",
-      "updated_at": "2026-10-19T00:47:15.386423+00:00",
-      "wp_id": 4114
+      "updated_at": "2026-10-19T00:47:21.387002+00:00",
+      "wp_id": 4114,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bom-min-con-sot-lai-o-viet-nam-canada-anh-uc-ireland-va-cac-to-chuc-ra-pha-noi-vung-nao-con-nguy-co-va-nguoi-di-xe-may-nen-giu-duong-nao/",
+      "verified_at": "2026-10-19T00:47:21.386995+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4114,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bom-min-con-sot-lai-o-viet-nam-canada-anh-uc-ireland-va-cac-to-chuc-ra-pha-noi-vung-nao-con-nguy-co-va-nguoi-di-xe-may-nen-giu-duong-nao/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bom-min-con-sot-lai-o-viet-nam-canada-anh-uc-ireland-va-cac-to-chuc-ra-pha-noi-vung-nao-con-nguy-co-va-nguoi-di-xe-may-nen-giu-duong-nao/",
+        "seo_title": "Bom mìn chưa nổ ở Việt Nam khi đi du lịch: vùng nguy cơ và lời khuyên",
+        "seo_description": "Bom mìn chưa nổ ở Việt Nam khi đi du lịch: Canada, Anh, Úc, Ireland nêu vùng nào còn nguy cơ, nói khác nhau ra sao về việc đánh dấu và dặn người đi đường những gì.",
+        "checked_at": "2026-10-19T00:47:21.386975+00:00"
+      }
     }
   },
   "categories": {}
