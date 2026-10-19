@@ -96,30 +96,6 @@ Với người công tác dùng ngân sách của cơ quan, cần tách số ti�
 
 Khi trả xe, nên đối chiếu hiện trạng và mức nhiên liệu theo thỏa thuận. Ghi nhận thời điểm trả thực tế, biên nhận cọc được hoàn và khoản phí nếu có. Nếu phát sinh bất đồng, sử dụng ảnh và tin nhắn ban đầu để giải thích từng khoản thay vì tranh luận bằng trí nhớ. Đọc [trang hợp đồng và điều khoản đặt cọc Nguyễn Tú](https://thuexemaynguyentu.com/hop-dong-thue-xe-may/) để chuẩn bị các câu cần hỏi trước khi ký.
 
-## Đường trung tâm, giờ cao điểm và chỗ gửi xe
-
-Cửa Nam có những tuyến phố trung tâm, nơi lượng người và phương tiện thay đổi theo buổi làm việc, sự kiện, thời tiết. Không có một thời gian chạy cố định từ ga Hà Nội đến mọi điểm hẹn trong phường. Một địa chỉ ở Trần Hưng Đạo có thể rất khác địa chỉ ở Phan Chu Trinh về phương án dừng đỗ; cùng một con đường nhưng đoạn được phép đỗ và đoạn không được đỗ cũng có thể khác.
-
-Người lái xe mới nên theo biển báo, không bám sát xe buýt, không vội đổi làn ở nút giao. Nếu đến ga đón người thân, hãy thống nhất vị trí chờ hợp lệ trước khi xuất phát, không dừng xe tùy tiện tại nơi cấm hoặc chắn lối đi của khách. Những thay đổi về tuyến đường một chiều, sự kiện và giờ cấm cần kiểm tra tại thời điểm di chuyển, không dựa vào một bản đồ hoặc bài viết cũ.
-
-Xe thuê mang lại sự linh hoạt khi điểm hẹn xa nhau, nhưng ở khu vực gần nhau, đi bộ đôi khi nhanh và đỡ công gửi xe hơn. Một lịch trình thực tế kết hợp xe máy, đi bộ và phương tiện công cộng thường thoải mái hơn việc cố dùng xe trên mọi đoạn đường.
-
-## Đi công tác với hành lý, thiết bị và tài liệu
-
-Nếu khách lưu trú tại Cửa Nam mang theo máy tính, máy ảnh, hồ sơ hoặc quà tặng, câu hỏi quan trọng không phải chỉ “cốp Air Blade có rộng không”. Cần biết kích thước đồ thực tế, khả năng đóng cốp an toàn và nơi giữ tài sản khi đỗ xe. Không phải cốp nào cũng chứa được laptop hoặc mũ bảo hiểm như mong muốn. Hãy mang thử túi ở thời điểm nhận nếu có thể, hoặc hỏi trước đúng kích thước chiếc xe được giao.
-
-Tài liệu quan trọng nên để trong túi có khóa, mang theo người. Tránh để thiết bị điện tử trong cốp khi xe phơi nắng lâu hoặc đỗ ở nơi không trông coi. Nếu trời mưa, dùng bọc chống nước phù hợp, nhưng không để lớp bọc bay vào bánh hoặc che đèn. Đi ban đêm cần ưu tiên áo hoặc vật dụng dễ nhận biết, kiểm tra đèn trước khi khởi hành và không phóng nhanh để bù thời gian bị chậm.
-
-Đối với những cuộc họp có quy định an ninh nghiêm ngặt, hãy tìm hiểu nơi gửi xe và giờ mở cổng trước. Nếu cơ quan không nhận xe máy của khách, cần tính bãi đỗ gần đó và vài phút đi bộ. Dự kiến thêm khoảng đệm này thường thiết thực hơn tiết kiệm một đoạn đường bằng lối rẽ mạo hiểm.
-
-## Cửa Nam với phố cổ Hoàn Kiếm: hai nhu cầu khác nhau
-
-Cửa Nam và phường Hoàn Kiếm đều nằm trong vùng trung tâm Hà Nội nhưng không nên trộn tên hai phường thành một từ khóa. Người tìm thuê xe ở Cửa Nam thường quan tâm ga, địa chỉ làm việc, văn phòng và thời gian giao nhận. Người muốn đi quanh phố cổ Hoàn Kiếm lại có thể quan tâm điểm tham quan, vị trí gửi xe và sự thay đổi tổ chức giao thông theo sự kiện. Hai nhóm có thể dùng cùng dòng xe nhưng cần hướng dẫn khác nhau.
-
-Nếu ở Cửa Nam mà lịch làm việc có thêm phố cổ, bạn nên cân nhắc việc gửi xe tại nơi hợp lệ rồi đi bộ qua những tuyến phố gần nhau. Một chiếc xe ga thuận tiện để đi giữa các địa điểm cách xa, không có nghĩa nên chạy tới sát cửa từng cửa hàng trong phố đông. Người không quen trung tâm có thể giữ bản đồ ngoại tuyến hoặc ghi sẵn địa chỉ bãi đỗ trước.
-
-Cũng đừng nhầm tên quận Hoàn Kiếm cũ với phường Hoàn Kiếm mới khi gửi điểm nhận. Một khách sạn trước đây ghi “quận Hoàn Kiếm” có thể nay thuộc phường Cửa Nam. Ghim vị trí và số nhà luôn chính xác hơn tên quận trong phần ghi chú đặt xe.
-
 ## Mẫu tin nhắn hỏi xe và cách tránh phát sinh
 
 Một tin nhắn có đủ thông tin sẽ giảm rất nhiều câu hỏi qua lại: “Tôi ở khách sạn trên phố Trần Hưng Đạo, phường Cửa Nam; cần Honda Air Blade từ 10 giờ sáng thứ Ba đến 10 giờ sáng thứ Sáu. Xin báo xe còn sẵn, giá trọn kỳ, tiền cọc, giấy tờ và phí giao/nhận hai chiều. Nếu Air Blade hết, có Vision phù hợp không?”. Sau khi nhận báo giá, đề nghị xác nhận loại xe, địa điểm giao, địa điểm trả và các khoản phí bằng văn bản.
