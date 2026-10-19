@@ -1,0 +1,157 @@
+{
+  "topic_id": "NT-000468",
+  "status": "PASS",
+  "source_sha256": "6ba723d0a79a8c709c42fdb2328f6851e72a12b57ec8daa8857d933835e883ac",
+  "body_sha256": "dc724b03674339a4e325f9ebfd19f237df4e2a63941c3e7ccd67d1dec183b7aa",
+  "word_count": 3234,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-ra-mat-o-to-civic-hybrid-cung-hai-mau-xe-may-dien-cuv-e-va-icon-e-hoan-toan-moi-tai-trien-lam-o-to-xe-may-viet-nam-2024",
+      "supports": "Honda Việt Nam (trang ra mắt 2024) nêu CUV e: có ba chế độ lái (Tiêu Chuẩn, Thể Thao, Tiết Kiệm) cùng chế độ hỗ trợ lùi để di chuyển trong không gian hẹp.",
+      "sha256": "9e65fe4a1408dc124e6647d86167587881143fdf441fe06a10866514690704b1",
+      "verified_at": "2026-10-19T09:28:08.358025+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-mo-ban-hai-mau-xe-may-dien-honda-cuv-e-va-honda-uc3-trien-khai-he-thong-tram-doi-pin-va-tram-sac-pin-tai-cac-thanh-pho-lon",
+      "supports": "Honda Việt Nam (04/06/2026) liệt kê UC3 trang bị phanh tái sinh, phanh kết hợp CBS, 3 chế độ lái và chế độ hỗ trợ lùi, tương tự CUV e: (không có phanh tái sinh trong dòng liệt kê của CUV e:).",
+      "sha256": "d0bcc49d8498aed7218fef3d82bec271954f4d0b18e7b73c6135ef5051be2f63",
+      "verified_at": "2026-10-19T09:28:09.862945+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/xe-may-dien-quantum-s1/",
+      "supports": "Trang sản phẩm Dat Bike Quantum S1 nêu Reverse mode (Hỗ trợ dắt xe): chỉ cần vặn ga, xe tạo lực đẩy nhẹ để xoay đầu dễ dàng ở địa hình chật hẹp.",
+      "sha256": "6108ede6b85b083ec5cebb6edc94b2ff2fa335173859b68d5a0702a6ad8459c2",
+      "verified_at": "2026-10-19T09:28:11.824627+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-weaver-en/",
+      "supports": "Hướng dẫn Dat Bike Weaver nêu khi xe đang bật điện, đẩy xe có thể thấy cản vì phanh động cơ đang hoạt động; bật công tắc an toàn, vặn ga nhẹ rồi thả để xe dễ đẩy hơn.",
+      "sha256": "f20921c83e38a1986d61aaf36c70f24702e073545efd1926d4ca3fa4ac07d548",
+      "verified_at": "2026-10-19T09:28:12.928607+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/danh-gia-xe-may-dien-neos-yamaha/",
+      "supports": "Yamaha Motor Việt Nam (26/04/2023) nêu NEO's có chiều cao yên 795 mm và trọng lượng 98 kg (bao gồm pin).",
+      "sha256": "f37c6f317eba7cee0be1d0c1e22bd40b227d3912831d994215b377ab836436d8",
+      "verified_at": "2026-10-19T09:28:14.558008+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2374,
+        "title": "Xe máy điện đi mưa có an toàn không? Cách sử dụng đúng và bền",
+        "why": "stale",
+        "content_hash": "f86d1aa55c92feadb7f1f7424eb5a8881f374d07d09eba557a5974bddc4ab23f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4049,
+        "title": "Thuê xe máy điện ở chung cư Hà Nội không có chỗ sạc riêng: cần kiểm tra gì trước khi đặt?",
+        "why": "stale",
+        "content_hash": "60ea270b75576e53780d251f2026ebec6088930775beded46df2ce5bc3601d66",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T09:28:19.572401+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "25cc6a34a14e9fcc6810cd95c0791eea1c0a578ef6fe28beed70ce6b1b92f838",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

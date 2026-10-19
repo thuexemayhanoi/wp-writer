@@ -70,48 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://dat.bike/mo-khoa-tinh-nang-tren-app-dat-bike/",
-      "supports": "Dat Bike (trang cập nhật 09/10/2026) mô tả chống trộm Quantum S: xe bị di chuyển bất ngờ hoặc đá chống thì kêu còi và nhấp nháy đèn xi nhan, bật bằng nút Khóa xe trong ứng dụng khi xe đang tắt; tìm xe bằng còi và đèn khi xe đang tắt.",
-      "sha256": "b215f9277851828153f9e3abc35a4e3fbd480aa3cc2783e6ef54dcb652610ce7",
-      "verified_at": "2026-10-19T09:22:20.383857+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dat.bike/xe-may-dien-quantum-s1/",
-      "supports": "Trang sản phẩm Dat Bike Quantum S1 nêu tính năng Chống trộm (Anti-theft) xe tự hú còi và phát đèn cảnh báo khi phát hiện dấu hiệu trộm cắp, và Tìm xe trong bãi (Call My Bike) qua ứng dụng.",
-      "sha256": "6108ede6b85b083ec5cebb6edc94b2ff2fa335173859b68d5a0702a6ad8459c2",
-      "verified_at": "2026-10-19T09:22:22.538718+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dat.bike/en/huong-dan-su-dung-xe-weaver-en/",
-      "supports": "Hướng dẫn Dat Bike Weaver nêu xe không có khóa cổ vì theo hãng khóa cổ chống trộm rất ít và có thể bị phá trong vài giây.",
-      "sha256": "f20921c83e38a1986d61aaf36c70f24702e073545efd1926d4ca3fa4ac07d548",
-      "verified_at": "2026-10-19T09:22:24.238948+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/danh-gia-xe-may-dien-neos-yamaha/",
-      "supports": "Yamaha Motor Việt Nam (26/04/2023) nêu với NEO's người dùng định vị vị trí xe qua kết nối ứng dụng Y-Connect.",
-      "sha256": "f37c6f317eba7cee0be1d0c1e22bd40b227d3912831d994215b377ab836436d8",
-      "verified_at": "2026-10-19T09:22:27.982766+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-mo-ban-hai-mau-xe-may-dien-honda-cuv-e-va-honda-uc3-trien-khai-he-thong-tram-doi-pin-va-tram-sac-pin-tai-cac-thanh-pho-lon",
-      "supports": "Honda Việt Nam (04/06/2026) nêu màn hình TFT của CUV e: và UC3 kết nối Honda RoadSync (Duo) hỗ trợ định vị và nghe gọi qua Bluetooth.",
-      "sha256": "d0bcc49d8498aed7218fef3d82bec271954f4d0b18e7b73c6135ef5051be2f63",
-      "verified_at": "2026-10-19T09:22:29.775841+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -137,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T09:22:38.107752+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T09:25:06.892769+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "c0585dd2ea7d16de88ce95dfde5f95754ad3577cfabd20dea2e1928951c7588a",
+  "inventory_sha256": "4ccf7e833634e3617c5b14edf1ffb824237b19e793d083cc1c00da22acde38b5",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

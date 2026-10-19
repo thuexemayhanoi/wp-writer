@@ -70,58 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/giai-dap-xe-may-dien-sac-bao-lau-thi-day-di-duoc-bao-xa/",
-      "supports": "Yamaha Motor Việt Nam (bài hỏi đáp về quãng đường) nêu con số 70–80 km dựa trên điều kiện sử dụng lý tưởng, một người 50–60 kg đi 70–80 km, hai người 100–120 kg giảm còn 65–70 km, tốc độ trung bình 30 km/h, và các yếu tố khác (địa hình, loại pin, chăm sóc).",
-      "sha256": "45752c5a3e99c7a37d9c8341d0c0379eb3be8a935f0766c9784f9a69f721cc9a",
-      "verified_at": "2026-10-19T09:22:52.993774+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-di-xe-may-dien-an-toan/",
-      "supports": "Yamaha Motor Việt Nam (26/04/2023) nêu NEO's đi 72 km trong điều kiện vận tốc không đổi 30 km/h, cân nặng người lái 75 kg, và 144 km khi lắp thêm một pin phụ.",
-      "sha256": "3606afe89ec5d08d112abe17015a8608b9f6d9f35f8fb03ae03b37b0dcf6a24e",
-      "verified_at": "2026-10-19T09:22:56.345032+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dat.bike/en/huong-dan-su-dung-xe-weaver-en/",
-      "supports": "Hướng dẫn Dat Bike Weaver nêu quãng đường 100 km ở tốc độ đều 35 km/h.",
-      "sha256": "f20921c83e38a1986d61aaf36c70f24702e073545efd1926d4ca3fa4ac07d548",
-      "verified_at": "2026-10-19T09:22:57.798304+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnexpress.net/vinfast-drgnfly-xe-dap-danh-cho-dan-choi-4786972.html",
-      "supports": "VnExpress (30/08/2024) nêu hãng công bố DrgnFly đi 110 km ở chế độ trợ lực hoặc 75 km thuần điện và thực tế rút ngắn, khoảng 60–70 km với trợ lực mức trung bình.",
-      "sha256": "52f56feaee7e429aac35d270484e72a15abe8427b39c45687e0a18206ce4ab23",
-      "verified_at": "2026-10-19T09:23:00.497498+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vinfastauto.com/vn_vi/xe-dap-dien-drgnfly",
-      "supports": "Trang VinFast DrgnFly ghi quãng đường lên tới 110 km (trợ lực) và 75 km (tay ga) và chú thích hiệu suất thay đổi tùy tốc độ, trọng tải, thời tiết.",
-      "sha256": "a9d9cfd5e820be8af743e7fbbbf37bc34139f671ba058b32aee721ba1a1a25cf",
-      "research_checked_at": "2026-10-19",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    },
-    {
-      "url": "https://vinfastauto.com/vn_vi/cach-sac-pin-xe-may-dien-vinfast-evo200-lite",
-      "supports": "VinFast (trang hướng dẫn sạc Evo200 Lite) nêu phạm vi di chuyển tới 205 km sau một lần sạc theo điều kiện tiêu chuẩn của VinFast, không nêu chi tiết điều kiện.",
-      "sha256": "15c8a6ff50bcd5cd6db2abd9464a08edc643017594cdef6c15db732d8a09db01",
-      "research_checked_at": "2026-10-17",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -147,11 +96,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T09:23:09.403108+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T09:25:07.911875+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "2b7d152a1bda9b22a58871fb431ca1001f605130303b6074e4eecebb3f293d85",
+  "inventory_sha256": "4ccf7e833634e3617c5b14edf1ffb824237b19e793d083cc1c00da22acde38b5",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
