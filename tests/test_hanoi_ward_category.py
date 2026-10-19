@@ -12,6 +12,7 @@ ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 from taxonomy_sync import by_key, resolve, path_for
 from publisher import delivery_route
+from topic_factory import gate
 
 KEY="hanoi-ward-rentals"
 def live_categories():
@@ -87,6 +88,40 @@ class HanoiWardCategoryTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,"HANOI_WARD_PUBLIC_ONLY"):
             delivery_route({"taxonomy_key":KEY},policy,by_key(),live_categories(),
                            acceptance_draft=True)
+
+    def test_campaign_marker_blocks_misassigned_factory_topic(self):
+        topic={
+          "topic_id":"NT-999999",
+          "title":"Thuê xe máy phường Bồ Đề theo tuần",
+          "primary_keyword":"thuê xe máy phường Bồ Đề",
+          "search_intent":"local-informational",
+          "taxonomy_key":"rental-guide",  # Wrong: parent term, not child.
+          "campaign_id":"HN-51-WARDS",
+          "proposed_slug":"thue-xe-may-phuong-bo-de-theo-tuan",
+          "canonical_target":"https://thuexemaynguyentu.com/thue-xe-may-phuong-bo-de-theo-tuan/",
+        }
+        verdict=gate(topic,[topic],[],list(by_key().values()))
+        self.assertIn("HANOI_WARD_CATEGORY_MISMATCH: must use hanoi-ward-rentals",
+                      verdict["errors"])
+        with self.assertRaisesRegex(ValueError,"HANOI_WARD_CATEGORY_HOLD"):
+            delivery_route(topic,production(),by_key(),live_categories())
+
+    def test_existing_editorial_queue_keeps_counts_distinct_from_wp(self):
+        p=json.loads((ROOT/"editorial"/"seo-51-phuong"/"progress.json").read_text())
+        self.assertEqual(p["taxonomy_key"],KEY)
+        self.assertEqual(p["wordpress_category_id"],182)
+        self.assertEqual(p["wordpress_parent_category_id"],162)
+        self.assertGreaterEqual(p["completed_editorial_drafts"],12)
+        self.assertEqual(len(p["completed"]),p["completed_editorial_drafts"])
+        self.assertEqual(len({x["ward"] for x in p["completed"]}),
+                         p["completed_editorial_drafts"])
+        self.assertLessEqual(p["published_new_articles"],
+                             p["imported_into_topic_factory"])
+        for x in p["completed"]:
+            self.assertEqual(x["taxonomy_key"],KEY)
+            self.assertEqual(x["campaign_id"],"HN-51-WARDS")
+        self.assertEqual([x["wp_exact_slug_check"] for x in p["completed"][:9]],
+                         ["NO_EXACT_PUBLISHED_POST_SLUG_COLLISION"]*9)
 
 if __name__=="__main__":
     unittest.main()
