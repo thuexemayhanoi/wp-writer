@@ -70,48 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/chi-tiet-cau-hoi/c8973694-5d2f-4334-b792-39f6e0f0fb4a",
-      "supports": "Bộ Công an (hỏi đáp, 27/03/2026) trích điểm c khoản 3 Điều 33 Luật Trật tự, an toàn giao thông đường bộ năm 2024 (người lái xe mô tô hai bánh, xe mô tô ba bánh, xe gắn máy không được sử dụng thiết bị âm thanh, trừ thiết bị trợ thính) và điểm đ khoản 4 Điều 7 Nghị định 168/2024/NĐ-CP: phạt 800.000-1.000.000 đồng, trừ 04 điểm giấy phép lái xe; nêu lý do quy định.",
-      "sha256": "7c68362dbfede6a11a8e67ff76cda778e2dcfbb243f02b34d8d0a531166ee981",
-      "verified_at": "2026-10-19T03:45:19.904607+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/khong-tang-muc-phat-bo-sung-nhieu-quy-dinh-moi-hoan-thien-khung-xu-ly-vi-pham-giao-thong-duong-bo-1776415565",
-      "supports": "Bài của Bộ Công an (18/04/2026) cho biết dự thảo Nghị định sửa đổi Nghị định 168/2024/NĐ-CP được xây dựng theo hướng không nâng mức phạt và không nâng mức trừ điểm giấy phép lái xe đối với các hành vi vi phạm hiện hành.",
-      "sha256": "30079bce74cfe1162f3eb37a30da66eeb68737ca58ecf158a8ae1d3e3fc5ffa5",
-      "verified_at": "2026-10-19T03:45:22.069112+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=211194&classid=1&typegroupid=3",
-      "supports": "Trang văn bản của Cổng thông tin điện tử Chính phủ: Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15, ban hành 27-06-2024, có hiệu lực từ 01-01-2025.",
-      "sha256": "49fed929e9c0bef94f878930c692ea5beaf60ee5ec8cecdf7e0253e22b77bcd4",
-      "verified_at": "2026-10-19T03:45:25.583181+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=212167",
-      "supports": "Trang văn bản của Cổng thông tin điện tử Chính phủ: Nghị định 168/2024/NĐ-CP ban hành 26-12-2024, có hiệu lực từ 01-01-2025.",
-      "sha256": "0e73e6b08be7e97b51749aaa31a738f514e0715f258f937c6ded5d5473e75e4f",
-      "verified_at": "2026-10-19T03:45:27.564328+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vanban.chinhphu.vn/?docid=218613&pageid=27160",
-      "supports": "Trang văn bản của Cổng thông tin điện tử Chính phủ: Nghị định 238/2026/NĐ-CP ban hành 26-06-2026, có hiệu lực từ 15-08-2026, sửa đổi, bổ sung một số điều của Nghị định 168/2024/NĐ-CP.",
-      "sha256": "cb5fb973f72b4c0b1f84873f6c6a57db4d45beb8486a3d81de90d0297eb76050",
-      "verified_at": "2026-10-19T03:45:29.998458+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -128,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T03:45:39.157171+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T03:52:44.204900+00:00",
+  "live_links_checked": false,
   "legal_required": true,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "8d4907db8c6dd58067aaf53b37949018ef28a1d0ffbf7c24d7ede47625a685ce",
+  "inventory_sha256": "6b48ad7c1dcc2b70cd9ffe76d55743892d5fc49196ed55ce17b7958ae4e1fe2e",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

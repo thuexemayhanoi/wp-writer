@@ -1,0 +1,125 @@
+{
+  "topic_id": "NT-000806",
+  "status": "PASS",
+  "source_sha256": "168be76aeaa1ab1c5a1c7161b95db9532670508d5688790b067eab3c22e7bcde",
+  "body_sha256": "c817bceffaa3622c7d8a70b899c21a36cde4b74d58c0e7e5b21e183e9f1ef19e",
+  "word_count": 3721,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2547,
+        "title": "Xe máy cũ mua lại có cần đổi biển số không? Các trường hợp cần biết",
+        "why": "stale",
+        "content_hash": "8e256c8d7edb51c20df3e42a005401c4640d03564a72f2e47b73d39dfade3fea",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2586,
+        "title": "Honda Cub 50cc có phù hợp đi Hà Nội dài ngày và quãng đường hỗn hợp?",
+        "why": "stale",
+        "content_hash": "0536961ad35e1232748bd3a286f39f1c319c253058082e75bc61c31b404481ce",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2615,
+        "title": "Phố cổ Hà Nội có gì chơi? 15 địa điểm, món ngon và lịch trình đi bộ",
+        "why": "stale",
+        "content_hash": "e9addb8498afd5d9d13bd70c14aa17da5a5746f6ac0ac5ba4247af9d1591d5ff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T03:53:07.207906+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "6b48ad7c1dcc2b70cd9ffe76d55743892d5fc49196ed55ce17b7958ae4e1fe2e",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -70,56 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.mps.gov.vn/bai-viet/xu-phat-doi-voi-nguoi-dieu-khien-phuong-tien-thuc-hien-hanh-vi-buong-ca-hai-tay-khi-dang-dieu-khien-xe-mo-to-tham-gia-giao-thong-1767698766",
-      "supports": "Tin của Bộ Công an (2026): Phòng Cảnh sát giao thông lập biên bản xử phạt chủ phương tiện về hành vi giao xe hoặc để xe cho người không đủ điều kiện theo Khoản 1 Điều 56 Luật Trật tự, an toàn giao thông đường bộ; theo Nghị định 168/2024/NĐ-CP phạt 8-10 triệu đồng.",
-      "sha256": "7b349587123b69e6da12bae7af6a717be9f0664c8d265fb3c0f4575487e3b96c",
-      "verified_at": "2026-10-19T03:45:53.383008+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/b02f44f0-633a-4530-9a2b-41d7635c494f?page=%2F",
-      "supports": "Bộ Công an trả lời (25/04/2025): Luật Trật tự, an toàn giao thông đường bộ và Nghị định 168/2024/NĐ-CP quy định xử phạt nghiêm đối với người giao xe hoặc để cho người chưa đủ tuổi điều khiển phương tiện; số liệu xử lý năm 2024.",
-      "sha256": "66b496a0a248ac31270b8f5bd1c4518a2501bbe09406ca0f6d635e2f4c2a9fc5",
-      "verified_at": "2026-10-19T03:45:54.861726+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/7511a592-d684-4380-978a-26ebfc4adff4?page=%2F",
-      "supports": "Bộ Công an trả lời (24/01/2025) trích khoản 8 Điều 47 Nghị định 168/2024/NĐ-CP: chủ phương tiện có nghĩa vụ hợp tác với cơ quan chức năng để xác định người đã điều khiển phương tiện thực hiện hành vi vi phạm được phát hiện bằng thiết bị kỹ thuật nghiệp vụ.",
-      "sha256": "5f3ef00c60384802c8a6d7096f99fddc1cfbf9210f4977849e189a9d70eb8684",
-      "verified_at": "2026-10-19T03:45:56.188965+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=211194&classid=1&typegroupid=3",
-      "supports": "Trang văn bản của Cổng thông tin điện tử Chính phủ: Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15, ban hành 27-06-2024, có hiệu lực từ 01-01-2025.",
-      "sha256": "49fed929e9c0bef94f878930c692ea5beaf60ee5ec8cecdf7e0253e22b77bcd4",
-      "verified_at": "2026-10-19T03:45:57.250277+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=212167",
-      "supports": "Trang văn bản của Cổng thông tin điện tử Chính phủ: Nghị định 168/2024/NĐ-CP ban hành 26-12-2024, có hiệu lực từ 01-01-2025.",
-      "sha256": "0e73e6b08be7e97b51749aaa31a738f514e0715f258f937c6ded5d5473e75e4f",
-      "verified_at": "2026-10-19T03:45:58.308809+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vanban.chinhphu.vn/?docid=218613&pageid=27160",
-      "supports": "Trang văn bản của Cổng thông tin điện tử Chính phủ: Nghị định 238/2026/NĐ-CP ban hành 26-06-2026, có hiệu lực từ 15-08-2026, sửa đổi, bổ sung một số điều của Nghị định 168/2024/NĐ-CP.",
-      "sha256": "cb5fb973f72b4c0b1f84873f6c6a57db4d45beb8486a3d81de90d0297eb76050",
-      "verified_at": "2026-10-19T03:46:00.307918+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -136,11 +87,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T03:46:04.024100+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T03:52:45.029843+00:00",
+  "live_links_checked": false,
   "legal_required": true,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "ec615e2fb962a70bde335c3c43e1ded9cc1d3b9f2f8850450a952df47cfbfd83",
+  "inventory_sha256": "6b48ad7c1dcc2b70cd9ffe76d55743892d5fc49196ed55ce17b7958ae4e1fe2e",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

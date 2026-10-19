@@ -1,0 +1,116 @@
+{
+  "topic_id": "NT-000618",
+  "status": "PASS",
+  "source_sha256": "118aa5c036cd335a598188d2ec09a3f8a9ad1b477b0a1443e203b5f045dd48aa",
+  "body_sha256": "866ee0a69fad918185bf2504049374522572bac275c26def336841f856b0a41d",
+  "word_count": 3020,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2355,
+        "title": "Bao nhiêu tuổi được đi xe máy điện? Những điều cần biết",
+        "why": "stale",
+        "content_hash": "df4e397638303da8d179daafae395db634b027fd262d47406e50b3e2c2cf527c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2370,
+        "title": "Chi Phí Đi Xe Máy Điện Mỗi Tháng So Với Xe Máy Xăng Phổ Thông: Bài Toán Chi Tiết Từ Người Dùng Thực Tế",
+        "why": "stale",
+        "content_hash": "92d045593ec18a74d2c912be44adc4f392b4b025734668676528c637f6ed0b2d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T03:53:03.268418+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "6b48ad7c1dcc2b70cd9ffe76d55743892d5fc49196ed55ce17b7958ae4e1fe2e",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

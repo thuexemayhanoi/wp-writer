@@ -1,0 +1,156 @@
+{
+  "topic_id": "NT-000345",
+  "status": "PASS",
+  "source_sha256": "2fd16e792911e69ba91ff5c1207b03f509cda331641970c1dde15ea55262d669",
+  "body_sha256": "2a562a209ffcd5cef5d394677274d7167ceeb144aa361a279b65b538fdb3fa2d",
+  "word_count": 3841,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/mot-so-quy-dinh-moi-trong-cong-tac-tuan-tra-kiem-soat-xu-ly-vi-pham-phap-luat-ve-trat-tu-an-toan-giao-thong-duong-bo-d1-t1588",
+      "supports": "Bài của Bộ Công an (29/11/2024) về Thông tư 73/2024/TT-BCA (05 chương, 33 điều, hiệu lực 01/01/2025): Cảnh sát giao thông được dừng phương tiện theo Điều 65, Điều 66 Luật; các tín hiệu hiệu lệnh dừng; yêu cầu khi dừng, kiểm soát; cách ra hiệu lệnh và trách nhiệm người điều khiển.",
+      "sha256": "33457ea3c5548f3b741e5583034989f32322caaf3c65f61fd6db3d3dd5a7fa7e",
+      "verified_at": "2026-10-19T03:55:23.194978+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://bocongan.gov.vn/bai-viet/huong-dan-nop-phat-nguoi-va-tham-gia-giao-thong-khi-dang-trong-thoi-gian-cho-cap-doi-giay-phep-lai-xe-d139-t43826",
+      "supports": "Hướng dẫn của Cục Cảnh sát giao thông (05/03/2025): lái xe, chủ phương tiện có thể xuất trình giấy phép lái xe qua VNeID; người đang chờ cấp, đổi giấy phép dùng số căn cước, số giấy phép cũ hoặc giấy hẹn; khuyến cáo cảnh giác lừa đảo.",
+      "sha256": "099af9a369d0f9d98914c87b98cea87495c012f46d52992f9d88b4db244b8941",
+      "verified_at": "2026-10-19T03:55:25.529105+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/quy-dinh-ve-chi-huy-dieu-khien-giao-thong-duong-bo-cua-canh-sat-giao-thong-d1-t1574",
+      "supports": "Bài của Bộ Công an (22/11/2024) về Thông tư 69/2024/TT-BCA (hiệu lực 01/01/2025): Cảnh sát chỉ huy, điều khiển giao thông có quyền dừng phương tiện để kiểm tra, kiểm soát người và phương tiện vi phạm theo quy định của pháp luật trong phạm vi được phân công.",
+      "sha256": "ccb21fedebf06cfe34c7a7617e657fe26e911bdcd9e326186b89a61de141bf7a",
+      "verified_at": "2026-10-19T03:55:30.052458+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/tu-01012025-cong-an-xa-duoc-xu-ly-hanh-vi-vi-pham-phap-luat-doi-voi-nguoi-dieu-khien-xe-mo-to-xe-gan-may-xe-tho-so-d1-t1615",
+      "supports": "Bài của Bộ Công an (20/12/2024): Công an xã chỉ được tuần tra, kiểm soát, xử lý vi phạm trên các tuyến đường xã, đường thôn thuộc địa bàn quản lý; hiệu lệnh dừng và kiểm soát thực hiện theo các điều của Thông tư 73/2024/TT-BCA.",
+      "sha256": "5f8556f35f867f63f8570598c82a56ec7c510063885654201da47b2f6b7fd511",
+      "verified_at": "2026-10-19T03:55:32.499462+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=211864&classid=1&orggroupid=4",
+      "supports": "Trang văn bản của Cổng thông tin điện tử Chính phủ: Thông tư 73/2024/TT-BCA của Bộ Công an ban hành 15-11-2024, có hiệu lực từ 01-01-2025, quy định công tác tuần tra, kiểm soát, xử lý vi phạm pháp luật về trật tự, an toàn giao thông đường bộ của Cảnh sát giao thông.",
+      "sha256": "c7a6f62114fc5a113171f5212080e82ad8b9953e6964270ce163bf8e1c5d1407",
+      "verified_at": "2026-10-19T03:55:36.378240+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=211194&classid=1&typegroupid=3",
+      "supports": "Trang văn bản của Cổng thông tin điện tử Chính phủ: Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15, ban hành 27-06-2024, có hiệu lực từ 01-01-2025.",
+      "sha256": "49fed929e9c0bef94f878930c692ea5beaf60ee5ec8cecdf7e0253e22b77bcd4",
+      "verified_at": "2026-10-19T03:55:39.407549+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2424,
+        "title": "Dat Bike có những dòng xe nào? Tổng hợp các mẫu đáng chú ý",
+        "why": "stale",
+        "content_hash": "8547bbe19e35f1a3e720df88f2c659b744799c8f50115b8e6bfac67e10bf2889",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T03:55:45.640623+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "f598d09621383e4c96ecf352a3b6e1889af4d8516fbf19be3e6b7ffdb1faa67e",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
