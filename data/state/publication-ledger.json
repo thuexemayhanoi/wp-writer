@@ -14640,7 +14640,7 @@
       }
     },
     "NT-000869": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:02:39.401265+00:00",
       "source_hash": "6c38905d24b0a41f09e3acca826eb70afca4f7e3c2409932899483c00d1a8da1",
       "slug": "banh-xe-may-bi-khoa-khi-phanh-gap-nha-hay-giu-phanh-va-vi-sao-cac-nguon-khuyen-khac-nhau-ve-phanh-truoc-va-phanh-sau",
@@ -14656,8 +14656,37 @@
       "category_warning": null,
       "git_commit": "b3087e619ac8c4b7eef855135710aecacb2a1141",
       "run_id": "39322982572",
-      "updated_at": "2026-10-19T21:02:43.537398+00:00",
-      "wp_id": 4292
+      "updated_at": "2026-10-19T21:02:49.472388+00:00",
+      "wp_id": 4292,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/banh-xe-may-bi-khoa-khi-phanh-gap-nha-hay-giu-phanh-va-vi-sao-cac-nguon-khuyen-khac-nhau-ve-phanh-truoc-va-phanh-sau/",
+      "verified_at": "2026-10-19T21:02:49.472381+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4292,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/banh-xe-may-bi-khoa-khi-phanh-gap-nha-hay-giu-phanh-va-vi-sao-cac-nguon-khuyen-khac-nhau-ve-phanh-truoc-va-phanh-sau/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/banh-xe-may-bi-khoa-khi-phanh-gap-nha-hay-giu-phanh-va-vi-sao-cac-nguon-khuyen-khac-nhau-ve-phanh-truoc-va-phanh-sau/",
+        "seo_title": "Bánh xe máy bị khóa khi phanh gấp: nhả hay giữ phanh?",
+        "seo_description": "Bánh xe máy bị khóa khi phanh gấp thì nhả hay giữ phanh? So lời MSF, Transport for NSW, Honda, Yamaha, Tiền Phong và HART về phanh trước, phanh sau và cách tập an toàn.",
+        "checked_at": "2026-10-19T21:02:49.472359+00:00"
+      }
     }
   },
   "categories": {}
