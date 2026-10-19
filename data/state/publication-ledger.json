@@ -11833,6 +11833,24 @@
         "seo_description": "Giải thích walk assist xe đạp điện: động cơ giúp dắt xe ở tốc độ đi bộ, cách bật theo sách hướng dẫn Giant, Shimano, Bosch, VinFast và cách dùng đúng.",
         "checked_at": "2026-10-19T09:46:02.051473+00:00"
       }
+    },
+    "NT-000625": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-19T09:46:10.901769+00:00",
+      "source_hash": "332736b3e5fb1bceb509d970c5389966d148070fbd0b386ac07cc2420a009b82",
+      "slug": "gioi-han-tai-cua-xe-dap-dien-payload-tai-cho-phep-va-tong-khoi-luong-duoc-hang-dinh-nghia-ra-sao",
+      "expected_status": "publish",
+      "category_id": 166,
+      "visible_hash": "e8f081ba352ee4d76303aa2fac19b6b51b1676878a98d6e5aba8b0826983ace9",
+      "first_paragraph": "Theo tài liệu của các hãng, giới hạn tải xe đạp điện không phải một con số duy nhất: có thể là tải cho phép (payload), tổng khối lượng cho phép hoặc giới hạn riêng của giá đỡ sau, và có hãng tính cả khối lượng xe vào con số tổng. Mỗi con số chỉ đúng cho xe mà tài liệu đó nói tới, nên không thể lấy số của xe này áp cho xe khác. Bài đối chiếu năm nguồn đọc trong tháng 10/2026: bài trên blog của Aventon về hai mẫu xe chở hàng Abound SR và Abound LR (đăng ngày 22/8/2026), trang giới thiệu Trek Fetch+ 2, trang sản phẩm RadRunner Max của Rad Power Bikes, sách hướng dẫn e-bike của Giant (bản tiếng Anh V8.0) và sách hướng dẫn E-Bike Long Saddle của VinFast (bản tiếng Anh). Ba trang đầu nói về xe điện chở hàng, hai sách sau là tài liệu đi kèm xe. Bài chỉ đọc cách các hãng ghi con số: không đưa ra mức tải cho chiếc xe cụ thể của bạn, không bàn về quy định chở người, lắp ghế trẻ em hay giá cả.",
+      "meta_title": "Payload và giới hạn tải xe đạp điện: các hãng ghi ra sao",
+      "meta_description": "Đọc đúng giới hạn tải xe đạp điện: payload, tổng khối lượng cho phép và giá đỡ sau được Giant, Aventon, Trek, Rad và VinFast ghi khác nhau ra sao.",
+      "intended_taxonomy_key": "ebikes",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "7ff3727fdfd7716ef5c6484de6730f887653310c",
+      "run_id": "39231410457",
+      "updated_at": "2026-10-19T09:46:10.903236+00:00"
     }
   },
   "categories": {}
