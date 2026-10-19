@@ -7611,7 +7611,7 @@
       }
     },
     "NT-000616": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T03:50:52.732031+00:00",
       "source_hash": "3b895b323d596abcd17b6be81964746c43cc8dfc0a8453f18682ec67b7cda5d9",
       "slug": "ap-suat-lop-xe-may-dien-moi-mau-mot-muc-kpa-nen-doc-trong-so-huong-dan-cua-dung-xe",
@@ -7626,8 +7626,37 @@
       "category_warning": null,
       "git_commit": "38bc69a324114f1f907a43640152363ba3e280fc",
       "run_id": "39195944943",
-      "updated_at": "2026-10-19T03:50:56.239482+00:00",
-      "wp_id": 4128
+      "updated_at": "2026-10-19T03:51:01.239008+00:00",
+      "wp_id": 4128,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ap-suat-lop-xe-may-dien-moi-mau-mot-muc-kpa-nen-doc-trong-so-huong-dan-cua-dung-xe/",
+      "verified_at": "2026-10-19T03:51:01.239001+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4128,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ap-suat-lop-xe-may-dien-moi-mau-mot-muc-kpa-nen-doc-trong-so-huong-dan-cua-dung-xe/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ap-suat-lop-xe-may-dien-moi-mau-mot-muc-kpa-nen-doc-trong-so-huong-dan-cua-dung-xe/",
+        "seo_title": "Áp suất lốp xe máy điện: mỗi mẫu một mức kPa, đọc sổ đúng xe",
+        "seo_description": "Áp suất lốp xe máy điện không có mức chung: so sánh số kPa trong sổ VinFast Feliz S, Theon, Dat Bike Quantum và cách tìm đúng mức cho xe của bạn.",
+        "checked_at": "2026-10-19T03:51:01.238978+00:00"
+      }
     }
   },
   "categories": {}
