@@ -1,22 +1,22 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 3,
+  "ready_stock": 0,
   "trigger_below_ready": 900,
   "rounds_opened": 1,
   "unlimited_rounds": true,
   "approved_capacity": 1000,
-  "topic_rows": 286,
-  "capacity_remaining": 714,
+  "topic_rows": 293,
+  "capacity_remaining": 707,
   "order": {
     "id": "RF-0001",
     "round": 1,
     "target_min": 200,
     "target_max": 300,
-    "accepted_so_far": 174,
-    "remaining_to_min": 26,
-    "remaining_to_max": 126,
-    "batches_still_needed": 3,
+    "accepted_so_far": 181,
+    "remaining_to_min": 19,
+    "remaining_to_max": 119,
+    "batches_still_needed": 2,
     "batch_size": 10,
     "capacity_limited": false,
     "stalled": false,
@@ -31,20 +31,14 @@
       {
         "taxonomy_key": "trip-planning",
         "quota": 20,
-        "known_now": 30,
+        "known_now": 31,
         "allocation": 91
       },
       {
         "taxonomy_key": "battery-charging",
-        "quota": 14,
+        "quota": 15,
         "known_now": 12,
         "allocation": 57
-      },
-      {
-        "taxonomy_key": "vietnam-travel",
-        "quota": 14,
-        "known_now": 13,
-        "allocation": 55
       },
       {
         "taxonomy_key": "rental-guide",
@@ -57,6 +51,12 @@
         "quota": 12,
         "known_now": 3,
         "allocation": 41
+      },
+      {
+        "taxonomy_key": "vietnam-travel",
+        "quota": 12,
+        "known_now": 17,
+        "allocation": 55
       },
       {
         "taxonomy_key": "electric-maintenance",
@@ -127,20 +127,20 @@
       {
         "taxonomy_key": "food-culture",
         "quota": 5,
-        "known_now": 16,
+        "known_now": 17,
         "allocation": 32
+      },
+      {
+        "taxonomy_key": "hanoi-travel",
+        "quota": 5,
+        "known_now": 22,
+        "allocation": 36
       },
       {
         "taxonomy_key": "rental-costs",
         "quota": 5,
         "known_now": 6,
         "allocation": 23
-      },
-      {
-        "taxonomy_key": "hanoi-travel",
-        "quota": 4,
-        "known_now": 22,
-        "allocation": 36
       },
       {
         "taxonomy_key": "engine-care",
@@ -151,7 +151,7 @@
       {
         "taxonomy_key": "road-safety",
         "quota": 2,
-        "known_now": 43,
+        "known_now": 44,
         "allocation": 50
       }
     ],
@@ -169,10 +169,10 @@
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 325,
-    "topics_in_factory": 286,
+    "published_wordpress_items": 330,
+    "topics_in_factory": 293,
     "topics_by_status": {
-      "PLANNED": 213,
+      "PLANNED": 220,
       "REJECTED": 1,
       "RESEARCH": 72
     },

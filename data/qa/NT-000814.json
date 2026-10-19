@@ -1,0 +1,143 @@
+{
+  "topic_id": "NT-000814",
+  "status": "PASS",
+  "source_sha256": "3adf7965e6d8f5996804e1adbb5ac06817eeabbb9f54eccded7edc69c7850a14",
+  "body_sha256": "5e64fcd77bfbe5c0646f1163e6631b435672aaa978adc9c0d3d779632f3af204",
+  "word_count": 3725,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2399,
+        "title": "Honda ICON e: có gì đáng chú ý với người dùng xe điện đô thị?",
+        "why": "stale",
+        "content_hash": "548de8447050fd0d5b76ead88b2cb93eeac7c91d679ca89f64b42afda3bc3023",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2408,
+        "title": "Xe máy điện Honda: các mẫu đang được người dùng quan tâm",
+        "why": "stale",
+        "content_hash": "ded30343606cc54b9fa64db90b6a7c2bc7b959cdd75d5c4e2c0e9f4663dfce0b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2411,
+        "title": "Honda ICON e: đi được bao nhiêu km và phù hợp quãng đường nào?",
+        "why": "stale",
+        "content_hash": "c51f9eca9b43c76b8f4f2101ab1c67f670c8d7d31345309ffbda12f55c573f6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2475,
+        "title": "Yamaha Grande và Honda LEAD: Mẫu nào phù hợp nhu cầu hằng ngày?",
+        "why": "stale",
+        "content_hash": "c66280d4eef6667aaced5564cadf2e7c4b834e30260c5cba93caff622b5312c4",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2483,
+        "title": "Honda Vision và Yamaha Janus: mẫu nào phù hợp người mới sử dụng?",
+        "why": "stale",
+        "content_hash": "6fc466c3b5378c825c8cf13864a995f0318d2f54654eae6377cfd6cd89a8bd59",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T00:48:38.482030+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "d8aa60eeb2e2b844e99481e2b22803e30eb2bd3e7e55426c9fdfde02e4d763fb",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
