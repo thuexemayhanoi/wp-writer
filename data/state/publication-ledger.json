@@ -14148,6 +14148,25 @@
         "seo_description": "Đèn phanh không sáng khi xe điện giảm tốc bằng phanh tái sinh: các nguồn báo và thử nghiệm nói gì, người đi sau kể cả đi xe máy nên giữ khoảng cách, quan sát ra sao.",
         "checked_at": "2026-10-19T19:45:04.956964+00:00"
       }
+    },
+    "NT-000831": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-19T19:45:34.945792+00:00",
+      "source_hash": "54e525ab21e7b53005c8af5e01772a7b24a41ff78ad72676437247801f3e89bf",
+      "slug": "phanh-xe-dien-co-ben-hon-xe-xang-khong-cac-nguon-noi-khac-nhau-ve-ma-phanh-mon-dia-phanh-ri-set-va-mon-lech-truoc-sau",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 160,
+      "visible_hash": "4526bf5eef156184b82730d3b811d740e3f80caf374b0b327ceeafcbd14091f5",
+      "first_paragraph": "Phanh xe điện có bền hơn xe xăng không thì các nguồn tiếng Việt nói khác nhau: VOV, Thanh Niên và Wikipedia cho rằng phanh tái sinh giúp má phanh ít mòn hơn, trong khi VnExpress (lược theo Auto Guide) viết xe điện thường hao mòn phanh và lốp nhanh hơn xe xăng vì nặng, còn VnExpress năm 2025 thêm hai điều: má phanh mòn không đều theo cầu dẫn động và đĩa phanh dễ rỉ khi ít dùng phanh cơ. Không nguồn nào kèm số km hay số đo, nên cách thận trọng là không bỏ kiểm tra phanh chỉ vì nghe nói phanh ít mòn, và làm theo sổ hướng dẫn của đúng chiếc xe.",
+      "meta_title": "Phanh xe điện có bền hơn xe xăng không: các nguồn nói khác nhau",
+      "meta_description": "Phanh xe điện có bền hơn xe xăng không? VOV, Thanh Niên và Wikipedia nói má phanh ít mòn, VnExpress nói xe nặng mòn nhanh, và đĩa phanh có thể rỉ vì ít dùng phanh cơ.",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "55a95e3283e956d049b0055217266341922b355e",
+      "run_id": "39312220935",
+      "updated_at": "2026-10-19T19:45:34.946973+00:00"
     }
   },
   "categories": {}
