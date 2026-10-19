@@ -7035,7 +7035,7 @@
       }
     },
     "NT-000815": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T00:51:37.466668+00:00",
       "source_hash": "f6ffe3e5f323a431e8f49e4b6ef9a96d613c4b8d49405bc0054dc45b5929b679",
       "slug": "leo-nui-trekking-zipline-va-hoat-dong-mao-hiem-o-viet-nam-anh-canada-uc-va-ireland-khuyen-chon-huong-dan-vien-thiet-bi-va-bao-hiem-the-nao",
@@ -7050,8 +7050,37 @@
       "category_warning": null,
       "git_commit": "419f4b5e1d8fcc6198736ef4de1b63a9e13c3f2d",
       "run_id": "39182195115",
-      "updated_at": "2026-10-19T00:51:41.242042+00:00",
-      "wp_id": 4116
+      "updated_at": "2026-10-19T00:51:47.063385+00:00",
+      "wp_id": 4116,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/leo-nui-trekking-zipline-va-hoat-dong-mao-hiem-o-viet-nam-anh-canada-uc-va-ireland-khuyen-chon-huong-dan-vien-thiet-bi-va-bao-hiem-the-nao/",
+      "verified_at": "2026-10-19T00:51:47.063380+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4116,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/leo-nui-trekking-zipline-va-hoat-dong-mao-hiem-o-viet-nam-anh-canada-uc-va-ireland-khuyen-chon-huong-dan-vien-thiet-bi-va-bao-hiem-the-nao/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/leo-nui-trekking-zipline-va-hoat-dong-mao-hiem-o-viet-nam-anh-canada-uc-va-ireland-khuyen-chon-huong-dan-vien-thiet-bi-va-bao-hiem-the-nao/",
+        "seo_title": "An toàn khi trekking và leo núi ở Việt Nam: bốn chính phủ khuyên gì",
+        "seo_description": "An toàn khi trekking và leo núi ở Việt Nam theo trang tư vấn của Anh, Canada, Úc và Ireland: mối nguy, hướng dẫn viên, thiết bị, bảo hiểm và chỗ bốn trang nhấn khác nhau.",
+        "checked_at": "2026-10-19T00:51:47.063367+00:00"
+      }
     }
   },
   "categories": {}
