@@ -11979,7 +11979,7 @@
       }
     },
     "NT-000594": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T09:53:20.144459+00:00",
       "source_hash": "01b0c9fe7bd5a4f61fa04a56b6e40f36b9346e706d1b95b08328b3232b3929f3",
       "slug": "sac-ac-quy-chi-xe-dap-dien-vi-sao-nguon-neu-10-12-gio-14-16-gio-va-khong-qua-8-gio",
@@ -11994,8 +11994,37 @@
       "category_warning": null,
       "git_commit": "ad7436cbb3bd456dab0d347148b62ea3ffb579a0",
       "run_id": "39232643217",
-      "updated_at": "2026-10-19T09:53:26.608026+00:00",
-      "wp_id": 4221
+      "updated_at": "2026-10-19T09:53:33.960631+00:00",
+      "wp_id": 4221,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/sac-ac-quy-chi-xe-dap-dien-vi-sao-nguon-neu-10-12-gio-14-16-gio-va-khong-qua-8-gio/",
+      "verified_at": "2026-10-19T09:53:33.960625+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4221,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/sac-ac-quy-chi-xe-dap-dien-vi-sao-nguon-neu-10-12-gio-14-16-gio-va-khong-qua-8-gio/",
+        "categories": [
+          167
+        ],
+        "canonical": "https://thuexemaynguyentu.com/sac-ac-quy-chi-xe-dap-dien-vi-sao-nguon-neu-10-12-gio-14-16-gio-va-khong-qua-8-gio/",
+        "seo_title": "Sạc ắc quy chì xe đạp điện: vì sao nguồn nêu 10–12, 14–16 và 8 giờ",
+        "seo_description": "Sạc ắc quy chì xe đạp điện: Pinaco nêu 10–12 giờ, Battery University 14–16 giờ, PCCC không quá 8 giờ liên tục. Vì sao các mốc khác nhau và nên đọc chúng thế nào.",
+        "checked_at": "2026-10-19T09:53:33.960607+00:00"
+      }
     }
   },
   "categories": {}
