@@ -27,6 +27,18 @@ As of Oct 16 2026, verified facts:
 
 The owner switch is `owner_approval_ref`, `mode=production`, `production_enabled=true` and `seo_adapter_verified=true` (evidence: run 38910018718) in `config/production-policy.json`. New posts will then publish quickly without waiting for each 30-minute cron window. The WP credentials are only scoped to the privileged job execution and are not sent to W1–W9 branches. A successful QA workflow by itself grants no WordPress privileges.
 
+## Owner-approved three-post backlog canary (19 October 2026)
+
+The owner authorized resuming Publisher to publish **three QA-PASS, not-yet-posted backlog articles first**, then inspecting WordPress before broader drainage. This uses an optional policy object:
+
+```json
+"publisher_pilot": {"id": "pilot-three-20261019", "max_posts": 3}
+```
+
+This is **not** a run-local cap: every first-create `POST_INTENT` stores the pilot ID in the durable `data/state/publication-ledger.json` *before* REST POST. Subsequent scheduled or manually triggered Publisher runs count all reservations, including `VERIFY_PENDING` and uncertain posts. Once three are reserved, Publisher refuses any new POST. Category mismatches are skipped in this public-only trial rather than creating draft fallbacks. Existing protection against uncertain-POST replays, collisions, wrong topics, QA below 85, wrong category and WP 429/5xx is unchanged.
+
+**Release order:** merge this code with `emergency_stop=true`, confirm CI green, then atomically set `emergency_stop=false` **and** the pilot object on the real main policy. Record the run ID, ledger Topic ID → WordPress ID/URL, G7 receipts and live frontend canonical/title/meta after the first 3. Do not remove the cap automatically; broad publishing requires a separate owner instruction and confirmed canary result.
+
 ## Stop and recovery
 
 **Emergency stop active at 2026-10-19 (owner order):** `config/production-policy.json` currently has `emergency_stop=true`. Do NOT switch it off as part of a CI workflow refactor. Every Publisher run reads the current policy before dependency installs, expensive intake/QA and any WordPress secret exposure; while stopped those steps are skipped. Already-running external Claude/AI sessions and research workflows are outside this single switch's scope. Any POST already sent to WordPress cannot be undone automatically. Keep the durable ledger and leases; never erase or force-push them or blindly replay uncertain POSTs. **Owner must explicitly approve a live publishing canary and release of the stop switch after QA+CI checks.** `workflows/wordpress-post-publish-qa.yml` samples and reports public SEO drift without silently rewriting published content.

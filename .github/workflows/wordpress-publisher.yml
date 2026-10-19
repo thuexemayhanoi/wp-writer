@@ -57,11 +57,23 @@ jobs:
           with open('config/production-policy.json', encoding='utf-8') as fh:
               policy=json.load(fh)
           proceed=not (policy.get('emergency_stop') is True or policy.get('paused') is True)
+          pilot=policy.get('publisher_pilot')
+          if proceed and pilot is not None:
+              # Fast no-secret preflight. publisher.py independently validates
+              # pilot settings and rechecks ledger before each REST POST.
+              with open('data/state/publication-ledger.json', encoding='utf-8') as fh:
+                  ledger=json.load(fh)
+              reserved=sum(1 for topic,rec in ledger.get('posts',{}).items()
+                           if topic.startswith('NT-') and isinstance(rec,dict)
+                           and rec.get('pilot_id')==pilot.get('id'))
+              if reserved>=pilot.get('max_posts',0):
+                  proceed=False
+                  print('Pilot publication budget exhausted:', reserved)
           with open(os.environ['GITHUB_OUTPUT'],'a',encoding='utf-8') as fh:
               fh.write('active='+str(proceed).lower()+'\n')
           print('Publisher processing enabled:', proceed)
           PY
-      - name: Emergency pause acknowledgement (no WordPress writes)
+      - name: Owner pause or pilot completion acknowledgement (no WordPress writes)
         if: steps.safety_switch.outputs.active != 'true'
         run: echo 'Owner emergency_stop/paused is active; intake, QA refresh and publishing are skipped.' >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
