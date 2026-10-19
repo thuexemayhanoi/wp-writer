@@ -15522,7 +15522,7 @@
       }
     },
     "NT-001043": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:37:30.196895+00:00",
       "source_hash": "0e0b8fdcc8ad2a909c1fc601f88ebfd973d019e64ad1851e9f3298f2c5321e4a",
       "slug": "khue-van-cac-o-van-mieu-gac-xay-nam-1805-y-nghia-sao-khue-va-vi-sao-thanh-bieu-tuong-cua-ha-noi",
@@ -15538,8 +15538,37 @@
       "category_warning": null,
       "git_commit": "831e787f61d4c3e1a9b7ce9fb2ac46efde8cc15c",
       "run_id": "39327874140",
-      "updated_at": "2026-10-19T21:37:34.193964+00:00",
-      "wp_id": 4310
+      "updated_at": "2026-10-19T21:37:39.771986+00:00",
+      "wp_id": 4310,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/khue-van-cac-o-van-mieu-gac-xay-nam-1805-y-nghia-sao-khue-va-vi-sao-thanh-bieu-tuong-cua-ha-noi/",
+      "verified_at": "2026-10-19T21:37:39.771979+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4310,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/khue-van-cac-o-van-mieu-gac-xay-nam-1805-y-nghia-sao-khue-va-vi-sao-thanh-bieu-tuong-cua-ha-noi/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/khue-van-cac-o-van-mieu-gac-xay-nam-1805-y-nghia-sao-khue-va-vi-sao-thanh-bieu-tuong-cua-ha-noi/",
+        "seo_title": "Khuê Văn Các ở Văn Miếu: xây năm 1805, ý nghĩa sao Khuê",
+        "seo_description": "Khuê Văn Các ở Văn Miếu xây năm 1805 theo Dân trí, VnExpress ghi khởi công 1804-1805. Bài giải thích kiến trúc, nghĩa sao Khuê và mốc biểu tượng Hà Nội.",
+        "checked_at": "2026-10-19T21:37:39.771960+00:00"
+      }
     }
   },
   "categories": {}
