@@ -70,6 +70,25 @@ class HanoiWardTaxonomyTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             resolve(key,self.registry,wrong_name)
 
+    def test_ward_pipeline_queue_never_licenses_early_wordpress_posts(self):
+        queue=json.loads((ROOT/"editorial"/"seo-51-phuong"/"pipeline-queue.json").read_text(encoding="utf-8"))
+        self.assertEqual(queue["taxonomy_key"],"hanoi-ward-rentals")
+        self.assertEqual(queue["parent_path"],[69,162,182])
+        entries=queue["entries"]
+        self.assertGreaterEqual(len(entries),12)
+        self.assertEqual(len({e["ward"] for e in entries}),len(entries))
+        self.assertEqual(len({e["proposed_slug"] for e in entries}),len(entries))
+        for row in entries:
+            self.assertEqual(row["taxonomy_key"],"hanoi-ward-rentals")
+            self.assertEqual(row["wordpress_category_id"],182)
+            self.assertEqual(row["wordpress_parent_id"],162)
+            self.assertTrue(row["source"].startswith("editorial/seo-51-phuong/"))
+            self.assertTrue(row["official_locality_source"].startswith("https://"))
+            self.assertIn(row["exact_wordpress_slug_check"]["result"],
+                          ("NO_EXACT_MATCH","COLLISION","UNKNOWN"))
+            if row["research_status"]!="PASS" or row["writer_qa_status"]!="PASS":
+                self.assertNotEqual(row["wordpress_status"],"publish")
+
     def test_editorial_drafts_not_mistaken_for_factory_posts(self):
         campaign=json.loads((ROOT/"editorial"/"seo-51-phuong"/"progress.json").read_text(encoding="utf-8"))
         self.assertEqual(campaign["target_articles"],51)
