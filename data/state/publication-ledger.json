@@ -8619,7 +8619,7 @@
       }
     },
     "NT-000618": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T04:08:01.438653+00:00",
       "source_hash": "118aa5c036cd335a598188d2ec09a3f8a9ad1b477b0a1443e203b5f045dd48aa",
       "slug": "lich-kiem-tra-dinh-ky-xe-may-dien-moc-km-va-moc-thang-trong-so-huong-dan-vinfast-va-dat-bike",
@@ -8634,8 +8634,37 @@
       "category_warning": null,
       "git_commit": "808802e85473f48f4050d13a633591fa201e2109",
       "run_id": "39197257385",
-      "updated_at": "2026-10-19T04:08:05.141398+00:00",
-      "wp_id": 4149
+      "updated_at": "2026-10-19T04:08:10.971683+00:00",
+      "wp_id": 4149,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lich-kiem-tra-dinh-ky-xe-may-dien-moc-km-va-moc-thang-trong-so-huong-dan-vinfast-va-dat-bike/",
+      "verified_at": "2026-10-19T04:08:10.971677+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4149,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lich-kiem-tra-dinh-ky-xe-may-dien-moc-km-va-moc-thang-trong-so-huong-dan-vinfast-va-dat-bike/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lich-kiem-tra-dinh-ky-xe-may-dien-moc-km-va-moc-thang-trong-so-huong-dan-vinfast-va-dat-bike/",
+        "seo_title": "Lịch kiểm tra định kỳ xe máy điện: mốc km và tháng theo sổ hãng",
+        "seo_description": "Lịch kiểm tra định kỳ xe máy điện khác nhau theo hãng: mốc km và tháng trong sổ VinFast Feliz S, Theon, hướng dẫn Dat Bike Quantum và khuyến cáo chung của Yamaha.",
+        "checked_at": "2026-10-19T04:08:10.971659+00:00"
+      }
     }
   },
   "categories": {}
