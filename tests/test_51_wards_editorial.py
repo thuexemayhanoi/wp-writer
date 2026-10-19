@@ -75,8 +75,8 @@ class HanoiWardEditorialTests(unittest.TestCase):
             with self.subTest(ward=ward):
                 meta, body = self.read(ward)
                 self.assertTrue(meta["official_locality_source"].startswith("https://"))
-                self.assertIn(ward.casefold(), meta["official_locality_source"].casefold()
-                              if ward in ("Cửa Nam", "Hoàn Kiếm") else body.casefold())
+                self.assertIn("hanoi.gov.vn", meta["official_locality_source"])
+                self.assertIn(ward.casefold(), body.casefold())
                 self.assertNotIn("giao miễn phí mọi nơi", body.lower())
                 self.assertNotIn("chi nhánh của Nguyễn Tú tại", body)
                 self.assertNotIn("đã qua QA chính thức", body.lower())
