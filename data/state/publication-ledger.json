@@ -15473,7 +15473,7 @@
       }
     },
     "NT-001042": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:37:09.322728+00:00",
       "source_hash": "d3465f3a20aaf24d13843d349d3a623e3426e84e71506359c3105e8abbab6723",
       "slug": "con-duong-gom-su-ha-noi-tranh-gom-gan-4-000-m-ven-de-song-hong-21-truong-doan-va-doan-bi-pha-do-2020",
@@ -15489,8 +15489,37 @@
       "category_warning": null,
       "git_commit": "831e787f61d4c3e1a9b7ce9fb2ac46efde8cc15c",
       "run_id": "39327874140",
-      "updated_at": "2026-10-19T21:37:13.536133+00:00",
-      "wp_id": 4309
+      "updated_at": "2026-10-19T21:37:19.162726+00:00",
+      "wp_id": 4309,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/con-duong-gom-su-ha-noi-tranh-gom-gan-4-000-m-ven-de-song-hong-21-truong-doan-va-doan-bi-pha-do-2020/",
+      "verified_at": "2026-10-19T21:37:19.162720+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4309,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/con-duong-gom-su-ha-noi-tranh-gom-gan-4-000-m-ven-de-song-hong-21-truong-doan-va-doan-bi-pha-do-2020/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/con-duong-gom-su-ha-noi-tranh-gom-gan-4-000-m-ven-de-song-hong-21-truong-doan-va-doan-bi-pha-do-2020/",
+        "seo_title": "Con đường gốm sứ Hà Nội: tranh gốm gần 4.000 m ven sông Hồng",
+        "seo_description": "Con đường gốm sứ Hà Nội dài gần 4.000 m, 21 trường đoạn ven đê sông Hồng; hơn 600 m bị phá dỡ năm 2020. Tóm tắt từ VnExpress và Thanh Niên 31/5/2023.",
+        "checked_at": "2026-10-19T21:37:19.162702+00:00"
+      }
     }
   },
   "categories": {}
