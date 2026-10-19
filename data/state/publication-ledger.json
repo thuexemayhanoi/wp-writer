@@ -7515,7 +7515,7 @@
       }
     },
     "NT-000584": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T03:49:52.518727+00:00",
       "source_hash": "5a632deb855ca992a525d17303aaf440cc831304f213d9daa14a23e0c26bc265",
       "slug": "cat-pin-lithium-xe-dien-nhieu-tuan-vi-sao-cac-hang-neu-muc-sac-30-60-40-50-hay-70",
@@ -7530,8 +7530,37 @@
       "category_warning": null,
       "git_commit": "38bc69a324114f1f907a43640152363ba3e280fc",
       "run_id": "39195944943",
-      "updated_at": "2026-10-19T03:49:56.207317+00:00",
-      "wp_id": 4126
+      "updated_at": "2026-10-19T03:50:01.452350+00:00",
+      "wp_id": 4126,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cat-pin-lithium-xe-dien-nhieu-tuan-vi-sao-cac-hang-neu-muc-sac-30-60-40-50-hay-70/",
+      "verified_at": "2026-10-19T03:50:01.452343+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4126,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cat-pin-lithium-xe-dien-nhieu-tuan-vi-sao-cac-hang-neu-muc-sac-30-60-40-50-hay-70/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cat-pin-lithium-xe-dien-nhieu-tuan-vi-sao-cac-hang-neu-muc-sac-30-60-40-50-hay-70/",
+        "seo_title": "Cất pin lithium xe điện nhiều tuần: các hãng nêu mức sạc nào",
+        "seo_description": "Cất pin lithium xe điện nhiều tuần nên để mức sạc bao nhiêu? So sánh 30–60%, 40–50%, 70% của Battery University, Bosch, Dat Bike, VinFast, Shimano và cách kiểm tra.",
+        "checked_at": "2026-10-19T03:50:01.452320+00:00"
+      }
     }
   },
   "categories": {}
