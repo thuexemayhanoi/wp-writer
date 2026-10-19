@@ -12027,7 +12027,7 @@
       }
     },
     "NT-000597": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T09:53:50.709510+00:00",
       "source_hash": "e2fecd27655087d8c8ee65099696cb67d2f28dd762d048c6b3b5a4ea480f15b9",
       "slug": "cat-ac-quy-chi-xe-dien-khi-de-lau-khong-dung-sac-day-truoc-khi-cat-va-nap-bu-dinh-ky",
@@ -12042,8 +12042,37 @@
       "category_warning": null,
       "git_commit": "ad7436cbb3bd456dab0d347148b62ea3ffb579a0",
       "run_id": "39232643217",
-      "updated_at": "2026-10-19T09:53:55.623491+00:00",
-      "wp_id": 4222
+      "updated_at": "2026-10-19T09:54:05.840710+00:00",
+      "wp_id": 4222,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cat-ac-quy-chi-xe-dien-khi-de-lau-khong-dung-sac-day-truoc-khi-cat-va-nap-bu-dinh-ky/",
+      "verified_at": "2026-10-19T09:54:05.840703+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4222,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cat-ac-quy-chi-xe-dien-khi-de-lau-khong-dung-sac-day-truoc-khi-cat-va-nap-bu-dinh-ky/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cat-ac-quy-chi-xe-dien-khi-de-lau-khong-dung-sac-day-truoc-khi-cat-va-nap-bu-dinh-ky/",
+        "seo_title": "Cất ắc quy chì xe điện khi để lâu: sạc đầy trước, nạp bù định kỳ",
+        "seo_description": "Cất ắc quy chì xe điện khi để lâu không dùng: vì sao nên sạc đầy trước khi cất, nơi cất, mốc nạp bù 6 tháng hay khi còn 70% và việc nên nhờ cơ sở kỹ thuật.",
+        "checked_at": "2026-10-19T09:54:05.840684+00:00"
+      }
     }
   },
   "categories": {}
