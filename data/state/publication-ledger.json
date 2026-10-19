@@ -10971,7 +10971,7 @@
       }
     },
     "NT-000468": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T09:28:19.661241+00:00",
       "source_hash": "6ba723d0a79a8c709c42fdb2328f6851e72a12b57ec8daa8857d933835e883ac",
       "slug": "xe-may-dien-co-so-lui-khong-che-do-ho-tro-lui-cua-honda-dat-bike-va-cach-dat-xe-khi-motor-ham",
@@ -10986,8 +10986,37 @@
       "category_warning": null,
       "git_commit": "3f1e76149b99fb9688ee00b90e89b82a1d52230f",
       "run_id": "39229673489",
-      "updated_at": "2026-10-19T09:28:23.599839+00:00",
-      "wp_id": 4200
+      "updated_at": "2026-10-19T09:28:29.591676+00:00",
+      "wp_id": 4200,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-dien-co-so-lui-khong-che-do-ho-tro-lui-cua-honda-dat-bike-va-cach-dat-xe-khi-motor-ham/",
+      "verified_at": "2026-10-19T09:28:29.591669+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4200,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-dien-co-so-lui-khong-che-do-ho-tro-lui-cua-honda-dat-bike-va-cach-dat-xe-khi-motor-ham/",
+        "categories": [
+          169
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-dien-co-so-lui-khong-che-do-ho-tro-lui-cua-honda-dat-bike-va-cach-dat-xe-khi-motor-ham/",
+        "seo_title": "Xe máy điện có số lùi không? Honda, Dat Bike và cách dắt xe",
+        "seo_description": "Xe máy điện có số lùi không? Tổng hợp chế độ hỗ trợ lùi của Honda CUV e:, UC3, Reverse mode của Dat Bike Quantum S1 và cách dắt Weaver khi phanh động cơ cản xe.",
+        "checked_at": "2026-10-19T09:28:29.591650+00:00"
+      }
     }
   },
   "categories": {}
