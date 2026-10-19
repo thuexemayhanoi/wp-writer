@@ -1,0 +1,125 @@
+{
+  "topic_id": "NT-000809",
+  "status": "PASS",
+  "source_sha256": "f925e7d583fbea4758ff235f957912dc187472bcd25f90531be68c0795281b5c",
+  "body_sha256": "26b9dab9f2a8c7edb387d4eda01a529f87e1ef4f9365b680df6b5fbddac32c72",
+  "word_count": 3854,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2370,
+        "title": "Chi Phí Đi Xe Máy Điện Mỗi Tháng So Với Xe Máy Xăng Phổ Thông: Bài Toán Chi Tiết Từ Người Dùng Thực Tế",
+        "why": "stale",
+        "content_hash": "92d045593ec18a74d2c912be44adc4f392b4b025734668676528c637f6ed0b2d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2547,
+        "title": "Xe máy cũ mua lại có cần đổi biển số không? Các trường hợp cần biết",
+        "why": "stale",
+        "content_hash": "8e256c8d7edb51c20df3e42a005401c4640d03564a72f2e47b73d39dfade3fea",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2569,
+        "title": "Xe ga tốn xăng hơn xe số bao nhiêu khi sử dụng trong thành phố?",
+        "why": "stale",
+        "content_hash": "0e0403a44ff6ce7c19068379c2905b55413b5e6b08f79ca8a2a469fd0114f8e0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-19T01:10:47.626142+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "470be18cd09b39d0d1900de77a55b7f0f55a2be20cf47affb2a5524c8406be82",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

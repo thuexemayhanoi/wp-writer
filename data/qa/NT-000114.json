@@ -74,6 +74,15 @@
   "evidence_recheck": {
     "pages": [
       {
+        "id": 562,
+        "title": "Cho Thuê Xe Máy ở Hà Nội – Giao Tận Nơi, Cọc Nhẹ | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "bef2a1222a528843870457f0106cf4c95a0e35e17def59be14a16504af267b6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
         "id": 4053,
         "title": "Thuê xe máy Hà Nội đi công tác 3–5 ngày: chọn xe, dự trù chi phí và sắp lịch trả",
         "why": "stale",
@@ -96,11 +105,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T14:25:20.012968+00:00",
+  "at": "2026-10-19T01:10:12.002932+00:00",
   "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "12bf7b7f44d9993e053147cc31df76530ea53e145728c484ad9246483aaf15a0",
+  "inventory_sha256": "05c73874d9ca590eb53b03571bc26e3d3d44192f9891910af32c647a3d4017ae",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
