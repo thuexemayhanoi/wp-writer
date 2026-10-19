@@ -40,6 +40,17 @@ class DeliveryRoutingTests(unittest.TestCase):
         self.assertEqual(route['category_id'],182)
         self.assertEqual(route['category_resolution'],'EXACT')
 
+    def test_queued_ward_slug_cannot_be_reassigned_to_blog_or_other_category(self):
+        topic={**self.exact,
+               'topic_id':'NT-001772',
+               'taxonomy_key':'blog',
+               'proposed_slug':'thue-xe-may-phuong-bo-de-chon-honda-vision-hay-wave'}
+        with self.assertRaisesRegex(ValueError,'Hanoi ward campaign requires taxonomy'):
+            delivery_route(topic,self.production,self.registry,self.live)
+        with self.assertRaisesRegex(ValueError,'Hanoi ward campaign requires taxonomy'):
+            delivery_route({**self.exact,'campaign':'HN-51-WARDS','taxonomy_key':'reviews'},
+                           self.production,self.registry,self.live)
+
     def test_hanoi_ward_never_falls_back_to_wrong_category_or_draft(self):
         topic={**self.exact,'topic_id':'NT-001771',
                'taxonomy_key':'hanoi-ward-rentals'}
