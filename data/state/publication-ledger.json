@@ -9435,7 +9435,7 @@
       }
     },
     "NT-000806": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T04:21:37.818018+00:00",
       "source_hash": "168be76aeaa1ab1c5a1c7161b95db9532670508d5688790b067eab3c22e7bcde",
       "slug": "vuon-quoc-gia-cuc-phuong-tu-ha-noi-mua-buom-va-dom-dom-cac-tuyen-tham-quan-va-cach-sap-xep-mot-ngay",
@@ -9450,8 +9450,37 @@
       "category_warning": null,
       "git_commit": "9c4e7b0f89ee9acbbb46112b2871d25ed8135297",
       "run_id": "39198432432",
-      "updated_at": "2026-10-19T04:21:41.900291+00:00",
-      "wp_id": 4166
+      "updated_at": "2026-10-19T04:21:47.869767+00:00",
+      "wp_id": 4166,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/vuon-quoc-gia-cuc-phuong-tu-ha-noi-mua-buom-va-dom-dom-cac-tuyen-tham-quan-va-cach-sap-xep-mot-ngay/",
+      "verified_at": "2026-10-19T04:21:47.869758+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4166,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/vuon-quoc-gia-cuc-phuong-tu-ha-noi-mua-buom-va-dom-dom-cac-tuyen-tham-quan-va-cach-sap-xep-mot-ngay/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/vuon-quoc-gia-cuc-phuong-tu-ha-noi-mua-buom-va-dom-dom-cac-tuyen-tham-quan-va-cach-sap-xep-mot-ngay/",
+        "seo_title": "Vườn quốc gia Cúc Phương từ Hà Nội: tuyến tham quan và mùa bướm",
+        "seo_description": "Vườn quốc gia Cúc Phương từ Hà Nội: năm khu tham quan theo VnExpress, tuyến bắt buộc có hướng dẫn viên, mốc mùa bướm và đom đóm khác nhau giữa các nguồn.",
+        "checked_at": "2026-10-19T04:21:47.869734+00:00"
+      }
     }
   },
   "categories": {}
