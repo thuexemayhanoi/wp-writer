@@ -11211,7 +11211,7 @@
       }
     },
     "NT-000464": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T09:34:01.228924+00:00",
       "source_hash": "08099cde7fa377362ee463a4dda06a0947ab153d905c596717dc34e0d668e29d",
       "slug": "mo-khoa-xe-may-dien-khong-can-chia-remote-the-rfid-ung-dung-va-tu-khoa-theo-mo-ta-cua-hang",
@@ -11226,8 +11226,37 @@
       "category_warning": null,
       "git_commit": "80ab666f88f5e45b26040a5a66357e835a5d25c3",
       "run_id": "39230484656",
-      "updated_at": "2026-10-19T09:34:05.703741+00:00",
-      "wp_id": 4205
+      "updated_at": "2026-10-19T09:34:12.080255+00:00",
+      "wp_id": 4205,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/mo-khoa-xe-may-dien-khong-can-chia-remote-the-rfid-ung-dung-va-tu-khoa-theo-mo-ta-cua-hang/",
+      "verified_at": "2026-10-19T09:34:12.080250+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4205,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/mo-khoa-xe-may-dien-khong-can-chia-remote-the-rfid-ung-dung-va-tu-khoa-theo-mo-ta-cua-hang/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/mo-khoa-xe-may-dien-khong-can-chia-remote-the-rfid-ung-dung-va-tu-khoa-theo-mo-ta-cua-hang/",
+        "seo_title": "Mở khóa xe máy điện không cần chìa: remote, thẻ RFID, ứng dụng",
+        "seo_description": "Mở khóa xe máy điện không cần chìa theo mô tả của hãng: remote Dat Bike Weaver, ứng dụng và thẻ RFID Quantum S, Autolock S1, khóa thông minh Yamaha NEO's và Honda.",
+        "checked_at": "2026-10-19T09:34:12.080230+00:00"
+      }
     }
   },
   "categories": {}
