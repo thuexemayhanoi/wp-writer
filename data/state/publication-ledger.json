@@ -13131,7 +13131,7 @@
       }
     },
     "NT-000849": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T14:59:38.322804+00:00",
       "source_hash": "c6c21be7328f07fb1353bf0bb4e5d732108b26d89b08ca66a811b61e7e3a70ca",
       "slug": "vi-sao-xe-dien-it-chet-may-khi-ngap-hon-xe-xang-khong-ong-xa-khong-buong-dot-va-gioi-han-khi-nuoc-sau-hoac-ngap-lau",
@@ -13146,8 +13146,37 @@
       "category_warning": null,
       "git_commit": "6543a7b064d5252f5faacb3cacb8483873f47c98",
       "run_id": "39273217503",
-      "updated_at": "2026-10-19T14:59:42.992822+00:00",
-      "wp_id": 4250
+      "updated_at": "2026-10-19T14:59:50.185603+00:00",
+      "wp_id": 4250,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/vi-sao-xe-dien-it-chet-may-khi-ngap-hon-xe-xang-khong-ong-xa-khong-buong-dot-va-gioi-han-khi-nuoc-sau-hoac-ngap-lau/",
+      "verified_at": "2026-10-19T14:59:50.185596+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4250,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/vi-sao-xe-dien-it-chet-may-khi-ngap-hon-xe-xang-khong-ong-xa-khong-buong-dot-va-gioi-han-khi-nuoc-sau-hoac-ngap-lau/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/vi-sao-xe-dien-it-chet-may-khi-ngap-hon-xe-xang-khong-ong-xa-khong-buong-dot-va-gioi-han-khi-nuoc-sau-hoac-ngap-lau/",
+        "seo_title": "Vì sao xe điện ít chết máy khi ngập hơn xe xăng? Lý do và giới hạn",
+        "seo_description": "Vì sao xe điện ít chết máy khi ngập hơn xe xăng? Tổng hợp lý giải từ Tuổi Trẻ, VnExpress, Thanh Niên, Dân trí và giới hạn khi nước sâu, ngập lâu, nước bẩn.",
+        "checked_at": "2026-10-19T14:59:50.185576+00:00"
+      }
     }
   },
   "categories": {}
