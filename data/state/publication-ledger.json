@@ -10059,7 +10059,7 @@
       }
     },
     "NT-000684": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T05:30:05.259560+00:00",
       "source_hash": "29cc015223ad48e1fd646d8be05f6dd6fd3692e2d571947bdbe663cf810b0716",
       "slug": "dang-ky-luu-tru-trong-24-gio-khi-di-xe-may-nhieu-ngay-khach-san-homestay-va-nha-nguoi-quen",
@@ -10074,8 +10074,37 @@
       "category_warning": null,
       "git_commit": "3e4e02f244d969e81281435c78da8bf54ca76832",
       "run_id": "39204485070",
-      "updated_at": "2026-10-19T05:30:09.319202+00:00",
-      "wp_id": 4179
+      "updated_at": "2026-10-19T05:30:15.339523+00:00",
+      "wp_id": 4179,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/dang-ky-luu-tru-trong-24-gio-khi-di-xe-may-nhieu-ngay-khach-san-homestay-va-nha-nguoi-quen/",
+      "verified_at": "2026-10-19T05:30:15.339518+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4179,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/dang-ky-luu-tru-trong-24-gio-khi-di-xe-may-nhieu-ngay-khach-san-homestay-va-nha-nguoi-quen/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/dang-ky-luu-tru-trong-24-gio-khi-di-xe-may-nhieu-ngay-khach-san-homestay-va-nha-nguoi-quen/",
+        "seo_title": "Đăng ký lưu trú cho khách nước ngoài ở khách sạn và homestay",
+        "seo_description": "Đăng ký lưu trú cho khách nước ngoài ở khách sạn và homestay theo trang chính phủ Anh, Úc, Canada: hạn 24 giờ, hộ chiếu khi nhận phòng, nhà người quen.",
+        "checked_at": "2026-10-19T05:30:15.339498+00:00"
+      }
     }
   },
   "categories": {}
