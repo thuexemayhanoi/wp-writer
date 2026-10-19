@@ -1,4 +1,4 @@
-# Cụm SEO 51 phường Hà Nội — lô 02/17 đã biên tập
+# Cụm SEO 51 phường Hà Nội — lô 03/17 đã biên tập
 
 **Tình trạng:** Ba **bản biên tập** đã viết, **chưa phải bản thảo Topic Factory**, chưa gán ID/lease, chưa kiểm tra đủ Research QA và chưa đăng WordPress. Chỉ là kho bản gốc chuẩn bị nghiên cứu–tiếp nhận. Đây không phải bằng chứng G1–G7 PASS.
 
@@ -22,6 +22,18 @@ Nguồn hành chính từ cổng [Việt Hưng](https://viethung.hanoi.gov.vn/gi
 
 **Lưu ý:** Yamaha Sirius, Cub 50, SYM 50cc chỉ là **mẫu để hỏi cửa hàng**; không suy đoán tình trạng tồn kho, giá từng mẫu, chi nhánh mới, hay cam kết giao miễn phí. Theo điều khoản website Nguyễn Tú, người thuê tối thiểu 18 tuổi, dù luật giao thông có quy định riêng cho người 16 tuổi lái loại xe gắn máy phù hợp; phải kiểm tra nguồn/điều khoản thật trước khi xuất bản.
 
+## Lô 03/17 — Ngọc Hà, Giảng Võ, Hai Bà Trưng
+
+| Phường mới | H1 | File | Đếm từ sơ bộ |
+| --- | --- | --- | ---: |
+| Ngọc Hà | Thuê xe máy phường Ngọc Hà: Honda Click hay Yamaha Mio, đi ba ngày thế nào? | [07-ngoc-ha.md](batch-03/07-ngoc-ha.md) | 4.459 |
+| Giảng Võ | Thuê xe máy phường Giảng Võ: đi làm theo tháng chọn Honda Air Blade hay Wave? | [08-giang-vo.md](batch-03/08-giang-vo.md) | 4.763 |
+| Hai Bà Trưng | Thuê xe máy phường Hai Bà Trưng: chọn Honda Vision hay Wave khi có nhiều điểm hẹn? | [09-hai-ba-trung.md](batch-03/09-hai-ba-trung.md) | 4.854 |
+
+Tham khảo chính thức: [Ngọc Hà](https://ngocha.hanoi.gov.vn/gioi-thieu-chung/ngoc-ha-dong-chay-cua-van-hoa-ngan-nam-tiep-tuc-khoi-dong-phat-trien-trong-thoi-dai-moi-2802250628080417605.htm), [Giảng Võ](https://giangvo.hanoi.gov.vn/ban-do-dia-gioi-phuong/ban-do-dia-gioi-hanh-chinh-phuong-giang-vo-2808250701094557434.htm), [Hai Bà Trưng](https://haibatrung.hanoi.gov.vn/gioi-thieu/phuong-hai-ba-trung-dau-an-moi-trong-lo-trinh-phat-trien-thu-do-2814250625151256399.htm). Mức giá xe theo `data/business-facts.json`; các điều khoản phải đối chiếu lại lúc nhập Topic Factory.
+
+**Góc tìm kiếm khác nhau:** Ngọc Hà cho thuê xe ga Click/Mio 3 ngày; Giảng Võ so gói tháng Air Blade/Wave cho người làm việc; Hai Bà Trưng chọn Vision/Wave cho nhiều điểm hẹn. Không xác nhận chi nhánh tại ba phường, không suy đoán miễn phí giao xe hoặc xe còn sẵn. Mỗi bài có đúng một H1, liên kết nguồn chính thức và tối thiểu 2 liên kết nội bộ.
+
 ## Phạm vi và nguồn
 
 - Sử dụng địa giới mới của phường [Bồ Đề](https://bode.hanoi.gov.vn/gioi-thieu-chung/gioi-thieu-phuong-bo-de-2831250626121314553.htm), [Cửa Nam](https://cuanam.hanoi.gov.vn/gioi-thieu/gioi-thieu-chung-ve-phuong-cua-nam-2801250629153745569.htm), [Hoàn Kiếm](https://hoankiem.hanoi.gov.vn/chi-dao-cua-dia-phuong/dai-hoi-dai-bieu-dang-bo-phuong-hoan-kiem-lan-thu-i-nhiem-ky-2025-2030-2812250723162946227.htm).
@@ -38,4 +50,4 @@ Nguồn hành chính từ cổng [Việt Hưng](https://viethung.hanoi.gov.vn/gi
 4. QA trên hệ thống phải xác nhận SEO ≥85, Quality ≥85, G1–G6; Publisher chỉ được chạy khi chính sách chủ website cho phép. `publisher_pilot.max_posts=3` đang sử dụng hết 3 lần trước; **không được tự nâng hoặc gỡ giới hạn**. Việc đăng mới đòi hỏi quyết định tách biệt của chủ website và xác minh G7.
 5. Sau khi xuất bản thành công, cập nhật `progress.json` với Topic ID, WordPress ID, permalink và ngày xác minh; không đếm bản thảo thành bài đã đăng.
 
-**Tiến độ biên tập:** **6/51**, còn **45 bài trong 15 lượt duyệt**. Đã biên tập lô 01 và lô 02; **0/6 bài này được đăng WordPress**. Theo kế hoạch chủ website duyệt mỗi lượt 3 bài.
+**Tiến độ biên tập:** **9/51**, còn **42 bài trong 14 lượt duyệt**. Đã biên tập lô 01–03; **0/9 bài biên tập được nhập Topic Factory hoặc đăng WordPress**. Không tự nới `publisher_pilot`. Theo kế hoạch chủ website duyệt mỗi lượt 3 bài.
