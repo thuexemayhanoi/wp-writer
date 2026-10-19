@@ -70,34 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://travel.gc.ca/destinations/vietnam",
-      "supports": "Trang tư vấn của Canada (cập nhật 13/10/2026): lừa đảo bài bạc ở Hà Nội và TP HCM; lời mời về nhà gặp người thân quan tâm đến việc sang Canada, ván bài nhỏ ban đầu, có nạn nhân mất hàng nghìn đô la; các bước nếu bị lừa (đến nơi an toàn, ghi tên và địa chỉ nơi bị giữ, báo công an và xin biên bản, báo ngân hàng); mục Credit card and ATM fraud: lừa đảo thẻ và ATM xảy ra thường xuyên, các lời khuyên; mục tội phạm giả làm tài xế taxi ở sân bay Nội Bài ép nạn nhân rút tiền ở ATM",
-      "sha256": "126c661b0baedc6f2c337d9d931cfdb12a6a068ad2779ba0c38fbef1e0fbf156",
-      "verified_at": "2026-10-18T23:59:20.105133+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.smartraveller.gov.au/destinations/asia/vietnam",
-      "supports": "Trang Smartraveller của Úc (cập nhật 24/09/2026): mục Scams: nhiều du khách là nạn nhân của lừa đảo thẻ tín dụng, thẻ ghi nợ, taxi và bài bạc; skimming thẻ xảy ra khắp Việt Nam; cẩn thận người quá thân thiện mời về nhà và ván bài gian lận; giữ thẻ trong tầm mắt, không để lộ mã PIN, kiểm tra sao kê; chỉ dùng ATM tại ngân hàng, khách sạn uy tín và trung tâm mua sắm; báo công an nếu bị lừa bài bạc",
-      "sha256": "b21f280d5c64c04d3676dbcb17d6d239db87531c6c946119451121226fe3e36f",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    },
-    {
-      "url": "https://www.ireland.ie/en/dfa/overseas-travel/advice/vietnam/",
-      "supports": "Trang của Bộ Ngoại giao Ireland (cập nhật 22/04/2026): mục Money: thẻ tín dụng ngày càng phổ biến nhưng ngoài các trung tâm lớn có thể chỉ nhận tiền mặt; ATM còn ít và chỉ có ở các thành phố lớn và khu du lịch; nên mang đủ tiền cho chuyến đi; mục an toàn: không mang cùng lúc thẻ, vé và tiền mặt",
-      "sha256": "82d2f11f624816ffdbed44f00cd33eb26b9f7f3409f8403611f1917fa1b86b51",
-      "research_checked_at": "2026-10-18",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "HTTPError"
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -150,11 +123,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-18T23:59:26.466818+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T00:00:36.329988+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "9cce5779dc8efd8d7bf01ac04413162891a6b781632822567779dbb430e20f6e",
+  "inventory_sha256": "6024479a94e79114089385f70136216a66ae14243faa48921df3a0d083192278",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
