@@ -8523,7 +8523,7 @@
       }
     },
     "NT-000614": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T04:07:17.694046+00:00",
       "source_hash": "e956942036cb824ca7debeabf3576ff0e12e3a5bd95c7932ed952747380197d1",
       "slug": "van-ga-xe-dien-khong-chay-che-do-parking-chan-chong-canh-va-cac-co-che-an-toan-hang-mo-ta",
@@ -8538,8 +8538,37 @@
       "category_warning": null,
       "git_commit": "808802e85473f48f4050d13a633591fa201e2109",
       "run_id": "39197257385",
-      "updated_at": "2026-10-19T04:07:21.431917+00:00",
-      "wp_id": 4147
+      "updated_at": "2026-10-19T04:07:27.222854+00:00",
+      "wp_id": 4147,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/van-ga-xe-dien-khong-chay-che-do-parking-chan-chong-canh-va-cac-co-che-an-toan-hang-mo-ta/",
+      "verified_at": "2026-10-19T04:07:27.222848+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4147,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/van-ga-xe-dien-khong-chay-che-do-parking-chan-chong-canh-va-cac-co-che-an-toan-hang-mo-ta/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/van-ga-xe-dien-khong-chay-che-do-parking-chan-chong-canh-va-cac-co-che-an-toan-hang-mo-ta/",
+        "seo_title": "Vặn ga xe điện không chạy: Parking, chân chống cạnh và cơ chế an toàn",
+        "seo_description": "Vặn ga xe điện không chạy chưa chắc là hỏng: sổ hướng dẫn VinFast Feliz S, Theon, Dat Bike Quantum và Weaver mô tả Parking, chân chống, phanh, sạc và bảo vệ pin.",
+        "checked_at": "2026-10-19T04:07:27.222831+00:00"
+      }
     }
   },
   "categories": {}
