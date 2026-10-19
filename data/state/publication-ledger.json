@@ -10683,7 +10683,7 @@
       }
     },
     "NT-000569": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T05:57:16.965534+00:00",
       "source_hash": "12f8d498d87e182d5ec081af3d9233d91e3700fa6e7258360f5bae678c037cf2",
       "slug": "di-vung-cao-bang-xe-may-hay-oto-chon-theo-nhom-di-hanh-ly-suc-khoe-va-diem-den",
@@ -10698,8 +10698,37 @@
       "category_warning": null,
       "git_commit": "db7e6df978fe9266399ca08ecdfac39002649254",
       "run_id": "39206693185",
-      "updated_at": "2026-10-19T05:57:20.565514+00:00",
-      "wp_id": 4192
+      "updated_at": "2026-10-19T05:57:26.233954+00:00",
+      "wp_id": 4192,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/di-vung-cao-bang-xe-may-hay-oto-chon-theo-nhom-di-hanh-ly-suc-khoe-va-diem-den/",
+      "verified_at": "2026-10-19T05:57:26.233948+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4192,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/di-vung-cao-bang-xe-may-hay-oto-chon-theo-nhom-di-hanh-ly-suc-khoe-va-diem-den/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/di-vung-cao-bang-xe-may-hay-oto-chon-theo-nhom-di-hanh-ly-suc-khoe-va-diem-den/",
+        "seo_title": "Đi vùng cao bằng xe máy hay ôtô: chọn theo nhóm, hành lý, sức khỏe",
+        "seo_description": "Đi vùng cao bằng xe máy hay ôtô? Tổng hợp ý kiến hướng dẫn viên và du khách về Hà Giang, Suôi Thầu, Y Tý, kèm bảng chọn theo nhóm đi, hành lý, sức khỏe và điểm đến.",
+        "checked_at": "2026-10-19T05:57:26.233931+00:00"
+      }
     }
   },
   "categories": {}
