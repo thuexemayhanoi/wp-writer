@@ -70,64 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://vnexpress.net/lai-oto-dien-it-phai-dung-phanh-nhu-xe-xang-4260473.html",
-      "supports": "VnExpress (9/4/2021): Tesla tính toán năng lượng tái tạo hiệu quả tới 65% trong quá trình phanh của Roadster năm 2007; phanh tái tạo giúp năng lượng được tái tạo thay vì mất đi.",
-      "sha256": "58883941a8af66aa7142b0115b3d55cffc1f09a767132c6d6b5918827f0bc03a",
-      "verified_at": "2026-10-19T19:45:50.124358+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://vnexpress.net/vi-sao-phanh-xe-dien-cung-cham-hon-xe-xang-4646910.html",
-      "supports": "VnExpress (28/8/2023, lược theo Auto Guide): tái sinh mức nhẹ không nạp lại nhiều năng lượng cho pin; mức nặng nạp lại pin và kéo dài quãng đường.",
-      "sha256": "9f5ab3023a83dc021f235a8dc05e806a84ee3ec6289946ae05346a17ef6641b1",
-      "verified_at": "2026-10-19T19:45:52.507513+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://thanhnien.vn/phanh-tai-sinh-trang-bi-khong-the-thieu-tren-o-to-dien-185240707115956295.htm",
-      "supports": "Thanh Niên (đăng năm 2024): thu hồi và tái tạo điện năng vẫn có thất thoát nhưng thu được một lượng nhỏ vẫn hiệu quả hơn lãng phí hoàn toàn.",
-      "sha256": "b8957997ff97001a200e3a8351c309d9e2e87aee1ec6aa9461393d317a258833",
-      "verified_at": "2026-10-19T19:45:54.279782+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/Regenerative_braking",
-      "supports": "Wikipedia, bài Regenerative braking (đọc 19/10/2026): tái sinh thu lại khoảng một nửa năng lượng mất khi ô tô phanh, tương ứng tăng hiệu suất 10-25%; trên xe đạp điện hiếm dùng và lượng điện thường quá thấp để đáng kể.",
-      "sha256": "5950f68fd4bd68b14175ef3a022b399e69e9214c5d0e73c26b339f5974afc522",
-      "verified_at": "2026-10-19T19:45:54.444623+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
-      "supports": "Hướng dẫn xe Quantum của Dat Bike: phanh động cơ ở tay ga sạc lại pin mỗi lần nhả ga (khoảng 10%), giúp tăng quãng đường; chỉ hoạt động ở chế độ D và S.",
-      "sha256": "ac94fe3ed316f103e53e5432bd19ff4ab03fb1a738bf12bc0e21783d719b9e85",
-      "verified_at": "2026-10-19T19:45:56.468648+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dat.bike/cong-nghe-tren-xe-may-dien-dat-bike/",
-      "supports": "Trang công nghệ của Dat Bike: phanh tái sinh giúp tăng quãng đường thêm khoảng 10 – 15% tùy điều kiện lái và cho cảm giác phanh mượt.",
-      "sha256": "26ff80f001d43e29650c39ff251adec1f5f4d32e1570debae068539bde572349",
-      "verified_at": "2026-10-19T19:45:57.770935+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-lan-dau-tien-ra-mat-mau-xe-may-dien-moi-honda-uc3-tai-viet-nam-cong-bo-chinh-sach-ban-hang-moi-danh-cho-mau-xe-may-dien-cuv-e-va-bat-dau-trien-khai-he-thong-tram-sac-pin-va-tram-doi-pin",
-      "supports": "Honda Việt Nam (thông cáo 10/1/2026): phanh tái sinh giúp thu hồi năng lượng, xe đạt khoảng 120 km một lần sạc theo tiêu chuẩn WMTC; trang không nêu con số phần trăm thu hồi.",
-      "sha256": "c095e1060979797a949053351acd021f2fde80b9085d6cab4f1a4d509b6044e0",
-      "verified_at": "2026-10-19T19:45:59.810942+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -180,11 +123,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T19:46:10.669130+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T19:49:00.051719+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "a6dc2fcd338d43aac92c30651d98dc76d6b67d24322992f385ddf9bdb8c54286",
+  "inventory_sha256": "721fd7cc1ad985bdbfa14ea2f56357b9efcd9c7349d2df00b35b6239090734e5",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

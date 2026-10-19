@@ -70,66 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://www.honda.com.vn/xe-may/san-pham/winner-r",
-      "supports": "Trang Honda Winner R (đọc 19/10/2026): mức tiêu thụ 2,59 L/100km có dấu sao; chú thích dưới bảng nêu phương pháp UDC, số đời trước 1.98 L/100 km và nhận định mức tiêu thụ thực tế không chênh lệch nhiều; bình xăng 4,5 lít, dung tích 149,2 cm3.",
-      "sha256": "ea7332d8f9e9fb22063950873425ad0b812612f712eb4e580443f261a0699e37",
-      "verified_at": "2026-10-19T19:39:24.088146+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://dieselnet.com/standards/cycles/ece_eudc.php",
-      "supports": "DieselNet (nguồn kỹ thuật chung về xe nhẹ, đọc 19/10/2026): chu trình ECE là chu trình đô thị còn gọi UDC, tốc độ thấp, tải thấp, nhiệt độ khí thải thấp; bảng ECE 15 gồm 0.9941 km, 195 giây, 57 giây dừng, 18.35 km/h, tối đa 50 km/h; thử trên băng thử, EUDC tối đa 120 km/h.",
-      "sha256": "a06baeea61d8f2ce2a2b3eb81cea657826fdea0147b865f1b6ad1bed5e2e5ae3",
-      "verified_at": "2026-10-19T19:39:24.367962+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://en.wikipedia.org/wiki/World_Motorcycle_Test_Cycle",
-      "supports": "Wikipedia (nguồn tổng quan, đọc 19/10/2026): WMTC là hệ chu trình đo tiêu thụ nhiên liệu và khí thải của mô tô theo quy chuẩn kỹ thuật toàn cầu của UN (WP.29); số liệu dẫn chiếu WMTC so được trực tiếp giữa các hãng; Việt Nam được liệt kê áp dụng trước 2016; Honda, Kawasaki, Suzuki, Yamaha dùng số WMTC từ 7/2013.",
-      "sha256": "2fcfdeabd091b24e037c5dc6f004a57d7f6958cd8998c1617923ed43cf0026b2",
-      "verified_at": "2026-10-19T19:39:24.615253+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://tieuchuan.vsqi.gov.vn/tieuchuan/view?sohieu=TCVN+9726%3A2013",
-      "supports": "Cổng tiêu chuẩn quốc gia (đọc 19/10/2026): TCVN 9726:2013, còn hiệu lực, phương pháp thử hài hòa trên toàn thế giới để xác định khí thải, CO2 và tiêu thụ nhiên liệu của xe hai bánh; quyết định công bố 4265/QĐ-BKHCN ngày 31-12-2013.",
-      "sha256": "b02282365fb4b6a30febc2cc73af7b2090dc66655ebcf07590f527b47a688f27",
-      "research_checked_at": "2026-10-19",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    },
-    {
-      "url": "https://tieuchuan.vsqi.gov.vn/tieuchuan/view?sohieu=TCVN+7356%3A2014",
-      "supports": "Cổng tiêu chuẩn quốc gia (đọc 19/10/2026): TCVN 7356:2014, còn hiệu lực, giới hạn tiêu thụ nhiên liệu và phương pháp xác định cho mô tô, xe máy hai bánh; thay thế TCVN 7356:2003; viện dẫn TCVN 6440-2, TCVN 6440-3 và TCVN 9726.",
-      "sha256": "30eb96ce3c71151ff0f0aceaf44f9ed7014ace16399fa1960984de308568a482",
-      "research_checked_at": "2026-10-19",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    },
-    {
-      "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
-      "supports": "Trang Yamaha Grande (đọc 19/10/2026): mức tiêu thụ 1.73 lit/100km; chữ WMTC xuất hiện cạnh tính năng ngắt động cơ tạm thời (Trong điều kiện thử nghiệm WMTC).",
-      "sha256": "e452a7781563d7491bbc32f84a4df7089806430ff24c1bec9c60aaf4e57fa22b",
-      "verified_at": "2026-10-19T19:39:28.643852+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    },
-    {
-      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-125",
-      "supports": "Trang Honda Vario 125 (đọc 19/10/2026): mức tiêu thụ 2,11l/100km trong bảng và câu khoảng 260 km cho một lần đổ xăng trong điều kiện vận hành thông thường.",
-      "sha256": "f47c062dfa0bbc189dfd00ccb54c2782ced456029d94204f269124a5ea4b079c",
-      "verified_at": "2026-10-19T19:39:29.219492+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -173,11 +114,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T19:39:40.002098+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T19:48:45.699557+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "539896325f971bf5936617eb84ea1de6cf29fa01c3876177b9dcd554860c77af",
+  "inventory_sha256": "721fd7cc1ad985bdbfa14ea2f56357b9efcd9c7349d2df00b35b6239090734e5",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
