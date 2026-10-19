@@ -9339,7 +9339,7 @@
       }
     },
     "NT-000649": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T04:20:38.076154+00:00",
       "source_hash": "7442ad0443c086f223bb707ae45755f0780f1d3f66ef6dc0f87fb485c2ff56d4",
       "slug": "canh-bao-o-nhiem-khong-khi-som-o-ha-noi-moc-5-7-ngay-va-48-72-gio-cua-ke-hoach-400-kh-ubnd",
@@ -9354,8 +9354,37 @@
       "category_warning": null,
       "git_commit": "9c4e7b0f89ee9acbbb46112b2871d25ed8135297",
       "run_id": "39198432432",
-      "updated_at": "2026-10-19T04:20:43.819282+00:00",
-      "wp_id": 4164
+      "updated_at": "2026-10-19T04:20:49.913881+00:00",
+      "wp_id": 4164,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/canh-bao-o-nhiem-khong-khi-som-o-ha-noi-moc-5-7-ngay-va-48-72-gio-cua-ke-hoach-400-kh-ubnd/",
+      "verified_at": "2026-10-19T04:20:49.913874+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4164,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/canh-bao-o-nhiem-khong-khi-som-o-ha-noi-moc-5-7-ngay-va-48-72-gio-cua-ke-hoach-400-kh-ubnd/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/canh-bao-o-nhiem-khong-khi-som-o-ha-noi-moc-5-7-ngay-va-48-72-gio-cua-ke-hoach-400-kh-ubnd/",
+        "seo_title": "Cảnh báo ô nhiễm không khí sớm ở Hà Nội: mốc 5–7 ngày và 48–72 giờ",
+        "seo_description": "Cảnh báo ô nhiễm không khí sớm ở Hà Nội theo Kế hoạch 400/KH-UBND ngày 15/10/2026: mốc 5 đến 7 ngày, 48 đến 72 giờ, 24 giờ, ai làm gì và điều chưa rõ.",
+        "checked_at": "2026-10-19T04:20:49.913856+00:00"
+      }
     }
   },
   "categories": {}
