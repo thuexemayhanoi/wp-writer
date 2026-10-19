@@ -14591,7 +14591,7 @@
       }
     },
     "NT-000868": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:02:07.181622+00:00",
       "source_hash": "7b08635975b4a95ae42dcfa819de88dec67f2689e7074293ed0d1e56c804bedc",
       "slug": "nhin-dau-khi-chay-xe-may-quet-mat-moi-vai-giay-nhin-xa-cham-phanh-nhe-va-dich-ra-xa-nguy-co-theo-transport-for-nsw-va-honda-uc",
@@ -14607,8 +14607,37 @@
       "category_warning": null,
       "git_commit": "b3087e619ac8c4b7eef855135710aecacb2a1141",
       "run_id": "39322982572",
-      "updated_at": "2026-10-19T21:02:11.325561+00:00",
-      "wp_id": 4291
+      "updated_at": "2026-10-19T21:02:17.252276+00:00",
+      "wp_id": 4291,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nhin-dau-khi-chay-xe-may-quet-mat-moi-vai-giay-nhin-xa-cham-phanh-nhe-va-dich-ra-xa-nguy-co-theo-transport-for-nsw-va-honda-uc/",
+      "verified_at": "2026-10-19T21:02:17.252269+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4291,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nhin-dau-khi-chay-xe-may-quet-mat-moi-vai-giay-nhin-xa-cham-phanh-nhe-va-dich-ra-xa-nguy-co-theo-transport-for-nsw-va-honda-uc/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nhin-dau-khi-chay-xe-may-quet-mat-moi-vai-giay-nhin-xa-cham-phanh-nhe-va-dich-ra-xa-nguy-co-theo-transport-for-nsw-va-honda-uc/",
+        "seo_title": "Nhìn đâu khi chạy xe máy: quét mắt, nhìn xa, chạm phanh nhẹ",
+        "seo_description": "Nhìn đâu khi chạy xe máy? Cách quét mắt, nhìn xa, chạm phanh nhẹ và dịch ra xa nguy cơ theo Transport for NSW, HART của Honda Úc và MSF, kèm giới hạn của từng nguồn.",
+        "checked_at": "2026-10-19T21:02:17.252246+00:00"
+      }
     }
   },
   "categories": {}
