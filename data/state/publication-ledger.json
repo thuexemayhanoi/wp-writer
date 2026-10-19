@@ -8715,7 +8715,7 @@
       }
     },
     "NT-000534": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T04:11:45.911197+00:00",
       "source_hash": "6ca38761fd41abe7da6b13823bf16d9f8d9d4ea73f2bd159527510351cda4299",
       "slug": "le-hoi-dinh-chem-o-thuy-phuong-14-16-thang-nam-am-lich-ruoc-nuoc-moc-duc-va-tha-chim-bo-cau",
@@ -8730,8 +8730,37 @@
       "category_warning": null,
       "git_commit": "95b117b8174c189dcedf3ec268fdd634d947e41a",
       "run_id": "39197833614",
-      "updated_at": "2026-10-19T04:11:49.584898+00:00",
-      "wp_id": 4151
+      "updated_at": "2026-10-19T04:11:54.860475+00:00",
+      "wp_id": 4151,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/le-hoi-dinh-chem-o-thuy-phuong-14-16-thang-nam-am-lich-ruoc-nuoc-moc-duc-va-tha-chim-bo-cau/",
+      "verified_at": "2026-10-19T04:11:54.860468+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4151,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/le-hoi-dinh-chem-o-thuy-phuong-14-16-thang-nam-am-lich-ruoc-nuoc-moc-duc-va-tha-chim-bo-cau/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/le-hoi-dinh-chem-o-thuy-phuong-14-16-thang-nam-am-lich-ruoc-nuoc-moc-duc-va-tha-chim-bo-cau/",
+        "seo_title": "Lễ hội đình Chèm: 14–16 tháng Năm âm lịch, rước nước, mộc dục",
+        "seo_description": "Lễ hội đình Chèm ở Thụy Phương, Bắc Từ Liêm: lịch 12–16 tháng Năm âm lịch, rước nước, mộc dục, thả chim bồ câu, ba làng kết nghĩa, hội lớn năm năm một lần và điều kiêng kỵ.",
+        "checked_at": "2026-10-19T04:11:54.860450+00:00"
+      }
     }
   },
   "categories": {}
