@@ -70,16 +70,7 @@
   },
   "errors": [],
   "review": [],
-  "source_evidence": [
-    {
-      "url": "https://thanhnien.vn/can-canh-chiec-can-co-tai-cua-hang-5-doi-ban-o-mai-pho-hang-duong-185241126000520352.htm",
-      "supports": "Thanh Niên (26/11/2024): ô mai Gia Lợi thành lập 1898 tại số 8 Hàng Đường, ông Hưng kể cách làm: phơi lần một, ủ, phơi lần hai, đường phên; đời thứ 4 và thứ 5.",
-      "sha256": "0103cde40b27c746bd95509682ec083a789d086f3464797308a6a21a5d810de8",
-      "verified_at": "2026-10-19T21:44:28.508438+00:00",
-      "verification_method": "live",
-      "live_checked": true
-    }
-  ],
+  "source_evidence": [],
   "evidence_recheck": {
     "pages": [
       {
@@ -123,11 +114,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-19T21:44:33.123334+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-19T21:49:02.252336+00:00",
+  "live_links_checked": false,
   "legal_required": false,
   "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
-  "inventory_sha256": "8cd7e22574c7068b197e068d62eed8a261d5d9cc7becbe9643f4579ef98a31ba",
+  "inventory_sha256": "68afc12804b5cef0abefe36df97474b2324f4a64fb84d4df8e5bd3288f48787e",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],
