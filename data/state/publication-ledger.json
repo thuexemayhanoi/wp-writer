@@ -11019,7 +11019,7 @@
       }
     },
     "NT-000470": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T09:28:46.964800+00:00",
       "source_hash": "6331eb8424a20ce02a424631f32ec97ef9cb2bf61fac2536fcbf88229ad04aa0",
       "slug": "va-lop-xe-may-dien-dong-co-trong-banh-sau-lop-khong-sam-va-vanh-duc-anh-huong-the-nao",
@@ -11034,8 +11034,37 @@
       "category_warning": null,
       "git_commit": "3f1e76149b99fb9688ee00b90e89b82a1d52230f",
       "run_id": "39229673489",
-      "updated_at": "2026-10-19T09:28:51.222890+00:00",
-      "wp_id": 4201
+      "updated_at": "2026-10-19T09:28:57.049118+00:00",
+      "wp_id": 4201,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/va-lop-xe-may-dien-dong-co-trong-banh-sau-lop-khong-sam-va-vanh-duc-anh-huong-the-nao/",
+      "verified_at": "2026-10-19T09:28:57.049111+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4201,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/va-lop-xe-may-dien-dong-co-trong-banh-sau-lop-khong-sam-va-vanh-duc-anh-huong-the-nao/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/va-lop-xe-may-dien-dong-co-trong-banh-sau-lop-khong-sam-va-vanh-duc-anh-huong-the-nao/",
+        "seo_title": "Vá lốp xe máy điện: động cơ ở bánh sau, lốp không săm, vành đúc",
+        "seo_description": "Vá lốp xe máy điện có khác xe xăng không? Tóm tắt điều Yamaha NEO's, Dat Bike Weaver, Quantum S1 và Honda ICON e: nói về bánh sau, lốp không săm và vành đúc.",
+        "checked_at": "2026-10-19T09:28:57.049094+00:00"
+      }
     }
   },
   "categories": {}
