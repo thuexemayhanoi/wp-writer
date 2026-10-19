@@ -8043,7 +8043,7 @@
       }
     },
     "NT-000493": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T03:58:24.821472+00:00",
       "source_hash": "842e71f7f8babf3a8c538ed10d65d19de4812120ff18fa6272ddf7e853ef0f35",
       "slug": "chua-tam-chuc-tu-ha-noi-bang-xe-may-quoc-lo-1a-xe-dien-hay-thuyen-trong-khu-va-mua-hoi-dong-khach",
@@ -8058,8 +8058,37 @@
       "category_warning": null,
       "git_commit": "01794ea20be233fefb393d85177c09314c353f1c",
       "run_id": "39196699167",
-      "updated_at": "2026-10-19T03:58:30.596617+00:00",
-      "wp_id": 4137
+      "updated_at": "2026-10-19T03:58:36.578094+00:00",
+      "wp_id": 4137,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/chua-tam-chuc-tu-ha-noi-bang-xe-may-quoc-lo-1a-xe-dien-hay-thuyen-trong-khu-va-mua-hoi-dong-khach/",
+      "verified_at": "2026-10-19T03:58:36.578089+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4137,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/chua-tam-chuc-tu-ha-noi-bang-xe-may-quoc-lo-1a-xe-dien-hay-thuyen-trong-khu-va-mua-hoi-dong-khach/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/chua-tam-chuc-tu-ha-noi-bang-xe-may-quoc-lo-1a-xe-dien-hay-thuyen-trong-khu-va-mua-hoi-dong-khach/",
+        "seo_title": "Chùa Tam Chúc từ Hà Nội bằng xe máy: đường đi, xe điện hay thuyền",
+        "seo_description": "Chùa Tam Chúc từ Hà Nội bằng xe máy: khoảng cách theo các nguồn, đường đi quốc lộ 1A hay cao tốc, chọn xe điện hay thuyền trong khu và cách tính ngày hội đông khách.",
+        "checked_at": "2026-10-19T03:58:36.578070+00:00"
+      }
     }
   },
   "categories": {}
