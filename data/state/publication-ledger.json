@@ -15130,7 +15130,7 @@
       }
     },
     "NT-001037": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T21:29:13.533681+00:00",
       "source_hash": "0e3741d6f92b09f8691c08b6ea5dfd5a1a2e3b00c0b2a16fcf1886ae816aa345",
       "slug": "bun-thang-ha-noi-mon-che-bien-lai-sau-tet-cua-pho-co-cac-lop-nguyen-lieu-va-khac-bun-thang-hung-yen",
@@ -15146,8 +15146,37 @@
       "category_warning": null,
       "git_commit": "0927396b58191acf78af0cf04b0ee3c0688197ef",
       "run_id": "39326750194",
-      "updated_at": "2026-10-19T21:29:17.936271+00:00",
-      "wp_id": 4302
+      "updated_at": "2026-10-19T21:29:24.038803+00:00",
+      "wp_id": 4302,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bun-thang-ha-noi-mon-che-bien-lai-sau-tet-cua-pho-co-cac-lop-nguyen-lieu-va-khac-bun-thang-hung-yen/",
+      "verified_at": "2026-10-19T21:29:24.038797+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4302,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bun-thang-ha-noi-mon-che-bien-lai-sau-tet-cua-pho-co-cac-lop-nguyen-lieu-va-khac-bun-thang-hung-yen/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bun-thang-ha-noi-mon-che-bien-lai-sau-tet-cua-pho-co-cac-lop-nguyen-lieu-va-khac-bun-thang-hung-yen/",
+        "seo_title": "Bún thang Hà Nội là gì: nguồn gốc, nguyên liệu, khác Hưng Yên",
+        "seo_description": "Bún thang Hà Nội là gì? Tổng hợp từ ba bài báo ẩm thực: nguồn gốc món chế biến lại sau Tết, nguyên liệu, nước dùng, gia vị và điểm khác bún thang Hưng Yên.",
+        "checked_at": "2026-10-19T21:29:24.038775+00:00"
+      }
     }
   },
   "categories": {}
