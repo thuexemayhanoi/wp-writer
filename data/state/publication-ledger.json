@@ -11067,7 +11067,7 @@
       }
     },
     "NT-000587": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-19T09:29:12.255912+00:00",
       "source_hash": "27ff0eee3d79e6ab27ebc6266648dfb4a53df53569bd31dd20c83b503f6ee0f7",
       "slug": "chuan-ip67-tren-xe-dien-nghia-la-gi-doc-ma-ip-theo-iec-60529-va-gioi-han-khi-gap-nuoc-ngap",
@@ -11082,8 +11082,37 @@
       "category_warning": null,
       "git_commit": "3f1e76149b99fb9688ee00b90e89b82a1d52230f",
       "run_id": "39229673489",
-      "updated_at": "2026-10-19T09:29:16.346936+00:00",
-      "wp_id": 4202
+      "updated_at": "2026-10-19T09:29:22.265847+00:00",
+      "wp_id": 4202,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/chuan-ip67-tren-xe-dien-nghia-la-gi-doc-ma-ip-theo-iec-60529-va-gioi-han-khi-gap-nuoc-ngap/",
+      "verified_at": "2026-10-19T09:29:22.265840+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4202,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/chuan-ip67-tren-xe-dien-nghia-la-gi-doc-ma-ip-theo-iec-60529-va-gioi-han-khi-gap-nuoc-ngap/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/chuan-ip67-tren-xe-dien-nghia-la-gi-doc-ma-ip-theo-iec-60529-va-gioi-han-khi-gap-nuoc-ngap/",
+        "seo_title": "Chuẩn IP67 trên xe điện nghĩa là gì: đọc mã IP và giới hạn khi ngập",
+        "seo_description": "Chuẩn IP67 trên xe điện nghĩa là gì: cách đọc mã IP theo IEC 60529, phép thử ngâm 1 m trong 30 phút, IP67 khác IP68 ra sao và vì sao không đồng nghĩa với lội nước ngập.",
+        "checked_at": "2026-10-19T09:29:22.265822+00:00"
+      }
     }
   },
   "categories": {}
