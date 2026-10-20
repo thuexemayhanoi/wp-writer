@@ -1,0 +1,142 @@
+{
+  "topic_id": "NT-001098",
+  "status": "PASS",
+  "source_sha256": "3d0e403ffc57189fb0f0484375980845412cca401f207734338378577fc4bf2b",
+  "body_sha256": "40f25727a10d2cd40be45f83cfc684ae103475d1290f6b4c92235c32c405e0ba",
+  "word_count": 2608,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/cam-nang-du-lich-den-ba-chua-kho-5046827.html",
+      "supports": "VnExpress (cẩm nang du lịch đền Bà Chúa Kho): đền ở khu Cổ Mễ, phường Vũ Ninh; lễ hội từ 12 đến 15 tháng Giêng; tục vay – trả; khu vực đền; lễ vật; cách Hà Nội khoảng 45 km, 60–70 phút.",
+      "sha256": "09fbf9d87b2db3b3d1d3d7b863d4dcd5d2e16ef1542b675316408ba2338a129b",
+      "verified_at": "2026-10-20T09:36:47.228848+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://tuoitre.vn/plo/hang-nghin-nguoi-do-ve-den-ba-chua-kho-dip-dau-nam-moi-109718243.htm",
+      "supports": "Tuổi Trẻ (2/2/2023): ngày 12 tháng Giêng dân làng Cổ Mễ tổ chức ngày giỗ Bà Chúa Kho; Bà trông coi kho lương ở Núi Kho thời Lý, được phong Phúc Thần, dân lập đền tại kho cũ.",
+      "sha256": "0e9938660ae3b3a1da24b68cfe948d8ae538695b5068cacdcab0f63e0192e78c",
+      "verified_at": "2026-10-20T09:36:48.570301+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2582,
+        "title": "Xe nào phù hợp chạy trong phố Hà Nội? Gợi ý theo từng nhu cầu",
+        "why": "stale",
+        "content_hash": "0f62d1c774af57a3c896ffd697700d31e6892614883dbc70f9970230ae26d134",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4050,
+        "title": "Thuê xe máy đi làm theo ca ở Hà Nội: chọn giờ nhận, gửi xe và trả xe đúng hạn",
+        "why": "stale",
+        "content_hash": "f5a41002206250a00b0d4b19ec54ada261a36c020a5c2f89aa531c79304f4012",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4059,
+        "title": "Thuê xe máy đi phỏng vấn ở Hà Nội trong một ngày: xếp lịch, chọn xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "0ffbbff60edf006739890cca423af4e81cb5346ee434c29859648be6bdb57675",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T09:36:56.813033+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
+  "inventory_sha256": "3e9b87114d6fcd2c001e7a4d8320a7dc9c1145fa71e8bf3c244cafc60804c09e",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

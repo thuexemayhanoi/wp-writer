@@ -1,0 +1,125 @@
+{
+  "topic_id": "NT-001067",
+  "status": "PASS",
+  "source_sha256": "a39e276c9b3e6fccc462536918d35ad4b647ad277891ec5c52cc9504d5f1c316",
+  "body_sha256": "e189d53fa4066542215eb4e033bf2dfd7b4ecabde073e0ffd8e8510d2be60843",
+  "word_count": 2712,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/faq-maintenance/",
+      "supports": "Dat Bike FAQ: Weaver 200 không có hệ truyền động qua nhông sên dĩa nên không cần thay nhớt định kỳ như xe xăng; Weaver++ có nhông sên dĩa và cần tra nhớt định kỳ.",
+      "sha256": "c00ce0d8d5997b720849ffe52c59dcdf19efefe1177be14bc2aca249201c5182",
+      "verified_at": "2026-10-20T09:34:11.752945+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/dong-co-xe-may-dien/",
+      "supports": "Dat Bike (trang về động cơ): người dùng không cần thay nhớt, không lo vệ sinh bugi hay lọc gió; bảo dưỡng động cơ điện tập trung vào dây điện, vệ sinh và bộ truyền động.",
+      "sha256": "1eb5910ff584d3939fd8d13450cadd1d32ed0d4eabf3155ae7e59dcee7aab1c5",
+      "verified_at": "2026-10-20T09:34:13.330542+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn Dat Bike Quantum: dầu phanh chỉ định DOT 3 hoặc DOT 4; xích cần vệ sinh và bôi trơn bằng dung dịch chuyên dụng.",
+      "sha256": "ac94fe3ed316f103e53e5432bd19ff4ab03fb1a738bf12bc0e21783d719b9e85",
+      "verified_at": "2026-10-20T09:34:14.672905+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-bao-duong-xe-may-dien/",
+      "supports": "Yamaha Việt Nam (bài chung về bảo dưỡng xe máy điện): bảo dưỡng sau 1000km hoặc 6–8 tháng; các bộ phận cần kiểm tra là pin, lốp, phanh, tay ga, khung, yên.",
+      "sha256": "f489faa4ffa94fbdda0091357e329793ff835456f34cf24da882247c3622ff3b",
+      "verified_at": "2026-10-20T09:34:15.977364+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-20T09:34:45.234563+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
+  "inventory_sha256": "27726c7ddf8c4a14f0c731c2a04fdbcf5ed04e5b350d2bff82c90adf31da19ed",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

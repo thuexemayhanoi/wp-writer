@@ -1,0 +1,198 @@
+{
+  "topic_id": "NT-000833",
+  "status": "PASS",
+  "source_sha256": "3770719e7d0c97b2f0b7c49915d9644149d17abaf1ecdf2107c8659e0f44430d",
+  "body_sha256": "4a0b5fa1bc8ca3cce7088c1fd46fa089149999f1e3db677868e3314019d3d1e5",
+  "word_count": 2844,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/vi-sao-phanh-xe-dien-cung-cham-hon-xe-xang-4646910.html",
+      "supports": "VnExpress (28/8/2023, lược theo Auto Guide): xe xăng giảm tốc bằng phanh động cơ cộng phanh chính, xe điện bằng phanh tái sinh; mức nhẹ mượt nhưng phải dùng phanh nhiều hơn, mức nặng ghì như phanh động cơ; mỗi hãng chỉnh cảm giác phanh riêng; có thể chỉnh trên menu xe.",
+      "sha256": "eb084cf32d16720e49968046b8901e4001748a59b5d00bc4dd65bd6c19374472",
+      "verified_at": "2026-10-20T09:30:02.468493+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vnexpress.net/lai-oto-dien-it-phai-dung-phanh-nhu-xe-xang-4260473.html",
+      "supports": "VnExpress (9/4/2021): nhả ga thì xe giảm tốc ngay, nhanh và dứt khoát hơn nới chân ga ở xe truyền thống; lái một bàn đạp; dễ hơn khi giao thông đông, dừng nghỉ liên tục; trên đường trơn lốp dễ mất bám khi nhả ga.",
+      "sha256": "58883941a8af66aa7142b0115b3d55cffc1f09a767132c6d6b5918827f0bc03a",
+      "verified_at": "2026-10-20T09:30:04.411643+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://thanhnien.vn/dung-phanh-tai-sinh-tren-o-to-dien-the-nao-de-tranh-bi-uc-che-185250607220346367.htm",
+      "supports": "Thanh Niên (đăng năm 2025): phanh tái sinh chia hai hoặc ba cấp, phổ biến nhất ba (nhẹ, trung bình, cao); VinFast hai chế độ, BMW iX1 bốn; mức thấp hợp đô thị hoặc cao tốc, mức cao hợp đổ đèo nhưng có thể khó chịu ở phố nếu chưa quen.",
+      "sha256": "15edef8cb206e4f604d39eba1033ebda9ef63f5cdc6f4ef73d8a3905878f3b0d",
+      "verified_at": "2026-10-20T09:30:06.181687+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://thanhnien.vn/phanh-tai-sinh-trang-bi-khong-the-thieu-tren-o-to-dien-185240707115956295.htm",
+      "supports": "Thanh Niên (đăng năm 2024): nhiều hãng cho lái gần như không dùng chân phanh (một bàn đạp); khi cần mô men phanh lớn hơn, ECU chia lực phanh để tổng mô men giữa phanh ma sát và tái sinh luôn ở mức 100%.",
+      "sha256": "b8957997ff97001a200e3a8351c309d9e2e87aee1ec6aa9461393d317a258833",
+      "verified_at": "2026-10-20T09:30:08.874152+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Regenerative_braking",
+      "supports": "Wikipedia, bài Regenerative braking (đọc 19/10/2026): hệ thống tái sinh chưa mô phỏng trọn vẹn chức năng phanh thường; cách cài đặt ảnh hưởng cảm giác phanh; lo ngại nhầm bàn đạp ga với phanh ở chế độ một bàn đạp; phanh cơ vẫn cần để giảm tốc nhiều hoặc dừng xe.",
+      "sha256": "5950f68fd4bd68b14175ef3a022b399e69e9214c5d0e73c26b339f5974afc522",
+      "verified_at": "2026-10-20T09:30:09.323293+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/id49ebc9c5d27.html",
+      "supports": "Sổ hướng dẫn trực tuyến của Hyundai (mã NE1a, bản 2025), trang Power-Assist Brakes: khi xuống dốc dài hoặc dốc đứng dùng lẫy tăng mức tái sinh để giảm tốc mà không dùng bàn đạp phanh quá nhiều; không đặt chân nghỉ trên bàn đạp phanh vì làm phanh nóng, mòn má phanh và tăng quãng dừng.",
+      "sha256": "2482fce60abab800caa41ee9c513470de3108b41a07a7035c7b5160744e8ab4b",
+      "verified_at": "2026-10-20T09:30:09.889782+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://ownersmanual.hyundai.com/full_webhelp/NX4PHEV/2026/en_US/topic_zg4_xft_t5b.html",
+      "supports": "Sổ hướng dẫn trực tuyến của Hyundai (mã NX4PHEV, bản 2026), trang Regenerative braking system limitations: mức tái sinh ban đầu đổi theo chế độ lái (ECO lẫy chỉnh tái sinh, SPORT lẫy sang số tay); không đổi được mức khi kéo hai lẫy cùng lúc, khi đang đạp phanh hoặc khi Smart Cruise Control bật; tái sinh bị giới hạn khi pin đầy, giới hạn kéo dài hơn khi pin quá lạnh hoặc quá nóng; phanh thủy lực vẫn dùng bình thường.",
+      "sha256": "0bd31f17f44750faf402697590c1d14d575fc251a3a2d5a41416f7d1eef0b2c9",
+      "verified_at": "2026-10-20T09:30:10.207883+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.kia.com/content/dam/kia2/in/en/content/ev6-manual/topics/chapter6_4_3.html",
+      "supports": "Sổ hướng dẫn trực tuyến Kia EV6 (bản tiếng Anh, Ấn Độ), mục i-Pedal: i-Pedal điều khiển bằng chân ga, bật bằng cách kéo lẫy trái lên mức 3 rồi kéo thêm một lần; không chỉ dựa vào một bàn đạp để dừng xe; tránh tăng mức tái sinh đột ngột trên đường trơn; đạp phanh khi dừng hoặc đỗ bằng i-Pedal trên dốc đứng.",
+      "sha256": "71f7060f90faea8dc44087f862a11de45c34365decbde9eb81a9b482be3b64e2",
+      "verified_at": "2026-10-20T09:30:10.880639+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn xe Quantum của Dat Bike: phanh động cơ ở tay ga, nhả ga càng nhiều xe ghì càng mạnh; chỉ hoạt động ở chế độ D và S.",
+      "sha256": "ac94fe3ed316f103e53e5432bd19ff4ab03fb1a738bf12bc0e21783d719b9e85",
+      "verified_at": "2026-10-20T09:30:12.667059+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2584,
+        "title": "Honda Vision có phù hợp khách du lịch di chuyển trong Hà Nội không?",
+        "why": "stale",
+        "content_hash": "1b0da83421e494f9d8ee85b9bcd1582804c1209b75ed3f4defded42f09ef81f1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2622,
+        "title": "Hoàng thành Thăng Long có gì? Giá vé, giờ mở cửa và cách tham quan",
+        "why": "stale",
+        "content_hash": "1d198ab7452c92604271329801956283c798cb81955fe394ef94bb66188faaf3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4059,
+        "title": "Thuê xe máy đi phỏng vấn ở Hà Nội trong một ngày: xếp lịch, chọn xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "0ffbbff60edf006739890cca423af4e81cb5346ee434c29859648be6bdb57675",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T09:30:25.913922+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
+  "inventory_sha256": "a9d3dab0498c51af57a9ac8dcdf4f45e5fa740d52049a6cdd94145ae1dcb0e33",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

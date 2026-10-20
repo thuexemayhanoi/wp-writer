@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-20T09:27:29.976674+00:00",
-  "attempted": 2,
+  "at": "2026-10-20T09:37:11.820460+00:00",
+  "attempted": 7,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -22,6 +22,14 @@
         }
       },
       "action": "manual reconciliation; never create/update automatically"
+    },
+    {
+      "topic_id": "NT-000833",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 168,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-tech",
+      "category_warning": null
     },
     {
       "topic_id": "NT-000845",
@@ -106,7 +114,7 @@
           "url": "https://vnexpress.net/cam-nang-du-lich-do-son-5077128.html",
           "supports": "Cẩm nang du lịch biển Đồ Sơn của VnExpress (đăng 31/5/2026, cập nhật 2/6/2026): Đồ Sơn thuộc Hải Phòng, cách trung tâm Hải Phòng khoảng 20 km và cách Hà Nội 120 km; lễ hội chọi trâu diễn ra ngày 9/8 âm lịch hằng năm ở sân vận động trung tâm phường Đồ Sơn, phần hội có 16 'ông trâu' thi đấu và người dân, khách vào cửa tự do; từ tháng 9 biển bắt đầu lạnh nhưng khách đổ về nhờ lễ hội, đẹp nhất là tháng 5 đến 8, tháng 10 đến tháng 4 không thích hợp tắm biển; cuối tuần đông, dễ tắc đường vào khu 2 và 3, gửi xe ở bãi có quản lý; từ trung tâm Hải Phòng đi đường Phạm Văn Đồng (ĐT353) gần 20 km, 20 đến 30 phút; xe máy là lựa chọn phổ biến để đi lại trong Đồ Sơn; hỏi giá hải sản trước | Cùng cẩm nang VnExpress 31/5/2026: tháng 9 biển bắt đầu lạnh nhưng là dịp khách đổ về Đồ Sơn nhờ lễ hội chọi trâu; thời điểm đẹp nhất để đến Đồ Sơn là tháng 5 đến 8 | Cùng cẩm nang VnExpress 31/5/2026: cuối tuần Đồ Sơn khá đông, dễ tắc đường vào khu 2 và khu 3; nên gửi xe ở bãi có quản lý, không đỗ tự phát",
           "sha256": "826a200a0f13c4c8f7b88b29b1eca7aec88f4a32284bbb43ce3bfcf8875ac314",
-          "verified_at": "2026-10-20T09:25:35.134773+00:00",
+          "verified_at": "2026-10-20T09:30:44.157149+00:00",
           "verification_method": "live",
           "live_checked": true
         },
@@ -114,7 +122,7 @@
           "url": "https://vnexpress.net/cam-nang-du-lich-hai-phong-4462112.html",
           "supports": "Cẩm nang du lịch Hải Phòng của VnExpress (cập nhật 31/5/2026, bài gốc 29/7/2022): Hải Phòng cách Hà Nội 120 km; đường bộ qua cao tốc Hà Nội - Hải Phòng (CT04/QL5B) khoảng 1,5 giờ nhưng 'đường chỉ dành cho ôtô', 'các phương tiện khách di chuyển theo QL5 cũ'; trang không nêu riêng xe máy; du khách đi tàu có thể gửi xe máy để chủ động phương tiện ở Hải Phòng | Cùng cẩm nang Hải Phòng của VnExpress: người đi tàu hỏa từ Hà Nội có thể gửi xe máy để chủ động phương tiện ở Hải Phòng; Hải Phòng cách Hà Nội 120 km",
           "sha256": "03185241bf6f960e9675a3e739af8367aa4a1bb00651731da2e472ce710fc59e",
-          "verified_at": "2026-10-20T09:25:36.757572+00:00",
+          "verified_at": "2026-10-20T09:30:45.615636+00:00",
           "verification_method": "live",
           "live_checked": true
         }
@@ -171,11 +179,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-20T09:25:48.514355+00:00",
+      "at": "2026-10-20T09:30:52.152987+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
-      "inventory_sha256": "529252d7f53534a24e1466f7d8f629617b12bebf8cb9f9cb296ad0ad61e603ce",
+      "inventory_sha256": "3c134d3c0195e4d1aa294ef288055570fab097d51cfed2827d3a57a70890226b",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -193,7 +201,271 @@
       }
     },
     {
-      "topic_id": "NT-000936",
+      "topic_id": "NT-000931",
+      "status": "FAIL",
+      "source_sha256": "6a305e536ff38df829a3b3b6dc70a41344bf22425b88d80335fb5b22a48d4139",
+      "body_sha256": "eef51eea7cb38d407a2bf3e5011e863f8f0d1bff87ea7186b57db18e285f6f48",
+      "word_count": 3102,
+      "quality_score": 40,
+      "seo_score": 100,
+      "seo_min_required": 85,
+      "seo_checks": {
+        "seo_title_relevance": {
+          "points": 15,
+          "max": 15
+        },
+        "meta_description_relevance": {
+          "points": 15,
+          "max": 15
+        },
+        "opening_intent_focus": {
+          "points": 15,
+          "max": 15
+        },
+        "direct_answer": {
+          "points": 10,
+          "max": 10
+        },
+        "headings_usefulness": {
+          "points": 15,
+          "max": 15
+        },
+        "verified_contextual_links": {
+          "points": 15,
+          "max": 15
+        },
+        "descriptive_anchor": {
+          "points": 5,
+          "max": 5
+        },
+        "canonical_identity": {
+          "points": 10,
+          "max": 10
+        }
+      },
+      "seo_recommendations": [],
+      "gates": {
+        "1": {
+          "errors": [],
+          "review": []
+        },
+        "2": {
+          "errors": [],
+          "review": []
+        },
+        "3": {
+          "errors": [],
+          "review": [
+            "Source REVIEW: TimeoutError",
+            "Source REVIEW: URLError timed out (host already unreachable in this run)",
+            "Source REVIEW: URLError timed out (host already unreachable in this run)",
+            "Source REVIEW: URLError timed out (host already unreachable in this run)"
+          ]
+        },
+        "4": {
+          "errors": [],
+          "review": []
+        },
+        "5": {
+          "errors": [],
+          "review": []
+        },
+        "6": {
+          "errors": [],
+          "review": []
+        }
+      },
+      "errors": [],
+      "review": [
+        "Source REVIEW: TimeoutError",
+        "Source REVIEW: URLError timed out (host already unreachable in this run)",
+        "Source REVIEW: URLError timed out (host already unreachable in this run)",
+        "Source REVIEW: URLError timed out (host already unreachable in this run)"
+      ],
+      "source_evidence": [
+        {
+          "url": "https://vinfastauto.com/vn_vi/cach-sac-pin-xe-may-dien-vinfast-evo200-lite",
+          "supports": "Trang VinFast Evo200 Lite: nên cắm sạc vào xe trước, sau đó cắm phích nguồn vào ổ điện; cắm dứt khoát để tránh kết nối chập chờn; khi rút tắt xe trước rồi rút phích điện và giắc sạc; chờ tối thiểu 30 giây trước khi bật khóa điện; rút đột ngột thì đợi ít nhất 10 giây.",
+          "sha256": "15c8a6ff50bcd5cd6db2abd9464a08edc643017594cdef6c15db732d8a09db01",
+          "research_checked_at": "2026-10-17",
+          "verification_method": "research_snapshot_fallback",
+          "live_checked": false,
+          "network_error": "HTTPError"
+        },
+        {
+          "url": "https://vinfastauto.com/vn_vi/huong-dan-su-dung-pin-lithium-vinfast-dung-cach",
+          "supports": "Trang hướng dẫn pin lithium VinFast: cắm đầu sạc vào xe rồi cắm phích vào ổ điện, thao tác dứt khoát vì kết nối chập chờn làm bộ sạc chuyển về chế độ tự bảo vệ; để rút sạc tắt xe, rút phích điện rồi giắc sạc; đợi ít nhất 30 giây sau khi cắm sạc mới bật khóa xe.",
+          "sha256": "8a20f6d2efd236773b2d21adfa4b30b5aa7875aa956930afd30098e61c764071",
+          "research_checked_at": "2026-10-17",
+          "verification_method": "research_snapshot_fallback",
+          "live_checked": false,
+          "network_error": "HTTPError"
+        },
+        {
+          "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+          "supports": "Dat Bike nêu quy tắc cắm sạc: cắm đầu sạc vào ổ điện trước, sau đó mới cắm phích vào xe.",
+          "sha256": "0f548a2d957b60a67e6ebedf06b634d0ac4677b2ff843c447af7f49b2a5f7ad3",
+          "verified_at": "2026-10-20T09:30:55.801745+00:00",
+          "verification_method": "live",
+          "live_checked": true
+        },
+        {
+          "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+          "supports": "Dat Bike giải thích thứ tự cắm ổ điện trước là để ngăn nguy cơ hồ quang điện và bảo vệ cổng sạc của xe.",
+          "sha256": "0f548a2d957b60a67e6ebedf06b634d0ac4677b2ff843c447af7f49b2a5f7ad3",
+          "verified_at": "2026-10-20T09:30:57.283786+00:00",
+          "verification_method": "live",
+          "live_checked": true
+        },
+        {
+          "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+          "supports": "Dat Bike, quy tắc rút sạc: tắt khóa xe trước, rút phích điện xong mới rút giắc sạc ra khỏi xe.",
+          "sha256": "0f548a2d957b60a67e6ebedf06b634d0ac4677b2ff843c447af7f49b2a5f7ad3",
+          "verified_at": "2026-10-20T09:30:58.640828+00:00",
+          "verification_method": "live",
+          "live_checked": true
+        },
+        {
+          "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+          "supports": "Dat Bike: muốn bật khóa xe hoặc dùng xe thì đợi ít nhất 30 giây sau khi đã cắm sạc vào xe hoặc pin.",
+          "sha256": "0f548a2d957b60a67e6ebedf06b634d0ac4677b2ff843c447af7f49b2a5f7ad3",
+          "verified_at": "2026-10-20T09:30:59.994885+00:00",
+          "verification_method": "live",
+          "live_checked": true
+        },
+        {
+          "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+          "supports": "Dat Bike, các bước sạc: kết nối bộ cắm của bộ sạc vào ổ điện trước rồi kết nối đầu cắm vào cổng sạc xe; trước khi cắm, xe phải tắt hoàn toàn và khóa điện ở chế độ OFF.",
+          "sha256": "0f548a2d957b60a67e6ebedf06b634d0ac4677b2ff843c447af7f49b2a5f7ad3",
+          "verified_at": "2026-10-20T09:31:01.159551+00:00",
+          "verification_method": "live",
+          "live_checked": true
+        },
+        {
+          "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+          "supports": "Dat Bike: khi sạc nếu có mùi lạ, tiếng kêu lạ hoặc nhiệt độ tăng quá cao thì dừng sạc ngay và liên hệ nhà sản xuất.",
+          "sha256": "0f548a2d957b60a67e6ebedf06b634d0ac4677b2ff843c447af7f49b2a5f7ad3",
+          "verified_at": "2026-10-20T09:31:02.567790+00:00",
+          "verification_method": "live",
+          "live_checked": true
+        },
+        {
+          "url": "https://www.yadea.com.vn/xe-may-dien-sac-bao-lau-thi-day/",
+          "supports": "Yadea Việt Nam (bài 29/07/2026): trình tự cắm sạc là cắm đầu sạc vào xe trước, sau đó mới cắm phích vào ổ điện.",
+          "sha256": "b004bdf1909b7c24067eecf3632e50098ef6f021278565f0043d71c0eed39a28",
+          "verified_at": "2026-10-20T09:31:05.686072+00:00",
+          "verification_method": "live",
+          "live_checked": true
+        },
+        {
+          "url": "https://www.yadea.com.vn/xe-may-dien-sac-bao-lau-thi-day/",
+          "supports": "Yadea: khi rút sạc làm ngược lại, rút từ ổ điện ra trước, để tránh hiện tượng sốc điện (phóng tia lửa).",
+          "sha256": "b004bdf1909b7c24067eecf3632e50098ef6f021278565f0043d71c0eed39a28",
+          "verified_at": "2026-10-20T09:31:06.717481+00:00",
+          "verification_method": "live",
+          "live_checked": true
+        },
+        {
+          "url": "https://www.yadea.com.vn/xe-may-dien-sac-bao-lau-thi-day/",
+          "supports": "Yadea dặn dùng bộ sạc chính hãng, không dùng sạc trôi nổi hay sạc không đúng thông số điện áp của xe.",
+          "sha256": "b004bdf1909b7c24067eecf3632e50098ef6f021278565f0043d71c0eed39a28",
+          "verified_at": "2026-10-20T09:31:07.133947+00:00",
+          "verification_method": "live",
+          "live_checked": true
+        },
+        {
+          "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+          "supports": "Yamaha NEO's, cách sạc pin gắn trên xe: bước 4 là kết nối phích cắm điện vào ổ cắm, trước khi cắm phích sạc vào đầu nối sạc ở bước 6.",
+          "sha256": "0f0c709710d8de0a99afe69dd823ec5d24ae98a598e50aeba88b2dd26dc4326e",
+          "verified_at": "2026-10-20T09:31:10.648009+00:00",
+          "verification_method": "live",
+          "live_checked": true
+        },
+        {
+          "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+          "supports": "Yamaha NEO's, cách sạc pin tháo rời: bước 6 kết nối phích cắm điện vào ổ cắm, nguồn thích hợp AC220–240V, trước khi cắm phích sạc vào đầu nối ở bước 8.",
+          "sha256": "0f0c709710d8de0a99afe69dd823ec5d24ae98a598e50aeba88b2dd26dc4326e",
+          "verified_at": "2026-10-20T09:31:11.859356+00:00",
+          "verification_method": "live",
+          "live_checked": true
+        },
+        {
+          "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+          "supports": "Yamaha NEO's: bước 1 của cả hai cách sạc là tắt khóa điện của xe; khi pin đầy, rút phích cắm sạc thẳng ra khỏi đầu nối sạc.",
+          "sha256": "0f0c709710d8de0a99afe69dd823ec5d24ae98a598e50aeba88b2dd26dc4326e",
+          "verified_at": "2026-10-20T09:31:13.071562+00:00",
+          "verification_method": "live",
+          "live_checked": true
+        },
+        {
+          "url": "https://vgreen.net/vi/cau-hoi-thuong-gap",
+          "supports": "V-GREEN (trang FAQ): tại trụ công cộng tắt máy, nối bộ sạc vào xe rồi cắm sạc vào ổ cắm trên trụ; khi rút tắt máy xe, rút phích điện rồi đến đầu cắm sạc, chờ ít nhất 30 giây rồi bật khóa; rút đột ngột chờ 10 giây hoặc 1 phút.",
+          "sha256": "798b4a9b0f7526044fef6d3da991a7b43e3042e5f24ae8c85dfbd9839c4ec869",
+          "research_checked_at": "2026-10-19",
+          "verification_method": "research_snapshot_fallback",
+          "live_checked": false,
+          "network_error": "HTTPError"
+        }
+      ],
+      "evidence_recheck": {
+        "pages": [
+          {
+            "id": 2343,
+            "title": "Xe máy điện: các hãng nổi bật và cách chọn xe phù hợp nhất",
+            "why": "stale",
+            "content_hash": "c6618e9c49c5f2f25650deea3da4d70c0b7ac0a3821f5dc81a038f2aae0716d7",
+            "jaccard": 0.0,
+            "intent_match": null,
+            "verdict": "INDEPENDENT"
+          },
+          {
+            "id": 2613,
+            "title": "Thuê Xe Máy Du Lịch Hà Nội: Hướng Dẫn Toàn Diện Từ A–Z Cho Người Lần Đầu",
+            "why": "stale",
+            "content_hash": "bba381bbf7c63d362331437ee0e9ba63294ca01b4eb144c43fe71ca1f20731a0",
+            "jaccard": 0.0,
+            "intent_match": null,
+            "verdict": "INDEPENDENT"
+          },
+          {
+            "id": 4047,
+            "title": "Thuê xe máy Hà Nội 2 ngày 1 đêm: tính tiền theo mốc nào và trả xe lúc nào?",
+            "why": "stale",
+            "content_hash": "ff3360a833efc7ccb2778f577426a6ccdec6c16a3c8c30c58243ba9e9175e695",
+            "jaccard": 0.0,
+            "intent_match": null,
+            "verdict": "INDEPENDENT"
+          }
+        ],
+        "independent": true,
+        "max_jaccard": 0.25,
+        "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+      },
+      "at": "2026-10-20T09:32:29.049688+00:00",
+      "live_links_checked": true,
+      "legal_required": false,
+      "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
+      "inventory_sha256": "3c134d3c0195e4d1aa294ef288055570fab097d51cfed2827d3a57a70890226b",
+      "triage": {
+        "hold_class": "INFRA_PENDING",
+        "real_risk": [],
+        "writer_repair": [],
+        "infra_pending": [
+          "G3: Source REVIEW: TimeoutError",
+          "G3: Source REVIEW: URLError timed out (host already unreachable in this run)",
+          "G3: Source REVIEW: URLError timed out (host already unreachable in this run)",
+          "G3: Source REVIEW: URLError timed out (host already unreachable in this run)"
+        ]
+      },
+      "recheck": {
+        "attempts": 1,
+        "max": 3,
+        "exhausted": false,
+        "needs_owner": false
+      }
+    },
+    {
+      "topic_id": "NT-000937",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 169,
       "category_resolution": "EXACT",
@@ -281,7 +553,7 @@
           "url": "https://tuoitre.vn/tam-dung-to-chuc-vao-lang-vieng-chu-tich-ho-chi-minh-tu-ngay-4-9-de-tu-bo-dinh-ky-100260809174846229.htm",
           "supports": "Tuổi Trẻ (9/8/2026) dẫn thông báo của Bộ Tư lệnh Lăng: tu bổ định kỳ 4/9–2/11/2026, mở cửa lại 3/11/2026, lịch viếng các buổi sáng thứ ba, tư, năm, bảy và chủ nhật, giờ viếng mùa nóng và mùa lạnh.",
           "sha256": "7ffc3e7a2db5ef00a646cb5831c4213ed8cde9fc6818cb0771f60161011ebe73",
-          "verified_at": "2026-10-20T09:26:22.574071+00:00",
+          "verified_at": "2026-10-20T09:33:31.298985+00:00",
           "verification_method": "live",
           "live_checked": true
         },
@@ -289,7 +561,7 @@
           "url": "https://thanhnien.vn/cong-bo-phap-lenh-quan-ly-bao-ve-khu-di-tich-lang-chu-tich-ho-chi-minh-185250403105602595.htm",
           "supports": "Thanh Niên (3/4/2025) thuật điều 17 của pháp lệnh về Khu Di tích Lăng: lịch viếng thường xuyên và việc hằng năm có một đợt 2–3 tháng không tổ chức lễ viếng để giữ gìn thi hài và bảo dưỡng công trình.",
           "sha256": "7444e70598c7d2e581c4d4754ec854295588ad923c9e8f9fc471aac10cefc99f",
-          "verified_at": "2026-10-20T09:26:29.220658+00:00",
+          "verified_at": "2026-10-20T09:33:36.904835+00:00",
           "verification_method": "live",
           "live_checked": true
         }
@@ -319,11 +591,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-20T09:26:33.976628+00:00",
+      "at": "2026-10-20T09:33:40.836576+00:00",
       "live_links_checked": true,
       "legal_required": false,
       "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
-      "inventory_sha256": "9de47072674cfb7def38efb2cd7f8c8025aeea2fbb7aa349f5ae074a60ee513a",
+      "inventory_sha256": "daedd3659567b6adb8c6376ace4fcbe74aa728d26331579a7305d8d7a05cbe08",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -340,11 +612,43 @@
       }
     },
     {
-      "topic_id": "NT-001066",
+      "topic_id": "NT-001062",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 160,
       "category_resolution": "EXACT",
       "intended_taxonomy_key": "electric-maintenance",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001067",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 160,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001096",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 126,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "destinations",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001097",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 126,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "destinations",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001098",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 126,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "destinations",
       "category_warning": null
     }
   ],
