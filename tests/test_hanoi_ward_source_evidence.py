@@ -10,7 +10,7 @@ from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from qa import read_article
+from qa import read_article, source_excerpt_matches
 
 
 class HanoiWardEvidenceIntegrityTests(unittest.TestCase):
@@ -44,6 +44,31 @@ class HanoiWardEvidenceIntegrityTests(unittest.TestCase):
                 )
                 self.assertGreater(len(law["evidence_text"].split()), 10)
                 self.assertEqual(len(law["source_sha256"]), 64)
+
+
+class VerifiedSourceExcerptMatchingTests(unittest.TestCase):
+    def test_complete_citation_still_requires_exact_prose(self):
+        actual = (
+            "Điều 56. Điều kiện của người điều khiển phương tiện tham gia giao thông đường bộ "
+            "1. Người lái xe tham gia giao thông đường bộ phải đủ tuổi, sức khỏe theo quy định "
+            "của pháp luật; có giấy phép lái xe đang còn điểm, còn hiệu lực phù hợp với loại xe "
+            "đang điều khiển do cơ quan có thẩm quyền cấp."
+        )
+        self.assertTrue(source_excerpt_matches(actual, actual))
+
+    def test_clipped_final_word_is_accepted_only_with_full_prior_context(self):
+        actual = (
+            "Điều 56. Điều kiện của người điều khiển phương tiện tham gia giao thông đường bộ "
+            "1. Người lái xe tham gia giao thông đường bộ phải đủ tuổi, sức khỏe theo quy định "
+            "của pháp luật; có giấy phép lái xe đang còn điểm, còn hiệu lực phù hợp với loại xe "
+            "đang điều khiển do cơ quan có thẩm quyền cấp."
+        )
+        clipped = actual.split("loại xe")[0] + "lo"
+        self.assertGreaterEqual(len(clipped), 120)
+        self.assertTrue(source_excerpt_matches(clipped, actual))
+        self.assertFalse(source_excerpt_matches(clipped, actual.replace("đủ tuổi", "không đủ tuổi")))
+        self.assertFalse(source_excerpt_matches(clipped[:-2] + "xa", actual))
+        self.assertFalse(source_excerpt_matches("Người lái xe tham gia giao thông đường bộ phải đủ tu", actual))
 
 
 if __name__ == "__main__":
