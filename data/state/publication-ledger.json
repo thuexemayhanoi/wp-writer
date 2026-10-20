@@ -17137,6 +17137,25 @@
         "seo_description": "Giá thuê Honda Vision theo ngày khác tổng tiền được báo? Phân biệt phí thuê, tiền cọc, giao nhận và giờ trả để hỏi lại đúng khoản trước khi nhận xe.",
         "checked_at": "2026-10-20T14:24:39.691931+00:00"
       }
+    },
+    "NT-090003": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-20T14:25:10.972068+00:00",
+      "source_hash": "c771d369fbe09817a0cb7019e51d04089e19cd158be54edb5b87172a6571badf",
+      "slug": "xe-50cc-cho-nguoi-thap-kiem-tra-chong-chan-va-dat-xe",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 165,
+      "visible_hash": "b04f23faebb3b7a70ca201fe0c45d72a8451f00dc514320d62eeffbcb332fb8b",
+      "first_paragraph": "Xe 50cc cho người thấp chỉ phù hợp một chuyến ngắn trong thành phố nếu người lái có thể chống chân vững, tự dắt xe tiến lùi, kiểm soát phanh và quay đầu chậm với chiếc xe thực tế. Dung tích 50cc không bảo đảm yên thấp hoặc xe nhẹ; phải xét vóc dáng, kỹ năng, tuyến đường, tình trạng xe và điều kiện độ tuổi. Nếu không tự giữ được xe khi đứng yên hoặc chưa đủ điều kiện điều khiển, không nên thuê chỉ vì mẫu xe trông nhỏ.",
+      "meta_title": "Xe 50cc cho người thấp: cách thử chống chân khi thuê",
+      "meta_description": "Xe 50cc cho người thấp có phù hợp đi phố? Hướng dẫn thử chống chân, dắt lùi, kiểm tra phanh và chọn tuyến ngắn; lưu ý điều kiện sử dụng hiện hành.",
+      "intended_taxonomy_key": "rental-50cc",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "ed01fb31ae499e9a6292fd9f057881acc471f630",
+      "run_id": "39438057013",
+      "updated_at": "2026-10-20T14:25:10.973500+00:00"
     }
   },
   "categories": {}
