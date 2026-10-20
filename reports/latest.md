@@ -4,15 +4,15 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-20T20:17:40.666739+00:00 |
-| existing_published_posts | 557 |
+| at | 2026-10-20T20:23:07.612190+00:00 |
+| existing_published_posts | 567 |
 | existing_pages | 10 |
 | existing_products | 13 |
 | candidate_topics | 527 |
 | planned_topics | 454 |
 | claimable_topics | 9 |
 | ready_stock | 3 |
-| stock_stages | {'IDEA': 300, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 3, 'PLANNED_HOLD': 3, 'CLAIMED': 28, 'AUTHORED': 3, 'QA_PASS': 3, 'PUBLISHED': 414, 'WP_DRAFT': 0} |
+| stock_stages | {'IDEA': 300, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 3, 'PLANNED_HOLD': 3, 'CLAIMED': 28, 'AUTHORED': 3, 'QA_PASS': 0, 'PUBLISHED': 417, 'WP_DRAFT': 0} |
 | needs_research | True |
 | research_shortfall | 897 |
 | refill_trigger_below_ready | 900 |
@@ -27,11 +27,11 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | qa_review | 0 |
 | repair_queue | 3 |
 | held_by_class | {'REAL_RISK': 3} |
-| g7_pass | 389 |
+| g7_pass | 392 |
 | g7_not_recorded | 25 |
 | wordpress_draft | 0 |
-| wordpress_published | 414 |
-| verified_public | 414 |
+| wordpress_published | 417 |
+| verified_public | 417 |
 | indexed | None |
 | topic_collisions | 1 |
 | category_mapping_errors | 0 |
@@ -43,12 +43,12 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | delivery_mode | production |
 | production_enabled | True |
 | draft_staging_enabled | False |
-| qa_pass_live_checked | 70 |
-| qa_pass_awaiting_wordpress | 3 |
-| queued_topic_ids | ['NT-001093', 'NT-001094', 'NT-001095'] |
+| qa_pass_live_checked | 73 |
+| qa_pass_awaiting_wordpress | 0 |
+| queued_topic_ids | [] |
 | pending_wordpress_intents | [] |
 | blocked_writer_sessions | [] |
-| last_wordpress_verified_at | 2026-10-20T20:17:34.294530+00:00 |
+| last_wordpress_verified_at | 2026-10-20T20:22:34.174449+00:00 |
 | capacity | 10000 |
 | authenticated_inventory | True |
 | test_drafts_excluded | 2 |

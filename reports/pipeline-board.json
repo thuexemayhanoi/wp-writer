@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-20T20:17:41.249544+00:00",
+  "at": "2026-10-20T20:23:08.382224+00:00",
   "counts": {
     "WRITING": 28,
     "QA": 0,
-    "READY": 3,
+    "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 414
+    "VERIFIED": 417
   },
-  "ready_backlog": 3,
-  "in_flight": 34,
+  "ready_backlog": 0,
+  "in_flight": 31,
   "items": [
     {
       "topic_id": "NT-000731",
@@ -347,42 +347,6 @@
       "url": null,
       "qa_status": null,
       "seo_score": null
-    },
-    {
-      "topic_id": "NT-001093",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Đền Đô ở Bắc Ninh: đền thờ tám vị vua Lý, khu lăng mộ cách 800 m và hội đền tháng Ba âm lịch",
-      "slot": "W8",
-      "session": "seodev-w45",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001094",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Chùa Bút Tháp ở Bắc Ninh: Quan Âm nghìn mắt nghìn tay, Cửu phẩm liên hoa và bốn bảo vật quốc gia",
-      "slot": "W8",
-      "session": "seodev-w45",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001095",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Tranh Đông Hồ ở Bắc Ninh: UNESCO ghi danh 9/12/2025, cách in năm màu trên giấy dó và hiện trạng nghề",
-      "slot": "W8",
-      "session": "seodev-w45",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
     },
     {
       "topic_id": "NT-001101",
@@ -5289,6 +5253,42 @@
       "session": "seodev-w37",
       "wp_id": 4341,
       "url": "https://thuexemaynguyentu.com/tau-5-cua-o-di-den-do-hanh-trinh-3-5-gio-gio-khoi-hanh-muc-ve-theo-toa-va-so-voi-di-xe-may/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001093",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đền Đô ở Bắc Ninh: đền thờ tám vị vua Lý, khu lăng mộ cách 800 m và hội đền tháng Ba âm lịch",
+      "slot": "W8",
+      "session": "seodev-w45",
+      "wp_id": 4396,
+      "url": "https://thuexemaynguyentu.com/den-do-o-bac-ninh-den-tho-tam-vi-vua-ly-khu-lang-mo-cach-800-m-va-hoi-den-thang-ba-am-lich/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001094",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Chùa Bút Tháp ở Bắc Ninh: Quan Âm nghìn mắt nghìn tay, Cửu phẩm liên hoa và bốn bảo vật quốc gia",
+      "slot": "W8",
+      "session": "seodev-w45",
+      "wp_id": 4397,
+      "url": "https://thuexemaynguyentu.com/chua-but-thap-o-bac-ninh-quan-am-nghin-mat-nghin-tay-cuu-pham-lien-hoa-va-bon-bao-vat-quoc-gia/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001095",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Tranh Đông Hồ ở Bắc Ninh: UNESCO ghi danh 9/12/2025, cách in năm màu trên giấy dó và hiện trạng nghề",
+      "slot": "W8",
+      "session": "seodev-w45",
+      "wp_id": 4398,
+      "url": "https://thuexemaynguyentu.com/tranh-dong-ho-o-bac-ninh-unesco-ghi-danh-9-12-2025-cach-in-nam-mau-tren-giay-do-va-hien-trang-nghe/",
       "qa_status": "PASS",
       "seo_score": 100
     },
