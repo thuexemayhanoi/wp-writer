@@ -18068,6 +18068,25 @@
         "seo_description": "Cầu Thăng Long tháng 10 đến 12/2026: cấm xe tải, xe khách 5h-22h đến 10/11, thi công đêm 22h-5h từ 22/10 đến 15/12 và điều thông báo chưa nói về xe máy.",
         "checked_at": "2026-10-20T19:56:25.583747+00:00"
       }
+    },
+    "NT-000933": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-20T19:57:02.337788+00:00",
+      "source_hash": "d025a2d8adf9f6147cdf41c27bd61995b6ce5b6cacd95481909d4baf048d970f",
+      "slug": "o-cam-de-sac-xe-may-dien-tai-nha-dat-bike-dan-o-chiu-20-a-hoac-3-000-w-evn-va-pccc-dan-gi-them",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 167,
+      "visible_hash": "e1955f44e21b5493abad1172ff5952d50843971cee65c832e53442766c1b51c4",
+      "first_paragraph": "Ổ cắm để sạc xe máy điện tại nhà nên là ổ chắc chắn, khô ráo, đủ tải và không cắm chung với thiết bị khác: Dat Bike dặn dùng ổ điện âm tường hoặc ổ chịu được dòng 20 A hoặc công suất 3.000 W và không dùng chung ổ khi sạc; bài đăng trên trang EVN năm 2019 về ổ cắm gia dụng dặn phích phải vừa khít, ổ để xa nước và phải thay ổ khi có mùi nhựa nóng, tia lửa hay vết cháy xém; Cục Cảnh sát PCCC và CNCH xếp ổ sạc ẩm ướt, nơi sạc không thông thoáng và dây dẫn đấu nối không đạt yêu cầu kỹ thuật vào nhóm nguyên nhân gây chập cháy. Mức 20 A hoặc 3.000 W là lời dặn của Dat Bike cho xe của hãng, không phải con số chung cho mọi xe máy điện.",
+      "meta_title": "Ổ cắm sạc xe máy điện tại nhà: Dat Bike, EVN và PCCC dặn gì?",
+      "meta_description": "Ổ cắm để sạc xe máy điện tại nhà: Dat Bike dặn ổ âm tường hoặc ổ chịu 20 A, 3.000 W và không dùng chung; EVN, PCCC dặn thêm về phích, nước, dây dẫn và dấu hiệu phải thay ổ.",
+      "intended_taxonomy_key": "battery-charging",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "3295b4cc630d235cc2fd44103933e7943aa0a383",
+      "run_id": "39486964027",
+      "updated_at": "2026-10-20T19:57:02.339763+00:00"
     }
   },
   "categories": {}
