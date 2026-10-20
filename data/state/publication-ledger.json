@@ -19293,6 +19293,25 @@
         "seo_description": "Dat Ride Predictor của Dat Bike trên xe Quantum dự báo quãng đường còn lại theo thói quen lái, nên cùng số % pin thì số km dự báo vẫn khác nhau giữa các xe.",
         "checked_at": "2026-10-20T20:17:12.650572+00:00"
       }
+    },
+    "NT-001078": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-20T20:17:25.120501+00:00",
+      "source_hash": "ed427ca93107163368aab0671fe61ad2739aee54df930448b6001316de3d45ff",
+      "slug": "nhieu-nguoi-dung-chung-mot-xe-dat-bike-chi-mot-dien-thoai-ket-noi-cung-luc-va-cach-ghep-noi-lai",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 168,
+      "visible_hash": "152decb156c1c34f17702e3d26bcf61e3434322605fba29d4b032218c2e322e7",
+      "first_paragraph": "Dùng chung xe máy điện qua ứng dụng Dat Bike là được, nhưng ở cùng một thời điểm chỉ một điện thoại được kết nối với xe: theo hướng dẫn sử dụng Dat Bike ERA, Quantum S và Quantum đọc ngày 20/10/2026, mỗi người đều có thể tải ứng dụng Dat Bike và kết nối với xe, còn muốn cài đặt cho người khác sử dụng xe thì làm lại thao tác ghép nối như lần đầu. Khi đổi người, chủ xe cần vô hiệu hóa Bluetooth hoặc hủy kết nối với xe trước khi người kia kết nối. Các sổ không nêu giới hạn số người, cách thu hồi quyền hay cách làm cho xe cho thuê, nên bài chỉ tóm lại điều sổ viết và đánh dấu rõ phần gợi ý của người viết.",
+      "meta_title": "Dùng chung xe máy điện qua ứng dụng Dat Bike: một điện thoại mỗi lúc",
+      "meta_description": "Dùng chung xe máy điện qua ứng dụng Dat Bike: mỗi người cài app nhưng một thời điểm chỉ một điện thoại kết nối; cách ghép nối lại, key tag RFID và điều sổ không nêu.",
+      "intended_taxonomy_key": "electric-tech",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "e89aece5f3081cd0a9ac6ccd246ce2fc1ec06ae6",
+      "run_id": "39489674662",
+      "updated_at": "2026-10-20T20:17:25.121783+00:00"
     }
   },
   "categories": {}
