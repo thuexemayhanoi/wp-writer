@@ -18509,6 +18509,25 @@
         "seo_description": "Sạc xe máy điện lúc trời nồm ẩm hoặc vừa đi mưa về: Yadea, Yamaha, Dat Bike, EVN và PCCC dặn gì về ổ cắm, phích, cổng sạc, pin bị ướt, sạc qua đêm và thời gian chờ.",
         "checked_at": "2026-10-20T20:05:16.811393+00:00"
       }
+    },
+    "NT-000935": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-20T20:05:32.385679+00:00",
+      "source_hash": "85b058a6cfa085f265c844e6e82677b8122c2801fe4b1395079b551f3fb019dc",
+      "slug": "doi-pin-tai-tram-tu-dong-selex-cac-buoc-tren-man-hinh-doi-hai-pin-lien-nhau-va-khi-tram-bao-loi",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 167,
+      "visible_hash": "b2e9968268d629f6cbb57683cd50b09f499e17f45b3348713d1fb44f675496e0",
+      "first_paragraph": "Đổi pin tại trạm tự động Selex, theo trang hướng dẫn của Selex, gồm sáu bước: mở ứng dụng Selex và đăng nhập, chạm màn hình trạm rồi quét mã QR, nhấn \"bắt đầu đổi pin\", bỏ pin hết năng lượng vào khoang trống vừa bật cửa sau khi kiểm tra đáy pin, chờ khoang mới mở để lấy pin đầy, lặp lại theo số pin muốn đổi rồi đăng xuất. Khi đổi hai pin liền nhau, điểm dễ sai nhất là nhét pin cũ còn lại vào khoang trống đã mở: Selex cảnh báo trạm sẽ nuốt pin, không trả pin cũ và người dùng không thể tiếp tục đổi. Bài tóm tắt đúng theo ba trang của Selex đọc ngày 20/10/2026, nêu cách xử lý các thông báo lỗi mà Selex liệt kê và chỉ ra những điều các trang không nói.",
+      "meta_title": "Đổi pin tại trạm tự động Selex: các bước, đổi 2 pin và khi báo lỗi",
+      "meta_description": "Đổi pin tại trạm tự động Selex theo hướng dẫn của hãng: các bước quét QR và đổi pin, cách đổi hai pin liền nhau, ba thông báo lỗi và tính năng đặt pin trước giữ pin 15 phút.",
+      "intended_taxonomy_key": "battery-charging",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "c81c0ee2a88510e48d97f0e7682e4e682ece0276",
+      "run_id": "39488377714",
+      "updated_at": "2026-10-20T20:05:32.387319+00:00"
     }
   },
   "categories": {}
