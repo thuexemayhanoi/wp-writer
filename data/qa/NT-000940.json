@@ -1,0 +1,386 @@
+{
+  "topic_id": "NT-000940",
+  "status": "PASS",
+  "source_sha256": "1ee99dd1eeefc7bf9109295be2264059ee256cab2ea13fba7540481efbd0bad0",
+  "body_sha256": "00ed0f2781bda8d2f982c32d5362680580c690b2bb70f07c4a45f170d9925b05",
+  "word_count": 2843,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://scp.gov.vn/tin-tuc/t13844/phat-trien-giao-thong-xanh.html",
+      "supports": "Trang scp.gov.vn của Bộ Công Thương (13/10/2024): theo Quyết định 876/QĐ-TTg, mục tiêu đến năm 2040 từng bước hạn chế, tiến tới dừng sản xuất, lắp ráp, nhập khẩu ô tô, mô tô, xe gắn máy dùng nhiên liệu hóa thạch để sử dụng trong nước; đến 2050 100% phương tiện cơ giới đường bộ chuyển sang điện, năng lượng xanh.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://scp.gov.vn/tin-tuc/t13844/phat-trien-giao-thong-xanh.html",
+      "supports": "Trang scp.gov.vn (đăng 13/10/2024): diễn đạt mốc 2050 là 100% phương tiện giao thông cơ giới đường bộ, bao gồm cả xe cá nhân và xe vận tải công cộng, xe chuyên dụng chuyển sang điện, năng lượng xanh; cụm \"bao gồm cả xe cá nhân\" là cách diễn đạt của bài báo, khác chữ trong toàn văn Quyết định.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://scp.gov.vn/tin-tuc/t13844/phat-trien-giao-thong-xanh.html",
+      "supports": "Trang scp.gov.vn (đăng 13/10/2024): ông Dương Đức Tuấn, được ghi là Phó Chủ tịch UBND thành phố Hà Nội, cho biết định hướng của thành phố giai đoạn 2025-2030: toàn bộ xe buýt đầu tư mới hoặc thay thế xe cũ dùng năng lượng xanh; thị phần vận tải công cộng đạt 45%-50%.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vneec.gov.vn/tin-tuc/chinh-sach/t29244/phe-duyet-chuong-trinh-chuyen-doi-nang-luong-xanh-trong-nganh-giao-thong-van-tai.html",
+      "supports": "Trang vneec.gov.vn (25/07/2022): mục tiêu tổng quát phát thải ròng khí nhà kính về 0 vào năm 2050; từ 2025 100% xe buýt thay thế, đầu tư mới dùng điện; giai đoạn 2022–2030 thúc đẩy phương tiện cơ giới đường bộ dùng điện, phối trộn xăng E5 và phát triển hạ tầng sạc điện. Cùng trang còn nêu: Trang vneec.gov.vn: giai đoạn 2022–2030 với đường bộ có phát triển hạ tầng sạc điện đáp ứng nhu cầu của người dân, doanh nghiệp; từ 2030 tỷ lệ phương tiện sử dụng điện, năng lượng xanh tối thiểu 50% (giao thông đô thị) và 100% taxi thay thế, đầu tư mới dùng điện.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vneec.gov.vn/tin-tuc/chinh-sach/t29244/phe-duyet-chuong-trinh-chuyen-doi-nang-luong-xanh-trong-nganh-giao-thong-van-tai.html",
+      "supports": "Trang vneec.gov.vn (đăng 25/07/2022): Quyết định 876/QĐ-TTg ngày 22/7/2022 của Thủ tướng Chính phủ phê duyệt Chương trình hành động về chuyển đổi năng lượng xanh, giảm phát thải khí các-bon và khí mê-tan của ngành giao thông vận tải.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vneec.gov.vn/tin-tuc/chinh-sach/t29244/phe-duyet-chuong-trinh-chuyen-doi-nang-luong-xanh-trong-nganh-giao-thong-van-tai.html",
+      "supports": "Trang vneec.gov.vn: mục tiêu cụ thể đến năm 2030 là nâng cao hiệu quả sử dụng năng lượng, đẩy mạnh chuyển đổi sang điện, năng lượng xanh ở các lĩnh vực đã sẵn sàng về công nghệ, thể chế, nguồn lực, nhằm thực hiện cam kết NDC và mục tiêu giảm phát thải khí mê-tan.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vneec.gov.vn/tin-tuc/chinh-sach/t29244/phe-duyet-chuong-trinh-chuyen-doi-nang-luong-xanh-trong-nganh-giao-thong-van-tai.html",
+      "supports": "Trang vneec.gov.vn: mục tiêu cụ thể đến năm 2050 là chuyển đổi toàn bộ phương tiện, trang thiết bị, hạ tầng giao thông vận tải sang điện, năng lượng xanh, hướng đến phát thải ròng khí nhà kính về 0.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vneec.gov.vn/tin-tuc/chinh-sach/t29244/phe-duyet-chuong-trinh-chuyen-doi-nang-luong-xanh-trong-nganh-giao-thong-van-tai.html",
+      "supports": "Trang vneec.gov.vn: lộ trình đường bộ giai đoạn 2022-2030 gồm thúc đẩy sản xuất, lắp ráp, nhập khẩu và chuyển đổi sử dụng phương tiện cơ giới đường bộ dùng điện; mở rộng phối trộn 100% xăng E5; phát triển hạ tầng sạc điện; khuyến khích bến xe, trạm dừng nghỉ chuyển đổi theo tiêu chí xanh.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vneec.gov.vn/tin-tuc/chinh-sach/t29244/phe-duyet-chuong-trinh-chuyen-doi-nang-luong-xanh-trong-nganh-giao-thong-van-tai.html",
+      "supports": "Trang vneec.gov.vn: phần giao thông đô thị nêu từ 2025 100% xe buýt thay thế, đầu tư mới dùng điện, năng lượng xanh; từ 2030 tỷ lệ phương tiện dùng điện, năng lượng xanh tối thiểu 50% và 100% taxi thay thế, đầu tư mới dùng điện, năng lượng xanh; chữ \"phương tiện\" trong câu 50% không nói rõ loại nào.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vneec.gov.vn/tin-tuc/chinh-sach/t29244/phe-duyet-chuong-trinh-chuyen-doi-nang-luong-xanh-trong-nganh-giao-thong-van-tai.html",
+      "supports": "Trang vneec.gov.vn: đến năm 2050, 100% xe buýt, xe taxi dùng điện, năng lượng xanh; tỷ lệ đảm nhận của vận tải hành khách công cộng tại đô thị đặc biệt, đô thị loại I lần lượt đạt ít nhất 40% và 10%.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vneec.gov.vn/tin-tuc/chinh-sach/t29244/phe-duyet-chuong-trinh-chuyen-doi-nang-luong-xanh-trong-nganh-giao-thong-van-tai.html",
+      "supports": "Trang vneec.gov.vn (đọc lại 20/10/2026): phần giao thông đô thị nêu tỷ lệ đảm nhận của vận tải hành khách công cộng tại Hà Nội 45-50%, Thành phố Hồ Chí Minh 25%, Đà Nẵng 25-35%, Cần Thơ 20%, Hải Phòng 10-15%, đô thị loại I ít nhất 5%.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.camau.gov.vn/chuong-trinh-hanh-dong-ve-chuyen-doi-nang-luong-xanh-giam-phat-thai-khi-cacbon-va-khi-metan-cua-nganh-giao-thong-van-tai.2483",
+      "supports": "Trang phổ biến pháp luật Cà Mau (25/07/2022): Quyết định 876/QĐ-TTg ngày 22/7/2022 có hiệu lực từ ngày ký; đến năm 2050 100% phương tiện giao thông cơ giới đường bộ chuyển đổi sang sử dụng điện, năng lượng xanh.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.camau.gov.vn/chuong-trinh-hanh-dong-ve-chuyen-doi-nang-luong-xanh-giam-phat-thai-khi-cacbon-va-khi-metan-cua-nganh-giao-thong-van-tai.2483",
+      "supports": "Trang phổ biến pháp luật tỉnh Cà Mau (25/07/2022): Quyết định 876/QĐ-TTg ngày 22/7/2022 phê duyệt Chương trình hành động về chuyển đổi năng lượng xanh, giảm phát thải khí các-bon và khí mê-tan của ngành giao thông vận tải.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.camau.gov.vn/chuong-trinh-hanh-dong-ve-chuyen-doi-nang-luong-xanh-giam-phat-thai-khi-cacbon-va-khi-metan-cua-nganh-giao-thong-van-tai.2483",
+      "supports": "Trang phổ biến pháp luật tỉnh Cà Mau: đến năm 2050, 100% phương tiện giao thông cơ giới đường bộ, xe máy thi công tham gia giao thông chuyển đổi sang sử dụng điện, năng lượng xanh; câu này khớp với câu trong toàn văn Quyết định.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.camau.gov.vn/chuong-trinh-hanh-dong-ve-chuyen-doi-nang-luong-xanh-giam-phat-thai-khi-cacbon-va-khi-metan-cua-nganh-giao-thong-van-tai.2483",
+      "supports": "Trang phổ biến pháp luật tỉnh Cà Mau: Quyết định có hiệu lực từ ngày ký.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://scp.gov.vn/tin-tuc/t13844/phat-trien-giao-thong-xanh.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://scp.gov.vn/tin-tuc/t13844/phat-trien-giao-thong-xanh.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://scp.gov.vn/tin-tuc/t13844/phat-trien-giao-thong-xanh.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vneec.gov.vn/tin-tuc/chinh-sach/t29244/phe-duyet-chuong-trinh-chuyen-doi-nang-luong-xanh-trong-nganh-giao-thong-van-tai.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vneec.gov.vn/tin-tuc/chinh-sach/t29244/phe-duyet-chuong-trinh-chuyen-doi-nang-luong-xanh-trong-nganh-giao-thong-van-tai.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vneec.gov.vn/tin-tuc/chinh-sach/t29244/phe-duyet-chuong-trinh-chuyen-doi-nang-luong-xanh-trong-nganh-giao-thong-van-tai.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vneec.gov.vn/tin-tuc/chinh-sach/t29244/phe-duyet-chuong-trinh-chuyen-doi-nang-luong-xanh-trong-nganh-giao-thong-van-tai.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vneec.gov.vn/tin-tuc/chinh-sach/t29244/phe-duyet-chuong-trinh-chuyen-doi-nang-luong-xanh-trong-nganh-giao-thong-van-tai.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vneec.gov.vn/tin-tuc/chinh-sach/t29244/phe-duyet-chuong-trinh-chuyen-doi-nang-luong-xanh-trong-nganh-giao-thong-van-tai.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vneec.gov.vn/tin-tuc/chinh-sach/t29244/phe-duyet-chuong-trinh-chuyen-doi-nang-luong-xanh-trong-nganh-giao-thong-van-tai.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vneec.gov.vn/tin-tuc/chinh-sach/t29244/phe-duyet-chuong-trinh-chuyen-doi-nang-luong-xanh-trong-nganh-giao-thong-van-tai.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.camau.gov.vn/chuong-trinh-hanh-dong-ve-chuyen-doi-nang-luong-xanh-giam-phat-thai-khi-cacbon-va-khi-metan-cua-nganh-giao-thong-van-tai.2483",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.camau.gov.vn/chuong-trinh-hanh-dong-ve-chuyen-doi-nang-luong-xanh-giam-phat-thai-khi-cacbon-va-khi-metan-cua-nganh-giao-thong-van-tai.2483",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.camau.gov.vn/chuong-trinh-hanh-dong-ve-chuyen-doi-nang-luong-xanh-giam-phat-thai-khi-cacbon-va-khi-metan-cua-nganh-giao-thong-van-tai.2483",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.camau.gov.vn/chuong-trinh-hanh-dong-ve-chuyen-doi-nang-luong-xanh-giam-phat-thai-khi-cacbon-va-khi-metan-cua-nganh-giao-thong-van-tai.2483",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2055,
+        "title": "App Thuê Xe Máy Hà Nội Nguyễn Tú – Chọn Xe & Tính Giá Nhanh",
+        "why": "stale",
+        "content_hash": "984922cf520fb43f859f4ca1d858e29bed5cd5f00813797ff934b0b5fb7da7fc",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4047,
+        "title": "Thuê xe máy Hà Nội 2 ngày 1 đêm: tính tiền theo mốc nào và trả xe lúc nào?",
+        "why": "stale",
+        "content_hash": "ff3360a833efc7ccb2778f577426a6ccdec6c16a3c8c30c58243ba9e9175e695",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4051,
+        "title": "Thuê xe máy Hà Nội vào ngày mưa: khi nào nên lùi giờ nhận và kiểm tra gì trước khi chạy?",
+        "why": "stale",
+        "content_hash": "6cf70a5e919d453dbe3c15e8dc9ed97616caa41d0b3239c73331a63a003192fb",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4053,
+        "title": "Thuê xe máy Hà Nội đi công tác 3–5 ngày: chọn xe, dự trù chi phí và sắp lịch trả",
+        "why": "stale",
+        "content_hash": "10253f4071ea9522162e7b5ec6b75dfc3be0638bd9a1598e0136485ddfd9dbec",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4058,
+        "title": "Thuê xe máy khi chăm người nhà ở bệnh viện Hà Nội: tính ngày thuê và sắp lịch đi lại",
+        "why": "stale",
+        "content_hash": "92611919afd9af68489111c1f99c127439f1c41b7a945f6d846768a64175f9f5",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T20:13:10.916058+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "64b2ada8f6faad9ffe1a76f372add214bace52b004aff9b9b6bb72f9fc2a3db8",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

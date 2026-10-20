@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-20T20:09:13.214353+00:00",
+  "at": "2026-10-20T20:17:36.519953+00:00",
   "attempted": 10,
-  "ready_backlog": 9,
+  "ready_backlog": 3,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -24,55 +24,23 @@
       "action": "manual reconciliation; never create/update automatically"
     },
     {
-      "topic_id": "NT-000769",
+      "topic_id": "NT-000878",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 176,
+      "category_id": 170,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "urban-mobility",
+      "intended_taxonomy_key": "engine-care",
       "category_warning": null
     },
     {
-      "topic_id": "NT-000770",
+      "topic_id": "NT-000940",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 176,
+      "category_id": 169,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "urban-mobility",
+      "intended_taxonomy_key": "electric-transition",
       "category_warning": null
     },
     {
-      "topic_id": "NT-000934",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 167,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "battery-charging",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000935",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 167,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "battery-charging",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000969",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 162,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "rental-guide",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000970",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 163,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "rental-procedures",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001002",
+      "topic_id": "NT-001001",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 171,
       "category_resolution": "EXACT",
@@ -80,27 +48,59 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001009",
+      "topic_id": "NT-001003",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
+      "category_id": 171,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
+      "intended_taxonomy_key": "driving-licence",
       "category_warning": null
     },
     {
-      "topic_id": "NT-001010",
+      "topic_id": "NT-001071",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
+      "category_id": 168,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
+      "intended_taxonomy_key": "electric-tech",
       "category_warning": null
     },
     {
-      "topic_id": "NT-001070",
+      "topic_id": "NT-001072",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 160,
+      "category_id": 168,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "electric-maintenance",
+      "intended_taxonomy_key": "electric-tech",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001073",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 168,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-tech",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001076",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 168,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-tech",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001077",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 168,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-tech",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001078",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 168,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-tech",
       "category_warning": null
     }
   ],

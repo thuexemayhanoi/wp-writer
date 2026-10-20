@@ -1,0 +1,226 @@
+{
+  "topic_id": "NT-000878",
+  "status": "PASS",
+  "source_sha256": "9231794baf198e8e906edb0fef9f394d9c11fdde77dfd946bcc9aa12daeccdc2",
+  "body_sha256": "1edf75894b152e0fd73a12851b6ec81a019c6dbefcd98772ba5b1ea12a3038ba",
+  "word_count": 2531,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap",
+      "supports": "Honda Việt Nam, mục Câu hỏi thường gặp (các mục ghi cập nhật 21/09/2021): giữ mực dung dịch trong khoảng vạch Upper và Lower; dưới vạch Lower không khí có thể lọt vào đường ống tạo bọt khí và gây quá nhiệt; không đổ cao hơn Upper vì nước có thể tràn qua đường xả tràn; dùng đúng dung dịch làm mát Honda đã pha sẵn, không pha thêm; không nên nổ máy tại chỗ quá lâu, đặc biệt xe làm mát bằng không khí.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/motorcycle-aftersales/plusone/202208.html",
+      "supports": "Honda Global (Plus ONE, 25/8/2022, tiếng Anh), bài Daily Inspection Advice: bình dự trữ có vạch mực để kiểm tra dung dịch làm mát, nếu dưới mức tối thiểu thì bổ sung lên mức tối đa bằng dung dịch khuyên dùng; kiểm tra rò rỉ dầu và dung dịch làm mát quanh động cơ, nếu chảy đáng kể thì hỏi đại lý; phần đã đọc không nhắc đèn báo quá nhiệt.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/dich-vu/huong-dan-chay-xe-tay-ga-toan-va-dung-cach/",
+      "supports": "Yamaha Motor Việt Nam, trang hướng dẫn chạy xe tay ga an toàn và đúng cách (dữ liệu trang ghi đăng 4/7/2019, cập nhật 4/4/2026): với xe ga làm mát bằng nước, chạy quá chậm làm nhiệt độ tăng cao khiến xe tốn nhiên liệu, nên chạy nhanh hơn để gió làm mát két nước nhiều hơn và thường xuyên kiểm tra lượng nước làm mát; đây là lời khuyên cách dùng của Yamaha, không phải quy trình khi đèn báo sáng.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/bao-duong-xe-may-dinh-ky-va-nhung-luu-y-quan-trong",
+      "supports": "Yamaha Motor Việt Nam, bài bảo dưỡng xe máy (đăng 1/6/2025), mục nước làm mát: nước làm mát hạn chế quá nhiệt động cơ trong thời tiết nóng, mất nước quá nhiều thì xe dễ nóng máy và có nguy cơ vỡ lốc; nên kiểm tra nước làm mát, đặc biệt sau những chuyến đi dài, đèo dốc; không dùng mốc km của trang.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?version=105&changeVersionFlag=1",
+      "supports": "Honda Việt Nam, trang sản phẩm Honda Vision (đọc 20/10/2026): bảng thông số ghi loại động cơ xăng 4 kỳ, 1 xi lanh, làm mát bằng không khí, nên Vision không có két nước và không thuộc phạm vi đèn báo quá nhiệt dung dịch làm mát.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/motorcycle-aftersales/plusone/202208.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/dich-vu/huong-dan-chay-xe-tay-ga-toan-va-dung-cach/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/bao-duong-xe-may-dinh-ky-va-nhung-luu-y-quan-trong",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?version=105&changeVersionFlag=1",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2513,
+        "title": "Dấu hiệu má phanh xe máy cần thay và cách kiểm tra an toàn hằng ngày",
+        "why": "stale",
+        "content_hash": "f1040fa1950d3342eebff669b05d5319f4be2c2517c80ecddf1b4b239e6f5f16",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2535,
+        "title": "Lịch bảo dưỡng xe máy Honda: các mốc nên kiểm tra theo thời gian",
+        "why": "stale",
+        "content_hash": "c705587e1fddf801c67af2ee8927918bea23539eb6755e4f4da4fe7ae47943cb",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2596,
+        "title": "Những thứ cần kiểm tra trước khi nhận một chiếc xe máy sử dụng",
+        "why": "stale",
+        "content_hash": "26e2f6f6b72011f22f1c72c5d71add456975764e12b26f109f58c9c8e5e98b76",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4046,
+        "title": "Nhận xe máy thuê tại homestay Hà Nội không có lễ tân: hẹn giao, kiểm tra và trả xe",
+        "why": "stale",
+        "content_hash": "408ee1c935cbed2cc7b830b85734e14e93e1a4c5ee2cc36d01097733e2853eb2",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4057,
+        "title": "Mũ bảo hiểm đi kèm xe máy thuê: cách kiểm tra, thử vừa đầu và yêu cầu đổi mũ",
+        "why": "stale",
+        "content_hash": "882e284b19aff377f0d89fc74bb720334b6dd3673b272359304d9ff586e8ebcd",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T20:12:42.152759+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "3284edbc484531350907ed480c9f63646806e69d9ecd40390fd88fc64bd772c6",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

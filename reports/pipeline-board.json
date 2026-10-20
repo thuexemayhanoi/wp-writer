@@ -1,15 +1,15 @@
 {
-  "at": "2026-10-20T20:09:18.796003+00:00",
+  "at": "2026-10-20T20:17:41.249544+00:00",
   "counts": {
-    "WRITING": 22,
+    "WRITING": 28,
     "QA": 0,
-    "READY": 9,
+    "READY": 3,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 404
+    "VERIFIED": 414
   },
-  "ready_backlog": 9,
+  "ready_backlog": 3,
   "in_flight": 34,
   "items": [
     {
@@ -133,18 +133,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-000878",
-      "state": "WRITING",
-      "reason": "leased to seodev-w41",
-      "title": "Đèn báo quá nhiệt dung dịch làm mát sáng trên xe tay ga Honda: dừng xe thế nào, kiểm tra gì và khi nào chạy tiếp được",
-      "slot": "W4",
-      "session": "seodev-w41",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-000879",
       "state": "WRITING",
       "reason": "leased to seodev-w41",
@@ -181,12 +169,120 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-000940",
+      "topic_id": "NT-000901",
       "state": "WRITING",
-      "reason": "leased to seodev-w41",
-      "title": "Lộ trình xe máy xăng sang xe điện: Quyết định 876/QĐ-TTg đặt mốc 2030, 2040 và 2050 ra sao?",
-      "slot": "W4",
-      "session": "seodev-w41",
+      "reason": "leased to seodev-w47",
+      "title": "Sét khi đang chạy xe máy: xe máy không phải nơi trú an toàn và quy tắc chờ 30 phút sau tiếng sấm",
+      "slot": "W3",
+      "session": "seodev-w47",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-000902",
+      "state": "WRITING",
+      "reason": "leased to seodev-w47",
+      "title": "Thức 17–24 giờ rồi chạy xe máy đường dài: mốc không ngủ so với nồng độ cồn 0,05 và 0,10",
+      "slot": "W3",
+      "session": "seodev-w47",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-000903",
+      "state": "WRITING",
+      "reason": "leased to seodev-w47",
+      "title": "Giờ nào dễ buồn ngủ nhất khi chạy xe máy: khung 0–6 giờ sáng, giữa chiều và cách xếp giờ xuất phát",
+      "slot": "W3",
+      "session": "seodev-w47",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-000904",
+      "state": "WRITING",
+      "reason": "leased to seodev-w47",
+      "title": "Nắng nóng, gay gắt, đặc biệt gay gắt là bao nhiêu độ: đọc bản tin nắng nóng trước chuyến xe máy",
+      "slot": "W3",
+      "session": "seodev-w47",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-000905",
+      "state": "WRITING",
+      "reason": "leased to seodev-w47",
+      "title": "Chỉ số UV khi đi xe máy cả ngày: thang UV của WHO, mốc 3 và 8, giờ nắng gắt và cách che chắn",
+      "slot": "W3",
+      "session": "seodev-w47",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-000906",
+      "state": "WRITING",
+      "reason": "leased to seodev-w47",
+      "title": "Mưa vừa, mưa to, mưa rất to là bao nhiêu mm: đọc bản tin dự báo mưa trước chuyến đi xe máy",
+      "slot": "W3",
+      "session": "seodev-w47",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-000907",
+      "state": "WRITING",
+      "reason": "leased to seodev-w47",
+      "title": "Cấp gió là gì: bảng Beaufort cấp 0–12, gió cấp 6, 7, 8 là bao nhiêu km/h và cách đọc cấp gió trong bản tin trước chuyến xe máy",
+      "slot": "W3",
+      "session": "seodev-w47",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-000908",
+      "state": "WRITING",
+      "reason": "leased to seodev-w47",
+      "title": "Mặt trời lặn ở Hà Nội lúc mấy giờ: giờ lặn từng tháng, ngày lặn sớm nhất và muộn nhất năm 2026 để xếp giờ về trước tối",
+      "slot": "W3",
+      "session": "seodev-w47",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-000909",
+      "state": "WRITING",
+      "reason": "leased to seodev-w47",
+      "title": "Chia sẻ vị trí trực tiếp khi đi xe máy đường dài: iPhone (Find My, Tin nhắn, Check In) và Google Maps cho người thân thấy gì và dừng chia sẻ thế nào",
+      "slot": "W3",
+      "session": "seodev-w47",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-000910",
+      "state": "WRITING",
+      "reason": "leased to seodev-w47",
+      "title": "Xác suất mưa 40% nghĩa là gì: NWS và Met Office định nghĩa khác nhau ra sao và cách đọc bảng dự báo trước chuyến xe máy",
+      "slot": "W3",
+      "session": "seodev-w47",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -199,30 +295,6 @@
       "title": "Ký cược khi thuê xe máy: tiền cọc nhận xe khác đặt cọc ở điểm nào theo Điều 329 Bộ luật Dân sự",
       "slot": "W4",
       "session": "seodev-w41",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001001",
-      "state": "WRITING",
-      "reason": "leased to seodev-w42",
-      "title": "IDP Công ước Viên 1968 tại Việt Nam: điều kiện hiệu lực theo Luật 36/2024 và phải mang kèm bằng gốc",
-      "slot": "W5",
-      "session": "seodev-w42",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001003",
-      "state": "WRITING",
-      "reason": "leased to seodev-w43",
-      "title": "Giấy phép lái xe không còn hiệu lực: các trường hợp theo khoản 7 Điều 57 và khoản 5 Điều 62 Luật Trật tự, an toàn giao thông đường bộ 2024",
-      "slot": "W6",
-      "session": "seodev-w43",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -275,78 +347,6 @@
       "url": null,
       "qa_status": null,
       "seo_score": null
-    },
-    {
-      "topic_id": "NT-001071",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Số khung, số động cơ xe máy điện Dat Bike khắc ở đâu: VIN dưới yên và số trên cụm động cơ",
-      "slot": "W7",
-      "session": "seodev-w44",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001072",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Cruise Control trên xe máy điện: sổ Dat Bike bật khi chạy trên 15 km/h, tắt khi bóp phanh",
-      "slot": "W7",
-      "session": "seodev-w44",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001073",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Phanh kết hợp CBS trên xe Dat Bike: Quantum S1 và ERA E1 có, bài của hãng và sổ nói khác nhau",
-      "slot": "W7",
-      "session": "seodev-w44",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001076",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Mô-men xoắn xe máy điện: vì sao 43,49 Nm của NEO's và 14,4 N·m của Exciter không so trực tiếp",
-      "slot": "W7",
-      "session": "seodev-w44",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001077",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Dat Ride Predictor trên xe Quantum: vì sao cùng số % pin mà quãng đường dự báo khác nhau",
-      "slot": "W7",
-      "session": "seodev-w44",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001078",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Nhiều người dùng chung một xe Dat Bike: chỉ một điện thoại kết nối cùng lúc và cách ghép nối lại",
-      "slot": "W7",
-      "session": "seodev-w44",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
     },
     {
       "topic_id": "NT-001093",
@@ -4477,6 +4477,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-000878",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đèn báo quá nhiệt dung dịch làm mát sáng trên xe tay ga Honda: dừng xe thế nào, kiểm tra gì và khi nào chạy tiếp được",
+      "slot": "W4",
+      "session": "seodev-w41",
+      "wp_id": 4386,
+      "url": "https://thuexemaynguyentu.com/den-bao-qua-nhiet-dung-dich-lam-mat-sang-tren-xe-tay-ga-honda-dung-xe-the-nao-kiem-tra-gi-va-khi-nao-chay-tiep-duoc/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-000931",
       "state": "VERIFIED",
       "reason": "publish",
@@ -4581,6 +4593,18 @@
       "session": "seodev-w38",
       "wp_id": 4337,
       "url": "https://thuexemaynguyentu.com/sac-xe-dien-tai-nha-tinh-gia-dien-nao-thong-tu-60-2025-tt-bct-va-khung-gio-thap-diem-0h-6h-nam-2026/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-000940",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Lộ trình xe máy xăng sang xe điện: Quyết định 876/QĐ-TTg đặt mốc 2030, 2040 và 2050 ra sao?",
+      "slot": "W4",
+      "session": "seodev-w41",
+      "wp_id": 4387,
+      "url": "https://thuexemaynguyentu.com/lo-trinh-xe-may-xang-sang-xe-dien-quyet-dinh-876-qd-ttg-dat-moc-2030-2040-va-2050-ra-sao/",
       "qa_status": "PASS",
       "seo_score": 100
     },
@@ -4693,6 +4717,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001001",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "IDP Công ước Viên 1968 tại Việt Nam: điều kiện hiệu lực theo Luật 36/2024 và phải mang kèm bằng gốc",
+      "slot": "W5",
+      "session": "seodev-w42",
+      "wp_id": 4388,
+      "url": "https://thuexemaynguyentu.com/idp-cong-uoc-vien-1968-tai-viet-nam-dieu-kien-hieu-luc-theo-luat-36-2024-va-phai-mang-kem-bang-goc/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001002",
       "state": "VERIFIED",
       "reason": "publish",
@@ -4701,6 +4737,18 @@
       "session": "seodev-w43",
       "wp_id": 4382,
       "url": "https://thuexemaynguyentu.com/thi-bang-lai-xe-may-hang-a1-va-a-theo-thong-tu-108-2026-tt-bca-thi-ly-thuyet-truoc-bao-luu-1-nam-40-cau-tu-01-3-2027-va-tinh-huong-tren-duong-tu-01-01-2028/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001003",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Giấy phép lái xe không còn hiệu lực: các trường hợp theo khoản 7 Điều 57 và khoản 5 Điều 62 Luật Trật tự, an toàn giao thông đường bộ 2024",
+      "slot": "W6",
+      "session": "seodev-w43",
+      "wp_id": 4389,
+      "url": "https://thuexemaynguyentu.com/giay-phep-lai-xe-khong-con-hieu-luc-cac-truong-hop-theo-khoan-7-dieu-57-va-khoan-5-dieu-62-luat-trat-tu-an-toan-giao-thong-duong-bo-2024/",
       "qa_status": "PASS",
       "seo_score": 100
     },
@@ -5101,6 +5149,42 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001071",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Số khung, số động cơ xe máy điện Dat Bike khắc ở đâu: VIN dưới yên và số trên cụm động cơ",
+      "slot": "W7",
+      "session": "seodev-w44",
+      "wp_id": 4390,
+      "url": "https://thuexemaynguyentu.com/so-khung-so-dong-co-xe-may-dien-dat-bike-khac-o-dau-vin-duoi-yen-va-so-tren-cum-dong-co/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001072",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Cruise Control trên xe máy điện: sổ Dat Bike bật khi chạy trên 15 km/h, tắt khi bóp phanh",
+      "slot": "W7",
+      "session": "seodev-w44",
+      "wp_id": 4391,
+      "url": "https://thuexemaynguyentu.com/cruise-control-tren-xe-may-dien-so-dat-bike-bat-khi-chay-tren-15-km-h-tat-khi-bop-phanh/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001073",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Phanh kết hợp CBS trên xe Dat Bike: Quantum S1 và ERA E1 có, bài của hãng và sổ nói khác nhau",
+      "slot": "W7",
+      "session": "seodev-w44",
+      "wp_id": 4392,
+      "url": "https://thuexemaynguyentu.com/phanh-ket-hop-cbs-tren-xe-dat-bike-quantum-s1-va-era-e1-co-bai-cua-hang-va-so-noi-khac-nhau/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001074",
       "state": "VERIFIED",
       "reason": "publish",
@@ -5121,6 +5205,42 @@
       "session": "seodev-w44",
       "wp_id": 4364,
       "url": "https://thuexemaynguyentu.com/tinh-nang-bao-ve-turtle-tren-xe-dat-bike-khi-nao-tu-bat-luc-pin-thap-thoc-ga-hay-len-doc-va-cach-thoat/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001076",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Mô-men xoắn xe máy điện: vì sao 43,49 Nm của NEO's và 14,4 N·m của Exciter không so trực tiếp",
+      "slot": "W7",
+      "session": "seodev-w44",
+      "wp_id": 4393,
+      "url": "https://thuexemaynguyentu.com/mo-men-xoan-xe-may-dien-vi-sao-43-49-nm-cua-neo-s-va-14-4-n-m-cua-exciter-khong-so-truc-tiep/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001077",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Dat Ride Predictor trên xe Quantum: vì sao cùng số % pin mà quãng đường dự báo khác nhau",
+      "slot": "W7",
+      "session": "seodev-w44",
+      "wp_id": 4394,
+      "url": "https://thuexemaynguyentu.com/dat-ride-predictor-tren-xe-quantum-vi-sao-cung-so-pin-ma-quang-duong-du-bao-khac-nhau/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001078",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Nhiều người dùng chung một xe Dat Bike: chỉ một điện thoại kết nối cùng lúc và cách ghép nối lại",
+      "slot": "W7",
+      "session": "seodev-w44",
+      "wp_id": 4395,
+      "url": "https://thuexemaynguyentu.com/nhieu-nguoi-dung-chung-mot-xe-dat-bike-chi-mot-dien-thoai-ket-noi-cung-luc-va-cach-ghep-noi-lai/",
       "qa_status": "PASS",
       "seo_score": 100
     },

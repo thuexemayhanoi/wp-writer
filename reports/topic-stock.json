@@ -1,30 +1,20 @@
 {
-  "at": "2026-10-20T20:09:18.042113+00:00",
+  "at": "2026-10-20T20:17:40.664219+00:00",
   "stages": {
     "IDEA": 300,
     "RESEARCH": 72,
     "REJECTED": 1,
-    "PLANNED": 13,
+    "PLANNED": 3,
     "PLANNED_HOLD": 3,
-    "CLAIMED": 22,
+    "CLAIMED": 28,
     "AUTHORED": 3,
-    "QA_PASS": 9,
-    "PUBLISHED": 404,
+    "QA_PASS": 3,
+    "PUBLISHED": 414,
     "WP_DRAFT": 0
   },
   "topic_rows": 527,
-  "ready": 13,
+  "ready": 3,
   "ready_ids": [
-    "NT-000901",
-    "NT-000902",
-    "NT-000903",
-    "NT-000904",
-    "NT-000905",
-    "NT-000906",
-    "NT-000907",
-    "NT-000908",
-    "NT-000909",
-    "NT-000910",
     "NT-001104",
     "NT-001105",
     "NT-001106"
@@ -52,8 +42,8 @@
   "min_ready": 900,
   "max_ready": 1100,
   "needs_research": true,
-  "shortfall": 887,
-  "room_to_target_max": 1087,
+  "shortfall": 897,
+  "room_to_target_max": 1097,
   "lifetime_planned": 454,
   "note": "PLANNED counts only topics a writer can still take. Published, claimed, authored, held, RESEARCH and IDEA are never added to it."
 }
