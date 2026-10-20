@@ -17678,7 +17678,7 @@
       }
     },
     "NT-001007": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T19:48:47.033723+00:00",
       "source_hash": "7f4c771cd53d48b0a2cd2d2b0116525be5abbf05b37d21e88b673d75c076c219",
       "slug": "13-truong-hop-nguoi-di-xe-may-phai-quan-sat-giam-toc-do-hoac-dung-lai-theo-dieu-12-luat-trat-tu-an-toan-giao-thong-duong-bo-2024",
@@ -17694,8 +17694,37 @@
       "category_warning": null,
       "git_commit": "9d736881aae4fe1cc9af917d451851dbc56889da",
       "run_id": "39485788336",
-      "updated_at": "2026-10-20T19:48:51.416758+00:00",
-      "wp_id": 4362
+      "updated_at": "2026-10-20T19:48:57.573134+00:00",
+      "wp_id": 4362,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/13-truong-hop-nguoi-di-xe-may-phai-quan-sat-giam-toc-do-hoac-dung-lai-theo-dieu-12-luat-trat-tu-an-toan-giao-thong-duong-bo-2024/",
+      "verified_at": "2026-10-20T19:48:57.573126+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4362,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/13-truong-hop-nguoi-di-xe-may-phai-quan-sat-giam-toc-do-hoac-dung-lai-theo-dieu-12-luat-trat-tu-an-toan-giao-thong-duong-bo-2024/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/13-truong-hop-nguoi-di-xe-may-phai-quan-sat-giam-toc-do-hoac-dung-lai-theo-dieu-12-luat-trat-tu-an-toan-giao-thong-duong-bo-2024/",
+        "seo_title": "Quan sát, giảm tốc độ hoặc dừng lại: 13 trường hợp theo Điều 12",
+        "seo_description": "13 trường hợp người đi xe máy phải quan sát, giảm tốc độ hoặc dừng lại theo Điều 12 Luật 36/2024, xếp theo bốn nhóm, kèm mức phạt 10–14 triệu khi gây tai nạn.",
+        "checked_at": "2026-10-20T19:48:57.573107+00:00"
+      }
     }
   },
   "categories": {}
