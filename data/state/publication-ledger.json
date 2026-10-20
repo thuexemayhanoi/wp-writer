@@ -19246,7 +19246,7 @@
       }
     },
     "NT-001077": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T20:17:03.036272+00:00",
       "source_hash": "05f1b470a47d4139a6d22418a3268764fb9abec81e97e90205c6b503ce1ce0c2",
       "slug": "dat-ride-predictor-tren-xe-quantum-vi-sao-cung-so-pin-ma-quang-duong-du-bao-khac-nhau",
@@ -19262,8 +19262,37 @@
       "category_warning": null,
       "git_commit": "e89aece5f3081cd0a9ac6ccd246ce2fc1ec06ae6",
       "run_id": "39489674662",
-      "updated_at": "2026-10-20T20:17:07.092043+00:00",
-      "wp_id": 4394
+      "updated_at": "2026-10-20T20:17:12.650596+00:00",
+      "wp_id": 4394,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/dat-ride-predictor-tren-xe-quantum-vi-sao-cung-so-pin-ma-quang-duong-du-bao-khac-nhau/",
+      "verified_at": "2026-10-20T20:17:12.650590+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4394,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/dat-ride-predictor-tren-xe-quantum-vi-sao-cung-so-pin-ma-quang-duong-du-bao-khac-nhau/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/dat-ride-predictor-tren-xe-quantum-vi-sao-cung-so-pin-ma-quang-duong-du-bao-khac-nhau/",
+        "seo_title": "Dat Ride Predictor trên xe Quantum: cùng % pin, km dự báo khác nhau",
+        "seo_description": "Dat Ride Predictor của Dat Bike trên xe Quantum dự báo quãng đường còn lại theo thói quen lái, nên cùng số % pin thì số km dự báo vẫn khác nhau giữa các xe.",
+        "checked_at": "2026-10-20T20:17:12.650572+00:00"
+      }
     }
   },
   "categories": {}
