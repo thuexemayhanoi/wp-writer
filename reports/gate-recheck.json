@@ -1,32 +1,4 @@
 {
-  "NT-000845": {
-    "status": "FAIL",
-    "source_sha256": "73cc4c11187acbfa73e99fe2d1da73e263a810a0b3fb697d41a6e38b0a8e2c79",
-    "triage": {
-      "hold_class": "REAL_RISK"
-    },
-    "recheck": {
-      "attempts": 1,
-      "max": 3,
-      "exhausted": false,
-      "needs_owner": false
-    },
-    "at": "2026-10-20T13:03:09.109300+00:00"
-  },
-  "NT-001031": {
-    "status": "REVIEW",
-    "source_sha256": "79cd89947fb4ff1835326373df8076f920367513e0779aaa4aa27dcbf3bae067",
-    "triage": {
-      "hold_class": "REAL_RISK"
-    },
-    "recheck": {
-      "attempts": 1,
-      "max": 3,
-      "exhausted": false,
-      "needs_owner": false
-    },
-    "at": "2026-10-20T13:03:25.244185+00:00"
-  },
   "NT-001101": {
     "status": "FAIL",
     "source_sha256": "5f25a58a8e970a9726e34c8b1933151076fac23239315d2ac4fb10b4c85c8868",
@@ -39,7 +11,7 @@
       "exhausted": false,
       "needs_owner": false
     },
-    "at": "2026-10-20T13:04:47.249077+00:00"
+    "at": "2026-10-20T14:23:11.218552+00:00"
   },
   "NT-001102": {
     "status": "FAIL",
@@ -53,7 +25,7 @@
       "exhausted": false,
       "needs_owner": false
     },
-    "at": "2026-10-20T13:06:03.836567+00:00"
+    "at": "2026-10-20T14:23:21.214100+00:00"
   },
   "NT-001103": {
     "status": "FAIL",
@@ -67,6 +39,6 @@
       "exhausted": false,
       "needs_owner": false
     },
-    "at": "2026-10-20T13:07:15.414284+00:00"
+    "at": "2026-10-20T14:23:28.603438+00:00"
   }
 }

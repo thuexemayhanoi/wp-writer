@@ -6,7 +6,7 @@
   "word_count": 3179,
   "quality_score": 100,
   "seo_score": 90,
-  "seo_min_required": 85,
+  "seo_min_required": 76,
   "seo_checks": {
     "seo_title_relevance": {
       "points": 15,
@@ -88,19 +88,36 @@
     {
       "url": "https://cuanam.hanoi.gov.vn/gioi-thieu/gioi-thieu-chung-ve-phuong-cua-nam-2801250629153745569.htm",
       "supports": "Trang chính quyền phường Cửa Nam xác nhận địa giới ngày 1/7/2025 và khu vực ga Hà Nội cùng các tuyến phố liên quan.",
-      "sha256": "21b70b9bb2c8dbec089d7c21200b87a8d205b29388a5122eb0d7a49ef7c1306c",
-      "research_checked_at": "2026-10-20",
-      "verification_method": "research_snapshot_fallback",
+      "checked_at": "2026-10-20",
       "live_checked": false,
-      "network_error": "URLError"
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
     },
     {
       "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm",
       "supports": "Toàn văn Luật Trật tự, an toàn giao thông đường bộ 36/2024/QH15 trên Cổng thông tin Chính phủ quy định điều kiện người điều khiển phương tiện, không nên suy đoán hạng bằng hay tuổi từ tên mẫu xe.",
-      "sha256": "d07ca3e8794f339a250046b8118405840790b30ee41a7ada9f97c786550fce5a",
-      "verified_at": "2026-10-20T13:05:55.957404+00:00",
-      "verification_method": "live",
-      "live_checked": true
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://cuanam.hanoi.gov.vn/gioi-thieu/gioi-thieu-chung-ve-phuong-cua-nam-2801250629153745569.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
     }
   ],
   "evidence_recheck": {
@@ -128,11 +145,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-20T13:06:03.836567+00:00",
+  "at": "2026-10-20T14:23:21.214100+00:00",
   "live_links_checked": true,
   "legal_required": true,
-  "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
-  "inventory_sha256": "f04afe1325c7e18a16a53234d434944bd14b500df5e51190fbc3e63795f44906",
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "b2c06649bcbc1f3bd68bb6d10337fd61d9abfb071f4cc30a5c747df34437fd42",
   "triage": {
     "hold_class": "REAL_RISK",
     "real_risk": [

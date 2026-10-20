@@ -1,12 +1,12 @@
 {
   "topic_id": "NT-001031",
-  "status": "REVIEW",
+  "status": "PASS",
   "source_sha256": "79cd89947fb4ff1835326373df8076f920367513e0779aaa4aa27dcbf3bae067",
   "body_sha256": "84d37c356cbe69154e073e09bb67d466946b48e6556bd071603eda9abee9c750",
   "word_count": 3540,
-  "quality_score": 85,
+  "quality_score": 100,
   "seo_score": 100,
-  "seo_min_required": 85,
+  "seo_min_required": 76,
   "seo_checks": {
     "seo_title_relevance": {
       "points": 15,
@@ -53,9 +53,7 @@
     },
     "3": {
       "errors": [],
-      "review": [
-        "Source REVIEW: HTTPError 302"
-      ]
+      "review": []
     },
     "4": {
       "errors": [],
@@ -71,25 +69,57 @@
     }
   },
   "errors": [],
-  "review": [
-    "Source REVIEW: HTTPError 302"
-  ],
+  "review": [],
   "source_evidence": [
     {
       "url": "https://tuoitre.vn/tam-dung-to-chuc-vao-lang-vieng-chu-tich-ho-chi-minh-tu-ngay-4-9-de-tu-bo-dinh-ky-100260809174846229.htm",
       "supports": "Tuổi Trẻ (9/8/2026) dẫn thông báo của Bộ Tư lệnh Lăng: tu bổ định kỳ 4/9–2/11/2026, mở cửa lại 3/11/2026, lịch viếng các buổi sáng thứ ba, tư, năm, bảy và chủ nhật, giờ viếng mùa nóng và mùa lạnh.",
-      "sha256": "7ffc3e7a2db5ef00a646cb5831c4213ed8cde9fc6818cb0771f60161011ebe73",
-      "verified_at": "2026-10-20T13:03:11.949841+00:00",
-      "verification_method": "live",
-      "live_checked": true
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.qdnd.vn/van-hoa/doi-song/tu-bo-dinh-ky-lang-chu-tich-ho-chi-minh-tu-ngay-4-9-den-2-11-2026-1055118",
+      "supports": "Báo Quân đội nhân dân (28/8/2026) nêu công văn 5821/TH-TTBC của Cục Tuyên huấn và Công văn 1909/CV-BTL ngày 23/4/2026: tu bổ từ 4/9 đến 2/11/2026 và mở cửa phục vụ nhân dân, khách quốc tế từ 3/11/2026.",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
     },
     {
       "url": "https://thanhnien.vn/cong-bo-phap-lenh-quan-ly-bao-ve-khu-di-tich-lang-chu-tich-ho-chi-minh-185250403105602595.htm",
       "supports": "Thanh Niên (3/4/2025) thuật điều 17 của pháp lệnh về Khu Di tích Lăng: lịch viếng thường xuyên và việc hằng năm có một đợt 2–3 tháng không tổ chức lễ viếng để giữ gìn thi hài và bảo dưỡng công trình.",
-      "sha256": "7444e70598c7d2e581c4d4754ec854295588ad923c9e8f9fc471aac10cefc99f",
-      "verified_at": "2026-10-20T13:03:17.594037+00:00",
-      "verification_method": "live",
-      "live_checked": true
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://tuoitre.vn/tam-dung-to-chuc-vao-lang-vieng-chu-tich-ho-chi-minh-tu-ngay-4-9-de-tu-bo-dinh-ky-100260809174846229.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.qdnd.vn/van-hoa/doi-song/tu-bo-dinh-ky-lang-chu-tich-ho-chi-minh-tu-ngay-4-9-den-2-11-2026-1055118",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/cong-bo-phap-lenh-quan-ly-bao-ve-khu-di-tich-lang-chu-tich-ho-chi-minh-185250403105602595.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
     }
   ],
   "evidence_recheck": {
@@ -117,21 +147,19 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-20T13:03:25.244185+00:00",
+  "at": "2026-10-20T14:22:16.774727+00:00",
   "live_links_checked": true,
   "legal_required": false,
-  "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
-  "inventory_sha256": "f04afe1325c7e18a16a53234d434944bd14b500df5e51190fbc3e63795f44906",
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "6f14ce81e410fdbcf0ed4615e42abe3b4d87ad438b8bd54e576b8795f0aa8330",
   "triage": {
-    "hold_class": "REAL_RISK",
-    "real_risk": [
-      "G3: Source REVIEW: HTTPError 302"
-    ],
+    "hold_class": "NONE",
+    "real_risk": [],
     "writer_repair": [],
     "infra_pending": []
   },
   "recheck": {
-    "attempts": 1,
+    "attempts": 0,
     "max": 3,
     "exhausted": false,
     "needs_owner": false

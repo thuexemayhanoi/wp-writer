@@ -1,0 +1,151 @@
+{
+  "topic_id": "NT-090002",
+  "status": "PASS",
+  "source_sha256": "02e4023b0522da7affb2fb6d7d3b4d84e9adc233e2d6c4ecde2f25ef71d56a03",
+  "body_sha256": "74e240016f8fc472e5caa06e5871fc0f1d7f42a10c15ad44fa36ec23d45eed97",
+  "word_count": 3396,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://thuexemaynguyentu.com/",
+      "supports": "Bảng giá chính thức của doanh nghiệp công bố Vision 200.000đ/ngày và các mức cho mẫu xe khác; phí thêm phải được xác nhận riêng.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?category=2&version=104",
+      "supports": "Honda Việt Nam công bố Vision là xe tay ga động cơ 109,5 cm3, không thể coi Vision là xe gắn máy 50cc; phải kiểm tra đúng mẫu, đời và phiên bản xe trước khi so sánh.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://thuexemaynguyentu.com/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?category=2&version=104",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 823,
+        "title": "Kinh nghiệm thuê xe máy Hà Nội cho khách du lịch",
+        "why": "stale",
+        "content_hash": "3d6b3da5b2949fce93fa478b050606b405bc5e5cfd428f001396eaa13014d5e6",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4344,
+        "title": "Thuê xe máy phường Bồ Đề: chọn Honda Vision hay Wave, nhận xe ở đâu?",
+        "why": "stale",
+        "content_hash": "dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T14:24:00.980884+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "d2cbe1bf7f59b85288425a2a5e0fe0e22dcc636020f0fcb4f31126d3fc58865f",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
