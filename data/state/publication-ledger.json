@@ -18558,6 +18558,25 @@
         "seo_description": "Đổi pin tại trạm tự động Selex theo hướng dẫn của hãng: các bước quét QR và đổi pin, cách đổi hai pin liền nhau, ba thông báo lỗi và tính năng đặt pin trước giữ pin 15 phút.",
         "checked_at": "2026-10-20T20:05:43.767270+00:00"
       }
+    },
+    "NT-000969": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-20T20:06:17.798371+00:00",
+      "source_hash": "f75a0c767927ae402d3aa5f73a0bedaf73391bfcf292b4680da7dd0a3aeed37d",
+      "slug": "noi-dung-hop-dong-thue-xe-may-theo-dieu-398-bo-luat-dan-su-danh-muc-de-tu-kiem-tra-truoc-khi-ky",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 162,
+      "visible_hash": "6dc83898397c73c17850345dfcd2dbe1d739204b0a347bdbead1ea6aa87685b7",
+      "first_paragraph": "Nội dung hợp đồng thuê xe máy theo Điều 398 Bộ luật Dân sự gồm bảy nhóm mà điều luật gọi là những nội dung hợp đồng \"có thể có\": đối tượng; số lượng, chất lượng; giá và phương thức thanh toán; thời hạn, địa điểm, phương thức thực hiện; quyền và nghĩa vụ của các bên; trách nhiệm do vi phạm hợp đồng; phương thức giải quyết tranh chấp. Điều 398 khoản 1 cho các bên quyền thỏa thuận nội dung, và chữ \"có thể\" nghĩa là điều luật không bắt buộc phải đủ từng mục. Với hợp đồng thuê xe máy, bảy nhóm này là một danh mục tự kiểm tra tiện lợi: bạn đối chiếu từng nhóm với bản hợp đồng hoặc tin nhắn thỏa thuận để thấy còn thiếu mục nào trước khi ký. Cách áp từng nhóm vào chiếc xe thuê là gợi ý của người viết, không phải quy định của điều luật.",
+      "meta_title": "Nội dung hợp đồng thuê xe máy theo Điều 398: danh mục tự kiểm tra",
+      "meta_description": "Nội dung hợp đồng thuê xe máy theo Điều 398 Bộ luật Dân sự gồm bảy nhóm. Danh mục để tự kiểm tra giá, thời hạn, quyền nghĩa vụ, phạt vi phạm trước khi ký.",
+      "intended_taxonomy_key": "rental-guide",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "c81c0ee2a88510e48d97f0e7682e4e682ece0276",
+      "run_id": "39488377714",
+      "updated_at": "2026-10-20T20:06:17.800054+00:00"
     }
   },
   "categories": {}
