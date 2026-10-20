@@ -17727,7 +17727,7 @@
       }
     },
     "NT-001069": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T19:49:19.028080+00:00",
       "source_hash": "a67b038d74b80da66fd4670741fbdd58f2f5ad202f5877b6a823cbf7abd66076",
       "slug": "dien-ap-48v-60v-va-72v-cua-xe-may-dien-vi-sao-moi-hang-ghi-mot-so-von-khac-nhau",
@@ -17743,8 +17743,37 @@
       "category_warning": null,
       "git_commit": "9d736881aae4fe1cc9af917d451851dbc56889da",
       "run_id": "39485788336",
-      "updated_at": "2026-10-20T19:49:25.432665+00:00",
-      "wp_id": 4363
+      "updated_at": "2026-10-20T19:49:32.456412+00:00",
+      "wp_id": 4363,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/dien-ap-48v-60v-va-72v-cua-xe-may-dien-vi-sao-moi-hang-ghi-mot-so-von-khac-nhau/",
+      "verified_at": "2026-10-20T19:49:32.456405+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4363,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/dien-ap-48v-60v-va-72v-cua-xe-may-dien-vi-sao-moi-hang-ghi-mot-so-von-khac-nhau/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/dien-ap-48v-60v-va-72v-cua-xe-may-dien-vi-sao-moi-hang-ghi-mot-so-von-khac-nhau/",
+        "seo_title": "Điện áp 48V, 60V và 72V xe máy điện: vì sao mỗi hãng ghi khác nhau",
+        "seo_description": "Giải thích điện áp 48V, 60V và 72V của xe máy điện là điện áp danh định của cả bộ pin nối tiếp, qua số vôn ghi trong tài liệu của Yadea, Dat Bike, Yamaha và VinFast.",
+        "checked_at": "2026-10-20T19:49:32.456385+00:00"
+      }
     }
   },
   "categories": {}
