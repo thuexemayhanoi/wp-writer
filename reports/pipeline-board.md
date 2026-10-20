@@ -1,18 +1,18 @@
 # Pipeline board
 
-Generated 2026-10-20T11:45:15.718279+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-20T13:07:23.320421+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
 | WRITING | 11 |
 | QA | 0 |
-| READY | 5 |
+| READY | 0 |
 | REPAIR | 0 |
-| HELD | 0 |
+| HELD | 5 |
 | PUBLISHING | 0 |
 | VERIFIED | 365 |
 
-Ready backlog (QA PASS waiting for the Publisher): **5**
+Ready backlog (QA PASS waiting for the Publisher): **0**
 
 ## Articles not yet VERIFIED
 
@@ -29,8 +29,8 @@ Ready backlog (QA PASS waiting for the Publisher): **5**
 | NT-001093 | WRITING | W3 | seodev-w37 | leased to seodev-w37 |
 | NT-001094 | WRITING | W3 | seodev-w37 | leased to seodev-w37 |
 | NT-001095 | WRITING | W3 | seodev-w37 | leased to seodev-w37 |
-| NT-000845 | READY | W2 | s-claude-tu-20261019b | QA PASS; waiting for the Publisher |
-| NT-001031 | READY | W7 | s-claude-tu-20261019e | QA PASS; waiting for the Publisher |
-| NT-001101 | READY | W1 | s-gpt6-ward3-20261020 | QA PASS; waiting for the Publisher |
-| NT-001102 | READY | W1 | s-gpt6-ward3-20261020 | QA PASS; waiting for the Publisher |
-| NT-001103 | READY | W1 | s-gpt6-ward3-20261020 | QA PASS; waiting for the Publisher |
+| NT-000845 | HELD | W2 | s-claude-tu-20261019b | REAL_RISK: Source REVIEW: ValueError: Source excerpt not found; Source REVIEW: ValueError: Source excerpt not found |
+| NT-001031 | HELD | W7 | s-claude-tu-20261019e | REAL_RISK: Source REVIEW: HTTPError 302 |
+| NT-001101 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4344; Near duplicate existing:4344 |
+| NT-001102 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4345; Near duplicate existing:4345 |
+| NT-001103 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4346; Near duplicate existing:4346 |

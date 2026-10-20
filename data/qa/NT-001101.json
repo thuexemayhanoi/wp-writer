@@ -1,6 +1,6 @@
 {
   "topic_id": "NT-001101",
-  "status": "PASS",
+  "status": "FAIL",
   "source_sha256": "5f25a58a8e970a9726e34c8b1933151076fac23239315d2ac4fb10b4c85c8868",
   "body_sha256": "c8a51208cd3eb4cee618d6e55b9aea37470db81855c0791b079747387ddff450",
   "word_count": 3122,
@@ -59,8 +59,14 @@
       "review": []
     },
     "4": {
-      "errors": [],
-      "review": []
+      "errors": [
+        "existing URL collision:4344",
+        "Near duplicate existing:4344"
+      ],
+      "review": [
+        "reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee",
+        "nearest full content not reviewed"
+      ]
     },
     "5": {
       "errors": [],
@@ -71,24 +77,85 @@
       "review": []
     }
   },
-  "errors": [],
-  "review": [],
-  "source_evidence": [],
-  "evidence_recheck": null,
-  "at": "2026-10-20T11:43:53.499518+00:00",
-  "live_links_checked": false,
+  "errors": [
+    "existing URL collision:4344",
+    "Near duplicate existing:4344"
+  ],
+  "review": [
+    "reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee",
+    "nearest full content not reviewed"
+  ],
+  "source_evidence": [
+    {
+      "url": "https://bode.hanoi.gov.vn/gioi-thieu-chung/gioi-thieu-phuong-bo-de-2831250626121314553.htm",
+      "supports": "Trang chính quyền phường Bồ Đề xác nhận thành phần địa bàn phường mới từ các phường cũ thuộc Long Biên.",
+      "sha256": "22a802f4edce38394bda4105872c9b47ccf92a43bc97d9e3955d7824c0855649",
+      "research_checked_at": "2026-10-20",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    },
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm",
+      "supports": "Toàn văn Luật Trật tự, an toàn giao thông đường bộ 36/2024/QH15 trên Cổng thông tin Chính phủ quy định điều kiện người điều khiển phương tiện, không nên suy đoán hạng bằng hay tuổi từ tên mẫu xe.",
+      "sha256": "d07ca3e8794f339a250046b8118405840790b30ee41a7ada9f97c786550fce5a",
+      "verified_at": "2026-10-20T13:04:35.902763+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 4344,
+        "title": "Thuê xe máy phường Bồ Đề: chọn Honda Vision hay Wave, nhận xe ở đâu?",
+        "why": "stale",
+        "content_hash": "dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78",
+        "jaccard": 1.0,
+        "intent_match": "FAIL",
+        "verdict": "OVERLAP"
+      },
+      {
+        "id": 4345,
+        "title": "Thuê xe máy phường Cửa Nam: chọn Air Blade, tính gói ngày hay tuần?",
+        "why": "stale",
+        "content_hash": "fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437",
+        "jaccard": 0.007,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4346,
+        "title": "Thuê xe máy phường Hoàn Kiếm: đi phố cổ chọn xe ga, xe số hay 50cc?",
+        "why": "stale",
+        "content_hash": "a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee",
+        "jaccard": 0.009,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": false,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T13:04:47.249077+00:00",
+  "live_links_checked": true,
   "legal_required": true,
   "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
-  "inventory_sha256": "a94fc5a828257d6643d91a52c73ebb315386b947da95bf40899ac1547e534587",
-  "incremental_key": "4ad4adbfacbc6a69dfbae54ad03b865dda366497f4c02f5ae64d3455d22d3f86",
+  "inventory_sha256": "f04afe1325c7e18a16a53234d434944bd14b500df5e51190fbc3e63795f44906",
   "triage": {
-    "hold_class": "NONE",
-    "real_risk": [],
+    "hold_class": "REAL_RISK",
+    "real_risk": [
+      "G4: existing URL collision:4344",
+      "G4: Near duplicate existing:4344",
+      "G4: reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee",
+      "G4: nearest full content not reviewed"
+    ],
     "writer_repair": [],
     "infra_pending": []
   },
   "recheck": {
-    "attempts": 0,
+    "attempts": 1,
     "max": 3,
     "exhausted": false,
     "needs_owner": false
