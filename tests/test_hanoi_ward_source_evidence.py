@@ -4,13 +4,14 @@ This checks metadata completeness and consistency only; the Publisher must
 still independently fetch official sources and apply the live G3 gate.
 """
 import sys
+import gzip
 import unittest
 from pathlib import Path
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from qa import read_article, source_excerpt_matches
+from qa import read_article, source_excerpt_matches, decode_source_body
 
 
 class HanoiWardEvidenceIntegrityTests(unittest.TestCase):
@@ -69,6 +70,29 @@ class VerifiedSourceExcerptMatchingTests(unittest.TestCase):
         self.assertFalse(source_excerpt_matches(clipped, actual.replace("đủ tuổi", "không đủ tuổi")))
         self.assertFalse(source_excerpt_matches(clipped[:-2] + "xa", actual))
         self.assertFalse(source_excerpt_matches("Người lái xe tham gia giao thông đường bộ phải đủ tu", actual))
+
+
+class EncodedGovernmentSourceTests(unittest.TestCase):
+    def test_gzip_without_header_is_decoded_and_legal_excerpt_is_verified(self):
+        law = (
+            "Điều 56. Điều kiện của người điều khiển phương tiện tham gia giao thông đường bộ "
+            "1. Người lái xe tham gia giao thông đường bộ phải đủ tuổi, sức khỏe theo quy định "
+            "của pháp luật; có giấy phép lái xe đang còn điểm, còn hiệu lực phù hợp với loại xe "
+            "đang điều khiển."
+        )
+        page = "<html><body><p>" + law + "</p></body></html>"
+        raw = gzip.compress(page.encode("utf-8"))
+        decoded = decode_source_body(raw)
+        self.assertIn(law, decoded)
+        self.assertTrue(source_excerpt_matches(law, decoded))
+
+    def test_corrupt_gzip_never_silently_passes(self):
+        with self.assertRaises((ValueError, OSError, EOFError)):
+            decode_source_body(b"\\x1f\\x8bnot-a-valid-gzip".replace(b"\\x1f\\x8b", bytes((31,139))))
+
+    def test_large_decompressed_payload_fails_closed(self):
+        with self.assertRaisesRegex(ValueError, "size limit"):
+            decode_source_body(gzip.compress(b"x" * 8_000_001))
 
 
 if __name__ == "__main__":
