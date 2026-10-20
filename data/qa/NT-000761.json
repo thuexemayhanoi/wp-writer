@@ -1,0 +1,183 @@
+{
+  "topic_id": "NT-000761",
+  "status": "PASS",
+  "source_sha256": "81272673fa8f0e6ad698379274c9a3e467bf555ef87f8627f7fc24fbb0a54e31",
+  "body_sha256": "c6b0aab2553327e739eefa12353a15b7c9da92600306860d71049b1c365825a5",
+  "word_count": 2874,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://hanoimoi.vn/ha-noi-ap-dung-ve-dien-tu-lien-thong-giua-xe-buyt-va-metro-tu-1-9-1528979.html",
+      "supports": "Hànộimới 28/8/2026: từ 1/9 áp dụng vé điện tử liên thông giữa mạng xe buýt có trợ giá và hai tuyến metro 2A, 3.1; vé tháng liên thông 250.000 (ưu tiên) và 500.000 đồng (phổ thông), thấp hơn khoảng 40% so với mua riêng; cách đăng ký thẻ ảo và thẻ chip.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/tu-19-ha-noi-chinh-thuc-ap-dung-1-ve-nhieu-chuyen-di-185260830102510444.htm",
+      "supports": "Thanh Niên 30/8/2026: Hà Nội Metro cho biết từ 1/9 vé liên thông áp dụng giữa 2A, 3.1 và xe buýt có trợ giá; thẻ vật lý gắn chip hoặc thẻ ảo \"Thẻ vé giao thông HN\"; vé đơn phương thức vẫn mua tại ứng dụng Hà Nội Metro, quầy, máy bán vé; vé combo metro - TNGo.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/ha-noi-tang-gia-ve-tau-dien-cao-nhat-19000-dong-luot-185250705164610637.htm",
+      "supports": "Thanh Niên 5/7/2025: bảng giá vé liên thông xe buýt - tàu điện công bố khi đó, vé ngày 50.000 đồng, vé tuần 200.000 đồng, vé tháng 250.000 và 500.000 đồng; tuyến Nhổn - ga Hà Nội gồm 8 ga từ Nhổn đến Cầu Giấy.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: vé tháng phổ thông của metro 280.000 đồng cho 1 tháng, mua trên ứng dụng bằng cách chọn tuyến rồi chọn số tháng; dùng để đối chiếu với giá vé tháng liên thông.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://hanoimoi.vn/ha-noi-ap-dung-ve-dien-tu-lien-thong-giua-xe-buyt-va-metro-tu-1-9-1528979.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/tu-19-ha-noi-chinh-thuc-ap-dung-1-ve-nhieu-chuyen-di-185260830102510444.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/ha-noi-tang-gia-ve-tau-dien-cao-nhat-19000-dong-luot-185250705164610637.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2346,
+        "title": "Top xe máy điện đáng chú ý năm 2026 cho nhu cầu đi lại hằng ngày",
+        "why": "stale",
+        "content_hash": "c7b5d7cca26b30a8483ce0a25e3d5de7d28c48a734a1969cf0ab5c477bf745b6",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4059,
+        "title": "Thuê xe máy đi phỏng vấn ở Hà Nội trong một ngày: xếp lịch, chọn xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "0ffbbff60edf006739890cca423af4e81cb5346ee434c29859648be6bdb57675",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T19:36:25.267942+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "685ee4c26b2a274d73df0a11d8bebfb41f28a398c6328e48f4c2d2dd180fa7e8",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

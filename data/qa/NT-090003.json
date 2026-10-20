@@ -1,0 +1,159 @@
+{
+  "topic_id": "NT-090003",
+  "status": "PASS",
+  "source_sha256": "c771d369fbe09817a0cb7019e51d04089e19cd158be54edb5b87172a6571badf",
+  "body_sha256": "a86832e10d57d96021f33a282ce39f728ead7fe7bbc2912f299c8aa62ce106fc",
+  "word_count": 2821,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://mps.gov.vn/chinh-sach-phap-luat/chi-tiet-cau-hoi/d3a2d680-8513-4280-8d9e-85c7645f7630",
+      "supports": "Bộ Công an trả lời ngày 20/01/2026: người đủ 16 tuổi có thể điều khiển xe gắn máy đáp ứng phân loại, tốc độ thiết kế và điều kiện sức khỏe, kỹ năng.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thuexemaynguyentu.com/",
+      "supports": "Trang chủ Nguyễn Tú công bố địa chỉ nhận xe, dòng xe đang phục vụ, bảng giá tham khảo và yêu cầu xác nhận đúng xe, tiền cọc trước khi đặt.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baochinhphu.vn/do-tuoi-duoc-phep-dieu-khien-xe-gan-may-102260120152622709.htm",
+      "supports": "Báo Chính phủ ngày 22/1/2026 trả lời xe gắn máy đúng định nghĩa và người từ đủ 16 tuổi trở lên mới được điều khiển; phải xác minh phương tiện, không lấy tên thương mại làm phân loại.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm",
+      "supports": "Luật Trật tự, an toàn giao thông đường bộ nêu điều kiện độ tuổi, sức khỏe, giấy phép phù hợp; phân biệt điều kiện xe gắn máy với xe mô tô.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://mps.gov.vn/chinh-sach-phap-luat/chi-tiet-cau-hoi/d3a2d680-8513-4280-8d9e-85c7645f7630",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thuexemaynguyentu.com/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baochinhphu.vn/do-tuoi-duoc-phep-dieu-khien-xe-gan-may-102260120152622709.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-20T14:25:10.866515+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "48c10e4339c490afd1756e87ea1952f5fbc2e64637722267dc107dc0cd1acd26",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

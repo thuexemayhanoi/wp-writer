@@ -15,7 +15,7 @@ import qa_gate  # noqa: E402
 import qa_incremental as inc  # noqa: E402
 from common import digest  # noqa: E402
 
-RULES = {'seo_min': 85, 'quality_min': 85, 'incremental_sweep': True, 'incremental_max_age_hours': 24}
+RULES = {'seo_min': 76, 'quality_min': 76, 'incremental_sweep': True, 'incremental_max_age_hours': 24}
 NOW = dt.datetime(2026, 10, 20, 3, 0, tzinfo=dt.timezone.utc)
 
 
@@ -182,7 +182,7 @@ class RuleTests(unittest.TestCase):
         self.assertIs(rules.get('incremental_sweep'), True)
         self.assertEqual(rules.get('incremental_max_age_hours'), 24)
         # Thresholds are untouched by the incremental sweep.
-        self.assertEqual((rules['seo_min'], rules['quality_min'], rules['word_min'], rules['word_max']), (85, 85, 1600, 5000))
+        self.assertEqual((rules['seo_min'], rules['quality_min'], rules['word_min'], rules['word_max']), (76, 76, 1600, 5000))
 
 
 if __name__ == '__main__':

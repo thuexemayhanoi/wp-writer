@@ -1,6 +1,8 @@
+**Chính sách QA 20/10/2026:** SEO/Quality từ **76/100** được xét qua QA; G3 nguồn HTTPS là tham khảo và lưu cảnh báo audit nếu trích dẫn đã đổi hoặc không mở được. Không đổi các gate kiểm sai thông tin doanh nghiệp, luật không có nguồn chính thức, slug/canonical, danh mục, trùng URL, lease/receipt hoặc G7. Lệnh 85 trong hướng dẫn cũ hết hiệu lực.
+
 # Nâng cấp luồng Writer → WordPress (không sao chép /wp-aiwriter)
 
-> **Trạng thái hiện tại (từ 17/10/2026): Production ĐÃ BẬT.** Luồng: W1–W9 viết → QA ≥85 + trùng + danh mục → Publisher → WordPress công khai tự động. Các nhánh "chưa duyệt / dry-run" và mục "điều kiện kích hoạt" bên dưới mô tả chế độ khi chủ tắt công tắc hoặc là lịch sử.
+> **Trạng thái hiện tại (từ 17/10/2026): Production ĐÃ BẬT.** Luồng: W1–W9 viết → QA ≥76 + trùng + danh mục → Publisher → WordPress công khai tự động. Các nhánh "chưa duyệt / dry-run" và mục "điều kiện kích hoạt" bên dưới mô tả chế độ khi chủ tắt công tắc hoặc là lịch sử.
 
 ## Luồng dữ liệu
 

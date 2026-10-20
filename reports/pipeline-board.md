@@ -1,16 +1,16 @@
 # Pipeline board
 
-Generated 2026-10-20T03:48:26.296435+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-20T19:43:19.196637+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
-| WRITING | 66 |
+| WRITING | 49 |
 | QA | 0 |
 | READY | 0 |
 | REPAIR | 0 |
-| HELD | 2 |
+| HELD | 3 |
 | PUBLISHING | 0 |
-| VERIFIED | 344 |
+| VERIFIED | 376 |
 
 Ready backlog (QA PASS waiting for the Publisher): **0**
 
@@ -18,71 +18,55 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 
 | Topic | State | Slot | Session | Reason |
 |---|---|---|---|---|
-| NT-000761 | WRITING | W7 | s-claude-tu-20261019e | leased to s-claude-tu-20261019e |
-| NT-000762 | WRITING | W7 | s-claude-tu-20261019e | leased to s-claude-tu-20261019e |
-| NT-000763 | WRITING | W7 | s-claude-tu-20261019e | leased to s-claude-tu-20261019e |
-| NT-000764 | WRITING | W7 | s-claude-tu-20261019e | leased to s-claude-tu-20261019e |
-| NT-000765 | WRITING | W7 | s-claude-tu-20261019e | leased to s-claude-tu-20261019e |
-| NT-000766 | WRITING | W7 | s-claude-tu-20261019e | leased to s-claude-tu-20261019e |
-| NT-000767 | WRITING | W7 | s-claude-tu-20261019e | leased to s-claude-tu-20261019e |
-| NT-000768 | WRITING | W7 | s-claude-tu-20261019e | leased to s-claude-tu-20261019e |
-| NT-000769 | WRITING | W7 | s-claude-tu-20261019e | leased to s-claude-tu-20261019e |
-| NT-000770 | WRITING | W7 | s-claude-tu-20261019e | leased to s-claude-tu-20261019e |
-| NT-000833 | WRITING | W5 | seodev-w36 | leased to seodev-w36 |
-| NT-000834 | WRITING | W5 | seodev-w36 | leased to seodev-w36 |
-| NT-000878 | WRITING | W8 | s-claude-tu-20261019c | leased to s-claude-tu-20261019c |
-| NT-000879 | WRITING | W8 | s-claude-tu-20261019c | leased to s-claude-tu-20261019c |
-| NT-000880 | WRITING | W8 | s-claude-tu-20261019c | leased to s-claude-tu-20261019c |
-| NT-000881 | WRITING | W8 | s-claude-tu-20261019c | leased to s-claude-tu-20261019c |
-| NT-000931 | WRITING | W4 | seodev-w38 | leased to seodev-w38 |
-| NT-000932 | WRITING | W4 | seodev-w38 | leased to seodev-w38 |
-| NT-000933 | WRITING | W4 | seodev-w38 | leased to seodev-w38 |
-| NT-000934 | WRITING | W4 | seodev-w38 | leased to seodev-w38 |
-| NT-000935 | WRITING | W4 | seodev-w38 | leased to seodev-w38 |
-| NT-000936 | WRITING | W4 | seodev-w38 | leased to seodev-w38 |
-| NT-000937 | WRITING | W4 | seodev-w38 | leased to seodev-w38 |
-| NT-000938 | WRITING | W4 | seodev-w38 | leased to seodev-w38 |
-| NT-000939 | WRITING | W4 | seodev-w38 | leased to seodev-w38 |
-| NT-000940 | WRITING | W4 | seodev-w38 | leased to seodev-w38 |
-| NT-000961 | WRITING | W1 | s-claude-tu-20261018a | leased to s-claude-tu-20261018a |
-| NT-000962 | WRITING | W1 | s-claude-tu-20261018a | leased to s-claude-tu-20261018a |
-| NT-000963 | WRITING | W1 | s-claude-tu-20261018a | leased to s-claude-tu-20261018a |
-| NT-000964 | WRITING | W1 | s-claude-tu-20261018a | leased to s-claude-tu-20261018a |
-| NT-000965 | WRITING | W1 | s-claude-tu-20261018a | leased to s-claude-tu-20261018a |
-| NT-000966 | WRITING | W1 | s-claude-tu-20261018a | leased to s-claude-tu-20261018a |
-| NT-000967 | WRITING | W1 | s-claude-tu-20261018a | leased to s-claude-tu-20261018a |
-| NT-000968 | WRITING | W1 | s-claude-tu-20261018a | leased to s-claude-tu-20261018a |
-| NT-000969 | WRITING | W1 | s-claude-tu-20261018a | leased to s-claude-tu-20261018a |
-| NT-000970 | WRITING | W1 | s-claude-tu-20261018a | leased to s-claude-tu-20261018a |
-| NT-001001 | WRITING | W9 | s-claude-tu-20261019d | leased to s-claude-tu-20261019d |
-| NT-001002 | WRITING | W9 | s-claude-tu-20261019d | leased to s-claude-tu-20261019d |
-| NT-001003 | WRITING | W9 | s-claude-tu-20261019d | leased to s-claude-tu-20261019d |
-| NT-001004 | WRITING | W9 | s-claude-tu-20261019d | leased to s-claude-tu-20261019d |
-| NT-001005 | WRITING | W9 | s-claude-tu-20261019d | leased to s-claude-tu-20261019d |
-| NT-001006 | WRITING | W9 | s-claude-tu-20261019d | leased to s-claude-tu-20261019d |
-| NT-001007 | WRITING | W9 | s-claude-tu-20261019d | leased to s-claude-tu-20261019d |
-| NT-001008 | WRITING | W9 | s-claude-tu-20261019d | leased to s-claude-tu-20261019d |
-| NT-001009 | WRITING | W9 | s-claude-tu-20261019d | leased to s-claude-tu-20261019d |
-| NT-001010 | WRITING | W9 | s-claude-tu-20261019d | leased to s-claude-tu-20261019d |
-| NT-001061 | WRITING | W6 | seodev-w39 | leased to seodev-w39 |
-| NT-001062 | WRITING | W6 | seodev-w39 | leased to seodev-w39 |
-| NT-001063 | WRITING | W6 | seodev-w39 | leased to seodev-w39 |
-| NT-001064 | WRITING | W6 | seodev-w39 | leased to seodev-w39 |
-| NT-001065 | WRITING | W6 | seodev-w39 | leased to seodev-w39 |
-| NT-001066 | WRITING | W6 | seodev-w39 | leased to seodev-w39 |
-| NT-001067 | WRITING | W6 | seodev-w39 | leased to seodev-w39 |
-| NT-001068 | WRITING | W6 | seodev-w39 | leased to seodev-w39 |
-| NT-001069 | WRITING | W6 | seodev-w39 | leased to seodev-w39 |
-| NT-001070 | WRITING | W6 | seodev-w39 | leased to seodev-w39 |
-| NT-001091 | WRITING | W3 | seodev-w37 | leased to seodev-w37 |
-| NT-001092 | WRITING | W3 | seodev-w37 | leased to seodev-w37 |
-| NT-001093 | WRITING | W3 | seodev-w37 | leased to seodev-w37 |
-| NT-001094 | WRITING | W3 | seodev-w37 | leased to seodev-w37 |
-| NT-001095 | WRITING | W3 | seodev-w37 | leased to seodev-w37 |
-| NT-001096 | WRITING | W3 | seodev-w37 | leased to seodev-w37 |
-| NT-001097 | WRITING | W3 | seodev-w37 | leased to seodev-w37 |
-| NT-001098 | WRITING | W3 | seodev-w37 | leased to seodev-w37 |
-| NT-001099 | WRITING | W3 | seodev-w37 | leased to seodev-w37 |
-| NT-001100 | WRITING | W3 | seodev-w37 | leased to seodev-w37 |
-| NT-000845 | HELD | W2 | s-claude-tu-20261019b | REAL_RISK: Source REVIEW: ValueError: Source excerpt not found; Source REVIEW: ValueError: Source excerpt not found |
-| NT-001031 | HELD | W7 | s-claude-tu-20261019e | REAL_RISK: Source REVIEW: HTTPError 302 |
+| NT-000763 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
+| NT-000764 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
+| NT-000765 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
+| NT-000766 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
+| NT-000767 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
+| NT-000768 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
+| NT-000769 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
+| NT-000770 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
+| NT-000878 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
+| NT-000879 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
+| NT-000880 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
+| NT-000881 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
+| NT-000933 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
+| NT-000934 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
+| NT-000935 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
+| NT-000940 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
+| NT-000961 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
+| NT-000963 | WRITING | W5 | seodev-w42 | leased to seodev-w42 |
+| NT-000964 | WRITING | W5 | seodev-w42 | leased to seodev-w42 |
+| NT-000965 | WRITING | W5 | seodev-w42 | leased to seodev-w42 |
+| NT-000966 | WRITING | W5 | seodev-w42 | leased to seodev-w42 |
+| NT-000967 | WRITING | W5 | seodev-w42 | leased to seodev-w42 |
+| NT-000968 | WRITING | W5 | seodev-w42 | leased to seodev-w42 |
+| NT-000969 | WRITING | W5 | seodev-w42 | leased to seodev-w42 |
+| NT-000970 | WRITING | W5 | seodev-w42 | leased to seodev-w42 |
+| NT-001001 | WRITING | W5 | seodev-w42 | leased to seodev-w42 |
+| NT-001002 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
+| NT-001003 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
+| NT-001004 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
+| NT-001005 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
+| NT-001006 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
+| NT-001007 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
+| NT-001008 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
+| NT-001009 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
+| NT-001010 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
+| NT-001065 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
+| NT-001069 | WRITING | W7 | seodev-w44 | leased to seodev-w44 |
+| NT-001070 | WRITING | W7 | seodev-w44 | leased to seodev-w44 |
+| NT-001071 | WRITING | W7 | seodev-w44 | leased to seodev-w44 |
+| NT-001072 | WRITING | W7 | seodev-w44 | leased to seodev-w44 |
+| NT-001073 | WRITING | W7 | seodev-w44 | leased to seodev-w44 |
+| NT-001075 | WRITING | W7 | seodev-w44 | leased to seodev-w44 |
+| NT-001076 | WRITING | W7 | seodev-w44 | leased to seodev-w44 |
+| NT-001077 | WRITING | W7 | seodev-w44 | leased to seodev-w44 |
+| NT-001078 | WRITING | W7 | seodev-w44 | leased to seodev-w44 |
+| NT-001080 | WRITING | W8 | seodev-w45 | leased to seodev-w45 |
+| NT-001093 | WRITING | W8 | seodev-w45 | leased to seodev-w45 |
+| NT-001094 | WRITING | W8 | seodev-w45 | leased to seodev-w45 |
+| NT-001095 | WRITING | W8 | seodev-w45 | leased to seodev-w45 |
+| NT-001101 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4344; Near duplicate existing:4344 |
+| NT-001102 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4345; Near duplicate existing:4345 |
+| NT-001103 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4346; Near duplicate existing:4346 |

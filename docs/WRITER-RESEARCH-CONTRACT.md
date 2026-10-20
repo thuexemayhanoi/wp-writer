@@ -1,14 +1,19 @@
+**QUY ĐỊNH MỚI CỦA CHỦ SỞ HỮU — 20/10/2026:** Ngưỡng SEO **≥76/100** và Quality **≥76/100** (trên 75), theo `config/qa-rules.json`. G3 nguồn ngoài là **tham khảo có cảnh báo để audit sau**, không chặn bài chỉ vì trích dẫn đổi câu chữ, ngày kiểm tra cũ, 404 hoặc nguồn tạm không mở được. Chưa đọc live phải ghi `live_checked=false`, ghi `source_advisories`; không gọi đó là đã xác minh. Giữ chặn nguồn URL không an toàn, nguồn pháp luật không có URL chính thức, giá/địa chỉ sai, bịa trải nghiệm, sai URL/canonical/danh mục, trùng bài, Writer receipt và G7. Các câu cũ ghi ngưỡng 85 hay bắt nguồn khớp nguyên văn đã **hết hiệu lực**. Không chỉnh điểm JSON, không bỏ gate.
+
 # Quy trình chung W1–W9 — AI App nghiên cứu và viết liên tục
+
+> **Điểm vào cho Excel Nguyễn Tú (1.482 tiêu đề):** [TITLE-PLAN-1482-SOP](TITLE-PLAN-1482-SOP.md). Excel là kế hoạch gợi ý; `data/topics.jsonl` là Topic Registry đã được Research QA duyệt; chỉ NT đã PLANNED mới được W1–W9 claim, viết/QA/Publisher. 51 phường giữ độc lập. Không lấy tên Excel làm slug hoặc hạ bất kỳ gate nào.
+
 
 Lệnh chủ 18/10/2026: giữ quy trình đơn giản, viết nhiều và nhanh; không thêm API AI, khóa Writer, xác thực tài khoản AI hay bước duyệt tay. Tài liệu này thống nhất cách vận hành cho README, AGENTS, Quickstart và các role playbook; hướng dẫn cũ mâu thuẫn phải theo tài liệu này. Tham số thật vẫn lấy từ config và mã QA hiện có.
 
 ## Luồng duy nhất
 
-**AI App nghiên cứu → Research QA → PLANNED → W1–W9 viết → QA ≥85 + chống trùng + đúng danh mục → Publisher → WordPress công khai → G7 xác minh.**
+**AI App nghiên cứu → Research QA → PLANNED → W1–W9 viết → QA ≥76 + chống trùng + đúng danh mục → Publisher → WordPress công khai → G7 xác minh.**
 
 - Claude/ChatGPT/AI App đang chạy thực hiện nghiên cứu, viết và sửa. GitHub Actions chạy chương trình kiểm tra, tiếp nhận và đăng bài; không gọi mô hình AI.
 - Mỗi phiên dùng một session ổn định, nhận một vị trí trống bằng `--slot auto`, tối đa 10 Topic ID. Đó là phân công để các máy không viết trùng bài, không phải khóa API hay xác thực Claude.
-- SEO ≥85, Quality ≥85, 1.600–5.000 từ hữu ích và G1–G6 giữ nguyên. Trùng intent/URL, sai nguồn/dữ kiện/danh mục/liên kết vẫn bị giữ riêng.
+- SEO ≥76, Quality ≥76, 1.600–5.000 từ hữu ích và G1–G6 giữ nguyên. Trùng intent/URL, sai nguồn/dữ kiện/danh mục/liên kết vẫn bị giữ riêng.
 - Publisher đang bật, đăng 2 bài/lô, tối đa 5 lô mỗi lần chạy; QA trên main kích hoạt Publisher, lịch :17/:47 dự phòng. Xác minh công khai bằng ledger `phase=VERIFIED` và URL; không suy từ Actions success.
 
 ## Một quy định nguồn cho cả Researcher và Writer
@@ -18,7 +23,7 @@ Lệnh chủ 18/10/2026: giữ quy trình đơn giản, viết nhiều và nhanh
 - Luật cần nguồn chính thức có thẩm quyền, kiểm tra trong 90 ngày; nguồn tổng quát trong 365 ngày. Giá, lịch, luật và dữ kiện biến động phải được xác nhận khi dùng. Giá/chính sách Nguyễn Tú lấy từ `data/business-facts.json`.
 - Ghi đúng URL HTTPS, ngày đọc, khẳng định được hỗ trợ, trích đoạn ngắn nguyên văn và hash văn bản thực đã đọc. Không tạo nguồn/hash/kinh nghiệm giả; RSS chỉ là gợi ý. Cùng một tài liệu có thể phục vụ nhiều câu hỏi khác intent khi thật sự có bằng chứng tương ứng.
 - Được nghiên cứu các website công khai phù hợp, gồm hãng xe, cơ quan nhà nước, kỹ thuật, báo chí, du lịch và đối thủ; không sao chép hay lấy giá/đánh giá đối thủ làm dữ kiện Nguyễn Tú. Link ngoài HTTPS dùng theo ngữ cảnh; không áp danh sách tên miền đóng cho nội dung tổng quát.
-- GitHub không mở được nguồn vì 403/429/5xx/lỗi mạng chỉ được dùng cơ chế snapshot hiện có khi URL + hash + đoạn trích khớp hồ sơ nghiên cứu của chính chủ đề; ghi `live_checked: false`. 404 hoặc nguồn đọc được nhưng không khớp trích đoạn vẫn REVIEW. Không bắt buộc probe host trước mọi bài.
+- Khi đăng, URL nguồn HTTPS là tham khảo. 403/404/429/5xx, nguồn quá hạn hoặc đoạn trích đã đổi không tự chặn bài; lưu cảnh báo `source_advisories` với `live_checked=false` để audit sau. Luật vẫn cần nguồn URL cơ quan có thẩm quyền. Không ghi giả đã kiểm chứng live và không buộc probe trước mọi bài.
 - Hai liên kết **nội bộ** công khai là yêu cầu riêng của Article QA, không phải yêu cầu hai nguồn ngoài.
 
 ## Viết và nghiên cứu tiếp, không chờ duyệt từng đợt

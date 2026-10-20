@@ -1,0 +1,201 @@
+{
+  "topic_id": "NT-001079",
+  "status": "PASS",
+  "source_sha256": "3a2530f75eef8b7a3b95210f31ed158f15415d3e2ba4f1823ec7d94f6964808a",
+  "body_sha256": "f413e4e9f0e58589d0fba098f76e065444610f2d505d4af973cd2d2fe277f09d",
+  "word_count": 2385,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.yadea.com.vn/chi-tiet-yadea-osta-chay-180km-lan-sac-di-xuong-doc-co-che-do-phanh-tu-dong-chay-duong-dai-la-giu-ga-co-ca-so-dat-neu-ai-luoi-day-xe/",
+      "supports": "Bài của Yadea Việt Nam về Osta (đăng lại từ trang báo, đăng ngày 12/03/2026) chỉ nêu tên kiểm soát lực kéo TCS, hỗ trợ đổ đèo HDC và giữ phanh ngang dốc Hill-hold, cùng đèn Hazard tự bật khi phanh gấp và ngắt động cơ khi gạt chân chống; không giải thích cách hoạt động.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/he-thong-kiem-soat-luc-keo-tren-xe-may-la-gi/",
+      "supports": "Bài của Yamaha Motor Việt Nam (đăng 21/08/2026) định nghĩa TCS cho xe máy xăng: ngăn bánh sau quay trơn, cảm biến tốc độ hai bánh và ECU, can thiệp bằng đánh lửa hoặc nhiên liệu; TCS và ABS bổ trợ nhau.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Sách hướng dẫn Dat Bike ERA mục 2.11 mô tả Hill Assist: lực kéo của động cơ để xe không trượt về sau khi dừng trên dốc, không thay việc vặn tay ga (dùng để so sánh, không áp cho Osta).",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Sách hướng dẫn Dat Bike ERA mục 2.7.1: hạ chân chống nghiêng khi đang chạy thì xe chuyển sang chế độ P, ngừng cấp năng lượng cho tay ga (dùng để so sánh với cơ chế ngắt động cơ khi gạt chân chống nêu trong bài Osta).",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.yadea.com.vn/chi-tiet-yadea-osta-chay-180km-lan-sac-di-xuong-doc-co-che-do-phanh-tu-dong-chay-duong-dai-la-giu-ga-co-ca-so-dat-neu-ai-luoi-day-xe/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/he-thong-kiem-soat-luc-keo-tren-xe-may-la-gi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2367,
+        "title": "Có Nên Sạc Xe Máy Điện Tại Nhà? Kinh Nghiệm An Toàn Khi Sử Dụng",
+        "why": "stale",
+        "content_hash": "8768183f030319ed7647591d37ba6e25af1e5ac274f69cc230b87c74a28fe158",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2441,
+        "title": "Honda Vision có ưu nhược điểm gì khi sử dụng hằng ngày trong phố?",
+        "why": "stale",
+        "content_hash": "afe731aa2441d7ecdc450e2a9e5f0574a44dfcbbdc8455f0c3850b24a1490cca",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4047,
+        "title": "Thuê xe máy Hà Nội 2 ngày 1 đêm: tính tiền theo mốc nào và trả xe lúc nào?",
+        "why": "stale",
+        "content_hash": "ff3360a833efc7ccb2778f577426a6ccdec6c16a3c8c30c58243ba9e9175e695",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4345,
+        "title": "Thuê xe máy phường Cửa Nam: chọn Air Blade, tính gói ngày hay tuần?",
+        "why": "stale",
+        "content_hash": "fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T19:42:16.471015+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "07e291c8ae43e20e948efd0bacffc9213f1c4ed5de12c38e9156d6c2bd95f077",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

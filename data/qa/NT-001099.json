@@ -1,0 +1,117 @@
+{
+  "topic_id": "NT-001099",
+  "status": "PASS",
+  "source_sha256": "b90316dcbb83741c83cbc9e721f16e6b8d924b2ddef6311ea4810fefc4b1aedf",
+  "body_sha256": "53fb15d9616b89593f4be562d02dcf4f5e64eecf8272f4fad87af4aa0a9687ea",
+  "word_count": 2314,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-gioi-thieu-phien-ban-moi-mau-xe-vision-2026-bat-sac-tu-tin",
+      "supports": "Honda Việt Nam (thông cáo 13/12/2025): Vision 2026 dùng động cơ eSP 110cc, 4 kỳ, xy-lanh đơn, làm mát bằng không khí, PGM-FI, bộ đề ACG, idling stop.",
+      "sha256": "5b195f1acce881d9031cce473ce76a36270713934ee332dbc881c74561368850",
+      "verified_at": "2026-10-20T09:47:18.892567+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/tin-tuc/honda-viet-nam-gioi-thieu-air-blade-the-he-moi-2023-tien-phong-manh-luc",
+      "supports": "Honda Việt Nam (thông cáo 20/5/2022): Air Blade 160cc/125cc dùng động cơ eSP+ 4 van, PGM-FI, làm mát bằng dung dịch, Euro 3; số liệu thử nghiệm tăng tốc và leo dốc.",
+      "sha256": "acf202a43ac753b02679c5bfb4678600967a24e01fd4de991ea33fe79abd38d4",
+      "verified_at": "2026-10-20T09:47:20.414329+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap",
+      "supports": "Honda Việt Nam (câu hỏi thường gặp, cập nhật 21/09/2021): SH350i động cơ eSP+ 329,6cc, SOHC 4 van, PGM-FI, làm mát bằng dung dịch, 21,5 kW tại 7.500 vòng/phút, 31,8 Nm tại 5.250 vòng/phút.",
+      "sha256": "e561c8f44a43af449d3c9bd2e77ae5e6afb220d3ce7c7fb1484020d8da2facc3",
+      "verified_at": "2026-10-20T09:47:21.585059+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-20T09:47:29.725981+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
+  "inventory_sha256": "691329a22288d9c4eb518ae58b57ae55a4cd490bcb1f33e84f2136c48ead8e2e",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

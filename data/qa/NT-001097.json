@@ -1,0 +1,167 @@
+{
+  "topic_id": "NT-001097",
+  "status": "PASS",
+  "source_sha256": "7f2365362d089c917e329a85858898e29e492a79d89963863cf0c78db032187b",
+  "body_sha256": "e157b7b46d808bd853943a3578d0d042771d56bebafcfa887cf99de4c4484011",
+  "word_count": 3108,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://hanoimoi.vn/chua-tram-chua-tram-gian-tu-truyen-thuyet-den-gia-tri-van-hoa-truyen-thong-679034.html",
+      "supports": "Hà Nội Mới (tham luận Đặng Bằng): chùa Trầm, chùa Trăm Gian công nhận cấp quốc gia năm 1962; núi Trầm, chùa Long Tiên, hang Long Tiên, chùa Vô Vi, chùa Trăm Gian, lễ hội mùng 4 đến mùng 6 tháng Giêng.",
+      "sha256": "aae1440f92b0f7dc1d14b0b733a66f16e68964702f643cf7f781cfcd8c1b99e0",
+      "verified_at": "2026-10-20T09:35:55.914893+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://hanoimoi.vn/chuong-my-xay-dung-nha-trung-bay-ve-bac-ho-ton-tao-chua-tram-chua-tram-gian-689602.html",
+      "supports": "Hà Nội Mới (khởi công 6/1/2025): huyện Chương Mỹ đầu tư gần 267 tỷ đồng tu bổ cụm di tích chùa Trầm – chùa Trăm Gian và xây nhà trưng bày về Chủ tịch Hồ Chí Minh, mục tiêu hoàn thành 2025–2026.",
+      "sha256": "45c5554b8ae616e4b7818bd1562390965e3ce5beca3ec4c2c988ea6087126d28",
+      "verified_at": "2026-10-20T09:35:57.028815+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://hanoimoi.vn/chuong-my-phat-huy-gia-tri-di-san-van-hoa-1761114.html",
+      "supports": "Hà Nội Mới (14/10/2026): phường Chương Mỹ bàn giao sản phẩm số hóa 10 di tích cấp quốc gia (chùa Trầm, chùa Trăm Gian, chùa Vô Vi) bằng VR360, 242 điểm nhìn, 574 ảnh, 11 mã QR.",
+      "sha256": "d7a4d6e0351d0c1b8892483a6023073313037e65756cec58b6591d9f76108b66",
+      "verified_at": "2026-10-20T09:35:58.317017+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://hanoimoi.vn/nhung-bau-vat-trong-hai-co-tu-o-huyen-chuong-my-679938.html",
+      "supports": "Hà Nội Mới (PGS.TS Phạm Quốc Quân): chùa Trăm Gian có 18 vị La Hán, tượng Đô đốc Đặng Tiến Đông, 896 mộc bản, 14 bia; hang Long Tiên hiện còn 40 pho tượng đá.",
+      "sha256": "95f7144dc336c76543675b8afb9bfb7f3ad430ab8f48fe3929d20f56e57abd70",
+      "verified_at": "2026-10-20T09:35:59.846419+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2590,
+        "title": "Xe ga nào dễ lái cho người mới? Tiêu chí chọn xe an toàn hơn",
+        "why": "stale",
+        "content_hash": "f8902bfd6a2486eeeba8cd80b6a82c343421a30c904c7f55f75916cb9ec28c44",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2615,
+        "title": "Phố cổ Hà Nội có gì chơi? 15 địa điểm, món ngon và lịch trình đi bộ",
+        "why": "stale",
+        "content_hash": "e9addb8498afd5d9d13bd70c14aa17da5a5746f6ac0ac5ba4247af9d1591d5ff",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2622,
+        "title": "Hoàng thành Thăng Long có gì? Giá vé, giờ mở cửa và cách tham quan",
+        "why": "stale",
+        "content_hash": "1d198ab7452c92604271329801956283c798cb81955fe394ef94bb66188faaf3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4055,
+        "title": "Thuê 2 xe máy cùng lúc ở Hà Nội: chuẩn bị giấy tờ, giao nhận và hoàn cọc từng xe",
+        "why": "stale",
+        "content_hash": "029d48a9e900c89ea965179099932a9ddb51ee071f065aca1c29903fd58a13c9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T09:36:08.601163+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
+  "inventory_sha256": "d8fc8133194a25686c70a4a550ef23ce911ff473e1e9267a0b1f47ea81e8e8bb",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

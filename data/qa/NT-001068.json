@@ -1,0 +1,132 @@
+{
+  "topic_id": "NT-001068",
+  "status": "PASS",
+  "source_sha256": "5605053a24e7a28a690f04a770e1e0dd170552af6429059e9ff9e2d3e39929ed",
+  "body_sha256": "c382182255bb434f392eb6940ae9242649c0344fe583649a195de3766f29b8a8",
+  "word_count": 2600,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/nguyen-nhan-xe-dien-khong-len-dien-va-cach-xu-ly/",
+      "supports": "Yamaha Việt Nam: xe điện không lên điện có thể do pin hết điện (chỉ cần sạc đầy) hoặc hệ thống dây điện lỏng, hư, đứt (đưa đến đại lý chính hãng); NEO's xem mức pin qua màn hình hoặc Y-Connect.",
+      "sha256": "67575cdba0c9eef45180c5828dd0e8a4121f78c43a2fccee95aa2f8a798f2fc0",
+      "verified_at": "2026-10-20T09:45:13.573581+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn Dat Bike Quantum mục 2.17: sau khi Tắt pin trong ứng dụng thì không mở được xe, muốn mở lại cắm sạc pin khoảng 2 phút.",
+      "sha256": "ac94fe3ed316f103e53e5432bd19ff4ab03fb1a738bf12bc0e21783d719b9e85",
+      "verified_at": "2026-10-20T09:45:15.245975+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/faq-maintenance/",
+      "supports": "Dat Bike FAQ sửa chữa và bảo hành: mất cả hai chìa khóa hoặc thẻ RFID và xe không còn kết nối ứng dụng thì phải mang xe đến cửa hàng Dat Bike để lập trình lại.",
+      "sha256": "c00ce0d8d5997b720849ffe52c59dcdf19efefe1177be14bc2aca249201c5182",
+      "verified_at": "2026-10-20T09:45:16.553731+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2362,
+        "title": "Trạm Sạc Xe Máy Điện Hoạt Động Ra Sao Và Cần Lưu Ý Gì Khi Sử Dụng?",
+        "why": "stale",
+        "content_hash": "a17c9cf060eb4fcc003a8361442a9640e3697f1a42863cfbcf483016e0e39b82",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T09:45:29.943320+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
+  "inventory_sha256": "12543be5ef31fbe5412199c415c35a9d6b4e62fc33f44875992b7e01d10c2652",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

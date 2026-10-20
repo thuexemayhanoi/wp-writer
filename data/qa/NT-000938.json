@@ -1,0 +1,159 @@
+{
+  "topic_id": "NT-000938",
+  "status": "PASS",
+  "source_sha256": "7a178e6c18ea11391daeb1c7c6dc0fd3aba9d3282879b9fc47152ffd073a3fad",
+  "body_sha256": "fa3c79f0055acf04a309929bdb228e78984b40404aeba919457943deac2d310f",
+  "word_count": 3163,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://moc.gov.vn/vn/tin-tuc/1196/93506/ban-hanh-quy-chuan-ky-thuat-quoc-gia-ve-dong-co-su-dung-cho-xe-mo-to-dien-xe-gan-may-dien.aspx",
+      "supports": "Bản tin Cổng TTĐT Bộ Xây dựng (20/04/2026): Thông tư 12/2026/TT-BXD ban hành QCVN 30:2026/BXD về động cơ xe mô tô điện, xe gắn máy điện; hiệu lực 09/10/2026; thay khoản 19 Điều 1 Thông tư 48/2024/TT-BGTVT; điều khoản chuyển tiếp.",
+      "sha256": "fd357aec0d471f2e8692ff3f95eb01e17b751b7e223ffcc3db8f145f4897741d",
+      "research_checked_at": "2026-10-19",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    },
+    {
+      "url": "https://moc.gov.vn/vn/tin-tuc/1196/93507/ban-hanh-quy-chuan-ky-thuat-quoc-gia-ve-ac-quy-su-dung-cho-xe-mo-to-dien--xe-gan-may-dien.aspx",
+      "supports": "Bản tin Cổng TTĐT Bộ Xây dựng (20/04/2026): Thông tư 13/2026/TT-BXD ban hành QCVN 31:2026/BXD về ắc quy dùng cho xe mô tô điện, xe gắn máy điện; hiệu lực 09/10/2026; thay khoản 20 Điều 1 Thông tư 48/2024/TT-BGTVT; báo cáo thử nghiệm cấp trước vẫn dùng để chứng nhận.",
+      "sha256": "61b408c78bb71b11c59625ace5826d2dbd66399c3b79df8a5636853d2fb81650",
+      "research_checked_at": "2026-10-19",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    },
+    {
+      "url": "https://pbgdpl.cantho.gov.vn/quy-dinh-ve-quy-chuan-ky-thuat-quoc-gia-ve-tru-sac-tram-sac-xe-dien",
+      "supports": "Trang phổ biến pháp luật Cần Thơ (06/10/2026): Thông tư 61/2026/TT-BCT ban hành QCVN 32:2026/BCT về trụ sạc, trạm sạc xe điện, hiệu lực 01/7/2027; trạm sạc đã hoạt động phải rà soát trong 6 tháng và khắc phục trong 24 tháng; định nghĩa nguy cơ trực tiếp và cách xử lý.",
+      "sha256": "8a8c06a8473a4dad028ea2bb01e3e1e14879c57839cc249dbfe8dc9e8aa2a148",
+      "verified_at": "2026-10-20T09:41:52.287165+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://pbgdpl.cantho.gov.vn/quy-dinh-ve-quy-chuan-ky-thuat-quoc-gia-ve-tru-sac-tram-sac-xe-dien",
+      "supports": "Trang phổ biến pháp luật Cần Thơ (06/10/2026): Thông tư 61/2026/TT-BCT ký ngày 29/9/2026 ban hành Quy chuẩn kỹ thuật quốc gia về trụ sạc, trạm sạc xe điện, có hiệu lực từ 01/7/2027.",
+      "sha256": "85308cf2fd02d77c9900624f8578ea8a25bafd36419c479b507707443806821a",
+      "verified_at": "2026-10-20T09:41:57.024422+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-lay-y-kien-du-thao-quy-chuan-ky-thuat-quoc-gia-ve-tru-sac-tram-sac-xe-dien.html",
+      "supports": "Bộ Công Thương (đăng 07/08/2026): hồ sơ dự thảo Thông tư ban hành Quy chuẩn quốc gia về trụ sạc, trạm sạc xe điện lấy ý kiến theo Thông báo 307/TB-VPCP ngày 16/6/2026, Bộ Công Thương chủ trì phối hợp Bộ Khoa học và Công nghệ, thời hạn nhận ý kiến trước ngày 20/8/2026.",
+      "sha256": "24f2a456b83b8db3f4822180ad719cb231180ccebf2808947fad2606bd44a174",
+      "verified_at": "2026-10-20T09:41:59.277351+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 868,
+        "title": "Thuê Xe Máy Gần Đống Đa Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "ba1ec71dfb2fbdc6d28b06931efdd59bd55ff37a920f7477428f406fb29c5bff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2362,
+        "title": "Trạm Sạc Xe Máy Điện Hoạt Động Ra Sao Và Cần Lưu Ý Gì Khi Sử Dụng?",
+        "why": "stale",
+        "content_hash": "a17c9cf060eb4fcc003a8361442a9640e3697f1a42863cfbcf483016e0e39b82",
+        "jaccard": 0.003,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T09:42:06.150876+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
+  "inventory_sha256": "c679559882faaa5277c1e236463d9175567dabc80dd955722c35971bb515a953",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

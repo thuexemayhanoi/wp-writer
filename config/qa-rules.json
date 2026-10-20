@@ -2,8 +2,8 @@
   "version": 2,
   "word_min": 1600,
   "word_max": 5000,
-  "quality_min": 85,
-  "seo_min": 85,
+  "quality_min": 76,
+  "seo_min": 76,
   "minimum_h2": 4,
   "near_duplicate_jaccard": 0.68,
   "title_similarity_review": 0.73,
@@ -29,5 +29,8 @@
     "max_jaccard": 0.25
   },
   "incremental_sweep": true,
-  "incremental_max_age_hours": 24
+  "incremental_max_age_hours": 24,
+  "source_policy": "reference_advisory",
+  "source_live_probe_enabled": false,
+  "source_live_retry_attempts": 1
 }

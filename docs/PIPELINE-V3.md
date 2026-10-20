@@ -1,7 +1,9 @@
+**CẬP NHẬT 20/10/2026 — ƯU TIÊN QUY ĐỊNH NÀY:** Chủ duyệt **SEO ≥76/100, Quality ≥76/100**, giữ đủ G1–G7. G3 chỉ kiểm nguồn URL HTTPS an toàn/nguồn chính thức khi nói luật; nội dung trích dẫn thay đổi hoặc link cũ/khó mở sẽ ghi **cảnh báo audit sau**, không tự giữ bài. Trạng thái `source_advisories` và `live_checked=false` phải trung thực; không bịa nguồn, luật, giá, trải nghiệm. Giữ Writer lease, chống trùng URL/intent, parent/child, canonical, ledger, công tắc Production và G7. Mọi chỗ còn nhắc 85 là hướng dẫn cũ đã thay bởi cấu hình hiện hành.
+
 # Pipeline v3 — hàng đợi bền vững, QA tăng dần, Publisher tự nối chuỗi (20/10/2026)
 
 Nâng cấp theo lệnh chủ **MASTER WORK — EMERGENCY WP-WRITER PIPELINE UPGRADE** (19–20/10/2026). Tiêu chuẩn QA
-(SEO ≥85, Quality ≥85, G1–G7, kiểm tra trùng, đúng danh mục, nguồn thật) **không đổi**; không dùng API LLM trả phí,
+(SEO ≥76, Quality ≥76, G1–G7, kiểm tra trùng, đúng danh mục, nguồn thật) **không đổi**; không dùng API LLM trả phí,
 không thêm dịch vụ bên thứ ba. Mọi trạng thái vẫn nằm trong repo (`posts/drafts`, `data/qa`, `data/state`, `reports`).
 
 ## 1. Nguyên nhân ùn tắc đã đo được

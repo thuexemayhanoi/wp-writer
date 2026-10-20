@@ -1,0 +1,167 @@
+{
+  "topic_id": "NT-001061",
+  "status": "PASS",
+  "source_sha256": "826c28395bf0d3c9334fad0ffcde3edb458b4062e6f605ab807d8643909380ea",
+  "body_sha256": "8f4b3c5c2e2ed8c2072ff6a70e8cd947c7c869ec459edd3dea83768522292cba",
+  "word_count": 2996,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/huong-dan-cap-nhat-firmware-xe-dat-bike/",
+      "supports": "Dat Bike hướng dẫn nâng cấp firmware qua ứng dụng: xe không sử dụng, điện thoại ở gần xe và có internet suốt quá trình, kiểm tra thành công bằng nút Nâng cấp và mã hash phiên bản.",
+      "sha256": "1c913beb5cd0e162d11152f37abbdfa69734c95343e5d7c4c54f75dafc221b02",
+      "verified_at": "2026-10-20T09:21:29.886439+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cap-nhat-firmware-xe-dat-bike/",
+      "supports": "Dat Bike: nút NÂNG CẤP còn sáng nghĩa là firmware chưa nâng cấp thành công; tiếp tục cho đến khi nút chuyển xám rồi đối chiếu mã hash ở màn hình Thông tin xe.",
+      "sha256": "1c913beb5cd0e162d11152f37abbdfa69734c95343e5d7c4c54f75dafc221b02",
+      "verified_at": "2026-10-20T09:21:31.431949+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cap-nhat-firmware-xe-dat-bike/",
+      "supports": "Dat Bike khuyên không nâng cấp firmware khi đang sạc ở trạm sạc nhanh Dat Charge; Weaver++ tự bật khi có firmware cho LCD và không được tắt xe trước khi hoàn thành.",
+      "sha256": "1c913beb5cd0e162d11152f37abbdfa69734c95343e5d7c4c54f75dafc221b02",
+      "verified_at": "2026-10-20T09:21:32.756884+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn Dat Bike Quantum: cập nhật mới của firmware có thể làm kết nối Bluetooth cũ không tương thích; cách khắc phục là xóa kết nối trong cài đặt Bluetooth, khởi động lại Bluetooth, mở định vị rồi kết nối lại ứng dụng với xe; cùng lúc chỉ một điện thoại được kết nối với xe.",
+      "sha256": "ac94fe3ed316f103e53e5432bd19ff4ab03fb1a738bf12bc0e21783d719b9e85",
+      "verified_at": "2026-10-20T09:21:34.164013+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 931,
+        "title": "So Sánh Giá Thuê Xe Máy Điện Và Xe Đạp Điện Tại Hà Nội",
+        "why": "stale",
+        "content_hash": "6ecf7e9ed22bffd8cd1b7503e82157d22124c0c18b557dbf6c98245fa34fb529",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2055,
+        "title": "App Thuê Xe Máy Hà Nội Nguyễn Tú – Chọn Xe & Tính Giá Nhanh",
+        "why": "stale",
+        "content_hash": "984922cf520fb43f859f4ca1d858e29bed5cd5f00813797ff934b0b5fb7da7fc",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2355,
+        "title": "Bao nhiêu tuổi được đi xe máy điện? Những điều cần biết",
+        "why": "stale",
+        "content_hash": "df4e397638303da8d179daafae395db634b027fd262d47406e50b3e2c2cf527c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2513,
+        "title": "Dấu hiệu má phanh xe máy cần thay và cách kiểm tra an toàn hằng ngày",
+        "why": "stale",
+        "content_hash": "f1040fa1950d3342eebff669b05d5319f4be2c2517c80ecddf1b4b239e6f5f16",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T09:21:40.055452+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
+  "inventory_sha256": "45d381827cb8e865ec902e472d993ae1dcd5bf4f3e6adceec2e3d1e1c37f25da",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

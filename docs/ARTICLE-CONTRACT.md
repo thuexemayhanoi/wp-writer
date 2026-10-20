@@ -1,3 +1,5 @@
+**QUY ĐỊNH MỚI CỦA CHỦ SỞ HỮU — 20/10/2026:** Ngưỡng SEO **≥76/100** và Quality **≥76/100** (trên 75), theo `config/qa-rules.json`. G3 nguồn ngoài là **tham khảo có cảnh báo để audit sau**, không chặn bài chỉ vì trích dẫn đổi câu chữ, ngày kiểm tra cũ, 404 hoặc nguồn tạm không mở được. Chưa đọc live phải ghi `live_checked=false`, ghi `source_advisories`; không gọi đó là đã xác minh. Giữ chặn nguồn URL không an toàn, nguồn pháp luật không có URL chính thức, giá/địa chỉ sai, bịa trải nghiệm, sai URL/canonical/danh mục, trùng bài, Writer receipt và G7. Các câu cũ ghi ngưỡng 85 hay bắt nguồn khớp nguyên văn đã **hết hiệu lực**. Không chỉnh điểm JSON, không bỏ gate.
+
 # Markdown contract
 
 Sao chép chính xác identity từ manifest. Metadata dưới đây là cấu trúc minh họa, phải thay bằng dữ liệu thật và nguồn đã đọc; không dùng placeholder trong bài nộp.
@@ -33,7 +35,7 @@ editorial_review:
 
 `primary_keyword`, intent và các identity phải lấy từ manifest, không tự suy theo ví dụ. Tính `body_sha256` bằng `hashlib.sha256(body.strip().encode()).hexdigest()` sau khi viết xong; không hash YAML. Submission receipt dùng SHA-256 **toàn bộ file** và do session tool ghi.
 
-Nguồn có cấu trúc: `url` HTTPS công khai đã kiểm chứng (được lấy từ website hãng, đối thủ, cơ quan nhà nước, du lịch, báo chí, kỹ thuật hoặc nghiên cứu), `checked_at` YYYY-MM-DD, `supports` mô tả khẳng định được nguồn chứng minh, `evidence_text` đoạn ngắn có thật trong nguồn, `source_sha256` hash văn bản nguồn đã đọc cho QA cục bộ. QA live ưu tiên tải lại để đối chiếu; nếu lỗi mạng tạm thời, chỉ chấp nhận snapshot bằng chứng đã trùng chính xác hồ sơ nghiên cứu của chính chủ đề và ghi rõ là chưa xác thực live. Nguồn pháp lý phải là cơ quan có thẩm quyền, được kiểm tra trong hạn xác minh. Thông tin kỹ thuật theo đúng model/đời xe; không dùng manual của mẫu khác.
+Nguồn có cấu trúc: `url` HTTPS công khai đã kiểm chứng (được lấy từ website hãng, đối thủ, cơ quan nhà nước, du lịch, báo chí, kỹ thuật hoặc nghiên cứu), `checked_at` YYYY-MM-DD, `supports` mô tả khẳng định được nguồn chứng minh, `evidence_text` đoạn ngắn có thật trong nguồn, `source_sha256` hash văn bản nguồn đã đọc cho QA cục bộ. Khi xuất bản, QA không buộc đối chiếu lại từng chữ nguồn hay ngày kiểm tra; ghi `source_advisories` và `live_checked=false` để audit sau. Nguồn pháp lý vẫn cần URL cơ quan có thẩm quyền, nhưng nguồn cũ hoặc tạm lỗi không tự chặn bài. Thông tin kỹ thuật theo đúng model/đời xe; không dùng manual của mẫu khác.
 
 Business claim có thể khai `key: phone|address|hours|deposit_vnd` hoặc `price:Honda Vision:day_vnd` và value khớp chính xác business-facts. Khai đúng metadata không miễn kiểm tra nội dung; mọi con số trong bài vẫn cần nguồn/thông tin chủ cung cấp. Không bịa evidence hay trải nghiệm.
 
@@ -42,17 +44,17 @@ Nội dung không thêm H1 (WordPress tự dùng title), có ít nhất 4 H2 h�
 
 ## SEO QA V2 — yêu cầu trước khi nộp bài (từ 17/10/2026)
 
-Tất cả bài mới phải đạt **SEO score nội bộ ≥85/100**, Quality ≥85, và **PASS cả sáu gates**. Xem [bảng chấm điểm và tiêu chuẩn site chính](SEO-QA-V2.md).
+Tất cả bài mới phải đạt **SEO score nội bộ ≥76/100**, Quality ≥76, và **PASS cả sáu gates**. Xem [bảng chấm điểm và tiêu chuẩn site chính](SEO-QA-V2.md).
 
 - SEO title và meta description phải thể hiện đúng search intent, viết tự nhiên; đừng cố nhồi exact keyword.
 - Mở bài trả lời trực tiếp, H2 liên quan thực tế và có giá trị, không lặp mẫu kéo dài.
 - Nối những URL **đã xuất bản thật**, ưu tiên silo/pillar liên quan; đa dạng anchor, không spam trang chủ hay liên kết nháp.
 - Không bịa giá thuê xe/phí giao/đặt cọc/kinh nghiệm người dùng/luật. Sử dụng business facts và nguồn kiểm chứng.
 - Không ép bài kiến thức phải chèn FAQ, ảnh hoặc lời kêu gọi thuê xe.
-- Đọc seo_checks và seo_recommendations trong data/qa/NT-XXXXXX.json. Dưới 85 là FAIL, Writer tự chỉnh và làm lại hash/QA; không đăng WordPress.
-- Nếu đạt 85 nhưng trùng intent, sai category cha/con, sai canonical hoặc nguồn không đáng tin vẫn FAIL/REVIEW. Không sửa URL hoặc bài cũ để nâng điểm.
+- Đọc seo_checks và seo_recommendations trong data/qa/NT-XXXXXX.json. dưới 76 là FAIL, Writer tự chỉnh và làm lại hash/QA; không đăng WordPress.
+- Nếu đạt 76 nhưng trùng intent, sai category cha/con, sai canonical hoặc nguồn không đáng tin vẫn FAIL/REVIEW. Không sửa URL hoặc bài cũ để nâng điểm.
 
-Số 85 là thang điểm nội bộ của repo, **không phải điểm Yoast hoặc điểm xếp hạng Google**. WordPress thực tế còn được xác minh sau đăng; ngưỡng mới không tự kích hoạt Production.
+Số 76 là ngưỡng của thang điểm nội bộ của repo, **không phải điểm Yoast hoặc điểm xếp hạng Google**. WordPress thực tế còn được xác minh sau đăng; ngưỡng mới không tự kích hoạt Production.
 
 ## AUTO-REPAIR WRITER — 10 CONTENT REVISIONS (18/10/2026)
 

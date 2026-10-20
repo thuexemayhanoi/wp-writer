@@ -2,6 +2,8 @@
 import argparse
 import datetime as dt
 import functools
+import gzip
+import io
 import html
 import json
 import http.client
@@ -16,6 +18,7 @@ from common import ROOT, SITE, Text, WP, Redirect, digest, load, norm, now, save
 from taxonomy_sync import by_key,path_for
 from gate_triage import annotate
 from topic_factory import drop_own_post, exempt_factory_posts, gate as topic_gate
+from slug_policy import proposed_slug_errors
 
 def read_article(path):
     raw=path.read_text();parts=raw.split('---',2)
@@ -288,6 +291,27 @@ SOURCE_HOSTS_DOWN={}
 def reset_source_host_cache():
     SOURCE_HOSTS_DOWN.clear()
 
+SOURCE_BODY_MAX_BYTES = 8_000_000
+
+
+def decode_source_body(raw, content_encoding=''):
+    """Bounded decoding for compressed government pages, fail closed on bad input.
+
+    Some official websites send GZIP bytes even when the client did not
+    request compression. Decoding those bytes as UTF-8 destroys all text
+    evidence and gives a false G3 REVIEW.
+    """
+    if not isinstance(raw, bytes) or len(raw) > SOURCE_BODY_MAX_BYTES:
+        raise ValueError('Source body exceeds size limit')
+    gzip_payload = raw.startswith(b'\x1f\x8b') or 'gzip' in content_encoding.lower()
+    if gzip_payload:
+        with gzip.GzipFile(fileobj=io.BytesIO(raw)) as stream:
+            raw = stream.read(SOURCE_BODY_MAX_BYTES + 1)
+        if len(raw) > SOURCE_BODY_MAX_BYTES:
+            raise ValueError('Decompressed source exceeds size limit')
+    return raw.decode('utf-8', errors='replace')
+
+
 def read_source(url,attempts=3):
     """One live read exactly like the Publisher's; transient failures are retried up to `attempts` times."""
     host=(urllib.parse.urlsplit(url).hostname or '').lower()
@@ -298,7 +322,10 @@ def read_source(url,attempts=3):
             opener=urllib.request.build_opener(Redirect())
             req=urllib.request.Request(url,headers={'User-Agent':'NguyenTu-WPWriter/1.0'})
             with opener.open(req,timeout=20) as response:
-                return response.read(8_000_000).decode('utf-8',errors='replace'),attempt
+                raw = response.read(SOURCE_BODY_MAX_BYTES + 1)
+                headers = getattr(response, 'headers', None)
+                encoding = headers.get('Content-Encoding', '') if headers else ''
+                return decode_source_body(raw, encoding),attempt
         except Exception as exc:
             if attempt>=attempts or not is_transient(exc):
                 if host and is_transient(exc) and not isinstance(exc,urllib.error.HTTPError):
@@ -307,11 +334,100 @@ def read_source(url,attempts=3):
             time.sleep(RETRY_DELAYS[min(attempt-1,len(RETRY_DELAYS)-1)])
 
 
-def verify_sources(sources, live=False, trusted_research=None, legal=False):
+def source_excerpt_matches(excerpt, source_text):
+    """Match real source prose, including a long excerpt clipped mid-final-word.
+
+    Research snapshots sometimes end at an arbitrary character limit (for
+    example a law excerpt ending at "lo" instead of "loại"). Require the
+    entire preceding sequence of words to occur in the actual fetched page
+    and the final fragment to prefix the immediately following source word.
+    Short excerpts, missing words, and non-prefix substitutions remain REVIEW.
+    """
+    needle = norm(excerpt)
+    page = norm(source_text)
+    # The normal case must end at a source word boundary. Plain substring
+    # matching incorrectly accepted tiny snippets such as "...đủ tu"
+    # against a page containing "...đủ tuổi".
+    if needle and (' ' + needle + ' ') in (' ' + page + ' '):
+        return True
+    parts = needle.split()
+    if len(parts) < 24 or len(excerpt.strip()) < 120:
+        return False
+    final_fragment = parts[-1]
+    if len(final_fragment) < 2 or not excerpt.strip()[-1].isalnum():
+        return False
+    complete_prefix = ' '.join(parts[:-1]) + ' '
+    offset = 0
+    while True:
+        pos = page.find(complete_prefix, offset)
+        if pos < 0:
+            return False
+        remainder = page[pos + len(complete_prefix):]
+        next_word = remainder.split(' ', 1)[0]
+        if len(next_word) > len(final_fragment) and next_word.startswith(final_fragment):
+            return True
+        offset = pos + 1
+
+
+def source_references_advisory(sources, live=False, legal=False):
+    """Track changing source references for later audit without blocking publication.
+
+    URLs must still be safe HTTPS; G3 independently requires an official URL
+    for legal discussion. Nothing unprobed is labeled live-verified.
+    """
+    rules = load('config/qa-rules.json')
+    errors, evidence = [], []
+    for source in sources:
+        if not isinstance(source, dict) or not allowed_source(source.get('url', '')):
+            errors.append('Source URL is not safe public HTTPS')
+            continue
+        url = source['url']
+        warnings = []
+        checked = source.get('checked_at')
+        try:
+            date_checked = dt.date.fromisoformat(str(checked)[:10])
+            maximum = (rules.get('legal_source_max_age_days', 90)
+                       if legal and allowed_source(url, True)
+                       else rules.get('source_max_age_days', 365))
+            age = (dt.date.today() - date_checked).days
+            if age < 0 or age > maximum:
+                warnings.append('SOURCE_DATE_RECHECK_DUE')
+        except (ValueError, TypeError):
+            warnings.append('SOURCE_DATE_NOT_VERIFIED')
+        if not str(source.get('supports', '')).strip():
+            warnings.append('SOURCE_CLAIM_NOT_DESCRIBED')
+        if not str(source.get('evidence_text', '')).strip():
+            warnings.append('SOURCE_EXCERPT_NOT_RECORDED')
+        if not re.fullmatch(r'[a-f0-9]{64}', str(source.get('source_sha256', ''))):
+            warnings.append('SOURCE_SNAPSHOT_NOT_VERIFIED')
+        record = {'url': url, 'supports': source.get('supports', ''),
+                  'checked_at': checked, 'live_checked': False,
+                  'verification_method': 'reference_only', 'warnings': warnings}
+        if live:
+            try:
+                raw, attempts = read_source(url, rules.get('source_live_retry_attempts', 1))
+                text = visible(raw)
+                record.update({'live_checked': True, 'verified_at': now(),
+                               'verification_method': 'live_reference',
+                               'sha256': digest(text)})
+                excerpt = source.get('evidence_text')
+                if excerpt and not source_excerpt_matches(excerpt, text):
+                    warnings.append('SOURCE_EXCERPT_CHANGED_REVIEW_LATER')
+            except Exception as exc:
+                warnings.append('SOURCE_NOT_REACHABLE_REVIEW_LATER: ' + failure_label(exc))
+        else:
+            warnings.append('SOURCE_NOT_PROBED_AT_PUBLISH')
+        evidence.append(record)
+    return errors, evidence
+
+
+def verify_sources(sources, live=False, trusted_research=None, legal=False, advisory=False):
     """Live-check when possible; preserve a clearly marked researched snapshot
     on transient network errors. An unreachable source is not a fake live check.
     Missing, altered or unsupported evidence still requires review.
     """
+    if advisory:
+        return source_references_advisory(sources, live=live, legal=legal)
     import urllib.error
     errors = []
     evidence = []
@@ -337,7 +453,7 @@ def verify_sources(sources, live=False, trusted_research=None, legal=False):
                 # Transient failures are re-read up to live_retry_attempts times before the snapshot fallback is considered.
                 raw, attempt = read_source(s['url'], rules.get('live_retry_attempts', 3))
                 text = visible(raw)
-                if norm(s['evidence_text']) not in norm(text):
+                if not source_excerpt_matches(s['evidence_text'], text):
                     raise ValueError('Source excerpt not found')
                 evidence.append({'url': s['url'], 'supports': s['supports'],
                                  'sha256': digest(text), 'verified_at': now(),
@@ -425,6 +541,7 @@ def evaluate(path,topic,rows=None,inv=None,link_checker=None,live=False,check_cl
     except Exception as e:return {'topic_id':topic['topic_id'],'status':'FAIL','errors':[str(e)],
         'review':[],'source_sha256':digest(path.read_bytes()),'gates':gates,'at':now()}
     g1=gates['1'];g2=gates['2'];g3=gates['3'];g4=gates['4'];g5=gates['5'];g6=gates['6']
+    g1['errors'].extend(proposed_slug_errors(topic))
     if topic.get('campaign_id') == 'HN-51-WARDS' or str(topic.get('proposed_slug', '')).startswith('thue-xe-may-phuong-'):
         if topic.get('taxonomy_key') != 'hanoi-ward-rentals':
             g6['errors'].append('HANOI_WARD_CATEGORY_MISMATCH: must use hanoi-ward-rentals')
@@ -459,9 +576,11 @@ def evaluate(path,topic,rows=None,inv=None,link_checker=None,live=False,check_cl
     legal=bool(re.search(r'luật|nghị định|mức phạt|bằng lái|giấy phép|quy định pháp',body,re.I))
     sources=meta.get('sources',[])
     if legal and not any(allowed_source(s.get('url',''),True) for s in sources):g3['review'].append('Legal claim needs current official source')
+    advisory_sources = rules.get('source_policy') == 'reference_advisory'
     source_errors,source_evidence=verify_sources(
-        sources,live,trusted_research=(topic.get('research') or {}).get('external_sources',[]),
-        legal=legal)
+        sources,live and (not advisory_sources or rules.get('source_live_probe_enabled',False)),
+        trusted_research=(topic.get('research') or {}).get('external_sources',[]),
+        legal=legal,advisory=advisory_sources)
     g3['review']+=source_errors
     if re.search(r'\d',body) and not sources and not meta.get('business_claims'):g3['review'].append('Numeric claims need cited evidence')
     if re.search(r'(?i)tôi đã (?:thử|chạy|trải nghiệm)|khách hàng đánh giá 5|100% an toàn',body):g3['review'].append('Unverified experience/review/absolute claim')
@@ -519,6 +638,8 @@ def evaluate(path,topic,rows=None,inv=None,link_checker=None,live=False,check_cl
         'quality_score':quality,'seo_score':seo,'seo_min_required':rules['seo_min'],
         'seo_checks':seo_checks,'seo_recommendations':seo_recommendations,
         'gates':gates,'errors':errors,'review':reviews,'source_evidence':source_evidence,
+        'source_advisories':[{'url':item['url'],'warnings':item['warnings']} for item in source_evidence
+                             if item.get('warnings')],
         'evidence_recheck':recheck,
         'at':now(),'live_links_checked':live,'legal_required':legal,'rules_sha256':digest(json.dumps(rules,sort_keys=True)),
         'inventory_sha256':digest(json.dumps(inv,ensure_ascii=False,sort_keys=True))}

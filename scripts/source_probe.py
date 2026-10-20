@@ -11,6 +11,7 @@ import time
 import urllib.request
 
 from common import Redirect, norm, visible
+from qa import decode_source_body, source_excerpt_matches, SOURCE_BODY_MAX_BYTES
 
 
 DEFAULT_UA = 'NguyenTu-WPWriter/1.0'
@@ -22,10 +23,10 @@ def probe(url, needle='', agent=DEFAULT_UA):
         opener = urllib.request.build_opener(Redirect())
         request = urllib.request.Request(url, headers={'User-Agent': agent})
         with opener.open(request, timeout=20) as response:
-            raw = response.read(8_000_000).decode('utf-8', errors='replace')
+            raw = decode_source_body(response.read(SOURCE_BODY_MAX_BYTES + 1), response.headers.get('Content-Encoding', ''))
             status = response.status
         text = visible(raw)
-        found = (norm(needle) in norm(text)) if needle.strip() else None
+        found = source_excerpt_matches(needle, text) if needle.strip() else None
         return {'url': url, 'ua': agent[:24], 'ok': True, 'status': status, 'chars': len(text),
                 'needle_found': found, 'seconds': round(time.time() - started, 1)}
     except Exception as exc:

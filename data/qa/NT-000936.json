@@ -1,0 +1,143 @@
+{
+  "topic_id": "NT-000936",
+  "status": "PASS",
+  "source_sha256": "29cd9472037f4f5e0363a179be4beb8d9e908ff3a4b6d25fa275752bdcca5776",
+  "body_sha256": "1bba63aea8e50cb233f6d8b336120b897aabd7a562ddf6b090c16dbb7ecd36bb",
+  "word_count": 3209,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vgreen.net/vi/san-pham-dich-vu?tab=pin",
+      "supports": "Trang V-GREEN: hai loại tủ đổi pin công cộng (6 và 12 khoang) cho xe máy điện VinFast thế hệ mới, công suất sạc tối đa 1.000 W mỗi khoang, thông số nguồn cấp, hệ thống bảo vệ an toàn điện. Cùng trang còn nêu: Trang V-GREEN: tích hợp cảnh báo cháy, chống sét lan truyền, cảm biến ngập nước và cảm biến nghiêng tủ; tự ngắt khi quá áp, thấp áp, quá dòng, ngắn mạch, rò rỉ điện hoặc quá nhiệt. Cùng trang còn nêu: Trang V-GREEN: điều kiện đổi pin gồm dòng xe hỗ trợ, người đổi là chủ xe, hợp đồng thuê pin còn hiệu lực; pin phải có tình trạng sức khỏe (SOH) trên 70%, còn bảo hành, không móp méo hoặc trầy xước.",
+      "sha256": "66d3c132083fbe49dcc42fc470002be9c39d9276b0f52a4076c5be2a2224b829",
+      "research_checked_at": "2026-10-19",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "supports": "Trang Selex: trạm đổi pin tự động 1006 x 510 x 1963, một màn hình cảm ứng, 19 khoang chứa pin luôn có một khoang trống, chuẩn chống nước IPX4, cảnh báo chống trộm và cháy (nguồn so sánh).",
+      "sha256": "3cd06bf8860360885431ebe97866c6429ac4624fc1f56fb4b34b1f69265252f1",
+      "verified_at": "2026-10-20T09:25:55.872911+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2343,
+        "title": "Xe máy điện: các hãng nổi bật và cách chọn xe phù hợp nhất",
+        "why": "stale",
+        "content_hash": "c6618e9c49c5f2f25650deea3da4d70c0b7ac0a3821f5dc81a038f2aae0716d7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2374,
+        "title": "Xe máy điện đi mưa có an toàn không? Cách sử dụng đúng và bền",
+        "why": "stale",
+        "content_hash": "f86d1aa55c92feadb7f1f7424eb5a8881f374d07d09eba557a5974bddc4ab23f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2417,
+        "title": "Xe máy điện Yadea có tốt không? Ưu nhược điểm người dùng cần biết",
+        "why": "stale",
+        "content_hash": "0164531f890f08be8f0da4a90ffbe1bc5d7ce5908bd8637d53cc98b9fed34354",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T09:26:04.008614+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
+  "inventory_sha256": "529252d7f53534a24e1466f7d8f629617b12bebf8cb9f9cb296ad0ad61e603ce",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

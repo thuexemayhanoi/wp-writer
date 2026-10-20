@@ -1,5 +1,8 @@
 # AI ngoài bắt đầu tại đây — một lệnh, không xin duyệt từng bài
 
+> **Nếu chủ giao “tiếp tục 3 file Excel / 1.482 tiêu đề / TP-XXXX”:** Đọc **[SOP A–Z dành cho Excel Nguyễn Tú](TITLE-PLAN-1482-SOP.md)** trước, lấy 1–3 TP-ID trong `editorial/title-plan-1482/plan.json` hoặc `python scripts/title_plan_next.py --limit 3`. Đây chỉ là gợi ý nghiên cứu: phải qua Topic Factory/Research QA thành **NT-XXXXXX PLANNED**, mới được claim viết. **Không nhập Excel Nguyễn Hà /wp-aiwriter.** Mọi luật nguồn, slug, QA, G7 giữ nguyên.
+
+
 Đọc [quy trình chung W1–W9](WRITER-RESEARCH-CONTRACT.md) để dùng cùng quy định nguồn và tiếp tục sau mỗi batch; không API AI, không thêm khóa hoặc bước duyệt tay. Một nguồn gốc đã đọc, đủ bằng chứng có thể đủ cho chủ đề hẹp; đối chiếu thêm khi cần.
 
 **Writer pool (18/10/2026):** W1–W9 là 9 vị trí dùng chung hàng đợi. Claude App/AI App tự nhận vị trí trống bằng `--slot auto` (hoặc request GitHub), mỗi phiên giữ tối đa một vị trí và tối đa 10 Topic ID. Không cấp khóa Ed25519, không xác thực tài khoản Claude, không dùng API AI. Giữ nguyên lease còn hạn, checkpoint, chống trùng Topic ID và QA/Publisher đang chạy; Publisher tiếp tục đăng 2 bài mỗi lô.
@@ -52,9 +55,9 @@ Không trộn `wp-aiwriter` (blog.rentbikehanoi.com) và **KHÔNG sử dụng Ex
 
 **Giữ nguyên** bài WordPress cũ, sản phẩm, URL, canonical, categories, slug, sitemap. Không xóa và không auto-merge bài trùng.
 
-## Không cần Excel, không yêu cầu duyệt lần lượt từng danh mục
+## Excel kế hoạch chỉ là gợi ý; không yêu cầu duyệt từng danh mục
 
-Dựa hoàn toàn vào `data/topics.jsonl` + `data/taxonomy.json` (mỗi bài một topic ID, intent, parent chain). AI có thể nhận đồng thời các topic PLANNED thuộc các leaf category khác nhau. Đúng full ancestry mới được public (Production đang bật); thiếu category thì draft + lý do; không tự suy từ tiêu đề hay nhập file Excel. Xem [so sánh wp-aiwriter / wp-writer](WORKFLOW-COMPARISON-WP-AIWRITER.md). Bài `NT-000079` / WordPress #3882 cần kiểm tra sai khác trạng thái so với draft acceptance lịch sử trước khi đưa vào lô mới.
+Dựa hoàn toàn vào `data/topics.jsonl` + `data/taxonomy.json` (mỗi bài một topic ID, intent, parent chain). AI có thể nhận đồng thời các topic PLANNED thuộc các leaf category khác nhau. Đúng full ancestry mới được public (Production đang bật); thiếu category thì draft + lý do; không tự suy category từ tiêu đề; riêng Excel Nguyễn Tú đã có `plan.json` làm **đề xuất nghiên cứu** theo SOP, cần Research QA trước khi thành topic trong Registry. Xem [so sánh wp-aiwriter / wp-writer](WORKFLOW-COMPARISON-WP-AIWRITER.md). Bài `NT-000079` / WordPress #3882 cần kiểm tra sai khác trạng thái so với draft acceptance lịch sử trước khi đưa vào lô mới.
 
 ## Phân luồng viết trước, tối ưu theo duyệt (18/10/2026)
 
@@ -70,7 +73,7 @@ Danh sách `existing_url_priorities` chỉ dành để phân tích/bổ sung có
 
 ## Researcher — tự nghiên cứu 10 chủ đề rồi cấp cho Writer
 
-Khi PLANNED sẵn sàng viết còn dưới 900 (mục tiêu kho 1.000 chủ đề trong trần đã duyệt), bộ điều khiển tự mở đơn 100–200 chủ đề, hết đợt này mở đợt khác ([hệ thống tự bổ sung](SELF-REPLENISHING-TOPICS.md)): chạy `python scripts/research_v2.py plan` để xem đơn, quota danh mục và batch kế tiếp, và `python scripts/research_v2.py intent-check --file data/candidates/<session>-NNNN.jsonl` trước mỗi lần push. Nếu hàng đợi PLANNED thấp, không cần tự nghĩ tiêu đề lung tung. Đọc [Research V2 Global adaptation](RESEARCH-V2-GLOBAL-ADAPTATION.md), chạy python scripts/research_v2.py hints --limit 10; AI thực sự duyệt nguồn HTTPS, đối chiếu các WordPress posts có intent gần nhất và soạn một batch 10 Topic Registry JSONL trên nhánh research/<stable-session>. Chạy checkpoint, check và push. GitHub Research QA (read-only) PASS -> trusted main auto-intake -> topic thành PLANNED cho W1–W9. Khi mạng/quota gián đoạn dùng resume --apply cùng tên session. Không dùng Google News RSS làm fact source, không sử dụng Excel và không tự nhận các topic chưa PLANNED.
+Khi PLANNED sẵn sàng viết còn dưới 900 (mục tiêu kho 1.000 chủ đề trong trần đã duyệt), bộ điều khiển tự mở đơn 100–200 chủ đề, hết đợt này mở đợt khác ([hệ thống tự bổ sung](SELF-REPLENISHING-TOPICS.md)): chạy `python scripts/research_v2.py plan` để xem đơn, quota danh mục và batch kế tiếp, và `python scripts/research_v2.py intent-check --file data/candidates/<session>-NNNN.jsonl` trước mỗi lần push. Nếu hàng đợi PLANNED thấp, không cần tự nghĩ tiêu đề lung tung. Đọc [Research V2 Global adaptation](RESEARCH-V2-GLOBAL-ADAPTATION.md), chạy python scripts/research_v2.py hints --limit 10; AI thực sự duyệt nguồn HTTPS, đối chiếu các WordPress posts có intent gần nhất và soạn một batch 10 Topic Registry JSONL trên nhánh research/<stable-session>. Chạy checkpoint, check và push. GitHub Research QA (read-only) PASS -> trusted main auto-intake -> topic thành PLANNED cho W1–W9. Khi mạng/quota gián đoạn dùng resume --apply cùng tên session. Không dùng Google News RSS làm fact source, không nhập Excel ngoài repo và không tự nhận các topic chưa PLANNED.
 
 ## AUTO-REPAIR WRITER — 10 CONTENT REVISIONS (18/10/2026)
 

@@ -1,22 +1,22 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 2,
+  "ready_stock": 3,
   "trigger_below_ready": 900,
   "rounds_opened": 3,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 488,
-  "capacity_remaining": 1512,
+  "topic_rows": 507,
+  "capacity_remaining": 1493,
   "order": {
     "id": "RF-0003",
     "round": 3,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 4,
-    "remaining_to_min": 96,
-    "remaining_to_max": 196,
-    "batches_still_needed": 10,
+    "accepted_so_far": 23,
+    "remaining_to_min": 77,
+    "remaining_to_max": 177,
+    "batches_still_needed": 8,
     "batch_size": 10,
     "capacity_limited": false,
     "stalled": false,
@@ -35,16 +35,16 @@
         "allocation": 91
       },
       {
+        "taxonomy_key": "rental-guide",
+        "quota": 9,
+        "known_now": 10,
+        "allocation": 46
+      },
+      {
         "taxonomy_key": "battery-charging",
         "quota": 8,
         "known_now": 25,
         "allocation": 57
-      },
-      {
-        "taxonomy_key": "rental-guide",
-        "quota": 8,
-        "known_now": 10,
-        "allocation": 46
       },
       {
         "taxonomy_key": "electric-transition",
@@ -59,10 +59,22 @@
         "allocation": 32
       },
       {
+        "taxonomy_key": "electric",
+        "quota": 5,
+        "known_now": 40,
+        "allocation": 59
+      },
+      {
         "taxonomy_key": "electric-maintenance",
         "quota": 5,
-        "known_now": 21,
+        "known_now": 22,
         "allocation": 41
+      },
+      {
+        "taxonomy_key": "green-travel",
+        "quota": 5,
+        "known_now": 8,
+        "allocation": 27
       },
       {
         "taxonomy_key": "legal",
@@ -73,7 +85,7 @@
       {
         "taxonomy_key": "rental-50cc",
         "quota": 5,
-        "known_now": 3,
+        "known_now": 4,
         "allocation": 23
       },
       {
@@ -95,34 +107,16 @@
         "allocation": 32
       },
       {
-        "taxonomy_key": "electric",
-        "quota": 4,
-        "known_now": 40,
-        "allocation": 59
-      },
-      {
-        "taxonomy_key": "green-travel",
-        "quota": 4,
-        "known_now": 8,
-        "allocation": 27
-      },
-      {
-        "taxonomy_key": "rental-procedures",
-        "quota": 4,
-        "known_now": 21,
-        "allocation": 36
-      },
-      {
         "taxonomy_key": "rental-costs",
         "quota": 3,
-        "known_now": 9,
+        "known_now": 10,
         "allocation": 23
       },
       {
-        "taxonomy_key": "electric-tech",
-        "quota": 2,
-        "known_now": 33,
-        "allocation": 41
+        "taxonomy_key": "rental-procedures",
+        "quota": 3,
+        "known_now": 22,
+        "allocation": 36
       },
       {
         "taxonomy_key": "food-culture",
@@ -141,19 +135,19 @@
       "urban-mobility": 2,
       "battery-charging": 1,
       "driving-licence": 1,
-      "electric-maintenance": 1,
+      "electric": 1,
       "electric-transition": 1,
+      "green-travel": 1,
       "legal": 1,
-      "rental-50cc": 1,
       "rental-guide": 1,
       "trip-planning": 1
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 517,
-    "topics_in_factory": 488,
+    "published_wordpress_items": 546,
+    "topics_in_factory": 507,
     "topics_by_status": {
-      "PLANNED": 415,
+      "PLANNED": 434,
       "REJECTED": 1,
       "RESEARCH": 72
     },

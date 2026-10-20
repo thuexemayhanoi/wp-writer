@@ -126,7 +126,7 @@ def prepare(branch, sha):
             from unittest.mock import patch
             with patch("qa.ROOT", scan_root):
                 qa = evaluate(tmp, row_by_id[topic_id], rows=rows, check_claim=False)
-            if qa["status"] != "PASS" or qa["seo_score"] < 85:
+            if qa["status"] != "PASS" or qa["seo_score"] < load("config/qa-rules.json")["seo_min"]:
                 raise ValueError("WRITER_QA_BLOCKED " + topic_id + " " +
                                  qa["status"] + " SEO=" + str(qa.get("seo_score")) +
                                  " QUALITY=" + str(qa.get("quality_score")) +

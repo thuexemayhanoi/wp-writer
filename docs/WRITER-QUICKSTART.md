@@ -1,4 +1,9 @@
+**CẬP NHẬT 20/10/2026 — ƯU TIÊN QUY ĐỊNH NÀY:** Chủ duyệt **SEO ≥76/100, Quality ≥76/100**, giữ đủ G1–G7. G3 chỉ kiểm nguồn URL HTTPS an toàn/nguồn chính thức khi nói luật; nội dung trích dẫn thay đổi hoặc link cũ/khó mở sẽ ghi **cảnh báo audit sau**, không tự giữ bài. Trạng thái `source_advisories` và `live_checked=false` phải trung thực; không bịa nguồn, luật, giá, trải nghiệm. Giữ Writer lease, chống trùng URL/intent, parent/child, canonical, ledger, công tắc Production và G7. Mọi chỗ còn nhắc 85 là hướng dẫn cũ đã thay bởi cấu hình hiện hành.
+
 # Viết bằng Claude, ChatGPT, Gemini, Mistral hoặc AI khác
+
+> **Đề tài từ Excel 1.482:** đọc [SOP Excel A–Z](TITLE-PLAN-1482-SOP.md) trước khi gọi Writer. Một dòng TP-XXXX chưa phải một `NT-XXXXXX PLANNED` có thể claim. `python scripts/title_plan_next.py --limit 3` chỉ **đọc đề xuất**, không chiếm lease và không đăng bài. Chỉ bắt đầu Writer khi Topic Factory/Research QA đã ghi thật vào `data/topics.jsonl`.
+
 
 Theo [quy trình chung W1–W9](WRITER-RESEARCH-CONTRACT.md): một nguồn gốc đã xác minh có thể đủ cho chủ đề hẹp, thêm đối chiếu khi cần. Nộp từng bài/cặp khi đạt, hết batch thì nhận tiếp cùng session theo phạm vi chủ giao, không chờ WordPress và không xin duyệt từng lượt. QA và kết nối hiện tại giữ nguyên; không thêm API AI/khóa.
 
@@ -42,7 +47,7 @@ Số 8 PLANNED / 72 research là **snapshot ban đầu**, không phải số m�
 
 ### SEO V2 trên website chính — không chấp nhận SEO thấp
 
-Mỗi bài phải đạt SEO ≥85/100 và quality ≥85/100; G1–G6 vẫn PASS độc lập. Xem [SEO QA V2](SEO-QA-V2.md). Khi nhận SEO_SCORE_BELOW_MIN, đọc seo_checks / seo_recommendations, cải thiện nội dung thực chất và chạy lại SHA-256 + QA rồi mới push. Không khai giả SEO score. Từ 17/10/2026 Production đã BẬT: bài push lên `main` và qua QA sẽ được Publisher đăng lên WordPress ngay, nên chỉ push khi bài đã tự rà soát nguồn và số liệu.
+Mỗi bài phải đạt SEO ≥76/100 và quality ≥76/100; G1–G6 vẫn PASS độc lập. Xem [SEO QA V2](SEO-QA-V2.md). Khi nhận SEO_SCORE_BELOW_MIN, đọc seo_checks / seo_recommendations, cải thiện nội dung thực chất và chạy lại SHA-256 + QA rồi mới push. Không khai giả SEO score. Từ 17/10/2026 Production đã BẬT: bài push lên `main` và qua QA sẽ được Publisher đăng lên WordPress ngay, nên chỉ push khi bài đã tự rà soát nguồn và số liệu.
 
 ## AUTO-REPAIR WRITER — 10 CONTENT REVISIONS (18/10/2026)
 

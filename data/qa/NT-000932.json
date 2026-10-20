@@ -1,0 +1,120 @@
+{
+  "topic_id": "NT-000932",
+  "status": "PASS",
+  "source_sha256": "97e86d69e9020e9b0b384b1da01d9651c2ef1fb1de8b535012946353fbf0d378",
+  "body_sha256": "512038d1dae5eace2299aa70bbea0d34cab9f28bb6546a7efe7d1c3845a4401e",
+  "word_count": 2592,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vgreen.net/vi/cau-hoi-thuong-gap",
+      "supports": "Trang FAQ của V-GREEN, mục Xe máy điện: sáu bước sạc tại trụ công cộng (nối bộ sạc vào xe, cắm vào ổ trên trụ, quét QR trên ứng dụng VinFast E-Scooter, chọn cổng, theo dõi, rút sạc); xe chỉ bắt đầu sạc khi đèn cổng chuyển đỏ; dịch vụ chỉ áp dụng cho xe điện VinFast; đơn giá 3.858 VNĐ/kWh từ 19/03/2024, không áp dụng phí sạc quá giờ với xe máy điện; lưu ý cắm dứt khoát, rút phích điện trước, chờ 30 giây, 10 giây hoặc 1 phút.",
+      "sha256": "798b4a9b0f7526044fef6d3da991a7b43e3042e5f24ae8c85dfbd9839c4ec869",
+      "research_checked_at": "2026-10-19",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://vgreen.net/vi/tram-sac-xe-may-dien",
+      "supports": "Trang V-GREEN về trạm sạc xe máy điện: trụ tủ đứng 220 VAC, công suất từ 1,2 kW mỗi cổng, 2 hoặc 4 cổng mỗi trụ, thời gian sạc đầy tiêu chuẩn khoảng 4 giờ, bảo vệ quá tải, quá nhiệt, ngắn mạch, chống giật; đơn giá 3.858 VNĐ/kWh từ 19/03/2024 và thanh toán trước ngày 15 tháng tiếp theo.",
+      "sha256": "73566a2afcaadf18fd20e29fde5ac5dda60a8ef0858b2ec354ee3dfb51677d96",
+      "research_checked_at": "2026-10-19",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/cach-sac-pin-xe-may-dien-vinfast",
+      "supports": "Trang VinFast (đăng 01/08/2022): cách sạc pin xe máy điện VinFast tại trạm sạc công cộng, chỉ số điện thoại sở hữu xe trên hệ thống VinFast mới dùng được dịch vụ, cần đồng bộ email, các bước thanh toán phí sạc trên ứng dụng, lưu ý cắm rút và chờ 30 giây.",
+      "sha256": "3c08276cc783fcccad42b024d14abd97747e57e687b6d6adf1a72f8593a7c71e",
+      "research_checked_at": "2026-10-19",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-20T09:41:10.976838+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
+  "inventory_sha256": "2adf6adf37fd42fcd87c53dea23c29f18be2f0b856ae21beaf64b336c884fcd9",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

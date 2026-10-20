@@ -12,6 +12,7 @@ from git_state import RemoteState
 from gate_triage import annotate,state_entry
 from qa import evaluate,evaluate_safely,read_article
 from taxonomy_sync import by_key,resolve,materialize
+from slug_policy import proposed_slug_errors
 
 LEDGER='data/state/publication-ledger.json'
 
@@ -248,6 +249,10 @@ class Publisher:
     def create(self,topic,body,sha,category_id,status,live,meta=None,route=None):
         """No update/delete endpoint exists in this class."""
         if status not in ('draft','publish'):raise ValueError('Invalid status')
+        # Direct Publisher calls must not bypass the Research/Writer slug QA.
+        # Validate before recording a POST_INTENT or making any WordPress call.
+        slug_issues=proposed_slug_errors(topic)
+        if slug_issues:raise ValueError('; '.join(slug_issues))
         if self.policy.get('paused') or self.policy.get('emergency_stop'):raise ValueError('Publisher paused')
         if status=='publish' and not production_allowed(self.policy):raise ValueError('Production not enabled by owner')
         if status=='draft' and self.policy.get('mode')!='draft_only' and not (

@@ -1,6 +1,8 @@
+**CẬP NHẬT 20/10/2026 — ƯU TIÊN QUY ĐỊNH NÀY:** Chủ duyệt **SEO ≥76/100, Quality ≥76/100**, giữ đủ G1–G7. G3 chỉ kiểm nguồn URL HTTPS an toàn/nguồn chính thức khi nói luật; nội dung trích dẫn thay đổi hoặc link cũ/khó mở sẽ ghi **cảnh báo audit sau**, không tự giữ bài. Trạng thái `source_advisories` và `live_checked=false` phải trung thực; không bịa nguồn, luật, giá, trải nghiệm. Giữ Writer lease, chống trùng URL/intent, parent/child, canonical, ledger, công tắc Production và G7. Mọi chỗ còn nhắc 85 là hướng dẫn cũ đã thay bởi cấu hình hiện hành.
+
 # Instant QA → WordPress publishing (Owner approved, ACTIVE since 2026-10-17)
 
-Owner requested **2026-10-16**: "Writer viết xong, qua QA là lên WordPress luôn; mười bài thì 2+2+2+2+2". The request is recorded in `config/production-policy.json` as `owner_publish_request`. This was approval of the **desired behavior**. On **2026-10-17** the owner ordered the simple flow W1–W9 → QA (≥85, duplicate check, category) → Publisher → public WordPress with no extra security or acceptance gate, and production was switched ON (`production_enabled=true`). `acceptance_passed` and `security_controls_verified` stay `false` because those checks were never performed; they no longer gate publishing.
+Owner requested **2026-10-16**: "Writer viết xong, qua QA là lên WordPress luôn; mười bài thì 2+2+2+2+2". The request is recorded in `config/production-policy.json` as `owner_publish_request`. This was approval of the **desired behavior**. On **2026-10-17** the owner ordered the simple flow W1–W9 → QA (≥76, duplicate check, category) → Publisher → public WordPress with no extra security or acceptance gate, and production was switched ON (`production_enabled=true`). `acceptance_passed` and `security_controls_verified` stay `false` because those checks were never performed; they no longer gate publishing.
 
 ## Fast path
 
@@ -35,7 +37,7 @@ The owner authorized resuming Publisher to publish **three QA-PASS, not-yet-post
 "publisher_pilot": {"id": "pilot-three-20261019", "max_posts": 3}
 ```
 
-This is **not** a run-local cap: every first-create `POST_INTENT` stores the pilot ID in the durable `data/state/publication-ledger.json` *before* REST POST. Subsequent scheduled or manually triggered Publisher runs count all reservations, including `VERIFY_PENDING` and uncertain posts. Once three are reserved, Publisher refuses any new POST. Category mismatches are skipped in this public-only trial rather than creating draft fallbacks. Existing protection against uncertain-POST replays, collisions, wrong topics, QA below 85, wrong category and WP 429/5xx is unchanged.
+This is **not** a run-local cap: every first-create `POST_INTENT` stores the pilot ID in the durable `data/state/publication-ledger.json` *before* REST POST. Subsequent scheduled or manually triggered Publisher runs count all reservations, including `VERIFY_PENDING` and uncertain posts. Once three are reserved, Publisher refuses any new POST. Category mismatches are skipped in this public-only trial rather than creating draft fallbacks. Existing protection against uncertain-POST replays, collisions, wrong topics, QA below 76, wrong category and WP 429/5xx is unchanged.
 
 **Release order:** merge this code with `emergency_stop=true`, confirm CI green, then atomically set `emergency_stop=false` **and** the pilot object on the real main policy. Record the run ID, ledger Topic ID → WordPress ID/URL, G7 receipts and live frontend canonical/title/meta after the first 3. Do not remove the cap automatically; broad publishing requires a separate owner instruction and confirmed canary result.
 
