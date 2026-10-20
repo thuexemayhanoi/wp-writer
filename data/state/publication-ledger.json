@@ -19146,6 +19146,25 @@
         "seo_description": "Cruise Control xe máy điện theo sổ Dat Bike ERA, Quantum S và Quantum: điều kiện bật trên 15 km/h ở chế độ D hoặc S, cách tắt, và chỗ Dat Bike với Yadea nói khác nhau.",
         "checked_at": "2026-10-20T20:15:27.762146+00:00"
       }
+    },
+    "NT-001073": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-20T20:16:00.395837+00:00",
+      "source_hash": "2654c66523eb84fe66b4e685e2b5b703d140a599bc4f68e728c5a5101db8be3a",
+      "slug": "phanh-ket-hop-cbs-tren-xe-dat-bike-quantum-s1-va-era-e1-co-bai-cua-hang-va-so-noi-khac-nhau",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 168,
+      "visible_hash": "aef8a7e223070fce57566bea2ac72687bbe7dbaafa2122a74d940ffb54e75c87",
+      "first_paragraph": "Phanh kết hợp CBS trên xe máy điện Dat Bike là hệ thống chia lực phanh đồng thời cho bánh trước và bánh sau; theo sổ hướng dẫn, mẫu có hệ thống này là Quantum S1 (sổ Quantum S ghi \"chỉ có trên mẫu Quantum S1\") và ERA E1 (bảng thông số ERA ghi CBS có với E1, không có với E2), trong khi bài giới thiệu của Dat Bike viết rằng các dòng xe của hãng đều có CBS và nêu cả Quantum S1, S2 và S3. Hai nguồn của cùng một hãng nói khác nhau, nên bài nêu cả hai và hướng người đọc về sổ của đúng xe và đại lý.",
+      "meta_title": "Phanh kết hợp CBS xe máy điện Dat Bike: Quantum S1, ERA E1 có theo sổ",
+      "meta_description": "Phanh kết hợp CBS xe máy điện Dat Bike: sổ ghi Quantum S1 và ERA E1 có CBS, bài giới thiệu của hãng nói mọi dòng đều có; cách đọc hai nguồn, tay phanh và khác biệt với ABS.",
+      "intended_taxonomy_key": "electric-tech",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "e89aece5f3081cd0a9ac6ccd246ce2fc1ec06ae6",
+      "run_id": "39489674662",
+      "updated_at": "2026-10-20T20:16:00.396911+00:00"
     }
   },
   "categories": {}
