@@ -16500,6 +16500,25 @@
         "seo_description": "Thứ tự cắm sạc xe máy điện theo trang VinFast, Yadea, Dat Bike, Yamaha và V-GREEN: cắm vào xe hay ổ điện trước, thứ tự rút, khoảng chờ 30 giây và khi nào nên hỏi hãng.",
         "checked_at": "2026-10-20T09:40:57.502790+00:00"
       }
+    },
+    "NT-000932": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-20T09:41:11.058907+00:00",
+      "source_hash": "97e86d69e9020e9b0b384b1da01d9651c2ef1fb1de8b535012946353fbf0d378",
+      "slug": "sac-xe-may-dien-vinfast-tai-tru-sac-v-green-mang-bo-sac-quet-qr-tren-ung-dung-va-cho-den-do-bao-sac",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 167,
+      "visible_hash": "b5b3edcea35fcaa737c67d7b8b0137f507888dc60492e8ce9a78f7de574197c7",
+      "first_paragraph": "Sạc xe máy điện VinFast tại trụ sạc V-GREEN gồm ba việc chính theo trang hướng dẫn của V-GREEN và VinFast đọc ngày 19/10/2026: mang theo bộ sạc của xe vì trụ chỉ cung cấp ổ cắm, cắm bộ sạc vào xe rồi cắm vào ổ còn trống trên trụ, sau đó đăng nhập ứng dụng VinFast E-Scooter, quét mã QR trên trụ và chọn đúng cổng; xe chỉ bắt đầu sạc khi đèn của cổng chuyển sang màu đỏ. Dịch vụ sạc tại trạm V-GREEN chỉ áp dụng cho xe điện VinFast, phí tính theo số kWh thực dùng với đơn giá V-GREEN công bố là 3.858 đồng/kWh áp dụng từ 19/03/2024, đã gồm VAT, và xe máy điện không bị tính phí sạc quá giờ.",
+      "meta_title": "Sạc xe máy điện VinFast tại trụ sạc V-GREEN: bộ sạc, QR và đèn đỏ",
+      "meta_description": "Sạc xe máy điện VinFast tại trụ sạc V-GREEN: mang bộ sạc của xe, quét QR trên ứng dụng VinFast E-Scooter, chờ đèn đỏ báo sạc, cách rút sạc, ai dùng được và đơn giá theo kWh.",
+      "intended_taxonomy_key": "battery-charging",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "adce8da66f14883f0ab033ed5eae837c623dc65a",
+      "run_id": "39401831475",
+      "updated_at": "2026-10-20T09:41:11.059901+00:00"
     }
   },
   "categories": {}
