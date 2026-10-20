@@ -18511,7 +18511,7 @@
       }
     },
     "NT-000935": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T20:05:32.385679+00:00",
       "source_hash": "85b058a6cfa085f265c844e6e82677b8122c2801fe4b1395079b551f3fb019dc",
       "slug": "doi-pin-tai-tram-tu-dong-selex-cac-buoc-tren-man-hinh-doi-hai-pin-lien-nhau-va-khi-tram-bao-loi",
@@ -18527,8 +18527,37 @@
       "category_warning": null,
       "git_commit": "c81c0ee2a88510e48d97f0e7682e4e682ece0276",
       "run_id": "39488377714",
-      "updated_at": "2026-10-20T20:05:37.160534+00:00",
-      "wp_id": 4379
+      "updated_at": "2026-10-20T20:05:43.767297+00:00",
+      "wp_id": 4379,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/doi-pin-tai-tram-tu-dong-selex-cac-buoc-tren-man-hinh-doi-hai-pin-lien-nhau-va-khi-tram-bao-loi/",
+      "verified_at": "2026-10-20T20:05:43.767290+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4379,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/doi-pin-tai-tram-tu-dong-selex-cac-buoc-tren-man-hinh-doi-hai-pin-lien-nhau-va-khi-tram-bao-loi/",
+        "categories": [
+          167
+        ],
+        "canonical": "https://thuexemaynguyentu.com/doi-pin-tai-tram-tu-dong-selex-cac-buoc-tren-man-hinh-doi-hai-pin-lien-nhau-va-khi-tram-bao-loi/",
+        "seo_title": "Đổi pin tại trạm tự động Selex: các bước, đổi 2 pin và khi báo lỗi",
+        "seo_description": "Đổi pin tại trạm tự động Selex theo hướng dẫn của hãng: các bước quét QR và đổi pin, cách đổi hai pin liền nhau, ba thông báo lỗi và tính năng đặt pin trước giữ pin 15 phút.",
+        "checked_at": "2026-10-20T20:05:43.767270+00:00"
+      }
     }
   },
   "categories": {}
