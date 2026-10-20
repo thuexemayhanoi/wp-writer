@@ -18707,7 +18707,7 @@
       }
     },
     "NT-001009": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T20:07:48.579800+00:00",
       "source_hash": "6840b2d3fd9c24ebfa8ee7fc6924ec7bc882c09ad5082bec2b42b275f3b90e69",
       "slug": "quy-tac-bat-den-khi-di-xe-may-tu-18-gio-den-6-gio-khi-mua-suong-mu-va-bon-luc-phai-chuyen-sang-den-chieu-gan",
@@ -18723,8 +18723,37 @@
       "category_warning": null,
       "git_commit": "c81c0ee2a88510e48d97f0e7682e4e682ece0276",
       "run_id": "39488377714",
-      "updated_at": "2026-10-20T20:07:52.601472+00:00",
-      "wp_id": 4383
+      "updated_at": "2026-10-20T20:08:00.285705+00:00",
+      "wp_id": 4383,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/quy-tac-bat-den-khi-di-xe-may-tu-18-gio-den-6-gio-khi-mua-suong-mu-va-bon-luc-phai-chuyen-sang-den-chieu-gan/",
+      "verified_at": "2026-10-20T20:08:00.285698+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4383,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/quy-tac-bat-den-khi-di-xe-may-tu-18-gio-den-6-gio-khi-mua-suong-mu-va-bon-luc-phai-chuyen-sang-den-chieu-gan/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/quy-tac-bat-den-khi-di-xe-may-tu-18-gio-den-6-gio-khi-mua-suong-mu-va-bon-luc-phai-chuyen-sang-den-chieu-gan/",
+        "seo_title": "Quy tắc bật đèn khi đi xe máy: 18 giờ đến 6 giờ và đèn chiếu gần",
+        "seo_description": "Quy tắc bật đèn khi đi xe máy theo Điều 20 Luật 36/2024: bật đèn từ 18 giờ đến 06 giờ và khi mưa, sương mù; bốn lúc phải tắt đèn chiếu xa, bật đèn chiếu gần.",
+        "checked_at": "2026-10-20T20:08:00.285677+00:00"
+      }
     }
   },
   "categories": {}
