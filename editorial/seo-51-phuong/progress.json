@@ -234,9 +234,9 @@
     "G7_LIVE_READBACK"
   ],
   "publication_policy": "Publish immediately after all gates pass; no WordPress draft; category drift or duplicate holds on GitHub",
-  "last_reconciled_at": "2026-10-20T07:46:00+00:00",
+  "last_reconciled_at": "2026-10-20T09:33:16.484Z",
   "last_live_reconciliation": {
-    "checked_at": "2026-10-20T08:24:46+00:00",
+    "checked_at": "2026-10-20T09:33:16.484Z",
     "wordpress_category": {
       "term_id": 182,
       "parent_id": 162,
@@ -246,9 +246,10 @@
     },
     "writer_claims": {
       "source": "data/state/writer-claims.json@main",
-      "active_lease_slots": 9,
+      "active_lease_slots": 4,
+      "expired_lease_records": 5,
       "ward_topics_with_valid_lease_receipt": 0,
-      "earliest_lease_expiry_utc": "2026-10-20T09:00:40.664306+00:00"
+      "earliest_active_lease_expiry_utc": "2026-10-20T15:40:36.493981+00:00"
     },
     "gates": {
       "editorial": 12,
@@ -258,12 +259,15 @@
       "g7_verified": 0
     },
     "blockers": [
-      "W1-W9 held by existing sessions; do not take over leases",
-      "No verified Writer QA/receipt for ward topics",
-      "Research QA still pending for wards 7-12; source fetch for 7-9 timed out in this run"
+      "Three priority topics NT-001101/102/103 lack Writer lease/receipt and Writer QA; no authorized writer-session execution available in this turn",
+      "Active Writer slots belong to other sessions; expired lease records were not overwritten or reclaimed",
+      "Live official ward source URLs timed out in web; Firecrawl out of credits; Tavily extract failed; previously recorded Research QA PASS remains historical, not a new live source verification",
+      "WordPress category 182 still empty; exact slugs of three priority topics absent in authenticated REST",
+      "Another session has active WordPress Publisher and Writer QA workflows; publisher policy untouched"
     ],
-    "branch_review": "No open 51-ward taxonomy PR. Historical taxonomy fix branches diverged heavily from main; not merged.",
-    "publication_action": "NONE_GATES_INCOMPLETE",
-    "source_of_truth": "GitHub main + authenticated WordPress REST"
+    "branch_review": "No open 51-ward PR; other open PRs #49 and #14 unrelated to this campaign; no merges attempted",
+    "publication_action": "NONE_WRITER_QA_AND_RECEIPT_MISSING",
+    "publisher_policy_observed": "config/production-policy.json publisher_pilot=null; no policy changes made by this automation",
+    "source_of_truth": "GitHub main and authenticated WordPress REST; source fetch attempts failed"
   }
 }
