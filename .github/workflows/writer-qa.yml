@@ -6,13 +6,16 @@
 name: Universal writer QA (no WordPress credentials)
 on:
   workflow_dispatch:
-  # Coalesce frequent writer commits; each sweep checks the CURRENT main tree.
+  # Writer pushes start ONE coalesced sweep: the concurrency group below keeps at most one running and one pending
+  # QA run for main (GitHub replaces an older pending run with the newest), and every sweep checks out the CURRENT
+  # main tree, so ten rapid draft pushes end as one or two sweeps, never ten. The incremental sweep
+  # (config/qa-rules.json incremental_sweep) evaluates only new or changed drafts.
+  # The five-minute schedule is a fallback only: GitHub delivers cron events late or not at all under load.
   schedule:
     - cron: '*/5 * * * *'
-  # Code/config changes still get immediate CI. Article push alone waits for the sweep.
   push:
     branches: [main]
-    paths: ['scripts/**', 'tests/**', 'config/**', 'data/taxonomy.json', '.github/workflows/**']
+    paths: ['posts/drafts/**', 'data/state/writer-claims.json', 'scripts/**', 'tests/**', 'config/**', 'data/taxonomy.json', '.github/workflows/**']
   pull_request:
     paths: ['posts/drafts/**', 'scripts/**', 'tests/**', 'config/**', 'data/topics.jsonl', 'data/taxonomy.json', '.github/workflows/**']
 permissions:
@@ -24,10 +27,12 @@ concurrency:
 jobs:
   tests-and-content:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
+          # A coalesced sweep must judge the latest main tree, not only the commit that woke it; PRs keep their merge ref.
+          ref: ${{ github.event_name == 'pull_request' && github.ref || 'main' }}
           fetch-depth: 0
           persist-credentials: false
       # Keep the five-minute schedule cheap during owner emergency maintenance;
@@ -60,6 +65,8 @@ jobs:
         run: python -m unittest discover -s tests -q
       - if: steps.schedule_gate.outputs.run_qa == 'true'
         run: python scripts/validate.py
+      # Incremental sweep (config/qa-rules.json incremental_sweep): VERIFIED articles keep their frozen record, unchanged
+      # drafts keep their cached record, only new or changed drafts are evaluated. Every record is still hash-checked.
       - name: Independently pass qualified articles; persist complete REPAIR tickets for failures
         if: steps.schedule_gate.outputs.run_qa == 'true'
         run: python scripts/qa_gate.py

@@ -1,6 +1,6 @@
 # Universal writer contract — Nguyễn Tú
 
-> **KHẨN CẤP 19/10/2026 — OWNER PAUSE / QUOTA CLAUDE:** `config/production-policy.json` đang có `emergency_stop=true`. Trong khi sửa pipeline, các AI Writer W1–W9 **không nhận chủ đề mới / không push tiếp bản thảo**; giữ nguyên lease, file và checkpoint của mình. GitHub không thể tự dừng phiên Claude đang mở ngoài hệ thống. QA trên `main` đã chuyển sang quét 5 phút/lượt để gộp nhiều push; Publisher có hàng đợi riêng và thoát sớm khi đang dừng. **Không tự tắt emergency_stop**; chỉ chủ website phê duyệt mở lại sau khi test và xác minh thực tế. Bài lỗi/REVIEW vẫn phải sửa, không hạ QA ≥85. Mọi đoạn nói 'QA tức thời theo từng push' dưới đây là mô tả lịch sử trước nâng cấp.
+> **PIPELINE V3 (20/10/2026) — đang chạy, Production BẬT:** chủ đã gỡ dừng khẩn cấp lúc 19:35 UTC 19/10 (commit `55a95e32`, `emergency_stop=false`, `approved_capacity=2000`). Từ 20/10: writer push bản thảo đánh thức MỘT lượt QA gộp (concurrency), QA **tăng dần** (bài đã VERIFIED/không đổi không chấm lại), Publisher 2 bài/lô × 5 lô có nhịp nghỉ và **tự nối chuỗi** khi còn bài READY; bảng trạng thái WRITING → QA → READY → PUBLISHING → VERIFIED (+REPAIR/HELD) ở `reports/pipeline-board.md`. Chi tiết: [docs/PIPELINE-V3.md](docs/PIPELINE-V3.md). Tiêu chuẩn QA ≥85, chống trùng, ledger ghi trước POST không đổi. W1–W9 nhận chủ đề và push bình thường; chỉ `paused`/`emergency_stop` của chủ mới dừng đăng.
 
 **SEO Autopilot đã kiểm tra 18/10/2026:** Đọc [checkpoint và kết quả sửa thực tế](reports/seo-autopilot-2026-10-18.md) cùng `data/research/seo-autopilot-review-2026-10-18.json` trước khi đề xuất bài mới. Hoàn Kiếm và xe đạp điện tháng đã có URL; gia hạn đã có NT-000002. Ba ứng viên mới chỉ để nghiên cứu, còn HOLD; báo cáo không phải lô PLANNED. Giữ nguyên mọi lease, ledger, taxonomy, Production và QA hiện hành.
 
@@ -17,7 +17,7 @@
 >
 > 1. **W1–W9 viết bài** từ chủ đề PLANNED, nộp bằng `scripts/writer-session.py`.
 > 2. **QA ≥85 + kiểm tra trùng + danh mục** (G1–G6 trong `scripts/qa.py`; G7 xác minh sau đăng). Lỗi mạng được thử lại tối đa 3 lần; Claude tự sửa nội dung tối đa 10 lượt và lưu checkpoint theo Topic ID + session; chỉ bài có rủi ro thật bị giữ riêng, một bài lỗi không chặn bài khác.
-> 3. **Publisher → WordPress công khai**, tự chạy sau QA `main` thành công theo nhịp gộp 5 phút hoặc khi điều phối thủ công; cron :17/:47 là dự phòng. **Dừng khẩn cấp hiện hành 19/10:** `emergency_stop=true` chặn mọi ghi WordPress, dù `mode=production` và `production_enabled=true` còn giữ nguyên.
+> 3. **Publisher → WordPress công khai**, tự chạy sau mỗi lượt QA `main` thành công (lượt QA được đánh thức bởi push bản thảo, gộp bằng concurrency; cron `*/5` và `:17/:47` chỉ là dự phòng), tự nối chuỗi khi còn bài READY. Dừng khẩn cấp 19/10 đã được chủ gỡ lúc 19:35 UTC; `emergency_stop=false`.
 >
 > Ngoài QA, sổ ledger ghi trước POST và đọc lại sau đăng, chỉ `paused` / `emergency_stop` của chủ mới dừng được việc đăng. Không có bước duyệt tay và không cờ `acceptance_passed` / `security_controls_verified` nào chặn đăng. Chỉ coi một bài là đã đăng khi ledger có `phase=VERIFIED` và URL công khai mở được; GitHub Actions `success` chưa chứng minh điều đó. Khi chủ đổi công tắc production phải sửa khối này, README và `docs/INSTANT-PUBLISHING.md`.
 

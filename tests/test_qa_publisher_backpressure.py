@@ -23,6 +23,10 @@ def events(doc):
 
 class BackpressureWorkflowTests(unittest.TestCase):
     def test_writer_push_does_not_spawn_one_qa_per_draft(self):
+        # Pipeline v3 (2026-10-20): a draft push wakes the sweep, but the concurrency group coalesces it (at most one
+        # running + one pending run for main; GitHub drops older pending runs), the sweep checks out the CURRENT main
+        # tree and the incremental plan evaluates only new/changed drafts. The cron stays as a fallback because GitHub
+        # delivered the */5 schedule only twice in six hours on 2026-10-19/20.
         qa = workflow("writer-qa.yml")
         on = events(qa)
         self.assertEqual(on["schedule"][0]["cron"], "*/5 * * * *")
@@ -30,10 +34,14 @@ class BackpressureWorkflowTests(unittest.TestCase):
         self.assertIn("pull_request", on)
         self.assertIn("push", on)
         paths = on["push"]["paths"]
-        self.assertNotIn("posts/drafts/**", paths)
+        self.assertIn("posts/drafts/**", paths)
         self.assertTrue(any(p.startswith("scripts/") for p in paths))
         self.assertEqual(qa["permissions"]["contents"], "read")
         self.assertIn("wp-writer-qa-", qa["concurrency"]["group"])
+        self.assertIs(qa["concurrency"]["cancel-in-progress"], False)
+        checkout = qa["jobs"]["tests-and-content"]["steps"][0]
+        self.assertIn("'main'", checkout["with"]["ref"])
+        self.assertIn("pull_request", checkout["with"]["ref"])
 
     def test_scheduled_qa_is_cheap_during_owner_pause(self):
         qa = workflow("writer-qa.yml")

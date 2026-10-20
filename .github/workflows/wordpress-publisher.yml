@@ -5,6 +5,11 @@
 name: Universal WordPress Publisher
 on:
   workflow_dispatch:
+    inputs:
+      chain_depth:
+        description: 'Self-continuation depth (set by publisher_chain.py; leave 0 for a manual run)'
+        required: false
+        default: '0'
   # Only a completed successful QA on trusted main triggers new publishing.
   # The QA workflow coalesces writer pushes every five minutes, so do not launch
   # one privileged Publisher run for every Writer commit.
@@ -20,6 +25,8 @@ on:
     - cron: '17,47 * * * *'
 permissions:
   contents: write
+  # publisher_chain.py re-dispatches this workflow (same token) while QA-PASS articles remain; serialized by the group.
+  actions: write
 # Separate from writer-claim and topic-refill jobs: only ONE privileged WordPress
 # publisher may run, and unrelated state jobs cannot displace its pending run.
 concurrency:
@@ -145,3 +152,11 @@ jobs:
       - name: Persist QA, dashboard and repair queue without retriggering publisher
         if: steps.safety_switch.outputs.active == 'true' && always()
         run: python scripts/save_reports.py
+      # Backlog drain: when this run posted and READY articles remain, ask for one more serialized run (bounded by
+      # publisher_chain.max_depth, paused publisher_chain.pause_seconds). A run that posted nothing never chains.
+      - name: Continue draining the READY backlog (bounded self-dispatch, no WordPress writes here)
+        if: steps.safety_switch.outputs.active == 'true' && success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CHAIN_DEPTH: ${{ github.event.inputs.chain_depth || '0' }}
+        run: python scripts/publisher_chain.py

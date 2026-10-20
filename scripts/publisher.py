@@ -5,6 +5,7 @@ import json
 import os
 import re
 import subprocess
+import time
 import markdown
 from common import ROOT,SITE,WP,WPRejected,PROTECTED_IDS,digest,git,inventory,load,lock,norm,now,save,title_of,topics,visible
 from git_state import RemoteState
@@ -363,6 +364,21 @@ def delivery_batch_limit(policy):
     return per_batch*batches
 
 
+def pacing(policy):
+    """Host-friendly pacing between WordPress writes (owner policy; 0 = no pause, the default for tests/dry runs).
+
+    post_interval_seconds  wait after every created post
+    batch_pause_seconds    additional wait after each full batch of `batch_size` posts
+    Limits are bounded so a typo cannot stall a run past the job timeout.
+    """
+    def bounded(key,upper):
+        value=policy.get(key,0)
+        if type(value) is not int or not 0<=value<=upper:
+            raise ValueError(key+' must be an integer 0..'+str(upper))
+        return value
+    return {'post':bounded('post_interval_seconds',120),'batch':bounded('batch_pause_seconds',600)}
+
+
 def pilot_settings(policy):
     """Optional owner-approved global cap across serialized Publisher executions.
 
@@ -423,6 +439,7 @@ def daily_created_count(ledger, utc_day, status=None):
 def run(args):
     base_policy=load('config/production-policy.json');policy=dict(base_policy)
     batch_limit=delivery_batch_limit(policy)
+    pace=pacing(policy)
     pilot=pilot_settings(policy)
     if args.acceptance_topic:
         if not args.persist_state or policy['production_enabled']:raise ValueError('Article draft acceptance requires production OFF and remote ledger')
@@ -567,6 +584,9 @@ def run(args):
                 continue
             if not attempt_create(publisher,ledger,results,t,body,sha,route,live,meta):continue
             attempted+=1
+            # Pace the host: a short pause after each post, a longer one after each full batch (never after the last).
+            if attempted<batch_limit:
+                time.sleep(pace['post']+(pace['batch'] if attempted%policy['batch_size']==0 else 0))
             results.append({'topic_id':t['topic_id'],'status':'WORDPRESS_'+route['status'].upper(),
                 'category_id':route['category_id'],'category_resolution':route['category_resolution'],
                 'intended_taxonomy_key':route['intended_taxonomy_key'],
@@ -574,7 +594,17 @@ def run(args):
         # Keep the recheck counters only for articles that are still waiting; a published or PASS article starts clean.
         save('reports/gate-recheck.json',{k:v for k,v in recheck_state.items()
             if v.get('status')!='PASS' and (ledger['posts'].get(k) or {}).get('phase')!='VERIFIED'})
-        save('reports/publisher-latest.json',{'at':now(),'attempted':attempted,'batch_size':policy['batch_size'],'max_batches_per_run':policy['max_batches_per_run'],'batch_capacity':batch_limit,
+        # READY = QA PASS record for the current draft bytes, a matching writer receipt and no ledger entry yet: what a
+        # self-continuing run still has to drain (publisher_chain.py). Read from the records this run just saved.
+        claims_now=load('data/state/writer-claims.json',{}).get('submissions',{})
+        ready_backlog=0
+        for path in sorted((ROOT/'posts/drafts').glob('NT-*.md')):
+            if path.stem in ledger['posts']:continue
+            record=load('data/qa/'+path.stem+'.json') or {}
+            draft_sha=digest(path.read_bytes())
+            if record.get('status')=='PASS' and record.get('source_sha256')==draft_sha and claims_now.get(path.stem,{}).get('sha256')==draft_sha:
+                ready_backlog+=1
+        save('reports/publisher-latest.json',{'at':now(),'attempted':attempted,'ready_backlog':ready_backlog,'batch_size':policy['batch_size'],'max_batches_per_run':policy['max_batches_per_run'],'batch_capacity':batch_limit,
             'pilot':({'id':pilot['id'],'max_posts':pilot['max_posts'],
                       'reserved':pilot_reserved(ledger,pilot['id'])} if pilot else None),
             'qa':results,'backlog_drains_on':'successful Writer QA or fallback schedule','production':production_allowed(policy)})

@@ -534,21 +534,37 @@ def evaluate_safely(path,topic,rows,live=False,inv=None):
                 'errors':['QA evaluation crashed: '+type(exc).__name__+': '+str(exc)[:160]],'review':[],'at':now()}
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--live',action='store_true');a=p.parse_args()
-    rows=topics();results=[]
+    p=argparse.ArgumentParser();p.add_argument('--live',action='store_true')
+    p.add_argument('--incremental',action='store_true',help='reuse hash-valid stored records (frozen published, cached unchanged); evaluate only new/changed drafts')
+    a=p.parse_args()
+    rows=topics();results=[];reused=0
     inv=load('data/existing-content-inventory.json',{}).get('items',[])  # read once, not once per draft
+    # Incremental sweep: a VERIFIED article with the same source hash, or an unchanged draft with the same rules and
+    # topic row, keeps its stored record; qa_gate.validate_complete still hash-checks every record afterwards.
+    keep={}
+    if a.incremental:
+        from qa_incremental import plan,incremental_key,rules_digest
+        p_=plan(rows=rows)
+        keep={i:'FROZEN' for i in p_['frozen']};keep.update({i:'CACHED' for i in p_['cached']})
+        rules_sha=rules_digest(load('config/qa-rules.json'))
     for path in sorted((ROOT/'posts/drafts').glob('NT-*.md')):
         match=[t for t in rows if t['topic_id']==path.stem]
+        if path.stem in keep:
+            stored=load('data/qa/'+path.stem+'.json')
+            if isinstance(stored,dict) and stored.get('source_sha256')==digest(path.read_bytes()):
+                results.append(stored);reused+=1;continue
         if len(match)!=1:
             # A stray draft is a FAIL ticket for that file only; it must not stop QA for every other article.
             r={'topic_id':path.stem,'status':'FAIL','source_sha256':digest(path.read_bytes()),
                'errors':['Unknown or ambiguous draft ID'],'review':[],'at':now()}
         else:
             r=evaluate_safely(path,match[0],rows,live=a.live,inv=inv)
-        annotate(r)
+            if a.incremental:r['incremental_key']=incremental_key(r['source_sha256'],rules_sha,match[0])
+        previous=load('data/qa/'+path.stem+'.json') if a.incremental else None
+        annotate(r,previous if isinstance(previous,dict) else None)
         save('data/qa/'+path.stem+'.json',r);results.append(r)
     save('reports/repair-queue.json',[r for r in results if r['status']!='PASS'])
-    print(json.dumps({'authored':len(results),'pass':sum(r['status']=='PASS' for r in results),'repair':sum(r['status']!='PASS' for r in results)}))
+    print(json.dumps({'authored':len(results),'pass':sum(r['status']=='PASS' for r in results),'repair':sum(r['status']!='PASS' for r in results),'reused':reused,'evaluated':len(results)-reused}))
     return 1 if any(r['status']!='PASS' for r in results) else 0
 
 if __name__=='__main__':raise SystemExit(main())
