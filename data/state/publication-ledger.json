@@ -18756,7 +18756,7 @@
       }
     },
     "NT-001010": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T20:08:34.060622+00:00",
       "source_hash": "fd9ea86a731bb56e78afbe21d5f61276590ccf2eb96f17726b72887ceb2b9651",
       "slug": "quy-tac-vuot-xe-va-nhuong-duong-cho-xe-xin-vuot-nguoi-di-xe-may-vuot-ben-trai-khi-nao-duoc-vuot-ben-phai-va-cac-truong-hop-cam-vuot",
@@ -18772,8 +18772,37 @@
       "category_warning": null,
       "git_commit": "c81c0ee2a88510e48d97f0e7682e4e682ece0276",
       "run_id": "39488377714",
-      "updated_at": "2026-10-20T20:08:38.321821+00:00",
-      "wp_id": 4384
+      "updated_at": "2026-10-20T20:08:43.947172+00:00",
+      "wp_id": 4384,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/quy-tac-vuot-xe-va-nhuong-duong-cho-xe-xin-vuot-nguoi-di-xe-may-vuot-ben-trai-khi-nao-duoc-vuot-ben-phai-va-cac-truong-hop-cam-vuot/",
+      "verified_at": "2026-10-20T20:08:43.947166+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4384,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/quy-tac-vuot-xe-va-nhuong-duong-cho-xe-xin-vuot-nguoi-di-xe-may-vuot-ben-trai-khi-nao-duoc-vuot-ben-phai-va-cac-truong-hop-cam-vuot/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/quy-tac-vuot-xe-va-nhuong-duong-cho-xe-xin-vuot-nguoi-di-xe-may-vuot-ben-trai-khi-nao-duoc-vuot-ben-phai-va-cac-truong-hop-cam-vuot/",
+        "seo_title": "Vượt xe và nhường đường cho xe xin vượt: quy tắc theo Điều 14",
+        "seo_description": "Vượt xe và nhường đường cho xe xin vượt theo Điều 14 Luật 36/2024: vượt bên trái, khi nào được vượt bên phải, báo hiệu xin vượt, nơi cấm vượt và mức phạt khi gây tai nạn.",
+        "checked_at": "2026-10-20T20:08:43.947147+00:00"
+      }
     }
   },
   "categories": {}
