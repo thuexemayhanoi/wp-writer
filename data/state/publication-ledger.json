@@ -19393,7 +19393,7 @@
       }
     },
     "NT-001094": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T20:21:39.122377+00:00",
       "source_hash": "e82bbffdeb445e69576be6762ac9021906712f51d7d4bd78c9b8dc53d054c80e",
       "slug": "chua-but-thap-o-bac-ninh-quan-am-nghin-mat-nghin-tay-cuu-pham-lien-hoa-va-bon-bao-vat-quoc-gia",
@@ -19409,8 +19409,37 @@
       "category_warning": null,
       "git_commit": "bbb5c04272a76d4b214d7a73db3c2fae12bfa261",
       "run_id": "39490857692",
-      "updated_at": "2026-10-20T20:21:42.757180+00:00",
-      "wp_id": 4397
+      "updated_at": "2026-10-20T20:21:48.845457+00:00",
+      "wp_id": 4397,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/chua-but-thap-o-bac-ninh-quan-am-nghin-mat-nghin-tay-cuu-pham-lien-hoa-va-bon-bao-vat-quoc-gia/",
+      "verified_at": "2026-10-20T20:21:48.845449+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4397,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/chua-but-thap-o-bac-ninh-quan-am-nghin-mat-nghin-tay-cuu-pham-lien-hoa-va-bon-bao-vat-quoc-gia/",
+        "categories": [
+          126
+        ],
+        "canonical": "https://thuexemaynguyentu.com/chua-but-thap-o-bac-ninh-quan-am-nghin-mat-nghin-tay-cuu-pham-lien-hoa-va-bon-bao-vat-quoc-gia/",
+        "seo_title": "Chùa Bút Tháp ở Bắc Ninh: Quan Âm nghìn mắt và Cửu phẩm liên hoa",
+        "seo_description": "Chùa Bút Tháp ở Bắc Ninh: hồ sơ di tích nêu kiến trúc thế kỷ XVII, VnExpress nêu bốn bảo vật quốc gia; hai nguồn lệch nhau về năm công nhận và tên đơn vị hành chính.",
+        "checked_at": "2026-10-20T20:21:48.845418+00:00"
+      }
     }
   },
   "categories": {}
