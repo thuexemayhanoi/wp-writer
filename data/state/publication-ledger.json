@@ -16108,6 +16108,25 @@
         "seo_description": "Tắt pin khi để xe lâu: sổ Feliz S nêu công tắc pin dưới yên, sạc trên 50% khi đỗ trên 14 ngày; hướng dẫn Dat Bike Quantum nêu khóa pin trên app, tắt ở 80–90% và cách mở lại.",
         "checked_at": "2026-10-20T09:27:05.125433+00:00"
       }
+    },
+    "NT-000833": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-20T09:30:26.052428+00:00",
+      "source_hash": "3770719e7d0c97b2f0b7c49915d9644149d17abaf1ecdf2107c8659e0f44430d",
+      "slug": "vi-sao-phanh-xe-dien-co-cam-giac-khac-xe-xang-nha-ga-la-xe-da-ghi-mot-ban-dap-va-loi-khuyen-chon-muc-ham-chua-thong-nhat",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 168,
+      "visible_hash": "370a1dc0fb620acad82a2fea03e3538d548ebe2e2233111b7824aa9b5ee602fc",
+      "first_paragraph": "Phanh xe điện có cảm giác khác xe xăng vì khi nhả ga xe điện đã tự ghì lại nhờ phanh tái sinh, nhiều xe cho lái bằng một bàn đạp, và mỗi hãng tự chỉnh mức hãm nên cảm giác phanh không đồng nhất giữa các xe. Còn nên chọn mức hãm nào thì các nguồn khuyên khác nhau: Thanh Niên nói mức thấp hợp đô thị, Lao Động (lược theo Green Car Reports) nói mức mạnh hợp trong thành phố, còn sổ hướng dẫn của Hyundai chỉ dặn tăng mức tái sinh khi xuống dốc dài hoặc dốc đứng. Cách chắc chắn nhất là tập ở đường vắng và đọc sổ hướng dẫn của đúng chiếc xe.",
+      "meta_title": "Vì sao phanh xe điện có cảm giác khác xe xăng và nên chọn mức hãm nào",
+      "meta_description": "Phanh xe điện có cảm giác khác xe xăng vì nhả ga là xe đã ghì, nhiều xe lái một bàn đạp và mỗi hãng chỉnh mức hãm khác nhau; các nguồn khuyên chọn mức chưa thống nhất.",
+      "intended_taxonomy_key": "electric-tech",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "7c2678e9b9b10444d2bdc818777144b2c81d7aee",
+      "run_id": "39400846844",
+      "updated_at": "2026-10-20T09:30:26.054525+00:00"
     }
   },
   "categories": {}
