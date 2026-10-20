@@ -19197,7 +19197,7 @@
       }
     },
     "NT-001076": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T20:16:22.457426+00:00",
       "source_hash": "fc829718bca1210c92d4ad5ef632f22887242b056f14ee0d0ae8835cbd9ed14b",
       "slug": "mo-men-xoan-xe-may-dien-vi-sao-43-49-nm-cua-neo-s-va-14-4-n-m-cua-exciter-khong-so-truc-tiep",
@@ -19213,8 +19213,37 @@
       "category_warning": null,
       "git_commit": "e89aece5f3081cd0a9ac6ccd246ce2fc1ec06ae6",
       "run_id": "39489674662",
-      "updated_at": "2026-10-20T20:16:26.412588+00:00",
-      "wp_id": 4393
+      "updated_at": "2026-10-20T20:16:31.871854+00:00",
+      "wp_id": 4393,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/mo-men-xoan-xe-may-dien-vi-sao-43-49-nm-cua-neo-s-va-14-4-n-m-cua-exciter-khong-so-truc-tiep/",
+      "verified_at": "2026-10-20T20:16:31.871848+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4393,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/mo-men-xoan-xe-may-dien-vi-sao-43-49-nm-cua-neo-s-va-14-4-n-m-cua-exciter-khong-so-truc-tiep/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/mo-men-xoan-xe-may-dien-vi-sao-43-49-nm-cua-neo-s-va-14-4-n-m-cua-exciter-khong-so-truc-tiep/",
+        "seo_title": "Mô-men xoắn xe máy điện: 43,49 Nm và 14,4 N·m không so trực tiếp",
+        "seo_description": "Mô-men xoắn xe máy điện ghi bằng Nm hay N·m: vì sao 43,49 Nm của NEO's, 58.7Nm của X-Zone và 14,4 N·m của Exciter không so trực tiếp, và cách đọc bảng thông số.",
+        "checked_at": "2026-10-20T20:16:31.871830+00:00"
+      }
     }
   },
   "categories": {}
