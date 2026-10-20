@@ -1,5 +1,8 @@
 # Quy trình chung W1–W9 — AI App nghiên cứu và viết liên tục
 
+> **Điểm vào cho Excel Nguyễn Tú (1.482 tiêu đề):** [TITLE-PLAN-1482-SOP](TITLE-PLAN-1482-SOP.md). Excel là kế hoạch gợi ý; `data/topics.jsonl` là Topic Registry đã được Research QA duyệt; chỉ NT đã PLANNED mới được W1–W9 claim, viết/QA/Publisher. 51 phường giữ độc lập. Không lấy tên Excel làm slug hoặc hạ bất kỳ gate nào.
+
+
 Lệnh chủ 18/10/2026: giữ quy trình đơn giản, viết nhiều và nhanh; không thêm API AI, khóa Writer, xác thực tài khoản AI hay bước duyệt tay. Tài liệu này thống nhất cách vận hành cho README, AGENTS, Quickstart và các role playbook; hướng dẫn cũ mâu thuẫn phải theo tài liệu này. Tham số thật vẫn lấy từ config và mã QA hiện có.
 
 ## Luồng duy nhất

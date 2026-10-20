@@ -1,32 +1,43 @@
-# Kế hoạch 1.482 tiêu đề SEO mới cho Nguyễn Tú
+# Ba Excel — 1.482 tiêu đề SEO của Nguyễn Tú
 
-Dữ liệu gốc: 518 bài WordPress đã xuất bản (REST, 20/10/2026). Mục tiêu kế hoạch là 2.000 bài, do đó còn 1.482 dòng, chia làm ba file Excel 494 dòng; phân bổ 18 danh mục con hoặc danh mục lá đã tồn tại.
+> **AI đọc trước:** [Quy trình A–Z gọn, đầy đủ](../../docs/TITLE-PLAN-1482-SOP.md) · [AGENTS chỉ cho thư mục Excel](AGENTS.md). Nếu chạy ChatGPT/Claude trên iPhone, chỉ cần mở SOP và lấy **1–3 hàng** trong `plan.json`, không tải cả 1.482 hàng vào ngữ cảnh.
 
-## Hàng đợi và ba bảng Excel
+## Tệp phải đọc theo thứ tự
 
-- seo-tieu-de-01-494.xlsx: TP-0001 đến TP-0494.
-- seo-tieu-de-02-494.xlsx: TP-0495 đến TP-0988.
-- seo-tieu-de-03-494.xlsx: TP-0989 đến TP-1482.
+| Tệp | Dùng để làm gì |
+|---|---|
+| `plan.json` | Danh sách gốc 1.482 đề tài `TP-0001…TP-1482`; Term ID, intent, trạng thái |
+| `seo-tieu-de-01-494.xlsx` | Tập 1: TP-0001 → TP-0494 |
+| `seo-tieu-de-02-494.xlsx` | Tập 2: TP-0495 → TP-0988 |
+| `seo-tieu-de-03-494.xlsx` | Tập 3: TP-0989 → TP-1482 |
+| `seo-tieu-de-*-494.csv` | Bản nhẹ cho AI đọc không cần mở Excel |
+| `status.json` | Tình trạng từ biên nhận xác minh Publisher G7 |
+| `baseline-518.json` | Snapshot **518 bài `publish` tại 20/10/2026** để so trùng ý định/slug; phải đối chiếu WordPress mới nhất |
 
-Có ba CSV máy đọc, plan.json là danh sách nền và status.json là nhật ký trạng thái. Excel là bản trình bày; không được dùng trạng thái ở Excel để bỏ qua cổng QA.
+**Không nhập Excel ngoài dự án:** Bảng Excel Nguyễn Hà của `wp-aiwriter` dành cho website khác. Ở đây là Excel Nguyễn Tú `wp-writer` mới. Excel là **lịch đề tài**, không phải Topic Registry đã QA.
 
-## Dữ liệu đối chiếu và phân loại
+## Một dòng Excel được dùng như thế nào?
 
-baseline-518.json lưu ID, title, slug, category và URL của 518 bài publish. Trình tạo tiêu đề còn đọc data/topics.jsonl để chống trùng tên/góc khai thác với topic trong pipeline khi lập kế hoạch. Lúc thực sự viết phải làm lại chống trùng intent và URL vì website có thể đã thay đổi.
+1. Đọc 1–3 TP-ID qua `python scripts/title_plan_next.py --limit 3`, hoặc mở `plan.json` lấy đúng hàng còn PLANNED; không đọc lại toàn bảng.
+2. Trước khi viết phải kiểm trùng với WordPress hiện tại, toàn bộ Topic Registry, những bài đang được claim. Nếu đã phục vụ cùng intent → HOLD và báo lý do.
+3. Nghiên cứu **1–4 nguồn** công khai thật; sao lưu URL, thời điểm, excerpt và hash thật. Luật/GPLX phải có cơ quan chính thức. Không chép bài khác.
+4. Đưa `TP-ID` vào metadata `title_plan_id` của **Topic Registry mới** qua Research QA → Trusted Intake; chỉ topic đã PLANNED mới được nhận W1–W9.
+5. Writer phải có lease, viết **1.600–5.000 từ**, SEO & Quality ≥85, G1–G6 PASS; Publisher đăng đúng Term ID. Chỉ G7 VERIFIED + receipt PASS mới **đánh dấu vào Excel**.
+6. Khi mất mạng/quota, lưu `TP-ID/NT-ID/session/lease/branch/commit/step` rồi tiếp tục đúng phiên; không ghi trạng thái giả.
 
-Chỉ dùng 18 WordPress Term ID có thật: 163, 164, 165, 166, 167, 168, 160, 169, 170, 161, 171, 172, 173, 174, 175, 176, 177, 156. Không tự tạo danh mục, không fallback vào Blog hoặc Uncategorized.
+### URL và SEO
 
-SEO 51 phường (Term ID 182) thuộc chiến dịch độc lập editorial/seo-51-phuong và có 3 bài đầu Bồ Đề, Cửa Nam, Hoàn Kiếm. Không nhân bản chiến dịch này trong danh sách 1.482. Không tạo thêm hàng loạt title chứa đúng cụm “thuê xe máy Hà Nội”.
+- Slug bài mới **theo tiêu đề**, không có `excel`, `csv`, `xlsx`, tên file `seo-tieu-de-...xlsx` hoặc mã TP.
+- Không sản xuất loạt title nhắm chính xác từ khóa “thuê xe máy Hà Nội”; 51 phường thuộc campaign khác (Term ID 182), không lặp lại.
+- Phân phối 1.482 TP đều trong **18 danh mục đã có**, 82–83 mỗi danh mục. `data/taxonomy.json` quyết định term ID cha/con, không tự tạo category.
+- Các title là **đề xuất ban đầu 60–80 ký tự**, AI vẫn phải đánh giá tính tự nhiên, intent, nguy cơ cannibalization và nguồn nghiên cứu trước khi cấp NT. Nếu tiêu đề không phù hợp, sửa kế hoạch qua coordinator, giữ TP-ID, không tự đăng bài mỏng.
 
-## Quy trình sử dụng với ChatGPT thường và GitHub
+### Trạng thái
 
-1. Lấy 1–3 dòng PLANNED tiếp theo trong plan.json hoặc chạy: python scripts/title_plan_next.py --limit 3.
-2. Mỗi tiêu đề tìm 1–4 nguồn thật phù hợp chủ đề; kiểm tra source URL, trích dẫn và trang chính thức cho các khẳng định luật/giấy phép. Nếu tiêu đề không phù hợp nguồn hoặc trùng intent, sửa đề cương tiêu đề trước khi viết, giữ nguyên mã TP để theo dõi.
-3. Gửi Topic Factory + Research QA bằng trường title_plan_id=TP-XXXX, taxonomy_key và wordpress_category_id của dòng tương ứng. Dữ liệu nghiên cứu phải tuân thủ docs/ARTICLE-CONTRACT.md và chống trùng bài/URL mới nhất.
-4. Writer W1–W9 lấy lease riêng hợp lệ, viết 1.600–5.000 từ, QA SEO và chất lượng đều từ 85 trở lên, G1–G6 PASS, không còn REVIEW hoặc FAIL.
-5. Publisher duy nhất xuất bản public vào đúng category. Không tạo WordPress draft nếu QA không đạt. Khi POST không rõ kết quả thì HOLD và đối soát, không POST trùng.
-6. Chỉ khi ledger có phase VERIFIED và receipt G7 PASS đủ 10 checks, workflow title-plan-1482-sync.yml cập nhật status trong plan.json, CSV, XLSX thành PUBLISHED_G7_PASS cùng WP ID/URL.
+`PLANNED` (Excel) ≠ `PLANNED` (NT Topic Registry). Excel chỉ chuyển `PUBLISHED_G7_PASS` **khi** Publisher có G7 receipt xác minh bài WordPress công khai đúng ID, URL, category và Yoast meta; GitHub Actions PASS chưa đủ.
 
-Đây là danh sách ứng viên tiêu đề chứ không phải các bài đã qua Research QA. Chỉ có GitHub không thể tự viết bài bằng AI nếu không có phiên ChatGPT/Claude hoặc hệ thống Writer đang chạy. Không cấp thêm API keys hay nới hàng rào QA. Không sửa production-policy.json, qa.py, publisher.py, leases W1–W9, URL/canonical của bài cũ hoặc sổ Publisher.
+## Lệnh 1 câu copy cho AI trên điện thoại
 
-Nếu title đã có Topic ID, sửa và tiếp tục trên Topic ID đó, không đăng bản sao.
+> Đọc `AGENTS.md` và `docs/TITLE-PLAN-1482-SOP.md` trong `thuexemayhanoi/wp-writer`. Chọn 3 TP-ID chưa xử lý, kiểm trùng URL/intent với WordPress, tìm 1–4 nguồn thật, vào Topic Factory/Research QA, claim NT-ID hợp lệ, viết đủ QA ≥85, Publisher tự đăng và G7 mới đánh dấu Excel. Không tên Excel trong slug, không cướp lease, mất quota thì lưu checkpoint, báo URL thật. Không hỏi duyệt từng bài.
+
+**Giới hạn kỹ thuật:** GitHub tự kiểm dữ liệu, QA, lưu progress và Publisher; tự nó **không sinh 1.482 bài bằng mô hình AI**. Người dùng vẫn cần một phiên AI nghiên cứu/viết hoặc Writer đã kết nối; không dùng API key mới, không hạ chuẩn QA.

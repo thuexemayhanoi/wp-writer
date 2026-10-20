@@ -1,10 +1,13 @@
 # Research V2 — Global-style ten-topic research, QA, recovery and automatic refill
 
+> **Nguồn gợi ý mới:** ngoài RSS và GSC hints, **3 bảng Excel Nguyễn Tú 1.482 title** tại `editorial/title-plan-1482/` được dùng **làm đầu vào NGHIÊN CỨU** theo [SOP Excel A–Z](TITLE-PLAN-1482-SOP.md). TP-XXXX không là NT-XXXXXX. Vẫn phải có source thật, full-content collision review, research branch/checkpoint, Research QA PASS/trusted intake trước khi thành PLANNED. **Không nhập Excel Nguyễn Hà** hay topic của repo khác.
+
+
 Operating authority: [shared W1–W9 research/writer contract](WRITER-RESEARCH-CONTRACT.md). One verified original source can suffice for a narrow topic; corroborate high-risk/changing claims. Continue accepted batches within the owner's scope; no AI API, new writer keys or manual approval step.
 
 Repo: thuexemayhanoi/wp-writer → https://thuexemaynguyentu.com/.
 
-Unlike /global, this is the Nguyen Tu MAIN commercial WordPress site. Helpful informational, travel and rental intent may be used only if distinct from existing protected service/landing pages. No Excel, no model API, no automatic LLM, no WordPress production change.
+Unlike /global, this is the Nguyen Tu MAIN commercial WordPress site. Helpful informational, travel and rental intent may be used only if distinct from existing protected service/landing pages. No imported Excel from other projects, no model API, no automatic LLM, no WordPress production change. The owner-approved 1,482-title Nguyen Tu Excel queue is an optional **research input**, never a substitute for Topic QA.
 
 ## Pipeline
 

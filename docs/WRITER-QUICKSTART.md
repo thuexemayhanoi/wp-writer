@@ -1,5 +1,8 @@
 # Viết bằng Claude, ChatGPT, Gemini, Mistral hoặc AI khác
 
+> **Đề tài từ Excel 1.482:** đọc [SOP Excel A–Z](TITLE-PLAN-1482-SOP.md) trước khi gọi Writer. Một dòng TP-XXXX chưa phải một `NT-XXXXXX PLANNED` có thể claim. `python scripts/title_plan_next.py --limit 3` chỉ **đọc đề xuất**, không chiếm lease và không đăng bài. Chỉ bắt đầu Writer khi Topic Factory/Research QA đã ghi thật vào `data/topics.jsonl`.
+
+
 Theo [quy trình chung W1–W9](WRITER-RESEARCH-CONTRACT.md): một nguồn gốc đã xác minh có thể đủ cho chủ đề hẹp, thêm đối chiếu khi cần. Nộp từng bài/cặp khi đạt, hết batch thì nhận tiếp cùng session theo phạm vi chủ giao, không chờ WordPress và không xin duyệt từng lượt. QA và kết nối hiện tại giữ nguyên; không thêm API AI/khóa.
 
 **Writer pool (18/10/2026):** W1–W9 là 9 vị trí dùng chung hàng đợi. Claude App/AI App tự nhận vị trí trống bằng `--slot auto` (hoặc request GitHub), mỗi phiên giữ tối đa một vị trí và tối đa 10 Topic ID. Không cấp khóa Ed25519, không xác thực tài khoản Claude, không dùng API AI. Giữ nguyên lease còn hạn, checkpoint, chống trùng Topic ID và QA/Publisher đang chạy; Publisher tiếp tục đăng 2 bài mỗi lô.
