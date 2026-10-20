@@ -18560,7 +18560,7 @@
       }
     },
     "NT-000969": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T20:06:17.798371+00:00",
       "source_hash": "f75a0c767927ae402d3aa5f73a0bedaf73391bfcf292b4680da7dd0a3aeed37d",
       "slug": "noi-dung-hop-dong-thue-xe-may-theo-dieu-398-bo-luat-dan-su-danh-muc-de-tu-kiem-tra-truoc-khi-ky",
@@ -18576,8 +18576,37 @@
       "category_warning": null,
       "git_commit": "c81c0ee2a88510e48d97f0e7682e4e682ece0276",
       "run_id": "39488377714",
-      "updated_at": "2026-10-20T20:06:22.409718+00:00",
-      "wp_id": 4380
+      "updated_at": "2026-10-20T20:06:28.641604+00:00",
+      "wp_id": 4380,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/noi-dung-hop-dong-thue-xe-may-theo-dieu-398-bo-luat-dan-su-danh-muc-de-tu-kiem-tra-truoc-khi-ky/",
+      "verified_at": "2026-10-20T20:06:28.641596+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4380,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/noi-dung-hop-dong-thue-xe-may-theo-dieu-398-bo-luat-dan-su-danh-muc-de-tu-kiem-tra-truoc-khi-ky/",
+        "categories": [
+          162
+        ],
+        "canonical": "https://thuexemaynguyentu.com/noi-dung-hop-dong-thue-xe-may-theo-dieu-398-bo-luat-dan-su-danh-muc-de-tu-kiem-tra-truoc-khi-ky/",
+        "seo_title": "Nội dung hợp đồng thuê xe máy theo Điều 398: danh mục tự kiểm tra",
+        "seo_description": "Nội dung hợp đồng thuê xe máy theo Điều 398 Bộ luật Dân sự gồm bảy nhóm. Danh mục để tự kiểm tra giá, thời hạn, quyền nghĩa vụ, phạt vi phạm trước khi ký.",
+        "checked_at": "2026-10-20T20:06:28.641578+00:00"
+      }
     }
   },
   "categories": {}
