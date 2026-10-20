@@ -16404,7 +16404,7 @@
       }
     },
     "NT-001098": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T09:36:56.919308+00:00",
       "source_hash": "3d0e403ffc57189fb0f0484375980845412cca401f207734338378577fc4bf2b",
       "slug": "den-ba-chua-kho-o-bac-ninh-ngay-gio-12-thang-gieng-tuc-vay-loc-va-tra-le-nhung-luu-y-khi-di-le",
@@ -16420,8 +16420,37 @@
       "category_warning": null,
       "git_commit": "7c2678e9b9b10444d2bdc818777144b2c81d7aee",
       "run_id": "39400846844",
-      "updated_at": "2026-10-20T09:37:00.871870+00:00",
-      "wp_id": 4333
+      "updated_at": "2026-10-20T09:37:06.640758+00:00",
+      "wp_id": 4333,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/den-ba-chua-kho-o-bac-ninh-ngay-gio-12-thang-gieng-tuc-vay-loc-va-tra-le-nhung-luu-y-khi-di-le/",
+      "verified_at": "2026-10-20T09:37:06.640751+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4333,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/den-ba-chua-kho-o-bac-ninh-ngay-gio-12-thang-gieng-tuc-vay-loc-va-tra-le-nhung-luu-y-khi-di-le/",
+        "categories": [
+          126
+        ],
+        "canonical": "https://thuexemaynguyentu.com/den-ba-chua-kho-o-bac-ninh-ngay-gio-12-thang-gieng-tuc-vay-loc-va-tra-le-nhung-luu-y-khi-di-le/",
+        "seo_title": "Đền Bà Chúa Kho ở Bắc Ninh: giỗ 12 tháng Giêng, vay lộc, trả lễ",
+        "seo_description": "Đền Bà Chúa Kho ở Bắc Ninh: thờ ai, ngày giỗ 12 tháng Giêng, hội 12–15 tháng Giêng, tục vay lộc đầu năm và trả lễ cuối năm, các khu trong đền, lễ vật và lưu ý dịp đông.",
+        "checked_at": "2026-10-20T09:37:06.640734+00:00"
+      }
     }
   },
   "categories": {}
