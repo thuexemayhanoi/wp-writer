@@ -19050,7 +19050,7 @@
       }
     },
     "NT-001071": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T20:14:56.204440+00:00",
       "source_hash": "719a18fee19de8333dce19b348de2325ce2b963eebc3a9e462896bb797be151d",
       "slug": "so-khung-so-dong-co-xe-may-dien-dat-bike-khac-o-dau-vin-duoi-yen-va-so-tren-cum-dong-co",
@@ -19066,8 +19066,37 @@
       "category_warning": null,
       "git_commit": "e89aece5f3081cd0a9ac6ccd246ce2fc1ec06ae6",
       "run_id": "39489674662",
-      "updated_at": "2026-10-20T20:15:00.368410+00:00",
-      "wp_id": 4390
+      "updated_at": "2026-10-20T20:15:06.196876+00:00",
+      "wp_id": 4390,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/so-khung-so-dong-co-xe-may-dien-dat-bike-khac-o-dau-vin-duoi-yen-va-so-tren-cum-dong-co/",
+      "verified_at": "2026-10-20T20:15:06.196869+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4390,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/so-khung-so-dong-co-xe-may-dien-dat-bike-khac-o-dau-vin-duoi-yen-va-so-tren-cum-dong-co/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/so-khung-so-dong-co-xe-may-dien-dat-bike-khac-o-dau-vin-duoi-yen-va-so-tren-cum-dong-co/",
+        "seo_title": "Số khung, số động cơ xe máy điện Dat Bike khắc ở đâu: VIN dưới yên",
+        "seo_description": "Số khung và số động cơ xe máy điện Dat Bike khắc ở đâu: số VIN trên khung dưới yên, số động cơ ở phía trên cụm động cơ, cùng cách gọi khác nhau trong hướng dẫn ERA và Quantum S.",
+        "checked_at": "2026-10-20T20:15:06.196851+00:00"
+      }
     }
   },
   "categories": {}
