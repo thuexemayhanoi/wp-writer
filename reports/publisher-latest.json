@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-20T19:20:01.307425+00:00",
-  "attempted": 0,
+  "at": "2026-10-20T19:37:58.412673+00:00",
+  "attempted": 2,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -22,6 +22,22 @@
         }
       },
       "action": "manual reconciliation; never create/update automatically"
+    },
+    {
+      "topic_id": "NT-000761",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 176,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000834",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 161,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "road-safety",
+      "category_warning": null
     },
     {
       "topic_id": "NT-001101",
@@ -180,11 +196,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-20T19:19:45.013234+00:00",
+      "at": "2026-10-20T19:37:45.233974+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "214e325e6a248638324b8447482d08e41dc53b6ea9d5e1c8a22889fe4f83da53",
+      "inventory_sha256": "edd8ada682f98571eac67c7d8e887b94b102f9cdc37278d33dde0b9bf5656d40",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -350,11 +366,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-20T19:19:54.479378+00:00",
+      "at": "2026-10-20T19:37:52.209983+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "214e325e6a248638324b8447482d08e41dc53b6ea9d5e1c8a22889fe4f83da53",
+      "inventory_sha256": "edd8ada682f98571eac67c7d8e887b94b102f9cdc37278d33dde0b9bf5656d40",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -529,11 +545,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-20T19:20:01.188807+00:00",
+      "at": "2026-10-20T19:37:58.338028+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "214e325e6a248638324b8447482d08e41dc53b6ea9d5e1c8a22889fe4f83da53",
+      "inventory_sha256": "edd8ada682f98571eac67c7d8e887b94b102f9cdc37278d33dde0b9bf5656d40",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [

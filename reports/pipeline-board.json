@@ -1,29 +1,17 @@
 {
-  "at": "2026-10-20T19:20:02.991804+00:00",
+  "at": "2026-10-20T19:37:59.465306+00:00",
   "counts": {
-    "WRITING": 55,
+    "WRITING": 53,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 370
+    "VERIFIED": 372
   },
   "ready_backlog": 0,
-  "in_flight": 58,
+  "in_flight": 56,
   "items": [
-    {
-      "topic_id": "NT-000761",
-      "state": "WRITING",
-      "reason": "leased to seodev-w40",
-      "title": "Vé liên thông buýt và metro Hà Nội từ 1/9/2026: một thẻ chung, vé tháng 250.000/500.000 đồng",
-      "slot": "W3",
-      "session": "seodev-w40",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-000762",
       "state": "WRITING",
@@ -127,18 +115,6 @@
       "title": "Người đi xe lăn, người cao tuổi đi metro Hà Nội: cổng soát vé riêng, thang máy, gạch xúc giác và nhờ nhân viên ga",
       "slot": "W3",
       "session": "seodev-w40",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000834",
-      "state": "WRITING",
-      "reason": "leased to seodev-w41",
-      "title": "Xe điện xuống dốc dài: nhả ga ghìm xe thế nào và khi nào phanh tái sinh không đủ vì pin đầy hoặc xe chở nặng",
-      "slot": "W4",
-      "session": "seodev-w41",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -3913,6 +3889,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-000761",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Vé liên thông buýt và metro Hà Nội từ 1/9/2026: một thẻ chung, vé tháng 250.000/500.000 đồng",
+      "slot": "W3",
+      "session": "seodev-w40",
+      "wp_id": 4352,
+      "url": "https://thuexemaynguyentu.com/ve-lien-thong-buyt-va-metro-ha-noi-tu-1-9-2026-mot-the-chung-ve-thang-250-000-500-000-dong/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-000805",
       "state": "VERIFIED",
       "reason": "publish",
@@ -4209,6 +4197,18 @@
       "session": "seodev-w36",
       "wp_id": 4326,
       "url": "https://thuexemaynguyentu.com/vi-sao-phanh-xe-dien-co-cam-giac-khac-xe-xang-nha-ga-la-xe-da-ghi-mot-ban-dap-va-loi-khuyen-chon-muc-ham-chua-thong-nhat/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-000834",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe điện xuống dốc dài: nhả ga ghìm xe thế nào và khi nào phanh tái sinh không đủ vì pin đầy hoặc xe chở nặng",
+      "slot": "W4",
+      "session": "seodev-w41",
+      "wp_id": 4353,
+      "url": "https://thuexemaynguyentu.com/xe-dien-xuong-doc-dai-nha-ga-ghim-xe-the-nao-va-khi-nao-phanh-tai-sinh-khong-du-vi-pin-day-hoac-xe-cho-nang/",
       "qa_status": "PASS",
       "seo_score": 100
     },

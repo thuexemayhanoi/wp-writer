@@ -1,16 +1,16 @@
 # Pipeline board
 
-Generated 2026-10-20T19:20:02.991804+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-20T19:37:59.465306+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
-| WRITING | 55 |
+| WRITING | 53 |
 | QA | 0 |
 | READY | 0 |
 | REPAIR | 0 |
 | HELD | 3 |
 | PUBLISHING | 0 |
-| VERIFIED | 370 |
+| VERIFIED | 372 |
 
 Ready backlog (QA PASS waiting for the Publisher): **0**
 
@@ -18,7 +18,6 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 
 | Topic | State | Slot | Session | Reason |
 |---|---|---|---|---|
-| NT-000761 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
 | NT-000762 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
 | NT-000763 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
 | NT-000764 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
@@ -28,7 +27,6 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 | NT-000768 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
 | NT-000769 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
 | NT-000770 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
-| NT-000834 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
 | NT-000878 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
 | NT-000879 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
 | NT-000880 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |

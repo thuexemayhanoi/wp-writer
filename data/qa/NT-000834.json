@@ -1,0 +1,306 @@
+{
+  "topic_id": "NT-000834",
+  "status": "PASS",
+  "source_sha256": "4da190fa7722ec49b5802764f07f50471b4cc3e35d5e14288530d2811cdc8d46",
+  "body_sha256": "a15649908d8ce44754ac1d8ca11663bf473e827412c66bb4737ccf3b102f4d09",
+  "word_count": 2820,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/lai-oto-dien-it-phai-dung-phanh-nhu-xe-xang-4260473.html",
+      "supports": "VnExpress (9/4/2021): xe điện ghìm tốc ngay khi buông chân ga nhờ phanh tái tạo năng lượng; tài xế đổ đèo bằng xe điện không phải lo xe không hãm được bằng cách về số thấp như xe xăng; đường trơn thì xe giảm tốc rất nhanh khi nhả ga nên lốp dễ mất độ bám.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vov.vn/o-to-xe-may/tu-van/phanh-tai-sinh-la-gi-va-cach-su-dung-phanh-xe-o-to-dien-an-toan-post1145082.vov",
+      "supports": "VOV (29/12/2024): khi xuống dốc có thể giữ chân ga nhẹ để phanh tái sinh hoạt động, giảm phụ thuộc phanh cơ và hạn chế nóng phanh; tốc độ cao hoặc phanh gấp thì phanh tái sinh không đủ mạnh và phanh cơ là chính; xe điện thường nặng hơn nên lực quán tính lớn hơn.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laodong.vn/lai-xe-an-toan/hieu-ve-phanh-tai-sinh-xe-dien-va-cach-su-dung-an-toan-1492558.ldo",
+      "supports": "Lao Động (18/4/2025, lược theo Green Car Reports): phanh tái sinh không nên thay hoàn toàn phanh chân khi xe chở nặng hoặc dốc kéo dài; đường trơn trượt hoặc xe tải nặng thì tái sinh có thể không đủ lực hãm; nhiều xe cho chỉnh mức tái sinh; nên tập ở đường vắng.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/dung-phanh-tai-sinh-tren-o-to-dien-the-nao-de-tranh-bi-uc-che-185250607220346367.htm",
+      "supports": "Thanh Niên (đăng năm 2025): mức tái sinh cao tạo lực hãm lớn khi nhả ga, phù hợp khi đổ đèo, xuống dốc dài vì hạn chế rà phanh, nhưng có thể gây khó chịu ở đường phố hoặc cao tốc nếu người lái chưa quen.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/phanh-abs-tren-xe-dien-khac-xe-xang-the-nao-4929007.html",
+      "supports": "VnExpress (20/8/2025): bộ điều khiển trung tâm chia lực hãm giữa phanh tái sinh và phanh cơ; phanh nhẹ hoặc pin còn nhận điện thì ưu tiên tái sinh; phanh gấp, tốc độ thấp hoặc pin đầy thì ưu tiên phanh cơ; ABS giảm lực tái sinh khi có nguy cơ khóa bánh; mức can thiệp khác nhau tùy hãng, dòng xe, chế độ lái.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/cac-thoi-quen-can-thay-doi-khi-dung-xe-may-dien-4703678.html",
+      "supports": "VnExpress (23/1/2024, bài về xe máy điện): cụm phanh xe máy điện thường có công tắc, cảm biến ngắt mô-tơ khi phanh; rà phanh để điều tiết tốc độ là bất khả thi, đặc biệt khi lên dốc; khi phanh cần giảm hết ga vì nhả phanh xe sẽ lao lên.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Regenerative_braking",
+      "supports": "Wikipedia (bài Regenerative braking, đọc 20/10/2026): hiệu ứng tái sinh có giới hạn, vẫn cần phanh cơ để giảm tốc nhiều hoặc dừng xe; một số hệ thống tái sinh không giữ xe đứng yên nên cần khóa cơ học để xe không trôi xuống dốc.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn xe Quantum của Dat Bike: nhả tay ga thì xe chậm dần nhờ quán tính và phanh động cơ; độ ghì tỉ lệ với góc nhả ga; phanh động cơ chỉ hoạt động ở chế độ D và S; khi dùng phanh tay động cơ tự ngắt, muốn đi tiếp phải nhả phanh tay hoàn toàn rồi vặn ga lại.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/cach-di-xe-may-dien-an-toan",
+      "supports": "VinFast (trang hướng dẫn cách đi xe máy điện an toàn, đăng 24/5/2021): khi bóp phanh xe điện động cơ hoàn toàn bị ngắt; khi leo dốc hoặc xuống dốc cần điều chỉnh tay ga phù hợp; không rà phanh như xe xăng.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thuonggiaonline.vn/kham-pha-xe-may-dien-honda-uc3-va-nhung-cong-nghe-chi-thay-tren-o-to-post571724.html",
+      "supports": "Tạp chí Thương Gia (20/7/2026, bài về Honda UC3, đọc từ trang gốc thuonggiaonline.vn): nhả tay ga hoặc bóp phanh thì mô-tơ chuyển sang máy phát; giảm tốc nhẹ hoặc xuống dốc thì phần lớn lực hãm có thể đến từ tái sinh; phanh gấp hoặc giảm tốc mạnh hơn thì phanh đĩa kết hợp.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vnexpress.net/lai-oto-dien-it-phai-dung-phanh-nhu-xe-xang-4260473.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vov.vn/o-to-xe-may/tu-van/phanh-tai-sinh-la-gi-va-cach-su-dung-phanh-xe-o-to-dien-an-toan-post1145082.vov",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laodong.vn/lai-xe-an-toan/hieu-ve-phanh-tai-sinh-xe-dien-va-cach-su-dung-an-toan-1492558.ldo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/dung-phanh-tai-sinh-tren-o-to-dien-the-nao-de-tranh-bi-uc-che-185250607220346367.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/phanh-abs-tren-xe-dien-khac-xe-xang-the-nao-4929007.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/cac-thoi-quen-can-thay-doi-khi-dung-xe-may-dien-4703678.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Regenerative_braking",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/cach-di-xe-may-dien-an-toan",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thuonggiaonline.vn/kham-pha-xe-may-dien-honda-uc3-va-nhung-cong-nghe-chi-thay-tren-o-to-post571724.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 891,
+        "title": "Hợp Đồng Thuê Xe Máy Hà Nội Có Cần Đặt Cọc Không? Tư Vấn Nhanh",
+        "why": "stale",
+        "content_hash": "dfef1f80adfed1e1d9366a3b620ef84119b9cf4fc4ea34f66fe16eb22f52bcca",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2367,
+        "title": "Có Nên Sạc Xe Máy Điện Tại Nhà? Kinh Nghiệm An Toàn Khi Sử Dụng",
+        "why": "stale",
+        "content_hash": "8768183f030319ed7647591d37ba6e25af1e5ac274f69cc230b87c74a28fe158",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2507,
+        "title": "Chế chảy xăng do đâu? Dấu hiệu nhận biết và cách xử lý ban đầu",
+        "why": "stale",
+        "content_hash": "22253fe91355d6055381302fd78045e2b708effd15761afd43cac2531dcdd570",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2594,
+        "title": "Đi ngoại thành Hà Nội nên chọn xe ga hay xe côn tay để phù hợp hơn?",
+        "why": "stale",
+        "content_hash": "c828fb01d0925dea14287531e51418ebeef09564d4fb50f52a2398ebd052935e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2632,
+        "title": "Cầu Long Biên Hà Nội: Đi lúc nào đẹp, chụp ảnh ở đâu và chơi gì gần đó?",
+        "why": "stale",
+        "content_hash": "36dfb351fe0b68f0a6c25d3903504798235bac27df1d97f4c68ca001b55d25e3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T19:37:01.419705+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "62f6db3255152d49460dd04bf40aeb4ee7b894d8dde698aa1b320c40e5b86359",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
