@@ -15,7 +15,9 @@ on:
     - cron: '*/5 * * * *'
   push:
     branches: [main]
-    paths: ['posts/drafts/**', 'data/state/writer-claims.json', 'scripts/**', 'tests/**', 'config/**', 'data/taxonomy.json', '.github/workflows/**']
+    # Receipts are committed together with the draft (`writer-session.py push`), so posts/drafts/** alone wakes the
+    # sweep; lease begin/release commits that only touch the registry do not.
+    paths: ['posts/drafts/**', 'scripts/**', 'tests/**', 'config/**', 'data/taxonomy.json', '.github/workflows/**']
   pull_request:
     paths: ['posts/drafts/**', 'scripts/**', 'tests/**', 'config/**', 'data/topics.jsonl', 'data/taxonomy.json', '.github/workflows/**']
 permissions:
