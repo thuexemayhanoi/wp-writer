@@ -19001,7 +19001,7 @@
       }
     },
     "NT-001003": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T20:14:15.111754+00:00",
       "source_hash": "94d3369edbf032f902cda945f74804960507308713aa710da15086848fabdfbf",
       "slug": "giay-phep-lai-xe-khong-con-hieu-luc-cac-truong-hop-theo-khoan-7-dieu-57-va-khoan-5-dieu-62-luat-trat-tu-an-toan-giao-thong-duong-bo-2024",
@@ -19017,8 +19017,37 @@
       "category_warning": null,
       "git_commit": "e89aece5f3081cd0a9ac6ccd246ce2fc1ec06ae6",
       "run_id": "39489674662",
-      "updated_at": "2026-10-20T20:14:19.262796+00:00",
-      "wp_id": 4389
+      "updated_at": "2026-10-20T20:14:24.910266+00:00",
+      "wp_id": 4389,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/giay-phep-lai-xe-khong-con-hieu-luc-cac-truong-hop-theo-khoan-7-dieu-57-va-khoan-5-dieu-62-luat-trat-tu-an-toan-giao-thong-duong-bo-2024/",
+      "verified_at": "2026-10-20T20:14:24.910259+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4389,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/giay-phep-lai-xe-khong-con-hieu-luc-cac-truong-hop-theo-khoan-7-dieu-57-va-khoan-5-dieu-62-luat-trat-tu-an-toan-giao-thong-duong-bo-2024/",
+        "categories": [
+          171
+        ],
+        "canonical": "https://thuexemaynguyentu.com/giay-phep-lai-xe-khong-con-hieu-luc-cac-truong-hop-theo-khoan-7-dieu-57-va-khoan-5-dieu-62-luat-trat-tu-an-toan-giao-thong-duong-bo-2024/",
+        "seo_title": "Giấy phép lái xe không còn hiệu lực: hai trường hợp, ba lý do thu hồi",
+        "seo_description": "Giấy phép lái xe không còn hiệu lực khi hết thời hạn hoặc bị thu hồi: A1, A, B1 không thời hạn, ba lý do thu hồi và mốc thi lại khi quá hạn từ 01/7/2026.",
+        "checked_at": "2026-10-20T20:14:24.910241+00:00"
+      }
     }
   },
   "categories": {}
