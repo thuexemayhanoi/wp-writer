@@ -18952,7 +18952,7 @@
       }
     },
     "NT-001001": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T20:13:55.558705+00:00",
       "source_hash": "6b4cd521c8866f0ad2fbb43a89c0a23587e953ed27398b561e6be81a28be78f3",
       "slug": "idp-cong-uoc-vien-1968-tai-viet-nam-dieu-kien-hieu-luc-theo-luat-36-2024-va-phai-mang-kem-bang-goc",
@@ -18968,8 +18968,37 @@
       "category_warning": null,
       "git_commit": "e89aece5f3081cd0a9ac6ccd246ce2fc1ec06ae6",
       "run_id": "39489674662",
-      "updated_at": "2026-10-20T20:13:59.545358+00:00",
-      "wp_id": 4388
+      "updated_at": "2026-10-20T20:14:04.985395+00:00",
+      "wp_id": 4388,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/idp-cong-uoc-vien-1968-tai-viet-nam-dieu-kien-hieu-luc-theo-luat-36-2024-va-phai-mang-kem-bang-goc/",
+      "verified_at": "2026-10-20T20:14:04.985388+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4388,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/idp-cong-uoc-vien-1968-tai-viet-nam-dieu-kien-hieu-luc-theo-luat-36-2024-va-phai-mang-kem-bang-goc/",
+        "categories": [
+          171
+        ],
+        "canonical": "https://thuexemaynguyentu.com/idp-cong-uoc-vien-1968-tai-viet-nam-dieu-kien-hieu-luc-theo-luat-36-2024-va-phai-mang-kem-bang-goc/",
+        "seo_title": "IDP Công ước Viên 1968 tại Việt Nam: điều kiện theo Luật 36/2024",
+        "seo_description": "IDP Công ước Viên 1968 tại Việt Nam dùng được khi nào? Đọc khoản 6, khoản 8 Điều 57 Luật 36/2024: thời hạn không quá 03 năm, phải mang kèm bằng gốc phù hợp hạng xe.",
+        "checked_at": "2026-10-20T20:14:04.985370+00:00"
+      }
     }
   },
   "categories": {}
