@@ -16747,7 +16747,7 @@
       }
     },
     "NT-001068": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T09:45:30.046681+00:00",
       "source_hash": "5605053a24e7a28a690f04a770e1e0dd170552af6429059e9ff9e2d3e39929ed",
       "slug": "xe-may-dien-khong-len-dien-yamaha-vinfast-va-dat-bike-khuyen-kiem-tra-gi-truoc-tien",
@@ -16763,8 +16763,37 @@
       "category_warning": null,
       "git_commit": "adce8da66f14883f0ab033ed5eae837c623dc65a",
       "run_id": "39401831475",
-      "updated_at": "2026-10-20T09:45:34.267001+00:00",
-      "wp_id": 4340
+      "updated_at": "2026-10-20T09:45:40.478399+00:00",
+      "wp_id": 4340,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-dien-khong-len-dien-yamaha-vinfast-va-dat-bike-khuyen-kiem-tra-gi-truoc-tien/",
+      "verified_at": "2026-10-20T09:45:40.478392+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4340,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-dien-khong-len-dien-yamaha-vinfast-va-dat-bike-khuyen-kiem-tra-gi-truoc-tien/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-dien-khong-len-dien-yamaha-vinfast-va-dat-bike-khuyen-kiem-tra-gi-truoc-tien/",
+        "seo_title": "Xe máy điện không lên điện: Yamaha, VinFast, Dat Bike khuyên gì?",
+        "seo_description": "Xe máy điện không lên điện: Yamaha nêu pin hết điện và dây điện; sổ Feliz S bảo tắt-bật công tắc pin dưới yên, Theon kiểm tra ắc-quy chì 12 V, Dat Bike cắm sạc 2 phút để mở pin.",
+        "checked_at": "2026-10-20T09:45:40.478372+00:00"
+      }
     }
   },
   "categories": {}
