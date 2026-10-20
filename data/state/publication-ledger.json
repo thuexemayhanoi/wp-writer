@@ -18266,7 +18266,7 @@
       }
     },
     "NT-000968": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T19:59:30.604690+00:00",
       "source_hash": "30e4ac48fe84844da91cd51eb62ed438aa7206b229e3afa9665ead3bf00868e5",
       "slug": "hop-dong-thue-xe-may-bo-trong-dieu-khoan-gia-thoi-han-han-tra-tien-noi-tra-xe-theo-bo-luat-dan-su",
@@ -18282,8 +18282,37 @@
       "category_warning": null,
       "git_commit": "3295b4cc630d235cc2fd44103933e7943aa0a383",
       "run_id": "39486964027",
-      "updated_at": "2026-10-20T19:59:34.736270+00:00",
-      "wp_id": 4374
+      "updated_at": "2026-10-20T19:59:41.276932+00:00",
+      "wp_id": 4374,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/hop-dong-thue-xe-may-bo-trong-dieu-khoan-gia-thoi-han-han-tra-tien-noi-tra-xe-theo-bo-luat-dan-su/",
+      "verified_at": "2026-10-20T19:59:41.276925+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4374,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/hop-dong-thue-xe-may-bo-trong-dieu-khoan-gia-thoi-han-han-tra-tien-noi-tra-xe-theo-bo-luat-dan-su/",
+        "categories": [
+          163
+        ],
+        "canonical": "https://thuexemaynguyentu.com/hop-dong-thue-xe-may-bo-trong-dieu-khoan-gia-thoi-han-han-tra-tien-noi-tra-xe-theo-bo-luat-dan-su/",
+        "seo_title": "Hợp đồng thuê xe máy bỏ trống điều khoản: Bộ luật Dân sự lấp thế nào",
+        "seo_description": "Hợp đồng thuê xe máy bỏ trống điều khoản giá, thời hạn, hạn trả tiền, nơi trả xe thì Bộ luật Dân sự lấp thế nào? Điều 473, 474, 481, 482 và cách ghi rõ từng mục.",
+        "checked_at": "2026-10-20T19:59:41.276906+00:00"
+      }
     }
   },
   "categories": {}
