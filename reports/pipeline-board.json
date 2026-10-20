@@ -1,29 +1,17 @@
 {
-  "at": "2026-10-20T19:37:59.465306+00:00",
+  "at": "2026-10-20T19:43:19.196637+00:00",
   "counts": {
-    "WRITING": 53,
+    "WRITING": 49,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 372
+    "VERIFIED": 376
   },
   "ready_backlog": 0,
-  "in_flight": 56,
+  "in_flight": 52,
   "items": [
-    {
-      "topic_id": "NT-000762",
-      "state": "WRITING",
-      "reason": "leased to seodev-w40",
-      "title": "Giá vé metro Hà Nội: vé lượt Cát Linh – Yên Nghĩa 19.000 đồng, vé ngày 40.000, vé tuần 160.000, vé tháng 280.000",
-      "slot": "W3",
-      "session": "seodev-w40",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-000763",
       "state": "WRITING",
@@ -223,18 +211,6 @@
       "title": "Ký cược khi thuê xe máy: tiền cọc nhận xe khác đặt cọc ở điểm nào theo Điều 329 Bộ luật Dân sự",
       "slot": "W4",
       "session": "seodev-w41",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000962",
-      "state": "WRITING",
-      "reason": "leased to seodev-w42",
-      "title": "Xe máy thuê hỏng giữa kỳ thuê: hư hỏng nhỏ ai sửa, chi phí ai trả theo Điều 477 và 479",
-      "slot": "W5",
-      "session": "seodev-w42",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -529,18 +505,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001074",
-      "state": "WRITING",
-      "reason": "leased to seodev-w44",
-      "title": "Ổ cắm USB trên xe máy điện: Dat Bike ghi 18W, chỉ hoạt động khi bật xe, đóng nắp khi rửa xe",
-      "slot": "W7",
-      "session": "seodev-w44",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001075",
       "state": "WRITING",
       "reason": "leased to seodev-w44",
@@ -583,18 +547,6 @@
       "title": "Nhiều người dùng chung một xe Dat Bike: chỉ một điện thoại kết nối cùng lúc và cách ghép nối lại",
       "slot": "W7",
       "session": "seodev-w44",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001079",
-      "state": "WRITING",
-      "reason": "leased to seodev-w45",
-      "title": "TCS, HDC và Hill-hold trên xe máy điện: bài của Yadea về Osta mô tả ba tính năng này ra sao",
-      "slot": "W8",
-      "session": "seodev-w45",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -3901,6 +3853,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-000762",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Giá vé metro Hà Nội: vé lượt Cát Linh – Yên Nghĩa 19.000 đồng, vé ngày 40.000, vé tuần 160.000, vé tháng 280.000",
+      "slot": "W3",
+      "session": "seodev-w40",
+      "wp_id": 4354,
+      "url": "https://thuexemaynguyentu.com/gia-ve-metro-ha-noi-ve-luot-cat-linh-yen-nghia-19-000-dong-ve-ngay-40-000-ve-tuan-160-000-ve-thang-280-000/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-000805",
       "state": "VERIFIED",
       "reason": "publish",
@@ -4705,6 +4669,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-000962",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe máy thuê hỏng giữa kỳ thuê: hư hỏng nhỏ ai sửa, chi phí ai trả theo Điều 477 và 479",
+      "slot": "W5",
+      "session": "seodev-w42",
+      "wp_id": 4355,
+      "url": "https://thuexemaynguyentu.com/xe-may-thue-hong-giua-ky-thue-hu-hong-nho-ai-sua-chi-phi-ai-tra-theo-dieu-477-va-479/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001031",
       "state": "VERIFIED",
       "reason": "publish",
@@ -5025,6 +5001,30 @@
       "session": "seodev-w39",
       "wp_id": 4340,
       "url": "https://thuexemaynguyentu.com/xe-may-dien-khong-len-dien-yamaha-vinfast-va-dat-bike-khuyen-kiem-tra-gi-truoc-tien/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001074",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Ổ cắm USB trên xe máy điện: Dat Bike ghi 18W, chỉ hoạt động khi bật xe, đóng nắp khi rửa xe",
+      "slot": "W7",
+      "session": "seodev-w44",
+      "wp_id": 4356,
+      "url": "https://thuexemaynguyentu.com/o-cam-usb-tren-xe-may-dien-dat-bike-ghi-18w-chi-hoat-dong-khi-bat-xe-dong-nap-khi-rua-xe/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001079",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "TCS, HDC và Hill-hold trên xe máy điện: bài của Yadea về Osta mô tả ba tính năng này ra sao",
+      "slot": "W8",
+      "session": "seodev-w45",
+      "wp_id": 4357,
+      "url": "https://thuexemaynguyentu.com/tcs-hdc-va-hill-hold-tren-xe-may-dien-bai-cua-yadea-ve-osta-mo-ta-ba-tinh-nang-nay-ra-sao/",
       "qa_status": "PASS",
       "seo_score": 100
     },

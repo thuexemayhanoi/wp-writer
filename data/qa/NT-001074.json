@@ -1,0 +1,302 @@
+{
+  "topic_id": "NT-001074",
+  "status": "PASS",
+  "source_sha256": "a81ac3b6a05279a007a36db4ae43aacd2ba1b8af47a39835de8c1febc8356f1d",
+  "body_sha256": "229c8096ae80f0d6086edbbeb7868e0ce441acfc8fcad0e6e7a166953c9842f7",
+  "word_count": 2288,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn Dat Bike ERA mục 2.14: một ổ USB có cả USB-A và USB-C; ổ chỉ hoạt động khi xe được bật lên; thiết bị USB sinh nhiệt hoặc định mức không phù hợp có thể làm hỏng ổ; đóng nắp khi rửa xe; không dùng khi ẩm ướt; không để dây kẹp; người dùng chịu rủi ro với thiết bị USB. Bảng thông số: dòng Cổng sạc USB ghi Có cho ERA E1 và Không cho ERA E2.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn Dat Bike ERA mục 2.14: công suất định mức USB-A 18W và USB-C 18W, mỗi giao tiếp kèm ba cặp 5V-3A, 9V-2A, 12V-1.5A.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn Dat Bike ERA mục 2.1 (góc nhìn từ vị trí người lái): ổ cắm USB được ghi chú là ERA E1.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Bảng thông số Dat Bike ERA: động cơ, mạch điều khiển công suất và pin đạt IP67, toàn bộ xe IP65; bảng không có dòng riêng cho ổ USB.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn Dat Bike ERA mục 5.1.1: lưu ý khi rửa xe (không dùng vòi áp lực cao, không phun nước vào đèn pha, cụm tay lái, màn hình đa chức năng); danh sách này không nêu riêng ổ USB.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn Dat Bike ERA mục 2.3.1: xe ERA mở được bằng key tag RFID; mục 3.1 và 3.2.1: mở xe bằng ứng dụng khi điện thoại đã ghép nối.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-quantum-s/",
+      "supports": "Hướng dẫn Dat Bike Quantum S mục 2.1: ổ cắm USB ghi chú chỉ có trên xe Quantum S1 và S2; mục 2.17 mô tả USB-A và USB-C với định mức 18W.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-quantum-s/",
+      "supports": "Hướng dẫn Dat Bike Quantum S mục 2.17: đóng nắp ổ USB khi rửa xe; không dùng ổ USB khi ẩm ướt; không để dây kẹp; thiết bị sinh nhiệt hoặc định mức không phù hợp có thể làm hỏng ổ; Dat Bike không chịu trách nhiệm về hư hỏng của thiết bị USB.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-quantum-s/",
+      "supports": "Hướng dẫn Dat Bike Quantum S mục 5.1.1: lưu ý khi rửa xe, không dùng vòi áp lực cao và không phun nước trực tiếp vào khu vực xung quanh ổ cắm USB.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cong-nghe-tren-xe-may-dien-dat-bike/",
+      "supports": "Trang công nghệ Dat Bike (đăng 05/05/2026, cập nhật 09/10/2026): pin và động cơ IP67, các thành phần còn lại IP65, riêng cổng USB IP54; lời của hãng, không nêu cách thử.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/chi-tiet-yadea-osta-chay-180km-lan-sac-di-xuong-doc-co-che-do-phanh-tu-dong-chay-duong-dai-la-giu-ga-co-ca-so-dat-neu-ai-luoi-day-xe/",
+      "supports": "Bài giới thiệu Yadea Osta trên trang Yadea Việt Nam (12/03/2026, đăng lại từ Người Quan Sát): xe có hai cổng sạc USB tích hợp sẵn; không nêu công suất hay lưu ý.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+      "supports": "Trang xe Yamaha NEO's: phần tính năng nổi bật liệt kê ổ sạc điện thoại và hộc để đồ; không nêu loại cổng, công suất hay lưu ý.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-quantum-s/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-quantum-s/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-quantum-s/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cong-nghe-tren-xe-may-dien-dat-bike/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/chi-tiet-yadea-osta-chay-180km-lan-sac-di-xuong-doc-co-che-do-phanh-tu-dong-chay-duong-dai-la-giu-ga-co-ca-so-dat-neu-ai-luoi-day-xe/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2352,
+        "title": "Xe máy điện có cần bằng lái không? Cách phân biệt theo công suất",
+        "why": "stale",
+        "content_hash": "8c5c200eacd4af62c6f482e36bad9112feb65d56c6bb4032d8dbae3c82a64876",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T19:41:45.399879+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "7750952a77a013313a1aea34ec9d15ce5143fe569be6c81d3f2073cc79c0c67d",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
