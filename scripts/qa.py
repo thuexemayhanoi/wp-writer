@@ -2,6 +2,8 @@
 import argparse
 import datetime as dt
 import functools
+import gzip
+import io
 import html
 import json
 import http.client
@@ -288,6 +290,27 @@ SOURCE_HOSTS_DOWN={}
 def reset_source_host_cache():
     SOURCE_HOSTS_DOWN.clear()
 
+SOURCE_BODY_MAX_BYTES = 8_000_000
+
+
+def decode_source_body(raw, content_encoding=''):
+    """Bounded decoding for compressed government pages, fail closed on bad input.
+
+    Some official websites send GZIP bytes even when the client did not
+    request compression. Decoding those bytes as UTF-8 destroys all text
+    evidence and gives a false G3 REVIEW.
+    """
+    if not isinstance(raw, bytes) or len(raw) > SOURCE_BODY_MAX_BYTES:
+        raise ValueError('Source body exceeds size limit')
+    gzip_payload = raw.startswith(b'\x1f\x8b') or 'gzip' in content_encoding.lower()
+    if gzip_payload:
+        with gzip.GzipFile(fileobj=io.BytesIO(raw)) as stream:
+            raw = stream.read(SOURCE_BODY_MAX_BYTES + 1)
+        if len(raw) > SOURCE_BODY_MAX_BYTES:
+            raise ValueError('Decompressed source exceeds size limit')
+    return raw.decode('utf-8', errors='replace')
+
+
 def read_source(url,attempts=3):
     """One live read exactly like the Publisher's; transient failures are retried up to `attempts` times."""
     host=(urllib.parse.urlsplit(url).hostname or '').lower()
@@ -298,7 +321,8 @@ def read_source(url,attempts=3):
             opener=urllib.request.build_opener(Redirect())
             req=urllib.request.Request(url,headers={'User-Agent':'NguyenTu-WPWriter/1.0'})
             with opener.open(req,timeout=20) as response:
-                return response.read(8_000_000).decode('utf-8',errors='replace'),attempt
+                raw = response.read(SOURCE_BODY_MAX_BYTES + 1)
+                return decode_source_body(raw, response.headers.get('Content-Encoding', '')),attempt
         except Exception as exc:
             if attempt>=attempts or not is_transient(exc):
                 if host and is_transient(exc) and not isinstance(exc,urllib.error.HTTPError):
