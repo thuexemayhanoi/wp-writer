@@ -18462,7 +18462,7 @@
       }
     },
     "NT-000934": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T20:05:05.783151+00:00",
       "source_hash": "54026f58f1b86729735e8ef97130d4953f4a01e7d4d118ca3746f9b4a265eee0",
       "slug": "sac-xe-may-dien-luc-troi-nom-am-yadea-yamaha-va-pccc-dan-gi-ve-o-cam-cong-sac-va-pin-bi-uot",
@@ -18478,8 +18478,37 @@
       "category_warning": null,
       "git_commit": "c81c0ee2a88510e48d97f0e7682e4e682ece0276",
       "run_id": "39488377714",
-      "updated_at": "2026-10-20T20:05:10.914202+00:00",
-      "wp_id": 4378
+      "updated_at": "2026-10-20T20:05:16.811417+00:00",
+      "wp_id": 4378,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/sac-xe-may-dien-luc-troi-nom-am-yadea-yamaha-va-pccc-dan-gi-ve-o-cam-cong-sac-va-pin-bi-uot/",
+      "verified_at": "2026-10-20T20:05:16.811410+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4378,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/sac-xe-may-dien-luc-troi-nom-am-yadea-yamaha-va-pccc-dan-gi-ve-o-cam-cong-sac-va-pin-bi-uot/",
+        "categories": [
+          167
+        ],
+        "canonical": "https://thuexemaynguyentu.com/sac-xe-may-dien-luc-troi-nom-am-yadea-yamaha-va-pccc-dan-gi-ve-o-cam-cong-sac-va-pin-bi-uot/",
+        "seo_title": "Sạc xe máy điện lúc trời nồm ẩm: Yadea, Yamaha và PCCC dặn gì",
+        "seo_description": "Sạc xe máy điện lúc trời nồm ẩm hoặc vừa đi mưa về: Yadea, Yamaha, Dat Bike, EVN và PCCC dặn gì về ổ cắm, phích, cổng sạc, pin bị ướt, sạc qua đêm và thời gian chờ.",
+        "checked_at": "2026-10-20T20:05:16.811393+00:00"
+      }
     }
   },
   "categories": {}
