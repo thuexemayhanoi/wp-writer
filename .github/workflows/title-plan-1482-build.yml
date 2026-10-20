@@ -5,6 +5,7 @@ on:
       - plan/seo-1482-title-ledger-*
     paths:
       - scripts/title_plan_1482.py
+      - scripts/title_plan_xlsx_export.py
       - editorial/title-plan-1482/baseline-518.json
       - .github/workflows/title-plan-1482-build.yml
   workflow_dispatch:
@@ -25,8 +26,10 @@ jobs:
           python-version: '3.12'
       - name: Install spreadsheet artifact library
         run: echo "Use standard-library CSV validation; Excel export follows after source validation"
-      - name: Generate three CSV and XLSX files with strict duplication guard
-        run: python scripts/title_plan_1482.py --build --no-xlsx
+      - name: Generate three 494-row CSV and XLSX files with strict duplication guard
+        run: |
+          python scripts/title_plan_1482.py --build --regenerate-editorial-branch --no-xlsx
+          python scripts/title_plan_xlsx_export.py
       - name: Validate precise counts, length, taxonomy, duplicate protection
         shell: bash
         run: |
@@ -48,6 +51,7 @@ jobs:
               r=list(csv.DictReader(fh))
             assert len(r)==494,(n,len(r))
             assert (p/(name+'.csv')).stat().st_size>15000
+            assert (p/(name+'.xlsx')).stat().st_size>15000
           print('1482_TITLE_PLAN: 3x494, 18 real term IDs, 60-80 characters; no duplicate titles')
           PY
       - name: Save generated spreadsheets on this editorial branch
