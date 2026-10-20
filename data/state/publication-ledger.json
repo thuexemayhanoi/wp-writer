@@ -17529,6 +17529,25 @@
         "seo_description": "Vé định danh trên metro Hà Nội: vé cũ hết hiệu lực từ 1/2/2026 trên tuyến 3.1, định danh bằng CCCD gắn chip hoặc VNeID, thẻ Visa ở cổng và kế hoạch ba giai đoạn.",
         "checked_at": "2026-10-20T19:46:24.569536+00:00"
       }
+    },
+    "NT-000766": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-20T19:46:36.010412+00:00",
+      "source_hash": "0dec9b15db4b16a3c13248a040dd05fc7e2dbba2b6fe7c93839deb00323294d6",
+      "slug": "ve-thang-uu-dai-metro-ha-noi-hoc-sinh-sinh-vien-cong-nhan-kcn-giam-50-dang-ky-tren-app-va-ho-so-tai-quay",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 176,
+      "visible_hash": "f5af3889a789146d92a7307a34f33167fb6c45319e72fde7c7f6073b73218685",
+      "first_paragraph": "Vé tháng ưu đãi metro Hà Nội dành cho học sinh, sinh viên và công nhân khu công nghiệp được giảm 50% so với vé tháng phổ thông: theo trang Hỏi đáp của Hà Nội Metro (người viết đọc lại ngày 20/10/2026), vé 1 tháng giá 140.000 đồng và vé 12 tháng giá 1.580.000 đồng. Bạn đăng ký trong mục “Vé ưu đãi” của ứng dụng, tải ảnh giấy tờ minh chứng rồi chờ duyệt 1–3 ngày (thời hạn trang nêu cho học sinh, sinh viên) trước khi thanh toán và lấy mã QR, hoặc mang hồ sơ gốc ra quầy vé để tích hợp vé vào thẻ CCCD gắn chip.",
+      "meta_title": "Vé tháng ưu đãi metro Hà Nội: giá, cách đăng ký và hồ sơ tại quầy",
+      "meta_description": "Vé tháng ưu đãi metro Hà Nội cho học sinh, sinh viên, công nhân KCN giảm 50%: bảng giá 1–12 tháng, cách đăng ký trên app, hồ sơ tại quầy và khi bị từ chối.",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "9d736881aae4fe1cc9af917d451851dbc56889da",
+      "run_id": "39485788336",
+      "updated_at": "2026-10-20T19:46:36.012523+00:00"
     }
   },
   "categories": {}
