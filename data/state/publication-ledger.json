@@ -17139,7 +17139,7 @@
       }
     },
     "NT-090003": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T14:25:10.972068+00:00",
       "source_hash": "c771d369fbe09817a0cb7019e51d04089e19cd158be54edb5b87172a6571badf",
       "slug": "xe-50cc-cho-nguoi-thap-kiem-tra-chong-chan-va-dat-xe",
@@ -17155,8 +17155,37 @@
       "category_warning": null,
       "git_commit": "ed01fb31ae499e9a6292fd9f057881acc471f630",
       "run_id": "39438057013",
-      "updated_at": "2026-10-20T14:25:15.426912+00:00",
-      "wp_id": 4351
+      "updated_at": "2026-10-20T14:25:21.796419+00:00",
+      "wp_id": 4351,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-50cc-cho-nguoi-thap-kiem-tra-chong-chan-va-dat-xe/",
+      "verified_at": "2026-10-20T14:25:21.796412+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4351,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-50cc-cho-nguoi-thap-kiem-tra-chong-chan-va-dat-xe/",
+        "categories": [
+          165
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-50cc-cho-nguoi-thap-kiem-tra-chong-chan-va-dat-xe/",
+        "seo_title": "Xe 50cc cho người thấp: cách thử chống chân khi thuê",
+        "seo_description": "Xe 50cc cho người thấp có phù hợp đi phố? Hướng dẫn thử chống chân, dắt lùi, kiểm tra phanh và chọn tuyến ngắn; lưu ý điều kiện sử dụng hiện hành.",
+        "checked_at": "2026-10-20T14:25:21.796395+00:00"
+      }
     }
   },
   "categories": {}
