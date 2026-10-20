@@ -1,0 +1,44 @@
+name: Temporary Hanoi ward official-source diagnostics
+on:
+  push:
+    branches: [fix/ward-source-diagnostic-20261020]
+permissions:
+  contents: read
+jobs:
+  diagnose:
+    if: github.repository == 'thuexemayhanoi/wp-writer'
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Validate actual source responses without modifying or publishing posts
+        shell: bash
+        run: |
+          python - <<'PY'
+          import hashlib, sys
+          sys.path.insert(0,'scripts')
+          from common import norm, visible
+          from qa import read_article, read_source, source_excerpt_matches
+          for topic in ('NT-001101','NT-001102','NT-001103'):
+              meta,_,_=read_article(__import__('pathlib').Path('posts/drafts/'+topic+'.md'))
+              for source in meta['sources']:
+                  url=source['url']
+                  try:
+                      raw,attempt=read_source(url,attempts=1)
+                      actual=visible(raw)
+                      excerpt=source['evidence_text']
+                      print(topic,'HOST',url.split('/')[2],'CHARS',len(actual),
+                            'EXACT',norm(excerpt) in norm(actual),
+                            'MATCH',source_excerpt_matches(excerpt,actual),
+                            'HTML_SHA',hashlib.sha256(raw.encode()).hexdigest()[:12],
+                            'TEXT_START',repr(actual[:240]),flush=True)
+                  except Exception as exc:
+                      print(topic,'HOST',url.split('/')[2],'ERROR',
+                            type(exc).__name__,str(exc)[:140],flush=True)
+          PY
