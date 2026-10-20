@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-20T20:23:03.762989+00:00",
-  "attempted": 3,
+  "at": "2026-10-20T22:28:38.183475+00:00",
+  "attempted": 0,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -22,30 +22,6 @@
         }
       },
       "action": "manual reconciliation; never create/update automatically"
-    },
-    {
-      "topic_id": "NT-001093",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 126,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "destinations",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001094",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 126,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "destinations",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001095",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 126,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "destinations",
-      "category_warning": null
     },
     {
       "topic_id": "NT-001101",
@@ -204,11 +180,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-20T20:22:48.560835+00:00",
+      "at": "2026-10-20T22:28:23.124626+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "ced97b337fe638a0c7ebe101d45e4a8f583de7e86be681b4015327df972d66a9",
+      "inventory_sha256": "e74ad093afdc105a98b7c8757ff931e89148243c0ab4be73e9b2026be51111a4",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -374,11 +350,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-20T20:22:56.754823+00:00",
+      "at": "2026-10-20T22:28:31.715471+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "ced97b337fe638a0c7ebe101d45e4a8f583de7e86be681b4015327df972d66a9",
+      "inventory_sha256": "e74ad093afdc105a98b7c8757ff931e89148243c0ab4be73e9b2026be51111a4",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -553,11 +529,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-20T20:23:03.651321+00:00",
+      "at": "2026-10-20T22:28:38.064926+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "ced97b337fe638a0c7ebe101d45e4a8f583de7e86be681b4015327df972d66a9",
+      "inventory_sha256": "e74ad093afdc105a98b7c8757ff931e89148243c0ab4be73e9b2026be51111a4",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
