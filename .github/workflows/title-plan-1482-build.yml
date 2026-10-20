@@ -1,0 +1,61 @@
+name: Build 1482 SEO title Excel files (safe editorial data)
+on:
+  push:
+    branches:
+      - plan/seo-1482-title-ledger-*
+    paths:
+      - scripts/title_plan_1482.py
+      - editorial/title-plan-1482/baseline-518.json
+      - .github/workflows/title-plan-1482-build.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build-excel:
+    if: github.repository == 'thuexemayhanoi/wp-writer'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: true
+          fetch-depth: 1
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Install spreadsheet artifact library
+        run: pip install artifact_tool
+      - name: Generate three CSV and XLSX files with strict duplication guard
+        run: python scripts/title_plan_1482.py --build
+      - name: Validate precise counts, length, taxonomy, duplicate protection
+        shell: bash
+        run: |
+          python - <<'PY'
+          import csv,json
+          from pathlib import Path
+          p=Path('editorial/title-plan-1482')
+          data=json.loads((p/'plan.json').read_text())
+          rows=data['rows']
+          assert len(rows)==1482
+          assert len(set(x['plan_id'] for x in rows))==1482
+          assert len(set(x['title'].casefold() for x in rows))==1482
+          assert set(x['category_id'] for x in rows)=={163,164,165,166,167,168,160,169,170,161,171,172,173,174,175,176,177,156}
+          assert all(60<=len(x['title'])<=80 for x in rows)
+          assert all('thuê xe máy hà nội' not in x['title'].lower() for x in rows)
+          for n in range(1,4):
+            name=f'seo-tieu-de-{n:02d}-494'
+            with (p/(name+'.csv')).open(encoding='utf-8-sig',newline='') as fh:
+              r=list(csv.DictReader(fh))
+            assert len(r)==494,(n,len(r))
+            assert (p/(name+'.xlsx')).stat().st_size>15000
+          print('1482_TITLE_PLAN: 3x494, 18 real term IDs, 60-80 characters; no duplicate titles')
+          PY
+      - name: Save generated spreadsheets on this editorial branch
+        shell: bash
+        run: |
+          git config user.name "wp-writer-bot"
+          git config user.email "wp-writer-bot@users.noreply.github.com"
+          git add editorial/title-plan-1482
+          git diff --cached --quiet && exit 0
+          git commit -m "data: add 3x494 Excel title plans [skip ci]"
+          git push origin HEAD:"$GITHUB_REF_NAME"
