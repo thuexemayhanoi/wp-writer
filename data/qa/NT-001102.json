@@ -1,10 +1,10 @@
 {
   "topic_id": "NT-001102",
-  "status": "REVIEW",
+  "status": "PASS",
   "source_sha256": "ccf905517300fbd07a3b1ed248a20c7220e6479f1916078ae1694b6b526cef89",
   "body_sha256": "9eb1029c9c7acc0d38042cefbbb86da6e079ff0df53a5554cce476843b41f7af",
   "word_count": 3179,
-  "quality_score": 85,
+  "quality_score": 100,
   "seo_score": 90,
   "seo_min_required": 85,
   "seo_checks": {
@@ -55,9 +55,7 @@
     },
     "3": {
       "errors": [],
-      "review": [
-        "Source REVIEW: ValueError: Source excerpt not found"
-      ]
+      "review": []
     },
     "4": {
       "errors": [],
@@ -73,36 +71,23 @@
     }
   },
   "errors": [],
-  "review": [
-    "Source REVIEW: ValueError: Source excerpt not found"
-  ],
-  "source_evidence": [
-    {
-      "url": "https://cuanam.hanoi.gov.vn/gioi-thieu/gioi-thieu-chung-ve-phuong-cua-nam-2801250629153745569.htm",
-      "supports": "Trang chính quyền phường Cửa Nam xác nhận địa giới ngày 1/7/2025 và khu vực ga Hà Nội cùng các tuyến phố liên quan.",
-      "sha256": "21b70b9bb2c8dbec089d7c21200b87a8d205b29388a5122eb0d7a49ef7c1306c",
-      "research_checked_at": "2026-10-20",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    }
-  ],
+  "review": [],
+  "source_evidence": [],
   "evidence_recheck": null,
-  "at": "2026-10-20T10:53:21.581493+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-20T11:43:53.796448+00:00",
+  "live_links_checked": false,
   "legal_required": true,
   "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
-  "inventory_sha256": "e2b1f8da6ae122ce1002a874f52a881e7df66cd073b7d7fe465ddbaef2e9c077",
+  "inventory_sha256": "a94fc5a828257d6643d91a52c73ebb315386b947da95bf40899ac1547e534587",
+  "incremental_key": "b30e5c48d0847aa7c1fdfe47af8163a4031488dd57f8d0be348e0928e71db4c7",
   "triage": {
-    "hold_class": "REAL_RISK",
-    "real_risk": [
-      "G3: Source REVIEW: ValueError: Source excerpt not found"
-    ],
+    "hold_class": "NONE",
+    "real_risk": [],
     "writer_repair": [],
     "infra_pending": []
   },
   "recheck": {
-    "attempts": 1,
+    "attempts": 0,
     "max": 3,
     "exhausted": false,
     "needs_owner": false

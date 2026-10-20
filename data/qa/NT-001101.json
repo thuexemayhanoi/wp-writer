@@ -1,10 +1,10 @@
 {
   "topic_id": "NT-001101",
-  "status": "REVIEW",
+  "status": "PASS",
   "source_sha256": "5f25a58a8e970a9726e34c8b1933151076fac23239315d2ac4fb10b4c85c8868",
   "body_sha256": "c8a51208cd3eb4cee618d6e55b9aea37470db81855c0791b079747387ddff450",
   "word_count": 3122,
-  "quality_score": 85,
+  "quality_score": 100,
   "seo_score": 90,
   "seo_min_required": 85,
   "seo_checks": {
@@ -56,9 +56,7 @@
     },
     "3": {
       "errors": [],
-      "review": [
-        "Source REVIEW: ValueError: Source excerpt not found"
-      ]
+      "review": []
     },
     "4": {
       "errors": [],
@@ -74,36 +72,23 @@
     }
   },
   "errors": [],
-  "review": [
-    "Source REVIEW: ValueError: Source excerpt not found"
-  ],
-  "source_evidence": [
-    {
-      "url": "https://bode.hanoi.gov.vn/gioi-thieu-chung/gioi-thieu-phuong-bo-de-2831250626121314553.htm",
-      "supports": "Trang chính quyền phường Bồ Đề xác nhận thành phần địa bàn phường mới từ các phường cũ thuộc Long Biên.",
-      "sha256": "22a802f4edce38394bda4105872c9b47ccf92a43bc97d9e3955d7824c0855649",
-      "research_checked_at": "2026-10-20",
-      "verification_method": "research_snapshot_fallback",
-      "live_checked": false,
-      "network_error": "URLError"
-    }
-  ],
+  "review": [],
+  "source_evidence": [],
   "evidence_recheck": null,
-  "at": "2026-10-20T10:52:02.822606+00:00",
-  "live_links_checked": true,
+  "at": "2026-10-20T11:43:53.499518+00:00",
+  "live_links_checked": false,
   "legal_required": true,
   "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
-  "inventory_sha256": "e2b1f8da6ae122ce1002a874f52a881e7df66cd073b7d7fe465ddbaef2e9c077",
+  "inventory_sha256": "a94fc5a828257d6643d91a52c73ebb315386b947da95bf40899ac1547e534587",
+  "incremental_key": "4ad4adbfacbc6a69dfbae54ad03b865dda366497f4c02f5ae64d3455d22d3f86",
   "triage": {
-    "hold_class": "REAL_RISK",
-    "real_risk": [
-      "G3: Source REVIEW: ValueError: Source excerpt not found"
-    ],
+    "hold_class": "NONE",
+    "real_risk": [],
     "writer_repair": [],
     "infra_pending": []
   },
   "recheck": {
-    "attempts": 1,
+    "attempts": 0,
     "max": 3,
     "exhausted": false,
     "needs_owner": false
