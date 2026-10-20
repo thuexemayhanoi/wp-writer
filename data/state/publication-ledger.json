@@ -16696,6 +16696,25 @@
         "seo_description": "Phanh đĩa và phanh tang trống trên xe máy điện: NEO's, Feliz S, Theon, Yadea ghi loại phanh nào trong tài liệu hãng và cách kiểm tra má phanh, dầu phanh, guốc phanh theo sổ.",
         "checked_at": "2026-10-20T09:44:10.645290+00:00"
       }
+    },
+    "NT-001064": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-20T09:44:35.209534+00:00",
+      "source_hash": "cb52d11fc1eadac1984362915454ff65b22df6aca1698dca7a9881bef556363f",
+      "slug": "xe-may-dien-co-abs-khong-so-vinfast-theon-neu-gi-va-cac-mau-khac-ghi-loai-phanh-nao",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 168,
+      "visible_hash": "c7dceb6060904c75e0d481d3c48c1df91d5d1f29fe86c88a03ec191764301b61",
+      "first_paragraph": "Xe máy điện có ABS không tùy thuộc vào từng mẫu và từng phiên bản, không có câu trả lời chung cho cả loại xe: trong các tài liệu đọc ngày 18 và 19/10/2026, chỉ sổ hướng dẫn VinFast Theon (mã BOL00004723, bản 08, năm 2021) ghi xe được trang bị hệ thống chống bó cứng phanh ABS ở cả phanh trước và phanh sau, còn trang thông số Yamaha NEO's, sổ và trang thông số VinFast Feliz S, hướng dẫn Dat Bike Quantum và các trang Yadea ORIS, M6i, S3 Pro, X-Zone không có chữ ABS hay CBS trong bản đã đọc. Tài liệu không nhắc ABS không đồng nghĩa với xe không có ABS, vì phiên bản và thị trường khác nhau có thể trang bị khác; cách chắc chắn là đọc bảng thông số của đúng phiên bản hoặc hỏi đại lý. Sổ Theon cũng nói thêm điều ít người ngờ: ABS không làm giảm khoảng cách phanh, có thể làm khoảng cách dừng dài hơn trong một số trường hợp, và không hoạt động dưới 5 km/h.",
+      "meta_title": "Xe máy điện có ABS không: sổ VinFast Theon nêu gì, mẫu khác ghi gì",
+      "meta_description": "Xe máy điện có ABS không: sổ VinFast Theon ghi ABS ở cả hai bánh và nêu giới hạn, còn NEO's, Feliz S, Quantum, Yadea không nhắc ABS trong tài liệu; cách tự tra theo đúng phiên bản.",
+      "intended_taxonomy_key": "electric-tech",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "adce8da66f14883f0ab033ed5eae837c623dc65a",
+      "run_id": "39401831475",
+      "updated_at": "2026-10-20T09:44:35.210652+00:00"
     }
   },
   "categories": {}
