@@ -17923,7 +17923,7 @@
       }
     },
     "NT-000765": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T19:55:06.424110+00:00",
       "source_hash": "bc7c221f7545bda1c7c17f514296247deef962ed4cb7cdfe202c5280fc2cb8fc",
       "slug": "mien-ve-metro-ha-noi-nguoi-tren-60-tuoi-nguoi-khuyet-tat-nguoi-co-cong-va-tre-duoi-6-tuoi-can-giay-to-gi",
@@ -17939,8 +17939,37 @@
       "category_warning": null,
       "git_commit": "3295b4cc630d235cc2fd44103933e7943aa0a383",
       "run_id": "39486964027",
-      "updated_at": "2026-10-20T19:55:10.794986+00:00",
-      "wp_id": 4367
+      "updated_at": "2026-10-20T19:55:18.947469+00:00",
+      "wp_id": 4367,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/mien-ve-metro-ha-noi-nguoi-tren-60-tuoi-nguoi-khuyet-tat-nguoi-co-cong-va-tre-duoi-6-tuoi-can-giay-to-gi/",
+      "verified_at": "2026-10-20T19:55:18.947463+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4367,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/mien-ve-metro-ha-noi-nguoi-tren-60-tuoi-nguoi-khuyet-tat-nguoi-co-cong-va-tre-duoi-6-tuoi-can-giay-to-gi/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/mien-ve-metro-ha-noi-nguoi-tren-60-tuoi-nguoi-khuyet-tat-nguoi-co-cong-va-tre-duoi-6-tuoi-can-giay-to-gi/",
+        "seo_title": "Miễn vé metro Hà Nội: ai được miễn và cần giấy tờ gì khi đăng ký",
+        "seo_description": "Miễn vé metro Hà Nội theo Hà Nội Metro: người trên 60 tuổi, người khuyết tật, người có công, trẻ dưới 6 tuổi; cách đăng ký trên ứng dụng, giấy tờ ở quầy vé và điều chưa nêu.",
+        "checked_at": "2026-10-20T19:55:18.947446+00:00"
+      }
     }
   },
   "categories": {}
