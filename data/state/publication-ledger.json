@@ -18119,7 +18119,7 @@
       }
     },
     "NT-000965": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T19:57:30.362314+00:00",
       "source_hash": "442aa1f5f24fbd42d658618a73d4c1afe13dd446cc33f4bdcad0b1a719ac8463",
       "slug": "nhan-xe-may-thue-bi-loi-ngay-tu-dau-doi-sua-giam-gia-thue-hay-doi-xe-theo-dieu-476-va-477",
@@ -18135,8 +18135,37 @@
       "category_warning": null,
       "git_commit": "3295b4cc630d235cc2fd44103933e7943aa0a383",
       "run_id": "39486964027",
-      "updated_at": "2026-10-20T19:57:35.483597+00:00",
-      "wp_id": 4371
+      "updated_at": "2026-10-20T19:57:41.779601+00:00",
+      "wp_id": 4371,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nhan-xe-may-thue-bi-loi-ngay-tu-dau-doi-sua-giam-gia-thue-hay-doi-xe-theo-dieu-476-va-477/",
+      "verified_at": "2026-10-20T19:57:41.779594+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4371,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nhan-xe-may-thue-bi-loi-ngay-tu-dau-doi-sua-giam-gia-thue-hay-doi-xe-theo-dieu-476-va-477/",
+        "categories": [
+          163
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nhan-xe-may-thue-bi-loi-ngay-tu-dau-doi-sua-giam-gia-thue-hay-doi-xe-theo-dieu-476-va-477/",
+        "seo_title": "Nhận xe máy thuê bị lỗi ngay từ đầu: đòi sửa, giảm giá hay đổi xe",
+        "seo_description": "Nhận xe máy thuê bị lỗi ngay từ đầu thì được đòi sửa, giảm giá thuê hay đổi xe? Điều 476 và 477 Bộ luật Dân sự nói gì, điều kiện đi kèm và việc nên làm ngay tại điểm nhận xe.",
+        "checked_at": "2026-10-20T19:57:41.779576+00:00"
+      }
     }
   },
   "categories": {}
