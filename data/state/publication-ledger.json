@@ -19344,7 +19344,7 @@
       }
     },
     "NT-001093": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T20:21:19.419663+00:00",
       "source_hash": "9713fd0d6ce45e031898dada91e0674e452349b652e73ce7d661f835f3d0da31",
       "slug": "den-do-o-bac-ninh-den-tho-tam-vi-vua-ly-khu-lang-mo-cach-800-m-va-hoi-den-thang-ba-am-lich",
@@ -19360,8 +19360,37 @@
       "category_warning": null,
       "git_commit": "bbb5c04272a76d4b214d7a73db3c2fae12bfa261",
       "run_id": "39490857692",
-      "updated_at": "2026-10-20T20:21:23.149624+00:00",
-      "wp_id": 4396
+      "updated_at": "2026-10-20T20:21:29.255160+00:00",
+      "wp_id": 4396,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/den-do-o-bac-ninh-den-tho-tam-vi-vua-ly-khu-lang-mo-cach-800-m-va-hoi-den-thang-ba-am-lich/",
+      "verified_at": "2026-10-20T20:21:29.255152+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4396,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/den-do-o-bac-ninh-den-tho-tam-vi-vua-ly-khu-lang-mo-cach-800-m-va-hoi-den-thang-ba-am-lich/",
+        "categories": [
+          126
+        ],
+        "canonical": "https://thuexemaynguyentu.com/den-do-o-bac-ninh-den-tho-tam-vi-vua-ly-khu-lang-mo-cach-800-m-va-hoi-den-thang-ba-am-lich/",
+        "seo_title": "Đền Đô ở Bắc Ninh: thờ tám vua Lý, lăng mộ cách 800 m, hội tháng Ba",
+        "seo_description": "Đền Đô ở Bắc Ninh thờ tám vị vua Lý: hồ sơ di tích nêu diện tích, khu lăng mộ cách đền khoảng 800 m, hội đền tháng Ba âm lịch và những chỗ các nguồn ghi khác nhau.",
+        "checked_at": "2026-10-20T20:21:29.255135+00:00"
+      }
     }
   },
   "categories": {}
