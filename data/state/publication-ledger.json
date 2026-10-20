@@ -18754,6 +18754,25 @@
         "seo_description": "Quy tắc bật đèn khi đi xe máy theo Điều 20 Luật 36/2024: bật đèn từ 18 giờ đến 06 giờ và khi mưa, sương mù; bốn lúc phải tắt đèn chiếu xa, bật đèn chiếu gần.",
         "checked_at": "2026-10-20T20:08:00.285677+00:00"
       }
+    },
+    "NT-001010": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-20T20:08:34.060622+00:00",
+      "source_hash": "fd9ea86a731bb56e78afbe21d5f61276590ccf2eb96f17726b72887ceb2b9651",
+      "slug": "quy-tac-vuot-xe-va-nhuong-duong-cho-xe-xin-vuot-nguoi-di-xe-may-vuot-ben-trai-khi-nao-duoc-vuot-ben-phai-va-cac-truong-hop-cam-vuot",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 161,
+      "visible_hash": "9b9b0b52fa91950e9f8f6d5ba009857824a4cdf5af619fe7001ac8b8eafd516c",
+      "first_paragraph": "Theo Điều 14 Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (có hiệu lực từ 01/01/2025), khi vượt xe phải vượt bên trái; chỉ được vượt bên phải khi xe phía trước có tín hiệu rẽ trái hoặc đang rẽ trái, hoặc khi xe chuyên dùng đang làm việc trên đường mà không thể vượt bên trái. Xe xin vượt chỉ được vượt khi không có chướng ngại vật phía trước, không có xe chạy ngược chiều trong đoạn đường định vượt, xe chạy trước không có tín hiệu vượt xe khác, đã có tín hiệu rẽ phải và tránh về bên phải. Người ở phía trước khi có xe xin vượt phải quan sát, nếu đủ an toàn thì giảm tốc độ, báo rẽ phải và đi sát bên phải để nhường đường; nếu chưa đủ an toàn thì báo rẽ trái cho xe sau biết là chưa được vượt. Khoản 6 liệt kê những nơi và lúc không được vượt, như cầu hẹp một làn, đường cong và đỉnh dốc bị hạn chế tầm nhìn, nơi đường giao nhau, phần đường dành cho người đi bộ qua đường và hầm đường bộ.",
+      "meta_title": "Vượt xe và nhường đường cho xe xin vượt: quy tắc theo Điều 14",
+      "meta_description": "Vượt xe và nhường đường cho xe xin vượt theo Điều 14 Luật 36/2024: vượt bên trái, khi nào được vượt bên phải, báo hiệu xin vượt, nơi cấm vượt và mức phạt khi gây tai nạn.",
+      "intended_taxonomy_key": "road-safety",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "c81c0ee2a88510e48d97f0e7682e4e682ece0276",
+      "run_id": "39488377714",
+      "updated_at": "2026-10-20T20:08:34.062805+00:00"
     }
   },
   "categories": {}
