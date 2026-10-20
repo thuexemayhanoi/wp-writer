@@ -17088,6 +17088,25 @@
         "seo_description": "Đổi mẫu xe khi nhận cần kiểm tra xe thật, chốt giá, tiền cọc, lịch trả và tình trạng bàn giao. Xem cách xử lý sáu tình huống để tránh hiểu nhầm.",
         "checked_at": "2026-10-20T14:23:47.987116+00:00"
       }
+    },
+    "NT-090002": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-20T14:24:01.089451+00:00",
+      "source_hash": "02e4023b0522da7affb2fb6d7d3b4d84e9adc233e2d6c4ecde2f25ef71d56a03",
+      "slug": "gia-thue-honda-vision-theo-ngay-khi-phat-sinh-chenh-lech",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 164,
+      "visible_hash": "2c0bb44604b1375f10d65dc667f829401d21b86e405ad94c528f1548cac46471",
+      "first_paragraph": "Khi giá thuê Honda Vision theo ngày bạn dự tính khác tổng tiền cửa hàng báo, đừng vội cho rằng đơn giá đã bị đổi. Hãy tách riêng giá thuê của đúng số ngày, tiền cọc, phí giao nhận nếu có và các khoản cần thỏa thuận riêng , rồi yêu cầu xác nhận bằng tin nhắn trước khi nhận xe. Mức ngày Nguyễn Tú đang công bố cho Vision là 200.000 đồng; con số đó không có nghĩa tổng số tiền khách cần chuẩn bị chỉ bằng đúng một ngày thuê.",
+      "meta_title": "Giá thuê Honda Vision theo ngày: xử lý chênh lệch",
+      "meta_description": "Giá thuê Honda Vision theo ngày khác tổng tiền được báo? Phân biệt phí thuê, tiền cọc, giao nhận và giờ trả để hỏi lại đúng khoản trước khi nhận xe.",
+      "intended_taxonomy_key": "rental-costs",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "ed01fb31ae499e9a6292fd9f057881acc471f630",
+      "run_id": "39438057013",
+      "updated_at": "2026-10-20T14:24:01.091129+00:00"
     }
   },
   "categories": {}
