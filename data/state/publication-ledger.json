@@ -19295,7 +19295,7 @@
       }
     },
     "NT-001078": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T20:17:25.120501+00:00",
       "source_hash": "ed427ca93107163368aab0671fe61ad2739aee54df930448b6001316de3d45ff",
       "slug": "nhieu-nguoi-dung-chung-mot-xe-dat-bike-chi-mot-dien-thoai-ket-noi-cung-luc-va-cach-ghep-noi-lai",
@@ -19311,8 +19311,37 @@
       "category_warning": null,
       "git_commit": "e89aece5f3081cd0a9ac6ccd246ce2fc1ec06ae6",
       "run_id": "39489674662",
-      "updated_at": "2026-10-20T20:17:28.932866+00:00",
-      "wp_id": 4395
+      "updated_at": "2026-10-20T20:17:34.294535+00:00",
+      "wp_id": 4395,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nhieu-nguoi-dung-chung-mot-xe-dat-bike-chi-mot-dien-thoai-ket-noi-cung-luc-va-cach-ghep-noi-lai/",
+      "verified_at": "2026-10-20T20:17:34.294530+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4395,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nhieu-nguoi-dung-chung-mot-xe-dat-bike-chi-mot-dien-thoai-ket-noi-cung-luc-va-cach-ghep-noi-lai/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nhieu-nguoi-dung-chung-mot-xe-dat-bike-chi-mot-dien-thoai-ket-noi-cung-luc-va-cach-ghep-noi-lai/",
+        "seo_title": "Dùng chung xe máy điện qua ứng dụng Dat Bike: một điện thoại mỗi lúc",
+        "seo_description": "Dùng chung xe máy điện qua ứng dụng Dat Bike: mỗi người cài app nhưng một thời điểm chỉ một điện thoại kết nối; cách ghép nối lại, key tag RFID và điều sổ không nêu.",
+        "checked_at": "2026-10-20T20:17:34.294512+00:00"
+      }
     }
   },
   "categories": {}
