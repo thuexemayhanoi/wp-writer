@@ -1,0 +1,352 @@
+{
+  "topic_id": "NT-001069",
+  "status": "PASS",
+  "source_sha256": "a67b038d74b80da66fd4670741fbdd58f2f5ad202f5877b6a823cbf7abd66076",
+  "body_sha256": "3823187d540309d9c510b746b89185559f3e4f40e300cffd9efdc51d004d6862",
+  "word_count": 2717,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-302-series-and-parallel-battery-configurations",
+      "supports": "Battery University (BU-302) giải thích pin đạt điện áp làm việc bằng cách nối nhiều cell nối tiếp, mỗi cell cộng điện thế vào điện áp tổng, kèm ví dụ bốn cell Li-ion 3.6V cho 14.4V danh định.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-302-series-and-parallel-battery-configurations",
+      "supports": "Battery University (BU-302) nêu điện áp danh định của từng loại cell: niken, kiềm, axit chì, Li-ion 3.6V, lithium phốt phát 3.2V và lithium titanat 2.4V.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-302-series-and-parallel-battery-configurations",
+      "supports": "Battery University (BU-302) nói pin điện áp cao giúp giữ cỡ dây dẫn nhỏ và nêu mức điện áp phổ biến của xe đạp điện.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/thong-tin-san-pham/zxone/",
+      "supports": "Trang Yadea X-Zone ghi ắc quy Graphene TTFAR, dung lượng 48V22Ah và củ sạc 48V4A, so sánh số lần sạc xả với ắc quy chì thông thường.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/thong-tin-san-pham/zxone/",
+      "supports": "Bảng thông số Yadea X-Zone ghi dung lượng ắc quy 48V22Ah và củ sạc 48V4A.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/thong-tin-san-pham/zxone/",
+      "supports": "Trang Yadea X-Zone ghi chú tốc độ tối đa và quãng đường được thử nghiệm trong điều kiện tiêu chuẩn của Yadea.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/thong-so-ky-thuat-xe-dien-yadea-m6i-su-lua-chon-toi-uu-cho-nguoi-tre-nang-dong/",
+      "supports": "Trang thông số Yadea M6i ghi ắc quy Graphene TTFAR có dung lượng 60V22Ah.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/yadea-oris-xe-may-dien-thong-minh-quang-duong-90km-chi-voi-mot-lan-sac/",
+      "supports": "Bài giới thiệu Yadea ORIS ghi ắc quy Graphene TTFAR 72V22Ah, dung lượng cao hơn 30% so với ắc quy thông thường.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/thong-so-ky-thuat-yadea-s3-pro/",
+      "supports": "Trang thông số Yadea S3 Pro ghi ắc quy Graphene TTFAR, dung lượng 72V38Ah, trọng lượng và kích thước 10 kg x 6 bình.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-2026-bfmg/",
+      "supports": "Trang Yamaha NEO's 2026 ghi pin lithium-ion 51.1 V, 23.2Ah, tháo lắp được để sạc riêng.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn sử dụng Dat Bike Quantum ghi pin điện lithium-ion 72V 85Ah trong bảng thông số kỹ thuật.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn Quantum nêu cảnh báo xe chứa thiết bị hoạt động ở điện áp cao trên 60V, nguy hiểm khi tiếp xúc với cơ thể.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn sử dụng Dat Bike ERA (mục 1.3) có cảnh báo xe chứa thiết bị hoạt động ở điện áp cao trên 60V, có thể gây thương tích nghiêm trọng khi tiếp xúc trực tiếp.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn Quantum dặn chỉ sạc bằng bộ sạc do Dat Bike cung cấp kèm xe vì dùng sai bộ sạc có thể gây hỏng pin hoặc cháy nổ.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-302-series-and-parallel-battery-configurations",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-302-series-and-parallel-battery-configurations",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-302-series-and-parallel-battery-configurations",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/thong-tin-san-pham/zxone/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/thong-tin-san-pham/zxone/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/thong-tin-san-pham/zxone/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/thong-so-ky-thuat-xe-dien-yadea-m6i-su-lua-chon-toi-uu-cho-nguoi-tre-nang-dong/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/yadea-oris-xe-may-dien-thong-minh-quang-duong-90km-chi-voi-mot-lan-sac/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/thong-so-ky-thuat-yadea-s3-pro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-2026-bfmg/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 841,
+        "title": "Dịch vụ Cho Thuê Xe Máy Hà Nội Gần Hồ Hoàn Kiếm",
+        "why": "stale",
+        "content_hash": "2fd8a54dd17f2343bb342755c3d523dae5e4a63d02a06fdc3073e6e3bc357a05",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2343,
+        "title": "Xe máy điện: các hãng nổi bật và cách chọn xe phù hợp nhất",
+        "why": "stale",
+        "content_hash": "c6618e9c49c5f2f25650deea3da4d70c0b7ac0a3821f5dc81a038f2aae0716d7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2578,
+        "title": "Có nên mua xe máy cũ để đi ngắn hạn? Những điểm cần cân nhắc",
+        "why": "stale",
+        "content_hash": "2edb32e1617a09723b835349742c0b85646c6fe086eb11610946f0b304bbc7ff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T19:49:18.902827+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "799e8591c076f4bca28f2bf21b35848c66b2bd329645b8d7f8d40e3b50ea475d",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

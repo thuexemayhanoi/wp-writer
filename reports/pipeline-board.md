@@ -1,16 +1,16 @@
 # Pipeline board
 
-Generated 2026-10-20T19:43:19.196637+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-20T19:51:40.023382+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
-| WRITING | 49 |
+| WRITING | 41 |
 | QA | 0 |
 | READY | 0 |
 | REPAIR | 0 |
 | HELD | 3 |
 | PUBLISHING | 0 |
-| VERIFIED | 376 |
+| VERIFIED | 384 |
 
 Ready backlog (QA PASS waiting for the Publisher): **0**
 
@@ -18,10 +18,8 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 
 | Topic | State | Slot | Session | Reason |
 |---|---|---|---|---|
-| NT-000763 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
 | NT-000764 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
 | NT-000765 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
-| NT-000766 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
 | NT-000767 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
 | NT-000768 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
 | NT-000769 | WRITING | W3 | seodev-w40 | leased to seodev-w40 |
@@ -35,8 +33,6 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 | NT-000935 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
 | NT-000940 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
 | NT-000961 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
-| NT-000963 | WRITING | W5 | seodev-w42 | leased to seodev-w42 |
-| NT-000964 | WRITING | W5 | seodev-w42 | leased to seodev-w42 |
 | NT-000965 | WRITING | W5 | seodev-w42 | leased to seodev-w42 |
 | NT-000966 | WRITING | W5 | seodev-w42 | leased to seodev-w42 |
 | NT-000967 | WRITING | W5 | seodev-w42 | leased to seodev-w42 |
@@ -49,21 +45,17 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 | NT-001004 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
 | NT-001005 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
 | NT-001006 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
-| NT-001007 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
 | NT-001008 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
 | NT-001009 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
 | NT-001010 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
 | NT-001065 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
-| NT-001069 | WRITING | W7 | seodev-w44 | leased to seodev-w44 |
 | NT-001070 | WRITING | W7 | seodev-w44 | leased to seodev-w44 |
 | NT-001071 | WRITING | W7 | seodev-w44 | leased to seodev-w44 |
 | NT-001072 | WRITING | W7 | seodev-w44 | leased to seodev-w44 |
 | NT-001073 | WRITING | W7 | seodev-w44 | leased to seodev-w44 |
-| NT-001075 | WRITING | W7 | seodev-w44 | leased to seodev-w44 |
 | NT-001076 | WRITING | W7 | seodev-w44 | leased to seodev-w44 |
 | NT-001077 | WRITING | W7 | seodev-w44 | leased to seodev-w44 |
 | NT-001078 | WRITING | W7 | seodev-w44 | leased to seodev-w44 |
-| NT-001080 | WRITING | W8 | seodev-w45 | leased to seodev-w45 |
 | NT-001093 | WRITING | W8 | seodev-w45 | leased to seodev-w45 |
 | NT-001094 | WRITING | W8 | seodev-w45 | leased to seodev-w45 |
 | NT-001095 | WRITING | W8 | seodev-w45 | leased to seodev-w45 |

@@ -1,0 +1,329 @@
+{
+  "topic_id": "NT-000763",
+  "status": "PASS",
+  "source_sha256": "2a503005d7da48ea556a1feb8ceb4e0c1dad94332ce64c7b56540bd5bfe9ed43",
+  "body_sha256": "c6863fc6eaa1b93a89c8fd3647a841e9d92e9650a4ef880712392caa63bfa661",
+  "word_count": 2825,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/metro-nhon-ga-ha-noi-ap-dung-ve-dinh-danh-xac-thuc-dien-tu-5006639.html",
+      "supports": "VnExpress 17/1/2026: từ 1/2 toàn bộ cổng soát vé tuyến Nhổn - ga Hà Nội dùng định danh, xác thực điện tử và nhận diện sinh trắc học; vé hệ thống cũ hết hiệu lực.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/metro-nhon-ga-ha-noi-ap-dung-ve-dinh-danh-xac-thuc-dien-tu-5006639.html",
+      "supports": "VnExpress 17/1/2026: các hình thức vé dùng được gồm vé lượt, vé ngày/tuần/tháng, thẻ Visa, CCCD gắn chip liên kết thanh toán và ví điện tử; vé thời gian mua trước kích hoạt khi dùng lần đầu.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/metro-nhon-ga-ha-noi-ap-dung-ve-dinh-danh-xac-thuc-dien-tu-5006639.html",
+      "supports": "VnExpress 17/1/2026: từ 17/1 Hà Nội Metro dừng bán thẻ vé gắn chip NFC của hệ thống cũ trên tuyến Nhổn - ga Hà Nội.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/metro-nhon-ga-ha-noi-ap-dung-ve-dinh-danh-xac-thuc-dien-tu-5006639.html",
+      "supports": "VnExpress 17/1/2026: khuyến mại 17/1 đến 21/3 hỗ trợ 100% vé lượt mua trên ứng dụng và miễn vé thẻ Visa đến hết 28/2/2026, cả hai đã qua mốc tại ngày đọc.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: hệ thống vé mới áp dụng chính thức từ 18/11/2025.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: cách định danh tài khoản ứng dụng bằng CCCD gắn chip.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: cách định danh tài khoản ứng dụng qua VNeID mức độ 2.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: cách đặt mã QR hoặc thẻ CCCD/NFC/Visa lên mặt quét của cổng soát vé.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: không có smartphone thì vé tích hợp vào thẻ CCCD gắn chip; chưa đủ tuổi cấp CCCD được cấp thẻ NFC.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: không có CCCD thì định danh bằng VNeID mức 2 hoặc mua vé lượt tại quầy và máy bán vé tự động không cần định danh.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoicapital.chinhphu.vn/english/ha-noi-to-modernize-metro-ticketing-with-biometric-technology-110251104170737072.htm",
+      "supports": "Cổng thông tin Chính phủ (tiếng Anh, 4/11/2025): quy trình kiểm soát vé tự động có định danh số, xác thực điện tử và sinh trắc học triển khai ba giai đoạn; giai đoạn 1 xác minh người dùng vé theo thời gian.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoicapital.chinhphu.vn/english/ha-noi-to-modernize-metro-ticketing-with-biometric-technology-110251104170737072.htm",
+      "supports": "Cổng thông tin Chính phủ (tiếng Anh, 4/11/2025): giai đoạn 3 nhằm bắt buộc xác thực sinh trắc học với mọi hành khách và dần bỏ vé lượt không định danh; đây là kế hoạch.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vnexpress.net/metro-nhon-ga-ha-noi-ap-dung-ve-dinh-danh-xac-thuc-dien-tu-5006639.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/metro-nhon-ga-ha-noi-ap-dung-ve-dinh-danh-xac-thuc-dien-tu-5006639.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/metro-nhon-ga-ha-noi-ap-dung-ve-dinh-danh-xac-thuc-dien-tu-5006639.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/metro-nhon-ga-ha-noi-ap-dung-ve-dinh-danh-xac-thuc-dien-tu-5006639.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoicapital.chinhphu.vn/english/ha-noi-to-modernize-metro-ticketing-with-biometric-technology-110251104170737072.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoicapital.chinhphu.vn/english/ha-noi-to-modernize-metro-ticketing-with-biometric-technology-110251104170737072.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2346,
+        "title": "Top xe máy điện đáng chú ý năm 2026 cho nhu cầu đi lại hằng ngày",
+        "why": "stale",
+        "content_hash": "c7b5d7cca26b30a8483ce0a25e3d5de7d28c48a734a1969cf0ab5c477bf745b6",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2588,
+        "title": "Xe số nào tiết kiệm cho người ở Hà Nội từ một đến ba tháng dài ngày?",
+        "why": "stale",
+        "content_hash": "3999a6360763f969b09aaaedde2cebedb8d5351b1b6007c094286363fe5cecfa",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2594,
+        "title": "Đi ngoại thành Hà Nội nên chọn xe ga hay xe côn tay để phù hợp hơn?",
+        "why": "stale",
+        "content_hash": "c828fb01d0925dea14287531e51418ebeef09564d4fb50f52a2398ebd052935e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4054,
+        "title": "Thuê xe máy đi xem phòng trọ ở Hà Nội: xếp lịch khảo sát, gửi xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "5d877b968a3e9b4218759e74edb64aa0e8b842897cadb48686b422876f7f89a1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T19:46:13.794529+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "505648018678118b488fcacb4654b630b82d59b3a6dae50634bde6a8aaa4576d",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

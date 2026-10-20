@@ -1,29 +1,17 @@
 {
-  "at": "2026-10-20T19:43:19.196637+00:00",
+  "at": "2026-10-20T19:51:40.023382+00:00",
   "counts": {
-    "WRITING": 49,
+    "WRITING": 41,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 376
+    "VERIFIED": 384
   },
   "ready_backlog": 0,
-  "in_flight": 52,
+  "in_flight": 44,
   "items": [
-    {
-      "topic_id": "NT-000763",
-      "state": "WRITING",
-      "reason": "leased to seodev-w40",
-      "title": "Vé định danh trên metro Hà Nội: vé cũ hết hiệu lực 1/2/2026, quẹt CCCD gắn chip, VNeID hay thẻ Visa ở cổng soát vé",
-      "slot": "W3",
-      "session": "seodev-w40",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-000764",
       "state": "WRITING",
@@ -41,18 +29,6 @@
       "state": "WRITING",
       "reason": "leased to seodev-w40",
       "title": "Miễn vé metro Hà Nội: người trên 60 tuổi, người khuyết tật, người có công và trẻ dưới 6 tuổi cần giấy tờ gì",
-      "slot": "W3",
-      "session": "seodev-w40",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000766",
-      "state": "WRITING",
-      "reason": "leased to seodev-w40",
-      "title": "Vé tháng ưu đãi metro Hà Nội: học sinh, sinh viên, công nhân KCN giảm 50%, đăng ký trên app và hồ sơ tại quầy",
       "slot": "W3",
       "session": "seodev-w40",
       "wp_id": null,
@@ -217,30 +193,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-000963",
-      "state": "WRITING",
-      "reason": "leased to seodev-w42",
-      "title": "Hao mòn tự nhiên khi trả xe máy thuê: khác hư hỏng ở điểm nào và ai phải bồi thường theo Điều 482",
-      "slot": "W5",
-      "session": "seodev-w42",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000964",
-      "state": "WRITING",
-      "reason": "leased to seodev-w42",
-      "title": "Trả xe máy thuê chậm: tiền thuê thêm, phạt vi phạm và rủi ro trong lúc chậm trả theo Điều 482",
-      "slot": "W5",
-      "session": "seodev-w42",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-000965",
       "state": "WRITING",
       "reason": "leased to seodev-w42",
@@ -385,18 +337,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001007",
-      "state": "WRITING",
-      "reason": "leased to seodev-w43",
-      "title": "13 trường hợp người đi xe máy phải quan sát, giảm tốc độ hoặc dừng lại theo Điều 12 Luật Trật tự, an toàn giao thông đường bộ 2024",
-      "slot": "W6",
-      "session": "seodev-w43",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001008",
       "state": "WRITING",
       "reason": "leased to seodev-w43",
@@ -439,18 +379,6 @@
       "title": "Động cơ xe máy điện hoạt động thế nào: stato, rôto, cảm biến Hall và vai trò của bộ điều khiển",
       "slot": "W6",
       "session": "seodev-w43",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001069",
-      "state": "WRITING",
-      "reason": "leased to seodev-w44",
-      "title": "Điện áp 48V, 60V và 72V của xe máy điện: vì sao mỗi hãng ghi một số vôn khác nhau?",
-      "slot": "W7",
-      "session": "seodev-w44",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -505,18 +433,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001075",
-      "state": "WRITING",
-      "reason": "leased to seodev-w44",
-      "title": "Tính năng bảo vệ Turtle trên xe Dat Bike: khi nào tự bật lúc pin thấp, thốc ga hay lên dốc và cách thoát",
-      "slot": "W7",
-      "session": "seodev-w44",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001076",
       "state": "WRITING",
       "reason": "leased to seodev-w44",
@@ -547,18 +463,6 @@
       "title": "Nhiều người dùng chung một xe Dat Bike: chỉ một điện thoại kết nối cùng lúc và cách ghép nối lại",
       "slot": "W7",
       "session": "seodev-w44",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001080",
-      "state": "WRITING",
-      "reason": "leased to seodev-w45",
-      "title": "Xe máy điện kêu hoặc nóng khi sạc: khi nào hãng nói bình thường và khi nào dặn rút sạc",
-      "slot": "W8",
-      "session": "seodev-w45",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -3865,6 +3769,30 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-000763",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Vé định danh trên metro Hà Nội: vé cũ hết hiệu lực 1/2/2026, quẹt CCCD gắn chip, VNeID hay thẻ Visa ở cổng soát vé",
+      "slot": "W3",
+      "session": "seodev-w40",
+      "wp_id": 4358,
+      "url": "https://thuexemaynguyentu.com/ve-dinh-danh-tren-metro-ha-noi-ve-cu-het-hieu-luc-1-2-2026-quet-cccd-gan-chip-vneid-hay-the-visa-o-cong-soat-ve/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-000766",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Vé tháng ưu đãi metro Hà Nội: học sinh, sinh viên, công nhân KCN giảm 50%, đăng ký trên app và hồ sơ tại quầy",
+      "slot": "W3",
+      "session": "seodev-w40",
+      "wp_id": 4359,
+      "url": "https://thuexemaynguyentu.com/ve-thang-uu-dai-metro-ha-noi-hoc-sinh-sinh-vien-cong-nhan-kcn-giam-50-dang-ky-tren-app-va-ho-so-tai-quay/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-000805",
       "state": "VERIFIED",
       "reason": "publish",
@@ -4681,6 +4609,42 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-000963",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Hao mòn tự nhiên khi trả xe máy thuê: khác hư hỏng ở điểm nào và ai phải bồi thường theo Điều 482",
+      "slot": "W5",
+      "session": "seodev-w42",
+      "wp_id": 4360,
+      "url": "https://thuexemaynguyentu.com/hao-mon-tu-nhien-khi-tra-xe-may-thue-khac-hu-hong-o-diem-nao-va-ai-phai-boi-thuong-theo-dieu-482/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-000964",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Trả xe máy thuê chậm: tiền thuê thêm, phạt vi phạm và rủi ro trong lúc chậm trả theo Điều 482",
+      "slot": "W5",
+      "session": "seodev-w42",
+      "wp_id": 4361,
+      "url": "https://thuexemaynguyentu.com/tra-xe-may-thue-cham-tien-thue-them-phat-vi-pham-va-rui-ro-trong-luc-cham-tra-theo-dieu-482/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001007",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "13 trường hợp người đi xe máy phải quan sát, giảm tốc độ hoặc dừng lại theo Điều 12 Luật Trật tự, an toàn giao thông đường bộ 2024",
+      "slot": "W6",
+      "session": "seodev-w43",
+      "wp_id": 4362,
+      "url": "https://thuexemaynguyentu.com/13-truong-hop-nguoi-di-xe-may-phai-quan-sat-giam-toc-do-hoac-dung-lai-theo-dieu-12-luat-trat-tu-an-toan-giao-thong-duong-bo-2024/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001031",
       "state": "VERIFIED",
       "reason": "publish",
@@ -5005,6 +4969,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001069",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Điện áp 48V, 60V và 72V của xe máy điện: vì sao mỗi hãng ghi một số vôn khác nhau?",
+      "slot": "W7",
+      "session": "seodev-w44",
+      "wp_id": 4363,
+      "url": "https://thuexemaynguyentu.com/dien-ap-48v-60v-va-72v-cua-xe-may-dien-vi-sao-moi-hang-ghi-mot-so-von-khac-nhau/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001074",
       "state": "VERIFIED",
       "reason": "publish",
@@ -5017,6 +4993,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001075",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Tính năng bảo vệ Turtle trên xe Dat Bike: khi nào tự bật lúc pin thấp, thốc ga hay lên dốc và cách thoát",
+      "slot": "W7",
+      "session": "seodev-w44",
+      "wp_id": 4364,
+      "url": "https://thuexemaynguyentu.com/tinh-nang-bao-ve-turtle-tren-xe-dat-bike-khi-nao-tu-bat-luc-pin-thap-thoc-ga-hay-len-doc-va-cach-thoat/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001079",
       "state": "VERIFIED",
       "reason": "publish",
@@ -5025,6 +5013,18 @@
       "session": "seodev-w45",
       "wp_id": 4357,
       "url": "https://thuexemaynguyentu.com/tcs-hdc-va-hill-hold-tren-xe-may-dien-bai-cua-yadea-ve-osta-mo-ta-ba-tinh-nang-nay-ra-sao/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001080",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe máy điện kêu hoặc nóng khi sạc: khi nào hãng nói bình thường và khi nào dặn rút sạc",
+      "slot": "W8",
+      "session": "seodev-w45",
+      "wp_id": 4365,
+      "url": "https://thuexemaynguyentu.com/xe-may-dien-keu-hoac-nong-khi-sac-khi-nao-hang-noi-binh-thuong-va-khi-nao-dan-rut-sac/",
       "qa_status": "PASS",
       "seo_score": 100
     },
