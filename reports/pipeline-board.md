@@ -1,10 +1,10 @@
 # Pipeline board
 
-Generated 2026-10-20T03:42:40.343683+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-20T03:45:23.820008+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
-| WRITING | 64 |
+| WRITING | 66 |
 | QA | 0 |
 | READY | 0 |
 | REPAIR | 0 |
@@ -28,6 +28,8 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 | NT-000768 | WRITING | W7 | s-claude-tu-20261019e | leased to s-claude-tu-20261019e |
 | NT-000769 | WRITING | W7 | s-claude-tu-20261019e | leased to s-claude-tu-20261019e |
 | NT-000770 | WRITING | W7 | s-claude-tu-20261019e | leased to s-claude-tu-20261019e |
+| NT-000833 | WRITING | W5 | seodev-w36 | leased to seodev-w36 |
+| NT-000834 | WRITING | W5 | seodev-w36 | leased to seodev-w36 |
 | NT-000878 | WRITING | W8 | s-claude-tu-20261019c | leased to s-claude-tu-20261019c |
 | NT-000879 | WRITING | W8 | s-claude-tu-20261019c | leased to s-claude-tu-20261019c |
 | NT-000880 | WRITING | W8 | s-claude-tu-20261019c | leased to s-claude-tu-20261019c |
