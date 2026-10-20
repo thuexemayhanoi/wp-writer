@@ -18021,7 +18021,7 @@
       }
     },
     "NT-000768": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T19:56:15.324579+00:00",
       "source_hash": "99487e2d18a33a0e3d2dc22be5892767c16a7acb66c3e0d4dbe1bf6376c10e55",
       "slug": "cau-thang-long-thang-10-12-2026-thi-cong-dem-tu-22-10-cam-xe-tai-va-xe-khach-den-10-11-xe-may-di-tang-duoi",
@@ -18037,8 +18037,37 @@
       "category_warning": null,
       "git_commit": "3295b4cc630d235cc2fd44103933e7943aa0a383",
       "run_id": "39486964027",
-      "updated_at": "2026-10-20T19:56:19.476732+00:00",
-      "wp_id": 4369
+      "updated_at": "2026-10-20T19:56:25.583770+00:00",
+      "wp_id": 4369,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cau-thang-long-thang-10-12-2026-thi-cong-dem-tu-22-10-cam-xe-tai-va-xe-khach-den-10-11-xe-may-di-tang-duoi/",
+      "verified_at": "2026-10-20T19:56:25.583762+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4369,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cau-thang-long-thang-10-12-2026-thi-cong-dem-tu-22-10-cam-xe-tai-va-xe-khach-den-10-11-xe-may-di-tang-duoi/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cau-thang-long-thang-10-12-2026-thi-cong-dem-tu-22-10-cam-xe-tai-va-xe-khach-den-10-11-xe-may-di-tang-duoi/",
+        "seo_title": "Cầu Thăng Long tháng 10 đến 12/2026: thi công đêm, cấm xe tải",
+        "seo_description": "Cầu Thăng Long tháng 10 đến 12/2026: cấm xe tải, xe khách 5h-22h đến 10/11, thi công đêm 22h-5h từ 22/10 đến 15/12 và điều thông báo chưa nói về xe máy.",
+        "checked_at": "2026-10-20T19:56:25.583747+00:00"
+      }
     }
   },
   "categories": {}
