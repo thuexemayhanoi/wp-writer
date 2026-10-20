@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-20T06:52:20.335695+00:00",
+  "at": "2026-10-20T09:23:05.481450+00:00",
   "counts": {
-    "WRITING": 66,
+    "WRITING": 60,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 2,
     "PUBLISHING": 0,
-    "VERIFIED": 344
+    "VERIFIED": 346
   },
   "ready_backlog": 0,
-  "in_flight": 68,
+  "in_flight": 62,
   "items": [
     {
       "topic_id": "NT-000761",
@@ -151,54 +151,6 @@
       "title": "Xe điện xuống dốc dài: nhả ga ghìm xe thế nào và khi nào phanh tái sinh không đủ vì pin đầy hoặc xe chở nặng",
       "slot": "W5",
       "session": "seodev-w36",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000878",
-      "state": "WRITING",
-      "reason": "leased to s-claude-tu-20261019c",
-      "title": "Đèn báo quá nhiệt dung dịch làm mát sáng trên xe tay ga Honda: dừng xe thế nào, kiểm tra gì và khi nào chạy tiếp được",
-      "slot": "W8",
-      "session": "s-claude-tu-20261019c",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000879",
-      "state": "WRITING",
-      "reason": "leased to s-claude-tu-20261019c",
-      "title": "Xe máy bị đổ khi đang dừng: tắt khóa điện trước, dựng xe lên thế nào và kiểm tra gì trước khi chạy tiếp theo Honda",
-      "slot": "W8",
-      "session": "s-claude-tu-20261019c",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000880",
-      "state": "WRITING",
-      "reason": "leased to s-claude-tu-20261019c",
-      "title": "Tải sách hướng dẫn sử dụng xe máy Honda dạng PDF ở đâu và tìm câu trả lời ở chương nào khi xe gặp sự cố",
-      "slot": "W8",
-      "session": "s-claude-tu-20261019c",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000881",
-      "state": "WRITING",
-      "reason": "leased to s-claude-tu-20261019c",
-      "title": "Nổ máy xe máy trong gara hoặc khu vực đóng kín: khí CO trong khí xả là gì và vì sao Honda cấm kể cả đóng kín một phần",
-      "slot": "W8",
-      "session": "s-claude-tu-20261019c",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -565,18 +517,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001061",
-      "state": "WRITING",
-      "reason": "leased to seodev-w39",
-      "title": "Cập nhật phần mềm xe máy điện: điều kiện, cách làm và thông báo theo Dat Bike và VinFast",
-      "slot": "W6",
-      "session": "seodev-w39",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001062",
       "state": "WRITING",
       "reason": "leased to seodev-w39",
@@ -679,18 +619,6 @@
       "title": "Xích xe máy điện: độ chùng tiêu chuẩn, dầu bôi trơn và dấu hiệu mòn theo sổ Theon và Quantum",
       "slot": "W6",
       "session": "seodev-w39",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001091",
-      "state": "WRITING",
-      "reason": "leased to seodev-w37",
-      "title": "Nhựa dùng một lần ở khách sạn Hà Nội từ 1/1/2026: khách đi xe máy nên mang theo gì",
-      "slot": "W3",
-      "session": "seodev-w37",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -4953,6 +4881,30 @@
       "session": "s-claude-tu-20261018a",
       "wp_id": 4317,
       "url": "https://thuexemaynguyentu.com/son-mai-ha-thai-o-thuong-tin-15-cong-doan-khau-lam-voc-9-lan-son-mai-va-diem-du-lich-lang-nghe-2020/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001061",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Cập nhật phần mềm xe máy điện: điều kiện, cách làm và thông báo theo Dat Bike và VinFast",
+      "slot": "W6",
+      "session": "seodev-w39",
+      "wp_id": 4322,
+      "url": "https://thuexemaynguyentu.com/cap-nhat-phan-mem-xe-may-dien-dieu-kien-cach-lam-va-thong-bao-theo-dat-bike-va-vinfast/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001091",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Nhựa dùng một lần ở khách sạn Hà Nội từ 1/1/2026: khách đi xe máy nên mang theo gì",
+      "slot": "W3",
+      "session": "seodev-w37",
+      "wp_id": 4323,
+      "url": "https://thuexemaynguyentu.com/nhua-dung-mot-lan-o-khach-san-ha-noi-tu-1-1-2026-khach-di-xe-may-nen-mang-theo-gi/",
       "qa_status": "PASS",
       "seo_score": 100
     }

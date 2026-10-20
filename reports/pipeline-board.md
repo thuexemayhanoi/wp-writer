@@ -1,16 +1,16 @@
 # Pipeline board
 
-Generated 2026-10-20T06:52:20.335695+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-20T09:23:05.481450+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
-| WRITING | 66 |
+| WRITING | 60 |
 | QA | 0 |
 | READY | 0 |
 | REPAIR | 0 |
 | HELD | 2 |
 | PUBLISHING | 0 |
-| VERIFIED | 344 |
+| VERIFIED | 346 |
 
 Ready backlog (QA PASS waiting for the Publisher): **0**
 
@@ -30,10 +30,6 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 | NT-000770 | WRITING | W7 | s-claude-tu-20261019e | leased to s-claude-tu-20261019e |
 | NT-000833 | WRITING | W5 | seodev-w36 | leased to seodev-w36 |
 | NT-000834 | WRITING | W5 | seodev-w36 | leased to seodev-w36 |
-| NT-000878 | WRITING | W8 | s-claude-tu-20261019c | leased to s-claude-tu-20261019c |
-| NT-000879 | WRITING | W8 | s-claude-tu-20261019c | leased to s-claude-tu-20261019c |
-| NT-000880 | WRITING | W8 | s-claude-tu-20261019c | leased to s-claude-tu-20261019c |
-| NT-000881 | WRITING | W8 | s-claude-tu-20261019c | leased to s-claude-tu-20261019c |
 | NT-000931 | WRITING | W4 | seodev-w38 | leased to seodev-w38 |
 | NT-000932 | WRITING | W4 | seodev-w38 | leased to seodev-w38 |
 | NT-000933 | WRITING | W4 | seodev-w38 | leased to seodev-w38 |
@@ -64,7 +60,6 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 | NT-001008 | WRITING | W9 | s-claude-tu-20261019d | leased to s-claude-tu-20261019d |
 | NT-001009 | WRITING | W9 | s-claude-tu-20261019d | leased to s-claude-tu-20261019d |
 | NT-001010 | WRITING | W9 | s-claude-tu-20261019d | leased to s-claude-tu-20261019d |
-| NT-001061 | WRITING | W6 | seodev-w39 | leased to seodev-w39 |
 | NT-001062 | WRITING | W6 | seodev-w39 | leased to seodev-w39 |
 | NT-001063 | WRITING | W6 | seodev-w39 | leased to seodev-w39 |
 | NT-001064 | WRITING | W6 | seodev-w39 | leased to seodev-w39 |
@@ -74,7 +69,6 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 | NT-001068 | WRITING | W6 | seodev-w39 | leased to seodev-w39 |
 | NT-001069 | WRITING | W6 | seodev-w39 | leased to seodev-w39 |
 | NT-001070 | WRITING | W6 | seodev-w39 | leased to seodev-w39 |
-| NT-001091 | WRITING | W3 | seodev-w37 | leased to seodev-w37 |
 | NT-001092 | WRITING | W3 | seodev-w37 | leased to seodev-w37 |
 | NT-001093 | WRITING | W3 | seodev-w37 | leased to seodev-w37 |
 | NT-001094 | WRITING | W3 | seodev-w37 | leased to seodev-w37 |
