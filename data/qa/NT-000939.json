@@ -1,0 +1,159 @@
+{
+  "topic_id": "NT-000939",
+  "status": "PASS",
+  "source_sha256": "12785e4520f8eca03b460651e27ca896f0fc6b27ac9730482db91ba8a34adf7e",
+  "body_sha256": "1cc8adc992488cf8ce179fc0fc0652c8c29f34bcca29d3e502ea14d31b934a85",
+  "word_count": 2772,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://sct.dongnai.gov.vn/vi/news/Chi-dao-dieu-hanh/bo-sung-quy-dinh-rieng-ve-gia-dien-cho-xe-sac-dien-51882.html",
+      "supports": "Sở Công Thương Đồng Nai (09/12/2025) tóm tắt Thông tư 60/2025/TT-BCT: sạc xe điện trong hợp đồng điện sinh hoạt vẫn áp dụng giá điện sinh hoạt; trạm, trụ sạc, tủ đổi pin phục vụ kinh doanh phải lắp công tơ riêng và áp dụng giá theo mục đích sạc. Cùng trang còn nêu: Sở Công Thương Đồng Nai: định mức điện sinh hoạt tính theo hộ hoặc theo người (bốn người là một hộ) ở nhà trọ, ký túc xá; chủ nhà trọ không được thu tiền điện của người thuê vượt quá hóa đơn do đơn vị điện lực phát hành.",
+      "sha256": "f4fbd9537aacc02c881dd51a0cbed1cb29f97285d2fe73b2decf03bc56d5e520",
+      "verified_at": "2026-10-20T09:42:26.466478+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.evn.com.vn/d/vi-VN/news/Quyet-dinh-so-963QD-BCT-ve-khung-gio-cao-diem-thap-diem-va-gio-binh-thuong-cua-he-thong-dien-quoc-gia--60-134-507803",
+      "supports": "EVN (23/04/2026): Quyết định 963/QĐ-BCT ngày 22/4/2026 quy định khung giờ cao điểm 17h30–22h30 thứ Hai đến thứ Bảy, Chủ nhật không có giờ cao điểm, thấp điểm 00h00–06h00 mọi ngày; hiệu lực từ ngày ký. Cùng trang còn nêu: EVN trích khoản 3 Điều 5 Thông tư 60/2025/TT-BCT: đối tượng bắt buộc áp dụng giá bán điện theo thời gian sử dụng trong ngày gồm bên mua điện sản xuất, kinh doanh từ 25 kVA hoặc 2.000 kWh/tháng, đơn vị bán lẻ điện tại khu công nghiệp, cụm công nghiệp và đơn vị mua điện bán lẻ ngoài mục đích sinh hoạt tại tổ hợp thương mại.",
+      "sha256": "36cd447c0b9099cf6824bedc7c86a646649ec48e8ebf220c08b4bf01c7169a0f",
+      "verified_at": "2026-10-20T09:42:29.827891+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.evn.com.vn/d/vi-VN/news/Quyet-dinh-so-963QD-BCT-ve-khung-gio-cao-diem-thap-diem-va-gio-binh-thuong-cua-he-thong-dien-quoc-gia--60-134-507803",
+      "supports": "EVN (23/04/2026): khung giờ thấp điểm theo Quyết định 963/QĐ-BCT là từ 00h00 đến 06h00 tất cả các ngày trong tuần (06 giờ/ngày).",
+      "sha256": "36cd447c0b9099cf6824bedc7c86a646649ec48e8ebf220c08b4bf01c7169a0f",
+      "verified_at": "2026-10-20T09:42:32.009543+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://vgreen.net/vi/tram-sac-xe-may-dien",
+      "supports": "V-GREEN (trang trạm sạc xe máy điện): đơn giá sạc xe máy điện tại trạm công cộng 3.858 VNĐ/kWh áp dụng từ ngày 19/03/2024, đã gồm VAT (dùng làm ví dụ minh họa phép nhân kWh).",
+      "sha256": "73566a2afcaadf18fd20e29fde5ac5dda60a8ef0858b2ec354ee3dfb51677d96",
+      "research_checked_at": "2026-10-19",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "HTTPError"
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 925,
+        "title": "Thuê Xe Điện Hà Nội – Chọn Xe Máy Điện Hay Xe Đạp Điện?",
+        "why": "stale",
+        "content_hash": "838c9d37eced2e74deeb9b1fb50c29d75e84a717e3f8dd7c79c8cc8599007bf1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2417,
+        "title": "Xe máy điện Yadea có tốt không? Ưu nhược điểm người dùng cần biết",
+        "why": "stale",
+        "content_hash": "0164531f890f08be8f0da4a90ffbe1bc5d7ce5908bd8637d53cc98b9fed34354",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2632,
+        "title": "Cầu Long Biên Hà Nội: Đi lúc nào đẹp, chụp ảnh ở đâu và chơi gì gần đó?",
+        "why": "stale",
+        "content_hash": "36dfb351fe0b68f0a6c25d3903504798235bac27df1d97f4c68ca001b55d25e3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T09:42:38.003372+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
+  "inventory_sha256": "94257b048187f317f7a06fb0e40bb4aa70bc8a3c85c575f8075b344738dd21cc",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -1,10 +1,10 @@
 {
   "topic_id": "NT-000931",
-  "status": "FAIL",
+  "status": "PASS",
   "source_sha256": "6a305e536ff38df829a3b3b6dc70a41344bf22425b88d80335fb5b22a48d4139",
   "body_sha256": "eef51eea7cb38d407a2bf3e5011e863f8f0d1bff87ea7186b57db18e285f6f48",
   "word_count": 3102,
-  "quality_score": 40,
+  "quality_score": 100,
   "seo_score": 100,
   "seo_min_required": 85,
   "seo_checks": {
@@ -53,12 +53,7 @@
     },
     "3": {
       "errors": [],
-      "review": [
-        "Source REVIEW: TimeoutError",
-        "Source REVIEW: URLError timed out (host already unreachable in this run)",
-        "Source REVIEW: URLError timed out (host already unreachable in this run)",
-        "Source REVIEW: URLError timed out (host already unreachable in this run)"
-      ]
+      "review": []
     },
     "4": {
       "errors": [],
@@ -74,12 +69,7 @@
     }
   },
   "errors": [],
-  "review": [
-    "Source REVIEW: TimeoutError",
-    "Source REVIEW: URLError timed out (host already unreachable in this run)",
-    "Source REVIEW: URLError timed out (host already unreachable in this run)",
-    "Source REVIEW: URLError timed out (host already unreachable in this run)"
-  ],
+  "review": [],
   "source_evidence": [
     {
       "url": "https://vinfastauto.com/vn_vi/cach-sac-pin-xe-may-dien-vinfast-evo200-lite",
@@ -103,7 +93,7 @@
       "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
       "supports": "Dat Bike nêu quy tắc cắm sạc: cắm đầu sạc vào ổ điện trước, sau đó mới cắm phích vào xe.",
       "sha256": "0f548a2d957b60a67e6ebedf06b634d0ac4677b2ff843c447af7f49b2a5f7ad3",
-      "verified_at": "2026-10-20T09:30:55.801745+00:00",
+      "verified_at": "2026-10-20T09:40:04.689177+00:00",
       "verification_method": "live",
       "live_checked": true
     },
@@ -111,7 +101,7 @@
       "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
       "supports": "Dat Bike giải thích thứ tự cắm ổ điện trước là để ngăn nguy cơ hồ quang điện và bảo vệ cổng sạc của xe.",
       "sha256": "0f548a2d957b60a67e6ebedf06b634d0ac4677b2ff843c447af7f49b2a5f7ad3",
-      "verified_at": "2026-10-20T09:30:57.283786+00:00",
+      "verified_at": "2026-10-20T09:40:06.249603+00:00",
       "verification_method": "live",
       "live_checked": true
     },
@@ -119,7 +109,7 @@
       "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
       "supports": "Dat Bike, quy tắc rút sạc: tắt khóa xe trước, rút phích điện xong mới rút giắc sạc ra khỏi xe.",
       "sha256": "0f548a2d957b60a67e6ebedf06b634d0ac4677b2ff843c447af7f49b2a5f7ad3",
-      "verified_at": "2026-10-20T09:30:58.640828+00:00",
+      "verified_at": "2026-10-20T09:40:09.400813+00:00",
       "verification_method": "live",
       "live_checked": true
     },
@@ -127,7 +117,7 @@
       "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
       "supports": "Dat Bike: muốn bật khóa xe hoặc dùng xe thì đợi ít nhất 30 giây sau khi đã cắm sạc vào xe hoặc pin.",
       "sha256": "0f548a2d957b60a67e6ebedf06b634d0ac4677b2ff843c447af7f49b2a5f7ad3",
-      "verified_at": "2026-10-20T09:30:59.994885+00:00",
+      "verified_at": "2026-10-20T09:40:10.862216+00:00",
       "verification_method": "live",
       "live_checked": true
     },
@@ -135,7 +125,7 @@
       "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
       "supports": "Dat Bike, các bước sạc: kết nối bộ cắm của bộ sạc vào ổ điện trước rồi kết nối đầu cắm vào cổng sạc xe; trước khi cắm, xe phải tắt hoàn toàn và khóa điện ở chế độ OFF.",
       "sha256": "0f548a2d957b60a67e6ebedf06b634d0ac4677b2ff843c447af7f49b2a5f7ad3",
-      "verified_at": "2026-10-20T09:31:01.159551+00:00",
+      "verified_at": "2026-10-20T09:40:15.365791+00:00",
       "verification_method": "live",
       "live_checked": true
     },
@@ -143,7 +133,7 @@
       "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
       "supports": "Dat Bike: khi sạc nếu có mùi lạ, tiếng kêu lạ hoặc nhiệt độ tăng quá cao thì dừng sạc ngay và liên hệ nhà sản xuất.",
       "sha256": "0f548a2d957b60a67e6ebedf06b634d0ac4677b2ff843c447af7f49b2a5f7ad3",
-      "verified_at": "2026-10-20T09:31:02.567790+00:00",
+      "verified_at": "2026-10-20T09:40:16.621695+00:00",
       "verification_method": "live",
       "live_checked": true
     },
@@ -151,7 +141,7 @@
       "url": "https://www.yadea.com.vn/xe-may-dien-sac-bao-lau-thi-day/",
       "supports": "Yadea Việt Nam (bài 29/07/2026): trình tự cắm sạc là cắm đầu sạc vào xe trước, sau đó mới cắm phích vào ổ điện.",
       "sha256": "b004bdf1909b7c24067eecf3632e50098ef6f021278565f0043d71c0eed39a28",
-      "verified_at": "2026-10-20T09:31:05.686072+00:00",
+      "verified_at": "2026-10-20T09:40:18.010030+00:00",
       "verification_method": "live",
       "live_checked": true
     },
@@ -159,7 +149,7 @@
       "url": "https://www.yadea.com.vn/xe-may-dien-sac-bao-lau-thi-day/",
       "supports": "Yadea: khi rút sạc làm ngược lại, rút từ ổ điện ra trước, để tránh hiện tượng sốc điện (phóng tia lửa).",
       "sha256": "b004bdf1909b7c24067eecf3632e50098ef6f021278565f0043d71c0eed39a28",
-      "verified_at": "2026-10-20T09:31:06.717481+00:00",
+      "verified_at": "2026-10-20T09:40:18.520592+00:00",
       "verification_method": "live",
       "live_checked": true
     },
@@ -167,7 +157,7 @@
       "url": "https://www.yadea.com.vn/xe-may-dien-sac-bao-lau-thi-day/",
       "supports": "Yadea dặn dùng bộ sạc chính hãng, không dùng sạc trôi nổi hay sạc không đúng thông số điện áp của xe.",
       "sha256": "b004bdf1909b7c24067eecf3632e50098ef6f021278565f0043d71c0eed39a28",
-      "verified_at": "2026-10-20T09:31:07.133947+00:00",
+      "verified_at": "2026-10-20T09:40:19.018675+00:00",
       "verification_method": "live",
       "live_checked": true
     },
@@ -175,7 +165,7 @@
       "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
       "supports": "Yamaha NEO's, cách sạc pin gắn trên xe: bước 4 là kết nối phích cắm điện vào ổ cắm, trước khi cắm phích sạc vào đầu nối sạc ở bước 6.",
       "sha256": "0f0c709710d8de0a99afe69dd823ec5d24ae98a598e50aeba88b2dd26dc4326e",
-      "verified_at": "2026-10-20T09:31:10.648009+00:00",
+      "verified_at": "2026-10-20T09:40:21.851404+00:00",
       "verification_method": "live",
       "live_checked": true
     },
@@ -183,7 +173,7 @@
       "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
       "supports": "Yamaha NEO's, cách sạc pin tháo rời: bước 6 kết nối phích cắm điện vào ổ cắm, nguồn thích hợp AC220–240V, trước khi cắm phích sạc vào đầu nối ở bước 8.",
       "sha256": "0f0c709710d8de0a99afe69dd823ec5d24ae98a598e50aeba88b2dd26dc4326e",
-      "verified_at": "2026-10-20T09:31:11.859356+00:00",
+      "verified_at": "2026-10-20T09:40:23.323517+00:00",
       "verification_method": "live",
       "live_checked": true
     },
@@ -191,7 +181,7 @@
       "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
       "supports": "Yamaha NEO's: bước 1 của cả hai cách sạc là tắt khóa điện của xe; khi pin đầy, rút phích cắm sạc thẳng ra khỏi đầu nối sạc.",
       "sha256": "0f0c709710d8de0a99afe69dd823ec5d24ae98a598e50aeba88b2dd26dc4326e",
-      "verified_at": "2026-10-20T09:31:13.071562+00:00",
+      "verified_at": "2026-10-20T09:40:25.253616+00:00",
       "verification_method": "live",
       "live_checked": true
     },
@@ -203,6 +193,38 @@
       "verification_method": "research_snapshot_fallback",
       "live_checked": false,
       "network_error": "HTTPError"
+    },
+    {
+      "url": "https://evn.com.vn/d6/news/De-phong-chay-o-cam-dien-0-25-23254.aspx",
+      "supports": "EVN (12/03/2019, theo TS. Trần Văn Thịnh): tắt thiết bị điện trước khi rút phích để ổ cắm không phát sinh tia lửa điện khi cắm và rút phích, giảm nguy cơ cháy nổ; lời khuyên chung cho thiết bị gia dụng.",
+      "sha256": "d3ea80d24849f087380fe23e2f3fbb8017552b19feaf803ee35ed794b8413c92",
+      "verified_at": "2026-10-20T09:40:28.405365+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://evn.com.vn/d6/news/De-phong-chay-o-cam-dien-0-25-23254.aspx",
+      "supports": "EVN: mục đích của việc tắt thiết bị trước khi rút là bảo đảm ổ cắm không phát sinh tia lửa điện khi cắm và rút phích, giảm nguy cơ cháy nổ.",
+      "sha256": "d3ea80d24849f087380fe23e2f3fbb8017552b19feaf803ee35ed794b8413c92",
+      "verified_at": "2026-10-20T09:40:30.420018+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://evn.com.vn/d6/news/De-phong-chay-o-cam-dien-0-25-23254.aspx",
+      "supports": "EVN: dùng phích cắm phù hợp với ổ cắm, không quá lỏng, tránh phát sinh tia lửa điện gây chập cháy.",
+      "sha256": "d3ea80d24849f087380fe23e2f3fbb8017552b19feaf803ee35ed794b8413c92",
+      "verified_at": "2026-10-20T09:40:34.295844+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://evn.com.vn/d6/news/De-phong-chay-o-cam-dien-0-25-23254.aspx",
+      "supports": "EVN liệt kê dấu hiệu cần thay ổ cắm mới: mùi nhựa nóng, tia lửa hoặc khói, dấu màu đen hoặc cháy xém quanh ổ cắm, phích cắm hoặc thiết bị.",
+      "sha256": "d3ea80d24849f087380fe23e2f3fbb8017552b19feaf803ee35ed794b8413c92",
+      "verified_at": "2026-10-20T09:40:36.123202+00:00",
+      "verification_method": "live",
+      "live_checked": true
     }
   ],
   "evidence_recheck": {
@@ -239,24 +261,19 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-20T09:32:29.049688+00:00",
+  "at": "2026-10-20T09:40:47.236723+00:00",
   "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
-  "inventory_sha256": "3c134d3c0195e4d1aa294ef288055570fab097d51cfed2827d3a57a70890226b",
+  "inventory_sha256": "c28a4478056822a3cf64598d5b0be0c30ef33f9fdc7e8c2e5ebfb4b6bef9661a",
   "triage": {
-    "hold_class": "INFRA_PENDING",
+    "hold_class": "NONE",
     "real_risk": [],
     "writer_repair": [],
-    "infra_pending": [
-      "G3: Source REVIEW: TimeoutError",
-      "G3: Source REVIEW: URLError timed out (host already unreachable in this run)",
-      "G3: Source REVIEW: URLError timed out (host already unreachable in this run)",
-      "G3: Source REVIEW: URLError timed out (host already unreachable in this run)"
-    ]
+    "infra_pending": []
   },
   "recheck": {
-    "attempts": 1,
+    "attempts": 0,
     "max": 3,
     "exhausted": false,
     "needs_owner": false

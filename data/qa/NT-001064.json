@@ -1,0 +1,149 @@
+{
+  "topic_id": "NT-001064",
+  "status": "PASS",
+  "source_sha256": "cb52d11fc1eadac1984362915454ff65b22df6aca1698dca7a9881bef556363f",
+  "body_sha256": "1cbd6e9a97c78d51dd3910fe311544ef2f6416f25f23082c4fb5971c792a6aa8",
+  "word_count": 2425,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/phanh-abs-tren-xe-may-la-gi-co-che-hoat-dong/",
+      "supports": "Yamaha Việt Nam: ABS là hệ thống chống bó cứng phanh điện tử, dùng cảm biến tốc độ bánh xe và ECU điều chỉnh áp suất dầu phanh để ngăn bánh bị khóa khi phanh đột ngột (bài viết cho xe xăng).",
+      "sha256": "b65f7591bb52f801ea93cfc31530e94b780c15a84eaf521bb2e0eeb68487ae26",
+      "verified_at": "2026-10-20T09:44:20.065073+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/phanh-abs-tren-xe-may-la-gi-co-che-hoat-dong/",
+      "supports": "Yamaha Việt Nam: cơ chế ABS dựa vào cảm biến tốc độ ở bánh xe, ECU đọc dữ liệu và điều chỉnh áp suất dầu phanh, nhấp nhả má phanh hàng chục lần mỗi giây; bài nêu ABS rút ngắn quãng đường phanh và hãng phân bổ tính năng theo phiên bản.",
+      "sha256": "b65f7591bb52f801ea93cfc31530e94b780c15a84eaf521bb2e0eeb68487ae26",
+      "verified_at": "2026-10-20T09:44:21.544940+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+      "supports": "Trang thông số Yamaha NEO's: bảng ghi phanh đĩa dẫn động thủy lực ở bánh trước, tang trống ở bánh sau và không có dòng ABS.",
+      "sha256": "1addc1fe9e93f255474c4103b960dabdfa378d9d07a4cd2bacdd2fd611c61527",
+      "verified_at": "2026-10-20T09:44:23.449756+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.yadea.com.vn/thong-so-ky-thuat-xe-dien-yadea-m6i-su-lua-chon-toi-uu-cho-nguoi-tre-nang-dong/",
+      "supports": "Trang thông số Yadea M6i: hệ thống phanh đĩa trước và tang trống sau, không nhắc ABS.",
+      "sha256": "352370d7ed1530b3cd0376c467ab0a3825b7b6ec38111a0085545d967265d865",
+      "verified_at": "2026-10-20T09:44:24.805621+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.yadea.com.vn/thong-so-ky-thuat-yadea-s3-pro/",
+      "supports": "Trang thông số Yadea S3 Pro: phanh đĩa trước, tang trống sau, không nhắc ABS.",
+      "sha256": "e97e76c4ddff3c43ca9c69f4dfb11911a121e051830ce55e162b43bb1e9cfdc1",
+      "verified_at": "2026-10-20T09:44:26.092541+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.yadea.com.vn/yadea-oris-xe-may-dien-thong-minh-quang-duong-90km-chi-voi-mot-lan-sac/",
+      "supports": "Bài giới thiệu Yadea ORIS: phanh đĩa trước, phanh tang trống sau, không nhắc ABS.",
+      "sha256": "f194e3f837b21200abbdd12a846aac77840df69e42a88a3aa1cd656d22da3f4d",
+      "verified_at": "2026-10-20T09:44:26.583880+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://www.yadea.com.vn/thong-tin-san-pham/zxone/",
+      "supports": "Trang sản phẩm Yadea X-Zone: phanh tang trống ở cả hai bánh, không nhắc ABS.",
+      "sha256": "50ca83cdce6aed833c556d28477abcf8948ef6c52c12643a151dc25b16f4a554",
+      "verified_at": "2026-10-20T09:44:27.878028+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-20T09:44:35.118983+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
+  "inventory_sha256": "7682f87768c91fe28a4623914c507593a36b10af570b3a75150155c76fd1a759",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
