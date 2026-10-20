@@ -19244,6 +19244,25 @@
         "seo_description": "Mô-men xoắn xe máy điện ghi bằng Nm hay N·m: vì sao 43,49 Nm của NEO's, 58.7Nm của X-Zone và 14,4 N·m của Exciter không so trực tiếp, và cách đọc bảng thông số.",
         "checked_at": "2026-10-20T20:16:31.871830+00:00"
       }
+    },
+    "NT-001077": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-20T20:17:03.036272+00:00",
+      "source_hash": "05f1b470a47d4139a6d22418a3268764fb9abec81e97e90205c6b503ce1ce0c2",
+      "slug": "dat-ride-predictor-tren-xe-quantum-vi-sao-cung-so-pin-ma-quang-duong-du-bao-khac-nhau",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 168,
+      "visible_hash": "5e8bc09845a68f6005bac022b8e3e4e144faff53fd10002729de125dedc88e73",
+      "first_paragraph": "Dat Ride Predictor là công nghệ dự báo hành trình của Dat Bike trên xe Quantum: xe căn cứ vào thói quen sử dụng của người lái, gồm cách lái, tốc độ chạy, cách vặn ga và quãng đường chạy dốc lên hoặc xuống, để dự báo quãng đường còn đi được từ số phần trăm pin còn lại. Vì vậy, theo bài ra mắt của Dat Bike đọc ngày 20/10/2026, khi số % pin còn lại giống nhau thì quãng đường còn đi được trên các xe Quantum sẽ không giống nhau do cách lái khác nhau. Con số km trên màn hình là một ước tính thích nghi theo người lái, không phải số đo cố định; bài không nêu độ sai lệch hay thời gian để dự báo đổi theo người lái, vì bài của hãng không có các con số đó.",
+      "meta_title": "Dat Ride Predictor trên xe Quantum: cùng % pin, km dự báo khác nhau",
+      "meta_description": "Dat Ride Predictor của Dat Bike trên xe Quantum dự báo quãng đường còn lại theo thói quen lái, nên cùng số % pin thì số km dự báo vẫn khác nhau giữa các xe.",
+      "intended_taxonomy_key": "electric-tech",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "e89aece5f3081cd0a9ac6ccd246ce2fc1ec06ae6",
+      "run_id": "39489674662",
+      "updated_at": "2026-10-20T20:17:03.037289+00:00"
     }
   },
   "categories": {}
