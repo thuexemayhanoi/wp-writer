@@ -17629,7 +17629,7 @@
       }
     },
     "NT-000964": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T19:47:47.874735+00:00",
       "source_hash": "9d8495fd1063e7a36a4a980595af42fc9b2448c0ab38a377ee60927e04161ba4",
       "slug": "tra-xe-may-thue-cham-tien-thue-them-phat-vi-pham-va-rui-ro-trong-luc-cham-tra-theo-dieu-482",
@@ -17645,8 +17645,37 @@
       "category_warning": null,
       "git_commit": "9d736881aae4fe1cc9af917d451851dbc56889da",
       "run_id": "39485788336",
-      "updated_at": "2026-10-20T19:47:53.566168+00:00",
-      "wp_id": 4361
+      "updated_at": "2026-10-20T19:47:59.585652+00:00",
+      "wp_id": 4361,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tra-xe-may-thue-cham-tien-thue-them-phat-vi-pham-va-rui-ro-trong-luc-cham-tra-theo-dieu-482/",
+      "verified_at": "2026-10-20T19:47:59.585645+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4361,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tra-xe-may-thue-cham-tien-thue-them-phat-vi-pham-va-rui-ro-trong-luc-cham-tra-theo-dieu-482/",
+        "categories": [
+          164
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tra-xe-may-thue-cham-tien-thue-them-phat-vi-pham-va-rui-ro-trong-luc-cham-tra-theo-dieu-482/",
+        "seo_title": "Trả xe máy thuê chậm: tiền thuê thêm, phạt và rủi ro theo Điều 482",
+        "seo_description": "Trả xe máy thuê chậm thì bên cho thuê đòi được gì theo Điều 482 Bộ luật Dân sự: tiền thuê thêm, phạt vi phạm nếu có thỏa thuận, rủi ro với xe và lãi chậm trả tiền.",
+        "checked_at": "2026-10-20T19:47:59.585625+00:00"
+      }
     }
   },
   "categories": {}
