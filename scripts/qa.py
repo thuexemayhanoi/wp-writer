@@ -322,7 +322,9 @@ def read_source(url,attempts=3):
             req=urllib.request.Request(url,headers={'User-Agent':'NguyenTu-WPWriter/1.0'})
             with opener.open(req,timeout=20) as response:
                 raw = response.read(SOURCE_BODY_MAX_BYTES + 1)
-                return decode_source_body(raw, response.headers.get('Content-Encoding', '')),attempt
+                headers = getattr(response, 'headers', None)
+                encoding = headers.get('Content-Encoding', '') if headers else ''
+                return decode_source_body(raw, encoding),attempt
         except Exception as exc:
             if attempt>=attempts or not is_transient(exc):
                 if host and is_transient(exc) and not isinstance(exc,urllib.error.HTTPError):
