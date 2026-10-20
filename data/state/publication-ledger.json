@@ -17384,7 +17384,7 @@
       }
     },
     "NT-001074": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T19:41:45.520304+00:00",
       "source_hash": "a81ac3b6a05279a007a36db4ae43aacd2ba1b8af47a39835de8c1febc8356f1d",
       "slug": "o-cam-usb-tren-xe-may-dien-dat-bike-ghi-18w-chi-hoat-dong-khi-bat-xe-dong-nap-khi-rua-xe",
@@ -17400,8 +17400,37 @@
       "category_warning": null,
       "git_commit": "5787f6fa800f5f5d3cbdb385ec28f546a86753be",
       "run_id": "39485032442",
-      "updated_at": "2026-10-20T19:41:50.297192+00:00",
-      "wp_id": 4356
+      "updated_at": "2026-10-20T19:41:56.705490+00:00",
+      "wp_id": 4356,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/o-cam-usb-tren-xe-may-dien-dat-bike-ghi-18w-chi-hoat-dong-khi-bat-xe-dong-nap-khi-rua-xe/",
+      "verified_at": "2026-10-20T19:41:56.705484+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4356,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/o-cam-usb-tren-xe-may-dien-dat-bike-ghi-18w-chi-hoat-dong-khi-bat-xe-dong-nap-khi-rua-xe/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/o-cam-usb-tren-xe-may-dien-dat-bike-ghi-18w-chi-hoat-dong-khi-bat-xe-dong-nap-khi-rua-xe/",
+        "seo_title": "Ổ cắm USB trên xe máy điện Dat Bike: 18W, chỉ dùng khi bật xe",
+        "seo_description": "Ổ cắm USB trên xe máy điện theo sổ Dat Bike: USB-A và USB-C 18W, chỉ hoạt động khi bật xe, đóng nắp khi rửa xe, mẫu nào có ổ và những điều sổ không nói.",
+        "checked_at": "2026-10-20T19:41:56.705466+00:00"
+      }
     }
   },
   "categories": {}
