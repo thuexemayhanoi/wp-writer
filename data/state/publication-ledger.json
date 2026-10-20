@@ -17823,6 +17823,25 @@
         "seo_description": "Tính năng bảo vệ Turtle xe máy điện Dat Bike tự bật khi xả dòng cao lúc pin thấp, như thốc ga hoặc lên dốc; sổ Quantum S nêu cách thoát, sổ ERA không nêu.",
         "checked_at": "2026-10-20T19:50:20.278652+00:00"
       }
+    },
+    "NT-001080": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-20T19:50:35.991977+00:00",
+      "source_hash": "a73504553eca31656cf78eb535a83726d6de28090554a209d91e41b240c82f12",
+      "slug": "xe-may-dien-keu-hoac-nong-khi-sac-khi-nao-hang-noi-binh-thuong-va-khi-nao-dan-rut-sac",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 160,
+      "visible_hash": "cd57a7c4c290342850afa453239e1006a96aa6641513bb36a7d7797af2fc5f0f",
+      "first_paragraph": "Xe máy điện kêu hoặc nóng khi sạc có thể là điều hãng coi là bình thường, hoặc là dấu hiệu phải dừng sạc, và câu trả lời phụ thuộc vào loại bộ sạc của xe. Sách hướng dẫn Dat Bike ERA, dòng xe có bộ sạc tích hợp trên xe, viết rằng động cơ có thể phát ra tiếng ồn khi sạc và cụm động cơ nóng là hiện tượng bình thường, còn còi tự kêu là bất thường. Ngược lại, hướng dẫn sạc chung của Dat Bike và bài của Yamaha về xe NEO's, hai tài liệu nói về bộ sạc rời, dặn dừng sạc khi có tiếng kêu, mùi hoặc nhiệt độ bất thường. Nếu không chắc xe của mình thuộc nhóm nào, hãy dừng sạc và hỏi hãng.",
+      "meta_title": "Xe máy điện kêu hoặc nóng khi sạc: hãng nói gì là bình thường?",
+      "meta_description": "Xe máy điện kêu hoặc nóng khi sạc: sách Dat Bike ERA nói tiếng ồn và cụm động cơ nóng là bình thường, còn Dat Bike và Yamaha dặn dừng sạc khi có tiếng lạ, mùi hay nhiệt cao.",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "9d736881aae4fe1cc9af917d451851dbc56889da",
+      "run_id": "39485788336",
+      "updated_at": "2026-10-20T19:50:35.993464+00:00"
     }
   },
   "categories": {}
