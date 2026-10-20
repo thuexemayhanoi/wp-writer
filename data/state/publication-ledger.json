@@ -17433,7 +17433,7 @@
       }
     },
     "NT-001079": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T19:42:16.585611+00:00",
       "source_hash": "3a2530f75eef8b7a3b95210f31ed158f15415d3e2ba4f1823ec7d94f6964808a",
       "slug": "tcs-hdc-va-hill-hold-tren-xe-may-dien-bai-cua-yadea-ve-osta-mo-ta-ba-tinh-nang-nay-ra-sao",
@@ -17449,8 +17449,37 @@
       "category_warning": null,
       "git_commit": "5787f6fa800f5f5d3cbdb385ec28f546a86753be",
       "run_id": "39485032442",
-      "updated_at": "2026-10-20T19:42:21.000165+00:00",
-      "wp_id": 4357
+      "updated_at": "2026-10-20T19:42:27.091523+00:00",
+      "wp_id": 4357,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tcs-hdc-va-hill-hold-tren-xe-may-dien-bai-cua-yadea-ve-osta-mo-ta-ba-tinh-nang-nay-ra-sao/",
+      "verified_at": "2026-10-20T19:42:27.091516+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4357,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tcs-hdc-va-hill-hold-tren-xe-may-dien-bai-cua-yadea-ve-osta-mo-ta-ba-tinh-nang-nay-ra-sao/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tcs-hdc-va-hill-hold-tren-xe-may-dien-bai-cua-yadea-ve-osta-mo-ta-ba-tinh-nang-nay-ra-sao/",
+        "seo_title": "TCS, HDC và Hill-hold trên xe máy điện: Yadea Osta nêu gì?",
+        "seo_description": "TCS, HDC và Hill-hold trên xe máy điện Yadea Osta: bài của hãng chỉ nêu tên ba tính năng, TCS theo Yamaha là của xe xăng. Xem điều nguồn không nói và câu hỏi cho đại lý.",
+        "checked_at": "2026-10-20T19:42:27.091492+00:00"
+      }
     }
   },
   "categories": {}
