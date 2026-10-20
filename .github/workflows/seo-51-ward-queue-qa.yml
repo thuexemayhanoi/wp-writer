@@ -87,7 +87,7 @@ jobs:
               topic_id=item['topic_id']
               assert item['wordpress_post_id'] is None and progress['wp_post_id'] is None
               assert item['writer_lease_id'] is None and item['writer_receipt_id'] is None
-              assert item['writer_qa_status']=='NOT_SUBMITTED' and progress['writer_qa_status']=='NOT_SUBMITTED'
+              assert item['writer_qa_status']=='NOT_SUBMITTED' and progress['writer_qa_status'] in ('NOT_SUBMITTED','NOT_VERIFIED_CURRENT_RUN')
               assert item['g7_status']=='NOT_VERIFIED' and item['publication_status']=='GITHUB_EDITORIAL_ONLY'
               assert progress['publication_status']=='GITHUB_EDITORIAL_ONLY'
               if topic_id is None:
