@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-20T03:42:40.343683+00:00",
+  "at": "2026-10-20T03:45:23.820008+00:00",
   "counts": {
-    "WRITING": 64,
+    "WRITING": 66,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
@@ -10,7 +10,7 @@
     "VERIFIED": 344
   },
   "ready_backlog": 0,
-  "in_flight": 66,
+  "in_flight": 68,
   "items": [
     {
       "topic_id": "NT-000761",
@@ -127,6 +127,30 @@
       "title": "Người đi xe lăn, người cao tuổi đi metro Hà Nội: cổng soát vé riêng, thang máy, gạch xúc giác và nhờ nhân viên ga",
       "slot": "W7",
       "session": "s-claude-tu-20261019e",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-000833",
+      "state": "WRITING",
+      "reason": "leased to seodev-w36",
+      "title": "Vì sao phanh xe điện có cảm giác khác xe xăng: nhả ga là xe đã ghì, một bàn đạp và lời khuyên chọn mức hãm chưa thống nhất",
+      "slot": "W5",
+      "session": "seodev-w36",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-000834",
+      "state": "WRITING",
+      "reason": "leased to seodev-w36",
+      "title": "Xe điện xuống dốc dài: nhả ga ghìm xe thế nào và khi nào phanh tái sinh không đủ vì pin đầy hoặc xe chở nặng",
+      "slot": "W5",
+      "session": "seodev-w36",
       "wp_id": null,
       "url": null,
       "qa_status": null,
