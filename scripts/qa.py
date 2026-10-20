@@ -307,6 +307,38 @@ def read_source(url,attempts=3):
             time.sleep(RETRY_DELAYS[min(attempt-1,len(RETRY_DELAYS)-1)])
 
 
+def source_excerpt_matches(excerpt, source_text):
+    """Match real source prose, including a long excerpt clipped mid-final-word.
+
+    Research snapshots sometimes end at an arbitrary character limit (for
+    example a law excerpt ending at "lo" instead of "loại"). Require the
+    entire preceding sequence of words to occur in the actual fetched page
+    and the final fragment to prefix the immediately following source word.
+    Short excerpts, missing words, and non-prefix substitutions remain REVIEW.
+    """
+    needle = norm(excerpt)
+    page = norm(source_text)
+    if needle in page:
+        return True
+    parts = needle.split()
+    if len(parts) < 24 or len(excerpt.strip()) < 120:
+        return False
+    final_fragment = parts[-1]
+    if len(final_fragment) < 2 or not excerpt.strip()[-1].isalnum():
+        return False
+    complete_prefix = ' '.join(parts[:-1]) + ' '
+    offset = 0
+    while True:
+        pos = page.find(complete_prefix, offset)
+        if pos < 0:
+            return False
+        remainder = page[pos + len(complete_prefix):]
+        next_word = remainder.split(' ', 1)[0]
+        if len(next_word) > len(final_fragment) and next_word.startswith(final_fragment):
+            return True
+        offset = pos + 1
+
+
 def verify_sources(sources, live=False, trusted_research=None, legal=False):
     """Live-check when possible; preserve a clearly marked researched snapshot
     on transient network errors. An unreachable source is not a fake live check.
@@ -337,7 +369,7 @@ def verify_sources(sources, live=False, trusted_research=None, legal=False):
                 # Transient failures are re-read up to live_retry_attempts times before the snapshot fallback is considered.
                 raw, attempt = read_source(s['url'], rules.get('live_retry_attempts', 3))
                 text = visible(raw)
-                if norm(s['evidence_text']) not in norm(text):
+                if not source_excerpt_matches(s['evidence_text'], text):
                     raise ValueError('Source excerpt not found')
                 evidence.append({'url': s['url'], 'supports': s['supports'],
                                  'sha256': digest(text), 'verified_at': now(),
