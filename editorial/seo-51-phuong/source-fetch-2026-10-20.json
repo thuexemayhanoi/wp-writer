@@ -1,0 +1,29 @@
+{
+  "campaign": "HN-51-WARDS",
+  "checked_at": "2026-10-20",
+  "scope": "Research source fetch check only; no Research QA promotion",
+  "items": [
+    {
+      "ward": "Việt Hưng",
+      "source": "https://viethung.hanoi.gov.vn/gioi-thieu-chung/gioi-thieu-chung-ve-phuong-viet-hung-2783250629163216816.htm",
+      "search_result": "Official source found",
+      "full_text_extract": "FAILED_FETCH",
+      "research_qa": "PENDING"
+    },
+    {
+      "ward": "Tây Hồ",
+      "source": "https://tayho.hanoi.gov.vn/gioi-thieu-chung-65783/gioi-thieu-chung-phuong-tay-ho-2697250628103656273.htm",
+      "search_result": "Official source found",
+      "full_text_extract": "FAILED_FETCH",
+      "research_qa": "PENDING"
+    },
+    {
+      "ward": "Đống Đa",
+      "source": "https://dongda.hanoi.gov.vn/gioi-thieu-chung-62989/gioi-thieu-chung-ve-phuong-dong-da-thanh-pho-ha-noi-2806250627173844843.htm",
+      "search_result": "Official source found",
+      "full_text_extract": "TIMEOUT",
+      "research_qa": "PENDING"
+    }
+  ],
+  "next_action": "Retry full source extraction and verify actual content plus WordPress semantic intent and content hashes; do not invent evidence."
+}
