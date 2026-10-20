@@ -1,0 +1,19 @@
+{
+  "campaign": "HN-51-WARDS",
+  "checked_at": "2026-10-20T07:24:30Z",
+  "scope": "WordPress authenticated REST posts/pages context=edit exact slug filters",
+  "result": "All 12 expected slugs returned no matching post or page",
+  "limitations": "Does not prove semantic uniqueness, research QA, writer QA, or G7 publication",
+  "counts": {
+    "editorial": 12,
+    "topic_factory": 3,
+    "research_pass": 3,
+    "writer_pass": 0,
+    "g7": 0
+  },
+  "category": {
+    "id": 182,
+    "parent": 162,
+    "ancestor": 69
+  }
+}
