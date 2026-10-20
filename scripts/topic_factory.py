@@ -6,6 +6,7 @@ import difflib
 from urllib.parse import urlsplit
 from common import ROOT, SITE, digest, load, norm, now, save, topics, write_topics
 from intent_guard import IntentIndex, assess_topic as assess_intent
+from slug_policy import proposed_slug_errors
 
 def validate_discovery_origin(topic, ledger, used_origins):
     """Discovery proposals are traceable but NOT independently QA-approved."""
@@ -107,6 +108,7 @@ def gate(topic, others, inventory, taxonomy):
     errors=[]; review=[]
     required=['topic_id','title','primary_keyword','search_intent','taxonomy_key','proposed_slug','canonical_target']
     errors += ['missing:'+k for k in required if not topic.get(k)]
+    errors.extend(proposed_slug_errors(topic))
     if topic.get('taxonomy_key') not in {x['taxonomy_key'] for x in taxonomy}: errors.append('unknown taxonomy key')
     if topic.get('taxonomy_key')=='uncategorized': errors.append('Uncategorized forbidden')
     if (topic.get('campaign_id') == 'HN-51-WARDS' or str(topic.get('proposed_slug', '')).startswith('thue-xe-may-phuong-')) and topic.get('taxonomy_key') != 'hanoi-ward-rentals':
