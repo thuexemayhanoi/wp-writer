@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-20T09:48:14.922598+00:00",
+  "at": "2026-10-20T10:02:44.111282+00:00",
   "counts": {
     "WRITING": 11,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
-    "HELD": 2,
+    "HELD": 5,
     "PUBLISHING": 0,
     "VERIFIED": 365
   },
   "ready_backlog": 0,
-  "in_flight": 13,
+  "in_flight": 16,
   "items": [
     {
       "topic_id": "NT-000834",
@@ -167,6 +167,42 @@
       "url": null,
       "qa_status": "REVIEW",
       "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001101",
+      "state": "HELD",
+      "reason": "REAL_RISK: Source REVIEW: ValueError: Source excerpt not found",
+      "title": "Thuê xe máy phường Bồ Đề: chọn Honda Vision hay Wave, nhận xe ở đâu?",
+      "slot": "W1",
+      "session": "s-gpt6-ward3-20261020",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "REVIEW",
+      "seo_score": 90
+    },
+    {
+      "topic_id": "NT-001102",
+      "state": "HELD",
+      "reason": "REAL_RISK: Source REVIEW: ValueError: Source excerpt not found",
+      "title": "Thuê xe máy phường Cửa Nam: chọn Air Blade, tính gói ngày hay tuần?",
+      "slot": "W1",
+      "session": "s-gpt6-ward3-20261020",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "REVIEW",
+      "seo_score": 90
+    },
+    {
+      "topic_id": "NT-001103",
+      "state": "HELD",
+      "reason": "REAL_RISK: Source REVIEW: ValueError: Source excerpt not found",
+      "title": "Thuê xe máy phường Hoàn Kiếm: đi phố cổ chọn xe ga, xe số hay 50cc?",
+      "slot": "W1",
+      "session": "s-gpt6-ward3-20261020",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "REVIEW",
+      "seo_score": 95
     },
     {
       "topic_id": "NT-000037",

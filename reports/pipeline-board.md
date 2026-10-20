@@ -1,6 +1,6 @@
 # Pipeline board
 
-Generated 2026-10-20T09:48:14.922598+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-20T10:02:44.111282+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
@@ -8,7 +8,7 @@ Generated 2026-10-20T09:48:14.922598+00:00 from leases, drafts, QA records, rece
 | QA | 0 |
 | READY | 0 |
 | REPAIR | 0 |
-| HELD | 2 |
+| HELD | 5 |
 | PUBLISHING | 0 |
 | VERIFIED | 365 |
 
@@ -31,3 +31,6 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 | NT-001095 | WRITING | W3 | seodev-w37 | leased to seodev-w37 |
 | NT-000845 | HELD | W2 | s-claude-tu-20261019b | REAL_RISK: Source REVIEW: ValueError: Source excerpt not found; Source REVIEW: ValueError: Source excerpt not found |
 | NT-001031 | HELD | W7 | s-claude-tu-20261019e | REAL_RISK: Source REVIEW: HTTPError 302 |
+| NT-001101 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: Source REVIEW: ValueError: Source excerpt not found |
+| NT-001102 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: Source REVIEW: ValueError: Source excerpt not found |
+| NT-001103 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: Source REVIEW: ValueError: Source excerpt not found |

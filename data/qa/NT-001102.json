@@ -1,0 +1,110 @@
+{
+  "topic_id": "NT-001102",
+  "status": "REVIEW",
+  "source_sha256": "c860369e2ac77e8a32e51e290f8ef12e2b9c57bb8b192e8878044a296020b41a",
+  "body_sha256": "9eb1029c9c7acc0d38042cefbbb86da6e079ff0df53a5554cce476843b41f7af",
+  "word_count": 3179,
+  "quality_score": 85,
+  "seo_score": 90,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 5,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [
+    "Address the intended search in the opening paragraph"
+  ],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": [
+        "Source REVIEW: ValueError: Source excerpt not found"
+      ]
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [
+    "Source REVIEW: ValueError: Source excerpt not found"
+  ],
+  "source_evidence": [
+    {
+      "url": "https://cuanam.hanoi.gov.vn/gioi-thieu/gioi-thieu-chung-ve-phuong-cua-nam-2801250629153745569.htm",
+      "supports": "Trang chính quyền phường Cửa Nam xác nhận địa giới ngày 1/7/2025 và khu vực ga Hà Nội cùng các tuyến phố liên quan.",
+      "sha256": "21b70b9bb2c8dbec089d7c21200b87a8d205b29388a5122eb0d7a49ef7c1306c",
+      "research_checked_at": "2026-10-20",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-20T10:01:23.963577+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
+  "inventory_sha256": "ce0087da64d80904e9588beed0851245403e097cebd846ce83b0d3e253447177",
+  "triage": {
+    "hold_class": "REAL_RISK",
+    "real_risk": [
+      "G3: Source REVIEW: ValueError: Source excerpt not found"
+    ],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 1,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

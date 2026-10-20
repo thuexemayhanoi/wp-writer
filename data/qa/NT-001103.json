@@ -1,0 +1,110 @@
+{
+  "topic_id": "NT-001103",
+  "status": "REVIEW",
+  "source_sha256": "5172537a6432be61727d2ff8ea341a2e0d3e6a04f3c250668c2d55aad4f8248e",
+  "body_sha256": "c3dcf61f4ab46d44bfb2a7e6dfa46dc961cea1dc845e3a78f4fa9fc913885402",
+  "word_count": 3063,
+  "quality_score": 85,
+  "seo_score": 95,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 10,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [
+    "Summarize the reader question in the meta description"
+  ],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": [
+        "Source REVIEW: ValueError: Source excerpt not found"
+      ]
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [
+    "Source REVIEW: ValueError: Source excerpt not found"
+  ],
+  "source_evidence": [
+    {
+      "url": "https://hoankiem.hanoi.gov.vn/chi-dao-cua-dia-phuong/dai-hoi-dai-bieu-dang-bo-phuong-hoan-kiem-lan-thu-i-nhiem-ky-2025-2030-2812250723162946227.htm",
+      "supports": "Trang thông tin phường Hoàn Kiếm xác nhận phường mới vận hành từ ngày 1/7/2025 và các phường cũ thuộc phạm vi.",
+      "sha256": "f1478fe6f2f6df0be2200916e9315a76f6d4f3e0529eacff7297fc0edd901388",
+      "research_checked_at": "2026-10-20",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-20T10:02:37.845653+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
+  "inventory_sha256": "ce0087da64d80904e9588beed0851245403e097cebd846ce83b0d3e253447177",
+  "triage": {
+    "hold_class": "REAL_RISK",
+    "real_risk": [
+      "G3: Source REVIEW: ValueError: Source excerpt not found"
+    ],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 1,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

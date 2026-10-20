@@ -1,0 +1,111 @@
+{
+  "topic_id": "NT-001101",
+  "status": "REVIEW",
+  "source_sha256": "3ed47d7510edfbbdf2bd9ade53ad01c8e1c293f6e87ac8e86bb205b9160167ea",
+  "body_sha256": "c8a51208cd3eb4cee618d6e55b9aea37470db81855c0791b079747387ddff450",
+  "word_count": 3122,
+  "quality_score": 85,
+  "seo_score": 90,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 10,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 10,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [
+    "Summarize the reader question in the meta description",
+    "Address the intended search in the opening paragraph"
+  ],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": [
+        "Source REVIEW: ValueError: Source excerpt not found"
+      ]
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [
+    "Source REVIEW: ValueError: Source excerpt not found"
+  ],
+  "source_evidence": [
+    {
+      "url": "https://bode.hanoi.gov.vn/gioi-thieu-chung/gioi-thieu-phuong-bo-de-2831250626121314553.htm",
+      "supports": "Trang chính quyền phường Bồ Đề xác nhận thành phần địa bàn phường mới từ các phường cũ thuộc Long Biên.",
+      "sha256": "22a802f4edce38394bda4105872c9b47ccf92a43bc97d9e3955d7824c0855649",
+      "research_checked_at": "2026-10-20",
+      "verification_method": "research_snapshot_fallback",
+      "live_checked": false,
+      "network_error": "URLError"
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-20T10:00:05.663853+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
+  "inventory_sha256": "ce0087da64d80904e9588beed0851245403e097cebd846ce83b0d3e253447177",
+  "triage": {
+    "hold_class": "REAL_RISK",
+    "real_risk": [
+      "G3: Source REVIEW: ValueError: Source excerpt not found"
+    ],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 1,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
