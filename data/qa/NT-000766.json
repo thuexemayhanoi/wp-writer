@@ -1,0 +1,249 @@
+{
+  "topic_id": "NT-000766",
+  "status": "PASS",
+  "source_sha256": "0dec9b15db4b16a3c13248a040dd05fc7e2dbba2b6fe7c93839deb00323294d6",
+  "body_sha256": "af7580ba42445829f55493f0ae32add1d297eff69293324f98355c0b3edc0a3f",
+  "word_count": 2882,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro (đọc lại 20/10/2026): vé tháng ưu đãi cho học sinh, sinh viên và công nhân khu công nghiệp giảm 50% so với vé phổ thông, kèm bảng giá 1-12 tháng.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Các bước đăng ký vé ưu đãi cho học sinh, sinh viên trên ứng dụng Hà Nội Metro, chờ duyệt 1-3 ngày rồi thanh toán và lấy mã QR.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Hồ sơ gốc học sinh, sinh viên mang ra quầy vé để tích hợp vé ưu đãi vào thẻ CCCD gắn chip, lần gia hạn sau chỉ cần CCCD.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Thủ tục thẻ NFC cho học sinh dưới 1m4 không có điện thoại thông minh và không có CCCD do phụ huynh đăng ký hộ.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Các bước đăng ký vé ưu đãi cho công nhân khu công nghiệp trên ứng dụng, gồm ảnh thẻ công nhân, ảnh cá nhân và bản đăng ký có dấu công ty, dấu KCN.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Nguyên nhân hồ sơ ưu đãi bị từ chối thường gặp và kênh hỗ trợ của Hà Nội Metro.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/ha-noi-tang-gia-ve-tau-dien-cao-nhat-19000-dong-luot-185250705164610637.htm",
+      "supports": "Thanh Niên 5/7/2025: vé 1 tháng 140.000 đồng cho đối tượng ưu tiên và 280.000 đồng cho đối tượng không ưu tiên; vé 12 tháng gần 1,6 triệu và gần 3,2 triệu đồng.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/ha-noi-tang-gia-ve-tau-dien-cao-nhat-19000-dong-luot-185250705164610637.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2592,
+        "title": "Đi Hà Nội hai người nên chọn xe gì để thoải mái và dễ điều khiển?",
+        "why": "stale",
+        "content_hash": "5c0894287bcacd6fb1f4e67cebc0eb2d421ebeddf8dc30ba47f488d03a2cf568",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2598,
+        "title": "Thuê hay mua xe máy khi ở Hà Nội từ một đến ba tháng thì hợp lý hơn?",
+        "why": "stale",
+        "content_hash": "f30e620f60320b130c5faa8dc1ea87f3d7cb2743018e4e55126b3a15e9598278",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2613,
+        "title": "Thuê Xe Máy Du Lịch Hà Nội: Hướng Dẫn Toàn Diện Từ A–Z Cho Người Lần Đầu",
+        "why": "stale",
+        "content_hash": "bba381bbf7c63d362331437ee0e9ba63294ca01b4eb144c43fe71ca1f20731a0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4046,
+        "title": "Nhận xe máy thuê tại homestay Hà Nội không có lễ tân: hẹn giao, kiểm tra và trả xe",
+        "why": "stale",
+        "content_hash": "408ee1c935cbed2cc7b830b85734e14e93e1a4c5ee2cc36d01097733e2853eb2",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T19:46:35.886226+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "8f68e9b5a3d87e12d6cb2aeedf8d10db204b2fc3b994486d5c0894af00ca5fec",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

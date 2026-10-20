@@ -1,0 +1,354 @@
+{
+  "topic_id": "NT-001075",
+  "status": "PASS",
+  "source_sha256": "3ff80849aeaa198d965cef8b8061cb5d9ce6967a4086160876033b20d2aad8e6",
+  "body_sha256": "e560046edf87068a5ecfe9e42e555e16e558d9bce8c89aa02fdada376f4a811f",
+  "word_count": 2146,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn Dat Bike ERA mục 2.10: định nghĩa Turtle, tự động kích hoạt khi xả dòng điện cao lúc pin ở mức thấp để hạn chế pin tụt đột ngột về 0%; không nêu ngưỡng phần trăm, mức giảm công suất hay cách thoát.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn Dat Bike ERA mục 2.10: Turtle có thể kích hoạt khi xe đang vận hành ở chế độ D hoặc S.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn Dat Bike ERA mục 2.10: ví dụ thốc ga hoặc lên dốc làm pin giảm dung lượng đột ngột xuống mức thấp và kích hoạt Turtle, nêu là \"trong một vài trường hợp\".",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn Dat Bike ERA mục 2.2.2: ô chỉ thị (K) dùng chung cho Cruise Control và Turtle trên màn hình đa chức năng.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn Dat Bike ERA mục 2.9: cách kích hoạt Cruise Control (nhấn và giữ công tắc MODE/SEAT, chế độ D hoặc S, vận tốc lớn hơn 15 km/h).",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn Dat Bike ERA mục 2.4: tay ga điện có độ trễ ban đầu để tránh quá nhạy; mô tả riêng, không nói về Turtle.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn Dat Bike ERA mục 2.8.2: chế độ D có năng lượng tay ga ở mức mặc định; mục 2.8.3: chế độ S cho tốc độ phản ứng với tay ga nhanh và nhạy hơn.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn Dat Bike ERA, lưu ý khi sạc: duy trì dung lượng trên 20% tốt hơn cho tuổi thọ pin; đừng ngần ngại sạc pin ngay khi có thể; lời khuyên về tuổi thọ pin, không phải ngưỡng bật Turtle.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn Dat Bike ERA mục 2.11: Hill Assist tạo lực kéo từ động cơ để xe không trượt về phía sau khi dừng đột ngột lúc lên dốc; tính năng khác với Turtle.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-quantum-s/",
+      "supports": "Hướng dẫn Dat Bike Quantum S mục 2.13: cách thoát Turtle là nhả tay ga rồi nhấn công tắc đa chức năng; đầu mục dẫn sang điểm E mục 2.4 cho thao tác tắt Turtle.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-quantum-s/",
+      "supports": "Hướng dẫn Dat Bike Quantum S mục 2.13: có chỉ thị Turtle riêng; cùng định nghĩa và điều kiện chế độ D hoặc S như hướng dẫn ERA; mục 2.12 có chỉ thị Cruise Control riêng.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-quantum-s/",
+      "supports": "Hướng dẫn Dat Bike Quantum S, lưu ý khi sạc: duy trì dung lượng từ 20% đến 80% tốt hơn cho tuổi thọ pin; phần bảo quản dặn không cất giữ xe khi dung lượng pin nhỏ hơn 20%.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-quantum-s/",
+      "supports": "Hướng dẫn Dat Bike Quantum S, phần bảo quản pin: không cất giữ xe khi dung lượng pin điện nhỏ hơn 20%.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-quantum-s/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-quantum-s/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-quantum-s/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-quantum-s/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 829,
+        "title": "Hướng dẫn thủ tục thuê xe máy Hà Nội – Đơn giản, tiện lợi",
+        "why": "stale",
+        "content_hash": "5b8010b61945786c117f1063813ecc18303c498313d7b437d198ac51207abeaf",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2550,
+        "title": "Thủ tục sang tên xe máy cũ gồm những bước nào theo quy định hiện nay?",
+        "why": "stale",
+        "content_hash": "bbb2cdb8032f56b92d9bccf003c045dc66a520285ee21afc89e36f956c1cf093",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2598,
+        "title": "Thuê hay mua xe máy khi ở Hà Nội từ một đến ba tháng thì hợp lý hơn?",
+        "why": "stale",
+        "content_hash": "f30e620f60320b130c5faa8dc1ea87f3d7cb2743018e4e55126b3a15e9598278",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4048,
+        "title": "Thuê xe máy Hà Nội khi xe cá nhân đang sửa: chọn kỳ thuê và gia hạn nếu gara trễ",
+        "why": "stale",
+        "content_hash": "5eaf7d3b4d760f2a4ab0df94807fe114a8927ceb0af3b0ea5d1d59453a46f20d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T19:50:07.883814+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "2a30542a28355a0e409f7c1c6fca6cbbb8946a865cb669b1cc880774df56005a",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

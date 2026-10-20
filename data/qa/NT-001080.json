@@ -1,0 +1,238 @@
+{
+  "topic_id": "NT-001080",
+  "status": "PASS",
+  "source_sha256": "a73504553eca31656cf78eb535a83726d6de28090554a209d91e41b240c82f12",
+  "body_sha256": "06859973a099b1fb6efc532b23650349c493c46e4a67838efd7714f2bb4fa5a5",
+  "word_count": 2308,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Sách Dat Bike ERA mục 2.15: xe có bộ sạc tích hợp; cụm động cơ nóng trong lúc sạc là hiện tượng bình thường.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Sách Dat Bike ERA mục 2.15: động cơ có thể phát ra tiếng ồn khi sạc và việc di chuyển xe có thể đổi cường độ âm thanh (không gắn nhãn bình thường cho tiếng ồn).",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Sách Dat Bike ERA mục 2.15: còi tự kích hoạt khi sạc là hiện tượng bất thường, cần ngừng sạc và liên hệ Dat Bike.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Sách Dat Bike ERA mục 2.15: bước cân chỉnh trục động cơ thủ công khi bật chân chống nghiêng, hãng ghi giúp loại bỏ tiếng ồn động cơ khi sạc.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "supports": "Hướng dẫn sạc pin xe điện của Dat Bike (bộ sạc rời của Quantum): mùi lạ, tiếng kêu lạ hoặc nhiệt độ tăng quá cao thì dừng sạc ngay và liên hệ nhà sản xuất.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "supports": "Hướng dẫn sạc của Dat Bike nêu nhiệt độ sạc tối đa 65°C và pin tự ngắt sạc khi vượt mốc này (không nói mốc đo ở đâu).",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+      "supports": "Bài Yamaha Motor Việt Nam về sạc Yamaha NEO's (đăng 26/04/2023): bộ sạc phát tiếng ồn bất thường, mùi hôi hoặc khói thì rút phích cắm ngay, mang đến đại lý, không tự sửa.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+      "supports": "Bài Yamaha về NEO's: pin nóng thì chờ nguội bằng nhiệt độ môi trường, không ép nguội bằng tủ lạnh; có chế độ chờ sạc tự động bảo vệ pin khi quá nóng hoặc quá lạnh.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2610,
+        "title": "Top địa điểm du lịch đẹp ở Hà Nội: Đi đâu, chơi gì và check-in ở đâu?",
+        "why": "stale",
+        "content_hash": "aa42ffbfca0e3b4188fde1e3cf3a06d9f9b9496580487304e5dbbd316db1a856",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T19:50:35.871476+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "2bd8a2580f4d8a2b2ef8177b7093a5f34f485543bba1e9a578786e831493578b",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

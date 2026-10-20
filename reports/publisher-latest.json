@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-20T19:43:14.663124+00:00",
-  "attempted": 4,
+  "at": "2026-10-20T19:51:35.100093+00:00",
+  "attempted": 8,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -24,7 +24,7 @@
       "action": "manual reconciliation; never create/update automatically"
     },
     {
-      "topic_id": "NT-000762",
+      "topic_id": "NT-000763",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 176,
       "category_resolution": "EXACT",
@@ -32,7 +32,23 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-000962",
+      "topic_id": "NT-000766",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 176,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000963",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 163,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "rental-procedures",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000964",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 164,
       "category_resolution": "EXACT",
@@ -40,7 +56,15 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001074",
+      "topic_id": "NT-001007",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 161,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "road-safety",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001069",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 168,
       "category_resolution": "EXACT",
@@ -48,11 +72,19 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001079",
+      "topic_id": "NT-001075",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 168,
       "category_resolution": "EXACT",
       "intended_taxonomy_key": "electric-tech",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001080",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 160,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-maintenance",
       "category_warning": null
     },
     {
@@ -212,11 +244,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-20T19:43:00.889581+00:00",
+      "at": "2026-10-20T19:51:20.510102+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "35b6734cdea489b4dd8ca378df5118999c6953c00f4eb05911fda57b655a043f",
+      "inventory_sha256": "b011548acc37b14964f108e9fac30dcd1a71cd6675e381e35e70b48e37f0d607",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -382,11 +414,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-20T19:43:08.423810+00:00",
+      "at": "2026-10-20T19:51:28.313653+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "35b6734cdea489b4dd8ca378df5118999c6953c00f4eb05911fda57b655a043f",
+      "inventory_sha256": "b011548acc37b14964f108e9fac30dcd1a71cd6675e381e35e70b48e37f0d607",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -561,11 +593,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-20T19:43:14.555918+00:00",
+      "at": "2026-10-20T19:51:34.990003+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "35b6734cdea489b4dd8ca378df5118999c6953c00f4eb05911fda57b655a043f",
+      "inventory_sha256": "b011548acc37b14964f108e9fac30dcd1a71cd6675e381e35e70b48e37f0d607",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
