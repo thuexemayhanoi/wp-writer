@@ -17774,6 +17774,25 @@
         "seo_description": "Giải thích điện áp 48V, 60V và 72V của xe máy điện là điện áp danh định của cả bộ pin nối tiếp, qua số vôn ghi trong tài liệu của Yadea, Dat Bike, Yamaha và VinFast.",
         "checked_at": "2026-10-20T19:49:32.456385+00:00"
       }
+    },
+    "NT-001075": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-20T19:50:08.005649+00:00",
+      "source_hash": "3ff80849aeaa198d965cef8b8061cb5d9ce6967a4086160876033b20d2aad8e6",
+      "slug": "tinh-nang-bao-ve-turtle-tren-xe-dat-bike-khi-nao-tu-bat-luc-pin-thap-thoc-ga-hay-len-doc-va-cach-thoat",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 168,
+      "visible_hash": "934f1c9fc424a59c134153a3a84b79b3d5074667756284965d6c83ab190af391",
+      "first_paragraph": "Tính năng bảo vệ Turtle trên xe máy điện Dat Bike là cơ chế tự kích hoạt khi xe xả dòng điện cao lúc dung lượng pin đang ở mức thấp, nhằm hạn chế việc pin tụt đột ngột về 0%, theo hướng dẫn sử dụng ERA (mục 2.10) và Quantum S (mục 2.13) đọc ngày 20/10/2026. Hai sổ cho biết Turtle có thể bật khi xe đang chạy ở chế độ D hoặc S, ví dụ khi thốc ga hoặc lên dốc làm pin giảm đột ngột xuống mức thấp; riêng sổ Quantum S nêu cách thoát là nhả tay ga rồi nhấn công tắc đa chức năng. Sổ không nêu mức pin cụ thể và không nói xe phản ứng ra sao khi Turtle bật, nên bài này không đưa ngưỡng phần trăm hay mức giảm công suất.",
+      "meta_title": "Tính năng bảo vệ Turtle xe máy điện Dat Bike: khi nào bật, cách thoát",
+      "meta_description": "Tính năng bảo vệ Turtle xe máy điện Dat Bike tự bật khi xả dòng cao lúc pin thấp, như thốc ga hoặc lên dốc; sổ Quantum S nêu cách thoát, sổ ERA không nêu.",
+      "intended_taxonomy_key": "electric-tech",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "9d736881aae4fe1cc9af917d451851dbc56889da",
+      "run_id": "39485788336",
+      "updated_at": "2026-10-20T19:50:08.007075+00:00"
     }
   },
   "categories": {}
