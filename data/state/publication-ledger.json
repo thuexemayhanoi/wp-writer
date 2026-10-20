@@ -18413,7 +18413,7 @@
       }
     },
     "NT-000770": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T20:04:15.876886+00:00",
       "source_hash": "c2a7b4ed415dcb53187bf735c84616e02a2c0db8cbd7d51b8c039094866ed384",
       "slug": "nguoi-di-xe-lan-nguoi-cao-tuoi-di-metro-ha-noi-cong-soat-ve-rieng-thang-may-gach-xuc-giac-va-nho-nhan-vien-ga",
@@ -18429,8 +18429,37 @@
       "category_warning": null,
       "git_commit": "c81c0ee2a88510e48d97f0e7682e4e682ece0276",
       "run_id": "39488377714",
-      "updated_at": "2026-10-20T20:04:20.973508+00:00",
-      "wp_id": 4377
+      "updated_at": "2026-10-20T20:04:27.499660+00:00",
+      "wp_id": 4377,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nguoi-di-xe-lan-nguoi-cao-tuoi-di-metro-ha-noi-cong-soat-ve-rieng-thang-may-gach-xuc-giac-va-nho-nhan-vien-ga/",
+      "verified_at": "2026-10-20T20:04:27.499652+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4377,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nguoi-di-xe-lan-nguoi-cao-tuoi-di-metro-ha-noi-cong-soat-ve-rieng-thang-may-gach-xuc-giac-va-nho-nhan-vien-ga/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nguoi-di-xe-lan-nguoi-cao-tuoi-di-metro-ha-noi-cong-soat-ve-rieng-thang-may-gach-xuc-giac-va-nho-nhan-vien-ga/",
+        "seo_title": "Người đi xe lăn đi metro Hà Nội: cổng riêng, thang máy, gạch xúc giác",
+        "seo_description": "Người đi xe lăn đi metro Hà Nội: cổng soát vé riêng, nhờ nhân viên ga, thang máy theo mô tả thiết kế 2023, gạch xúc giác dẫn đường và điều nguồn chưa nói.",
+        "checked_at": "2026-10-20T20:04:27.499635+00:00"
+      }
     }
   },
   "categories": {}
