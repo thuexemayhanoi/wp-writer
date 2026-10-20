@@ -16451,6 +16451,25 @@
         "seo_description": "Đền Bà Chúa Kho ở Bắc Ninh: thờ ai, ngày giỗ 12 tháng Giêng, hội 12–15 tháng Giêng, tục vay lộc đầu năm và trả lễ cuối năm, các khu trong đền, lễ vật và lưu ý dịp đông.",
         "checked_at": "2026-10-20T09:37:06.640734+00:00"
       }
+    },
+    "NT-000931": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-20T09:40:47.350426+00:00",
+      "source_hash": "6a305e536ff38df829a3b3b6dc70a41344bf22425b88d80335fb5b22a48d4139",
+      "slug": "thu-tu-cam-sac-xe-may-dien-cam-vao-xe-hay-vao-o-dien-truoc-khi-vinfast-va-dat-bike-dan-nguoc-nhau",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 167,
+      "visible_hash": "b8ad2c7d1abff98928598327394976b82ebdf51f9cd60241502894ce91cfab42",
+      "first_paragraph": "Thứ tự cắm sạc xe máy điện không có một đáp án chung cho mọi xe, vì chính các hãng dặn khác nhau: theo các trang đọc ngày 19/10/2026, VinFast (hướng dẫn Evo200 Lite và trang pin lithium) cùng Yadea dặn cắm đầu sạc vào xe trước rồi mới cắm phích vào ổ điện, còn Dat Bike dặn ngược lại là cắm vào ổ điện trước rồi mới cắm phích vào xe, và các bước sạc Yamaha NEO's cũng đặt việc kết nối phích cắm điện vào ổ cắm trước khi cắm phích sạc vào đầu nối. Câu trả lời đúng cho xe của bạn vì thế là thứ tự ghi trong sổ tay của đúng mẫu xe và bộ sạc đi kèm. Phần các hãng gần như thống nhất là: tắt xe trước khi cắm và rút, khi rút thì rút phích khỏi ổ điện trước rồi mới rút giắc ở xe, và chờ khoảng 30 giây sau khi cắm sạc mới bật khóa điện.",
+      "meta_title": "Thứ tự cắm sạc xe máy điện: cắm vào xe hay vào ổ điện trước?",
+      "meta_description": "Thứ tự cắm sạc xe máy điện theo trang VinFast, Yadea, Dat Bike, Yamaha và V-GREEN: cắm vào xe hay ổ điện trước, thứ tự rút, khoảng chờ 30 giây và khi nào nên hỏi hãng.",
+      "intended_taxonomy_key": "battery-charging",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "adce8da66f14883f0ab033ed5eae837c623dc65a",
+      "run_id": "39401831475",
+      "updated_at": "2026-10-20T09:40:47.351739+00:00"
     }
   },
   "categories": {}
