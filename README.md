@@ -1,5 +1,8 @@
 # WP-WRITER — UNIVERSAL AI CONTENT FACTORY FOR WORDPRESS
 
+> **MỚI 20/10/2026 — 3 EXCEL × 494 TIÊU ĐỀ (1.482):** [Quy trình AI từ A–Z, bắt đầu ở đây](docs/TITLE-PLAN-1482-SOP.md) · [Ba file Excel và status](editorial/title-plan-1482/README.md) · chạy `python scripts/title_plan_next.py --limit 3` để đọc ngắn. **Excel nội bộ này là nguồn chọn chủ đề; Registry `data/topics.jsonl` mới cấp PLANNED / Writer claim; Publisher chỉ đăng QA PASS và G7 mới đánh dấu Excel.** Tuyệt đối không nhét `excel`, tên file, TP-ID vào URL. Không liên quan Excel Nguyễn Hà bên `wp-aiwriter`. 
+
+
 **Quy trình vận hành chung hiện hành:** [W1–W9 nghiên cứu/viết liên tục bằng AI App, không API AI](docs/WRITER-RESEARCH-CONTRACT.md). Một nguồn gốc đã xác minh có thể đủ cho chủ đề hẹp; thêm nguồn đối chiếu khi cần. QA không đổi, không thêm khóa hoặc bước duyệt tay.
 
 **Writer pool (18/10/2026):** W1–W9 là 9 vị trí dùng chung hàng đợi. Claude App/AI App tự nhận vị trí trống bằng `--slot auto` (hoặc request GitHub), mỗi phiên giữ tối đa một vị trí và tối đa 10 Topic ID. Không cấp khóa Ed25519, không xác thực tài khoản Claude, không dùng API AI. Giữ nguyên lease còn hạn, checkpoint, chống trùng Topic ID và QA/Publisher đang chạy; Publisher tiếp tục đăng 2 bài mỗi lô.
@@ -26,9 +29,9 @@
 > **Topic Discovery V3:** [Autonomous research queue → external AI researcher → Topic QA → W1–W9](docs/AUTONOMOUS-TOPIC-RESEARCH.md). Runs every 6h without AI API keys, gathering public RSS *leads* plus topical gaps, capped at 20 ideas/batch and 300 pending; discovery proposal capacity 10,000. **This is not an LLM doing autonomous factual research**: external AI researchers must independently verify and submit evidence before an idea becomes PLANNED. Canonical intake remains approved only to 1,000; WordPress Production is ON (owner order 2026-10-17): only QA-PASS articles written from PLANNED topics are published.
 
 > **Factory Operations V2:** [Liveness + queue/refill + Writer request safety + post-publish SEO QA](docs/FACTORY-OPERATIONS-V2.md). Adapted from /blog and /global patterns for native WordPress. The new read-only checks never turn on staging or production and do not imply articles have been published.
-## Workflow không Excel — Topic Registry + WordPress REST
+## Workflow: Excel kế hoạch mới + Topic Registry + WordPress REST
 
-Khác **wp-aiwriter** sử dụng Excel cố định (data/topics.json), **wp-writer** dùng **data/topics.jsonl** chứa topic ID/title/intent/canonical/taxonomy_key; **data/taxonomy.json** chứa toàn bộ danh mục cha/con. Không nhập Excel, không dừng tại ranh giới chuyên mục và không suy category từ tiêu đề bài.
+Khác **wp-aiwriter** sử dụng Excel cố định (data/topics.json), **wp-writer** dùng **data/topics.jsonl** chứa topic ID/title/intent/canonical/taxonomy_key; **data/taxonomy.json** chứa toàn bộ danh mục cha/con. Không nhập Excel Nguyễn Hà hay Excel của website khác. Riêng 3 bảng Excel **Nguyễn Tú** dùng chọn đề tài đầu vào nghiên cứu, không thay thế Topic Registry và không suy category từ tiêu đề bài.
 
 **AI bên ngoài → W1–W9 claim → posts/drafts/NT-XXXXXX.md → GitHub QA PASS → Publisher → WordPress REST.** Khi Production thực sự bật: khớp chính xác category leaf và toàn bộ parent ancestry mới public; thiếu/sai thì nháp; trùng slug/title/marker hoặc có trong ledger thì skip/đối soát, không tạo lại. Không cần chờ cron; cron :17/:47 là fallback.
 
