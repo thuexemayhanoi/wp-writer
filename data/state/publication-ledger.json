@@ -16255,6 +16255,25 @@
         "seo_description": "Bảng mã lỗi VinFast Feliz S theo sổ hướng dẫn: 31 mã của tay ga, MCU, BMS và mất tín hiệu nghĩa là gì, sổ khuyên làm gì và khi nào nên liên hệ nhà phân phối ủy quyền.",
         "checked_at": "2026-10-20T09:34:03.380813+00:00"
       }
+    },
+    "NT-001067": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-20T09:34:45.341580+00:00",
+      "source_hash": "a39e276c9b3e6fccc462536918d35ad4b647ad277891ec5c52cc9504d5f1c316",
+      "slug": "xe-may-dien-co-can-thay-nhot-khong-dau-hop-so-dau-phanh-va-mo-xich-tren-tung-mau-xe",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 160,
+      "visible_hash": "a7f2d1e40625ac47b17827151b3c6d090cdc316f448c079432996abf53ded3c6",
+      "first_paragraph": "Xe máy điện có cần thay nhớt không là câu hỏi mà tài liệu của chính các hãng trả lời khá rõ, nhưng theo hai lớp. Lớp thứ nhất là động cơ: trang kỹ thuật về động cơ của Dat Bike viết rằng so với xe xăng, động cơ xe máy điện cần bảo dưỡng ít hơn rất nhiều, người dùng không cần thay nhớt, không lo vệ sinh bugi hay lọc gió; FAQ của hãng nói thẳng Weaver 200 không cần thay nhớt định kỳ như xe xăng vì không có hệ truyền động qua nhông sên dĩa. Lớp thứ hai là những thứ còn lại trên xe: dầu phanh vẫn phải kiểm tra và thay ở đại lý (sổ Feliz S và Theon ghi DOT 4, hướng dẫn Quantum ghi DOT 3 hoặc DOT 4), xe có xích như Theon, Quantum hay Weaver++ vẫn cần dầu hoặc dung dịch bôi trơn xích, và riêng Theon có hộp số bánh răng nên lịch bảo dưỡng trong sổ có hẳn hàng \"dầu hộp số\" với ký hiệu thay thế. Câu trả lời ngắn vì thế là: không có nhớt động cơ để thay, nhưng có vài loại dầu, mỡ khác mà sổ của từng mẫu xe liệt kê.",
+      "meta_title": "Xe máy điện có cần thay nhớt không? Dầu hộp số, dầu phanh và mỡ xích",
+      "meta_description": "Xe máy điện có cần thay nhớt không: động cơ điện không dùng nhớt theo Dat Bike, nhưng dầu phanh DOT, dầu hộp số của Theon và dầu bôi trơn xích vẫn phải theo dõi theo sổ từng xe.",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "7c2678e9b9b10444d2bdc818777144b2c81d7aee",
+      "run_id": "39400846844",
+      "updated_at": "2026-10-20T09:34:45.343511+00:00"
     }
   },
   "categories": {}
