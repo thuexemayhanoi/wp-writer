@@ -17725,6 +17725,25 @@
         "seo_description": "13 trường hợp người đi xe máy phải quan sát, giảm tốc độ hoặc dừng lại theo Điều 12 Luật 36/2024, xếp theo bốn nhóm, kèm mức phạt 10–14 triệu khi gây tai nạn.",
         "checked_at": "2026-10-20T19:48:57.573107+00:00"
       }
+    },
+    "NT-001069": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-20T19:49:19.028080+00:00",
+      "source_hash": "a67b038d74b80da66fd4670741fbdd58f2f5ad202f5877b6a823cbf7abd66076",
+      "slug": "dien-ap-48v-60v-va-72v-cua-xe-may-dien-vi-sao-moi-hang-ghi-mot-so-von-khac-nhau",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 168,
+      "visible_hash": "36d0458d51547c884865d485c9241a099f322e814478ae282f4463d8bb601971",
+      "first_paragraph": "Điện áp 48V, 60V và 72V của xe máy điện là điện áp danh định của cả bộ pin hoặc ắc quy, được tạo ra khi nhiều cell hoặc nhiều bình nối tiếp cộng điện áp lại, nên mỗi hãng chọn số cell, loại pin và số vôn khác nhau. Con số này là mức ghi trên nhãn và bảng thông số, không phải điện áp đo được ở mọi lúc, và một mình nó không cho biết xe nhanh hơn, đi xa hơn hay pin tốt hơn; muốn so hai xe phải đọc thêm dung lượng, loại pin và tài liệu của đúng mẫu xe.",
+      "meta_title": "Điện áp 48V, 60V và 72V xe máy điện: vì sao mỗi hãng ghi khác nhau",
+      "meta_description": "Giải thích điện áp 48V, 60V và 72V của xe máy điện là điện áp danh định của cả bộ pin nối tiếp, qua số vôn ghi trong tài liệu của Yadea, Dat Bike, Yamaha và VinFast.",
+      "intended_taxonomy_key": "electric-tech",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "9d736881aae4fe1cc9af917d451851dbc56889da",
+      "run_id": "39485788336",
+      "updated_at": "2026-10-20T19:49:19.029949+00:00"
     }
   },
   "categories": {}
