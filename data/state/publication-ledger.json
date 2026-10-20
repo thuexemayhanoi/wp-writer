@@ -17531,7 +17531,7 @@
       }
     },
     "NT-000766": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T19:46:36.010412+00:00",
       "source_hash": "0dec9b15db4b16a3c13248a040dd05fc7e2dbba2b6fe7c93839deb00323294d6",
       "slug": "ve-thang-uu-dai-metro-ha-noi-hoc-sinh-sinh-vien-cong-nhan-kcn-giam-50-dang-ky-tren-app-va-ho-so-tai-quay",
@@ -17547,8 +17547,37 @@
       "category_warning": null,
       "git_commit": "9d736881aae4fe1cc9af917d451851dbc56889da",
       "run_id": "39485788336",
-      "updated_at": "2026-10-20T19:46:41.395755+00:00",
-      "wp_id": 4359
+      "updated_at": "2026-10-20T19:46:47.729034+00:00",
+      "wp_id": 4359,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ve-thang-uu-dai-metro-ha-noi-hoc-sinh-sinh-vien-cong-nhan-kcn-giam-50-dang-ky-tren-app-va-ho-so-tai-quay/",
+      "verified_at": "2026-10-20T19:46:47.729026+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4359,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ve-thang-uu-dai-metro-ha-noi-hoc-sinh-sinh-vien-cong-nhan-kcn-giam-50-dang-ky-tren-app-va-ho-so-tai-quay/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ve-thang-uu-dai-metro-ha-noi-hoc-sinh-sinh-vien-cong-nhan-kcn-giam-50-dang-ky-tren-app-va-ho-so-tai-quay/",
+        "seo_title": "Vé tháng ưu đãi metro Hà Nội: giá, cách đăng ký và hồ sơ tại quầy",
+        "seo_description": "Vé tháng ưu đãi metro Hà Nội cho học sinh, sinh viên, công nhân KCN giảm 50%: bảng giá 1–12 tháng, cách đăng ký trên app, hồ sơ tại quầy và khi bị từ chối.",
+        "checked_at": "2026-10-20T19:46:47.729005+00:00"
+      }
     }
   },
   "categories": {}
