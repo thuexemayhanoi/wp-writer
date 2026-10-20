@@ -104,18 +104,18 @@ class QATests(unittest.TestCase):
         with patch('qa.ROOT',self.root):return evaluate(self.path,self.topic,rows=[self.topic],inv=self.inv,check_claim=False,**kwargs)
     def test_valid_technical_fixture_passes(self):self.assertEqual(self.runqa()['status'],'PASS')
 
-    def test_seo_84_blocks_even_when_other_gates_pass(self):
-        with patch('qa.seo_onpage_score', return_value=(84, {'fixture': {'points': 84, 'max': 100}}, ['Improve relevant meta'])):
+    def test_seo_75_blocks_even_when_other_gates_pass(self):
+        with patch('qa.seo_onpage_score', return_value=(75, {'fixture': {'points': 75, 'max': 100}}, ['Improve relevant meta'])):
             result=self.runqa()
         self.assertEqual(result['status'], 'FAIL')
-        self.assertEqual(result['seo_score'], 84)
-        self.assertIn('SEO_SCORE_BELOW_MIN:84/85', result['errors'])
+        self.assertEqual(result['seo_score'], 75)
+        self.assertIn('SEO_SCORE_BELOW_MIN:75/76', result['errors'])
 
-    def test_seo_exactly_85_can_pass_if_other_gates_pass(self):
-        with patch('qa.seo_onpage_score', return_value=(85, {'fixture': {'points': 85, 'max': 100}}, [])):
+    def test_seo_exactly_76_can_pass_if_other_gates_pass(self):
+        with patch('qa.seo_onpage_score', return_value=(76, {'fixture': {'points': 76, 'max': 100}}, [])):
             result=self.runqa()
         self.assertEqual(result['status'], 'PASS')
-        self.assertEqual(result['seo_min_required'], 85)
+        self.assertEqual(result['seo_min_required'], 76)
 
     def test_below_1600_fails(self):self.assertEqual(self.runqa(self.body(1000))['status'],'FAIL')
     def test_above_5000_fails(self):self.assertEqual(self.runqa(self.body(5100))['status'],'FAIL')
@@ -136,7 +136,7 @@ class QATests(unittest.TestCase):
         body = self.body() + '\n\nNguồn kỹ thuật chính hãng: [Dat Bike](https://datbike.vn/quantum), [VinFast](https://vinfastauto.com/).'
         result = self.runqa(body)
         self.assertEqual(result['status'], 'PASS')
-        self.assertGreaterEqual(result['seo_score'], 85)
+        self.assertGreaterEqual(result['seo_score'], 76)
         self.assertFalse(any('UNSAFE_OUTBOUND_URL' in e for e in result['gates']['5']['errors']))
 
     def test_social_and_google_maps_are_allowed_by_g5(self):

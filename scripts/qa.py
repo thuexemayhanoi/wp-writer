@@ -369,11 +369,65 @@ def source_excerpt_matches(excerpt, source_text):
         offset = pos + 1
 
 
-def verify_sources(sources, live=False, trusted_research=None, legal=False):
+def source_references_advisory(sources, live=False, legal=False):
+    """Track changing source references for later audit without blocking publication.
+
+    URLs must still be safe HTTPS; G3 independently requires an official URL
+    for legal discussion. Nothing unprobed is labeled live-verified.
+    """
+    rules = load('config/qa-rules.json')
+    errors, evidence = [], []
+    for source in sources:
+        if not isinstance(source, dict) or not allowed_source(source.get('url', '')):
+            errors.append('Source URL is not safe public HTTPS')
+            continue
+        url = source['url']
+        warnings = []
+        checked = source.get('checked_at')
+        try:
+            date_checked = dt.date.fromisoformat(str(checked)[:10])
+            maximum = (rules.get('legal_source_max_age_days', 90)
+                       if legal and allowed_source(url, True)
+                       else rules.get('source_max_age_days', 365))
+            age = (dt.date.today() - date_checked).days
+            if age < 0 or age > maximum:
+                warnings.append('SOURCE_DATE_RECHECK_DUE')
+        except (ValueError, TypeError):
+            warnings.append('SOURCE_DATE_NOT_VERIFIED')
+        if not str(source.get('supports', '')).strip():
+            warnings.append('SOURCE_CLAIM_NOT_DESCRIBED')
+        if not str(source.get('evidence_text', '')).strip():
+            warnings.append('SOURCE_EXCERPT_NOT_RECORDED')
+        if not re.fullmatch(r'[a-f0-9]{64}', str(source.get('source_sha256', ''))):
+            warnings.append('SOURCE_SNAPSHOT_NOT_VERIFIED')
+        record = {'url': url, 'supports': source.get('supports', ''),
+                  'checked_at': checked, 'live_checked': False,
+                  'verification_method': 'reference_only', 'warnings': warnings}
+        if live:
+            try:
+                raw, attempts = read_source(url, rules.get('source_live_retry_attempts', 1))
+                text = visible(raw)
+                record.update({'live_checked': True, 'verified_at': now(),
+                               'verification_method': 'live_reference',
+                               'sha256': digest(text)})
+                excerpt = source.get('evidence_text')
+                if excerpt and not source_excerpt_matches(excerpt, text):
+                    warnings.append('SOURCE_EXCERPT_CHANGED_REVIEW_LATER')
+            except Exception as exc:
+                warnings.append('SOURCE_NOT_REACHABLE_REVIEW_LATER: ' + failure_label(exc))
+        else:
+            warnings.append('SOURCE_NOT_PROBED_AT_PUBLISH')
+        evidence.append(record)
+    return errors, evidence
+
+
+def verify_sources(sources, live=False, trusted_research=None, legal=False, advisory=False):
     """Live-check when possible; preserve a clearly marked researched snapshot
     on transient network errors. An unreachable source is not a fake live check.
     Missing, altered or unsupported evidence still requires review.
     """
+    if advisory:
+        return source_references_advisory(sources, live=live, legal=legal)
     import urllib.error
     errors = []
     evidence = []
@@ -522,9 +576,11 @@ def evaluate(path,topic,rows=None,inv=None,link_checker=None,live=False,check_cl
     legal=bool(re.search(r'luật|nghị định|mức phạt|bằng lái|giấy phép|quy định pháp',body,re.I))
     sources=meta.get('sources',[])
     if legal and not any(allowed_source(s.get('url',''),True) for s in sources):g3['review'].append('Legal claim needs current official source')
+    advisory_sources = rules.get('source_policy') == 'reference_advisory'
     source_errors,source_evidence=verify_sources(
-        sources,live,trusted_research=(topic.get('research') or {}).get('external_sources',[]),
-        legal=legal)
+        sources,live and (not advisory_sources or rules.get('source_live_probe_enabled',False)),
+        trusted_research=(topic.get('research') or {}).get('external_sources',[]),
+        legal=legal,advisory=advisory_sources)
     g3['review']+=source_errors
     if re.search(r'\d',body) and not sources and not meta.get('business_claims'):g3['review'].append('Numeric claims need cited evidence')
     if re.search(r'(?i)tôi đã (?:thử|chạy|trải nghiệm)|khách hàng đánh giá 5|100% an toàn',body):g3['review'].append('Unverified experience/review/absolute claim')
@@ -582,6 +638,8 @@ def evaluate(path,topic,rows=None,inv=None,link_checker=None,live=False,check_cl
         'quality_score':quality,'seo_score':seo,'seo_min_required':rules['seo_min'],
         'seo_checks':seo_checks,'seo_recommendations':seo_recommendations,
         'gates':gates,'errors':errors,'review':reviews,'source_evidence':source_evidence,
+        'source_advisories':[{'url':item['url'],'warnings':item['warnings']} for item in source_evidence
+                             if item.get('warnings')],
         'evidence_recheck':recheck,
         'at':now(),'live_links_checked':live,'legal_required':legal,'rules_sha256':digest(json.dumps(rules,sort_keys=True)),
         'inventory_sha256':digest(json.dumps(inv,ensure_ascii=False,sort_keys=True))}

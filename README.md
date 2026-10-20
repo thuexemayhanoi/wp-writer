@@ -1,3 +1,5 @@
+**QUY ĐỊNH MỚI CỦA CHỦ SỞ HỮU — 20/10/2026:** Ngưỡng SEO **≥76/100** và Quality **≥76/100** (trên 75), theo `config/qa-rules.json`. G3 nguồn ngoài là **tham khảo có cảnh báo để audit sau**, không chặn bài chỉ vì trích dẫn đổi câu chữ, ngày kiểm tra cũ, 404 hoặc nguồn tạm không mở được. Chưa đọc live phải ghi `live_checked=false`, ghi `source_advisories`; không gọi đó là đã xác minh. Giữ chặn nguồn URL không an toàn, nguồn pháp luật không có URL chính thức, giá/địa chỉ sai, bịa trải nghiệm, sai URL/canonical/danh mục, trùng bài, Writer receipt và G7. Các câu cũ ghi ngưỡng 85 hay bắt nguồn khớp nguyên văn đã **hết hiệu lực**. Không chỉnh điểm JSON, không bỏ gate.
+
 # WP-WRITER — UNIVERSAL AI CONTENT FACTORY FOR WORDPRESS
 
 > **MỚI 20/10/2026 — 3 EXCEL × 494 TIÊU ĐỀ (1.482):** [Quy trình AI từ A–Z, bắt đầu ở đây](docs/TITLE-PLAN-1482-SOP.md) · [Ba file Excel và status](editorial/title-plan-1482/README.md) · chạy `python scripts/title_plan_next.py --limit 3` để đọc ngắn. **Excel nội bộ này là nguồn chọn chủ đề; Registry `data/topics.jsonl` mới cấp PLANNED / Writer claim; Publisher chỉ đăng QA PASS và G7 mới đánh dấu Excel.** Tuyệt đối không nhét `excel`, tên file, TP-ID vào URL. Không liên quan Excel Nguyễn Hà bên `wp-aiwriter`. 
@@ -11,13 +13,13 @@
 > **QUY TRÌNH ĐƠN GIẢN — ĐANG CHẠY (lệnh chủ 17/10/2026)**
 >
 > 1. **W1–W9 viết bài** từ chủ đề PLANNED (`scripts/writer-session.py`).
-> 2. **QA ≥85 + kiểm tra trùng + danh mục** (G1–G6, `scripts/qa.py`). Lỗi mạng được thử lại tối đa 3 lần; Claude tự sửa nội dung tối đa 10 lượt và lưu checkpoint theo Topic ID + session; chỉ bài có rủi ro thật (trùng URL/intent, sai danh mục, nguồn không xác minh được, sai pháp lý/giá) bị giữ riêng, và không chặn bài khác.
+> 2. **QA ≥76 + kiểm tra trùng + danh mục** (G1–G6, `scripts/qa.py`). Lỗi mạng được thử lại tối đa 3 lần; Claude tự sửa nội dung tối đa 10 lượt và lưu checkpoint theo Topic ID + session; chỉ bài có rủi ro thật (trùng URL/intent, sai danh mục, nguồn không xác minh được, sai pháp lý/giá) bị giữ riêng, và không chặn bài khác.
 > 3. **Publisher → WordPress công khai**, tự kích hoạt ngay sau QA thành công trên `main` (cron :17/:47 chỉ là dự phòng); G7 xác minh ID, URL, trạng thái và SEO meta sau đăng. **Trạng thái: ĐÃ kích hoạt tự động** (`production_enabled=true`).
 >
 > Không có bước duyệt tay; `acceptance_passed` và `security_controls_verified` không chặn đăng. Dừng khẩn chỉ bằng `paused` / `emergency_stop` trong `config/production-policy.json` (chỉ chủ đổi). Chỉ coi là đã đăng khi ledger có `phase=VERIFIED` và URL công khai mở được.
 
 
-> **SEO QA V2 / Website chính:** Bài mới chỉ đủ điều kiện WordPress **Published** khi **SEO ≥85/100**, Quality ≥85 và cả sáu cổng đều PASS. QA chấm title/meta, câu trả lời đầu bài, H2, linking, anchor, URL theo intent; SEO 84 → FAIL/REPAIR. Không bắt buộc ảnh/FAQ/CTA quảng cáo cho mọi bài. Xem [SEO QA V2](docs/SEO-QA-V2.md). **Production BẬT từ 17/10/2026** (lệnh chủ); ngưỡng QA không đổi.
+> **SEO QA V2 / Website chính:** Bài mới chỉ đủ điều kiện WordPress **Published** khi **SEO ≥76/100**, Quality ≥76 và cả sáu cổng đều PASS. QA chấm title/meta, câu trả lời đầu bài, H2, linking, anchor, URL theo intent; SEO 84 → FAIL/REPAIR. Không bắt buộc ảnh/FAQ/CTA quảng cáo cho mọi bài. Xem [SEO QA V2](docs/SEO-QA-V2.md). **Production BẬT từ 17/10/2026** (lệnh chủ); ngưỡng QA không đổi.
 
 
 **AI bên ngoài — một lệnh để bắt đầu:** [AI-START-HERE.md](docs/AI-START-HERE.md). Nhận tối đa 10 chủ đề, QA từng bài, tự nộp và nhận tiếp; không xin duyệt từng bài. Publisher nối ngay sau QA và **Production đang BẬT** (lệnh chủ 17/10/2026): bài QA PASS lên WordPress ngay. Chỉ coi là đã đăng khi ledger có `phase=VERIFIED` và URL công khai mở được.
@@ -396,7 +398,7 @@ Kế thừa ý tưởng tốt từ `/blog` và `/wp-aiwriter`, nhưng **không s
 
 ### Điểm QA nội bộ định hướng
 
-- Quality Score **≥85/100** và SEO Score **≥85/100** (ngưỡng hiện hành trong `config/qa-rules.json`; đặc tả gốc ghi 75/70).
+- Quality Score **≥76/100** và SEO Score **≥76/100** (ngưỡng hiện hành trong `config/qa-rules.json`; đặc tả gốc ghi 75/70).
 - Gate riêng `business_fact=PASS`, `legal=PASS|NOT_REQUIRED`, `critical_failure=false`.
 - `90+` chỉ ghi nhãn nội bộ EXCELLENT, **không** đồng nghĩa Google đánh giá tốt hoặc bài có khả năng lên top.
 - Điểm tự động bằng pattern/proxy **không thay thế fact-check thực chất**; nếu không có bằng chứng phải REVIEW thay vì cộng điểm ảo.
@@ -644,7 +646,7 @@ README này là **bản chốt yêu cầu và nguồn hướng dẫn Work**, kh�
 
 ## Global-style Research V2 — chủ đề mới có nghiên cứu và checkpoint
 
-[Research V2 runbook](docs/RESEARCH-V2-GLOBAL-ADAPTATION.md): external AI lấy 10 gợi ý, đối chiếu nội dung WordPress hiện có, kiểm tra nguồn theo [quy định chung](docs/WRITER-RESEARCH-CONTRACT.md) và nhận diện search intent; nộp 10 chủ đề/lượt ở nhánh research/<session> với checkpoint SHA-256. Research QA read-only PASS sẽ kích hoạt trusted-main intake, tự cập nhật topic JSONL thành PLANNED (không Excel). Mất quota/mất môi trường dùng lệnh resume để đọc đúng dữ liệu GitHub, không làm lại nghiên cứu đã nộp. GitHub Actions không tự vận hành mô hình AI; Research Intake không đăng WordPress. Production Publisher đang bật, bài viết vẫn phải SEO/Quality ≥85 và qua đủ 6 cổng QA.
+[Research V2 runbook](docs/RESEARCH-V2-GLOBAL-ADAPTATION.md): external AI lấy 10 gợi ý, đối chiếu nội dung WordPress hiện có, kiểm tra nguồn theo [quy định chung](docs/WRITER-RESEARCH-CONTRACT.md) và nhận diện search intent; nộp 10 chủ đề/lượt ở nhánh research/<session> với checkpoint SHA-256. Research QA read-only PASS sẽ kích hoạt trusted-main intake, tự cập nhật topic JSONL thành PLANNED (không Excel). Mất quota/mất môi trường dùng lệnh resume để đọc đúng dữ liệu GitHub, không làm lại nghiên cứu đã nộp. GitHub Actions không tự vận hành mô hình AI; Research Intake không đăng WordPress. Production Publisher đang bật, bài viết vẫn phải SEO/Quality ≥76 và qua đủ 6 cổng QA.
 
 ## AUTO-REPAIR WRITER — 10 CONTENT REVISIONS (18/10/2026)
 

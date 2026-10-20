@@ -12,7 +12,7 @@ import common
 import writer_repair as repair
 
 
-def qa(sha, status="FAIL", reason="SEO_SCORE_BELOW_MIN:70/85", seo=70):
+def qa(sha, status="FAIL", reason="SEO_SCORE_BELOW_MIN:70/76", seo=70):
     return {
         "status": status, "source_sha256": sha, "seo_score": seo,
         "quality_score": 88, "errors": ([] if status == "PASS" else [reason]),
@@ -108,10 +108,10 @@ class CheckpointTests(unittest.TestCase):
         self.assertNotEqual(a[1], b[1])
         self.assertNotEqual(a[2], b[2])
 
-    def test_qa_rules_remain_unchanged(self):
+    def test_owner_qa_rules_are_consistent(self):
         rules = common.load("config/qa-rules.json")
-        self.assertEqual(rules["seo_min"], 85)
-        self.assertEqual(rules["quality_min"], 85)
+        self.assertEqual(rules["seo_min"], 76)
+        self.assertEqual(rules["quality_min"], 76)
 
 
 class GitBranchPersistenceTests(unittest.TestCase):

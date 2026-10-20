@@ -50,12 +50,12 @@ class SeoV2ScoringTests(unittest.TestCase):
             self.rules
         )
 
-    def test_hundred_point_rubric_and_seo_85_minimum(self):
-        self.assertEqual(self.rules['seo_min'], 85)
+    def test_hundred_point_rubric_and_seo_76_minimum(self):
+        self.assertEqual(self.rules['seo_min'], 76)
         score, breakdown, recommendations = self.score()
         self.assertEqual(sum(item['max'] for item in breakdown.values()), 100)
         self.assertEqual(sum(item['points'] for item in breakdown.values()), score)
-        self.assertGreaterEqual(score, 85)
+        self.assertGreaterEqual(score, self.rules['seo_min'])
         self.assertLessEqual(score, 100)
         self.assertFalse(recommendations)
 
@@ -72,21 +72,21 @@ class SeoV2ScoringTests(unittest.TestCase):
             '[Các bước kiểm tra xe trước khi đi](' + self.u2 + ')', ''
         )
         score, breakdown, _ = self.score(body=short, internal=[self.u1])
-        self.assertGreaterEqual(score, 85)
+        self.assertGreaterEqual(score, self.rules['seo_min'])
         self.assertEqual(breakdown['verified_contextual_links']['points'], 10)
 
     def test_unverified_links_get_no_linking_credit(self):
         score, breakdown, _ = self.score(internal=[])
         self.assertEqual(breakdown['verified_contextual_links']['points'], 0)
         self.assertEqual(breakdown['descriptive_anchor']['points'], 0)
-        self.assertLess(score, 85)
+        self.assertEqual(score, 80)  # G5 orphan still blocks even when score passes
 
     def test_no_forced_photo_faq_or_sales_cta(self):
         self.assertNotIn('![', self.body)
         self.assertNotIn('FAQ', self.body)
         self.assertNotIn('Thuê xe ngay', self.body)
         score, _, _ = self.score()
-        self.assertGreaterEqual(score, 85)
+        self.assertGreaterEqual(score, self.rules['seo_min'])
 
     def test_wrong_canonical_loses_identity_credit(self):
         meta = {**self.meta, 'canonical_target': SITE + '/some-other-url/'}
