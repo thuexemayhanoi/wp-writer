@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-20T09:23:05.481450+00:00",
+  "at": "2026-10-20T09:27:36.643068+00:00",
   "counts": {
-    "WRITING": 60,
+    "WRITING": 58,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 2,
     "PUBLISHING": 0,
-    "VERIFIED": 346
+    "VERIFIED": 348
   },
   "ready_backlog": 0,
-  "in_flight": 62,
+  "in_flight": 60,
   "items": [
     {
       "topic_id": "NT-000761",
@@ -209,18 +209,6 @@
       "state": "WRITING",
       "reason": "leased to seodev-w38",
       "title": "Đổi pin tại trạm tự động Selex: các bước trên màn hình, đổi hai pin liền nhau và khi trạm báo lỗi",
-      "slot": "W4",
-      "session": "seodev-w38",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000936",
-      "state": "WRITING",
-      "reason": "leased to seodev-w38",
-      "title": "Tủ đổi pin xe máy điện V-GREEN: tủ 6 và 12 khoang, 1.000 W mỗi khoang và điều kiện pin được nhận",
       "slot": "W4",
       "session": "seodev-w38",
       "wp_id": null,
@@ -557,18 +545,6 @@
       "state": "WRITING",
       "reason": "leased to seodev-w39",
       "title": "Động cơ xe máy điện hoạt động thế nào: stato, rôto, cảm biến Hall và vai trò của bộ điều khiển",
-      "slot": "W6",
-      "session": "seodev-w39",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001066",
-      "state": "WRITING",
-      "reason": "leased to seodev-w39",
-      "title": "Tắt pin khi để xe lâu: công tắc pin dưới yên VinFast Feliz S và khóa pin trên app Dat Bike",
       "slot": "W6",
       "session": "seodev-w39",
       "wp_id": null,
@@ -4657,6 +4633,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-000936",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Tủ đổi pin xe máy điện V-GREEN: tủ 6 và 12 khoang, 1.000 W mỗi khoang và điều kiện pin được nhận",
+      "slot": "W4",
+      "session": "seodev-w38",
+      "wp_id": 4324,
+      "url": "https://thuexemaynguyentu.com/tu-doi-pin-xe-may-dien-v-green-tu-6-va-12-khoang-1-000-w-moi-khoang-va-dieu-kien-pin-duoc-nhan/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001032",
       "state": "VERIFIED",
       "reason": "publish",
@@ -4893,6 +4881,18 @@
       "session": "seodev-w39",
       "wp_id": 4322,
       "url": "https://thuexemaynguyentu.com/cap-nhat-phan-mem-xe-may-dien-dieu-kien-cach-lam-va-thong-bao-theo-dat-bike-va-vinfast/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001066",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Tắt pin khi để xe lâu: công tắc pin dưới yên VinFast Feliz S và khóa pin trên app Dat Bike",
+      "slot": "W6",
+      "session": "seodev-w39",
+      "wp_id": 4325,
+      "url": "https://thuexemaynguyentu.com/tat-pin-khi-de-xe-lau-cong-tac-pin-duoi-yen-vinfast-feliz-s-va-khoa-pin-tren-app-dat-bike/",
       "qa_status": "PASS",
       "seo_score": 100
     },

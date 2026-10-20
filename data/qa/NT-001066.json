@@ -1,0 +1,142 @@
+{
+  "topic_id": "NT-001066",
+  "status": "PASS",
+  "source_sha256": "2d135de1e41d90fce15a766f73dd4c678460c09ad1b4b68153fea2abf592bbe8",
+  "body_sha256": "96b82368f045258f636d510ab44c8e659ed98e4e0d97d031ddb1064970217b4a",
+  "word_count": 3183,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn Dat Bike Quantum mục 2.17: hệ thống khóa pin (Tắt pin trong ứng dụng) giúp bảo vệ pin khi không dùng xe lâu, khuyến cáo tắt ở 80%–90%, mở lại bằng cắm sạc khoảng 2 phút.",
+      "sha256": "ac94fe3ed316f103e53e5432bd19ff4ab03fb1a738bf12bc0e21783d719b9e85",
+      "verified_at": "2026-10-20T09:26:37.148601+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    },
+    {
+      "url": "https://dat.bike/mo-khoa-tinh-nang-tren-app-dat-bike/",
+      "supports": "Trang tính năng ứng dụng Dat Bike (Quantum S): khóa pin giúp bảo vệ pin và giảm hao hụt điện khi không dùng xe lâu; khi tắt pin sẽ không mở xe được.",
+      "sha256": "b215f9277851828153f9e3abc35a4e3fbd480aa3cc2783e6ef54dcb652610ce7",
+      "verified_at": "2026-10-20T09:26:39.009878+00:00",
+      "verification_method": "live",
+      "live_checked": true
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 895,
+        "title": "Thuê Xe Máy 50cc Hà Nội: Giá Xe Ga, Thủ Tục Và Nhận Xe",
+        "why": "stale",
+        "content_hash": "a0c1b6373f8bb8314548b46b88ed1278eebca02a48d4ff12655fbd79980b4a2b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2553,
+        "title": "Đăng ký biển số xe máy trực tuyến: hồ sơ và các bước cần chuẩn bị",
+        "why": "stale",
+        "content_hash": "07c18eff30a0c8796b3fd7944021fa719dc4afaaacb4f55eb99e40c062e94782",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4054,
+        "title": "Thuê xe máy đi xem phòng trọ ở Hà Nội: xếp lịch khảo sát, gửi xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "5d877b968a3e9b4218759e74edb64aa0e8b842897cadb48686b422876f7f89a1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T09:26:54.853821+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "fc4cd7c810149aed51cb7014cdf4b3fab60d90c30374ff198b7f00dc42d6b8f7",
+  "inventory_sha256": "9de47072674cfb7def38efb2cd7f8c8025aeea2fbb7aa349f5ae074a60ee513a",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
