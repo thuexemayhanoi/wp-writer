@@ -17825,7 +17825,7 @@
       }
     },
     "NT-001080": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T19:50:35.991977+00:00",
       "source_hash": "a73504553eca31656cf78eb535a83726d6de28090554a209d91e41b240c82f12",
       "slug": "xe-may-dien-keu-hoac-nong-khi-sac-khi-nao-hang-noi-binh-thuong-va-khi-nao-dan-rut-sac",
@@ -17841,8 +17841,37 @@
       "category_warning": null,
       "git_commit": "9d736881aae4fe1cc9af917d451851dbc56889da",
       "run_id": "39485788336",
-      "updated_at": "2026-10-20T19:50:40.310629+00:00",
-      "wp_id": 4365
+      "updated_at": "2026-10-20T19:50:46.418743+00:00",
+      "wp_id": 4365,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-dien-keu-hoac-nong-khi-sac-khi-nao-hang-noi-binh-thuong-va-khi-nao-dan-rut-sac/",
+      "verified_at": "2026-10-20T19:50:46.418737+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4365,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-dien-keu-hoac-nong-khi-sac-khi-nao-hang-noi-binh-thuong-va-khi-nao-dan-rut-sac/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-dien-keu-hoac-nong-khi-sac-khi-nao-hang-noi-binh-thuong-va-khi-nao-dan-rut-sac/",
+        "seo_title": "Xe máy điện kêu hoặc nóng khi sạc: hãng nói gì là bình thường?",
+        "seo_description": "Xe máy điện kêu hoặc nóng khi sạc: sách Dat Bike ERA nói tiếng ồn và cụm động cơ nóng là bình thường, còn Dat Bike và Yamaha dặn dừng sạc khi có tiếng lạ, mùi hay nhiệt cao.",
+        "checked_at": "2026-10-20T19:50:46.418717+00:00"
+      }
     }
   },
   "categories": {}
