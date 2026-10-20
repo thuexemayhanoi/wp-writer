@@ -1,0 +1,74 @@
+{
+  "topic_id": "NT-000401",
+  "title": "Smart Key xe máy: mở khóa khẩn cấp, mất chìa và cách khóa xe an toàn",
+  "primary_keyword": "Smart Key xe máy",
+  "secondary_keywords": [
+    "Smart Key không vặn được",
+    "mã ID Smart Key",
+    "mất chìa Smart Key",
+    "pin remote Smart Key"
+  ],
+  "search_intent": "Hướng dẫn",
+  "intent_key": "smart-key-motorbike-wont-turn-emergency-id-code-lost-fob-locking",
+  "taxonomy_key": "engine-care",
+  "outline": [
+    "Smart Key hoạt động thế nào và khác khóa cơ ở điểm nào",
+    "Khóa Smart Key không vặn được: các nguyên nhân Yamaha liệt kê",
+    "Xử lý tại chỗ theo thứ tự: remote, pin, chế độ ngủ, ắc quy",
+    "Mở khóa khẩn cấp bằng mã ID: hai hãng mô tả khác nhau thế nào",
+    "Mất chìa và cài thêm FOB: vì sao mã ID quan trọng",
+    "Khóa xe và tắt hệ thống Smart Key an toàn hơn",
+    "Bảo quản remote và những thói quen giúp tránh sự cố"
+  ],
+  "difference_summary": "Hướng dẫn xử lý khi Smart Key không vặn được, mở khóa khẩn cấp bằng mã ID, mất chìa và cài thêm FOB, cách khóa hoặc tắt hệ thống, dựa trên trang hỏi đáp của Honda Việt Nam và bài hướng dẫn của Yamaha Motor Việt Nam (26/04/2026). Các bài hiện có chỉ nhắc Smart Key thoáng qua: #3950 nhắc kiểm tra nút Smartkey đã tắt khi cất xe lâu ngày vì bật lâu có thể làm hết bình; #2503 có một dòng nói chưa mở khóa từ Smart Key là một lý do xe không nổ; các bài so sánh mẫu xe (#2475, #2483, #2485, #2487) chỉ nêu mẫu nào có khóa thông minh. Chưa bài nào hướng dẫn xử lý sự cố khóa, mã ID, mất chìa hay cách khóa an toàn. Khác bài nguyên nhân xe khó nổ (#2503, hướng chẩn đoán chung) và bài bảo quản xe lâu ngày (#3950, tập trung ắc quy và nơi để xe).",
+  "usefulness": "Người đi xe tay ga có Smart Key, kể cả khách thuê xe lần đầu gặp loại khóa này, biết kiểm tra theo thứ tự khi núm khóa không vặn được, hiểu mã ID và FOB dự phòng dùng để làm gì, khi nào gọi cửa hàng hoặc đại lý thay vì tự tháo ốp hay cậy khóa.",
+  "scope_exclusions": [
+    "Không hướng dẫn phá khóa, đấu nối tắt, bỏ qua hệ thống chống trộm hay can thiệp mạch điện",
+    "Không thay thế sách hướng dẫn của từng xe: quy trình mã ID khác nhau theo hãng và đời xe",
+    "Không so sánh giá, không khuyến nghị mẫu xe hay đại lý cụ thể",
+    "Không bàn lỗi điện tử chuyên sâu cần máy chẩn đoán"
+  ],
+  "source_requirements": [
+    "Chỉ dùng nội dung đã đọc từ trang hỏi đáp Honda Việt Nam và bài hướng dẫn Yamaha Motor Việt Nam; ghi rõ mẫu xe và ngày cập nhật của từng câu trả lời",
+    "Quy trình mở khóa khẩn cấp và nhập mã ID là của hãng cho mẫu xe cụ thể; bài chỉ tóm tắt và nhắc làm theo sách hướng dẫn của đúng xe",
+    "Không nêu thủ thuật phá khóa, đấu nối tắt hay can thiệp hệ thống điện"
+  ],
+  "sources": [
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap",
+      "excerpt": "Quý Khách có thể cài đặt tối đa 4 FOB cho xe, khi mất chìa khóa khách hàng có thể đến cửa hàng Honda Ủy nhiệm (HEAD) để đặt thêm FOB bổ sung",
+      "supports": "Trang hỏi đáp của Honda Việt Nam (câu trả lời cập nhật 20/09/2021 cho xe SH125i/150i dùng Smart Key) nêu cài được tối đa 4 FOB cho một xe, khi mất chìa đến cửa hàng Honda ủy nhiệm đặt thêm FOB và điều kiện bắt buộc là còn mã ID của xe; cùng trang mô tả các bước mở khóa khẩn cấp bằng mã ID cho FOB 3 nút và hai cách tắt hệ thống khóa.",
+      "allow_tokens": [
+        "fob"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap",
+      "excerpt": "điều kiện bắt buộc là khách hàng phải còn mã ID được cấp cho xe",
+      "supports": "Honda nêu muốn đăng ký bổ sung chìa khi mất chìa thì khách hàng phải còn mã ID được cấp cho xe."
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/khoa-smartkey-khong-van-duoc-nguyen-nhan-va-cach-xu-ly",
+      "excerpt": "Tuổi thọ pin remote thường kéo dài khoảng 2 năm",
+      "supports": "Bài của Yamaha Motor Việt Nam đăng 26/04/2026 liệt kê nguyên nhân khóa Smartkey không vặn được (nhiễu sóng hoặc remote ở xa, remote yếu hoặc hết pin, xe vào chế độ ngủ sau khoảng 9 ngày, ắc quy yếu, núm khóa bị vô hiệu tạm thời, lỗi hệ thống, kẹt cơ học), các bước xử lý tại chỗ và lưu ý bảo quản remote."
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/khoa-smartkey-khong-van-duoc-nguyen-nhan-va-cach-xu-ly",
+      "excerpt": "bạn đừng cố dùng sức vặn mạnh vì có thể làm gãy lẫy bên trong",
+      "supports": "Yamaha khuyến cáo không dùng sức vặn mạnh núm khóa Smartkey vì có thể làm gãy lẫy bên trong và đề xuất xử lý lần lượt từng bước.",
+      "allow_tokens": [
+        "lẫy"
+      ]
+    }
+  ],
+  "internal_links": [
+    "https://thuexemaynguyentu.com/binh-ac-quy-xe-may-dung-duoc-bao-lau-khi-nao-nen-kiem-tra-lai/",
+    "https://thuexemaynguyentu.com/nhung-thu-can-kiem-tra-truoc-khi-nhan-mot-chiec-xe-may-su-dung/",
+    "https://thuexemaynguyentu.com/bao-quan-xe-may-de-lau-ngay-khong-su-dung-rua-xe-binh-ac-quy-xich-va-noi-de-xe/",
+    "https://thuexemaynguyentu.com/xe-may-kho-no-do-dau-cac-nguyen-nhan-thuong-gap-va-cach-kiem-tra/"
+  ],
+  "meta_title": "Smart Key xe máy: mở khóa khẩn cấp, mất chìa, cách khóa an toàn",
+  "meta_description": "Smart Key xe máy không vặn được hoặc mất chìa? Tổng hợp nguyên nhân, cách mở khóa khẩn cấp bằng mã ID, cài thêm FOB và khóa xe an toàn theo Honda, Yamaha.",
+  "direct_answer": "Khi Smart Key xe máy không vặn được, hãy kiểm tra theo thứ tự: remote đang bật và ở sát cụm khóa, pin remote, chế độ ngủ của xe sau nhiều ngày không dùng, rồi đến ắc quy.",
+  "link_rationale": "Bốn liên kết dẫn tới các bài đã xuất bản đúng chỗ người đọc cần thêm: bài về bình ắc quy khi nghi nguồn điện yếu làm Smart Key không nhận remote, bài những thứ cần kiểm tra trước khi nhận xe để hỏi về remote dự phòng và mã ID ngay lúc nhận xe, bài bảo quản xe lâu ngày vì hệ thống Smart Key vẫn hút điện khi xe nằm yên, và bài xe khó nổ để loại trừ các nguyên nhân không liên quan đến khóa."
+}
