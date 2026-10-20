@@ -16059,6 +16059,25 @@
         "seo_description": "Tủ đổi pin xe máy điện V-GREEN có loại 6 và 12 khoang, mỗi khoang sạc tối đa 1.000 W, đầu ra 40–90 VDC; điều kiện đổi pin, pin SOH trên 70% và phí theo trang V-GREEN.",
         "checked_at": "2026-10-20T09:26:14.415835+00:00"
       }
+    },
+    "NT-001066": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-20T09:26:54.938420+00:00",
+      "source_hash": "2d135de1e41d90fce15a766f73dd4c678460c09ad1b4b68153fea2abf592bbe8",
+      "slug": "tat-pin-khi-de-xe-lau-cong-tac-pin-duoi-yen-vinfast-feliz-s-va-khoa-pin-tren-app-dat-bike",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 160,
+      "visible_hash": "71af0add0c6e88d3907ffe37ca24c58aa141c687853ae1328809ba207d17d887",
+      "first_paragraph": "Tắt pin khi để xe lâu được hai hãng mô tả bằng hai cơ chế khác hẳn nhau: VinFast Feliz S có một công tắc pin vật lý đặt trong khoang chứa đồ dưới yên, cạnh cổng sạc, còn Dat Bike Quantum dùng nút \"Tắt pin\" trong ứng dụng Dat Bike mà hãng gọi là hệ thống khóa pin. Sổ hướng dẫn Feliz S (mã BOL00008955, bản 07) dặn rằng khi định đỗ xe trên 14 ngày thì sạc pin trên 50% rồi tắt công tắc pin, mỗi tháng kiểm tra dung lượng một lần và sạc lại khi pin xuống dưới 30%; hướng dẫn sử dụng xe Quantum khuyến cáo tắt pin ở mức 80%–90% và cứ hai tuần mở pin ra kiểm tra xe một lần. Cả hai tài liệu đều nêu mục đích là giảm hao pin khi xe nằm lâu không dùng, và ở cả hai xe, muốn xe lên điện trở lại đều cần một thao tác riêng chứ không chỉ bật khóa.",
+      "meta_title": "Tắt pin khi để xe lâu: công tắc pin Feliz S và khóa pin app Dat Bike",
+      "meta_description": "Tắt pin khi để xe lâu: sổ Feliz S nêu công tắc pin dưới yên, sạc trên 50% khi đỗ trên 14 ngày; hướng dẫn Dat Bike Quantum nêu khóa pin trên app, tắt ở 80–90% và cách mở lại.",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "82fb16bf7450c629acccd88263d1ef0f7f099257",
+      "run_id": "39399982565",
+      "updated_at": "2026-10-20T09:26:54.939785+00:00"
     }
   },
   "categories": {}
