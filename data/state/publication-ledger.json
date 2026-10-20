@@ -18805,7 +18805,7 @@
       }
     },
     "NT-001070": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T20:09:00.713462+00:00",
       "source_hash": "1f6f554e82319185996e72c4727208e76cf4074bbdab627931cfa8135225fa55",
       "slug": "xich-xe-may-dien-do-chung-tieu-chuan-dau-boi-tron-va-dau-hieu-mon-theo-so-theon-va-quantum",
@@ -18821,8 +18821,37 @@
       "category_warning": null,
       "git_commit": "c81c0ee2a88510e48d97f0e7682e4e682ece0276",
       "run_id": "39488377714",
-      "updated_at": "2026-10-20T20:09:05.415671+00:00",
-      "wp_id": 4385
+      "updated_at": "2026-10-20T20:09:11.158294+00:00",
+      "wp_id": 4385,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xich-xe-may-dien-do-chung-tieu-chuan-dau-boi-tron-va-dau-hieu-mon-theo-so-theon-va-quantum/",
+      "verified_at": "2026-10-20T20:09:11.158288+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4385,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xich-xe-may-dien-do-chung-tieu-chuan-dau-boi-tron-va-dau-hieu-mon-theo-so-theon-va-quantum/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xich-xe-may-dien-do-chung-tieu-chuan-dau-boi-tron-va-dau-hieu-mon-theo-so-theon-va-quantum/",
+        "seo_title": "Xích xe máy điện: độ chùng, dầu bôi trơn và dấu hiệu mòn theo sổ",
+        "seo_description": "Độ chùng xích xe máy điện theo sổ VinFast Theon (10 ~ 20 mm) và Dat Bike Quantum (20.0 – 30.0 mm), cách vệ sinh, bôi trơn và dấu hiệu xích, nhông mòn cần đưa đến đại lý.",
+        "checked_at": "2026-10-20T20:09:11.158270+00:00"
+      }
     }
   },
   "categories": {}
