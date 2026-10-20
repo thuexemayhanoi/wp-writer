@@ -18609,7 +18609,7 @@
       }
     },
     "NT-000970": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T20:06:39.597741+00:00",
       "source_hash": "4162c913df3c7e5ea3f57d46cf26848f824ee2c1bce4f2dbe1b0d854cce6f6d2",
       "slug": "hop-dong-thue-xe-may-soan-san-cong-khai-truoc-khi-nhan-coc-va-dieu-khoan-nao-khong-co-hieu-luc",
@@ -18625,8 +18625,37 @@
       "category_warning": null,
       "git_commit": "c81c0ee2a88510e48d97f0e7682e4e682ece0276",
       "run_id": "39488377714",
-      "updated_at": "2026-10-20T20:06:44.438465+00:00",
-      "wp_id": 4381
+      "updated_at": "2026-10-20T20:06:52.415069+00:00",
+      "wp_id": 4381,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/hop-dong-thue-xe-may-soan-san-cong-khai-truoc-khi-nhan-coc-va-dieu-khoan-nao-khong-co-hieu-luc/",
+      "verified_at": "2026-10-20T20:06:52.415062+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4381,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/hop-dong-thue-xe-may-soan-san-cong-khai-truoc-khi-nhan-coc-va-dieu-khoan-nao-khong-co-hieu-luc/",
+        "categories": [
+          163
+        ],
+        "canonical": "https://thuexemaynguyentu.com/hop-dong-thue-xe-may-soan-san-cong-khai-truoc-khi-nhan-coc-va-dieu-khoan-nao-khong-co-hieu-luc/",
+        "seo_title": "Hợp đồng thuê xe máy soạn sẵn: công khai trước khi nhận cọc",
+        "seo_description": "Hợp đồng thuê xe máy soạn sẵn có phải công khai trước khi nhận cọc? Điều 405, 406 Bộ luật Dân sự, Luật Bảo vệ quyền lợi người tiêu dùng 2023 và cách đọc điều khoản bất lợi.",
+        "checked_at": "2026-10-20T20:06:52.415042+00:00"
+      }
     }
   },
   "categories": {}
