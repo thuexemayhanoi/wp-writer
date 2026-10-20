@@ -1,3 +1,5 @@
+**CẬP NHẬT 20/10/2026 — ƯU TIÊN QUY ĐỊNH NÀY:** Chủ duyệt **SEO ≥76/100, Quality ≥76/100**, giữ đủ G1–G7. G3 chỉ kiểm nguồn URL HTTPS an toàn/nguồn chính thức khi nói luật; nội dung trích dẫn thay đổi hoặc link cũ/khó mở sẽ ghi **cảnh báo audit sau**, không tự giữ bài. Trạng thái `source_advisories` và `live_checked=false` phải trung thực; không bịa nguồn, luật, giá, trải nghiệm. Giữ Writer lease, chống trùng URL/intent, parent/child, canonical, ledger, công tắc Production và G7. Mọi chỗ còn nhắc 85 là hướng dẫn cũ đã thay bởi cấu hình hiện hành.
+
 # WRITER AUTO REPAIR — 10 LOOPS + DURABLE GIT CHECKPOINT
 
 Overall source/continuous-writing procedure: [shared W1–W9 contract](WRITER-RESEARCH-CONTRACT.md). This document remains authoritative for repair commands and counting. No new API AI, keys or per-revision approval; QA thresholds remain unchanged.
@@ -9,7 +11,7 @@ This document is the single operating procedure for external Claude/W1–W9 sess
 
 ## What actually runs
 
-W1–W9 write and repair prose INSIDE their already-active Claude sessions. Python runs unchanged real G1–G6 QA and maintains revisions. GitHub Actions checks and records; it DOES NOT call Claude, an LLM or a paid API. The single trusted Publisher creates WordPress posts and runs G7. SEO >=85/100, quality >=85/100, 1,600–5,000 real words and all independent hard gates remain compulsory. Never edit config/qa-rules.json. Network/infrastructure retries remain at 3; content-repair limit is config/writer-repair.json (10).
+W1–W9 write and repair prose INSIDE their already-active Claude sessions. Python runs unchanged real G1–G6 QA and maintains revisions. GitHub Actions checks and records; it DOES NOT call Claude, an LLM or a paid API. The single trusted Publisher creates WordPress posts and runs G7. SEO >=76/100, quality >=76/100, 1,600–5,000 real words and all independent hard gates remain compulsory. Never edit config/qa-rules.json. Network/infrastructure retries remain at 3; content-repair limit is config/writer-repair.json (10).
 
 Failing drafts and repair journals live ONLY on private-to-the-topic Git branches named repair/SESSION/NT-XXXXXX. Example: repair/claude_A/NT-000101. Checkpoint file on that branch: data/repair-checkpoints/SESSION/NT-XXXXXX.json. These branches never trigger the WordPress publishing workflow. Do not manually edit counters or claim/QA registries. Never force push.
 

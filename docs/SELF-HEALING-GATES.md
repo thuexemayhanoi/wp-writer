@@ -1,13 +1,15 @@
+**CẬP NHẬT 20/10/2026 — ƯU TIÊN QUY ĐỊNH NÀY:** Chủ duyệt **SEO ≥76/100, Quality ≥76/100**, giữ đủ G1–G7. G3 chỉ kiểm nguồn URL HTTPS an toàn/nguồn chính thức khi nói luật; nội dung trích dẫn thay đổi hoặc link cũ/khó mở sẽ ghi **cảnh báo audit sau**, không tự giữ bài. Trạng thái `source_advisories` và `live_checked=false` phải trung thực; không bịa nguồn, luật, giá, trải nghiệm. Giữ Writer lease, chống trùng URL/intent, parent/child, canonical, ledger, công tắc Production và G7. Mọi chỗ còn nhắc 85 là hướng dẫn cũ đã thay bởi cấu hình hiện hành.
+
 # Self-healing gates G1–G7 (QA thresholds unchanged)
 
-Owner order 2026-10-17: a QA-PASS article is published at once; what can be fixed by the machine is rechecked by the machine (at most 3 times); only an article with a real risk is held; one held article never blocks another; G7 proves the result on WordPress. Nothing below lowers SEO >= 85, quality >= 75, the 1,600–5,000 word range, the duplicate checks, the category checks, the write-ahead ledger or the never-retry-an-uncertain-POST rule. GitHub Actions still runs no AI: a content defect is repaired by the active Claude session, while isolated per-topic Git branches persist each actual edit and QA result.
+Owner order 2026-10-17: a QA-PASS article is published at once; what can be fixed by the machine is rechecked by the machine (at most 3 times); only an article with a real risk is held; one held article never blocks another; G7 proves the result on WordPress. Nothing below lowers SEO >=76, quality >= 75, the 1,600–5,000 word range, the duplicate checks, the category checks, the write-ahead ledger or the never-retry-an-uncertain-POST rule. GitHub Actions still runs no AI: a content defect is repaired by the active Claude session, while isolated per-topic Git branches persist each actual edit and QA result.
 
 ## What happens to a verdict (`scripts/gate_triage.py`, stored as `triage` and `recheck` in the QA record)
 | Class | Examples | What the system does |
 |---|---|---|
-| `REAL_RISK` | URL/intent collision, near duplicate, wrong category, source that cannot be verified (403, 404, TLS, excerpt not in page), wrong legal/price/business fact, invented experience, a crashed evaluation, any reason nobody classified | Held. Never auto-healed. Other articles continue. |
+| `REAL_RISK` | URL/intent collision, near duplicate, wrong category, wrong legal/price/business fact, invented experience, a crashed evaluation, any reason nobody classified | Held. Never auto-healed. Other articles continue. |
 | `WRITER_REPAIR` | SEO score, length, structure, meta length, links, editorial evidence | Returned to the writer (`reports/repair-queue.json`). One attempt per new draft version; after 10 distinct content revisions `needs_owner` is set; infrastructure retries stay at 3. |
-| `INFRA_PENDING` | source or link fetch timed out, HTTP 408/425/429/5xx, connection reset | Rechecked by the machine: up to 3 reads inside one evaluation (1 s, 3 s back-off) and up to 3 consecutive runs; then it becomes `REAL_RISK` ("source stays unverifiable"). |
+| `INFRA_PENDING` | internal-link fetch timed out, HTTP 408/425/429/5xx, connection reset | Rechecked by the machine: up to 3 reads inside one evaluation (1 s, 3 s back-off) and up to 3 consecutive runs; then it becomes `REAL_RISK` ("source stays unverifiable"). |
 
 `reports/gate-recheck.json` (written by the Publisher, persisted with the other reports) carries the counters between runs; a PASS or a published article starts clean. `reports/dashboard.json` shows `held_by_class`.
 
