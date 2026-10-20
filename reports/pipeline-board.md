@@ -1,6 +1,6 @@
 # Pipeline board
 
-Generated 2026-10-20T10:02:44.111282+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-20T10:15:27.224449+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
