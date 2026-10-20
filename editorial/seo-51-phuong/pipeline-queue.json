@@ -5,7 +5,7 @@
   "source": "editorial/seo-51-phuong/research-queue.json",
   "source_sha": "4145b7cd1cf5b078025d0cf425aab409633404e2",
   "checkpoint_date": "2026-10-20",
-  "status": "HOLD_PENDING_TOPIC_FACTORY_AND_RESEARCH_QA",
+  "status": "PARTIAL_3_PLANNED_9_PENDING_RESEARCH_0_WRITER_QA",
   "wordpress_category": {
     "taxonomy_key": "hanoi-ward-rentals",
     "term_id": 182,
@@ -22,8 +22,8 @@
   },
   "counts": {
     "editorial_drafts": 12,
-    "topic_factory_imported": 0,
-    "research_qa_pass": 0,
+    "topic_factory_imported": 3,
+    "research_qa_pass": 3,
     "writer_qa_pass": 0,
     "g7_verified": 0
   },
@@ -39,10 +39,10 @@
       "legal_source_url": null,
       "taxonomy_key": "hanoi-ward-rentals",
       "wordpress_category_id": 182,
-      "topic_id": null,
-      "topic_factory_status": "NOT_IMPORTED",
-      "research_qa_status": "PENDING_EVIDENCE_VERIFICATION",
-      "intent_duplicate_check": "PENDING",
+      "topic_id": "NT-001101",
+      "topic_factory_status": "PLANNED",
+      "research_qa_status": "PASS",
+      "intent_duplicate_check": "RESEARCH_QA_PASS_RECHECK_AT_PUBLISH",
       "writer_lease_id": null,
       "writer_receipt_id": null,
       "writer_qa_status": "NOT_SUBMITTED",
@@ -61,10 +61,10 @@
       "legal_source_url": null,
       "taxonomy_key": "hanoi-ward-rentals",
       "wordpress_category_id": 182,
-      "topic_id": null,
-      "topic_factory_status": "NOT_IMPORTED",
-      "research_qa_status": "PENDING_EVIDENCE_VERIFICATION",
-      "intent_duplicate_check": "PENDING",
+      "topic_id": "NT-001102",
+      "topic_factory_status": "PLANNED",
+      "research_qa_status": "PASS",
+      "intent_duplicate_check": "RESEARCH_QA_PASS_RECHECK_AT_PUBLISH",
       "writer_lease_id": null,
       "writer_receipt_id": null,
       "writer_qa_status": "NOT_SUBMITTED",
@@ -83,10 +83,10 @@
       "legal_source_url": null,
       "taxonomy_key": "hanoi-ward-rentals",
       "wordpress_category_id": 182,
-      "topic_id": null,
-      "topic_factory_status": "NOT_IMPORTED",
-      "research_qa_status": "PENDING_EVIDENCE_VERIFICATION",
-      "intent_duplicate_check": "PENDING",
+      "topic_id": "NT-001103",
+      "topic_factory_status": "PLANNED",
+      "research_qa_status": "PASS",
+      "intent_duplicate_check": "RESEARCH_QA_PASS_RECHECK_AT_PUBLISH",
       "writer_lease_id": null,
       "writer_receipt_id": null,
       "writer_qa_status": "NOT_SUBMITTED",
@@ -292,5 +292,6 @@
       "publication_status": "GITHUB_EDITORIAL_ONLY",
       "g7_status": "NOT_VERIFIED"
     }
-  ]
+  ],
+  "last_reconciled_at": "2026-10-20T06:26:23.732Z"
 }
