@@ -19097,6 +19097,25 @@
         "seo_description": "Số khung và số động cơ xe máy điện Dat Bike khắc ở đâu: số VIN trên khung dưới yên, số động cơ ở phía trên cụm động cơ, cùng cách gọi khác nhau trong hướng dẫn ERA và Quantum S.",
         "checked_at": "2026-10-20T20:15:06.196851+00:00"
       }
+    },
+    "NT-001072": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-20T20:15:17.825103+00:00",
+      "source_hash": "683aa98f74034d8a5a57a7a51a0769974e7bd1cfac99b6439070dba4823db012",
+      "slug": "cruise-control-tren-xe-may-dien-so-dat-bike-bat-khi-chay-tren-15-km-h-tat-khi-bop-phanh",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 168,
+      "visible_hash": "b82644e7ec79cdc7e17ae0071e895e14db51107f9e00fa750e974b48cfed8f23",
+      "first_paragraph": "Cruise Control (giữ ga tự động) trên xe máy điện là tính năng giữ tốc độ do người lái đặt mà không cần vặn tay ga; theo hướng dẫn sử dụng ERA, Quantum S và Quantum của Dat Bike, xe phải ở chế độ D hoặc S và đang chạy trên 15 km/h, rồi nhấn giữ công tắc 1 giây để bật, còn bóp phanh trái hoặc phải hoặc nhấn công tắc là tắt. Bài giới thiệu của Dat Bike và bài của Yadea chỉ giải thích chung, có chỗ nói khác sổ hoặc khác nhau, nên thao tác và mẫu xe có tính năng này phải xem sổ và hỏi đại lý của đúng xe.",
+      "meta_title": "Cruise Control xe máy điện: bật trên 15 km/h, tắt khi bóp phanh",
+      "meta_description": "Cruise Control xe máy điện theo sổ Dat Bike ERA, Quantum S và Quantum: điều kiện bật trên 15 km/h ở chế độ D hoặc S, cách tắt, và chỗ Dat Bike với Yadea nói khác nhau.",
+      "intended_taxonomy_key": "electric-tech",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "e89aece5f3081cd0a9ac6ccd246ce2fc1ec06ae6",
+      "run_id": "39489674662",
+      "updated_at": "2026-10-20T20:15:17.826410+00:00"
     }
   },
   "categories": {}
