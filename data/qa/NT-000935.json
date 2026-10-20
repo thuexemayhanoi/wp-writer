@@ -1,0 +1,473 @@
+{
+  "topic_id": "NT-000935",
+  "status": "PASS",
+  "source_sha256": "85b058a6cfa085f265c844e6e82677b8122c2801fe4b1395079b551f3fb019dc",
+  "body_sha256": "ed1ec03b3a3a4231725ee68246e2c86edd98e61f911edafdc059a142fc12e407",
+  "word_count": 1955,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "supports": "Trang Selex về trạm đổi pin tự động: kích thước, màn hình cảm ứng, 19 khoang với một khoang luôn trống, các bước đổi pin, đổi hai pin liền nhau và các thông báo lỗi. Cùng trang còn nêu: Selex: khi đổi hai pin liền nhau không nhét pin cũ còn lại vào khoang trống đã mở, nếu không trạm sẽ nuốt pin, không trả pin cũ; ấn Đổi pin thay vì Kết thúc.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "supports": "Trang Selex (hiển thị 6/6/2023): trạm kích thước 1006 x 510 x 1963 như một máy bán nước tự động, ví dụ có thể đặt ở cửa hàng tiện lợi, quán cafe, sảnh chung cư.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "supports": "Selex: xe hãng khác cũng có thể đổi pin tại trạm với điều kiện xe đó dùng pin của Selex.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "supports": "Selex: bước 1 mở App Selex trên điện thoại để đăng nhập tài khoản.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "supports": "Selex: bước 2 chạm màn hình trên trạm, quét mã QR để đăng nhập.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "supports": "Selex: bước 4 khoang trống bật cửa, kiểm tra đáy pin, cho pin hết năng lượng vào khoang đó và đóng cửa.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "supports": "Selex: bước 5 chờ khoang mới bật ra, lấy pin đầy và cho pin đã hết còn lại vào khoang trống; các bước thực hiện tương ứng với số pin muốn đổi; bước 6 chọn đăng xuất để kết thúc.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "supports": "Selex: khi đổi 2 pin liền nhau, đóng cửa khoang sau khi lấy pin mới thứ nhất; không nhét pin cũ còn lại vào khoang trống đó vì trạm sẽ nuốt pin, không trả pin cũ.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "supports": "Selex: sau khi đóng cửa khoang, đợi thêm một lúc và ấn \"Đổi pin\" thay vì \"Kết thúc\"; một khoang mới mở ra, có khả năng là khoang chứa pin mới vừa rồi.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "supports": "Selex: đợi một lúc, khoang chứa pin đầy tự bật mở, lấy pin mới thứ 2 ra, nhấn \"Kết thúc\" và mang pin lắp vào xe.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "supports": "Selex: khi trạm hết pin hoặc chưa có pack pin sạc đầy, hệ thống báo \"Khoang pin hết\", \"Hết pin, vui lòng quay lại sau 30 phút\"; nhận lại pin cũ, đóng cửa khoang để đăng xuất, đổi ở trạm khác hoặc quay lại sau 30 phút.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "supports": "Selex: khi báo \"Không nhận dạng được pin, xin vui lòng thử lại\", kiểm tra, vệ sinh dị vật ở 10 tiếp điểm dưới đáy pin rồi đăng nhập và đổi lại.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "supports": "Selex: khi trạm báo pin không hợp lệ và cửa tự bật mở, không đóng cửa trạm, lấy pin ra khỏi khoang và gọi hotline của Selex.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/selex-cap-nhat-tinh-nang-dat-pin-truoc-cho-khach-hang-den-doi-pin-tai-tram/",
+      "supports": "Selex (30/09/2024): tính năng Đặt pin trước giữ pin cho khách hàng trong 15 phút, chỉ hoạt động trong khung giờ 7:00 đến 17:00, đặt 1 đến 3 pin không vượt số pin của gói.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/selex-cap-nhat-tinh-nang-dat-pin-truoc-cho-khach-hang-den-doi-pin-tai-tram/",
+      "supports": "Selex (30/09/2024): cách đặt pin trước trên ứng dụng: Bản đồ, Đặt trước pin, chọn 1, 2 hoặc 3 pin, xác nhận.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/selex-cap-nhat-tinh-nang-dat-pin-truoc-cho-khach-hang-den-doi-pin-tai-tram/",
+      "supports": "Selex: đặt pin trước chỉ hoạt động trong khung giờ 7:00 đến 17:00 (khung giờ cao điểm).",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/selex-cap-nhat-tinh-nang-dat-pin-truoc-cho-khach-hang-den-doi-pin-tai-tram/",
+      "supports": "Selex: số pin đặt không được nhiều hơn số pin trong gói đang dùng; gói 2 pin chỉ đặt 1 hoặc 2 pin.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/selex-cap-nhat-tinh-nang-dat-pin-truoc-cho-khach-hang-den-doi-pin-tai-tram/",
+      "supports": "Selex: khi không cần đổi pin nên hủy đặt pin để không ảnh hưởng hoạt động của trạm.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/huong-dan-su-dung-ung-dung-selex-phan-mem-quan-ly-xe/",
+      "supports": "Selex (07/08/2023): ứng dụng Selex có Quét QR đổi pin, kết nối, định vị xe, xem trạm pin gần nhất và thông tin pin; cầm điện thoại vuông góc với mã QR trên màn hình trạm để đăng nhập đổi pin.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/huong-dan-su-dung-ung-dung-selex-phan-mem-quan-ly-xe/",
+      "supports": "Selex (07/08/2023): trang chủ ứng dụng có Quét QR đổi pin, Kết nối, Hỗ trợ, Lịch sử và Dịch vụ.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/huong-dan-su-dung-ung-dung-selex-phan-mem-quan-ly-xe/",
+      "supports": "Selex: màn hình trạm đổi pin trong ứng dụng cho xem số lượng pin trong trạm và trạng thái hoạt động của trạm.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/tram-doi-pin-tu-dong-selex-tien-nhu-xe-xang/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/selex-cap-nhat-tinh-nang-dat-pin-truoc-cho-khach-hang-den-doi-pin-tai-tram/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/selex-cap-nhat-tinh-nang-dat-pin-truoc-cho-khach-hang-den-doi-pin-tai-tram/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/selex-cap-nhat-tinh-nang-dat-pin-truoc-cho-khach-hang-den-doi-pin-tai-tram/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/selex-cap-nhat-tinh-nang-dat-pin-truoc-cho-khach-hang-den-doi-pin-tai-tram/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/selex-cap-nhat-tinh-nang-dat-pin-truoc-cho-khach-hang-den-doi-pin-tai-tram/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/huong-dan-su-dung-ung-dung-selex-phan-mem-quan-ly-xe/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/huong-dan-su-dung-ung-dung-selex-phan-mem-quan-ly-xe/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://selex.vn/huong-dan-su-dung-ung-dung-selex-phan-mem-quan-ly-xe/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2542,
+        "title": "Xe máy bị nóng máy nhanh do đâu? Những điểm nên kiểm tra đầu tiên",
+        "why": "stale",
+        "content_hash": "994e220a440cdb5f8e90756cb7e6d0319a7cf0377e7377b9dd7b0b64ed9e9f51",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2544,
+        "title": "Xe máy phát tiếng kêu lạ khi chạy: nguyên nhân và cách kiểm tra",
+        "why": "stale",
+        "content_hash": "e4d2a8c9ffb2a022afd07f0d6cf92ad77c06cdf6fcad04bb7bae33b34bab81ad",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2550,
+        "title": "Thủ tục sang tên xe máy cũ gồm những bước nào theo quy định hiện nay?",
+        "why": "stale",
+        "content_hash": "bbb2cdb8032f56b92d9bccf003c045dc66a520285ee21afc89e36f956c1cf093",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2553,
+        "title": "Đăng ký biển số xe máy trực tuyến: hồ sơ và các bước cần chuẩn bị",
+        "why": "stale",
+        "content_hash": "07c18eff30a0c8796b3fd7944021fa719dc4afaaacb4f55eb99e40c062e94782",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T20:05:32.257799+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "5a8fd8a2dcf2daf7b1dd064692b00ddd820eab31df19110e4daad5be6535fecc",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "topic_id": "NT-001002",
+  "status": "PASS",
+  "source_sha256": "bc9034c1a3bbf0cabcc59dfb0e2f1f3e66486e5a7f2490d1d77a1f4491c3b9ee",
+  "body_sha256": "d0e6e5226e8a607198a7f11a6c04574d144a207ed655ecf6655a707cc6747280",
+  "word_count": 2950,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=218725&classid=1&orggroupid=4",
+      "supports": "Trang văn bản của Cổng thông tin điện tử Chính phủ: Thông tư 108/2026/TT-BCA do Bộ Công an ban hành ngày 29-06-2026, có hiệu lực từ ngày 01-07-2026.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.angiang.gov.vn/thong-bao-cac-quy-dinh-moi-ve-cong-tac-sat-hach-cap-giay-phep-lai-xe-co-hieu-luc-tu-ngay-0172026",
+      "supports": "Công an tỉnh An Giang (03/07/2026): kết quả lý thuyết bảo lưu 01 năm kể từ ngày đạt; thi lại trong thời gian bảo lưu phải có giấy khám sức khỏe còn hiệu lực.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.angiang.gov.vn/thong-bao-cac-quy-dinh-moi-ve-cong-tac-sat-hach-cap-giay-phep-lai-xe-co-hieu-luc-tu-ngay-0172026",
+      "supports": "Công an tỉnh An Giang: từ 01/01/2028 phần thực hành trong hình hạng A1, A gồm 02 bài thi, bài sau chỉ thi khi đạt bài trước.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.haiphong.gov.vn/Tin-hoat-dong-cua-CATP/An-toan-giao-thong/Nhung-diem-moi-quan-trong-trong-cong-tac-sat-hach-doi-cap-lai-giay-phep-lai-xe-va-kiem-tra-phuc-hoi-diem-giay-phep-lai-xe-tu-ngay-0172026-187398.html",
+      "supports": "Công an thành phố Hải Phòng (02/07/2026): từ 01/7/2026 người dự sát hạch mô tô và ô tô phải đạt lý thuyết mới được dự các phần thi thực hành tiếp theo.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.lamdong.gov.vn/nhung-diem-moi-trong-quy-dinh-ve-sat-hach-cap-giay-phep-lai-xe-ap-dung-tu-ngay-01072026-N7742.aspx",
+      "supports": "Công an tỉnh Lâm Đồng (06/07/2026): từ 01/3/2027 lý thuyết hạng A, A1 tăng từ 25 lên 40 câu, từ 19 lên 27 phút, đạt tối thiểu 36/40 câu.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.camau.gov.vn/ch9/8988-Nhung-diem-moi-quan-trong-ve-sat-hach-va-cap-giay-phep-lai-xe.html",
+      "supports": "Công an tỉnh Cà Mau (27/07/2026): từ 01/3/2027 lý thuyết mô tô A1, A tăng lên 40 câu (đạt 36/40) và ô tô hạng B lên 50 câu (đạt 45/50).",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.camau.gov.vn/ch9/8988-Nhung-diem-moi-quan-trong-ve-sat-hach-va-cap-giay-phep-lai-xe.html",
+      "supports": "Công an tỉnh Cà Mau: người thi rớt hoặc vắng mặt trước 01/7/2026 được thi lại theo quy định cũ đến hết 28/02/2027; từ 01/3/2027 phải thi theo quy định mới.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thuvienphapluat.vn/van-ban/Giao-thong-Van-tai/Thong-tu-108-2026-TT-BCA-sat-hach-cap-giay-phep-lai-xe-704772.aspx",
+      "supports": "Bản trích Thông tư 108/2026/TT-BCA trên thuvienphapluat.vn: quy tắc đạt phần trước mới được dự phần sau với hạng A1, A, B1 (tài liệu đọc kèm).",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thuvienphapluat.vn/van-ban/Giao-thong-Van-tai/Thong-tu-108-2026-TT-BCA-sat-hach-cap-giay-phep-lai-xe-704772.aspx",
+      "supports": "Bản trích Thông tư 108/2026/TT-BCA trên thuvienphapluat.vn: ngày áp dụng riêng của nội dung sát hạch (01/3/2027) và của bài sát hạch số 2 (01/1/2028) (tài liệu đọc kèm).",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/linh-vuc-khac/diem-moi-thong-tu-108-2026-tt-bca-ve-sat-hach-cap-giay-phep-lai-xe-va-quoc-te-883-110169-article.html",
+      "supports": "Bài tóm tắt trên luatvietnam.vn: bài sát hạch số 2 hạng A1, A theo mục IV Phụ lục I gồm 11 tình huống giả định trên đường (tài liệu đọc kèm).",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=218725&classid=1&orggroupid=4",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.angiang.gov.vn/thong-bao-cac-quy-dinh-moi-ve-cong-tac-sat-hach-cap-giay-phep-lai-xe-co-hieu-luc-tu-ngay-0172026",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.angiang.gov.vn/thong-bao-cac-quy-dinh-moi-ve-cong-tac-sat-hach-cap-giay-phep-lai-xe-co-hieu-luc-tu-ngay-0172026",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.haiphong.gov.vn/Tin-hoat-dong-cua-CATP/An-toan-giao-thong/Nhung-diem-moi-quan-trong-trong-cong-tac-sat-hach-doi-cap-lai-giay-phep-lai-xe-va-kiem-tra-phuc-hoi-diem-giay-phep-lai-xe-tu-ngay-0172026-187398.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.lamdong.gov.vn/nhung-diem-moi-trong-quy-dinh-ve-sat-hach-cap-giay-phep-lai-xe-ap-dung-tu-ngay-01072026-N7742.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.camau.gov.vn/ch9/8988-Nhung-diem-moi-quan-trong-ve-sat-hach-va-cap-giay-phep-lai-xe.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.camau.gov.vn/ch9/8988-Nhung-diem-moi-quan-trong-ve-sat-hach-va-cap-giay-phep-lai-xe.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thuvienphapluat.vn/van-ban/Giao-thong-Van-tai/Thong-tu-108-2026-TT-BCA-sat-hach-cap-giay-phep-lai-xe-704772.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thuvienphapluat.vn/van-ban/Giao-thong-Van-tai/Thong-tu-108-2026-TT-BCA-sat-hach-cap-giay-phep-lai-xe-704772.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/linh-vuc-khac/diem-moi-thong-tu-108-2026-tt-bca-ve-sat-hach-cap-giay-phep-lai-xe-va-quoc-te-883-110169-article.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2346,
+        "title": "Top xe máy điện đáng chú ý năm 2026 cho nhu cầu đi lại hằng ngày",
+        "why": "stale",
+        "content_hash": "c7b5d7cca26b30a8483ce0a25e3d5de7d28c48a734a1969cf0ab5c477bf745b6",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4053,
+        "title": "Thuê xe máy Hà Nội đi công tác 3–5 ngày: chọn xe, dự trù chi phí và sắp lịch trả",
+        "why": "stale",
+        "content_hash": "10253f4071ea9522162e7b5ec6b75dfc3be0638bd9a1598e0136485ddfd9dbec",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4054,
+        "title": "Thuê xe máy đi xem phòng trọ ở Hà Nội: xếp lịch khảo sát, gửi xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "5d877b968a3e9b4218759e74edb64aa0e8b842897cadb48686b422876f7f89a1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4059,
+        "title": "Thuê xe máy đi phỏng vấn ở Hà Nội trong một ngày: xếp lịch, chọn xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "0ffbbff60edf006739890cca423af4e81cb5346ee434c29859648be6bdb57675",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T20:07:25.662149+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "4a5f43becba999a98f49b86debf0c2e1e227e1bb01d99140c801d750323e6ed7",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

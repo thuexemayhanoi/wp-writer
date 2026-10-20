@@ -1,0 +1,579 @@
+{
+  "topic_id": "NT-001072",
+  "status": "PASS",
+  "source_sha256": "683aa98f74034d8a5a57a7a51a0769974e7bd1cfac99b6439070dba4823db012",
+  "body_sha256": "a97c7eb2e05b07b420226f48b7833104e501a95c5b7387ba1970477102740391",
+  "word_count": 2494,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn ERA mục 2.1.5 nêu điều kiện bật Cruise Control: chế độ D hoặc S, vận tốc lớn hơn 15 km/h, nhấn giữ công tắc 1 giây, chỉ thị bật sáng.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn ERA mục 2.9 nêu Cruise Control tắt khi bóp phanh trái hoặc phải hoặc nhấn công tắc MODE/SEAT.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn ERA dùng chung một vị trí chỉ thị cho Cruise Control và tính năng bảo vệ Turtle.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn ERA mục 2.5 nêu khi dùng phanh tay thì động cơ tự ngắt và muốn đi tiếp phải nhả hẳn phanh tay rồi vặn tay ga lên lại.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn ERA nêu chế độ hỗ trợ dắt xe R chỉ kích hoạt khi vận tốc nhỏ hơn 5 km/h.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn ERA nêu thao tác nhấn giữ công tắc 1 giây ở chế độ P là mở yên xe.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-quantum-s/",
+      "supports": "Hướng dẫn Quantum S mục 2.12 nêu điều kiện bật Cruise Control: nhấn giữ công tắc đa chức năng 1 giây, chế độ D hoặc S, vận tốc lớn hơn 15 km/h.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-quantum-s/",
+      "supports": "Hướng dẫn Quantum S mục 2.12 nêu Cruise Control tắt khi bóp phanh trái hoặc phải hoặc nhấn công tắc đa chức năng.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-quantum-s/",
+      "supports": "Hướng dẫn Quantum S mục 2.11 mô tả bốn chế độ vận hành P, D, S, R.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn Quantum mục 2.12 nêu Cruise Control bật bằng công tắc đa chức năng 1 giây khi ở chế độ D hoặc S và trên 15 km/h.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn Quantum mục 2.12 nêu Cruise Control tắt khi bóp phanh trái hoặc phải hoặc nhấn công tắc đa chức năng.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Bảng thông số Quantum liệt kê Cruise Control (giữ ga tự động) trong tiện ích thông minh.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cruise-control-la-gi/",
+      "supports": "Bài của Dat Bike định nghĩa Cruise Control là tính năng điện tử giữ tốc độ cố định do người lái chọn mà không cần giữ tay ga liên tục.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cruise-control-la-gi/",
+      "supports": "Bài của Dat Bike nêu ba thành phần kỹ thuật của Cruise Control.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cruise-control-la-gi/",
+      "supports": "Bài của Dat Bike nói phần cơ chế hoạt động rằng bóp phanh hoặc vặn tay ga thì hệ thống ngắt và trả quyền kiểm soát tốc độ cho người lái.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cruise-control-la-gi/",
+      "supports": "Bài của Dat Bike, phần hướng dẫn sử dụng, liệt kê cách tắt là bóp phanh trước hoặc sau và nhấn lại nút đa chức năng.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cruise-control-la-gi/",
+      "supports": "Bài của Dat Bike nói khi Cruise Control hoạt động có biểu tượng màu xanh lá cây trên màn hình.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cruise-control-la-gi/",
+      "supports": "Bài của Dat Bike nhắc người lái luôn chủ động quan sát và không ỷ lại hoàn toàn vào hệ thống.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cruise-control-la-gi/",
+      "supports": "Bài của Dat Bike không khuyến khích dùng trong thành phố đông xe.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cruise-control-la-gi/",
+      "supports": "Bài của Dat Bike nói tính năng phát huy hiệu quả nhất trên đường thẳng, thoáng, ít chướng ngại vật.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cruise-control-la-gi/",
+      "supports": "Bài của Dat Bike nêu lợi ích giảm mỏi cổ tay và vai khi chạy lâu.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cruise-control-la-gi/",
+      "supports": "Bài của Dat Bike nói bật Cruise Control giúp tránh lãng phí năng lượng, không kèm số đo.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cruise-control-la-gi-ung-dung-tren-xe-may-dien/",
+      "supports": "Bài của Yadea (20/01/2025) giải thích Cruise Control dùng cảm biến tốc độ để giữ tốc độ đã đặt bằng cách điều khiển động cơ hoặc bộ truyền động.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cruise-control-la-gi-ung-dung-tren-xe-may-dien/",
+      "supports": "Bài của Yadea nói trên xe máy điện Cruise Control thường tích hợp vào bộ điều khiển trung tâm.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cruise-control-la-gi-ung-dung-tren-xe-may-dien/",
+      "supports": "Bài của Yadea nói hầu hết dòng xe máy điện hiện đại của Yadea có Cruise Control, đặc biệt là Voltguard, không kèm bảng mẫu.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cruise-control-la-gi-ung-dung-tren-xe-may-dien/",
+      "supports": "Bài của Yadea liệt kê Cruise Control thích hợp với giao thông đô thị.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cruise-control-la-gi-ung-dung-tren-xe-may-dien/",
+      "supports": "Bài của Yadea nói Cruise Control giảm hao phí năng lượng, không kèm số đo.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-quantum-s/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-quantum-s/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-quantum-s/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cruise-control-la-gi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cruise-control-la-gi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cruise-control-la-gi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cruise-control-la-gi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cruise-control-la-gi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cruise-control-la-gi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cruise-control-la-gi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cruise-control-la-gi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cruise-control-la-gi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cruise-control-la-gi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cruise-control-la-gi-ung-dung-tren-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cruise-control-la-gi-ung-dung-tren-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cruise-control-la-gi-ung-dung-tren-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cruise-control-la-gi-ung-dung-tren-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cruise-control-la-gi-ung-dung-tren-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2343,
+        "title": "Xe máy điện: các hãng nổi bật và cách chọn xe phù hợp nhất",
+        "why": "stale",
+        "content_hash": "c6618e9c49c5f2f25650deea3da4d70c0b7ac0a3821f5dc81a038f2aae0716d7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2346,
+        "title": "Top xe máy điện đáng chú ý năm 2026 cho nhu cầu đi lại hằng ngày",
+        "why": "stale",
+        "content_hash": "c7b5d7cca26b30a8483ce0a25e3d5de7d28c48a734a1969cf0ab5c477bf745b6",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2498,
+        "title": "Khi nào cần tăng xích xe máy? Dấu hiệu dễ nhận biết khi sử dụng",
+        "why": "stale",
+        "content_hash": "cc66bddca00ff3ff900a51cce730848c80a7f0e8979caaf256eec12589620f67",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2580,
+        "title": "Đi Hà Nội nên chọn xe ga hay xe số để di chuyển thuận tiện hơn?",
+        "why": "stale",
+        "content_hash": "6aa38b717367fc0077cddd4330e078e59294b75c84a725df25d0c1ffd299712f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2598,
+        "title": "Thuê hay mua xe máy khi ở Hà Nội từ một đến ba tháng thì hợp lý hơn?",
+        "why": "stale",
+        "content_hash": "f30e620f60320b130c5faa8dc1ea87f3d7cb2743018e4e55126b3a15e9598278",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T20:01:42.243886+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "e4a098dcaf0dd5a79b0a879556feb2269e88a590bcf85ca45e55c624cb5cc95e",
+  "incremental_key": "d6fa84c9006e16fd2e6b27435c7087a289f5c18ebf8265bc591a76a0141672b6",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

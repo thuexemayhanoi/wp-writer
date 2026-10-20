@@ -1,0 +1,674 @@
+{
+  "topic_id": "NT-000934",
+  "status": "PASS",
+  "source_sha256": "54026f58f1b86729735e8ef97130d4953f4a01e7d4d118ca3746f9b4a265eee0",
+  "body_sha256": "c7de4a1627e774bbb5aa0ab80e63cd0ce5640578e351f385693559213ca5c1f7",
+  "word_count": 2546,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.yadea.com.vn/8-luu-y-sac-xe-may-dien-trong-mua-nom-am/",
+      "supports": "Yadea Việt Nam (bài 8 lưu ý sạc xe máy điện trong mùa nồm ẩm, ngày 20/02/2025): độ ẩm cao ảnh hưởng hệ thống điện và pin; nếu xe vừa đi mưa hoặc ướt do hơi ẩm, lau khô pin và cổng sạc trước khi sạc. Cùng trang còn nêu: Yadea: độ ẩm cao có thể ảnh hưởng đến hệ thống điện, làm giảm tuổi thọ pin và gây nguy cơ chập cháy; chọn nơi có mái che, thoáng khí.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/8-luu-y-sac-xe-may-dien-trong-mua-nom-am/",
+      "supports": "Yadea (20/02/2025): mùa nồm ẩm có thể gây nhiều vấn đề khi sạc pin; độ ẩm cao có thể ảnh hưởng hệ thống điện, giảm tuổi thọ pin, gây nguy cơ chập cháy.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/8-luu-y-sac-xe-may-dien-trong-mua-nom-am/",
+      "supports": "Yadea: chọn nơi có mái che, thoáng khí, tránh sạc ngoài trời; độ ẩm cao có thể xâm nhập vào bộ sạc và pin.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/8-luu-y-sac-xe-may-dien-trong-mua-nom-am/",
+      "supports": "Yadea: kiểm tra ổ cắm có bị ẩm ướt không trước khi cắm sạc; nước đọng thì lau khô hoàn toàn.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/8-luu-y-sac-xe-may-dien-trong-mua-nom-am/",
+      "supports": "Yadea (20/02/2025): không sạc qua đêm hoặc khi không có người giám sát; trong điều kiện ẩm ướt rủi ro vẫn có thể xảy ra dù pin tự ngắt; nên sạc ban ngày.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/8-luu-y-sac-xe-may-dien-trong-mua-nom-am/",
+      "supports": "Yadea: nếu không thể sạc ở khu vực khô ráo, dùng quạt hoặc hút ẩm để giảm độ ẩm quanh khu vực sạc.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/8-luu-y-sac-xe-may-dien-trong-mua-nom-am/",
+      "supports": "Yadea: tránh cắm rút sạc nhiều lần trong quá trình sạc vì có thể ảnh hưởng cổng sạc và pin.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/8-luu-y-sac-xe-may-dien-trong-mua-nom-am/",
+      "supports": "Yadea: mùa nồm ẩm làm tăng nguy cơ ăn mòn, oxy hóa đầu nối pin; kiểm tra pin định kỳ, lau khô các đầu nối.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/xe-may-dien-sac-bao-lau-thi-day/",
+      "supports": "Yadea (29/07/2026), phần xe dùng ắc quy graphene: có thể cắm sạc qua đêm vì bộ sạc tự động ngắt điện khi bình đầy.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/xe-may-dien-sac-bao-lau-thi-day/",
+      "supports": "Yadea (29/07/2026): để xe nghỉ khoảng 30 đến 45 phút cho pin hạ nhiệt rồi mới cắm sạc.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/xe-may-dien-sac-bao-lau-thi-day/",
+      "supports": "Yadea (29/07/2026) nêu trình tự cắm sạc: cắm vào xe trước, sau đó cắm phích vào ổ điện (Dat Bike dặn ngược lại).",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+      "supports": "Yamaha NEO's: sạc nơi không có mưa hoặc ẩm ướt; lau sạch bụi, bùn, dầu, nước ở phích sạc bằng khăn khô; không chạm vào phích cắm khi tay đang ướt vì có thể bị điện giật.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+      "supports": "Yamaha NEO's: không chạm vào phích cắm khi tay đang ướt vì có thể xảy ra điện giật.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+      "supports": "Yamaha NEO's (cách sạc pin gắn trên xe): bước đầu tiên là tắt khóa điện của xe.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+      "supports": "Yamaha NEO's: bộ sạc có tiếng ồn bất thường, mùi hôi hoặc khói thì rút phích ngay, mang đến đại lý, không tự sửa tại nhà.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+      "supports": "Yamaha NEO's: không dùng pin nếu vỏ pin hư hỏng, nứt hoặc pin có mùi lạ; liên hệ đại lý.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+      "supports": "Yamaha NEO's: pin nóng thì đợi nguội bằng nhiệt độ môi trường, không ép nguội bằng tủ lạnh; pin lạnh thì đợi ấm lên, không đặt gần lò sưởi.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "supports": "Dat Bike: sạc ở nơi khô ráo, tránh khu vực nhiệt độ cao hoặc ẩm ướt; chỉ dùng bộ sạc trong nhà, tránh ẩm ướt.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "supports": "Dat Bike: không sạc pin ở nơi dễ cháy nổ, ẩm ướt hoặc môi trường nhiệt độ không ổn định.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "supports": "Dat Bike: sạc ở nơi khô ráo, tránh khu vực nhiệt độ cao hoặc ẩm ướt.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "supports": "Dat Bike: đợi khoảng 30 phút đến 1 giờ sau khi lái xe rồi mới sạc.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "supports": "Dat Bike (phần hỏi đáp): sạc qua đêm về cơ bản là an toàn vì bộ sạc tự ngắt khi đầy; nên rút sạc khi báo đầy hoặc dùng ổ cắm hẹn giờ.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "supports": "Dat Bike: mùi lạ, tiếng kêu lạ hoặc nhiệt độ tăng quá cao khi sạc thì dừng sạc ngay và liên hệ nhà sản xuất.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "supports": "Dat Bike: trước khi sạc bảo đảm xe đã tắt hoàn toàn, khóa điện ở chế độ OFF.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://evn.com.vn/d6/news/De-phong-chay-o-cam-dien-0-25-23254.aspx",
+      "supports": "EVN (12/03/2019): không để ổ cắm điện gần nguồn nước; lau tay thật khô trước khi sử dụng phích cắm điện; dấu hiệu cần thay ổ cắm.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://evn.com.vn/d6/news/De-phong-chay-o-cam-dien-0-25-23254.aspx",
+      "supports": "Bài EVN 12/03/2019: lau tay thật khô trước khi sử dụng phích cắm điện.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://evn.com.vn/d6/news/De-phong-chay-o-cam-dien-0-25-23254.aspx",
+      "supports": "Bài EVN: kiểm tra ổ cắm thường xuyên và thay ổ mới khi có dấu hiệu nguy hiểm (mùi nhựa nóng, tia lửa hoặc khói, dấu đen hoặc cháy xém).",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://evn.com.vn/d6/news/De-phong-chay-o-cam-dien-0-25-23254.aspx",
+      "supports": "Bài EVN: dấu màu đen hoặc cháy xém quanh ổ cắm, phích cắm là dấu hiệu cần thay ổ.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "supports": "Cục Cảnh sát PCCC và CNCH (24/05/2024): ổ sạc bị ẩm ướt, sạc nơi không thông thoáng và dây dẫn đấu nối không đảm bảo là các yếu tố dẫn đến chập cháy; sạc điện nơi khô ráo thoáng mát.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "supports": "Cục Cảnh sát PCCC và CNCH (24/05/2024): sạc ở nơi khô ráo thoáng mát; trong phòng tránh nơi kín, bảo đảm thông thoáng gió.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "supports": "PCCC: sau khi sử dụng phải chờ bình điện nguội khoảng 20 phút rồi mới bắt đầu sạc.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "supports": "PCCC: ngừng sạc trước khi ra khỏi nhà hoặc đi ngủ, tuyệt đối không sạc qua đêm.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "supports": "PCCC: khi sạc điện cần ngắt khóa điện nguồn.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.yadea.com.vn/8-luu-y-sac-xe-may-dien-trong-mua-nom-am/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/8-luu-y-sac-xe-may-dien-trong-mua-nom-am/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/8-luu-y-sac-xe-may-dien-trong-mua-nom-am/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/8-luu-y-sac-xe-may-dien-trong-mua-nom-am/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/8-luu-y-sac-xe-may-dien-trong-mua-nom-am/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/8-luu-y-sac-xe-may-dien-trong-mua-nom-am/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/8-luu-y-sac-xe-may-dien-trong-mua-nom-am/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/8-luu-y-sac-xe-may-dien-trong-mua-nom-am/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/xe-may-dien-sac-bao-lau-thi-day/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/xe-may-dien-sac-bao-lau-thi-day/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/xe-may-dien-sac-bao-lau-thi-day/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-sac-xe-may-dien-nhanh-tang-tuoi-tho-pin/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://evn.com.vn/d6/news/De-phong-chay-o-cam-dien-0-25-23254.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://evn.com.vn/d6/news/De-phong-chay-o-cam-dien-0-25-23254.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://evn.com.vn/d6/news/De-phong-chay-o-cam-dien-0-25-23254.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://evn.com.vn/d6/news/De-phong-chay-o-cam-dien-0-25-23254.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2343,
+        "title": "Xe máy điện: các hãng nổi bật và cách chọn xe phù hợp nhất",
+        "why": "stale",
+        "content_hash": "c6618e9c49c5f2f25650deea3da4d70c0b7ac0a3821f5dc81a038f2aae0716d7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2362,
+        "title": "Trạm Sạc Xe Máy Điện Hoạt Động Ra Sao Và Cần Lưu Ý Gì Khi Sử Dụng?",
+        "why": "stale",
+        "content_hash": "a17c9cf060eb4fcc003a8361442a9640e3697f1a42863cfbcf483016e0e39b82",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2378,
+        "title": "Xe máy điện VinFast: các mẫu đáng chú ý và điểm khác biệt",
+        "why": "stale",
+        "content_hash": "37ef98f1fa6912ab03a40b59b7957c089abbadee5f0ea45c7e3fcf1b939d9074",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2417,
+        "title": "Xe máy điện Yadea có tốt không? Ưu nhược điểm người dùng cần biết",
+        "why": "stale",
+        "content_hash": "0164531f890f08be8f0da4a90ffbe1bc5d7ce5908bd8637d53cc98b9fed34354",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2419,
+        "title": "Các mẫu xe máy điện Yadea đáng chú ý cho nhu cầu đi lại hằng ngày",
+        "why": "stale",
+        "content_hash": "7bc38bc17116cc544098848d7efca54f1bc888d1f57abe8145c1da084d9bbeb5",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T20:05:05.650831+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "898bfefc9bbee6c814244cb36e56f74ac6d08b6886de2e88e955a385ad61834b",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
