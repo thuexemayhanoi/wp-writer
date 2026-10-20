@@ -16943,7 +16943,7 @@
       }
     },
     "NT-000845": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T14:21:50.616641+00:00",
       "source_hash": "73cc4c11187acbfa73e99fe2d1da73e263a810a0b3fb697d41a6e38b0a8e2c79",
       "slug": "le-hoi-choi-trau-do-son-vong-loai-thang-6-am-lich-chung-ket-9-8-am-lich-khoi-phuc-nam-2026-va-duong-tu-ha-noi",
@@ -16959,8 +16959,37 @@
       "category_warning": null,
       "git_commit": "ed01fb31ae499e9a6292fd9f057881acc471f630",
       "run_id": "39438057013",
-      "updated_at": "2026-10-20T14:21:54.750639+00:00",
-      "wp_id": 4347
+      "updated_at": "2026-10-20T14:22:01.050449+00:00",
+      "wp_id": 4347,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/le-hoi-choi-trau-do-son-vong-loai-thang-6-am-lich-chung-ket-9-8-am-lich-khoi-phuc-nam-2026-va-duong-tu-ha-noi/",
+      "verified_at": "2026-10-20T14:22:01.050442+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4347,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/le-hoi-choi-trau-do-son-vong-loai-thang-6-am-lich-chung-ket-9-8-am-lich-khoi-phuc-nam-2026-va-duong-tu-ha-noi/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/le-hoi-choi-trau-do-son-vong-loai-thang-6-am-lich-chung-ket-9-8-am-lich-khoi-phuc-nam-2026-va-duong-tu-ha-noi/",
+        "seo_title": "Lễ hội chọi trâu Đồ Sơn: lịch âm, vòng loại 2026 và đường đi",
+        "seo_description": "Lễ hội chọi trâu Đồ Sơn có vòng loại tháng 6 âm lịch và chung kết 9/8 âm lịch. Xem kế hoạch 2026, mức đông khách, gửi xe và đường từ Hà Nội theo các trang đã đọc.",
+        "checked_at": "2026-10-20T14:22:01.050421+00:00"
+      }
     }
   },
   "categories": {}
