@@ -318,7 +318,10 @@ def source_excerpt_matches(excerpt, source_text):
     """
     needle = norm(excerpt)
     page = norm(source_text)
-    if needle in page:
+    # The normal case must end at a source word boundary. Plain substring
+    # matching incorrectly accepted tiny snippets such as "...đủ tu"
+    # against a page containing "...đủ tuổi".
+    if needle and (' ' + needle + ' ') in (' ' + page + ' '):
         return True
     parts = needle.split()
     if len(parts) < 24 or len(excerpt.strip()) < 120:
