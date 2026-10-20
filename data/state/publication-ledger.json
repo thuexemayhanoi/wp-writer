@@ -18364,7 +18364,7 @@
       }
     },
     "NT-000769": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-20T20:03:53.600929+00:00",
       "source_hash": "1b535b34ac36e2c73aaba8e7d4d9b3e744107808d7e40fca61dbdd247db29b03",
       "slug": "dai-lo-thang-long-den-25-12-2026-sua-4-cau-rao-chan-nua-mat-duong-toc-do-toi-da-60-km-h-va-cong-truong-nut-giao-vanh-dai-3-5",
@@ -18380,8 +18380,37 @@
       "category_warning": null,
       "git_commit": "c81c0ee2a88510e48d97f0e7682e4e682ece0276",
       "run_id": "39488377714",
-      "updated_at": "2026-10-20T20:03:58.831478+00:00",
-      "wp_id": 4376
+      "updated_at": "2026-10-20T20:04:05.041097+00:00",
+      "wp_id": 4376,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/dai-lo-thang-long-den-25-12-2026-sua-4-cau-rao-chan-nua-mat-duong-toc-do-toi-da-60-km-h-va-cong-truong-nut-giao-vanh-dai-3-5/",
+      "verified_at": "2026-10-20T20:04:05.041090+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4376,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/dai-lo-thang-long-den-25-12-2026-sua-4-cau-rao-chan-nua-mat-duong-toc-do-toi-da-60-km-h-va-cong-truong-nut-giao-vanh-dai-3-5/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/dai-lo-thang-long-den-25-12-2026-sua-4-cau-rao-chan-nua-mat-duong-toc-do-toi-da-60-km-h-va-cong-truong-nut-giao-vanh-dai-3-5/",
+        "seo_title": "Đại lộ Thăng Long đến 25/12/2026: sửa 4 cầu, rào nửa mặt đường",
+        "seo_description": "Đại lộ Thăng Long đến 25/12/2026: sửa 4 cầu với rào chắn nửa mặt đường, tốc độ qua công trường theo báo, mốc Km từng đoạn và công trường nút giao Vành đai 3,5.",
+        "checked_at": "2026-10-20T20:04:05.041072+00:00"
+      }
     }
   },
   "categories": {}
