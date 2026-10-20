@@ -1,0 +1,328 @@
+{
+  "topic_id": "NT-001077",
+  "status": "PASS",
+  "source_sha256": "05f1b470a47d4139a6d22418a3268764fb9abec81e97e90205c6b503ce1ce0c2",
+  "body_sha256": "e8354f4ebb7ac3b028f308c7999631b790662e649cdab6c3f9544342b5024ae8",
+  "word_count": 1912,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/ra-mat-cong-nghe-du-bao-hanh-trinh-dat-ride-predictor/",
+      "supports": "Bài của Dat Bike (đăng 17/10/2025, hiển thị thêm mốc 09/10/2026): Dat Ride Predictor trên xe Quantum, căn cứ vào thói quen sử dụng xe (cách lái, tốc độ chạy) để dự báo quãng đường còn đi được từ số % pin còn lại.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/ra-mat-cong-nghe-du-bao-hanh-trinh-dat-ride-predictor/",
+      "supports": "Bài của Dat Bike: Dat Ride Predictor ra mắt cùng Firmware v1.3.2 trên xe Quantum; hãng gọi là công nghệ lần đầu được áp dụng trên xe máy điện hai bánh ở Việt Nam (lời quảng bá của hãng).",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/ra-mat-cong-nghe-du-bao-hanh-trinh-dat-ride-predictor/",
+      "supports": "Bài của Dat Bike: công nghệ đã thử nghiệm từ các đời xe trước; với Dat Battery thế hệ 4 mới đưa vào áp dụng trên xe Quantum.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/ra-mat-cong-nghe-du-bao-hanh-trinh-dat-ride-predictor/",
+      "supports": "Bài của Dat Bike: trên LCD, vị trí nhiệt độ pin được thay bằng % pin còn lại ở góc trái bên dưới, vị trí % pin còn lại được thay bằng ước tính quãng đường (km) còn đi được ở góc phải bên dưới.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/ra-mat-cong-nghe-du-bao-hanh-trinh-dat-ride-predictor/",
+      "supports": "Bài của Dat Bike: thuật toán căn cứ vào cách lái, tốc độ chạy, cách vặn ga, quãng đường chạy dốc lên/xuống; cùng số % pin thì quãng đường còn lại trên các xe Quantum không giống nhau.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/ra-mat-cong-nghe-du-bao-hanh-trinh-dat-ride-predictor/",
+      "supports": "Bài của Dat Bike: khi đưa xe cho người khác mượn hoặc đổi cách lái, dự báo được cập nhật liên tục.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/ra-mat-cong-nghe-du-bao-hanh-trinh-dat-ride-predictor/",
+      "supports": "Bài của Dat Bike, ví dụ minh họa: chạy đều 30-40km/h trong thành phố cho dự báo 270km ứng với 100% pin (2.7km trên 1% pin); không nêu phương pháp đo.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/ra-mat-cong-nghe-du-bao-hanh-trinh-dat-ride-predictor/",
+      "supports": "Bài của Dat Bike, ví dụ minh họa: người mượn xe chạy liên tục 60-80km/h thì dự báo có thể chỉ còn 210km trên 100% pin.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/ra-mat-cong-nghe-du-bao-hanh-trinh-dat-ride-predictor/",
+      "supports": "Bài của Dat Bike, ví dụ minh họa: sau khi trả xe và sạc đầy, số dự báo có thể vẫn là 210km cho 100% rồi đổi sau một khoảng thời gian chủ xe chạy như cũ; bài không nói khoảng thời gian dài bao lâu.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn Dat Bike ERA mục 2.2.2: màn hình có chỉ thị dung lượng pin và chỉ thị Số Km đi được còn lại; hướng dẫn không mô tả cách tính.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Bảng thông số Dat Bike ERA: quãng đường di chuyển 200 km, kèm dấu (*) về điều kiện thử nghiệm.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Chú thích bảng thông số Dat Bike ERA: quãng đường 200 km theo điều kiện thử nghiệm của Dat Bike, một người điều khiển 70kg, vận tốc 35km/h.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+      "supports": "Trang xe Yamaha NEO's: quãng đường một lần sạc trên 60km ở chế độ ECO, dải tốc độ 30 đến 35km/h, khối lượng người và hàng hóa không quá 75kg.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://dat.bike/ra-mat-cong-nghe-du-bao-hanh-trinh-dat-ride-predictor/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/ra-mat-cong-nghe-du-bao-hanh-trinh-dat-ride-predictor/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/ra-mat-cong-nghe-du-bao-hanh-trinh-dat-ride-predictor/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/ra-mat-cong-nghe-du-bao-hanh-trinh-dat-ride-predictor/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/ra-mat-cong-nghe-du-bao-hanh-trinh-dat-ride-predictor/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/ra-mat-cong-nghe-du-bao-hanh-trinh-dat-ride-predictor/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/ra-mat-cong-nghe-du-bao-hanh-trinh-dat-ride-predictor/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/ra-mat-cong-nghe-du-bao-hanh-trinh-dat-ride-predictor/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/ra-mat-cong-nghe-du-bao-hanh-trinh-dat-ride-predictor/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2370,
+        "title": "Chi Phí Đi Xe Máy Điện Mỗi Tháng So Với Xe Máy Xăng Phổ Thông: Bài Toán Chi Tiết Từ Người Dùng Thực Tế",
+        "why": "stale",
+        "content_hash": "92d045593ec18a74d2c912be44adc4f392b4b025734668676528c637f6ed0b2d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2390,
+        "title": "Giá pin xe máy điện VinFast và những chi phí người dùng nên biết",
+        "why": "stale",
+        "content_hash": "c435ce6e6e7b1791b32ee311f65ed49f872191baee5071a5d5a3aec71094aef3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T19:52:20.019718+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "fe54cde3c6ea7313d7338e5c37d37d57ccf7047452b140d54847b923328af15f",
+  "incremental_key": "d7ad157ca977196ea8c180e5a1d1918f4eadb0a8b9a84b3d06f62ac62862ae08",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

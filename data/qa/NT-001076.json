@@ -1,0 +1,410 @@
+{
+  "topic_id": "NT-001076",
+  "status": "PASS",
+  "source_sha256": "fc829718bca1210c92d4ad5ef632f22887242b056f14ee0d0ae8835cbd9ed14b",
+  "body_sha256": "67373222a2b238eadefd288123202293d88ee7c2c93781f9790a9b94030fda97",
+  "word_count": 2161,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+      "supports": "Trang xe Yamaha NEO's (bảng thông số động cơ): công suất tối đa 2.3 kW, mô men xoắn cực đại 43,49 Nm; trang không ghi vòng tua đi kèm hay vị trí đo.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+      "supports": "Trang xe Yamaha NEO's: công suất danh định 2 kW, ghi cạnh công suất tối đa 2.3 kW.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+      "supports": "Trang xe Yamaha NEO's: động cơ điện tạo mô-men xoắn cao ở dải vòng tua thấp; trang không nêu dải vòng tua đó là bao nhiêu.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+      "supports": "Trang xe Yamaha NEO's: động cơ điện không chổi than, truyền động trực tiếp; không nêu tỷ số truyền.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+      "supports": "Trang xe Yamaha NEO's: hai chế độ lái STD và ECO.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/thong-tin-san-pham/zxone/",
+      "supports": "Trang sản phẩm Yadea X-Zone: tốc độ tối đa đạt lên 41 km/h, mô-men xoắn đầu ra tối đa 58.7Nm; trang không nói số đo ở trục động cơ hay bánh xe và không ghi vòng tua.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/thong-tin-san-pham/zxone/",
+      "supports": "Bảng thông số Yadea X-Zone: loại động cơ Hub, công suất danh định 400W, công suất tối đa 1050W, tốc độ tối đa 41km/h, khả năng leo dốc 8°; không ghi tỷ số truyền hay vòng tua.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/thong-tin-san-pham/zxone/",
+      "supports": "Trang sản phẩm Yadea X-Zone, chú thích: quãng đường và tốc độ tối đa được thử trong điều kiện tiêu chuẩn của Yadea; chú thích không nhắc mô-men xoắn.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/yamaha-motor-viet-nam-ra-mat-exciter-155-vva-tcs-tiep-tuc-khang-dinh-vi-the-va-ky-niem-cot-moc-20-nam-out-trinh/",
+      "supports": "Bài ra mắt Exciter 155 VVA-TCS của Yamaha Motor Việt Nam (đăng 22.07.2026), bảng thông số xe xăng: công suất tối đa 13.6kW / 9,500 vòng/phút, mô-men xoắn cực đại 14.4 N·m / 8,500 vòng/phút.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/yamaha-motor-viet-nam-ra-mat-exciter-155-vva-tcs-tiep-tuc-khang-dinh-vi-the-va-ky-niem-cot-moc-20-nam-out-trinh/",
+      "supports": "Bài ra mắt Exciter 155 VVA-TCS: hệ thống truyền lực cơ khí 6 cấp; động cơ xăng 4 kỳ, dung tích xy-lanh 155.1 cm³.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cong-nghe-tren-xe-may-dien-dat-bike/",
+      "supports": "Trang công nghệ Dat Bike (đăng 05/05/2026, cập nhật 09/10/2026): mô-tơ điện đạt mô-men xoắn cực đại ngay lập tức khi vặn ga; lời của hãng.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn Dat Bike ERA mục 2.4: tay ga điện có độ trễ ban đầu để tránh quá nhạy.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn Dat Bike ERA mục 2.8.3: chế độ S cho tốc độ phản ứng với tay ga nhanh và nhạy hơn.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/mo-men-xoan-va-ma-luc-khac-nhau-the-nao-3084052.html",
+      "supports": "VnExpress, bài đăng 26/09/2014 (trích Jalopnik, về ô tô): mô-men xoắn không tính tới yếu tố thời gian; mô-men xoắn hay lực xoắn khi nới bu-lông; mã lực là làm việc đó nhanh đến đâu.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/mo-men-xoan-va-ma-luc-khac-nhau-the-nao-3084052.html",
+      "supports": "VnExpress (trích Jalopnik): ví dụ hai người tháo bu-lông trong 9 giây và 3 giây, cùng mô-men xoắn, mã lực gấp 3 lần.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/vi-sao-xe-dien-tang-toc-nhanh-hon-xe-dong-co-dot-trong-1851273482.htm",
+      "supports": "Thanh Niên (09/05/2021, về ô tô điện): xe điện truyền toàn bộ mô-men xoắn tới bánh xe, không thất thoát qua các bộ phận khác; chỉ dùng cho khái niệm.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/vi-sao-xe-dien-tang-toc-nhanh-hon-xe-dong-co-dot-trong-1851273482.htm",
+      "supports": "Thanh Niên (09/05/2021, về ô tô điện): độ trễ chân ga trên xe điện gần như không có, nếu có là do nhà sản xuất cài đặt phần mềm để hạn chế.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/neos-bfm4/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/thong-tin-san-pham/zxone/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/thong-tin-san-pham/zxone/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/thong-tin-san-pham/zxone/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/yamaha-motor-viet-nam-ra-mat-exciter-155-vva-tcs-tiep-tuc-khang-dinh-vi-the-va-ky-niem-cot-moc-20-nam-out-trinh/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/yamaha-motor-viet-nam-ra-mat-exciter-155-vva-tcs-tiep-tuc-khang-dinh-vi-the-va-ky-niem-cot-moc-20-nam-out-trinh/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cong-nghe-tren-xe-may-dien-dat-bike/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/mo-men-xoan-va-ma-luc-khac-nhau-the-nao-3084052.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/mo-men-xoan-va-ma-luc-khac-nhau-the-nao-3084052.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/vi-sao-xe-dien-tang-toc-nhanh-hon-xe-dong-co-dot-trong-1851273482.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/vi-sao-xe-dien-tang-toc-nhanh-hon-xe-dong-co-dot-trong-1851273482.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2362,
+        "title": "Trạm Sạc Xe Máy Điện Hoạt Động Ra Sao Và Cần Lưu Ý Gì Khi Sử Dụng?",
+        "why": "stale",
+        "content_hash": "a17c9cf060eb4fcc003a8361442a9640e3697f1a42863cfbcf483016e0e39b82",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2378,
+        "title": "Xe máy điện VinFast: các mẫu đáng chú ý và điểm khác biệt",
+        "why": "stale",
+        "content_hash": "37ef98f1fa6912ab03a40b59b7957c089abbadee5f0ea45c7e3fcf1b939d9074",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2397,
+        "title": "Xe máy điện VinFast nào phù hợp đi phố và quãng đường ngắn hằng ngày?",
+        "why": "stale",
+        "content_hash": "2b93d3334950d29cdf087539809b34e2aca4cc02672b85bcc31d2f5de9a815aa",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4049,
+        "title": "Thuê xe máy điện ở chung cư Hà Nội không có chỗ sạc riêng: cần kiểm tra gì trước khi đặt?",
+        "why": "stale",
+        "content_hash": "60ea270b75576e53780d251f2026ebec6088930775beded46df2ce5bc3601d66",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T19:52:19.592234+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "fe54cde3c6ea7313d7338e5c37d37d57ccf7047452b140d54847b923328af15f",
+  "incremental_key": "aeae9ee4ad96b71edcf4a18fc1790fb53ada7630cb87237ceb977dceca344a61",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

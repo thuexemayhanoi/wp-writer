@@ -1,0 +1,393 @@
+{
+  "topic_id": "NT-000764",
+  "status": "PASS",
+  "source_sha256": "e1a5e8af2c2bc4b1fba4310b6a3386a693aea062dc145b607a2a5fab86a6d725",
+  "body_sha256": "0aa93e5210fbee4b4055f8233d1224d66d027e5b096e8492d373eab834b1d8b1",
+  "word_count": 2408,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: người nước ngoài định danh bằng \"Đăng ký - Foreigner Registration\", tải ảnh hộ chiếu và ảnh chân dung, chờ khoảng 3 ngày để thành tài khoản phổ thông.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: khách nước ngoài dùng vé thời gian không có CCCD thì đăng ký định danh bằng hộ chiếu để mua vé trên ứng dụng.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: khách nước ngoài dùng vé lượt không có CCCD mua tại quầy và được cấp tem giấy QR một lượt.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: vé lượt mua trực tiếp tại quầy và máy bán vé tự động không cần định danh.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: vé lượt chỉ có giá trị trong ngày, không hoàn đổi; ví dụ Cát Linh - Yên Nghĩa 19.000 đồng.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: tải ứng dụng Hà Nội Metro trên CH Play hoặc App Store.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: cách đặt mã QR hoặc thẻ CCCD/NFC/Visa lên mặt quét của cổng soát vé.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: Tap & Go bằng thẻ Visa mà quên quẹt ra thì hệ thống trừ vé chặng cao nhất tính từ ga vào.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: quên quẹt vào bằng thẻ Visa thì cổng không mở, phải mua vé bổ sung ở quầy.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: mỗi thẻ Visa chỉ dùng cho một người và một lượt di chuyển tại cùng một thời điểm.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: ưu đãi quẹt thẻ Visa 50% tuyến 2A và 100% tuyến 3.1 chỉ đến hết 31/07/2026 hoặc hết ngân sách tài trợ, đã quá mốc tại ngày đọc.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: cần hỗ trợ thì đến nhà ga gần nhất hoặc liên hệ các kênh của Hà Nội Metro.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/metro-nhon-ga-ha-noi-ap-dung-ve-dinh-danh-xac-thuc-dien-tu-5006639.html",
+      "supports": "VnExpress 17/1/2026: thẻ thanh toán quốc tế Visa đi qua cổng soát vé được miễn vé đến hết 28/2/2026, đã quá mốc tại ngày đọc.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoicapital.chinhphu.vn/english/ha-noi-to-modernize-metro-ticketing-with-biometric-technology-110251104170737072.htm",
+      "supports": "Cổng thông tin Chính phủ (tiếng Anh, 4/11/2025): giai đoạn 1 xác minh người dùng vé theo thời gian qua CCCD, VNeID hoặc trực tiếp tại quầy vé đối với hành khách nước ngoài.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoicapital.chinhphu.vn/english/ha-noi-to-modernize-metro-ticketing-with-biometric-technology-110251104170737072.htm",
+      "supports": "Cổng thông tin Chính phủ (tiếng Anh, 4/11/2025): thẻ thanh toán chip EMV được nhận để tap-and-go.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoicapital.chinhphu.vn/english/ha-noi-to-modernize-metro-ticketing-with-biometric-technology-110251104170737072.htm",
+      "supports": "Cổng thông tin Chính phủ (tiếng Anh, 4/11/2025): thành phố dự kiến thí điểm sinh trắc học cho hành khách nước ngoài dùng hộ chiếu, thẻ EMV hoặc ví điện tử (kế hoạch, chưa phải đang áp dụng).",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/metro-nhon-ga-ha-noi-ap-dung-ve-dinh-danh-xac-thuc-dien-tu-5006639.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoicapital.chinhphu.vn/english/ha-noi-to-modernize-metro-ticketing-with-biometric-technology-110251104170737072.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoicapital.chinhphu.vn/english/ha-noi-to-modernize-metro-ticketing-with-biometric-technology-110251104170737072.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoicapital.chinhphu.vn/english/ha-noi-to-modernize-metro-ticketing-with-biometric-technology-110251104170737072.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 891,
+        "title": "Hợp Đồng Thuê Xe Máy Hà Nội Có Cần Đặt Cọc Không? Tư Vấn Nhanh",
+        "why": "stale",
+        "content_hash": "dfef1f80adfed1e1d9366a3b620ef84119b9cf4fc4ea34f66fe16eb22f52bcca",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2346,
+        "title": "Top xe máy điện đáng chú ý năm 2026 cho nhu cầu đi lại hằng ngày",
+        "why": "stale",
+        "content_hash": "c7b5d7cca26b30a8483ce0a25e3d5de7d28c48a734a1969cf0ab5c477bf745b6",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2594,
+        "title": "Đi ngoại thành Hà Nội nên chọn xe ga hay xe côn tay để phù hợp hơn?",
+        "why": "stale",
+        "content_hash": "c828fb01d0925dea14287531e51418ebeef09564d4fb50f52a2398ebd052935e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4054,
+        "title": "Thuê xe máy đi xem phòng trọ ở Hà Nội: xếp lịch khảo sát, gửi xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "5d877b968a3e9b4218759e74edb64aa0e8b842897cadb48686b422876f7f89a1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T19:54:41.602505+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "033bea45ea184dae16a7cd62366c16592f745fd04bc737224e68671e478794ae",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

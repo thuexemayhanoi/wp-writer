@@ -1,0 +1,352 @@
+{
+  "topic_id": "NT-000765",
+  "status": "PASS",
+  "source_sha256": "bc7c221f7545bda1c7c17f514296247deef962ed4cb7cdfe202c5280fc2cb8fc",
+  "body_sha256": "bf61c4df470efd16a783198b0c174774702a449d2a51c31d0066c7afda669ead",
+  "word_count": 2513,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: người trên 60 tuổi dùng CCCD gắn chip hoặc định danh trên ứng dụng để nhận vé miễn phí 0 đồng.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: đối tượng miễn phí (người khuyết tật, người có công…) đăng ký trong mục Vé ưu đãi kèm ảnh giấy tờ chứng minh.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: thủ tục tích hợp vé miễn phí vào CCCD gắn chip hoặc thẻ NFC tại quầy vé.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: trẻ em dưới 6 tuổi miễn phí vé, xuất trình giấy tờ như giấy khai sinh hoặc xác định theo bảng chiều cao WHO, phải có người lớn đi kèm.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "supports": "Trang Hỏi đáp của Hà Nội Metro: hồ sơ vé ưu tiên bị từ chối thường do điền sai thông tin; kiểm tra, nộp lại hoặc gọi hotline.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/huong-dan-su-dung-ve-uu-dai-danh-cho-nguoi-cao-tuoi-tren-tuyen-dsdt-3-1-nhon-ga-ha-noi/",
+      "supports": "Hướng dẫn của Hà Nội Metro cho tuyến 3.1: vé ưu đãi áp dụng cho hành khách từ 60 tuổi trở lên, thuộc diện miễn phí vé theo Nghị quyết số 07/2019 của HĐND TP Hà Nội.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/huong-dan-su-dung-ve-uu-dai-danh-cho-nguoi-cao-tuoi-tren-tuyen-dsdt-3-1-nhon-ga-ha-noi/",
+      "supports": "Hướng dẫn của Hà Nội Metro cho tuyến 3.1: chương trình trải nghiệm cổng soát vé định danh, xác thực điện tử và nhận diện sinh trắc học trên toàn tuyến 3.1.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/huong-dan-su-dung-ve-uu-dai-danh-cho-nguoi-cao-tuoi-tren-tuyen-dsdt-3-1-nhon-ga-ha-noi/",
+      "supports": "Hướng dẫn của Hà Nội Metro cho tuyến 3.1: cách 1 mang CCCD gắn chip đến quầy vé để định danh và đăng ký tham gia thử nghiệm.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/huong-dan-su-dung-ve-uu-dai-danh-cho-nguoi-cao-tuoi-tren-tuyen-dsdt-3-1-nhon-ga-ha-noi/",
+      "supports": "Hướng dẫn của Hà Nội Metro cho tuyến 3.1: cần hỗ trợ thì đến quầy vé tại các ga hoặc gọi hotline 19001086.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/noi-quy/",
+      "supports": "Trang Nội quy của Hà Nội Metro: hành khách được đi tàu miễn phí theo Nghị quyết của HĐND Thành phố đến quầy bán vé (BOM) nhận thẻ 0 đồng; trang không nêu nhóm đối tượng.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/noi-quy/",
+      "supports": "Trang Nội quy của Hà Nội Metro: trẻ em từ 6 tuổi trở xuống bắt buộc phải có người lớn đi kèm, nếu không công ty có thể từ chối cung cấp dịch vụ.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoicapital.chinhphu.vn/english/ha-noi-to-modernize-metro-ticketing-with-biometric-technology-110251104170737072.htm",
+      "supports": "Cổng thông tin Chính phủ (tiếng Anh, 4/11/2025): người cao tuổi đi bằng CCCD gắn chip và nhận diện khuôn mặt, không cần vé giấy (mô tả trong kế hoạch).",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/ha-noi-ap-dung-ve-dien-tu-lien-thong-giua-xe-buyt-va-metro-tu-1-9-1528979.html",
+      "supports": "Hànộimới 28/8/2026: với thẻ vé giao thông liên thông, diện ưu tiên hoặc miễn phí bổ sung giấy tờ chứng minh để hệ thống phê duyệt.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/ha-noi-ap-dung-ve-dien-tu-lien-thong-giua-xe-buyt-va-metro-tu-1-9-1528979.html",
+      "supports": "Hànộimới 28/8/2026: người có thẻ vé giao thông miễn phí gắn chip được kích hoạt dữ liệu liên thông trên hệ thống Metro mà không phải cấp đổi thẻ mới.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/huong-dan-su-dung-he-thong-metro/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/huong-dan-su-dung-ve-uu-dai-danh-cho-nguoi-cao-tuoi-tren-tuyen-dsdt-3-1-nhon-ga-ha-noi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/huong-dan-su-dung-ve-uu-dai-danh-cho-nguoi-cao-tuoi-tren-tuyen-dsdt-3-1-nhon-ga-ha-noi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/huong-dan-su-dung-ve-uu-dai-danh-cho-nguoi-cao-tuoi-tren-tuyen-dsdt-3-1-nhon-ga-ha-noi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/huong-dan-su-dung-ve-uu-dai-danh-cho-nguoi-cao-tuoi-tren-tuyen-dsdt-3-1-nhon-ga-ha-noi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/noi-quy/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/metro-userguide/noi-quy/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoicapital.chinhphu.vn/english/ha-noi-to-modernize-metro-ticketing-with-biometric-technology-110251104170737072.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/ha-noi-ap-dung-ve-dien-tu-lien-thong-giua-xe-buyt-va-metro-tu-1-9-1528979.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/ha-noi-ap-dung-ve-dien-tu-lien-thong-giua-xe-buyt-va-metro-tu-1-9-1528979.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 562,
+        "title": "Cho Thuê Xe Máy ở Hà Nội – Giao Tận Nơi, Cọc Nhẹ | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "bef2a1222a528843870457f0106cf4c95a0e35e17def59be14a16504af267b6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2590,
+        "title": "Xe ga nào dễ lái cho người mới? Tiêu chí chọn xe an toàn hơn",
+        "why": "stale",
+        "content_hash": "f8902bfd6a2486eeeba8cd80b6a82c343421a30c904c7f55f75916cb9ec28c44",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4059,
+        "title": "Thuê xe máy đi phỏng vấn ở Hà Nội trong một ngày: xếp lịch, chọn xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "0ffbbff60edf006739890cca423af4e81cb5346ee434c29859648be6bdb57675",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T19:55:06.299872+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "624b3998aa8dddfa72f3371995a85b2712cfbef39e8f0d8691e4a3d4bb104eaf",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

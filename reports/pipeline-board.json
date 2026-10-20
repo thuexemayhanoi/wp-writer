@@ -1,65 +1,17 @@
 {
-  "at": "2026-10-20T19:51:40.023382+00:00",
+  "at": "2026-10-20T20:00:15.903576+00:00",
   "counts": {
-    "WRITING": 41,
+    "WRITING": 24,
     "QA": 0,
-    "READY": 0,
+    "READY": 7,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 384
+    "VERIFIED": 394
   },
-  "ready_backlog": 0,
-  "in_flight": 44,
+  "ready_backlog": 7,
+  "in_flight": 34,
   "items": [
-    {
-      "topic_id": "NT-000764",
-      "state": "WRITING",
-      "reason": "leased to seodev-w40",
-      "title": "Người nước ngoài đi metro Hà Nội: mua vé lượt ở quầy, đăng ký hộ chiếu trên app khoảng 3 ngày và thẻ Visa",
-      "slot": "W3",
-      "session": "seodev-w40",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000765",
-      "state": "WRITING",
-      "reason": "leased to seodev-w40",
-      "title": "Miễn vé metro Hà Nội: người trên 60 tuổi, người khuyết tật, người có công và trẻ dưới 6 tuổi cần giấy tờ gì",
-      "slot": "W3",
-      "session": "seodev-w40",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000767",
-      "state": "WRITING",
-      "reason": "leased to seodev-w40",
-      "title": "BRT Hà Nội còn chạy không: tuyến 01 Kim Mã – Yên Nghĩa, kết luận của Kiểm toán Nhà nước và kế hoạch thay bằng đường sắt đô thị số 11",
-      "slot": "W3",
-      "session": "seodev-w40",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000768",
-      "state": "WRITING",
-      "reason": "leased to seodev-w40",
-      "title": "Cầu Thăng Long tháng 10–12/2026: thi công đêm từ 22/10, cấm xe tải và xe khách đến 10/11, xe máy đi tầng dưới",
-      "slot": "W3",
-      "session": "seodev-w40",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-000769",
       "state": "WRITING",
@@ -133,18 +85,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-000933",
-      "state": "WRITING",
-      "reason": "leased to seodev-w41",
-      "title": "Ổ cắm để sạc xe máy điện tại nhà: Dat Bike dặn ổ chịu 20 A hoặc 3.000 W, EVN và PCCC dặn gì thêm?",
-      "slot": "W4",
-      "session": "seodev-w41",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-000934",
       "state": "WRITING",
       "reason": "leased to seodev-w41",
@@ -187,54 +127,6 @@
       "title": "Ký cược khi thuê xe máy: tiền cọc nhận xe khác đặt cọc ở điểm nào theo Điều 329 Bộ luật Dân sự",
       "slot": "W4",
       "session": "seodev-w41",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000965",
-      "state": "WRITING",
-      "reason": "leased to seodev-w42",
-      "title": "Nhận xe máy thuê bị lỗi ngay từ đầu: đòi sửa, giảm giá thuê hay đổi xe theo Điều 476 và 477",
-      "slot": "W5",
-      "session": "seodev-w42",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000966",
-      "state": "WRITING",
-      "reason": "leased to seodev-w42",
-      "title": "Xe máy thuê gây tai nạn: chủ xe hay người thuê phải bồi thường theo Điều 601 Bộ luật Dân sự",
-      "slot": "W5",
-      "session": "seodev-w42",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000967",
-      "state": "WRITING",
-      "reason": "leased to seodev-w42",
-      "title": "Xe máy thuê bị mất cắp: người thuê chịu trách nhiệm đến đâu theo Điều 479, 351 và 360",
-      "slot": "W5",
-      "session": "seodev-w42",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000968",
-      "state": "WRITING",
-      "reason": "leased to seodev-w42",
-      "title": "Hợp đồng thuê xe máy bỏ trống điều khoản: giá, thời hạn, hạn trả tiền, nơi trả xe theo Bộ luật Dân sự",
-      "slot": "W5",
-      "session": "seodev-w42",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -337,18 +229,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001008",
-      "state": "WRITING",
-      "reason": "leased to seodev-w43",
-      "title": "Nơi cấm dừng xe, đỗ xe khi đi xe máy: 14 điểm trong Điều 18 Luật 36/2024 và quy tắc đỗ sát lề 0,25 m",
-      "slot": "W6",
-      "session": "seodev-w43",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001009",
       "state": "WRITING",
       "reason": "leased to seodev-w43",
@@ -385,30 +265,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001070",
-      "state": "WRITING",
-      "reason": "leased to seodev-w44",
-      "title": "Xích xe máy điện: độ chùng tiêu chuẩn, dầu bôi trơn và dấu hiệu mòn theo sổ Theon và Quantum",
-      "slot": "W7",
-      "session": "seodev-w44",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001071",
-      "state": "WRITING",
-      "reason": "leased to seodev-w44",
-      "title": "Số khung, số động cơ xe máy điện Dat Bike khắc ở đâu: VIN dưới yên và số trên cụm động cơ",
-      "slot": "W7",
-      "session": "seodev-w44",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001072",
       "state": "WRITING",
       "reason": "leased to seodev-w44",
@@ -433,66 +289,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001076",
-      "state": "WRITING",
-      "reason": "leased to seodev-w44",
-      "title": "Mô-men xoắn xe máy điện: vì sao 43,49 Nm của NEO's và 14,4 N·m của Exciter không so trực tiếp",
-      "slot": "W7",
-      "session": "seodev-w44",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001077",
-      "state": "WRITING",
-      "reason": "leased to seodev-w44",
-      "title": "Dat Ride Predictor trên xe Quantum: vì sao cùng số % pin mà quãng đường dự báo khác nhau",
-      "slot": "W7",
-      "session": "seodev-w44",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001078",
-      "state": "WRITING",
-      "reason": "leased to seodev-w44",
-      "title": "Nhiều người dùng chung một xe Dat Bike: chỉ một điện thoại kết nối cùng lúc và cách ghép nối lại",
-      "slot": "W7",
-      "session": "seodev-w44",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001093",
-      "state": "WRITING",
-      "reason": "leased to seodev-w45",
-      "title": "Đền Đô ở Bắc Ninh: đền thờ tám vị vua Lý, khu lăng mộ cách 800 m và hội đền tháng Ba âm lịch",
-      "slot": "W8",
-      "session": "seodev-w45",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001094",
-      "state": "WRITING",
-      "reason": "leased to seodev-w45",
-      "title": "Chùa Bút Tháp ở Bắc Ninh: Quan Âm nghìn mắt nghìn tay, Cửu phẩm liên hoa và bốn bảo vật quốc gia",
-      "slot": "W8",
-      "session": "seodev-w45",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001095",
       "state": "WRITING",
       "reason": "leased to seodev-w45",
@@ -503,6 +299,90 @@
       "url": null,
       "qa_status": null,
       "seo_score": null
+    },
+    {
+      "topic_id": "NT-001070",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Xích xe máy điện: độ chùng tiêu chuẩn, dầu bôi trơn và dấu hiệu mòn theo sổ Theon và Quantum",
+      "slot": "W7",
+      "session": "seodev-w44",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001071",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Số khung, số động cơ xe máy điện Dat Bike khắc ở đâu: VIN dưới yên và số trên cụm động cơ",
+      "slot": "W7",
+      "session": "seodev-w44",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001076",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Mô-men xoắn xe máy điện: vì sao 43,49 Nm của NEO's và 14,4 N·m của Exciter không so trực tiếp",
+      "slot": "W7",
+      "session": "seodev-w44",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001077",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Dat Ride Predictor trên xe Quantum: vì sao cùng số % pin mà quãng đường dự báo khác nhau",
+      "slot": "W7",
+      "session": "seodev-w44",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001078",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Nhiều người dùng chung một xe Dat Bike: chỉ một điện thoại kết nối cùng lúc và cách ghép nối lại",
+      "slot": "W7",
+      "session": "seodev-w44",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001093",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Đền Đô ở Bắc Ninh: đền thờ tám vị vua Lý, khu lăng mộ cách 800 m và hội đền tháng Ba âm lịch",
+      "slot": "W8",
+      "session": "seodev-w45",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001094",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Chùa Bút Tháp ở Bắc Ninh: Quan Âm nghìn mắt nghìn tay, Cửu phẩm liên hoa và bốn bảo vật quốc gia",
+      "slot": "W8",
+      "session": "seodev-w45",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
     },
     {
       "topic_id": "NT-001101",
@@ -3781,6 +3661,30 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-000764",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Người nước ngoài đi metro Hà Nội: mua vé lượt ở quầy, đăng ký hộ chiếu trên app khoảng 3 ngày và thẻ Visa",
+      "slot": "W3",
+      "session": "seodev-w40",
+      "wp_id": 4366,
+      "url": "https://thuexemaynguyentu.com/nguoi-nuoc-ngoai-di-metro-ha-noi-mua-ve-luot-o-quay-dang-ky-ho-chieu-tren-app-khoang-3-ngay-va-the-visa/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-000765",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Miễn vé metro Hà Nội: người trên 60 tuổi, người khuyết tật, người có công và trẻ dưới 6 tuổi cần giấy tờ gì",
+      "slot": "W3",
+      "session": "seodev-w40",
+      "wp_id": 4367,
+      "url": "https://thuexemaynguyentu.com/mien-ve-metro-ha-noi-nguoi-tren-60-tuoi-nguoi-khuyet-tat-nguoi-co-cong-va-tre-duoi-6-tuoi-can-giay-to-gi/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-000766",
       "state": "VERIFIED",
       "reason": "publish",
@@ -3789,6 +3693,30 @@
       "session": "seodev-w40",
       "wp_id": 4359,
       "url": "https://thuexemaynguyentu.com/ve-thang-uu-dai-metro-ha-noi-hoc-sinh-sinh-vien-cong-nhan-kcn-giam-50-dang-ky-tren-app-va-ho-so-tai-quay/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-000767",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "BRT Hà Nội còn chạy không: tuyến 01 Kim Mã – Yên Nghĩa, kết luận của Kiểm toán Nhà nước và kế hoạch thay bằng đường sắt đô thị số 11",
+      "slot": "W3",
+      "session": "seodev-w40",
+      "wp_id": 4368,
+      "url": "https://thuexemaynguyentu.com/brt-ha-noi-con-chay-khong-tuyen-01-kim-ma-yen-nghia-ket-luan-cua-kiem-toan-nha-nuoc-va-ke-hoach-thay-bang-duong-sat-do-thi-so-11/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-000768",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Cầu Thăng Long tháng 10–12/2026: thi công đêm từ 22/10, cấm xe tải và xe khách đến 10/11, xe máy đi tầng dưới",
+      "slot": "W3",
+      "session": "seodev-w40",
+      "wp_id": 4369,
+      "url": "https://thuexemaynguyentu.com/cau-thang-long-thang-10-12-2026-thi-cong-dem-tu-22-10-cam-xe-tai-va-xe-khach-den-10-11-xe-may-di-tang-duoi/",
       "qa_status": "PASS",
       "seo_score": 100
     },
@@ -4549,6 +4477,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-000933",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Ổ cắm để sạc xe máy điện tại nhà: Dat Bike dặn ổ chịu 20 A hoặc 3.000 W, EVN và PCCC dặn gì thêm?",
+      "slot": "W4",
+      "session": "seodev-w41",
+      "wp_id": 4370,
+      "url": "https://thuexemaynguyentu.com/o-cam-de-sac-xe-may-dien-tai-nha-dat-bike-dan-o-chiu-20-a-hoac-3-000-w-evn-va-pccc-dan-gi-them/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-000936",
       "state": "VERIFIED",
       "reason": "publish",
@@ -4633,6 +4573,54 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-000965",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Nhận xe máy thuê bị lỗi ngay từ đầu: đòi sửa, giảm giá thuê hay đổi xe theo Điều 476 và 477",
+      "slot": "W5",
+      "session": "seodev-w42",
+      "wp_id": 4371,
+      "url": "https://thuexemaynguyentu.com/nhan-xe-may-thue-bi-loi-ngay-tu-dau-doi-sua-giam-gia-thue-hay-doi-xe-theo-dieu-476-va-477/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-000966",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe máy thuê gây tai nạn: chủ xe hay người thuê phải bồi thường theo Điều 601 Bộ luật Dân sự",
+      "slot": "W5",
+      "session": "seodev-w42",
+      "wp_id": 4372,
+      "url": "https://thuexemaynguyentu.com/xe-may-thue-gay-tai-nan-chu-xe-hay-nguoi-thue-phai-boi-thuong-theo-dieu-601-bo-luat-dan-su/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-000967",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe máy thuê bị mất cắp: người thuê chịu trách nhiệm đến đâu theo Điều 479, 351 và 360",
+      "slot": "W5",
+      "session": "seodev-w42",
+      "wp_id": 4373,
+      "url": "https://thuexemaynguyentu.com/xe-may-thue-bi-mat-cap-nguoi-thue-chiu-trach-nhiem-den-dau-theo-dieu-479-351-va-360/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-000968",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Hợp đồng thuê xe máy bỏ trống điều khoản: giá, thời hạn, hạn trả tiền, nơi trả xe theo Bộ luật Dân sự",
+      "slot": "W5",
+      "session": "seodev-w42",
+      "wp_id": 4374,
+      "url": "https://thuexemaynguyentu.com/hop-dong-thue-xe-may-bo-trong-dieu-khoan-gia-thoi-han-han-tra-tien-noi-tra-xe-theo-bo-luat-dan-su/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001007",
       "state": "VERIFIED",
       "reason": "publish",
@@ -4641,6 +4629,18 @@
       "session": "seodev-w43",
       "wp_id": 4362,
       "url": "https://thuexemaynguyentu.com/13-truong-hop-nguoi-di-xe-may-phai-quan-sat-giam-toc-do-hoac-dung-lai-theo-dieu-12-luat-trat-tu-an-toan-giao-thong-duong-bo-2024/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001008",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Nơi cấm dừng xe, đỗ xe khi đi xe máy: 14 điểm trong Điều 18 Luật 36/2024 và quy tắc đỗ sát lề 0,25 m",
+      "slot": "W6",
+      "session": "seodev-w43",
+      "wp_id": 4375,
+      "url": "https://thuexemaynguyentu.com/noi-cam-dung-xe-do-xe-khi-di-xe-may-14-diem-trong-dieu-18-luat-36-2024-va-quy-tac-do-sat-le-0-25-m/",
       "qa_status": "PASS",
       "seo_score": 100
     },
