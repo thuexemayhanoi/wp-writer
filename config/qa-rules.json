@@ -27,5 +27,7 @@
   "evidence_recheck": {
     "enabled": true,
     "max_jaccard": 0.25
-  }
+  },
+  "incremental_sweep": true,
+  "incremental_max_age_hours": 24
 }

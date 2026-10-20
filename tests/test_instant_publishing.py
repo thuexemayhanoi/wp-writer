@@ -43,7 +43,10 @@ class InstantPublishingTests(unittest.TestCase):
         p=json.loads((ROOT/'config/production-policy.json').read_text(encoding='utf-8'))
         self.assertEqual(p['batch_size'],2)
         self.assertEqual(p['max_batches_per_run'],5)
-        self.assertTrue(production_allowed(p))
+        # Owner allows continuous QA-gated publication after the short pilot.
+        # The per-run, daily, taxonomy, and emergency stop guards remain active.
+        self.assertEqual(production_allowed(p), not (p['paused'] or p['emergency_stop']))
+        self.assertTrue(production_allowed({**p,'emergency_stop':False,'paused':False}))
         self.assertIs(p['production_enabled'],True)
         self.assertTrue(p['owner_approval_ref'])
         self.assertTrue(p['seo_adapter_verified'])
@@ -54,11 +57,20 @@ class InstantPublishingTests(unittest.TestCase):
         p=json.loads((ROOT/'config/production-policy.json').read_text(encoding='utf-8'))
         self.assertEqual(p['mode'], 'production')
         self.assertIs(p['paused'], False)
-        self.assertIs(p['emergency_stop'], False)
+        self.assertIs(type(p['emergency_stop']), bool)
+        # Pilot complete by owner order: release pilot only; keep normal 2x5
+        # serial publishing, daily cap and exact-category guardrails.
+        from publisher import pilot_settings
+        self.assertIsNone(pilot_settings(p))
+        self.assertEqual(delivery_batch_limit(p),10)
+        self.assertEqual(p['approved_capacity'],2000)
+        self.assertFalse(p['allow_category_create'])
+        self.assertEqual(p['on_category_mismatch'],'draft')
         # Never performed, so never marked true; they no longer gate publication.
         self.assertIs(p['security_controls_verified'], False)
         self.assertIs(p['acceptance_passed'], False)
-        self.assertTrue(production_allowed(p))
+        self.assertEqual(production_allowed(p), not p['emergency_stop'])
+        self.assertTrue(production_allowed({**p,'emergency_stop':False}))
 
     def test_unapproved_production_mode_never_loads_wp_credentials_or_posts(self):
         args=Namespace(persist_state=False, acceptance_topic=None,
@@ -67,7 +79,9 @@ class InstantPublishingTests(unittest.TestCase):
         def switched_off(path,*a,**k):
             data=real_load(path,*a,**k)
             if path=='config/production-policy.json':
-                data={**data,'production_enabled':False}
+                # Isolate the unapproved-production gate from the independent
+                # owner emergency stop, without mutating the stored policy.
+                data={**data,'production_enabled':False,'emergency_stop':False,'publisher_pilot':None}
             return data
         capture=io.StringIO()
         with (patch('publisher.load', side_effect=switched_off),

@@ -69,11 +69,20 @@ def main():
     output=ROOT/'data/qa'
     output.mkdir(parents=True,exist_ok=True)
     repair_path=ROOT/'reports/repair-queue.json'
-    # Do not accept stale artifacts from another commit or previous CI run.
+    # Do not accept stale artifacts from another commit or previous CI run. With the incremental sweep (config
+    # qa-rules.incremental_sweep) only records that are hash-valid for the current draft, rules and topic row (or
+    # frozen by a VERIFIED WordPress publication) survive; every other record is removed and evaluated afresh.
+    from qa_incremental import enabled,plan
+    incremental=enabled()
+    keep=set()
+    if incremental:
+        p=plan();keep=set(p['frozen'])|set(p['cached'])
+        print('QA_INCREMENTAL: frozen=%d cached=%d fresh=%d'%(len(p['frozen']),len(p['cached']),len(p['fresh'])))
     for path in output.glob('NT-*.json'):
-        path.unlink()
+        if path.stem not in keep:
+            path.unlink()
     repair_path.unlink(missing_ok=True)
-    cmd=[sys.executable,str(ROOT/'scripts/qa.py')]
+    cmd=[sys.executable,str(ROOT/'scripts/qa.py')]+(['--incremental'] if incremental else [])
     result=subprocess.run(cmd,cwd=ROOT,check=False)
     # QA returns 1 when at least one draft is FAIL/REVIEW, but Python
     # exceptions also return 1. Only a complete, hash-matched fresh checkpoint

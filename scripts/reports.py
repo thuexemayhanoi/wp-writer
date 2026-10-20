@@ -86,6 +86,9 @@ def run():
     save('reports/cannibalization-risk-matrix.json',{'baseline_pairs':audit['06_Similar_Old_URLs'],'new_topic_qa':load('reports/topic-qa.json',{}),'note':'Heuristic flags require full-content intent review. No legacy edits.'})
     save('reports/category-mapping-errors.json',mapping_errors)
     build()
+    # Per-article pipeline board (WRITING -> QA -> READY -> PUBLISHING -> VERIFIED, REPAIR/HELD): reports/pipeline-board.{json,md}
+    from pipeline_board import run as board_run
+    board_run()
     md='# Factory dashboard\n\nGenerated from manifest, lease registry, QA evidence and publication ledger.\n\n| Metric | Value |\n|---|---|\n'
     md+=''.join('| '+k+' | '+str(v)+' |\n' for k,v in dashboard.items())
     md+=('\nDelivery mode: '+str(policy.get('mode','dry_run'))+

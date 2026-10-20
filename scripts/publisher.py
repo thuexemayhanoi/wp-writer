@@ -5,6 +5,7 @@ import json
 import os
 import re
 import subprocess
+import time
 import markdown
 from common import ROOT,SITE,WP,WPRejected,PROTECTED_IDS,digest,git,inventory,load,lock,norm,now,save,title_of,topics,visible
 from git_state import RemoteState
@@ -47,6 +48,8 @@ def delivery_route(topic,policy,registry,categories,create_category=None,accepta
     No category is guessed or created silently. Intended category and warning
     are recorded durably so an editor can later finish taxonomy on WordPress.
     """
+    if (topic.get('campaign_id') == 'HN-51-WARDS' or str(topic.get('proposed_slug', '')).startswith('thue-xe-may-phuong-')) and topic.get('taxonomy_key') != 'hanoi-ward-rentals':
+        raise ValueError('HANOI_WARD_CATEGORY_HOLD: campaign taxonomy must be hanoi-ward-rentals')
     if topic['taxonomy_key']=='uncategorized':
         raise ValueError('Uncategorized forbidden as intended taxonomy')
     public=production_allowed(policy)
@@ -54,6 +57,10 @@ def delivery_route(topic,policy,registry,categories,create_category=None,accepta
     if not (public or staging or acceptance_draft):
         raise ValueError('WordPress delivery is not approved')
     intended=topic['taxonomy_key']
+    # The owner's 51-ward campaign must never be staged as a WP draft,
+    # including explicit acceptance-draft/test modes.
+    if intended == 'hanoi-ward-rentals' and not public:
+        raise ValueError('HANOI_WARD_PUBLIC_ONLY: keep article on GitHub')
     try:
         term_id=resolve(intended,registry,categories)
         return {'status':'publish' if public else 'draft','category_id':term_id,
@@ -61,6 +68,13 @@ def delivery_route(topic,policy,registry,categories,create_category=None,accepta
                 'category_warning':None}
     except ValueError as exc:
         category_error=str(exc)
+    if intended == 'hanoi-ward-rentals':
+        # Owner 2026-10-20: the 51-ward campaign is public-only, with a
+        # PRE-EXISTING, verified child term 182 under rental-guide term 162.
+        # Never create terms per ward, use a fallback category, or issue a
+        # WordPress draft when the exact category readback drifts.
+        raise ValueError('HANOI_WARD_CATEGORY_HOLD: no WordPress write; ' +
+                         category_error)
     if public and policy.get('allow_category_create') and create_category:
         # Only the explicitly approved, ledger-protected JIT path may write terms.
         try:
@@ -246,6 +260,9 @@ class Publisher:
             return self.reconcile(topic,live)
         if duplicate(topic,live):raise ValueError('Existing WordPress content collision')
         if topic['canonical_target'] in {r.get('url') for r in load('data/protected-urls.json',{}).get('items',[])}:raise ValueError('Protected existing URL')
+        pilot=pilot_settings(self.policy)
+        if pilot and pilot_reserved(self.ledger,pilot['id'])>=pilot['max_posts']:
+            raise RunStop('Pilot limit reached; no new WordPress POST permitted')
         rendered=post_html(topic,body,sha)
         payload={'title':topic['title'],'slug':topic['proposed_slug'],'content':rendered,'status':status,'categories':[category_id],
                  'excerpt':(meta or {}).get('meta_description','')}
@@ -258,6 +275,7 @@ class Publisher:
             payload['meta']={'_yoast_wpseo_title':meta['meta_title'],
                              '_yoast_wpseo_metadesc':meta['meta_description']}
         self.record(topic['topic_id'],phase='POST_INTENT',created_at=now(),source_hash=sha,slug=topic['proposed_slug'],expected_status=status,
+            pilot_id=pilot['id'] if pilot else None,
             category_id=category_id,visible_hash=digest(visible(rendered)),first_paragraph=visible(markdown.markdown(body.split('\n\n')[0])),
             meta_title=(meta or {}).get('meta_title'),meta_description=(meta or {}).get('meta_description'),
             intended_taxonomy_key=(route or {}).get('intended_taxonomy_key'),
@@ -346,6 +364,53 @@ def delivery_batch_limit(policy):
     return per_batch*batches
 
 
+def pacing(policy):
+    """Host-friendly pacing between WordPress writes (owner policy; 0 = no pause, the default for tests/dry runs).
+
+    post_interval_seconds  wait after every created post
+    batch_pause_seconds    additional wait after each full batch of `batch_size` posts
+    Limits are bounded so a typo cannot stall a run past the job timeout.
+    """
+    def bounded(key,upper):
+        value=policy.get(key,0)
+        if type(value) is not int or not 0<=value<=upper:
+            raise ValueError(key+' must be an integer 0..'+str(upper))
+        return value
+    return {'post':bounded('post_interval_seconds',120),'batch':bounded('batch_pause_seconds',600)}
+
+
+def pilot_settings(policy):
+    """Optional owner-approved global cap across serialized Publisher executions.
+
+    Reserve a slot BEFORE the WordPress POST by tagging the durable POST_INTENT;
+    uncertain intents count as used until reconciled. Distinct run IDs/cron
+    triggers cannot bypass a shared pilot ID. When absent, normal limits apply.
+    """
+    value = policy.get('publisher_pilot')
+    if value is None:
+        return None
+    if not isinstance(value,dict):
+        raise ValueError('publisher_pilot must be an object')
+    key=value.get('id')
+    count=value.get('max_posts')
+    if not isinstance(key,str) or not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_-]{2,63}',key):
+        raise ValueError('Invalid publisher pilot ID')
+    if type(count) is not int or not 1<=count<=10:
+        raise ValueError('publisher_pilot.max_posts must be 1..10')
+    return {'id':key,'max_posts':count}
+
+
+def pilot_reserved(ledger, pilot_id):
+    """Count all reserved POST_INTENTs including VERIFY_PENDING/VERIFIED/uncertain.
+
+    A rejected pre-POST request may be withdrawn by the existing safe policy;
+    no new POST is attempted for a recorded uncertain prior intent.
+    """
+    return sum(1 for topic_id,rec in ledger.get('posts',{}).items()
+               if topic_id.startswith('NT-') and isinstance(rec,dict)
+               and rec.get('pilot_id')==pilot_id)
+
+
 def daily_created_count(ledger, utc_day, status=None):
     """Count first-create intents for one UTC day, including uncertain POSTs.
 
@@ -374,6 +439,8 @@ def daily_created_count(ledger, utc_day, status=None):
 def run(args):
     base_policy=load('config/production-policy.json');policy=dict(base_policy)
     batch_limit=delivery_batch_limit(policy)
+    pace=pacing(policy)
+    pilot=pilot_settings(policy)
     if args.acceptance_topic:
         if not args.persist_state or policy['production_enabled']:raise ValueError('Article draft acceptance requires production OFF and remote ledger')
         if not re.fullmatch(r'NT-\d{6}',args.acceptance_topic):raise ValueError('Invalid acceptance Topic ID')
@@ -384,6 +451,9 @@ def run(args):
         # Explicit isolated TEST DRAFT, not a campaign article, never promotes to public.
         policy={**policy,'mode':'draft_only'}
     if policy['paused'] or policy['emergency_stop']:print('PAUSED');return
+    if pilot and pilot_reserved(load(LEDGER,{'posts':{}}),pilot['id'])>=pilot['max_posts']:
+        print('PILOT_FULL: existing durable write intents have consumed the 3-post test budget; no WordPress connection')
+        return
     # Without the owner's production switch, return BEFORE reading WP secrets.
     # This is a clean no-op rather than an accidental missing-credentials error.
     if (policy.get('mode') == 'production' and not production_allowed(policy)
@@ -404,6 +474,9 @@ def run(args):
         client=WP(authenticated=True);client.get('wp/v2/users/me?context=edit&_fields=id')
         live=inventory(client);cats=client.all('wp/v2/categories',hide_empty='false')
         ledger=load(LEDGER,{'version':1,'posts':{},'categories':{}})
+        if pilot and pilot_reserved(ledger,pilot['id'])>=pilot['max_posts']:
+            print('PILOT_FULL: no new WordPress POST allowed')
+            return
         state=RemoteState();state.remember([LEDGER])
         def persist():
             save(LEDGER,ledger)
@@ -446,6 +519,9 @@ def run(args):
         for path in sorted((ROOT/'posts/drafts').glob('NT-*.md')):
             if args.acceptance_topic and path.stem!=args.acceptance_topic:continue
             if attempted>=batch_limit:break
+            if pilot and pilot_reserved(ledger,pilot['id'])>=pilot['max_posts']:
+                print('PILOT_FULL: maximum number of pilot WordPress write intents reached')
+                break
             t=next((x for x in rows if x['topic_id']==path.stem),None)
             if t is None:
                 results.append({'topic_id':path.stem,'status':'BLOCKED','errors':['Draft has no registered topic']});continue
@@ -489,6 +565,11 @@ def run(args):
                     acceptance_draft=bool(args.acceptance_topic))
             except ValueError as exc:
                 results.append({'topic_id':t['topic_id'],'status':'BLOCKED','errors':[str(exc)]});continue
+            # Pilot is a PUBLIC-only smoke test: never create fallback WP drafts.
+            if pilot and route['status']!='publish':
+                results.append({'topic_id':t['topic_id'],'status':'PILOT_HOLD_CATEGORY',
+                    'reason':'Public-only pilot: category mismatch, no WordPress draft created'})
+                continue
             # One global owner cap across public posts and fallback drafts.
             # Count uncertain POST_INTENT before any further external write.
             today=now()[:10]
@@ -503,6 +584,9 @@ def run(args):
                 continue
             if not attempt_create(publisher,ledger,results,t,body,sha,route,live,meta):continue
             attempted+=1
+            # Pace the host: a short pause after each post, a longer one after each full batch (never after the last).
+            if attempted<batch_limit:
+                time.sleep(pace['post']+(pace['batch'] if attempted%policy['batch_size']==0 else 0))
             results.append({'topic_id':t['topic_id'],'status':'WORDPRESS_'+route['status'].upper(),
                 'category_id':route['category_id'],'category_resolution':route['category_resolution'],
                 'intended_taxonomy_key':route['intended_taxonomy_key'],
@@ -510,7 +594,20 @@ def run(args):
         # Keep the recheck counters only for articles that are still waiting; a published or PASS article starts clean.
         save('reports/gate-recheck.json',{k:v for k,v in recheck_state.items()
             if v.get('status')!='PASS' and (ledger['posts'].get(k) or {}).get('phase')!='VERIFIED'})
-        save('reports/publisher-latest.json',{'at':now(),'attempted':attempted,'batch_size':policy['batch_size'],'max_batches_per_run':policy['max_batches_per_run'],'batch_capacity':batch_limit,'qa':results,'backlog_drains_on':'successful Writer QA or fallback schedule','production':production_allowed(policy)})
+        # READY = QA PASS record for the current draft bytes, a matching writer receipt and no ledger entry yet: what a
+        # self-continuing run still has to drain (publisher_chain.py). Read from the records this run just saved.
+        claims_now=load('data/state/writer-claims.json',{}).get('submissions',{})
+        ready_backlog=0
+        for path in sorted((ROOT/'posts/drafts').glob('NT-*.md')):
+            if path.stem in ledger['posts']:continue
+            record=load('data/qa/'+path.stem+'.json') or {}
+            draft_sha=digest(path.read_bytes())
+            if record.get('status')=='PASS' and record.get('source_sha256')==draft_sha and claims_now.get(path.stem,{}).get('sha256')==draft_sha:
+                ready_backlog+=1
+        save('reports/publisher-latest.json',{'at':now(),'attempted':attempted,'ready_backlog':ready_backlog,'batch_size':policy['batch_size'],'max_batches_per_run':policy['max_batches_per_run'],'batch_capacity':batch_limit,
+            'pilot':({'id':pilot['id'],'max_posts':pilot['max_posts'],
+                      'reserved':pilot_reserved(ledger,pilot['id'])} if pilot else None),
+            'qa':results,'backlog_drains_on':'successful Writer QA or fallback schedule','production':production_allowed(policy)})
         if inventory_changed and args.persist_state:
             # Never fail a publishing run over the inventory refresh; the next run retries it.
             try:

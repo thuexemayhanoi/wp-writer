@@ -1,0 +1,134 @@
+{
+  "topic_id": "NT-000865",
+  "status": "PASS",
+  "source_sha256": "ed29b151a46a4252da4c06bfcf8233957d12cdb472017c84dbd4af070e749ffb",
+  "body_sha256": "269669c12e039b11d533def166d89e5fa9ed12e506cb3983f8f2f2483b9e31a6",
+  "word_count": 3790,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 85,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2386,
+        "title": "VinFast Feliz có đáng chọn không? Đánh giá cho nhu cầu đi phố",
+        "why": "stale",
+        "content_hash": "a3637271d9bad8c67714cc0bffca79e91d1c48a7321fc939ba1ba40b5b7bf7cc",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2399,
+        "title": "Honda ICON e: có gì đáng chú ý với người dùng xe điện đô thị?",
+        "why": "stale",
+        "content_hash": "548de8447050fd0d5b76ead88b2cb93eeac7c91d679ca89f64b42afda3bc3023",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2403,
+        "title": "Honda CUV e: là mẫu xe gì? Những điểm đáng chú ý khi tìm hiểu",
+        "why": "stale",
+        "content_hash": "e399517f38135cfcf22118ac8b3465e9648764a47a92b9dbf33f6fecefc58540",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2430,
+        "title": "Yamaha NEO's có gì đáng chú ý? Đánh giá cho nhu cầu đi trong phố",
+        "why": "stale",
+        "content_hash": "cf4e466a86a7abedf9c23b34e3bafb0efbec07be3dbdd59491e1c722f75b7083",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T00:45:17.160560+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "64bd3ae7a6dece86c1b1e302f90974f0eb367fc7f239358b17362690679da49f",
+  "inventory_sha256": "11d89b31920d7e53ef4c9643056032fc2823d4cdea3f09ad6cc8a19b94589192",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
