@@ -1,0 +1,192 @@
+{
+  "topic_id": "NT-001007",
+  "status": "PASS",
+  "source_sha256": "7f4c771cd53d48b0a2cd2d2b0116525be5abbf05b37d21e88b673d75c076c219",
+  "body_sha256": "8e6bd97591806071f70d6a99dee6acbd43b6cf72f0a0ebf3cb138d91f3bb4dfe",
+  "word_count": 2945,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://pbgdplthainguyen.gov.vn/chu-truong-chinh-sach/nhung-truong-hop-nguoi-lai-xe-phai-quan-sat-giam-toc-do-hoac-dung-lai-de-dam-bao-an-toan-401.html",
+      "supports": "Cổng PBGDPL tỉnh Thái Nguyên (đăng 30/07/2024) nêu Điều 12 Luật 36/2024: người điều khiển phương tiện phải quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn trong 13 trường hợp, rồi liệt kê từng trường hợp; nội dung 13 điểm giống toàn văn Luật đọc ngày 20/10/2026.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/cac-muc-xu-phat-mot-so-loi-vi-pham-giao-thong-thuong-gap-doi-voi-nguoi-dieu-khien-xe-may-d1-t1650",
+      "supports": "Cổng Bộ Công an (26/01/2025) nêu mức phạt 10–14 triệu đồng với người điều khiển xe không quan sát, giảm tốc độ hoặc dừng lại để bảo đảm an toàn theo quy định mà gây tai nạn giao thông.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=211194&classid=1&typegroupid=3",
+      "supports": "Trang văn bản của Chính phủ: Luật số 36/2024/QH15 (Luật Trật tự, an toàn giao thông đường bộ) ban hành 27-06-2024, có hiệu lực 01-01-2025.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/chinh-phu-ban-hanh-nghi-dinh-so-238-2026-nd-cp-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-168-2024-nd-cp-1786704471",
+      "supports": "Bộ Công an (16/08/2026): Nghị định 238/2026/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định 168/2024/NĐ-CP và có hiệu lực từ 15/8/2026; các điểm mới nêu trong bài gồm an toàn cho trẻ em trên ô tô, quản lý vận tải và thẩm quyền xử phạt.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://pbgdplthainguyen.gov.vn/chu-truong-chinh-sach/nhung-truong-hop-nguoi-lai-xe-phai-quan-sat-giam-toc-do-hoac-dung-lai-de-dam-bao-an-toan-401.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/cac-muc-xu-phat-mot-so-loi-vi-pham-giao-thong-thuong-gap-doi-voi-nguoi-dieu-khien-xe-may-d1-t1650",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=211194&classid=1&typegroupid=3",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/chinh-phu-ban-hanh-nghi-dinh-so-238-2026-nd-cp-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-168-2024-nd-cp-1786704471",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2367,
+        "title": "Có Nên Sạc Xe Máy Điện Tại Nhà? Kinh Nghiệm An Toàn Khi Sử Dụng",
+        "why": "stale",
+        "content_hash": "8768183f030319ed7647591d37ba6e25af1e5ac274f69cc230b87c74a28fe158",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2572,
+        "title": "Bảo hiểm xe máy bắt buộc gồm những gì? Điều cần lưu ý khi mua",
+        "why": "stale",
+        "content_hash": "ce6003628f4d0d89bace38e8875f0d4d93d5b57145b42e9b61fb223237982e8f",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4047,
+        "title": "Thuê xe máy Hà Nội 2 ngày 1 đêm: tính tiền theo mốc nào và trả xe lúc nào?",
+        "why": "stale",
+        "content_hash": "ff3360a833efc7ccb2778f577426a6ccdec6c16a3c8c30c58243ba9e9175e695",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-20T19:48:46.912380+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "d5bc1b34602fd29ed0e829c51e683ae14de6e187a970e6c1d9bb112086fc0bef",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
