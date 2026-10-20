@@ -1,0 +1,85 @@
+name: SEO 51 Ward Queue Structural QA (read-only)
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'editorial/seo-51-phuong/pipeline-queue.json'
+      - '.github/workflows/seo-51-ward-queue-qa.yml'
+  push:
+    branches: ['automation/seo-51-phuong-queue-main-rebase-*']
+    paths:
+      - 'editorial/seo-51-phuong/pipeline-queue.json'
+      - '.github/workflows/seo-51-ward-queue-qa.yml'
+permissions:
+  contents: read
+jobs:
+  verify-queue:
+    if: github.repository == 'thuexemayhanoi/wp-writer'
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Validate queue and exact WordPress taxonomy mapping without publishing
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from urllib.parse import urlsplit
+          root=Path('editorial/seo-51-phuong')
+          queue=json.loads((root/'pipeline-queue.json').read_text(encoding='utf-8'))
+          progress=json.loads((root/'progress.json').read_text(encoding='utf-8'))
+          research=json.loads((root/'research-queue.json').read_text(encoding='utf-8'))
+          taxonomy=json.loads(Path('data/taxonomy.json').read_text(encoding='utf-8'))
+          existing=json.loads(Path('data/existing-taxonomy.json').read_text(encoding='utf-8'))
+          assert queue['campaign']=='HN-51-WARDS'
+          assert queue['source']=='editorial/seo-51-phuong/research-queue.json'
+          assert queue['queue_owner']=='coordinator'
+          assert queue['status']=='HOLD_PENDING_TOPIC_FACTORY_AND_RESEARCH_QA'
+          assert len(queue['items'])==12 and len(research['items'])==12
+          assert progress['completed_editorial_drafts']>=12
+          assert queue['counts']=={'editorial_drafts':12,'topic_factory_imported':0,'research_qa_pass':0,'writer_qa_pass':0,'g7_verified':0}
+          assert queue['wordpress_category']=={'taxonomy_key':'hanoi-ward-rentals','term_id':182,'parent_term_id':162,'ancestor_term_id':69}
+          policy=queue['policy']
+          for k in ('no_wordpress_drafts','no_publish_without_all_gates','no_writer_lease_takeover','no_publisher_policy_change'):
+              assert policy[k] is True,k
+          assert policy['max_new_articles_per_run']==3
+          cats=[i for i in taxonomy['items'] if i.get('taxonomy_key')=='hanoi-ward-rentals']
+          assert len(cats)==1 and cats[0]['wordpress_term_id']==182 and cats[0]['wordpress_parent_id']==162
+          old=[i for i in existing['items'] if i.get('id')==182]
+          assert len(old)==1 and old[0]['parent']==162
+          parent=[i for i in existing['items'] if i.get('id')==162]
+          assert len(parent)==1 and parent[0]['parent']==69
+          assert len([i for i in existing['items'] if i.get('id')==69])==1
+          wards=set()
+          slugs=set()
+          for idx,item in enumerate(queue['items'],1):
+              assert item['sequence']==idx
+              assert item['ward'] not in wards
+              assert item['proposed_slug'] not in slugs
+              wards.add(item['ward'])
+              slugs.add(item['proposed_slug'])
+              assert item['priority']==('FIRST_NINE' if idx<=9 else 'SECOND_THREE')
+              assert item['taxonomy_key']=='hanoi-ward-rentals' and item['wordpress_category_id']==182
+              assert item['editorial_file']==research['items'][idx-1]['editorial_file']
+              assert Path(item['editorial_file']).is_file()
+              u=urlsplit(item['canonical_target'])
+              assert u.scheme=='https' and u.hostname=='thuexemaynguyentu.com'
+              assert u.path=='/'+item['proposed_slug']+'/'
+              o=urlsplit(item['official_ward_source_url'])
+              assert o.scheme=='https' and o.hostname.endswith('.hanoi.gov.vn')
+              assert item['topic_id'] is None and item['writer_lease_id'] is None
+              assert item['writer_receipt_id'] is None and item['wordpress_post_id'] is None
+              assert item['topic_factory_status']=='NOT_IMPORTED'
+              assert item['research_qa_status']=='PENDING_EVIDENCE_VERIFICATION'
+              assert item['writer_qa_status']=='NOT_SUBMITTED'
+              assert item['g7_status']=='NOT_VERIFIED'
+              assert item['publication_status']=='GITHUB_EDITORIAL_ONLY'
+              assert item['intent_duplicate_check']=='PENDING'
+          print('PASS: 12 queued editorial drafts; taxonomy 182 > 162 > 69; no manufactured QA or publication; WordPress untouched.')
+          PY
