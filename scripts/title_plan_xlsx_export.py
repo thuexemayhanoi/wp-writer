@@ -157,17 +157,32 @@ def main():
             ['Tổng danh mục của ba tập',1482],
             ['Số bài cũ đã đối chiếu',518]
         ]
+        # Compact A-Z instructions embedded identically in ALL three Excel files.
+        # Full source of truth: docs/TITLE-PLAN-1482-SOP.md
         guide=[
-            ['QUY TẮC','HƯỚNG DẪN'],
-            ['Nguồn sự thật','plan.json là hàng đợi; bảng Excel được tạo lại sau cập nhật G7'],
-            ['SEO','Không sản sinh thêm tiêu đề có cụm Thuê xe máy Hà Nội'],
-            ['Danh mục','Dùng Term ID cha con có thật; không tạo chuyên mục mới'],
-            ['51 phường','Giữ riêng chiến dịch 51 phường (Term 182) để không trùng'],
-            ['Nghiên cứu','Tìm và đối chiếu 1-4 trang nguồn cho mỗi tiêu đề'],
-            ['Luật','Bất kỳ khẳng định pháp luật nào đều cần nguồn chính thức'],
-            ['QA','Writer và Publisher giữ QA >=85; không thay đổi các cổng'],
-            ['Đã đăng','Chỉ xác nhận khi ledger có phase VERIFIED và G7 PASS'],
-            ['Cũ','Trước mỗi bài phải rà soát WP và kho chủ đề để chống trùng']
+            ['BƯỚC / QUY TẮC','AI ĐỌC VÀ LÀM ĐÚNG NGAY'],
+            ['0. Đọc nhanh','SOP: docs/TITLE-PLAN-1482-SOP.md; không quét lại toàn repo'],
+            ['1. Chọn 1–3 đề','Đọc plan.json hoặc chạy python scripts/title_plan_next.py --limit 3'],
+            ['2. TP không là NT','TP-XXXX chỉ là đề tài; chưa Research PASS thì CHƯA được nhận Writer'],
+            ['3. So trùng','So URL, slug, intent với WordPress và data/topics.jsonl mới nhất'],
+            ['4. Chọn danh mục','Đúng Term ID và parent ở data/taxonomy.json; không tạo mục mới'],
+            ['5. Đọc nguồn','Tìm 1–4 URL HTTPS thật, ghi chứng cứ nguồn và thời điểm'],
+            ['6. Chủ đề luật','GPLX/độ tuổi/luật phải tra nguồn nhà nước đang hiệu lực'],
+            ['7. Giá/xe','NAP, giá, cọc theo data/business-facts.json; thông số theo hãng'],
+            ['8. Research QA','Ứng viên qua Topic Factory/Research QA → NT-XXXXXX PLANNED'],
+            ['9. W1–W9','Claim slot auto hợp lệ; không cướp lease hoặc nhận NT chưa PLANNED'],
+            ['10. Viết bài','1.600–5.000 từ, intent riêng, 4+ H2, nguồn/internal link thật'],
+            ['11. QA','SEO ≥85 + Quality ≥85 + G1–G6 PASS mới đủ điều kiện Publisher'],
+            ['12. Publisher','Chỉ Publisher được WordPress POST; đúng danh mục, chống trùng'],
+            ['13. Xác minh G7','Chỉ G7 VERIFIED + PASS đầy đủ mới đánh dấu PUBLISHED_G7_PASS'],
+            ['14. URL sạch','Slug theo tiêu đề; CẤM excel/xlsx/csv/tên file/TP-ID lọt vào URL'],
+            ['15. SEO chính','Không tạo thêm nhiều bài trùng từ khóa thuê xe máy Hà Nội'],
+            ['16. 51 phường','Giữ campaign phường ở Term 182 riêng, tránh nhân bản bài cũ'],
+            ['17. Mất mạng','Lưu TP/NT/session/slot/branch/commit/step; resume, không bắt đầu lại'],
+            ['18. Nguồn sự thật','Excel để xem; plan.json để chọn; Topic Registry và G7 để kiểm trạng thái'],
+            ['19. Khi bị chặn','REVIEW/HOLD/NEEDS_RECONCILE; không bịa QA hoặc POST lại mù'],
+            ['20. Báo cáo','TP-ID / NT-ID / QA / WordPress ID / URL công khai / lỗi thật'],
+            ['LỆNH NGẮN AI','Đọc SOP; lấy 3 TP; so trùng; nghiên cứu 1–4 nguồn; Research QA; Writer QA; G7'],
         ]
         sheets=[
             worksheet_xml(rows,[14,60,12,18,31,11,12,24,37,59,12,12,24,17,14,51,16,22],
