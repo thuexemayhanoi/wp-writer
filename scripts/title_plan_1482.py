@@ -15,6 +15,7 @@ import datetime as dt
 import difflib
 import html
 import json
+import hashlib
 import re
 import unicodedata
 from collections import Counter
@@ -33,10 +34,10 @@ GROUPS={
 163:('Thủ tục và giao nhận','rental',"""
 hợp đồng thuê xe máy|biên bản bàn giao xe|chụp ảnh xe trước khi nhận|đặt cọc thuê xe theo ngày|nhận xe tại khách sạn|nhận xe ở nhà ga|trả xe ngoài giờ hẹn|thuê xe bằng hộ chiếu|thuê xe bằng giấy tờ cá nhân|bàn giao chìa khóa dự phòng|thỏa thuận giao xe tận nơi|gia hạn hợp đồng thuê|đổi mẫu xe khi nhận|lưu giấy tờ khi thuê xe|xác nhận tiền cọc|kiểm tra phanh khi nhận xe|thuê xe cho nhóm bạn|thuê xe khi đổi lịch bay|thỏa thuận địa điểm trả xe|xử lý khi hợp đồng ghi sai
 """),
-164:('Chi phí thuê xe','rental',"""
+164:('Chi phí thuê xe','costs',"""
 gói thuê xe máy ba ngày|gói thuê xe máy một tuần|giá thuê Honda Wave theo tuần|giá thuê Honda Vision theo ngày|cách tính tiền thuê theo giờ|phụ phí trả xe muộn|phí giao xe đến khách sạn|tiền cọc xe ga và xe số|chi phí thuê xe cho hai người|gói thuê xe trong một tháng|tiền thuê khi đổi lịch trả|thuê xe cuối tuần và ngày thường|phụ phí nhận xe ở ga|so giá gói ngày và gói tuần|chi phí thuê xe đi công tác|chi phí nhiên liệu xe thuê|giảm chi phí thuê xe dài ngày|dự trù tiền thuê và tiền cọc|hóa đơn và chứng từ thuê xe|chi phí khi đổi sang mẫu xe khác
 """),
-165:('Sử dụng xe thuê 50cc','rental',"""
+165:('Sử dụng xe thuê 50cc','fifty',"""
 xe Cub 50 dùng đi học|xe ga 50cc đi làm quãng ngắn|thuê xe số 50cc lần đầu|tư thế lái xe 50cc|lốp và phanh xe 50cc|đi xe 50cc qua cầu|xe 50cc cho người thấp|chở hành lý bằng xe 50cc|xe 50cc khi trời mưa|kiểm tra đèn xe 50cc|xe 50cc đi trong phố đông|điểm nhận xe 50cc|xe ga 50cc và xe số 50cc|thuê xe 50cc ba ngày|mức tiêu hao nhiên liệu xe 50cc|cách khóa xe 50cc an toàn|xe 50cc khi leo dốc|chỗ để chân trên xe 50cc|xe 50cc cho hành trình ngắn|giấy tờ khi nhận xe 50cc
 """),
 166:('Xe đạp điện','electric',"""
@@ -48,10 +49,10 @@ pin LFP cho xe hai bánh|pin NMC cho xe máy điện|ắc quy chì trên xe đi�
 168:('Công nghệ xe điện','electric',"""
 động cơ hub trên xe máy điện|động cơ giữa xe điện|bộ điều khiển động cơ xe điện|phanh tái sinh xe điện|cảm biến tốc độ xe điện|màn hình TFT xe máy điện|chế độ lái eco xe điện|chế độ lái sport xe điện|cập nhật phần mềm OTA|khóa thông minh xe điện|chuẩn chống nước IP|hệ thống quản lý pin thông minh|kết nối ứng dụng điện thoại|định vị chống trộm xe điện|truyền động dây curoa xe điện|hệ thống làm mát động cơ|đồng hồ đo quãng đường còn lại|cảm biến tay ga điện tử|mạch bảo vệ khi quá dòng|thu hồi năng lượng lúc giảm tốc
 """),
-160:('Chăm sóc xe điện','electric',"""
+160:('Chăm sóc xe điện','mechanic',"""
 vệ sinh bánh xe máy điện|làm sạch chân sạc xe điện|bảo dưỡng phanh xe máy điện|kiểm tra lốp xe điện|kiểm tra dây dẫn điện|xe điện đi qua vùng ngập|xe điện sau mùa mưa|xe điện để lâu không chạy|cập nhật ứng dụng xe điện|kiểm tra tiếng ồn động cơ điện|chăm sóc pin xe điện mùa nóng|phát hiện bộ sạc bị nóng|làm khô xe điện đúng cách|bảo quản chìa khóa thông minh|kiểm tra ổ cắm trước khi sạc|xe điện rung khi khởi hành|kiểm tra giảm xóc xe điện|kiểm tra đèn báo lỗi|xe điện có mùi khét|lịch kiểm tra xe điện định kỳ
 """),
-169:('Điện hóa và hạ tầng','urban',"""
+169:('Điện hóa và hạ tầng','infrastructure',"""
 trạm sạc xe điện trong chung cư|trạm sạc xe điện ở bãi đỗ|đổi pin cho xe máy điện|bãi giữ xe có điểm sạc|quản lý phụ tải khi sạc xe|bảo vệ cháy nổ tại khu sạc|quy hoạch điểm sạc đô thị|bản đồ điểm sạc công cộng|cổng sạc dùng chung|đầu tư trạm sạc nhỏ|sạc xe điện tại cơ quan|trạm đổi pin ở khu dân cư|thói quen sạc giờ thấp điểm|thu gom pin xe điện hết hạn|tái chế pin xe hai bánh|trạm sạc tại điểm du lịch|bảo trì thiết bị sạc công cộng|biển báo khu vực sạc|vận hành trạm sạc khi mưa|khả năng tiếp cận điểm sạc
 """),
 170:('Chăm sóc xe máy','mechanic',"""
@@ -69,7 +70,7 @@ Bảo tàng Hà Nội|Hoàng thành Thăng Long|Văn Miếu Quốc Tử Giám|H�
 173:('Hành trình Việt Nam','travel',"""
 Ninh Bình vào mùa lúa|Mai Châu vào cuối tuần|Cao Bằng mùa thác|Hà Giang đầu mùa đông|Sapa khi có sương|Mộc Châu mùa hoa|Tuyên Quang và hồ Na Hang|Hạ Long ngoài mùa cao điểm|Tam Đảo cuối tuần|Ba Vì và rừng thông|Huế mùa mưa|Hội An lúc sáng sớm|Đà Nẵng trong ba ngày|Quy Nhơn mùa biển êm|Phú Yên cung đường ven biển|Đà Lạt mùa khô|Cần Thơ cuối tuần|Bến Tre đường làng|Nghệ An điểm dừng đường dài|Thanh Hóa từ Hà Nội
 """),
-174:('Ẩm thực và văn hóa','travel',"""
+174:('Ẩm thực và văn hóa','food',"""
 phở bò Hà Nội|bún thang Hà Nội|bún chả phố cổ|bánh cuốn Thanh Trì|cà phê trứng Hà Nội|bánh tôm Hồ Tây|bún riêu buổi sáng|xôi xéo Hà Nội|chả cá Hà Nội|cốm làng Vòng|nem rán Hà Nội|bánh đa cua Hải Phòng|bún bò Huế|cao lầu Hội An|mì Quảng ở Đà Nẵng|cơm cháy Ninh Bình|thắng cố Hà Giang|bánh căn Đà Lạt|bánh xèo miền Tây|chợ quê ngày phiên
 """),
 175:('Lập kế hoạch chuyến đi','travel',"""
@@ -78,7 +79,7 @@ du lịch hai ngày một đêm|lịch trình ba ngày cuối tuần|chuyến đ
 176:('Di chuyển đô thị','urban',"""
 đi từ ga Hà Nội đến khách sạn|kết hợp xe buýt và đi bộ|chuyển tuyến đường sắt đô thị|qua cầu Long Biên giờ đông|tìm bãi gửi xe trong phố|đi lại ở khu phố đi bộ|xe máy trên đường một chiều|đi từ sân bay về nội đô|đường vòng khi cấm đường|dừng đỗ tại khu trung tâm|đi lại lúc giờ cao điểm|đường dành riêng cho xe buýt|định vị điểm đón xe công nghệ|kết hợp metro với xe đạp|chọn phương tiện khi trời mưa|giữ an toàn khi chờ đèn đỏ|đường ven hồ đông người|di chuyển với hành lý lớn|tìm đường khi mất mạng|đi lại sau giờ xe buýt
 """),
-177:('Du lịch xanh','urban',"""
+177:('Du lịch xanh','green',"""
 du lịch bằng xe đạp điện|đi bộ khám phá phố cổ|chọn nơi lưu trú gần metro|lên lịch trình ít di chuyển|đổi xe xăng sang xe điện|mang bình nước khi đi chơi|giảm đồ nhựa dùng một lần|tái sử dụng đồ du lịch|chia sẻ phương tiện theo nhóm|du lịch không cần ô tô|di chuyển ít phát thải|bảo vệ cảnh quan điểm đến|chọn tuyến xe buýt phù hợp|du lịch với hành lý nhẹ|lịch trình kết hợp tàu và xe đạp|giảm rác khi dã ngoại|trạm sạc trong chuyến đi|giữ yên tĩnh khu dân cư|chi phí đi lại bền vững|so sánh phương tiện theo chặng
 """),
 156:('Đánh Giá & So Sánh Xe','reviews',"""
@@ -256,6 +257,119 @@ ANGLES={
 ('đánh giá','các tiêu chí cần tự kiểm tra trên xe thực tế')
 ]
 }
+
+# Category-specific intent banks prevent semantically unsuitable boilerplate.
+ANGLES['costs']=[
+('giá','cách xác định tổng giá cần trả theo kỳ thuê thực tế'),
+('tính phí','khi nào phát sinh phụ phí và cần xác nhận trước ra sao'),
+('so sánh','so chi phí ngày, tuần, tháng theo đúng điều kiện thuê'),
+('đặt cọc','cách đọc mức đặt cọc và thời điểm hoàn trả tiền'),
+('hóa đơn','những mục cần kiểm tra trên báo giá và chứng từ'),
+('kế hoạch','cách lên ngân sách trước khi đặt xe để tránh thiếu tiền'),
+('phương án','khi đổi số ngày thuê nên tính lại chi phí thế nào'),
+('câu hỏi','các câu hỏi quan trọng nên hỏi trước lúc thanh toán'),
+('tình huống','xử lý khi mức phí thực tế khác dự tính ban đầu'),
+('cẩn trọng','đâu là khoản phí không thể suy ra từ bảng giá'),
+('ngày giờ','giờ nhận trả thay đổi sẽ tác động chi phí ra sao'),
+('xe khác','đổi mẫu xe giữa kỳ thuê cần xác nhận khoản nào'),
+('kiểm tra','cách đối chiếu giá niêm yết và hợp đồng thực tế'),
+('đối chiếu','những thông tin phải thống nhất về thời hạn thuê'),
+('khách mới','làm sao hỏi giá rõ ràng để không hiểu nhầm'),
+('tiết kiệm','cách tránh chọn gói thuê không đúng nhu cầu'),
+('tổng chi phí','chi phí thuê, nhiên liệu, giao nhận tính ra sao'),
+('hạn chế','lúc nào gói giá rẻ chưa chắc tiết kiệm hơn'),
+('phí phát sinh','những tình huống cần báo trước để khỏi bị động'),
+('chiến lược','khi thuê nhiều ngày nên ưu tiên gói nào')
+]
+ANGLES['fifty']=[
+('an toàn','những bước kiểm tra phanh lốp trước khi khởi hành'),
+('người mới','cách làm quen xe trong khu vực ít phương tiện'),
+('quãng đường','khi nào phù hợp cho chuyến ngắn trong thành phố'),
+('lựa chọn','nên chú ý tư thế ngồi và khả năng chống chân ra sao'),
+('giao nhận','những mục cần hỏi khi nhận xe lần đầu'),
+('chi phí','các khoản thuê và đặt cọc nên xác nhận rõ'),
+('địa hình','qua cầu và đoạn dốc nên chuẩn bị những gì'),
+('thời tiết','lái trong trời mưa cần thay đổi thói quen ra sao'),
+('bảo dưỡng','dấu hiệu bất thường cần báo cửa hàng ngay'),
+('đi phố','mẹo chọn tuyến đường dễ đi và điểm dừng phù hợp'),
+('trang bị','những trang bị cần kiểm tra trên xe thực tế'),
+('giấy tờ','nên tìm hiểu điều kiện sử dụng từ nguồn chính thức'),
+('so sánh','đâu là khác biệt đáng hỏi giữa xe số và xe ga'),
+('chở đồ','cách sắp xếp hành lý gọn và an toàn hơn'),
+('đi làm','ưu điểm và giới hạn khi sử dụng hằng ngày'),
+('đi học','những điều phụ huynh cần kiểm tra trước khi chọn'),
+('trả xe','cách ghi nhận tình trạng xe khi bàn giao lại'),
+('thao tác','khởi động phanh và chuyển hướng cần tập gì'),
+('tầm nhìn','quan sát xe lớn và giữ khoảng cách khi di chuyển'),
+('lưu ý','những ngộ nhận người mới thường gặp cần tránh')
+]
+ANGLES['infrastructure']=[
+('hạ tầng','cần những thành phần nào để vận hành ổn định'),
+('an toàn','các yêu cầu an toàn điện cần đối chiếu tại nguồn'),
+('quy hoạch','đơn vị quản lý nên cân nhắc những tiêu chí nào'),
+('vị trí','chọn vị trí thuận tiện mà không cản trở lối thoát'),
+('người dùng','những câu hỏi nên kiểm tra trước khi sử dụng'),
+('điện năng','cách hiểu phụ tải và công suất mà không nhầm'),
+('chi phí','các khoản vận hành nào cần lập dự toán ban đầu'),
+('bảo trì','kiểm tra bảo dưỡng định kỳ cần chú ý điểm gì'),
+('giới hạn','các giới hạn thực tế khó nhìn thấy từ quảng cáo'),
+('tiêu chuẩn','cách tìm tài liệu kỹ thuật và tiêu chuẩn liên quan'),
+('vận hành','quy trình cơ bản cần có để giảm rủi ro sử dụng'),
+('mùa mưa','trời mưa và ngập nước cần phòng ngừa ra sao'),
+('khu dân cư','cách bố trí để giảm ảnh hưởng người xung quanh'),
+('tình huống','khi thiết bị báo lỗi cần xử lý thế nào an toàn'),
+('tính khả thi','những điều nên khảo sát trước khi triển khai'),
+('sạc chung','quản lý nhiều người sử dụng tránh quá tải ra sao'),
+('môi trường','lợi ích và hạn chế cần đánh giá dựa trên dữ liệu'),
+('khả năng dùng','hướng dẫn tìm thông tin trước khi đến điểm sạc'),
+('nguồn tin','đối chiếu hướng dẫn hãng và cơ quan quản lý'),
+('thay đổi','cần chuẩn bị gì khi nhu cầu sử dụng tăng lên')
+]
+ANGLES['food']=[
+('ẩm thực','đặc trưng món ăn và câu chuyện nguồn gốc'),
+('trải nghiệm','người ăn lần đầu nên chọn món và khẩu phần ra sao'),
+('nguyên liệu','những nguyên liệu tạo nên hương vị đặc trưng'),
+('văn hóa','món ăn gắn với đời sống địa phương như thế nào'),
+('buổi sáng','thưởng thức buổi sáng có những lựa chọn gì'),
+('giải thích','khác biệt giữa các phiên bản món ăn phổ biến'),
+('khám phá','cách tìm quán địa phương mà không chạy theo quảng cáo'),
+('thực đơn','gợi ý kết hợp món ăn và đồ uống cho phù hợp'),
+('chi phí','dự trù ngân sách ăn uống khi du lịch tự túc'),
+('du khách','những điều du khách lần đầu cần tìm hiểu'),
+('giờ ăn','chọn thời điểm thưởng thức ít vội vàng hơn'),
+('vệ sinh','những dấu hiệu nên cân nhắc về vệ sinh thực phẩm'),
+('khẩu vị','điều chỉnh khẩu vị khi ăn cùng trẻ nhỏ ra sao'),
+('địa phương','vì sao mỗi vùng có cách nấu và cách ăn khác nhau'),
+('lưu ý','cách đọc thực đơn và hỏi nguyên liệu khi dị ứng'),
+('món kèm','những món kèm có thể thay đổi trải nghiệm'),
+('truyền thống','nét truyền thống còn giữ trong đời sống hôm nay'),
+('du lịch','kết hợp trải nghiệm ẩm thực với lịch trình đi bộ'),
+('ẩm thực đường phố','cách chọn điểm dừng ăn uống thuận tiện'),
+('so sánh','so với những món gần giống ở vùng miền khác')
+]
+ANGLES['green']=[
+('lựa chọn','khi nào giúp giảm quãng đường phải di chuyển'),
+('môi trường','đánh giá lợi ích môi trường bằng chỉ số nào'),
+('chi phí','cách tính chi phí thật so với lựa chọn thông thường'),
+('thói quen','những thay đổi nhỏ có thể thực hiện ngay'),
+('hành trình','đưa vào lịch trình tự túc sao cho hợp lý'),
+('an toàn','các giới hạn về an toàn cần kiểm tra trước'),
+('đi lại','kết hợp phương tiện để bớt thời gian chờ đợi'),
+('người mới','những câu hỏi cần tìm hiểu trước khi thực hiện'),
+('gia đình','cần điều chỉnh gì khi đi cùng trẻ nhỏ'),
+('cân bằng','đánh đổi giữa tiện lợi thời gian và môi trường'),
+('thực hành','mẫu kế hoạch thực hiện trong chuyến đi ngắn'),
+('chiến lược','nên ưu tiên giải pháp dễ áp dụng trước'),
+('tác động','điều gì thực sự thay đổi với lượng phát thải'),
+('hạn chế','trường hợp nào chưa phù hợp và cần phương án khác'),
+('so sánh','khác biệt so với cách di chuyển truyền thống'),
+('trách nhiệm','làm sao giữ cảnh quan và giảm phiền cho người khác'),
+('thành phố','có thể kết hợp với các tuyến đi lại đô thị ra sao'),
+('tối ưu','cách tránh hành trình lòng vòng gây lãng phí'),
+('thực tế','những lầm tưởng phổ biến cần kiểm chứng'),
+('nguồn tin','đọc số liệu nào để không phóng đại lợi ích')
+]
+
 EXTEND={
 'rental':["khi dùng xe tại đô thị","đối với khách thuê lần đầu","trong chuyến đi tự túc"],
 'electric':["trong quá trình sử dụng thực tế","với người sử dụng lần đầu","khi đi lại trong thành phố"],
@@ -266,6 +380,13 @@ EXTEND={
 'urban':["khi di chuyển trong đô thị","cho người lần đầu sử dụng","vào các ngày đông người"],
 'reviews':["khi cân nhắc chọn xe đi lại","với người mới làm quen xe","trong điều kiện đường phố"]
 }
+
+EXTEND['costs']=EXTEND['rental']
+EXTEND['fifty']=EXTEND['rental']
+EXTEND['infrastructure']=EXTEND['urban']
+EXTEND['food']=EXTEND['travel']
+EXTEND['green']=EXTEND['urban']
+
 HEADERS=['Mã kế hoạch','Tiêu đề bài viết','Số ký tự','Ý định','Danh mục WordPress','Term ID','Danh mục cha','Taxonomy key','Chủ đề chính','Truy vấn nghiên cứu','Nguồn tối thiểu','Nguồn tối đa','Trạng thái','Topic ID','WP Post ID','URL đã đăng','G7','Cập nhật']
 CATALOG={
 163:('rental-procedures',162),164:('rental-costs',162),165:('rental-50cc',162),
@@ -317,11 +438,13 @@ def candidate_rows():
     for term,(name,group,multiline) in GROUPS.items():
         subjects=[x.strip() for x in multiline.split('|') if x.strip()]
         chosen=[];taken=set()
-        for ix in range(len(ANGLES[group])):
-            for offset in range(len(subjects)):
-                # Interleave subjects and angles to avoid 80 nearly adjacent
-                # variations of the same head phrase.
-                sj=(offset+ix*7)%len(subjects)
+        # Spread selected headlines over many subjects AND many intents.
+        # Stable hash order prevents the first few generic questions from
+        # dominating each category and keeps rebuilds deterministic.
+        pairs=[(ix,j) for ix in range(len(ANGLES[group])) for j in range(len(subjects))]
+        pairs.sort(key=lambda z:hashlib.sha256(
+            f'{term}|{z[0]}|{z[1]}'.encode('utf-8')).hexdigest())
+        for ix,sj in pairs:
                 subject=subjects[sj]
                 intent,angle=ANGLES[group][ix]
                 title=make_title(subject,angle,group)
@@ -338,7 +461,6 @@ def candidate_rows():
                     'taxonomy_key':CATALOG[term][0],'title':title,'intent':intent,
                     'subject':subject})
                 if len(chosen)>=83:break
-            if len(chosen)>=83:break
         proposed.append(chosen)
     # Target 82 per leaf, plus 6 leaves with 83 = 1482 total.
     if len(GROUPS)!=18:raise ValueError('Exactly 18 existing leaf categories expected')
@@ -489,11 +611,19 @@ def reconcile(rows):
 def main():
     p=argparse.ArgumentParser()
     p.add_argument('--build',action='store_true')
+    p.add_argument('--regenerate-editorial-branch',action='store_true')
     p.add_argument('--sync',action='store_true')
     p.add_argument('--no-xlsx',action='store_true')
     args=p.parse_args()
-    if args.build and MASTER_PATH.exists():
+    if args.build and MASTER_PATH.exists() and not args.regenerate_editorial_branch:
         raise ValueError('Refuse to overwrite an existing planned queue')
+    if args.regenerate_editorial_branch:
+        import os
+        if os.environ.get('GITHUB_REF_NAME','').startswith('plan/seo-1482-title-ledger-') is False:
+            raise ValueError('Regeneration only allowed on dedicated editorial branch')
+        if MASTER_PATH.exists() and any(x.get('status')!='PLANNED'
+            for x in json.loads(MASTER_PATH.read_text(encoding='utf-8'))['rows']):
+            raise ValueError('Refuse to replace a plan with started articles')
     if args.build:
         rows,baseline=candidate_rows()
         save_json(MASTER_PATH,{'schema_version':1,'snapshot_count':518,
