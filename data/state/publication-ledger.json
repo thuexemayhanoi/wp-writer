@@ -27870,7 +27870,7 @@
       }
     },
     "NT-001258": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:42:59.253925+00:00",
       "source_hash": "1a894f32eb324b3abbc02b999c72f98e71451877dbec7f80d19a6cce1a685f1b",
       "slug": "tet-doc-lap-o-moc-chau-nguoi-mong-xuong-pho-dip-2-9-tuan-van-hoa-du-lich-28-8-5-9-2025-va-27-8-5-9-2026",
@@ -27886,8 +27886,37 @@
       "category_warning": null,
       "git_commit": "1548faa8656ddb9fa7d131e0a1f6d4da23750132",
       "run_id": "39618406418",
-      "updated_at": "2026-10-21T14:43:04.058728+00:00",
-      "wp_id": 4629
+      "updated_at": "2026-10-21T14:43:10.223996+00:00",
+      "wp_id": 4629,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tet-doc-lap-o-moc-chau-nguoi-mong-xuong-pho-dip-2-9-tuan-van-hoa-du-lich-28-8-5-9-2025-va-27-8-5-9-2026/",
+      "verified_at": "2026-10-21T14:43:10.223990+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4629,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tet-doc-lap-o-moc-chau-nguoi-mong-xuong-pho-dip-2-9-tuan-van-hoa-du-lich-28-8-5-9-2025-va-27-8-5-9-2026/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tet-doc-lap-o-moc-chau-nguoi-mong-xuong-pho-dip-2-9-tuan-van-hoa-du-lich-28-8-5-9-2025-va-27-8-5-9-2026/",
+        "seo_title": "Tết Độc lập ở Mộc Châu: Tuần Văn hóa – Du lịch 2025 và 2026 theo báo",
+        "seo_description": "Tết Độc lập ở Mộc Châu là dịp 2/9 người Mông xuống phố; báo ghi Tuần Văn hóa – Du lịch 28/8–5/9/2025 và 27/8–5/9/2026, nêu giờ, địa điểm từng năm và điều chưa có nguồn.",
+        "checked_at": "2026-10-21T14:43:10.223972+00:00"
+      }
     }
   },
   "categories": {}
