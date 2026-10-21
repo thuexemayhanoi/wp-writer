@@ -25616,7 +25616,7 @@
       }
     },
     "NT-001202": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T10:09:28.720606+00:00",
       "source_hash": "d53608905eb491aa624d0d643481c2c3d2361173a93a8f871bf96f62a338e9b8",
       "slug": "vao-vong-xuyen-bang-xe-may-nhuong-xe-ben-trai-hay-ben-phai-tuy-bien-bao-phat-2-3-trieu-dong-va-tru-2-diem",
@@ -25632,8 +25632,37 @@
       "category_warning": null,
       "git_commit": "d254586ab66c99b3a3fed992c9b0e2d0f0872538",
       "run_id": "39582063937",
-      "updated_at": "2026-10-21T10:09:32.734840+00:00",
-      "wp_id": 4563
+      "updated_at": "2026-10-21T10:09:38.822126+00:00",
+      "wp_id": 4563,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/vao-vong-xuyen-bang-xe-may-nhuong-xe-ben-trai-hay-ben-phai-tuy-bien-bao-phat-2-3-trieu-dong-va-tru-2-diem/",
+      "verified_at": "2026-10-21T10:09:38.822119+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4563,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/vao-vong-xuyen-bang-xe-may-nhuong-xe-ben-trai-hay-ben-phai-tuy-bien-bao-phat-2-3-trieu-dong-va-tru-2-diem/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/vao-vong-xuyen-bang-xe-may-nhuong-xe-ben-trai-hay-ben-phai-tuy-bien-bao-phat-2-3-trieu-dong-va-tru-2-diem/",
+        "seo_title": "Vào vòng xuyến bằng xe máy: nhường bên trái hay bên phải, mức phạt",
+        "seo_description": "Vào vòng xuyến bằng xe máy: có báo hiệu vòng xuyến thì nhường xe bên trái, không có thì nhường bên phải theo Điều 22 Luật 36/2024; phạt 2–3 triệu đồng, trừ 02 điểm.",
+        "checked_at": "2026-10-21T10:09:38.822096+00:00"
+      }
     }
   },
   "categories": {}
