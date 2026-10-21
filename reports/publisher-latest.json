@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-21T10:05:05.479326+00:00",
-  "attempted": 10,
-  "ready_backlog": 4,
+  "at": "2026-10-21T11:51:52.034104+00:00",
+  "attempted": 0,
+  "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -180,11 +180,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T09:59:32.907521+00:00",
+      "at": "2026-10-21T11:51:34.801218+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "c138e2625d18c26257df5e454c33eb97d899604a39b9f9f3b9bafd748fd16dfe",
+      "inventory_sha256": "efd049ed3eb3f9ebcea4a2391e9c9c4abd2ca51a331f9c3b99675d2fada6cc23",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -350,11 +350,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T09:59:40.368538+00:00",
+      "at": "2026-10-21T11:51:44.363913+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "c138e2625d18c26257df5e454c33eb97d899604a39b9f9f3b9bafd748fd16dfe",
+      "inventory_sha256": "efd049ed3eb3f9ebcea4a2391e9c9c4abd2ca51a331f9c3b99675d2fada6cc23",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -529,11 +529,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T09:59:46.531451+00:00",
+      "at": "2026-10-21T11:51:51.866196+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "c138e2625d18c26257df5e454c33eb97d899604a39b9f9f3b9bafd748fd16dfe",
+      "inventory_sha256": "efd049ed3eb3f9ebcea4a2391e9c9c4abd2ca51a331f9c3b99675d2fada6cc23",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -551,86 +551,6 @@
         "exhausted": false,
         "needs_owner": false
       }
-    },
-    {
-      "topic_id": "NT-001143",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 176,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "urban-mobility",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001144",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 176,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "urban-mobility",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001149",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001150",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 176,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "urban-mobility",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001201",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001223",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 159,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "legal",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001224",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 159,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "legal",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001230",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 171,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "driving-licence",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001242",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 173,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "vietnam-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001243",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 126,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "destinations",
-      "category_warning": null
     }
   ],
   "backlog_drains_on": "successful Writer QA or fallback schedule",

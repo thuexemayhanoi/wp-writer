@@ -1,0 +1,176 @@
+{
+  "topic_id": "NT-001250",
+  "status": "PASS",
+  "source_sha256": "2e07de17f2c3518ffcb9c7478aa58fdccca8272e175a9a17f1b06e7a9a4cf7ea",
+  "body_sha256": "f253e4e2ae4e0fc1875669008f65dfcc6065b136983e453215ce581f431fb086",
+  "word_count": 2133,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://sodulich.ninhbinh.gov.vn/vi/tai-nguyen-du-lich-tu-nhien/khu-bao-ton-thien-nhien-dat-ngap-nuoc-van-long-18.html",
+      "supports": "Sở Du lịch Ninh Bình (trang đề ngày 14/08/2025): khu bảo tồn nằm trên các xã Gia Viễn, Gia Hưng, Gia Vân, Gia Trấn, cách trung tâm tỉnh khoảng 17 km về phía Bắc, diện tích trên 3.000 ha; lớn nhất đồng bằng Bắc Bộ; hai kỷ lục Việt Nam; 32 hang động.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://ttdn.ninhbinh.gov.vn/vi/di-tich-lich-su-danh-lam-thang-canh/kham-pha-he-sinh-thai-dac-trung-cua-dat-ngap-nuoc-van-long-756.html",
+      "supports": "Thông tin đối ngoại Ninh Bình (12/11/2023, theo BCXB): diện tích 3.500 ha, hình thành từ tuyến đê trị thủy dài hơn 30 km bên tả ngạn sông Đáy năm 1960, biệt danh vịnh không sóng; 32 hang; voọc quần đùi trắng trên 100 cá thể; đưa vào khai thác du lịch từ năm 1998.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/the-gioi-chim-thu-o-dam-van-long-4308752.html",
+      "supports": "VnExpress (16/7/2021): Vân Long trên 3.000 ha, lớn nhất đồng bằng Bắc Bộ; 102 loài chim ghi nhận; hơn 200 cá thể voọc quần đùi trắng (voọc mông trắng); tháng 5-7 mùa sen, tháng 11-4 mùa chim di cư.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://sodulich.ninhbinh.gov.vn/vi/tai-nguyen-du-lich-tu-nhien/khu-bao-ton-thien-nhien-dat-ngap-nuoc-van-long-18.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://ttdn.ninhbinh.gov.vn/vi/di-tich-lich-su-danh-lam-thang-canh/kham-pha-he-sinh-thai-dac-trung-cua-dat-ngap-nuoc-van-long-756.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/the-gioi-chim-thu-o-dam-van-long-4308752.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 906,
+        "title": "Kinh Nghiệm Thuê Xe Máy 50cc Tại Hà Nội – 10 Mẹo Cần Biết",
+        "why": "stale",
+        "content_hash": "e56e4440c2dae50df047a88e59af89acc9704c86812322daafa056e1931e65b1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2388,
+        "title": "Xe máy điện VinFast đi được bao nhiêu km sau mỗi lần sạc đầy?",
+        "why": "stale",
+        "content_hash": "e5285dab933a9e8523fa7f789f9bd5d57691724f1704aeef3c150a4cd22802f9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2622,
+        "title": "Hoàng thành Thăng Long có gì? Giá vé, giờ mở cửa và cách tham quan",
+        "why": "stale",
+        "content_hash": "1d198ab7452c92604271329801956283c798cb81955fe394ef94bb66188faaf3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T10:21:55.188674+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "fd8a2bc549369211ab529b15020892615f81be1cda755f76f9cc8e99ab85a85e",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
