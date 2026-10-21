@@ -21302,6 +21302,25 @@
         "seo_description": "Lốp xe máy sản xuất đã lâu có nên mua: cách đọc mã DOT, các mốc 12 tháng, 3 năm và 5 năm do Thanh Niên và Bridgestone Việt Nam nêu, kèm bước kiểm tra tại tiệm.",
         "checked_at": "2026-10-21T04:42:13.894813+00:00"
       }
+    },
+    "NT-001122": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T04:46:24.968335+00:00",
+      "source_hash": "fdd1c5263768aaf29fa8c922310891684a1e10a807e433bec7178b44267c2704",
+      "slug": "don-nguoi-than-o-san-bay-noi-bai-cho-o-bai-p1-hay-p3-vao-lan-nao-va-dung-toi-da-5-phut",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 176,
+      "visible_hash": "19cc7c1756a115ef2622945d799d02378607cb6da02f0baecdb33b8d87e06142",
+      "first_paragraph": "Đón người thân ở sân bay Nội Bài bằng ô tô cá nhân dưới 9 chỗ, theo phương án áp dụng từ 3/8/2026, bạn không đỗ sát cửa để chờ mà đợi ở bãi: ở nhà ga T1 chờ ở bãi P1 rồi vào làn số 3 tầng 1 khi người thân đã ra ngoài, ở T2 chờ ở bãi P3 rồi vào làn số 1 khi họ đã lấy hành lý và ra cửa nhà ga. Báo Tuổi Trẻ (2/8/2026) ghi xe đón ở T1 chỉ được dừng tối đa 5 phút và xe trả khách ở cả hai nhà ga cũng tối đa 5 phút, còn hai bài ngày 5/8 nói xe dừng ở làn 3 của T1 tối đa 3 phút; cảng khuyến cáo người đón và người được đón thống nhất trước số làn, số cột và kiểm tra giờ bay thực tế.",
+      "meta_title": "Đón người thân ở sân bay Nội Bài: chờ bãi P1 hay P3, vào làn nào",
+      "meta_description": "Đón người thân ở sân bay Nội Bài bằng ô tô cá nhân: T1 chờ bãi P1 rồi vào làn 3, T2 chờ bãi P3 rồi vào làn 1, giới hạn dừng 5 phút và 3 phút, chỗ nguồn chưa khớp.",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "855e0553874a93715a6dd956f505147b623fc191",
+      "run_id": "39545575800",
+      "updated_at": "2026-10-21T04:46:24.970084+00:00"
     }
   },
   "categories": {}
