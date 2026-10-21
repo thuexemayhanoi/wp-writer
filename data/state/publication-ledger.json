@@ -29044,6 +29044,25 @@
         "seo_description": "Thẻ buýt gắn chip miễn phí ở Hà Nội: ai được phát hành, đăng ký online từ 6/7/2026, hồ sơ, nhận thẻ ở số 1 Kim Mã hoặc chuyển phát và thẻ cũ dùng đến hết 31/12/2026.",
         "checked_at": "2026-10-21T15:05:20.763280+00:00"
       }
+    },
+    "NT-001312": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T15:12:04.382654+00:00",
+      "source_hash": "39984a08c88d6d974b64efe0da610c3deb55037c8fbc0588af5fdeea7d2a5995",
+      "slug": "chua-chay-pin-xe-may-dien-bang-gi-cuc-pccc-neu-nuoc-hoac-cat-am-mot-bai-bao-neu-co2-va-bot",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 167,
+      "visible_hash": "df618f34be5769ae3b52481cca5faa2867e823348641461f512935cb8a39a659",
+      "first_paragraph": "Chữa cháy pin xe máy điện bằng gì là câu hỏi mà các nguồn đã đọc trả lời không giống nhau: trang khuyến cáo của Cục Cảnh sát PCCC và CNCH (đăng 11/08/2025) viết rằng đối với xe điện phải dùng bình chữa cháy gốc nước hoặc cát ẩm, còn bài báo Thanh Niên (19/09/2023) dẫn một cán bộ PCCC tại TP.HCM nói pin xe điện không nên dùng nước mà dùng bình khí CO2, hoặc bình bột nếu không có CO2. Không nguồn nào nói là đã thử trên pin xe máy điện. Điểm các nguồn dành cho người dân đều nhắc tới là gọi lực lượng cứu hỏa, và hai nguồn nói rằng khi không dập nổi hoặc pin đã bốc khói thì phải rời đi.",
+      "meta_title": "Chữa cháy pin xe máy điện bằng gì: nước, cát ẩm hay CO2, bột?",
+      "meta_description": "Chữa cháy pin xe máy điện bằng gì: Cục PCCC nêu bình gốc nước hoặc cát ẩm, một bài báo nêu CO2 và bột; các nguồn lệch nhau, điểm chung là gọi 114 và rời đi khi không dập nổi.",
+      "intended_taxonomy_key": "battery-charging",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "81a82aa1136451c663884386ac8cf6a12a652ca1",
+      "run_id": "39622613046",
+      "updated_at": "2026-10-21T15:12:04.384725+00:00"
     }
   },
   "categories": {}
