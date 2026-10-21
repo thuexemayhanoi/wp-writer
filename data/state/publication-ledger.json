@@ -27331,7 +27331,7 @@
       }
     },
     "NT-001251": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:33:06.874935+00:00",
       "source_hash": "afdc1ef7fddf3d3eea50a9fbd87fc859a981b70b65c99e6d6b94ad5f90d76959",
       "slug": "le-hoi-hoa-ban-dien-bien-2026-ngay-nao-ke-hoach-ngay-4-2-ghi-20-26-3-thuc-te-khai-mac-toi-8-3-trong-tuan-le-6-12-3",
@@ -27347,8 +27347,37 @@
       "category_warning": null,
       "git_commit": "5d5916120e7e17996739564d24ce1438feb833c5",
       "run_id": "39615692248",
-      "updated_at": "2026-10-21T14:33:11.496358+00:00",
-      "wp_id": 4601
+      "updated_at": "2026-10-21T14:33:18.154246+00:00",
+      "wp_id": 4601,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/le-hoi-hoa-ban-dien-bien-2026-ngay-nao-ke-hoach-ngay-4-2-ghi-20-26-3-thuc-te-khai-mac-toi-8-3-trong-tuan-le-6-12-3/",
+      "verified_at": "2026-10-21T14:33:18.154237+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4601,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/le-hoi-hoa-ban-dien-bien-2026-ngay-nao-ke-hoach-ngay-4-2-ghi-20-26-3-thuc-te-khai-mac-toi-8-3-trong-tuan-le-6-12-3/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/le-hoi-hoa-ban-dien-bien-2026-ngay-nao-ke-hoach-ngay-4-2-ghi-20-26-3-thuc-te-khai-mac-toi-8-3-trong-tuan-le-6-12-3/",
+        "seo_title": "Lễ hội Hoa Ban Điện Biên 2026 ngày nào: kế hoạch 20–26/3, thực tế 8/3",
+        "seo_description": "Lễ hội Hoa Ban Điện Biên 2026 ngày nào: kế hoạch ngày 4/2 ghi 20–26/3, báo ngày 1/3 ghi tuần lễ 6–12/3, khai mạc tối 8/3; so với năm 2025 và cách kiểm tra lịch.",
+        "checked_at": "2026-10-21T14:33:18.154219+00:00"
+      }
     }
   },
   "categories": {}
