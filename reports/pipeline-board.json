@@ -1,41 +1,17 @@
 {
-  "at": "2026-10-21T04:32:14.052718+00:00",
+  "at": "2026-10-21T04:42:20.674059+00:00",
   "counts": {
-    "WRITING": 34,
+    "WRITING": 22,
     "QA": 0,
-    "READY": 7,
+    "READY": 9,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 444
+    "VERIFIED": 454
   },
-  "ready_backlog": 7,
-  "in_flight": 44,
+  "ready_backlog": 9,
+  "in_flight": 34,
   "items": [
-    {
-      "topic_id": "NT-000961",
-      "state": "WRITING",
-      "reason": "leased to seodev-w41",
-      "title": "Ký cược khi thuê xe máy: tiền cọc nhận xe khác đặt cọc ở điểm nào theo Điều 329 Bộ luật Dân sự",
-      "slot": "W4",
-      "session": "seodev-w41",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001121",
-      "state": "WRITING",
-      "reason": "leased to seodev-w49",
-      "title": "Từ Nội Bài về trung tâm Hà Nội: buýt, taxi và xe công nghệ đón ở đâu sau thay đổi ngày 3/8/2026",
-      "slot": "W2",
-      "session": "seodev-w49",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-001122",
       "state": "WRITING",
@@ -85,30 +61,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001126",
-      "state": "WRITING",
-      "reason": "leased to seodev-w49",
-      "title": "Làn xe máy trên cầu Nhật Tân: tối đa 40 km/h, rào cứng tách làn và thí điểm từ 27/9/2026",
-      "slot": "W2",
-      "session": "seodev-w49",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001127",
-      "state": "WRITING",
-      "reason": "leased to seodev-w49",
-      "title": "Xe máy qua cầu Thanh Trì khi sửa chữa: 40 km/h, làm đêm 21h–5h, làn xe máy có thể hẹp đến 25/12/2026",
-      "slot": "W2",
-      "session": "seodev-w49",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001128",
       "state": "WRITING",
       "reason": "leased to seodev-w49",
@@ -145,66 +97,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001154",
-      "state": "WRITING",
-      "reason": "leased to seodev-w48",
-      "title": "Đèn MIL trên xe Honda: ý nghĩa, khi nào đèn tắt và việc nên làm khi Honda Việt Nam gọi báo lỗi",
-      "slot": "W1",
-      "session": "seodev-w48",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001155",
-      "state": "WRITING",
-      "reason": "leased to seodev-w48",
-      "title": "Bao lâu nên bơm lốp xe máy một lần: mốc 2 tuần của Bridgestone và cách đo khi lốp nguội",
-      "slot": "W1",
-      "session": "seodev-w48",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001160",
-      "state": "WRITING",
-      "reason": "leased to seodev-w48",
-      "title": "Phiếu kiểm tra PDI của Yamaha: đại lý kiểm tra gì trước khi giao xe mới và người mua đối chiếu ra sao",
-      "slot": "W1",
-      "session": "seodev-w48",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001181",
-      "state": "WRITING",
-      "reason": "leased to seodev-w50",
-      "title": "Qua đường ngang đường sắt bằng xe máy: dừng trước vạch, quan sát hai phía và không dừng trên đường ray",
-      "slot": "W5",
-      "session": "seodev-w50",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001182",
-      "state": "WRITING",
-      "reason": "leased to seodev-w50",
-      "title": "Áo mưa cánh dơi khi đi xe máy: vạt áo cuốn vào bánh xe, che đèn và vì sao nên cân nhắc áo mưa bộ",
-      "slot": "W5",
-      "session": "seodev-w50",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001183",
       "state": "WRITING",
       "reason": "leased to seodev-w50",
@@ -233,30 +125,6 @@
       "state": "WRITING",
       "reason": "leased to seodev-w50",
       "title": "Sơ cứu người bị tai nạn xe máy: khi nào mới tháo mũ bảo hiểm, vì sao không bế xốc và cách cố định cổ",
-      "slot": "W5",
-      "session": "seodev-w50",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001186",
-      "state": "WRITING",
-      "reason": "leased to seodev-w50",
-      "title": "Thuốc gây buồn ngủ khi lái xe máy: kháng histamin, thuốc tiêu chảy, thuốc chống nôn và cách đọc nhãn thuốc",
-      "slot": "W5",
-      "session": "seodev-w50",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001187",
-      "state": "WRITING",
-      "reason": "leased to seodev-w50",
-      "title": "Xe máy chỉ có một gương chiếu hậu: bắt buộc gương trái, phạt 400.000–600.000 đồng và thế nào là gương có tác dụng",
       "slot": "W5",
       "session": "seodev-w50",
       "wp_id": null,
@@ -361,18 +229,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001216",
-      "state": "WRITING",
-      "reason": "leased to seodev-w51",
-      "title": "QCVN 31:2026/BXD về ắc quy xe máy điện: điện áp, dung lượng tối thiểu và sáu phép thử an toàn",
-      "slot": "W7",
-      "session": "seodev-w51",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001217",
       "state": "WRITING",
       "reason": "leased to seodev-w51",
@@ -421,54 +277,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001065",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Động cơ xe máy điện hoạt động thế nào: stato, rôto, cảm biến Hall và vai trò của bộ điều khiển",
-      "slot": "W6",
-      "session": "seodev-w43",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001152",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Xích xe máy căng quá có sao không: vì sao phải chừa độ chùng và chỗ căng chỗ chùng do đâu",
-      "slot": "W1",
-      "session": "seodev-w48",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001153",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Độ nhớt SAE trên nhớt xe máy: đọc 10W-30, 10W-40 và vì sao Honda, Yamaha, Motul khuyên khác nhau",
-      "slot": "W1",
-      "session": "seodev-w48",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001156",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Lốp xe máy sản xuất đã lâu có nên mua: đọc mã DOT, mốc 3 năm và 5 năm các nguồn nêu",
-      "slot": "W1",
-      "session": "seodev-w48",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
       "topic_id": "NT-001157",
       "state": "READY",
       "reason": "QA PASS; waiting for the Publisher",
@@ -499,6 +307,78 @@
       "title": "Số khung xe máy là gì và nằm ở đâu: đọc 17 ký tự VIN, tìm dưới yên hoặc cổ xe và so với giấy đăng ký",
       "slot": "W1",
       "session": "seodev-w48",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001160",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Phiếu kiểm tra PDI của Yamaha: đại lý kiểm tra gì trước khi giao xe mới và người mua đối chiếu ra sao",
+      "slot": "W1",
+      "session": "seodev-w48",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001181",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Qua đường ngang đường sắt bằng xe máy: dừng trước vạch, quan sát hai phía và không dừng trên đường ray",
+      "slot": "W5",
+      "session": "seodev-w50",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001182",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Áo mưa cánh dơi khi đi xe máy: vạt áo cuốn vào bánh xe, che đèn và vì sao nên cân nhắc áo mưa bộ",
+      "slot": "W5",
+      "session": "seodev-w50",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001186",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Thuốc gây buồn ngủ khi lái xe máy: kháng histamin, thuốc tiêu chảy, thuốc chống nôn và cách đọc nhãn thuốc",
+      "slot": "W5",
+      "session": "seodev-w50",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001187",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Xe máy chỉ có một gương chiếu hậu: bắt buộc gương trái, phạt 400.000–600.000 đồng và thế nào là gương có tác dụng",
+      "slot": "W5",
+      "session": "seodev-w50",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001216",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "QCVN 31:2026/BXD về ắc quy xe máy điện: điện áp, dung lượng tối thiểu và sáu phép thử an toàn",
+      "slot": "W7",
+      "session": "seodev-w51",
       "wp_id": null,
       "url": null,
       "qa_status": "PASS",
@@ -5005,6 +4885,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-000961",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Ký cược khi thuê xe máy: tiền cọc nhận xe khác đặt cọc ở điểm nào theo Điều 329 Bộ luật Dân sự",
+      "slot": "W4",
+      "session": "seodev-w41",
+      "wp_id": 4441,
+      "url": "https://thuexemaynguyentu.com/ky-cuoc-khi-thue-xe-may-tien-coc-nhan-xe-khac-dat-coc-o-diem-nao-theo-dieu-329-bo-luat-dan-su/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-000962",
       "state": "VERIFIED",
       "reason": "publish",
@@ -5521,6 +5413,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001065",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Động cơ xe máy điện hoạt động thế nào: stato, rôto, cảm biến Hall và vai trò của bộ điều khiển",
+      "slot": "W6",
+      "session": "seodev-w43",
+      "wp_id": 4442,
+      "url": "https://thuexemaynguyentu.com/dong-co-xe-may-dien-hoat-dong-the-nao-stato-roto-cam-bien-hall-va-vai-tro-cua-bo-dieu-khien/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001066",
       "state": "VERIFIED",
       "reason": "publish",
@@ -5821,6 +5725,42 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001121",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Từ Nội Bài về trung tâm Hà Nội: buýt, taxi và xe công nghệ đón ở đâu sau thay đổi ngày 3/8/2026",
+      "slot": "W2",
+      "session": "seodev-w49",
+      "wp_id": 4446,
+      "url": "https://thuexemaynguyentu.com/tu-noi-bai-ve-trung-tam-ha-noi-buyt-taxi-va-xe-cong-nghe-don-o-dau-sau-thay-doi-ngay-3-8-2026/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001126",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Làn xe máy trên cầu Nhật Tân: tối đa 40 km/h, rào cứng tách làn và thí điểm từ 27/9/2026",
+      "slot": "W2",
+      "session": "seodev-w49",
+      "wp_id": 4447,
+      "url": "https://thuexemaynguyentu.com/lan-xe-may-tren-cau-nhat-tan-toi-da-40-km-h-rao-cung-tach-lan-va-thi-diem-tu-27-9-2026/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001127",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe máy qua cầu Thanh Trì khi sửa chữa: 40 km/h, làm đêm 21h–5h, làn xe máy có thể hẹp đến 25/12/2026",
+      "slot": "W2",
+      "session": "seodev-w49",
+      "wp_id": 4448,
+      "url": "https://thuexemaynguyentu.com/xe-may-qua-cau-thanh-tri-khi-sua-chua-40-km-h-lam-dem-21h-5h-lan-xe-may-co-the-hep-den-25-12-2026/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001151",
       "state": "VERIFIED",
       "reason": "publish",
@@ -5829,6 +5769,66 @@
       "session": "seodev-w48",
       "wp_id": 4430,
       "url": "https://thuexemaynguyentu.com/nhong-sen-dia-xe-may-vi-sao-nen-thay-ca-bo-moc-12-000-15-000-km-yamaha-neu-va-dau-hieu-mon/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001152",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xích xe máy căng quá có sao không: vì sao phải chừa độ chùng và chỗ căng chỗ chùng do đâu",
+      "slot": "W1",
+      "session": "seodev-w48",
+      "wp_id": 4449,
+      "url": "https://thuexemaynguyentu.com/xich-xe-may-cang-qua-co-sao-khong-vi-sao-phai-chua-do-chung-va-cho-cang-cho-chung-do-dau/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001153",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Độ nhớt SAE trên nhớt xe máy: đọc 10W-30, 10W-40 và vì sao Honda, Yamaha, Motul khuyên khác nhau",
+      "slot": "W1",
+      "session": "seodev-w48",
+      "wp_id": 4450,
+      "url": "https://thuexemaynguyentu.com/do-nhot-sae-tren-nhot-xe-may-doc-10w-30-10w-40-va-vi-sao-honda-yamaha-motul-khuyen-khac-nhau/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001154",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đèn MIL trên xe Honda: ý nghĩa, khi nào đèn tắt và việc nên làm khi Honda Việt Nam gọi báo lỗi",
+      "slot": "W1",
+      "session": "seodev-w48",
+      "wp_id": 4451,
+      "url": "https://thuexemaynguyentu.com/den-mil-tren-xe-honda-y-nghia-khi-nao-den-tat-va-viec-nen-lam-khi-honda-viet-nam-goi-bao-loi/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001155",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Bao lâu nên bơm lốp xe máy một lần: mốc 2 tuần của Bridgestone và cách đo khi lốp nguội",
+      "slot": "W1",
+      "session": "seodev-w48",
+      "wp_id": 4452,
+      "url": "https://thuexemaynguyentu.com/bao-lau-nen-bom-lop-xe-may-mot-lan-moc-2-tuan-cua-bridgestone-va-cach-do-khi-lop-nguoi/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001156",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Lốp xe máy sản xuất đã lâu có nên mua: đọc mã DOT, mốc 3 năm và 5 năm các nguồn nêu",
+      "slot": "W1",
+      "session": "seodev-w48",
+      "wp_id": 4453,
+      "url": "https://thuexemaynguyentu.com/lop-xe-may-san-xuat-da-lau-co-nen-mua-doc-ma-dot-moc-3-nam-va-5-nam-cac-nguon-neu/",
       "qa_status": "PASS",
       "seo_score": 100
     },

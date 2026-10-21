@@ -1,0 +1,338 @@
+{
+  "topic_id": "NT-001127",
+  "status": "PASS",
+  "source_sha256": "77cd7e35482283379f285a1bb4ed51ac1fe9383f53bc598801a7c6c8f05059c5",
+  "body_sha256": "d129faa6cb28b038d534d6882100369bac9b5c4b10237e7f77860903a1e6218c",
+  "word_count": 2480,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://tienphong.vn/ha-noi-giam-toc-do-dieu-chinh-phan-lan-tren-cau-thanh-tri-gan-3-thang-post1881367.tpo",
+      "supports": "Tiền Phong 2/10/2026: từ 1/10 đến hết 25/12/2026 Hà Nội điều chỉnh tổ chức giao thông, hạ tốc độ qua cầu Thanh Trì để sửa chữa nhịp, gối, trụ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/ha-noi-giam-toc-do-dieu-chinh-phan-lan-tren-cau-thanh-tri-gan-3-thang-post1881367.tpo",
+      "supports": "Tiền Phong 2/10/2026: tốc độ tối đa qua khu vực công trường không vượt quá 40 km/h.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/ha-noi-giam-toc-do-dieu-chinh-phan-lan-tren-cau-thanh-tri-gan-3-thang-post1881367.tpo",
+      "supports": "Tiền Phong 2/10/2026: lối đi riêng cho xe máy lấy một phần làn ô tô khi thi công thu hẹp làn xe máy.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/ha-noi-giam-toc-do-dieu-chinh-phan-lan-tren-cau-thanh-tri-gan-3-thang-post1881367.tpo",
+      "supports": "Tiền Phong 2/10/2026: thi công chủ yếu làm đêm từ 21h đến 5h sáng hôm sau.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/ha-noi-giam-toc-do-dieu-chinh-phan-lan-tren-cau-thanh-tri-gan-3-thang-post1881367.tpo",
+      "supports": "Tiền Phong 2/10/2026: biển cảnh báo từ xa 500 m, 100 m, 50 m, đèn chiếu sáng, chóp nón, lực lượng điều tiết.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/ha-noi-giam-toc-do-dieu-chinh-phan-lan-tren-cau-thanh-tri-gan-3-thang-post1881367.tpo",
+      "supports": "Tiền Phong 2/10/2026: Phòng CSGT phối hợp các phường Lĩnh Nam, Vĩnh Hưng, Long Biên và xã Bát Tràng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bnews.vn/ha-noi-dieu-chinh-giao-thong-cau-thanh-tri-de-thi-cong-sua-chua/438811.html",
+      "supports": "BNEWS 1/10/2026: tốc độ tối đa cho phép giảm dần xuống 40 km/h khi qua khu vực thi công.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bnews.vn/ha-noi-dieu-chinh-giao-thong-cau-thanh-tri-de-thi-cong-sua-chua/438811.html",
+      "supports": "BNEWS 1/10/2026: rào chắn khi thay dải phân cách giữa làn ô tô và làn xe máy.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bnews.vn/ha-noi-dieu-chinh-giao-thong-cau-thanh-tri-de-thi-cong-sua-chua/438811.html",
+      "supports": "BNEWS 1/10/2026: phân đoạn rào chắn 4,1 m gồm 3,7 m toàn bộ làn xe máy.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bnews.vn/ha-noi-dieu-chinh-giao-thong-cau-thanh-tri-de-thi-cong-sua-chua/438811.html",
+      "supports": "BNEWS 1/10/2026: bố trí 2 m làn ô tô tiếp giáp cho xe máy lưu thông.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bnews.vn/ha-noi-dieu-chinh-giao-thong-cau-thanh-tri-de-thi-cong-sua-chua/438811.html",
+      "supports": "BNEWS 1/10/2026: thi công 21h đến 5h, thu dọn rào chắn trước 5 giờ, đến 25/12/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bnews.vn/ha-noi-dieu-chinh-giao-thong-cau-thanh-tri-de-thi-cong-sua-chua/438811.html",
+      "supports": "BNEWS 1/10/2026: dùng cọc tiêu, chóp nón dẫn hướng phương tiện vòng tránh phạm vi thi công.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://tienphong.vn/ha-noi-giam-toc-do-dieu-chinh-phan-lan-tren-cau-thanh-tri-gan-3-thang-post1881367.tpo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/ha-noi-giam-toc-do-dieu-chinh-phan-lan-tren-cau-thanh-tri-gan-3-thang-post1881367.tpo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/ha-noi-giam-toc-do-dieu-chinh-phan-lan-tren-cau-thanh-tri-gan-3-thang-post1881367.tpo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/ha-noi-giam-toc-do-dieu-chinh-phan-lan-tren-cau-thanh-tri-gan-3-thang-post1881367.tpo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/ha-noi-giam-toc-do-dieu-chinh-phan-lan-tren-cau-thanh-tri-gan-3-thang-post1881367.tpo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/ha-noi-giam-toc-do-dieu-chinh-phan-lan-tren-cau-thanh-tri-gan-3-thang-post1881367.tpo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bnews.vn/ha-noi-dieu-chinh-giao-thong-cau-thanh-tri-de-thi-cong-sua-chua/438811.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bnews.vn/ha-noi-dieu-chinh-giao-thong-cau-thanh-tri-de-thi-cong-sua-chua/438811.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bnews.vn/ha-noi-dieu-chinh-giao-thong-cau-thanh-tri-de-thi-cong-sua-chua/438811.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bnews.vn/ha-noi-dieu-chinh-giao-thong-cau-thanh-tri-de-thi-cong-sua-chua/438811.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bnews.vn/ha-noi-dieu-chinh-giao-thong-cau-thanh-tri-de-thi-cong-sua-chua/438811.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bnews.vn/ha-noi-dieu-chinh-giao-thong-cau-thanh-tri-de-thi-cong-sua-chua/438811.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 925,
+        "title": "Thuê Xe Điện Hà Nội – Chọn Xe Máy Điện Hay Xe Đạp Điện?",
+        "why": "stale",
+        "content_hash": "838c9d37eced2e74deeb9b1fb50c29d75e84a717e3f8dd7c79c8cc8599007bf1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 931,
+        "title": "So Sánh Giá Thuê Xe Máy Điện Và Xe Đạp Điện Tại Hà Nội",
+        "why": "stale",
+        "content_hash": "6ecf7e9ed22bffd8cd1b7503e82157d22124c0c18b557dbf6c98245fa34fb529",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2378,
+        "title": "Xe máy điện VinFast: các mẫu đáng chú ý và điểm khác biệt",
+        "why": "stale",
+        "content_hash": "37ef98f1fa6912ab03a40b59b7957c089abbadee5f0ea45c7e3fcf1b939d9074",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2422,
+        "title": "Yadea và VinFast khác nhau thế nào khi chọn xe máy điện",
+        "why": "stale",
+        "content_hash": "fad15df82e26c0a36f7ca807746c1f7a42149457965d7219044bd7238970ce07",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2562,
+        "title": "Chi phí sử dụng xe máy một tháng gồm những khoản nào phổ biến?",
+        "why": "stale",
+        "content_hash": "0e027bc06fdc27cef9d43033bb86723109f122a63e8485c8dd6f92fa12334be6",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:38:38.120052+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "78118dbed18326c101bb2cf5475df89d99102dcf6acd6815007d67f14a6fedc3",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
