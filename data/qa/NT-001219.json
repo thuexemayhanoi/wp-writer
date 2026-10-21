@@ -1,0 +1,207 @@
+{
+  "topic_id": "NT-001219",
+  "status": "PASS",
+  "source_sha256": "b6f4483ed06aa8c5c07763c8c9154101194e2d2fadd67ee0f101748e1372b0f6",
+  "body_sha256": "66f0104626c1f7d2c3f38e6f2fc2717121e332696b2564648390c0e89e6b38ad",
+  "word_count": 2144,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://luatvietnam.vn/le-phi/tu-2026-le-phi-dang-ky-cap-bien-so-xe-may-duoc-quy-dinh-the-nao-675-106415-article.html",
+      "supports": "luatvietnam.vn (nguồn thương mại): Biểu mức thu theo Thông tư 155/2025/TT-BTC với xe mô tô khu vực I trị giá đến 15 triệu đồng là 700.000 đồng, khu vực II 105.000 đồng; bảng cũ theo Thông tư 60/2023/TT-BTC sửa đổi bởi Thông tư 71/2025/TT-BTC.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/le-phi/tu-2026-le-phi-dang-ky-cap-bien-so-xe-may-duoc-quy-dinh-the-nao-675-106415-article.html",
+      "supports": "luatvietnam.vn: khu vực II thống nhất 105.000 đồng cho mọi loại xe mô tô, không phân biệt trị giá; mức cấp đổi chứng nhận đăng ký kèm biển số xe mô tô 70.000 đồng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hatinh.gov.vn/vi/bai-viet/le-phi-dang-ky-xe-bien-so-xe-moi-nhat",
+      "supports": "Cổng thông tin tỉnh Hà Tĩnh 09/01/2026: trị giá xe mô tô để áp mức thu là giá tính lệ phí trước bạ tại thời điểm đăng ký.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hatinh.gov.vn/vi/bai-viet/le-phi-dang-ky-xe-bien-so-xe-moi-nhat",
+      "supports": "Cổng thông tin tỉnh Hà Tĩnh 09/01/2026: khu vực I gồm Hà Nội, TP.HCM (mọi xã, phường, trừ đặc khu trực thuộc cấp tỉnh).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.nghean.gov.vn/pho-bien-phap-luat/202601/muc-thu-le-phi-dang-ky-xe-bien-so-xe-tu-01012026-1054410/index.htm",
+      "supports": "Cổng Công an Nghệ An 30/01/2026: các trường hợp miễn lệ phí gồm xe mô tô ba bánh chuyên dùng cho người khuyết tật.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hatinh.gov.vn/vi/bai-viet/mien-giam-le-phi-truoc-ba-khi-sang-ten-xe-cu-qua-vneid",
+      "supports": "Cổng thông tin tỉnh Hà Tĩnh 14/07/2026: Nghị quyết 66.22 của Chính phủ về phát triển công dân số, hiệu lực từ 15/8 đến 28/2/2027.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://luatvietnam.vn/le-phi/tu-2026-le-phi-dang-ky-cap-bien-so-xe-may-duoc-quy-dinh-the-nao-675-106415-article.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/le-phi/tu-2026-le-phi-dang-ky-cap-bien-so-xe-may-duoc-quy-dinh-the-nao-675-106415-article.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hatinh.gov.vn/vi/bai-viet/le-phi-dang-ky-xe-bien-so-xe-moi-nhat",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hatinh.gov.vn/vi/bai-viet/le-phi-dang-ky-xe-bien-so-xe-moi-nhat",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.nghean.gov.vn/pho-bien-phap-luat/202601/muc-thu-le-phi-dang-ky-xe-bien-so-xe-tu-01012026-1054410/index.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hatinh.gov.vn/vi/bai-viet/mien-giam-le-phi-truoc-ba-khi-sang-ten-xe-cu-qua-vneid",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2510,
+        "title": "Khi nào nên thay lốp xe máy? Những dấu hiệu không nên bỏ qua",
+        "why": "stale",
+        "content_hash": "7a0e5dd9b44715037f825f57642abfb14c121dc4db736a750bde66cb37b61478",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:52:40.576768+00:00",
+  "live_links_checked": false,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "1ea266da4ab34f5f53f73c15e9824e4d3fe365f30487daf42754cc256943da37",
+  "incremental_key": "248e801f45ff84362c46d6174f67cf5b44379d1ad10aba6b0facfedbfb03ded6",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
