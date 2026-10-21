@@ -1,21 +1,21 @@
 {
   "version": 1,
-  "state": "REFILL_OPENED",
-  "ready_stock": 10,
+  "state": "REFILL_IN_PROGRESS",
+  "ready_stock": 2,
   "trigger_below_ready": 900,
   "rounds_opened": 5,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 696,
-  "capacity_remaining": 1304,
+  "topic_rows": 698,
+  "capacity_remaining": 1302,
   "order": {
     "id": "RF-0005",
     "round": 5,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 0,
-    "remaining_to_min": 100,
-    "remaining_to_max": 200,
+    "accepted_so_far": 2,
+    "remaining_to_min": 98,
+    "remaining_to_max": 198,
     "batches_still_needed": 10,
     "batch_size": 10,
     "capacity_limited": false,
@@ -90,13 +90,13 @@
       },
       {
         "taxonomy_key": "rental-costs",
-        "quota": 5,
-        "known_now": 10,
+        "quota": 4,
+        "known_now": 12,
         "allocation": 23
       },
       {
         "taxonomy_key": "vietnam-travel",
-        "quota": 3,
+        "quota": 4,
         "known_now": 45,
         "allocation": 55
       },
@@ -145,10 +145,10 @@
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 740,
-    "topics_in_factory": 696,
+    "published_wordpress_items": 753,
+    "topics_in_factory": 698,
     "topics_by_status": {
-      "PLANNED": 619,
+      "PLANNED": 621,
       "REJECTED": 2,
       "RESEARCH": 75
     },
