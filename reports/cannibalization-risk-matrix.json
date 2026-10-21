@@ -25987,6 +25987,127 @@
           "weighted_jaccard": 0.667
         }
       ]
+    },
+    "NT-001110": {
+      "status": "PASS",
+      "errors": [],
+      "review": [],
+      "evidence_pages": {
+        "stale": [],
+        "unreviewed": []
+      },
+      "nearest": [
+        {
+          "id": 4622,
+          "title": "Thuê xe máy phường Việt Hưng: chọn Honda Wave hay Yamaha Sirius để đi làm theo tuần?",
+          "similarity": 0.611
+        },
+        {
+          "id": 4344,
+          "title": "Thuê xe máy phường Bồ Đề: chọn Honda Vision hay Wave, nhận xe ở đâu?",
+          "similarity": 0.586
+        },
+        {
+          "id": 4638,
+          "title": "Thuê xe máy phường Đống Đa: sinh viên chọn Honda Wave, Cub 50 hay SYM 50cc?",
+          "similarity": 0.585
+        },
+        {
+          "id": 836,
+          "title": "Thuê Xe Máy Ở Phố Cổ Hà Nội – Địa Chỉ & Giá Tham Khảo",
+          "similarity": 0.565
+        },
+        {
+          "id": 4637,
+          "title": "Thuê xe máy phường Tây Hồ: chọn Honda Vision hay xe điện cho hành trình quanh hồ?",
+          "similarity": 0.545
+        }
+      ],
+      "at": "2026-10-21T19:52:27.796366+00:00",
+      "topic_hash": "7fb6895ca06b4a0454896b10b95d7f5bfab6b249a66502764d6229adc17f24c6"
+    },
+    "NT-001111": {
+      "status": "PASS",
+      "errors": [],
+      "review": [],
+      "evidence_pages": {
+        "stale": [],
+        "unreviewed": []
+      },
+      "nearest": [
+        {
+          "id": 4637,
+          "title": "Thuê xe máy phường Tây Hồ: chọn Honda Vision hay xe điện cho hành trình quanh hồ?",
+          "similarity": 0.659
+        },
+        {
+          "id": 4344,
+          "title": "Thuê xe máy phường Bồ Đề: chọn Honda Vision hay Wave, nhận xe ở đâu?",
+          "similarity": 0.613
+        },
+        {
+          "id": 4345,
+          "title": "Thuê xe máy phường Cửa Nam: chọn Air Blade, tính gói ngày hay tuần?",
+          "similarity": 0.577
+        },
+        {
+          "id": 4622,
+          "title": "Thuê xe máy phường Việt Hưng: chọn Honda Wave hay Yamaha Sirius để đi làm theo tuần?",
+          "similarity": 0.563
+        },
+        {
+          "id": 3993,
+          "title": "Dầu phanh xe máy: mốc thay của Honda và Yamaha khác nhau ra sao và cách đọc ký hiệu DOT",
+          "similarity": 0.515
+        }
+      ],
+      "at": "2026-10-21T19:52:28.082590+00:00",
+      "topic_hash": "dcf7cefeb77cf5cb0ec2bcdebd41d4bc80cd700efe0656b9ef66556eaa9751ae"
+    },
+    "NT-001112": {
+      "status": "PASS",
+      "errors": [],
+      "review": [],
+      "evidence_pages": {
+        "stale": [],
+        "unreviewed": []
+      },
+      "nearest": [
+        {
+          "id": 4622,
+          "title": "Thuê xe máy phường Việt Hưng: chọn Honda Wave hay Yamaha Sirius để đi làm theo tuần?",
+          "similarity": 0.691
+        },
+        {
+          "id": 4637,
+          "title": "Thuê xe máy phường Tây Hồ: chọn Honda Vision hay xe điện cho hành trình quanh hồ?",
+          "similarity": 0.642
+        },
+        {
+          "id": 4344,
+          "title": "Thuê xe máy phường Bồ Đề: chọn Honda Vision hay Wave, nhận xe ở đâu?",
+          "similarity": 0.622
+        },
+        {
+          "id": 2483,
+          "title": "Honda Vision và Yamaha Janus: mẫu nào phù hợp người mới sử dụng?",
+          "similarity": 0.579
+        },
+        {
+          "id": 4345,
+          "title": "Thuê xe máy phường Cửa Nam: chọn Air Blade, tính gói ngày hay tuần?",
+          "similarity": 0.517
+        }
+      ],
+      "at": "2026-10-21T19:52:28.365204+00:00",
+      "topic_hash": "78727da675784f7551e4a03416d91bcd7016ea4e05ff9b8d5b0413e8b93a9440",
+      "intent_matches": [
+        {
+          "id": "NT-001111",
+          "severity": "REVIEW",
+          "weighted_jaccard": 0.184
+        }
+      ]
     }
   },
   "note": "Heuristic flags require full-content intent review. No legacy edits."
