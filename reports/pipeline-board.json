@@ -1,41 +1,17 @@
 {
-  "at": "2026-10-21T15:17:26.519324+00:00",
+  "at": "2026-10-21T15:23:37.514290+00:00",
   "counts": {
-    "WRITING": 10,
+    "WRITING": 11,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 620
+    "VERIFIED": 623
   },
   "ready_backlog": 0,
-  "in_flight": 13,
+  "in_flight": 14,
   "items": [
-    {
-      "topic_id": "NT-001315",
-      "state": "WRITING",
-      "reason": "leased to seodev-w65",
-      "title": "Phanh động cơ Dat Bike ngắt khi pin đầy: tắt máy đột ngột, đổ đèo nóng và lời dặn rà phanh",
-      "slot": "W4",
-      "session": "seodev-w65",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001319",
-      "state": "WRITING",
-      "reason": "leased to seodev-w65",
-      "title": "Bộ sạc xe máy điện bảo hành bao lâu: Honda 2 năm, Pega 12 tháng và các lỗi hãng loại trừ",
-      "slot": "W4",
-      "session": "seodev-w65",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-001320",
       "state": "WRITING",
@@ -55,18 +31,6 @@
       "title": "VinBus Hà Nội đổi điểm dừng và mã tuyến: E03, E08, E11, tuyến 179 và 180 từ 9–10/2026",
       "slot": "W7",
       "session": "seodev-w64",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001452",
-      "state": "WRITING",
-      "reason": "leased to seodev-w67",
-      "title": "Xe đạp điện leo dốc: cách đọc mô-men xoắn, công suất và pin trong thông số hãng",
-      "slot": "W1",
-      "session": "seodev-w67",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -103,6 +67,54 @@
       "title": "Xe đạp điện có bàn đạp: cấu tạo cơ bản và những bộ phận không nên tự can thiệp",
       "slot": "W1",
       "session": "seodev-w67",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001481",
+      "state": "WRITING",
+      "reason": "leased to seodev-w68",
+      "title": "Quên giấy tờ xe máy điện có bị phạt không: Luật bắt buộc mang gì và lỗi nào bị phạt",
+      "slot": "W3",
+      "session": "seodev-w68",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001482",
+      "state": "WRITING",
+      "reason": "leased to seodev-w68",
+      "title": "Cách tra cứu văn bản luật giao thông: kiểm tra hiệu lực Luật 36/2024 và Nghị định 168/2024",
+      "slot": "W3",
+      "session": "seodev-w68",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001483",
+      "state": "WRITING",
+      "reason": "leased to seodev-w68",
+      "title": "Mũ bảo hiểm cho du khách nước ngoài: luật Việt Nam bắt buộc gì và Anh, Úc, Canada khuyên gì",
+      "slot": "W3",
+      "session": "seodev-w68",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001484",
+      "state": "WRITING",
+      "reason": "leased to seodev-w68",
+      "title": "Biển số xe máy màu gì: nền trắng, nền xanh, tem xanh lá và kích thước theo Thông tư 79/2024",
+      "slot": "W3",
+      "session": "seodev-w68",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -7117,6 +7129,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001315",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Phanh động cơ Dat Bike ngắt khi pin đầy: tắt máy đột ngột, đổ đèo nóng và lời dặn rà phanh",
+      "slot": "W4",
+      "session": "seodev-w65",
+      "wp_id": 4668,
+      "url": "https://thuexemaynguyentu.com/phanh-dong-co-dat-bike-ngat-khi-pin-day-tat-may-dot-ngot-do-deo-nong-va-loi-dan-ra-phanh/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001316",
       "state": "VERIFIED",
       "reason": "publish",
@@ -7149,6 +7173,18 @@
       "session": "seodev-w65",
       "wp_id": 4664,
       "url": "https://thuexemaynguyentu.com/bao-hanh-xe-dat-bike-3-nam-hoac-30-000-km-pin-duoi-70-duoc-thay-di-mua-ngap-den-60-cm/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001319",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Bộ sạc xe máy điện bảo hành bao lâu: Honda 2 năm, Pega 12 tháng và các lỗi hãng loại trừ",
+      "slot": "W4",
+      "session": "seodev-w65",
+      "wp_id": 4669,
+      "url": "https://thuexemaynguyentu.com/bo-sac-xe-may-dien-bao-hanh-bao-lau-honda-2-nam-pega-12-thang-va-cac-loi-hang-loai-tru/",
       "qa_status": "PASS",
       "seo_score": 100
     },
@@ -7533,6 +7569,18 @@
       "session": "seodev-w67",
       "wp_id": 4667,
       "url": "https://thuexemaynguyentu.com/he-thong-den-xe-dap-dien-den-lay-dien-tu-dau-va-thoi-quen-nao-giup-den-ben-hon/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001452",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe đạp điện leo dốc: cách đọc mô-men xoắn, công suất và pin trong thông số hãng",
+      "slot": "W1",
+      "session": "seodev-w67",
+      "wp_id": 4670,
+      "url": "https://thuexemaynguyentu.com/xe-dap-dien-leo-doc-cach-doc-mo-men-xoan-cong-suat-va-pin-trong-thong-so-hang/",
       "qa_status": "PASS",
       "seo_score": 100
     },

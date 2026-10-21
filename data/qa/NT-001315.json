@@ -1,0 +1,281 @@
+{
+  "topic_id": "NT-001315",
+  "status": "PASS",
+  "source_sha256": "049e4952b92c7b4bd6e47df79163d653d6474c7174c7674f734e3c22d0678b78",
+  "body_sha256": "a71300dfd5fe7c1fbf0b261a4e4a69ae3231710fcd74039d84331742d0882883",
+  "word_count": 2301,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/faq-usage/",
+      "supports": "Mục hỏi đáp của Dat Bike nêu khi dùng phanh động cơ lúc pin đầy thì pin tự sạc ngược và xe có thể ngắt máy để bảo vệ pin; không ghi ngày, không nêu mẫu xe.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/faq-usage/",
+      "supports": "Cùng trang: nếu đang đi nhanh, giữ ga và bóp nhả phanh tay nhiều lần (rà thắng) để tránh tắt máy đột ngột.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/faq-usage/",
+      "supports": "Cùng trang: phanh động cơ dùng liên tục từ 1 km trở lên làm bộ điều khiển nóng và ngắt để bảo vệ pin khi đổ đèo.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/faq-usage/",
+      "supports": "Cùng trang: Dat Bike khuyến cáo dùng phanh động cơ vì lý do an toàn; muốn vô hiệu hóa thì liên hệ bộ phận kỹ thuật.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn Quantum nêu khi dùng phanh tay thì động cơ tự ngắt để bảo đảm an toàn; phanh động cơ ở tay ga, nhả ga càng nhiều xe ghì càng mạnh.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn ERA nêu phanh động cơ chỉ hoạt động ở chế độ D và S và độ ghì tỉ lệ với góc nhả tay ga.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/cach-di-xe-may-dien-an-toan",
+      "supports": "VinFast dặn khi bóp phanh xe điện động cơ bị ngắt hoàn toàn và không rà phanh như xe xăng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/cac-thoi-quen-can-thay-doi-khi-dung-xe-may-dien-4703678.html",
+      "supports": "VnExpress 23/01/2024 nêu rà phanh để điều tiết tốc độ trên xe máy điện là bất khả thi, đặc biệt khi lên dốc.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/cac-thoi-quen-can-thay-doi-khi-dung-xe-may-dien-4703678.html",
+      "supports": "Cùng bài: khi phanh cần giảm hết ga, tránh giữ nguyên tay ga vì khi nhả phanh xe sẽ lao nhanh về phía trước.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://dat.bike/faq-usage/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/faq-usage/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/faq-usage/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/faq-usage/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/cach-di-xe-may-dien-an-toan",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/cac-thoi-quen-can-thay-doi-khi-dung-xe-may-dien-4703678.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/cac-thoi-quen-can-thay-doi-khi-dung-xe-may-dien-4703678.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2544,
+        "title": "Xe máy phát tiếng kêu lạ khi chạy: nguyên nhân và cách kiểm tra",
+        "why": "stale",
+        "content_hash": "e4d2a8c9ffb2a022afd07f0d6cf92ad77c06cdf6fcad04bb7bae33b34bab81ad",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2562,
+        "title": "Chi phí sử dụng xe máy một tháng gồm những khoản nào phổ biến?",
+        "why": "stale",
+        "content_hash": "0e027bc06fdc27cef9d43033bb86723109f122a63e8485c8dd6f92fa12334be6",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2578,
+        "title": "Có nên mua xe máy cũ để đi ngắn hạn? Những điểm cần cân nhắc",
+        "why": "stale",
+        "content_hash": "2edb32e1617a09723b835349742c0b85646c6fe086eb11610946f0b304bbc7ff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2615,
+        "title": "Phố cổ Hà Nội có gì chơi? 15 địa điểm, món ngon và lịch trình đi bộ",
+        "why": "stale",
+        "content_hash": "e9addb8498afd5d9d13bd70c14aa17da5a5746f6ac0ac5ba4247af9d1591d5ff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T15:21:53.230418+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "55761afbc9bc09cbbe8b7fe3de1c03479b2754290121f6ae82ed16e73cfa7d7d",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

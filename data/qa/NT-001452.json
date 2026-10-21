@@ -1,0 +1,176 @@
+{
+  "topic_id": "NT-001452",
+  "status": "PASS",
+  "source_sha256": "2e6fce1ddc6ba4e70a6ba6c34017064b4bfa68be7ac510754e35046e52fed9eb",
+  "body_sha256": "cf6a44ddb771225e3cedc21dae7b80b936f1947270aff2173ebc4aa550407633",
+  "word_count": 2590,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.trekbikes.com/us/en_US/new-to-e-bikes/",
+      "supports": "Trang hướng dẫn người mới của Trek (bản Mỹ, không ghi ngày): định nghĩa mô-men xoắn (Nm) và công suất (W), ngưỡng dưới 50 Nm và trên 65 Nm, Wh = Ah x V, động cơ giữa thân và moay-ơ khi đi dốc, tầm xa thực tế phụ thuộc nhiều yếu tố.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.bikeradar.com/advice/buyers-guides/electric-bike-motors",
+      "supports": "BikeRadar (26/6/2024): mô-men xoắn tối đa là chỉ số hiệu năng quan trọng hơn, dải 40 đến 85 Nm của động cơ Bosch, vị trí đặt động cơ, xe leo núi cần nhiều mô-men xoắn.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.aventon.com/en-ca/blogs/aventon_bikes/electric-bicycle-battery-range-explained",
+      "supports": "Blog Aventon (21/7/2022): đi dốc tốn năng lượng hơn, tải làm hao thêm, đặt số quá cao đốt thêm Wh, không có chuẩn công nghiệp tính tầm xa, Wh = V x Ah.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.trekbikes.com/us/en_US/new-to-e-bikes/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.bikeradar.com/advice/buyers-guides/electric-bike-motors",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.aventon.com/en-ca/blogs/aventon_bikes/electric-bicycle-battery-range-explained",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2352,
+        "title": "Xe máy điện có cần bằng lái không? Cách phân biệt theo công suất",
+        "why": "stale",
+        "content_hash": "8c5c200eacd4af62c6f482e36bad9112feb65d56c6bb4032d8dbae3c82a64876",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2408,
+        "title": "Xe máy điện Honda: các mẫu đang được người dùng quan tâm",
+        "why": "stale",
+        "content_hash": "ded30343606cc54b9fa64db90b6a7c2bc7b959cdd75d5c4e2c0e9f4663dfce0b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2618,
+        "title": "Văn Miếu Quốc Tử Giám: Giá vé, giờ mở cửa và kinh nghiệm tham quan",
+        "why": "stale",
+        "content_hash": "426391b4a1b312c4ae032e08a55ed06562622b9568773cc1c5c177e7f50417cc",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T15:23:13.505721+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "30d673c1c94d6725d7427434af6985c2e238568aeb4e600c1498fbdf630c9296",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

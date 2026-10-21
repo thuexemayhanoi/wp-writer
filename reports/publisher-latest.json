@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-21T15:17:19.519734+00:00",
-  "attempted": 8,
+  "at": "2026-10-21T15:23:30.439874+00:00",
+  "attempted": 3,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -189,11 +189,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T15:11:39.226868+00:00",
+      "at": "2026-10-21T15:21:27.543163+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "f1fddaf7d259b9855c1bff88003b2f1f1e1d54053180c1f87c3deb9cce0570d6",
+      "inventory_sha256": "55761afbc9bc09cbbe8b7fe3de1c03479b2754290121f6ae82ed16e73cfa7d7d",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -359,11 +359,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T15:11:47.914612+00:00",
+      "at": "2026-10-21T15:21:36.601475+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "f1fddaf7d259b9855c1bff88003b2f1f1e1d54053180c1f87c3deb9cce0570d6",
+      "inventory_sha256": "55761afbc9bc09cbbe8b7fe3de1c03479b2754290121f6ae82ed16e73cfa7d7d",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -547,11 +547,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T15:11:55.471137+00:00",
+      "at": "2026-10-21T15:21:44.338531+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "f1fddaf7d259b9855c1bff88003b2f1f1e1d54053180c1f87c3deb9cce0570d6",
+      "inventory_sha256": "55761afbc9bc09cbbe8b7fe3de1c03479b2754290121f6ae82ed16e73cfa7d7d",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -571,7 +571,15 @@
       }
     },
     {
-      "topic_id": "NT-001312",
+      "topic_id": "NT-001315",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 157,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001319",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 167,
       "category_resolution": "EXACT",
@@ -579,55 +587,7 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001313",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 167,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "battery-charging",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001314",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 167,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "battery-charging",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001317",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 160,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "electric-maintenance",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001318",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 160,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "electric-maintenance",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001421",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 164,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "rental-costs",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001422",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 164,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "rental-costs",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001451",
+      "topic_id": "NT-001452",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 166,
       "category_resolution": "EXACT",
