@@ -21059,7 +21059,7 @@
       }
     },
     "NT-001152": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:38:59.776110+00:00",
       "source_hash": "198fa7bf202e39a2879ea129a3c08f4a709e9ead2419e0fd140fe44c0f18bc54",
       "slug": "xich-xe-may-cang-qua-co-sao-khong-vi-sao-phai-chua-do-chung-va-cho-cang-cho-chung-do-dau",
@@ -21075,8 +21075,37 @@
       "category_warning": null,
       "git_commit": "61285248c7d8eca7c8250b277de2091dd2ca1bae",
       "run_id": "39544657734",
-      "updated_at": "2026-10-21T04:39:03.697203+00:00",
-      "wp_id": 4449
+      "updated_at": "2026-10-21T04:39:09.735963+00:00",
+      "wp_id": 4449,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xich-xe-may-cang-qua-co-sao-khong-vi-sao-phai-chua-do-chung-va-cho-cang-cho-chung-do-dau/",
+      "verified_at": "2026-10-21T04:39:09.735957+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4449,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xich-xe-may-cang-qua-co-sao-khong-vi-sao-phai-chua-do-chung-va-cho-cang-cho-chung-do-dau/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xich-xe-may-cang-qua-co-sao-khong-vi-sao-phai-chua-do-chung-va-cho-cang-cho-chung-do-dau/",
+        "seo_title": "Xích xe máy căng quá có sao không: vì sao phải chừa độ chùng",
+        "seo_description": "Xích xe máy căng quá có sao không: Yamaha dặn chừa độ chùng vì sên quá căng có thể đứt, chỗ căng chỗ chùng do nhông ô van hoặc mắt xích đội răng, 20–30 mm chỉ là ví dụ cũ.",
+        "checked_at": "2026-10-21T04:39:09.735936+00:00"
+      }
     }
   },
   "categories": {}
