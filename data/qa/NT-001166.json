@@ -1,0 +1,174 @@
+{
+  "topic_id": "NT-001166",
+  "status": "PASS",
+  "source_sha256": "6f6e0f5fc813ed3381b5ce74cad2cb4aaa5b1148f14849e2b61765d4888d9e0b",
+  "body_sha256": "63553021db24a0838f379673ce3832291727f32a76339f42016ee6053e1867f7",
+  "word_count": 2999,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://global.honda/en/motorcycle-aftersales/plusone/202605.html",
+      "supports": "Honda toàn cầu (Plus ONE, 25/05/2026, tiếng Anh): PGM-FI là hệ điều khiển điện tử dùng cảm biến và máy tính, điểm khác chính so với chế hòa khí là độ chính xác; mô tả cảm biến, ECM, vòi phun và ba ưu điểm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/danh-gia-muc-tiet-kiem-xang-cua-air-blade-fi-2151068.html",
+      "supports": "VnExpress (22/12/2009): phép thử 690 km bốn xe Air Blade, bản FI tiêu hao trung bình 1,74 lít/100 km, bản chế hòa khí 2,17 lít/100 km; bài ghi rõ năm và một mẫu xe.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_child=tu-van-su-dung-xe-may",
+      "supports": "Honda Việt Nam (hỏi đáp, cập nhật 21/09/2021): xe khó nổ lúc trời lạnh hoặc không dùng hơn 6 giờ thì đóng le gió, mở lại khi máy nổ đều.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/o-to-xe-may/xe-may-kho-khoi-dong-khi-troi-lanh-va-nhung-hieu-lam-tai-hai-20260123161801683.htm",
+      "supports": "Dân Trí (24/01/2026): khó khởi động lúc lạnh rõ ở xe máy cũ dùng chế hòa khí; không bấm đề liên tục, chờ 10 đến 20 giây, không giữ nút đề quá 3 giây.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://global.honda/en/motorcycle-aftersales/plusone/202605.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/danh-gia-muc-tiet-kiem-xang-cua-air-blade-fi-2151068.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_child=tu-van-su-dung-xe-may",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/o-to-xe-may/xe-may-kho-khoi-dong-khi-troi-lanh-va-nhung-hieu-lam-tai-hai-20260123161801683.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2544,
+        "title": "Xe máy phát tiếng kêu lạ khi chạy: nguyên nhân và cách kiểm tra",
+        "why": "stale",
+        "content_hash": "e4d2a8c9ffb2a022afd07f0d6cf92ad77c06cdf6fcad04bb7bae33b34bab81ad",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T09:13:54.885830+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "86ac22a9e722ce68913796a137731f22ffb644f88d0664ccdb7fbbfdd30d2a1d",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

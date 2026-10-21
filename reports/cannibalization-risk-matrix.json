@@ -21303,6 +21303,516 @@
       ],
       "at": "2026-10-21T05:52:43.717465+00:00",
       "topic_hash": "22ac25201985f4c56f2adf231eab98dab16a57fdf58f6ae9c6443d3881e39d7e"
+    },
+    "NT-090010": {
+      "status": "FAIL",
+      "errors": [
+        "intent collision:WP3958"
+      ],
+      "review": [
+        "near intent:NT-001193"
+      ],
+      "evidence_pages": {
+        "stale": [],
+        "unreviewed": []
+      },
+      "nearest": [
+        {
+          "id": 4365,
+          "title": "Xe máy điện kêu hoặc nóng khi sạc: khi nào hãng nói bình thường và khi nào dặn rút sạc",
+          "similarity": 0.533
+        },
+        {
+          "id": 3958,
+          "title": "Đi xe máy ban đêm: cách giữ tầm nhìn khi bị chói đèn pha xe ngược chiều",
+          "similarity": 0.533
+        },
+        {
+          "id": 2590,
+          "title": "Xe ga nào dễ lái cho người mới? Tiêu chí chọn xe an toàn hơn",
+          "similarity": 0.532
+        },
+        {
+          "id": 4349,
+          "title": "Đổi mẫu xe khi nhận: các tình huống thường gặp và cách trao đổi với cửa hàng",
+          "similarity": 0.529
+        },
+        {
+          "id": 4449,
+          "title": "Xích xe máy căng quá có sao không: vì sao phải chừa độ chùng và chỗ căng chỗ chùng do đâu",
+          "similarity": 0.523
+        }
+      ],
+      "at": "2026-10-21T06:59:14.066305+00:00",
+      "topic_hash": "87876c153dcae3ad4f42f0fad436a46cc2a5ed5bf7105da6458c51b367372b14",
+      "intent_matches": [
+        {
+          "id": "WP3958",
+          "severity": "FAIL",
+          "weighted_jaccard": 1.0
+        },
+        {
+          "id": "NT-001193",
+          "severity": "REVIEW",
+          "weighted_jaccard": 0.135
+        }
+      ]
+    },
+    "NT-090011": {
+      "status": "PASS",
+      "errors": [],
+      "review": [],
+      "evidence_pages": {
+        "stale": [],
+        "unreviewed": []
+      },
+      "nearest": [
+        {
+          "id": 2390,
+          "title": "Giá pin xe máy điện VinFast và những chi phí người dùng nên biết",
+          "similarity": 0.586
+        },
+        {
+          "id": 4345,
+          "title": "Thuê xe máy phường Cửa Nam: chọn Air Blade, tính gói ngày hay tuần?",
+          "similarity": 0.541
+        },
+        {
+          "id": 2510,
+          "title": "Khi nào nên thay lốp xe máy? Những dấu hiệu không nên bỏ qua",
+          "similarity": 0.531
+        },
+        {
+          "id": 2613,
+          "title": "Thuê Xe Máy Du Lịch Hà Nội: Hướng Dẫn Toàn Diện Từ A–Z Cho Người Lần Đầu",
+          "similarity": 0.514
+        },
+        {
+          "id": 2349,
+          "title": "Xe máy điện giá bao nhiêu? Các nhóm giá phổ biến hiện nay",
+          "similarity": 0.512
+        }
+      ],
+      "at": "2026-10-21T06:59:14.323991+00:00",
+      "topic_hash": "ddac1b9757a08df771d73e415320fec5fc5071e918ecd6fc09d8d94098dd8c1d"
+    },
+    "NT-090012": {
+      "status": "PASS",
+      "errors": [],
+      "review": [],
+      "evidence_pages": {
+        "stale": [],
+        "unreviewed": []
+      },
+      "nearest": [
+        {
+          "id": 4108,
+          "title": "Mất hộ chiếu ở Việt Nam: báo công an, xin biên bản và vì sao hành trình có thể chậm vài ngày",
+          "similarity": 0.537
+        },
+        {
+          "id": 4181,
+          "title": "Đi bộ và qua đường giữa dòng xe máy ở Việt Nam: vì sao các trang chính thức dặn nhìn mọi hướng",
+          "similarity": 0.515
+        },
+        {
+          "id": 4016,
+          "title": "Tràng An hay Tam Cốc: chọn chuyến thuyền nào khi chỉ có một ngày đi Ninh Bình từ Hà Nội",
+          "similarity": 0.5
+        },
+        {
+          "id": 2600,
+          "title": "Cách chọn xe máy phù hợp khi lịch trình chủ yếu di chuyển trong phố",
+          "similarity": 0.496
+        },
+        {
+          "id": 4112,
+          "title": "Nước uống, đá và đồ ăn đường phố ở Việt Nam: Canada, Úc, Ireland và cổng du lịch quốc gia khuyên gì và các trang khác nhau ở đâu",
+          "similarity": 0.495
+        }
+      ],
+      "at": "2026-10-21T06:59:14.602769+00:00",
+      "topic_hash": "936e0bf0d536c531a69bc509b3c9b34301b83d6cc4a35b7e83dd73489ed76da8"
+    },
+    "NT-001221": {
+      "status": "PASS",
+      "errors": [],
+      "review": [],
+      "evidence_pages": {
+        "stale": [],
+        "unreviewed": []
+      },
+      "nearest": [
+        {
+          "id": 4494,
+          "title": "Tái chế pin xe điện theo Nghị định 110/2026: pin lithium 0% đến 2029, ắc quy chì 12% và xe máy ra sao?",
+          "similarity": 0.498
+        },
+        {
+          "id": 4517,
+          "title": "Cầm ô khi đi xe máy: Điều 33 Luật 36/2024 cấm sử dụng ô, người lái bị phạt 800.000–1.000.000 đồng và trừ 4 điểm",
+          "similarity": 0.488
+        },
+        {
+          "id": 4481,
+          "title": "Hà Nội hỗ trợ đổi xe máy xăng sang xe điện: Nghị quyết 68/2026 và Kế hoạch 295 dành cho ai?",
+          "similarity": 0.446
+        },
+        {
+          "id": 4388,
+          "title": "IDP Công ước Viên 1968 tại Việt Nam: điều kiện hiệu lực theo Luật 36/2024 và phải mang kèm bằng gốc",
+          "similarity": 0.436
+        },
+        {
+          "id": 4383,
+          "title": "Quy tắc bật đèn khi đi xe máy: từ 18 giờ đến 6 giờ, khi mưa sương mù và bốn lúc phải chuyển sang đèn chiếu gần",
+          "similarity": 0.434
+        }
+      ],
+      "at": "2026-10-21T09:20:04.293842+00:00",
+      "topic_hash": "17adabd9094de27162a95621af2421795897c9c1033619be055ba37f2b94b119"
+    },
+    "NT-001222": {
+      "status": "PASS",
+      "errors": [],
+      "review": [],
+      "evidence_pages": {
+        "stale": [],
+        "unreviewed": []
+      },
+      "nearest": [
+        {
+          "id": 4223,
+          "title": "Bảo dưỡng xe đạp điện khác xe đạp thường thế nào: xích, má phanh, lốp và cổng sạc cần chú ý gì?",
+          "similarity": 0.482
+        },
+        {
+          "id": 2553,
+          "title": "Đăng ký biển số xe máy trực tuyến: hồ sơ và các bước cần chuẩn bị",
+          "similarity": 0.476
+        },
+        {
+          "id": 4482,
+          "title": "Kiểm định khí thải xe máy từ 1/7/2027: Hà Nội, TP.HCM áp mức 1 đến 4 theo năm sản xuất thế nào?",
+          "similarity": 0.469
+        },
+        {
+          "id": 4189,
+          "title": "Săn băng giá Mẫu Sơn bằng xe máy: nghỉ đêm ở Lạng Sơn, 15 km đèo hẹp, trơn và có nên đi không",
+          "similarity": 0.454
+        },
+        {
+          "id": 4082,
+          "title": "Săn mây Tà Xùa bằng xe máy: tháng nào có mây, đi quốc lộ 32 rồi 37 và lên dốc ra sao",
+          "similarity": 0.452
+        }
+      ],
+      "at": "2026-10-21T09:20:04.753945+00:00",
+      "topic_hash": "3994b7e1a8a1da46eab6fe720f00bdab7642c6dd65ab12d0ecd455c0de21a904"
+    },
+    "NT-001223": {
+      "status": "PASS",
+      "errors": [],
+      "review": [],
+      "evidence_pages": {
+        "stale": [],
+        "unreviewed": []
+      },
+      "nearest": [
+        {
+          "id": 4484,
+          "title": "Miễn lệ phí trước bạ xe máy đăng ký từ lần hai: điều kiện VNeID mức 2, hiệu lực 15/8/2026 đến 28/2/2027",
+          "similarity": 0.515
+        },
+        {
+          "id": 4336,
+          "title": "Ba quy chuẩn kỹ thuật mới cho xe máy điện: động cơ và ắc quy từ 9/10/2026, trụ sạc từ 1/7/2027",
+          "similarity": 0.508
+        },
+        {
+          "id": 2390,
+          "title": "Giá pin xe máy điện VinFast và những chi phí người dùng nên biết",
+          "similarity": 0.484
+        },
+        {
+          "id": 4496,
+          "title": "Hoán cải xe máy xăng sang động cơ điện: Thông tư 30/2026 yêu cầu công suất 90–120% và chứng nhận cải tạo",
+          "similarity": 0.462
+        },
+        {
+          "id": 4382,
+          "title": "Thi bằng lái xe máy hạng A1 và A theo Thông tư 108/2026/TT-BCA: thi lý thuyết trước, bảo lưu 1 năm, 40 câu từ 01/3/2027 và tình huống trên đường từ 01/01/2028",
+          "similarity": 0.46
+        }
+      ],
+      "at": "2026-10-21T09:20:05.175992+00:00",
+      "topic_hash": "7afb23e950c841f0e56c3319464ec0c990762c70a637f055166a67cf8876eb37"
+    },
+    "NT-001224": {
+      "status": "PASS",
+      "errors": [],
+      "review": [],
+      "evidence_pages": {
+        "stale": [],
+        "unreviewed": []
+      },
+      "nearest": [
+        {
+          "id": 4495,
+          "title": "Lệ phí cấp biển số xe máy từ 1/1/2026: khu vực I 700.000, 1,4 triệu hay 2,8 triệu đồng theo trị giá xe",
+          "similarity": 0.5
+        },
+        {
+          "id": 2393,
+          "title": "Thuê pin hay mua pin xe máy điện VinFast: phương án nào hợp lý?",
+          "similarity": 0.472
+        },
+        {
+          "id": 4416,
+          "title": "Xe máy đi vào đường cao tốc: cấm theo Điều 25 Luật 36/2024, phạt 4–6 triệu đồng, trừ 06 điểm và chỗ các nguồn chưa thống nhất về tước bằng",
+          "similarity": 0.468
+        },
+        {
+          "id": 4068,
+          "title": "Lịch trình Hà Giang bằng xe máy 4 ngày: nghỉ đêm ở Yên Minh, Đồng Văn và Bảo Lâm ra sao",
+          "similarity": 0.465
+        },
+        {
+          "id": 2532,
+          "title": "Bảo dưỡng xe máy Honda định kỳ gồm những hạng mục nào quan trọng?",
+          "similarity": 0.463
+        }
+      ],
+      "at": "2026-10-21T09:20:05.621091+00:00",
+      "topic_hash": "221b49c56339bb0f4196837a7aed80ba576041f4c9d2c65ab128f7c06c3e05bf"
+    },
+    "NT-001225": {
+      "status": "PASS",
+      "errors": [],
+      "review": [],
+      "evidence_pages": {
+        "stale": [],
+        "unreviewed": []
+      },
+      "nearest": [
+        {
+          "id": 4457,
+          "title": "Xe máy trên Vành đai 2 trên cao: cấm mô tô, xe gắn máy từ Vĩnh Tuy đến Ngã Tư Sở, phải đi đường dưới",
+          "similarity": 0.483
+        },
+        {
+          "id": 4335,
+          "title": "Sạc xe máy điện VinFast tại trụ sạc V-GREEN: mang bộ sạc, quét QR trên ứng dụng và chờ đèn đỏ báo sạc",
+          "similarity": 0.469
+        },
+        {
+          "id": 4021,
+          "title": "Đi xe máy khi giông lốc và gió giật: nên dừng ở đâu, tránh cây to, cầu cao và đi chậm ra sao",
+          "similarity": 0.452
+        },
+        {
+          "id": 4053,
+          "title": "Thuê xe máy Hà Nội đi công tác 3–5 ngày: chọn xe, dự trù chi phí và sắp lịch trả",
+          "similarity": 0.447
+        },
+        {
+          "id": 4201,
+          "title": "Vá lốp xe máy điện: động cơ trong bánh sau, lốp không săm và vành đúc ảnh hưởng thế nào?",
+          "similarity": 0.431
+        }
+      ],
+      "at": "2026-10-21T09:20:06.138288+00:00",
+      "topic_hash": "e33be7f422d147a10ddbe0ab52204d6e9e298d538f0788ff7ad4d7b1da9aae8d"
+    },
+    "NT-001226": {
+      "status": "PASS",
+      "errors": [],
+      "review": [],
+      "evidence_pages": {
+        "stale": [],
+        "unreviewed": []
+      },
+      "nearest": [
+        {
+          "id": 4483,
+          "title": "Chu kỳ kiểm định khí thải xe máy: 60, 24 hay 12 tháng theo Thông tư 30/2026 và khi nào khỏi mang xe",
+          "similarity": 0.505
+        },
+        {
+          "id": 4415,
+          "title": "Tốc độ tối đa của xe máy: 40 km/h với xe gắn máy, 50–70 km/h với xe mô tô theo Thông tư 38/2024",
+          "similarity": 0.495
+        },
+        {
+          "id": 4471,
+          "title": "Thuốc gây buồn ngủ khi lái xe máy: kháng histamin, thuốc tiêu chảy, thuốc chống nôn và cách đọc nhãn thuốc",
+          "similarity": 0.481
+        },
+        {
+          "id": 4185,
+          "title": "Chợ phiên Bắc Hà bằng xe máy từ Hà Nội: họp Chủ nhật, thêm Suôi Thầu và Cán Cấu thứ Bảy",
+          "similarity": 0.474
+        },
+        {
+          "id": 4374,
+          "title": "Hợp đồng thuê xe máy bỏ trống điều khoản: giá, thời hạn, hạn trả tiền, nơi trả xe theo Bộ luật Dân sự",
+          "similarity": 0.465
+        }
+      ],
+      "at": "2026-10-21T09:20:06.592910+00:00",
+      "topic_hash": "4b91d172572a5f6947aa29fbadfbea7b077ef50a72ee0c2bfbabacbf74919294"
+    },
+    "NT-001227": {
+      "status": "PASS",
+      "errors": [],
+      "review": [],
+      "evidence_pages": {
+        "stale": [],
+        "unreviewed": []
+      },
+      "nearest": [
+        {
+          "id": 4496,
+          "title": "Hoán cải xe máy xăng sang động cơ điện: Thông tư 30/2026 yêu cầu công suất 90–120% và chứng nhận cải tạo",
+          "similarity": 0.524
+        },
+        {
+          "id": 891,
+          "title": "Hợp Đồng Thuê Xe Máy Hà Nội Có Cần Đặt Cọc Không? Tư Vấn Nhanh",
+          "similarity": 0.485
+        },
+        {
+          "id": 4351,
+          "title": "Xe 50cc cho người thấp: khi nào phù hợp cho chuyến ngắn trong thành phố",
+          "similarity": 0.483
+        },
+        {
+          "id": 4483,
+          "title": "Chu kỳ kiểm định khí thải xe máy: 60, 24 hay 12 tháng theo Thông tư 30/2026 và khi nào khỏi mang xe",
+          "similarity": 0.478
+        },
+        {
+          "id": 4135,
+          "title": "Công an xã xử phạt xe máy: phạm vi đường xã, đường thôn, các lỗi được xử lý và thẩm quyền phạt",
+          "similarity": 0.472
+        }
+      ],
+      "at": "2026-10-21T09:20:07.095010+00:00",
+      "topic_hash": "459ab4bee9ed5c1608d52e66d382aa824d3d4b1accda9cf454a4d3aed2ec6059"
+    },
+    "NT-001228": {
+      "status": "PASS",
+      "errors": [],
+      "review": [],
+      "evidence_pages": {
+        "stale": [],
+        "unreviewed": []
+      },
+      "nearest": [
+        {
+          "id": 4496,
+          "title": "Hoán cải xe máy xăng sang động cơ điện: Thông tư 30/2026 yêu cầu công suất 90–120% và chứng nhận cải tạo",
+          "similarity": 0.546
+        },
+        {
+          "id": 4382,
+          "title": "Thi bằng lái xe máy hạng A1 và A theo Thông tư 108/2026/TT-BCA: thi lý thuyết trước, bảo lưu 1 năm, 40 câu từ 01/3/2027 và tình huống trên đường từ 01/01/2028",
+          "similarity": 0.496
+        },
+        {
+          "id": 2553,
+          "title": "Đăng ký biển số xe máy trực tuyến: hồ sơ và các bước cần chuẩn bị",
+          "similarity": 0.479
+        },
+        {
+          "id": 4176,
+          "title": "Chạy xe máy sau khi trời tối ở Việt Nam: vì sao các trang chính thức dặn nên tránh đường vắng",
+          "similarity": 0.451
+        },
+        {
+          "id": 4458,
+          "title": "Vành đai 1 Hoàng Cầu – Voi Phục từ 9/10/2026: phố La Thành một chiều và các đoạn đi hai chiều",
+          "similarity": 0.446
+        }
+      ],
+      "at": "2026-10-21T09:20:07.585819+00:00",
+      "topic_hash": "03847573c04c772068c1e8b26ebf0bf1915dec315811359ac885c7ab3be107c5"
+    },
+    "NT-001229": {
+      "status": "PASS",
+      "errors": [],
+      "review": [],
+      "evidence_pages": {
+        "stale": [],
+        "unreviewed": []
+      },
+      "nearest": [
+        {
+          "id": 4491,
+          "title": "Miễn lệ phí đổi biển số xe và giấy phép lái xe cho công dân số: điều kiện theo Nghị quyết 66.22/2026",
+          "similarity": 0.453
+        },
+        {
+          "id": 4363,
+          "title": "Điện áp 48V, 60V và 72V của xe máy điện: vì sao mỗi hãng ghi một số vôn khác nhau?",
+          "similarity": 0.437
+        },
+        {
+          "id": 2493,
+          "title": "Bao lâu nên thay dầu xe máy? Cách nhận biết thời điểm phù hợp",
+          "similarity": 0.427
+        },
+        {
+          "id": 4338,
+          "title": "Phanh đĩa và phanh tang trống trên xe máy điện: mẫu nào dùng loại nào, kiểm tra ra sao?",
+          "similarity": 0.426
+        },
+        {
+          "id": 2498,
+          "title": "Khi nào cần tăng xích xe máy? Dấu hiệu dễ nhận biết khi sử dụng",
+          "similarity": 0.422
+        }
+      ],
+      "at": "2026-10-21T09:20:08.019150+00:00",
+      "topic_hash": "f89cfe5b97218757b893d0509a0e9c76a79ad562702e346c3b081aab1a607212"
+    },
+    "NT-001230": {
+      "status": "PASS",
+      "errors": [],
+      "review": [],
+      "evidence_pages": {
+        "stale": [],
+        "unreviewed": []
+      },
+      "nearest": [
+        {
+          "id": 4370,
+          "title": "Ổ cắm để sạc xe máy điện tại nhà: Dat Bike dặn ổ chịu 20 A hoặc 3.000 W, EVN và PCCC dặn gì thêm?",
+          "similarity": 0.455
+        },
+        {
+          "id": 4365,
+          "title": "Xe máy điện kêu hoặc nóng khi sạc: khi nào hãng nói bình thường và khi nào dặn rút sạc",
+          "similarity": 0.446
+        },
+        {
+          "id": 4324,
+          "title": "Tủ đổi pin xe máy điện V-GREEN: tủ 6 và 12 khoang, 1.000 W mỗi khoang và điều kiện pin được nhận",
+          "similarity": 0.446
+        },
+        {
+          "id": 4168,
+          "title": "Đền Đồng Cổ ở Tây Hồ: Hội thề Trung hiếu mùng 4 tháng Tư âm lịch, thờ thần Trống Đồng và việc ghi danh",
+          "similarity": 0.442
+        },
+        {
+          "id": 4145,
+          "title": "Pin xe điện khi trời nóng và trời lạnh: quãng đường và tuổi thọ pin thay đổi ra sao?",
+          "similarity": 0.442
+        }
+      ],
+      "at": "2026-10-21T09:20:08.490248+00:00",
+      "topic_hash": "4954660092cc2e84aa9319c1b59fb0e7da61ff767a43f56710868dd36e7b1c39"
     }
   },
   "note": "Heuristic flags require full-content intent review. No legacy edits."

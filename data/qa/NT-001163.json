@@ -1,0 +1,207 @@
+{
+  "topic_id": "NT-001163",
+  "status": "PASS",
+  "source_sha256": "8fc6feaaba19a523ac5325103dba422d193f98d1b9e76b1390c7b2e5beebeb0d",
+  "body_sha256": "5f060974404185312cb8b33a5b36b02bb17ec8665abd498358b89a9282409015",
+  "word_count": 2240,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/dau-nhot-dong-co-4t-la-gi-cach-chon-dau-nhot-phu-hop-xe-may/",
+      "supports": "Yamaha Việt Nam (đăng 25/05/2026): nhớt khoáng tinh chế trực tiếp từ dầu thô, ít phụ gia cao cấp, giá thấp, hợp xe số phổ thông chạy ngắn hoặc tải nhẹ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/dau-nhot-dong-co-4t-la-gi-cach-chon-dau-nhot-phu-hop-xe-may/",
+      "supports": "Yamaha Việt Nam: nhớt bán tổng hợp là sự kết hợp dầu khoáng tinh lọc với một phần dầu tổng hợp, cải thiện bôi trơn, tăng độ bền nhiệt, hạn chế bay hơi.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/dau-nhot-dong-co-4t-la-gi-cach-chon-dau-nhot-phu-hop-xe-may/",
+      "supports": "Yamaha Việt Nam: chọn đúng loại theo khuyến cáo của nhà sản xuất xe và không pha trộn các loại nhớt khác nhau.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/lua-chon-dau-dong-co-phu-hop-xe-may-4009246.html",
+      "supports": "VnExpress (11/11/2019, nội dung được tài trợ): nhớt khoáng rẻ nhất, thời gian thay trung bình khoảng 2.000 km; bán tổng hợp 3.000 km; tổng hợp 5.000 km.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/lua-chon-dau-dong-co-phu-hop-xe-may-4009246.html",
+      "supports": "VnExpress: dầu cao cấp vẫn phải thay đúng kỳ, theo khuyến nghị của nhà sản xuất xe.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_child=tu-van-su-dung-xe-may",
+      "supports": "Honda Việt Nam (trang hỏi đáp, cập nhật 21/09/2021): điều kiện bình thường, 1.000 km đầu bắt buộc thay dầu, sau đó mỗi 6.000 km nên thay một lần.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=thong-tin-ve-cong-ty&category_tab=dau-nhot&category_child=phu-tung",
+      "supports": "Honda Việt Nam (trang hỏi đáp, cập nhật 21/09/2021): ba loại dầu chai gồm xe số MA SL 10W-30, xe ga MB SL 10W-30 và dầu tổng hợp cao cấp cho xe côn tay, xe phân khối lớn.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/dau-nhot-dong-co-4t-la-gi-cach-chon-dau-nhot-phu-hop-xe-may/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/dau-nhot-dong-co-4t-la-gi-cach-chon-dau-nhot-phu-hop-xe-may/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/dau-nhot-dong-co-4t-la-gi-cach-chon-dau-nhot-phu-hop-xe-may/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/lua-chon-dau-dong-co-phu-hop-xe-may-4009246.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/lua-chon-dau-dong-co-phu-hop-xe-may-4009246.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_child=tu-van-su-dung-xe-may",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=thong-tin-ve-cong-ty&category_tab=dau-nhot&category_child=phu-tung",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-21T09:20:26.121736+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "18b198cb5c6b3e0f1a8e69e213a005572994402a08955a5f168a96467f5cbd70",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

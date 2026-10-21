@@ -1,0 +1,194 @@
+{
+  "topic_id": "NT-001168",
+  "status": "PASS",
+  "source_sha256": "6abff6da249181fe113b42c5732e53ee2acee2cd95b6336232198533120beda6",
+  "body_sha256": "e8707ebb8e31d55e8e15861b9d98f1c16ed683fa185b5ed730bdd4d2d5af4644",
+  "word_count": 2679,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/xang-e10-co-bi-tach-nuoc-khi-de-lau-5079120.html",
+      "supports": "VnExpress (28/05/2026): nhiều nghiên cứu cho rằng E10 tách nước sau khoảng 3 tháng; Petrolimex thử kín trong phòng thí nghiệm ba tháng không thấy tách; EPA dưới 0,5% nước; chưa có nghiên cứu dài hơn hoặc để hở.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/o-to-xe-may-do-xang-e10-nhung-it-su-dung-can-bao-quan-the-nao-185260524095837006.htm",
+      "supports": "Thanh Niên (25/05/2026): không nên để E10 trong bình quá 1 đến 2 tháng; xe để 3 đến 4 tuần hoặc hơn 1 tháng nên cân nhắc hút bỏ nhiên liệu cũ; khởi động 10 đến 15 phút mỗi tuần.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/khoa-hoc/nguoi-dung-ban-khoan-xang-e10-tach-lop-chuyen-gia-hoa-hoc-noi-gi-20260523074625417.htm",
+      "supports": "Dân Trí (23/05/2026): TS Vũ Thị Tần nói không thể đưa ra một mốc thời gian cố định, nguy cơ tăng khi bình không kín, bình vơi, nơi nóng ẩm hoặc đổi nhiệt độ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vnexpress.net/xang-e10-co-bi-tach-nuoc-khi-de-lau-5079120.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/o-to-xe-may-do-xang-e10-nhung-it-su-dung-can-bao-quan-the-nao-185260524095837006.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/khoa-hoc/nguoi-dung-ban-khoan-xang-e10-tach-lop-chuyen-gia-hoa-hoc-noi-gi-20260523074625417.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 891,
+        "title": "Hợp Đồng Thuê Xe Máy Hà Nội Có Cần Đặt Cọc Không? Tư Vấn Nhanh",
+        "why": "stale",
+        "content_hash": "dfef1f80adfed1e1d9366a3b620ef84119b9cf4fc4ea34f66fe16eb22f52bcca",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 901,
+        "title": "Chi Phí Thuê Xe Máy 50cc Tại Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "5e97bdd95f6f5fa533852376cbc2ee39c307a1530a0eac4b2153714d977f03ae",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2417,
+        "title": "Xe máy điện Yadea có tốt không? Ưu nhược điểm người dùng cần biết",
+        "why": "stale",
+        "content_hash": "0164531f890f08be8f0da4a90ffbe1bc5d7ce5908bd8637d53cc98b9fed34354",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2521,
+        "title": "Cách kiểm tra lốp xe máy để phát hiện mòn, nứt và áp suất bất thường",
+        "why": "stale",
+        "content_hash": "08080c3d371127024550acb47d9ddf7feb4cdba807bbb1f3996c8e47b110a33d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2613,
+        "title": "Thuê Xe Máy Du Lịch Hà Nội: Hướng Dẫn Toàn Diện Từ A–Z Cho Người Lần Đầu",
+        "why": "stale",
+        "content_hash": "bba381bbf7c63d362331437ee0e9ba63294ca01b4eb144c43fe71ca1f20731a0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T09:21:40.936007+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "49527b19b57eed3eb1341fd46e6f66e4961c0d34ffaf0b98b2598ad6b7793a04",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

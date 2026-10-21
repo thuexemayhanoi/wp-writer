@@ -1,22 +1,22 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 3,
+  "ready_stock": 13,
   "trigger_below_ready": 900,
   "rounds_opened": 4,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 606,
-  "capacity_remaining": 1394,
+  "topic_rows": 616,
+  "capacity_remaining": 1384,
   "order": {
     "id": "RF-0004",
     "round": 4,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 15,
-    "remaining_to_min": 85,
-    "remaining_to_max": 185,
-    "batches_still_needed": 9,
+    "accepted_so_far": 25,
+    "remaining_to_min": 75,
+    "remaining_to_max": 175,
+    "batches_still_needed": 8,
     "batch_size": 10,
     "capacity_limited": false,
     "stalled": false,
@@ -24,7 +24,7 @@
     "category_quotas": [
       {
         "taxonomy_key": "urban-mobility",
-        "quota": 14,
+        "quota": 15,
         "known_now": 41,
         "allocation": 92
       },
@@ -48,7 +48,7 @@
       },
       {
         "taxonomy_key": "trip-planning",
-        "quota": 7,
+        "quota": 8,
         "known_now": 64,
         "allocation": 91
       },
@@ -57,12 +57,6 @@
         "quota": 5,
         "known_now": 9,
         "allocation": 27
-      },
-      {
-        "taxonomy_key": "driving-licence",
-        "quota": 5,
-        "known_now": 13,
-        "allocation": 32
       },
       {
         "taxonomy_key": "electric",
@@ -89,16 +83,16 @@
         "allocation": 23
       },
       {
-        "taxonomy_key": "ebikes",
+        "taxonomy_key": "driving-licence",
         "quota": 4,
         "known_now": 17,
         "allocation": 32
       },
       {
-        "taxonomy_key": "legal",
+        "taxonomy_key": "ebikes",
         "quota": 4,
-        "known_now": 35,
-        "allocation": 50
+        "known_now": 17,
+        "allocation": 32
       },
       {
         "taxonomy_key": "rental-costs",
@@ -119,6 +113,12 @@
         "allocation": 55
       },
       {
+        "taxonomy_key": "legal",
+        "quota": 3,
+        "known_now": 41,
+        "allocation": 50
+      },
+      {
         "taxonomy_key": "food-culture",
         "quota": 1,
         "known_now": 27,
@@ -132,23 +132,22 @@
       }
     ],
     "next_batch_categories": {
+      "urban-mobility": 2,
       "battery-charging": 1,
       "destinations": 1,
       "electric": 1,
       "electric-maintenance": 1,
       "electric-transition": 1,
       "green-travel": 1,
-      "rental-50cc": 1,
       "rental-guide": 1,
-      "trip-planning": 1,
-      "urban-mobility": 1
+      "trip-planning": 1
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 672,
-    "topics_in_factory": 606,
+    "published_wordpress_items": 679,
+    "topics_in_factory": 616,
     "topics_by_status": {
-      "PLANNED": 529,
+      "PLANNED": 539,
       "REJECTED": 2,
       "RESEARCH": 75
     },

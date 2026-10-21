@@ -1,0 +1,210 @@
+{
+  "topic_id": "NT-001167",
+  "status": "PASS",
+  "source_sha256": "0be4d8914efbcc2a856c6e92182ed36f2e2746f5da61264ad7b7c3a127a43d0f",
+  "body_sha256": "f50687eb765040eebf267ccdbf6ef282281212de5027e799dde6b2773123dda2",
+  "word_count": 2542,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vietnamnet.vn/su-dung-dau-nhot-cua-o-to-cho-xe-may-co-hai-gi-khong-2124699.html",
+      "supports": "VietNamNet (25/03/2023): kỹ sư ô tô nói nhớt ô tô nhiều phụ gia tẩy rửa, tro sunfat cao, ly hợp xe số dễ trượt; cạn nhớt thì dùng tạm trong thời gian ngắn còn đỡ hại hơn thiếu nhớt, rồi thay nhớt xe máy.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/dau-nhot-dong-co-4t-la-gi-cach-chon-dau-nhot-phu-hop-xe-may/",
+      "supports": "Yamaha Việt Nam (25/05/2026): tránh dùng nhớt ô tô cho xe máy do ly hợp ướt; xe số dùng JASO MA hoặc MA2, xe ga dùng JASO MB; không pha trộn nhớt.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.motul.com/vi-VN/news/bat-mi-thong-so-nhot-xe-may-tu-motul-viet-nam",
+      "supports": "Motul Việt Nam: JASO MA cho xe số ly hợp ướt không trượt côn, JASO MB cho xe tay ga.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/dich-vu-sau-ban-hang/chinh-sach-bao-hanh-xe",
+      "supports": "Honda Việt Nam, chính sách bảo hành xe từ 350cc trở xuống (áp dụng từ 15/8/2025): hư hỏng liên quan đến dầu nhờn có thông số khác sách hướng dẫn không thuộc phạm vi sửa chữa bảo hành.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vietnamnet.vn/su-dung-dau-nhot-cua-o-to-cho-xe-may-co-hai-gi-khong-2124699.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/dau-nhot-dong-co-4t-la-gi-cach-chon-dau-nhot-phu-hop-xe-may/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.motul.com/vi-VN/news/bat-mi-thong-so-nhot-xe-may-tu-motul-viet-nam",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/dich-vu-sau-ban-hang/chinh-sach-bao-hanh-xe",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 891,
+        "title": "Hợp Đồng Thuê Xe Máy Hà Nội Có Cần Đặt Cọc Không? Tư Vấn Nhanh",
+        "why": "stale",
+        "content_hash": "dfef1f80adfed1e1d9366a3b620ef84119b9cf4fc4ea34f66fe16eb22f52bcca",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2362,
+        "title": "Trạm Sạc Xe Máy Điện Hoạt Động Ra Sao Và Cần Lưu Ý Gì Khi Sử Dụng?",
+        "why": "stale",
+        "content_hash": "a17c9cf060eb4fcc003a8361442a9640e3697f1a42863cfbcf483016e0e39b82",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2521,
+        "title": "Cách kiểm tra lốp xe máy để phát hiện mòn, nứt và áp suất bất thường",
+        "why": "stale",
+        "content_hash": "08080c3d371127024550acb47d9ddf7feb4cdba807bbb1f3996c8e47b110a33d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2572,
+        "title": "Bảo hiểm xe máy bắt buộc gồm những gì? Điều cần lưu ý khi mua",
+        "why": "stale",
+        "content_hash": "ce6003628f4d0d89bace38e8875f0d4d93d5b57145b42e9b61fb223237982e8f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4049,
+        "title": "Thuê xe máy điện ở chung cư Hà Nội không có chỗ sạc riêng: cần kiểm tra gì trước khi đặt?",
+        "why": "stale",
+        "content_hash": "60ea270b75576e53780d251f2026ebec6088930775beded46df2ce5bc3601d66",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T09:14:41.658323+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "fc3185f894d8b9981c100c62b27abcf47140bcded16e6c0841ae83f035cd5f34",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
