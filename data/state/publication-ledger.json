@@ -21351,6 +21351,25 @@
         "seo_description": "Đón người thân ở sân bay Nội Bài bằng ô tô cá nhân: T1 chờ bãi P1 rồi vào làn 3, T2 chờ bãi P3 rồi vào làn 1, giới hạn dừng 5 phút và 3 phút, chỗ nguồn chưa khớp.",
         "checked_at": "2026-10-21T04:46:36.641855+00:00"
       }
+    },
+    "NT-001123": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T04:46:47.632512+00:00",
+      "source_hash": "4b66e78e797c642e45a0417e22568cdab317b70f1b1ed16aaeba9575f51f8a35",
+      "slug": "co-moi-o-san-bay-noi-bai-dau-hieu-cheo-keo-cach-bat-taxi-dung-lan-va-dat-xe-cong-nghe-dung-bai",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 175,
+      "visible_hash": "080b293047f90d78ccc454e643878043073d5c6f1a6fb5abd1d3134487c54aa2",
+      "first_paragraph": "Cò mồi ở sân bay Nội Bài có thể tiếp cận hành khách vừa ra khỏi nhà ga để mời bắt xe hộ, báo một mức giá trọn gói rồi giao khách cho một xe khác, như một vụ xảy ra ngày 11/8/2026 được cảng nêu. Cách tránh theo các khuyến cáo trong bài báo dẫn thông tin của cảng là không đi theo người chèo kéo ở khu vực ngoài sảnh, bắt taxi truyền thống ở làn ngay trước sảnh và chọn xe được cảng cấp phép, còn với xe công nghệ thì tự đặt trên ứng dụng, kiểm tra thông tin tài xế, biển số, giá cước rồi đi tới đúng bãi đón (sân đỗ P2 ở T1, P1 ở T2, cách sảnh khoảng 300–400 m theo cảng ngày 12/8/2026). Khi gặp chèo kéo, ép giá hoặc nghi ngờ cò mồi, hãy báo ngay cho lực lượng an ninh hàng không hoặc Công an cửa khẩu của cảng.",
+      "meta_title": "Cò mồi ở sân bay Nội Bài: dấu hiệu chèo kéo và cách bắt xe đúng chỗ",
+      "meta_description": "Cò mồi ở sân bay Nội Bài: ví dụ ngày 11/8/2026, dấu hiệu chèo kéo, bắt taxi đúng làn ở T1 và T2, đặt xe công nghệ đúng bãi và cách báo an ninh hàng không.",
+      "intended_taxonomy_key": "trip-planning",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "855e0553874a93715a6dd956f505147b623fc191",
+      "run_id": "39545575800",
+      "updated_at": "2026-10-21T04:46:47.634043+00:00"
     }
   },
   "categories": {}
