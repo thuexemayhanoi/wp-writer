@@ -26155,7 +26155,7 @@
       }
     },
     "NT-001210": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T10:19:40.825757+00:00",
       "source_hash": "af094a37149b8bdfdeb28244455a102b5e890feb04fdf87d60091ad27f25b0cf",
       "slug": "bui-hoac-con-trung-bay-vao-mat-khi-dang-chay-xe-may-khong-dui-mat-tap-xe-vao-le-roi-rua-nuoc-sach-va-dau-hieu-can-di-kham",
@@ -26171,8 +26171,37 @@
       "category_warning": null,
       "git_commit": "8461e3f2c1082bbd880fe9fc3924eaf05797fd77",
       "run_id": "39583216835",
-      "updated_at": "2026-10-21T10:19:45.008751+00:00",
-      "wp_id": 4574
+      "updated_at": "2026-10-21T10:19:51.281797+00:00",
+      "wp_id": 4574,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bui-hoac-con-trung-bay-vao-mat-khi-dang-chay-xe-may-khong-dui-mat-tap-xe-vao-le-roi-rua-nuoc-sach-va-dau-hieu-can-di-kham/",
+      "verified_at": "2026-10-21T10:19:51.281791+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4574,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bui-hoac-con-trung-bay-vao-mat-khi-dang-chay-xe-may-khong-dui-mat-tap-xe-vao-le-roi-rua-nuoc-sach-va-dau-hieu-can-di-kham/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bui-hoac-con-trung-bay-vao-mat-khi-dang-chay-xe-may-khong-dui-mat-tap-xe-vao-le-roi-rua-nuoc-sach-va-dau-hieu-can-di-kham/",
+        "seo_title": "Bụi hoặc côn trùng bay vào mắt khi chạy xe máy: làm gì ngay",
+        "seo_description": "Bụi hoặc côn trùng bay vào mắt khi chạy xe máy: tấp xe an toàn, không dụi mắt, rửa nước sạch và dấu hiệu cần đi khám theo Vinmec, NHS, Mayo Clinic và NZTA.",
+        "checked_at": "2026-10-21T10:19:51.281775+00:00"
+      }
     }
   },
   "categories": {}
