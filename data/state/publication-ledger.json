@@ -28801,7 +28801,7 @@
       }
     },
     "NT-001394": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T15:02:47.878695+00:00",
       "source_hash": "c668b3a1bc0be933bc1ef94ec521b29666f9cc1dc9e5235efe535b41c2d982d3",
       "slug": "ung-dung-vinbus-ngung-o-ha-noi-ngay-30-10-2026-tra-tuyen-va-vi-tri-xe-buyt-bang-green-sm",
@@ -28817,8 +28817,37 @@
       "category_warning": null,
       "git_commit": "018dfb7385f0f5a57cff206cc8daa1c2fbd7645c",
       "run_id": "39621413630",
-      "updated_at": "2026-10-21T15:02:52.635629+00:00",
-      "wp_id": 4653
+      "updated_at": "2026-10-21T15:02:59.373396+00:00",
+      "wp_id": 4653,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ung-dung-vinbus-ngung-o-ha-noi-ngay-30-10-2026-tra-tuyen-va-vi-tri-xe-buyt-bang-green-sm/",
+      "verified_at": "2026-10-21T15:02:59.373388+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4653,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ung-dung-vinbus-ngung-o-ha-noi-ngay-30-10-2026-tra-tuyen-va-vi-tri-xe-buyt-bang-green-sm/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ung-dung-vinbus-ngung-o-ha-noi-ngay-30-10-2026-tra-tuyen-va-vi-tri-xe-buyt-bang-green-sm/",
+        "seo_title": "Ứng dụng VinBus ngừng ở Hà Nội ngày 30/10/2026: chuyển sang Green SM",
+        "seo_description": "Ứng dụng VinBus ngừng ở Hà Nội ngày 30/10/2026: lịch ngừng, cách tra tuyến, trạm dừng và vị trí xe buýt bằng Green SM, hai mốc thông báo lệch nhau và việc nên làm trước ngày đó.",
+        "checked_at": "2026-10-21T15:02:59.373369+00:00"
+      }
     }
   },
   "categories": {}
