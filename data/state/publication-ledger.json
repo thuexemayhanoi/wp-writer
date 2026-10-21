@@ -28262,7 +28262,7 @@
       }
     },
     "NT-001259": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:52:16.511449+00:00",
       "source_hash": "7b88b5121f15ae987b0eaa6ed2f0c4137884c94acbd9c267843d766fbbe14612",
       "slug": "sa-pa-co-tuyet-khong-tuyet-o-thi-tran-ghi-2014-va-2016-con-2015-1-2025-va-12-2025-chi-tren-nui-cao",
@@ -28278,8 +28278,37 @@
       "category_warning": null,
       "git_commit": "98d66420ecdf9ed940584762b90f7fcdd5d15993",
       "run_id": "39619876214",
-      "updated_at": "2026-10-21T14:52:20.491321+00:00",
-      "wp_id": 4639
+      "updated_at": "2026-10-21T14:52:27.146749+00:00",
+      "wp_id": 4639,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/sa-pa-co-tuyet-khong-tuyet-o-thi-tran-ghi-2014-va-2016-con-2015-1-2025-va-12-2025-chi-tren-nui-cao/",
+      "verified_at": "2026-10-21T14:52:27.146743+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4639,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/sa-pa-co-tuyet-khong-tuyet-o-thi-tran-ghi-2014-va-2016-con-2015-1-2025-va-12-2025-chi-tren-nui-cao/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/sa-pa-co-tuyet-khong-tuyet-o-thi-tran-ghi-2014-va-2016-con-2015-1-2025-va-12-2025-chi-tren-nui-cao/",
+        "seo_title": "Sa Pa có tuyết không: tuyết ở thị trấn ghi năm 2014 và 2016",
+        "seo_description": "Sa Pa có tuyết không: báo ghi tuyết ở thị trấn ngày 19/2/2014 và 24/1/2016, còn 1/2015, 1/2025 và 12/2025 chỉ trên núi cao; kèm nhiệt độ, nơi tuyết rơi và lời dặn đi đường trơn.",
+        "checked_at": "2026-10-21T14:52:27.146725+00:00"
+      }
     }
   },
   "categories": {}
