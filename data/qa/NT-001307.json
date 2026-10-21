@@ -1,0 +1,206 @@
+{
+  "topic_id": "NT-001307",
+  "status": "PASS",
+  "source_sha256": "ffa75debb4187292ba65de0a2b8502dc45f5f941b7fd9fc5a2be47d56aaae1d8",
+  "body_sha256": "0008d94e38725291b78fbab4308fb67d4bf59cc906de8c3a3b64c1a9e5a559c1",
+  "word_count": 2794,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-dien-co-rua-duoc-khong-cach-rua-xe-may-dien-vinfast-an-toan-tai-nha",
+      "supports": "Bài hướng dẫn của VinFast (29/07/2023) nói xe điện có thể rửa được, nên chờ xe nguội, không phun nước trực tiếp vào đồng hồ, động cơ, phanh, cốp, ổ cắm sạc, đầu nối sạc.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/xe-may-dien-la-gi/",
+      "supports": "Trang hỏi đáp của Yadea Việt Nam dặn không dùng vòi xịt áp lực cao xịt thẳng vào đồng hồ, công tắc tay lái, ổ khóa và khu vực chứa pin dưới yên; lau bằng khăn ẩm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Sổ Dat Bike Quantum mục rửa xe: chờ động cơ, ECU, phanh, pin nguội, dùng vòi áp suất thấp, không dùng vòi áp lực cao, không phun vào dưới cốp, đèn pha, cụm tay lái, màn hình; làm khô phanh sau khi rửa.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pega.com.vn/bao-hanh.html",
+      "supports": "Trang bảo hành Pega nêu rửa xe không đúng cách làm nước lọt vào động cơ, ECU, cụm đồng hồ do áp suất nước từ máy rửa xe rất cao là trường hợp không thuộc bảo hành.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.bosch-ebike.com/us/service/battery-safety",
+      "supports": "Bosch eBike Systems (trang an toàn pin) nêu không làm sạch pin bằng tia nước trực tiếp và không bao giờ dùng máy rửa áp lực cao, dùng khăn ẩm lau bề mặt pin.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/ho-tro-bao-hanh/",
+      "supports": "Trang hỗ trợ của Yadea Việt Nam dặn giắc cắm sạc phải khô ráo và không có vật lạ làm cản trở khi sạc.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-dien-co-rua-duoc-khong-cach-rua-xe-may-dien-vinfast-an-toan-tai-nha",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/xe-may-dien-la-gi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pega.com.vn/bao-hanh.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.bosch-ebike.com/us/service/battery-safety",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/ho-tro-bao-hanh/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2408,
+        "title": "Xe máy điện Honda: các mẫu đang được người dùng quan tâm",
+        "why": "stale",
+        "content_hash": "ded30343606cc54b9fa64db90b6a7c2bc7b959cdd75d5c4e2c0e9f4663dfce0b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T14:07:27.735092+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "2cd28c50432ee2958b58cd079a0986985551ad8990e9bcc570990f8a25df67c2",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

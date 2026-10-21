@@ -1,29 +1,17 @@
 {
-  "at": "2026-10-21T11:51:53.927676+00:00",
+  "at": "2026-10-21T14:09:07.910054+00:00",
   "counts": {
-    "WRITING": 20,
+    "WRITING": 16,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 560
+    "VERIFIED": 564
   },
   "ready_backlog": 0,
-  "in_flight": 23,
+  "in_flight": 19,
   "items": [
-    {
-      "topic_id": "NT-001302",
-      "state": "WRITING",
-      "reason": "leased to seodev-w59",
-      "title": "Bảo hành pin xe Yadea: 24 tháng, 36 tháng hay 3 năm và vì sao các trang của hãng ghi khác nhau",
-      "slot": "W4",
-      "session": "seodev-w59",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-001303",
       "state": "WRITING",
@@ -53,18 +41,6 @@
       "state": "WRITING",
       "reason": "leased to seodev-w59",
       "title": "Cắm nhầm bộ sạc của xe khác: sai điện áp làm phồng pin và mất bảo hành theo Pega, Yadea, PCCC",
-      "slot": "W4",
-      "session": "seodev-w59",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001307",
-      "state": "WRITING",
-      "reason": "leased to seodev-w59",
-      "title": "Xe điện có rửa được không: chờ nguội, tránh vòi áp lực, đóng cổng sạc theo VinFast, Dat Bike",
       "slot": "W4",
       "session": "seodev-w59",
       "wp_id": null,
@@ -103,18 +79,6 @@
       "title": "Đặt bộ sạc xe điện thế nào: nằm ngang, không che khe quạt, không bọc kín, tránh nước",
       "slot": "W4",
       "session": "seodev-w59",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001331",
-      "state": "WRITING",
-      "reason": "leased to seodev-w60",
-      "title": "Hồ Đồng Mô rộng bao nhiêu héc-ta: nguồn ghi 200, 500 hay 1.400 ha và dung tích 61,9 triệu m3",
-      "slot": "W9",
-      "session": "seodev-w60",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -161,18 +125,6 @@
       "state": "WRITING",
       "reason": "leased to seodev-w60",
       "title": "Đền Và ở Sơn Tây: thờ Tản Viên Sơn Thánh, chính hội 3 năm một lần và lễ rước sang đền Ngự Dội",
-      "slot": "W9",
-      "session": "seodev-w60",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001336",
-      "state": "WRITING",
-      "reason": "leased to seodev-w60",
-      "title": "Làng quạt Chàng Sơn ở Thạch Thất: nghề quạt giấy từ thế kỷ XIX và trải nghiệm làm quạt",
       "slot": "W9",
       "session": "seodev-w60",
       "wp_id": null,
@@ -6925,6 +6877,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001302",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Bảo hành pin xe Yadea: 24 tháng, 36 tháng hay 3 năm và vì sao các trang của hãng ghi khác nhau",
+      "slot": "W4",
+      "session": "seodev-w59",
+      "wp_id": 4581,
+      "url": "https://thuexemaynguyentu.com/bao-hanh-pin-xe-yadea-24-thang-36-thang-hay-3-nam-va-vi-sao-cac-trang-cua-hang-ghi-khac-nhau/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001306",
       "state": "VERIFIED",
       "reason": "publish",
@@ -6933,6 +6897,42 @@
       "session": "seodev-w59",
       "wp_id": 4580,
       "url": "https://thuexemaynguyentu.com/chay-xong-co-sac-xe-dien-ngay-duoc-khong-pccc-dan-cho-20-phut-yadea-30-phut-den-1-gio/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001307",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe điện có rửa được không: chờ nguội, tránh vòi áp lực, đóng cổng sạc theo VinFast, Dat Bike",
+      "slot": "W4",
+      "session": "seodev-w59",
+      "wp_id": 4582,
+      "url": "https://thuexemaynguyentu.com/xe-dien-co-rua-duoc-khong-cho-nguoi-tranh-voi-ap-luc-dong-cong-sac-theo-vinfast-dat-bike/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001331",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Hồ Đồng Mô rộng bao nhiêu héc-ta: nguồn ghi 200, 500 hay 1.400 ha và dung tích 61,9 triệu m3",
+      "slot": "W9",
+      "session": "seodev-w60",
+      "wp_id": 4583,
+      "url": "https://thuexemaynguyentu.com/ho-dong-mo-rong-bao-nhieu-hec-ta-nguon-ghi-200-500-hay-1-400-ha-va-dung-tich-61-9-trieu-m3/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001336",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Làng quạt Chàng Sơn ở Thạch Thất: nghề quạt giấy từ thế kỷ XIX và trải nghiệm làm quạt",
+      "slot": "W9",
+      "session": "seodev-w60",
+      "wp_id": 4584,
+      "url": "https://thuexemaynguyentu.com/lang-quat-chang-son-o-thach-that-nghe-quat-giay-tu-the-ky-xix-va-trai-nghiem-lam-quat/",
       "qa_status": "PASS",
       "seo_score": 100
     },
