@@ -1,0 +1,186 @@
+{
+  "topic_id": "NT-001248",
+  "status": "PASS",
+  "source_sha256": "7010561cbcfd4b62ea98d92357723f685739a3f93ad067c111123fd6396be1f2",
+  "body_sha256": "4179beacd6af189e8fe2905077b211d7ea3a6b1eace63756e0b927dc2e09ff68",
+  "word_count": 2039,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://whc.unesco.org/en/list/1438/",
+      "supports": "UNESCO World Heritage Centre (đọc 21/10/2026): Trang An là tài sản hỗn hợp văn hóa và thiên nhiên; property 6,226 ha, buffer zone 6,026 ha; ghi danh 2014, điều chỉnh ranh giới nhỏ năm 2016; tiêu chí (v), (vii), (viii); ba khu bảo vệ gồm Hoa Lu Ancient Capital, Trang An-Tam Coc-Bich Dong Scenic Landscape và Hoa Lu Special-Use Forest.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/quan-the-trang-an-tro-thanh-di-san-the-gioi-kep-3008277.html",
+      "supports": "VnExpress (23/6/2014): quần thể Tràng An được UNESCO công nhận tại kỳ họp thứ 38 ở Doha, là di sản hỗn hợp đầu tiên của Việt Nam; tổng diện tích 4.000 ha, vùng đệm 8.000 ha; gồm 3 khu bảo tồn chính.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://ninhbinh.gov.vn/van-hoa-xa-hoi/trang-an-noi-hoi-tu-nhung-gia-tri-van-hoa-dac-biet-321946",
+      "supports": "Cổng thông tin điện tử tỉnh Ninh Bình (03/07/2023, theo nbtv.vn): Tràng An là di sản hỗn hợp duy nhất hội tụ yếu tố văn hóa và thiên nhiên trong các di sản của Việt Nam được UNESCO công nhận, trải rộng trên 12.000 ha; khoảng 30 địa điểm văn hóa Tràng An đã được phát hiện.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://whc.unesco.org/en/list/1438/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/quan-the-trang-an-tro-thanh-di-san-the-gioi-kep-3008277.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://ninhbinh.gov.vn/van-hoa-xa-hoi/trang-an-noi-hoi-tu-nhung-gia-tri-van-hoa-dac-biet-321946",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2370,
+        "title": "Chi Phí Đi Xe Máy Điện Mỗi Tháng So Với Xe Máy Xăng Phổ Thông: Bài Toán Chi Tiết Từ Người Dùng Thực Tế",
+        "why": "stale",
+        "content_hash": "92d045593ec18a74d2c912be44adc4f392b4b025734668676528c637f6ed0b2d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2569,
+        "title": "Xe ga tốn xăng hơn xe số bao nhiêu khi sử dụng trong thành phố?",
+        "why": "stale",
+        "content_hash": "0e0403a44ff6ce7c19068379c2905b55413b5e6b08f79ca8a2a469fd0114f8e0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2615,
+        "title": "Phố cổ Hà Nội có gì chơi? 15 địa điểm, món ngon và lịch trình đi bộ",
+        "why": "stale",
+        "content_hash": "e9addb8498afd5d9d13bd70c14aa17da5a5746f6ac0ac5ba4247af9d1591d5ff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T09:57:14.261371+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "c1232dcc34bdbf295eaf05361e07c99b39a1409bbd2a56e58756c0c67e448a08",
+  "incremental_key": "d01c6d9313c0010dca1e156525fe087cdb554bb3953afe047f4e29c9bf4ff493",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
