@@ -19636,6 +19636,25 @@
         "seo_description": "Eo Gió và Kỳ Co bằng xe máy từ Quy Nhơn: nguồn báo ghi 20–25 km qua cầu Thị Nại, Eo Gió nên đi sáng sớm, mùa khô tháng 3–9 và cách xếp lịch một ngày.",
         "checked_at": "2026-10-21T04:11:04.043809+00:00"
       }
+    },
+    "NT-000901": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T04:11:35.461616+00:00",
+      "source_hash": "7033b51ddeb334c9fc2c71f14f1d448bcb667c3cf2f65f566bb86fb9516b1f25",
+      "slug": "set-khi-dang-chay-xe-may-xe-may-khong-phai-noi-tru-an-toan-va-quy-tac-cho-30-phut-sau-tieng-sam",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 175,
+      "visible_hash": "4d6127c69452af81e268773bbb4869b329b9f0ed70a0229667d948ef41e248b3",
+      "first_paragraph": "Sét khi đang chạy xe máy là tình huống mà xe máy không phải nơi trú an toàn: trang hỏi đáp về sét của CDC Hoa Kỳ xếp xe mô tô vào nhóm phương tiện hở \"không an toàn\" khi có bão, cơ quan thời tiết Hoa Kỳ (NWS) khuyên vào công trình kiên cố hoặc xe có mái cứng, và cả hai đều nói ngoài trời không có chỗ nào an toàn khi đang có dông. NWS còn dặn chờ 30 phút sau tia chớp hoặc tiếng sấm cuối cùng rồi mới ra ngoài trở lại, vì nhiều người ra quá sớm chỉ do thấy mưa nhỏ đi hoặc tạnh.",
+      "meta_title": "Sét khi đang chạy xe máy: xe máy không phải nơi trú an toàn",
+      "meta_description": "Sét khi đang chạy xe máy nên làm gì: NWS và CDC nói xe máy là phương tiện hở không an toàn, cần dừng ở công trình kiên cố và chờ 30 phút sau tiếng sấm cuối.",
+      "intended_taxonomy_key": "trip-planning",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "de620203b9af43fe73a1bde8fc7fb84a17756fef",
+      "run_id": "39542303090",
+      "updated_at": "2026-10-21T04:11:35.463019+00:00"
     }
   },
   "categories": {}
