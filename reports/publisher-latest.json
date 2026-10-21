@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-21T05:24:55.609884+00:00",
-  "attempted": 2,
+  "at": "2026-10-21T05:28:26.935543+00:00",
+  "attempted": 0,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -180,11 +180,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T05:23:35.432156+00:00",
+      "at": "2026-10-21T05:28:14.695643+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "9bb71c0147002bb904e73639b3ed87715e3db8092706055ed5f920ecd1503d46",
+      "inventory_sha256": "08db138b7bf61f6b5b4d46c1218e08885af189ac520a8ca1c32cf0cfc5956aa9",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -350,11 +350,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T05:23:42.933649+00:00",
+      "at": "2026-10-21T05:28:21.187785+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "9bb71c0147002bb904e73639b3ed87715e3db8092706055ed5f920ecd1503d46",
+      "inventory_sha256": "08db138b7bf61f6b5b4d46c1218e08885af189ac520a8ca1c32cf0cfc5956aa9",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -529,11 +529,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T05:23:49.103960+00:00",
+      "at": "2026-10-21T05:28:26.822040+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "9bb71c0147002bb904e73639b3ed87715e3db8092706055ed5f920ecd1503d46",
+      "inventory_sha256": "08db138b7bf61f6b5b4d46c1218e08885af189ac520a8ca1c32cf0cfc5956aa9",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -551,22 +551,6 @@
         "exhausted": false,
         "needs_owner": false
       }
-    },
-    {
-      "topic_id": "NT-001219",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 159,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "legal",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001220",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 169,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "electric-transition",
-      "category_warning": null
     }
   ],
   "backlog_drains_on": "successful Writer QA or fallback schedule",
