@@ -27772,7 +27772,7 @@
       }
     },
     "NT-001255": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:41:56.305395+00:00",
       "source_hash": "638b7bc8b60bae26990cf22e0ff90d0fa5ad7f57096ec6724659972bd18136b1",
       "slug": "fansipan-cao-bao-nhieu-met-3-143-m-do-nam-1909-hay-3-147-3-m-theo-cuc-do-dac-2019-thuoc-xa-hoang-lien-hay-phuong-sa-pa",
@@ -27788,8 +27788,37 @@
       "category_warning": null,
       "git_commit": "1548faa8656ddb9fa7d131e0a1f6d4da23750132",
       "run_id": "39618406418",
-      "updated_at": "2026-10-21T14:42:00.675083+00:00",
-      "wp_id": 4624
+      "updated_at": "2026-10-21T14:42:06.482755+00:00",
+      "wp_id": 4624,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/fansipan-cao-bao-nhieu-met-3-143-m-do-nam-1909-hay-3-147-3-m-theo-cuc-do-dac-2019-thuoc-xa-hoang-lien-hay-phuong-sa-pa/",
+      "verified_at": "2026-10-21T14:42:06.482747+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4624,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/fansipan-cao-bao-nhieu-met-3-143-m-do-nam-1909-hay-3-147-3-m-theo-cuc-do-dac-2019-thuoc-xa-hoang-lien-hay-phuong-sa-pa/",
+        "categories": [
+          126
+        ],
+        "canonical": "https://thuexemaynguyentu.com/fansipan-cao-bao-nhieu-met-3-143-m-do-nam-1909-hay-3-147-3-m-theo-cuc-do-dac-2019-thuoc-xa-hoang-lien-hay-phuong-sa-pa/",
+        "seo_title": "Fansipan cao bao nhiêu mét: 3.143 m năm 1909 hay 3.147,3 m năm 2019",
+        "seo_description": "Fansipan cao bao nhiêu mét: số 3.143 m do người Pháp đo năm 1909, số 3.147,3 m Cục Đo đạc công bố 26/6/2019, bài báo nào dùng số nào và đỉnh thuộc xã Hoàng Liên hay phường Sa Pa.",
+        "checked_at": "2026-10-21T14:42:06.482729+00:00"
+      }
     }
   },
   "categories": {}
