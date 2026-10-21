@@ -20961,7 +20961,7 @@
       }
     },
     "NT-001126": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:37:55.089131+00:00",
       "source_hash": "8cbfb4e656055c6b53b3939606754162f8bc7180c18dd0db60e06bfedbae3d23",
       "slug": "lan-xe-may-tren-cau-nhat-tan-toi-da-40-km-h-rao-cung-tach-lan-va-thi-diem-tu-27-9-2026",
@@ -20977,8 +20977,37 @@
       "category_warning": null,
       "git_commit": "61285248c7d8eca7c8250b277de2091dd2ca1bae",
       "run_id": "39544657734",
-      "updated_at": "2026-10-21T04:37:59.279215+00:00",
-      "wp_id": 4447
+      "updated_at": "2026-10-21T04:38:05.834944+00:00",
+      "wp_id": 4447,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lan-xe-may-tren-cau-nhat-tan-toi-da-40-km-h-rao-cung-tach-lan-va-thi-diem-tu-27-9-2026/",
+      "verified_at": "2026-10-21T04:38:05.834932+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4447,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lan-xe-may-tren-cau-nhat-tan-toi-da-40-km-h-rao-cung-tach-lan-va-thi-diem-tu-27-9-2026/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lan-xe-may-tren-cau-nhat-tan-toi-da-40-km-h-rao-cung-tach-lan-va-thi-diem-tu-27-9-2026/",
+        "seo_title": "Làn xe máy trên cầu Nhật Tân: tối đa 40 km/h, rào cứng, thí điểm 27/9",
+        "seo_description": "Làn xe máy trên cầu Nhật Tân là làn số 4, tối đa 40 km/h, có rào cứng tách làn ô tô; điều đổi trong đợt thí điểm 27/9/2026 đến 27/3/2027 theo ba bản tin báo.",
+        "checked_at": "2026-10-21T04:38:05.834910+00:00"
+      }
     }
   },
   "categories": {}
