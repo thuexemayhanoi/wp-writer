@@ -29291,7 +29291,7 @@
       }
     },
     "NT-001421": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T15:15:12.804117+00:00",
       "source_hash": "5c5995b56229a83a58e50cdb20c882ecd394e8a09aee249293a2add4b64bc5f2",
       "slug": "hoa-don-va-chung-tu-thue-xe-may-nen-xin-gi-va-xac-nhan-gi-khi-doi-xe-giua-ky",
@@ -29307,8 +29307,37 @@
       "category_warning": null,
       "git_commit": "81a82aa1136451c663884386ac8cf6a12a652ca1",
       "run_id": "39622613046",
-      "updated_at": "2026-10-21T15:15:20.086353+00:00",
-      "wp_id": 4665
+      "updated_at": "2026-10-21T15:15:27.594892+00:00",
+      "wp_id": 4665,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/hoa-don-va-chung-tu-thue-xe-may-nen-xin-gi-va-xac-nhan-gi-khi-doi-xe-giua-ky/",
+      "verified_at": "2026-10-21T15:15:27.594886+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4665,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/hoa-don-va-chung-tu-thue-xe-may-nen-xin-gi-va-xac-nhan-gi-khi-doi-xe-giua-ky/",
+        "categories": [
+          164
+        ],
+        "canonical": "https://thuexemaynguyentu.com/hoa-don-va-chung-tu-thue-xe-may-nen-xin-gi-va-xac-nhan-gi-khi-doi-xe-giua-ky/",
+        "seo_title": "Hóa đơn và chứng từ thuê xe máy: xin gì, ghi gì khi đổi xe giữa kỳ",
+        "seo_description": "Hóa đơn và chứng từ thuê xe máy: quyền xin hóa đơn của người tiêu dùng, bộ chứng từ thay thế khi chưa có hóa đơn và cách ghi lại khi đổi xe giữa kỳ thuê.",
+        "checked_at": "2026-10-21T15:15:27.594862+00:00"
+      }
     }
   },
   "categories": {}
