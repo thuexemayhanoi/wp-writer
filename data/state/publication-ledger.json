@@ -27919,7 +27919,7 @@
       }
     },
     "NT-001361": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:43:21.797426+00:00",
       "source_hash": "7cb2e8b83c2fac49ae6937179e307f405cd3526bc25d71d31fe79062f8a635a0",
       "slug": "xe-may-bi-tam-giu-thoi-han-7-ngay-lam-viec-quyet-dinh-giao-1-ban-va-khi-nao-nhan-lai-xe",
@@ -27935,8 +27935,37 @@
       "category_warning": null,
       "git_commit": "1548faa8656ddb9fa7d131e0a1f6d4da23750132",
       "run_id": "39618406418",
-      "updated_at": "2026-10-21T14:43:26.970358+00:00",
-      "wp_id": 4630
+      "updated_at": "2026-10-21T14:43:33.455398+00:00",
+      "wp_id": 4630,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-bi-tam-giu-thoi-han-7-ngay-lam-viec-quyet-dinh-giao-1-ban-va-khi-nao-nhan-lai-xe/",
+      "verified_at": "2026-10-21T14:43:33.455391+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4630,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-bi-tam-giu-thoi-han-7-ngay-lam-viec-quyet-dinh-giao-1-ban-va-khi-nao-nhan-lai-xe/",
+        "categories": [
+          163
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-bi-tam-giu-thoi-han-7-ngay-lam-viec-quyet-dinh-giao-1-ban-va-khi-nao-nhan-lai-xe/",
+        "seo_title": "Xe máy bị tạm giữ: thời hạn 7 ngày làm việc và khi nào nhận lại xe",
+        "seo_description": "Xe máy bị tạm giữ không quá 07 ngày làm việc, 10 ngày nếu chuyển hồ sơ; quyết định giao 1 bản, ngoại lệ kéo dài đến 02 tháng và các trường hợp nhận lại xe.",
+        "checked_at": "2026-10-21T14:43:33.455373+00:00"
+      }
     }
   },
   "categories": {}
