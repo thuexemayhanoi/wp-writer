@@ -27625,7 +27625,7 @@
       }
     },
     "NT-001396": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:36:37.004133+00:00",
       "source_hash": "97e3d4aa6fe2d24731c15c682c7cdae599716da7d4855013d4fcb50b6ddffbcc",
       "slug": "gia-ve-buyt-ha-noi-theo-cu-ly-3-000-dong-cong-450-dong-moi-km-va-24-tuyen-them-tu-17-7-2026",
@@ -27641,8 +27641,37 @@
       "category_warning": null,
       "git_commit": "5d5916120e7e17996739564d24ce1438feb833c5",
       "run_id": "39615692248",
-      "updated_at": "2026-10-21T14:36:41.002680+00:00",
-      "wp_id": 4607
+      "updated_at": "2026-10-21T14:36:47.941719+00:00",
+      "wp_id": 4607,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/gia-ve-buyt-ha-noi-theo-cu-ly-3-000-dong-cong-450-dong-moi-km-va-24-tuyen-them-tu-17-7-2026/",
+      "verified_at": "2026-10-21T14:36:47.941713+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4607,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/gia-ve-buyt-ha-noi-theo-cu-ly-3-000-dong-cong-450-dong-moi-km-va-24-tuyen-them-tu-17-7-2026/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/gia-ve-buyt-ha-noi-theo-cu-ly-3-000-dong-cong-450-dong-moi-km-va-24-tuyen-them-tu-17-7-2026/",
+        "seo_title": "Giá vé buýt Hà Nội theo cự ly: 3.000 đồng cộng 450 đồng/km",
+        "seo_description": "Giá vé buýt Hà Nội theo cự ly: công thức 3.000 đồng cộng 450 đồng mỗi km, ví dụ 5–20 km, 24 tuyến thêm từ 17/7/2026 và cách chạm thẻ khi lên, xuống xe.",
+        "checked_at": "2026-10-21T14:36:47.941694+00:00"
+      }
     }
   },
   "categories": {}
