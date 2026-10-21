@@ -26106,7 +26106,7 @@
       }
     },
     "NT-001209": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T10:18:56.138755+00:00",
       "source_hash": "ee0b5cf569a973c4244615ec94e3334306deca45b7a25a8ffc3aec26d2730012",
       "slug": "gay-tai-nan-khi-di-xe-may-dung-ngay-giu-nguyen-hien-truong-giup-nguoi-bi-nan-va-vi-sao-bo-chay-bi-phat-8-10-trieu-dong",
@@ -26122,8 +26122,37 @@
       "category_warning": null,
       "git_commit": "8461e3f2c1082bbd880fe9fc3924eaf05797fd77",
       "run_id": "39583216835",
-      "updated_at": "2026-10-21T10:19:00.351830+00:00",
-      "wp_id": 4573
+      "updated_at": "2026-10-21T10:19:06.651133+00:00",
+      "wp_id": 4573,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/gay-tai-nan-khi-di-xe-may-dung-ngay-giu-nguyen-hien-truong-giup-nguoi-bi-nan-va-vi-sao-bo-chay-bi-phat-8-10-trieu-dong/",
+      "verified_at": "2026-10-21T10:19:06.651127+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4573,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/gay-tai-nan-khi-di-xe-may-dung-ngay-giu-nguyen-hien-truong-giup-nguoi-bi-nan-va-vi-sao-bo-chay-bi-phat-8-10-trieu-dong/",
+        "categories": [
+          159
+        ],
+        "canonical": "https://thuexemaynguyentu.com/gay-tai-nan-khi-di-xe-may-dung-ngay-giu-nguyen-hien-truong-giup-nguoi-bi-nan-va-vi-sao-bo-chay-bi-phat-8-10-trieu-dong/",
+        "seo_title": "Gây tai nạn khi đi xe máy: nghĩa vụ ở hiện trường và mức phạt",
+        "seo_description": "Gây tai nạn khi đi xe máy: dừng ngay, giữ nguyên hiện trường, trợ giúp người bị nạn; bỏ chạy bị phạt 8–10 triệu đồng, trừ 06 điểm, và vì sao nhiều bài ghi 16–18 triệu.",
+        "checked_at": "2026-10-21T10:19:06.651107+00:00"
+      }
     }
   },
   "categories": {}
