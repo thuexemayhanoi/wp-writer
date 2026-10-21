@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-21T01:02:03.082881+00:00",
+  "at": "2026-10-21T03:58:19.950305+00:00",
   "nodes": [
     {
       "url": "https://thuexemaynguyentu.com/tranh-dong-ho-o-bac-ninh-unesco-ghi-danh-9-12-2025-cach-in-nam-mau-tren-giay-do-va-hien-trang-nghe/",
@@ -29711,6 +29711,8 @@
         }
       ],
       "incoming": [
+        "https://thuexemaynguyentu.com/gioi-thieu/su-menh-tam-nhin/",
+        "https://thuexemaynguyentu.com/gioi-thieu/ve-chung-toi/",
         "https://thuexemaynguyentu.com/gioi-thieu/"
       ],
       "cluster": [],
@@ -29760,16 +29762,96 @@
     },
     {
       "url": "https://thuexemaynguyentu.com/gioi-thieu/su-menh-tam-nhin/",
-      "outgoing": [],
-      "incoming": [],
+      "outgoing": [
+        {
+          "source": "https://thuexemaynguyentu.com/gioi-thieu/su-menh-tam-nhin/",
+          "target": "https://thuexemaynguyentu.com/gioi-thieu/",
+          "anchor": "Tổng quan dịch vụ",
+          "cluster": "[]",
+          "verified_in_inventory": true,
+          "http_checked": false
+        },
+        {
+          "source": "https://thuexemaynguyentu.com/gioi-thieu/su-menh-tam-nhin/",
+          "target": "https://thuexemaynguyentu.com/gioi-thieu/ve-chung-toi/",
+          "anchor": "Về chúng tôi",
+          "cluster": "[]",
+          "verified_in_inventory": true,
+          "http_checked": false
+        },
+        {
+          "source": "https://thuexemaynguyentu.com/gioi-thieu/su-menh-tam-nhin/",
+          "target": "https://thuexemaynguyentu.com/featured_item_category/bang-gia/",
+          "anchor": "bảng giá thuê xe",
+          "cluster": "[]",
+          "verified_in_inventory": false,
+          "http_checked": false
+        },
+        {
+          "source": "https://thuexemaynguyentu.com/gioi-thieu/su-menh-tam-nhin/",
+          "target": "https://thuexemaynguyentu.com/faq/",
+          "anchor": "câu hỏi thường gặp",
+          "cluster": "[]",
+          "verified_in_inventory": true,
+          "http_checked": false
+        },
+        {
+          "source": "https://thuexemaynguyentu.com/gioi-thieu/su-menh-tam-nhin/",
+          "target": "https://thuexemaynguyentu.com/lien-he/",
+          "anchor": "Liên hệ Nguyễn Tú",
+          "cluster": "[]",
+          "verified_in_inventory": true,
+          "http_checked": false
+        }
+      ],
+      "incoming": [
+        "https://thuexemaynguyentu.com/gioi-thieu/ve-chung-toi/",
+        "https://thuexemaynguyentu.com/gioi-thieu/"
+      ],
       "cluster": [],
       "recommended_links": [],
       "recommendation_status": "Same-category candidates; contextual editorial review required"
     },
     {
       "url": "https://thuexemaynguyentu.com/gioi-thieu/ve-chung-toi/",
-      "outgoing": [],
-      "incoming": [],
+      "outgoing": [
+        {
+          "source": "https://thuexemaynguyentu.com/gioi-thieu/ve-chung-toi/",
+          "target": "https://thuexemaynguyentu.com/gioi-thieu/",
+          "anchor": "trang Giới thiệu",
+          "cluster": "[]",
+          "verified_in_inventory": true,
+          "http_checked": false
+        },
+        {
+          "source": "https://thuexemaynguyentu.com/gioi-thieu/ve-chung-toi/",
+          "target": "https://thuexemaynguyentu.com/gioi-thieu/su-menh-tam-nhin/",
+          "anchor": "Sứ mệnh và tầm nhìn",
+          "cluster": "[]",
+          "verified_in_inventory": true,
+          "http_checked": false
+        },
+        {
+          "source": "https://thuexemaynguyentu.com/gioi-thieu/ve-chung-toi/",
+          "target": "https://thuexemaynguyentu.com/faq/",
+          "anchor": "câu hỏi thường gặp",
+          "cluster": "[]",
+          "verified_in_inventory": true,
+          "http_checked": false
+        },
+        {
+          "source": "https://thuexemaynguyentu.com/gioi-thieu/ve-chung-toi/",
+          "target": "https://thuexemaynguyentu.com/lien-he/",
+          "anchor": "Thông tin liên hệ",
+          "cluster": "[]",
+          "verified_in_inventory": true,
+          "http_checked": false
+        }
+      ],
+      "incoming": [
+        "https://thuexemaynguyentu.com/gioi-thieu/su-menh-tam-nhin/",
+        "https://thuexemaynguyentu.com/gioi-thieu/"
+      ],
       "cluster": [],
       "recommended_links": [],
       "recommendation_status": "Same-category candidates; contextual editorial review required"
@@ -29783,6 +29865,9 @@
         "https://thuexemaynguyentu.com/shop/",
         "https://thuexemaynguyentu.com/faq/",
         "https://thuexemaynguyentu.com/dieu-khoan-su-dung/",
+        "https://thuexemaynguyentu.com/gioi-thieu/su-menh-tam-nhin/",
+        "https://thuexemaynguyentu.com/gioi-thieu/ve-chung-toi/",
+        "https://thuexemaynguyentu.com/gioi-thieu/",
         "https://thuexemaynguyentu.com/gioi-thieu/",
         "https://thuexemaynguyentu.com/san-pham/yamaha-mio-ultimo/",
         "https://thuexemaynguyentu.com/san-pham/yamaha-mio-ultimo/"
@@ -29824,8 +29909,64 @@
       "outgoing": [
         {
           "source": "https://thuexemaynguyentu.com/gioi-thieu/",
+          "target": "https://thuexemaynguyentu.com/gioi-thieu/",
+          "anchor": "Các loại xe",
+          "cluster": "[]",
+          "verified_in_inventory": true,
+          "http_checked": false
+        },
+        {
+          "source": "https://thuexemaynguyentu.com/gioi-thieu/",
+          "target": "https://thuexemaynguyentu.com/gioi-thieu/",
+          "anchor": "Cách thuê xe",
+          "cluster": "[]",
+          "verified_in_inventory": true,
+          "http_checked": false
+        },
+        {
+          "source": "https://thuexemaynguyentu.com/gioi-thieu/",
+          "target": "https://thuexemaynguyentu.com/gioi-thieu/",
+          "anchor": "Thông tin cửa hàng",
+          "cluster": "[]",
+          "verified_in_inventory": true,
+          "http_checked": false
+        },
+        {
+          "source": "https://thuexemaynguyentu.com/gioi-thieu/",
           "target": "https://thuexemaynguyentu.com/bo-suu-tap/",
-          "anchor": "bộ sưu tập xe",
+          "anchor": "Xem các mẫu xe →",
+          "cluster": "[]",
+          "verified_in_inventory": true,
+          "http_checked": false
+        },
+        {
+          "source": "https://thuexemaynguyentu.com/gioi-thieu/",
+          "target": "https://thuexemaynguyentu.com/featured_item_category/bang-gia/",
+          "anchor": "Xem bảng giá →",
+          "cluster": "[]",
+          "verified_in_inventory": false,
+          "http_checked": false
+        },
+        {
+          "source": "https://thuexemaynguyentu.com/gioi-thieu/",
+          "target": "https://thuexemaynguyentu.com/lien-he/",
+          "anchor": "Hỏi tình trạng xe →",
+          "cluster": "[]",
+          "verified_in_inventory": true,
+          "http_checked": false
+        },
+        {
+          "source": "https://thuexemaynguyentu.com/gioi-thieu/",
+          "target": "https://thuexemaynguyentu.com/gioi-thieu/ve-chung-toi/",
+          "anchor": "Về chúng tôi",
+          "cluster": "[]",
+          "verified_in_inventory": true,
+          "http_checked": false
+        },
+        {
+          "source": "https://thuexemaynguyentu.com/gioi-thieu/",
+          "target": "https://thuexemaynguyentu.com/gioi-thieu/su-menh-tam-nhin/",
+          "anchor": "Sứ mệnh và tầm nhìn",
           "cluster": "[]",
           "verified_in_inventory": true,
           "http_checked": false
@@ -29840,14 +29981,28 @@
         },
         {
           "source": "https://thuexemaynguyentu.com/gioi-thieu/",
+          "target": "https://thuexemaynguyentu.com/featured_item_category/bang-gia/",
+          "anchor": "bảng giá thuê xe",
+          "cluster": "[]",
+          "verified_in_inventory": false,
+          "http_checked": false
+        },
+        {
+          "source": "https://thuexemaynguyentu.com/gioi-thieu/",
           "target": "https://thuexemaynguyentu.com/lien-he/",
-          "anchor": "liên hệ Nguyễn Tú",
+          "anchor": "Đến trang Liên hệ",
           "cluster": "[]",
           "verified_in_inventory": true,
           "http_checked": false
         }
       ],
-      "incoming": [],
+      "incoming": [
+        "https://thuexemaynguyentu.com/gioi-thieu/su-menh-tam-nhin/",
+        "https://thuexemaynguyentu.com/gioi-thieu/ve-chung-toi/",
+        "https://thuexemaynguyentu.com/gioi-thieu/",
+        "https://thuexemaynguyentu.com/gioi-thieu/",
+        "https://thuexemaynguyentu.com/gioi-thieu/"
+      ],
       "cluster": [],
       "recommended_links": [],
       "recommendation_status": "Same-category candidates; contextual editorial review required"
@@ -30929,6 +31084,14 @@
       "http_checked": false
     },
     {
+      "source": "https://thuexemaynguyentu.com/gioi-thieu/su-menh-tam-nhin/",
+      "target": "https://thuexemaynguyentu.com/featured_item_category/bang-gia/",
+      "anchor": "bảng giá thuê xe",
+      "cluster": "[]",
+      "verified_in_inventory": false,
+      "http_checked": false
+    },
+    {
       "source": "https://thuexemaynguyentu.com/chinh-sach-bao-mat/",
       "target": "https://thuexemaynguyentu.com",
       "anchor": "https://thuexemaynguyentu.com",
@@ -30940,6 +31103,22 @@
       "source": "https://thuexemaynguyentu.com/chinh-sach-bao-mat/",
       "target": "https://thuexemaynguyentu.com",
       "anchor": "https://thuexemaynguyentu.com",
+      "cluster": "[]",
+      "verified_in_inventory": false,
+      "http_checked": false
+    },
+    {
+      "source": "https://thuexemaynguyentu.com/gioi-thieu/",
+      "target": "https://thuexemaynguyentu.com/featured_item_category/bang-gia/",
+      "anchor": "Xem bảng giá →",
+      "cluster": "[]",
+      "verified_in_inventory": false,
+      "http_checked": false
+    },
+    {
+      "source": "https://thuexemaynguyentu.com/gioi-thieu/",
+      "target": "https://thuexemaynguyentu.com/featured_item_category/bang-gia/",
+      "anchor": "bảng giá thuê xe",
       "cluster": "[]",
       "verified_in_inventory": false,
       "http_checked": false

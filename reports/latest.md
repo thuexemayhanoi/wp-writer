@@ -4,7 +4,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-21T01:02:02.500296+00:00 |
+| at | 2026-10-21T03:58:19.281855+00:00 |
 | existing_published_posts | 570 |
 | existing_pages | 10 |
 | existing_products | 13 |
@@ -20,7 +20,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | refill_state | REFILL_IN_PROGRESS |
 | refill_order | RF-0003 |
 | refill_accepted_so_far | 43 |
-| writing | 68 |
+| writing | 65 |
 | draft_authored | 417 |
 | qa_pass | 414 |
 | qa_fail | 3 |
