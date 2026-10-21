@@ -28,6 +28,10 @@ def reconcile(progress, rows, ledger, qa=None):
     if len(out.get("completed", [])) != out.get("completed_editorial_drafts"):
         raise ValueError("WRONG_EDITORIAL_COUNT")
     known = {t["topic_id"]: t for t in rows}
+    # Thresholds come from the one QA configuration (owner order 2026-10-20: 76/100), never a copy of the number.
+    rules = load("config/qa-rules.json", {}) or {}
+    seo_min = rules.get("seo_min", 85)
+    quality_min = rules.get("quality_min", 85)
     attached = set()
     for entry in out["completed"]:
         matching = []
@@ -58,8 +62,8 @@ def reconcile(progress, rows, ledger, qa=None):
         evidence = qa.get(topic_id) or {}
         receipt = (ledger.get("posts") or {}).get(topic_id) or {}
         qa_pass = (evidence.get("status") == "PASS" and
-                   evidence.get("seo_score", -1) >= 85 and
-                   evidence.get("quality_score", -1) >= 85 and
+                   evidence.get("seo_score", -1) >= seo_min and
+                   evidence.get("quality_score", -1) >= quality_min and
                    evidence.get("source_sha256") == receipt.get("source_hash") and
                    not evidence.get("errors") and not evidence.get("review"))
         entry["writer_qa_status"] = ("PASS" if qa_pass else

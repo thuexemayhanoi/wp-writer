@@ -2,6 +2,7 @@
 import sys
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/"scripts"))
@@ -67,6 +68,21 @@ class WardProgressTests(unittest.TestCase):
         self.assertEqual(r["publication_status"],"WORDPRESS_PUBLISHED_G7_PASS")
         again=reconcile(p,[topic()],ledger(),qa())
         self.assertEqual(again["published_new_articles"],1)
+
+    def test_threshold_follows_the_qa_configuration(self):
+        """A 78/80 article is QA PASS under the owner's 76 threshold; below the configured minimum it never counts."""
+        def scored(seo, quality):
+            e = qa()
+            e["NT-001234"].update({"seo_score": seo, "quality_score": quality})
+            return e
+        with patch("hanoi_ward_progress.load", return_value={"seo_min": 76, "quality_min": 76}):
+            ok = reconcile(progress(), [topic()], ledger(), scored(78, 80))
+            low = reconcile(progress(), [topic()], ledger(), scored(75, 90))
+        self.assertEqual(ok["published_new_articles"], 1)
+        self.assertEqual(low["published_new_articles"], 0)
+        with patch("hanoi_ward_progress.load", return_value={"seo_min": 85, "quality_min": 85}):
+            strict = reconcile(progress(), [topic()], ledger(), scored(78, 80))
+        self.assertEqual(strict["published_new_articles"], 0)
 
     def test_wrong_taxonomy_does_not_count(self):
         p=reconcile(progress(),[topic("rental-guide")],ledger(),qa())

@@ -7,7 +7,7 @@ Lệnh chủ MASTER WORK — RESEARCH FACTORY 1.000 SEO TOPICS: xây kho **1.000
   1. Một dòng nộp lên mà rớt Research QA vẫn chiếm một chỗ và vẫn giữ ý định tìm kiếm của nó (chỉ REJECTED mới nhả ý định). Vì vậy researcher chỉ push lô đã qua `check` và `intent-check` cục bộ.
   2. 72 seed chưa có bằng chứng nghiên cứu và không sửa tại chỗ được (candidate import không ghi đè topic có sẵn). Chúng chiếm chỗ nhưng không phải "chủ đề sẵn sàng". Muốn đủ 1.000 chủ đề **PLANNED** thật sự thì chủ repo phải nâng trần hoặc duyệt đường hoàn tất seed (xem `docs/RESEARCH-SEED-TRIAGE.md`).
 - Bộ điều khiển (`config/refill-policy.json`): `trigger_below_ready` 900, mỗi đơn 100–200 chủ đề, lô 10, không giới hạn số đợt, tự dừng `CAPACITY_BLOCKED` khi hết trần.
-- Giữ nguyên: SEO ≥85, Research QA, bộ chống trùng intent (`scripts/intent_guard.py`), taxonomy cha/con, URL/bài cũ, Publisher. Không tạo danh mục mới (chỉ nhắm các key đang ACTIVE).
+- Giữ nguyên: SEO ≥76, Research QA, bộ chống trùng intent (`scripts/intent_guard.py`), taxonomy cha/con, URL/bài cũ, Publisher. Không tạo danh mục mới (chỉ nhắm các key đang ACTIVE).
 
 ## Cách đếm (không cộng lịch sử vào kho)
 `reports/topic-stock.json` hoặc `python3 agent-tools/factory_status.py` xếp mỗi dòng đúng một giai đoạn:

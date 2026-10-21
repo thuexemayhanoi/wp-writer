@@ -23,7 +23,7 @@ class RunStop(RuntimeError):
 def production_allowed(policy):
     """Owner switch for QA-PASS -> public WordPress.
 
-    Owner order 2026-10-17: a post that passes the QA gate (SEO/quality >=85,
+    Owner order 2026-10-17: a post that passes the QA gate (SEO/quality >=76,
     duplicate check, exact category) is published immediately. No separate
     acceptance or branch-security flag gates publication; the QA, ledger,
     category and Yoast readback checks below are unchanged. paused and

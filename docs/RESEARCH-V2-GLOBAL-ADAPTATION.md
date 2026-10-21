@@ -19,7 +19,7 @@ Unlike /global, this is the Nguyen Tu MAIN commercial WordPress site. Helpful in
         → successful PUSH triggers Trusted Research Intake on main code
         → verify same green SHA, independent gate, immutable batch receipt, CAS commit
         → Topic Registry PLANNED → available to W1–W9 Writers
-        → Writer QA six gates + SEO >=85 → Publisher (production ON since 2026-10-17)
+        → Writer QA six gates + SEO >=76 → Publisher (production ON since 2026-10-17)
 
 Both new workflows are isolated from WordPress credentials. AI research needs an ACTIVE Claude/Mistral/ChatGPT/Gemini session; GitHub only handles ingestion, quality checks, checkpoints and state transitions. A successful workflow is not itself proof of facts or Google indexing.
 
@@ -72,7 +72,7 @@ The remote research branch/checkpoint is the source of truth. A dirty clone or d
 - Verify all prices, deposit and delivery claims against data/business-facts.json; legal sources must be authoritative and current; fake first-hand experience is forbidden.
 - Approved canonical capacity is currently 1,000; research proposal ceiling is 10,000 and is not permission to publish that many.
 - The discovery scheduler emits up to 20 research leads/run and caps unresearched backlog at 300. They remain AWAITING_AI_RESEARCH until an external AI actually researches them.
-- Topic QA PASS is separate from Writer article QA. Every newly written article must meet SEO V2 >=85, Quality >=85 and all six gates before WordPress publication can be considered.
+- Topic QA PASS is separate from Writer article QA. Every newly written article must meet SEO V2 >=76, Quality >=76 and all six gates before WordPress publication can be considered.
 - Research batches never publish; the Publisher (production ON since 2026-10-17) only posts QA-PASS articles written from PLANNED topics.
 
 ## Files

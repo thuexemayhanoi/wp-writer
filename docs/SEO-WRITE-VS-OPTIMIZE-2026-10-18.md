@@ -16,7 +16,7 @@ Repo duy nhất: `thuexemayhanoi/wp-writer`. Website đích: `https://thuexemayn
 2. **SEO-20261018-06** — Chụp ảnh biên bản bàn giao xe máy: những góc nào cần lưu? Đối chiếu bài nhận xe tại homestay (WP #4046) và hợp đồng đặt cọc (WP #891); bài mới chỉ tập trung cách ghi hình đối chiếu lúc nhận/trả xe, không thay thế hướng dẫn thủ tục tổng hợp. Tham khảo nguyên tắc ghi nhận tình trạng và ảnh trước/sau từ hướng dẫn cơ quan bảo vệ người tiêu dùng: [GOV.UK](https://www.gov.uk/government/publications/renting-a-car-advice-for-consumers/hiring-a-car-what-to-watch-out-for), [ACCC Úc](https://www.accc.gov.au/consumers/specific-products-and-activities/car-hire). Đây là nguồn về **xe thuê nói chung/ô tô**, chỉ áp dụng nguyên tắc ghi nhận, không viện dẫn thành quy định pháp luật bắt buộc của Việt Nam.
 3. **SEO-20261018-17** — Nhận xe thuê ở Long Biên để đi Phố Cổ: chuẩn bị tuyến đường và chỗ đỗ. Khác bài Phố Cổ tham quan đi bộ. Mọi quy định phố đi bộ, giờ cấm, điểm giữ xe phải kiểm chứng theo ngày xuất bản. Không tự bịa lộ trình/khoảng cách/giá gửi xe.
 
-Không mục nào ở trên đã được viết đủ 1.600–5.000 từ, đạt SEO/Quality ≥85, nhập PLANNED hay xuất bản chỉ nhờ tệp này.
+Không mục nào ở trên đã được viết đủ 1.600–5.000 từ, đạt SEO/Quality ≥76, nhập PLANNED hay xuất bản chỉ nhờ tệp này.
 
 ## 6 ý tưởng không tạo bài mới vì trùng ý định
 
@@ -41,6 +41,6 @@ Không xóa bài/Topic ID cũ; chỉ không sản xuất thêm phiên bản trù
 
 ## Quy tắc phân phối
 
-Nguồn nghiên cứu → `research_v2.py hints` → nghiên cứu nguồn HTTPS trực tiếp, bằng chứng có hash thật, so toàn bài cũ, `intent-check` → checkpoint/QA → chỉ PASS mới vào PLANNED → Writer có lease hợp lệ → Quality/SEO ≥85 + G1–G6 PASS → Publisher xác minh WordPress.
+Nguồn nghiên cứu → `research_v2.py hints` → nghiên cứu nguồn HTTPS trực tiếp, bằng chứng có hash thật, so toàn bài cũ, `intent-check` → checkpoint/QA → chỉ PASS mới vào PLANNED → Writer có lease hợp lệ → Quality/SEO ≥76 + G1–G6 PASS → Publisher xác minh WordPress.
 
 Không có AI API nền trong GitHub Actions. Không đổi cổng QA, lịch xuất bản, URL/canonical/SEO hiện có hoặc hàng đợi Writer để thúc tiến độ.
