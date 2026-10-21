@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-21T09:48:29.339538+00:00",
-  "attempted": 3,
+  "at": "2026-10-21T09:56:32.679328+00:00",
+  "attempted": 9,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -180,11 +180,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T09:46:40.350644+00:00",
+      "at": "2026-10-21T09:51:32.731538+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "2838106b4fef3c7cdd127082a7ac9ff4394cd40abe40e010b89af3016cec2e20",
+      "inventory_sha256": "8b857f9c10cf5a1311a13406a226f1431567291e041c16cd6b3f9b0758eaef89",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -350,11 +350,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T09:46:48.451150+00:00",
+      "at": "2026-10-21T09:51:39.792250+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "2838106b4fef3c7cdd127082a7ac9ff4394cd40abe40e010b89af3016cec2e20",
+      "inventory_sha256": "8b857f9c10cf5a1311a13406a226f1431567291e041c16cd6b3f9b0758eaef89",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -529,11 +529,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T09:46:55.338393+00:00",
+      "at": "2026-10-21T09:51:45.914498+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "2838106b4fef3c7cdd127082a7ac9ff4394cd40abe40e010b89af3016cec2e20",
+      "inventory_sha256": "8b857f9c10cf5a1311a13406a226f1431567291e041c16cd6b3f9b0758eaef89",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -553,7 +553,7 @@
       }
     },
     {
-      "topic_id": "NT-001146",
+      "topic_id": "NT-001141",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 176,
       "category_resolution": "EXACT",
@@ -561,7 +561,31 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001221",
+      "topic_id": "NT-001142",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 176,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001147",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 175,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "trip-planning",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001148",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 176,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001222",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 159,
       "category_resolution": "EXACT",
@@ -569,11 +593,35 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001227",
+      "topic_id": "NT-001228",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 159,
+      "category_id": 171,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "legal",
+      "intended_taxonomy_key": "driving-licence",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001229",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 171,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "driving-licence",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001241",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 126,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "destinations",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001246",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 175,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "trip-planning",
       "category_warning": null
     }
   ],
