@@ -22774,7 +22774,7 @@
       }
     },
     "NT-001134": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T05:14:47.495950+00:00",
       "source_hash": "2aa2c10cfa6bb76b6617d2b44b04b7af190b0a58cf38a2d82f08e621f46c08e6",
       "slug": "cau-mai-linh-tren-quoc-lo-6-diem-nghen-ha-dong-xuan-mai-du-kien-thong-tuyen-ben-phai-dau-thang-12-2026",
@@ -22790,8 +22790,37 @@
       "category_warning": null,
       "git_commit": "4022a17feb60320613408b0d829a96e6ba1aebaa",
       "run_id": "39548159025",
-      "updated_at": "2026-10-21T05:14:52.443215+00:00",
-      "wp_id": 4485
+      "updated_at": "2026-10-21T05:15:00.877336+00:00",
+      "wp_id": 4485,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cau-mai-linh-tren-quoc-lo-6-diem-nghen-ha-dong-xuan-mai-du-kien-thong-tuyen-ben-phai-dau-thang-12-2026/",
+      "verified_at": "2026-10-21T05:15:00.877330+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4485,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cau-mai-linh-tren-quoc-lo-6-diem-nghen-ha-dong-xuan-mai-du-kien-thong-tuyen-ben-phai-dau-thang-12-2026/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cau-mai-linh-tren-quoc-lo-6-diem-nghen-ha-dong-xuan-mai-du-kien-thong-tuyen-ben-phai-dau-thang-12-2026/",
+        "seo_title": "Cầu Mai Lĩnh trên Quốc lộ 6: thông tuyến bên phải dự kiến đầu 12/2026",
+        "seo_description": "Cầu Mai Lĩnh trên Quốc lộ 6 là điểm nghẽn dự án Ba La – Xuân Mai: cầu cũ 2 làn, mục tiêu thông tuyến bên phải đầu tháng 12/2026 và các mốc theo Báo Xây dựng, Dân Việt.",
+        "checked_at": "2026-10-21T05:15:00.877309+00:00"
+      }
     }
   },
   "categories": {}
