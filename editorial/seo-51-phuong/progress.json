@@ -7,8 +7,8 @@
   "total_review_batches": 17,
   "checkpoint_date": "2026-10-20",
   "completed_editorial_drafts": 12,
-  "imported_into_topic_factory": 6,
-  "published_new_articles": 3,
+  "imported_into_topic_factory": 9,
+  "published_new_articles": 6,
   "owner_approval_mode": "3 bài mỗi lượt duyệt",
   "status": "SIX_RESEARCH_TOPICS_PLANNED_AWAITING_WRITER;_SIX_EDITORIAL_AWAIT_RESEARCH",
   "completed": [
@@ -133,15 +133,17 @@
       "h1": "Thuê xe máy phường Ngọc Hà: Honda Click hay Yamaha Mio, đi ba ngày thế nào?",
       "approx_quality_word_count": 4459,
       "taxonomy_key": "hanoi-ward-rentals",
-      "research_status": "AWAITING_SOURCE_EVIDENCE_AND_WORDPRESS_DEDUP",
-      "writer_qa_status": "NOT_SUBMITTED",
-      "publication_status": "GITHUB_EDITORIAL_ONLY",
-      "topic_id": null,
-      "wp_post_id": null,
+      "research_status": "PLANNED_RESEARCH_PASS",
+      "writer_qa_status": "PASS",
+      "publication_status": "WORDPRESS_PUBLISHED_G7_PASS",
+      "topic_id": "NT-001107",
+      "wp_post_id": 4671,
       "campaign_id": "HN-51-WARDS",
       "wp_exact_slug_check": "NO_EXACT_PUBLISHED_POST_SLUG_COLLISION",
       "wp_exact_slug_checked_at": "2026-10-20",
-      "intent_collision_check": "PENDING_FULL_WP_AND_FACTORY_RESEARCH"
+      "intent_collision_check": "PENDING_FULL_WP_AND_FACTORY_RESEARCH",
+      "wp_permalink": "https://thuexemaynguyentu.com/thue-xe-may-phuong-ngoc-ha-honda-click-yamaha-mio-ba-ngay/",
+      "g7_verified_at": "2026-10-21T19:40:40.416468+00:00"
     },
     {
       "batch": 3,
@@ -150,15 +152,17 @@
       "h1": "Thuê xe máy phường Giảng Võ: đi làm theo tháng chọn Honda Air Blade hay Wave?",
       "approx_quality_word_count": 4763,
       "taxonomy_key": "hanoi-ward-rentals",
-      "research_status": "AWAITING_SOURCE_EVIDENCE_AND_WORDPRESS_DEDUP",
-      "writer_qa_status": "NOT_SUBMITTED",
-      "publication_status": "GITHUB_EDITORIAL_ONLY",
-      "topic_id": null,
-      "wp_post_id": null,
+      "research_status": "PLANNED_RESEARCH_PASS",
+      "writer_qa_status": "PASS",
+      "publication_status": "WORDPRESS_PUBLISHED_G7_PASS",
+      "topic_id": "NT-001108",
+      "wp_post_id": 4672,
       "campaign_id": "HN-51-WARDS",
       "wp_exact_slug_check": "NO_EXACT_PUBLISHED_POST_SLUG_COLLISION",
       "wp_exact_slug_checked_at": "2026-10-20",
-      "intent_collision_check": "PENDING_FULL_WP_AND_FACTORY_RESEARCH"
+      "intent_collision_check": "PENDING_FULL_WP_AND_FACTORY_RESEARCH",
+      "wp_permalink": "https://thuexemaynguyentu.com/thue-xe-may-phuong-giang-vo-air-blade-wave-theo-thang/",
+      "g7_verified_at": "2026-10-21T19:41:02.815769+00:00"
     },
     {
       "batch": 3,
@@ -167,15 +171,17 @@
       "h1": "Thuê xe máy phường Hai Bà Trưng: chọn Honda Vision hay Wave khi có nhiều điểm hẹn?",
       "approx_quality_word_count": 4854,
       "taxonomy_key": "hanoi-ward-rentals",
-      "research_status": "AWAITING_SOURCE_EVIDENCE_AND_WORDPRESS_DEDUP",
-      "writer_qa_status": "NOT_SUBMITTED",
-      "publication_status": "GITHUB_EDITORIAL_ONLY",
-      "topic_id": null,
-      "wp_post_id": null,
+      "research_status": "PLANNED_RESEARCH_PASS",
+      "writer_qa_status": "PASS",
+      "publication_status": "WORDPRESS_PUBLISHED_G7_PASS",
+      "topic_id": "NT-001109",
+      "wp_post_id": 4673,
       "campaign_id": "HN-51-WARDS",
       "wp_exact_slug_check": "NO_EXACT_PUBLISHED_POST_SLUG_COLLISION",
       "wp_exact_slug_checked_at": "2026-10-20",
-      "intent_collision_check": "PENDING_FULL_WP_AND_FACTORY_RESEARCH"
+      "intent_collision_check": "PENDING_FULL_WP_AND_FACTORY_RESEARCH",
+      "wp_permalink": "https://thuexemaynguyentu.com/thue-xe-may-phuong-hai-ba-trung-honda-vision-wave-nhieu-diem-hen/",
+      "g7_verified_at": "2026-10-21T19:41:43.936205+00:00"
     },
     {
       "batch": 4,
@@ -246,7 +252,7 @@
     "G7_LIVE_READBACK"
   ],
   "publication_policy": "Publish immediately after all gates pass; no WordPress draft; category drift or duplicate holds on GitHub",
-  "last_reconciled_at": "2026-10-21T17:12:57.397595+00:00",
+  "last_reconciled_at": "2026-10-21T19:41:50.019430+00:00",
   "last_live_reconciliation": {
     "checked_at": "2026-10-20T09:33:16.484Z",
     "wordpress_category": {
@@ -284,5 +290,5 @@
   },
   "existing_wordpress_collisions": 0,
   "published_existing_articles": 3,
-  "published_live_ward_articles": 6
+  "published_live_ward_articles": 9
 }
