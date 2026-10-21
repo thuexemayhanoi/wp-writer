@@ -28603,6 +28603,25 @@
         "seo_description": "Cảnh sát giao thông thu tiền phạt tại chỗ chỉ ở vùng khó khăn hoặc ngoài giờ hành chính, phải nộp Kho bạc trong 07 ngày hoặc 02 ngày làm việc và giao chứng từ thu tiền.",
         "checked_at": "2026-10-21T14:55:48.322801+00:00"
       }
+    },
+    "NT-001392": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T14:56:00.827898+00:00",
+      "source_hash": "8db22b37a9bedbded8c1fba420adb6ffd7f0032e38bfb6baaae17dbbfd06df2c",
+      "slug": "gio-cam-xe-tai-trong-noi-do-ha-noi-6h-9h-16h-19h30-va-xe-ban-tai-24-24-theo-quyet-dinh-52",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 176,
+      "visible_hash": "4ab0e0ac7beb150a55d4e189fb53de80769b973d2838a74f65de4c78eba8734c",
+      "first_paragraph": "Giờ cấm xe tải trong nội đô Hà Nội phụ thuộc vào trọng tải: theo VTV (15/1/2026), giờ cao điểm là 6h–9h và 16h–19h30 hằng ngày, xe tải dưới 2 tấn chỉ được hoạt động ngoài giờ cao điểm còn xe tải từ 2 tấn trở lên chỉ hoạt động từ 21h đến 6h hôm sau; theo Cổng thông tin điện tử Hà Nội (4/5/2026), Quyết định 52/2026/QĐ-UBND ký ngày 30/4/2026 sửa câu về xe tải dưới 2 tấn (trong giờ cao điểm phải được Công an thành phố chấp thuận bằng văn bản) và bổ sung xe ô tô tải pickup, thường gọi là xe bán tải, được hoạt động 24/24h. Mức 21h–6h cho xe từ 2 tấn đến từ bản tin tháng 1 và chưa được đối chiếu với văn bản gốc.",
+      "meta_title": "Giờ cấm xe tải trong nội đô Hà Nội: 6h–9h, 16h–19h30 và xe bán tải",
+      "meta_description": "Giờ cấm xe tải trong nội đô Hà Nội: giờ cao điểm 6h–9h, 16h–19h30, xe dưới 2 tấn, xe từ 2 tấn và xe bán tải 24/24h theo Quyết định 52, kèm chỗ nguồn còn lệch.",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "98d66420ecdf9ed940584762b90f7fcdd5d15993",
+      "run_id": "39619876214",
+      "updated_at": "2026-10-21T14:56:00.829699+00:00"
     }
   },
   "categories": {}
