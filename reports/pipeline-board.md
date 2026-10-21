@@ -1,16 +1,16 @@
 # Pipeline board
 
-Generated 2026-10-21T09:10:07.070722+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-21T09:16:15.449501+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
-| WRITING | 17 |
+| WRITING | 12 |
 | QA | 0 |
 | READY | 0 |
 | REPAIR | 0 |
 | HELD | 3 |
 | PUBLISHING | 0 |
-| VERIFIED | 503 |
+| VERIFIED | 508 |
 
 Ready backlog (QA PASS waiting for the Publisher): **0**
 
@@ -18,20 +18,15 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 
 | Topic | State | Slot | Session | Reason |
 |---|---|---|---|---|
-| NT-001161 | WRITING | W1 | seodev-w54 | leased to seodev-w54 |
 | NT-001162 | WRITING | W1 | seodev-w54 | leased to seodev-w54 |
 | NT-001163 | WRITING | W1 | seodev-w54 | leased to seodev-w54 |
 | NT-001164 | WRITING | W1 | seodev-w54 | leased to seodev-w54 |
 | NT-001165 | WRITING | W1 | seodev-w54 | leased to seodev-w54 |
-| NT-001166 | WRITING | W1 | seodev-w54 | leased to seodev-w54 |
-| NT-001167 | WRITING | W1 | seodev-w54 | leased to seodev-w54 |
 | NT-001168 | WRITING | W1 | seodev-w54 | leased to seodev-w54 |
 | NT-001169 | WRITING | W1 | seodev-w54 | leased to seodev-w54 |
 | NT-001170 | WRITING | W1 | seodev-w54 | leased to seodev-w54 |
-| NT-001193 | WRITING | W4 | seodev-w53 | leased to seodev-w53 |
 | NT-001194 | WRITING | W4 | seodev-w53 | leased to seodev-w53 |
 | NT-001195 | WRITING | W4 | seodev-w53 | leased to seodev-w53 |
-| NT-001198 | WRITING | W4 | seodev-w53 | leased to seodev-w53 |
 | NT-001199 | WRITING | W4 | seodev-w53 | leased to seodev-w53 |
 | NT-090004 | WRITING | W2 | s-gpt6-excelpilot02-20261021 | leased to s-gpt6-excelpilot02-20261021 |
 | NT-090006 | WRITING | W2 | s-gpt6-excelpilot02-20261021 | leased to s-gpt6-excelpilot02-20261021 |

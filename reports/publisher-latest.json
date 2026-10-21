@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-21T09:10:00.653754+00:00",
-  "attempted": 3,
+  "at": "2026-10-21T09:16:09.400275+00:00",
+  "attempted": 5,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -180,11 +180,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T09:07:54.275051+00:00",
+      "at": "2026-10-21T09:13:02.443023+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "71e1dd1cf7923a752ebdf09f089eac104e3df2b759d67b269a7b8d01a8f2fff8",
+      "inventory_sha256": "50de905d30e5d30276cc2dd20b9ec938cec58fe13b7d099c61a161d35b6c2037",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -350,11 +350,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T09:08:01.369683+00:00",
+      "at": "2026-10-21T09:13:09.751047+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "71e1dd1cf7923a752ebdf09f089eac104e3df2b759d67b269a7b8d01a8f2fff8",
+      "inventory_sha256": "50de905d30e5d30276cc2dd20b9ec938cec58fe13b7d099c61a161d35b6c2037",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -529,11 +529,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T09:08:07.509396+00:00",
+      "at": "2026-10-21T09:13:16.076015+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "71e1dd1cf7923a752ebdf09f089eac104e3df2b759d67b269a7b8d01a8f2fff8",
+      "inventory_sha256": "50de905d30e5d30276cc2dd20b9ec938cec58fe13b7d099c61a161d35b6c2037",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -553,15 +553,31 @@
       }
     },
     {
-      "topic_id": "NT-001140",
+      "topic_id": "NT-001161",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 176,
+      "category_id": 170,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "urban-mobility",
+      "intended_taxonomy_key": "engine-care",
       "category_warning": null
     },
     {
-      "topic_id": "NT-001192",
+      "topic_id": "NT-001166",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 170,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "engine-care",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001167",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 170,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "engine-care",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001193",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 161,
       "category_resolution": "EXACT",
@@ -569,7 +585,7 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001197",
+      "topic_id": "NT-001198",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 161,
       "category_resolution": "EXACT",

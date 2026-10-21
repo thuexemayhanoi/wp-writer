@@ -1,29 +1,17 @@
 {
-  "at": "2026-10-21T09:10:07.070722+00:00",
+  "at": "2026-10-21T09:16:15.449501+00:00",
   "counts": {
-    "WRITING": 17,
+    "WRITING": 12,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 503
+    "VERIFIED": 508
   },
   "ready_backlog": 0,
-  "in_flight": 20,
+  "in_flight": 15,
   "items": [
-    {
-      "topic_id": "NT-001161",
-      "state": "WRITING",
-      "reason": "leased to seodev-w54",
-      "title": "Xe máy khó nổ khi trời lạnh: vì sao nổ không đều, đóng le gió và cách đề đúng khi máy nguội",
-      "slot": "W1",
-      "session": "seodev-w54",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-001162",
       "state": "WRITING",
@@ -73,30 +61,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001166",
-      "state": "WRITING",
-      "reason": "leased to seodev-w54",
-      "title": "Xe máy chế hòa khí và phun xăng điện tử: khác cách cấp xăng, lúc khởi động lạnh và mức tiết kiệm",
-      "slot": "W1",
-      "session": "seodev-w54",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001167",
-      "state": "WRITING",
-      "reason": "leased to seodev-w54",
-      "title": "Nhớt ô tô đổ cho xe máy được không: vì sao côn ướt cần JASO MA, MB và khi cạn nhớt thì sao",
-      "slot": "W1",
-      "session": "seodev-w54",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001168",
       "state": "WRITING",
       "reason": "leased to seodev-w54",
@@ -133,18 +97,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001193",
-      "state": "WRITING",
-      "reason": "leased to seodev-w53",
-      "title": "Đèn pha xe máy tắt giữa đường: giảm tốc, tấp vào chỗ an toàn, báo hiệu và vì sao không nên chạy tiếp ban đêm",
-      "slot": "W4",
-      "session": "seodev-w53",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001194",
       "state": "WRITING",
       "reason": "leased to seodev-w53",
@@ -161,18 +113,6 @@
       "state": "WRITING",
       "reason": "leased to seodev-w53",
       "title": "Tránh va chạm trực diện khi đi xe máy: phanh mạnh, bóp còi, tìm lối thoát bên phải và không đánh lái sang làn ngược",
-      "slot": "W4",
-      "session": "seodev-w53",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001198",
-      "state": "WRITING",
-      "reason": "leased to seodev-w53",
-      "title": "Dùng điện thoại khi lái xe máy: gắn giá đỡ xem bản đồ có bị phạt không, mức phạt 800.000–1.000.000 đồng và trừ 4 điểm",
       "slot": "W4",
       "session": "seodev-w53",
       "wp_id": null,
@@ -5917,6 +5857,42 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001161",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe máy khó nổ khi trời lạnh: vì sao nổ không đều, đóng le gió và cách đề đúng khi máy nguội",
+      "slot": "W1",
+      "session": "seodev-w54",
+      "wp_id": 4518,
+      "url": "https://thuexemaynguyentu.com/xe-may-kho-no-khi-troi-lanh-vi-sao-no-khong-deu-dong-le-gio-va-cach-de-dung-khi-may-nguoi/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001166",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe máy chế hòa khí và phun xăng điện tử: khác cách cấp xăng, lúc khởi động lạnh và mức tiết kiệm",
+      "slot": "W1",
+      "session": "seodev-w54",
+      "wp_id": 4520,
+      "url": "https://thuexemaynguyentu.com/xe-may-che-hoa-khi-va-phun-xang-dien-tu-khac-cach-cap-xang-luc-khoi-dong-lanh-va-muc-tiet-kiem/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001167",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Nhớt ô tô đổ cho xe máy được không: vì sao côn ướt cần JASO MA, MB và khi cạn nhớt thì sao",
+      "slot": "W1",
+      "session": "seodev-w54",
+      "wp_id": 4522,
+      "url": "https://thuexemaynguyentu.com/nhot-o-to-do-cho-xe-may-duoc-khong-vi-sao-con-uot-can-jaso-ma-mb-va-khi-can-nhot-thi-sao/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001181",
       "state": "VERIFIED",
       "reason": "publish",
@@ -6061,6 +6037,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001193",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đèn pha xe máy tắt giữa đường: giảm tốc, tấp vào chỗ an toàn, báo hiệu và vì sao không nên chạy tiếp ban đêm",
+      "slot": "W4",
+      "session": "seodev-w53",
+      "wp_id": 4523,
+      "url": "https://thuexemaynguyentu.com/den-pha-xe-may-tat-giua-duong-giam-toc-tap-vao-cho-an-toan-bao-hieu-va-vi-sao-khong-nen-chay-tiep-ban-dem/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001196",
       "state": "VERIFIED",
       "reason": "publish",
@@ -6081,6 +6069,18 @@
       "session": "seodev-w53",
       "wp_id": 4517,
       "url": "https://thuexemaynguyentu.com/cam-o-khi-di-xe-may-dieu-33-luat-36-2024-cam-su-dung-o-nguoi-lai-bi-phat-800-000-1-000-000-dong-va-tru-4-diem/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001198",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Dùng điện thoại khi lái xe máy: gắn giá đỡ xem bản đồ có bị phạt không, mức phạt 800.000–1.000.000 đồng và trừ 4 điểm",
+      "slot": "W4",
+      "session": "seodev-w53",
+      "wp_id": 4524,
+      "url": "https://thuexemaynguyentu.com/dung-dien-thoai-khi-lai-xe-may-gan-gia-do-xem-ban-do-co-bi-phat-khong-muc-phat-800-000-1-000-000-dong-va-tru-4-diem/",
       "qa_status": "PASS",
       "seo_score": 100
     },
