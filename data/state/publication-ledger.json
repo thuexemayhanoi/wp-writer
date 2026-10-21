@@ -28850,7 +28850,7 @@
       }
     },
     "NT-001397": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T15:03:34.028521+00:00",
       "source_hash": "ad362e1c31fc4c90acb20ce372d6ac7bb1197237eb284a5a5ea6243f17d5786b",
       "slug": "buyt-toi-khu-cong-nghe-cao-hoa-lac-9-tuyen-e06tc-va-e07tc-tu-1-3-2026-tan-suat-10-30-phut",
@@ -28866,8 +28866,37 @@
       "category_warning": null,
       "git_commit": "018dfb7385f0f5a57cff206cc8daa1c2fbd7645c",
       "run_id": "39621413630",
-      "updated_at": "2026-10-21T15:03:39.132450+00:00",
-      "wp_id": 4654
+      "updated_at": "2026-10-21T15:03:45.378753+00:00",
+      "wp_id": 4654,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/buyt-toi-khu-cong-nghe-cao-hoa-lac-9-tuyen-e06tc-va-e07tc-tu-1-3-2026-tan-suat-10-30-phut/",
+      "verified_at": "2026-10-21T15:03:45.378746+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4654,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/buyt-toi-khu-cong-nghe-cao-hoa-lac-9-tuyen-e06tc-va-e07tc-tu-1-3-2026-tan-suat-10-30-phut/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/buyt-toi-khu-cong-nghe-cao-hoa-lac-9-tuyen-e06tc-va-e07tc-tu-1-3-2026-tan-suat-10-30-phut/",
+        "seo_title": "Buýt tới Khu công nghệ cao Hòa Lạc: 9 tuyến, E06TC và E07TC",
+        "seo_description": "Buýt tới Khu công nghệ cao Hòa Lạc theo bản tin đầu tháng 3/2026: 9 tuyến, hai tuyến điện E06TC và E07TC chạy 5h–21h, tần suất 10–30 phút và chỗ lệch nguồn về giá vé.",
+        "checked_at": "2026-10-21T15:03:45.378729+00:00"
+      }
     }
   },
   "categories": {}
