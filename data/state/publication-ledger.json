@@ -20471,7 +20471,7 @@
       }
     },
     "NT-000742": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:28:28.807765+00:00",
       "source_hash": "4c6beeebb95fdefe1b432a622f34130da8dbd91bc919db80386a34b7b39337cb",
       "slug": "phong-nha-trong-mot-hai-ngay-hang-phong-nha-thien-duong-hay-hang-toi-va-vong-bong-lai-15-km",
@@ -20487,8 +20487,37 @@
       "category_warning": null,
       "git_commit": "893f6a71f41112399a056137c6ccd46ca125a3cd",
       "run_id": "39543790252",
-      "updated_at": "2026-10-21T04:28:32.748478+00:00",
-      "wp_id": 4434
+      "updated_at": "2026-10-21T04:28:38.706582+00:00",
+      "wp_id": 4434,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/phong-nha-trong-mot-hai-ngay-hang-phong-nha-thien-duong-hay-hang-toi-va-vong-bong-lai-15-km/",
+      "verified_at": "2026-10-21T04:28:38.706574+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4434,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/phong-nha-trong-mot-hai-ngay-hang-phong-nha-thien-duong-hay-hang-toi-va-vong-bong-lai-15-km/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/phong-nha-trong-mot-hai-ngay-hang-phong-nha-thien-duong-hay-hang-toi-va-vong-bong-lai-15-km/",
+        "seo_title": "Phong Nha trong một hai ngày: chọn hang nào và vòng Bồng Lai 15 km",
+        "seo_description": "Phong Nha trong một hai ngày: hang Phong Nha và động Thiên Đường là tour nửa ngày, Hang Tối có kayak, vòng Bồng Lai 15 km, các hang cần nhiều ngày và cách đến Phong Nha.",
+        "checked_at": "2026-10-21T04:28:38.706530+00:00"
+      }
     }
   },
   "categories": {}
