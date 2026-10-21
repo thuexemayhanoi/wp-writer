@@ -1,0 +1,311 @@
+{
+  "topic_id": "NT-001122",
+  "status": "PASS",
+  "source_sha256": "fdd1c5263768aaf29fa8c922310891684a1e10a807e433bec7178b44267c2704",
+  "body_sha256": "56067b8e4e7d773d61cadbab0e8a530cf3ac817f34c59f50a91129443bccd054",
+  "word_count": 2351,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://tuoitre.vn/san-bay-noi-bai-mo-luong-nhap-canh-rieng-cho-khach-viet-sap-xep-lai-diem-don-xe-tu-3-8-100260802150546059.htm",
+      "supports": "Tuổi Trẻ (2/8/2026): xe đón người thân ở T1 chờ ở bãi P1, vào làn số 3 tầng 1 khi hành khách đã ra ngoài và chỉ dừng tối đa 5 phút.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/san-bay-noi-bai-mo-luong-nhap-canh-rieng-cho-khach-viet-sap-xep-lai-diem-don-xe-tu-3-8-100260802150546059.htm",
+      "supports": "Cùng bài Tuổi Trẻ: xe cá nhân đón ở T2 chờ ở bãi P3, vào làn số 1, điểm đón từ cột 1 đến 5 và từ cột 11 đến 20.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/san-bay-noi-bai-mo-luong-nhap-canh-rieng-cho-khach-viet-sap-xep-lai-diem-don-xe-tu-3-8-100260802150546059.htm",
+      "supports": "Cùng bài Tuổi Trẻ: xe trả khách ở cả hai nhà ga dừng tối đa 5 phút, tài xế không rời xe quá 2 m.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/san-bay-noi-bai-mo-luong-nhap-canh-rieng-cho-khach-viet-sap-xep-lai-diem-don-xe-tu-3-8-100260802150546059.htm",
+      "supports": "Cùng bài Tuổi Trẻ: khuyến cáo người đón và người được đón thống nhất trước số làn, số cột và kiểm tra giờ bay.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://caa.gov.vn/hoat-dong-nganh/cang-hang-khong-quoc-te-noi-bai-chinh-thuc-ap-dung-phuong-an-phan-luong-giao-thong-moi-20260803081557831.htm",
+      "supports": "Cục Hàng không Việt Nam (3/8/2026): sảnh đi tầng 3 T2 có 5 làn, dải phân cách cố định, dừng trả khách tối đa 5 phút, tài xế không rời xe quá 2 m.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/san-bay-noi-bai-thay-doi-phuong-an-don-tra-khach-5104168.html",
+      "supports": "VnExpress (2/8/2026): xe cá nhân dưới 9 chỗ đón khách tại khu vực P1 ở T1, dừng không quá 5 phút; sảnh đi T1 tầng 2 có 4 làn.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/hanh-khach-chat-vat-don-xe-cong-nghe-tai-san-bay-noi-bai-5105388.html",
+      "supports": "VnExpress (5/8/2026): điều chỉnh ở T1 cho xe dịch vụ biển vàng vào làn 3 trước sảnh E, thời gian dừng tối đa 3 phút.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/sau-gop-y-cua-hanh-khach-san-bay-noi-bai-dieu-chinh-lan-don-xe-dich-vu-tai-nha-ga-t1-100260805113632289.htm",
+      "supports": "Tuổi Trẻ (5/8/2026): mỗi xe dừng tại làn 3 tối đa 3 phút để đón khách sau điều chỉnh.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baochinhphu.vn/lap-lai-trat-tu-giao-thong-tai-san-bay-noi-bai-102260815104425085.htm",
+      "supports": "Báo Điện tử Chính phủ (15/8/2026): Công an cửa khẩu cho biết phương án một chiều đang được triển khai ở bãi P1, P2 của T1.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://caa.gov.vn/hoat-dong-nganh/cang-hang-khong-quoc-te-noi-bai-chinh-thuc-ap-dung-phuong-an-phan-luong-giao-thong-moi-20260803081557831.htm",
+      "supports": "Cục Hàng không Việt Nam (3/8/2026): sảnh đến tầng 1 nhà ga T2 chia 6 làn theo công năng; đơn vị đón khách thường xuyên phải đăng ký với cảng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/hanh-khach-chat-vat-don-xe-cong-nghe-tai-san-bay-noi-bai-5105388.html",
+      "supports": "VnExpress (5/8/2026): khu sảnh đón ở T2 chỉ dành cho xe cá nhân, taxi sân bay, xe ưu tiên và một số nhóm khác.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://noibaiairport.vn/vi/Phuong-tien-van-chuyen-cong-cong-nid260.html",
+      "supports": "Trang hướng dẫn đi lại của Cảng hàng không quốc tế Nội Bài (không ghi ngày): T1 phục vụ chuyến bay nội địa, T2 chuyến bay quốc tế.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://tuoitre.vn/san-bay-noi-bai-mo-luong-nhap-canh-rieng-cho-khach-viet-sap-xep-lai-diem-don-xe-tu-3-8-100260802150546059.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/san-bay-noi-bai-mo-luong-nhap-canh-rieng-cho-khach-viet-sap-xep-lai-diem-don-xe-tu-3-8-100260802150546059.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/san-bay-noi-bai-mo-luong-nhap-canh-rieng-cho-khach-viet-sap-xep-lai-diem-don-xe-tu-3-8-100260802150546059.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/san-bay-noi-bai-mo-luong-nhap-canh-rieng-cho-khach-viet-sap-xep-lai-diem-don-xe-tu-3-8-100260802150546059.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://caa.gov.vn/hoat-dong-nganh/cang-hang-khong-quoc-te-noi-bai-chinh-thuc-ap-dung-phuong-an-phan-luong-giao-thong-moi-20260803081557831.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/san-bay-noi-bai-thay-doi-phuong-an-don-tra-khach-5104168.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/hanh-khach-chat-vat-don-xe-cong-nghe-tai-san-bay-noi-bai-5105388.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/sau-gop-y-cua-hanh-khach-san-bay-noi-bai-dieu-chinh-lan-don-xe-dich-vu-tai-nha-ga-t1-100260805113632289.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baochinhphu.vn/lap-lai-trat-tu-giao-thong-tai-san-bay-noi-bai-102260815104425085.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://caa.gov.vn/hoat-dong-nganh/cang-hang-khong-quoc-te-noi-bai-chinh-thuc-ap-dung-phuong-an-phan-luong-giao-thong-moi-20260803081557831.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/hanh-khach-chat-vat-don-xe-cong-nghe-tai-san-bay-noi-bai-5105388.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://noibaiairport.vn/vi/Phuong-tien-van-chuyen-cong-cong-nid260.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 943,
+        "title": "Phố Cổ Hà Nội – Nơi Giao Thoa Văn Hóa Độc Đáo",
+        "why": "stale",
+        "content_hash": "94ed04161842457043a170418b41d6c31cc9b9522a3b85831cffd732ec7d987c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2413,
+        "title": "Honda ICON e: có cần bằng lái không và ai nên sử dụng mẫu xe này?",
+        "why": "stale",
+        "content_hash": "1cec213da2c026074a8eef073c5eee4f24e6a5ee5a39071584bb8e1f1a96c4a5",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:46:24.783704+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "bd2ee8b6372c2d8cc582650b67161ea477ec2bfec863898f6166e15bc2030b09",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

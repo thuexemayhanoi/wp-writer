@@ -1,0 +1,195 @@
+{
+  "topic_id": "NT-001184",
+  "status": "PASS",
+  "source_sha256": "57ed0730ce839a9870585b23c437a88f20b5c4f4203db33b26335a4b7200660c",
+  "body_sha256": "e0d97269f4b80649e9fca7bb5caac00f0bea3ceb2d97ce3878f378264030a604",
+  "word_count": 1948,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/you-and-your-motorcycle/wearing-the-right-gear",
+      "supports": "NZTA (New Zealand): xà phòng và nước là cách làm sạch mũ tốt nhất; không dùng xăng, cồn công nghiệp hay dung môi vì làm yếu vỏ và lớp lót; không dùng sơn hay nhãn dán có keo không phù hợp; lót tháo rời để giặt.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sharp.dft.gov.uk/helmet-care/",
+      "supports": "SHARP (Bộ Giao thông Anh): cất mũ trong túi, không úp mũ hay để gần nguồn nhiệt; lịch lau kính, thông gió, má mũ và bên trong; sơn và dán decal nên giao cho người chuyên nghiệp.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://smf.org/faq",
+      "supports": "Snell Memorial Foundation (FAQ): chỉ dùng nước xà phòng nhẹ cho miếng lót bên trong, không dùng hóa chất làm sạch, không sơn lại bằng sơn nhà sản xuất chưa cho phép; không để vật cứng hay nguồn nhiệt gần lớp xốp.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/you-and-your-motorcycle/wearing-the-right-gear",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sharp.dft.gov.uk/helmet-care/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://smf.org/faq",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2386,
+        "title": "VinFast Feliz có đáng chọn không? Đánh giá cho nhu cầu đi phố",
+        "why": "stale",
+        "content_hash": "a3637271d9bad8c67714cc0bffca79e91d1c48a7321fc939ba1ba40b5b7bf7cc",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2513,
+        "title": "Dấu hiệu má phanh xe máy cần thay và cách kiểm tra an toàn hằng ngày",
+        "why": "stale",
+        "content_hash": "f1040fa1950d3342eebff669b05d5319f4be2c2517c80ecddf1b4b239e6f5f16",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2580,
+        "title": "Đi Hà Nội nên chọn xe ga hay xe số để di chuyển thuận tiện hơn?",
+        "why": "stale",
+        "content_hash": "6aa38b717367fc0077cddd4330e078e59294b75c84a725df25d0c1ffd299712f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2584,
+        "title": "Honda Vision có phù hợp khách du lịch di chuyển trong Hà Nội không?",
+        "why": "stale",
+        "content_hash": "1b0da83421e494f9d8ee85b9bcd1582804c1209b75ed3f4defded42f09ef81f1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2610,
+        "title": "Top địa điểm du lịch đẹp ở Hà Nội: Đi đâu, chơi gì và check-in ở đâu?",
+        "why": "stale",
+        "content_hash": "aa42ffbfca0e3b4188fde1e3cf3a06d9f9b9496580487304e5dbbd316db1a856",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:43:48.997000+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "d1ad281e7af7824de91886dbf2e24a2d3116af69754bb81d52b37fd330bb00a0",
+  "incremental_key": "7552070e57dc109b5ce481599d73059a5eade293072cbbdf4428b1c63e984c36",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
