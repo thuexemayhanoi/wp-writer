@@ -23166,7 +23166,7 @@
       }
     },
     "NT-001217": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T05:19:16.313261+00:00",
       "source_hash": "cfce0adf43ea329c6643fd24f5bfc2206a35eeb99b9d2db552811c06ba7f52a4",
       "slug": "qcvn-30-2026-bxd-ve-dong-co-xe-may-dien-ghi-nhan-sai-lech-cong-suat-5-va-cac-phep-thu-bat-buoc",
@@ -23182,8 +23182,37 @@
       "category_warning": null,
       "git_commit": "4022a17feb60320613408b0d829a96e6ba1aebaa",
       "run_id": "39548159025",
-      "updated_at": "2026-10-21T05:19:20.669522+00:00",
-      "wp_id": 4493
+      "updated_at": "2026-10-21T05:19:26.989146+00:00",
+      "wp_id": 4493,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/qcvn-30-2026-bxd-ve-dong-co-xe-may-dien-ghi-nhan-sai-lech-cong-suat-5-va-cac-phep-thu-bat-buoc/",
+      "verified_at": "2026-10-21T05:19:26.989141+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4493,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/qcvn-30-2026-bxd-ve-dong-co-xe-may-dien-ghi-nhan-sai-lech-cong-suat-5-va-cac-phep-thu-bat-buoc/",
+        "categories": [
+          157
+        ],
+        "canonical": "https://thuexemaynguyentu.com/qcvn-30-2026-bxd-ve-dong-co-xe-may-dien-ghi-nhan-sai-lech-cong-suat-5-va-cac-phep-thu-bat-buoc/",
+        "seo_title": "QCVN 30:2026/BXD về động cơ xe máy điện: ghi nhãn, công suất ±5%",
+        "seo_description": "QCVN 30:2026/BXD về động cơ xe máy điện, hiệu lực 09/10/2026: ghi nhãn điện áp, công suất, sai lệch ±5% so với đăng ký, hiệu suất, cách điện, độ tăng nhiệt, bảo vệ bộ điều khiển.",
+        "checked_at": "2026-10-21T05:19:26.989125+00:00"
+      }
     }
   },
   "categories": {}
