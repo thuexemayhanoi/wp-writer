@@ -21,28 +21,15 @@
       "taxonomy_key": "hanoi-ward-rentals",
       "research_status": "PLANNED_RESEARCH_PASS",
       "writer_qa_status": "FAIL",
-      "publication_status": "EXISTING_WORDPRESS_NEEDS_RECONCILIATION",
+      "publication_status": "WORDPRESS_EXISTING_LIVE_VERIFIED",
       "topic_id": "NT-001101",
-      "wp_post_id": null,
+      "wp_post_id": 4344,
       "campaign_id": "HN-51-WARDS",
       "wp_exact_slug_check": "NO_EXACT_PUBLISHED_POST_SLUG_COLLISION",
       "wp_exact_slug_checked_at": "2026-10-20",
       "intent_collision_check": "RESEARCH_QA_PASS_RECHECK_BEFORE_PUBLICATION",
-      "existing_wp_collision": {
-        "match_count": 1,
-        "wp_ids": [
-          4344
-        ],
-        "urls": [
-          "https://thuexemaynguyentu.com/thue-xe-may-phuong-bo-de-chon-honda-vision-hay-wave/"
-        ],
-        "category_ids": [
-          [
-            182
-          ]
-        ],
-        "warning": "Verify existing post taxonomy and SEO; never duplicate WordPress content or forge a factory G7 receipt."
-      }
+      "wp_permalink": "https://thuexemaynguyentu.com/thue-xe-may-phuong-bo-de-chon-honda-vision-hay-wave/",
+      "existing_live_verified_at": "2026-10-21T16:57:00Z"
     },
     {
       "batch": 1,
@@ -53,28 +40,15 @@
       "taxonomy_key": "hanoi-ward-rentals",
       "research_status": "PLANNED_RESEARCH_PASS",
       "writer_qa_status": "FAIL",
-      "publication_status": "EXISTING_WORDPRESS_NEEDS_RECONCILIATION",
+      "publication_status": "WORDPRESS_EXISTING_LIVE_VERIFIED",
       "topic_id": "NT-001102",
-      "wp_post_id": null,
+      "wp_post_id": 4345,
       "campaign_id": "HN-51-WARDS",
       "wp_exact_slug_check": "NO_EXACT_PUBLISHED_POST_SLUG_COLLISION",
       "wp_exact_slug_checked_at": "2026-10-20",
       "intent_collision_check": "RESEARCH_QA_PASS_RECHECK_BEFORE_PUBLICATION",
-      "existing_wp_collision": {
-        "match_count": 1,
-        "wp_ids": [
-          4345
-        ],
-        "urls": [
-          "https://thuexemaynguyentu.com/thue-xe-may-phuong-cua-nam-air-blade-goi-ngay-tuan/"
-        ],
-        "category_ids": [
-          [
-            182
-          ]
-        ],
-        "warning": "Verify existing post taxonomy and SEO; never duplicate WordPress content or forge a factory G7 receipt."
-      }
+      "wp_permalink": "https://thuexemaynguyentu.com/thue-xe-may-phuong-cua-nam-air-blade-goi-ngay-tuan/",
+      "existing_live_verified_at": "2026-10-21T16:57:00Z"
     },
     {
       "batch": 1,
@@ -85,28 +59,15 @@
       "taxonomy_key": "hanoi-ward-rentals",
       "research_status": "PLANNED_RESEARCH_PASS",
       "writer_qa_status": "FAIL",
-      "publication_status": "EXISTING_WORDPRESS_NEEDS_RECONCILIATION",
+      "publication_status": "WORDPRESS_EXISTING_LIVE_VERIFIED",
       "topic_id": "NT-001103",
-      "wp_post_id": null,
+      "wp_post_id": 4346,
       "campaign_id": "HN-51-WARDS",
       "wp_exact_slug_check": "NO_EXACT_PUBLISHED_POST_SLUG_COLLISION",
       "wp_exact_slug_checked_at": "2026-10-20",
       "intent_collision_check": "RESEARCH_QA_PASS_RECHECK_BEFORE_PUBLICATION",
-      "existing_wp_collision": {
-        "match_count": 1,
-        "wp_ids": [
-          4346
-        ],
-        "urls": [
-          "https://thuexemaynguyentu.com/thue-xe-may-phuong-hoan-kiem-di-pho-co-chon-xe-ga-xe-so-50cc/"
-        ],
-        "category_ids": [
-          [
-            182
-          ]
-        ],
-        "warning": "Verify existing post taxonomy and SEO; never duplicate WordPress content or forge a factory G7 receipt."
-      }
+      "wp_permalink": "https://thuexemaynguyentu.com/thue-xe-may-phuong-hoan-kiem-di-pho-co-chon-xe-ga-xe-so-50cc/",
+      "existing_live_verified_at": "2026-10-21T16:57:00Z"
     },
     {
       "batch": 2,
@@ -285,7 +246,7 @@
     "G7_LIVE_READBACK"
   ],
   "publication_policy": "Publish immediately after all gates pass; no WordPress draft; category drift or duplicate holds on GitHub",
-  "last_reconciled_at": "2026-10-21T16:59:13.918024+00:00",
+  "last_reconciled_at": "2026-10-21T17:12:57.397595+00:00",
   "last_live_reconciliation": {
     "checked_at": "2026-10-20T09:33:16.484Z",
     "wordpress_category": {
@@ -321,5 +282,7 @@
     "publisher_policy_observed": "config/production-policy.json publisher_pilot=null; no policy changes made by this automation",
     "source_of_truth": "GitHub main and authenticated WordPress REST; source fetch attempts failed"
   },
-  "existing_wordpress_collisions": 3
+  "existing_wordpress_collisions": 0,
+  "published_existing_articles": 3,
+  "published_live_ward_articles": 6
 }
