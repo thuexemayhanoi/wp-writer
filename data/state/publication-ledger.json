@@ -22725,7 +22725,7 @@
       }
     },
     "NT-001214": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T05:10:17.874471+00:00",
       "source_hash": "7ef66c011f1f520272b49a0262b2e197c87c309b1f56242d9904a2a56ac5e9ad",
       "slug": "mien-le-phi-truoc-ba-xe-may-dang-ky-tu-lan-hai-dieu-kien-vneid-muc-2-hieu-luc-15-8-2026-den-28-2-2027",
@@ -22741,8 +22741,37 @@
       "category_warning": null,
       "git_commit": "39eecb2c3f896cdeaa550308288f4f72884c65a6",
       "run_id": "39547230986",
-      "updated_at": "2026-10-21T05:10:21.997919+00:00",
-      "wp_id": 4484
+      "updated_at": "2026-10-21T05:10:28.141096+00:00",
+      "wp_id": 4484,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/mien-le-phi-truoc-ba-xe-may-dang-ky-tu-lan-hai-dieu-kien-vneid-muc-2-hieu-luc-15-8-2026-den-28-2-2027/",
+      "verified_at": "2026-10-21T05:10:28.141089+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4484,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/mien-le-phi-truoc-ba-xe-may-dang-ky-tu-lan-hai-dieu-kien-vneid-muc-2-hieu-luc-15-8-2026-den-28-2-2027/",
+        "categories": [
+          159
+        ],
+        "canonical": "https://thuexemaynguyentu.com/mien-le-phi-truoc-ba-xe-may-dang-ky-tu-lan-hai-dieu-kien-vneid-muc-2-hieu-luc-15-8-2026-den-28-2-2027/",
+        "seo_title": "Miễn lệ phí trước bạ xe máy đăng ký từ lần hai: điều kiện VNeID mức 2",
+        "seo_description": "Miễn lệ phí trước bạ xe máy đăng ký từ lần hai từ 15/8/2026 đến 28/2/2027: giảm 100% so với mức 1%, điều kiện VNeID mức 2, trần 12,65 triệu đồng.",
+        "checked_at": "2026-10-21T05:10:28.141073+00:00"
+      }
     }
   },
   "categories": {}
