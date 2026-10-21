@@ -1,41 +1,17 @@
 {
-  "at": "2026-10-21T04:14:40.693316+00:00",
+  "at": "2026-10-21T04:23:37.373897+00:00",
   "counts": {
-    "WRITING": 30,
+    "WRITING": 21,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 425
+    "VERIFIED": 434
   },
   "ready_backlog": 0,
-  "in_flight": 33,
+  "in_flight": 24,
   "items": [
-    {
-      "topic_id": "NT-000732",
-      "state": "WRITING",
-      "reason": "leased to seodev-w46",
-      "title": "Xe máy qua hầm Hải Vân: vì sao phải leo đèo 20 km mất 45–60 phút và dịch vụ vận chuyển xe",
-      "slot": "W9",
-      "session": "seodev-w46",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000734",
-      "state": "WRITING",
-      "reason": "leased to seodev-w46",
-      "title": "Điện Biên Phủ trong một ngày: đồi A1, hầm Đờ Cát, bảo tàng và Mường Phăng cách nhau bao xa",
-      "slot": "W9",
-      "session": "seodev-w46",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-000736",
       "state": "WRITING",
@@ -53,30 +29,6 @@
       "state": "WRITING",
       "reason": "leased to seodev-w46",
       "title": "Đồi cát Bàu Trắng bằng xe máy: đi dọc biển từ Mũi Né hay quốc lộ 1A rẽ Lương Sơn từ Phan Thiết",
-      "slot": "W9",
-      "session": "seodev-w46",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000739",
-      "state": "WRITING",
-      "reason": "leased to seodev-w46",
-      "title": "Đèo Ô Quy Hồ bằng xe máy: gần 50 km trên quốc lộ 4D, đỉnh Cổng Trời và hai sườn chênh nhiệt độ",
-      "slot": "W9",
-      "session": "seodev-w46",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000740",
-      "state": "WRITING",
-      "reason": "leased to seodev-w46",
-      "title": "Lăng tẩm Huế nửa ngày hay hai ngày: chọn lăng nào và đoạn đường xe máy tới lăng Gia Long",
       "slot": "W9",
       "session": "seodev-w46",
       "wp_id": null,
@@ -109,18 +61,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-000879",
-      "state": "WRITING",
-      "reason": "leased to seodev-w41",
-      "title": "Xe máy bị đổ khi đang dừng: tắt khóa điện trước, dựng xe lên thế nào và kiểm tra gì trước khi chạy tiếp theo Honda",
-      "slot": "W4",
-      "session": "seodev-w41",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-000880",
       "state": "WRITING",
       "reason": "leased to seodev-w41",
@@ -145,46 +85,10 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-000903",
-      "state": "WRITING",
-      "reason": "leased to seodev-w47",
-      "title": "Giờ nào dễ buồn ngủ nhất khi chạy xe máy: khung 0–6 giờ sáng, giữa chiều và cách xếp giờ xuất phát",
-      "slot": "W3",
-      "session": "seodev-w47",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000904",
-      "state": "WRITING",
-      "reason": "leased to seodev-w47",
-      "title": "Nắng nóng, gay gắt, đặc biệt gay gắt là bao nhiêu độ: đọc bản tin nắng nóng trước chuyến xe máy",
-      "slot": "W3",
-      "session": "seodev-w47",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-000905",
       "state": "WRITING",
       "reason": "leased to seodev-w47",
       "title": "Chỉ số UV khi đi xe máy cả ngày: thang UV của WHO, mốc 3 và 8, giờ nắng gắt và cách che chắn",
-      "slot": "W3",
-      "session": "seodev-w47",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000908",
-      "state": "WRITING",
-      "reason": "leased to seodev-w47",
-      "title": "Mặt trời lặn ở Hà Nội lúc mấy giờ: giờ lặn từng tháng, ngày lặn sớm nhất và muộn nhất năm 2026 để xếp giờ về trước tối",
       "slot": "W3",
       "session": "seodev-w47",
       "wp_id": null,
@@ -247,18 +151,6 @@
       "title": "Động cơ xe máy điện hoạt động thế nào: stato, rôto, cảm biến Hall và vai trò của bộ điều khiển",
       "slot": "W6",
       "session": "seodev-w43",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001151",
-      "state": "WRITING",
-      "reason": "leased to seodev-w48",
-      "title": "Nhông sên dĩa xe máy: vì sao nên thay cả bộ, mốc 12.000–15.000 km Yamaha nêu và dấu hiệu mòn",
-      "slot": "W1",
-      "session": "seodev-w48",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -3625,6 +3517,30 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-000732",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe máy qua hầm Hải Vân: vì sao phải leo đèo 20 km mất 45–60 phút và dịch vụ vận chuyển xe",
+      "slot": "W9",
+      "session": "seodev-w46",
+      "wp_id": 4418,
+      "url": "https://thuexemaynguyentu.com/xe-may-qua-ham-hai-van-vi-sao-phai-leo-deo-20-km-mat-45-60-phut-va-dich-vu-van-chuyen-xe/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-000734",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Điện Biên Phủ trong một ngày: đồi A1, hầm Đờ Cát, bảo tàng và Mường Phăng cách nhau bao xa",
+      "slot": "W9",
+      "session": "seodev-w46",
+      "wp_id": 4419,
+      "url": "https://thuexemaynguyentu.com/dien-bien-phu-trong-mot-ngay-doi-a1-ham-do-cat-bao-tang-va-muong-phang-cach-nhau-bao-xa/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-000738",
       "state": "VERIFIED",
       "reason": "publish",
@@ -3633,6 +3549,30 @@
       "session": "seodev-w46",
       "wp_id": 4411,
       "url": "https://thuexemaynguyentu.com/eo-gio-va-ky-co-bang-xe-may-tu-quy-nhon-di-20-25-km-mua-bien-dep-va-cach-xep-mot-ngay/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-000739",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đèo Ô Quy Hồ bằng xe máy: gần 50 km trên quốc lộ 4D, đỉnh Cổng Trời và hai sườn chênh nhiệt độ",
+      "slot": "W9",
+      "session": "seodev-w46",
+      "wp_id": 4423,
+      "url": "https://thuexemaynguyentu.com/deo-o-quy-ho-bang-xe-may-gan-50-km-tren-quoc-lo-4d-dinh-cong-troi-va-hai-suon-chenh-nhiet-do/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-000740",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Lăng tẩm Huế nửa ngày hay hai ngày: chọn lăng nào và đoạn đường xe máy tới lăng Gia Long",
+      "slot": "W9",
+      "session": "seodev-w46",
+      "wp_id": 4425,
+      "url": "https://thuexemaynguyentu.com/lang-tam-hue-nua-ngay-hay-hai-ngay-chon-lang-nao-va-doan-duong-xe-may-toi-lang-gia-long/",
       "qa_status": "PASS",
       "seo_score": 100
     },
@@ -4501,6 +4441,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-000879",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe máy bị đổ khi đang dừng: tắt khóa điện trước, dựng xe lên thế nào và kiểm tra gì trước khi chạy tiếp theo Honda",
+      "slot": "W4",
+      "session": "seodev-w41",
+      "wp_id": 4426,
+      "url": "https://thuexemaynguyentu.com/xe-may-bi-do-khi-dang-dung-tat-khoa-dien-truoc-dung-xe-len-the-nao-va-kiem-tra-gi-truoc-khi-chay-tiep-theo-honda/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-000901",
       "state": "VERIFIED",
       "reason": "publish",
@@ -4525,6 +4477,30 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-000903",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Giờ nào dễ buồn ngủ nhất khi chạy xe máy: khung 0–6 giờ sáng, giữa chiều và cách xếp giờ xuất phát",
+      "slot": "W3",
+      "session": "seodev-w47",
+      "wp_id": 4427,
+      "url": "https://thuexemaynguyentu.com/gio-nao-de-buon-ngu-nhat-khi-chay-xe-may-khung-0-6-gio-sang-giua-chieu-va-cach-xep-gio-xuat-phat/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-000904",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Nắng nóng, gay gắt, đặc biệt gay gắt là bao nhiêu độ: đọc bản tin nắng nóng trước chuyến xe máy",
+      "slot": "W3",
+      "session": "seodev-w47",
+      "wp_id": 4428,
+      "url": "https://thuexemaynguyentu.com/nang-nong-gay-gat-dac-biet-gay-gat-la-bao-nhieu-do-doc-ban-tin-nang-nong-truoc-chuyen-xe-may/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-000906",
       "state": "VERIFIED",
       "reason": "publish",
@@ -4545,6 +4521,18 @@
       "session": "seodev-w47",
       "wp_id": 4414,
       "url": "https://thuexemaynguyentu.com/cap-gio-la-gi-bang-beaufort-cap-0-12-gio-cap-6-7-8-la-bao-nhieu-km-h-va-cach-doc-cap-gio-trong-ban-tin-truoc-chuyen-xe-may/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-000908",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Mặt trời lặn ở Hà Nội lúc mấy giờ: giờ lặn từng tháng, ngày lặn sớm nhất và muộn nhất năm 2026 để xếp giờ về trước tối",
+      "slot": "W3",
+      "session": "seodev-w47",
+      "wp_id": 4429,
+      "url": "https://thuexemaynguyentu.com/mat-troi-lan-o-ha-noi-luc-may-gio-gio-lan-tung-thang-ngay-lan-som-nhat-va-muon-nhat-nam-2026-de-xep-gio-ve-truoc-toi/",
       "qa_status": "PASS",
       "seo_score": 100
     },
@@ -5469,6 +5457,18 @@
       "session": "seodev-w37",
       "wp_id": 4343,
       "url": "https://thuexemaynguyentu.com/yecvt-tren-yamaha-nvx-155-mo-to-dien-doi-ty-so-truyen-nut-shift-che-do-t-va-s-khac-cvt-thuong/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001151",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Nhông sên dĩa xe máy: vì sao nên thay cả bộ, mốc 12.000–15.000 km Yamaha nêu và dấu hiệu mòn",
+      "slot": "W1",
+      "session": "seodev-w48",
+      "wp_id": 4430,
+      "url": "https://thuexemaynguyentu.com/nhong-sen-dia-xe-may-vi-sao-nen-thay-ca-bo-moc-12-000-15-000-km-yamaha-neu-va-dau-hieu-mon/",
       "qa_status": "PASS",
       "seo_score": 100
     },

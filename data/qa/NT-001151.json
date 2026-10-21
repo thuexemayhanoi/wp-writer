@@ -1,0 +1,176 @@
+{
+  "topic_id": "NT-001151",
+  "status": "PASS",
+  "source_sha256": "ec4e587e761c81d8d8eb198c2b02639b5a190c5dc1260ea9842fac529cc7df65",
+  "body_sha256": "94da748e9784935eeb4fd4940090b5ac42b8e29b5c2a02f741126b8c585a7124",
+  "word_count": 2827,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/top-6-dieu-can-biet-ve-nhong-sen-dia-cua-yamaha-exciter-150/",
+      "supports": "Yamaha Motor Việt Nam (bài đăng 06.10.2020): nhông sên dĩa gồm nhông chủ động, dĩa bị động, sên xích; mốc 12.000–15.000 km cho bộ chính hãng xe côn tay, 2–3 năm nếu chạy nhanh hoặc nhiều bụi; bốn dấu hiệu cần thay; thay đồng bộ cả bộ; sáu thói quen làm mau mòn.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nhong-xich-xe-may-dung-thay-qua-muon-2005942.html",
+      "supports": "VnExpress 17/5/2004 (bài cũ): ba dấu hiệu nhông xích đến hạn thay, cách thợ kiểm tra độ ôm khít, vì sao phải thay trọn bộ, chặt mắt xích để dùng tiếp chỉ nên làm một lần, nhiều người chạy hơn 25.000 km mới để ý.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/phu-tung/phu-tung-detail?id_pt=12",
+      "supports": "Trang phụ tùng bộ nhông, xích của Honda Việt Nam: tuổi thọ xích tải phụ thuộc điều chỉnh và bôi trơn hợp lý; khuyến cáo kiểm tra, bôi trơn mỗi 500 km và thay theo tư vấn của kỹ thuật viên.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/top-6-dieu-can-biet-ve-nhong-sen-dia-cua-yamaha-exciter-150/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nhong-xich-xe-may-dung-thay-qua-muon-2005942.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/phu-tung/phu-tung-detail?id_pt=12",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2483,
+        "title": "Honda Vision và Yamaha Janus: mẫu nào phù hợp người mới sử dụng?",
+        "why": "stale",
+        "content_hash": "6fc466c3b5378c825c8cf13864a995f0318d2f54654eae6377cfd6cd89a8bd59",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4047,
+        "title": "Thuê xe máy Hà Nội 2 ngày 1 đêm: tính tiền theo mốc nào và trả xe lúc nào?",
+        "why": "stale",
+        "content_hash": "ff3360a833efc7ccb2778f577426a6ccdec6c16a3c8c30c58243ba9e9175e695",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4050,
+        "title": "Thuê xe máy đi làm theo ca ở Hà Nội: chọn giờ nhận, gửi xe và trả xe đúng hạn",
+        "why": "stale",
+        "content_hash": "f5a41002206250a00b0d4b19ec54ada261a36c020a5c2f89aa531c79304f4012",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:23:16.941245+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "e6929189bd33424f55f785140d8cc700527f675f9e9e353ae6ca108f48587c59",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

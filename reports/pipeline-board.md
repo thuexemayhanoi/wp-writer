@@ -1,16 +1,16 @@
 # Pipeline board
 
-Generated 2026-10-21T04:14:40.693316+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-21T04:23:37.373897+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
-| WRITING | 30 |
+| WRITING | 21 |
 | QA | 0 |
 | READY | 0 |
 | REPAIR | 0 |
 | HELD | 3 |
 | PUBLISHING | 0 |
-| VERIFIED | 425 |
+| VERIFIED | 434 |
 
 Ready backlog (QA PASS waiting for the Publisher): **0**
 
@@ -18,27 +18,18 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 
 | Topic | State | Slot | Session | Reason |
 |---|---|---|---|---|
-| NT-000732 | WRITING | W9 | seodev-w46 | leased to seodev-w46 |
-| NT-000734 | WRITING | W9 | seodev-w46 | leased to seodev-w46 |
 | NT-000736 | WRITING | W9 | seodev-w46 | leased to seodev-w46 |
 | NT-000737 | WRITING | W9 | seodev-w46 | leased to seodev-w46 |
-| NT-000739 | WRITING | W9 | seodev-w46 | leased to seodev-w46 |
-| NT-000740 | WRITING | W9 | seodev-w46 | leased to seodev-w46 |
 | NT-000741 | WRITING | W9 | seodev-w46 | leased to seodev-w46 |
 | NT-000742 | WRITING | W9 | seodev-w46 | leased to seodev-w46 |
-| NT-000879 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
 | NT-000880 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
 | NT-000881 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
-| NT-000903 | WRITING | W3 | seodev-w47 | leased to seodev-w47 |
-| NT-000904 | WRITING | W3 | seodev-w47 | leased to seodev-w47 |
 | NT-000905 | WRITING | W3 | seodev-w47 | leased to seodev-w47 |
-| NT-000908 | WRITING | W3 | seodev-w47 | leased to seodev-w47 |
 | NT-000909 | WRITING | W3 | seodev-w47 | leased to seodev-w47 |
 | NT-000910 | WRITING | W3 | seodev-w47 | leased to seodev-w47 |
 | NT-000961 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
 | NT-001004 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
 | NT-001065 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
-| NT-001151 | WRITING | W1 | seodev-w48 | leased to seodev-w48 |
 | NT-001152 | WRITING | W1 | seodev-w48 | leased to seodev-w48 |
 | NT-001153 | WRITING | W1 | seodev-w48 | leased to seodev-w48 |
 | NT-001154 | WRITING | W1 | seodev-w48 | leased to seodev-w48 |
