@@ -19785,7 +19785,7 @@
       }
     },
     "NT-001005": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:13:06.523400+00:00",
       "source_hash": "bbc2bd7d76e5a080b5c40ca40600b719de1e0b3c7fa69409adc95eb266f7c39c",
       "slug": "toc-do-toi-da-cua-xe-may-40-km-h-voi-xe-gan-may-50-70-km-h-voi-xe-mo-to-theo-thong-tu-38-2024",
@@ -19801,8 +19801,37 @@
       "category_warning": null,
       "git_commit": "de620203b9af43fe73a1bde8fc7fb84a17756fef",
       "run_id": "39542303090",
-      "updated_at": "2026-10-21T04:13:10.816122+00:00",
-      "wp_id": 4415
+      "updated_at": "2026-10-21T04:13:16.736268+00:00",
+      "wp_id": 4415,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/toc-do-toi-da-cua-xe-may-40-km-h-voi-xe-gan-may-50-70-km-h-voi-xe-mo-to-theo-thong-tu-38-2024/",
+      "verified_at": "2026-10-21T04:13:16.736261+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4415,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/toc-do-toi-da-cua-xe-may-40-km-h-voi-xe-gan-may-50-70-km-h-voi-xe-mo-to-theo-thong-tu-38-2024/",
+        "categories": [
+          159
+        ],
+        "canonical": "https://thuexemaynguyentu.com/toc-do-toi-da-cua-xe-may-40-km-h-voi-xe-gan-may-50-70-km-h-voi-xe-mo-to-theo-thong-tu-38-2024/",
+        "seo_title": "Tốc độ tối đa của xe máy: 40 km/h xe gắn máy, 50–70 km/h xe mô tô",
+        "seo_description": "Tốc độ tối đa của xe máy theo Thông tư 38/2024/TT-BGTVT: xe gắn máy 40 km/h, xe mô tô 50–70 km/h tùy khu đông dân cư và loại đường, xe máy không đi cao tốc.",
+        "checked_at": "2026-10-21T04:13:16.736242+00:00"
+      }
     }
   },
   "categories": {}
