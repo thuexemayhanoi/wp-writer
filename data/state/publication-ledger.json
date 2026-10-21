@@ -21892,7 +21892,7 @@
       }
     },
     "NT-001182": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:56:36.320897+00:00",
       "source_hash": "334d1b15042d350413030cf4bfc640fa031025185d7dd03957d38ebffff1fff0",
       "slug": "ao-mua-canh-doi-khi-di-xe-may-vat-ao-cuon-vao-banh-xe-che-den-va-vi-sao-nen-can-nhac-ao-mua-bo",
@@ -21908,8 +21908,37 @@
       "category_warning": null,
       "git_commit": "964458a089206e771b6fb04bf6694090cdfda34f",
       "run_id": "39546378277",
-      "updated_at": "2026-10-21T04:56:39.909554+00:00",
-      "wp_id": 4467
+      "updated_at": "2026-10-21T04:56:45.548023+00:00",
+      "wp_id": 4467,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ao-mua-canh-doi-khi-di-xe-may-vat-ao-cuon-vao-banh-xe-che-den-va-vi-sao-nen-can-nhac-ao-mua-bo/",
+      "verified_at": "2026-10-21T04:56:45.548016+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4467,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ao-mua-canh-doi-khi-di-xe-may-vat-ao-cuon-vao-banh-xe-che-den-va-vi-sao-nen-can-nhac-ao-mua-bo/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ao-mua-canh-doi-khi-di-xe-may-vat-ao-cuon-vao-banh-xe-che-den-va-vi-sao-nen-can-nhac-ao-mua-bo/",
+        "seo_title": "Áo mưa cánh dơi khi đi xe máy: rủi ro, cách mặc và áo mưa bộ",
+        "seo_description": "Áo mưa cánh dơi khi đi xe máy có nguy hiểm không: vạt áo cuốn bánh xe, che đèn và gương, cách mặc gọn và khi nào nên cân nhắc áo mưa bộ theo CSGT và báo.",
+        "checked_at": "2026-10-21T04:56:45.547997+00:00"
+      }
     }
   },
   "categories": {}
