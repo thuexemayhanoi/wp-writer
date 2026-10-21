@@ -28605,7 +28605,7 @@
       }
     },
     "NT-001392": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:56:00.827898+00:00",
       "source_hash": "8db22b37a9bedbded8c1fba420adb6ffd7f0032e38bfb6baaae17dbbfd06df2c",
       "slug": "gio-cam-xe-tai-trong-noi-do-ha-noi-6h-9h-16h-19h30-va-xe-ban-tai-24-24-theo-quyet-dinh-52",
@@ -28621,8 +28621,37 @@
       "category_warning": null,
       "git_commit": "98d66420ecdf9ed940584762b90f7fcdd5d15993",
       "run_id": "39619876214",
-      "updated_at": "2026-10-21T14:56:05.257238+00:00",
-      "wp_id": 4648
+      "updated_at": "2026-10-21T14:56:12.215827+00:00",
+      "wp_id": 4648,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/gio-cam-xe-tai-trong-noi-do-ha-noi-6h-9h-16h-19h30-va-xe-ban-tai-24-24-theo-quyet-dinh-52/",
+      "verified_at": "2026-10-21T14:56:12.215821+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4648,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/gio-cam-xe-tai-trong-noi-do-ha-noi-6h-9h-16h-19h30-va-xe-ban-tai-24-24-theo-quyet-dinh-52/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/gio-cam-xe-tai-trong-noi-do-ha-noi-6h-9h-16h-19h30-va-xe-ban-tai-24-24-theo-quyet-dinh-52/",
+        "seo_title": "Giờ cấm xe tải trong nội đô Hà Nội: 6h–9h, 16h–19h30 và xe bán tải",
+        "seo_description": "Giờ cấm xe tải trong nội đô Hà Nội: giờ cao điểm 6h–9h, 16h–19h30, xe dưới 2 tấn, xe từ 2 tấn và xe bán tải 24/24h theo Quyết định 52, kèm chỗ nguồn còn lệch.",
+        "checked_at": "2026-10-21T14:56:12.215804+00:00"
+      }
     }
   },
   "categories": {}
