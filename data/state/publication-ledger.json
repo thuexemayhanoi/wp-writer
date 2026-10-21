@@ -28115,7 +28115,7 @@
       }
     },
     "NT-001391": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:45:40.022162+00:00",
       "source_hash": "fa4eceebfe455c2fb1ccaa01e271daf112d00b3952673368ea8f8c70e701f097",
       "slug": "dung-do-xe-quanh-pho-co-ha-noi-csgt-lap-38-bien-ban-trong-5-ngay-camera-ai-va-cau-keo",
@@ -28131,8 +28131,37 @@
       "category_warning": null,
       "git_commit": "1548faa8656ddb9fa7d131e0a1f6d4da23750132",
       "run_id": "39618406418",
-      "updated_at": "2026-10-21T14:45:44.785398+00:00",
-      "wp_id": 4634
+      "updated_at": "2026-10-21T14:45:51.887388+00:00",
+      "wp_id": 4634,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/dung-do-xe-quanh-pho-co-ha-noi-csgt-lap-38-bien-ban-trong-5-ngay-camera-ai-va-cau-keo/",
+      "verified_at": "2026-10-21T14:45:51.887382+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4634,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/dung-do-xe-quanh-pho-co-ha-noi-csgt-lap-38-bien-ban-trong-5-ngay-camera-ai-va-cau-keo/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/dung-do-xe-quanh-pho-co-ha-noi-csgt-lap-38-bien-ban-trong-5-ngay-camera-ai-va-cau-keo/",
+        "seo_title": "Dừng đỗ xe quanh phố cổ Hà Nội: 38 biên bản trong 5 ngày",
+        "seo_description": "Dừng đỗ xe quanh phố cổ Hà Nội: CSGT lập 38 biên bản và ghi hình gần 50 trường hợp từ 15/10 đến 19/10/2026, nhóm xe vi phạm, camera AI, cẩu kéo và điều nguồn chưa nói.",
+        "checked_at": "2026-10-21T14:45:51.887365+00:00"
+      }
     }
   },
   "categories": {}
