@@ -22921,7 +22921,7 @@
       }
     },
     "NT-001139": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T05:16:14.583833+00:00",
       "source_hash": "79f961618f8e0952fb199d9e8b87d3dabb757a555c639074cdbe9f6d3b736979",
       "slug": "pho-chien-thang-o-ha-dong-tu-18-10-2026-den-15-3-2027-co-doan-mot-chieu-cam-xe-tai-va-xe-khach-tren-16-cho",
@@ -22937,8 +22937,37 @@
       "category_warning": null,
       "git_commit": "4022a17feb60320613408b0d829a96e6ba1aebaa",
       "run_id": "39548159025",
-      "updated_at": "2026-10-21T05:16:18.832855+00:00",
-      "wp_id": 4488
+      "updated_at": "2026-10-21T05:16:24.863620+00:00",
+      "wp_id": 4488,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/pho-chien-thang-o-ha-dong-tu-18-10-2026-den-15-3-2027-co-doan-mot-chieu-cam-xe-tai-va-xe-khach-tren-16-cho/",
+      "verified_at": "2026-10-21T05:16:24.863614+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4488,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/pho-chien-thang-o-ha-dong-tu-18-10-2026-den-15-3-2027-co-doan-mot-chieu-cam-xe-tai-va-xe-khach-tren-16-cho/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/pho-chien-thang-o-ha-dong-tu-18-10-2026-den-15-3-2027-co-doan-mot-chieu-cam-xe-tai-va-xe-khach-tren-16-cho/",
+        "seo_title": "Phố Chiến Thắng ở Hà Đông đến 15/3/2027: một chiều, cấm xe tải",
+        "seo_description": "Phố Chiến Thắng ở Hà Đông từ 18/10/2026 đến 15/3/2027: hai đoạn một chiều ngược hướng, cấm ô tô tải và xe trên 16 chỗ, đường vòng Đường 19/5 – hồ Văn Quán – Trần Phú.",
+        "checked_at": "2026-10-21T05:16:24.863596+00:00"
+      }
     }
   },
   "categories": {}
