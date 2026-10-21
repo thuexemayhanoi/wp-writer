@@ -1,0 +1,322 @@
+{
+  "topic_id": "NT-001230",
+  "status": "PASS",
+  "source_sha256": "5b17e69e98200f52455b7dc76bac10a862364d69ed9ab59d23f453170e1c4c46",
+  "body_sha256": "4ce763587e19428810501a334bd731d4caecacac473b8546f3b032f6a47c0c71",
+  "word_count": 2436,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://congan.quangtri.gov.vn/dichvucong/cap-giay-phep-lai-xe-tinh/",
+      "supports": "Cổng thủ tục Công an Quảng Trị (cập nhật 28/07/2026, theo Thông tư 108/2026/TT-BCA): giấy phép lái xe điện tử được cấp và tích hợp trong 02 giờ kể từ thời điểm kết thúc kỳ sát hạch; thẻ PET in, trả trong 3,5 ngày làm việc khi người dân có yêu cầu.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.quangtri.gov.vn/dichvucong/cap-giay-phep-lai-xe-tinh/",
+      "supports": "Cùng trang: Cục Cảnh sát giao thông cấp giấy phép lái xe điện tử cho người đạt kết quả kỳ sát hạch.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.quangtri.gov.vn/dichvucong/cap-giay-phep-lai-xe-tinh/",
+      "supports": "Cùng trang: thời hạn giải quyết 3,5 ngày làm việc với PET và 02 giờ với bản điện tử, tính từ khi kết thúc kỳ sát hạch và người đạt đã nộp lệ phí cấp.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://conganthanhhoa.gov.vn/tin-tuc-su-kien/tin-hoat-dong/nhung-diem-moi-trong-cong-tac-sat-hach-cap-giay-phep-lai-xe-ap-dung-tu-ngay-01-7-2026.html",
+      "supports": "Công an Thanh Hóa (09/07/2026): từ 01/7/2026 thời gian tích hợp dữ liệu điện tử của giấy phép lái xe người thi đạt có tài khoản VNeTraffic mức độ 2 giảm từ 3 ngày xuống 2 giờ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://conganthanhhoa.gov.vn/tin-tuc-su-kien/tin-hoat-dong/nhung-diem-moi-trong-cong-tac-sat-hach-cap-giay-phep-lai-xe-ap-dung-tu-ngay-01-7-2026.html",
+      "supports": "Cùng bản tin: đổi giấy phép lái xe giảm từ 5 ngày xuống 2,5 ngày; tích hợp dữ liệu sau khi đổi từ 3 ngày xuống 1 ngày; cấp giấy phép lái xe quốc tế từ 5 ngày xuống 2,5 ngày.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://conganthanhhoa.gov.vn/tin-tuc-su-kien/tin-hoat-dong/nhung-diem-moi-trong-cong-tac-sat-hach-cap-giay-phep-lai-xe-ap-dung-tu-ngay-01-7-2026.html",
+      "supports": "Cùng bản tin: Thông tư 108/2026/TT-BCA có hiệu lực từ 01/7/2026 và thay thế Thông tư 12/2025/TT-BCA.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://conganthanhhoa.gov.vn/tin-tuc-su-kien/tin-hoat-dong/nhung-diem-moi-trong-cong-tac-sat-hach-cap-giay-phep-lai-xe-ap-dung-tu-ngay-01-7-2026.html",
+      "supports": "Cùng bản tin: người đã đạt các phần sát hạch ô tô trước ngày thông tư có hiệu lực vẫn được công nhận kết quả và cấp giấy phép lái xe.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=61616",
+      "supports": "Cổng Dịch vụ công Bộ Công an (thủ tục 3.000346, còn dẫn Thông tư 12/2025/TT-BCA): giấy phép lái xe điện tử cấp trong 03 ngày, giấy phép PET trong 07 ngày kể từ ngày kết thúc kỳ sát hạch.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=61616",
+      "supports": "Cùng trang: ngày cấp ghi ở mặt sau giấy phép lái xe là ngày người dự sát hạch đạt kết quả các kỳ sát hạch.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=61616",
+      "supports": "Cùng trang: người đạt được cấp đúng hạng đã trúng tuyển; nâng hạng hoặc cấp do giấy phép quá thời hạn phải xuất trình bản chính giấy phép lái xe khi đến nhận.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=61616",
+      "supports": "Cùng trang: thời hạn giải quyết 07 ngày với PET và 03 ngày với điện tử, tính khi người đạt đã nộp lệ phí cấp.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://congan.quangtri.gov.vn/dichvucong/cap-giay-phep-lai-xe-tinh/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.quangtri.gov.vn/dichvucong/cap-giay-phep-lai-xe-tinh/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.quangtri.gov.vn/dichvucong/cap-giay-phep-lai-xe-tinh/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://conganthanhhoa.gov.vn/tin-tuc-su-kien/tin-hoat-dong/nhung-diem-moi-trong-cong-tac-sat-hach-cap-giay-phep-lai-xe-ap-dung-tu-ngay-01-7-2026.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://conganthanhhoa.gov.vn/tin-tuc-su-kien/tin-hoat-dong/nhung-diem-moi-trong-cong-tac-sat-hach-cap-giay-phep-lai-xe-ap-dung-tu-ngay-01-7-2026.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://conganthanhhoa.gov.vn/tin-tuc-su-kien/tin-hoat-dong/nhung-diem-moi-trong-cong-tac-sat-hach-cap-giay-phep-lai-xe-ap-dung-tu-ngay-01-7-2026.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://conganthanhhoa.gov.vn/tin-tuc-su-kien/tin-hoat-dong/nhung-diem-moi-trong-cong-tac-sat-hach-cap-giay-phep-lai-xe-ap-dung-tu-ngay-01-7-2026.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=61616",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=61616",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=61616",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=61616",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 1060,
+        "title": "Thuê Xe Máy Theo Tháng Hà Nội – Giá Rẻ, Xe Ga Xe Số",
+        "why": "stale",
+        "content_hash": "91ac037b4111a6094966dec9b372fd51efec1590c51c00cf3824949cf3142c8c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2390,
+        "title": "Giá pin xe máy điện VinFast và những chi phí người dùng nên biết",
+        "why": "stale",
+        "content_hash": "c435ce6e6e7b1791b32ee311f65ed49f872191baee5071a5d5a3aec71094aef3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2428,
+        "title": "Dat Bike và VinFast: hãng nào phù hợp người thường xuyên đi xa?",
+        "why": "stale",
+        "content_hash": "8cb4cfc90c1561cb4c7dda67912d337a2c3081d39753b6d91e45717fd20b02b7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2430,
+        "title": "Yamaha NEO's có gì đáng chú ý? Đánh giá cho nhu cầu đi trong phố",
+        "why": "stale",
+        "content_hash": "cf4e466a86a7abedf9c23b34e3bafb0efbec07be3dbdd59491e1c722f75b7083",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2598,
+        "title": "Thuê hay mua xe máy khi ở Hà Nội từ một đến ba tháng thì hợp lý hơn?",
+        "why": "stale",
+        "content_hash": "f30e620f60320b130c5faa8dc1ea87f3d7cb2743018e4e55126b3a15e9598278",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T10:03:44.825162+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "fdc3ee8e5ef2d4681639f65b5768ae8388ef27190c550c2898362aba3e70d326",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

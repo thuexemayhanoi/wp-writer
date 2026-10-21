@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-21T09:28:52.162637+00:00",
-  "attempted": 1,
-  "ready_backlog": 0,
+  "at": "2026-10-21T10:14:17.684999+00:00",
+  "attempted": 10,
+  "ready_backlog": 4,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -180,11 +180,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T09:28:11.075326+00:00",
+      "at": "2026-10-21T10:08:49.128080+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "dbac76e93d7abdeb5b1129cdf4027537740b8124ffe582a80686546d1719ae0f",
+      "inventory_sha256": "2eb4f25b700502ca704f55a0087e06a3d329ce04f8446dfafc9860e61d21346a",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -350,11 +350,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T09:28:19.673147+00:00",
+      "at": "2026-10-21T10:08:56.643170+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "dbac76e93d7abdeb5b1129cdf4027537740b8124ffe582a80686546d1719ae0f",
+      "inventory_sha256": "2eb4f25b700502ca704f55a0087e06a3d329ce04f8446dfafc9860e61d21346a",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -529,11 +529,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T09:28:27.003309+00:00",
+      "at": "2026-10-21T10:09:02.790275+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "dbac76e93d7abdeb5b1129cdf4027537740b8124ffe582a80686546d1719ae0f",
+      "inventory_sha256": "2eb4f25b700502ca704f55a0087e06a3d329ce04f8446dfafc9860e61d21346a",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -553,11 +553,83 @@
       }
     },
     {
-      "topic_id": "NT-001165",
+      "topic_id": "NT-001145",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 170,
+      "category_id": 175,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "engine-care",
+      "intended_taxonomy_key": "trip-planning",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001202",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 161,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "road-safety",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001203",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 159,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "legal",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001204",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 159,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "legal",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001206",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 159,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "legal",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001207",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 161,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "road-safety",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001208",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 161,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "road-safety",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001225",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 159,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "legal",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001244",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 173,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "vietnam-travel",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001245",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 173,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "vietnam-travel",
       "category_warning": null
     }
   ],
