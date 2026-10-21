@@ -1,0 +1,281 @@
+{
+  "topic_id": "NT-000903",
+  "status": "PASS",
+  "source_sha256": "e0206b965525a4e0f7539e0906efa021737171d6ef69216cb4c4d9fc64998b38",
+  "body_sha256": "643bc931ca48e00202866ded94537c1a4837a7d14e397ea56b11c164d66b974c",
+  "word_count": 2061,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving",
+      "supports": "Sleep Foundation (trang cập nhật 16/6/2026): tai nạn do lái xe buồn ngủ xảy ra nhiều nhất giữa nửa đêm và 6 giờ sáng hoặc giữa buổi chiều.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving",
+      "supports": "Sleep Foundation: đồng hồ sinh học thường làm buồn ngủ hơn từ nửa đêm đến 6 giờ sáng và đầu giờ chiều, nên giảm nhu cầu lái trong các giờ đó.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving",
+      "supports": "Sleep Foundation: dành thời gian cho nhiều điểm dừng dọc đường để nạp lại sức.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving",
+      "supports": "Sleep Foundation: rủ người đi cùng vì hầu hết trường hợp lái xe buồn ngủ xảy ra lúc đi một mình.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving/drowsy-driving-vs-drunk-driving",
+      "supports": "Sleep Foundation (trang cập nhật 5/10/2026): lái xe buồn ngủ dễ xảy ra nhất từ nửa đêm đến 6 giờ sáng hoặc cuối buổi chiều; đường đơn điệu hoặc lái một mình tăng khả năng va chạm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving/drowsy-driving-vs-drunk-driving",
+      "supports": "Sleep Foundation: nghỉ đều đặn, khi buồn ngủ thì dừng xe ở nơi an toàn và chợp mắt 20 phút.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/niosh/motor-vehicle/driver-fatigue/index.html",
+      "supports": "CDC/NIOSH (Hoa Kỳ, trang cập nhật 3/4/2024): cơ thể có chu kỳ ngủ thức, cơn buồn ngủ mạnh nhất vào những giờ sáng sớm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "supports": "worlddata.info: bảng giờ mặt trời mọc, lặn trung bình theo tháng ở Hà Nội, tháng 1 đến tháng 6.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "supports": "worlddata.info: bảng giờ mặt trời mọc, lặn trung bình theo tháng ở Hà Nội, tháng 7 đến tháng 12.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving/drowsy-driving-vs-drunk-driving",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving/drowsy-driving-vs-drunk-driving",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/niosh/motor-vehicle/driver-fatigue/index.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 823,
+        "title": "Kinh nghiệm thuê xe máy Hà Nội cho khách du lịch",
+        "why": "stale",
+        "content_hash": "3d6b3da5b2949fce93fa478b050606b405bc5e5cfd428f001396eaa13014d5e6",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2498,
+        "title": "Khi nào cần tăng xích xe máy? Dấu hiệu dễ nhận biết khi sử dụng",
+        "why": "stale",
+        "content_hash": "cc66bddca00ff3ff900a51cce730848c80a7f0e8979caaf256eec12589620f67",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2500,
+        "title": "Dấu hiệu xích xe máy quá chùng và cách kiểm tra trước khi đi xa",
+        "why": "stale",
+        "content_hash": "d061c138b067d5f2223950a7aaa38ebe11024f983962f728d69b56d64948608d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4050,
+        "title": "Thuê xe máy đi làm theo ca ở Hà Nội: chọn giờ nhận, gửi xe và trả xe đúng hạn",
+        "why": "stale",
+        "content_hash": "f5a41002206250a00b0d4b19ec54ada261a36c020a5c2f89aa531c79304f4012",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:20:58.878382+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "9a4cdf00b2dceefb0398e55bec89d088c29a2307c5fffd01a36dea84d2a7cbf0",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

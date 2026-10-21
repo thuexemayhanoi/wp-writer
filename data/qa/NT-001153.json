@@ -1,0 +1,179 @@
+{
+  "topic_id": "NT-001153",
+  "status": "PASS",
+  "source_sha256": "b5d432d9674a26933b6e105b680fc86332c11ec09b0a45bc4bc7fc7732da1bc3",
+  "body_sha256": "aa0423f76e3ad2a788b71b99155e4a806617e7680cd2eca34afbcf4cbd0c9503",
+  "word_count": 2088,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.motul.com/vi-VN/news/bat-mi-thong-so-nhot-xe-may-tu-motul-viet-nam",
+      "supports": "Motul Việt Nam (trang không ghi ngày đăng): SAE là chỉ số độ nhớt; số trước chữ W nói về độ nhớt ở nhiệt độ thấp, số sau chữ W về nhiệt độ cao; khí hậu nóng ẩm nên chọn 10W40 hoặc 10W50; xe đường dài SAE 40 hoặc 50, xe đô thị SAE 30.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/nhot-xe-may-top-5-dieu-can-biet-de-chon-dung/",
+      "supports": "Yamaha Motor Việt Nam (bài đăng 16.06.2020): SAE phân biệt độ đặc loãng của nhớt, in trên bao bì; nhớt đa cấp như 10W40, 5W40 được ưa chuộng; số sau chữ W càng cao nhớt càng đặc; cách nhẩm trừ 30; SAE 30 cho quãng ngắn, 40 hoặc 50 cho đi xa.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.motul.com/vi-VN/news/bat-mi-thong-so-nhot-xe-may-tu-motul-viet-nam",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/nhot-xe-may-top-5-dieu-can-biet-de-chon-dung/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 901,
+        "title": "Chi Phí Thuê Xe Máy 50cc Tại Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "5e97bdd95f6f5fa533852376cbc2ee39c307a1530a0eac4b2153714d977f03ae",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2485,
+        "title": "Honda Vision và Yamaha Grande khác nhau thế nào khi sử dụng?",
+        "why": "stale",
+        "content_hash": "9703b83fc962ecebe02b7b5ffd9c16749d3b18bd0a96a57af034e25e79a9fc7b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2515,
+        "title": "Bình ắc quy xe máy dùng được bao lâu? Khi nào nên kiểm tra lại?",
+        "why": "stale",
+        "content_hash": "26576df935c21a29be7d5e9013419bbd9273bc6c5f99f106848143996460de9a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2578,
+        "title": "Có nên mua xe máy cũ để đi ngắn hạn? Những điểm cần cân nhắc",
+        "why": "stale",
+        "content_hash": "2edb32e1617a09723b835349742c0b85646c6fe086eb11610946f0b304bbc7ff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2580,
+        "title": "Đi Hà Nội nên chọn xe ga hay xe số để di chuyển thuận tiện hơn?",
+        "why": "stale",
+        "content_hash": "6aa38b717367fc0077cddd4330e078e59294b75c84a725df25d0c1ffd299712f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:24:20.484720+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "a8073bfd8978249fe0321ed0c3e3675b56f855727ad14610beb070d73cdacd09",
+  "incremental_key": "f47f43952cad908387c679c440c1e916b473895498a31237c11b91d8177503e4",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

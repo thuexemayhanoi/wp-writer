@@ -1,0 +1,281 @@
+{
+  "topic_id": "NT-001004",
+  "status": "PASS",
+  "source_sha256": "f888a5c81931d20aa3a0af271c3cce06a29d830ceedda1bba44df984ab166ff1",
+  "body_sha256": "c84f236759439db22c9d86f4ced3cfceffab24676a7d8af38dc50bc082e55e28",
+  "word_count": 3120,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=218725&classid=1&orggroupid=4",
+      "supports": "Trang văn bản của Cổng thông tin điện tử Chính phủ: Thông tư 108/2026/TT-BCA của Bộ Công an ban hành 29-06-2026, có hiệu lực 01-07-2026, quy định về sát hạch, cấp giấy phép lái xe; cấp, sử dụng giấy phép lái xe quốc tế.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.cantho.gov.vn/cac-truong-hop-doi-giay-phep-lai-xe-tu-thang-72026",
+      "supports": "Cổng Phổ biến giáo dục pháp luật thành phố Cần Thơ (09/07/2026): trường hợp đổi giấy phép lái xe thứ nhất theo Điều 21 là giấy phép bị hỏng không còn sử dụng được.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.cantho.gov.vn/cac-truong-hop-doi-giay-phep-lai-xe-tu-thang-72026",
+      "supports": "Cổng Phổ biến giáo dục pháp luật thành phố Cần Thơ: trường hợp đổi để tích hợp giấy phép không thời hạn với giấy phép có thời hạn.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.cantho.gov.vn/cac-truong-hop-doi-giay-phep-lai-xe-tu-thang-72026",
+      "supports": "Cổng Phổ biến giáo dục pháp luật thành phố Cần Thơ: các trường hợp không đổi giấy phép lái xe (không còn giấy phép và không có thông tin trong hệ thống hoặc bảng kê; chưa thực hiện xong yêu cầu xử lý vi phạm).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.haiphong.gov.vn/Tin-hoat-dong-cua-CATP/An-toan-giao-thong/Nhung-diem-moi-quan-trong-trong-cong-tac-sat-hach-doi-cap-lai-giay-phep-lai-xe-va-kiem-tra-phuc-hoi-diem-giay-phep-lai-xe-tu-ngay-0172026-187398.html",
+      "supports": "Công an thành phố Hải Phòng (02/07/2026): Thông tư 108/2026/TT-BCA bổ sung người nước ngoài có thị thực thời hạn từ 90 ngày trở lên được đổi giấy phép lái xe sang giấy phép lái xe Việt Nam.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.haiphong.gov.vn/Tin-hoat-dong-cua-CATP/An-toan-giao-thong/Nhung-diem-moi-quan-trong-trong-cong-tac-sat-hach-doi-cap-lai-giay-phep-lai-xe-va-kiem-tra-phuc-hoi-diem-giay-phep-lai-xe-tu-ngay-0172026-187398.html",
+      "supports": "Công an thành phố Hải Phòng: người dân có thể chụp ảnh trực tiếp hoặc gửi 01 ảnh 3x4 cm nền trắng; hồ sơ trực tuyến có thể dùng ảnh từ dữ liệu căn cước.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.lamdong.gov.vn/nhung-diem-moi-trong-quy-dinh-ve-sat-hach-cap-giay-phep-lai-xe-ap-dung-tu-ngay-01072026-N7742.aspx",
+      "supports": "Công an tỉnh Lâm Đồng (06/07/2026): thời gian giải quyết thủ tục đổi giấy phép lái xe giảm từ 05 ngày xuống 2,5 ngày, thời gian tích hợp dữ liệu điện tử giảm từ 03 ngày xuống 01 ngày.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.camau.gov.vn/ch9/8988-Nhung-diem-moi-quan-trong-ve-sat-hach-va-cap-giay-phep-lai-xe.html",
+      "supports": "Công an tỉnh Cà Mau (27/07/2026): hai trường hợp không giải quyết cấp đổi giấy phép lái xe.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/chuan-hoa-quy-trinh-sat-hach-cap-giay-phep-lai-xe-cap-su-dung-giay-phep-lai-xe-quoc-te-1765271001",
+      "supports": "Cổng thông tin điện tử Bộ Công an (10/12/2025, dự thảo): dự thảo ghi người nước ngoài có thị thực thời hạn từ 03 tháng trở lên; quy định cũ của Thông tư 12/2025/TT-BCA yêu cầu thẻ tạm trú, thẻ thường trú hoặc chứng minh thư ngoại giao, công vụ với thời gian từ 03 tháng trở lên.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=218725&classid=1&orggroupid=4",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.cantho.gov.vn/cac-truong-hop-doi-giay-phep-lai-xe-tu-thang-72026",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.cantho.gov.vn/cac-truong-hop-doi-giay-phep-lai-xe-tu-thang-72026",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.cantho.gov.vn/cac-truong-hop-doi-giay-phep-lai-xe-tu-thang-72026",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.haiphong.gov.vn/Tin-hoat-dong-cua-CATP/An-toan-giao-thong/Nhung-diem-moi-quan-trong-trong-cong-tac-sat-hach-doi-cap-lai-giay-phep-lai-xe-va-kiem-tra-phuc-hoi-diem-giay-phep-lai-xe-tu-ngay-0172026-187398.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.haiphong.gov.vn/Tin-hoat-dong-cua-CATP/An-toan-giao-thong/Nhung-diem-moi-quan-trong-trong-cong-tac-sat-hach-doi-cap-lai-giay-phep-lai-xe-va-kiem-tra-phuc-hoi-diem-giay-phep-lai-xe-tu-ngay-0172026-187398.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.lamdong.gov.vn/nhung-diem-moi-trong-quy-dinh-ve-sat-hach-cap-giay-phep-lai-xe-ap-dung-tu-ngay-01072026-N7742.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.camau.gov.vn/ch9/8988-Nhung-diem-moi-quan-trong-ve-sat-hach-va-cap-giay-phep-lai-xe.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/chuan-hoa-quy-trinh-sat-hach-cap-giay-phep-lai-xe-cap-su-dung-giay-phep-lai-xe-quoc-te-1765271001",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2417,
+        "title": "Xe máy điện Yadea có tốt không? Ưu nhược điểm người dùng cần biết",
+        "why": "stale",
+        "content_hash": "0164531f890f08be8f0da4a90ffbe1bc5d7ce5908bd8637d53cc98b9fed34354",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2553,
+        "title": "Đăng ký biển số xe máy trực tuyến: hồ sơ và các bước cần chuẩn bị",
+        "why": "stale",
+        "content_hash": "07c18eff30a0c8796b3fd7944021fa719dc4afaaacb4f55eb99e40c062e94782",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2613,
+        "title": "Thuê Xe Máy Du Lịch Hà Nội: Hướng Dẫn Toàn Diện Từ A–Z Cho Người Lần Đầu",
+        "why": "stale",
+        "content_hash": "bba381bbf7c63d362331437ee0e9ba63294ca01b4eb144c43fe71ca1f20731a0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4060,
+        "title": "Thuê xe máy mang máy ảnh và laptop đi nhiều điểm ở Hà Nội: chọn xe, xếp đồ, giữ tài sản",
+        "why": "stale",
+        "content_hash": "584f824812a9722445c863b0480c4d8fb9b5cfcccab9e5bbca8a4de6ce3e0be4",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:31:56.966192+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "2d19988e8719fdf4ff9a488dc787dca7eca7cf72eeb3a825b96381b5cf7fedba",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
