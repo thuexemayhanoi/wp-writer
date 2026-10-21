@@ -1,18 +1,18 @@
 # Pipeline board
 
-Generated 2026-10-21T04:05:18.226541+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-21T04:07:18.839727+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
-| WRITING | 27 |
+| WRITING | 25 |
 | QA | 0 |
-| READY | 0 |
+| READY | 2 |
 | REPAIR | 0 |
 | HELD | 3 |
 | PUBLISHING | 0 |
 | VERIFIED | 418 |
 
-Ready backlog (QA PASS waiting for the Publisher): **0**
+Ready backlog (QA PASS waiting for the Publisher): **2**
 
 ## Articles not yet VERIFIED
 
@@ -31,7 +31,6 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 | NT-000879 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
 | NT-000880 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
 | NT-000881 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
-| NT-000901 | WRITING | W3 | seodev-w47 | leased to seodev-w47 |
 | NT-000902 | WRITING | W3 | seodev-w47 | leased to seodev-w47 |
 | NT-000903 | WRITING | W3 | seodev-w47 | leased to seodev-w47 |
 | NT-000904 | WRITING | W3 | seodev-w47 | leased to seodev-w47 |
@@ -42,9 +41,10 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 | NT-000910 | WRITING | W3 | seodev-w47 | leased to seodev-w47 |
 | NT-000961 | WRITING | W4 | seodev-w41 | leased to seodev-w41 |
 | NT-001004 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
-| NT-001005 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
 | NT-001006 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
 | NT-001065 | WRITING | W6 | seodev-w43 | leased to seodev-w43 |
+| NT-000901 | READY | W3 | seodev-w47 | QA PASS; waiting for the Publisher |
+| NT-001005 | READY | W6 | seodev-w43 | QA PASS; waiting for the Publisher |
 | NT-001101 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4344; Near duplicate existing:4344 |
 | NT-001102 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4345; Near duplicate existing:4345 |
 | NT-001103 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4346; Near duplicate existing:4346 |

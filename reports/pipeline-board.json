@@ -1,15 +1,15 @@
 {
-  "at": "2026-10-21T04:05:18.226541+00:00",
+  "at": "2026-10-21T04:07:18.839727+00:00",
   "counts": {
-    "WRITING": 27,
+    "WRITING": 25,
     "QA": 0,
-    "READY": 0,
+    "READY": 2,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
     "VERIFIED": 418
   },
-  "ready_backlog": 0,
+  "ready_backlog": 2,
   "in_flight": 30,
   "items": [
     {
@@ -169,18 +169,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-000901",
-      "state": "WRITING",
-      "reason": "leased to seodev-w47",
-      "title": "Sét khi đang chạy xe máy: xe máy không phải nơi trú an toàn và quy tắc chờ 30 phút sau tiếng sấm",
-      "slot": "W3",
-      "session": "seodev-w47",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-000902",
       "state": "WRITING",
       "reason": "leased to seodev-w47",
@@ -301,18 +289,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001005",
-      "state": "WRITING",
-      "reason": "leased to seodev-w43",
-      "title": "Tốc độ tối đa của xe máy: 40 km/h với xe gắn máy, 50–70 km/h với xe mô tô theo Thông tư 38/2024",
-      "slot": "W6",
-      "session": "seodev-w43",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001006",
       "state": "WRITING",
       "reason": "leased to seodev-w43",
@@ -335,6 +311,30 @@
       "url": null,
       "qa_status": null,
       "seo_score": null
+    },
+    {
+      "topic_id": "NT-000901",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Sét khi đang chạy xe máy: xe máy không phải nơi trú an toàn và quy tắc chờ 30 phút sau tiếng sấm",
+      "slot": "W3",
+      "session": "seodev-w47",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001005",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Tốc độ tối đa của xe máy: 40 km/h với xe gắn máy, 50–70 km/h với xe mô tô theo Thông tư 38/2024",
+      "slot": "W6",
+      "session": "seodev-w43",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
     },
     {
       "topic_id": "NT-001101",
