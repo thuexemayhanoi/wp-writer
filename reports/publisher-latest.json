@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-21T14:03:36.052915+00:00",
-  "attempted": 1,
+  "at": "2026-10-21T14:09:02.247926+00:00",
+  "attempted": 3,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -180,11 +180,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T14:02:54.418283+00:00",
+      "at": "2026-10-21T14:07:04.530615+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "212e2564343ef846767f8d4cb7b1e37f4a3432f79c04d177d314704097481ee4",
+      "inventory_sha256": "2cd28c50432ee2958b58cd079a0986985551ad8990e9bcc570990f8a25df67c2",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -350,11 +350,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T14:03:02.900639+00:00",
+      "at": "2026-10-21T14:07:12.347887+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "212e2564343ef846767f8d4cb7b1e37f4a3432f79c04d177d314704097481ee4",
+      "inventory_sha256": "2cd28c50432ee2958b58cd079a0986985551ad8990e9bcc570990f8a25df67c2",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -529,11 +529,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T14:03:10.205675+00:00",
+      "at": "2026-10-21T14:07:19.071535+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "212e2564343ef846767f8d4cb7b1e37f4a3432f79c04d177d314704097481ee4",
+      "inventory_sha256": "2cd28c50432ee2958b58cd079a0986985551ad8990e9bcc570990f8a25df67c2",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -553,11 +553,27 @@
       }
     },
     {
-      "topic_id": "NT-001302",
+      "topic_id": "NT-001307",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 167,
+      "category_id": 160,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "battery-charging",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001331",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 126,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "destinations",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001336",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 172,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "hanoi-travel",
       "category_warning": null
     }
   ],

@@ -1,0 +1,127 @@
+{
+  "topic_id": "NT-001336",
+  "status": "PASS",
+  "source_sha256": "361fa9c06bf0273250db58340295d4070cd65586315bd528817905a2f11f9e00",
+  "body_sha256": "3ab0d0d24a0f1889fb13804f7c064d6374b33a3ec0c161e1f24f758835985b62",
+  "word_count": 2979,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://nhipsonghanoi.hanoimoi.vn/ve-chang-son-xem-nghe-lam-quat-624914.html",
+      "supports": "Hà Nội Mới (Nhịp sống Hà Nội) ghi xã Chàng Sơn cách trung tâm Hà Nội 30km về phía Tây Bắc, nghề làm quạt xuất hiện từ thế kỷ XIX, du khách được cùng nghệ nhân tự tay làm quạt.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/ve-lang-san-xuat-quat-giay-chang-son-392161.html",
+      "supports": "Hà Nội Mới ghi quạt Chàng Sơn nổi tiếng từ thế kỷ XIX, người Pháp mang sang Paris triển lãm, các công đoạn chọn tre, pha nan, vót nhẵn, gấp và dán giấy, vải, lụa.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://nhipsonghanoi.hanoimoi.vn/ve-chang-son-xem-nghe-lam-quat-624914.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/ve-lang-san-xuat-quat-giay-chang-son-392161.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-21T14:08:44.997623+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "6670f2f37a0d93f51d1f8dfdbb3fcf70bbbc4301c1025db1637944562143d004",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
