@@ -1,0 +1,281 @@
+{
+  "topic_id": "NT-001371",
+  "status": "PASS",
+  "source_sha256": "bc2828dfb75d87f8c64e63d6d4f4141ac4f1052398c6efe9417383d95186f72a",
+  "body_sha256": "124648a84fac552a5f387b4dd3ef98af373adcb86fe041c75b9e9194fb96218f",
+  "word_count": 2489,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/chi-tiet-cau-hoi/78afbb40-0d6e-4d8e-80d5-c0d690c3ca68",
+      "supports": "Bộ Công an trả lời (23/04/2024): hết thời hạn tạm giữ mà không đến nhận thì thông báo 02 lần; hết 01 tháng sau thông báo lần hai thì trong 05 ngày làm việc phải ra quyết định tịch thu.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/chi-tiet-cau-hoi/78afbb40-0d6e-4d8e-80d5-c0d690c3ca68",
+      "supports": "Bộ Công an (23/04/2024): thông báo lần thứ nhất trong 03 ngày làm việc kể từ ngày hết thời hạn tạm giữ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/chi-tiet-cau-hoi/78afbb40-0d6e-4d8e-80d5-c0d690c3ca68",
+      "supports": "Bộ Công an (23/04/2024): thời hiệu thi hành quyết định xử phạt là 01 năm kể từ ngày ra quyết định (Điều 74); không tự nguyện chấp hành thì bị cưỡng chế (Điều 86).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/c418fedc-3ab0-4325-90dc-eab118c0bda5?page=%2F",
+      "supports": "Bộ Công an trả lời (25/02/2026): quá thời hạn thi hành thì bị cưỡng chế và mỗi ngày chậm nộp phải nộp thêm 0,05% trên số tiền phạt chưa nộp (khoản 1 Điều 78 sửa bởi Luật 88/2025/QH15).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/c418fedc-3ab0-4325-90dc-eab118c0bda5?page=%2F",
+      "supports": "Bộ Công an (25/02/2026): khoản 2 Điều 68, thời hạn thi hành quyết định xử phạt là 10 ngày kể từ ngày nhận quyết định.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-xu-ly-vi-pham-hanh-chinh-119250629101104322.htm",
+      "supports": "Luật 88/2025/QH15 sửa khoản 1 Điều 126: người ra quyết định tạm giữ xử lý phương tiện theo biện pháp trong quyết định xử phạt hoặc trả lại nếu không tịch thu.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-xu-ly-vi-pham-hanh-chinh-119250629101104322.htm",
+      "supports": "Luật 88/2025/QH15: chủ sở hữu có lỗi cố ý để người vi phạm sử dụng phương tiện theo Điều 26 thì phương tiện bị tịch thu sung ngân sách; phương tiện bị chiếm đoạt thì trả lại chủ sở hữu.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/chinh-phu-ban-hanh-nghi-dinh-so-238-2026-nd-cp-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-168-2024-nd-cp-1786704471",
+      "supports": "Trang tin của Bộ Công an: Nghị định 238/2026/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định 168/2024/NĐ-CP, có hiệu lực từ 15/8/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-238-2026-nd-cp-469913/66580.htm",
+      "supports": "Trang Công báo của Chính phủ: Nghị định 238/2026/NĐ-CP ban hành ngày 26/06/2026, sửa đổi Nghị định 168/2024/NĐ-CP ngày 26/12/2024.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/chi-tiet-cau-hoi/78afbb40-0d6e-4d8e-80d5-c0d690c3ca68",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/chi-tiet-cau-hoi/78afbb40-0d6e-4d8e-80d5-c0d690c3ca68",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/chi-tiet-cau-hoi/78afbb40-0d6e-4d8e-80d5-c0d690c3ca68",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/c418fedc-3ab0-4325-90dc-eab118c0bda5?page=%2F",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/c418fedc-3ab0-4325-90dc-eab118c0bda5?page=%2F",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-xu-ly-vi-pham-hanh-chinh-119250629101104322.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-xu-ly-vi-pham-hanh-chinh-119250629101104322.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/chinh-phu-ban-hanh-nghi-dinh-so-238-2026-nd-cp-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-168-2024-nd-cp-1786704471",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-238-2026-nd-cp-469913/66580.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 875,
+        "title": "Thuê Xe Máy Bến Xe Gia Lâm Gần Cầu Long Biên – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "32621a52b051af3457ca728d6f32f6b9881689cf1ac5ad76cf3e3b6b9b908795",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2343,
+        "title": "Xe máy điện: các hãng nổi bật và cách chọn xe phù hợp nhất",
+        "why": "stale",
+        "content_hash": "c6618e9c49c5f2f25650deea3da4d70c0b7ac0a3821f5dc81a038f2aae0716d7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4048,
+        "title": "Thuê xe máy Hà Nội khi xe cá nhân đang sửa: chọn kỳ thuê và gia hạn nếu gara trễ",
+        "why": "stale",
+        "content_hash": "5eaf7d3b4d760f2a4ab0df94807fe114a8927ceb0af3b0ea5d1d59453a46f20d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4059,
+        "title": "Thuê xe máy đi phỏng vấn ở Hà Nội trong một ngày: xếp lịch, chọn xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "0ffbbff60edf006739890cca423af4e81cb5346ee434c29859648be6bdb57675",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T14:54:52.882984+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "1e0a076fadc8755aefa21bd1060842b7f2f943d0ae51cd065c64ee87c6b9d9d2",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

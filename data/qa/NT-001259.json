@@ -1,0 +1,242 @@
+{
+  "topic_id": "NT-001259",
+  "status": "PASS",
+  "source_sha256": "7b88b5121f15ae987b0eaa6ed2f0c4137884c94acbd9c267843d766fbbe14612",
+  "body_sha256": "cd31c901f5532651045f741cca13ffd3533dfa1b7793ea11c29819bb9cbded97",
+  "word_count": 2857,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/tuyet-roi-o-sapa-2953346.html",
+      "supports": "VnExpress (19/2/2014): nhiệt độ giảm xuống âm 0,2 độ C, thị trấn Sapa có tuyết rơi nhẹ từ 5h20 sáng, kéo dài khoảng 40 phút; đèo Ô Quý Hồ còn 5-7 cm",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/sa-pa-trong-tuyet-roi-am-3-do-c-3347402.html",
+      "supports": "VnExpress (24/1/2016): sáng 24/1 thị trấn Sa Pa ngập tuyết; nhiệt độ lúc 10h là -3,2 độ C, mức thấp nhất trong lịch sử cơ quan khí tượng ghi nhận được ở nơi này",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/tuyet-roi-o-sa-pa-3131842.html",
+      "supports": "VnExpress (10/1/2015): tuyết rơi trên đỉnh Hoàng Liên Sơn từ 2.000 m, thị trấn Sa Pa khoảng 1.500 m không thấy tuyết, hơn 3 độ C",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/du-khach-thich-thu-khi-thay-tuyet-roi-day-o-sa-pa-4843638.html",
+      "supports": "VnExpress (27/1/2025): chiều 26/1 (27 Tết) tuyết dày trên Fansipan từ 2.900 m đến đỉnh, lần đầu từ tháng 12/2022; thị xã Sa Pa 3-4 độ C",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/tuyet-roi-nhe-tren-dinh-fansipan-4995547.html",
+      "supports": "VnExpress (18/12/2025): chiều 18/12 tuyết rơi nhẹ khoảng 5 phút trên đỉnh Fansipan, lần đầu trong mùa đông 2025-2026",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/du-lich/di-dau-de-co-the-san-tuyet-tai-viet-nam-20260108072304925.htm",
+      "supports": "Dân trí (08/01/2026): tuyết và băng giá ở Việt Nam là hiện tượng hiếm; lời dặn đường trơn trượt, tầm nhìn hạn chế ở núi cao; băng tuyết ảnh hưởng giao thông tại đèo dốc",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vnexpress.net/tuyet-roi-o-sapa-2953346.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/sa-pa-trong-tuyet-roi-am-3-do-c-3347402.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/tuyet-roi-o-sa-pa-3131842.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/du-khach-thich-thu-khi-thay-tuyet-roi-day-o-sa-pa-4843638.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/tuyet-roi-nhe-tren-dinh-fansipan-4995547.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/du-lich/di-dau-de-co-the-san-tuyet-tai-viet-nam-20260108072304925.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2343,
+        "title": "Xe máy điện: các hãng nổi bật và cách chọn xe phù hợp nhất",
+        "why": "stale",
+        "content_hash": "c6618e9c49c5f2f25650deea3da4d70c0b7ac0a3821f5dc81a038f2aae0716d7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2386,
+        "title": "VinFast Feliz có đáng chọn không? Đánh giá cho nhu cầu đi phố",
+        "why": "stale",
+        "content_hash": "a3637271d9bad8c67714cc0bffca79e91d1c48a7321fc939ba1ba40b5b7bf7cc",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2395,
+        "title": "Trạm đổi pin VinFast hoạt động thế nào và phù hợp với ai khi dùng?",
+        "why": "stale",
+        "content_hash": "9f9843961c374c21766abd5bb5050f062102544f65af6bdc3a63b572f32ea88e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2422,
+        "title": "Yadea và VinFast khác nhau thế nào khi chọn xe máy điện",
+        "why": "stale",
+        "content_hash": "fad15df82e26c0a36f7ca807746c1f7a42149457965d7219044bd7238970ce07",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2625,
+        "title": "Nhà tù Hỏa Lò Hà Nội: Giá vé, giờ mở cửa và kinh nghiệm đi tour đêm",
+        "why": "stale",
+        "content_hash": "fc86cac4da1911528d32104d0969754534fb81041738085bfe6eb76c69849a7a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T14:52:16.360621+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "b82fb8d321ed91d89fcdb3d3d3330a2b1ea4be79b8f5c9785bd5eedfa57b06a6",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

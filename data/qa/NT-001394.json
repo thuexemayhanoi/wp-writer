@@ -1,0 +1,250 @@
+{
+  "topic_id": "NT-001394",
+  "status": "PASS",
+  "source_sha256": "c668b3a1bc0be933bc1ef94ec521b29666f9cc1dc9e5235efe535b41c2d982d3",
+  "body_sha256": "1dffe9815ea064815c7fcdb5ef0c39bcaf22ec8fe18ec62aed68a2decdb30d0f",
+  "word_count": 1919,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://cafef.vn/ung-dung-vinbus-chinh-thuc-tich-hop-vao-green-sm-188261016080832417.chn",
+      "supports": "CafeF (16/10/2026): từ 20/10/2026 ứng dụng VinBus ngừng ở Quảng Ninh, Phú Quốc, Nha Trang, TP.HCM; từ 30/10/2026 ngừng ở Hà Nội; chuyển sang Green SM, mục VinBus.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nguoiquansat.vn/vinbus-dung-ung-dung-rieng-tren-toan-quoc-hanh-khach-can-chuyen-sang-nen-tang-nao-322598.html",
+      "supports": "Người Quan sát (18/10/2026): VinBus ngừng ứng dụng riêng theo từng giai đoạn; hành khách cài Green SM, chọn mục VinBus để tìm tuyến, trạm dừng và theo dõi xe.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nguoiquansat.vn/ung-dung-vinbus-cua-vingroup-thong-bao-dung-hoat-dong-312574.html",
+      "supports": "Người Quan sát (25/8/2026): thông báo trong ứng dụng nói từ 1/9/2026 VinBus chuyển sang nền tảng Green SM; việc dừng ứng dụng không có nghĩa các tuyến buýt điện ngừng vận hành.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://cafef.vn/ung-dung-vinbus-chinh-thuc-tich-hop-vao-green-sm-188261016080832417.chn",
+      "supports": "CafeF (16/10/2026): từ 20/10/2026 các tiện ích tra cứu tuyến đường, trạm dừng và theo dõi xe buýt VinBus dần chuyển sang Green SM; ứng dụng VinBus ngừng trên toàn bộ khu vực đến 30/10.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nguoiquansat.vn/ung-dung-vinbus-cua-vingroup-thong-bao-dung-hoat-dong-312574.html",
+      "supports": "Người Quan sát (25/8/2026): từ 8/11/2025 dịch vụ VinBus đã được tích hợp trực tiếp trên ứng dụng Green SM.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nguoiquansat.vn/ung-dung-vinbus-cua-vingroup-thong-bao-dung-hoat-dong-312574.html",
+      "supports": "Người Quan sát (25/8/2026): thông báo trong ứng dụng VinBus nói từ 1/9/2026 VinBus chuyển sang nền tảng ứng dụng Green SM.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/khoahocphothong/vinbus-khai-truong-02-tuyen-buyt-dien-ket-noi-trung-tam-ha-noi-khu-cong-nghe-cao-hoa-lac-104264268.htm",
+      "supports": "Tuổi Trẻ (02/03/2026): VinBus khai trương hai tuyến buýt điện E06TC và E07TC, vận hành từ ngày 01/03/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://cafef.vn/ung-dung-vinbus-chinh-thuc-tich-hop-vao-green-sm-188261016080832417.chn",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nguoiquansat.vn/vinbus-dung-ung-dung-rieng-tren-toan-quoc-hanh-khach-can-chuyen-sang-nen-tang-nao-322598.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nguoiquansat.vn/ung-dung-vinbus-cua-vingroup-thong-bao-dung-hoat-dong-312574.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://cafef.vn/ung-dung-vinbus-chinh-thuc-tich-hop-vao-green-sm-188261016080832417.chn",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nguoiquansat.vn/ung-dung-vinbus-cua-vingroup-thong-bao-dung-hoat-dong-312574.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nguoiquansat.vn/ung-dung-vinbus-cua-vingroup-thong-bao-dung-hoat-dong-312574.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/khoahocphothong/vinbus-khai-truong-02-tuyen-buyt-dien-ket-noi-trung-tam-ha-noi-khu-cong-nghe-cao-hoa-lac-104264268.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2580,
+        "title": "Đi Hà Nội nên chọn xe ga hay xe số để di chuyển thuận tiện hơn?",
+        "why": "stale",
+        "content_hash": "6aa38b717367fc0077cddd4330e078e59294b75c84a725df25d0c1ffd299712f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2632,
+        "title": "Cầu Long Biên Hà Nội: Đi lúc nào đẹp, chụp ảnh ở đâu và chơi gì gần đó?",
+        "why": "stale",
+        "content_hash": "36dfb351fe0b68f0a6c25d3903504798235bac27df1d97f4c68ca001b55d25e3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4050,
+        "title": "Thuê xe máy đi làm theo ca ở Hà Nội: chọn giờ nhận, gửi xe và trả xe đúng hạn",
+        "why": "stale",
+        "content_hash": "f5a41002206250a00b0d4b19ec54ada261a36c020a5c2f89aa531c79304f4012",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4059,
+        "title": "Thuê xe máy đi phỏng vấn ở Hà Nội trong một ngày: xếp lịch, chọn xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "0ffbbff60edf006739890cca423af4e81cb5346ee434c29859648be6bdb57675",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T14:47:46.739402+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "67bd96509bb0f1c5dc3ad643741f33c6da12981f7a114d723519500305aca41e",
+  "incremental_key": "76c962f95c8b4d4db1af4db4a2fe45d1e585e93d721afc5ecec742b567685b34",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

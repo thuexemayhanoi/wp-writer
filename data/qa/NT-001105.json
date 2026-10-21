@@ -1,0 +1,208 @@
+{
+  "topic_id": "NT-001105",
+  "status": "PASS",
+  "source_sha256": "1747c5875262e9f536549607db98ccb24f9d00e63dca2ec3a5d043be88c59949",
+  "body_sha256": "2921329bca2b969c38daa23e1e6691c216f4bcb57e0e3b5a8a628d8ee136f33c",
+  "word_count": 2699,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://tayho.hanoi.gov.vn/gioi-thieu-chung-65783/gioi-thieu-chung-phuong-tay-ho-2697250628103656273.htm",
+      "supports": "UBND phường Tây Hồ nêu thành phần hình thành, diện tích 10,72 km2, dân số, các phường giáp ranh, tuyến giao thông và điểm đến của phường Tây Hồ mới.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/d3a2d680-8513-4280-8d9e-85c7645f7630?page=%2F",
+      "supports": "Bộ Công an trích Điều 34 khoản 1 điểm g về xe gắn máy (không quá 50 km/h, 04 kW nếu chạy điện), Điều 56 và Điều 59 về giấy tờ và độ tuổi.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?docid=217295&pageid=27160",
+      "supports": "Cổng thông tin Chính phủ đăng văn bản hợp nhất số 55/VBHN-VPQH ban hành ngày 23/3/2026 của Văn phòng Quốc hội về Luật Trật tự, an toàn giao thông đường bộ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/bai-viet/khuyen-cao-nguoi-dan-cac-ky-nang-phong-chong-chay-no-khi-sac-xe-dien-d22-t35817",
+      "supports": "Cục Cảnh sát PCCC và CNCH khuyến cáo cách sạc xe điện an toàn: chờ khoảng 20 phút sau khi chạy, không sạc quá 8 giờ liên tục, sạc nơi khô ráo thoáng mát.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.vietnamplus.vn/ha-noi-dieu-chinh-giao-thong-khu-vuc-nghi-tam-au-co-de-xay-cau-tu-lien-post1142502.vnp",
+      "supports": "VietnamPlus thuật lại thông báo của Sở Xây dựng Hà Nội về rào chắn và tổ chức giao thông từ 21/10/2026 trên đường Nghi Tàm, Âu Cơ để thi công cầu Tứ Liên.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://tayho.hanoi.gov.vn/gioi-thieu-chung-65783/gioi-thieu-chung-phuong-tay-ho-2697250628103656273.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/d3a2d680-8513-4280-8d9e-85c7645f7630?page=%2F",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?docid=217295&pageid=27160",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/bai-viet/khuyen-cao-nguoi-dan-cac-ky-nang-phong-chong-chay-no-khi-sac-xe-dien-d22-t35817",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.vietnamplus.vn/ha-noi-dieu-chinh-giao-thong-khu-vuc-nghi-tam-au-co-de-xay-cau-tu-lien-post1142502.vnp",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 4344,
+        "title": "Thuê xe máy phường Bồ Đề: chọn Honda Vision hay Wave, nhận xe ở đâu?",
+        "why": "stale",
+        "content_hash": "dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78",
+        "jaccard": 0.003,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4345,
+        "title": "Thuê xe máy phường Cửa Nam: chọn Air Blade, tính gói ngày hay tuần?",
+        "why": "stale",
+        "content_hash": "fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437",
+        "jaccard": 0.003,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4346,
+        "title": "Thuê xe máy phường Hoàn Kiếm: đi phố cổ chọn xe ga, xe số hay 50cc?",
+        "why": "stale",
+        "content_hash": "a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T14:50:58.706713+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "4045f0b1e60523c5a6a13c402c8f5431276e67c66961aeb4e39d84ca71c4fc13",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

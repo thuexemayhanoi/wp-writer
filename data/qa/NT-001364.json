@@ -1,0 +1,242 @@
+{
+  "topic_id": "NT-001364",
+  "status": "PASS",
+  "source_sha256": "41d18484935bf47f36f031ed748f8db0c464623af740d98c49a52d751374655f",
+  "body_sha256": "ecf6ac7872689548681ce581b0de490827f74dd76252649470449a5de9fcb8a3",
+  "word_count": 2670,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/c418fedc-3ab0-4325-90dc-eab118c0bda5?page=%2F",
+      "supports": "Bộ Công an trả lời (25/02/2026): trích khoản 1 Điều 78 Luật Xử lý vi phạm hành chính về nộp tiền phạt tại Kho bạc Nhà nước, quá hạn bị cưỡng chế và chịu 0,05% mỗi ngày chậm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/c418fedc-3ab0-4325-90dc-eab118c0bda5?page=%2F",
+      "supports": "Bộ Công an trả lời (25/02/2026): trích khoản 2 Điều 68, thời hạn thi hành quyết định là 10 ngày kể từ ngày nhận quyết định xử phạt.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/c418fedc-3ab0-4325-90dc-eab118c0bda5?page=%2F",
+      "supports": "Bộ Công an trả lời (25/02/2026): khi chưa rõ thông tin biên bản thì liên hệ đơn vị lập biên bản để được hướng dẫn nộp phạt online.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26612",
+      "supports": "Trang thủ tục của Cổng Dịch vụ công Bộ Công an: nộp phạt trực tuyến toàn trình và điều kiện là thông tin quyết định đã được cập nhật lên Cổng Dịch vụ công Quốc gia.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26612",
+      "supports": "Trang thủ tục của Cổng Dịch vụ công Bộ Công an: mức độ dịch vụ công trực tuyến toàn trình.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/plo/co-nhat-thiet-phai-den-kho-bac-nha-nuoc-dong-phat-hanh-chinh-109777226.htm",
+      "supports": "Tuổi Trẻ (24/02/2024), luật sư trả lời: người nộp phạt không bắt buộc đến Kho bạc Nhà nước, có thể nộp qua tài khoản Kho bạc hoặc nộp cho người xử phạt tùy trường hợp.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/c418fedc-3ab0-4325-90dc-eab118c0bda5?page=%2F",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/c418fedc-3ab0-4325-90dc-eab118c0bda5?page=%2F",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/c418fedc-3ab0-4325-90dc-eab118c0bda5?page=%2F",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26612",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26612",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/plo/co-nhat-thiet-phai-den-kho-bac-nha-nuoc-dong-phat-hanh-chinh-109777226.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 887,
+        "title": "Chi Phí Giao Xe Máy Tận Nơi Hà Nội – Cách Tính & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "6c27605fc8d85de1852488f84e098724f3408d70c6c8b62c581045e5fb205778",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2401,
+        "title": "Đánh giá Honda ICON e: ưu nhược điểm và nhu cầu sử dụng phù hợp",
+        "why": "stale",
+        "content_hash": "8e7a7b14e3ebe7505700162b1498c681b742964d82d878fd31022d62543aecae",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2586,
+        "title": "Honda Cub 50cc có phù hợp đi Hà Nội dài ngày và quãng đường hỗn hợp?",
+        "why": "stale",
+        "content_hash": "0536961ad35e1232748bd3a286f39f1c319c253058082e75bc61c31b404481ce",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2594,
+        "title": "Đi ngoại thành Hà Nội nên chọn xe ga hay xe côn tay để phù hợp hơn?",
+        "why": "stale",
+        "content_hash": "c828fb01d0925dea14287531e51418ebeef09564d4fb50f52a2398ebd052935e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T14:53:46.394506+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "a416636d3ebacd0ef734c50d0ba1cb9253e27cc22e36ce8d99485b52a94f2e16",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
