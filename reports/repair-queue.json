@@ -65,6 +65,7 @@
           "Near duplicate existing:4344"
         ],
         "review": [
+          "near topic:NT-001109",
           "reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538",
           "nearest full content not reviewed"
         ]
@@ -83,6 +84,7 @@
       "Near duplicate existing:4344"
     ],
     "review": [
+      "near topic:NT-001109",
       "reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538",
       "nearest full content not reviewed"
     ],
@@ -165,7 +167,7 @@
       "max_jaccard": 0.25,
       "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
     },
-    "at": "2026-10-21T17:33:32.744026+00:00",
+    "at": "2026-10-21T19:36:24.733490+00:00",
     "live_links_checked": false,
     "legal_required": true,
     "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
@@ -176,6 +178,7 @@
       "real_risk": [
         "G4: existing URL collision:4344",
         "G4: Near duplicate existing:4344",
+        "G4: near topic:NT-001109",
         "G4: reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538",
         "G4: nearest full content not reviewed"
       ],
@@ -336,7 +339,7 @@
       "max_jaccard": 0.25,
       "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
     },
-    "at": "2026-10-21T17:33:33.416415+00:00",
+    "at": "2026-10-21T19:36:25.398700+00:00",
     "live_links_checked": false,
     "legal_required": true,
     "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
@@ -525,7 +528,7 @@
       "max_jaccard": 0.25,
       "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
     },
-    "at": "2026-10-21T17:33:34.067539+00:00",
+    "at": "2026-10-21T19:36:26.045975+00:00",
     "live_links_checked": false,
     "legal_required": true,
     "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",

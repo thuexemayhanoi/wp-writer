@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-21T17:36:31.143575+00:00",
-  "attempted": 0,
+  "at": "2026-10-21T19:41:49.154846+00:00",
+  "attempted": 3,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -89,6 +89,7 @@
             "Near duplicate existing:4344"
           ],
           "review": [
+            "near topic:NT-001109",
             "reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538",
             "nearest full content not reviewed"
           ]
@@ -107,6 +108,7 @@
         "Near duplicate existing:4344"
       ],
       "review": [
+        "near topic:NT-001109",
         "reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538",
         "nearest full content not reviewed"
       ],
@@ -189,16 +191,17 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T17:36:14.169462+00:00",
+      "at": "2026-10-21T19:40:06.808213+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "4d08d52d96cad0079c7af495b55fb53a3871badb65bd4a537be9a391abd33644",
+      "inventory_sha256": "ba8a8ed0cb76e314f016994aa141ae9cdd9b42301158d115b48a3d5f1a09f311",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
           "G4: existing URL collision:4344",
           "G4: Near duplicate existing:4344",
+          "G4: near topic:NT-001109",
           "G4: reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538",
           "G4: nearest full content not reviewed"
         ],
@@ -359,11 +362,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T17:36:23.284319+00:00",
+      "at": "2026-10-21T19:40:15.824337+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "4d08d52d96cad0079c7af495b55fb53a3871badb65bd4a537be9a391abd33644",
+      "inventory_sha256": "ba8a8ed0cb76e314f016994aa141ae9cdd9b42301158d115b48a3d5f1a09f311",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -547,11 +550,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T17:36:30.907065+00:00",
+      "at": "2026-10-21T19:40:23.417991+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "4d08d52d96cad0079c7af495b55fb53a3871badb65bd4a537be9a391abd33644",
+      "inventory_sha256": "ba8a8ed0cb76e314f016994aa141ae9cdd9b42301158d115b48a3d5f1a09f311",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -569,6 +572,30 @@
         "exhausted": false,
         "needs_owner": false
       }
+    },
+    {
+      "topic_id": "NT-001107",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 182,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "hanoi-ward-rentals",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001108",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 182,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "hanoi-ward-rentals",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001109",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 182,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "hanoi-ward-rentals",
+      "category_warning": null
     }
   ],
   "backlog_drains_on": "successful Writer QA or fallback schedule",
