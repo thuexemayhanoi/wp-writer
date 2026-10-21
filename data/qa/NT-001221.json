@@ -1,0 +1,258 @@
+{
+  "topic_id": "NT-001221",
+  "status": "PASS",
+  "source_sha256": "8817f04d6d4891df1262b8546a880f0b12a3c7aafe053921e025fad95fdbff4a",
+  "body_sha256": "a1207bbd1810be855357e161cb137106b43f1a43c0fed6b6f6d7109d4ba05a93",
+  "word_count": 2695,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vov.gov.vn/thuc-hu-thong-tin-nguoi-tu-16-tuoi-den-duoi-18-tuoi-bi-phat-neu-di-xe-may-dtnew-1152794",
+      "supports": "VOV (cập nhật 05/07/2026), lời đại diện Cục CSGT: Nghị định 238 không ban hành quy định mới về xử phạt người từ đủ 16 đến dưới 18 tuổi điều khiển xe gắn máy, chỉ sửa câu chữ cho thống nhất với Luật.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vov.gov.vn/thuc-hu-thong-tin-nguoi-tu-16-tuoi-den-duoi-18-tuoi-bi-phat-neu-di-xe-may-dtnew-1152794",
+      "supports": "VOV: Điều 6 Nghị định 238 sửa điểm a khoản 4 Điều 18, mức phạt 400.000–600.000 đồng với người từ đủ 16 đến dưới 18 tuổi điều khiển xe mô tô và các loại xe tương tự xe mô tô.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.phutho.gov.vn/article/Tu-1582026-Nhung-thay-doi-dang-chu-y-ve-xu-31345-36",
+      "supports": "Phòng CSGT Công an Phú Thọ (15/08/2026): mức phạt theo khoản 4 Điều 18 Nghị định 168/2024 giữ nguyên, Nghị định 238 điều chỉnh cách xác định hành vi.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.phutho.gov.vn/article/Tu-1582026-Nhung-thay-doi-dang-chu-y-ve-xu-31345-36",
+      "supports": "Phòng CSGT Công an Phú Thọ: điều kiện dung tích 50 cm3 hoặc công suất điện 4 kW được bỏ khỏi điều khoản xử phạt từ 15/8/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-238-2026-nd-cp-469913/66580.htm",
+      "supports": "Công báo điện tử: Nghị định 238/2026/NĐ-CP ban hành 26/06/2026, hiệu lực 15/08/2026 (trang văn bản, bản lưu nguyên bản của trang).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm",
+      "supports": "Toàn văn Nghị định 168/2024/NĐ-CP trên Cổng thông tin điện tử Chính phủ: câu chữ cũ của điểm a khoản 4 Điều 18 với ngưỡng 50 cm3 và 04 kW.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/chinh-phu-ban-hanh-nghi-dinh-so-238-2026-nd-cp-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-168-2024-nd-cp-1786704471",
+      "supports": "Cổng thông tin Bộ Công an (16/08/2026): Nghị định 238/2026/NĐ-CP có hiệu lực từ 15/8/2026; bản tin tập trung vào trẻ em trên ô tô, vận tải và thẩm quyền xử phạt.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vov.gov.vn/thuc-hu-thong-tin-nguoi-tu-16-tuoi-den-duoi-18-tuoi-bi-phat-neu-di-xe-may-dtnew-1152794",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vov.gov.vn/thuc-hu-thong-tin-nguoi-tu-16-tuoi-den-duoi-18-tuoi-bi-phat-neu-di-xe-may-dtnew-1152794",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.phutho.gov.vn/article/Tu-1582026-Nhung-thay-doi-dang-chu-y-ve-xu-31345-36",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.phutho.gov.vn/article/Tu-1582026-Nhung-thay-doi-dang-chu-y-ve-xu-31345-36",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-238-2026-nd-cp-469913/66580.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/chinh-phu-ban-hanh-nghi-dinh-so-238-2026-nd-cp-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-168-2024-nd-cp-1786704471",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 829,
+        "title": "Hướng dẫn thủ tục thuê xe máy Hà Nội – Đơn giản, tiện lợi",
+        "why": "stale",
+        "content_hash": "5b8010b61945786c117f1063813ecc18303c498313d7b437d198ac51207abeaf",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 1060,
+        "title": "Thuê Xe Máy Theo Tháng Hà Nội – Giá Rẻ, Xe Ga Xe Số",
+        "why": "stale",
+        "content_hash": "91ac037b4111a6094966dec9b372fd51efec1590c51c00cf3824949cf3142c8c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2532,
+        "title": "Bảo dưỡng xe máy Honda định kỳ gồm những hạng mục nào quan trọng?",
+        "why": "stale",
+        "content_hash": "3b3f8540d3f280a070202fee58502694cd67d9aa913f3fd5820127ff78745746",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2538,
+        "title": "Bảo dưỡng xe máy Yamaha định kỳ: những hạng mục không nên bỏ qua",
+        "why": "stale",
+        "content_hash": "7ba921b8bab5c4d33595262c9663c3d0cda2779ce5193da515df1b4733f9a21f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2632,
+        "title": "Cầu Long Biên Hà Nội: Đi lúc nào đẹp, chụp ảnh ở đâu và chơi gì gần đó?",
+        "why": "stale",
+        "content_hash": "36dfb351fe0b68f0a6c25d3903504798235bac27df1d97f4c68ca001b55d25e3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T09:47:26.813013+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "58d63dbe6267f801e8619df487519a46b2bc06788737140b4a28408dc308a0c2",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
