@@ -27723,7 +27723,7 @@
       }
     },
     "NT-001254": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:41:11.084551+00:00",
       "source_hash": "d9c3c074fec5edcfff46dd05b01bb9ba232186641d476298e7ec8d1d288696b8",
       "slug": "deo-khau-pha-dai-bao-nhieu-km-nam-bai-bao-ghi-tu-hon-20-den-hon-30-km-con-do-cao-la-1-200-1-268-hay-1-500-m",
@@ -27739,8 +27739,37 @@
       "category_warning": null,
       "git_commit": "1548faa8656ddb9fa7d131e0a1f6d4da23750132",
       "run_id": "39618406418",
-      "updated_at": "2026-10-21T14:41:16.150982+00:00",
-      "wp_id": 4623
+      "updated_at": "2026-10-21T14:41:22.664879+00:00",
+      "wp_id": 4623,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/deo-khau-pha-dai-bao-nhieu-km-nam-bai-bao-ghi-tu-hon-20-den-hon-30-km-con-do-cao-la-1-200-1-268-hay-1-500-m/",
+      "verified_at": "2026-10-21T14:41:22.664872+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4623,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/deo-khau-pha-dai-bao-nhieu-km-nam-bai-bao-ghi-tu-hon-20-den-hon-30-km-con-do-cao-la-1-200-1-268-hay-1-500-m/",
+        "categories": [
+          126
+        ],
+        "canonical": "https://thuexemaynguyentu.com/deo-khau-pha-dai-bao-nhieu-km-nam-bai-bao-ghi-tu-hon-20-den-hon-30-km-con-do-cao-la-1-200-1-268-hay-1-500-m/",
+        "seo_title": "Đèo Khau Phạ dài bao nhiêu km: báo ghi từ hơn 20 đến hơn 30 km",
+        "seo_description": "Đèo Khau Phạ dài bao nhiêu km: VnExpress, Báo Lào Cai, Tuổi Trẻ ghi hơn 20, 30 hoặc hơn 30 km; độ cao 1.200, 1.268 hay 1.500 m, kèm tình trạng đường theo từng năm.",
+        "checked_at": "2026-10-21T14:41:22.664856+00:00"
+      }
     }
   },
   "categories": {}
