@@ -1,21 +1,21 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 12,
+  "ready_stock": 5,
   "trigger_below_ready": 900,
   "rounds_opened": 5,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 708,
-  "capacity_remaining": 1292,
+  "topic_rows": 713,
+  "capacity_remaining": 1287,
   "order": {
     "id": "RF-0005",
     "round": 5,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 12,
-    "remaining_to_min": 88,
-    "remaining_to_max": 188,
+    "accepted_so_far": 17,
+    "remaining_to_min": 83,
+    "remaining_to_max": 183,
     "batches_still_needed": 9,
     "batch_size": 10,
     "capacity_limited": false,
@@ -59,6 +59,12 @@
         "allocation": 23
       },
       {
+        "taxonomy_key": "driving-licence",
+        "quota": 6,
+        "known_now": 17,
+        "allocation": 32
+      },
+      {
         "taxonomy_key": "electric",
         "quota": 6,
         "known_now": 43,
@@ -71,15 +77,9 @@
         "allocation": 91
       },
       {
-        "taxonomy_key": "driving-licence",
-        "quota": 5,
-        "known_now": 17,
-        "allocation": 32
-      },
-      {
         "taxonomy_key": "ebikes",
-        "quota": 5,
-        "known_now": 17,
+        "quota": 4,
+        "known_now": 22,
         "allocation": 32
       },
       {
@@ -134,20 +134,20 @@
     "next_batch_categories": {
       "urban-mobility": 2,
       "driving-licence": 1,
-      "ebikes": 1,
       "electric": 1,
       "electric-transition": 1,
       "green-travel": 1,
       "rental-50cc": 1,
       "rental-guide": 1,
-      "trip-planning": 1
+      "trip-planning": 1,
+      "vietnam-travel": 1
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 753,
-    "topics_in_factory": 708,
+    "published_wordpress_items": 760,
+    "topics_in_factory": 713,
     "topics_by_status": {
-      "PLANNED": 631,
+      "PLANNED": 636,
       "REJECTED": 2,
       "RESEARCH": 75
     },
