@@ -26890,7 +26890,7 @@
       }
     },
     "NT-001337": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:15:25.993178+00:00",
       "source_hash": "07f118b5daf291845edbe9eaab96c06a029f78541c8e7d184aa7054464023a01",
       "slug": "du-lich-nong-nghiep-bai-song-hong-vuon-trai-nghiem-o-giang-bien-va-nghi-quyet-9-7-2025",
@@ -26906,8 +26906,37 @@
       "category_warning": null,
       "git_commit": "505e67d8504b8c0483cb4ab34a9945024cd50874",
       "run_id": "39614249837",
-      "updated_at": "2026-10-21T14:15:32.141011+00:00",
-      "wp_id": 4589
+      "updated_at": "2026-10-21T14:15:38.707895+00:00",
+      "wp_id": 4589,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/du-lich-nong-nghiep-bai-song-hong-vuon-trai-nghiem-o-giang-bien-va-nghi-quyet-9-7-2025/",
+      "verified_at": "2026-10-21T14:15:38.707888+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4589,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/du-lich-nong-nghiep-bai-song-hong-vuon-trai-nghiem-o-giang-bien-va-nghi-quyet-9-7-2025/",
+        "categories": [
+          177
+        ],
+        "canonical": "https://thuexemaynguyentu.com/du-lich-nong-nghiep-bai-song-hong-vuon-trai-nghiem-o-giang-bien-va-nghi-quyet-9-7-2025/",
+        "seo_title": "Du lịch nông nghiệp bãi sông Hồng: vườn Giang Biên và nghị quyết 2025",
+        "seo_description": "Du lịch nông nghiệp bãi sông Hồng: vườn trải nghiệm ở Giang Biên, điều kiện nông nghiệp kết hợp du lịch theo nghị quyết 9/7/2025 và cách đi có trách nhiệm.",
+        "checked_at": "2026-10-21T14:15:38.707870+00:00"
+      }
     }
   },
   "categories": {}
