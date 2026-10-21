@@ -1,38 +1,38 @@
 # Pipeline board
 
-Generated 2026-10-21T05:00:39.468425+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-21T05:10:35.206962+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
-| WRITING | 10 |
+| WRITING | 15 |
 | QA | 0 |
-| READY | 11 |
+| READY | 6 |
 | REPAIR | 0 |
 | HELD | 3 |
 | PUBLISHING | 0 |
-| VERIFIED | 474 |
+| VERIFIED | 484 |
 
-Ready backlog (QA PASS waiting for the Publisher): **11**
+Ready backlog (QA PASS waiting for the Publisher): **6**
 
 ## Articles not yet VERIFIED
 
 | Topic | State | Slot | Session | Reason |
 |---|---|---|---|---|
-| NT-001131 | WRITING | W3 | seodev-w52 | leased to seodev-w52 |
-| NT-001132 | WRITING | W3 | seodev-w52 | leased to seodev-w52 |
-| NT-001133 | WRITING | W3 | seodev-w52 | leased to seodev-w52 |
 | NT-001134 | WRITING | W3 | seodev-w52 | leased to seodev-w52 |
 | NT-001135 | WRITING | W3 | seodev-w52 | leased to seodev-w52 |
-| NT-001136 | WRITING | W3 | seodev-w52 | leased to seodev-w52 |
-| NT-001137 | WRITING | W3 | seodev-w52 | leased to seodev-w52 |
 | NT-001138 | WRITING | W3 | seodev-w52 | leased to seodev-w52 |
 | NT-001139 | WRITING | W3 | seodev-w52 | leased to seodev-w52 |
 | NT-001140 | WRITING | W3 | seodev-w52 | leased to seodev-w52 |
-| NT-001190 | READY | W5 | seodev-w50 | QA PASS; waiting for the Publisher |
-| NT-001211 | READY | W7 | seodev-w51 | QA PASS; waiting for the Publisher |
-| NT-001212 | READY | W7 | seodev-w51 | QA PASS; waiting for the Publisher |
-| NT-001213 | READY | W7 | seodev-w51 | QA PASS; waiting for the Publisher |
-| NT-001214 | READY | W7 | seodev-w51 | QA PASS; waiting for the Publisher |
+| NT-001191 | WRITING | W4 | seodev-w53 | leased to seodev-w53 |
+| NT-001192 | WRITING | W4 | seodev-w53 | leased to seodev-w53 |
+| NT-001193 | WRITING | W4 | seodev-w53 | leased to seodev-w53 |
+| NT-001194 | WRITING | W4 | seodev-w53 | leased to seodev-w53 |
+| NT-001195 | WRITING | W4 | seodev-w53 | leased to seodev-w53 |
+| NT-001196 | WRITING | W4 | seodev-w53 | leased to seodev-w53 |
+| NT-001197 | WRITING | W4 | seodev-w53 | leased to seodev-w53 |
+| NT-001198 | WRITING | W4 | seodev-w53 | leased to seodev-w53 |
+| NT-001199 | WRITING | W4 | seodev-w53 | leased to seodev-w53 |
+| NT-001200 | WRITING | W4 | seodev-w53 | leased to seodev-w53 |
 | NT-001215 | READY | W7 | seodev-w51 | QA PASS; waiting for the Publisher |
 | NT-001216 | READY | W7 | seodev-w51 | QA PASS; waiting for the Publisher |
 | NT-001217 | READY | W7 | seodev-w51 | QA PASS; waiting for the Publisher |

@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-21T05:00:34.381764+00:00",
+  "at": "2026-10-21T05:10:29.935162+00:00",
   "attempted": 10,
-  "ready_backlog": 11,
+  "ready_backlog": 6,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -180,11 +180,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T04:55:11.823822+00:00",
+      "at": "2026-10-21T05:04:50.995422+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "efedd77360b1561b88d75c3cea4202e5492660813241562839ffcaed62ffed77",
+      "inventory_sha256": "d95e60ef2dbcb559a0255ac9bbf3bd40a4ba036c0cbc58393e90ea71488fe9f5",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -350,11 +350,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T04:55:19.448297+00:00",
+      "at": "2026-10-21T05:04:59.288635+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "efedd77360b1561b88d75c3cea4202e5492660813241562839ffcaed62ffed77",
+      "inventory_sha256": "d95e60ef2dbcb559a0255ac9bbf3bd40a4ba036c0cbc58393e90ea71488fe9f5",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -529,11 +529,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T04:55:26.073260+00:00",
+      "at": "2026-10-21T05:05:06.377811+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "efedd77360b1561b88d75c3cea4202e5492660813241562839ffcaed62ffed77",
+      "inventory_sha256": "d95e60ef2dbcb559a0255ac9bbf3bd40a4ba036c0cbc58393e90ea71488fe9f5",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -553,7 +553,23 @@
       }
     },
     {
-      "topic_id": "NT-001125",
+      "topic_id": "NT-001131",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 176,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001132",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 176,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001133",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 175,
       "category_resolution": "EXACT",
@@ -561,7 +577,23 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001181",
+      "topic_id": "NT-001136",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 175,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "trip-planning",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001137",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 176,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001190",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 161,
       "category_resolution": "EXACT",
@@ -569,47 +601,15 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001182",
+      "topic_id": "NT-001211",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
+      "category_id": 169,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
+      "intended_taxonomy_key": "electric-transition",
       "category_warning": null
     },
     {
-      "topic_id": "NT-001183",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001184",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001185",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001186",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001187",
+      "topic_id": "NT-001212",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 159,
       "category_resolution": "EXACT",
@@ -617,19 +617,19 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001188",
+      "topic_id": "NT-001213",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
+      "category_id": 159,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
+      "intended_taxonomy_key": "legal",
       "category_warning": null
     },
     {
-      "topic_id": "NT-001189",
+      "topic_id": "NT-001214",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
+      "category_id": 159,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
+      "intended_taxonomy_key": "legal",
       "category_warning": null
     }
   ],
