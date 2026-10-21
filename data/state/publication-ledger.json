@@ -20030,7 +20030,7 @@
       }
     },
     "NT-000740": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:19:42.619512+00:00",
       "source_hash": "5f279d6057f809ea2446d02841c07c4177798fcea91af64408f74d3a8d81716f",
       "slug": "lang-tam-hue-nua-ngay-hay-hai-ngay-chon-lang-nao-va-doan-duong-xe-may-toi-lang-gia-long",
@@ -20046,8 +20046,37 @@
       "category_warning": null,
       "git_commit": "f51dccf09e632fe70acfd6dfbc7d931d064689e4",
       "run_id": "39542955374",
-      "updated_at": "2026-10-21T04:19:47.018172+00:00",
-      "wp_id": 4425
+      "updated_at": "2026-10-21T04:19:53.476610+00:00",
+      "wp_id": 4425,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lang-tam-hue-nua-ngay-hay-hai-ngay-chon-lang-nao-va-doan-duong-xe-may-toi-lang-gia-long/",
+      "verified_at": "2026-10-21T04:19:53.476603+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4425,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lang-tam-hue-nua-ngay-hay-hai-ngay-chon-lang-nao-va-doan-duong-xe-may-toi-lang-gia-long/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lang-tam-hue-nua-ngay-hay-hai-ngay-chon-lang-nao-va-doan-duong-xe-may-toi-lang-gia-long/",
+        "seo_title": "Lăng tẩm Huế nửa ngày hay hai ngày: chọn lăng nào, xe máy tới Gia Long",
+        "seo_description": "Lăng tẩm Huế nửa ngày hay hai ngày: nửa ngày xem hai đến ba lăng, hai ngày xem hết bảy lăng; cách chọn lăng theo sở thích và đoạn đường xe máy tới lăng Gia Long.",
+        "checked_at": "2026-10-21T04:19:53.476585+00:00"
+      }
     }
   },
   "categories": {}
