@@ -8,7 +8,7 @@
   "checkpoint_date": "2026-10-20",
   "completed_editorial_drafts": 12,
   "imported_into_topic_factory": 6,
-  "published_new_articles": 0,
+  "published_new_articles": 1,
   "owner_approval_mode": "3 bài mỗi lượt duyệt",
   "status": "SIX_RESEARCH_TOPICS_PLANNED_AWAITING_WRITER;_SIX_EDITORIAL_AWAIT_RESEARCH",
   "completed": [
@@ -71,14 +71,16 @@
       "approx_quality_word_count": 4495,
       "taxonomy_key": "hanoi-ward-rentals",
       "research_status": "PLANNED_RESEARCH_PASS",
-      "writer_qa_status": "NOT_VERIFIED_CURRENT_RUN",
-      "publication_status": "GITHUB_EDITORIAL_ONLY",
+      "writer_qa_status": "PASS",
+      "publication_status": "WORDPRESS_PUBLISHED_G7_PASS",
       "topic_id": "NT-001104",
-      "wp_post_id": null,
+      "wp_post_id": 4622,
       "campaign_id": "HN-51-WARDS",
       "wp_exact_slug_check": "NO_EXACT_PUBLISHED_POST_SLUG_COLLISION",
       "wp_exact_slug_checked_at": "2026-10-20",
-      "intent_collision_check": "RESEARCH_QA_PASS_RECHECK_BEFORE_PUBLICATION"
+      "intent_collision_check": "RESEARCH_QA_PASS_RECHECK_BEFORE_PUBLICATION",
+      "wp_permalink": "https://thuexemaynguyentu.com/thue-xe-may-phuong-viet-hung-honda-wave-yamaha-sirius-theo-tuan/",
+      "g7_verified_at": "2026-10-21T14:40:57.849354+00:00"
     },
     {
       "batch": 2,
@@ -234,7 +236,7 @@
     "G7_LIVE_READBACK"
   ],
   "publication_policy": "Publish immediately after all gates pass; no WordPress draft; category drift or duplicate holds on GitHub",
-  "last_reconciled_at": "2026-10-20T13:07:20.779532+00:00",
+  "last_reconciled_at": "2026-10-21T14:45:59.714708+00:00",
   "last_live_reconciliation": {
     "checked_at": "2026-10-20T09:33:16.484Z",
     "wordpress_category": {
