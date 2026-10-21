@@ -24930,7 +24930,7 @@
       }
     },
     "NT-001229": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T09:55:04.930177+00:00",
       "source_hash": "7a84f4df2bca5fe53e71298879b13af0e0a64cdf963a17eab3b6f5a5662574c5",
       "slug": "phi-sat-hach-va-le-phi-cap-giay-phep-lai-xe-may-60-000-dong-moi-phan-thi-le-phi-115-000-hay-135-000-dong",
@@ -24946,8 +24946,37 @@
       "category_warning": null,
       "git_commit": "ee8cdb7d7fa24bc2ba89e576e7751976e0851152",
       "run_id": "39579774433",
-      "updated_at": "2026-10-21T09:55:09.151012+00:00",
-      "wp_id": 4545
+      "updated_at": "2026-10-21T09:55:15.088505+00:00",
+      "wp_id": 4545,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/phi-sat-hach-va-le-phi-cap-giay-phep-lai-xe-may-60-000-dong-moi-phan-thi-le-phi-115-000-hay-135-000-dong/",
+      "verified_at": "2026-10-21T09:55:15.088499+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4545,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/phi-sat-hach-va-le-phi-cap-giay-phep-lai-xe-may-60-000-dong-moi-phan-thi-le-phi-115-000-hay-135-000-dong/",
+        "categories": [
+          171
+        ],
+        "canonical": "https://thuexemaynguyentu.com/phi-sat-hach-va-le-phi-cap-giay-phep-lai-xe-may-60-000-dong-moi-phan-thi-le-phi-115-000-hay-135-000-dong/",
+        "seo_title": "Phí sát hạch và lệ phí cấp giấy phép lái xe máy: 115.000 hay 135.000",
+        "seo_description": "Phí sát hạch và lệ phí cấp giấy phép lái xe máy: 60.000 đồng mỗi phần thi A1, A; lệ phí 115.000 đồng theo Quảng Trị, 135.000 đồng theo trang Bộ Công an.",
+        "checked_at": "2026-10-21T09:55:15.088482+00:00"
+      }
     }
   },
   "categories": {}
