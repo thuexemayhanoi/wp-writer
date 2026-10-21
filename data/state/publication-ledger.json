@@ -21108,7 +21108,7 @@
       }
     },
     "NT-001153": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:39:49.032052+00:00",
       "source_hash": "b5d432d9674a26933b6e105b680fc86332c11ec09b0a45bc4bc7fc7732da1bc3",
       "slug": "do-nhot-sae-tren-nhot-xe-may-doc-10w-30-10w-40-va-vi-sao-honda-yamaha-motul-khuyen-khac-nhau",
@@ -21124,8 +21124,37 @@
       "category_warning": null,
       "git_commit": "61285248c7d8eca7c8250b277de2091dd2ca1bae",
       "run_id": "39544657734",
-      "updated_at": "2026-10-21T04:39:53.172869+00:00",
-      "wp_id": 4450
+      "updated_at": "2026-10-21T04:39:59.430123+00:00",
+      "wp_id": 4450,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/do-nhot-sae-tren-nhot-xe-may-doc-10w-30-10w-40-va-vi-sao-honda-yamaha-motul-khuyen-khac-nhau/",
+      "verified_at": "2026-10-21T04:39:59.430116+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4450,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/do-nhot-sae-tren-nhot-xe-may-doc-10w-30-10w-40-va-vi-sao-honda-yamaha-motul-khuyen-khac-nhau/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/do-nhot-sae-tren-nhot-xe-may-doc-10w-30-10w-40-va-vi-sao-honda-yamaha-motul-khuyen-khac-nhau/",
+        "seo_title": "Độ nhớt SAE trên nhớt xe máy: đọc 10W-30, 10W-40 thế nào",
+        "seo_description": "Độ nhớt SAE trên nhớt xe máy: đọc số trước và sau chữ W, sách Honda sáu xe cùng ghi 10W-30, vì sao Motul và Yamaha khuyên khác và cách đối chiếu nhãn chai.",
+        "checked_at": "2026-10-21T04:39:59.430096+00:00"
+      }
     }
   },
   "categories": {}
