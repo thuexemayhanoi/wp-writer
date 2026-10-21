@@ -21843,7 +21843,7 @@
       }
     },
     "NT-001181": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:55:52.455337+00:00",
       "source_hash": "dc30cc130058ea6eac903780fa5e14e288a568d13524f9b2774b395b96eaef8a",
       "slug": "qua-duong-ngang-duong-sat-bang-xe-may-dung-truoc-vach-quan-sat-hai-phia-va-khong-dung-tren-duong-ray",
@@ -21859,8 +21859,37 @@
       "category_warning": null,
       "git_commit": "964458a089206e771b6fb04bf6694090cdfda34f",
       "run_id": "39546378277",
-      "updated_at": "2026-10-21T04:55:56.134133+00:00",
-      "wp_id": 4466
+      "updated_at": "2026-10-21T04:56:03.453728+00:00",
+      "wp_id": 4466,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/qua-duong-ngang-duong-sat-bang-xe-may-dung-truoc-vach-quan-sat-hai-phia-va-khong-dung-tren-duong-ray/",
+      "verified_at": "2026-10-21T04:56:03.453721+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4466,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/qua-duong-ngang-duong-sat-bang-xe-may-dung-truoc-vach-quan-sat-hai-phia-va-khong-dung-tren-duong-ray/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/qua-duong-ngang-duong-sat-bang-xe-may-dung-truoc-vach-quan-sat-hai-phia-va-khong-dung-tren-duong-ray/",
+        "seo_title": "Qua đường ngang đường sắt bằng xe máy: dừng, nhìn, nghe rồi đi",
+        "seo_description": "Qua đường ngang đường sắt bằng xe máy: dừng trước vạch, quan sát hai phía, không dừng trên đường ray, theo Điều 24 Luật 36/2024/QH15 và số liệu Hà Nội 2026.",
+        "checked_at": "2026-10-21T04:56:03.453698+00:00"
+      }
     }
   },
   "categories": {}
