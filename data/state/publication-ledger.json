@@ -29438,7 +29438,7 @@
       }
     },
     "NT-001315": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T15:21:53.398191+00:00",
       "source_hash": "049e4952b92c7b4bd6e47df79163d653d6474c7174c7674f734e3c22d0678b78",
       "slug": "phanh-dong-co-dat-bike-ngat-khi-pin-day-tat-may-dot-ngot-do-deo-nong-va-loi-dan-ra-phanh",
@@ -29454,8 +29454,37 @@
       "category_warning": null,
       "git_commit": "f772a3382fccf3d6a2b4f02f7603894da4781471",
       "run_id": "39624139363",
-      "updated_at": "2026-10-21T15:21:59.128327+00:00",
-      "wp_id": 4668
+      "updated_at": "2026-10-21T15:22:05.726181+00:00",
+      "wp_id": 4668,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/phanh-dong-co-dat-bike-ngat-khi-pin-day-tat-may-dot-ngot-do-deo-nong-va-loi-dan-ra-phanh/",
+      "verified_at": "2026-10-21T15:22:05.726173+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4668,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/phanh-dong-co-dat-bike-ngat-khi-pin-day-tat-may-dot-ngot-do-deo-nong-va-loi-dan-ra-phanh/",
+        "categories": [
+          157
+        ],
+        "canonical": "https://thuexemaynguyentu.com/phanh-dong-co-dat-bike-ngat-khi-pin-day-tat-may-dot-ngot-do-deo-nong-va-loi-dan-ra-phanh/",
+        "seo_title": "Phanh động cơ Dat Bike ngắt khi pin đầy: tắt máy và lời dặn rà thắng",
+        "seo_description": "Phanh động cơ Dat Bike ngắt khi pin đầy: hãng giải thích tắt máy đột ngột và bộ điều khiển nóng khi đổ đèo; lời dặn giữ ga, rà thắng trái với VinFast và VnExpress.",
+        "checked_at": "2026-10-21T15:22:05.726152+00:00"
+      }
     }
   },
   "categories": {}
