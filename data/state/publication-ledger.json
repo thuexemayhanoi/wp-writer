@@ -22088,7 +22088,7 @@
       }
     },
     "NT-001186": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:58:45.847100+00:00",
       "source_hash": "75d7e42299bd8104809ce9f22cc1ee45fc07e3ca359953425b29f529eeb5c0ad",
       "slug": "thuoc-gay-buon-ngu-khi-lai-xe-may-khang-histamin-thuoc-tieu-chay-thuoc-chong-non-va-cach-doc-nhan-thuoc",
@@ -22104,8 +22104,37 @@
       "category_warning": null,
       "git_commit": "964458a089206e771b6fb04bf6694090cdfda34f",
       "run_id": "39546378277",
-      "updated_at": "2026-10-21T04:58:49.616384+00:00",
-      "wp_id": 4471
+      "updated_at": "2026-10-21T04:58:55.528977+00:00",
+      "wp_id": 4471,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/thuoc-gay-buon-ngu-khi-lai-xe-may-khang-histamin-thuoc-tieu-chay-thuoc-chong-non-va-cach-doc-nhan-thuoc/",
+      "verified_at": "2026-10-21T04:58:55.528969+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4471,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/thuoc-gay-buon-ngu-khi-lai-xe-may-khang-histamin-thuoc-tieu-chay-thuoc-chong-non-va-cach-doc-nhan-thuoc/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/thuoc-gay-buon-ngu-khi-lai-xe-may-khang-histamin-thuoc-tieu-chay-thuoc-chong-non-va-cach-doc-nhan-thuoc/",
+        "seo_title": "Thuốc gây buồn ngủ khi lái xe máy: 3 nhóm thuốc và cách đọc nhãn",
+        "seo_description": "Thuốc gây buồn ngủ khi lái xe máy: kháng histamin, thuốc trị tiêu chảy, thuốc chống nôn theo báo Sức khỏe & Đời sống và FDA, cách đọc nhãn và lúc nên hỏi dược sĩ.",
+        "checked_at": "2026-10-21T04:58:55.528946+00:00"
+      }
     }
   },
   "categories": {}
