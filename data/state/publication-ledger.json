@@ -24783,7 +24783,7 @@
       }
     },
     "NT-001148": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T09:53:18.063572+00:00",
       "source_hash": "e5c4870ef46c53b09cf1dc424bdfc14d5a8c3318505363cf361ffc875faf6fca",
       "slug": "ham-chui-me-tri-duong-dinh-nghe-duoi-vanh-dai-3-tren-cao-6-lan-dai-655-m-du-kien-xong-cuoi-nam-2027",
@@ -24799,8 +24799,37 @@
       "category_warning": null,
       "git_commit": "ee8cdb7d7fa24bc2ba89e576e7751976e0851152",
       "run_id": "39579774433",
-      "updated_at": "2026-10-21T09:53:22.035637+00:00",
-      "wp_id": 4542
+      "updated_at": "2026-10-21T09:53:27.892466+00:00",
+      "wp_id": 4542,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ham-chui-me-tri-duong-dinh-nghe-duoi-vanh-dai-3-tren-cao-6-lan-dai-655-m-du-kien-xong-cuoi-nam-2027/",
+      "verified_at": "2026-10-21T09:53:27.892460+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4542,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ham-chui-me-tri-duong-dinh-nghe-duoi-vanh-dai-3-tren-cao-6-lan-dai-655-m-du-kien-xong-cuoi-nam-2027/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ham-chui-me-tri-duong-dinh-nghe-duoi-vanh-dai-3-tren-cao-6-lan-dai-655-m-du-kien-xong-cuoi-nam-2027/",
+        "seo_title": "Hầm chui Mễ Trì – Dương Đình Nghệ: 6 làn, 655 m, xong cuối 2027",
+        "seo_description": "Hầm chui Mễ Trì – Dương Đình Nghệ dưới Vành đai 3 trên cao: 6 làn, dài 655 m, vốn hơn 960 tỷ đồng, đang chuẩn bị mặt bằng, dự kiến xong cuối năm 2027 theo ba bài báo.",
+        "checked_at": "2026-10-21T09:53:27.892444+00:00"
+      }
     }
   },
   "categories": {}
