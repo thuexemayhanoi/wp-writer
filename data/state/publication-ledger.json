@@ -23019,7 +23019,7 @@
       }
     },
     "NT-001200": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T05:17:20.064389+00:00",
       "source_hash": "65d88b4b612a42364b811ce3018a6639898eef852804b4a0b3871a6d470ee6c7",
       "slug": "danh-lai-ne-vat-can-dot-ngot-khi-di-xe-may-day-nhe-tay-lai-phia-muon-ne-giu-trong-lan-va-phanh-truoc-hoac-sau-khi-ne",
@@ -23035,8 +23035,37 @@
       "category_warning": null,
       "git_commit": "4022a17feb60320613408b0d829a96e6ba1aebaa",
       "run_id": "39548159025",
-      "updated_at": "2026-10-21T05:17:24.088525+00:00",
-      "wp_id": 4490
+      "updated_at": "2026-10-21T05:17:30.225379+00:00",
+      "wp_id": 4490,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/danh-lai-ne-vat-can-dot-ngot-khi-di-xe-may-day-nhe-tay-lai-phia-muon-ne-giu-trong-lan-va-phanh-truoc-hoac-sau-khi-ne/",
+      "verified_at": "2026-10-21T05:17:30.225372+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4490,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/danh-lai-ne-vat-can-dot-ngot-khi-di-xe-may-day-nhe-tay-lai-phia-muon-ne-giu-trong-lan-va-phanh-truoc-hoac-sau-khi-ne/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/danh-lai-ne-vat-can-dot-ngot-khi-di-xe-may-day-nhe-tay-lai-phia-muon-ne-giu-trong-lan-va-phanh-truoc-hoac-sau-khi-ne/",
+        "seo_title": "Đánh lái né vật cản đột ngột khi đi xe máy: cách làm và phanh khi né",
+        "seo_description": "Đánh lái né vật cản đột ngột khi đi xe máy theo sổ tay New York và NZTA: đẩy nhẹ tay lái phía muốn né, giữ trong làn, phanh trước hoặc sau khi né và lưu ý cho xe ga.",
+        "checked_at": "2026-10-21T05:17:30.225352+00:00"
+      }
     }
   },
   "categories": {}
