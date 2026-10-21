@@ -21155,6 +21155,25 @@
         "seo_description": "Độ nhớt SAE trên nhớt xe máy: đọc số trước và sau chữ W, sách Honda sáu xe cùng ghi 10W-30, vì sao Motul và Yamaha khuyên khác và cách đối chiếu nhãn chai.",
         "checked_at": "2026-10-21T04:39:59.430096+00:00"
       }
+    },
+    "NT-001154": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T04:40:13.385168+00:00",
+      "source_hash": "d7d18b49bfb0de211439e64b9f5b591a78dc17bcb4ba64008570df3da562bf5a",
+      "slug": "den-mil-tren-xe-honda-y-nghia-khi-nao-den-tat-va-viec-nen-lam-khi-honda-viet-nam-goi-bao-loi",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 170,
+      "visible_hash": "7a63655c8f8a0a237972c6576948b9c7db592498ed8ebe9ad26c7dfb25fee352",
+      "first_paragraph": "Đèn MIL trên xe Honda sáng nghĩa là gì: theo Honda Việt Nam (trang hỏi đáp, các câu trả lời ghi cập nhật ngày 21/09/2021), đèn MIL sáng có nghĩa xe đã có vấn đề nào đó với hệ thống phun xăng điện tử PGM-FI; có trường hợp chỉ là lỗi tạm thời và xe vẫn có thể vận hành bình thường, nhưng để bảo đảm an toàn hãng khuyến cáo nhanh chóng mang xe đến Cửa hàng Honda ủy nhiệm (HEAD) gần nhất để kiểm tra. Đèn sẽ tắt khi vấn đề được khắc phục và lỗi trong bộ nhớ được kỹ thuật viên HEAD xóa; còn cuộc gọi báo lỗi MIL từ Honda Việt Nam, theo trang này, là một dịch vụ mở rộng của hãng, áp dụng với xe SH150i, chỉ để nhắc và tư vấn mang xe đến HEAD chứ không xác định lỗi cụ thể.",
+      "meta_title": "Đèn MIL trên xe Honda: ý nghĩa, khi nào đèn tắt và cuộc gọi báo lỗi",
+      "meta_description": "Đèn MIL trên xe Honda báo lỗi hệ thống phun xăng điện tử PGM-FI: Honda Việt Nam nói gì về lúc đèn tắt, cuộc gọi báo lỗi áp dụng cho SH150i và việc nên làm khi nhận cuộc gọi.",
+      "intended_taxonomy_key": "engine-care",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "61285248c7d8eca7c8250b277de2091dd2ca1bae",
+      "run_id": "39544657734",
+      "updated_at": "2026-10-21T04:40:13.386415+00:00"
     }
   },
   "categories": {}
