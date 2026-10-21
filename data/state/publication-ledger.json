@@ -29095,7 +29095,7 @@
       }
     },
     "NT-001313": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T15:12:35.541646+00:00",
       "source_hash": "9363dc862400ecb31cf163bb4787e0885239f091dbd37867c4d13a766ab571e9",
       "slug": "sac-xe-dien-qua-day-noi-dai-dat-bike-neu-o-tu-2-000-w-vnexpress-neu-day-khoang-2-mm",
@@ -29111,8 +29111,37 @@
       "category_warning": null,
       "git_commit": "81a82aa1136451c663884386ac8cf6a12a652ca1",
       "run_id": "39622613046",
-      "updated_at": "2026-10-21T15:12:41.836799+00:00",
-      "wp_id": 4659
+      "updated_at": "2026-10-21T15:12:49.760039+00:00",
+      "wp_id": 4659,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/sac-xe-dien-qua-day-noi-dai-dat-bike-neu-o-tu-2-000-w-vnexpress-neu-day-khoang-2-mm/",
+      "verified_at": "2026-10-21T15:12:49.760031+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4659,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/sac-xe-dien-qua-day-noi-dai-dat-bike-neu-o-tu-2-000-w-vnexpress-neu-day-khoang-2-mm/",
+        "categories": [
+          167
+        ],
+        "canonical": "https://thuexemaynguyentu.com/sac-xe-dien-qua-day-noi-dai-dat-bike-neu-o-tu-2-000-w-vnexpress-neu-day-khoang-2-mm/",
+        "seo_title": "Sạc xe điện qua dây nối dài: ổ từ 2.000 W hay dây khoảng 2 mm²?",
+        "seo_description": "Sạc xe điện qua dây nối dài: Dat Bike nêu ổ nối dài từ 2.000 W, VnExpress nêu dây khoảng 2 mm² và hạn chế dây nối; các trang lệch nhau, PCCC chưa nhắc dây nối dài.",
+        "checked_at": "2026-10-21T15:12:49.760008+00:00"
+      }
     }
   },
   "categories": {}
