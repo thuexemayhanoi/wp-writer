@@ -19540,7 +19540,7 @@
       }
     },
     "NT-000731": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:10:29.788568+00:00",
       "source_hash": "b84d452ed539d14a135d7860a4832574143e3a4c7202fab08969aae4065f199e",
       "slug": "hoi-an-di-hue-bang-xe-may-lich-trinh-mot-ngay-150-km-qua-hai-van-lang-co-va-pha-tam-giang",
@@ -19556,8 +19556,37 @@
       "category_warning": null,
       "git_commit": "de620203b9af43fe73a1bde8fc7fb84a17756fef",
       "run_id": "39542303090",
-      "updated_at": "2026-10-21T04:10:33.929200+00:00",
-      "wp_id": 4410
+      "updated_at": "2026-10-21T04:10:39.863366+00:00",
+      "wp_id": 4410,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/hoi-an-di-hue-bang-xe-may-lich-trinh-mot-ngay-150-km-qua-hai-van-lang-co-va-pha-tam-giang/",
+      "verified_at": "2026-10-21T04:10:39.863359+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4410,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/hoi-an-di-hue-bang-xe-may-lich-trinh-mot-ngay-150-km-qua-hai-van-lang-co-va-pha-tam-giang/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/hoi-an-di-hue-bang-xe-may-lich-trinh-mot-ngay-150-km-qua-hai-van-lang-co-va-pha-tam-giang/",
+        "seo_title": "Hội An đi Huế bằng xe máy: lịch trình một ngày 150 km qua Hải Vân",
+        "seo_description": "Hội An đi Huế bằng xe máy trong một ngày: khoảng 150 km qua Ngũ Hành Sơn, đèo Hải Vân, Lăng Cô, phá Tam Giang, kèm mùa, giờ nên đi và lời dặn an toàn.",
+        "checked_at": "2026-10-21T04:10:39.863341+00:00"
+      }
     }
   },
   "categories": {}
