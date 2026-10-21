@@ -23754,7 +23754,7 @@
       }
     },
     "NT-001166": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T09:13:55.047280+00:00",
       "source_hash": "6f6e0f5fc813ed3381b5ce74cad2cb4aaa5b1148f14849e2b61765d4888d9e0b",
       "slug": "xe-may-che-hoa-khi-va-phun-xang-dien-tu-khac-cach-cap-xang-luc-khoi-dong-lanh-va-muc-tiet-kiem",
@@ -23770,8 +23770,37 @@
       "category_warning": null,
       "git_commit": "e0be378c2078eeb1d114cc3e67e701270ff6146f",
       "run_id": "39574850605",
-      "updated_at": "2026-10-21T09:13:58.969787+00:00",
-      "wp_id": 4520
+      "updated_at": "2026-10-21T09:14:06.750564+00:00",
+      "wp_id": 4520,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-che-hoa-khi-va-phun-xang-dien-tu-khac-cach-cap-xang-luc-khoi-dong-lanh-va-muc-tiet-kiem/",
+      "verified_at": "2026-10-21T09:14:06.750557+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4520,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-che-hoa-khi-va-phun-xang-dien-tu-khac-cach-cap-xang-luc-khoi-dong-lanh-va-muc-tiet-kiem/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-che-hoa-khi-va-phun-xang-dien-tu-khac-cach-cap-xang-luc-khoi-dong-lanh-va-muc-tiet-kiem/",
+        "seo_title": "Xe máy chế hòa khí và phun xăng điện tử: khác nhau thế nào?",
+        "seo_description": "Xe máy chế hòa khí và phun xăng điện tử khác nhau ở cách cấp xăng, lúc khởi động lạnh và mức tiết kiệm; đối chiếu Honda, VnExpress và Dân Trí.",
+        "checked_at": "2026-10-21T09:14:06.750537+00:00"
+      }
     }
   },
   "categories": {}
