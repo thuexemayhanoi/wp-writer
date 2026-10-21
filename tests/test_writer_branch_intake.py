@@ -88,6 +88,31 @@ class WriterBranchSecurityTests(unittest.TestCase):
 CONFLICT = RuntimeError("State conflict; reconcile before another WordPress write: data/state/writer-claims.json")
 
 
+class WriterBranchWakeTests(unittest.TestCase):
+    """An import pushed with GITHUB_TOKEN cannot start workflows by itself: the intake must dispatch the QA sweep."""
+
+    def test_intake_dispatches_the_main_qa_sweep_after_a_successful_import(self):
+        action = yaml.safe_load((ROOT / ".github/workflows/writer-branch-intake.yml").read_text())
+        self.assertEqual(action["permissions"]["actions"], "write")
+        steps = action["jobs"]["import"]["steps"]
+        wake = [s for s in steps if "gh workflow run writer-qa.yml" in s.get("run", "")]
+        self.assertEqual(len(wake), 1)
+        self.assertEqual(wake[0]["if"], "success()")
+        self.assertIn("GH_TOKEN", wake[0]["env"])
+        self.assertIn("--ref main", wake[0]["run"])
+        # It runs after the import step and never carries WordPress credentials.
+        names = [s.get("name", "") for s in steps]
+        self.assertGreater(names.index(wake[0]["name"]), max(i for i, n in enumerate(names) if n.startswith("Import ONLY")))
+        self.assertFalse(any("WP_" in key for key in wake[0].get("env", {})))
+
+    def test_the_qa_workflow_accepts_a_dispatch_and_the_publisher_accepts_its_completion(self):
+        qa = yaml.safe_load((ROOT / ".github/workflows/writer-qa.yml").read_text())
+        pub = yaml.safe_load((ROOT / ".github/workflows/wordpress-publisher.yml").read_text())
+        self.assertIn("workflow_dispatch", qa.get("on", qa.get(True, {})))
+        condition = pub["jobs"]["publisher"]["if"]
+        self.assertIn("github.event.workflow_run.event == 'workflow_dispatch'", condition)
+
+
 class WriterBranchRetryTests(unittest.TestCase):
     """A writer committing to main while the trusted job checks an article must not turn the run red."""
 
