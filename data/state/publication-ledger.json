@@ -27035,6 +27035,25 @@
         "seo_description": "Cắm nhầm bộ sạc của xe khác có sao không theo Dat Bike, Yadea, Pega, PCCC và VnExpress đọc ngày 21/10/2026: vì sao cùng đầu cắm vẫn khác điện áp, Pega loại pin phồng khỏi bảo hành.",
         "checked_at": "2026-10-21T14:20:37.925899+00:00"
       }
+    },
+    "NT-001310": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T14:21:10.477122+00:00",
+      "source_hash": "3a6c0e0ade73594faef2bc061496554048a445ba7fe72cf091e6a9e0328e6c30",
+      "slug": "dat-bo-sac-xe-dien-the-nao-nam-ngang-khong-che-khe-quat-khong-boc-kin-tranh-nuoc",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 167,
+      "visible_hash": "ba19f24f2f338bd5930ae5122ec134ec6fad808646a47b9602141415216c1c87",
+      "first_paragraph": "Đặt bộ sạc xe điện thế nào khi đang sạc? Theo các trang người viết đọc ngày 21/10/2026, nên để bộ sạc ở nơi khô ráo, thoáng, chắc chắn, không bọc hay trùm kín và tránh để nước thấm vào; bài VnExpress còn khuyên đặt bộ sạc nằm ngang trên bề mặt thoáng, không dựng đứng hoặc ép sát tường để khỏi che khe thoát gió của quạt tản nhiệt. Yadea dặn dừng sạc khi đèn báo không bình thường, có mùi khét hoặc vỏ sạc quá nóng; Pega dặn dừng khi bộ nạp quá nóng hoặc có mùi lạ. Lời về tư thế nằm ngang và khe quạt chỉ nằm trong bài báo, không hãng nào trong các trang đã đọc nói câu đó, và không phải bộ sạc nào cũng có quạt.",
+      "meta_title": "Đặt bộ sạc xe điện thế nào: nằm ngang, không bọc kín, tránh nước",
+      "meta_description": "Đặt bộ sạc xe điện thế nào khi sạc: VnExpress khuyên nằm ngang, không che khe quạt; Pega dặn không bọc kín; Dat Bike, Yadea, PCCC dặn nơi khô thoáng và lúc nào dừng sạc.",
+      "intended_taxonomy_key": "battery-charging",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "55beb7503a1d970b552ddabe740b39f9ac74fa0a",
+      "run_id": "39615090557",
+      "updated_at": "2026-10-21T14:21:10.478133+00:00"
     }
   },
   "categories": {}
