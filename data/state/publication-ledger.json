@@ -21645,6 +21645,25 @@
         "seo_description": "Xe máy hết điện ắc quy phải làm sao: dấu hiệu theo Yamaha, đạp nổ bằng cần khởi động, khi nào sạc lại hay thay bình mới và cách giữ bình khi ít đi xe.",
         "checked_at": "2026-10-21T04:49:40.741876+00:00"
       }
+    },
+    "NT-001158": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T04:49:53.815955+00:00",
+      "source_hash": "bcacfbbf519bae87fae01c4c08a3700b73206b45ee9a1dfb61df66b067f902ab",
+      "slug": "ac-quy-xe-may-bao-nhieu-von-12v-cach-do-luc-nghi-bang-dong-ho-van-nang-va-doc-muc-day-muc-yeu",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 170,
+      "visible_hash": "69c9a657ed14b081d14b2fbe2fa30a95a20333182bae60ec05fb2fe006cab059",
+      "first_paragraph": "Ắc quy xe máy bao nhiêu vôn? Ở hai tệp sách hướng dẫn của Honda mà bài đã đọc, bình điện ghi 12 V (Vision: GTZ6V hoặc WTZ6VIS, 12 V-5 Ah; Air Blade: GTZ6V hoặc WTZ6V, 12 V-5,0 Ah), nhưng đó là số ghi trên bình chứ không phải số bạn đọc được khi đo. Khi đo lúc bình nghỉ bằng đồng hồ vạn năng, bài Tuổi Trẻ (dẫn wikiHow) coi từ 12,73 V trở lên là đã đầy, còn bảng BCI do Battery University dẫn ghi 12,65 V ứng với 100% sau khi nghỉ 24 giờ; hai thang lệch nhau chút ít nên chỉ nên dùng như mốc tham khảo.",
+      "meta_title": "Ắc quy xe máy bao nhiêu vôn: 12V, cách đo lúc nghỉ và đọc mức đầy, yếu",
+      "meta_description": "Ắc quy xe máy bao nhiêu vôn: số 12 V ghi trong sách hướng dẫn Honda, cách đo lúc nghỉ bằng đồng hồ vạn năng và hai thang đọc mức đầy, mức yếu trong nguồn.",
+      "intended_taxonomy_key": "engine-care",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "855e0553874a93715a6dd956f505147b623fc191",
+      "run_id": "39545575800",
+      "updated_at": "2026-10-21T04:49:53.817868+00:00"
     }
   },
   "categories": {}
