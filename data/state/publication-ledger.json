@@ -25273,7 +25273,7 @@
       }
     },
     "NT-001201": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T10:02:13.640372+00:00",
       "source_hash": "739fb63bc15a53bd10e9d211fc9529afbec994fba21b7060d58d74181495e9ba",
       "slug": "di-xe-may-trong-ham-duong-bo-bat-den-chieu-gan-khong-dung-do-khong-quay-dau-khong-vuot-va-cach-xu-ly-khi-xe-hong-giua-ham",
@@ -25289,8 +25289,37 @@
       "category_warning": null,
       "git_commit": "32f222d26fb9b02cb87bba326e6f8526fcc091c9",
       "run_id": "39580825615",
-      "updated_at": "2026-10-21T10:02:17.865264+00:00",
-      "wp_id": 4552
+      "updated_at": "2026-10-21T10:02:24.810163+00:00",
+      "wp_id": 4552,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/di-xe-may-trong-ham-duong-bo-bat-den-chieu-gan-khong-dung-do-khong-quay-dau-khong-vuot-va-cach-xu-ly-khi-xe-hong-giua-ham/",
+      "verified_at": "2026-10-21T10:02:24.810158+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4552,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/di-xe-may-trong-ham-duong-bo-bat-den-chieu-gan-khong-dung-do-khong-quay-dau-khong-vuot-va-cach-xu-ly-khi-xe-hong-giua-ham/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/di-xe-may-trong-ham-duong-bo-bat-den-chieu-gan-khong-dung-do-khong-quay-dau-khong-vuot-va-cach-xu-ly-khi-xe-hong-giua-ham/",
+        "seo_title": "Đi xe máy trong hầm đường bộ: đèn chiếu gần, điều cấm và mức phạt",
+        "seo_description": "Đi xe máy trong hầm đường bộ phải bật đèn chiếu gần, không dừng đỗ, quay đầu hay vượt; bài đọc Điều 26 Luật 36/2024, mức phạt Nghị định 168 và cách xử lý khi xe hỏng.",
+        "checked_at": "2026-10-21T10:02:24.810137+00:00"
+      }
     }
   },
   "categories": {}
