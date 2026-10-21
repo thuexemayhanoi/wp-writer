@@ -24489,7 +24489,7 @@
       }
     },
     "NT-001146": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T09:47:02.124263+00:00",
       "source_hash": "2f75d58d09022320f90b8178d0c4f38d12ea3292d3068e9abcd2d990bd473b27",
       "slug": "ham-chui-kim-dong-giai-phong-hai-lan-moi-chieu-thong-xe-ky-thuat-tu-10-2-2026-va-dieu-xe-may-can-de-y-trong-ham",
@@ -24505,8 +24505,37 @@
       "category_warning": null,
       "git_commit": "54d0b277951c5f9c0dfa19adaf54e0ad3d0b066c",
       "run_id": "39579094450",
-      "updated_at": "2026-10-21T09:47:06.501371+00:00",
-      "wp_id": 4536
+      "updated_at": "2026-10-21T09:47:12.749453+00:00",
+      "wp_id": 4536,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ham-chui-kim-dong-giai-phong-hai-lan-moi-chieu-thong-xe-ky-thuat-tu-10-2-2026-va-dieu-xe-may-can-de-y-trong-ham/",
+      "verified_at": "2026-10-21T09:47:12.749446+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4536,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ham-chui-kim-dong-giai-phong-hai-lan-moi-chieu-thong-xe-ky-thuat-tu-10-2-2026-va-dieu-xe-may-can-de-y-trong-ham/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ham-chui-kim-dong-giai-phong-hai-lan-moi-chieu-thong-xe-ky-thuat-tu-10-2-2026-va-dieu-xe-may-can-de-y-trong-ham/",
+        "seo_title": "Hầm chui Kim Đồng – Giải Phóng: hai làn mỗi chiều, thông xe 10/2/2026",
+        "seo_description": "Hầm chui Kim Đồng – Giải Phóng: hai làn mỗi chiều, chiều dài 460 m hay 890 m tùy báo, thông xe kỹ thuật 10/2/2026, rác, cát và lưu ý cho người đi xe máy.",
+        "checked_at": "2026-10-21T09:47:12.749424+00:00"
+      }
     }
   },
   "categories": {}
