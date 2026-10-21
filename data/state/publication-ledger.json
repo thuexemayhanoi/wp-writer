@@ -28752,7 +28752,7 @@
       }
     },
     "NT-001393": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T15:02:24.946615+00:00",
       "source_hash": "bf89c2eadf46e946dff548e5accc5e1143d10cdf5b5acf1fd0cdbe85ad9b3aa8",
       "slug": "tra-cuu-buyt-ha-noi-bang-timbus-vn-tim-duong-3-tieu-chi-xe-sap-toi-diem-dung-app-tim-buyt",
@@ -28768,8 +28768,37 @@
       "category_warning": null,
       "git_commit": "018dfb7385f0f5a57cff206cc8daa1c2fbd7645c",
       "run_id": "39621413630",
-      "updated_at": "2026-10-21T15:02:30.150609+00:00",
-      "wp_id": 4652
+      "updated_at": "2026-10-21T15:02:36.630959+00:00",
+      "wp_id": 4652,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tra-cuu-buyt-ha-noi-bang-timbus-vn-tim-duong-3-tieu-chi-xe-sap-toi-diem-dung-app-tim-buyt/",
+      "verified_at": "2026-10-21T15:02:36.630951+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4652,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tra-cuu-buyt-ha-noi-bang-timbus-vn-tim-duong-3-tieu-chi-xe-sap-toi-diem-dung-app-tim-buyt/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tra-cuu-buyt-ha-noi-bang-timbus-vn-tim-duong-3-tieu-chi-xe-sap-toi-diem-dung-app-tim-buyt/",
+        "seo_title": "Tra cứu buýt Hà Nội bằng timbus.vn: tìm đường 3 tiêu chí, xe sắp tới",
+        "seo_description": "Tra cứu buýt Hà Nội bằng timbus.vn và app Tìm Buýt của Transerco: tìm đường theo 3 tiêu chí, xem xe sắp tới điểm dừng, tra tuyến, điểm bán vé và điều cần kiểm tra lại.",
+        "checked_at": "2026-10-21T15:02:36.630934+00:00"
+      }
     }
   },
   "categories": {}
