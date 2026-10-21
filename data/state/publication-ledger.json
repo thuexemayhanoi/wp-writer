@@ -26741,6 +26741,25 @@
         "seo_description": "Pin chai có được bảo hành không theo trang của VinFast, Honda và Yadea đọc ngày 21/10/2026: chai tự nhiên không bảo hành, điều trang không nói và cách ghi lại tình trạng pin.",
         "checked_at": "2026-10-21T14:13:16.399181+00:00"
       }
+    },
+    "NT-001308": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T14:13:32.266083+00:00",
+      "source_hash": "2dad5c705a5a9a6c9470352fa30acbe7ad71f0de2d2b6b026642e07be53c0e73",
+      "slug": "thay-cell-hoac-do-pin-xe-dien-ngoai-hang-bosch-dan-doi-pin-khong-sua-yadea-canh-bao-chap",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 160,
+      "visible_hash": "d3b8ca0e682fbe87c3a7fc59d01cfdb81633cbd0a50d313a63e3ac13f70be904",
+      "first_paragraph": "Thay cell hoặc độ pin xe điện ngoài hãng có nên làm không? Trong các trang người viết đọc ngày 21/10/2026, không trang nào của hãng hay cơ quan PCCC hướng dẫn cách thay cell hoặc độ pin: Bosch coi pin xe đạp điện là chi tiết hao mòn, đổi chứ không sửa; Yadea cảnh báo tự độ pin không đồng bộ với bo mạch điều khiển và động cơ gây quá tải, chập cháy và mất quyền lợi bảo hành; Dat Bike dặn không tự tháo dỡ hay sửa pin; Cục Cảnh sát PCCC và CNCH nêu pin đã sửa làm đổi thông số có thể phồng khi sạc. Các trang này không kiểm tra một bộ pin độ cụ thể nào, nên bài chỉ thuật lại lời dặn và gợi ý câu hỏi nên hỏi hãng trước khi nhờ tiệm ngoài.",
+      "meta_title": "Thay cell hoặc độ pin xe điện ngoài hãng: hãng và PCCC dặn gì",
+      "meta_description": "Thay cell hoặc độ pin xe điện ngoài hãng: Bosch dặn đổi pin không sửa, Yadea cảnh báo chập và mất bảo hành, PCCC nêu pin đã sửa có thể phồng; hỏi hãng trước khi nhờ tiệm.",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "505e67d8504b8c0483cb4ab34a9945024cd50874",
+      "run_id": "39614249837",
+      "updated_at": "2026-10-21T14:13:32.267395+00:00"
     }
   },
   "categories": {}
