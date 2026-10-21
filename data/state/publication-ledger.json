@@ -23607,7 +23607,7 @@
       }
     },
     "NT-001192": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T09:08:49.542954+00:00",
       "source_hash": "036cd5be61e11ccdc1a742dba3ea32ee3a356a3a7ec4e5efee1b5ad9ed6402dc",
       "slug": "dut-xich-khi-dang-chay-xe-may-nha-ga-bop-con-ra-tin-hieu-dung-sat-le-va-dau-hieu-xich-mon-hay-qua-cang",
@@ -23623,8 +23623,37 @@
       "category_warning": null,
       "git_commit": "d8b91351b7cb756d86681f41317d967e43bc4085",
       "run_id": "39574191303",
-      "updated_at": "2026-10-21T09:08:54.666066+00:00",
-      "wp_id": 4516
+      "updated_at": "2026-10-21T09:09:00.296434+00:00",
+      "wp_id": 4516,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/dut-xich-khi-dang-chay-xe-may-nha-ga-bop-con-ra-tin-hieu-dung-sat-le-va-dau-hieu-xich-mon-hay-qua-cang/",
+      "verified_at": "2026-10-21T09:09:00.296427+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4516,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/dut-xich-khi-dang-chay-xe-may-nha-ga-bop-con-ra-tin-hieu-dung-sat-le-va-dau-hieu-xich-mon-hay-qua-cang/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/dut-xich-khi-dang-chay-xe-may-nha-ga-bop-con-ra-tin-hieu-dung-sat-le-va-dau-hieu-xich-mon-hay-qua-cang/",
+        "seo_title": "Đứt xích khi đang chạy xe máy: các bước theo NZTA và dấu hiệu sớm",
+        "seo_description": "Đứt xích khi đang chạy xe máy thì nhả ga, ra tín hiệu, vào sát lề rồi phanh dừng theo NZTA và New York; phần không áp dụng cho xe ga và dấu hiệu xích mòn.",
+        "checked_at": "2026-10-21T09:09:00.296413+00:00"
+      }
     }
   },
   "categories": {}
