@@ -122,5 +122,33 @@ class WardProgressTests(unittest.TestCase):
         self.assertEqual(p["published_new_articles"], 0)
 
 
+    def test_externally_verified_live_ward_counts_separately_from_factory_g7(self):
+        existing = [{"id": 4344, "url": URL,
+                     "slug": "thue-xe-may-phuong-bo-de-chon-honda-vision-hay-wave",
+                     "status": "publish", "categories": [182]}]
+        proof = {"verification_method": "authenticated_wp_rest",
+                 "wp_post_id": 4344, "status": "publish", "url": URL,
+                 "canonical": URL, "title": topic()["title"],
+                 "category_ids": [182], "robots_index": "index",
+                 "public_http": 200, "verified_at": "2026-10-21T16:57:00Z"}
+        p = reconcile(progress(), [topic()], {"posts": {}}, qa(status="FAIL"),
+                      existing, {"posts": {"NT-001234": proof}})
+        self.assertEqual(p["published_new_articles"], 0)
+        self.assertEqual(p["published_existing_articles"], 1)
+        self.assertEqual(p["published_live_ward_articles"], 1)
+        row = p["completed"][0]
+        self.assertEqual(row["publication_status"], "WORDPRESS_EXISTING_LIVE_VERIFIED")
+        self.assertEqual(row["wp_post_id"], 4344)
+        self.assertEqual(row["wp_permalink"], URL)
+        # Never transform an external live proof into a fabricated factory G7.
+        for key, value in (("robots_index", "noindex"), ("category_ids", [69]),
+                           ("canonical", URL + "wrong"), ("wp_post_id", 9999),
+                           ("public_http", 404)):
+            bad = dict(proof, **{key: value})
+            unsafe = reconcile(progress(), [topic()], {"posts": {}}, qa(status="FAIL"),
+                               existing, {"posts": {"NT-001234": bad}})
+            self.assertEqual(unsafe["published_existing_articles"], 0, key)
+            self.assertEqual(unsafe["existing_wordpress_collisions"], 1, key)
+
 if __name__=="__main__":
     unittest.main()
