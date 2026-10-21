@@ -27282,7 +27282,7 @@
       }
     },
     "NT-001340": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:23:54.626619+00:00",
       "source_hash": "6eae7be3211c50a5d9ab69741cf4a3e338a6dc757ba0deb90ea308af796b0d55",
       "slug": "lang-kham-trai-chuyen-my-nghe-tu-the-ky-xi-xiii-va-le-don-nhan-mang-luoi-thu-cong-8-5-2026",
@@ -27298,8 +27298,37 @@
       "category_warning": null,
       "git_commit": "55beb7503a1d970b552ddabe740b39f9ac74fa0a",
       "run_id": "39615090557",
-      "updated_at": "2026-10-21T14:23:59.667510+00:00",
-      "wp_id": 4598
+      "updated_at": "2026-10-21T14:24:06.929399+00:00",
+      "wp_id": 4598,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lang-kham-trai-chuyen-my-nghe-tu-the-ky-xi-xiii-va-le-don-nhan-mang-luoi-thu-cong-8-5-2026/",
+      "verified_at": "2026-10-21T14:24:06.929392+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4598,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lang-kham-trai-chuyen-my-nghe-tu-the-ky-xi-xiii-va-le-don-nhan-mang-luoi-thu-cong-8-5-2026/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lang-kham-trai-chuyen-my-nghe-tu-the-ky-xi-xiii-va-le-don-nhan-mang-luoi-thu-cong-8-5-2026/",
+        "seo_title": "Làng khảm trai Chuyên Mỹ: nghề từ thế kỷ XI–XIII và lễ đón nhận 8/5",
+        "seo_description": "Làng khảm trai Chuyên Mỹ: nghề khảm trai từ thế kỷ XI–XIII, lễ đón nhận vào mạng lưới thành phố thủ công thế giới ngày 8/5, chỗ các nguồn chưa khớp và cách hỏi trước khi đi.",
+        "checked_at": "2026-10-21T14:24:06.929369+00:00"
+      }
     }
   },
   "categories": {}
