@@ -21794,7 +21794,7 @@
       }
     },
     "NT-001125": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:55:30.967241+00:00",
       "source_hash": "a559e9c520b56b0e3cfc46e097cce259d7c6a00fd86117482ceee883e7888fb4",
       "slug": "giap-bat-va-nuoc-ngam-sau-khi-yen-so-mo-tuyen-dang-chay-van-giu-chi-dung-nhan-tuyen-moi",
@@ -21810,8 +21810,37 @@
       "category_warning": null,
       "git_commit": "964458a089206e771b6fb04bf6694090cdfda34f",
       "run_id": "39546378277",
-      "updated_at": "2026-10-21T04:55:34.759604+00:00",
-      "wp_id": 4465
+      "updated_at": "2026-10-21T04:55:41.745345+00:00",
+      "wp_id": 4465,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/giap-bat-va-nuoc-ngam-sau-khi-yen-so-mo-tuyen-dang-chay-van-giu-chi-dung-nhan-tuyen-moi/",
+      "verified_at": "2026-10-21T04:55:41.745339+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4465,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/giap-bat-va-nuoc-ngam-sau-khi-yen-so-mo-tuyen-dang-chay-van-giu-chi-dung-nhan-tuyen-moi/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/giap-bat-va-nuoc-ngam-sau-khi-yen-so-mo-tuyen-dang-chay-van-giu-chi-dung-nhan-tuyen-moi/",
+        "seo_title": "Giáp Bát và Nước Ngầm sau khi Yên Sở mở: tuyến cũ giữ, tuyến mới dừng",
+        "seo_description": "Giáp Bát và Nước Ngầm sau khi Yên Sở mở: Sở Xây dựng Hà Nội chỉ tạm dừng nhận tuyến mới, tuyến đang chạy vẫn giữ; hai báo ghi mốc 2/10 và 5/10/2026 khác nhau.",
+        "checked_at": "2026-10-21T04:55:41.745313+00:00"
+      }
     }
   },
   "categories": {}
