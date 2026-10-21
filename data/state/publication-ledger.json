@@ -29338,6 +29338,25 @@
         "seo_description": "Hóa đơn và chứng từ thuê xe máy: quyền xin hóa đơn của người tiêu dùng, bộ chứng từ thay thế khi chưa có hóa đơn và cách ghi lại khi đổi xe giữa kỳ thuê.",
         "checked_at": "2026-10-21T15:15:27.594862+00:00"
       }
+    },
+    "NT-001422": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T15:16:08.935125+00:00",
+      "source_hash": "cd3c681fc98252d7c0de500121a8203eba9fdabc60bcc61b4852995334587c67",
+      "slug": "goi-thue-xe-may-ba-ngay-doi-chieu-gia-niem-yet-voi-bao-gia-va-hop-dong-thuc-te",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 164,
+      "visible_hash": "ed4eb068872c2b8830a5c3b94dfd8e49d7c6ff3514d7bedfd839b05f9a764db9",
+      "first_paragraph": "Gói thuê xe máy ba ngày nên được đối chiếu bằng ba văn bản đặt cạnh nhau: ảnh chụp giá niêm yết kèm ngày xem, báo giá bằng tin nhắn và hợp đồng hoặc biên nhận, so từng dòng từ số ngày, đơn giá, mẫu xe đến tiền cọc. Bài của báo Thanh Niên (08/02/2025) thuật lại Luật Giá 2023: người bán phải niêm yết giá rõ ràng, không gây nhầm lẫn và không được bán cao hơn giá niêm yết. Nếu ba văn bản lệch nhau, hãy hỏi bản giá nào áp dụng cho ngày thuê của bạn và nhờ sửa hoặc ghi chú bằng chữ trước khi chuyển tiền cọc.",
+      "meta_title": "Gói thuê xe máy ba ngày: so giá niêm yết, báo giá và hợp đồng",
+      "meta_description": "Gói thuê xe máy ba ngày: giá niêm yết theo Luật Giá nghĩa là gì, cách đặt giá niêm yết, báo giá nhắn tin và hợp đồng cạnh nhau để so từng dòng trước khi đặt cọc.",
+      "intended_taxonomy_key": "rental-costs",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "81a82aa1136451c663884386ac8cf6a12a652ca1",
+      "run_id": "39622613046",
+      "updated_at": "2026-10-21T15:16:08.937064+00:00"
     }
   },
   "categories": {}
