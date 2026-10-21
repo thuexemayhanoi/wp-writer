@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-21T03:58:15.044104+00:00",
-  "attempted": 0,
+  "at": "2026-10-21T04:05:16.622784+00:00",
+  "attempted": 1,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -22,6 +22,14 @@
         }
       },
       "action": "manual reconciliation; never create/update automatically"
+    },
+    {
+      "topic_id": "NT-000906",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 175,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "trip-planning",
+      "category_warning": null
     },
     {
       "topic_id": "NT-001101",
@@ -180,11 +188,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T03:57:58.051185+00:00",
+      "at": "2026-10-21T04:05:01.134602+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "ac9b32ccb0e5ecdf7359adb3fb9366bec54f812d20ba5253935af137d0bee75e",
+      "inventory_sha256": "5bf214edd5e491d748c2397814fa188e6cae06826ba2f42456cc0255fbbdf78e",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -350,11 +358,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T03:58:07.902050+00:00",
+      "at": "2026-10-21T04:05:09.511466+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "ac9b32ccb0e5ecdf7359adb3fb9366bec54f812d20ba5253935af137d0bee75e",
+      "inventory_sha256": "5bf214edd5e491d748c2397814fa188e6cae06826ba2f42456cc0255fbbdf78e",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -529,11 +537,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T03:58:14.906817+00:00",
+      "at": "2026-10-21T04:05:16.510298+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "ac9b32ccb0e5ecdf7359adb3fb9366bec54f812d20ba5253935af137d0bee75e",
+      "inventory_sha256": "5bf214edd5e491d748c2397814fa188e6cae06826ba2f42456cc0255fbbdf78e",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [

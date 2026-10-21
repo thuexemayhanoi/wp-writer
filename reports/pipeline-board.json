@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-21T03:58:20.145692+00:00",
+  "at": "2026-10-21T04:05:18.226541+00:00",
   "counts": {
-    "WRITING": 28,
+    "WRITING": 27,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 417
+    "VERIFIED": 418
   },
   "ready_backlog": 0,
-  "in_flight": 31,
+  "in_flight": 30,
   "items": [
     {
       "topic_id": "NT-000731",
@@ -221,18 +221,6 @@
       "state": "WRITING",
       "reason": "leased to seodev-w47",
       "title": "Chỉ số UV khi đi xe máy cả ngày: thang UV của WHO, mốc 3 và 8, giờ nắng gắt và cách che chắn",
-      "slot": "W3",
-      "session": "seodev-w47",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-000906",
-      "state": "WRITING",
-      "reason": "leased to seodev-w47",
-      "title": "Mưa vừa, mưa to, mưa rất to là bao nhiêu mm: đọc bản tin dự báo mưa trước chuyến đi xe máy",
       "slot": "W3",
       "session": "seodev-w47",
       "wp_id": null,
@@ -4449,6 +4437,18 @@
       "session": "seodev-w41",
       "wp_id": 4386,
       "url": "https://thuexemaynguyentu.com/den-bao-qua-nhiet-dung-dich-lam-mat-sang-tren-xe-tay-ga-honda-dung-xe-the-nao-kiem-tra-gi-va-khi-nao-chay-tiep-duoc/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-000906",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Mưa vừa, mưa to, mưa rất to là bao nhiêu mm: đọc bản tin dự báo mưa trước chuyến đi xe máy",
+      "slot": "W3",
+      "session": "seodev-w47",
+      "wp_id": 4409,
+      "url": "https://thuexemaynguyentu.com/mua-vua-mua-to-mua-rat-to-la-bao-nhieu-mm-doc-ban-tin-du-bao-mua-truoc-chuyen-di-xe-may/",
       "qa_status": "PASS",
       "seo_score": 100
     },

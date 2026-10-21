@@ -1,0 +1,240 @@
+{
+  "topic_id": "NT-000906",
+  "status": "PASS",
+  "source_sha256": "f02101df57a3325d81d5076c371464f1d016b845a2644f0b7fb4b3c23689a8b5",
+  "body_sha256": "95608be605c6ab716749e0cf11b50cef2399cca4e075a144ca1d2a6ebdb2227c",
+  "word_count": 2644,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://kttv.thanhhoa.gov.vn/tin-tuc/hoi-dap-ve-kttv/hieu-the-nao-ve-luong-mua-4033.html",
+      "supports": "Đài KTTV Thanh Hóa (đọc 21/10/2026, không ghi ngày đăng): lượng mưa là tổng chiều dày lớp nước mưa tính bằng mm; mưa vừa 8–25 mm/12 giờ hoặc 16–50 mm/24 giờ, mưa to 26–50 mm/12 giờ hoặc 51–100 mm/24 giờ, mưa rất to trên 50 mm/12 giờ hoặc trên 100 mm/24 giờ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pctt.hatinh.gov.vn/mua-lon-1637120207.html",
+      "supports": "Đài KTTV Hà Tĩnh (đăng 17/11/2021, đọc 21/10/2026): lượng mưa 24 giờ được tính từ 19 giờ hôm trước đến 19 giờ hôm sau.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pctt.hatinh.gov.vn/mua-lon-1637120207.html",
+      "supports": "Đài KTTV Hà Tĩnh: mưa lớn là mưa có tổng lượng mưa đạt trên 50 mm/24 giờ; mưa to ghi là trên 50 đến 100 mm/24 giờ hoặc trên 25 đến 50 mm/12 giờ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnmha.gov.vn/hoi-dap/11",
+      "supports": "Cục KTTV, trang hỏi đáp đăng 26/2/2019 (bản lưu ngày 19/10/2026): đợt mưa lớn diện rộng là khi mưa lớn xảy ra ở quá một nửa số trạm quan trắc trong khu vực dự báo, kèm ngưỡng mưa vừa, mưa to, mưa rất to.",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnmha.gov.vn/pho-bien-kien-thuc-125/mua-lon-15851.html",
+      "supports": "Cục KTTV, trang đăng 22/11/2023 (bản lưu ngày 19/10/2026): từ cấp mưa to (51–100 mm/24 giờ) trở lên đã bắt đầu có ảnh hưởng tiêu cực đến đời sống con người.",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnmha.gov.vn/pho-bien-kien-thuc-125/mua-lon-15851.html",
+      "supports": "Cục KTTV (bản lưu ngày 19/10/2026): thang ba cấp mưa vừa, mưa to, mưa rất to được trang nêu là theo Tổ chức Khí tượng thế giới (WMO).",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnmha.gov.vn/pho-bien-kien-thuc-125/mua-lon-15851.html",
+      "supports": "Cục KTTV (bản lưu ngày 19/10/2026): hướng dẫn của Cục Quản lý đê điều và Phòng, chống thiên tai cho người đang đi đường khi có mưa lớn.",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://kttv.thanhhoa.gov.vn/tin-tuc/hoi-dap-ve-kttv/hieu-the-nao-ve-luong-mua-4033.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pctt.hatinh.gov.vn/mua-lon-1637120207.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pctt.hatinh.gov.vn/mua-lon-1637120207.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnmha.gov.vn/hoi-dap/11",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnmha.gov.vn/pho-bien-kien-thuc-125/mua-lon-15851.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnmha.gov.vn/pho-bien-kien-thuc-125/mua-lon-15851.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnmha.gov.vn/pho-bien-kien-thuc-125/mua-lon-15851.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2388,
+        "title": "Xe máy điện VinFast đi được bao nhiêu km sau mỗi lần sạc đầy?",
+        "why": "stale",
+        "content_hash": "e5285dab933a9e8523fa7f789f9bd5d57691724f1704aeef3c150a4cd22802f9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2405,
+        "title": "Honda UC3 có gì mới? Tổng hợp thông tin đáng chú ý về mẫu xe",
+        "why": "stale",
+        "content_hash": "18c37642a9a335a2ca8748abaef53a7f8e4241895132bb8a7c6e56f0f50a131d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2556,
+        "title": "Xe 50cc có cần bằng lái không? Những điều người dùng nên biết",
+        "why": "stale",
+        "content_hash": "85f63cfb2d7697a412f723a528177739ab99f134cb6f7ab5a119b07d2e960498",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:04:36.457547+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "dda80ffdbad3e90baab03bc021bfcfba95feb0de2f58b3976a19da5238709a88",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
