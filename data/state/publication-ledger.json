@@ -26547,7 +26547,7 @@
       }
     },
     "NT-001307": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:07:27.839010+00:00",
       "source_hash": "ffa75debb4187292ba65de0a2b8502dc45f5f941b7fd9fc5a2be47d56aaae1d8",
       "slug": "xe-dien-co-rua-duoc-khong-cho-nguoi-tranh-voi-ap-luc-dong-cong-sac-theo-vinfast-dat-bike",
@@ -26563,8 +26563,37 @@
       "category_warning": null,
       "git_commit": "1649a875197a5277605b5600e3ef9e0f9c8c3202",
       "run_id": "39613441095",
-      "updated_at": "2026-10-21T14:07:34.339060+00:00",
-      "wp_id": 4582
+      "updated_at": "2026-10-21T14:07:42.372273+00:00",
+      "wp_id": 4582,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-dien-co-rua-duoc-khong-cho-nguoi-tranh-voi-ap-luc-dong-cong-sac-theo-vinfast-dat-bike/",
+      "verified_at": "2026-10-21T14:07:42.372267+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4582,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-dien-co-rua-duoc-khong-cho-nguoi-tranh-voi-ap-luc-dong-cong-sac-theo-vinfast-dat-bike/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-dien-co-rua-duoc-khong-cho-nguoi-tranh-voi-ap-luc-dong-cong-sac-theo-vinfast-dat-bike/",
+        "seo_title": "Xe điện có rửa được không? Lời dặn của VinFast, Yadea, Dat Bike",
+        "seo_description": "Xe điện có rửa được không: VinFast, Yadea, Dat Bike dặn chờ xe nguội, tránh vòi áp lực cao, lau khô cổng sạc; hãng nào nói gì và chỗ nào các trang không khớp nhau.",
+        "checked_at": "2026-10-21T14:07:42.372251+00:00"
+      }
     }
   },
   "categories": {}
