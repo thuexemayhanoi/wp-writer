@@ -1,0 +1,343 @@
+{
+  "topic_id": "NT-001196",
+  "status": "PASS",
+  "source_sha256": "65ad0e51ac8ca1475b86ac3cbb2779fc84aece6ad02bb064170db497e725d10f",
+  "body_sha256": "cb7a42083b9cebba92d334e6f2a8705b867643dade7bdde49df7ac38864be37b",
+  "word_count": 2500,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "supports": "NZTA (New Zealand): nếu không kịp né hay vòng, có thể buộc phải chạy qua vật cản.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "supports": "NZTA: nắm đủ chặt tay lái để không tuột khi bánh trước chạm vật.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "supports": "NZTA: giữ thẳng hướng để xe đứng vững và giảm nguy cơ ngã khi chạm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "supports": "NZTA: nhổm nhẹ người trên gác chân để hạ trọng tâm, tay chân hấp thụ chấn động, đỡ bị hất khi bánh sau chạm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "supports": "NZTA: sau đó nên kiểm tra lốp và vành.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "supports": "Ontario (Canada): đôi khi không có lựa chọn nào khác ngoài chạy qua vật cản; ví dụ mảnh ống xả quá gần để lái vòng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "supports": "Ontario: nắm chặt tay lái để không tuột khi bánh trước chạm vật.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "supports": "Ontario: giữ thẳng hướng để xe đứng vững, giảm nguy cơ ngã.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "supports": "Ontario: nhổm nhẹ người trên gác chân để tay chân hấp thụ chấn động.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "supports": "Ontario: nên dừng lại kiểm tra lốp và vành sau khi chạy qua vật.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dmv.ny.gov/motorcycle-manual/motorcycle-manual-ride-within-your-abilities",
+      "supports": "New York (Mỹ): tốt nhất là giảm tốc hoặc đi vòng; nếu buộc phải qua thì tiếp cận gần góc 90 độ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dmv.ny.gov/motorcycle-manual/motorcycle-manual-ride-within-your-abilities",
+      "supports": "New York: giảm tốc tối đa, giữ xe thẳng, nhổm nhẹ khỏi yên và dồn trọng lượng lên gác chân.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dmv.ny.gov/motorcycle-manual/motorcycle-manual-ride-within-your-abilities",
+      "supports": "New York: ngay trước lúc chạm, nhấp ga nhẹ để làm nhẹ bánh trước (chỉ nguồn này nêu).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dmv.ny.gov/motorcycle-manual/motorcycle-manual-ride-within-your-abilities",
+      "supports": "New York: tấp vào lề và kiểm tra lốp, vành trước khi đi tiếp.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dmv.ny.gov/motorcycle-manual/motorcycle-manual-ride-within-your-abilities",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dmv.ny.gov/motorcycle-manual/motorcycle-manual-ride-within-your-abilities",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dmv.ny.gov/motorcycle-manual/motorcycle-manual-ride-within-your-abilities",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dmv.ny.gov/motorcycle-manual/motorcycle-manual-ride-within-your-abilities",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 912,
+        "title": "Cho Thuê Xe Máy Gần Hai Bà Trưng Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "e3a1939cca55f0bccd95c320658c1807feb7d19588435fda4d8fbc016652f731",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2374,
+        "title": "Xe máy điện đi mưa có an toàn không? Cách sử dụng đúng và bền",
+        "why": "stale",
+        "content_hash": "f86d1aa55c92feadb7f1f7424eb5a8881f374d07d09eba557a5974bddc4ab23f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T05:16:56.774481+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "aecb12e257f0bbeac33ced62ce4a6bf7731a3d39255eec5762f7684e583b77ef",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
