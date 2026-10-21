@@ -5,6 +5,8 @@ on:
     types: [completed]
 permissions:
   contents: write
+  # Wake the main QA sweep after an import (see the last step): a push made with GITHUB_TOKEN never starts another workflow.
+  actions: write
 concurrency:
   group: wp-writer-state
   cancel-in-progress: false
@@ -41,6 +43,15 @@ jobs:
           git config user.name 'wp-writer-branch-intake'
           git config user.email 'wp-writer-branch-intake@users.noreply.github.com'
           python scripts/writer_branch_intake.py --branch "$WRITER_BRANCH" --sha "$GREEN_SHA" --apply
+      # GitHub does not start workflows from a push made with GITHUB_TOKEN, so the imported draft would sit on main until a
+      # scheduled sweep (the cron is delivered late or never: no scheduled QA ran for 3.5 h on 2026-10-21). workflow_dispatch is
+      # the one event the same token may start; the QA sweep is coalesced and incremental, so an extra one is cheap, and a green
+      # QA run on main wakes the Publisher exactly like a push-triggered one. This step holds no WordPress secret.
+      - name: Wake the main QA sweep so the imported draft reaches the Publisher
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run writer-qa.yml --ref main
       - name: Explain publication boundary
         if: always()
         run: |

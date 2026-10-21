@@ -1,0 +1,129 @@
+{
+  "topic_id": "NT-090011",
+  "status": "PASS",
+  "source_sha256": "13f73f4a641b4bf04cb434a083d433d39a310f23f5e4b4faa3c4c6cc0f2f989d",
+  "body_sha256": "948ebb34b2beadf22884cc6f0be65ced74317c9d44cf42c43ef6dc89c8a4dbae",
+  "word_count": 2499,
+  "quality_score": 100,
+  "seo_score": 95,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 10,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [
+    "Add contextual links to real published related articles"
+  ],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://mps.gov.vn/chinh-sach-phap-luat/chi-tiet-cau-hoi/d3a2d680-8513-4280-8d9e-85c7645f7630",
+      "supports": "Bộ Công an trả lời ngày 20/01/2026 về xe 50cc, điều kiện tuổi, giấy chứng nhận đăng ký và bảo hiểm bắt buộc.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baochinhphu.vn/do-tuoi-duoc-phep-dieu-khien-xe-gan-may-102260120152622709.htm",
+      "supports": "Bộ Công an trên Báo Chính phủ giải thích xe gắn máy theo tốc độ thiết kế, dung tích/công suất; người đủ 16 tuổi, kỹ năng và giấy tờ cần mang (đăng ký, bảo hiểm).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://mps.gov.vn/chinh-sach-phap-luat/chi-tiet-cau-hoi/d3a2d680-8513-4280-8d9e-85c7645f7630",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baochinhphu.vn/do-tuoi-duoc-phep-dieu-khien-xe-gan-may-102260120152622709.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-21T09:04:02.947330+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "1a29a8ed2dfcec7f91bfdc171cdbff48abffef5ea41f5f11361bdc6252c58e61",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

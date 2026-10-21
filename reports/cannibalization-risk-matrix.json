@@ -21303,6 +21303,136 @@
       ],
       "at": "2026-10-21T05:52:43.717465+00:00",
       "topic_hash": "22ac25201985f4c56f2adf231eab98dab16a57fdf58f6ae9c6443d3881e39d7e"
+    },
+    "NT-090010": {
+      "status": "FAIL",
+      "errors": [
+        "intent collision:WP3958"
+      ],
+      "review": [
+        "near intent:NT-001193"
+      ],
+      "evidence_pages": {
+        "stale": [],
+        "unreviewed": []
+      },
+      "nearest": [
+        {
+          "id": 4365,
+          "title": "Xe máy điện kêu hoặc nóng khi sạc: khi nào hãng nói bình thường và khi nào dặn rút sạc",
+          "similarity": 0.533
+        },
+        {
+          "id": 3958,
+          "title": "Đi xe máy ban đêm: cách giữ tầm nhìn khi bị chói đèn pha xe ngược chiều",
+          "similarity": 0.533
+        },
+        {
+          "id": 2590,
+          "title": "Xe ga nào dễ lái cho người mới? Tiêu chí chọn xe an toàn hơn",
+          "similarity": 0.532
+        },
+        {
+          "id": 4349,
+          "title": "Đổi mẫu xe khi nhận: các tình huống thường gặp và cách trao đổi với cửa hàng",
+          "similarity": 0.529
+        },
+        {
+          "id": 4449,
+          "title": "Xích xe máy căng quá có sao không: vì sao phải chừa độ chùng và chỗ căng chỗ chùng do đâu",
+          "similarity": 0.523
+        }
+      ],
+      "at": "2026-10-21T06:59:14.066305+00:00",
+      "topic_hash": "87876c153dcae3ad4f42f0fad436a46cc2a5ed5bf7105da6458c51b367372b14",
+      "intent_matches": [
+        {
+          "id": "WP3958",
+          "severity": "FAIL",
+          "weighted_jaccard": 1.0
+        },
+        {
+          "id": "NT-001193",
+          "severity": "REVIEW",
+          "weighted_jaccard": 0.135
+        }
+      ]
+    },
+    "NT-090011": {
+      "status": "PASS",
+      "errors": [],
+      "review": [],
+      "evidence_pages": {
+        "stale": [],
+        "unreviewed": []
+      },
+      "nearest": [
+        {
+          "id": 2390,
+          "title": "Giá pin xe máy điện VinFast và những chi phí người dùng nên biết",
+          "similarity": 0.586
+        },
+        {
+          "id": 4345,
+          "title": "Thuê xe máy phường Cửa Nam: chọn Air Blade, tính gói ngày hay tuần?",
+          "similarity": 0.541
+        },
+        {
+          "id": 2510,
+          "title": "Khi nào nên thay lốp xe máy? Những dấu hiệu không nên bỏ qua",
+          "similarity": 0.531
+        },
+        {
+          "id": 2613,
+          "title": "Thuê Xe Máy Du Lịch Hà Nội: Hướng Dẫn Toàn Diện Từ A–Z Cho Người Lần Đầu",
+          "similarity": 0.514
+        },
+        {
+          "id": 2349,
+          "title": "Xe máy điện giá bao nhiêu? Các nhóm giá phổ biến hiện nay",
+          "similarity": 0.512
+        }
+      ],
+      "at": "2026-10-21T06:59:14.323991+00:00",
+      "topic_hash": "ddac1b9757a08df771d73e415320fec5fc5071e918ecd6fc09d8d94098dd8c1d"
+    },
+    "NT-090012": {
+      "status": "PASS",
+      "errors": [],
+      "review": [],
+      "evidence_pages": {
+        "stale": [],
+        "unreviewed": []
+      },
+      "nearest": [
+        {
+          "id": 4108,
+          "title": "Mất hộ chiếu ở Việt Nam: báo công an, xin biên bản và vì sao hành trình có thể chậm vài ngày",
+          "similarity": 0.537
+        },
+        {
+          "id": 4181,
+          "title": "Đi bộ và qua đường giữa dòng xe máy ở Việt Nam: vì sao các trang chính thức dặn nhìn mọi hướng",
+          "similarity": 0.515
+        },
+        {
+          "id": 4016,
+          "title": "Tràng An hay Tam Cốc: chọn chuyến thuyền nào khi chỉ có một ngày đi Ninh Bình từ Hà Nội",
+          "similarity": 0.5
+        },
+        {
+          "id": 2600,
+          "title": "Cách chọn xe máy phù hợp khi lịch trình chủ yếu di chuyển trong phố",
+          "similarity": 0.496
+        },
+        {
+          "id": 4112,
+          "title": "Nước uống, đá và đồ ăn đường phố ở Việt Nam: Canada, Úc, Ireland và cổng du lịch quốc gia khuyên gì và các trang khác nhau ở đâu",
+          "similarity": 0.495
+        }
+      ],
+      "at": "2026-10-21T06:59:14.602769+00:00",
+      "topic_hash": "936e0bf0d536c531a69bc509b3c9b34301b83d6cc4a35b7e83dd73489ed76da8"
     }
   },
   "note": "Heuristic flags require full-content intent review. No legacy edits."

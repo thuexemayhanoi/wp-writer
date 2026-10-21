@@ -1,0 +1,361 @@
+{
+  "topic_id": "NT-001192",
+  "status": "PASS",
+  "source_sha256": "036cd5be61e11ccdc1a742dba3ea32ee3a356a3a7ec4e5efee1b5ad9ed6402dc",
+  "body_sha256": "219e5824cefae7dce6908d45f236aabbbc5618992942be6429d67d848bcc083a",
+  "word_count": 2204,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "supports": "NZTA (New Zealand), mục Chain breakage: nhận ra xích đứt vì bánh sau mất lực kéo tức thì và động cơ rú lên; xích có thể khóa bánh sau.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "supports": "NZTA, mục Chain breakage: các bước nhìn về phía muốn đi, nhả ga, bóp côn, ra tín hiệu, đánh vào lề và phanh dừng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "supports": "NZTA, mục Chain breakage: nguyên nhân thường gặp là xích mòn, xích giãn không khớp nhông, nhông mòn.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "supports": "NZTA, mục Pulling off the road: nhìn gương, báo hiệu rõ vì xe phía sau có thể không ngờ bạn chậm lại.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "supports": "NZTA, mục Pulling off the road: tấp ra xa mép đường nhất có thể vì xe máy ven đường rất khó thấy.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dmv.ny.gov/motorcycle-manual/motorcycle-manual-ride-within-your-abilities",
+      "supports": "Sổ tay xe máy bang New York (Mỹ), mục Chain Problems: xích trượt hoặc đứt có thể khóa bánh sau, tránh được bằng bảo dưỡng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dmv.ny.gov/motorcycle-manual/motorcycle-manual-ride-within-your-abilities",
+      "supports": "Sổ tay New York: khi xích đứt thì bánh sau mất lực ngay, nhả ga và phanh dừng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dmv.ny.gov/motorcycle-manual/motorcycle-manual-ride-within-your-abilities",
+      "supports": "Sổ tay New York: xích trượt khi tăng tốc nhanh hoặc lên dốc thì tấp vào lề, kiểm tra xích và nhông; thay xích, nhông hoặc cả hai nếu mòn hay giãn.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/phu-tung/phu-tung-detail?id_pt=12",
+      "supports": "Honda Việt Nam, trang phụ tùng nhông xích: tuổi thọ xích tải phụ thuộc điều chỉnh và bôi trơn; khuyến cáo kiểm tra và bôi trơn định kỳ mỗi 500 km.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-tang-xich-xe-may/",
+      "supports": "Yamaha Motor Việt Nam (đăng 1/7/2024): chỉnh sên quá căng không có khoảng sai số, có thể đứt sên khi hoạt động cường độ cao.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-tang-xich-xe-may/",
+      "supports": "Yamaha Motor Việt Nam: dấu hiệu xích chùng là tiếng lọc cọc khi sên giãn va hộp che sên hoặc gầm xe.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-tang-xich-xe-may/",
+      "supports": "Yamaha Motor Việt Nam: dấu hiệu xích chùng là xe bị giật khi tăng giảm tốc đột ngột.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/tac-hai-khi-chay-xe-xich-chung-2909237.html",
+      "supports": "VnExpress (đăng 13/11/2013): xích chùng là nguyên nhân của trượt hoặc đứt xích giữa đường.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/tac-hai-khi-chay-xe-xich-chung-2909237.html",
+      "supports": "VnExpress (13/11/2013): tốc độ mòn tăng khi bôi trơn kém, xích để trần hoặc ngập trong nước.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dmv.ny.gov/motorcycle-manual/motorcycle-manual-ride-within-your-abilities",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dmv.ny.gov/motorcycle-manual/motorcycle-manual-ride-within-your-abilities",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dmv.ny.gov/motorcycle-manual/motorcycle-manual-ride-within-your-abilities",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/phu-tung/phu-tung-detail?id_pt=12",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-tang-xich-xe-may/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-tang-xich-xe-may/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-tang-xich-xe-may/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/tac-hai-khi-chay-xe-xich-chung-2909237.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/tac-hai-khi-chay-xe-xich-chung-2909237.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 823,
+        "title": "Kinh nghiệm thuê xe máy Hà Nội cho khách du lịch",
+        "why": "stale",
+        "content_hash": "3d6b3da5b2949fce93fa478b050606b405bc5e5cfd428f001396eaa13014d5e6",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 887,
+        "title": "Chi Phí Giao Xe Máy Tận Nơi Hà Nội – Cách Tính & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "6c27605fc8d85de1852488f84e098724f3408d70c6c8b62c581045e5fb205778",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2622,
+        "title": "Hoàng thành Thăng Long có gì? Giá vé, giờ mở cửa và cách tham quan",
+        "why": "stale",
+        "content_hash": "1d198ab7452c92604271329801956283c798cb81955fe394ef94bb66188faaf3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4345,
+        "title": "Thuê xe máy phường Cửa Nam: chọn Air Blade, tính gói ngày hay tuần?",
+        "why": "stale",
+        "content_hash": "fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T09:08:49.377212+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "f605a0f6de315b7d553b045c68e538377d4cbec01d434d818e89c30ad1a60338",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
