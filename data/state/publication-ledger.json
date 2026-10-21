@@ -26988,7 +26988,7 @@
       }
     },
     "NT-001305": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:20:23.097397+00:00",
       "source_hash": "9e83b3eb22940b43a75be0c6607bed97ef3904e25834694e18ffcb25372eabde",
       "slug": "cam-nham-bo-sac-cua-xe-khac-sai-dien-ap-lam-phong-pin-va-mat-bao-hanh-theo-pega-yadea-pccc",
@@ -27004,8 +27004,37 @@
       "category_warning": null,
       "git_commit": "55beb7503a1d970b552ddabe740b39f9ac74fa0a",
       "run_id": "39615090557",
-      "updated_at": "2026-10-21T14:20:28.258518+00:00",
-      "wp_id": 4591
+      "updated_at": "2026-10-21T14:20:37.925927+00:00",
+      "wp_id": 4591,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cam-nham-bo-sac-cua-xe-khac-sai-dien-ap-lam-phong-pin-va-mat-bao-hanh-theo-pega-yadea-pccc/",
+      "verified_at": "2026-10-21T14:20:37.925920+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4591,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cam-nham-bo-sac-cua-xe-khac-sai-dien-ap-lam-phong-pin-va-mat-bao-hanh-theo-pega-yadea-pccc/",
+        "categories": [
+          167
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cam-nham-bo-sac-cua-xe-khac-sai-dien-ap-lam-phong-pin-va-mat-bao-hanh-theo-pega-yadea-pccc/",
+        "seo_title": "Cắm nhầm bộ sạc của xe khác: hãng, PCCC và bảo hành nói gì",
+        "seo_description": "Cắm nhầm bộ sạc của xe khác có sao không theo Dat Bike, Yadea, Pega, PCCC và VnExpress đọc ngày 21/10/2026: vì sao cùng đầu cắm vẫn khác điện áp, Pega loại pin phồng khỏi bảo hành.",
+        "checked_at": "2026-10-21T14:20:37.925899+00:00"
+      }
     }
   },
   "categories": {}
