@@ -19736,7 +19736,7 @@
       }
     },
     "NT-000907": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:12:40.914575+00:00",
       "source_hash": "f74b44035151cef3efc12eadd6af11154da5ed4f690f3e5f7b5456cdc16abf12",
       "slug": "cap-gio-la-gi-bang-beaufort-cap-0-12-gio-cap-6-7-8-la-bao-nhieu-km-h-va-cach-doc-cap-gio-trong-ban-tin-truoc-chuyen-xe-may",
@@ -19752,8 +19752,37 @@
       "category_warning": null,
       "git_commit": "de620203b9af43fe73a1bde8fc7fb84a17756fef",
       "run_id": "39542303090",
-      "updated_at": "2026-10-21T04:12:44.765117+00:00",
-      "wp_id": 4414
+      "updated_at": "2026-10-21T04:12:50.733281+00:00",
+      "wp_id": 4414,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cap-gio-la-gi-bang-beaufort-cap-0-12-gio-cap-6-7-8-la-bao-nhieu-km-h-va-cach-doc-cap-gio-trong-ban-tin-truoc-chuyen-xe-may/",
+      "verified_at": "2026-10-21T04:12:50.733273+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4414,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cap-gio-la-gi-bang-beaufort-cap-0-12-gio-cap-6-7-8-la-bao-nhieu-km-h-va-cach-doc-cap-gio-trong-ban-tin-truoc-chuyen-xe-may/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cap-gio-la-gi-bang-beaufort-cap-0-12-gio-cap-6-7-8-la-bao-nhieu-km-h-va-cach-doc-cap-gio-trong-ban-tin-truoc-chuyen-xe-may/",
+        "seo_title": "Gió cấp 6, 7, 8 là bao nhiêu km/h? Bảng Beaufort cấp 0–12",
+        "seo_description": "Gió cấp 6, 7, 8 là bao nhiêu km/h: bảng Beaufort 0–12 kèm mô tả trên đất liền, khác nhau giữa gió trung bình và gió giật, cách gọi cấp gió trong bão.",
+        "checked_at": "2026-10-21T04:12:50.733255+00:00"
+      }
     }
   },
   "categories": {}
