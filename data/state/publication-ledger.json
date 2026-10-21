@@ -19834,7 +19834,7 @@
       }
     },
     "NT-001006": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:13:55.907378+00:00",
       "source_hash": "443707c198bd1f8683b4cf8c622f7d26a803b76b946ddd5e63a10bf9b464075b",
       "slug": "xe-may-di-vao-duong-cao-toc-cam-theo-dieu-25-luat-36-2024-phat-4-6-trieu-dong-tru-06-diem-va-cho-cac-nguon-chua-thong-nhat-ve-tuoc-bang",
@@ -19850,8 +19850,37 @@
       "category_warning": null,
       "git_commit": "de620203b9af43fe73a1bde8fc7fb84a17756fef",
       "run_id": "39542303090",
-      "updated_at": "2026-10-21T04:13:59.667196+00:00",
-      "wp_id": 4416
+      "updated_at": "2026-10-21T04:14:05.823899+00:00",
+      "wp_id": 4416,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-di-vao-duong-cao-toc-cam-theo-dieu-25-luat-36-2024-phat-4-6-trieu-dong-tru-06-diem-va-cho-cac-nguon-chua-thong-nhat-ve-tuoc-bang/",
+      "verified_at": "2026-10-21T04:14:05.823892+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4416,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-di-vao-duong-cao-toc-cam-theo-dieu-25-luat-36-2024-phat-4-6-trieu-dong-tru-06-diem-va-cho-cac-nguon-chua-thong-nhat-ve-tuoc-bang/",
+        "categories": [
+          159
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-di-vao-duong-cao-toc-cam-theo-dieu-25-luat-36-2024-phat-4-6-trieu-dong-tru-06-diem-va-cho-cac-nguon-chua-thong-nhat-ve-tuoc-bang/",
+        "seo_title": "Xe máy đi vào đường cao tốc: bị cấm, phạt 4–6 triệu, trừ 06 điểm",
+        "seo_description": "Xe máy đi vào đường cao tốc bị cấm theo Điều 25 Luật 36/2024, phạt 4–6 triệu đồng, trừ 06 điểm; bài nêu chỗ nguồn chưa thống nhất về tước giấy phép và tạm giữ xe.",
+        "checked_at": "2026-10-21T04:14:05.823875+00:00"
+      }
     }
   },
   "categories": {}
