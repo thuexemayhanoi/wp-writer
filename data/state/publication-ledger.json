@@ -29242,7 +29242,7 @@
       }
     },
     "NT-001318": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T15:14:40.189799+00:00",
       "source_hash": "85ca27c31801c0c45bceae38d3224517aedffce2f39097bd93fc4ffc70590133",
       "slug": "bao-hanh-xe-dat-bike-3-nam-hoac-30-000-km-pin-duoi-70-duoc-thay-di-mua-ngap-den-60-cm",
@@ -29258,8 +29258,37 @@
       "category_warning": null,
       "git_commit": "81a82aa1136451c663884386ac8cf6a12a652ca1",
       "run_id": "39622613046",
-      "updated_at": "2026-10-21T15:14:46.204869+00:00",
-      "wp_id": 4664
+      "updated_at": "2026-10-21T15:14:54.892448+00:00",
+      "wp_id": 4664,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bao-hanh-xe-dat-bike-3-nam-hoac-30-000-km-pin-duoi-70-duoc-thay-di-mua-ngap-den-60-cm/",
+      "verified_at": "2026-10-21T15:14:54.892442+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4664,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bao-hanh-xe-dat-bike-3-nam-hoac-30-000-km-pin-duoi-70-duoc-thay-di-mua-ngap-den-60-cm/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bao-hanh-xe-dat-bike-3-nam-hoac-30-000-km-pin-duoi-70-duoc-thay-di-mua-ngap-den-60-cm/",
+        "seo_title": "Bảo hành xe Dat Bike: 3 năm hoặc 30.000 km, pin dưới 70%, ngập 60 cm",
+        "seo_description": "Bảo hành xe Dat Bike theo chính sách của hãng: 3 năm hoặc 30.000 km, pin dưới 70% được yêu cầu thay khi đủ điều kiện, đi mưa ngập đến 60 cm và các trường hợp loại trừ.",
+        "checked_at": "2026-10-21T15:14:54.892421+00:00"
+      }
     }
   },
   "categories": {}
