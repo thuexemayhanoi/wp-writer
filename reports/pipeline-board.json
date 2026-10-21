@@ -1,29 +1,17 @@
 {
-  "at": "2026-10-21T11:51:53.927676+00:00",
+  "at": "2026-10-21T14:03:38.072018+00:00",
   "counts": {
-    "WRITING": 20,
+    "WRITING": 19,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 560
+    "VERIFIED": 561
   },
   "ready_backlog": 0,
-  "in_flight": 23,
+  "in_flight": 22,
   "items": [
-    {
-      "topic_id": "NT-001302",
-      "state": "WRITING",
-      "reason": "leased to seodev-w59",
-      "title": "Bảo hành pin xe Yadea: 24 tháng, 36 tháng hay 3 năm và vì sao các trang của hãng ghi khác nhau",
-      "slot": "W4",
-      "session": "seodev-w59",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-001303",
       "state": "WRITING",
@@ -6921,6 +6909,18 @@
       "session": "seodev-w59",
       "wp_id": 4579,
       "url": "https://thuexemaynguyentu.com/pin-xe-may-dien-vinfast-bao-hanh-bao-lau-pin-lfp-8-nam-pin-khac-3-nam-ac-quy-12v-1-nam/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001302",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Bảo hành pin xe Yadea: 24 tháng, 36 tháng hay 3 năm và vì sao các trang của hãng ghi khác nhau",
+      "slot": "W4",
+      "session": "seodev-w59",
+      "wp_id": 4581,
+      "url": "https://thuexemaynguyentu.com/bao-hanh-pin-xe-yadea-24-thang-36-thang-hay-3-nam-va-vi-sao-cac-trang-cua-hang-ghi-khac-nhau/",
       "qa_status": "PASS",
       "seo_score": 100
     },
