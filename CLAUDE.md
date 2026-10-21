@@ -1,3 +1,5 @@
+**FAST LANE (21/10/2026):** For 1,482 Excel titles, run `python scripts/title_plan_next.py --fast-lane --limit 3` and read [docs/TITLE-PLAN-FASTLANE.md](docs/TITLE-PLAN-FASTLANE.md). It proposes stable NT-09XXXX IDs, excludes previously assigned and exact WordPress collisions, and suggests reusable dated source evidence from admitted topics. Read-only: Research QA/Trusted Intake still reserve NT IDs and Writer leases, G1–G7 still mandatory. For 51 wards, existing WordPress #4344–#4346 must be reconciled, not republished.
+
 # Claude / ChatGPT / Gemini — Nguyễn Tú WP Writer
 
 **Start here (do not reread entire repository):**

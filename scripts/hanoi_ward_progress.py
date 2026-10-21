@@ -17,9 +17,10 @@ CAMPAIGN = "HN-51-WARDS"
 TERM = 182
 
 
-def reconcile(progress, rows, ledger, qa=None):
+def reconcile(progress, rows, ledger, qa=None, inventory=None):
     """Return a new checkpoint using only independently corroborated records."""
     qa = qa or {}
+    inventory = inventory or []
     out = json.loads(json.dumps(progress, ensure_ascii=False))
     if out.get("campaign") != CAMPAIGN or out.get("taxonomy_key") != KEY:
         raise ValueError("WRONG_WARD_CAMPAIGN_REGISTRY")
@@ -61,6 +62,15 @@ def reconcile(progress, rows, ledger, qa=None):
         entry["research_status"] = "PLANNED_RESEARCH_PASS"
         evidence = qa.get(topic_id) or {}
         receipt = (ledger.get("posts") or {}).get(topic_id) or {}
+        # A pre-existing WordPress post is a G4 collision, never a new receipt.
+        entry.pop("existing_wp_collision", None)
+        if entry.get("publication_status") == "EXISTING_WORDPRESS_NEEDS_RECONCILIATION":
+            entry["publication_status"] = "GITHUB_EDITORIAL_ONLY"
+        matches = [post for post in inventory
+                   if post.get("status") == "publish" and
+                   (post.get("url") == t.get("canonical_target") or
+                    (t.get("proposed_slug") and post.get("slug") == t["proposed_slug"])) and
+                   post.get("id") != receipt.get("wp_id")]
         qa_pass = (evidence.get("status") == "PASS" and
                    evidence.get("seo_score", -1) >= seo_min and
                    evidence.get("quality_score", -1) >= quality_min and
@@ -90,11 +100,23 @@ def reconcile(progress, rows, ledger, qa=None):
                 wp_permalink=receipt["url"],
                 g7_verified_at=receipt.get("verified_at") or g7.get("checked_at"),
             )
+        elif matches:
+            entry["publication_status"] = "EXISTING_WORDPRESS_NEEDS_RECONCILIATION"
+            entry["existing_wp_collision"] = {
+                "match_count": len(matches),
+                "wp_ids": [post["id"] for post in matches],
+                "urls": [post.get("url") for post in matches],
+                "category_ids": [post.get("categories") for post in matches],
+                "warning": "Verify existing post taxonomy and SEO; never duplicate WordPress content or forge a factory G7 receipt.",
+            }
     out["imported_into_topic_factory"] = sum(
         bool(x.get("topic_id")) and x.get("research_status") == "PLANNED_RESEARCH_PASS"
         for x in out["completed"])
     out["published_new_articles"] = sum(
         x.get("publication_status") == "WORDPRESS_PUBLISHED_G7_PASS"
+        for x in out["completed"])
+    out["existing_wordpress_collisions"] = sum(
+        x.get("publication_status") == "EXISTING_WORDPRESS_NEEDS_RECONCILIATION"
         for x in out["completed"])
     if out["published_new_articles"] > out["imported_into_topic_factory"]:
         raise ValueError("PUBLISHED_EXCEEDS_ADMITTED")
@@ -112,9 +134,10 @@ def run(*, persist=False):
             path = ROOT / "data" / "qa" / (row["topic_id"] + ".json")
             if path.is_file():
                 qa[row["topic_id"]] = json.loads(path.read_text(encoding="utf-8"))
-    result = reconcile(before, rows, ledger, qa)
+    inventory = load("data/existing-content-inventory.json", {}).get("items", [])
+    result = reconcile(before, rows, ledger, qa, inventory)
     changed = any(result.get(k) != before.get(k) for k in
-                  ("completed", "imported_into_topic_factory", "published_new_articles"))
+                  ("completed", "imported_into_topic_factory", "published_new_articles", "existing_wordpress_collisions"))
     if persist and changed:
         state = RemoteState()
         state.remember([PATH])
@@ -123,6 +146,7 @@ def run(*, persist=False):
     return {"edited": result["completed_editorial_drafts"],
             "imported": result["imported_into_topic_factory"],
             "g7_published": result["published_new_articles"],
+            "existing_post_collisions": result["existing_wordpress_collisions"],
             "changed": changed,
             "persisted": bool(persist and changed)}
 

@@ -1,3 +1,5 @@
+**FAST LANE — 21/10/2026:** Dùng `python scripts/title_plan_next.py --fast-lane --limit 3` để chọn tiêu đề chưa gán NT, gợi ý NT-09XXXX ổn định, lọc trùng URL và tái sử dụng nguồn hợp lệ đã nghiên cứu. Xem [TITLE-PLAN-FASTLANE.md](TITLE-PLAN-FASTLANE.md). Chỉ Trusted Research Intake mới cấp Topic ID thật sau Research QA PASS; không bỏ G1–G7 hoặc tự ghi G7. Ba bài Bồ Đề/Cửa Nam/Hoàn Kiếm đã có WordPress #4344/#4345/#4346 phải đối soát bài cũ, không tạo URL mới trùng.
+
 **CẬP NHẬT 20/10/2026 — ƯU TIÊN QUY ĐỊNH NÀY:** Chủ duyệt **SEO ≥76/100, Quality ≥76/100**, giữ đủ G1–G7. G3 chỉ kiểm nguồn URL HTTPS an toàn/nguồn chính thức khi nói luật; nội dung trích dẫn thay đổi hoặc link cũ/khó mở sẽ ghi **cảnh báo audit sau**, không tự giữ bài. Trạng thái `source_advisories` và `live_checked=false` phải trung thực; không bịa nguồn, luật, giá, trải nghiệm. Giữ Writer lease, chống trùng URL/intent, parent/child, canonical, ledger, công tắc Production và G7. Mọi chỗ còn nhắc 85 là hướng dẫn cũ đã thay bởi cấu hình hiện hành.
 
 # AI SOP A–Z — 1.482 tiêu đề Excel, một đường viết → QA → WordPress
