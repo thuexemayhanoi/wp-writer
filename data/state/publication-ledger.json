@@ -20275,7 +20275,7 @@
       }
     },
     "NT-001151": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:23:17.062567+00:00",
       "source_hash": "ec4e587e761c81d8d8eb198c2b02639b5a190c5dc1260ea9842fac529cc7df65",
       "slug": "nhong-sen-dia-xe-may-vi-sao-nen-thay-ca-bo-moc-12-000-15-000-km-yamaha-neu-va-dau-hieu-mon",
@@ -20291,8 +20291,37 @@
       "category_warning": null,
       "git_commit": "f51dccf09e632fe70acfd6dfbc7d931d064689e4",
       "run_id": "39542955374",
-      "updated_at": "2026-10-21T04:23:21.391093+00:00",
-      "wp_id": 4430
+      "updated_at": "2026-10-21T04:23:27.381378+00:00",
+      "wp_id": 4430,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nhong-sen-dia-xe-may-vi-sao-nen-thay-ca-bo-moc-12-000-15-000-km-yamaha-neu-va-dau-hieu-mon/",
+      "verified_at": "2026-10-21T04:23:27.381371+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4430,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nhong-sen-dia-xe-may-vi-sao-nen-thay-ca-bo-moc-12-000-15-000-km-yamaha-neu-va-dau-hieu-mon/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nhong-sen-dia-xe-may-vi-sao-nen-thay-ca-bo-moc-12-000-15-000-km-yamaha-neu-va-dau-hieu-mon/",
+        "seo_title": "Nhông sên dĩa xe máy: vì sao nên thay cả bộ và dấu hiệu mòn",
+        "seo_description": "Nhông sên dĩa xe máy: vì sao Yamaha và VnExpress khuyên thay cả bộ, mốc 12.000–15.000 km Yamaha nêu cho xe côn tay, dấu hiệu mòn và việc nên hỏi thợ.",
+        "checked_at": "2026-10-21T04:23:27.381354+00:00"
+      }
     }
   },
   "categories": {}
