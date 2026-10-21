@@ -26008,7 +26008,7 @@
       }
     },
     "NT-001245": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T10:13:54.866498+00:00",
       "source_hash": "62eed1d32c580555e56388b80e7417f4082720fd75f7d635ea9dfb6ccdd7fcce",
       "slug": "tour-xe-may-ha-giang-loop-nam-2026-tuyen-quang-siet-quan-ly-cam-chao-ban-tour-khi-chua-co-giay-phep-lu-hanh",
@@ -26024,8 +26024,37 @@
       "category_warning": null,
       "git_commit": "d254586ab66c99b3a3fed992c9b0e2d0f0872538",
       "run_id": "39582063937",
-      "updated_at": "2026-10-21T10:13:59.518471+00:00",
-      "wp_id": 4571
+      "updated_at": "2026-10-21T10:14:15.844972+00:00",
+      "wp_id": 4571,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tour-xe-may-ha-giang-loop-nam-2026-tuyen-quang-siet-quan-ly-cam-chao-ban-tour-khi-chua-co-giay-phep-lu-hanh/",
+      "verified_at": "2026-10-21T10:14:15.844967+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4571,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tour-xe-may-ha-giang-loop-nam-2026-tuyen-quang-siet-quan-ly-cam-chao-ban-tour-khi-chua-co-giay-phep-lu-hanh/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tour-xe-may-ha-giang-loop-nam-2026-tuyen-quang-siet-quan-ly-cam-chao-ban-tour-khi-chua-co-giay-phep-lu-hanh/",
+        "seo_title": "Tour xe máy Hà Giang Loop năm 2026: Tuyên Quang siết quản lý",
+        "seo_description": "Tour xe máy Hà Giang Loop năm 2026: Tuyên Quang yêu cầu xe, lái xe đủ điều kiện, cấm chào bán tour khi chưa có giấy phép lữ hành; kèm điều người mua nên hỏi và phần nguồn chưa nêu.",
+        "checked_at": "2026-10-21T10:14:15.844943+00:00"
+      }
     }
   },
   "categories": {}
