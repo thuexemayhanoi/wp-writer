@@ -29240,6 +29240,25 @@
         "seo_description": "Bảo dưỡng Dat Bike ERA theo sổ hãng: kiểm tra thường niên, mốc 1.000 km hoặc 2 tháng, dầu phanh 2 năm, dầu hộp giảm tốc 1 năm hoặc 5.000 km và lưu ý bảo hành.",
         "checked_at": "2026-10-21T15:14:07.213123+00:00"
       }
+    },
+    "NT-001318": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T15:14:40.189799+00:00",
+      "source_hash": "85ca27c31801c0c45bceae38d3224517aedffce2f39097bd93fc4ffc70590133",
+      "slug": "bao-hanh-xe-dat-bike-3-nam-hoac-30-000-km-pin-duoi-70-duoc-thay-di-mua-ngap-den-60-cm",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 160,
+      "visible_hash": "4036710ce9393e5f2550bf9d15f27a26191952299de7c19685eecbd4b991b8e7",
+      "first_paragraph": "Bảo hành xe Dat Bike theo chính sách bảo hành và bảo dưỡng của hãng (trang đăng 24/09/2025, cập nhật 22/09/2026, ghi hiệu lực từ 26/10/2024, người viết đọc ngày 21/10/2026) là 3 năm hoặc 30.000 km, tùy điều kiện nào đến trước, tính từ ngày ghi trên hóa đơn mà hãng xuất cho khách. Với pin, hãng chỉ sửa hoặc thay mới nếu mức chai vượt mức chai tự nhiên; nếu xe còn bảo hành, không thuộc các trường hợp loại trừ và dung lượng pin còn dưới 70%, khách có quyền yêu cầu thay pin mới. Hư hỏng do đi mưa hoặc ngập vẫn được bảo hành khi xe chạy dưới nước sâu không quá 60 cm và liên tục không quá 30 phút.",
+      "meta_title": "Bảo hành xe Dat Bike: 3 năm hoặc 30.000 km, pin dưới 70%, ngập 60 cm",
+      "meta_description": "Bảo hành xe Dat Bike theo chính sách của hãng: 3 năm hoặc 30.000 km, pin dưới 70% được yêu cầu thay khi đủ điều kiện, đi mưa ngập đến 60 cm và các trường hợp loại trừ.",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "81a82aa1136451c663884386ac8cf6a12a652ca1",
+      "run_id": "39622613046",
+      "updated_at": "2026-10-21T15:14:40.191671+00:00"
     }
   },
   "categories": {}
