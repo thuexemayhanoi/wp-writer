@@ -1794,6 +1794,25 @@
         "NT-001170"
       ],
       "not_accepted": {}
+    },
+    "data/candidates/gpt6-excel-pilot02-20261021-0001.jsonl": {
+      "sha256": "52e2aa85b6743261bf653f1d50ced319d9d86fdccc9d5ad17880d4ed6cc67275",
+      "at": "2026-10-21T05:30:15.660785+00:00",
+      "state": "TOPIC_QA_APPLIED",
+      "research_branch": "research/gpt6-excel-pilot02-20261021",
+      "research_commit": "226aa10d854f35e963c365c757329cd1c68d7650",
+      "topic_ids": [
+        "NT-090004",
+        "NT-090005",
+        "NT-090006"
+      ],
+      "accepted_ids": [
+        "NT-090004",
+        "NT-090006"
+      ],
+      "not_accepted": {
+        "NT-090005": "RESEARCH"
+      }
     }
   }
 }
