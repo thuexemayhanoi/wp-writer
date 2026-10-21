@@ -26986,6 +26986,25 @@
         "seo_description": "Sửa xe điện ngoài hãng mất bảo hành không theo trang của VinFast, Honda, Yadea và Pega đọc ngày 21/10/2026: sửa ngoài, phụ tùng không chính hãng, hoán cải, tem và sổ.",
         "checked_at": "2026-10-21T14:20:06.212452+00:00"
       }
+    },
+    "NT-001305": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T14:20:23.097397+00:00",
+      "source_hash": "9e83b3eb22940b43a75be0c6607bed97ef3904e25834694e18ffcb25372eabde",
+      "slug": "cam-nham-bo-sac-cua-xe-khac-sai-dien-ap-lam-phong-pin-va-mat-bao-hanh-theo-pega-yadea-pccc",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 167,
+      "visible_hash": "27e91e2cc63eff54159d3e99b8a2368b609f23f8857385bac5a92895229dd4e3",
+      "first_paragraph": "Cắm nhầm bộ sạc của xe khác có sao không: theo Dat Bike, Yadea, Pega, Cục Cảnh sát PCCC và CNCH cùng một bài VnExpress mà người viết đọc ngày 21/10/2026, nên dùng đúng bộ sạc dành cho xe của mình, vì cùng đầu cắm không có nghĩa là cùng điện áp, cùng dòng sạc hay cùng loại pin. Dat Bike nói dùng sai bộ sạc có thể hỏng pin hoặc cháy nổ, trang bảo hành của Pega loại pin bị phồng và việc dùng loại nạp khác hay sai điện áp khỏi bảo hành, còn Cục PCCC nêu bộ sạc không đúng thông số hoặc không đồng bộ với pin có thể gây chập điện hoặc nổ pin. Không nguồn nào hướng dẫn riêng cho người đã lỡ cắm nhầm, nên phần cuối bài là gợi ý của người viết: rút sạc, ghi lại, đọc nhãn và hỏi đại lý chính hãng.",
+      "meta_title": "Cắm nhầm bộ sạc của xe khác: hãng, PCCC và bảo hành nói gì",
+      "meta_description": "Cắm nhầm bộ sạc của xe khác có sao không theo Dat Bike, Yadea, Pega, PCCC và VnExpress đọc ngày 21/10/2026: vì sao cùng đầu cắm vẫn khác điện áp, Pega loại pin phồng khỏi bảo hành.",
+      "intended_taxonomy_key": "battery-charging",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "55beb7503a1d970b552ddabe740b39f9ac74fa0a",
+      "run_id": "39615090557",
+      "updated_at": "2026-10-21T14:20:23.098620+00:00"
     }
   },
   "categories": {}
