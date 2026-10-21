@@ -29585,7 +29585,7 @@
       }
     },
     "NT-001107": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T19:40:29.621117+00:00",
       "source_hash": "319d90d44f3067f3e37b0f26a0db0cfa24ae547521f15a4e143f61d208424908",
       "slug": "thue-xe-may-phuong-ngoc-ha-honda-click-yamaha-mio-ba-ngay",
@@ -29601,8 +29601,37 @@
       "category_warning": null,
       "git_commit": "4f52d82d81b9c0ebe7440f4902d9fdaae6ba75af",
       "run_id": "39663024823",
-      "updated_at": "2026-10-21T19:40:34.061421+00:00",
-      "wp_id": 4671
+      "updated_at": "2026-10-21T19:40:40.416476+00:00",
+      "wp_id": 4671,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/thue-xe-may-phuong-ngoc-ha-honda-click-yamaha-mio-ba-ngay/",
+      "verified_at": "2026-10-21T19:40:40.416468+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4671,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/thue-xe-may-phuong-ngoc-ha-honda-click-yamaha-mio-ba-ngay/",
+        "categories": [
+          182
+        ],
+        "canonical": "https://thuexemaynguyentu.com/thue-xe-may-phuong-ngoc-ha-honda-click-yamaha-mio-ba-ngay/",
+        "seo_title": "Thuê xe máy phường Ngọc Hà: Click, Mio và gói 3 ngày",
+        "seo_description": "Ở phường Ngọc Hà, nên thuê Honda Click hay Yamaha Mio trong ba ngày? Tham khảo giá, chọn xe theo tay lái, giao nhận, đặt cọc và lưu ý địa giới mới.",
+        "checked_at": "2026-10-21T19:40:40.416448+00:00"
+      }
     }
   },
   "categories": {}
