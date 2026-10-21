@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-21T10:26:53.937779+00:00",
-  "attempted": 1,
+  "at": "2026-10-21T10:33:06.086320+00:00",
+  "attempted": 0,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -180,11 +180,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T10:26:13.875346+00:00",
+      "at": "2026-10-21T10:32:52.354822+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "158416c876ede40eddaadce7cba1413aed2b967a848a22331a02d761f7d7d4f7",
+      "inventory_sha256": "965f11fca9c54b33581ab45ac507b7f86cfe34631e733171216489df84e80309",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -350,11 +350,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T10:26:21.384100+00:00",
+      "at": "2026-10-21T10:32:59.573755+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "158416c876ede40eddaadce7cba1413aed2b967a848a22331a02d761f7d7d4f7",
+      "inventory_sha256": "965f11fca9c54b33581ab45ac507b7f86cfe34631e733171216489df84e80309",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -529,11 +529,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T10:26:27.827472+00:00",
+      "at": "2026-10-21T10:33:05.918489+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "158416c876ede40eddaadce7cba1413aed2b967a848a22331a02d761f7d7d4f7",
+      "inventory_sha256": "965f11fca9c54b33581ab45ac507b7f86cfe34631e733171216489df84e80309",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -551,14 +551,6 @@
         "exhausted": false,
         "needs_owner": false
       }
-    },
-    {
-      "topic_id": "NT-001306",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 167,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "battery-charging",
-      "category_warning": null
     }
   ],
   "backlog_drains_on": "successful Writer QA or fallback schedule",
