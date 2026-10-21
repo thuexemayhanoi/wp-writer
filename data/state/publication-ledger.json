@@ -24293,7 +24293,7 @@
       }
     },
     "NT-001195": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T09:24:01.256857+00:00",
       "source_hash": "311d9955c1499bee5a1484892881b09d6caa849af7f45ce0b61fbd6291bb693a",
       "slug": "tranh-va-cham-truc-dien-khi-di-xe-may-phanh-manh-bop-coi-tim-loi-thoat-ben-phai-va-khong-danh-lai-sang-lan-nguoc",
@@ -24309,8 +24309,37 @@
       "category_warning": null,
       "git_commit": "cbe80ebcd156338c61617804e205c084d66ff636",
       "run_id": "39575610387",
-      "updated_at": "2026-10-21T09:24:05.273168+00:00",
-      "wp_id": 4532
+      "updated_at": "2026-10-21T09:24:11.282065+00:00",
+      "wp_id": 4532,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tranh-va-cham-truc-dien-khi-di-xe-may-phanh-manh-bop-coi-tim-loi-thoat-ben-phai-va-khong-danh-lai-sang-lan-nguoc/",
+      "verified_at": "2026-10-21T09:24:11.282058+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4532,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tranh-va-cham-truc-dien-khi-di-xe-may-phanh-manh-bop-coi-tim-loi-thoat-ben-phai-va-khong-danh-lai-sang-lan-nguoc/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tranh-va-cham-truc-dien-khi-di-xe-may-phanh-manh-bop-coi-tim-loi-thoat-ben-phai-va-khong-danh-lai-sang-lan-nguoc/",
+        "seo_title": "Tránh va chạm trực diện khi đi xe máy: phanh, còi, lối thoát bên phải",
+        "seo_description": "Tránh va chạm trực diện khi đi xe máy: bốn việc NZTA dặn, cách đảo hướng thoát cho đường đi bên phải ở Việt Nam, điều khoản về còi và đèn, và khoảng đệm để né.",
+        "checked_at": "2026-10-21T09:24:11.282040+00:00"
+      }
     }
   },
   "categories": {}
