@@ -23901,7 +23901,7 @@
       }
     },
     "NT-001198": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T09:15:54.462842+00:00",
       "source_hash": "220439331dbf9463c76e8ae7ff352c09cf76a0c2478b7760ef4f47c50ca95ea9",
       "slug": "dung-dien-thoai-khi-lai-xe-may-gan-gia-do-xem-ban-do-co-bi-phat-khong-muc-phat-800-000-1-000-000-dong-va-tru-4-diem",
@@ -23917,8 +23917,37 @@
       "category_warning": null,
       "git_commit": "e0be378c2078eeb1d114cc3e67e701270ff6146f",
       "run_id": "39574850605",
-      "updated_at": "2026-10-21T09:15:58.619586+00:00",
-      "wp_id": 4524
+      "updated_at": "2026-10-21T09:16:04.381027+00:00",
+      "wp_id": 4524,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/dung-dien-thoai-khi-lai-xe-may-gan-gia-do-xem-ban-do-co-bi-phat-khong-muc-phat-800-000-1-000-000-dong-va-tru-4-diem/",
+      "verified_at": "2026-10-21T09:16:04.381020+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4524,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/dung-dien-thoai-khi-lai-xe-may-gan-gia-do-xem-ban-do-co-bi-phat-khong-muc-phat-800-000-1-000-000-dong-va-tru-4-diem/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/dung-dien-thoai-khi-lai-xe-may-gan-gia-do-xem-ban-do-co-bi-phat-khong-muc-phat-800-000-1-000-000-dong-va-tru-4-diem/",
+        "seo_title": "Dùng điện thoại khi lái xe máy: giá đỡ xem bản đồ, mức phạt",
+        "seo_description": "Dùng điện thoại khi lái xe máy: điều Luật cấm, mức phạt 800.000–1.000.000 đồng, trừ 04 điểm và ý kiến luật sư trên báo về gắn giá đỡ xem bản đồ.",
+        "checked_at": "2026-10-21T09:16:04.381002+00:00"
+      }
     }
   },
   "categories": {}
