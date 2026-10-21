@@ -26841,7 +26841,7 @@
       }
     },
     "NT-001332": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:14:43.550117+00:00",
       "source_hash": "28d6d612ec6393f2a6a768b2c40775d226455cffc8a0963096ea2bb9b27fa62d",
       "slug": "lang-van-hoa-cac-dan-toc-viet-nam-khu-du-lich-cap-thanh-pho-tu-5-10-2026-rong-1-544-ha",
@@ -26857,8 +26857,37 @@
       "category_warning": null,
       "git_commit": "505e67d8504b8c0483cb4ab34a9945024cd50874",
       "run_id": "39614249837",
-      "updated_at": "2026-10-21T14:14:48.301809+00:00",
-      "wp_id": 4588
+      "updated_at": "2026-10-21T14:14:54.833267+00:00",
+      "wp_id": 4588,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lang-van-hoa-cac-dan-toc-viet-nam-khu-du-lich-cap-thanh-pho-tu-5-10-2026-rong-1-544-ha/",
+      "verified_at": "2026-10-21T14:14:54.833261+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4588,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lang-van-hoa-cac-dan-toc-viet-nam-khu-du-lich-cap-thanh-pho-tu-5-10-2026-rong-1-544-ha/",
+        "categories": [
+          126
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lang-van-hoa-cac-dan-toc-viet-nam-khu-du-lich-cap-thanh-pho-tu-5-10-2026-rong-1-544-ha/",
+        "seo_title": "Làng Văn hóa các dân tộc Việt Nam: khu du lịch cấp thành phố, 1.544 ha",
+        "seo_description": "Làng Văn hóa các dân tộc Việt Nam được Hà Nội công nhận khu du lịch cấp thành phố ngày 5/10/2026: quy mô 1.544 ha, bốn cụm làng, bãi xe máy và điều báo chưa nêu.",
+        "checked_at": "2026-10-21T14:14:54.833244+00:00"
+      }
     }
   },
   "categories": {}
