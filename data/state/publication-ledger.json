@@ -28948,7 +28948,7 @@
       }
     },
     "NT-001399": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T15:04:43.297273+00:00",
       "source_hash": "a57213730858042f486cb5203b40ebd8c38d3d30e251524a22ca5834e9df9048",
       "slug": "15-cong-trinh-giao-thong-ha-noi-2026-danh-sach-theo-moc-10-10-quy-iv-va-truoc-31-12",
@@ -28964,8 +28964,37 @@
       "category_warning": null,
       "git_commit": "018dfb7385f0f5a57cff206cc8daa1c2fbd7645c",
       "run_id": "39621413630",
-      "updated_at": "2026-10-21T15:04:47.729871+00:00",
-      "wp_id": 4656
+      "updated_at": "2026-10-21T15:04:54.683175+00:00",
+      "wp_id": 4656,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/15-cong-trinh-giao-thong-ha-noi-2026-danh-sach-theo-moc-10-10-quy-iv-va-truoc-31-12/",
+      "verified_at": "2026-10-21T15:04:54.683168+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4656,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/15-cong-trinh-giao-thong-ha-noi-2026-danh-sach-theo-moc-10-10-quy-iv-va-truoc-31-12/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/15-cong-trinh-giao-thong-ha-noi-2026-danh-sach-theo-moc-10-10-quy-iv-va-truoc-31-12/",
+        "seo_title": "15 công trình giao thông Hà Nội 2026: danh sách theo mốc dự kiến",
+        "seo_description": "15 công trình giao thông Hà Nội 2026 theo họp báo ngày 6/10: danh sách theo mốc 10/10, quý IV và trước 31/12, cách đọc chữ dự kiến và chỗ nguồn không đánh số đủ 15 hạng mục.",
+        "checked_at": "2026-10-21T15:04:54.683150+00:00"
+      }
     }
   },
   "categories": {}
