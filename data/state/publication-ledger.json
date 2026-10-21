@@ -21647,7 +21647,7 @@
       }
     },
     "NT-001158": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:49:53.815955+00:00",
       "source_hash": "bcacfbbf519bae87fae01c4c08a3700b73206b45ee9a1dfb61df66b067f902ab",
       "slug": "ac-quy-xe-may-bao-nhieu-von-12v-cach-do-luc-nghi-bang-dong-ho-van-nang-va-doc-muc-day-muc-yeu",
@@ -21663,8 +21663,37 @@
       "category_warning": null,
       "git_commit": "855e0553874a93715a6dd956f505147b623fc191",
       "run_id": "39545575800",
-      "updated_at": "2026-10-21T04:49:57.660660+00:00",
-      "wp_id": 4462
+      "updated_at": "2026-10-21T04:50:03.632640+00:00",
+      "wp_id": 4462,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ac-quy-xe-may-bao-nhieu-von-12v-cach-do-luc-nghi-bang-dong-ho-van-nang-va-doc-muc-day-muc-yeu/",
+      "verified_at": "2026-10-21T04:50:03.632633+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4462,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ac-quy-xe-may-bao-nhieu-von-12v-cach-do-luc-nghi-bang-dong-ho-van-nang-va-doc-muc-day-muc-yeu/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ac-quy-xe-may-bao-nhieu-von-12v-cach-do-luc-nghi-bang-dong-ho-van-nang-va-doc-muc-day-muc-yeu/",
+        "seo_title": "Ắc quy xe máy bao nhiêu vôn: 12V, cách đo lúc nghỉ và đọc mức đầy, yếu",
+        "seo_description": "Ắc quy xe máy bao nhiêu vôn: số 12 V ghi trong sách hướng dẫn Honda, cách đo lúc nghỉ bằng đồng hồ vạn năng và hai thang đọc mức đầy, mức yếu trong nguồn.",
+        "checked_at": "2026-10-21T04:50:03.632608+00:00"
+      }
     }
   },
   "categories": {}
