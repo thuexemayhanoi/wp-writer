@@ -1,0 +1,256 @@
+{
+  "topic_id": "NT-001164",
+  "status": "PASS",
+  "source_sha256": "954cdde7b009aa2842a41e286ee7eec7a0664207eb64290892152eead74a5eea",
+  "body_sha256": "6a8aa2556ad99469a8602c51f8caf51c16463e3473c63c0b5beac4f8115fc3f1",
+  "word_count": 2012,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.bridgestone.com.vn/vi/thong-tin-huu-ich/tu-van-cho-nguoi-lai/ky-thuat-dao-lop-xe-oto-va-nhung-dieu-can-biet-ve-bom-khi-nito",
+      "supports": "Bridgestone Việt Nam (bài đăng 26/03/2021, bối cảnh lốp ô tô): khí thường chứa 78% nitơ, 21% oxy; hãng cho rằng nitơ ổn định hơn vì khó bị ảnh hưởng bởi nhiệt độ lốp.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.bridgestone.com.vn/vi/thong-tin-huu-ich/tu-van-cho-nguoi-lai/ky-thuat-dao-lop-xe-oto-va-nhung-dieu-can-biet-ve-bom-khi-nito",
+      "supports": "Bridgestone Việt Nam: thành phần khí thường bơm vào lốp xe.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nhung-loi-ich-khi-bom-lop-bang-khi-nito-3859992.html",
+      "supports": "VnExpress (27/12/2018, theo Popular Mechanics, lốp ô tô): với xe phổ thông hiệu quả của nitơ không thực sự rõ rệt.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nhung-loi-ich-khi-bom-lop-bang-khi-nito-3859992.html",
+      "supports": "VnExpress (27/12/2018): chi phí bơm nitơ cao gấp 2-3 lần so với khí thường.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nhung-loi-ich-khi-bom-lop-bang-khi-nito-3859992.html",
+      "supports": "VnExpress (27/12/2018): bơm nitơ vẫn nên kiểm tra áp suất lốp mỗi tháng một lần.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/plo/co-nen-dua-nhau-dung-khi-nito-cho-lop-xe-mua-nang-nong-109686044.htm",
+      "supports": "PLO trên Tuổi Trẻ (25/06/2022, lốp ô tô): khảo sát giá bơm nitơ dao động 50-160 nghìn đồng tùy loại xe và khu vực.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/plo/co-nen-dua-nhau-dung-khi-nito-cho-lop-xe-mua-nang-nong-109686044.htm",
+      "supports": "PLO: máy tạo khí nitơ đúng cách chỉ giúp không khí trong lốp đạt khoảng 93-95% nitơ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/plo/co-nen-dua-nhau-dung-khi-nito-cho-lop-xe-mua-nang-nong-109686044.htm",
+      "supports": "PLO: nitơ không thay thế đồng hồ đo áp suất lốp và việc kiểm tra hằng tháng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.bridgestone.com.vn/vi/thong-tin-huu-ich/tu-van-cho-nguoi-lai/ky-thuat-dao-lop-xe-oto-va-nhung-dieu-can-biet-ve-bom-khi-nito",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.bridgestone.com.vn/vi/thong-tin-huu-ich/tu-van-cho-nguoi-lai/ky-thuat-dao-lop-xe-oto-va-nhung-dieu-can-biet-ve-bom-khi-nito",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nhung-loi-ich-khi-bom-lop-bang-khi-nito-3859992.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nhung-loi-ich-khi-bom-lop-bang-khi-nito-3859992.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nhung-loi-ich-khi-bom-lop-bang-khi-nito-3859992.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/plo/co-nen-dua-nhau-dung-khi-nito-cho-lop-xe-mua-nang-nong-109686044.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/plo/co-nen-dua-nhau-dung-khi-nito-cho-lop-xe-mua-nang-nong-109686044.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/plo/co-nen-dua-nhau-dung-khi-nito-cho-lop-xe-mua-nang-nong-109686044.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 4053,
+        "title": "Thuê xe máy Hà Nội đi công tác 3–5 ngày: chọn xe, dự trù chi phí và sắp lịch trả",
+        "why": "stale",
+        "content_hash": "10253f4071ea9522162e7b5ec6b75dfc3be0638bd9a1598e0136485ddfd9dbec",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4056,
+        "title": "Đổi khách sạn giữa kỳ thuê xe máy Hà Nội: giữ xe ở đâu, chuyển hành lý và đổi nơi trả",
+        "why": "stale",
+        "content_hash": "fcd4a86c62969cb4812af213b0e424c5549b185d290ed9a416d5e9d816804528",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4344,
+        "title": "Thuê xe máy phường Bồ Đề: chọn Honda Vision hay Wave, nhận xe ở đâu?",
+        "why": "stale",
+        "content_hash": "dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T09:21:13.816572+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "2ed6ff3a895a2621607a2caca7b087b92b1238078ba17ad927f47496c00208f9",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

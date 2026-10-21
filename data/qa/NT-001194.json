@@ -1,0 +1,306 @@
+{
+  "topic_id": "NT-001194",
+  "status": "PASS",
+  "source_sha256": "644ddb5ce5a9e428129182472d979bd7f520aa6a87709417e38a5c9c5b09bfb9",
+  "body_sha256": "4c5e4a15162fe967b25a33f4fa0c18d03a90a749a2591e847154b81b8fed6441",
+  "word_count": 1876,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "supports": "NZTA (New Zealand), mục Animals: xe mô tô hay bị chó thu hút; chó lao tới từ bên hông thì đừng đá vì có thể mất lái.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "supports": "NZTA, mục Animals: xuống số, tiến lại gần chậm, tới nơi thì tăng tốc; con chó thường mất hứng thú.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "supports": "NZTA, mục Animals: cố tránh va con vật nhưng không đánh lái vào dòng xe ngược chiều; va thú nhỏ ít nguy hiểm hơn va xe khác.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "supports": "Ontario (Canada), Official MTO Motorcycle Handbook: chó hay đuổi xe mô tô và xe gắn máy; bị đuổi thì không đá vì rất dễ mất lái.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "supports": "Ontario: gặp con vật trên đường thì phanh và chuẩn bị dừng; thú lớn thì có thể phải đánh lái; đang giữa dòng xe thì giữ trong làn.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dmv.ny.gov/motorcycle-manual/motorcycle-manual-ride-within-your-abilities",
+      "supports": "Sổ tay xe máy bang New York (Mỹ), mục Animals: bị chó đuổi thì xuống số, tiến lại gần chậm rồi tăng tốc bỏ lại; không đá; giữ kiểm soát xe và nhìn nơi muốn đi.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dmv.ny.gov/motorcycle-manual/motorcycle-manual-ride-within-your-abilities",
+      "supports": "Sổ tay New York: đang đi giữa dòng xe thì giữ trong làn; va con vật nhỏ ít nguy hiểm hơn va vật lớn hoặc ô tô.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/rabies",
+      "supports": "WHO (trang thông tin về bệnh dại): chó cắn và cào gây 99% ca bệnh dại ở người, có thể phòng bằng tiêm phòng cho chó và phòng tránh bị cắn.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/rabies",
+      "supports": "WHO: khi triệu chứng xuất hiện thì bệnh dại gây tử vong ở 100% ca.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/rabies",
+      "supports": "WHO: bị động vật có thể mang dại cắn hoặc cào thì rửa ngay vết thương bằng nước và xà phòng ít nhất 15 phút và đi khám.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dmv.ny.gov/motorcycle-manual/motorcycle-manual-ride-within-your-abilities",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dmv.ny.gov/motorcycle-manual/motorcycle-manual-ride-within-your-abilities",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/rabies",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/rabies",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/rabies",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 562,
+        "title": "Cho Thuê Xe Máy ở Hà Nội – Giao Tận Nơi, Cọc Nhẹ | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "bef2a1222a528843870457f0106cf4c95a0e35e17def59be14a16504af267b6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2437,
+        "title": "Các dòng xe máy Honda: tổng hợp mẫu phổ biến tại Việt Nam",
+        "why": "stale",
+        "content_hash": "5cff2a6706b84439a61843ab51b848da33a40d9c155c5eb687076b40c694e51f",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2458,
+        "title": "Các dòng xe máy Yamaha: tổng hợp mẫu đáng chú ý tại Việt Nam",
+        "why": "stale",
+        "content_hash": "71b9706803d72159065f0491b44ef5886bbf30b4e2b5490efc3dc5486b8d9a1c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2493,
+        "title": "Bao lâu nên thay dầu xe máy? Cách nhận biết thời điểm phù hợp",
+        "why": "stale",
+        "content_hash": "8ca2a243a492015121237f25a06d048e4ab5297e91295fbbbae60ec93a619529",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2532,
+        "title": "Bảo dưỡng xe máy Honda định kỳ gồm những hạng mục nào quan trọng?",
+        "why": "stale",
+        "content_hash": "3b3f8540d3f280a070202fee58502694cd67d9aa913f3fd5820127ff78745746",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T09:23:34.548147+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "f6f19e29e7364968514688ea72f131525b64d966fb7e9a405bd7746f9f00661e",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
