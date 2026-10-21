@@ -29289,6 +29289,25 @@
         "seo_description": "Bảo hành xe Dat Bike theo chính sách của hãng: 3 năm hoặc 30.000 km, pin dưới 70% được yêu cầu thay khi đủ điều kiện, đi mưa ngập đến 60 cm và các trường hợp loại trừ.",
         "checked_at": "2026-10-21T15:14:54.892421+00:00"
       }
+    },
+    "NT-001421": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T15:15:12.804117+00:00",
+      "source_hash": "5c5995b56229a83a58e50cdb20c882ecd394e8a09aee249293a2add4b64bc5f2",
+      "slug": "hoa-don-va-chung-tu-thue-xe-may-nen-xin-gi-va-xac-nhan-gi-khi-doi-xe-giua-ky",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 164,
+      "visible_hash": "ffe1a4491fe0e7e2b46c5175a6210aaedd93c613eea40f308a06fa85172a0673",
+      "first_paragraph": "Hóa đơn và chứng từ thuê xe máy phụ thuộc vào từng cửa hàng, nhưng bạn luôn có thể xin và giữ bộ giấy tờ chứng minh giao dịch: trang phổ biến pháp luật của thành phố Cần Thơ (đăng 12/03/2026) liệt kê quyền chung của người tiêu dùng là được cung cấp hóa đơn, chứng từ, tài liệu liên quan đến giao dịch. Vì một cửa hàng nhỏ chưa chắc xuất được hóa đơn điện tử, hãy hỏi trước khi trả tiền; nếu chưa có hóa đơn, hãy gom báo giá bằng tin nhắn, hợp đồng hoặc biên nhận, phiếu thu cọc, chứng từ chuyển khoản và ảnh bàn giao xe. Khi đổi sang xe khác giữa kỳ thuê, hãy nhờ cửa hàng xác nhận lại bằng chữ: mẫu xe cũ và mới, thời điểm đổi, số ngày và đơn giá của từng xe, cùng khoản cọc được giữ nguyên, chuyển sang xe mới hay hoàn rồi thu lại.",
+      "meta_title": "Hóa đơn và chứng từ thuê xe máy: xin gì, ghi gì khi đổi xe giữa kỳ",
+      "meta_description": "Hóa đơn và chứng từ thuê xe máy: quyền xin hóa đơn của người tiêu dùng, bộ chứng từ thay thế khi chưa có hóa đơn và cách ghi lại khi đổi xe giữa kỳ thuê.",
+      "intended_taxonomy_key": "rental-costs",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "81a82aa1136451c663884386ac8cf6a12a652ca1",
+      "run_id": "39622613046",
+      "updated_at": "2026-10-21T15:15:12.806486+00:00"
     }
   },
   "categories": {}
