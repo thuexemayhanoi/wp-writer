@@ -26741,6 +26741,75 @@
         "seo_description": "Pin chai có được bảo hành không theo trang của VinFast, Honda và Yadea đọc ngày 21/10/2026: chai tự nhiên không bảo hành, điều trang không nói và cách ghi lại tình trạng pin.",
         "checked_at": "2026-10-21T14:13:16.399181+00:00"
       }
+    },
+    "NT-001308": {
+      "phase": "VERIFIED",
+      "created_at": "2026-10-21T14:13:32.266083+00:00",
+      "source_hash": "2dad5c705a5a9a6c9470352fa30acbe7ad71f0de2d2b6b026642e07be53c0e73",
+      "slug": "thay-cell-hoac-do-pin-xe-dien-ngoai-hang-bosch-dan-doi-pin-khong-sua-yadea-canh-bao-chap",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 160,
+      "visible_hash": "d3b8ca0e682fbe87c3a7fc59d01cfdb81633cbd0a50d313a63e3ac13f70be904",
+      "first_paragraph": "Thay cell hoặc độ pin xe điện ngoài hãng có nên làm không? Trong các trang người viết đọc ngày 21/10/2026, không trang nào của hãng hay cơ quan PCCC hướng dẫn cách thay cell hoặc độ pin: Bosch coi pin xe đạp điện là chi tiết hao mòn, đổi chứ không sửa; Yadea cảnh báo tự độ pin không đồng bộ với bo mạch điều khiển và động cơ gây quá tải, chập cháy và mất quyền lợi bảo hành; Dat Bike dặn không tự tháo dỡ hay sửa pin; Cục Cảnh sát PCCC và CNCH nêu pin đã sửa làm đổi thông số có thể phồng khi sạc. Các trang này không kiểm tra một bộ pin độ cụ thể nào, nên bài chỉ thuật lại lời dặn và gợi ý câu hỏi nên hỏi hãng trước khi nhờ tiệm ngoài.",
+      "meta_title": "Thay cell hoặc độ pin xe điện ngoài hãng: hãng và PCCC dặn gì",
+      "meta_description": "Thay cell hoặc độ pin xe điện ngoài hãng: Bosch dặn đổi pin không sửa, Yadea cảnh báo chập và mất bảo hành, PCCC nêu pin đã sửa có thể phồng; hỏi hãng trước khi nhờ tiệm.",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "505e67d8504b8c0483cb4ab34a9945024cd50874",
+      "run_id": "39614249837",
+      "updated_at": "2026-10-21T14:13:44.564834+00:00",
+      "wp_id": 4586,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/thay-cell-hoac-do-pin-xe-dien-ngoai-hang-bosch-dan-doi-pin-khong-sua-yadea-canh-bao-chap/",
+      "verified_at": "2026-10-21T14:13:44.564827+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4586,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/thay-cell-hoac-do-pin-xe-dien-ngoai-hang-bosch-dan-doi-pin-khong-sua-yadea-canh-bao-chap/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/thay-cell-hoac-do-pin-xe-dien-ngoai-hang-bosch-dan-doi-pin-khong-sua-yadea-canh-bao-chap/",
+        "seo_title": "Thay cell hoặc độ pin xe điện ngoài hãng: hãng và PCCC dặn gì",
+        "seo_description": "Thay cell hoặc độ pin xe điện ngoài hãng: Bosch dặn đổi pin không sửa, Yadea cảnh báo chập và mất bảo hành, PCCC nêu pin đã sửa có thể phồng; hỏi hãng trước khi nhờ tiệm.",
+        "checked_at": "2026-10-21T14:13:44.564809+00:00"
+      }
+    },
+    "NT-001309": {
+      "phase": "VERIFY_PENDING",
+      "created_at": "2026-10-21T14:14:19.580525+00:00",
+      "source_hash": "d56878df549ec52096244db160bd8392e2a1d67a33ecbed9338a88f3684fc357",
+      "slug": "do-xe-dien-o-dau-cho-thoang-cach-xe-xang-3-m-tranh-nang-co-bao-khoi-theo-pccc-va-bosch",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 160,
+      "visible_hash": "70ad3816702b8c97519e57a015bb2efc4de5517492722cc9f10e4b92bf01878a",
+      "first_paragraph": "Đỗ xe điện ở đâu cho thoáng và an toàn hơn? Theo các trang người viết đọc ngày 21/10/2026, nên chọn nơi thoáng có luồng khí lưu thông, khô ráo, tránh nắng trực tiếp, xa vật dễ cháy như rèm, giấy và xa xe xăng; khi sạc thì có người trông, không sạc qua đêm hoặc lúc vắng nhà. Một cán bộ Cục Cảnh sát PCCC và CNCH nói với báo Tuổi Trẻ năm 2023 rằng khu đỗ xe điện nên cách xe xăng ít nhất 3 m, còn Bosch dặn cất pin xe đạp điện ở nơi thông thoáng có báo khói. Các nguồn không nói giống nhau về mọi điểm, nên bài nêu rõ từng lời là của ai để bạn tự cân nhắc theo điều kiện nhà mình.",
+      "meta_title": "Đỗ xe điện ở đâu cho thoáng: lời dặn của PCCC, Bosch, Dat Bike",
+      "meta_description": "Đỗ xe điện ở đâu cho thoáng: nơi khô, tránh nắng, xa vật dễ cháy và xe xăng, có người trông khi sạc; PCCC, Tuổi Trẻ, Bosch, Dat Bike nói gì và chỗ nào không khớp.",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "505e67d8504b8c0483cb4ab34a9945024cd50874",
+      "run_id": "39614249837",
+      "updated_at": "2026-10-21T14:14:23.965525+00:00",
+      "wp_id": 4587
     }
   },
   "categories": {}
