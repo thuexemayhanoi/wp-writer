@@ -27184,7 +27184,7 @@
       }
     },
     "NT-001338": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:22:47.274309+00:00",
       "source_hash": "dbd0ccf2fb10b05c14550c470aacc69decb3f8d4b772d7ff91c50e4130d4a967",
       "slug": "den-sai-o-thuy-lam-dong-anh-le-hoi-ruoc-vua-gia-11-thang-gieng-va-diem-du-lich-duoc-cong-nhan",
@@ -27200,8 +27200,37 @@
       "category_warning": null,
       "git_commit": "55beb7503a1d970b552ddabe740b39f9ac74fa0a",
       "run_id": "39615090557",
-      "updated_at": "2026-10-21T14:22:52.094458+00:00",
-      "wp_id": 4595
+      "updated_at": "2026-10-21T14:22:59.116207+00:00",
+      "wp_id": 4595,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/den-sai-o-thuy-lam-dong-anh-le-hoi-ruoc-vua-gia-11-thang-gieng-va-diem-du-lich-duoc-cong-nhan/",
+      "verified_at": "2026-10-21T14:22:59.116201+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4595,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/den-sai-o-thuy-lam-dong-anh-le-hoi-ruoc-vua-gia-11-thang-gieng-va-diem-du-lich-duoc-cong-nhan/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/den-sai-o-thuy-lam-dong-anh-le-hoi-ruoc-vua-gia-11-thang-gieng-va-diem-du-lich-duoc-cong-nhan/",
+        "seo_title": "Đền Sái ở Thụy Lâm, Đông Anh: lễ hội rước vua giả 11 tháng Giêng",
+        "seo_description": "Đền Sái ở Thụy Lâm, Đông Anh: tích rước vua giả, lễ hội từ 30 tháng Chạp đến 15 tháng Giêng, điểm du lịch Thụy Lâm được công nhận và điều cần xem trước khi đi.",
+        "checked_at": "2026-10-21T14:22:59.116180+00:00"
+      }
     }
   },
   "categories": {}
