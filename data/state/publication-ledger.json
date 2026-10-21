@@ -29389,7 +29389,7 @@
       }
     },
     "NT-001451": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T15:16:40.185151+00:00",
       "source_hash": "520b11ccc4f0e826b700dc5ddcdc5688b745daa1cf7f7836aadd7f2ec016ac87",
       "slug": "he-thong-den-xe-dap-dien-den-lay-dien-tu-dau-va-thoi-quen-nao-giup-den-ben-hon",
@@ -29405,8 +29405,37 @@
       "category_warning": null,
       "git_commit": "81a82aa1136451c663884386ac8cf6a12a652ca1",
       "run_id": "39622613046",
-      "updated_at": "2026-10-21T15:16:45.551308+00:00",
-      "wp_id": 4667
+      "updated_at": "2026-10-21T15:16:53.105383+00:00",
+      "wp_id": 4667,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/he-thong-den-xe-dap-dien-den-lay-dien-tu-dau-va-thoi-quen-nao-giup-den-ben-hon/",
+      "verified_at": "2026-10-21T15:16:53.105376+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4667,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/he-thong-den-xe-dap-dien-den-lay-dien-tu-dau-va-thoi-quen-nao-giup-den-ben-hon/",
+        "categories": [
+          166
+        ],
+        "canonical": "https://thuexemaynguyentu.com/he-thong-den-xe-dap-dien-den-lay-dien-tu-dau-va-thoi-quen-nao-giup-den-ben-hon/",
+        "seo_title": "Hệ thống đèn xe đạp điện: đèn lấy điện từ đâu, giữ đèn bền hơn",
+        "seo_description": "Hệ thống đèn xe đạp điện lấy điện từ đâu theo Giant, UL, Trek; các nguồn không nêu tuổi thọ đèn, thứ tự kiểm tra khi đèn không sáng và thói quen giữ phần điện bền.",
+        "checked_at": "2026-10-21T15:16:53.105358+00:00"
+      }
     }
   },
   "categories": {}
