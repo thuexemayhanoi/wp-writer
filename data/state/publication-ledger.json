@@ -21204,6 +21204,25 @@
         "seo_description": "Đèn MIL trên xe Honda báo lỗi hệ thống phun xăng điện tử PGM-FI: Honda Việt Nam nói gì về lúc đèn tắt, cuộc gọi báo lỗi áp dụng cho SH150i và việc nên làm khi nhận cuộc gọi.",
         "checked_at": "2026-10-21T04:40:23.857555+00:00"
       }
+    },
+    "NT-001155": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T04:41:08.349882+00:00",
+      "source_hash": "c79e87bfce9d45a24b6e774212b641183f714271a31d315e21e8fa8affe30b8b",
+      "slug": "bao-lau-nen-bom-lop-xe-may-mot-lan-moc-2-tuan-cua-bridgestone-va-cach-do-khi-lop-nguoi",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 170,
+      "visible_hash": "1e1ae095e0bdf9e863059d8d7c64e9cddc2aa073748f1df7c85a3aecc44e8a4d",
+      "first_paragraph": "Bao lâu nên bơm lốp xe máy một lần: theo Bridgestone Việt Nam, nên kiểm tra áp suất lốp ít nhất 2 tuần một lần và kiểm tra sớm hơn nếu cảm nhận lốp không đạt tiêu chuẩn, rồi chỉ bơm khi đồng hồ cho thấy áp suất thấp hơn mức nhà sản xuất đưa ra. Trang này cũng dặn đo bằng đồng hồ đo áp (không thể đo chính xác bằng tay), khi lốp ở nhiệt độ bình thường, lý tưởng nhất là sau khi xe đã dừng khoảng 20 phút. Mốc 2 tuần là lời của một hãng lốp; bài VnExpress năm 2013 nêu một mốc khác (kiểm tra lốp trước khi lái và kiểm tra định kỳ 4.000 km một lần tại cơ sở bảo dưỡng), và mức áp suất đúng phải lấy từ tem dán trên xe hoặc sách hướng dẫn của đúng xe, không lấy từ một bảng chung.",
+      "meta_title": "Bao lâu nên bơm lốp xe máy một lần: mốc 2 tuần và cách đo lốp nguội",
+      "meta_description": "Bao lâu nên bơm lốp xe máy một lần: Bridgestone nêu mốc kiểm tra ít nhất 2 tuần, đo bằng đồng hồ khi lốp nguội, tem xe mới là mức chuẩn và vì sao bảng trên mạng không thống nhất.",
+      "intended_taxonomy_key": "engine-care",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "61285248c7d8eca7c8250b277de2091dd2ca1bae",
+      "run_id": "39544657734",
+      "updated_at": "2026-10-21T04:41:08.351349+00:00"
     }
   },
   "categories": {}
