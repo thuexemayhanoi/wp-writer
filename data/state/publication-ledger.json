@@ -21696,7 +21696,7 @@
       }
     },
     "NT-001159": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:50:35.776735+00:00",
       "source_hash": "231544ed7865178e90234931e76f24ef475de8f34e238fb90c7090e4f298c114",
       "slug": "so-khung-xe-may-la-gi-va-nam-o-dau-doc-17-ky-tu-vin-tim-duoi-yen-hoac-co-xe-va-so-voi-giay-dang-ky",
@@ -21712,8 +21712,37 @@
       "category_warning": null,
       "git_commit": "855e0553874a93715a6dd956f505147b623fc191",
       "run_id": "39545575800",
-      "updated_at": "2026-10-21T04:50:39.662230+00:00",
-      "wp_id": 4463
+      "updated_at": "2026-10-21T04:50:45.224254+00:00",
+      "wp_id": 4463,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/so-khung-xe-may-la-gi-va-nam-o-dau-doc-17-ky-tu-vin-tim-duoi-yen-hoac-co-xe-va-so-voi-giay-dang-ky/",
+      "verified_at": "2026-10-21T04:50:45.224247+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4463,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/so-khung-xe-may-la-gi-va-nam-o-dau-doc-17-ky-tu-vin-tim-duoi-yen-hoac-co-xe-va-so-voi-giay-dang-ky/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/so-khung-xe-may-la-gi-va-nam-o-dau-doc-17-ky-tu-vin-tim-duoi-yen-hoac-co-xe-va-so-voi-giay-dang-ky/",
+        "seo_title": "Số khung xe máy là gì và nằm ở đâu? Đọc 17 ký tự VIN và đối chiếu",
+        "seo_description": "Số khung xe máy là gì và nằm ở đâu: VIN 17 ký tự theo Yamaha, ba cách tra trên xe, giấy đăng ký, trang Cục Đăng kiểm, khác số máy và cách so với giấy tờ.",
+        "checked_at": "2026-10-21T04:50:45.224224+00:00"
+      }
     }
   },
   "categories": {}
