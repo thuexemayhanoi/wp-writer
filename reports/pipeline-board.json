@@ -1,29 +1,17 @@
 {
-  "at": "2026-10-21T09:05:04.768867+00:00",
+  "at": "2026-10-21T09:10:07.070722+00:00",
   "counts": {
-    "WRITING": 20,
+    "WRITING": 17,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 500
+    "VERIFIED": 503
   },
   "ready_backlog": 0,
-  "in_flight": 23,
+  "in_flight": 20,
   "items": [
-    {
-      "topic_id": "NT-001140",
-      "state": "WRITING",
-      "reason": "leased to seodev-w52",
-      "title": "Điểm ùn tắc ở Hà Nội cuối 2026: 44 trên 51 điểm đã xử lý, tuyến Kim Mã – Đào Tấn ra khỏi danh sách",
-      "slot": "W3",
-      "session": "seodev-w52",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-001161",
       "state": "WRITING",
@@ -145,18 +133,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001192",
-      "state": "WRITING",
-      "reason": "leased to seodev-w53",
-      "title": "Đứt xích khi đang chạy xe máy: nhả ga, bóp côn, ra tín hiệu, dừng sát lề và dấu hiệu xích mòn hay quá căng",
-      "slot": "W4",
-      "session": "seodev-w53",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001193",
       "state": "WRITING",
       "reason": "leased to seodev-w53",
@@ -185,18 +161,6 @@
       "state": "WRITING",
       "reason": "leased to seodev-w53",
       "title": "Tránh va chạm trực diện khi đi xe máy: phanh mạnh, bóp còi, tìm lối thoát bên phải và không đánh lái sang làn ngược",
-      "slot": "W4",
-      "session": "seodev-w53",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001197",
-      "state": "WRITING",
-      "reason": "leased to seodev-w53",
-      "title": "Cầm ô khi đi xe máy: Điều 33 Luật 36/2024 cấm sử dụng ô, người lái bị phạt 800.000–1.000.000 đồng và trừ 4 điểm",
       "slot": "W4",
       "session": "seodev-w53",
       "wp_id": null,
@@ -5821,6 +5785,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001140",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Điểm ùn tắc ở Hà Nội cuối 2026: 44 trên 51 điểm đã xử lý, tuyến Kim Mã – Đào Tấn ra khỏi danh sách",
+      "slot": "W3",
+      "session": "seodev-w52",
+      "wp_id": 4515,
+      "url": "https://thuexemaynguyentu.com/diem-un-tac-o-ha-noi-cuoi-2026-44-tren-51-diem-da-xu-ly-tuyen-kim-ma-dao-tan-ra-khoi-danh-sach/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001151",
       "state": "VERIFIED",
       "reason": "publish",
@@ -6073,6 +6049,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001192",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đứt xích khi đang chạy xe máy: nhả ga, bóp côn, ra tín hiệu, dừng sát lề và dấu hiệu xích mòn hay quá căng",
+      "slot": "W4",
+      "session": "seodev-w53",
+      "wp_id": 4516,
+      "url": "https://thuexemaynguyentu.com/dut-xich-khi-dang-chay-xe-may-nha-ga-bop-con-ra-tin-hieu-dung-sat-le-va-dau-hieu-xich-mon-hay-qua-cang/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001196",
       "state": "VERIFIED",
       "reason": "publish",
@@ -6081,6 +6069,18 @@
       "session": "seodev-w53",
       "wp_id": 4489,
       "url": "https://thuexemaynguyentu.com/chay-xe-may-qua-vat-can-tren-duong-nam-chac-tay-lai-giu-thang-huong-nhom-nhe-nguoi-va-kiem-tra-lop-sau-do/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001197",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Cầm ô khi đi xe máy: Điều 33 Luật 36/2024 cấm sử dụng ô, người lái bị phạt 800.000–1.000.000 đồng và trừ 4 điểm",
+      "slot": "W4",
+      "session": "seodev-w53",
+      "wp_id": 4517,
+      "url": "https://thuexemaynguyentu.com/cam-o-khi-di-xe-may-dieu-33-luat-36-2024-cam-su-dung-o-nguoi-lai-bi-phat-800-000-1-000-000-dong-va-tru-4-diem/",
       "qa_status": "PASS",
       "seo_score": 100
     },
