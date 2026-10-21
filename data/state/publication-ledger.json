@@ -20569,7 +20569,7 @@
       }
     },
     "NT-000881": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:29:46.066715+00:00",
       "source_hash": "9ee16a166b46103bd03f5c254368f88dc0d867626b7a4aaba8419a981b10d393",
       "slug": "no-may-xe-may-trong-gara-hoac-khu-vuc-dong-kin-khi-co-trong-khi-xa-la-gi-va-vi-sao-honda-cam-ke-ca-dong-kin-mot-phan",
@@ -20585,8 +20585,37 @@
       "category_warning": null,
       "git_commit": "893f6a71f41112399a056137c6ccd46ca125a3cd",
       "run_id": "39543790252",
-      "updated_at": "2026-10-21T04:29:49.814293+00:00",
-      "wp_id": 4436
+      "updated_at": "2026-10-21T04:29:55.542846+00:00",
+      "wp_id": 4436,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/no-may-xe-may-trong-gara-hoac-khu-vuc-dong-kin-khi-co-trong-khi-xa-la-gi-va-vi-sao-honda-cam-ke-ca-dong-kin-mot-phan/",
+      "verified_at": "2026-10-21T04:29:55.542838+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4436,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/no-may-xe-may-trong-gara-hoac-khu-vuc-dong-kin-khi-co-trong-khi-xa-la-gi-va-vi-sao-honda-cam-ke-ca-dong-kin-mot-phan/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/no-may-xe-may-trong-gara-hoac-khu-vuc-dong-kin-khi-co-trong-khi-xa-la-gi-va-vi-sao-honda-cam-ke-ca-dong-kin-mot-phan/",
+        "seo_title": "Nổ máy xe máy trong gara hoặc khu vực đóng kín: khí CO và Honda",
+        "seo_description": "Nổ máy xe máy trong gara hoặc khu vực đóng kín: sách Honda cấm kể cả đóng kín một phần, khí CO trong khí xả là gì, câu chữ khác nhau giữa các mẫu và gợi ý khi nhận xe.",
+        "checked_at": "2026-10-21T04:29:55.542816+00:00"
+      }
     }
   },
   "categories": {}
