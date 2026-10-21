@@ -26302,7 +26302,7 @@
       }
     },
     "NT-001249": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T10:21:13.771425+00:00",
       "source_hash": "bbc02e5f426da4273ce849b0b162f76e00e2e44b6eeeb2f9b53e5917e5c6908a",
       "slug": "tam-coc-mua-lua-chin-thang-may-lua-cay-mot-vu-chin-thang-5-6-tuan-du-lich-sac-vang-doi-ngay-moi-nam-tu-2023-den-2026",
@@ -26318,8 +26318,37 @@
       "category_warning": null,
       "git_commit": "8461e3f2c1082bbd880fe9fc3924eaf05797fd77",
       "run_id": "39583216835",
-      "updated_at": "2026-10-21T10:21:17.957723+00:00",
-      "wp_id": 4577
+      "updated_at": "2026-10-21T10:21:24.211758+00:00",
+      "wp_id": 4577,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tam-coc-mua-lua-chin-thang-may-lua-cay-mot-vu-chin-thang-5-6-tuan-du-lich-sac-vang-doi-ngay-moi-nam-tu-2023-den-2026/",
+      "verified_at": "2026-10-21T10:21:24.211752+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4577,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tam-coc-mua-lua-chin-thang-may-lua-cay-mot-vu-chin-thang-5-6-tuan-du-lich-sac-vang-doi-ngay-moi-nam-tu-2023-den-2026/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tam-coc-mua-lua-chin-thang-may-lua-cay-mot-vu-chin-thang-5-6-tuan-du-lich-sac-vang-doi-ngay-moi-nam-tu-2023-den-2026/",
+        "seo_title": "Tam Cốc mùa lúa chín tháng mấy: tháng 5–6 và ngày Tuần Du lịch",
+        "seo_description": "Tam Cốc mùa lúa chín tháng mấy? Lúa cấy một vụ, chín rộ tháng 5–6; Tuần Du lịch Sắc vàng đổi ngày từ 2023 đến 2026, năm 2024 cấm xe buổi tối trên đường 491C.",
+        "checked_at": "2026-10-21T10:21:24.211733+00:00"
+      }
     }
   },
   "categories": {}
