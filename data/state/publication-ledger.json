@@ -25763,7 +25763,7 @@
       }
     },
     "NT-001206": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T10:11:19.484556+00:00",
       "source_hash": "8dd14a61aab2ce1d3080c148239b392d852985e3550f54669a8e1427f862a6b0",
       "slug": "nhuong-duong-xe-uu-tien-khi-di-xe-may-xe-nao-la-xe-uu-tien-den-nhap-nhay-mau-gi-tu-1-7-2026-va-phat-4-6-trieu-dong-neu-khong-nhuong",
@@ -25779,8 +25779,37 @@
       "category_warning": null,
       "git_commit": "d254586ab66c99b3a3fed992c9b0e2d0f0872538",
       "run_id": "39582063937",
-      "updated_at": "2026-10-21T10:11:24.061001+00:00",
-      "wp_id": 4566
+      "updated_at": "2026-10-21T10:11:30.234561+00:00",
+      "wp_id": 4566,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nhuong-duong-xe-uu-tien-khi-di-xe-may-xe-nao-la-xe-uu-tien-den-nhap-nhay-mau-gi-tu-1-7-2026-va-phat-4-6-trieu-dong-neu-khong-nhuong/",
+      "verified_at": "2026-10-21T10:11:30.234554+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4566,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nhuong-duong-xe-uu-tien-khi-di-xe-may-xe-nao-la-xe-uu-tien-den-nhap-nhay-mau-gi-tu-1-7-2026-va-phat-4-6-trieu-dong-neu-khong-nhuong/",
+        "categories": [
+          159
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nhuong-duong-xe-uu-tien-khi-di-xe-may-xe-nao-la-xe-uu-tien-den-nhap-nhay-mau-gi-tu-1-7-2026-va-phat-4-6-trieu-dong-neu-khong-nhuong/",
+        "seo_title": "Nhường đường xe ưu tiên khi đi xe máy: màu đèn và mức phạt",
+        "seo_description": "Nhường đường xe ưu tiên khi đi xe máy: xe nào được ưu tiên, màu đèn nhấp nháy theo văn bản hợp nhất từ 1/7/2026, mức phạt 4–6 triệu đồng và cách kiểm tra văn bản.",
+        "checked_at": "2026-10-21T10:11:30.234531+00:00"
+      }
     }
   },
   "categories": {}
