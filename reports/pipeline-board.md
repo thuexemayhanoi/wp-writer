@@ -1,16 +1,16 @@
 # Pipeline board
 
-Generated 2026-10-21T10:23:04.235573+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-21T10:26:59.876700+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
-| WRITING | 21 |
+| WRITING | 20 |
 | QA | 0 |
 | READY | 0 |
 | REPAIR | 0 |
 | HELD | 3 |
 | PUBLISHING | 0 |
-| VERIFIED | 559 |
+| VERIFIED | 560 |
 
 Ready backlog (QA PASS waiting for the Publisher): **0**
 
@@ -22,7 +22,6 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 | NT-001303 | WRITING | W4 | seodev-w59 | leased to seodev-w59 |
 | NT-001304 | WRITING | W4 | seodev-w59 | leased to seodev-w59 |
 | NT-001305 | WRITING | W4 | seodev-w59 | leased to seodev-w59 |
-| NT-001306 | WRITING | W4 | seodev-w59 | leased to seodev-w59 |
 | NT-001307 | WRITING | W4 | seodev-w59 | leased to seodev-w59 |
 | NT-001308 | WRITING | W4 | seodev-w59 | leased to seodev-w59 |
 | NT-001309 | WRITING | W4 | seodev-w59 | leased to seodev-w59 |

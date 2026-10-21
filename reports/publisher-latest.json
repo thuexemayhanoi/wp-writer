@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-21T10:22:59.019924+00:00",
-  "attempted": 8,
+  "at": "2026-10-21T10:26:53.937779+00:00",
+  "attempted": 1,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -180,11 +180,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T10:18:06.778172+00:00",
+      "at": "2026-10-21T10:26:13.875346+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "f10e44f1be62c1efcb7b27a9a25ae254e3e3273f117ec5c894d0a3c3b39b2822",
+      "inventory_sha256": "158416c876ede40eddaadce7cba1413aed2b967a848a22331a02d761f7d7d4f7",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -350,11 +350,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T10:18:14.427132+00:00",
+      "at": "2026-10-21T10:26:21.384100+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "f10e44f1be62c1efcb7b27a9a25ae254e3e3273f117ec5c894d0a3c3b39b2822",
+      "inventory_sha256": "158416c876ede40eddaadce7cba1413aed2b967a848a22331a02d761f7d7d4f7",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -529,11 +529,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T10:18:20.725344+00:00",
+      "at": "2026-10-21T10:26:27.827472+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "f10e44f1be62c1efcb7b27a9a25ae254e3e3273f117ec5c894d0a3c3b39b2822",
+      "inventory_sha256": "158416c876ede40eddaadce7cba1413aed2b967a848a22331a02d761f7d7d4f7",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -553,63 +553,7 @@
       }
     },
     {
-      "topic_id": "NT-001205",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 159,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "legal",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001209",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 159,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "legal",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001210",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001247",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001248",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 126,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "destinations",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001249",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001250",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 126,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "destinations",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001301",
+      "topic_id": "NT-001306",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 167,
       "category_resolution": "EXACT",

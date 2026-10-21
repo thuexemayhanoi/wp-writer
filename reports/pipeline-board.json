@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-21T10:23:04.235573+00:00",
+  "at": "2026-10-21T10:26:59.876700+00:00",
   "counts": {
-    "WRITING": 21,
+    "WRITING": 20,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 559
+    "VERIFIED": 560
   },
   "ready_backlog": 0,
-  "in_flight": 24,
+  "in_flight": 23,
   "items": [
     {
       "topic_id": "NT-001302",
@@ -53,18 +53,6 @@
       "state": "WRITING",
       "reason": "leased to seodev-w59",
       "title": "Cắm nhầm bộ sạc của xe khác: sai điện áp làm phồng pin và mất bảo hành theo Pega, Yadea, PCCC",
-      "slot": "W4",
-      "session": "seodev-w59",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001306",
-      "state": "WRITING",
-      "reason": "leased to seodev-w59",
-      "title": "Chạy xong có sạc xe điện ngay được không: PCCC dặn chờ 20 phút, Yadea 30 phút đến 1 giờ",
       "slot": "W4",
       "session": "seodev-w59",
       "wp_id": null,
@@ -6933,6 +6921,18 @@
       "session": "seodev-w59",
       "wp_id": 4579,
       "url": "https://thuexemaynguyentu.com/pin-xe-may-dien-vinfast-bao-hanh-bao-lau-pin-lfp-8-nam-pin-khac-3-nam-ac-quy-12v-1-nam/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001306",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Chạy xong có sạc xe điện ngay được không: PCCC dặn chờ 20 phút, Yadea 30 phút đến 1 giờ",
+      "slot": "W4",
+      "session": "seodev-w59",
+      "wp_id": 4580,
+      "url": "https://thuexemaynguyentu.com/chay-xong-co-sac-xe-dien-ngay-duoc-khong-pccc-dan-cho-20-phut-yadea-30-phut-den-1-gio/",
       "qa_status": "PASS",
       "seo_score": 100
     },
