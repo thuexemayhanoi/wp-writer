@@ -1,0 +1,280 @@
+{
+  "topic_id": "NT-001212",
+  "status": "PASS",
+  "source_sha256": "42a6184e31dcad039ea8e4748d9da24e5ae2267218dd52687ee1af2cabc2a697",
+  "body_sha256": "9fd7604d8121ed51c51f53834c678357f60d6618374dc2136b40ee8637100c31",
+  "word_count": 1893,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://mae.gov.vn/ha-noi-tphcm-se-kiem-dinh-khi-thai-xe-mo-to-xe-gan-may-tu-ngay-172027-21394.htm",
+      "supports": "mae.gov.vn đăng lại tin Chinhphu.vn: Quyết định 13/2026/QĐ-TTg quy định Hà Nội và TP.HCM kiểm định khí thải xe mô tô, xe gắn máy từ 1/7/2027.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mae.gov.vn/ha-noi-tphcm-se-kiem-dinh-khi-thai-xe-mo-to-xe-gan-may-tu-ngay-172027-21394.htm",
+      "supports": "Cùng bản tin: mức khí thải áp dụng cho xe mô tô sản xuất hoặc nhập khẩu từ 1/7/2026 là Mức 4.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mae.gov.vn/ha-noi-tphcm-se-kiem-dinh-khi-thai-xe-mo-to-xe-gan-may-tu-ngay-172027-21394.htm",
+      "supports": "Cùng bản tin: xe gắn máy sản xuất hoặc nhập khẩu từ năm 2017 đến 30/6/2027 áp dụng Mức 2.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mae.gov.vn/ha-noi-tphcm-se-kiem-dinh-khi-thai-xe-mo-to-xe-gan-may-tu-ngay-172027-21394.htm",
+      "supports": "Cùng bản tin: từ 1/1/2028 xe ở Hà Nội và TP.HCM phải đáp ứng khí thải Mức 2 trở lên.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mae.gov.vn/ha-noi-tphcm-se-kiem-dinh-khi-thai-xe-mo-to-xe-gan-may-tu-ngay-172027-21394.htm",
+      "supports": "Cùng bản tin: xe vào vùng phát thải thấp của Hà Nội phải đáp ứng khí thải theo Nghị quyết của HĐND Thành phố.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/ha-noi-tp-hcm-se-kiem-dinh-khi-thai-xe-may-tu-ngay-1-7-2027-5059602.html",
+      "supports": "VnExpress 07/04/2026: từ 1/1/2028 xe ở Hà Nội và TP.HCM phải đáp ứng khí thải mức 2 trở lên; các thành phố trực thuộc trung ương khác từ 1/7/2028.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/ha-noi-tp-hcm-se-kiem-dinh-khi-thai-xe-may-tu-ngay-1-7-2027-5059602.html",
+      "supports": "VnExpress giải thích xe môtô là xe có dung tích xi lanh từ 50 cm3 trở lên và nêu mức theo năm sản xuất.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/ha-noi-tp-hcm-se-kiem-dinh-khi-thai-xe-may-tu-ngay-1-7-2027-5059602.html",
+      "supports": "VnExpress nêu số xe máy cả nước theo bài báo.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/ha-noi-tp-hcm-se-kiem-dinh-khi-thai-xe-may-tu-ngay-1-7-2027-5059602.html",
+      "supports": "VnExpress dẫn bảng giới hạn CO, HC của bốn mức cho xe lắp động cơ cháy cưỡng bức.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=218635&pageid=27160&typegroupid=6",
+      "supports": "vanban.chinhphu.vn: Thông tư 30/2026/TT-BXD ban hành 15-06-2026, có hiệu lực 01-07-2026, gồm trình tự, thủ tục kiểm định khí thải xe mô tô, xe gắn máy.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://mae.gov.vn/ha-noi-tphcm-se-kiem-dinh-khi-thai-xe-mo-to-xe-gan-may-tu-ngay-172027-21394.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mae.gov.vn/ha-noi-tphcm-se-kiem-dinh-khi-thai-xe-mo-to-xe-gan-may-tu-ngay-172027-21394.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mae.gov.vn/ha-noi-tphcm-se-kiem-dinh-khi-thai-xe-mo-to-xe-gan-may-tu-ngay-172027-21394.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mae.gov.vn/ha-noi-tphcm-se-kiem-dinh-khi-thai-xe-mo-to-xe-gan-may-tu-ngay-172027-21394.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mae.gov.vn/ha-noi-tphcm-se-kiem-dinh-khi-thai-xe-mo-to-xe-gan-may-tu-ngay-172027-21394.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/ha-noi-tp-hcm-se-kiem-dinh-khi-thai-xe-may-tu-ngay-1-7-2027-5059602.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/ha-noi-tp-hcm-se-kiem-dinh-khi-thai-xe-may-tu-ngay-1-7-2027-5059602.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/ha-noi-tp-hcm-se-kiem-dinh-khi-thai-xe-may-tu-ngay-1-7-2027-5059602.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/ha-noi-tp-hcm-se-kiem-dinh-khi-thai-xe-may-tu-ngay-1-7-2027-5059602.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=218635&pageid=27160&typegroupid=6",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 901,
+        "title": "Chi Phí Thuê Xe Máy 50cc Tại Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "5e97bdd95f6f5fa533852376cbc2ee39c307a1530a0eac4b2153714d977f03ae",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4048,
+        "title": "Thuê xe máy Hà Nội khi xe cá nhân đang sửa: chọn kỳ thuê và gia hạn nếu gara trễ",
+        "why": "stale",
+        "content_hash": "5eaf7d3b4d760f2a4ab0df94807fe114a8927ceb0af3b0ea5d1d59453a46f20d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:43:51.724793+00:00",
+  "live_links_checked": false,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "d1ad281e7af7824de91886dbf2e24a2d3116af69754bb81d52b37fd330bb00a0",
+  "incremental_key": "f449557ee1a4dba4ffa9f415e6c112a7b8e8a682bea7c16cb4843cb480fc94e8",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

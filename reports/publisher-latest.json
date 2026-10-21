@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-21T04:23:32.313588+00:00",
-  "attempted": 9,
-  "ready_backlog": 0,
+  "at": "2026-10-21T04:51:10.115515+00:00",
+  "attempted": 10,
+  "ready_backlog": 15,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -22,70 +22,6 @@
         }
       },
       "action": "manual reconciliation; never create/update automatically"
-    },
-    {
-      "topic_id": "NT-000732",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 173,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "vietnam-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000734",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 173,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "vietnam-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000739",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 173,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "vietnam-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000740",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 173,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "vietnam-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000879",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 170,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "engine-care",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000903",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000904",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000908",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
     },
     {
       "topic_id": "NT-001101",
@@ -244,11 +180,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T04:22:50.457229+00:00",
+      "at": "2026-10-21T04:46:05.884840+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "e6929189bd33424f55f785140d8cc700527f675f9e9e353ae6ca108f48587c59",
+      "inventory_sha256": "bd2ee8b6372c2d8cc582650b67161ea477ec2bfec863898f6166e15bc2030b09",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -414,11 +350,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T04:22:58.480675+00:00",
+      "at": "2026-10-21T04:46:12.746216+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "e6929189bd33424f55f785140d8cc700527f675f9e9e353ae6ca108f48587c59",
+      "inventory_sha256": "bd2ee8b6372c2d8cc582650b67161ea477ec2bfec863898f6166e15bc2030b09",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -593,11 +529,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T04:23:05.325623+00:00",
+      "at": "2026-10-21T04:46:18.794078+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "e6929189bd33424f55f785140d8cc700527f675f9e9e353ae6ca108f48587c59",
+      "inventory_sha256": "bd2ee8b6372c2d8cc582650b67161ea477ec2bfec863898f6166e15bc2030b09",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -617,7 +553,79 @@
       }
     },
     {
-      "topic_id": "NT-001151",
+      "topic_id": "NT-001122",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 176,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001123",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 175,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "trip-planning",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001124",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 175,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "trip-planning",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001128",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 176,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001129",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 176,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001130",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 176,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001157",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 170,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "engine-care",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001158",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 170,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "engine-care",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001159",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 170,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "engine-care",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001160",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 170,
       "category_resolution": "EXACT",

@@ -4,51 +4,51 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-21T04:23:36.605911+00:00 |
-| existing_published_posts | 578 |
+| at | 2026-10-21T04:51:14.445307+00:00 |
+| existing_published_posts | 607 |
 | existing_pages | 10 |
 | existing_products | 13 |
-| candidate_topics | 537 |
-| planned_topics | 464 |
+| candidate_topics | 567 |
+| planned_topics | 494 |
 | claimable_topics | 9 |
 | ready_stock | 3 |
-| stock_stages | {'IDEA': 300, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 3, 'PLANNED_HOLD': 3, 'CLAIMED': 21, 'AUTHORED': 3, 'QA_PASS': 0, 'PUBLISHED': 434, 'WP_DRAFT': 0} |
+| stock_stages | {'IDEA': 300, 'RESEARCH': 72, 'REJECTED': 1, 'PLANNED': 3, 'PLANNED_HOLD': 3, 'CLAIMED': 6, 'AUTHORED': 3, 'QA_PASS': 15, 'PUBLISHED': 464, 'WP_DRAFT': 0} |
 | needs_research | True |
 | research_shortfall | 897 |
 | refill_trigger_below_ready | 900 |
 | refill_round_target | 100-200 |
 | refill_state | REFILL_IN_PROGRESS |
 | refill_order | RF-0003 |
-| refill_accepted_so_far | 53 |
-| writing | 75 |
-| draft_authored | 434 |
-| qa_pass | 431 |
+| refill_accepted_so_far | 83 |
+| writing | 40 |
+| draft_authored | 479 |
+| qa_pass | 476 |
 | qa_fail | 3 |
 | qa_review | 0 |
 | repair_queue | 3 |
 | held_by_class | {'REAL_RISK': 3} |
-| g7_pass | 409 |
+| g7_pass | 439 |
 | g7_not_recorded | 25 |
 | wordpress_draft | 0 |
-| wordpress_published | 434 |
-| verified_public | 434 |
+| wordpress_published | 464 |
+| verified_public | 464 |
 | indexed | None |
 | topic_collisions | 1 |
 | category_mapping_errors | 0 |
 | empty_category_violations | 0 |
 | broken_links | None |
 | broken_links_note | No full HTTP crawl yet; inventory graph is not a broken-link proof |
-| remaining_topic_target | 536 |
-| remaining_candidate_target | 463 |
+| remaining_topic_target | 506 |
+| remaining_candidate_target | 433 |
 | delivery_mode | production |
 | production_enabled | True |
 | draft_staging_enabled | False |
-| qa_pass_live_checked | 90 |
-| qa_pass_awaiting_wordpress | 0 |
-| queued_topic_ids | [] |
+| qa_pass_live_checked | 120 |
+| qa_pass_awaiting_wordpress | 15 |
+| queued_topic_ids | ['NT-001189', 'NT-001218', 'NT-001183', 'NT-001211', 'NT-001185', 'NT-001186', 'NT-001216', 'NT-001181', 'NT-001217', 'NT-001188', 'NT-001213', 'NT-001182', 'NT-001187', 'NT-001184', 'NT-001212'] |
 | pending_wordpress_intents | [] |
 | blocked_writer_sessions | [] |
-| last_wordpress_verified_at | 2026-10-21T04:23:27.381371+00:00 |
+| last_wordpress_verified_at | 2026-10-21T04:51:08.007621+00:00 |
 | capacity | 10000 |
 | authenticated_inventory | True |
 | test_drafts_excluded | 2 |

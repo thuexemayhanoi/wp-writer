@@ -1,0 +1,199 @@
+{
+  "topic_id": "NT-001158",
+  "status": "PASS",
+  "source_sha256": "bcacfbbf519bae87fae01c4c08a3700b73206b45ee9a1dfb61df66b067f902ab",
+  "body_sha256": "d22ce271883019fe57090e3f47a9d001a7d14b1b2fec13c541d918d355d8fba8",
+  "word_count": 2055,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://tuoitre.vn/plo/phai-lam-gi-khi-binh-ac-quy-xe-may-de-qua-lau-nen-bi-het-dien-109644769.htm",
+      "supports": "Tuổi Trẻ (dẫn wikiHow): cách đo bằng đồng hồ vạn năng thang DC 20 V và ba mức 12,73 V, 12,06-12,62 V, dưới 12,06 V.",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-903-how-to-measure-state-of-charge",
+      "supports": "Battery University BU-903 (Last Updated 4-Nov-2021): đo trạng thái nạp bằng điện áp cần nghỉ ít nhất 4 giờ, 24 giờ với axit chì; bảng BCI cho bình khởi động 12 V (12,65; 12,45; 12,24; 12,06; 11,89 V ứng với 100%, 75%, 50%, 25%, 0% sau khi nghỉ 24 giờ ở 26 độ C); ảnh hưởng của canxi, AGM, nhiệt độ, điện áp bề mặt, tải ký sinh.",
+      "checked_at": "2026-10-18",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=xe-may&category_child=tu-van-su-dung-xe-may",
+      "supports": "Trang hỏi đáp Honda Việt Nam (23/09/2021): bình vẫn tiêu hao điện khi không dùng, xe có đồng hồ, chống trộm, Smart Key tiêu thụ thêm điện cả khi tắt khóa.",
+      "checked_at": "2026-10-17",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/xe-may-het-ac-quy-phai-lam-sao/",
+      "supports": "Yamaha Motor Việt Nam (11/03/2026): tuổi thọ trung bình của ắc quy xe máy từ 2 đến 5 năm, tùy tần suất di chuyển và bảo trì.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/vi-sao-xe-may-it-di-lai-nhanh-hong-binh-ac-quy-185260522063548302.htm",
+      "supports": "Thanh Niên (22/05/2026): quãng đường quá ngắn khiến hệ thống sạc không đủ thời gian nạp lại lượng điện đã tiêu hao khi đề máy.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://tuoitre.vn/plo/phai-lam-gi-khi-binh-ac-quy-xe-may-de-qua-lau-nen-bi-het-dien-109644769.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.batteryuniversity.com/article/bu-903-how-to-measure-state-of-charge",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=xe-may&category_child=tu-van-su-dung-xe-may",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/xe-may-het-ac-quy-phai-lam-sao/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/vi-sao-xe-may-it-di-lai-nhanh-hong-binh-ac-quy-185260522063548302.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2419,
+        "title": "Các mẫu xe máy điện Yadea đáng chú ý cho nhu cầu đi lại hằng ngày",
+        "why": "stale",
+        "content_hash": "7bc38bc17116cc544098848d7efca54f1bc888d1f57abe8145c1da084d9bbeb5",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2542,
+        "title": "Xe máy bị nóng máy nhanh do đâu? Những điểm nên kiểm tra đầu tiên",
+        "why": "stale",
+        "content_hash": "994e220a440cdb5f8e90756cb7e6d0319a7cf0377e7377b9dd7b0b64ed9e9f51",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:49:53.685193+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "18302c794b33fc9954478d967aa702016ec7cb4db73d9e96becfb386fa429aa8",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
