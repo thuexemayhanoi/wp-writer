@@ -1,0 +1,128 @@
+{
+  "topic_id": "NT-001156",
+  "status": "PASS",
+  "source_sha256": "f94f9c3076b564c5d6fb4828572006847150fdb74a3ac16cbcb338b5b384cc4c",
+  "body_sha256": "bc5e09e32fe50b7ac447726ba99603a93ce0670a285a18732e348dcbd12a8083",
+  "word_count": 2273,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://thanhnien.vn/lop-xe-moi-san-xuat-sau-bao-lau-van-su-dung-an-toan-hieu-qua-185251023120338622.htm",
+      "supports": "Thanh Niên (đăng tháng 10/2025): lốp chưa lăn bánh vẫn lão hóa, mốc 3 năm theo bài báo nói về khuyến cáo của hãng, ưu tiên không quá 12 tháng, 3-4 năm giảm nhẹ hiệu suất, từ 4 năm không nên chọn, mã DOT và dấu hiệu lão hóa.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.bridgestone.com.vn/vi/thong-tin-huu-ich/chia-se-ve-lop/cach-doc-thong-so-lop-xe-may-de-nhat",
+      "supports": "Bridgestone Việt Nam: bốn số sau chữ DOT là tuần và năm sản xuất, lốp đáp ứng chất lượng nhất khi chưa quá 5 năm kể từ năm sản xuất, ví dụ DOT 3516.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://thanhnien.vn/lop-xe-moi-san-xuat-sau-bao-lau-van-su-dung-an-toan-hieu-qua-185251023120338622.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.bridgestone.com.vn/vi/thong-tin-huu-ich/chia-se-ve-lop/cach-doc-thong-so-lop-xe-may-de-nhat",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-21T04:24:20.956040+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "a8073bfd8978249fe0321ed0c3e3675b56f855727ad14610beb070d73cdacd09",
+  "incremental_key": "23cc078d19044e65060253a91e72697b51328b513a90aa3c0991dd7cf46e3ae5",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "topic_id": "NT-000881",
+  "status": "PASS",
+  "source_sha256": "9ee16a166b46103bd03f5c254368f88dc0d867626b7a4aaba8419a981b10d393",
+  "body_sha256": "c55d10914913da064f75b920f75fd2d66ba78f41c42a1e9b18b7fb00a368e62f",
+  "word_count": 2503,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.cdc.gov/carbon-monoxide/about/index.html",
+      "supports": "Trang Carbon Monoxide Poisoning Basics của CDC (Hoa Kỳ, tiếng Anh, ghi ngày 12/01/2026), mục What it is: CO là khí không mùi, không màu, giết người không báo trước; lò đốt gas hoặc dầu, máy phát điện, vỉ nướng than sinh ra khí này; trang không nhắc xe máy.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/carbon-monoxide/about/index.html",
+      "supports": "Cùng trang CDC, mục Symptoms: triệu chứng thường gặp là đau đầu, chóng mặt, yếu người, khó chịu ở bụng, nôn, đau ngực và lú lẫn; người đang ngủ, say hoặc dùng chất kích thích có thể tử vong vì CO trước khi có triệu chứng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/carbon-monoxide/about/index.html",
+      "supports": "Cùng trang CDC, mục Reducing risk, phần Automobile: không chạy xe hơi hoặc xe tải trong gara gắn liền với nhà kể cả khi mở cửa gara; với gara tách rời thì mở cửa để lấy không khí khi chạy xe bên trong; viết cho ô tô, không nhắc xe máy.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.cdc.gov/carbon-monoxide/about/index.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/carbon-monoxide/about/index.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/carbon-monoxide/about/index.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2544,
+        "title": "Xe máy phát tiếng kêu lạ khi chạy: nguyên nhân và cách kiểm tra",
+        "why": "stale",
+        "content_hash": "e4d2a8c9ffb2a022afd07f0d6cf92ad77c06cdf6fcad04bb7bae33b34bab81ad",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4050,
+        "title": "Thuê xe máy đi làm theo ca ở Hà Nội: chọn giờ nhận, gửi xe và trả xe đúng hạn",
+        "why": "stale",
+        "content_hash": "f5a41002206250a00b0d4b19ec54ada261a36c020a5c2f89aa531c79304f4012",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4057,
+        "title": "Mũ bảo hiểm đi kèm xe máy thuê: cách kiểm tra, thử vừa đầu và yêu cầu đổi mũ",
+        "why": "stale",
+        "content_hash": "882e284b19aff377f0d89fc74bb720334b6dd3673b272359304d9ff586e8ebcd",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4059,
+        "title": "Thuê xe máy đi phỏng vấn ở Hà Nội trong một ngày: xếp lịch, chọn xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "0ffbbff60edf006739890cca423af4e81cb5346ee434c29859648be6bdb57675",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4346,
+        "title": "Thuê xe máy phường Hoàn Kiếm: đi phố cổ chọn xe ga, xe số hay 50cc?",
+        "why": "stale",
+        "content_hash": "a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:29:45.941319+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "60df6405a8a60b14906a42fcf5c37d6811c59c398e30eed8ad7991cc60f374ed",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
