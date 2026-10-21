@@ -28409,7 +28409,7 @@
       }
     },
     "NT-001364": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:53:46.544010+00:00",
       "source_hash": "41d18484935bf47f36f031ed748f8db0c464623af740d98c49a52d751374655f",
       "slug": "nop-tien-phat-giao-thong-han-10-ngay-0-05-moi-ngay-cham-va-nop-qua-cong-dich-vu-cong",
@@ -28425,8 +28425,37 @@
       "category_warning": null,
       "git_commit": "98d66420ecdf9ed940584762b90f7fcdd5d15993",
       "run_id": "39619876214",
-      "updated_at": "2026-10-21T14:53:50.581880+00:00",
-      "wp_id": 4642
+      "updated_at": "2026-10-21T14:53:56.643048+00:00",
+      "wp_id": 4642,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nop-tien-phat-giao-thong-han-10-ngay-0-05-moi-ngay-cham-va-nop-qua-cong-dich-vu-cong/",
+      "verified_at": "2026-10-21T14:53:56.643041+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4642,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nop-tien-phat-giao-thong-han-10-ngay-0-05-moi-ngay-cham-va-nop-qua-cong-dich-vu-cong/",
+        "categories": [
+          163
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nop-tien-phat-giao-thong-han-10-ngay-0-05-moi-ngay-cham-va-nop-qua-cong-dich-vu-cong/",
+        "seo_title": "Nộp tiền phạt giao thông: hạn 10 ngày, 0,05% mỗi ngày chậm, nộp online",
+        "seo_description": "Nộp tiền phạt giao thông trong 10 ngày kể từ ngày nhận quyết định, tại Kho bạc hoặc qua Cổng Dịch vụ công; chậm nộp bị cưỡng chế và thêm 0,05% mỗi ngày.",
+        "checked_at": "2026-10-21T14:53:56.643024+00:00"
+      }
     }
   },
   "categories": {}
