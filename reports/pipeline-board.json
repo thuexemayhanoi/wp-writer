@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-21T05:28:32.358844+00:00",
+  "at": "2026-10-21T06:05:06.961588+00:00",
   "counts": {
-    "WRITING": 19,
+    "WRITING": 21,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 496
+    "VERIFIED": 497
   },
   "ready_backlog": 0,
-  "in_flight": 22,
+  "in_flight": 24,
   "items": [
     {
       "topic_id": "NT-001140",
@@ -235,6 +235,30 @@
       "title": "Trẻ em dưới 6 tuổi đội mũ bảo hiểm: Điều 33 Luật 36/2024 nói gì và vì sao Nghị định 168 miễn phạt người chở",
       "slot": "W4",
       "session": "seodev-w53",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-090004",
+      "state": "WRITING",
+      "reason": "leased to s-gpt6-excelpilot02-20261021",
+      "title": "Xe đạp điện bánh nhỏ: khi nào phù hợp và trong trường hợp nào nên cân nhắc",
+      "slot": "W2",
+      "session": "s-gpt6-excelpilot02-20261021",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-090006",
+      "state": "WRITING",
+      "reason": "leased to s-gpt6-excelpilot02-20261021",
+      "title": "Màn hình TFT xe máy điện: cấu tạo cơ bản và các giới hạn không nên tự can thiệp",
+      "slot": "W2",
+      "session": "s-gpt6-excelpilot02-20261021",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -6227,6 +6251,18 @@
       "url": "https://thuexemaynguyentu.com/xe-50cc-cho-nguoi-thap-kiem-tra-chong-chan-va-dat-xe/",
       "qa_status": "PASS",
       "seo_score": 100
+    },
+    {
+      "topic_id": "NT-090009",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đèn pha xe máy bị yếu: các yếu tố khiến chu kỳ thay thế ngắn hoặc dài",
+      "slot": "W6",
+      "session": "s-gpt6-excelpilot03-20261021",
+      "wp_id": 4497,
+      "url": "https://thuexemaynguyentu.com/den-pha-xe-may-bi-yeu-khi-nao-nen-thay/",
+      "qa_status": "PASS",
+      "seo_score": 95
     }
   ]
 }
