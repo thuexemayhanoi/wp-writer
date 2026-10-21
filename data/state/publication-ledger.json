@@ -29046,7 +29046,7 @@
       }
     },
     "NT-001312": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T15:12:04.382654+00:00",
       "source_hash": "39984a08c88d6d974b64efe0da610c3deb55037c8fbc0588af5fdeea7d2a5995",
       "slug": "chua-chay-pin-xe-may-dien-bang-gi-cuc-pccc-neu-nuoc-hoac-cat-am-mot-bai-bao-neu-co2-va-bot",
@@ -29062,8 +29062,37 @@
       "category_warning": null,
       "git_commit": "81a82aa1136451c663884386ac8cf6a12a652ca1",
       "run_id": "39622613046",
-      "updated_at": "2026-10-21T15:12:10.118286+00:00",
-      "wp_id": 4658
+      "updated_at": "2026-10-21T15:12:18.313652+00:00",
+      "wp_id": 4658,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/chua-chay-pin-xe-may-dien-bang-gi-cuc-pccc-neu-nuoc-hoac-cat-am-mot-bai-bao-neu-co2-va-bot/",
+      "verified_at": "2026-10-21T15:12:18.313645+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4658,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/chua-chay-pin-xe-may-dien-bang-gi-cuc-pccc-neu-nuoc-hoac-cat-am-mot-bai-bao-neu-co2-va-bot/",
+        "categories": [
+          167
+        ],
+        "canonical": "https://thuexemaynguyentu.com/chua-chay-pin-xe-may-dien-bang-gi-cuc-pccc-neu-nuoc-hoac-cat-am-mot-bai-bao-neu-co2-va-bot/",
+        "seo_title": "Chữa cháy pin xe máy điện bằng gì: nước, cát ẩm hay CO2, bột?",
+        "seo_description": "Chữa cháy pin xe máy điện bằng gì: Cục PCCC nêu bình gốc nước hoặc cát ẩm, một bài báo nêu CO2 và bột; các nguồn lệch nhau, điểm chung là gọi 114 và rời đi khi không dập nổi.",
+        "checked_at": "2026-10-21T15:12:18.313624+00:00"
+      }
     }
   },
   "categories": {}
