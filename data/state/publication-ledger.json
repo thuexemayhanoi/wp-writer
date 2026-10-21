@@ -28064,6 +28064,25 @@
         "seo_description": "Biên bản vi phạm giao thông xe máy phải ghi gì, không ký thì sao, khi nào phạt không lập biên bản đến 500.000 đồng và ai có quyền giải trình theo luật hiện hành.",
         "checked_at": "2026-10-21T14:44:42.381197+00:00"
       }
+    },
+    "NT-001370": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T14:45:15.610282+00:00",
+      "source_hash": "ae3231a9c9f067553cabe115ab0df89a30f41494eb3337e7f3ced8faf9dc4c5b",
+      "slug": "tai-nan-xe-may-co-bao-hiem-bat-buoc-bao-trong-5-ngay-lam-viec-ho-so-gom-gi-tam-ung-3-ngay",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 163,
+      "visible_hash": "5ad3ad73da414568a0ffe71700f329e892fa0477e39768b6496b5420492aa047",
+      "first_paragraph": "Tai nạn xe máy có bảo hiểm bắt buộc thì theo Điều 12 Nghị định 67/2023/NĐ-CP, bên mua bảo hiểm hoặc người được bảo hiểm phải thông báo ngay cho doanh nghiệp bảo hiểm qua đường dây nóng, rồi gửi thông báo tai nạn bằng văn bản hoặc hình thức điện tử trong 5 ngày làm việc kể từ ngày xảy ra tai nạn (trừ bất khả kháng hoặc trở ngại khách quan) và tự thu thập phần hồ sơ thuộc trách nhiệm của mình theo Điều 13. Về phía doanh nghiệp bảo hiểm, nghị định đặt các mốc: hướng dẫn hồ sơ, thủ tục trong 1 giờ, tổ chức giám định tổn thất trong 24 giờ và tạm ứng bồi thường thiệt hại về sức khỏe, tính mạng trong 3 ngày làm việc kể từ ngày nhận thông báo.",
+      "meta_title": "Tai nạn xe máy có bảo hiểm bắt buộc: báo trong 5 ngày, hồ sơ, tạm ứng",
+      "meta_description": "Tai nạn xe máy có bảo hiểm bắt buộc: báo ngay đường dây nóng, gửi thông báo trong 5 ngày làm việc, hồ sơ chủ xe tự thu thập, mốc 1 giờ, 24 giờ và tạm ứng 3 ngày.",
+      "intended_taxonomy_key": "rental-procedures",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "1548faa8656ddb9fa7d131e0a1f6d4da23750132",
+      "run_id": "39618406418",
+      "updated_at": "2026-10-21T14:45:15.612219+00:00"
     }
   },
   "categories": {}
