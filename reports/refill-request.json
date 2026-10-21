@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "state": "REFILL_IN_PROGRESS",
+  "state": "REFILL_OPENED",
   "ready_stock": 13,
   "trigger_below_ready": 900,
-  "rounds_opened": 3,
+  "rounds_opened": 4,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 577,
-  "capacity_remaining": 1423,
+  "topic_rows": 587,
+  "capacity_remaining": 1413,
   "order": {
-    "id": "RF-0003",
-    "round": 3,
+    "id": "RF-0004",
+    "round": 4,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 93,
-    "remaining_to_min": 7,
-    "remaining_to_max": 107,
-    "batches_still_needed": 1,
+    "accepted_so_far": 0,
+    "remaining_to_min": 100,
+    "remaining_to_max": 200,
+    "batches_still_needed": 10,
     "batch_size": 10,
     "capacity_limited": false,
     "stalled": false,
@@ -97,7 +97,7 @@
       {
         "taxonomy_key": "legal",
         "quota": 4,
-        "known_now": 34,
+        "known_now": 35,
         "allocation": 50
       },
       {
@@ -132,22 +132,23 @@
       }
     ],
     "next_batch_categories": {
-      "rental-guide": 2,
       "battery-charging": 1,
       "destinations": 1,
       "driving-licence": 1,
-      "ebikes": 1,
+      "electric": 1,
       "electric-maintenance": 1,
       "electric-transition": 1,
       "green-travel": 1,
-      "rental-50cc": 1
+      "rental-guide": 1,
+      "trip-planning": 1,
+      "urban-mobility": 1
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 620,
-    "topics_in_factory": 577,
+    "published_wordpress_items": 630,
+    "topics_in_factory": 587,
     "topics_by_status": {
-      "PLANNED": 504,
+      "PLANNED": 514,
       "REJECTED": 1,
       "RESEARCH": 72
     },
