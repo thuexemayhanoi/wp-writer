@@ -1,0 +1,231 @@
+{
+  "topic_id": "NT-001165",
+  "status": "PASS",
+  "source_sha256": "a10b059405602d6d4e322e5ed64e5474652a97b863f4fa701f2c4b2b19e85cee",
+  "body_sha256": "6e6c23d4477819230b56e4b88d7dcaba24653b2dce195ed270dfacf14c0a3608",
+  "word_count": 2027,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vietnamnet.vn/phanh-xe-may-keu-ket-ket-sau-khi-di-mua-co-dang-lo-2539674.html",
+      "supports": "VietNamNet (28/07/2026): tiếng két két sau mưa hoặc rửa xe có thể biến mất sau vài lần bóp phanh nhưng cũng có trường hợp kéo dài.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vietnamnet.vn/phanh-xe-may-keu-ket-ket-sau-khi-di-mua-co-dang-lo-2539674.html",
+      "supports": "VietNamNet: nước mưa tạo lớp màng mỏng giữa má phanh và đĩa phanh, theo các kỹ thuật viên sửa xe máy.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vietnamnet.vn/phanh-xe-may-keu-ket-ket-sau-khi-di-mua-co-dang-lo-2539674.html",
+      "supports": "VietNamNet: không tự ý xịt dầu bôi trơn, mỡ hoặc dung dịch chống gỉ lên đĩa phanh để hết kêu.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vietnamnet.vn/phanh-xe-may-keu-ket-ket-sau-khi-di-mua-co-dang-lo-2539674.html",
+      "supports": "VietNamNet: theo khuyến cáo của các hãng xe, kiểm tra má phanh định kỳ sau mỗi 8.000-10.000 km.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/phanh-dia-xe-may",
+      "supports": "VinFast Auto (đăng 10/12/2021, cập nhật 14/06/2024): má phanh mòn khiến đĩa va chạm với khung má, gây tiếng kêu to khi bóp phanh.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/phanh-dia-xe-may",
+      "supports": "VinFast Auto: khoảng 20.000 km nên thay má phanh một lần.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/xe-may-de-ngoai-mua-co-sao-khong/",
+      "supports": "Yamaha Việt Nam (11/03/2026): nước mưa bám đĩa và má phanh, nếu không vệ sinh kỹ thì phanh phát ra tiếng rít.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vietnamnet.vn/phanh-xe-may-keu-ket-ket-sau-khi-di-mua-co-dang-lo-2539674.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vietnamnet.vn/phanh-xe-may-keu-ket-ket-sau-khi-di-mua-co-dang-lo-2539674.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vietnamnet.vn/phanh-xe-may-keu-ket-ket-sau-khi-di-mua-co-dang-lo-2539674.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vietnamnet.vn/phanh-xe-may-keu-ket-ket-sau-khi-di-mua-co-dang-lo-2539674.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/phanh-dia-xe-may",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/phanh-dia-xe-may",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/xe-may-de-ngoai-mua-co-sao-khong/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2352,
+        "title": "Xe máy điện có cần bằng lái không? Cách phân biệt theo công suất",
+        "why": "stale",
+        "content_hash": "8c5c200eacd4af62c6f482e36bad9112feb65d56c6bb4032d8dbae3c82a64876",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4055,
+        "title": "Thuê 2 xe máy cùng lúc ở Hà Nội: chuẩn bị giấy tờ, giao nhận và hoàn cọc từng xe",
+        "why": "stale",
+        "content_hash": "029d48a9e900c89ea965179099932a9ddb51ee071f065aca1c29903fd58a13c9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T09:28:37.053082+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "dbac76e93d7abdeb5b1129cdf4027537740b8124ffe582a80686546d1719ae0f",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -24391,7 +24391,7 @@
       }
     },
     "NT-001165": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T09:28:37.223709+00:00",
       "source_hash": "a10b059405602d6d4e322e5ed64e5474652a97b863f4fa701f2c4b2b19e85cee",
       "slug": "phanh-xe-may-keu-ket-ket-sau-mua-la-binh-thuong-hay-do-ma-phanh-mon-dia-cong-va-dinh-dau",
@@ -24407,8 +24407,37 @@
       "category_warning": null,
       "git_commit": "18d197dd24e221483ff265138cd75c147cdcd61c",
       "run_id": "39576076065",
-      "updated_at": "2026-10-21T09:28:41.401507+00:00",
-      "wp_id": 4534
+      "updated_at": "2026-10-21T09:28:47.453548+00:00",
+      "wp_id": 4534,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/phanh-xe-may-keu-ket-ket-sau-mua-la-binh-thuong-hay-do-ma-phanh-mon-dia-cong-va-dinh-dau/",
+      "verified_at": "2026-10-21T09:28:47.453542+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4534,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/phanh-xe-may-keu-ket-ket-sau-mua-la-binh-thuong-hay-do-ma-phanh-mon-dia-cong-va-dinh-dau/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/phanh-xe-may-keu-ket-ket-sau-mua-la-binh-thuong-hay-do-ma-phanh-mon-dia-cong-va-dinh-dau/",
+        "seo_title": "Phanh xe máy kêu két két: sau mưa hay do má phanh mòn?",
+        "seo_description": "Phanh xe máy kêu két két sau mưa thường hết sau vài trăm mét rà phanh nhẹ; nếu vẫn kêu khi đã khô, có thể má phanh mòn hoặc đĩa cong. Dấu hiệu cần kiểm tra ngay.",
+        "checked_at": "2026-10-21T09:28:47.453523+00:00"
+      }
     }
   },
   "categories": {}
