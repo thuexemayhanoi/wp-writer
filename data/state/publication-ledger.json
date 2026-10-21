@@ -21451,7 +21451,7 @@
       }
     },
     "NT-001128": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:47:46.624892+00:00",
       "source_hash": "2a806b6861a041a6a94c8f76a55548bf954d84511360da3e96f37f664eebeafe",
       "slug": "xe-may-tren-vanh-dai-2-tren-cao-cam-mo-to-xe-gan-may-tu-vinh-tuy-den-nga-tu-so-phai-di-duong-duoi",
@@ -21467,8 +21467,37 @@
       "category_warning": null,
       "git_commit": "855e0553874a93715a6dd956f505147b623fc191",
       "run_id": "39545575800",
-      "updated_at": "2026-10-21T04:47:50.290214+00:00",
-      "wp_id": 4457
+      "updated_at": "2026-10-21T04:47:55.450902+00:00",
+      "wp_id": 4457,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-tren-vanh-dai-2-tren-cao-cam-mo-to-xe-gan-may-tu-vinh-tuy-den-nga-tu-so-phai-di-duong-duoi/",
+      "verified_at": "2026-10-21T04:47:55.450893+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4457,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-tren-vanh-dai-2-tren-cao-cam-mo-to-xe-gan-may-tu-vinh-tuy-den-nga-tu-so-phai-di-duong-duoi/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-tren-vanh-dai-2-tren-cao-cam-mo-to-xe-gan-may-tu-vinh-tuy-den-nga-tu-so-phai-di-duong-duoi/",
+        "seo_title": "Xe máy trên Vành đai 2 trên cao: cấm mô tô, xe gắn máy, đi đường dưới",
+        "seo_description": "Xe máy trên Vành đai 2 trên cao bị cấm: trang hanoi.gov.vn (2020) và VOV Giao thông (3/8/2026) nói gì về đoạn Vĩnh Tuy đến Ngã Tư Sở và cách chọn đường dưới.",
+        "checked_at": "2026-10-21T04:47:55.450855+00:00"
+      }
     }
   },
   "categories": {}
