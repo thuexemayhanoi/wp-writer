@@ -21941,7 +21941,7 @@
       }
     },
     "NT-001183": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:57:01.606158+00:00",
       "source_hash": "37b1d83ef0c4f76c03555e9d97fd3a97d228dee6a41699353fb7dfcd7dff9e14",
       "slug": "mu-bao-hiem-bi-roi-hoac-va-dap-khi-nao-phai-thay-mu-dau-hieu-hu-hong-va-moc-5-nam-cua-snell-va-sharp",
@@ -21957,8 +21957,37 @@
       "category_warning": null,
       "git_commit": "964458a089206e771b6fb04bf6694090cdfda34f",
       "run_id": "39546378277",
-      "updated_at": "2026-10-21T04:57:05.287543+00:00",
-      "wp_id": 4468
+      "updated_at": "2026-10-21T04:57:10.967641+00:00",
+      "wp_id": 4468,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/mu-bao-hiem-bi-roi-hoac-va-dap-khi-nao-phai-thay-mu-dau-hieu-hu-hong-va-moc-5-nam-cua-snell-va-sharp/",
+      "verified_at": "2026-10-21T04:57:10.967633+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4468,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/mu-bao-hiem-bi-roi-hoac-va-dap-khi-nao-phai-thay-mu-dau-hieu-hu-hong-va-moc-5-nam-cua-snell-va-sharp/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/mu-bao-hiem-bi-roi-hoac-va-dap-khi-nao-phai-thay-mu-dau-hieu-hu-hong-va-moc-5-nam-cua-snell-va-sharp/",
+        "seo_title": "Mũ bảo hiểm bị rơi hoặc va đập: khi nào phải thay mũ?",
+        "seo_description": "Mũ bảo hiểm bị rơi hoặc va đập có phải thay không: Snell, SHARP và NZTA nói gì về dấu hiệu hư hỏng, mốc 5 năm và mũ cũ, mũ không rõ lịch sử.",
+        "checked_at": "2026-10-21T04:57:10.967614+00:00"
+      }
     }
   },
   "categories": {}
