@@ -24881,7 +24881,7 @@
       }
     },
     "NT-001228": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T09:54:20.786441+00:00",
       "source_hash": "f6d42f88a49f69b4df4ef51247bdeddcb8f9f6d5d4bf90fea9e0c780848d070a",
       "slug": "hoc-bang-lai-xe-may-a1-va-a-toi-thieu-12-gio-va-32-gio-tu-1-7-2026-ho-so-sat-hach-can-chung-chi-dao-tao",
@@ -24897,8 +24897,37 @@
       "category_warning": null,
       "git_commit": "ee8cdb7d7fa24bc2ba89e576e7751976e0851152",
       "run_id": "39579774433",
-      "updated_at": "2026-10-21T09:54:25.026569+00:00",
-      "wp_id": 4544
+      "updated_at": "2026-10-21T09:54:32.917850+00:00",
+      "wp_id": 4544,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/hoc-bang-lai-xe-may-a1-va-a-toi-thieu-12-gio-va-32-gio-tu-1-7-2026-ho-so-sat-hach-can-chung-chi-dao-tao/",
+      "verified_at": "2026-10-21T09:54:32.917844+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4544,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/hoc-bang-lai-xe-may-a1-va-a-toi-thieu-12-gio-va-32-gio-tu-1-7-2026-ho-so-sat-hach-can-chung-chi-dao-tao/",
+        "categories": [
+          171
+        ],
+        "canonical": "https://thuexemaynguyentu.com/hoc-bang-lai-xe-may-a1-va-a-toi-thieu-12-gio-va-32-gio-tu-1-7-2026-ho-so-sat-hach-can-chung-chi-dao-tao/",
+        "seo_title": "Học bằng lái xe máy A1 và A: tối thiểu 12 giờ, 32 giờ từ 1/7/2026",
+        "seo_description": "Học bằng lái xe máy A1 và A theo Thông tư 17/2026/TT-BXD: tối thiểu 12 giờ và 32 giờ từ 01/7/2026, hồ sơ sát hạch có cần chứng chỉ đào tạo và chỗ hai trang Công an ghi khác nhau.",
+        "checked_at": "2026-10-21T09:54:32.917828+00:00"
+      }
     }
   },
   "categories": {}
