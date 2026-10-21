@@ -1,0 +1,281 @@
+{
+  "topic_id": "NT-001226",
+  "status": "PASS",
+  "source_sha256": "7811666e1aec7bf9f37b6f142d166b96002e46098da2683f4432c36d1d1cefce",
+  "body_sha256": "afede8bd5bc86beb99593ae07c1b6ca634fea75e5fe445a95b0e22722f19d7d6",
+  "word_count": 2935,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://hcc.nghean.gov.vn/tin-noi-bat/tieu-chuan-suc-khoe-kham-suc-khoe-lai-xe-tu-1-1-2025-1984.html",
+      "supports": "Trung tâm Phục vụ hành chính công Nghệ An (gov.vn, 05/01/2025, theo Chinhphu.vn): Thông tư 36/2024/TT-BYT chia tiêu chuẩn sức khỏe ba nhóm; nhóm 1 áp dụng khi khám để cấp giấy phép lái xe hạng A1, B1 và người điều khiển xe máy chuyên dùng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hcc.nghean.gov.vn/tin-noi-bat/tieu-chuan-suc-khoe-kham-suc-khoe-lai-xe-tu-1-1-2025-1984.html",
+      "supports": "Cùng trang: thông tư này không áp dụng đối với người điều khiển xe gắn máy.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hcc.nghean.gov.vn/tin-noi-bat/tieu-chuan-suc-khoe-kham-suc-khoe-lai-xe-tu-1-1-2025-1984.html",
+      "supports": "Cùng trang: Thông tư 36/2024/TT-BYT có hiệu lực từ ngày 1/1/2025.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hcc.nghean.gov.vn/tin-noi-bat/tieu-chuan-suc-khoe-kham-suc-khoe-lai-xe-tu-1-1-2025-1984.html",
+      "supports": "Cùng trang: người có giấy phép lái xe cấp trước ngày 1/1/2025 đổi, cấp lại từ hạng A1 sang hạng A thì áp dụng tiêu chuẩn sức khỏe Nhóm 1.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://soytequangninh.gov.vn/menu-second/tin-tuc-su-kien/nhung-quy-dinh-moi-ve-kham-suc-khoe-cua-nguoi-lai-xe.html",
+      "supports": "Sở Y tế Quảng Ninh (gov.vn, 20/11/2024, đăng lại Chinhphu.vn): Thông tư 36/2024/TT-BYT quy định giấy khám sức khỏe lái xe có giá trị sử dụng 1 năm thay vì 6 tháng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://soytequangninh.gov.vn/menu-second/tin-tuc-su-kien/nhung-quy-dinh-moi-ve-kham-suc-khoe-cua-nguoi-lai-xe.html",
+      "supports": "Cùng bản tin: không bắt buộc xét nghiệm nồng độ cồn 100%, chỉ yêu cầu xét nghiệm 5 loại ma túy khi khám cấp, đổi giấy phép lái xe.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.quangtri.gov.vn/dichvucong/cap-giay-phep-lai-xe-tinh/",
+      "supports": "Cổng thủ tục Công an Quảng Trị (cập nhật 28/07/2026, theo Thông tư 108/2026/TT-BCA): hồ sơ sát hạch của cá nhân gồm giấy khám sức khỏe còn hiệu lực dạng bản điện tử, bản giấy khi hệ thống lỗi.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=61616",
+      "supports": "Cổng Dịch vụ công Bộ Công an (thủ tục 3.000346, còn dẫn Thông tư 12/2025/TT-BCA): hồ sơ của cá nhân có giấy khám sức khỏe của người lái xe còn hiệu lực.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://conganthanhhoa.gov.vn/tin-tuc-su-kien/tin-hoat-dong/nhung-diem-moi-trong-cong-tac-sat-hach-cap-giay-phep-lai-xe-ap-dung-tu-ngay-01-7-2026.html",
+      "supports": "Công an Thanh Hóa (09/07/2026): Thông tư 108/2026/TT-BCA có hiệu lực từ 01/7/2026 và thay thế Thông tư 12/2025/TT-BCA.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://hcc.nghean.gov.vn/tin-noi-bat/tieu-chuan-suc-khoe-kham-suc-khoe-lai-xe-tu-1-1-2025-1984.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hcc.nghean.gov.vn/tin-noi-bat/tieu-chuan-suc-khoe-kham-suc-khoe-lai-xe-tu-1-1-2025-1984.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hcc.nghean.gov.vn/tin-noi-bat/tieu-chuan-suc-khoe-kham-suc-khoe-lai-xe-tu-1-1-2025-1984.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hcc.nghean.gov.vn/tin-noi-bat/tieu-chuan-suc-khoe-kham-suc-khoe-lai-xe-tu-1-1-2025-1984.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://soytequangninh.gov.vn/menu-second/tin-tuc-su-kien/nhung-quy-dinh-moi-ve-kham-suc-khoe-cua-nguoi-lai-xe.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://soytequangninh.gov.vn/menu-second/tin-tuc-su-kien/nhung-quy-dinh-moi-ve-kham-suc-khoe-cua-nguoi-lai-xe.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.quangtri.gov.vn/dichvucong/cap-giay-phep-lai-xe-tinh/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=61616",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://conganthanhhoa.gov.vn/tin-tuc-su-kien/tin-hoat-dong/nhung-diem-moi-trong-cong-tac-sat-hach-cap-giay-phep-lai-xe-ap-dung-tu-ngay-01-7-2026.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 851,
+        "title": "Cho Thuê Xe Máy Gia Lâm Hà Nội – Giá, Loại Xe, Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "7dae290d3e4e9e5120329c0193e0a3f96eb5ffdf5d0eb717ae185c764659fe68",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 891,
+        "title": "Hợp Đồng Thuê Xe Máy Hà Nội Có Cần Đặt Cọc Không? Tư Vấn Nhanh",
+        "why": "stale",
+        "content_hash": "dfef1f80adfed1e1d9366a3b620ef84119b9cf4fc4ea34f66fe16eb22f52bcca",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4055,
+        "title": "Thuê 2 xe máy cùng lúc ở Hà Nội: chuẩn bị giấy tờ, giao nhận và hoàn cọc từng xe",
+        "why": "stale",
+        "content_hash": "029d48a9e900c89ea965179099932a9ddb51ee071f065aca1c29903fd58a13c9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4056,
+        "title": "Đổi khách sạn giữa kỳ thuê xe máy Hà Nội: giữ xe ở đâu, chuyển hành lý và đổi nơi trả",
+        "why": "stale",
+        "content_hash": "fcd4a86c62969cb4812af213b0e424c5549b185d290ed9a416d5e9d816804528",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T09:43:04.228246+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "625669b42e07e271ab80a8a2cd64f45a3c7f738f1e7833b4bd1499ddcba35ce4",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
