@@ -21792,6 +21792,25 @@
         "seo_description": "Phiếu kiểm tra PDI của Yamaha gồm tám nhóm cho xe xăng, bảy nhóm cho xe điện: đại lý kiểm tra gì trước khi giao xe mới và người mua tự đối chiếu những mục nào.",
         "checked_at": "2026-10-21T04:51:08.007598+00:00"
       }
+    },
+    "NT-001125": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T04:55:30.967241+00:00",
+      "source_hash": "a559e9c520b56b0e3cfc46e097cce259d7c6a00fd86117482ceee883e7888fb4",
+      "slug": "giap-bat-va-nuoc-ngam-sau-khi-yen-so-mo-tuyen-dang-chay-van-giu-chi-dung-nhan-tuyen-moi",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 175,
+      "visible_hash": "f2cd49eea2617a64cfbe2b140c320942ce4fc5ab124b76e54197a34b621ed808",
+      "first_paragraph": "Giáp Bát và Nước Ngầm sau khi Yên Sở mở vẫn tiếp tục phục vụ các tuyến đang chạy: theo Tiền Phong và VietNamNet (cùng đăng ngày 5/10/2026), Sở Xây dựng Hà Nội chỉ tạm dừng tiếp nhận đăng ký các tuyến xe khách cố định liên tỉnh mở mới tại hai bến này, còn chuyến, nốt xe và tuyến hiện hữu đang hoạt động ổn định vẫn được duy trì theo phương án đã được duyệt. Hai báo ghi ngày bắt đầu tạm dừng khác nhau (VietNamNet viết từ 2/10, Tiền Phong viết từ 5/10), nên bài ghi cả hai; nếu bạn đã có vé xe khách phía Nam, hãy xem bến xuất phát ghi trên vé và hỏi nhà xe thay vì suy ra từ tên bến.",
+      "meta_title": "Giáp Bát và Nước Ngầm sau khi Yên Sở mở: tuyến cũ giữ, tuyến mới dừng",
+      "meta_description": "Giáp Bát và Nước Ngầm sau khi Yên Sở mở: Sở Xây dựng Hà Nội chỉ tạm dừng nhận tuyến mới, tuyến đang chạy vẫn giữ; hai báo ghi mốc 2/10 và 5/10/2026 khác nhau.",
+      "intended_taxonomy_key": "trip-planning",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "964458a089206e771b6fb04bf6694090cdfda34f",
+      "run_id": "39546378277",
+      "updated_at": "2026-10-21T04:55:30.968763+00:00"
     }
   },
   "categories": {}
