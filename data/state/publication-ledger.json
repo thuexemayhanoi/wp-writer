@@ -27135,7 +27135,7 @@
       }
     },
     "NT-001334": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:22:21.765924+00:00",
       "source_hash": "08d860d360e04a23b3f68e87d8838ce0bb330b78e90d59055e489f79744527b5",
       "slug": "chua-mia-o-duong-lam-287-pho-tuong-ky-luc-nam-2006-chua-xay-lai-1632-va-nhung-gi-nen-xem",
@@ -27151,8 +27151,37 @@
       "category_warning": null,
       "git_commit": "55beb7503a1d970b552ddabe740b39f9ac74fa0a",
       "run_id": "39615090557",
-      "updated_at": "2026-10-21T14:22:27.502378+00:00",
-      "wp_id": 4594
+      "updated_at": "2026-10-21T14:22:35.253679+00:00",
+      "wp_id": 4594,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/chua-mia-o-duong-lam-287-pho-tuong-ky-luc-nam-2006-chua-xay-lai-1632-va-nhung-gi-nen-xem/",
+      "verified_at": "2026-10-21T14:22:35.253673+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4594,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/chua-mia-o-duong-lam-287-pho-tuong-ky-luc-nam-2006-chua-xay-lai-1632-va-nhung-gi-nen-xem/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/chua-mia-o-duong-lam-287-pho-tuong-ky-luc-nam-2006-chua-xay-lai-1632-va-nhung-gi-nen-xem/",
+        "seo_title": "Chùa Mía ở Đường Lâm: 287 pho tượng, kỷ lục 2006, xây lại năm 1632",
+        "seo_description": "Chùa Mía ở Đường Lâm (Sùng Nghiêm tự): lịch sử xây lại năm 1632, bố cục 27 gian, 287 pho tượng, kỷ lục năm 2006 và các chi tiết ba bài báo ghi khác nhau.",
+        "checked_at": "2026-10-21T14:22:35.253654+00:00"
+      }
     }
   },
   "categories": {}
