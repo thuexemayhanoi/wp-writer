@@ -25322,7 +25322,7 @@
       }
     },
     "NT-001223": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T10:02:38.458885+00:00",
       "source_hash": "81c976b20667df79585089519ba0c82837f7c5c3ba8188fbbc842e2e8ad1b4ec",
       "slug": "giay-dang-ky-xe-may-dien-tu-tren-vneid-va-vnetraffic-thong-tu-37-2026-co-hieu-luc-8-6-2026-noi-gi",
@@ -25338,8 +25338,37 @@
       "category_warning": null,
       "git_commit": "32f222d26fb9b02cb87bba326e6f8526fcc091c9",
       "run_id": "39580825615",
-      "updated_at": "2026-10-21T10:02:42.562219+00:00",
-      "wp_id": 4553
+      "updated_at": "2026-10-21T10:02:48.659851+00:00",
+      "wp_id": 4553,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/giay-dang-ky-xe-may-dien-tu-tren-vneid-va-vnetraffic-thong-tu-37-2026-co-hieu-luc-8-6-2026-noi-gi/",
+      "verified_at": "2026-10-21T10:02:48.659845+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4553,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/giay-dang-ky-xe-may-dien-tu-tren-vneid-va-vnetraffic-thong-tu-37-2026-co-hieu-luc-8-6-2026-noi-gi/",
+        "categories": [
+          159
+        ],
+        "canonical": "https://thuexemaynguyentu.com/giay-dang-ky-xe-may-dien-tu-tren-vneid-va-vnetraffic-thong-tu-37-2026-co-hieu-luc-8-6-2026-noi-gi/",
+        "seo_title": "Giấy đăng ký xe máy điện tử trên VNeID và VNeTraffic: Thông tư 37/2026",
+        "seo_description": "Giấy đăng ký xe máy điện tử trên VNeID và VNeTraffic theo Thông tư 37/2026 (hiệu lực 8/6/2026) và Thông tư 62/2026: cách nhận kết quả, bản điện tử với bản giấy, điều chưa rõ.",
+        "checked_at": "2026-10-21T10:02:48.659821+00:00"
+      }
     }
   },
   "categories": {}
