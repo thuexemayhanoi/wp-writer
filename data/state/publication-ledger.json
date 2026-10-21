@@ -21255,7 +21255,7 @@
       }
     },
     "NT-001156": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:42:03.627583+00:00",
       "source_hash": "f94f9c3076b564c5d6fb4828572006847150fdb74a3ac16cbcb338b5b384cc4c",
       "slug": "lop-xe-may-san-xuat-da-lau-co-nen-mua-doc-ma-dot-moc-3-nam-va-5-nam-cac-nguon-neu",
@@ -21271,8 +21271,37 @@
       "category_warning": null,
       "git_commit": "61285248c7d8eca7c8250b277de2091dd2ca1bae",
       "run_id": "39544657734",
-      "updated_at": "2026-10-21T04:42:07.635143+00:00",
-      "wp_id": 4453
+      "updated_at": "2026-10-21T04:42:13.894842+00:00",
+      "wp_id": 4453,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lop-xe-may-san-xuat-da-lau-co-nen-mua-doc-ma-dot-moc-3-nam-va-5-nam-cac-nguon-neu/",
+      "verified_at": "2026-10-21T04:42:13.894835+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4453,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lop-xe-may-san-xuat-da-lau-co-nen-mua-doc-ma-dot-moc-3-nam-va-5-nam-cac-nguon-neu/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lop-xe-may-san-xuat-da-lau-co-nen-mua-doc-ma-dot-moc-3-nam-va-5-nam-cac-nguon-neu/",
+        "seo_title": "Lốp xe máy sản xuất đã lâu có nên mua? Đọc mã DOT trước khi trả tiền",
+        "seo_description": "Lốp xe máy sản xuất đã lâu có nên mua: cách đọc mã DOT, các mốc 12 tháng, 3 năm và 5 năm do Thanh Niên và Bridgestone Việt Nam nêu, kèm bước kiểm tra tại tiệm.",
+        "checked_at": "2026-10-21T04:42:13.894813+00:00"
+      }
     }
   },
   "categories": {}
