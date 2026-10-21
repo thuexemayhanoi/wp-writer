@@ -28458,7 +28458,7 @@
       }
     },
     "NT-001365": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:54:30.174533+00:00",
       "source_hash": "1bec6f27a86f5dfe2841b31732d24bab7f5d2c3c4837a99f737264f686f3569a",
       "slug": "chong-trom-xe-may-o-ha-noi-cong-an-khuyen-nhieu-loai-khoa-bai-co-camera-khong-de-xe-noi-vang",
@@ -28474,8 +28474,37 @@
       "category_warning": null,
       "git_commit": "98d66420ecdf9ed940584762b90f7fcdd5d15993",
       "run_id": "39619876214",
-      "updated_at": "2026-10-21T14:54:35.179278+00:00",
-      "wp_id": 4644
+      "updated_at": "2026-10-21T14:54:41.035199+00:00",
+      "wp_id": 4644,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/chong-trom-xe-may-o-ha-noi-cong-an-khuyen-nhieu-loai-khoa-bai-co-camera-khong-de-xe-noi-vang/",
+      "verified_at": "2026-10-21T14:54:41.035191+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4644,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/chong-trom-xe-may-o-ha-noi-cong-an-khuyen-nhieu-loai-khoa-bai-co-camera-khong-de-xe-noi-vang/",
+        "categories": [
+          162
+        ],
+        "canonical": "https://thuexemaynguyentu.com/chong-trom-xe-may-o-ha-noi-cong-an-khuyen-nhieu-loai-khoa-bai-co-camera-khong-de-xe-noi-vang/",
+        "seo_title": "Chống trộm xe máy ở Hà Nội: công an khuyên nhiều khóa, bãi có camera",
+        "seo_description": "Chống trộm xe máy ở Hà Nội theo khuyến cáo công an: dùng nhiều loại khóa, gửi bãi có camera và bảo vệ, tránh nơi vắng, nhớ số vé hoặc chụp ảnh biển số.",
+        "checked_at": "2026-10-21T14:54:41.035174+00:00"
+      }
     }
   },
   "categories": {}
