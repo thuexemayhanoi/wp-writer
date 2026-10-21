@@ -20128,7 +20128,7 @@
       }
     },
     "NT-000903": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:20:59.001390+00:00",
       "source_hash": "e0206b965525a4e0f7539e0906efa021737171d6ef69216cb4c4d9fc64998b38",
       "slug": "gio-nao-de-buon-ngu-nhat-khi-chay-xe-may-khung-0-6-gio-sang-giua-chieu-va-cach-xep-gio-xuat-phat",
@@ -20144,8 +20144,37 @@
       "category_warning": null,
       "git_commit": "f51dccf09e632fe70acfd6dfbc7d931d064689e4",
       "run_id": "39542955374",
-      "updated_at": "2026-10-21T04:21:03.723284+00:00",
-      "wp_id": 4427
+      "updated_at": "2026-10-21T04:21:09.681939+00:00",
+      "wp_id": 4427,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/gio-nao-de-buon-ngu-nhat-khi-chay-xe-may-khung-0-6-gio-sang-giua-chieu-va-cach-xep-gio-xuat-phat/",
+      "verified_at": "2026-10-21T04:21:09.681933+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4427,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/gio-nao-de-buon-ngu-nhat-khi-chay-xe-may-khung-0-6-gio-sang-giua-chieu-va-cach-xep-gio-xuat-phat/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/gio-nao-de-buon-ngu-nhat-khi-chay-xe-may-khung-0-6-gio-sang-giua-chieu-va-cach-xep-gio-xuat-phat/",
+        "seo_title": "Giờ nào dễ buồn ngủ nhất khi chạy xe máy: khung 0–6 giờ sáng và chiều",
+        "seo_description": "Giờ nào dễ buồn ngủ nhất khi chạy xe máy: Sleep Foundation nêu khung nửa đêm đến 6 giờ sáng và buổi chiều; cách xếp giờ xuất phát cho chuyến đi tỉnh.",
+        "checked_at": "2026-10-21T04:21:09.681914+00:00"
+      }
     }
   },
   "categories": {}
