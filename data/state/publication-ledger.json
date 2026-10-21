@@ -19491,7 +19491,7 @@
       }
     },
     "NT-000906": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:04:36.597995+00:00",
       "source_hash": "f02101df57a3325d81d5076c371464f1d016b845a2644f0b7fb4b3c23689a8b5",
       "slug": "mua-vua-mua-to-mua-rat-to-la-bao-nhieu-mm-doc-ban-tin-du-bao-mua-truoc-chuyen-di-xe-may",
@@ -19507,8 +19507,37 @@
       "category_warning": null,
       "git_commit": "448d43ed4e419afaaec9be55efa6fc8053b0473d",
       "run_id": "39541767521",
-      "updated_at": "2026-10-21T04:04:40.376722+00:00",
-      "wp_id": 4409
+      "updated_at": "2026-10-21T04:04:46.256707+00:00",
+      "wp_id": 4409,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/mua-vua-mua-to-mua-rat-to-la-bao-nhieu-mm-doc-ban-tin-du-bao-mua-truoc-chuyen-di-xe-may/",
+      "verified_at": "2026-10-21T04:04:46.256700+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4409,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/mua-vua-mua-to-mua-rat-to-la-bao-nhieu-mm-doc-ban-tin-du-bao-mua-truoc-chuyen-di-xe-may/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/mua-vua-mua-to-mua-rat-to-la-bao-nhieu-mm-doc-ban-tin-du-bao-mua-truoc-chuyen-di-xe-may/",
+        "seo_title": "Mưa vừa, mưa to, mưa rất to là bao nhiêu mm? Ngưỡng 12 và 24 giờ",
+        "seo_description": "Mưa vừa, mưa to, mưa rất to là bao nhiêu mm theo 12 giờ và 24 giờ: bảng ngưỡng của đài khí tượng thủy văn và Cục KTTV, chỗ lệch 50/51 mm và cách đọc bản tin.",
+        "checked_at": "2026-10-21T04:04:46.256681+00:00"
+      }
     }
   },
   "categories": {}
