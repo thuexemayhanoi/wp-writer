@@ -1,0 +1,231 @@
+{
+  "topic_id": "NT-000901",
+  "status": "PASS",
+  "source_sha256": "7033b51ddeb334c9fc2c71f14f1d448bcb667c3cf2f65f566bb86fb9516b1f25",
+  "body_sha256": "28f6911811aa41a412ea07a494cc7bab5d29f597dc9fa3af5b4e1f41cd1af6ae",
+  "word_count": 2600,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.weather.gov/safety/lightning-safety-overview",
+      "supports": "NWS (Hoa Kỳ): không có chỗ nào an toàn ngoài trời khi có dông, nghe thấy sấm nghĩa là có thể đã trong tầm đánh của cơn dông; công trình kiên cố và xe mái cứng an toàn, nơi trú mưa, nhà kho nhỏ và phương tiện hở thì không.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/safety/lightning-safety-overview",
+      "supports": "NWS (Hoa Kỳ): chờ 30 phút sau tia chớp hoặc tiếng sấm cuối cùng rồi mới ra ngoài trở lại.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/lightning/faq/index.html",
+      "supports": "CDC (Hoa Kỳ): phương tiện hở, gồm cả xe mô tô, và công trình hở không an toàn khi có bão; nơi trú an toàn là công trình bốn tường có mái hoặc xe kín mái cứng đóng cửa kính.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/lightning/faq/index.html",
+      "supports": "CDC (Hoa Kỳ): không cần thấy mưa vẫn có thể bị sét, sét có thể đánh cách vùng mưa tới 10 dặm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnmha.gov.vn/pho-bien-kien-thuc-125/tim-hieu-ve-dong-19051.html",
+      "supports": "Cục Khí tượng Thủy văn: định nghĩa dông và sét, mùa dông thường từ tháng 3-4 đến cuối tháng 10 hoặc đầu tháng 11 tùy địa hình; bản lưu ngày 19/10/2026, ngày 21/10/2026 không đọc lại được.",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnmha.gov.vn/kttv-voi-san-xuat-va-doi-song-106/nhan-biet-dong-loc-va-cach-phong-tranh-6713.html",
+      "supports": "Cục Khí tượng Thủy văn (bài 22/6/2020): hệ thống dự báo có thể cảnh báo dông trước từ 30 phút tới vài giờ nhưng không dự báo chính xác thời điểm, địa điểm lốc xoáy, mưa đá; bản lưu ngày 19/10/2026, ngày 21/10/2026 không đọc lại được.",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnmha.gov.vn/thu-vien-video/tin-video-4/nguoi-dan-can-luu-y-de-phong-tranh-dong-set-trong-khi-vao-mua-2474",
+      "supports": "Cục Khí tượng Thủy văn (Tạp chí KTTV): khi sắp có dông cần tìm nơi có nhà cửa kiên cố, ở bãi đất rộng tránh khu vực nhiều cây cao; bản lưu ngày 19/10/2026, ngày 21/10/2026 không đọc lại được.",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.weather.gov/safety/lightning-safety-overview",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/safety/lightning-safety-overview",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/lightning/faq/index.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/lightning/faq/index.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnmha.gov.vn/pho-bien-kien-thuc-125/tim-hieu-ve-dong-19051.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnmha.gov.vn/kttv-voi-san-xuat-va-doi-song-106/nhan-biet-dong-loc-va-cach-phong-tranh-6713.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnmha.gov.vn/thu-vien-video/tin-video-4/nguoi-dan-can-luu-y-de-phong-tranh-dong-set-trong-khi-vao-mua-2474",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2513,
+        "title": "Dấu hiệu má phanh xe máy cần thay và cách kiểm tra an toàn hằng ngày",
+        "why": "stale",
+        "content_hash": "f1040fa1950d3342eebff669b05d5319f4be2c2517c80ecddf1b4b239e6f5f16",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2550,
+        "title": "Thủ tục sang tên xe máy cũ gồm những bước nào theo quy định hiện nay?",
+        "why": "stale",
+        "content_hash": "bbb2cdb8032f56b92d9bccf003c045dc66a520285ee21afc89e36f956c1cf093",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:11:35.317410+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "204e1b908be0e5d3279a659deefc86e34e0234abc6b5e76927d68b4d5a6994eb",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

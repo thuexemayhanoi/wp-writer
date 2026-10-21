@@ -1,0 +1,160 @@
+{
+  "topic_id": "NT-000731",
+  "status": "PASS",
+  "source_sha256": "b84d452ed539d14a135d7860a4832574143e3a4c7202fab08969aae4065f199e",
+  "body_sha256": "f1a9961814bfcb2f8fde01eea5e6fb11d64a1e05f142e7483109b891ebd1b209",
+  "word_count": 2622,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://danangfantasticity.com/en/di-san-canh-quan/deo-hai-van-thien-ha-de-nhat-hung-quan",
+      "supports": "Cổng thông tin du lịch Đà Nẵng (trang Đèo Hải Vân, đăng 01/08/2025): đèo nằm trên quốc lộ 1A, cách trung tâm Đà Nẵng khoảng 20 km về phía bắc và Huế khoảng 80 km về phía nam, dài chừng 20–21 km, Hải Vân Quan gần 496 m; leo đèo bằng xe máy thêm khoảng 45–60 phút; xe máy không được chạy trong hầm; mùa khô tháng 3–8, mưa bão tháng 9–12; giờ lên đèo và lời dặn an toàn cho xe máy.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://danangfantasticity.com/en/di-san-canh-quan/deo-hai-van-thien-ha-de-nhat-hung-quan",
+      "supports": "Cùng trang Đèo Hải Vân: thời điểm lý tưởng là mùa khô khoảng tháng 3 đến tháng 8; mùa mưa bão tháng 9 đến tháng 12 đường đèo có thể trơn trượt và thường bị mây mù dày.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://danangfantasticity.com/en/di-san-canh-quan/deo-hai-van-thien-ha-de-nhat-hung-quan",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://danangfantasticity.com/en/di-san-canh-quan/deo-hai-van-thien-ha-de-nhat-hung-quan",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 912,
+        "title": "Cho Thuê Xe Máy Gần Hai Bà Trưng Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "e3a1939cca55f0bccd95c320658c1807feb7d19588435fda4d8fbc016652f731",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2532,
+        "title": "Bảo dưỡng xe máy Honda định kỳ gồm những hạng mục nào quan trọng?",
+        "why": "stale",
+        "content_hash": "3b3f8540d3f280a070202fee58502694cd67d9aa913f3fd5820127ff78745746",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2598,
+        "title": "Thuê hay mua xe máy khi ở Hà Nội từ một đến ba tháng thì hợp lý hơn?",
+        "why": "stale",
+        "content_hash": "f30e620f60320b130c5faa8dc1ea87f3d7cb2743018e4e55126b3a15e9598278",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:10:29.636244+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "1b1b979c313e3191fd9429d511df3ff082d0818fdf3cc97c159f31ab2127c2c1",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
