@@ -27233,7 +27233,7 @@
       }
     },
     "NT-001339": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:23:30.921527+00:00",
       "source_hash": "35fcba03ecc35c499474d0b9867f4751756f2c74a97788d3cb99a183c5585718",
       "slug": "lang-nghe-go-thiet-ung-o-dong-anh-nghe-cham-khac-tac-tuong-va-diem-du-lich-ha-noi-cong-nhan",
@@ -27249,8 +27249,37 @@
       "category_warning": null,
       "git_commit": "55beb7503a1d970b552ddabe740b39f9ac74fa0a",
       "run_id": "39615090557",
-      "updated_at": "2026-10-21T14:23:35.844873+00:00",
-      "wp_id": 4597
+      "updated_at": "2026-10-21T14:23:42.863717+00:00",
+      "wp_id": 4597,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lang-nghe-go-thiet-ung-o-dong-anh-nghe-cham-khac-tac-tuong-va-diem-du-lich-ha-noi-cong-nhan/",
+      "verified_at": "2026-10-21T14:23:42.863710+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4597,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lang-nghe-go-thiet-ung-o-dong-anh-nghe-cham-khac-tac-tuong-va-diem-du-lich-ha-noi-cong-nhan/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lang-nghe-go-thiet-ung-o-dong-anh-nghe-cham-khac-tac-tuong-va-diem-du-lich-ha-noi-cong-nhan/",
+        "seo_title": "Làng nghề gỗ Thiết Úng ở Đông Anh: nghề chạm khắc, tạc tượng gỗ",
+        "seo_description": "Làng nghề gỗ Thiết Úng ở Đông Anh: nghề chạm khắc, tạc tượng, sản phẩm, vì sao số liệu làng và xã lệch nhau, Quyết định 1567 công nhận điểm du lịch và cách hỏi trước khi đi.",
+        "checked_at": "2026-10-21T14:23:42.863683+00:00"
+      }
     }
   },
   "categories": {}
