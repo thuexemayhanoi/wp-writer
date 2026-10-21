@@ -128,7 +128,7 @@ class WardProgressTests(unittest.TestCase):
                      "status": "publish", "categories": [182]}]
         proof = {"verification_method": "authenticated_wp_rest",
                  "wp_post_id": 4344, "status": "publish", "url": URL,
-                 "canonical": URL, "title": topic()["title"],
+                 "canonical": URL, "title": "Thuê xe máy phường Bồ Đề: chọn Honda Vision hay Wave, nhận xe ở đâu?",
                  "category_ids": [182], "robots_index": "index",
                  "public_http": 200, "verified_at": "2026-10-21T16:57:00Z"}
         p = reconcile(progress(), [topic()], {"posts": {}}, qa(status="FAIL"),
