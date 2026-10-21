@@ -27037,7 +27037,7 @@
       }
     },
     "NT-001310": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:21:10.477122+00:00",
       "source_hash": "3a6c0e0ade73594faef2bc061496554048a445ba7fe72cf091e6a9e0328e6c30",
       "slug": "dat-bo-sac-xe-dien-the-nao-nam-ngang-khong-che-khe-quat-khong-boc-kin-tranh-nuoc",
@@ -27053,8 +27053,37 @@
       "category_warning": null,
       "git_commit": "55beb7503a1d970b552ddabe740b39f9ac74fa0a",
       "run_id": "39615090557",
-      "updated_at": "2026-10-21T14:21:15.510887+00:00",
-      "wp_id": 4592
+      "updated_at": "2026-10-21T14:21:22.272726+00:00",
+      "wp_id": 4592,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/dat-bo-sac-xe-dien-the-nao-nam-ngang-khong-che-khe-quat-khong-boc-kin-tranh-nuoc/",
+      "verified_at": "2026-10-21T14:21:22.272720+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4592,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/dat-bo-sac-xe-dien-the-nao-nam-ngang-khong-che-khe-quat-khong-boc-kin-tranh-nuoc/",
+        "categories": [
+          167
+        ],
+        "canonical": "https://thuexemaynguyentu.com/dat-bo-sac-xe-dien-the-nao-nam-ngang-khong-che-khe-quat-khong-boc-kin-tranh-nuoc/",
+        "seo_title": "Đặt bộ sạc xe điện thế nào: nằm ngang, không bọc kín, tránh nước",
+        "seo_description": "Đặt bộ sạc xe điện thế nào khi sạc: VnExpress khuyên nằm ngang, không che khe quạt; Pega dặn không bọc kín; Dat Bike, Yadea, PCCC dặn nơi khô thoáng và lúc nào dừng sạc.",
+        "checked_at": "2026-10-21T14:21:22.272700+00:00"
+      }
     }
   },
   "categories": {}
