@@ -1,22 +1,22 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 3,
+  "ready_stock": 10,
   "trigger_below_ready": 900,
   "rounds_opened": 4,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 666,
-  "capacity_remaining": 1334,
+  "topic_rows": 676,
+  "capacity_remaining": 1324,
   "order": {
     "id": "RF-0004",
     "round": 4,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 75,
-    "remaining_to_min": 25,
-    "remaining_to_max": 125,
-    "batches_still_needed": 3,
+    "accepted_so_far": 85,
+    "remaining_to_min": 15,
+    "remaining_to_max": 115,
+    "batches_still_needed": 2,
     "batch_size": 10,
     "capacity_limited": false,
     "stalled": false,
@@ -30,7 +30,7 @@
       },
       {
         "taxonomy_key": "rental-guide",
-        "quota": 11,
+        "quota": 12,
         "known_now": 10,
         "allocation": 46
       },
@@ -47,10 +47,10 @@
         "allocation": 57
       },
       {
-        "taxonomy_key": "trip-planning",
-        "quota": 7,
-        "known_now": 70,
-        "allocation": 91
+        "taxonomy_key": "electric",
+        "quota": 6,
+        "known_now": 42,
+        "allocation": 59
       },
       {
         "taxonomy_key": "green-travel",
@@ -77,22 +77,22 @@
         "allocation": 32
       },
       {
-        "taxonomy_key": "electric",
-        "quota": 5,
-        "known_now": 42,
-        "allocation": 59
-      },
-      {
-        "taxonomy_key": "destinations",
-        "quota": 4,
-        "known_now": 16,
-        "allocation": 27
-      },
-      {
         "taxonomy_key": "electric-maintenance",
-        "quota": 4,
+        "quota": 5,
         "known_now": 27,
         "allocation": 41
+      },
+      {
+        "taxonomy_key": "rental-procedures",
+        "quota": 5,
+        "known_now": 22,
+        "allocation": 36
+      },
+      {
+        "taxonomy_key": "trip-planning",
+        "quota": 5,
+        "known_now": 75,
+        "allocation": 91
       },
       {
         "taxonomy_key": "rental-costs",
@@ -101,16 +101,16 @@
         "allocation": 23
       },
       {
-        "taxonomy_key": "rental-procedures",
-        "quota": 4,
-        "known_now": 22,
-        "allocation": 36
-      },
-      {
         "taxonomy_key": "vietnam-travel",
         "quota": 3,
         "known_now": 45,
         "allocation": 55
+      },
+      {
+        "taxonomy_key": "destinations",
+        "quota": 2,
+        "known_now": 21,
+        "allocation": 27
       },
       {
         "taxonomy_key": "food-culture",
@@ -144,10 +144,10 @@
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 736,
-    "topics_in_factory": 666,
+    "published_wordpress_items": 740,
+    "topics_in_factory": 676,
     "topics_by_status": {
-      "PLANNED": 589,
+      "PLANNED": 599,
       "REJECTED": 2,
       "RESEARCH": 75
     },
