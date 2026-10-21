@@ -25371,7 +25371,7 @@
       }
     },
     "NT-001224": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T10:03:21.249083+00:00",
       "source_hash": "f1dbbafe00b2292a9137a8eaab319d67e53a8e17b5bb9162cb25160186f7812d",
       "slug": "che-hoac-lam-mo-bien-so-xe-may-nghi-dinh-238-2026-phat-4-6-trieu-dong-nhung-hanh-vi-nao-tu-15-8-2026",
@@ -25387,8 +25387,37 @@
       "category_warning": null,
       "git_commit": "32f222d26fb9b02cb87bba326e6f8526fcc091c9",
       "run_id": "39580825615",
-      "updated_at": "2026-10-21T10:03:25.362125+00:00",
-      "wp_id": 4554
+      "updated_at": "2026-10-21T10:03:31.372500+00:00",
+      "wp_id": 4554,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/che-hoac-lam-mo-bien-so-xe-may-nghi-dinh-238-2026-phat-4-6-trieu-dong-nhung-hanh-vi-nao-tu-15-8-2026/",
+      "verified_at": "2026-10-21T10:03:31.372494+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4554,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/che-hoac-lam-mo-bien-so-xe-may-nghi-dinh-238-2026-phat-4-6-trieu-dong-nhung-hanh-vi-nao-tu-15-8-2026/",
+        "categories": [
+          159
+        ],
+        "canonical": "https://thuexemaynguyentu.com/che-hoac-lam-mo-bien-so-xe-may-nghi-dinh-238-2026-phat-4-6-trieu-dong-nhung-hanh-vi-nao-tu-15-8-2026/",
+        "seo_title": "Che hoặc làm mờ biển số xe máy: Nghị định 238/2026 phạt 4–6 triệu",
+        "seo_description": "Che hoặc làm mờ biển số xe máy theo Nghị định 238/2026 từ 15/8/2026: mức phạt 4–6 triệu đồng, từng hành vi trong điểm b khoản 3 Điều 14, trừ 6 điểm giấy phép lái xe, điều chưa rõ.",
+        "checked_at": "2026-10-21T10:03:31.372474+00:00"
+      }
     }
   },
   "categories": {}
