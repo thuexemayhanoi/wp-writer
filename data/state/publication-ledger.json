@@ -20422,7 +20422,7 @@
       }
     },
     "NT-000741": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:28:02.476815+00:00",
       "source_hash": "1708be0c6e5e00c221112995ae5f1d21a522e1b67ba968ae0178168ca4f47fe5",
       "slug": "mui-dien-bang-xe-may-tu-tuy-hoa-duong-bien-35-km-hai-dang-dai-lanh-va-gio-don-binh-minh",
@@ -20438,8 +20438,37 @@
       "category_warning": null,
       "git_commit": "893f6a71f41112399a056137c6ccd46ca125a3cd",
       "run_id": "39543790252",
-      "updated_at": "2026-10-21T04:28:06.337407+00:00",
-      "wp_id": 4433
+      "updated_at": "2026-10-21T04:28:12.904839+00:00",
+      "wp_id": 4433,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/mui-dien-bang-xe-may-tu-tuy-hoa-duong-bien-35-km-hai-dang-dai-lanh-va-gio-don-binh-minh/",
+      "verified_at": "2026-10-21T04:28:12.904832+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4433,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/mui-dien-bang-xe-may-tu-tuy-hoa-duong-bien-35-km-hai-dang-dai-lanh-va-gio-don-binh-minh/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/mui-dien-bang-xe-may-tu-tuy-hoa-duong-bien-35-km-hai-dang-dai-lanh-va-gio-don-binh-minh/",
+        "seo_title": "Mũi Điện bằng xe máy từ Tuy Hòa: 35 km đường biển và giờ bình minh",
+        "seo_description": "Mũi Điện bằng xe máy từ Tuy Hòa: các bài báo ghi khoảng 35 km đường biển, hai cách đi qua quốc lộ 1 hoặc quốc lộ 29, hải đăng Đại Lãnh và giờ đón bình minh theo mùa.",
+        "checked_at": "2026-10-21T04:28:12.904809+00:00"
+      }
     }
   },
   "categories": {}
