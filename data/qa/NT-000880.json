@@ -1,0 +1,247 @@
+{
+  "topic_id": "NT-000880",
+  "status": "PASS",
+  "source_sha256": "99065912abdac27afdb5d8486a216a1e78c80c2310d8e090381c08cf88490b21",
+  "body_sha256": "112ddc76d7a36ae6f6a26db43593c67d61eca0391049f1d52abfafc4f7f8a692",
+  "word_count": 2783,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap",
+      "supports": "Honda Việt Nam, mục Câu hỏi thường gặp (mục ghi cập nhật 21/09/2021): sách hướng dẫn sử dụng điện tử áp dụng đầu tiên cho SH350i; tất cả các mẫu xe khác đã được đăng tải sách bản điện tử trên website; khách có thể xem, in trực tiếp hoặc tải xuống và lưu lại trên thiết bị cá nhân; hãng khi đó nói đang tiếp tục cân nhắc áp dụng sách điện tử cho các dòng tiếp theo.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap",
+      "supports": "Cùng trang hỏi đáp (mục ghi cập nhật 02/12/2021): SH350i là mẫu xe đầu tiên Honda Việt Nam chuyển sách hướng dẫn đi kèm xe từ dạng in sang dạng điện tử, nhằm đẩy mạnh số hóa dịch vụ và giảm vật liệu in ấn.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/dich-vu-sau-ban-hang/huong-dan-su-dung",
+      "supports": "Trang Hướng dẫn sử dụng của phần xe máy trên honda.com.vn (đọc 21/10/2026): xếp xe theo nhóm xe tay ga, xe số, xe côn tay, xe phân khối lớn, xe điện; có phần Chọn dòng xe liệt kê tên từng mẫu, dòng Chọn phiên bản xe để đọc HDSD và lời nhắc cần đồng ý điều kiện sử dụng sách trực tuyến. Người viết không thực hiện các bước chọn tiếp theo.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision",
+      "supports": "Trang sản phẩm Honda Vision (đọc 21/10/2026): cuối bảng thông số có mục Tải tài liệu liệt kê hai tệp Hướng dẫn sử dụng.pdf và Catalog.pdf; mã nguồn trang cho thấy liên kết sách nằm trong thư mục tên December2025.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision",
+      "supports": "Cùng trang Vision: phần Thông tin chi tiết gồm các mục Tải tài liệu, Thông số kỹ thuật, So sánh sản phẩm và Lịch sử đời xe liệt kê các năm 2018, 2019, 2020, 2023, 2024, 2025, 2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/sh-mode-125",
+      "supports": "Trang sản phẩm Honda SH Mode 125 (đọc 21/10/2026): mục Tải tài liệu có Hướng dẫn sử dụng.pdf và Catalog.pdf; mã nguồn trang cho thấy liên kết sách nằm trong thư mục tên September2026; Lịch sử đời xe liệt kê 2019, 2020, 2022, 2023, 2024, 2027.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110",
+      "supports": "Trang sản phẩm Honda Wave Alpha 110 (đọc 21/10/2026): mục Tải tài liệu có Hướng dẫn sử dụng.pdf và Catalog.pdf; mã nguồn trang cho thấy liên kết sách nằm trong thư mục tên September2025; Lịch sử đời xe liệt kê 2023 và 2024.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/motorcycle-aftersales/plusone/202204.html",
+      "supports": "Honda Global (Plus ONE, 26/04/2022, tiếng Anh), bài What is Motopub: Motopub là cổng tài liệu dịch vụ cho xe máy đăng từ 2018, làm mới 1/4/2022, dùng ở 20 quốc gia tính đến 1/4/2022; một số nước tài liệu nằm trên website Honda địa phương; cách chọn quốc gia, mẫu, đời xe, loại tài liệu; Owner's Manual gồm hướng dẫn vận hành, lịch bảo dưỡng, tìm hư hỏng, thông số; trang không nêu Việt Nam.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/dich-vu-sau-ban-hang/huong-dan-su-dung",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/sh-mode-125",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/motorcycle-aftersales/plusone/202204.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2513,
+        "title": "Dấu hiệu má phanh xe máy cần thay và cách kiểm tra an toàn hằng ngày",
+        "why": "stale",
+        "content_hash": "f1040fa1950d3342eebff669b05d5319f4be2c2517c80ecddf1b4b239e6f5f16",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4056,
+        "title": "Đổi khách sạn giữa kỳ thuê xe máy Hà Nội: giữ xe ở đâu, chuyển hành lý và đổi nơi trả",
+        "why": "stale",
+        "content_hash": "fcd4a86c62969cb4812af213b0e424c5549b185d290ed9a416d5e9d816804528",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:29:17.469927+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "df97e45cddd5517408c0d3d0fb9e7e3cf249ece9aefd465c1c9f928c2873724f",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

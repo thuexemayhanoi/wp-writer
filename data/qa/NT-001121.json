@@ -1,0 +1,295 @@
+{
+  "topic_id": "NT-001121",
+  "status": "PASS",
+  "source_sha256": "cbe6b84eaa41ec304db80e1de19051c1080c786b9d5246474d66a4ecaa22be63",
+  "body_sha256": "5f1f0d2fa6ceb0aa1ac9e83d9338b64c7eb24e368e538b160f9e879e1e82b2d8",
+  "word_count": 2755,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://noibaiairport.vn/vi/Phuong-tien-van-chuyen-cong-cong-nid260.html",
+      "supports": "Trang hướng dẫn đi lại của Cảng hàng không quốc tế Nội Bài (không ghi ngày): hai nhà ga T1 nội địa và T2 quốc tế, sáu tuyến buýt, giờ chạy 5h00-23h00 và khoảng giá taxi về trung tâm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://noibaiairport.vn/vi/Phuong-tien-van-chuyen-cong-cong-nid260.html",
+      "supports": "Cùng trang của cảng: các tuyến buýt thường chạy 10-15 phút một chuyến, từ 5h00 đến 23h00.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://caa.gov.vn/hoat-dong-nganh/cang-hang-khong-quoc-te-noi-bai-chinh-thuc-ap-dung-phuong-an-phan-luong-giao-thong-moi-20260803081557831.htm",
+      "supports": "Cục Hàng không Việt Nam (3/8/2026): phân luồng mới từ 7h ngày 3/8 ở T1 và T2; ở T2, hành khách dùng xe công nghệ được hướng dẫn ra bãi P1.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/san-bay-noi-bai-mo-luong-nhap-canh-rieng-cho-khach-viet-sap-xep-lai-diem-don-xe-tu-3-8-100260802150546059.htm",
+      "supports": "Tuổi Trẻ (2/8/2026): làn và cột đón taxi nhượng quyền ở T1, T2; xe công nghệ biển vàng dưới 9 chỗ vào bãi riêng (T1 bãi P2 trước sảnh E, T2 bãi P1, quá tải sang P7).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/san-bay-noi-bai-mo-luong-nhap-canh-rieng-cho-khach-viet-sap-xep-lai-diem-don-xe-tu-3-8-100260802150546059.htm",
+      "supports": "Cùng bài Tuổi Trẻ (2/8/2026): điểm đón xe công nghệ ở T2 và bãi dự phòng P7.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/sau-gop-y-cua-hanh-khach-san-bay-noi-bai-dieu-chinh-lan-don-xe-dich-vu-tai-nha-ga-t1-100260805113632289.htm",
+      "supports": "Tuổi Trẻ (5/8/2026): sân bay điều chỉnh để xe biển vàng dưới 9 chỗ đón ở làn 3 trước sảnh E T1, có mái che, mỗi xe dừng tối đa 3 phút; nhân viên áo cam ở tầng 1.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/hanh-khach-chat-vat-don-xe-cong-nghe-tai-san-bay-noi-bai-5105388.html",
+      "supports": "VnExpress (5/8/2026): phản ánh quãng đi bộ ra bãi xe công nghệ ở T1 và T2 và điều chỉnh từ 9h ngày 5/8 ở T1.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/san-bay-noi-bai-thay-doi-phuong-an-don-tra-khach-5104168.html",
+      "supports": "VnExpress (2/8/2026): cách chia làn sảnh đến T1, T2 theo nhóm phương tiện, trong đó xe buýt công cộng và taxi nhượng quyền có khu riêng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://suckhoedoisong.vn/boc-tran-chieu-ban-khach-o-san-bay-noi-bai-co-moi-het-gia-cao-an-chenh-lech-16926081211354373.htm",
+      "supports": "Sức khỏe & Đời sống (12/8/2026) dẫn cảng: điểm đón xe công nghệ ở sân đỗ P2 (T1) và P1 (T2), cách sảnh khoảng 300-400 m; khuyến cáo cho taxi truyền thống và xe công nghệ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://suckhoedoisong.vn/boc-tran-chieu-ban-khach-o-san-bay-noi-bai-co-moi-het-gia-cao-an-chenh-lech-16926081211354373.htm",
+      "supports": "Cùng bài (12/8/2026): khuyến cáo của cảng cho taxi truyền thống.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baochinhphu.vn/lap-lai-trat-tu-giao-thong-tai-san-bay-noi-bai-102260815104425085.htm",
+      "supports": "Báo Điện tử Chính phủ (15/8/2026): sau hai tuần, vị trí đón được điều chỉnh sát khu có mái che, điểm đón ở nhà ga quốc nội bố trí lại, tổ chức một chiều ở bãi P1, P2 của T1 đang triển khai.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://noibaiairport.vn/vi/Phuong-tien-van-chuyen-cong-cong-nid260.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://noibaiairport.vn/vi/Phuong-tien-van-chuyen-cong-cong-nid260.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://caa.gov.vn/hoat-dong-nganh/cang-hang-khong-quoc-te-noi-bai-chinh-thuc-ap-dung-phuong-an-phan-luong-giao-thong-moi-20260803081557831.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/san-bay-noi-bai-mo-luong-nhap-canh-rieng-cho-khach-viet-sap-xep-lai-diem-don-xe-tu-3-8-100260802150546059.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/san-bay-noi-bai-mo-luong-nhap-canh-rieng-cho-khach-viet-sap-xep-lai-diem-don-xe-tu-3-8-100260802150546059.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/sau-gop-y-cua-hanh-khach-san-bay-noi-bai-dieu-chinh-lan-don-xe-dich-vu-tai-nha-ga-t1-100260805113632289.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/hanh-khach-chat-vat-don-xe-cong-nghe-tai-san-bay-noi-bai-5105388.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/san-bay-noi-bai-thay-doi-phuong-an-don-tra-khach-5104168.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://suckhoedoisong.vn/boc-tran-chieu-ban-khach-o-san-bay-noi-bai-co-moi-het-gia-cao-an-chenh-lech-16926081211354373.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://suckhoedoisong.vn/boc-tran-chieu-ban-khach-o-san-bay-noi-bai-co-moi-het-gia-cao-an-chenh-lech-16926081211354373.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baochinhphu.vn/lap-lai-trat-tu-giao-thong-tai-san-bay-noi-bai-102260815104425085.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 912,
+        "title": "Cho Thuê Xe Máy Gần Hai Bà Trưng Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "e3a1939cca55f0bccd95c320658c1807feb7d19588435fda4d8fbc016652f731",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2630,
+        "title": "Chùa Trấn Quốc Hà Nội: Lịch sử, giờ mở cửa và kinh nghiệm tham quan",
+        "why": "stale",
+        "content_hash": "1cedf563cfdadc1e4b3bafa07d97d0868a00d865df06edb4c401019a91229635",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:37:31.849270+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "72823ba3893bc2a3e25b4d0a015ef581cd5454bfbf324dfc77b3f2a030686b6f",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

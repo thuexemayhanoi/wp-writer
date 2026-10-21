@@ -1,0 +1,179 @@
+{
+  "topic_id": "NT-001216",
+  "status": "PASS",
+  "source_sha256": "ac0f1befb75b6791dec63f5a8e1e594b2644a94a1b8a6d9ab8efe0fba6e2a17a",
+  "body_sha256": "68b0418ce4bee6305c00ce423c1255c6b071b78373ef1830808d441f46b0b0dd",
+  "word_count": 3406,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://moc.gov.vn/vn/tin-tuc/1196/93507/ban-hanh-quy-chuan-ky-thuat-quoc-gia-ve-ac-quy-su-dung-cho-xe-mo-to-dien--xe-gan-may-dien.aspx",
+      "supports": "Cổng thông tin điện tử Bộ Xây dựng (bản tin 20/04/2026): Thông tư 13/2026/TT-BXD ban hành QCVN 31:2026/BXD về ắc quy cho xe mô tô điện, xe gắn máy điện; hiệu lực 09/10/2026; thay thế khoản 20 Điều 1 Thông tư 48/2024/TT-BGTVT; điều khoản chuyển tiếp về hồ sơ và báo cáo thử nghiệm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/loat-chinh-sach-moi-ve-xe-co-hieu-luc-tu-thang-10-xe-may-dien-la-tam-diem-100260930113502345.htm",
+      "supports": "Tuổi Trẻ (đăng 30/09/2026 theo mã ngày đường dẫn): tóm tắt QCVN 31 về điện áp đo được không thấp hơn điện áp danh định và không vượt quá 115% giá trị này; các phép thử nạp quá mức, phóng điện quá mức, rung, ngắn mạch, ngâm nước hoặc thả rơi tùy loại.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://moc.gov.vn/vn/tin-tuc/1196/93507/ban-hanh-quy-chuan-ky-thuat-quoc-gia-ve-ac-quy-su-dung-cho-xe-mo-to-dien--xe-gan-may-dien.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/loat-chinh-sach-moi-ve-xe-co-hieu-luc-tu-thang-10-xe-may-dien-la-tam-diem-100260930113502345.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 912,
+        "title": "Cho Thuê Xe Máy Gần Hai Bà Trưng Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "e3a1939cca55f0bccd95c320658c1807feb7d19588435fda4d8fbc016652f731",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2343,
+        "title": "Xe máy điện: các hãng nổi bật và cách chọn xe phù hợp nhất",
+        "why": "stale",
+        "content_hash": "c6618e9c49c5f2f25650deea3da4d70c0b7ac0a3821f5dc81a038f2aae0716d7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2355,
+        "title": "Bao nhiêu tuổi được đi xe máy điện? Những điều cần biết",
+        "why": "stale",
+        "content_hash": "df4e397638303da8d179daafae395db634b027fd262d47406e50b3e2c2cf527c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2367,
+        "title": "Có Nên Sạc Xe Máy Điện Tại Nhà? Kinh Nghiệm An Toàn Khi Sử Dụng",
+        "why": "stale",
+        "content_hash": "8768183f030319ed7647591d37ba6e25af1e5ac274f69cc230b87c74a28fe158",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2515,
+        "title": "Bình ắc quy xe máy dùng được bao lâu? Khi nào nên kiểm tra lại?",
+        "why": "stale",
+        "content_hash": "26576df935c21a29be7d5e9013419bbd9273bc6c5f99f106848143996460de9a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:33:41.774879+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "d3754e328b8a3ad9e4ccdfd6e398914849bb239ea57937a7ac426bf4c45cdbf7",
+  "incremental_key": "aed8a6ca1d5622d622a447a40fbc37f931a1bbb1698025c6c0ca3482e56803e4",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

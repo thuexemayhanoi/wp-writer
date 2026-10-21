@@ -1,0 +1,176 @@
+{
+  "topic_id": "NT-001155",
+  "status": "PASS",
+  "source_sha256": "c79e87bfce9d45a24b6e774212b641183f714271a31d315e21e8fa8affe30b8b",
+  "body_sha256": "bed0bfd437b9c7ab7f9fd8b08197c23f2e059061a753087b7033df0eac4df1be",
+  "word_count": 2444,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.bridgestone.com.vn/vi/thong-tin-huu-ich/tu-van-cho-nguoi-lai/cap-nhat-bang-ap-suat-lop-xe-may-cho-cac-dong-xe-moi",
+      "supports": "Bridgestone Việt Nam (trang ghi ngày 2022-11-11): nên kiểm tra áp suất lốp ít nhất 2 tuần một lần và sớm hơn nếu cảm nhận lốp không đạt tiêu chuẩn; đơn vị psi, kgf/cm2, kPa; mức tiêu chuẩn ghi trên tem xe; cách đo bằng đồng hồ, đo khi lốp ở nhiệt độ bình thường, lý tưởng sau khi xe dừng 20 phút; bơm hoặc xả hơi theo mức chuẩn.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=xe-may&category_child=tu-van-su-dung-xe-may",
+      "supports": "Honda Việt Nam (câu trả lời cập nhật 21/09/2021): tác hại khi lốp quá non (ma sát tăng, động cơ vất vả, tốn xăng, điều khiển khó) và quá căng (lớp bố giãn nở không đều, có thể nổ khi chạy xa tốc độ cao, quãng phanh tăng, dễ trượt mất điều khiển); áp suất lốp tăng khi xe chạy.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/bom-lop-the-nao-cho-du-2900289.html",
+      "supports": "VnExpress 28/10/2013 (bài cũ): các chuyên gia khuyến cáo kiểm tra lốp trước khi lái (áp suất, độ mòn, nứt, độ dày) và kiểm tra định kỳ 4.000 km một lần tại cơ sở bảo dưỡng; tác hại của lốp quá non và quá căng; nắng nóng làm không khí trong lốp nở ra.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.bridgestone.com.vn/vi/thong-tin-huu-ich/tu-van-cho-nguoi-lai/cap-nhat-bang-ap-suat-lop-xe-may-cho-cac-dong-xe-moi",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=xe-may&category_child=tu-van-su-dung-xe-may",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/bom-lop-the-nao-cho-du-2900289.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2500,
+        "title": "Dấu hiệu xích xe máy quá chùng và cách kiểm tra trước khi đi xa",
+        "why": "stale",
+        "content_hash": "d061c138b067d5f2223950a7aaa38ebe11024f983962f728d69b56d64948608d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2547,
+        "title": "Xe máy cũ mua lại có cần đổi biển số không? Các trường hợp cần biết",
+        "why": "stale",
+        "content_hash": "8e256c8d7edb51c20df3e42a005401c4640d03564a72f2e47b73d39dfade3fea",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2553,
+        "title": "Đăng ký biển số xe máy trực tuyến: hồ sơ và các bước cần chuẩn bị",
+        "why": "stale",
+        "content_hash": "07c18eff30a0c8796b3fd7944021fa719dc4afaaacb4f55eb99e40c062e94782",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:41:08.197133+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "585424fa2a1f9ef3854403237cae8e63a3d8695ac6d548e1335f9966df2daef9",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

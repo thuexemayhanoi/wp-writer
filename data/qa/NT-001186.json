@@ -1,0 +1,161 @@
+{
+  "topic_id": "NT-001186",
+  "status": "PASS",
+  "source_sha256": "75d7e42299bd8104809ce9f22cc1ee45fc07e3ca359953425b29f529eeb5c0ad",
+  "body_sha256": "1d463a48e6ecdd9b551d0a1ea7219a4cd5599fe6251e7cf176ff03dded0b8e51",
+  "word_count": 3071,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://suckhoedoisong.vn/canh-giac-voi-thuoc-gay-buon-ngu-khi-lai-xe-16986061.htm",
+      "supports": "Sức khỏe & Đời sống 31/7/2018 (BS Lê Xuân Bách): thuốc kháng histamin như diphenhydramine, chlopheniramin có thể gây buồn ngủ, khó tập trung, phản ứng chậm; thuốc trị tiêu chảy (loperamide) và thuốc chống nôn cũng có thể gây buồn ngủ; cách đọc hoạt chất và cảnh báo trên nhãn.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/consumers/consumer-updates/some-medicines-and-driving-dont-mix",
+      "supports": "FDA (Mỹ), trang ghi Content current as of 03/12/2024: một số thuốc có cảnh báo không lái bất kỳ phương tiện nào, gồm xe máy và xe scooter điện, trong vài giờ sau khi uống; tác dụng có thể kéo dài tới hôm sau; kháng histamin làm chậm phản ứng; dùng thuốc không kê đơn lần đầu khi không cần lái xe.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://suckhoedoisong.vn/canh-giac-voi-thuoc-gay-buon-ngu-khi-lai-xe-16986061.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/consumers/consumer-updates/some-medicines-and-driving-dont-mix",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2540,
+        "title": "Xe máy hao xăng bất thường do đâu? Các nguyên nhân thường gặp",
+        "why": "stale",
+        "content_hash": "5c70a54e235309eb24f97e3e7ea779c89f838366ff1a2bd96487d780ea3eb0c2",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2544,
+        "title": "Xe máy phát tiếng kêu lạ khi chạy: nguyên nhân và cách kiểm tra",
+        "why": "stale",
+        "content_hash": "e4d2a8c9ffb2a022afd07f0d6cf92ad77c06cdf6fcad04bb7bae33b34bab81ad",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4346,
+        "title": "Thuê xe máy phường Hoàn Kiếm: đi phố cổ chọn xe ga, xe số hay 50cc?",
+        "why": "stale",
+        "content_hash": "a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:33:40.767366+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "d3754e328b8a3ad9e4ccdfd6e398914849bb239ea57937a7ac426bf4c45cdbf7",
+  "incremental_key": "8e60f9ee6327210e9123bb2601c60338cf11696c153ee4903d7d50d36220e6e6",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

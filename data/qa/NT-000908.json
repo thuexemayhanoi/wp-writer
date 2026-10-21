@@ -1,0 +1,480 @@
+{
+  "topic_id": "NT-000908",
+  "status": "PASS",
+  "source_sha256": "b079e5902874ff1ef9f719087be1400cd1e6cf4439825f0efa3b9cd19163393b",
+  "body_sha256": "79b329759794e7f5abc5f975dea71c92a2cf2c211617134708084bb7f0a59110",
+  "word_count": 2340,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "supports": "worlddata.info (đọc 21/10/2026): bảng giờ mọc, lặn, số giờ có ánh sáng của Hà Nội cho tháng 10, 11 và 12.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "supports": "worlddata.info: giờ mọc, lặn và số giờ có ánh sáng của tháng 6 và tháng 7.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "supports": "worlddata.info: ngày dài hơn vào mùa hè, ngày dài nhất vào tháng 6 với tới khoảng 13 giờ 30.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "supports": "worlddata.info: một đêm tháng 12 ở Hà Nội kéo dài gần 14 giờ và ngày bắt đầu muộn hơn khoảng 60 phút.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "supports": "worlddata.info, bảng các thành phố ghi dữ liệu ngày 21/10: giờ lặn của Nam Định, Thái Nguyên và Hà Nội.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "supports": "worlddata.info, bảng ngày 21/10: giờ lặn của Thanh Hóa và Vinh.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "supports": "worlddata.info, bảng ngày 21/10: giờ lặn của Hải Phòng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "supports": "worlddata.info: thời gian mặt trời lặn kéo dài trung bình 26 phút ở Việt Nam, 27 phút ở Hà Nội tháng 6 và 25 phút tháng 12.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "supports": "sunrisesunset.io (đọc 21/10/2026): ngày dài nhất năm 2026 ở Hà Nội là 21/6 với 13 giờ 24 phút ánh sáng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "supports": "sunrisesunset.io: ngày ngắn nhất năm 2026 là 22/12 với 10 giờ 51 phút ánh sáng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "supports": "sunrisesunset.io: chênh lệch giữa ngày dài nhất và ngắn nhất là 2 giờ 33 phút; trung bình cả năm 12 giờ 08 phút ánh sáng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "supports": "sunrisesunset.io: mặt trời mọc sớm nhất năm 2026 là 6/6 lúc 5:14 sáng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "supports": "sunrisesunset.io: mặt trời lặn muộn nhất là 4/7/2026 lúc 6:42 chiều.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "supports": "sunrisesunset.io: mặt trời lặn sớm nhất năm là 26/11/2026, lặn trước 5:13 chiều.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "supports": "sunrisesunset.io: mặt trời mọc muộn nhất là 16/1/2026 lúc 6:36 sáng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "supports": "sunrisesunset.io: Hà Nội dùng giờ Đông Dương (UTC+7) cả năm nên giờ mọc lặn chỉ đổi theo mùa.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "supports": "sunrisesunset.io, lịch tháng 10/2026: giờ lặn và giờ dusk ngày 1/10.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "supports": "sunrisesunset.io, lịch tháng 10/2026: giờ lặn và giờ dusk ngày 21/10.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "supports": "sunrisesunset.io, lịch tháng 10/2026: giờ lặn và giờ dusk ngày 31/10.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "supports": "sunrisesunset.io: hoàng hôn dân dụng kết thúc lúc 5:51 chiều ngày 21/10, sau đó cần ánh sáng nhân tạo cho hầu hết việc ngoài trời; hoàng hôn thiên văn kết thúc lúc 6:42 chiều.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://weather.metoffice.gov.uk/guides/what-does-this-forecast-mean",
+      "supports": "Met Office (đọc 21/10/2026): mặt trời mọc hoặc lặn là lúc mép trên của đĩa mặt trời ngang đường chân trời.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://weather.metoffice.gov.uk/guides/what-does-this-forecast-mean",
+      "supports": "Met Office: giờ mọc, lặn tính bằng công thức của Global Monitoring Laboratory, không dùng số liệu quan sát; có thể lệch chút so với thực tế.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sunrisesunset.io/vn/ha-n-i/hanoi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://weather.metoffice.gov.uk/guides/what-does-this-forecast-mean",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://weather.metoffice.gov.uk/guides/what-does-this-forecast-mean",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2625,
+        "title": "Nhà tù Hỏa Lò Hà Nội: Giá vé, giờ mở cửa và kinh nghiệm đi tour đêm",
+        "why": "stale",
+        "content_hash": "fc86cac4da1911528d32104d0969754534fb81041738085bfe6eb76c69849a7a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2630,
+        "title": "Chùa Trấn Quốc Hà Nội: Lịch sử, giờ mở cửa và kinh nghiệm tham quan",
+        "why": "stale",
+        "content_hash": "1cedf563cfdadc1e4b3bafa07d97d0868a00d865df06edb4c401019a91229635",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4051,
+        "title": "Thuê xe máy Hà Nội vào ngày mưa: khi nào nên lùi giờ nhận và kiểm tra gì trước khi chạy?",
+        "why": "stale",
+        "content_hash": "6cf70a5e919d453dbe3c15e8dc9ed97616caa41d0b3239c73331a63a003192fb",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:22:05.409232+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "41e818c9e602ad1adbe1ac8d92b0be52723cc1052052255a7b6f5385241ad3ce",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

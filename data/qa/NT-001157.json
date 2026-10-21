@@ -1,0 +1,176 @@
+{
+  "topic_id": "NT-001157",
+  "status": "PASS",
+  "source_sha256": "73ee816a6eb386a87f01fba4f9f4ab13503a54653d4ce455d29051e4b14b74d8",
+  "body_sha256": "d21cdcbfe64ce7efd637602b13cdfd0b88e454b786bcf45aacf704fa7b4e8be2",
+  "word_count": 2788,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/xe-may-het-ac-quy-phai-lam-sao/",
+      "supports": "Yamaha Motor Việt Nam (11/03/2026): dấu hiệu ắc quy yếu, nguyên nhân hết điện, hai cách xử lý (nạp điện, thay mới), đạp nổ bằng cần khởi động, cách phòng tránh.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/thay-ac-quy-xe-may/",
+      "supports": "Yamaha Motor Việt Nam (14/11/2024): tuổi thọ trung bình 2-5 năm và các dấu hiệu cần kiểm tra hoặc thay ắc quy; ắc quy khô và ướt.",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=xe-may&category_child=tu-van-su-dung-xe-may",
+      "supports": "Trang hỏi đáp Honda Việt Nam (23/09/2021): bình vẫn tiêu hao điện khi không dùng, xe có đồng hồ, chống trộm, Smart Key tiêu thụ thêm, nên nổ máy mỗi tuần khoảng 10 phút.",
+      "checked_at": "2026-10-17",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/vi-sao-xe-may-it-di-lai-nhanh-hong-binh-ac-quy-185260522063548302.htm",
+      "supports": "Thanh Niên (22/05/2026): xe ít đi lại và chạy quãng ngắn làm hỏng ắc quy, tự phóng điện, sunfat hóa, nổ tại chỗ ít tác dụng, nên chạy xe 15-20 phút mỗi tuần.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/plo/phai-lam-gi-khi-binh-ac-quy-xe-may-de-qua-lau-nen-bi-het-dien-109644769.htm",
+      "supports": "Tuổi Trẻ (dẫn wikiHow): các loại bộ sạc, không dùng bộ sạc axit chì cho pin lithium, sạc nơi thoáng vì sinh khí hydro dễ cháy, cách câu điện từ bình khác.",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/xe-may-het-ac-quy-phai-lam-sao/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/thay-ac-quy-xe-may/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=xe-may&category_child=tu-van-su-dung-xe-may",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/vi-sao-xe-may-it-di-lai-nhanh-hong-binh-ac-quy-185260522063548302.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/plo/phai-lam-gi-khi-binh-ac-quy-xe-may-de-qua-lau-nen-bi-het-dien-109644769.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-21T04:24:21.469993+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "a8073bfd8978249fe0321ed0c3e3675b56f855727ad14610beb070d73cdacd09",
+  "incremental_key": "d16de1248c51cd2ade88438df28e0e1bf2f8cf8fb93a8639e92c3e0ebee502e0",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

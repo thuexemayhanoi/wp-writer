@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-21T04:14:35.784492+00:00",
-  "attempted": 7,
-  "ready_backlog": 0,
+  "at": "2026-10-21T04:42:15.545797+00:00",
+  "attempted": 10,
+  "ready_backlog": 9,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -24,59 +24,19 @@
       "action": "manual reconciliation; never create/update automatically"
     },
     {
-      "topic_id": "NT-000731",
+      "topic_id": "NT-000961",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 173,
+      "category_id": 164,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "vietnam-travel",
+      "intended_taxonomy_key": "rental-costs",
       "category_warning": null
     },
     {
-      "topic_id": "NT-000738",
+      "topic_id": "NT-001065",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 173,
+      "category_id": 168,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "vietnam-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000901",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000902",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-000907",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001005",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 159,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "legal",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001006",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 159,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "legal",
+      "intended_taxonomy_key": "electric-tech",
       "category_warning": null
     },
     {
@@ -236,11 +196,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T04:14:20.336678+00:00",
+      "at": "2026-10-21T04:37:08.540707+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "0f06058e7fa57df6b495ddcb712bfc48708764c5cbbae703da642a7eb5d7baf6",
+      "inventory_sha256": "72823ba3893bc2a3e25b4d0a015ef581cd5454bfbf324dfc77b3f2a030686b6f",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -406,11 +366,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T04:14:28.628653+00:00",
+      "at": "2026-10-21T04:37:16.462847+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "0f06058e7fa57df6b495ddcb712bfc48708764c5cbbae703da642a7eb5d7baf6",
+      "inventory_sha256": "72823ba3893bc2a3e25b4d0a015ef581cd5454bfbf324dfc77b3f2a030686b6f",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -585,11 +545,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T04:14:35.649469+00:00",
+      "at": "2026-10-21T04:37:23.171858+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "0f06058e7fa57df6b495ddcb712bfc48708764c5cbbae703da642a7eb5d7baf6",
+      "inventory_sha256": "72823ba3893bc2a3e25b4d0a015ef581cd5454bfbf324dfc77b3f2a030686b6f",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -607,6 +567,70 @@
         "exhausted": false,
         "needs_owner": false
       }
+    },
+    {
+      "topic_id": "NT-001121",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 176,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001126",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 176,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001127",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 176,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001152",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 170,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "engine-care",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001153",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 170,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "engine-care",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001154",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 170,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "engine-care",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001155",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 170,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "engine-care",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001156",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 170,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "engine-care",
+      "category_warning": null
     }
   ],
   "backlog_drains_on": "successful Writer QA or fallback schedule",

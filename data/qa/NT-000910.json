@@ -1,0 +1,354 @@
+{
+  "topic_id": "NT-000910",
+  "status": "PASS",
+  "source_sha256": "062723156ccf269898be49b2b6f8a0686cb698f27e96ec65f10e7812c8695d54",
+  "body_sha256": "dd22136e3da63373a72ae63b29fd5f3dce67af64ee7aa10f49e2264d841a303c",
+  "word_count": 2021,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.weather.gov/ffc/pop",
+      "supports": "NWS, văn phòng Atlanta/Peachtree City (đọc 21/10/2026; ví dụ bản tin ngày 8/5/2008): dự báo của NWS thường có câu PoP, hay diễn đạt là chance of rain.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/ffc/pop",
+      "supports": "NWS Peachtree City: ví dụ bản tin ghi 40 percent chance of showers and thunderstorms.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/ffc/pop",
+      "supports": "NWS Peachtree City: câu hỏi 40 percent là mưa 40 percent thời gian hay 40 percent diện tích.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/ffc/pop",
+      "supports": "NWS Peachtree City: PoP là xác suất ô lưới hoặc điểm dự báo nhận ít nhất 0,01 inch mưa; 40 percent là xác suất tại điểm dự báo.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/lmk/pops",
+      "supports": "NWS, văn phòng Louisville (đọc 21/10/2026; trang đề ngày 11/4/2007): xác suất mưa mô tả khả năng mưa tại một điểm cụ thể trong một khoảng thời gian nhất định.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/lmk/pops",
+      "supports": "NWS Louisville: 30% là khả năng ít nhất 0,01 inch mưa tại điểm đó trong khoảng thời gian nêu; khoảng thời gian thường dài 12 giờ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/lmk/pops",
+      "supports": "NWS Louisville: xác suất chỉ có hiệu lực cho điểm đó (ô lưới 5 km); bấm điểm khác thì dự báo hơi khác.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/lmk/pops",
+      "supports": "NWS Louisville: ví dụ bản đồ Bowling Green 20%, Louisville 41%, Lexington 43% trong cùng khoảng 12 giờ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/lmk/pops",
+      "supports": "NWS Louisville: trang đề ngày 11/4/2007.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://weather.metoffice.gov.uk/guides/what-does-this-forecast-mean",
+      "supports": "Met Office (đọc 21/10/2026): 70% là 7 trong 10 khả năng có giáng thủy ở một lúc nào đó trong khoảng đó; giáng thủy gồm mưa, mưa tuyết, tuyết, mưa đá, mưa phùn.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://weather.metoffice.gov.uk/guides/what-does-this-forecast-mean",
+      "supports": "Met Office: bảng theo giờ cho khả năng ít nhất 0,1 mm trong 1 giờ, bảng 3 giờ cho 0,3 mm trong 3 giờ; biểu tượng giúp phân biệt nhẹ và nặng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://weather.metoffice.gov.uk/guides/what-does-this-forecast-mean",
+      "supports": "Met Office: khả năng mưa, biểu tượng và gió giật là khoảng bắt đầu từ giờ ghi tới khoảng kế tiếp; rào và gió giật có thể xảy ra giữa các giờ hiển thị.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://kttv.thanhhoa.gov.vn/tin-tuc/hoi-dap-ve-kttv/hieu-the-nao-ve-luong-mua-4033.html",
+      "supports": "Đài KTTV Thanh Hóa (đọc 21/10/2026): mưa vừa là 16–50 mm/24 giờ (mốc tham chiếu về độ lớn của lượng mưa).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.weather.gov/ffc/pop",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/ffc/pop",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/ffc/pop",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/ffc/pop",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/lmk/pops",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/lmk/pops",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/lmk/pops",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/lmk/pops",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/lmk/pops",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://weather.metoffice.gov.uk/guides/what-does-this-forecast-mean",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://weather.metoffice.gov.uk/guides/what-does-this-forecast-mean",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://weather.metoffice.gov.uk/guides/what-does-this-forecast-mean",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://kttv.thanhhoa.gov.vn/tin-tuc/hoi-dap-ve-kttv/hieu-the-nao-ve-luong-mua-4033.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2422,
+        "title": "Yadea và VinFast khác nhau thế nào khi chọn xe máy điện",
+        "why": "stale",
+        "content_hash": "fad15df82e26c0a36f7ca807746c1f7a42149457965d7219044bd7238970ce07",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2444,
+        "title": "Honda Air Blade 125 và 160 khác nhau thế nào khi sử dụng thực tế?",
+        "why": "stale",
+        "content_hash": "8054d94f3cdb8d21ac1c98cd701f32e769ff0469324af51729d0443d0d8a2143",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2453,
+        "title": "Honda SH Mode và Vision khác nhau thế nào về trải nghiệm sử dụng?",
+        "why": "stale",
+        "content_hash": "6d6ef8bf674caf2bb13b1743aa5f8d93dbbf026424b175bf3ccf09349bc82caf",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2473,
+        "title": "Yamaha FreeGo và Honda Vision: Khác nhau thế nào khi đi trong phố?",
+        "why": "stale",
+        "content_hash": "7ead5893fc147627e2ba631c69446ed2f5e8550ab42a98c49ed2be3d0b920658",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2544,
+        "title": "Xe máy phát tiếng kêu lạ khi chạy: nguyên nhân và cách kiểm tra",
+        "why": "stale",
+        "content_hash": "e4d2a8c9ffb2a022afd07f0d6cf92ad77c06cdf6fcad04bb7bae33b34bab81ad",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:31:33.362077+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "6391d36f39af43d2313bfa03b7af6a5ec560317c833dd20f1f6f2c0ede232a3f",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

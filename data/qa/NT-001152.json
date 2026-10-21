@@ -1,0 +1,192 @@
+{
+  "topic_id": "NT-001152",
+  "status": "PASS",
+  "source_sha256": "198fa7bf202e39a2879ea129a3c08f4a709e9ead2419e0fd140fe44c0f18bc54",
+  "body_sha256": "757f9f9806d1d63ade591805ba947062012a8ca331310537753bb10954227997",
+  "word_count": 2279,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-tang-xich-xe-may/",
+      "supports": "Yamaha Motor Việt Nam (bài đăng 01.07.2024): khi chỉnh không nên để sên quá căng mà phải để một độ chùng nhất định vì sên quá căng không có khoảng sai số và có thể đứt sên; xích chùng gây tiếng lọc cọc và giật; chuẩn độ chùng theo sách hướng dẫn của nhà sản xuất; phép thử xoay nhẹ bánh sau.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/kiem-tra-va-can-chinh-xich-tai-xe-may-2047539.html",
+      "supports": "VnExpress 12/12/2001 (bài cũ, theo Vnmotors): kiểm tra độ chùng ở nhiều điểm khi quay bánh sau, độ chùng không đều do nhông sau ô van hoặc mắt bị đội răng, xích chạy trên đỉnh răng là quá rão, tăng đơ hết mức vẫn chùng thì thay xích, ví dụ 20–30 mm, mốc 1.000 km.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/tac-hai-khi-chay-xe-xich-chung-2909237.html",
+      "supports": "VnExpress 13/11/2013 (bài cũ): xích chùng gây tiếng lọc cọc, giật, trượt hoặc đứt xích giữa đường; xích giãn dài do bị kéo căng khi làm việc; tốc độ mòn tăng khi bôi trơn kém, để trần hoặc ngập nước; kiểm tra và tăng xích sau mỗi 1.000 km.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/phu-tung/phu-tung-detail?id_pt=12",
+      "supports": "Trang phụ tùng bộ nhông, xích của Honda Việt Nam: tuổi thọ xích tải phụ thuộc điều chỉnh và bôi trơn hợp lý; khuyến cáo kiểm tra, bôi trơn mỗi 500 km và thay theo tư vấn của kỹ thuật viên.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/cach-tang-xich-xe-may/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/kiem-tra-va-can-chinh-xich-tai-xe-may-2047539.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/tac-hai-khi-chay-xe-xich-chung-2909237.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/phu-tung/phu-tung-detail?id_pt=12",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2352,
+        "title": "Xe máy điện có cần bằng lái không? Cách phân biệt theo công suất",
+        "why": "stale",
+        "content_hash": "8c5c200eacd4af62c6f482e36bad9112feb65d56c6bb4032d8dbae3c82a64876",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2544,
+        "title": "Xe máy phát tiếng kêu lạ khi chạy: nguyên nhân và cách kiểm tra",
+        "why": "stale",
+        "content_hash": "e4d2a8c9ffb2a022afd07f0d6cf92ad77c06cdf6fcad04bb7bae33b34bab81ad",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2547,
+        "title": "Xe máy cũ mua lại có cần đổi biển số không? Các trường hợp cần biết",
+        "why": "stale",
+        "content_hash": "8e256c8d7edb51c20df3e42a005401c4640d03564a72f2e47b73d39dfade3fea",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:38:59.624376+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "9e90be98687979d375f09c1a30ea41cdcf0bc031edad0b24ef39484449adc523",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
