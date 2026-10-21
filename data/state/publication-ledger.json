@@ -24979,7 +24979,7 @@
       }
     },
     "NT-001241": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T09:55:30.099497+00:00",
       "source_hash": "7c6416ae47a3d078ac167f77da2ed349a8c02aa4fa89349b22c822b532378038",
       "slug": "cot-co-lung-cu-bao-nhieu-bac-thang-cac-bao-neu-839-279-hay-gan-400-bac-va-cao-1-468-hay-1-470-m",
@@ -24995,8 +24995,37 @@
       "category_warning": null,
       "git_commit": "ee8cdb7d7fa24bc2ba89e576e7751976e0851152",
       "run_id": "39579774433",
-      "updated_at": "2026-10-21T09:55:34.306964+00:00",
-      "wp_id": 4546
+      "updated_at": "2026-10-21T09:55:40.168335+00:00",
+      "wp_id": 4546,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cot-co-lung-cu-bao-nhieu-bac-thang-cac-bao-neu-839-279-hay-gan-400-bac-va-cao-1-468-hay-1-470-m/",
+      "verified_at": "2026-10-21T09:55:40.168330+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4546,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cot-co-lung-cu-bao-nhieu-bac-thang-cac-bao-neu-839-279-hay-gan-400-bac-va-cao-1-468-hay-1-470-m/",
+        "categories": [
+          126
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cot-co-lung-cu-bao-nhieu-bac-thang-cac-bao-neu-839-279-hay-gan-400-bac-va-cao-1-468-hay-1-470-m/",
+        "seo_title": "Cột cờ Lũng Cú bao nhiêu bậc thang: 839 bậc hay gần 400 bậc?",
+        "seo_description": "Cột cờ Lũng Cú bao nhiêu bậc thang: so sánh 839 bậc, 279 + 135 bậc và gần 400 bậc theo ba bài báo, kèm độ cao 1.470 m hay 1.468 m, mốc 2010 và hai đợt hạn chế khách năm 2025.",
+        "checked_at": "2026-10-21T09:55:40.168313+00:00"
+      }
     }
   },
   "categories": {}
