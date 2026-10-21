@@ -20863,7 +20863,7 @@
       }
     },
     "NT-001065": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:36:23.487809+00:00",
       "source_hash": "d91ba90cd793b27ff4ce03a61eccb27f65adebcc4a38057424e7c3a429ee77eb",
       "slug": "dong-co-xe-may-dien-hoat-dong-the-nao-stato-roto-cam-bien-hall-va-vai-tro-cua-bo-dieu-khien",
@@ -20879,8 +20879,37 @@
       "category_warning": null,
       "git_commit": "61285248c7d8eca7c8250b277de2091dd2ca1bae",
       "run_id": "39544657734",
-      "updated_at": "2026-10-21T04:36:27.634166+00:00",
-      "wp_id": 4442
+      "updated_at": "2026-10-21T04:36:34.174949+00:00",
+      "wp_id": 4442,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/dong-co-xe-may-dien-hoat-dong-the-nao-stato-roto-cam-bien-hall-va-vai-tro-cua-bo-dieu-khien/",
+      "verified_at": "2026-10-21T04:36:34.174942+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4442,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/dong-co-xe-may-dien-hoat-dong-the-nao-stato-roto-cam-bien-hall-va-vai-tro-cua-bo-dieu-khien/",
+        "categories": [
+          168
+        ],
+        "canonical": "https://thuexemaynguyentu.com/dong-co-xe-may-dien-hoat-dong-the-nao-stato-roto-cam-bien-hall-va-vai-tro-cua-bo-dieu-khien/",
+        "seo_title": "Động cơ xe máy điện hoạt động thế nào: stato, rôto, cảm biến Hall",
+        "seo_description": "Động cơ xe máy điện hoạt động thế nào? Giải thích stato, rôto, cảm biến Hall và bộ điều khiển theo Dat Bike, Yamaha, VinFast, kèm tên gọi không chổi than và BLDC.",
+        "checked_at": "2026-10-21T04:36:34.174921+00:00"
+      }
     }
   },
   "categories": {}
