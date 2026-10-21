@@ -21010,7 +21010,7 @@
       }
     },
     "NT-001127": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:38:38.275343+00:00",
       "source_hash": "77cd7e35482283379f285a1bb4ed51ac1fe9383f53bc598801a7c6c8f05059c5",
       "slug": "xe-may-qua-cau-thanh-tri-khi-sua-chua-40-km-h-lam-dem-21h-5h-lan-xe-may-co-the-hep-den-25-12-2026",
@@ -21026,8 +21026,37 @@
       "category_warning": null,
       "git_commit": "61285248c7d8eca7c8250b277de2091dd2ca1bae",
       "run_id": "39544657734",
-      "updated_at": "2026-10-21T04:38:42.303207+00:00",
-      "wp_id": 4448
+      "updated_at": "2026-10-21T04:38:48.548108+00:00",
+      "wp_id": 4448,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-qua-cau-thanh-tri-khi-sua-chua-40-km-h-lam-dem-21h-5h-lan-xe-may-co-the-hep-den-25-12-2026/",
+      "verified_at": "2026-10-21T04:38:48.548101+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4448,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-qua-cau-thanh-tri-khi-sua-chua-40-km-h-lam-dem-21h-5h-lan-xe-may-co-the-hep-den-25-12-2026/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-qua-cau-thanh-tri-khi-sua-chua-40-km-h-lam-dem-21h-5h-lan-xe-may-co-the-hep-den-25-12-2026/",
+        "seo_title": "Xe máy qua cầu Thanh Trì khi sửa chữa: 40 km/h, làm đêm 21h–5h",
+        "seo_description": "Xe máy qua cầu Thanh Trì khi sửa chữa đến 25/12/2026: tốc độ tối đa 40 km/h, thi công đêm 21h–5h, làn xe máy có thể hẹp lại theo Tiền Phong và BNEWS.",
+        "checked_at": "2026-10-21T04:38:48.548081+00:00"
+      }
     }
   },
   "categories": {}
