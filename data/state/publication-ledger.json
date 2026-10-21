@@ -21402,7 +21402,7 @@
       }
     },
     "NT-001124": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:47:26.410496+00:00",
       "source_hash": "93e6ede842e90bca0d8c6abf2ec1c484bc89b26196eccbd75dab73551f51ef85",
       "slug": "ben-xe-yen-so-ha-noi-ben-khach-thu-7-o-vanh-dai-3-cach-nuoc-ngam-2-km-va-giap-bat-5-km",
@@ -21418,8 +21418,37 @@
       "category_warning": null,
       "git_commit": "855e0553874a93715a6dd956f505147b623fc191",
       "run_id": "39545575800",
-      "updated_at": "2026-10-21T04:47:30.313196+00:00",
-      "wp_id": 4456
+      "updated_at": "2026-10-21T04:47:35.845149+00:00",
+      "wp_id": 4456,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ben-xe-yen-so-ha-noi-ben-khach-thu-7-o-vanh-dai-3-cach-nuoc-ngam-2-km-va-giap-bat-5-km/",
+      "verified_at": "2026-10-21T04:47:35.845141+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4456,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ben-xe-yen-so-ha-noi-ben-khach-thu-7-o-vanh-dai-3-cach-nuoc-ngam-2-km-va-giap-bat-5-km/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ben-xe-yen-so-ha-noi-ben-khach-thu-7-o-vanh-dai-3-cach-nuoc-ngam-2-km-va-giap-bat-5-km/",
+        "seo_title": "Bến xe Yên Sở Hà Nội: vị trí, ngày mở, quy mô và điều chưa rõ",
+        "seo_description": "Bến xe Yên Sở Hà Nội ở đường Đỗ Mười, sát Vành đai 3, cách Nước Ngầm khoảng 2 km và Giáp Bát khoảng 5 km; các mốc 2/10 và 10/10/2026 và điều các bài báo chưa nêu.",
+        "checked_at": "2026-10-21T04:47:35.845121+00:00"
+      }
     }
   },
   "categories": {}
