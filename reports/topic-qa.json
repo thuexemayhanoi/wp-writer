@@ -20692,5 +20692,153 @@
     ],
     "at": "2026-10-21T05:30:15.243865+00:00",
     "topic_hash": "fca90968fc9f7766a65d01254cd154646a804bbe5d57e46042282359f879262d"
+  },
+  "NT-090007": {
+    "status": "REVIEW",
+    "errors": [],
+    "review": [
+      "reviewed full-content evidence stale or missing: 4419=a37a8a11d914d95a4836a00bb6f456390e5bc0af059effa38575778c56f2a2b2",
+      "near intent:NT-000022"
+    ],
+    "evidence_pages": {
+      "stale": [
+        4419
+      ],
+      "unreviewed": []
+    },
+    "nearest": [
+      {
+        "id": 2590,
+        "title": "Xe ga nào dễ lái cho người mới? Tiêu chí chọn xe an toàn hơn",
+        "similarity": 0.548
+      },
+      {
+        "id": 4419,
+        "title": "Điện Biên Phủ trong một ngày: đồi A1, hầm Đờ Cát, bảo tàng và Mường Phăng cách nhau bao xa",
+        "similarity": 0.528
+      },
+      {
+        "id": 4145,
+        "title": "Pin xe điện khi trời nóng và trời lạnh: quãng đường và tuổi thọ pin thay đổi ra sao?",
+        "similarity": 0.506
+      },
+      {
+        "id": 4129,
+        "title": "Kiểm tra xe máy điện trước khi chạy: sổ hướng dẫn liệt kê những hạng mục nào?",
+        "similarity": 0.503
+      },
+      {
+        "id": 4365,
+        "title": "Xe máy điện kêu hoặc nóng khi sạc: khi nào hãng nói bình thường và khi nào dặn rút sạc",
+        "similarity": 0.484
+      }
+    ],
+    "at": "2026-10-21T05:52:43.043918+00:00",
+    "topic_hash": "1535c6b2d512b42bd08eac2c58b2b92d3657f1e64c4379c28a8d346e1de6c8a9",
+    "intent_matches": [
+      {
+        "id": "NT-000022",
+        "severity": "REVIEW",
+        "weighted_jaccard": 0.696
+      }
+    ]
+  },
+  "NT-090008": {
+    "status": "REVIEW",
+    "errors": [],
+    "review": [
+      "near intent:WP4324",
+      "near intent:WP4145",
+      "near intent:WP4211",
+      "near intent:WP4204"
+    ],
+    "evidence_pages": {
+      "stale": [],
+      "unreviewed": []
+    },
+    "nearest": [
+      {
+        "id": 4090,
+        "title": "Chế độ lái Eco xe máy điện: Eco và Sport đổi gì, hãng mô tả ra sao về tốc độ và quãng đường?",
+        "similarity": 0.537
+      },
+      {
+        "id": 2538,
+        "title": "Bảo dưỡng xe máy Yamaha định kỳ: những hạng mục không nên bỏ qua",
+        "similarity": 0.537
+      },
+      {
+        "id": 2367,
+        "title": "Có Nên Sạc Xe Máy Điện Tại Nhà? Kinh Nghiệm An Toàn Khi Sử Dụng",
+        "similarity": 0.526
+      },
+      {
+        "id": 4390,
+        "title": "Số khung, số động cơ xe máy điện Dat Bike khắc ở đâu: VIN dưới yên và số trên cụm động cơ",
+        "similarity": 0.519
+      },
+      {
+        "id": 2359,
+        "title": "Pin Lithium Và Ắc Quy Xe Máy Điện Khác Nhau Như Thế Nào Khi Dùng?",
+        "similarity": 0.519
+      }
+    ],
+    "at": "2026-10-21T05:52:43.372689+00:00",
+    "topic_hash": "e74cb2a673d9525319406712ce6306039ad8aede665adb8435fb63f8da7bcaa1",
+    "intent_matches": [
+      {
+        "id": "WP4324",
+        "severity": "REVIEW",
+        "weighted_jaccard": 0.246
+      },
+      {
+        "id": "WP4145",
+        "severity": "REVIEW",
+        "weighted_jaccard": 0.155
+      },
+      {
+        "id": "WP4211",
+        "severity": "REVIEW",
+        "weighted_jaccard": 0.135
+      }
+    ]
+  },
+  "NT-090009": {
+    "status": "PASS",
+    "errors": [],
+    "review": [],
+    "evidence_pages": {
+      "stale": [],
+      "unreviewed": []
+    },
+    "nearest": [
+      {
+        "id": 4058,
+        "title": "Thuê xe máy khi chăm người nhà ở bệnh viện Hà Nội: tính ngày thuê và sắp lịch đi lại",
+        "similarity": 0.543
+      },
+      {
+        "id": 4129,
+        "title": "Kiểm tra xe máy điện trước khi chạy: sổ hướng dẫn liệt kê những hạng mục nào?",
+        "similarity": 0.517
+      },
+      {
+        "id": 4322,
+        "title": "Cập nhật phần mềm xe máy điện: điều kiện, cách làm và thông báo theo Dat Bike và VinFast",
+        "similarity": 0.506
+      },
+      {
+        "id": 2458,
+        "title": "Các dòng xe máy Yamaha: tổng hợp mẫu đáng chú ý tại Việt Nam",
+        "similarity": 0.504
+      },
+      {
+        "id": 3940,
+        "title": "Xe máy nào dùng được xăng E10? Cách đối chiếu thông tin của hãng theo đời xe",
+        "similarity": 0.503
+      }
+    ],
+    "at": "2026-10-21T05:52:43.717465+00:00",
+    "topic_hash": "22ac25201985f4c56f2adf231eab98dab16a57fdf58f6ae9c6443d3881e39d7e"
   }
 }
