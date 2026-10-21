@@ -23115,6 +23115,25 @@
         "seo_description": "Miễn lệ phí đổi biển số xe và giấy phép lái xe từ 15/8/2026 đến 28/2/2027: điều kiện VNeID mức 2, thủ tục được miễn, cấp mới chưa chắc và điểm cần kiểm tra.",
         "checked_at": "2026-10-21T05:18:10.999191+00:00"
       }
+    },
+    "NT-001216": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T05:18:29.475951+00:00",
+      "source_hash": "ac0f1befb75b6791dec63f5a8e1e594b2644a94a1b8a6d9ab8efe0fba6e2a17a",
+      "slug": "qcvn-31-2026-bxd-ve-ac-quy-xe-may-dien-dien-ap-dung-luong-toi-thieu-va-sau-phep-thu-an-toan",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 157,
+      "visible_hash": "b92e13bc59be989a633598f2108234cf42aaf73832676b3bda27c12a9f4d682e",
+      "first_paragraph": "QCVN 31:2026/BXD về ắc quy xe máy điện là quy chuẩn kỹ thuật quốc gia do Bộ Xây dựng ban hành kèm Thông tư 13/2026/TT-BXD, có hiệu lực từ ngày 09/10/2026, đặt yêu cầu cho ắc quy mới dùng cho xe mô tô điện, xe gắn máy điện: điện áp đo được không thấp hơn điện áp danh định và không vượt quá 15% so với giá trị đó, dung lượng đo được tối thiểu 90% dung lượng danh định C3 với ắc quy chì axit và 100% với ắc quy Niken metal hydride, Lithium-ion, cùng sáu phép thử an toàn để ắc quy không rò rỉ, cháy, nổ hoặc vỡ. Văn bản liệt kê đối tượng áp dụng là cơ sở sản xuất, lắp ráp, nhập khẩu ắc quy và các bên kiểm tra, thử nghiệm, chứng nhận; người dùng xe không nằm trong danh sách đó.",
+      "meta_title": "QCVN 31:2026/BXD về ắc quy xe máy điện: điện áp, dung lượng, phép thử",
+      "meta_description": "QCVN 31:2026/BXD về ắc quy xe máy điện, hiệu lực 09/10/2026: điện áp danh định, dung lượng C3 tối thiểu 90% hay 100%, sáu phép thử an toàn và phép nào không áp dụng cho chì axit.",
+      "intended_taxonomy_key": "electric",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "4022a17feb60320613408b0d829a96e6ba1aebaa",
+      "run_id": "39548159025",
+      "updated_at": "2026-10-21T05:18:29.477991+00:00"
     }
   },
   "categories": {}
