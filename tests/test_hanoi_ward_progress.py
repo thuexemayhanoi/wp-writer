@@ -99,5 +99,28 @@ class WardProgressTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,"HANOI_WARD_CATEGORY_UNVERIFIED"):
             reconcile(changed,[],{"posts":{}},{})
 
+    def test_existing_live_ward_article_is_a_hold_not_a_new_publication(self):
+        existing = [{"id": 4344, "url": URL,
+                     "slug": "thue-xe-may-phuong-bo-de-chon-honda-vision-hay-wave",
+                     "status": "publish", "categories": [182]}]
+        p = reconcile(progress(), [topic()], {"posts": {}},
+                      qa(status="FAIL"), existing)
+        self.assertEqual(p["published_new_articles"], 0)
+        self.assertEqual(p["existing_wordpress_collisions"], 1)
+        r = p["completed"][0]
+        self.assertEqual(r["publication_status"], "EXISTING_WORDPRESS_NEEDS_RECONCILIATION")
+        self.assertEqual(r["existing_wp_collision"]["wp_ids"], [4344])
+        self.assertIsNone(r.get("wp_post_id"))
+        good = reconcile(progress(), [topic()], ledger(), qa(), existing)
+        self.assertEqual(good["published_new_articles"], 1)
+        self.assertEqual(good["existing_wordpress_collisions"], 0)
+
+    def test_unpublished_collision_is_not_wrongly_credited(self):
+        draft = [{"id": 4344, "url": URL, "status": "draft", "categories": [182]}]
+        p = reconcile(progress(), [topic()], {"posts": {}}, qa(status="FAIL"), draft)
+        self.assertEqual(p["existing_wordpress_collisions"], 0)
+        self.assertEqual(p["published_new_articles"], 0)
+
+
 if __name__=="__main__":
     unittest.main()
