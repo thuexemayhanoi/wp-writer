@@ -24146,7 +24146,7 @@
       }
     },
     "NT-001169": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T09:22:26.157353+00:00",
       "source_hash": "d0d3aaf600bb7bcd41ee752b206d0f51d5009b15d6baa64a032c676dd3a71c57",
       "slug": "xe-so-vao-so-bi-keu-lach-cach-yamaha-neu-nam-nguyen-nhan-tu-la-bo-can-so-banh-rang-va-nhot",
@@ -24162,8 +24162,37 @@
       "category_warning": null,
       "git_commit": "cbe80ebcd156338c61617804e205c084d66ff636",
       "run_id": "39575610387",
-      "updated_at": "2026-10-21T09:22:30.076997+00:00",
-      "wp_id": 4529
+      "updated_at": "2026-10-21T09:22:36.110183+00:00",
+      "wp_id": 4529,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-so-vao-so-bi-keu-lach-cach-yamaha-neu-nam-nguyen-nhan-tu-la-bo-can-so-banh-rang-va-nhot/",
+      "verified_at": "2026-10-21T09:22:36.110175+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4529,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-so-vao-so-bi-keu-lach-cach-yamaha-neu-nam-nguyen-nhan-tu-la-bo-can-so-banh-rang-va-nhot/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-so-vao-so-bi-keu-lach-cach-yamaha-neu-nam-nguyen-nhan-tu-la-bo-can-so-banh-rang-va-nhot/",
+        "seo_title": "Xe số vào số bị kêu lạch cạch: 5 nguyên nhân theo Yamaha",
+        "seo_description": "Xe số vào số bị kêu lạch cạch có thể do lá bố, kẹt cần số, bánh răng mòn, nhớt sai hoặc không thay nhớt định kỳ theo Yamaha; kèm cách kiểm tra ban đầu.",
+        "checked_at": "2026-10-21T09:22:36.110156+00:00"
+      }
     }
   },
   "categories": {}
