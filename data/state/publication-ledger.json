@@ -24342,7 +24342,7 @@
       }
     },
     "NT-001199": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T09:24:44.634841+00:00",
       "source_hash": "7ea46bd292402f85fac5dbb4439c038697fcde7f47b3d79bdc449c23181acd77",
       "slug": "tre-em-duoi-6-tuoi-doi-mu-bao-hiem-dieu-33-luat-36-2024-noi-gi-va-vi-sao-nghi-dinh-168-mien-phat-nguoi-cho",
@@ -24358,8 +24358,37 @@
       "category_warning": null,
       "git_commit": "cbe80ebcd156338c61617804e205c084d66ff636",
       "run_id": "39575610387",
-      "updated_at": "2026-10-21T09:24:48.564249+00:00",
-      "wp_id": 4533
+      "updated_at": "2026-10-21T09:24:54.640376+00:00",
+      "wp_id": 4533,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tre-em-duoi-6-tuoi-doi-mu-bao-hiem-dieu-33-luat-36-2024-noi-gi-va-vi-sao-nghi-dinh-168-mien-phat-nguoi-cho/",
+      "verified_at": "2026-10-21T09:24:54.640368+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4533,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tre-em-duoi-6-tuoi-doi-mu-bao-hiem-dieu-33-luat-36-2024-noi-gi-va-vi-sao-nghi-dinh-168-mien-phat-nguoi-cho/",
+        "categories": [
+          159
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tre-em-duoi-6-tuoi-doi-mu-bao-hiem-dieu-33-luat-36-2024-noi-gi-va-vi-sao-nghi-dinh-168-mien-phat-nguoi-cho/",
+        "seo_title": "Trẻ em dưới 6 tuổi đội mũ bảo hiểm: Luật và Nghị định 168",
+        "seo_description": "Trẻ em dưới 6 tuổi đội mũ bảo hiểm: khoản 2 Điều 33 Luật 36/2024 không ghi ngoại lệ tuổi, Nghị định 168 miễn phạt người chở; bài nêu cả hai cách hiểu.",
+        "checked_at": "2026-10-21T09:24:54.640351+00:00"
+      }
     }
   },
   "categories": {}
