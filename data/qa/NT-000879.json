@@ -1,0 +1,176 @@
+{
+  "topic_id": "NT-000879",
+  "status": "PASS",
+  "source_sha256": "f1d3d10a39ee43ecec300190e68ac90238d7f2096a4524ae459d9af685a3914d",
+  "body_sha256": "ff85dcff643a669cd267a32281a45c73f49c317ff221cfdc4ccce80ea1b70095",
+  "word_count": 2792,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://global.honda/en/motorcycle-aftersales/plusone/202210.html",
+      "supports": "Honda Global (Plus ONE, 25/10/2022, tiếng Anh), bài How to Stand up a Fallen Motorcycle: trước khi dựng xe phải xoay chìa về OFF vì để động cơ chạy là nguy hiểm và nếu chìa ở ON thì nút đề có thể bị bấm nhầm; xe đổ sang trái thì gài số, xe đổ sang phải thì hạ chân chống nghiêng và giữ phanh trước; đứng sát xe, nhấc một nhịp bằng chân nhiều hơn tay; đứng xa chỉ dựa vào sức tay và có thể bị thương; sau khi dựng xe kiểm tra động cơ có nổ không, cần hoặc bàn đạp có gãy không, đèn có nứt vỡ không và liên hệ đại lý nếu thấy vấn đề. Trang viết cho xe có số, không riêng cho xe tay ga.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/motorcycle-aftersales/plusone/202210.html",
+      "supports": "Cùng bài Honda Global: nếu chìa khóa ở vị trí ON thì nút khởi động có thể bị bấm nhầm khi dựng xe, làm động cơ nổ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/motorcycle-aftersales/plusone/202208.html",
+      "supports": "Honda Global (Plus ONE, 25/8/2022, tiếng Anh), bài Daily Inspection Advice: hướng dẫn kiểm tra hằng ngày chung cho mọi xe, không viết riêng cho xe vừa bị đổ: phanh (hiệu quả, độ rơ, mức dầu phanh), lốp (vết nứt, vật lạ), khu vực động cơ (dầu, nước làm mát, rò rỉ) và đèn (pha cốt, xi nhan, đèn phanh, đèn hậu).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://global.honda/en/motorcycle-aftersales/plusone/202210.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/motorcycle-aftersales/plusone/202210.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/motorcycle-aftersales/plusone/202208.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2352,
+        "title": "Xe máy điện có cần bằng lái không? Cách phân biệt theo công suất",
+        "why": "stale",
+        "content_hash": "8c5c200eacd4af62c6f482e36bad9112feb65d56c6bb4032d8dbae3c82a64876",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2542,
+        "title": "Xe máy bị nóng máy nhanh do đâu? Những điểm nên kiểm tra đầu tiên",
+        "why": "stale",
+        "content_hash": "994e220a440cdb5f8e90756cb7e6d0319a7cf0377e7377b9dd7b0b64ed9e9f51",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4047,
+        "title": "Thuê xe máy Hà Nội 2 ngày 1 đêm: tính tiền theo mốc nào và trả xe lúc nào?",
+        "why": "stale",
+        "content_hash": "ff3360a833efc7ccb2778f577426a6ccdec6c16a3c8c30c58243ba9e9175e695",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:20:33.147283+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "25555bae6dbdd1ebffcfc4955f332065dc4327647b389af5e8ac6730124637aa",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

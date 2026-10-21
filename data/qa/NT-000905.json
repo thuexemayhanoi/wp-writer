@@ -1,0 +1,336 @@
+{
+  "topic_id": "NT-000905",
+  "status": "PASS",
+  "source_sha256": "62af0ffbe604ca9ea35d8f6fcad13a6907fcdcf78170fa1c4e1f51fdf4018d15",
+  "body_sha256": "bf414d09bbea8a15859280f4c608f9a2ef3b6c8d064ee70a3fd0e72eb5590eaa",
+  "word_count": 2064,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-the-ultraviolet-(uv)-index",
+      "supports": "WHO (trang đề ngày 20/6/2022): UVI là thước đo mức bức xạ cực tím, chỉ số càng cao càng dễ tổn thương da và mắt và càng ít thời gian để gây hại.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-the-ultraviolet-(uv)-index",
+      "supports": "WHO: chỉ số UV báo cáo là mức tối đa trong ngày, xảy ra trong khoảng bốn giờ quanh trưa mặt trời.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-the-ultraviolet-(uv)-index",
+      "supports": "WHO: trưa mặt trời nằm giữa 12 giờ trưa và 2 giờ chiều tùy vị trí địa lý và việc áp dụng giờ mùa hè.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-the-ultraviolet-(uv)-index",
+      "supports": "WHO: bảng hành động theo chỉ số UV 0-2, 3-7 và từ 8 trở lên.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-the-ultraviolet-(uv)-index",
+      "supports": "WHO: một số nước phát giờ cần chống nắng khi dự báo UV từ 3 trở lên vì nguy cơ tổn thương da tăng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-the-ultraviolet-(uv)-index",
+      "supports": "WHO: dưới mức UV 2 nguy cơ tổn thương hạn chế, thường không cần biện pháp bảo vệ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vov.gov.vn/tia-cuc-tim-tai-ha-noi-o-muc-nguy-hiem-dtnew-93753",
+      "supports": "VOV (cập nhật 25/9/2019, bài cũ): chỉ số UV ở Hà Nội ngày 18-19/5 lên tới 11, mức được đánh giá là nguy hiểm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vov.gov.vn/tia-cuc-tim-tai-ha-noi-o-muc-nguy-hiem-dtnew-93753",
+      "supports": "VOV: con số 11 là dự báo của trang World Weather Online của Anh.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vov.gov.vn/tia-cuc-tim-tai-ha-noi-o-muc-nguy-hiem-dtnew-93753",
+      "supports": "VOV dẫn EPA: chỉ số UV 0-2 là thấp, từ 11 trở lên là cực kỳ cao, nguy cơ bỏng da và mắt sau khoảng 15 phút tiếp xúc không được bảo vệ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vov.gov.vn/tia-cuc-tim-tai-ha-noi-o-muc-nguy-hiem-dtnew-93753",
+      "supports": "VOV dẫn EPA: không ra đường từ 10h sáng đến 16h chiều vì đó là lúc tia UV mạnh nhất.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vov.gov.vn/tia-cuc-tim-tai-ha-noi-o-muc-nguy-hiem-dtnew-93753",
+      "supports": "VOV dẫn EPA: dùng kem chống nắng SPF 30+ và thoa lại sau mỗi hai tiếng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "supports": "worlddata.info: giờ trưa mặt trời trung bình theo tháng ở Hà Nội, tháng 1 đến tháng 6.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "supports": "worlddata.info: giờ trưa mặt trời trung bình theo tháng ở Hà Nội, tháng 7 đến tháng 12.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-the-ultraviolet-(uv)-index",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-the-ultraviolet-(uv)-index",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-the-ultraviolet-(uv)-index",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-the-ultraviolet-(uv)-index",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-the-ultraviolet-(uv)-index",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-the-ultraviolet-(uv)-index",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vov.gov.vn/tia-cuc-tim-tai-ha-noi-o-muc-nguy-hiem-dtnew-93753",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vov.gov.vn/tia-cuc-tim-tai-ha-noi-o-muc-nguy-hiem-dtnew-93753",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vov.gov.vn/tia-cuc-tim-tai-ha-noi-o-muc-nguy-hiem-dtnew-93753",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vov.gov.vn/tia-cuc-tim-tai-ha-noi-o-muc-nguy-hiem-dtnew-93753",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vov.gov.vn/tia-cuc-tim-tai-ha-noi-o-muc-nguy-hiem-dtnew-93753",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.worlddata.info/asia/vietnam/sunset.php",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 562,
+        "title": "Cho Thuê Xe Máy ở Hà Nội – Giao Tận Nơi, Cọc Nhẹ | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "bef2a1222a528843870457f0106cf4c95a0e35e17def59be14a16504af267b6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2578,
+        "title": "Có nên mua xe máy cũ để đi ngắn hạn? Những điểm cần cân nhắc",
+        "why": "stale",
+        "content_hash": "2edb32e1617a09723b835349742c0b85646c6fe086eb11610946f0b304bbc7ff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2622,
+        "title": "Hoàng thành Thăng Long có gì? Giá vé, giờ mở cửa và cách tham quan",
+        "why": "stale",
+        "content_hash": "1d198ab7452c92604271329801956283c798cb81955fe394ef94bb66188faaf3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:30:26.798108+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "b3bcd09151acda32b2da93c6fd6ec66eb9a398f364ac01a4beddc2a2fa0754bc",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

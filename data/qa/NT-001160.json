@@ -1,0 +1,152 @@
+{
+  "topic_id": "NT-001160",
+  "status": "PASS",
+  "source_sha256": "374ab4ca29bd1c6ca65d269f2997c1d5f5b9900bbf56774cc0af2d71abf613e8",
+  "body_sha256": "db3475142a3ee1b9a9b159af60ac25ac21dc1e4b03ad4bd17f19ab6b5e64bbae",
+  "word_count": 2194,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://yamaha-motor.com.vn/dich-vu/kiem-tra-truoc-khi-giao-xe-pdi/",
+      "supports": "Trang Kiểm tra, tư vấn trước khi giao xe của Yamaha: kỹ thuật viên kiểm tra và tư vấn trước khi bàn giao; tám nhóm hạng mục cho xe gắn máy xăng, bảy nhóm cho xe máy điện; phiếu có ô điện áp và mã bình, áp suất lốp trước sau (kg/cm2), tốc độ không tải sau 10 phút chạy thử.",
+      "checked_at": "2026-10-20",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/dich-vu/bao-hanh-san-pham/",
+      "supports": "Trang Chính sách bảo hành của Yamaha: xe từ 400cc trở xuống bảo hành 03 năm hoặc 30.000 km và 09 lần bảo trì định kỳ miễn phí trong 03 năm (có điều kiện).",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://yamaha-motor.com.vn/dich-vu/kiem-tra-truoc-khi-giao-xe-pdi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/dich-vu/bao-hanh-san-pham/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 943,
+        "title": "Phố Cổ Hà Nội – Nơi Giao Thoa Văn Hóa Độc Đáo",
+        "why": "stale",
+        "content_hash": "94ed04161842457043a170418b41d6c31cc9b9522a3b85831cffd732ec7d987c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2483,
+        "title": "Honda Vision và Yamaha Janus: mẫu nào phù hợp người mới sử dụng?",
+        "why": "stale",
+        "content_hash": "6fc466c3b5378c825c8cf13864a995f0318d2f54654eae6377cfd6cd89a8bd59",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:33:39.300972+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "d3754e328b8a3ad9e4ccdfd6e398914849bb239ea57937a7ac426bf4c45cdbf7",
+  "incremental_key": "d80118777465011710caf602d99bdcd1c7dfb730c68efde689ac1f7a59615b63",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
