@@ -48,7 +48,9 @@ class FastlaneTests(unittest.TestCase):
         self.assertEqual(reusable_sources(plan(), [damaged], today=today), [])
 
     def test_excludes_assigned_plan_and_wp_duplicate(self):
-        rows = [plan(10), plan(11), plan(12)]
+        rows = [plan(10),
+                plan(11, title="Kỹ năng đi xe máy dưới mưa khi đường ngập"),
+                plan(12, title="Thực hành quan sát giao thông tại nút giao đường vòng xuyến")]
         registered = {**admitted(), "topic_id": "NT-090010", "title_plan_id": "TP-0010"}
         wp = [{"id": 4344, "title": rows[1]["title"], "status": "publish",
                "slug": "existing", "url": "https://thuexemaynguyentu.com/existing/"}]
