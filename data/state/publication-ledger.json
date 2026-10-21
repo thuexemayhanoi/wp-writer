@@ -22235,7 +22235,7 @@
       }
     },
     "NT-001189": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T05:00:22.730030+00:00",
       "source_hash": "2ca1d0407ec3df1a3280ecdf249e60046f0057432e0a9c33c7256bcdd519bf2d",
       "slug": "no-lop-khi-dang-chay-xe-may-giu-chac-tay-lai-khong-phanh-gap-nha-ga-tu-tu-va-phan-biet-lop-truoc-voi-lop-sau",
@@ -22251,8 +22251,37 @@
       "category_warning": null,
       "git_commit": "964458a089206e771b6fb04bf6694090cdfda34f",
       "run_id": "39546378277",
-      "updated_at": "2026-10-21T05:00:26.809609+00:00",
-      "wp_id": 4474
+      "updated_at": "2026-10-21T05:00:32.859348+00:00",
+      "wp_id": 4474,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/no-lop-khi-dang-chay-xe-may-giu-chac-tay-lai-khong-phanh-gap-nha-ga-tu-tu-va-phan-biet-lop-truoc-voi-lop-sau/",
+      "verified_at": "2026-10-21T05:00:32.859340+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4474,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/no-lop-khi-dang-chay-xe-may-giu-chac-tay-lai-khong-phanh-gap-nha-ga-tu-tu-va-phan-biet-lop-truoc-voi-lop-sau/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/no-lop-khi-dang-chay-xe-may-giu-chac-tay-lai-khong-phanh-gap-nha-ga-tu-tu-va-phan-biet-lop-truoc-voi-lop-sau/",
+        "seo_title": "Nổ lốp khi đang chạy xe máy: giữ chắc tay lái, không phanh, nhả ga",
+        "seo_description": "Nổ lốp khi đang chạy xe máy xử lý thế nào: các bước theo NZTA và Ontario, phân biệt lốp trước với lốp sau, nguyên nhân theo Báo Hà Tĩnh và cách phòng tránh trước chuyến đi.",
+        "checked_at": "2026-10-21T05:00:32.859310+00:00"
+      }
     }
   },
   "categories": {}
