@@ -28899,7 +28899,7 @@
       }
     },
     "NT-001398": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T15:03:57.472583+00:00",
       "source_hash": "0236f2613c63c6f4fcebb6d019bf0d8a30a4aed5908076f5a0ded7ede0ee6f25",
       "slug": "nguoi-khuyet-tat-di-buyt-metro-o-ha-noi-khao-sat-undp-ecue-ghi-238-diem-ngat-o-29-hanh-trinh",
@@ -28915,8 +28915,37 @@
       "category_warning": null,
       "git_commit": "018dfb7385f0f5a57cff206cc8daa1c2fbd7645c",
       "run_id": "39621413630",
-      "updated_at": "2026-10-21T15:04:02.500250+00:00",
-      "wp_id": 4655
+      "updated_at": "2026-10-21T15:04:09.451755+00:00",
+      "wp_id": 4655,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nguoi-khuyet-tat-di-buyt-metro-o-ha-noi-khao-sat-undp-ecue-ghi-238-diem-ngat-o-29-hanh-trinh/",
+      "verified_at": "2026-10-21T15:04:09.451748+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4655,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nguoi-khuyet-tat-di-buyt-metro-o-ha-noi-khao-sat-undp-ecue-ghi-238-diem-ngat-o-29-hanh-trinh/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nguoi-khuyet-tat-di-buyt-metro-o-ha-noi-khao-sat-undp-ecue-ghi-238-diem-ngat-o-29-hanh-trinh/",
+        "seo_title": "Người khuyết tật đi buýt, metro ở Hà Nội: khảo sát UNDP–ECUE",
+        "seo_description": "Người khuyết tật đi buýt, metro ở Hà Nội theo khảo sát UNDP–ECUE: 29 hành trình, điểm 3,4/5, 238 điểm ngắt, nguyên nhân do hạ tầng và 6 nhóm khuyến nghị.",
+        "checked_at": "2026-10-21T15:04:09.451731+00:00"
+      }
     }
   },
   "categories": {}
