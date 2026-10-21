@@ -1,0 +1,195 @@
+{
+  "topic_id": "NT-001218",
+  "status": "PASS",
+  "source_sha256": "68502e0ed8c5bd64634b4bf0c1baaf3b7695c273958cc651a5a684222e968e00",
+  "body_sha256": "9d38428b3145b9f7cdb43fa1a771968cc13f72ef55a58af29848cc8030c2312d",
+  "word_count": 2583,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://hcc.nghean.gov.vn/laws/detail/Nghi-dinh-so-110-2026-ND-CP-cua-Chinh-phu-Quy-dinh-chi-tiet-thi-hanh-mot-so-dieu-cua-Luat-Bao-ve-moi-truong-ve-trach-nhiem-tai-che-san-pham-bao-bi-va-trach-nhiem-xu-ly-chat-thai-cua-nha-san-xuat-nhap-khau-2518/",
+      "supports": "Trung tâm Phục vụ hành chính công tỉnh Nghệ An (gov.vn) ghi Nghị định 110/2026/NĐ-CP của Chính phủ, ngày ban hành 01/04/2026, ngày bắt đầu hiệu lực 25/05/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnbusiness.vn/mien-tai-che-pin-xe-dien-den-nam-2029.html",
+      "supports": "VnBusiness 09/4/2026: tỷ lệ tái chế bắt buộc với pin dùng cho xe điện và xe hybrid được điều chỉnh về 0% và áp dụng đến năm 2029; trước đây khoảng 8% từ năm 2024.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnbusiness.vn/mien-tai-che-pin-xe-dien-den-nam-2029.html",
+      "supports": "VnBusiness 09/4/2026: theo Nghị định 110, phương tiện giao thông cá nhân như xe máy, ôtô được loại khỏi danh mục buộc tái chế.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://hcc.nghean.gov.vn/laws/detail/Nghi-dinh-so-110-2026-ND-CP-cua-Chinh-phu-Quy-dinh-chi-tiet-thi-hanh-mot-so-dieu-cua-Luat-Bao-ve-moi-truong-ve-trach-nhiem-tai-che-san-pham-bao-bi-va-trach-nhiem-xu-ly-chat-thai-cua-nha-san-xuat-nhap-khau-2518/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnbusiness.vn/mien-tai-che-pin-xe-dien-den-nam-2029.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnbusiness.vn/mien-tai-che-pin-xe-dien-den-nam-2029.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 925,
+        "title": "Thuê Xe Điện Hà Nội – Chọn Xe Máy Điện Hay Xe Đạp Điện?",
+        "why": "stale",
+        "content_hash": "838c9d37eced2e74deeb9b1fb50c29d75e84a717e3f8dd7c79c8cc8599007bf1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2359,
+        "title": "Pin Lithium Và Ắc Quy Xe Máy Điện Khác Nhau Như Thế Nào Khi Dùng?",
+        "why": "stale",
+        "content_hash": "bad77afd59bcc932b63ec50e4d14d9c1f4c164d9587ac616c550e0651324d6c3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2424,
+        "title": "Dat Bike có những dòng xe nào? Tổng hợp các mẫu đáng chú ý",
+        "why": "stale",
+        "content_hash": "8547bbe19e35f1a3e720df88f2c659b744799c8f50115b8e6bfac67e10bf2889",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2596,
+        "title": "Những thứ cần kiểm tra trước khi nhận một chiếc xe máy sử dụng",
+        "why": "stale",
+        "content_hash": "26e2f6f6b72011f22f1c72c5d71add456975764e12b26f109f58c9c8e5e98b76",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4047,
+        "title": "Thuê xe máy Hà Nội 2 ngày 1 đêm: tính tiền theo mốc nào và trả xe lúc nào?",
+        "why": "stale",
+        "content_hash": "ff3360a833efc7ccb2778f577426a6ccdec6c16a3c8c30c58243ba9e9175e695",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:43:53.342684+00:00",
+  "live_links_checked": false,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "d1ad281e7af7824de91886dbf2e24a2d3116af69754bb81d52b37fd330bb00a0",
+  "incremental_key": "5a4470b62863807ecd0101c63ea739c08b5a2ee27325271aca8c98dcf27bffaa",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
