@@ -29340,7 +29340,7 @@
       }
     },
     "NT-001422": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T15:16:08.935125+00:00",
       "source_hash": "cd3c681fc98252d7c0de500121a8203eba9fdabc60bcc61b4852995334587c67",
       "slug": "goi-thue-xe-may-ba-ngay-doi-chieu-gia-niem-yet-voi-bao-gia-va-hop-dong-thuc-te",
@@ -29356,8 +29356,37 @@
       "category_warning": null,
       "git_commit": "81a82aa1136451c663884386ac8cf6a12a652ca1",
       "run_id": "39622613046",
-      "updated_at": "2026-10-21T15:16:14.851754+00:00",
-      "wp_id": 4666
+      "updated_at": "2026-10-21T15:16:22.214714+00:00",
+      "wp_id": 4666,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/goi-thue-xe-may-ba-ngay-doi-chieu-gia-niem-yet-voi-bao-gia-va-hop-dong-thuc-te/",
+      "verified_at": "2026-10-21T15:16:22.214707+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4666,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/goi-thue-xe-may-ba-ngay-doi-chieu-gia-niem-yet-voi-bao-gia-va-hop-dong-thuc-te/",
+        "categories": [
+          164
+        ],
+        "canonical": "https://thuexemaynguyentu.com/goi-thue-xe-may-ba-ngay-doi-chieu-gia-niem-yet-voi-bao-gia-va-hop-dong-thuc-te/",
+        "seo_title": "Gói thuê xe máy ba ngày: so giá niêm yết, báo giá và hợp đồng",
+        "seo_description": "Gói thuê xe máy ba ngày: giá niêm yết theo Luật Giá nghĩa là gì, cách đặt giá niêm yết, báo giá nhắn tin và hợp đồng cạnh nhau để so từng dòng trước khi đặt cọc.",
+        "checked_at": "2026-10-21T15:16:22.214690+00:00"
+      }
     }
   },
   "categories": {}
