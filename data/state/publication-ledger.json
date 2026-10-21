@@ -23313,7 +23313,7 @@
       }
     },
     "NT-001220": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T05:24:20.466039+00:00",
       "source_hash": "f0801facf9b94c418c8d3a4099cad923453d3e6649d64d1cb5a4085b19c04b0d",
       "slug": "hoan-cai-xe-may-xang-sang-dong-co-dien-thong-tu-30-2026-yeu-cau-cong-suat-90-120-va-chung-nhan-cai-tao",
@@ -23329,8 +23329,37 @@
       "category_warning": null,
       "git_commit": "82f05f16429dea3bc1e11f20e65d913b46c9fdf8",
       "run_id": "39549033428",
-      "updated_at": "2026-10-21T05:24:24.646850+00:00",
-      "wp_id": 4496
+      "updated_at": "2026-10-21T05:24:30.494564+00:00",
+      "wp_id": 4496,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/hoan-cai-xe-may-xang-sang-dong-co-dien-thong-tu-30-2026-yeu-cau-cong-suat-90-120-va-chung-nhan-cai-tao/",
+      "verified_at": "2026-10-21T05:24:30.494556+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4496,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/hoan-cai-xe-may-xang-sang-dong-co-dien-thong-tu-30-2026-yeu-cau-cong-suat-90-120-va-chung-nhan-cai-tao/",
+        "categories": [
+          169
+        ],
+        "canonical": "https://thuexemaynguyentu.com/hoan-cai-xe-may-xang-sang-dong-co-dien-thong-tu-30-2026-yeu-cau-cong-suat-90-120-va-chung-nhan-cai-tao/",
+        "seo_title": "Hoán cải xe máy xăng sang động cơ điện: công suất 90–120%, chứng nhận",
+        "seo_description": "Hoán cải xe máy xăng sang động cơ điện theo Thông tư 30/2026/TT-BXD: công suất 90–120% so với thiết kế, điều cấm, hồ sơ cải tạo, thời hạn ở cơ sở đăng kiểm và điểm chưa rõ.",
+        "checked_at": "2026-10-21T05:24:30.494534+00:00"
+      }
     }
   },
   "categories": {}
