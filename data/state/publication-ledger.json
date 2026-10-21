@@ -26790,6 +26790,25 @@
         "seo_description": "Thay cell hoặc độ pin xe điện ngoài hãng: Bosch dặn đổi pin không sửa, Yadea cảnh báo chập và mất bảo hành, PCCC nêu pin đã sửa có thể phồng; hỏi hãng trước khi nhờ tiệm.",
         "checked_at": "2026-10-21T14:13:44.564809+00:00"
       }
+    },
+    "NT-001309": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T14:14:19.580525+00:00",
+      "source_hash": "d56878df549ec52096244db160bd8392e2a1d67a33ecbed9338a88f3684fc357",
+      "slug": "do-xe-dien-o-dau-cho-thoang-cach-xe-xang-3-m-tranh-nang-co-bao-khoi-theo-pccc-va-bosch",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 160,
+      "visible_hash": "70ad3816702b8c97519e57a015bb2efc4de5517492722cc9f10e4b92bf01878a",
+      "first_paragraph": "Đỗ xe điện ở đâu cho thoáng và an toàn hơn? Theo các trang người viết đọc ngày 21/10/2026, nên chọn nơi thoáng có luồng khí lưu thông, khô ráo, tránh nắng trực tiếp, xa vật dễ cháy như rèm, giấy và xa xe xăng; khi sạc thì có người trông, không sạc qua đêm hoặc lúc vắng nhà. Một cán bộ Cục Cảnh sát PCCC và CNCH nói với báo Tuổi Trẻ năm 2023 rằng khu đỗ xe điện nên cách xe xăng ít nhất 3 m, còn Bosch dặn cất pin xe đạp điện ở nơi thông thoáng có báo khói. Các nguồn không nói giống nhau về mọi điểm, nên bài nêu rõ từng lời là của ai để bạn tự cân nhắc theo điều kiện nhà mình.",
+      "meta_title": "Đỗ xe điện ở đâu cho thoáng: lời dặn của PCCC, Bosch, Dat Bike",
+      "meta_description": "Đỗ xe điện ở đâu cho thoáng: nơi khô, tránh nắng, xa vật dễ cháy và xe xăng, có người trông khi sạc; PCCC, Tuổi Trẻ, Bosch, Dat Bike nói gì và chỗ nào không khớp.",
+      "intended_taxonomy_key": "electric-maintenance",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "505e67d8504b8c0483cb4ab34a9945024cd50874",
+      "run_id": "39614249837",
+      "updated_at": "2026-10-21T14:14:19.581865+00:00"
     }
   },
   "categories": {}
