@@ -25959,7 +25959,7 @@
       }
     },
     "NT-001244": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T10:13:32.541632+00:00",
       "source_hash": "3d63451a6a729368495332a5420d12f24e982d23e57d3ef22d929947babe65c4",
       "slug": "cho-tinh-khau-vai-hop-ngay-nao-27-3-am-lich-nam-2024-la-4-5-5-nam-2026-khai-mac-toi-12-5-o-xa-khau-vai",
@@ -25975,8 +25975,37 @@
       "category_warning": null,
       "git_commit": "d254586ab66c99b3a3fed992c9b0e2d0f0872538",
       "run_id": "39582063937",
-      "updated_at": "2026-10-21T10:13:36.534809+00:00",
-      "wp_id": 4570
+      "updated_at": "2026-10-21T10:13:42.487168+00:00",
+      "wp_id": 4570,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cho-tinh-khau-vai-hop-ngay-nao-27-3-am-lich-nam-2024-la-4-5-5-nam-2026-khai-mac-toi-12-5-o-xa-khau-vai/",
+      "verified_at": "2026-10-21T10:13:42.487162+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4570,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cho-tinh-khau-vai-hop-ngay-nao-27-3-am-lich-nam-2024-la-4-5-5-nam-2026-khai-mac-toi-12-5-o-xa-khau-vai/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cho-tinh-khau-vai-hop-ngay-nao-27-3-am-lich-nam-2024-la-4-5-5-nam-2026-khai-mac-toi-12-5-o-xa-khau-vai/",
+        "seo_title": "Chợ tình Khâu Vai họp ngày nào: 27/3 âm lịch và ngày dương lịch",
+        "seo_description": "Chợ tình Khâu Vai họp ngày nào: một lần mỗi năm vào 27/3 âm lịch; lễ hội 2024 diễn ra 4–5/5, năm 2026 khai mạc tối 12/5 ở xã Khâu Vai, kèm cách tự đối chiếu ngày dương lịch.",
+        "checked_at": "2026-10-21T10:13:42.487138+00:00"
+      }
     }
   },
   "categories": {}
