@@ -27380,7 +27380,7 @@
       }
     },
     "NT-001252": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:33:31.235796+00:00",
       "source_hash": "f3fde39c342d0ad8aefe3768a484891ab3c58a4725542e3a639942d25a9af165",
       "slug": "le-hoi-mua-vang-mu-cang-chai-2026-khai-mac-toi-29-hay-30-8-cac-bao-ghi-khac-nhau-du-luon-khau-pha-khai-mac-30-8",
@@ -27396,8 +27396,37 @@
       "category_warning": null,
       "git_commit": "5d5916120e7e17996739564d24ce1438feb833c5",
       "run_id": "39615692248",
-      "updated_at": "2026-10-21T14:33:35.746740+00:00",
-      "wp_id": 4602
+      "updated_at": "2026-10-21T14:33:42.648986+00:00",
+      "wp_id": 4602,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/le-hoi-mua-vang-mu-cang-chai-2026-khai-mac-toi-29-hay-30-8-cac-bao-ghi-khac-nhau-du-luon-khau-pha-khai-mac-30-8/",
+      "verified_at": "2026-10-21T14:33:42.648975+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4602,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/le-hoi-mua-vang-mu-cang-chai-2026-khai-mac-toi-29-hay-30-8-cac-bao-ghi-khac-nhau-du-luon-khau-pha-khai-mac-30-8/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/le-hoi-mua-vang-mu-cang-chai-2026-khai-mac-toi-29-hay-30-8-cac-bao-ghi-khac-nhau-du-luon-khau-pha-khai-mac-30-8/",
+        "seo_title": "Lễ hội Mùa vàng Mù Cang Chải 2026: khai mạc tối 29 hay 30/8 theo báo",
+        "seo_description": "Lễ hội Mùa vàng Mù Cang Chải 2026 khai mạc tối 29/8 hay 30/8: ba bài báo ghi khác nhau, mốc hội thi khèn, dù lượn Khau Phạ, Ultra Trail dự kiến và cách đọc lịch năm sau.",
+        "checked_at": "2026-10-21T14:33:42.648950+00:00"
+      }
     }
   },
   "categories": {}
