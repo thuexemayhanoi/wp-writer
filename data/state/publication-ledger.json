@@ -21304,7 +21304,7 @@
       }
     },
     "NT-001122": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:46:24.968335+00:00",
       "source_hash": "fdd1c5263768aaf29fa8c922310891684a1e10a807e433bec7178b44267c2704",
       "slug": "don-nguoi-than-o-san-bay-noi-bai-cho-o-bai-p1-hay-p3-vao-lan-nao-va-dung-toi-da-5-phut",
@@ -21320,8 +21320,37 @@
       "category_warning": null,
       "git_commit": "855e0553874a93715a6dd956f505147b623fc191",
       "run_id": "39545575800",
-      "updated_at": "2026-10-21T04:46:29.184517+00:00",
-      "wp_id": 4454
+      "updated_at": "2026-10-21T04:46:36.641887+00:00",
+      "wp_id": 4454,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/don-nguoi-than-o-san-bay-noi-bai-cho-o-bai-p1-hay-p3-vao-lan-nao-va-dung-toi-da-5-phut/",
+      "verified_at": "2026-10-21T04:46:36.641877+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4454,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/don-nguoi-than-o-san-bay-noi-bai-cho-o-bai-p1-hay-p3-vao-lan-nao-va-dung-toi-da-5-phut/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/don-nguoi-than-o-san-bay-noi-bai-cho-o-bai-p1-hay-p3-vao-lan-nao-va-dung-toi-da-5-phut/",
+        "seo_title": "Đón người thân ở sân bay Nội Bài: chờ bãi P1 hay P3, vào làn nào",
+        "seo_description": "Đón người thân ở sân bay Nội Bài bằng ô tô cá nhân: T1 chờ bãi P1 rồi vào làn 3, T2 chờ bãi P3 rồi vào làn 1, giới hạn dừng 5 phút và 3 phút, chỗ nguồn chưa khớp.",
+        "checked_at": "2026-10-21T04:46:36.641855+00:00"
+      }
     }
   },
   "categories": {}
