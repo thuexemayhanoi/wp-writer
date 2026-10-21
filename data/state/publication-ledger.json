@@ -23215,7 +23215,7 @@
       }
     },
     "NT-001218": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T05:19:41.619195+00:00",
       "source_hash": "68502e0ed8c5bd64634b4bf0c1baaf3b7695c273958cc651a5a684222e968e00",
       "slug": "tai-che-pin-xe-dien-theo-nghi-dinh-110-2026-pin-lithium-0-den-2029-ac-quy-chi-12-va-xe-may-ra-sao",
@@ -23231,8 +23231,37 @@
       "category_warning": null,
       "git_commit": "4022a17feb60320613408b0d829a96e6ba1aebaa",
       "run_id": "39548159025",
-      "updated_at": "2026-10-21T05:19:45.751120+00:00",
-      "wp_id": 4494
+      "updated_at": "2026-10-21T05:19:51.452038+00:00",
+      "wp_id": 4494,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tai-che-pin-xe-dien-theo-nghi-dinh-110-2026-pin-lithium-0-den-2029-ac-quy-chi-12-va-xe-may-ra-sao/",
+      "verified_at": "2026-10-21T05:19:51.452033+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4494,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tai-che-pin-xe-dien-theo-nghi-dinh-110-2026-pin-lithium-0-den-2029-ac-quy-chi-12-va-xe-may-ra-sao/",
+        "categories": [
+          169
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tai-che-pin-xe-dien-theo-nghi-dinh-110-2026-pin-lithium-0-den-2029-ac-quy-chi-12-va-xe-may-ra-sao/",
+        "seo_title": "Tái chế pin xe điện theo Nghị định 110/2026: lithium 0%, chì 12%",
+        "seo_description": "Tái chế pin xe điện theo Nghị định 110/2026/NĐ-CP: pin lithium 0%, ắc quy chì 12%, mốc điều chỉnh 2029, vị trí xe máy trong Phụ lục I và những chỗ các nguồn nói khác nhau.",
+        "checked_at": "2026-10-21T05:19:51.452014+00:00"
+      }
     }
   },
   "categories": {}
