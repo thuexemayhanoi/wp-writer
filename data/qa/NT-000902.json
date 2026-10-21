@@ -1,0 +1,279 @@
+{
+  "topic_id": "NT-000902",
+  "status": "PASS",
+  "source_sha256": "b2a3ea457114524efec32033c6d8123db43ffcfab423aa916cf081277fa8c93f",
+  "body_sha256": "0ae73eda4ba9c183f51e0503dfa619144ebaf8cecf4d5e226bbed1c6e85f8736",
+  "word_count": 2055,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.cdc.gov/niosh/motor-vehicle/driver-fatigue/index.html",
+      "supports": "CDC/NIOSH (Hoa Kỳ, trang cập nhật 3/4/2024): sau 17 giờ thức liên tục mức suy giảm tương đương BAC .05, sau 24 giờ tương đương .10.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/niosh/motor-vehicle/driver-fatigue/index.html",
+      "supports": "CDC/NIOSH: khi mệt lúc lái, dừng xe, uống cà phê và chợp mắt 15-30 phút; tác dụng chỉ tạm thời, cách chữa duy nhất là ngủ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/niosh/motor-vehicle/driver-fatigue/index.html",
+      "supports": "CDC/NIOSH: ngủ gật vi mô kéo dài từ một phần giây đến 30 giây là một hậu quả của lái xe khi mệt.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving/drowsy-driving-vs-drunk-driving",
+      "supports": "Sleep Foundation (trang cập nhật 5/10/2026): khoảng 18 giờ thức, phản ứng, cảnh giác, làm nhiều việc và phối hợp tay mắt so sánh được với BAC 0,05%.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving/drowsy-driving-vs-drunk-driving",
+      "supports": "Sleep Foundation: 20 giờ thức tương đương BAC 0,08%.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving/drowsy-driving-vs-drunk-driving",
+      "supports": "Sleep Foundation: 24 giờ thức tương đương BAC 0,1%.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving/drowsy-driving-vs-drunk-driving",
+      "supports": "Sleep Foundation: mệt mỏi chủ yếu làm giảm khả năng giữ cảnh giác với mặt đường và phản ứng phù hợp, khác với tác động của rượu.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving/drowsy-driving-vs-drunk-driving",
+      "supports": "Sleep Foundation dẫn nghiên cứu của AAA Foundation: ngủ 6-7 giờ mỗi đêm làm nguy cơ va chạm gấp đôi, dưới 5 giờ gấp đôi lần nữa.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving",
+      "supports": "Sleep Foundation (trang cập nhật 16/6/2026): chia chuyến thành các chặng nhỏ, không dựa vào những ngày lái quá dài.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving",
+      "supports": "Sleep Foundation: ngủ đủ đêm trước chuyến đi và lý tưởng là nhiều đêm trước khi lái.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.cdc.gov/niosh/motor-vehicle/driver-fatigue/index.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/niosh/motor-vehicle/driver-fatigue/index.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/niosh/motor-vehicle/driver-fatigue/index.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving/drowsy-driving-vs-drunk-driving",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving/drowsy-driving-vs-drunk-driving",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving/drowsy-driving-vs-drunk-driving",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving/drowsy-driving-vs-drunk-driving",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving/drowsy-driving-vs-drunk-driving",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sleepfoundation.org/drowsy-driving",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2374,
+        "title": "Xe máy điện đi mưa có an toàn không? Cách sử dụng đúng và bền",
+        "why": "stale",
+        "content_hash": "f86d1aa55c92feadb7f1f7424eb5a8881f374d07d09eba557a5974bddc4ab23f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4055,
+        "title": "Thuê 2 xe máy cùng lúc ở Hà Nội: chuẩn bị giấy tờ, giao nhận và hoàn cọc từng xe",
+        "why": "stale",
+        "content_hash": "029d48a9e900c89ea965179099932a9ddb51ee071f065aca1c29903fd58a13c9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:11:57.909141+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "e30fcb32c7f7f1e465b82f16b2753dbbbff262334746565c0d499414a68e1abd",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

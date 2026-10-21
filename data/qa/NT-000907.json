@@ -1,0 +1,265 @@
+{
+  "topic_id": "NT-000907",
+  "status": "PASS",
+  "source_sha256": "f74b44035151cef3efc12eadd6af11154da5ed4f690f3e5f7b5456cdc16abf12",
+  "body_sha256": "56b8aa594ef69032003c409ec11fe056a22cb5b0a95a31fea1dff79d1f3a69b0",
+  "word_count": 2561,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.weather.gov/mfl/beaufort",
+      "supports": "NWS (văn phòng Miami, đọc 21/10/2026): thang Beaufort do Đô đốc Francis Beaufort lập năm 1805, từ 0 đến cấp 12, vẫn dùng để ước lượng sức gió.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/mfl/beaufort",
+      "supports": "NWS: bảng cấp 6, 7, 8 với tốc độ dặm/giờ, hải lý/giờ và mô tả trên đất liền (cành lớn chuyển động, cả cây chuyển động, gãy cành).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://weather.metoffice.gov.uk/guides/what-does-this-forecast-mean",
+      "supports": "Met Office (đọc 21/10/2026): tốc độ gió trong bảng dự báo là gió trung bình; gió thực tế mạnh lên và lặng bớt quanh giá trị đó.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://weather.metoffice.gov.uk/guides/what-does-this-forecast-mean",
+      "supports": "Met Office: gió giật là tốc độ gió cao nhất giữa giờ đã ghi và đầu khoảng kế tiếp; gió từ 25 hải lý/giờ (29 dặm/giờ) được in đậm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://weather.metoffice.gov.uk/guides/what-does-this-forecast-mean",
+      "supports": "Met Office: thang Beaufort mô tả cường độ gió, dựa trên quan sát tình trạng mặt biển nhưng cũng dùng cho gió trên đất liền.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnmha.gov.vn/pho-bien-kien-thuc-125/hieu-ve-cap-gio-trong-bao-17340.html",
+      "supports": "Cục KTTV (đăng 6/9/2024; bản lưu ngày 19/10/2026): bão từ cấp 8; bão mạnh cấp 10–11, rất mạnh cấp 12–15, siêu bão từ cấp 16.",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnmha.gov.vn/pho-bien-kien-thuc-125/hieu-ve-cap-gio-trong-bao-17340.html",
+      "supports": "Cục KTTV (bản lưu ngày 19/10/2026): định nghĩa gió giật là gió có tốc độ tăng lên tức thời, xác định trong khoảng hai giây.",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnmha.gov.vn/pho-bien-kien-thuc-125/hieu-ve-cap-gio-trong-bao-17340.html",
+      "supports": "Cục KTTV (bản lưu ngày 19/10/2026): tác động của gió cấp 8 và cấp 9 trong bão, gồm giao thông đường bộ bị cản trở nặng nề ở cấp 9.",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.weather.gov/mfl/beaufort",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.weather.gov/mfl/beaufort",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://weather.metoffice.gov.uk/guides/what-does-this-forecast-mean",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://weather.metoffice.gov.uk/guides/what-does-this-forecast-mean",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://weather.metoffice.gov.uk/guides/what-does-this-forecast-mean",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnmha.gov.vn/pho-bien-kien-thuc-125/hieu-ve-cap-gio-trong-bao-17340.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnmha.gov.vn/pho-bien-kien-thuc-125/hieu-ve-cap-gio-trong-bao-17340.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnmha.gov.vn/pho-bien-kien-thuc-125/hieu-ve-cap-gio-trong-bao-17340.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2349,
+        "title": "Xe máy điện giá bao nhiêu? Các nhóm giá phổ biến hiện nay",
+        "why": "stale",
+        "content_hash": "7cbacf7f21600cfcf6443eefa80b95d210de98f76fea5ef8dade3a018e9a3e6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2428,
+        "title": "Dat Bike và VinFast: hãng nào phù hợp người thường xuyên đi xa?",
+        "why": "stale",
+        "content_hash": "8cb4cfc90c1561cb4c7dda67912d337a2c3081d39753b6d91e45717fd20b02b7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2430,
+        "title": "Yamaha NEO's có gì đáng chú ý? Đánh giá cho nhu cầu đi trong phố",
+        "why": "stale",
+        "content_hash": "cf4e466a86a7abedf9c23b34e3bafb0efbec07be3dbdd59491e1c722f75b7083",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2569,
+        "title": "Xe ga tốn xăng hơn xe số bao nhiêu khi sử dụng trong thành phố?",
+        "why": "stale",
+        "content_hash": "0e0403a44ff6ce7c19068379c2905b55413b5e6b08f79ca8a2a469fd0114f8e0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:12:40.766025+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "64751edccbbb453d8791d60de06835e2c4ac08b8eaffd27d5e54e8d8b5354d77",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
