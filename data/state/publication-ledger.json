@@ -28507,7 +28507,7 @@
       }
     },
     "NT-001371": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:54:53.034341+00:00",
       "source_hash": "bc2828dfb75d87f8c64e63d6d4f4141ac4f1052398c6efe9417383d95186f72a",
       "slug": "bo-xe-may-bi-tam-giu-khong-den-nhan-thong-bao-hai-lan-tich-thu-va-cuong-che-thi-hanh-phat",
@@ -28523,8 +28523,37 @@
       "category_warning": null,
       "git_commit": "98d66420ecdf9ed940584762b90f7fcdd5d15993",
       "run_id": "39619876214",
-      "updated_at": "2026-10-21T14:54:57.325528+00:00",
-      "wp_id": 4645
+      "updated_at": "2026-10-21T14:55:04.802287+00:00",
+      "wp_id": 4645,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bo-xe-may-bi-tam-giu-khong-den-nhan-thong-bao-hai-lan-tich-thu-va-cuong-che-thi-hanh-phat/",
+      "verified_at": "2026-10-21T14:55:04.802280+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4645,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bo-xe-may-bi-tam-giu-khong-den-nhan-thong-bao-hai-lan-tich-thu-va-cuong-che-thi-hanh-phat/",
+        "categories": [
+          163
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bo-xe-may-bi-tam-giu-khong-den-nhan-thong-bao-hai-lan-tich-thu-va-cuong-che-thi-hanh-phat/",
+        "seo_title": "Bỏ xe máy bị tạm giữ không đến nhận: thông báo hai lần, tịch thu",
+        "seo_description": "Bỏ xe máy bị tạm giữ không đến nhận thì sao: thông báo hai lần, quyết định tịch thu sau 01 tháng, cưỡng chế thi hành phạt, thời hiệu 01 năm và 0,05% mỗi ngày chậm nộp.",
+        "checked_at": "2026-10-21T14:55:04.802263+00:00"
+      }
     }
   },
   "categories": {}
