@@ -1,5 +1,5 @@
 # STEP 2 of the owner's simple flow (order 2026-10-17):
-#   W1–W9 write  ->  [QA >=85 + duplicate check + category]  ->  Publisher  ->  public WordPress.
+#   W1–W9 write  ->  [QA >=76 (SEO & Quality) + G1-G6 duplicate/category gates]  ->  Publisher  ->  public WordPress.
 # The main QA sweep is coalesced on a five-minute cadence so rapid Writer pushes cannot flood Actions.
 # A successful main schedule/dispatch QA run triggers "Universal WordPress Publisher" (step 3).
 # This workflow holds no WordPress credentials.
