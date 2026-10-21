@@ -1,0 +1,233 @@
+{
+  "topic_id": "NT-001306",
+  "status": "PASS",
+  "source_sha256": "be6e972c9aa2365802492be53824f9b4bc323ca8f56cd631e3867f332a537324",
+  "body_sha256": "f7604546af8e01e0e3961622e718ea9ea1baf617abd1267f618d6e8b755218ee",
+  "word_count": 2956,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "supports": "Hướng dẫn cộng đồng của Cục Cảnh sát PCCC và CNCH (24/05/2024) dặn sau khi sử dụng phải chờ bình điện nguội khoảng 20 phút rồi mới sạc, không sạc ngay sau khi chạy xe.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/ho-tro-bao-hanh/",
+      "supports": "Trang hỗ trợ của Yadea Việt Nam dặn xe mới đi về không cắm sạc ngay, chờ ít nhất 30 phút đến 1 tiếng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/xe-may-dien-la-gi/",
+      "supports": "Trang hỏi đáp của Yadea Việt Nam dặn không sạc ngay khi vừa tắt máy vì cụm pin còn rất nóng, để xe nghỉ khoảng 30 đến 45 phút rồi mới cắm sạc.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Sổ hướng dẫn Dat Bike Quantum nêu nhiệt độ tối đa cho phép khi sạc pin là 65°C, vượt mức đó pin từ chối sạc cho đến khi nhiệt độ hạ xuống.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/gui-xe-chung-cu-tim-giai-phap-an-toan-khong-the-cuc-doan-20230923090451457.htm",
+      "supports": "Tuổi Trẻ ngày 23/09/2023 dẫn cán bộ Cục Cảnh sát PCCC và CNCH: xe vừa di chuyển về không nên sạc ngay vì pin đang nóng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nhung-luu-y-khi-dung-xe-may-dien-4449161.html",
+      "supports": "Bài ký tên độc giả trên VnExpress (13/4/2022) viết rằng xe đi về nên chờ 1 đến 2 giờ cho pin nguội trước khi cắm sạc (ý kiến độc giả, không phải của hãng hay cơ quan).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/ho-tro-bao-hanh/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/xe-may-dien-la-gi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/gui-xe-chung-cu-tim-giai-phap-an-toan-khong-the-cuc-doan-20230923090451457.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nhung-luu-y-khi-dung-xe-may-dien-4449161.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2346,
+        "title": "Top xe máy điện đáng chú ý năm 2026 cho nhu cầu đi lại hằng ngày",
+        "why": "stale",
+        "content_hash": "c7b5d7cca26b30a8483ce0a25e3d5de7d28c48a734a1969cf0ab5c477bf745b6",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2449,
+        "title": "Honda Wave Alpha có bền không? Những điểm đáng chú ý khi sử dụng",
+        "why": "stale",
+        "content_hash": "d8a40ae58fa571dd85e22dbc1f6b3b5670560ab68d10c51d1f233ed1c128d0a7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2458,
+        "title": "Các dòng xe máy Yamaha: tổng hợp mẫu đáng chú ý tại Việt Nam",
+        "why": "stale",
+        "content_hash": "71b9706803d72159065f0491b44ef5886bbf30b4e2b5490efc3dc5486b8d9a1c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4053,
+        "title": "Thuê xe máy Hà Nội đi công tác 3–5 ngày: chọn xe, dự trù chi phí và sắp lịch trả",
+        "why": "stale",
+        "content_hash": "10253f4071ea9522162e7b5ec6b75dfc3be0638bd9a1598e0136485ddfd9dbec",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T10:26:37.716370+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "158416c876ede40eddaadce7cba1413aed2b967a848a22331a02d761f7d7d4f7",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
