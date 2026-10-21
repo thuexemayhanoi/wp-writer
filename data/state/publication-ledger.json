@@ -19981,7 +19981,7 @@
       }
     },
     "NT-000739": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:19:14.593239+00:00",
       "source_hash": "5eec1dc02062f099d7825228f8c1320176d48027279cbf4df23eee88863a1723",
       "slug": "deo-o-quy-ho-bang-xe-may-gan-50-km-tren-quoc-lo-4d-dinh-cong-troi-va-hai-suon-chenh-nhiet-do",
@@ -19997,8 +19997,37 @@
       "category_warning": null,
       "git_commit": "f51dccf09e632fe70acfd6dfbc7d931d064689e4",
       "run_id": "39542955374",
-      "updated_at": "2026-10-21T04:19:19.766042+00:00",
-      "wp_id": 4423
+      "updated_at": "2026-10-21T04:19:26.276540+00:00",
+      "wp_id": 4423,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/deo-o-quy-ho-bang-xe-may-gan-50-km-tren-quoc-lo-4d-dinh-cong-troi-va-hai-suon-chenh-nhiet-do/",
+      "verified_at": "2026-10-21T04:19:26.276533+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4423,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/deo-o-quy-ho-bang-xe-may-gan-50-km-tren-quoc-lo-4d-dinh-cong-troi-va-hai-suon-chenh-nhiet-do/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/deo-o-quy-ho-bang-xe-may-gan-50-km-tren-quoc-lo-4d-dinh-cong-troi-va-hai-suon-chenh-nhiet-do/",
+        "seo_title": "Đèo Ô Quy Hồ bằng xe máy: gần 50 km, đỉnh Cổng Trời và hai sườn",
+        "seo_description": "Đèo Ô Quy Hồ bằng xe máy trên quốc lộ 4D: gần 50 km, độ cao 2.000–2.073 m theo hai nguồn, hành trình từ Sa Pa qua thác Bạc và hai sườn chênh nhiệt độ.",
+        "checked_at": "2026-10-21T04:19:26.276515+00:00"
+      }
     }
   },
   "categories": {}
