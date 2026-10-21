@@ -22186,7 +22186,7 @@
       }
     },
     "NT-001188": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:59:57.187762+00:00",
       "source_hash": "30c15bf8b580d663ed5d4ea43732838916517d19586768149edf7a65df861736",
       "slug": "do-bao-ho-di-xe-may-ngoai-mu-bao-hiem-gang-tay-giay-co-cao-va-ao-khoac-co-giap-2-37-giay-so-voi-0-03-giay",
@@ -22202,8 +22202,37 @@
       "category_warning": null,
       "git_commit": "964458a089206e771b6fb04bf6694090cdfda34f",
       "run_id": "39546378277",
-      "updated_at": "2026-10-21T05:00:00.968725+00:00",
-      "wp_id": 4473
+      "updated_at": "2026-10-21T05:00:07.122885+00:00",
+      "wp_id": 4473,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/do-bao-ho-di-xe-may-ngoai-mu-bao-hiem-gang-tay-giay-co-cao-va-ao-khoac-co-giap-2-37-giay-so-voi-0-03-giay/",
+      "verified_at": "2026-10-21T05:00:07.122878+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4473,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/do-bao-ho-di-xe-may-ngoai-mu-bao-hiem-gang-tay-giay-co-cao-va-ao-khoac-co-giap-2-37-giay-so-voi-0-03-giay/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/do-bao-ho-di-xe-may-ngoai-mu-bao-hiem-gang-tay-giay-co-cao-va-ao-khoac-co-giap-2-37-giay-so-voi-0-03-giay/",
+        "seo_title": "Đồ bảo hộ đi xe máy ngoài mũ bảo hiểm: áo khoác, găng tay, giày cổ cao",
+        "seo_description": "Đồ bảo hộ đi xe máy ngoài mũ bảo hiểm gồm gì: áo khoác có giáp, găng tay, giày cổ cao, số giây 2,37 so với 0,03 do TAC dẫn từ MotoCAP và cách chọn theo NSW, NZTA.",
+        "checked_at": "2026-10-21T05:00:07.122855+00:00"
+      }
     }
   },
   "categories": {}
