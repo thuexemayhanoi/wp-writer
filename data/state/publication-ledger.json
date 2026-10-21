@@ -24636,7 +24636,7 @@
       }
     },
     "NT-001141": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T09:51:52.054341+00:00",
       "source_hash": "b9109bb47aaf357cedddc17ff747119d51a629e166a1262cb4d53aff1df11936",
       "slug": "xe-may-trong-ham-chui-kim-lien-di-dung-lan-co-vach-lien-va-vi-sao-csgt-xu-ly-xe-lan-sang-lan-o-to",
@@ -24652,8 +24652,37 @@
       "category_warning": null,
       "git_commit": "ee8cdb7d7fa24bc2ba89e576e7751976e0851152",
       "run_id": "39579774433",
-      "updated_at": "2026-10-21T09:51:57.407302+00:00",
-      "wp_id": 4539
+      "updated_at": "2026-10-21T09:52:03.554226+00:00",
+      "wp_id": 4539,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-trong-ham-chui-kim-lien-di-dung-lan-co-vach-lien-va-vi-sao-csgt-xu-ly-xe-lan-sang-lan-o-to/",
+      "verified_at": "2026-10-21T09:52:03.554219+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4539,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-trong-ham-chui-kim-lien-di-dung-lan-co-vach-lien-va-vi-sao-csgt-xu-ly-xe-lan-sang-lan-o-to/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-trong-ham-chui-kim-lien-di-dung-lan-co-vach-lien-va-vi-sao-csgt-xu-ly-xe-lan-sang-lan-o-to/",
+        "seo_title": "Xe máy trong hầm chui Kim Liên: đi đúng làn, vì sao CSGT xử lý",
+        "seo_description": "Xe máy trong hầm chui Kim Liên: hầm 4 làn, vạch kẻ liền tách ô tô và xe máy, ghi nhận ngày 20 và 21/10/2026 của Dân trí, SKĐS và khuyến cáo đi đúng làn.",
+        "checked_at": "2026-10-21T09:52:03.554203+00:00"
+      }
     }
   },
   "categories": {}
