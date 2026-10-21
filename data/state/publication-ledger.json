@@ -28554,6 +28554,25 @@
         "seo_description": "Bỏ xe máy bị tạm giữ không đến nhận thì sao: thông báo hai lần, quyết định tịch thu sau 01 tháng, cưỡng chế thi hành phạt, thời hiệu 01 năm và 0,05% mỗi ngày chậm nộp.",
         "checked_at": "2026-10-21T14:55:04.802263+00:00"
       }
+    },
+    "NT-001372": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T14:55:37.457631+00:00",
+      "source_hash": "679422d8a9fa24f55bec4c2082314b29e365464ec69070a140f54f68b433f82d",
+      "slug": "canh-sat-giao-thong-thu-tien-phat-tai-cho-chi-vung-kho-khan-hoac-ngoai-gio-va-phai-co-chung-tu",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 163,
+      "visible_hash": "917ae0edafcac933dc1800c176d48371b46800988f7e083c47cf733e7a113a6a",
+      "first_paragraph": "Cảnh sát giao thông thu tiền phạt tại chỗ chỉ nằm trong hai ngoại lệ mà Điều 78 Luật Xử lý vi phạm hành chính nêu ở khoản 2: ở vùng sâu, vùng xa, biên giới, miền núi mà việc đi lại gặp khó khăn, và khi xử phạt trên biển hoặc ngoài giờ hành chính. Quy tắc chung vẫn là nộp tiền phạt tại Kho bạc Nhà nước hoặc vào tài khoản Kho bạc ghi trong quyết định xử phạt. Người thu tiền phạt trực tiếp phải nộp lại Kho bạc (không quá 07 ngày ở vùng khó khăn, 02 ngày làm việc khi ngoài giờ hành chính hoặc trên biển), và trong mọi trường hợp thu tiền phạt, người thu phải giao chứng từ thu tiền phạt cho người nộp.",
+      "meta_title": "Cảnh sát giao thông thu tiền phạt tại chỗ: khi nào được, chứng từ",
+      "meta_description": "Cảnh sát giao thông thu tiền phạt tại chỗ chỉ ở vùng khó khăn hoặc ngoài giờ hành chính, phải nộp Kho bạc trong 07 ngày hoặc 02 ngày làm việc và giao chứng từ thu tiền.",
+      "intended_taxonomy_key": "rental-procedures",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "98d66420ecdf9ed940584762b90f7fcdd5d15993",
+      "run_id": "39619876214",
+      "updated_at": "2026-10-21T14:55:37.459005+00:00"
     }
   },
   "categories": {}
