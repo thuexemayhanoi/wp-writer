@@ -85,11 +85,20 @@ jobs:
               assert urlsplit(item['official_ward_source_url']).scheme=='https'
               assert (urlsplit(item['official_ward_source_url']).hostname or '').endswith('.hanoi.gov.vn')
               topic_id=item['topic_id']
-              assert item['wordpress_post_id'] is None and progress['wp_post_id'] is None
+              # pipeline-queue is an immutable editorial template; progress is a
+              # separate LIVE checkpoint after Writer QA and WordPress publication.
+              assert item['wordpress_post_id'] is None
               assert item['writer_lease_id'] is None and item['writer_receipt_id'] is None
-              assert item['writer_qa_status']=='NOT_SUBMITTED' and progress['writer_qa_status'] in ('NOT_SUBMITTED','NOT_VERIFIED_CURRENT_RUN')
+              assert item['writer_qa_status']=='NOT_SUBMITTED'
               assert item['g7_status']=='NOT_VERIFIED' and item['publication_status']=='GITHUB_EDITORIAL_ONLY'
-              assert progress['publication_status']=='GITHUB_EDITORIAL_ONLY'
+              assert progress['publication_status'] in (
+                  'GITHUB_EDITORIAL_ONLY', 'EXISTING_WORDPRESS_NEEDS_RECONCILIATION',
+                  'WORDPRESS_EXISTING_LIVE_VERIFIED', 'WORDPRESS_PUBLISHED_G7_PASS')
+              if progress['publication_status'] in (
+                      'WORDPRESS_EXISTING_LIVE_VERIFIED', 'WORDPRESS_PUBLISHED_G7_PASS'):
+                  assert isinstance(progress.get('wp_post_id'),int) and progress['wp_post_id']>0
+              else:
+                  assert progress.get('wp_post_id') is None
               if topic_id is None:
                   assert progress['topic_id'] is None
                   assert item['topic_factory_status']=='NOT_IMPORTED'
@@ -109,7 +118,37 @@ jobs:
                   total_imported+=1
           assert q['counts']['topic_factory_imported']==q['counts']['research_qa_pass']==total_imported
           assert p['imported_into_topic_factory']==total_imported
-          assert p['published_new_articles']==q['counts']['g7_verified']==0
-          assert q['counts']['writer_qa_pass']==0
-          print(f'PASS: {total_imported}/12 Research QA accepted, WordPress category 182>162>69, Writer QA and publication not falsely claimed')
+          # Queue baseline must not claim G7. Unlike the old baseline-only CI,
+          # the independent progress checkpoint is expected to evolve as real
+          # Publisher G7 posts and externally published ward posts are verified.
+          assert q['counts']['g7_verified']==q['counts']['writer_qa_pass']==0
+          from sys import path as sys_path
+          sys_path.insert(0, 'scripts')
+          from hanoi_ward_progress import reconcile
+          ledger_wp=load('data/state/publication-ledger.json')
+          inventory_wp=load('data/existing-content-inventory.json').get('items',[])
+          external_wp=load(root/'existing-live-evidence.json')
+          article_qa={}
+          for topic_id in topics:
+              article_path=Path('data/qa')/(topic_id+'.json')
+              if article_path.exists() and topics[topic_id].get('campaign_id')=='HN-51-WARDS':
+                  article_qa[topic_id]=load(article_path)
+          expected=reconcile(p,list(topics.values()),ledger_wp,article_qa,inventory_wp,external_wp)
+          assert expected['imported_into_topic_factory']==p['imported_into_topic_factory']
+          assert expected['published_new_articles']==p['published_new_articles']
+          assert expected['published_existing_articles']>=0
+          assert expected['published_live_ward_articles']==(
+              expected['published_new_articles']+expected['published_existing_articles'])
+          for recorded,verified in zip(p['completed'],expected['completed']):
+              # Any already-claimed G7/live receipt must remain supported by
+              # current hashes, exact category, canonical and authenticated WP.
+              if recorded['publication_status'] in (
+                      'WORDPRESS_PUBLISHED_G7_PASS','WORDPRESS_EXISTING_LIVE_VERIFIED'):
+                  assert verified['publication_status']==recorded['publication_status']
+                  assert verified.get('wp_post_id')==recorded.get('wp_post_id')
+              if recorded['publication_status']=='WORDPRESS_EXISTING_LIVE_VERIFIED':
+                  assert recorded['wp_post_id'] not in [
+                      (ledger_wp.get('posts') or {}).get(recorded.get('topic_id'),{}).get('wp_id')]
+          print('PASS: %s Research QA topics, %s factory G7, %s independently verified existing WP; 182>162>69' % (
+              total_imported,expected['published_new_articles'],expected['published_existing_articles']))
           PY

@@ -80,7 +80,10 @@ slug/URL as EXISTING_WORDPRESS_NEEDS_RECONCILIATION, preserving its WP ID,
 URL and categories as evidence. It does not mark a new G7 article or
 increment published_new_articles. The coordinator must check the existing
 post's real category (Term 182), URL/canonical, title, factual quality and
-indexability. Where it already meets the ward intent, reuse and improve
+indexability. An independently authenticated and public-HTML checked record
+in existing-live-evidence.json can set WORDPRESS_EXISTING_LIVE_VERIFIED;
+that is counted separately from original factory G7 posts and NEVER
+forges a G7 receipt. Where it already meets the ward intent, reuse and improve
 that existing URL through an independent approved SEO workflow; do not
 overwrite it from a duplicate draft. Preserve manuscript/research hashes
 and flag the redundant draft as HOLD for editorial follow-up.
@@ -95,3 +98,12 @@ weaken QA, or change old URLs/categories. Existing topic source records
 are used read-only. Merging this patch changes code/docs/tests only.
 If any CI test fails, keep the branch unmerged. Revert its single merge
 commit if regression is later confirmed. No database/WordPress restore needed.
+
+### Independent live evidence for first three ward posts (21 October 2026)
+
+WPVibe authenticated WordPress REST and the rendered public HTML head were read
+for #4344 (Bồ Đề), #4345 (Cửa Nam), #4346 (Hoàn Kiếm). Each is status=publish,
+category 182, canonical=self and robots=index,follow. Independent evidence is
+stored in existing-live-evidence.json; the Factory Publisher's G7 ledger is NOT
+modified. The progress reporter exposes both factory G7 count and existing
+verified WordPress count, plus the combined unique live ward total.
