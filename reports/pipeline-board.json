@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-21T05:19:58.803266+00:00",
+  "at": "2026-10-21T05:25:01.231336+00:00",
   "counts": {
     "WRITING": 19,
     "QA": 0,
-    "READY": 2,
+    "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 494
+    "VERIFIED": 496
   },
-  "ready_backlog": 2,
-  "in_flight": 24,
+  "ready_backlog": 0,
+  "in_flight": 22,
   "items": [
     {
       "topic_id": "NT-001140",
@@ -239,30 +239,6 @@
       "url": null,
       "qa_status": null,
       "seo_score": null
-    },
-    {
-      "topic_id": "NT-001219",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Lệ phí cấp biển số xe máy từ 1/1/2026: khu vực I 700.000, 1,4 triệu hay 2,8 triệu đồng theo trị giá xe",
-      "slot": "W7",
-      "session": "seodev-w51",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001220",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Hoán cải xe máy xăng sang động cơ điện: Thông tư 30/2026 yêu cầu công suất 90–120% và chứng nhận cải tạo",
-      "slot": "W7",
-      "session": "seodev-w51",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
     },
     {
       "topic_id": "NT-001101",
@@ -6189,6 +6165,30 @@
       "session": "seodev-w51",
       "wp_id": 4494,
       "url": "https://thuexemaynguyentu.com/tai-che-pin-xe-dien-theo-nghi-dinh-110-2026-pin-lithium-0-den-2029-ac-quy-chi-12-va-xe-may-ra-sao/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001219",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Lệ phí cấp biển số xe máy từ 1/1/2026: khu vực I 700.000, 1,4 triệu hay 2,8 triệu đồng theo trị giá xe",
+      "slot": "W7",
+      "session": "seodev-w51",
+      "wp_id": 4495,
+      "url": "https://thuexemaynguyentu.com/le-phi-cap-bien-so-xe-may-tu-1-1-2026-khu-vuc-i-700-000-1-4-trieu-hay-2-8-trieu-dong-theo-tri-gia-xe/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001220",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Hoán cải xe máy xăng sang động cơ điện: Thông tư 30/2026 yêu cầu công suất 90–120% và chứng nhận cải tạo",
+      "slot": "W7",
+      "session": "seodev-w51",
+      "wp_id": 4496,
+      "url": "https://thuexemaynguyentu.com/hoan-cai-xe-may-xang-sang-dong-co-dien-thong-tu-30-2026-yeu-cau-cong-suat-90-120-va-chung-nhan-cai-tao/",
       "qa_status": "PASS",
       "seo_score": 100
     },

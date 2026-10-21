@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-21T05:19:53.385095+00:00",
-  "attempted": 10,
-  "ready_backlog": 2,
+  "at": "2026-10-21T05:24:55.609884+00:00",
+  "attempted": 2,
+  "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -180,11 +180,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T05:14:25.931430+00:00",
+      "at": "2026-10-21T05:23:35.432156+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "aed4f1dec8de04d80299097db9bd0aab89bc70bfc2a44fac7d11c7ef3b4a04d1",
+      "inventory_sha256": "9bb71c0147002bb904e73639b3ed87715e3db8092706055ed5f920ecd1503d46",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -350,11 +350,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T05:14:32.868930+00:00",
+      "at": "2026-10-21T05:23:42.933649+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "aed4f1dec8de04d80299097db9bd0aab89bc70bfc2a44fac7d11c7ef3b4a04d1",
+      "inventory_sha256": "9bb71c0147002bb904e73639b3ed87715e3db8092706055ed5f920ecd1503d46",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -529,11 +529,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T05:14:38.887486+00:00",
+      "at": "2026-10-21T05:23:49.103960+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "aed4f1dec8de04d80299097db9bd0aab89bc70bfc2a44fac7d11c7ef3b4a04d1",
+      "inventory_sha256": "9bb71c0147002bb904e73639b3ed87715e3db8092706055ed5f920ecd1503d46",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -553,79 +553,15 @@
       }
     },
     {
-      "topic_id": "NT-001134",
+      "topic_id": "NT-001219",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
+      "category_id": 159,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
+      "intended_taxonomy_key": "legal",
       "category_warning": null
     },
     {
-      "topic_id": "NT-001135",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001138",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 176,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "urban-mobility",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001139",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 176,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "urban-mobility",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001196",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001200",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001215",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 171,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "driving-licence",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001216",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 157,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "electric",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001217",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 157,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "electric",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001218",
+      "topic_id": "NT-001220",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 169,
       "category_resolution": "EXACT",
