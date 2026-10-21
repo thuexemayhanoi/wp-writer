@@ -27821,7 +27821,7 @@
       }
     },
     "NT-001257": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:42:17.709847+00:00",
       "source_hash": "10c40824aa6aa12468bf4a088bb39e12253059f645da485aee4a6ee6a8946bd7",
       "slug": "vuon-quoc-gia-tam-dao-rong-bao-nhieu-ha-cac-bao-neu-gan-37-000-gan-35-000-hay-32-300-ha-nay-trai-tren-ba-tinh",
@@ -27837,8 +27837,37 @@
       "category_warning": null,
       "git_commit": "1548faa8656ddb9fa7d131e0a1f6d4da23750132",
       "run_id": "39618406418",
-      "updated_at": "2026-10-21T14:42:21.850341+00:00",
-      "wp_id": 4625
+      "updated_at": "2026-10-21T14:42:27.657087+00:00",
+      "wp_id": 4625,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/vuon-quoc-gia-tam-dao-rong-bao-nhieu-ha-cac-bao-neu-gan-37-000-gan-35-000-hay-32-300-ha-nay-trai-tren-ba-tinh/",
+      "verified_at": "2026-10-21T14:42:27.657081+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4625,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/vuon-quoc-gia-tam-dao-rong-bao-nhieu-ha-cac-bao-neu-gan-37-000-gan-35-000-hay-32-300-ha-nay-trai-tren-ba-tinh/",
+        "categories": [
+          126
+        ],
+        "canonical": "https://thuexemaynguyentu.com/vuon-quoc-gia-tam-dao-rong-bao-nhieu-ha-cac-bao-neu-gan-37-000-gan-35-000-hay-32-300-ha-nay-trai-tren-ba-tinh/",
+        "seo_title": "Vườn quốc gia Tam Đảo rộng bao nhiêu ha: 37.000, 35.000 hay 32.300 ha",
+        "seo_description": "Vườn quốc gia Tam Đảo rộng bao nhiêu ha: báo ghi gần 37.000 ha (2023), gần 35.000 (2024), 368,8 km2 (2025), 32.300 ha (2026); nay trải trên Phú Thọ, Thái Nguyên, Tuyên Quang.",
+        "checked_at": "2026-10-21T14:42:27.657064+00:00"
+      }
     }
   },
   "categories": {}
