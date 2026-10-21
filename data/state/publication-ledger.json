@@ -23411,7 +23411,7 @@
       }
     },
     "NT-001191": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T09:03:43.692193+00:00",
       "source_hash": "69f0f3c9d0ef70f1c61fd347778006769f4a8871df655708ac624984befb9aab",
       "slug": "phanh-xe-may-hong-khi-dang-chay-bop-nha-lien-tuc-ve-so-thap-bao-hieu-tim-loi-thoat-va-cach-phong-tu-truoc",
@@ -23427,8 +23427,37 @@
       "category_warning": null,
       "git_commit": "65f470c0a0edbff4fe00883c6c44fc28a8340ba8",
       "run_id": "39573497380",
-      "updated_at": "2026-10-21T09:03:48.158456+00:00",
-      "wp_id": 4512
+      "updated_at": "2026-10-21T09:03:54.343570+00:00",
+      "wp_id": 4512,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/phanh-xe-may-hong-khi-dang-chay-bop-nha-lien-tuc-ve-so-thap-bao-hieu-tim-loi-thoat-va-cach-phong-tu-truoc/",
+      "verified_at": "2026-10-21T09:03:54.343562+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4512,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/phanh-xe-may-hong-khi-dang-chay-bop-nha-lien-tuc-ve-so-thap-bao-hieu-tim-loi-thoat-va-cach-phong-tu-truoc/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/phanh-xe-may-hong-khi-dang-chay-bop-nha-lien-tuc-ve-so-thap-bao-hieu-tim-loi-thoat-va-cach-phong-tu-truoc/",
+        "seo_title": "Phanh xe máy hỏng khi đang chạy: các bước theo NZTA và cách phòng",
+        "seo_description": "Phanh xe máy hỏng khi đang chạy phải làm gì: bốn việc NZTA dặn, điều chỉnh cho xe tay ga và phanh cơ, vì sao phanh mất tác dụng và cách tự kiểm tra từ trước.",
+        "checked_at": "2026-10-21T09:03:54.343540+00:00"
+      }
     }
   },
   "categories": {}
