@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-21T06:05:06.961588+00:00",
+  "at": "2026-10-21T09:05:04.768867+00:00",
   "counts": {
-    "WRITING": 21,
+    "WRITING": 20,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 497
+    "VERIFIED": 500
   },
   "ready_backlog": 0,
-  "in_flight": 24,
+  "in_flight": 23,
   "items": [
     {
       "topic_id": "NT-001140",
@@ -139,18 +139,6 @@
       "title": "Nhớt chai Honda cho xe số và xe ga: dòng MA, MB và nhớt thùng phuy ở cửa hàng ủy nhiệm",
       "slot": "W1",
       "session": "seodev-w54",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001191",
-      "state": "WRITING",
-      "reason": "leased to seodev-w53",
-      "title": "Phanh xe máy hỏng khi đang chạy: bóp nhả liên tục, về số thấp, báo hiệu, tìm lối thoát và cách phòng từ trước",
-      "slot": "W4",
-      "session": "seodev-w53",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -6073,6 +6061,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001191",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Phanh xe máy hỏng khi đang chạy: bóp nhả liên tục, về số thấp, báo hiệu, tìm lối thoát và cách phòng từ trước",
+      "slot": "W4",
+      "session": "seodev-w53",
+      "wp_id": 4512,
+      "url": "https://thuexemaynguyentu.com/phanh-xe-may-hong-khi-dang-chay-bop-nha-lien-tuc-ve-so-thap-bao-hieu-tim-loi-thoat-va-cach-phong-tu-truoc/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001196",
       "state": "VERIFIED",
       "reason": "publish",
@@ -6261,6 +6261,30 @@
       "session": "s-gpt6-excelpilot03-20261021",
       "wp_id": 4497,
       "url": "https://thuexemaynguyentu.com/den-pha-xe-may-bi-yeu-khi-nao-nen-thay/",
+      "qa_status": "PASS",
+      "seo_score": 95
+    },
+    {
+      "topic_id": "NT-090011",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Giấy phép và xe máy 50cc: những hiểu nhầm phổ biến người lái nên tránh",
+      "slot": "W8",
+      "session": "s-gpt6-excelpilot04-20261021",
+      "wp_id": 4513,
+      "url": "https://thuexemaynguyentu.com/giay-phep-xe-may-50cc-giay-to-bao-hiem-thuong-nham/",
+      "qa_status": "PASS",
+      "seo_score": 95
+    },
+    {
+      "topic_id": "NT-090012",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Bảo tàng Phụ nữ Việt Nam: cách điều chỉnh lịch trình khi có trẻ nhỏ đi cùng",
+      "slot": "W8",
+      "session": "s-gpt6-excelpilot04-20261021",
+      "wp_id": 4514,
+      "url": "https://thuexemaynguyentu.com/bao-tang-phu-nu-viet-nam-lich-trinh-cho-gia-dinh-co-tre/",
       "qa_status": "PASS",
       "seo_score": 95
     }
