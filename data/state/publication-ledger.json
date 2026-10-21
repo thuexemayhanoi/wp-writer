@@ -26743,7 +26743,7 @@
       }
     },
     "NT-001308": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:13:32.266083+00:00",
       "source_hash": "2dad5c705a5a9a6c9470352fa30acbe7ad71f0de2d2b6b026642e07be53c0e73",
       "slug": "thay-cell-hoac-do-pin-xe-dien-ngoai-hang-bosch-dan-doi-pin-khong-sua-yadea-canh-bao-chap",
@@ -26759,8 +26759,37 @@
       "category_warning": null,
       "git_commit": "505e67d8504b8c0483cb4ab34a9945024cd50874",
       "run_id": "39614249837",
-      "updated_at": "2026-10-21T14:13:38.220242+00:00",
-      "wp_id": 4586
+      "updated_at": "2026-10-21T14:13:44.564834+00:00",
+      "wp_id": 4586,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/thay-cell-hoac-do-pin-xe-dien-ngoai-hang-bosch-dan-doi-pin-khong-sua-yadea-canh-bao-chap/",
+      "verified_at": "2026-10-21T14:13:44.564827+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4586,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/thay-cell-hoac-do-pin-xe-dien-ngoai-hang-bosch-dan-doi-pin-khong-sua-yadea-canh-bao-chap/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/thay-cell-hoac-do-pin-xe-dien-ngoai-hang-bosch-dan-doi-pin-khong-sua-yadea-canh-bao-chap/",
+        "seo_title": "Thay cell hoặc độ pin xe điện ngoài hãng: hãng và PCCC dặn gì",
+        "seo_description": "Thay cell hoặc độ pin xe điện ngoài hãng: Bosch dặn đổi pin không sửa, Yadea cảnh báo chập và mất bảo hành, PCCC nêu pin đã sửa có thể phồng; hỏi hãng trước khi nhờ tiệm.",
+        "checked_at": "2026-10-21T14:13:44.564809+00:00"
+      }
     }
   },
   "categories": {}
