@@ -22,7 +22,8 @@ def progress():
       "imported_into_topic_factory":0,"published_new_articles":0}
 
 def topic(key="hanoi-ward-rentals"):
-    return {"topic_id":"NT-001234","campaign_id":"HN-51-WARDS",
+    return {"topic_id":"NT-001234","title":"Thuê xe máy phường Bồ Đề: chọn Honda Vision hay Wave, nhận xe ở đâu?",
+      "campaign_id":"HN-51-WARDS",
       "campaign_editorial_file":FILE,"taxonomy_key":key,"topic_qa_status":"PLANNED",
       "canonical_target":URL}
 
