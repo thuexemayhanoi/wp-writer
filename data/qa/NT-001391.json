@@ -1,0 +1,183 @@
+{
+  "topic_id": "NT-001391",
+  "status": "PASS",
+  "source_sha256": "fa4eceebfe455c2fb1ccaa01e271daf112d00b3952673368ea8f8c70e701f097",
+  "body_sha256": "1c8313f415ec166aad1ece422d3427ed13e5bb5fc1558561731cc0e4c3190268",
+  "word_count": 2583,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vovgiaothong.vn/newsaudio/csgt-ha-noi-siet-kiem-soat-dung-do-xe-quanh-pho-co-d56156.html",
+      "supports": "VOV Giao thông (20/10/2026): CSGT phối hợp Công an phường Hoàn Kiếm kiểm tra bãi trông giữ xe, quán ăn, cà phê; 15–19/10 lập 38 biên bản và gần 50 trường hợp xử lý nguội.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baoxaydung.vn/ha-noi-canh-sat-den-tung-bai-giu-xe-quan-sa-o-pho-co-chan-chinh-xe-dung-do-trai-quy-dinh-192261019133947818.htm",
+      "supports": "Báo Xây dựng (19/10/2026): CSGT đến từng bãi giữ xe, quán xá ở phố cổ; vi phạm chủ yếu ở xe kinh doanh vận tải, taxi dịch vụ, xe đưa đón người; xe dừng đỗ lâu không liên lạc được bị cẩu kéo.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vovgiaothong.vn/newsaudio/csgt-ha-noi-siet-kiem-soat-dung-do-xe-quanh-pho-co-d56156.html",
+      "supports": "VOV Giao thông (20/10/2026): CSGT dùng tuần tra trực tiếp kết hợp camera AI và thiết bị kỹ thuật nghiệp vụ ghi hình làm căn cứ xử lý.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baoxaydung.vn/ha-noi-canh-sat-den-tung-bai-giu-xe-quan-sa-o-pho-co-chan-chinh-xe-dung-do-trai-quy-dinh-192261019133947818.htm",
+      "supports": "Báo Xây dựng (19/10/2026): xe dừng, đỗ lâu mà tài xế không liên lạc được bị cẩu kéo và xử lý phạt nguội.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vovgiaothong.vn/newsaudio/csgt-ha-noi-siet-kiem-soat-dung-do-xe-quanh-pho-co-d56156.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baoxaydung.vn/ha-noi-canh-sat-den-tung-bai-giu-xe-quan-sa-o-pho-co-chan-chinh-xe-dung-do-trai-quy-dinh-192261019133947818.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vovgiaothong.vn/newsaudio/csgt-ha-noi-siet-kiem-soat-dung-do-xe-quanh-pho-co-d56156.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baoxaydung.vn/ha-noi-canh-sat-den-tung-bai-giu-xe-quan-sa-o-pho-co-chan-chinh-xe-dung-do-trai-quy-dinh-192261019133947818.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2615,
+        "title": "Phố cổ Hà Nội có gì chơi? 15 địa điểm, món ngon và lịch trình đi bộ",
+        "why": "stale",
+        "content_hash": "e9addb8498afd5d9d13bd70c14aa17da5a5746f6ac0ac5ba4247af9d1591d5ff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4053,
+        "title": "Thuê xe máy Hà Nội đi công tác 3–5 ngày: chọn xe, dự trù chi phí và sắp lịch trả",
+        "why": "stale",
+        "content_hash": "10253f4071ea9522162e7b5ec6b75dfc3be0638bd9a1598e0136485ddfd9dbec",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T14:45:39.856543+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "74a21e130a6e4acd18f3b0c2ddf4cef9c6ce1bde171fee6f7cc8720e1dda8cf8",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

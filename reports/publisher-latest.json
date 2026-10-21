@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-21T14:36:54.171747+00:00",
-  "attempted": 7,
-  "ready_backlog": 0,
+  "at": "2026-10-21T14:45:54.867475+00:00",
+  "attempted": 10,
+  "ready_backlog": 3,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -180,11 +180,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T14:32:42.516268+00:00",
+      "at": "2026-10-21T14:40:20.298208+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "5e0d0465c7efb49d05ad0ab545519ce2dfe78590a988be5ab8805dd8c5d1a33f",
+      "inventory_sha256": "99b9d062663036ae3a7451a0bccd1f2b078b41f7e2772a41f382a9dc6930428d",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -350,11 +350,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T14:32:51.440634+00:00",
+      "at": "2026-10-21T14:40:27.601470+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "5e0d0465c7efb49d05ad0ab545519ce2dfe78590a988be5ab8805dd8c5d1a33f",
+      "inventory_sha256": "99b9d062663036ae3a7451a0bccd1f2b078b41f7e2772a41f382a9dc6930428d",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -529,11 +529,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T14:32:59.103646+00:00",
+      "at": "2026-10-21T14:40:33.890657+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "5e0d0465c7efb49d05ad0ab545519ce2dfe78590a988be5ab8805dd8c5d1a33f",
+      "inventory_sha256": "99b9d062663036ae3a7451a0bccd1f2b078b41f7e2772a41f382a9dc6930428d",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -553,31 +553,15 @@
       }
     },
     {
-      "topic_id": "NT-001251",
+      "topic_id": "NT-001104",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
+      "category_id": 182,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
+      "intended_taxonomy_key": "hanoi-ward-rentals",
       "category_warning": null
     },
     {
-      "topic_id": "NT-001252",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001253",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001256",
+      "topic_id": "NT-001254",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 126,
       "category_resolution": "EXACT",
@@ -585,15 +569,39 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001335",
+      "topic_id": "NT-001255",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 172,
+      "category_id": 126,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "hanoi-travel",
+      "intended_taxonomy_key": "destinations",
       "category_warning": null
     },
     {
-      "topic_id": "NT-001366",
+      "topic_id": "NT-001257",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 126,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "destinations",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001258",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 175,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "trip-planning",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001361",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 163,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "rental-procedures",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001362",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 162,
       "category_resolution": "EXACT",
@@ -601,7 +609,23 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001396",
+      "topic_id": "NT-001369",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 163,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "rental-procedures",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001370",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 163,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "rental-procedures",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001391",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 176,
       "category_resolution": "EXACT",

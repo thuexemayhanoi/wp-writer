@@ -1,0 +1,279 @@
+{
+  "topic_id": "NT-001370",
+  "status": "PASS",
+  "source_sha256": "ae3231a9c9f067553cabe115ab0df89a30f41494eb3337e7f3ced8faf9dc4c5b",
+  "body_sha256": "9ff5d79c013948d043bbefa98627659602aeb4699dbd780a6a719f56ee51dbf1",
+  "word_count": 2824,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://luatvietnam.vn/xay-dung/nghi-dinh-67-2023-nd-cp-bao-hiem-bat-buoc-cua-chu-xe-co-gioi-bao-hiem-chay-no-266177-d1.html",
+      "supports": "Bản Nghị định 67/2023/NĐ-CP đăng trên luatvietnam.vn (trang luật tư nhân): khoản 4 Điều 12 chủ xe gửi thông báo tai nạn bằng văn bản hoặc điện tử trong 5 ngày làm việc kể từ ngày xảy ra tai nạn, trừ bất khả kháng hoặc trở ngại khách quan.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/xay-dung/nghi-dinh-67-2023-nd-cp-bao-hiem-bat-buoc-cua-chu-xe-co-gioi-bao-hiem-chay-no-266177-d1.html",
+      "supports": "Điều 13 Nghị định 67/2023/NĐ-CP: bên mua bảo hiểm, người được bảo hiểm thu thập khoản 1, 2, 3, 4 và 7; doanh nghiệp bảo hiểm thu thập khoản 5 và 6.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/xay-dung/nghi-dinh-67-2023-nd-cp-bao-hiem-bat-buoc-cua-chu-xe-co-gioi-bao-hiem-chay-no-266177-d1.html",
+      "supports": "Điều 7 Nghị định 67/2023/NĐ-CP: loại trừ thiệt hại đối với tài sản do lái xe có nồng độ cồn vượt mức hoặc dùng ma túy, chất kích thích bị cấm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=208599",
+      "supports": "Hệ thống văn bản của Chính phủ (vanban.chinhphu.vn): Nghị định 67/2023/NĐ-CP ban hành 06-09-2023, có hiệu lực 06-09-2023.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=218555",
+      "supports": "Hệ thống văn bản của Chính phủ: Nghị định 220/2026/NĐ-CP ban hành 22-06-2026, hiệu lực 01-07-2026, sửa đổi, bổ sung một số điều của Nghị định 67/2023/NĐ-CP.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/xay-dung/nghi-dinh-220-2026-nd-cp-sua-doi-bao-hiem-bat-buoc-va-trach-nhiem-dan-su-xe-co-gioi-438421-d1.html",
+      "supports": "Bản toàn văn Nghị định 220/2026/NĐ-CP đăng trên luatvietnam.vn: các điều sửa là Điều 32, 33, 34, 37, 38, 45, 58 về bảo hiểm công trình xây dựng; thay phụ lục; đổi cụm từ người thứ ba thành bên thứ ba; hiệu lực 01/7/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://csgt.bocongan.gov.vn/index.php/tintuc/nghi-dinh-67-don-gian-hoa-thu-tuc-quy-trinh-va-ho-so-boi-thuong-bao-hiem.html",
+      "supports": "Cục Cảnh sát giao thông (31/08/2023): thời hạn thanh toán bồi thường là 15 ngày kể từ khi nhận đủ hồ sơ hợp lệ; công an cung cấp bản sao tài liệu trong 5 ngày làm việc sau khi có kết quả điều tra; chủ xe có thể nộp bản ảnh chụp tài liệu.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://csgt.bocongan.gov.vn/index.php/tintuc/nghi-dinh-67-don-gian-hoa-thu-tuc-quy-trinh-va-ho-so-boi-thuong-bao-hiem.html",
+      "supports": "Cục Cảnh sát giao thông (31/08/2023): công an có trách nhiệm cung cấp bản sao tài liệu liên quan trong 5 ngày làm việc kể từ ngày có kết quả điều tra tai nạn giao thông.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baochinhphu.vn/bao-dam-chi-tra-bao-hiem-xe-co-gioi-nhanh-gon-chinh-xac-102241004171219297.htm",
+      "supports": "Bộ Tài chính trả lời cử tri (đăng 04/10/2024): doanh nghiệp bảo hiểm hướng dẫn hồ sơ trong 1 giờ, giám định trong 24 giờ, tạm ứng bồi thường trong 3 ngày làm việc.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baochinhphu.vn/bao-dam-chi-tra-bao-hiem-xe-co-gioi-nhanh-gon-chinh-xac-102241004171219297.htm",
+      "supports": "Bộ Tài chính: doanh nghiệp bảo hiểm phải thiết lập đường dây nóng 24/7 và ghi âm cuộc gọi đến đường dây nóng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://luatvietnam.vn/xay-dung/nghi-dinh-67-2023-nd-cp-bao-hiem-bat-buoc-cua-chu-xe-co-gioi-bao-hiem-chay-no-266177-d1.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/xay-dung/nghi-dinh-67-2023-nd-cp-bao-hiem-bat-buoc-cua-chu-xe-co-gioi-bao-hiem-chay-no-266177-d1.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/xay-dung/nghi-dinh-67-2023-nd-cp-bao-hiem-bat-buoc-cua-chu-xe-co-gioi-bao-hiem-chay-no-266177-d1.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=208599",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=218555",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/xay-dung/nghi-dinh-220-2026-nd-cp-sua-doi-bao-hiem-bat-buoc-va-trach-nhiem-dan-su-xe-co-gioi-438421-d1.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://csgt.bocongan.gov.vn/index.php/tintuc/nghi-dinh-67-don-gian-hoa-thu-tuc-quy-trinh-va-ho-so-boi-thuong-bao-hiem.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://csgt.bocongan.gov.vn/index.php/tintuc/nghi-dinh-67-don-gian-hoa-thu-tuc-quy-trinh-va-ho-so-boi-thuong-bao-hiem.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baochinhphu.vn/bao-dam-chi-tra-bao-hiem-xe-co-gioi-nhanh-gon-chinh-xac-102241004171219297.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baochinhphu.vn/bao-dam-chi-tra-bao-hiem-xe-co-gioi-nhanh-gon-chinh-xac-102241004171219297.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2352,
+        "title": "Xe máy điện có cần bằng lái không? Cách phân biệt theo công suất",
+        "why": "stale",
+        "content_hash": "8c5c200eacd4af62c6f482e36bad9112feb65d56c6bb4032d8dbae3c82a64876",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2559,
+        "title": "Các loại bằng lái xe máy hiện nay và cách phân biệt từng hạng",
+        "why": "stale",
+        "content_hash": "1dbe75f2df7dd3b894e673123e9c56ffdda9c772f072b8cb4682f49b0f264d0e",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T14:45:15.441708+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "2064f7886042fb459413ce3c296863a2f4cf76bef8d75e05ecfcaab29ab63cb8",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

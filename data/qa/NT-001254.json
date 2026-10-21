@@ -1,0 +1,217 @@
+{
+  "topic_id": "NT-001254",
+  "status": "PASS",
+  "source_sha256": "d9c3c074fec5edcfff46dd05b01bb9ba232186641d476298e7ec8d1d288696b8",
+  "body_sha256": "b3c5c4e5d3a57e23de8bc4ed17e49647d632ba0e7b52bad0c2c44376d6b27225",
+  "word_count": 1898,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/lung-lung-sung-troi-2887587.html",
+      "supports": "VnExpress (02/11/2013): đèo dài nhất quốc lộ 32 với 30 km, hai phần ba là đường cấp phối; độ cao quãng chừng 1.500 m; giáp ranh Mù Cang Chải và Văn Chấn, Yên Bái",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baolaocai.vn/noi-cong-troi-khau-pha-post536969.html",
+      "supports": "Báo Lào Cai (03/03/2017, bài Yên Bái điện tử): chiều dài hơn 20 km, độ cao trên 1.500 m, đèo dài và hiểm trở nhất trên quốc lộ 32",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/dulichtphcm/mua-vang-khau-pha-107104283.htm",
+      "supports": "Tuổi Trẻ (04/10/2025): chiều dài thực tế gần 30km, độ cao hơn 1.200m, thuộc tứ đại đỉnh đèo",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/deo-khau-pha-sat-lo-khach-huy-tour-ngam-mua-vang-4946374.html",
+      "supports": "VnExpress (02/10/2025): đèo Khau Phạ, tỉnh Lào Cai, trên quốc lộ 32, dài hơn 30 km ở độ cao trên 1.200 m, nối Mù Cang Chải và Văn Chấn",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.vietnamplus.vn/lao-cai-mu-cang-chai-buoc-vao-mua-trai-nghiem-nhieu-hoat-dong-hap-dan-post1129996.vnp",
+      "supports": "VietnamPlus/TTXVN (13/08/2026): từ đỉnh đèo Khau Phạ ở độ cao 1.268 m",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vnexpress.net/lung-lung-sung-troi-2887587.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baolaocai.vn/noi-cong-troi-khau-pha-post536969.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/dulichtphcm/mua-vang-khau-pha-107104283.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/deo-khau-pha-sat-lo-khach-huy-tour-ngam-mua-vang-4946374.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.vietnamplus.vn/lao-cai-mu-cang-chai-buoc-vao-mua-trai-nghiem-nhieu-hoat-dong-hap-dan-post1129996.vnp",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 940,
+        "title": "Khám Phá Hồ Hoàn Kiếm – Biểu Tượng Thủ Đô Hà Nội",
+        "why": "stale",
+        "content_hash": "cb8272501ca6511846e96aff0a58ef15afbac79b89800337da2fb514b849b235",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2349,
+        "title": "Xe máy điện giá bao nhiêu? Các nhóm giá phổ biến hiện nay",
+        "why": "stale",
+        "content_hash": "7cbacf7f21600cfcf6443eefa80b95d210de98f76fea5ef8dade3a018e9a3e6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2355,
+        "title": "Bao nhiêu tuổi được đi xe máy điện? Những điều cần biết",
+        "why": "stale",
+        "content_hash": "df4e397638303da8d179daafae395db634b027fd262d47406e50b3e2c2cf527c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2388,
+        "title": "Xe máy điện VinFast đi được bao nhiêu km sau mỗi lần sạc đầy?",
+        "why": "stale",
+        "content_hash": "e5285dab933a9e8523fa7f789f9bd5d57691724f1704aeef3c150a4cd22802f9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T14:41:10.919946+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "0145ac2132bd465fbcaacce0d18c4df8c31413ebc47ba5a7d6142cfc11f120ba",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

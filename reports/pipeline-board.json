@@ -1,29 +1,17 @@
 {
-  "at": "2026-10-21T14:37:00.757886+00:00",
+  "at": "2026-10-21T14:46:03.314509+00:00",
   "counts": {
-    "WRITING": 29,
+    "WRITING": 16,
     "QA": 0,
-    "READY": 0,
+    "READY": 3,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 584
+    "VERIFIED": 594
   },
-  "ready_backlog": 0,
-  "in_flight": 32,
+  "ready_backlog": 3,
+  "in_flight": 22,
   "items": [
-    {
-      "topic_id": "NT-001104",
-      "state": "WRITING",
-      "reason": "leased to seodev-w61",
-      "title": "Thuê xe máy phường Việt Hưng: chọn Honda Wave hay Yamaha Sirius để đi làm theo tuần?",
-      "slot": "W1",
-      "session": "seodev-w61",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-001105",
       "state": "WRITING",
@@ -49,54 +37,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001254",
-      "state": "WRITING",
-      "reason": "leased to seodev-w62",
-      "title": "Đèo Khau Phạ dài bao nhiêu km: năm bài báo ghi từ hơn 20 đến hơn 30 km, còn độ cao là 1.200, 1.268 hay 1.500 m",
-      "slot": "W3",
-      "session": "seodev-w62",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001255",
-      "state": "WRITING",
-      "reason": "leased to seodev-w62",
-      "title": "Fansipan cao bao nhiêu mét: 3.143 m đo năm 1909 hay 3.147,3 m theo Cục Đo đạc 2019, thuộc xã Hoàng Liên hay phường Sa Pa",
-      "slot": "W3",
-      "session": "seodev-w62",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001257",
-      "state": "WRITING",
-      "reason": "leased to seodev-w62",
-      "title": "Vườn quốc gia Tam Đảo rộng bao nhiêu ha: các báo nêu gần 37.000, gần 35.000 hay 32.300 ha, nay trải trên ba tỉnh",
-      "slot": "W3",
-      "session": "seodev-w62",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001258",
-      "state": "WRITING",
-      "reason": "leased to seodev-w62",
-      "title": "Tết Độc lập ở Mộc Châu: người Mông xuống phố dịp 2/9, Tuần Văn hóa – Du lịch 28/8–5/9/2025 và 27/8–5/9/2026",
-      "slot": "W3",
-      "session": "seodev-w62",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001259",
       "state": "WRITING",
       "reason": "leased to seodev-w62",
@@ -115,30 +55,6 @@
       "title": "Công viên địa chất Lạng Sơn: UNESCO công nhận ngày 17/4/2025, diện tích 3.845,8 hay 4.842,58 km2 và gồm cả Mẫu Sơn, Bắc Sơn",
       "slot": "W3",
       "session": "seodev-w62",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001361",
-      "state": "WRITING",
-      "reason": "leased to seodev-w63",
-      "title": "Xe máy bị tạm giữ: thời hạn 7 ngày làm việc, quyết định giao 1 bản và khi nào nhận lại xe",
-      "slot": "W5",
-      "session": "seodev-w63",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001362",
-      "state": "WRITING",
-      "reason": "leased to seodev-w63",
-      "title": "Xe máy đỗ sai bị di chuyển: Điều 69 Luật 36/2024 cho phép Cảnh sát giao thông dời xe khi nào",
-      "slot": "W5",
-      "session": "seodev-w63",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -181,30 +97,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001369",
-      "state": "WRITING",
-      "reason": "leased to seodev-w63",
-      "title": "Biên bản vi phạm giao thông xe máy: ghi gì, không ký thì sao, khi nào phạt không lập biên bản",
-      "slot": "W5",
-      "session": "seodev-w63",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001370",
-      "state": "WRITING",
-      "reason": "leased to seodev-w63",
-      "title": "Tai nạn xe máy có bảo hiểm bắt buộc: báo trong 5 ngày làm việc, hồ sơ gồm gì, tạm ứng 3 ngày",
-      "slot": "W5",
-      "session": "seodev-w63",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001371",
       "state": "WRITING",
       "reason": "leased to seodev-w63",
@@ -223,30 +115,6 @@
       "title": "Cảnh sát giao thông thu tiền phạt tại chỗ: chỉ vùng khó khăn hoặc ngoài giờ và phải có chứng từ",
       "slot": "W5",
       "session": "seodev-w63",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001391",
-      "state": "WRITING",
-      "reason": "leased to seodev-w64",
-      "title": "Dừng đỗ xe quanh phố cổ Hà Nội: CSGT lập 38 biên bản trong 5 ngày, camera AI và cẩu kéo",
-      "slot": "W7",
-      "session": "seodev-w64",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001392",
-      "state": "WRITING",
-      "reason": "leased to seodev-w64",
-      "title": "Giờ cấm xe tải trong nội đô Hà Nội: 6h–9h, 16h–19h30 và xe bán tải 24/24 theo Quyết định 52",
-      "slot": "W7",
-      "session": "seodev-w64",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -281,30 +149,6 @@
       "state": "WRITING",
       "reason": "leased to seodev-w64",
       "title": "VinBus Hà Nội đổi điểm dừng và mã tuyến: E03, E08, E11, tuyến 179 và 180 từ 9–10/2026",
-      "slot": "W7",
-      "session": "seodev-w64",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001397",
-      "state": "WRITING",
-      "reason": "leased to seodev-w64",
-      "title": "Buýt tới Khu công nghệ cao Hòa Lạc: 9 tuyến, E06TC và E07TC từ 1/3/2026, tần suất 10–30 phút",
-      "slot": "W7",
-      "session": "seodev-w64",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001398",
-      "state": "WRITING",
-      "reason": "leased to seodev-w64",
-      "title": "Người khuyết tật đi buýt, metro ở Hà Nội: khảo sát UNDP–ECUE ghi 238 điểm ngắt ở 29 hành trình",
       "slot": "W7",
       "session": "seodev-w64",
       "wp_id": null,
@@ -359,6 +203,42 @@
       "url": null,
       "qa_status": null,
       "seo_score": null
+    },
+    {
+      "topic_id": "NT-001392",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Giờ cấm xe tải trong nội đô Hà Nội: 6h–9h, 16h–19h30 và xe bán tải 24/24 theo Quyết định 52",
+      "slot": "W7",
+      "session": "seodev-w64",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001397",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Buýt tới Khu công nghệ cao Hòa Lạc: 9 tuyến, E06TC và E07TC từ 1/3/2026, tần suất 10–30 phút",
+      "slot": "W7",
+      "session": "seodev-w64",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001398",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Người khuyết tật đi buýt, metro ở Hà Nội: khảo sát UNDP–ECUE ghi 238 điểm ngắt ở 29 hành trình",
+      "slot": "W7",
+      "session": "seodev-w64",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
     },
     {
       "topic_id": "NT-001101",
@@ -5701,6 +5581,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001104",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Thuê xe máy phường Việt Hưng: chọn Honda Wave hay Yamaha Sirius để đi làm theo tuần?",
+      "slot": "W1",
+      "session": "seodev-w61",
+      "wp_id": 4622,
+      "url": "https://thuexemaynguyentu.com/thue-xe-may-phuong-viet-hung-honda-wave-yamaha-sirius-theo-tuan/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001121",
       "state": "VERIFIED",
       "reason": "publish",
@@ -7057,6 +6949,30 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001254",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đèo Khau Phạ dài bao nhiêu km: năm bài báo ghi từ hơn 20 đến hơn 30 km, còn độ cao là 1.200, 1.268 hay 1.500 m",
+      "slot": "W3",
+      "session": "seodev-w62",
+      "wp_id": 4623,
+      "url": "https://thuexemaynguyentu.com/deo-khau-pha-dai-bao-nhieu-km-nam-bai-bao-ghi-tu-hon-20-den-hon-30-km-con-do-cao-la-1-200-1-268-hay-1-500-m/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001255",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Fansipan cao bao nhiêu mét: 3.143 m đo năm 1909 hay 3.147,3 m theo Cục Đo đạc 2019, thuộc xã Hoàng Liên hay phường Sa Pa",
+      "slot": "W3",
+      "session": "seodev-w62",
+      "wp_id": 4624,
+      "url": "https://thuexemaynguyentu.com/fansipan-cao-bao-nhieu-met-3-143-m-do-nam-1909-hay-3-147-3-m-theo-cuc-do-dac-2019-thuoc-xa-hoang-lien-hay-phuong-sa-pa/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001256",
       "state": "VERIFIED",
       "reason": "publish",
@@ -7065,6 +6981,30 @@
       "session": "seodev-w62",
       "wp_id": 4604,
       "url": "https://thuexemaynguyentu.com/ho-ba-be-rong-bao-nhieu-ha-nguon-neu-450-hay-500-ha-sau-nhat-29-hay-35-m-va-nay-thuoc-xa-ba-be-thai-nguyen/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001257",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Vườn quốc gia Tam Đảo rộng bao nhiêu ha: các báo nêu gần 37.000, gần 35.000 hay 32.300 ha, nay trải trên ba tỉnh",
+      "slot": "W3",
+      "session": "seodev-w62",
+      "wp_id": 4625,
+      "url": "https://thuexemaynguyentu.com/vuon-quoc-gia-tam-dao-rong-bao-nhieu-ha-cac-bao-neu-gan-37-000-gan-35-000-hay-32-300-ha-nay-trai-tren-ba-tinh/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001258",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Tết Độc lập ở Mộc Châu: người Mông xuống phố dịp 2/9, Tuần Văn hóa – Du lịch 28/8–5/9/2025 và 27/8–5/9/2026",
+      "slot": "W3",
+      "session": "seodev-w62",
+      "wp_id": 4629,
+      "url": "https://thuexemaynguyentu.com/tet-doc-lap-o-moc-chau-nguoi-mong-xuong-pho-dip-2-9-tuan-van-hoa-du-lich-28-8-5-9-2025-va-27-8-5-9-2026/",
       "qa_status": "PASS",
       "seo_score": 100
     },
@@ -7309,6 +7249,30 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001361",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe máy bị tạm giữ: thời hạn 7 ngày làm việc, quyết định giao 1 bản và khi nào nhận lại xe",
+      "slot": "W5",
+      "session": "seodev-w63",
+      "wp_id": 4630,
+      "url": "https://thuexemaynguyentu.com/xe-may-bi-tam-giu-thoi-han-7-ngay-lam-viec-quyet-dinh-giao-1-ban-va-khi-nao-nhan-lai-xe/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001362",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe máy đỗ sai bị di chuyển: Điều 69 Luật 36/2024 cho phép Cảnh sát giao thông dời xe khi nào",
+      "slot": "W5",
+      "session": "seodev-w63",
+      "wp_id": 4631,
+      "url": "https://thuexemaynguyentu.com/xe-may-do-sai-bi-di-chuyen-dieu-69-luat-36-2024-cho-phep-canh-sat-giao-thong-doi-xe-khi-nao/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001366",
       "state": "VERIFIED",
       "reason": "publish",
@@ -7317,6 +7281,42 @@
       "session": "seodev-w63",
       "wp_id": 4606,
       "url": "https://thuexemaynguyentu.com/mat-xe-may-o-bai-gui-ve-xe-hop-dong-gui-giu-va-ben-giu-phai-boi-thuong-khi-nao/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001369",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Biên bản vi phạm giao thông xe máy: ghi gì, không ký thì sao, khi nào phạt không lập biên bản",
+      "slot": "W5",
+      "session": "seodev-w63",
+      "wp_id": 4632,
+      "url": "https://thuexemaynguyentu.com/bien-ban-vi-pham-giao-thong-xe-may-ghi-gi-khong-ky-thi-sao-khi-nao-phat-khong-lap-bien-ban/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001370",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Tai nạn xe máy có bảo hiểm bắt buộc: báo trong 5 ngày làm việc, hồ sơ gồm gì, tạm ứng 3 ngày",
+      "slot": "W5",
+      "session": "seodev-w63",
+      "wp_id": 4633,
+      "url": "https://thuexemaynguyentu.com/tai-nan-xe-may-co-bao-hiem-bat-buoc-bao-trong-5-ngay-lam-viec-ho-so-gom-gi-tam-ung-3-ngay/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001391",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Dừng đỗ xe quanh phố cổ Hà Nội: CSGT lập 38 biên bản trong 5 ngày, camera AI và cẩu kéo",
+      "slot": "W7",
+      "session": "seodev-w64",
+      "wp_id": 4634,
+      "url": "https://thuexemaynguyentu.com/dung-do-xe-quanh-pho-co-ha-noi-csgt-lap-38-bien-ban-trong-5-ngay-camera-ai-va-cau-keo/",
       "qa_status": "PASS",
       "seo_score": 100
     },

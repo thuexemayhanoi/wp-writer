@@ -1,0 +1,176 @@
+{
+  "topic_id": "NT-001104",
+  "status": "PASS",
+  "source_sha256": "3592689d382ac1367375595d2fcbf01743f57e7fe6350809eb954a9856e04ecf",
+  "body_sha256": "4c72d7da6170a4377bf61ac4cf0a1b6ad504f4ffb1510c3a132081af4b5b0d62",
+  "word_count": 2711,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://viethung.hanoi.gov.vn/gioi-thieu-chung/gioi-thieu-chung-ve-phuong-viet-hung-2783250629163216816.htm",
+      "supports": "UBND phường Việt Hưng nêu thành phần, ranh giới, diện tích và dân số của phường Việt Hưng mới theo Nghị quyết 1656/NQ-UBTVQH15.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/d3a2d680-8513-4280-8d9e-85c7645f7630?page=%2F",
+      "supports": "Bộ Công an trích Điều 34, Điều 56 và Điều 59 của Luật Trật tự, an toàn giao thông đường bộ về xe gắn máy, giấy tờ mang theo và độ tuổi.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?docid=217295&pageid=27160",
+      "supports": "Cổng thông tin Chính phủ đăng văn bản hợp nhất số 55/VBHN-VPQH ban hành ngày 23/3/2026 của Văn phòng Quốc hội về Luật Trật tự, an toàn giao thông đường bộ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://viethung.hanoi.gov.vn/gioi-thieu-chung/gioi-thieu-chung-ve-phuong-viet-hung-2783250629163216816.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/d3a2d680-8513-4280-8d9e-85c7645f7630?page=%2F",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?docid=217295&pageid=27160",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 4344,
+        "title": "Thuê xe máy phường Bồ Đề: chọn Honda Vision hay Wave, nhận xe ở đâu?",
+        "why": "stale",
+        "content_hash": "dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78",
+        "jaccard": 0.005,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4345,
+        "title": "Thuê xe máy phường Cửa Nam: chọn Air Blade, tính gói ngày hay tuần?",
+        "why": "stale",
+        "content_hash": "fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437",
+        "jaccard": 0.003,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4346,
+        "title": "Thuê xe máy phường Hoàn Kiếm: đi phố cổ chọn xe ga, xe số hay 50cc?",
+        "why": "stale",
+        "content_hash": "a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee",
+        "jaccard": 0.003,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T14:40:46.441755+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "99b9d062663036ae3a7451a0bccd1f2b078b41f7e2772a41f382a9dc6930428d",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
