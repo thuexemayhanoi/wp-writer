@@ -25910,7 +25910,7 @@
       }
     },
     "NT-001225": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T10:12:50.029944+00:00",
       "source_hash": "5999f318fc75f4face9c58a926aaaafbe2892c184c624c3eb1eb44f8d6ab9d62",
       "slug": "xe-may-co-nien-han-su-dung-khong-luat-36-2024-loai-tru-xe-mo-to-xe-gan-may-con-nghi-dinh-89-2026-ap-cho-xe-nao",
@@ -25926,8 +25926,37 @@
       "category_warning": null,
       "git_commit": "d254586ab66c99b3a3fed992c9b0e2d0f0872538",
       "run_id": "39582063937",
-      "updated_at": "2026-10-21T10:12:54.324724+00:00",
-      "wp_id": 4569
+      "updated_at": "2026-10-21T10:13:00.403571+00:00",
+      "wp_id": 4569,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-co-nien-han-su-dung-khong-luat-36-2024-loai-tru-xe-mo-to-xe-gan-may-con-nghi-dinh-89-2026-ap-cho-xe-nao/",
+      "verified_at": "2026-10-21T10:13:00.403563+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4569,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-co-nien-han-su-dung-khong-luat-36-2024-loai-tru-xe-mo-to-xe-gan-may-con-nghi-dinh-89-2026-ap-cho-xe-nao/",
+        "categories": [
+          159
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-co-nien-han-su-dung-khong-luat-36-2024-loai-tru-xe-mo-to-xe-gan-may-con-nghi-dinh-89-2026-ap-cho-xe-nao/",
+        "seo_title": "Xe máy có niên hạn sử dụng không: Luật 36/2024 và Nghị định 89/2026",
+        "seo_description": "Xe máy có niên hạn sử dụng không: khoản 3 Điều 40 Luật 36/2024 loại trừ xe mô tô, xe gắn máy; Nghị định 89/2026 đặt niên hạn 25, 20, 15 năm cho nhóm xe khác, kèm điểm cần kiểm tra.",
+        "checked_at": "2026-10-21T10:13:00.403541+00:00"
+      }
     }
   },
   "categories": {}
