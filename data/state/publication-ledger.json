@@ -20861,6 +20861,25 @@
         "seo_description": "Ký cược khi thuê xe máy theo Điều 329 Bộ luật Dân sự: ba tình huống, khác đặt cọc ở Điều 328 thế nào, điều bài tạp chí nêu thêm và danh mục đọc điều khoản cọc.",
         "checked_at": "2026-10-21T04:36:05.484983+00:00"
       }
+    },
+    "NT-001065": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T04:36:23.487809+00:00",
+      "source_hash": "d91ba90cd793b27ff4ce03a61eccb27f65adebcc4a38057424e7c3a429ee77eb",
+      "slug": "dong-co-xe-may-dien-hoat-dong-the-nao-stato-roto-cam-bien-hall-va-vai-tro-cua-bo-dieu-khien",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 168,
+      "visible_hash": "c85b040048d9ebf1ff36d107f0e25c534203321bd1ab7988c8ebe3b9eef5594f",
+      "first_paragraph": "Động cơ xe máy điện hoạt động bằng cách biến điện năng từ pin thành chuyển động quay: khi người lái vặn tay ga, bộ điều khiển nhận tín hiệu và điều chỉnh dòng điện từ pin cấp cho các cuộn dây ở stato (stator, phần đứng yên); dòng điện tạo ra từ trường, lực tương tác giữa từ trường này với nam châm vĩnh cửu ở rôto (rotor, phần quay) sinh ra mô-men xoắn làm rôto quay, còn cảm biến Hall liên tục báo vị trí rôto về bộ điều khiển để đổi hướng dòng điện đúng lúc, giữ cho lực từ luôn đẩy rôto quay tiếp. Đó là cách Dat Bike giải thích trên trang kiến thức của hãng. Yamaha và VinFast thì ghi động cơ của NEO's và Feliz S là động cơ điện một chiều không chổi than, còn Dat Bike ghi động cơ Quantum là BLDC Mid-Drive Motor; các tài liệu đã đọc không bàn sâu hơn về sự khác nhau giữa các tên gọi.",
+      "meta_title": "Động cơ xe máy điện hoạt động thế nào: stato, rôto, cảm biến Hall",
+      "meta_description": "Động cơ xe máy điện hoạt động thế nào? Giải thích stato, rôto, cảm biến Hall và bộ điều khiển theo Dat Bike, Yamaha, VinFast, kèm tên gọi không chổi than và BLDC.",
+      "intended_taxonomy_key": "electric-tech",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "61285248c7d8eca7c8250b277de2091dd2ca1bae",
+      "run_id": "39544657734",
+      "updated_at": "2026-10-21T04:36:23.489374+00:00"
     }
   },
   "categories": {}
