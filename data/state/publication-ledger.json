@@ -27576,7 +27576,7 @@
       }
     },
     "NT-001366": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:35:49.263866+00:00",
       "source_hash": "5151e7e597ab54ac2d291821e6fa954958f1d75c4fc5ca47ee9630ca914aef11",
       "slug": "mat-xe-may-o-bai-gui-ve-xe-hop-dong-gui-giu-va-ben-giu-phai-boi-thuong-khi-nao",
@@ -27592,8 +27592,37 @@
       "category_warning": null,
       "git_commit": "5d5916120e7e17996739564d24ce1438feb833c5",
       "run_id": "39615692248",
-      "updated_at": "2026-10-21T14:35:54.054138+00:00",
-      "wp_id": 4606
+      "updated_at": "2026-10-21T14:36:03.102203+00:00",
+      "wp_id": 4606,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/mat-xe-may-o-bai-gui-ve-xe-hop-dong-gui-giu-va-ben-giu-phai-boi-thuong-khi-nao/",
+      "verified_at": "2026-10-21T14:36:03.102195+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4606,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/mat-xe-may-o-bai-gui-ve-xe-hop-dong-gui-giu-va-ben-giu-phai-boi-thuong-khi-nao/",
+        "categories": [
+          162
+        ],
+        "canonical": "https://thuexemaynguyentu.com/mat-xe-may-o-bai-gui-ve-xe-hop-dong-gui-giu-va-ben-giu-phai-boi-thuong-khi-nao/",
+        "seo_title": "Mất xe máy ở bãi gửi: vé xe, hợp đồng gửi giữ và ai bồi thường",
+        "seo_description": "Mất xe máy ở bãi gửi theo Bộ luật Dân sự 2015: bên giữ phải bồi thường khi nào, vai trò của vé xe, trường hợp không có vé và việc nên làm ngay khi mất xe.",
+        "checked_at": "2026-10-21T14:36:03.102162+00:00"
+      }
     }
   },
   "categories": {}
