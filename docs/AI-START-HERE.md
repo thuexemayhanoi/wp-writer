@@ -1,3 +1,5 @@
+**OWNER UPDATE 22/10/2026 — CLAUDE CHỈ CẦN GITHUB:** Claude không cần và không được bắt buộc kết nối WordPress để nghiên cứu, nhận Topic ID/lease, viết bài, QA G1–G6 hoặc nộp. `python scripts/writer_handoff.py --session <SESSION>` kiểm tra trạng thái bàn giao chỉ qua file GitHub. Bài đã QA PASS + hash receipt hợp lệ thì Claude nhận bài tiếp, không đợi WordPress. **Chỉ Publisher GitHub Actions có quyền WordPress REST và làm G7 Live readback SAU khi đăng.** Giữ ngưỡng SEO/Quality ≥76, Research QA, chống trùng, G1–G7, ledger. Xem [quy định phân quyền Writer/Publisher](GITHUB-ONLY-WRITER-HANDOFF.md).
+
 # AI ngoài bắt đầu tại đây — một lệnh, không xin duyệt từng bài
 
 > **Nếu chủ giao “tiếp tục 3 file Excel / 1.482 tiêu đề / TP-XXXX”:** Đọc **[SOP A–Z dành cho Excel Nguyễn Tú](TITLE-PLAN-1482-SOP.md)** trước, lấy 1–3 TP-ID trong `editorial/title-plan-1482/plan.json` hoặc `python scripts/title_plan_next.py --limit 3`. Đây chỉ là gợi ý nghiên cứu: phải qua Topic Factory/Research QA thành **NT-XXXXXX PLANNED**, mới được claim viết. **Không nhập Excel Nguyễn Hà /wp-aiwriter.** Mọi luật nguồn, slug, QA, G7 giữ nguyên.
