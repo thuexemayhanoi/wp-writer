@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-21T04:14:35.784492+00:00",
-  "attempted": 7,
+  "at": "2026-10-21T04:23:32.313588+00:00",
+  "attempted": 9,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -24,7 +24,7 @@
       "action": "manual reconciliation; never create/update automatically"
     },
     {
-      "topic_id": "NT-000731",
+      "topic_id": "NT-000732",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 173,
       "category_resolution": "EXACT",
@@ -32,7 +32,7 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-000738",
+      "topic_id": "NT-000734",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 173,
       "category_resolution": "EXACT",
@@ -40,7 +40,31 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-000901",
+      "topic_id": "NT-000739",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 173,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "vietnam-travel",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000740",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 173,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "vietnam-travel",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000879",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 170,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "engine-care",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-000903",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 175,
       "category_resolution": "EXACT",
@@ -48,7 +72,7 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-000902",
+      "topic_id": "NT-000904",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 175,
       "category_resolution": "EXACT",
@@ -56,27 +80,11 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-000907",
+      "topic_id": "NT-000908",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 175,
       "category_resolution": "EXACT",
       "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001005",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 159,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "legal",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001006",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 159,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "legal",
       "category_warning": null
     },
     {
@@ -236,11 +244,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T04:14:20.336678+00:00",
+      "at": "2026-10-21T04:22:50.457229+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "0f06058e7fa57df6b495ddcb712bfc48708764c5cbbae703da642a7eb5d7baf6",
+      "inventory_sha256": "e6929189bd33424f55f785140d8cc700527f675f9e9e353ae6ca108f48587c59",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -406,11 +414,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T04:14:28.628653+00:00",
+      "at": "2026-10-21T04:22:58.480675+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "0f06058e7fa57df6b495ddcb712bfc48708764c5cbbae703da642a7eb5d7baf6",
+      "inventory_sha256": "e6929189bd33424f55f785140d8cc700527f675f9e9e353ae6ca108f48587c59",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -585,11 +593,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-21T04:14:35.649469+00:00",
+      "at": "2026-10-21T04:23:05.325623+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "0f06058e7fa57df6b495ddcb712bfc48708764c5cbbae703da642a7eb5d7baf6",
+      "inventory_sha256": "e6929189bd33424f55f785140d8cc700527f675f9e9e353ae6ca108f48587c59",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -607,6 +615,14 @@
         "exhausted": false,
         "needs_owner": false
       }
+    },
+    {
+      "topic_id": "NT-001151",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 170,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "engine-care",
+      "category_warning": null
     }
   ],
   "backlog_drains_on": "successful Writer QA or fallback schedule",
