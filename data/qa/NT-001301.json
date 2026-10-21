@@ -1,0 +1,176 @@
+{
+  "topic_id": "NT-001301",
+  "status": "PASS",
+  "source_sha256": "99ae6a9dfd900674c72bc39a4aa15e244660363dc09cee7151a3a7da26db26f5",
+  "body_sha256": "1eec34fa53ca9bbb7469d6e5c403de9e038e62220bf11c37e62bf1c64dde4387",
+  "word_count": 2998,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "supports": "Trang chính sách bảo hành xe máy điện của VinFast nêu thời hạn xe 6 năm và pin LFP tới 8 năm không giới hạn số km, các dòng còn lại 3 năm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "supports": "Mục chi tiết bảo hành giới hạn: pin LFP mua lần đầu theo xe mới bảo hành 8 năm từ ngày kích hoạt bảo hành, pin khác 3 năm, ắc quy 12V 1 năm; pin và phụ tùng mua riêng tính từ ngày mua.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/khoahocphothong/vinfast-bao-hanh-chinh-hang-6-nam-cho-xe-8-nam-cho-pin-xe-may-dien-104260847.htm",
+      "supports": "Tuổi Trẻ ngày 15/08/2025 đưa tin VinFast công bố bảo hành 6 năm cho xe và 8 năm cho pin, không giới hạn số km, cho xe máy điện dùng pin LFP bán ra từ 15/08/2025.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/khoahocphothong/vinfast-bao-hanh-chinh-hang-6-nam-cho-xe-8-nam-cho-pin-xe-may-dien-104260847.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2378,
+        "title": "Xe máy điện VinFast: các mẫu đáng chú ý và điểm khác biệt",
+        "why": "stale",
+        "content_hash": "37ef98f1fa6912ab03a40b59b7957c089abbadee5f0ea45c7e3fcf1b939d9074",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2408,
+        "title": "Xe máy điện Honda: các mẫu đang được người dùng quan tâm",
+        "why": "stale",
+        "content_hash": "ded30343606cc54b9fa64db90b6a7c2bc7b959cdd75d5c4e2c0e9f4663dfce0b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2542,
+        "title": "Xe máy bị nóng máy nhanh do đâu? Những điểm nên kiểm tra đầu tiên",
+        "why": "stale",
+        "content_hash": "994e220a440cdb5f8e90756cb7e6d0319a7cf0377e7377b9dd7b0b64ed9e9f51",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T10:22:23.260204+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "408c99e8a6039625dd9cab111fbe731096cd208f05c4337dfb35379019e7870e",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
