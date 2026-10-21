@@ -1,0 +1,194 @@
+{
+  "topic_id": "NT-001338",
+  "status": "PASS",
+  "source_sha256": "dbd0ccf2fb10b05c14550c470aacc69decb3f8d4b772d7ff91c50e4130d4a967",
+  "body_sha256": "49a6d1439421c6ff12307aaaa1f5f6a81479cd9a571e0750d932121b66605274",
+  "word_count": 2402,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://hanoi.gov.vn/tin-dia-phuong/doc-dao-tuc-ruoc-vua-gia-tai-le-hoi-den-sai-huyen-dong-anh-4250208220800264.htm",
+      "supports": "Cổng thông tin Hà Nội (8/2/2025) ghi UBND huyện Đông Anh tổ chức lễ hội đền Sái ngày 8/2 (11 tháng Giêng) với tục rước vua giả; lễ hội từ 30 tháng Chạp đến 15 tháng Giêng, năm 2025 từ 28/1 đến 12/2.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://kinhtedothi.vn/ha-noi-cong-nhan-diem-du-lich-thuy-lam-huyen-dong-anh.672778.html",
+      "supports": "Kinh tế & Đô thị ghi Quyết định số 2014/QĐ-UBND ngày 14/4 công nhận điểm du lịch Thụy Lâm; đền Sái xếp hạng di tích quốc gia theo Quyết định số 15/VH/QĐ/1986 ngày 27/1/1986; lễ hội nổi tiếng với tục rước Vua giả.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantocmiennui.baotintuc.vn/ruoc-vua-song-le-hoi-doc-dao-chi-co-o-ha-noi-post1377437.html",
+      "supports": "Báo Dân tộc và Miền núi ghi đền Sái nằm trên đỉnh Thất Diệu Sơn ở thôn Thụy Lôi, tục rước vua giả được khôi phục từ những năm 80 thế kỷ XX, người vào vai vua chúa là người có gia cảnh đủ đầy, thuận hòa.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://hanoi.gov.vn/tin-dia-phuong/doc-dao-tuc-ruoc-vua-gia-tai-le-hoi-den-sai-huyen-dong-anh-4250208220800264.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://kinhtedothi.vn/ha-noi-cong-nhan-diem-du-lich-thuy-lam-huyen-dong-anh.672778.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantocmiennui.baotintuc.vn/ruoc-vua-song-le-hoi-doc-dao-chi-co-o-ha-noi-post1377437.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 868,
+        "title": "Thuê Xe Máy Gần Đống Đa Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "ba1ec71dfb2fbdc6d28b06931efdd59bd55ff37a920f7477428f406fb29c5bff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2417,
+        "title": "Xe máy điện Yadea có tốt không? Ưu nhược điểm người dùng cần biết",
+        "why": "stale",
+        "content_hash": "0164531f890f08be8f0da4a90ffbe1bc5d7ce5908bd8637d53cc98b9fed34354",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2582,
+        "title": "Xe nào phù hợp chạy trong phố Hà Nội? Gợi ý theo từng nhu cầu",
+        "why": "stale",
+        "content_hash": "0f62d1c774af57a3c896ffd697700d31e6892614883dbc70f9970230ae26d134",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2628,
+        "title": "Hồ Tây Hà Nội có gì chơi? 15 địa điểm đẹp và nơi ngắm hoàng hôn",
+        "why": "stale",
+        "content_hash": "9dcfec99089691e394b8ba69fd2de3ba9c034e4502a342ed8b22e2756bdfc363",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T14:22:47.174922+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "62809bc009a9ef8f2ef70cedecdd61f8cff279e231dc29fadcec8270740b6a39",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

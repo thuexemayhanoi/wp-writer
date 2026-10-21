@@ -1,0 +1,233 @@
+{
+  "topic_id": "NT-001251",
+  "status": "PASS",
+  "source_sha256": "afdc1ef7fddf3d3eea50a9fbd87fc859a981b70b65c99e6d6b94ad5f90d76959",
+  "body_sha256": "13ad3e695fc7e9469240662bea554920d8cd0a98ac7616bd49ce025147412f75",
+  "word_count": 2337,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://lsvn.vn/dien-bien-le-hoi-hoa-ban-nam-2026-du-kien-to-chuc-tu-ngay-20-den-ngay-26-3-a168074.html",
+      "supports": "lsvn.vn (05/02/2026): ngày 04/02 UBND tỉnh Điện Biên ban hành kế hoạch, lễ hội dự kiến 20/3–26/3/2026, hoạt động trọng tâm ở phường Điện Biên Phủ",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baolaocai.vn/le-hoi-hoa-ban-dien-bien-hua-hen-nhieu-diem-nhan-moi-post893061.html",
+      "supports": "Báo Lào Cai (05/02/2026, theo vietnamplus.vn): lễ hội sẽ tổ chức từ ngày 20-26/3, carnival đường phố lần đầu theo hình thức diễu hành",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/du-lich/ve-dien-bien-mua-hoa-ban-no-du-le-hoi-hoa-ban-2026-207869.html",
+      "supports": "Báo Văn hóa (01/03/2026): lễ hội nằm trong Tuần lễ Văn hóa – Du lịch từ 6.3 đến hết 12.3, khai mạc 20 giờ 10 phút tối 8.3 tại sân vận động tỉnh",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baolaocai.vn/thu-tuong-pham-minh-chinh-du-le-khai-mac-le-hoi-hoa-ban-nam-2026-post895347.html",
+      "supports": "Báo Lào Cai (08/03/2026): tối 8/3 UBND tỉnh tổ chức Lễ hội Hoa Ban 2026, chủ đề Hoa Ban – Khát vọng Điện Biên, hoa ban đang nở rộ",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baolaocai.vn/nhieu-hoat-dong-hap-dan-tai-le-hoi-hoa-ban-nam-2025-post398671.html",
+      "supports": "Báo Lào Cai (13/03/2025, theo baotintuc.vn): Lễ hội Hoa Ban 2025 và Ngày hội VHTTDL lần thứ VIII diễn ra 13–16/3/2025 tại thành phố Điện Biên Phủ và huyện Điện Biên",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baolaocai.vn/khai-mac-le-hoi-hoa-ban-2025-voi-chu-de-dien-bien-sac-ban-bung-sang-post409025.html",
+      "supports": "Báo Lào Cai (15/03/2025, theo NDO): tối 14/3/2025 khai mạc Lễ hội Hoa ban và Ngày hội lần thứ 8, chủ đề Điện Biên-Sắc ban bừng sáng, khai mạc vào dịp kỷ niệm 71 năm trận mở màn Chiến dịch Điện Biên Phủ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://lsvn.vn/dien-bien-le-hoi-hoa-ban-nam-2026-du-kien-to-chuc-tu-ngay-20-den-ngay-26-3-a168074.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baolaocai.vn/le-hoi-hoa-ban-dien-bien-hua-hen-nhieu-diem-nhan-moi-post893061.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/du-lich/ve-dien-bien-mua-hoa-ban-no-du-le-hoi-hoa-ban-2026-207869.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baolaocai.vn/thu-tuong-pham-minh-chinh-du-le-khai-mac-le-hoi-hoa-ban-nam-2026-post895347.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baolaocai.vn/nhieu-hoat-dong-hap-dan-tai-le-hoi-hoa-ban-nam-2025-post398671.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baolaocai.vn/khai-mac-le-hoi-hoa-ban-2025-voi-chu-de-dien-bien-sac-ban-bung-sang-post409025.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2352,
+        "title": "Xe máy điện có cần bằng lái không? Cách phân biệt theo công suất",
+        "why": "stale",
+        "content_hash": "8c5c200eacd4af62c6f482e36bad9112feb65d56c6bb4032d8dbae3c82a64876",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2428,
+        "title": "Dat Bike và VinFast: hãng nào phù hợp người thường xuyên đi xa?",
+        "why": "stale",
+        "content_hash": "8cb4cfc90c1561cb4c7dda67912d337a2c3081d39753b6d91e45717fd20b02b7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2632,
+        "title": "Cầu Long Biên Hà Nội: Đi lúc nào đẹp, chụp ảnh ở đâu và chơi gì gần đó?",
+        "why": "stale",
+        "content_hash": "36dfb351fe0b68f0a6c25d3903504798235bac27df1d97f4c68ca001b55d25e3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2634,
+        "title": "Địa điểm du lịch ngoại thành Hà Nội: 15 nơi đẹp đi về trong ngày",
+        "why": "stale",
+        "content_hash": "2731adb7b543fe9e03020ef632b7c13b728e598511c01bf75b886ac18433f364",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T14:33:06.696771+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "5e0d0465c7efb49d05ad0ab545519ce2dfe78590a988be5ab8805dd8c5d1a33f",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

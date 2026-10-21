@@ -1,0 +1,297 @@
+{
+  "topic_id": "NT-001309",
+  "status": "PASS",
+  "source_sha256": "d56878df549ec52096244db160bd8392e2a1d67a33ecbed9338a88f3684fc357",
+  "body_sha256": "acb8a02cf6e21e43bcbb8cc2b7b083d6890da6f600dd7ff70efd27e63f5f5cbd",
+  "word_count": 2470,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/nhung-luu-y-an-toan-khi-dung-xe-dien-4911573.html",
+      "supports": "Bài VnExpress ngày 9/7/2025 nêu xe điện nên đỗ nơi thoáng có luồng khí lưu thông, tránh nắng trực tiếp hoặc nơi ẩm thấp, không để gần vật liệu dễ cháy hay xe xăng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/gui-xe-chung-cu-tim-giai-phap-an-toan-khong-the-cuc-doan-20230923090451457.htm",
+      "supports": "Tuổi Trẻ ngày 23/09/2023 dẫn cán bộ Cục Cảnh sát PCCC và CNCH: khu đỗ xe điện cách xe xăng ít nhất 3 m, an toàn hơn thì có vách ngăn; khu sạc gần lối ra vào, có người trực.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/tin-tuc-pccc-va-cnch/khuyen-cao-mot-so-bien-phap-bao-dam-an-toan-phong-chay-chua-chay-trong-su-dung-dien-tai-gia-dinh-mua-nang-nong-4621",
+      "supports": "Cục Cảnh sát PCCC và CNCH (05/06/2025) khuyến cáo không sạc xe điện, pin qua đêm và không sạc khi không có người ở nhà.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "supports": "Cục Cảnh sát PCCC và CNCH (24/05/2024) dặn sạc ở nơi khô ráo, thoáng mát, tránh nơi kín, nhiệt độ 0–35°C, không để xe, pin, bộ sạc gần vật dễ cháy hoặc nguồn nhiệt.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.bosch-ebike.com/us/service/battery-safety",
+      "supports": "Bosch eBike Systems dặn cất pin ở nơi thông thoáng có báo khói, xa nguồn nhiệt và vật dễ cháy, tránh ánh nắng trực tiếp.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Sổ Dat Bike Quantum dặn cất xe nơi khô ráo, tránh xa khu vực nhiệt độ cao hoặc thay đổi nhiệt độ đột ngột.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/gui-xe-chung-cu-tim-giai-phap-an-toan-khong-the-cuc-doan-20230923090451457.htm",
+      "supports": "Tuổi Trẻ ngày 23/09/2023 dẫn đại tá Ngô Văn Xiêm, nguyên phó hiệu trưởng Trường Đại học PCCC: không cho sạc xe điện ở hầm hay tầng 1 chung cư mini là cực đoan; nên có điểm sạc riêng thông thoáng, có người trực.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "supports": "Cục Cảnh sát PCCC và CNCH (24/05/2024) dặn khi sạc không để xe, ắc quy, pin, bộ sạc trên hoặc gần vật dụng dễ cháy nổ, nguồn lửa, nguồn nhiệt.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nhung-luu-y-an-toan-khi-dung-xe-dien-4911573.html",
+      "supports": "Bài VnExpress ngày 9/7/2025 nói vụ cháy mở bài không xuất phát từ xe điện nhưng đỗ xe điện trong nhà khi có cháy nổ có thể dẫn tới hậu quả lớn hơn.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Sổ Dat Bike Quantum mục 2.17.3 dặn chỉ sạc điện cho xe tại nơi khô ráo để tránh bị điện giật.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vnexpress.net/nhung-luu-y-an-toan-khi-dung-xe-dien-4911573.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/gui-xe-chung-cu-tim-giai-phap-an-toan-khong-the-cuc-doan-20230923090451457.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/tin-tuc-pccc-va-cnch/khuyen-cao-mot-so-bien-phap-bao-dam-an-toan-phong-chay-chua-chay-trong-su-dung-dien-tai-gia-dinh-mua-nang-nong-4621",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.bosch-ebike.com/us/service/battery-safety",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/gui-xe-chung-cu-tim-giai-phap-an-toan-khong-the-cuc-doan-20230923090451457.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nhung-luu-y-an-toan-khi-dung-xe-dien-4911573.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2374,
+        "title": "Xe máy điện đi mưa có an toàn không? Cách sử dụng đúng và bền",
+        "why": "stale",
+        "content_hash": "f86d1aa55c92feadb7f1f7424eb5a8881f374d07d09eba557a5974bddc4ab23f",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2493,
+        "title": "Bao lâu nên thay dầu xe máy? Cách nhận biết thời điểm phù hợp",
+        "why": "stale",
+        "content_hash": "8ca2a243a492015121237f25a06d048e4ab5297e91295fbbbae60ec93a619529",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2500,
+        "title": "Dấu hiệu xích xe máy quá chùng và cách kiểm tra trước khi đi xa",
+        "why": "stale",
+        "content_hash": "d061c138b067d5f2223950a7aaa38ebe11024f983962f728d69b56d64948608d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2569,
+        "title": "Xe ga tốn xăng hơn xe số bao nhiêu khi sử dụng trong thành phố?",
+        "why": "stale",
+        "content_hash": "0e0403a44ff6ce7c19068379c2905b55413b5e6b08f79ca8a2a469fd0114f8e0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T14:14:19.438148+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "dd3ed31a9c8d57725a13bb1e2a843520a11d9a0a2e679659000e1da7632abfe4",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

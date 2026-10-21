@@ -1,0 +1,464 @@
+{
+  "topic_id": "NT-001304",
+  "status": "PASS",
+  "source_sha256": "f76df169d6566b5c406fecbd8f7e5046e63e8c08a74088184d7ad7ad69b67b67",
+  "body_sha256": "dcce08499514b80d012591b68e630f2dc7395603f58b555041233aa58a10d9b5",
+  "word_count": 2684,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "supports": "Trang bảo hành VinFast loại hư hỏng do sửa chữa, điều chỉnh, đấu nối phụ kiện không chính hãng và hoán cải so với thiết kế ban đầu.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "supports": "VinFast loại hư hỏng do dùng phụ tùng, dầu mỡ, dung dịch, chất phụ gia không chính hãng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "supports": "Phần hỏi đáp VinFast nêu phụ tùng khách mua nhưng không được thay tại xưởng dịch vụ hoặc đại lý VinFast thì không được bảo hành.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "supports": "VinFast nêu bảo hành chỉ được áp dụng và thực hiện tại xưởng dịch vụ và nhà phân phối ủy quyền của VinFast.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "supports": "VinFast loại hư hỏng kéo theo do chậm đưa xe đến xưởng khi phát hiện hư hỏng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "supports": "VinFast loại các trường hợp gạch xóa, cậy phá hoặc làm mất trạng thái nguyên bản của phụ tùng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/dich-vu-sau-ban-hang/chinh-sach-bao-hanh-xe",
+      "supports": "Honda Việt Nam không sửa chữa bảo hành hư hỏng do sửa chữa hoặc điều chỉnh không do cửa hàng Honda ủy nhiệm tiến hành.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/dich-vu-sau-ban-hang/chinh-sach-bao-hanh-xe",
+      "supports": "Honda loại những bộ phận được thay thế tại cửa hàng không phải cửa hàng do Honda ủy nhiệm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/dich-vu-sau-ban-hang/chinh-sach-bao-hanh-xe",
+      "supports": "Honda từ chối chi phí khắc phục hậu quả do việc sửa chữa, bảo dưỡng không đúng cách đã làm ở bên ngoài hệ thống cửa hàng ủy nhiệm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/dich-vu-sau-ban-hang/chinh-sach-bao-hanh-xe",
+      "supports": "Honda loại hư hỏng do thay đổi, tu sửa so với thiết kế ban đầu như thay đổi công suất hoặc cấu trúc, chiều cao yên, hàn thêm chi tiết.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/dich-vu-sau-ban-hang/chinh-sach-bao-hanh-xe",
+      "supports": "Honda nêu nghĩa vụ khách hàng gồm kiểm tra định kỳ đúng lịch theo sách hướng dẫn sử dụng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/ho-tro-bao-hanh/",
+      "supports": "Trang bảo hành Yadea loại thiệt hại do tự ý sửa chữa không phải kỹ thuật viên đại lý ủy quyền.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/ho-tro-bao-hanh/",
+      "supports": "Yadea loại hư hỏng do bảo dưỡng không đúng cách tại cửa hàng, dịch vụ không chuyên nghiệp.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/ho-tro-bao-hanh/",
+      "supports": "Yadea không bảo hành khi không có hóa đơn, biên lai hoặc chứng từ chứng minh đã mua xe chính hãng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/ho-tro-bao-hanh/",
+      "supports": "Yadea nêu bộ sạc, bộ điều khiển có nhãn hiệu bị rách không được bảo hành.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pega.com.vn/bao-hanh.html",
+      "supports": "Trang bảo hành Pega loại hư hỏng do tự tháo lắp, thay đổi thiết kế kỹ thuật xe không qua tư vấn của thợ Pega.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pega.com.vn/bao-hanh.html",
+      "supports": "Pega loại hư hỏng do dùng linh kiện không đạt tiêu chuẩn kỹ thuật của Pega.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pega.com.vn/bao-hanh.html",
+      "supports": "Pega không áp dụng bảo hành khi sổ bảo hành, số khung, số động cơ, mã linh kiện không hợp lệ, tem hoặc sổ bị tẩy xóa.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Sổ hướng dẫn Dat Bike Quantum dặn không trang bị thêm thiết bị điện, điện tử ngoài thiết bị chính hãng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Sổ Dat Bike dặn không tự ý tháo dỡ hoặc sửa chữa pin điện, mọi vấn đề bảo hành sửa chữa liên quan đến pin phải do Dat Bike thực hiện.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Sổ Dat Bike ghi xe có các thiết bị hoạt động ở điện áp cao trên 60V, mức điện áp nguy hiểm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/dich-vu-sau-ban-hang/chinh-sach-bao-hanh-xe",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/dich-vu-sau-ban-hang/chinh-sach-bao-hanh-xe",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/dich-vu-sau-ban-hang/chinh-sach-bao-hanh-xe",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/dich-vu-sau-ban-hang/chinh-sach-bao-hanh-xe",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/dich-vu-sau-ban-hang/chinh-sach-bao-hanh-xe",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/ho-tro-bao-hanh/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/ho-tro-bao-hanh/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/ho-tro-bao-hanh/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/ho-tro-bao-hanh/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pega.com.vn/bao-hanh.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pega.com.vn/bao-hanh.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pega.com.vn/bao-hanh.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2343,
+        "title": "Xe máy điện: các hãng nổi bật và cách chọn xe phù hợp nhất",
+        "why": "stale",
+        "content_hash": "c6618e9c49c5f2f25650deea3da4d70c0b7ac0a3821f5dc81a038f2aae0716d7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2542,
+        "title": "Xe máy bị nóng máy nhanh do đâu? Những điểm nên kiểm tra đầu tiên",
+        "why": "stale",
+        "content_hash": "994e220a440cdb5f8e90756cb7e6d0319a7cf0377e7377b9dd7b0b64ed9e9f51",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4046,
+        "title": "Nhận xe máy thuê tại homestay Hà Nội không có lễ tân: hẹn giao, kiểm tra và trả xe",
+        "why": "stale",
+        "content_hash": "408ee1c935cbed2cc7b830b85734e14e93e1a4c5ee2cc36d01097733e2853eb2",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T14:19:51.548856+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "4bec2236e86929b4e3bf89979bda3bc951210d0ee519e4f5a6fdc6674335b900",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

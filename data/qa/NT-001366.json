@@ -1,0 +1,224 @@
+{
+  "topic_id": "NT-001366",
+  "status": "PASS",
+  "source_sha256": "5151e7e597ab54ac2d291821e6fa954958f1d75c4fc5ca47ee9630ca914aef11",
+  "body_sha256": "90187ea30b671c655c730bda48dc69248e7bf1e67b53a22762509a8c6e0238ae",
+  "word_count": 2825,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://luatvietnam.vn/dan-su/bo-luat-dan-su-2015-so-91-2015-qh13-101333-d1.html",
+      "supports": "Bản Bộ luật Dân sự 2015 đăng trên luatvietnam.vn (trang luật tư nhân, không phải trang nhà nước): Điều 554 đến 560 về hợp đồng gửi giữ tài sản, gồm khoản 2 Điều 556 và khoản 4 Điều 557 về bồi thường khi mất tài sản gửi giữ, trừ bất khả kháng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congbao.chinhphu.vn/van-ban/luat-so-91-2015-qh13-18397.htm",
+      "supports": "Trang Công báo của Chính phủ: Luật số 91/2015/QH13 Bộ luật Dân sự ban hành 24/11/2015, có hiệu lực từ 01/01/2017.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.hanoi.gov.vn/dan-su/-/asset_publisher/sxBNLsQSLyY8/content/ai-co-nghia-vu-phai-boi-thuong-khi-e-xe-o-tang-ham-chung-cu-nhung-bi-mat-?_101_INSTANCE_sxBNLsQSLyY8_viewMode=view",
+      "supports": "Trang tuyên truyền, phổ biến pháp luật thuộc hanoi.gov.vn (đăng 28/08/2022): có phiếu giữ xe và thu tiền thì tồn tại hợp đồng gửi giữ tài sản; dẫn Điều 554, 556, 557, 360 Bộ luật Dân sự 2015.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/nld/phap-luat/gui-xe-khong-lay-the-mat-xe-ai-boi-thuong-20230203212027131.htm",
+      "supports": "Tuổi Trẻ (04/02/2023) trích luật sư Cao Thế Luận: hợp đồng gửi giữ không nhất thiết lập thành văn bản; không có thẻ vẫn có thể chứng minh đã gửi xe; giá trị bồi thường do hai bên thỏa thuận.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/plo/gui-xe-o-sieu-thi-khong-co-ve-giu-xe-ma-mat-xe-thi-kien-ai-109715362.htm",
+      "supports": "Tuổi Trẻ (06/01/2023) trích luật sư Bùi Quốc Tuấn: có vé giữ xe thì vé là hợp đồng gửi giữ; nơi không vé, không người giữ và có biển tự chịu trách nhiệm thì khó quy trách nhiệm; giá trị tính theo cà vẹt.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://anninhthudo.vn/nhan-dien-thu-doan-trom-cap-xe-may-va-nhung-bien-phap-phong-ngua-post570937.antd",
+      "supports": "Báo An ninh Thủ đô nhắc khuyến cáo của Phòng Cảnh sát hình sự Công an thành phố Hà Nội: ưu tiên bãi có camera, ghi nhớ số vé hoặc chụp ảnh biển số, báo cảnh sát khu vực và cung cấp thông tin xe bị mất.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://luatvietnam.vn/dan-su/bo-luat-dan-su-2015-so-91-2015-qh13-101333-d1.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congbao.chinhphu.vn/van-ban/luat-so-91-2015-qh13-18397.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.hanoi.gov.vn/dan-su/-/asset_publisher/sxBNLsQSLyY8/content/ai-co-nghia-vu-phai-boi-thuong-khi-e-xe-o-tang-ham-chung-cu-nhung-bi-mat-?_101_INSTANCE_sxBNLsQSLyY8_viewMode=view",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/nld/phap-luat/gui-xe-khong-lay-the-mat-xe-ai-boi-thuong-20230203212027131.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/plo/gui-xe-o-sieu-thi-khong-co-ve-giu-xe-ma-mat-xe-thi-kien-ai-109715362.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://anninhthudo.vn/nhan-dien-thu-doan-trom-cap-xe-may-va-nhung-bien-phap-phong-ngua-post570937.antd",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2395,
+        "title": "Trạm đổi pin VinFast hoạt động thế nào và phù hợp với ai khi dùng?",
+        "why": "stale",
+        "content_hash": "9f9843961c374c21766abd5bb5050f062102544f65af6bdc3a63b572f32ea88e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2517,
+        "title": "Xe ga rung khi tăng tốc do đâu? Các nguyên nhân thường gặp khi dùng",
+        "why": "stale",
+        "content_hash": "44f236046c1f74ea9761d7bd0ae2d3b0ea286bc2118a85e0aadf8beb2df1afc1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2521,
+        "title": "Cách kiểm tra lốp xe máy để phát hiện mòn, nứt và áp suất bất thường",
+        "why": "stale",
+        "content_hash": "08080c3d371127024550acb47d9ddf7feb4cdba807bbb1f3996c8e47b110a33d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T14:35:49.092973+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "03ce1d87237156323d147b57ffc5e1b814ed2a0c1ff5c3470647ade3815872cf",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

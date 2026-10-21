@@ -1,0 +1,169 @@
+{
+  "topic_id": "NT-001339",
+  "status": "PASS",
+  "source_sha256": "35fcba03ecc35c499474d0b9867f4751756f2c74a97788d3cb99a183c5585718",
+  "body_sha256": "b4062bfe72e7821de3a294f7c451a2d9fb7e2421b03a6a876d4b0d355319090c",
+  "word_count": 2254,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://nhipsonghanoi.hanoimoi.vn/lang-moc-thiet-ung-phat-trien-du-lich-theo-mo-hinh-lang-nghe-ven-do-624583.html",
+      "supports": "Hà Nội Mới (Nhịp sống Hà Nội) ghi làng Thiết Úng tên Nôm là làng Ống, sử sách không ghi nghề có từ bao giờ, thời Nguyễn nghệ nhân giỏi từng được triệu vào cung, 95% hộ làm nghề, quy hoạch cụm sản xuất tập trung.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/lang-nghe-go-thiet-ung-xa-van-ha-huyen-dong-anh-duoc-cong-nhan-la-diem-du-lich-696144.html",
+      "supports": "Hà Nội Mới ghi ngày 18-3 UBND thành phố ban hành Quyết định số 1567 công nhận điểm du lịch làng nghề gỗ mỹ nghệ Thiết Úng, xã Vân Hà; toàn xã Vân Hà có 60% hộ làm nghề, 14 nghệ nhân, 31 sản phẩm OCOP 3-4 sao.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://nhipsonghanoi.hanoimoi.vn/lang-moc-thiet-ung-phat-trien-du-lich-theo-mo-hinh-lang-nghe-ven-do-624583.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/lang-nghe-go-thiet-ung-xa-van-ha-huyen-dong-anh-duoc-cong-nhan-la-diem-du-lich-696144.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 931,
+        "title": "So Sánh Giá Thuê Xe Máy Điện Và Xe Đạp Điện Tại Hà Nội",
+        "why": "stale",
+        "content_hash": "6ecf7e9ed22bffd8cd1b7503e82157d22124c0c18b557dbf6c98245fa34fb529",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2424,
+        "title": "Dat Bike có những dòng xe nào? Tổng hợp các mẫu đáng chú ý",
+        "why": "stale",
+        "content_hash": "8547bbe19e35f1a3e720df88f2c659b744799c8f50115b8e6bfac67e10bf2889",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2503,
+        "title": "Xe máy khó nổ do đâu? Các nguyên nhân thường gặp và cách kiểm tra",
+        "why": "stale",
+        "content_hash": "1bb521d9de866fa24f421032913e8b1ee3e5f294cfdb38c1dfe0cd216a360f24",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2584,
+        "title": "Honda Vision có phù hợp khách du lịch di chuyển trong Hà Nội không?",
+        "why": "stale",
+        "content_hash": "1b0da83421e494f9d8ee85b9bcd1582804c1209b75ed3f4defded42f09ef81f1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T14:23:30.820303+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "fae243af9e6cfd0717239dde5992864791c4df81fd4f85fa02c906040dd9d613",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

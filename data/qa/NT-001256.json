@@ -1,0 +1,210 @@
+{
+  "topic_id": "NT-001256",
+  "status": "PASS",
+  "source_sha256": "21148dd54081d24d0f1262a8082955f2b512cc670d80864d21c9529363c57f3e",
+  "body_sha256": "33e00ad437f4e531a20122dcfa29ad2b70bd46ddacf0444be52b21d449ec01c1",
+  "word_count": 2668,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://daibieunhandan.vn/vuon-quoc-gia-ba-be-khu-ramsar-thu-3-cua-viet-nam-10096313.html",
+      "supports": "Báo Đại biểu Nhân dân (05/06/2011): hồ dài tới 8km, rộng tới 800m, độ sâu trung bình 17-23m, sâu nhất 29m, diện tích 450 ha; Ramsar 2/2/2011, khu thứ 3 của Việt Nam",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/cam-nang-du-lich-ho-ba-be-4650105.html",
+      "supports": "VnExpress (14/09/2023, cập nhật 4/2/2025): độ cao 145 m, dài hơn 8 km, rộng nhất khoảng 3 km, diện tích mặt nước khoảng 500 ha, sâu trung bình 20 m, sâu nhất 35 m",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://babe.thainguyen.gov.vn/thong-bao/ho-ba-be-diem-den-khong-the-bo-lo-71637",
+      "supports": "Cổng thông tin xã Ba Bể trên thainguyen.gov.vn (06/09/2025): hồ nay thuộc xã Ba Bể, tỉnh Thái Nguyên; dài hơn 8km, chỗ rộng nhất 2km, mặt nước 500ha, sâu trung bình 20m",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://muctim.tuoitre.vn/nhung-dia-diem-du-lich-khong-the-bo-lo-tai-thai-nguyen-sau-sap-nhap-101250704185703068.htm",
+      "supports": "Mực Tím – Tuổi Trẻ (10/07/2025): năm 2011 hồ được công nhận khu Ramsar; hiện nay hồ thuộc xã Ba Bể, tỉnh Thái Nguyên",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://daibieunhandan.vn/vuon-quoc-gia-ba-be-khu-ramsar-thu-3-cua-viet-nam-10096313.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/cam-nang-du-lich-ho-ba-be-4650105.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://babe.thainguyen.gov.vn/thong-bao/ho-ba-be-diem-den-khong-the-bo-lo-71637",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://muctim.tuoitre.vn/nhung-dia-diem-du-lich-khong-the-bo-lo-tai-thai-nguyen-sau-sap-nhap-101250704185703068.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 847,
+        "title": "Cho Thuê Xe Máy Long Biên Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "9684f98d9a0c12291e20219c3746186ca86448c363b1b1f457d7917ff7c90680",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2415,
+        "title": "Honda ICON e: và Yamaha NEO's khác nhau ở điểm nào khi sử dụng?",
+        "why": "stale",
+        "content_hash": "46d798529e84be3408ca9645084bcb3ab939b77426292e48c1867fa9e8a729f8",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2455,
+        "title": "Honda Winner R phù hợp nhu cầu nào? Ưu nhược điểm khi dùng hằng ngày",
+        "why": "stale",
+        "content_hash": "62cdfb3ed2a4b39833e7b0c1ddd61f2653117e6cb5c7d08b7c97cc2f159b08d9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2594,
+        "title": "Đi ngoại thành Hà Nội nên chọn xe ga hay xe côn tay để phù hợp hơn?",
+        "why": "stale",
+        "content_hash": "c828fb01d0925dea14287531e51418ebeef09564d4fb50f52a2398ebd052935e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4054,
+        "title": "Thuê xe máy đi xem phòng trọ ở Hà Nội: xếp lịch khảo sát, gửi xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "5d877b968a3e9b4218759e74edb64aa0e8b842897cadb48686b422876f7f89a1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T14:34:35.805217+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "4293d5f76021c9a3fe8e4a0898ac710bb1b4c9935ea740382cac3ba8bbd92951",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

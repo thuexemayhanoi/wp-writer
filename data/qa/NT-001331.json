@@ -1,0 +1,370 @@
+{
+  "topic_id": "NT-001331",
+  "status": "PASS",
+  "source_sha256": "aaa4339925513d5ef3208b1b5076b5099fed27cd3e1ae9a8fd109bdcdfd9ff95",
+  "body_sha256": "5c6adb767f5b16b027b9bacc8320b26c5aba2a875d066d7231599f97f9087fc6",
+  "word_count": 2749,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://thanhnien.vn/kham-pha-dong-mo-185240730203741591.htm",
+      "supports": "Thanh Niên (tháng 7/2024) ghi hồ thuộc Sơn Tây và Ba Vì, diện tích khoảng 1.400 ha, sức chứa 61,9 triệu m3.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/kham-pha-dong-mo-185240730203741591.htm",
+      "supports": "Thanh Niên nêu thôn Lòng Hồ rộng 90 ha là điểm du lịch theo Quyết định số 2823/QĐ-UBND ngày 22/5/2023.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://doaiphuong.hanoi.gov.vn/van-hoa-xa-hoi/ho-dong-mo-vien-ngoc-xanh-lap-lanh-giua-long-doai-phuong-2774251212161333356.htm",
+      "supports": "Trang UBND xã Đoài Phương ghi hồ Đồng Mô có diện tích lên tới 200 hecta và liệt kê các hoạt động trải nghiệm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://doaiphuong.hanoi.gov.vn/van-hoa-xa-hoi/ho-dong-mo-vien-ngoc-xanh-lap-lanh-giua-long-doai-phuong-2774251212161333356.htm",
+      "supports": "Trang UBND xã Đoài Phương ghi hồ cách trung tâm Hà Nội khoảng 40 km, đi xe máy hoặc ô tô, mất khoảng một giờ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://doaiphuong.hanoi.gov.vn/van-hoa-xa-hoi/ho-dong-mo-vien-ngoc-xanh-lap-lanh-giua-long-doai-phuong-2774251212161333356.htm",
+      "supports": "Trang xã nói mức phí tham quan có thể thay đổi tùy thời điểm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/du-co-bien-cam-tu-tap-ho-dong-mo-van-tap-nap-nguoi-den-cam-trai-20210502013846882.htm",
+      "supports": "Dân trí (2/5/2021) ghi hồ thuộc Sơn Tây và một phần Ba Vì, nằm trong quần thể Làng văn hóa các dân tộc Việt Nam.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/du-co-bien-cam-tu-tap-ho-dong-mo-van-tap-nap-nguoi-den-cam-trai-20210502013846882.htm",
+      "supports": "Dân trí ghi hồ chứa nước rộng khoảng 500 ha, dưới chân núi Ba Vì.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/du-co-bien-cam-tu-tap-ho-dong-mo-van-tap-nap-nguoi-den-cam-trai-20210502013846882.htm",
+      "supports": "Dân trí phân biệt điểm hạ trại tự nhiên tự do với khu biệt thự, khu sinh thái thu phí.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/du-co-bien-cam-tu-tap-ho-dong-mo-van-tap-nap-nguoi-den-cam-trai-20210502013846882.htm",
+      "supports": "Dân trí ghi các bãi ven hồ để lại rất nhiều rác sau kỳ nghỉ lễ 2021.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nhipsonghanoi.hanoimoi.vn/bi-an-dong-mo-16307.html",
+      "supports": "Nhịp sống Hà Nội ghi đập đắp năm 1966 thành hồ Đồng Mô - Ngải Sơn chống úng hạn cho 3 huyện, hoàn thành năm 1970.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nhipsonghanoi.hanoimoi.vn/bi-an-dong-mo-16307.html",
+      "supports": "Nhịp sống Hà Nội ghi lòng hồ có 21 đảo lớn nhỏ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/lang-van-hoa-du-lich-cac-dan-toc-viet-nam-duoc-cong-nhan-la-khu-du-lich-cap-thanh-pho-1759686.html",
+      "supports": "Hà Nội Mới (tháng 10/2026) ghi mặt nước hồ Đồng Mô thuộc khu vực Làng Văn hóa chiếm 935,31 ha trong tổng 1.544 ha quy hoạch.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/lang-van-hoa-du-lich-cac-dan-toc-viet-nam-duoc-cong-nhan-la-khu-du-lich-cap-thanh-pho-1759686.html",
+      "supports": "Hà Nội Mới ghi quyết định số 5519/QĐ-UBND ngày 5-10-2026 công nhận Làng Văn hóa là khu du lịch cấp thành phố.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/ngoi-nha-chung-cua-54-dan-toc-duoc-ha-noi-cong-nhan-la-khu-du-lich-cap-thanh-pho-10026100613344757.htm",
+      "supports": "Tuổi Trẻ (tháng 10/2026) ghi mặt nước hồ Đồng Mô chiếm hơn 935 ha.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://thanhnien.vn/kham-pha-dong-mo-185240730203741591.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/kham-pha-dong-mo-185240730203741591.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://doaiphuong.hanoi.gov.vn/van-hoa-xa-hoi/ho-dong-mo-vien-ngoc-xanh-lap-lanh-giua-long-doai-phuong-2774251212161333356.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://doaiphuong.hanoi.gov.vn/van-hoa-xa-hoi/ho-dong-mo-vien-ngoc-xanh-lap-lanh-giua-long-doai-phuong-2774251212161333356.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://doaiphuong.hanoi.gov.vn/van-hoa-xa-hoi/ho-dong-mo-vien-ngoc-xanh-lap-lanh-giua-long-doai-phuong-2774251212161333356.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/du-co-bien-cam-tu-tap-ho-dong-mo-van-tap-nap-nguoi-den-cam-trai-20210502013846882.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/du-co-bien-cam-tu-tap-ho-dong-mo-van-tap-nap-nguoi-den-cam-trai-20210502013846882.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/du-co-bien-cam-tu-tap-ho-dong-mo-van-tap-nap-nguoi-den-cam-trai-20210502013846882.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/du-co-bien-cam-tu-tap-ho-dong-mo-van-tap-nap-nguoi-den-cam-trai-20210502013846882.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nhipsonghanoi.hanoimoi.vn/bi-an-dong-mo-16307.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nhipsonghanoi.hanoimoi.vn/bi-an-dong-mo-16307.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/lang-van-hoa-du-lich-cac-dan-toc-viet-nam-duoc-cong-nhan-la-khu-du-lich-cap-thanh-pho-1759686.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/lang-van-hoa-du-lich-cac-dan-toc-viet-nam-duoc-cong-nhan-la-khu-du-lich-cap-thanh-pho-1759686.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/ngoi-nha-chung-cua-54-dan-toc-duoc-ha-noi-cong-nhan-la-khu-du-lich-cap-thanh-pho-10026100613344757.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2441,
+        "title": "Honda Vision có ưu nhược điểm gì khi sử dụng hằng ngày trong phố?",
+        "why": "stale",
+        "content_hash": "afe731aa2441d7ecdc450e2a9e5f0574a44dfcbbdc8455f0c3850b24a1490cca",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2569,
+        "title": "Xe ga tốn xăng hơn xe số bao nhiêu khi sử dụng trong thành phố?",
+        "why": "stale",
+        "content_hash": "0e0403a44ff6ce7c19068379c2905b55413b5e6b08f79ca8a2a469fd0114f8e0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2592,
+        "title": "Đi Hà Nội hai người nên chọn xe gì để thoải mái và dễ điều khiển?",
+        "why": "stale",
+        "content_hash": "5c0894287bcacd6fb1f4e67cebc0eb2d421ebeddf8dc30ba47f488d03a2cf568",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4047,
+        "title": "Thuê xe máy Hà Nội 2 ngày 1 đêm: tính tiền theo mốc nào và trả xe lúc nào?",
+        "why": "stale",
+        "content_hash": "ff3360a833efc7ccb2778f577426a6ccdec6c16a3c8c30c58243ba9e9175e695",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4058,
+        "title": "Thuê xe máy khi chăm người nhà ở bệnh viện Hà Nội: tính ngày thuê và sắp lịch đi lại",
+        "why": "stale",
+        "content_hash": "92611919afd9af68489111c1f99c127439f1c41b7a945f6d846768a64175f9f5",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T14:07:58.427236+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "35839d17f0d413fc4697f13941c4730f62993b309bc08bc49548cc204749da9d",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
