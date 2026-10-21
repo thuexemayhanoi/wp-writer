@@ -20814,7 +20814,7 @@
       }
     },
     "NT-000961": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:35:54.790080+00:00",
       "source_hash": "4b99a4f14c083a19ec47d2077d8cf269a3511b53b7025efb4c95fab986569ca4",
       "slug": "ky-cuoc-khi-thue-xe-may-tien-coc-nhan-xe-khac-dat-coc-o-diem-nao-theo-dieu-329-bo-luat-dan-su",
@@ -20830,8 +20830,37 @@
       "category_warning": null,
       "git_commit": "61285248c7d8eca7c8250b277de2091dd2ca1bae",
       "run_id": "39544657734",
-      "updated_at": "2026-10-21T04:35:59.042824+00:00",
-      "wp_id": 4441
+      "updated_at": "2026-10-21T04:36:05.485012+00:00",
+      "wp_id": 4441,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ky-cuoc-khi-thue-xe-may-tien-coc-nhan-xe-khac-dat-coc-o-diem-nao-theo-dieu-329-bo-luat-dan-su/",
+      "verified_at": "2026-10-21T04:36:05.485005+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4441,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ky-cuoc-khi-thue-xe-may-tien-coc-nhan-xe-khac-dat-coc-o-diem-nao-theo-dieu-329-bo-luat-dan-su/",
+        "categories": [
+          164
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ky-cuoc-khi-thue-xe-may-tien-coc-nhan-xe-khac-dat-coc-o-diem-nao-theo-dieu-329-bo-luat-dan-su/",
+        "seo_title": "Ký cược khi thuê xe máy: khác đặt cọc ở điểm nào theo Điều 329 BLDS",
+        "seo_description": "Ký cược khi thuê xe máy theo Điều 329 Bộ luật Dân sự: ba tình huống, khác đặt cọc ở Điều 328 thế nào, điều bài tạp chí nêu thêm và danh mục đọc điều khoản cọc.",
+        "checked_at": "2026-10-21T04:36:05.484983+00:00"
+      }
     }
   },
   "categories": {}
