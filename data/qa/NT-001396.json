@@ -1,0 +1,354 @@
+{
+  "topic_id": "NT-001396",
+  "status": "PASS",
+  "source_sha256": "97e3d4aa6fe2d24731c15c682c7cdae599716da7d4855013d4fcb50b6ddffbcc",
+  "body_sha256": "a59ceacc45890a02df1da31b424b55033675fafc91059fba85205c1c30da3b74",
+  "word_count": 2465,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716195113359.chn",
+      "supports": "CafeF (16/7/2026): công thức giá vé lượt gồm 3.000 đồng tiền mở cửa cộng 450 đồng cho mỗi kilomet di chuyển.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laodong.vn/giao-thong/loat-thay-doi-tren-he-thong-xe-buyt-ha-noi-tu-17-1727956.ldo",
+      "supports": "Lao Động (1/7/2026): giá mở cửa 3.000 đồng, giá 1 km là 450 đồng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laodong.vn/giao-thong/loat-thay-doi-tren-he-thong-xe-buyt-ha-noi-tu-17-1727956.ldo",
+      "supports": "Lao Động (1/7/2026): công thức giá vé lượt bằng giá mở cửa cộng cự ly di chuyển nhân giá 1 km.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716195113359.chn",
+      "supports": "CafeF (16/7/2026): từ 17/7/2026 thêm 24 tuyến và nhánh tuyến buýt Hà Nội áp dụng giá vé lượt theo cự ly.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716195113359.chn",
+      "supports": "CafeF (16/7/2026): ví dụ vé thanh toán điện tử cho cự ly 5, 10 và 20 km.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716195113359.chn",
+      "supports": "CafeF (16/7/2026): thay đổi từ 17/7 không phải tăng đồng loạt giá vé.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laodong.vn/giao-thong/loat-thay-doi-tren-he-thong-xe-buyt-ha-noi-tu-17-1727956.ldo",
+      "supports": "Lao Động (1/7/2026): lời một hành khách về chặng khoảng 2 km bị trừ khoảng 4.000 đồng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716195113359.chn",
+      "supports": "CafeF (16/7/2026): danh sách tuyến đợt 4 của Tổng công ty Vận tải Hà Nội, Bảo Yến và Công ty CP Xe điện.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716195113359.chn",
+      "supports": "CafeF (16/7/2026): sáu tuyến VinBus, hai tuyến của Hà Tây và tuyến 64 của Hải Vân thuộc đợt 4.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716195113359.chn",
+      "supports": "CafeF (16/7/2026): miễn vé phần hành trình trong Vành đai 1 từ 1/7/2026 đến hết 30/6/2027 theo Sở Xây dựng Hà Nội.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716195113359.chn",
+      "supports": "CafeF (16/7/2026): ví dụ 10 km có 6 km trong vùng miễn thì trả tiền 4 km còn lại.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716195113359.chn",
+      "supports": "CafeF (16/7/2026): quên chạm ở cửa xuống thì hệ thống mặc định đi đến cuối tuyến.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716195113359.chn",
+      "supports": "CafeF (16/7/2026): người trả tiền mặt tính cự ly từ điểm lên xe đến cuối tuyến, làm tròn lên hàng nghìn đồng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716195113359.chn",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laodong.vn/giao-thong/loat-thay-doi-tren-he-thong-xe-buyt-ha-noi-tu-17-1727956.ldo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laodong.vn/giao-thong/loat-thay-doi-tren-he-thong-xe-buyt-ha-noi-tu-17-1727956.ldo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716195113359.chn",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716195113359.chn",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716195113359.chn",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laodong.vn/giao-thong/loat-thay-doi-tren-he-thong-xe-buyt-ha-noi-tu-17-1727956.ldo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716195113359.chn",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716195113359.chn",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716195113359.chn",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716195113359.chn",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716195113359.chn",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://cafef.vn/tu-ngay-mai-17-7-dich-vu-hang-trieu-nguoi-dang-dung-thay-doi-cach-tinh-gia-ve-188260716195113359.chn",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 887,
+        "title": "Chi Phí Giao Xe Máy Tận Nơi Hà Nội – Cách Tính & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "6c27605fc8d85de1852488f84e098724f3408d70c6c8b62c581045e5fb205778",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2615,
+        "title": "Phố cổ Hà Nội có gì chơi? 15 địa điểm, món ngon và lịch trình đi bộ",
+        "why": "stale",
+        "content_hash": "e9addb8498afd5d9d13bd70c14aa17da5a5746f6ac0ac5ba4247af9d1591d5ff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4046,
+        "title": "Nhận xe máy thuê tại homestay Hà Nội không có lễ tân: hẹn giao, kiểm tra và trả xe",
+        "why": "stale",
+        "content_hash": "408ee1c935cbed2cc7b830b85734e14e93e1a4c5ee2cc36d01097733e2853eb2",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4048,
+        "title": "Thuê xe máy Hà Nội khi xe cá nhân đang sửa: chọn kỳ thuê và gia hạn nếu gara trễ",
+        "why": "stale",
+        "content_hash": "5eaf7d3b4d760f2a4ab0df94807fe114a8927ceb0af3b0ea5d1d59453a46f20d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T14:36:36.824538+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "47ecb6b89004a92ad734c847c8eefbf34df6776c2e8ad5e697dd707dee36c53b",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
