@@ -23803,7 +23803,7 @@
       }
     },
     "NT-001167": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T09:14:41.816785+00:00",
       "source_hash": "0be4d8914efbcc2a856c6e92182ed36f2e2746f5da61264ad7b7c3a127a43d0f",
       "slug": "nhot-o-to-do-cho-xe-may-duoc-khong-vi-sao-con-uot-can-jaso-ma-mb-va-khi-can-nhot-thi-sao",
@@ -23819,8 +23819,37 @@
       "category_warning": null,
       "git_commit": "e0be378c2078eeb1d114cc3e67e701270ff6146f",
       "run_id": "39574850605",
-      "updated_at": "2026-10-21T09:14:45.891319+00:00",
-      "wp_id": 4522
+      "updated_at": "2026-10-21T09:14:53.770924+00:00",
+      "wp_id": 4522,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nhot-o-to-do-cho-xe-may-duoc-khong-vi-sao-con-uot-can-jaso-ma-mb-va-khi-can-nhot-thi-sao/",
+      "verified_at": "2026-10-21T09:14:53.770916+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4522,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nhot-o-to-do-cho-xe-may-duoc-khong-vi-sao-con-uot-can-jaso-ma-mb-va-khi-can-nhot-thi-sao/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nhot-o-to-do-cho-xe-may-duoc-khong-vi-sao-con-uot-can-jaso-ma-mb-va-khi-can-nhot-thi-sao/",
+        "seo_title": "Nhớt ô tô đổ cho xe máy được không? Yamaha và kỹ sư nói gì",
+        "seo_description": "Nhớt ô tô đổ cho xe máy được không: Yamaha dặn tránh vì ly hợp ướt, một kỹ sư dẫn trên VietNamNet nói chỉ dùng tạm khi cạn nhớt; JASO MA, MB khác nhau ra sao.",
+        "checked_at": "2026-10-21T09:14:53.770899+00:00"
+      }
     }
   },
   "categories": {}
