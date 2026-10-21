@@ -1,0 +1,191 @@
+{
+  "topic_id": "NT-001170",
+  "status": "PASS",
+  "source_sha256": "92a8e8efad58baf27755e3beae9cbd17409afddbd1defcc2ddd42e3621f897e1",
+  "body_sha256": "30afa24e8c94d264cfc582314030616f4a979a8f8b266196508ec0835430be8a",
+  "word_count": 2053,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=thong-tin-ve-cong-ty&category_tab=dau-nhot&category_child=phu-tung",
+      "supports": "Honda Việt Nam (hỏi đáp, cập nhật 23/12/2019): một số cửa hàng ủy nhiệm dùng cả nhớt chai và nhớt thùng phuy; Honda xác nhận hai loại có chất lượng và thông số như nhau, lý do giảm vỏ chai thải ra môi trường.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=thong-tin-ve-cong-ty&category_tab=dau-nhot&category_child=phu-tung",
+      "supports": "Honda Việt Nam (hỏi đáp, cập nhật 21/09/2021): nhớt chai bốn dung tích 0,7, 0,8, 1 và 1,2 lít chia ba loại MA SL 10W-30 cho xe số, MB SL 10W-30 cho xe ga và loại tổng hợp cao cấp cho xe côn tay, xe phân khối lớn.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_child=tu-van-su-dung-xe-may",
+      "supports": "Honda Việt Nam (hỏi đáp, cập nhật 21/09/2021): nên đến cửa hàng ủy nhiệm để có dầu máy chính hiệu và thích hợp; 1000 km đầu thay nhớt rồi mỗi 6000 km trong điều kiện bình thường.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category_tab=bao-hanhbao-duong-xe-may&category_child=dich-vu",
+      "supports": "Honda Việt Nam (hỏi đáp, cập nhật 20/09/2021): khi còn bảo hành, thay nhớt tại cửa hàng ủy nhiệm trả phí theo giá cửa hàng vì Honda không miễn phí thay phụ phẩm, dầu mỡ ở Bảng 2.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/dich-vu-sau-ban-hang/chinh-sach-bao-hanh-xe",
+      "supports": "Honda Việt Nam, chính sách bảo hành xe từ 350cc trở xuống (áp dụng từ 15/8/2025): Bảng 2 là phụ phẩm và dầu mỡ; hư hỏng liên quan dầu nhờn có thông số khác sách hướng dẫn không được sửa chữa bảo hành.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/dau-nhot-dong-co-4t-la-gi-cach-chon-dau-nhot-phu-hop-xe-may/",
+      "supports": "Yamaha Việt Nam (25/05/2026): xe số, côn tay dùng JASO MA hoặc MA2, xe ga dùng JASO MB thiết kế giảm ma sát.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=thong-tin-ve-cong-ty&category_tab=dau-nhot&category_child=phu-tung",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=thong-tin-ve-cong-ty&category_tab=dau-nhot&category_child=phu-tung",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_child=tu-van-su-dung-xe-may",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category_tab=bao-hanhbao-duong-xe-may&category_child=dich-vu",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/dich-vu-sau-ban-hang/chinh-sach-bao-hanh-xe",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/dau-nhot-dong-co-4t-la-gi-cach-chon-dau-nhot-phu-hop-xe-may/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-21T09:22:50.359310+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "e3c2cc0d461191ce5e3dd04491f4b35b8076e8f0c5862116e4fb1894027c47a8",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

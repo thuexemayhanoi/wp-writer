@@ -1,0 +1,217 @@
+{
+  "topic_id": "NT-001161",
+  "status": "PASS",
+  "source_sha256": "4cd764a6f2c300be1e4ce294b590ecbe46a0b84bfe9aebe1e85d8793c505f559",
+  "body_sha256": "1bdd4e53ae20ceec139b8ff6e651ab7801529af92ce3cb6ccfc3715959cccecc",
+  "word_count": 2127,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_child=tu-van-su-dung-xe-may",
+      "supports": "Honda Việt Nam (trang hỏi đáp, cập nhật 21/09/2021): xe khó khởi động hoặc nổ không đều khi trời lạnh hoặc không dùng trên 6 giờ vì động cơ nguội nên nhiên liệu khó cháy.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_child=tu-van-su-dung-xe-may",
+      "supports": "Honda Việt Nam: cách khắc phục là đóng le gió để buồng đốt nhận nhiều nhiên liệu hơn rồi mở lại khi động cơ hoạt động đều.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_child=tu-van-su-dung-xe-may",
+      "supports": "Honda Việt Nam (câu trả lời về bảo quản xe để lâu ngày): không nên nổ máy tại chỗ quá lâu, đặc biệt xe làm mát bằng không khí.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/o-to-xe-may/xe-may-kho-khoi-dong-khi-troi-lanh-va-nhung-hieu-lam-tai-hai-20260123161801683.htm",
+      "supports": "Dân Trí (24/01/2026): mỗi lần giữ nút đề không quá 3 giây vì dễ hại củ đề hoặc ắc quy; nếu không nổ thì chờ 10–20 giây.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/o-to-xe-may/xe-may-kho-khoi-dong-khi-troi-lanh-va-nhung-hieu-lam-tai-hai-20260123161801683.htm",
+      "supports": "Dân Trí (24/01/2026): buổi sáng nên cho xe nổ không tải khoảng 1–2 phút để dầu nhớt lưu chuyển tới các bộ phận.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_child=tu-van-su-dung-xe-may",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_child=tu-van-su-dung-xe-may",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/cau-hoi-thuong-gap?category=&category_child=tu-van-su-dung-xe-may",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/o-to-xe-may/xe-may-kho-khoi-dong-khi-troi-lanh-va-nhung-hieu-lam-tai-hai-20260123161801683.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/o-to-xe-may/xe-may-kho-khoi-dong-khi-troi-lanh-va-nhung-hieu-lam-tai-hai-20260123161801683.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2374,
+        "title": "Xe máy điện đi mưa có an toàn không? Cách sử dụng đúng và bền",
+        "why": "stale",
+        "content_hash": "f86d1aa55c92feadb7f1f7424eb5a8881f374d07d09eba557a5974bddc4ab23f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2397,
+        "title": "Xe máy điện VinFast nào phù hợp đi phố và quãng đường ngắn hằng ngày?",
+        "why": "stale",
+        "content_hash": "2b93d3334950d29cdf087539809b34e2aca4cc02672b85bcc31d2f5de9a815aa",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2547,
+        "title": "Xe máy cũ mua lại có cần đổi biển số không? Các trường hợp cần biết",
+        "why": "stale",
+        "content_hash": "8e256c8d7edb51c20df3e42a005401c4640d03564a72f2e47b73d39dfade3fea",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4048,
+        "title": "Thuê xe máy Hà Nội khi xe cá nhân đang sửa: chọn kỳ thuê và gia hạn nếu gara trễ",
+        "why": "stale",
+        "content_hash": "5eaf7d3b4d760f2a4ab0df94807fe114a8927ceb0af3b0ea5d1d59453a46f20d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T09:13:30.568331+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "50de905d30e5d30276cc2dd20b9ec938cec58fe13b7d099c61a161d35b6c2037",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

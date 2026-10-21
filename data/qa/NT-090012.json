@@ -1,0 +1,187 @@
+{
+  "topic_id": "NT-090012",
+  "status": "PASS",
+  "source_sha256": "03c51ca5693ffc32f025fa0a2e91d79460e01837e83872ae22d11dc8506f9099",
+  "body_sha256": "1163595f72d56656c7a00ac648416c76213dbf6912e49cd41235f1dbcdffae01",
+  "word_count": 3385,
+  "quality_score": 100,
+  "seo_score": 95,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 10,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [
+    "Add contextual links to real published related articles"
+  ],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://baotangphunu.org.vn/tham-quan/",
+      "supports": "Trang tham quan chính thức cho biết địa chỉ 36 Lý Thường Kiệt, mở cửa hàng ngày 8–17 giờ, có thang máy, tủ đồ, thuyết minh tự động và hoạt động dành cho trẻ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotangphunu.org.vn/phong-kham-pha/",
+      "supports": "Bảo tàng mô tả phòng Khám phá dành cho trẻ em, hoạt động tương tác, góc đọc sách có cha mẹ tham gia; cần hỏi lịch hoạt động thực tế.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotangphunu.org.vn/tour-hoc-duong/",
+      "supports": "Chương trình tour học đường nêu trải nghiệm thủ công và hoạt động giáo dục; không khẳng định lịch tour nào cũng sẵn không đặt trước.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://baotangphunu.org.vn/tham-quan/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotangphunu.org.vn/phong-kham-pha/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotangphunu.org.vn/tour-hoc-duong/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2367,
+        "title": "Có Nên Sạc Xe Máy Điện Tại Nhà? Kinh Nghiệm An Toàn Khi Sử Dụng",
+        "why": "stale",
+        "content_hash": "8768183f030319ed7647591d37ba6e25af1e5ac274f69cc230b87c74a28fe158",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2464,
+        "title": "Yamaha Janus phù hợp với ai? Những điểm đáng chú ý khi lựa chọn",
+        "why": "stale",
+        "content_hash": "0c040691e439a75bb84f66327d81dddb8d19e2ae59680e88c15bc7ee801a283a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2498,
+        "title": "Khi nào cần tăng xích xe máy? Dấu hiệu dễ nhận biết khi sử dụng",
+        "why": "stale",
+        "content_hash": "cc66bddca00ff3ff900a51cce730848c80a7f0e8979caaf256eec12589620f67",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2615,
+        "title": "Phố cổ Hà Nội có gì chơi? 15 địa điểm, món ngon và lịch trình đi bộ",
+        "why": "stale",
+        "content_hash": "e9addb8498afd5d9d13bd70c14aa17da5a5746f6ac0ac5ba4247af9d1591d5ff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T09:04:43.381922+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "9794ea3a967df4a21aed8221e44c98d64b9dda62a4df3aa5b28969425c93f48c",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
