@@ -28407,6 +28407,25 @@
         "seo_description": "Bị giữ giấy phép lái xe máy khi chỉ phạt tiền: biên bản ghi hạn hẹn, quá hạn mà vẫn chạy bị xử phạt như không có giấy tờ, và cách lấy lại giấy phép sau khi nộp phạt.",
         "checked_at": "2026-10-21T14:53:33.864300+00:00"
       }
+    },
+    "NT-001364": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T14:53:46.544010+00:00",
+      "source_hash": "41d18484935bf47f36f031ed748f8db0c464623af740d98c49a52d751374655f",
+      "slug": "nop-tien-phat-giao-thong-han-10-ngay-0-05-moi-ngay-cham-va-nop-qua-cong-dich-vu-cong",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 163,
+      "visible_hash": "5450a73951d745aad4783d95456d99e41be8ba92fc2600a97d83cd4cd5ab6b7e",
+      "first_paragraph": "Nộp tiền phạt giao thông phải làm trong 10 ngày kể từ ngày nhận quyết định xử phạt, hoặc theo thời hạn dài hơn nếu quyết định ghi như vậy, bằng cách nộp tại Kho bạc Nhà nước hoặc vào tài khoản của Kho bạc Nhà nước ghi trong quyết định; theo Bộ Công an, bạn cũng có thể nộp trực tuyến qua Cổng Dịch vụ công Quốc gia khi thông tin quyết định đã được cập nhật lên cổng. Quá hạn thì bị cưỡng chế thi hành quyết định xử phạt và cứ mỗi ngày chậm nộp phải nộp thêm 0,05% tính trên tổng số tiền phạt chưa nộp, theo khoản 1 Điều 78 Luật Xử lý vi phạm hành chính.",
+      "meta_title": "Nộp tiền phạt giao thông: hạn 10 ngày, 0,05% mỗi ngày chậm, nộp online",
+      "meta_description": "Nộp tiền phạt giao thông trong 10 ngày kể từ ngày nhận quyết định, tại Kho bạc hoặc qua Cổng Dịch vụ công; chậm nộp bị cưỡng chế và thêm 0,05% mỗi ngày.",
+      "intended_taxonomy_key": "rental-procedures",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "98d66420ecdf9ed940584762b90f7fcdd5d15993",
+      "run_id": "39619876214",
+      "updated_at": "2026-10-21T14:53:46.545594+00:00"
     }
   },
   "categories": {}
