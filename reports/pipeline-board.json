@@ -1,41 +1,17 @@
 {
-  "at": "2026-10-21T09:56:38.319958+00:00",
+  "at": "2026-10-21T10:05:10.543986+00:00",
   "counts": {
-    "WRITING": 29,
+    "WRITING": 15,
     "QA": 0,
-    "READY": 0,
+    "READY": 4,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 531
+    "VERIFIED": 541
   },
-  "ready_backlog": 0,
-  "in_flight": 32,
+  "ready_backlog": 4,
+  "in_flight": 22,
   "items": [
-    {
-      "topic_id": "NT-001143",
-      "state": "WRITING",
-      "reason": "leased to seodev-w56",
-      "title": "Bảy cầu qua sông Hồng đang thi công ở Hà Nội: Hồng Hà và Mễ Sở vượt 45%, mục tiêu xong quý 2/2027 trước APEC",
-      "slot": "W7",
-      "session": "seodev-w56",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001144",
-      "state": "WRITING",
-      "reason": "leased to seodev-w56",
-      "title": "Làn sóng xanh ở Hà Nội: 23 tuyến, 564 nút giao do CSGT điều hành đèn và cách đi để ít gặp đèn đỏ",
-      "slot": "W7",
-      "session": "seodev-w56",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-001145",
       "state": "WRITING",
@@ -43,42 +19,6 @@
       "title": "Nút giao Pháp Vân – bến xe Nước Ngầm sau cải tạo: phố Bùi Huy Đáp mở hướng ra đường gom cao tốc Pháp Vân – Cầu Giẽ",
       "slot": "W7",
       "session": "seodev-w56",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001149",
-      "state": "WRITING",
-      "reason": "leased to seodev-w56",
-      "title": "Vành đai 3 trên cao giờ cao điểm 7h–9h, 17h–19h30: hơn 100.000 lượt xe mỗi ngày và vì sao giữ làn dừng khẩn cấp",
-      "slot": "W7",
-      "session": "seodev-w56",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001150",
-      "state": "WRITING",
-      "reason": "leased to seodev-w56",
-      "title": "Metro số 3 kéo dài đến Hoàng Mai: EU hỗ trợ 10 triệu euro chuẩn bị đoạn ngầm 11 km, hoàn tất nghiên cứu cuối 2027",
-      "slot": "W7",
-      "session": "seodev-w56",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001201",
-      "state": "WRITING",
-      "reason": "leased to seodev-w57",
-      "title": "Đi xe máy trong hầm đường bộ: bật đèn chiếu gần, không dừng đỗ, không quay đầu, không vượt và cách xử lý khi xe hỏng giữa hầm",
-      "slot": "W1",
-      "session": "seodev-w57",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -193,30 +133,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001223",
-      "state": "WRITING",
-      "reason": "leased to seodev-w55",
-      "title": "Giấy đăng ký xe máy điện tử trên VNeID và VNeTraffic: Thông tư 37/2026 có hiệu lực 8/6/2026 nói gì?",
-      "slot": "W5",
-      "session": "seodev-w55",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001224",
-      "state": "WRITING",
-      "reason": "leased to seodev-w55",
-      "title": "Che hoặc làm mờ biển số xe máy: Nghị định 238/2026 phạt 4–6 triệu đồng những hành vi nào từ 15/8/2026?",
-      "slot": "W5",
-      "session": "seodev-w55",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001225",
       "state": "WRITING",
       "reason": "leased to seodev-w55",
@@ -229,94 +145,10 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001230",
-      "state": "WRITING",
-      "reason": "leased to seodev-w55",
-      "title": "Giấy phép lái xe điện tử sau khi thi đạt hạng A1, A: tích hợp VNeTraffic trong 2 giờ, thẻ PET 3,5 ngày làm việc",
-      "slot": "W5",
-      "session": "seodev-w55",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001242",
-      "state": "WRITING",
-      "reason": "leased to seodev-w58",
-      "title": "Đèo Mã Pì Lèng cao bao nhiêu mét: các báo nêu 1.200 m, hơn 1.500 m và gần 2.000 m, đèo dài 20 km trên quốc lộ 4C",
-      "slot": "W3",
-      "session": "seodev-w58",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001243",
-      "state": "WRITING",
-      "reason": "leased to seodev-w58",
-      "title": "Dinh thự họ Vương ở Sà Phìn xây năm nào: 1898–1903 hay 1919–1928, tốn 15.000 đồng bạc hoa xòe hay 15 vạn đồng",
-      "slot": "W3",
-      "session": "seodev-w58",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001244",
-      "state": "WRITING",
-      "reason": "leased to seodev-w58",
-      "title": "Chợ tình Khâu Vai họp ngày nào: 27/3 âm lịch, năm 2024 là 4–5/5, năm 2026 khai mạc tối 12/5 ở xã Khâu Vai",
-      "slot": "W3",
-      "session": "seodev-w58",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001245",
       "state": "WRITING",
       "reason": "leased to seodev-w58",
       "title": "Tour xe máy Hà Giang Loop năm 2026: Tuyên Quang siết quản lý, cấm chào bán tour khi chưa có giấy phép lữ hành",
-      "slot": "W3",
-      "session": "seodev-w58",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001247",
-      "state": "WRITING",
-      "reason": "leased to seodev-w58",
-      "title": "Pù Luông tháng nào đẹp: lúa chín cuối tháng 5–giữa tháng 6 và cuối tháng 9–tháng 10, mùa vàng chỉ 2–3 tuần",
-      "slot": "W3",
-      "session": "seodev-w58",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001248",
-      "state": "WRITING",
-      "reason": "leased to seodev-w58",
-      "title": "Quần thể danh thắng Tràng An rộng bao nhiêu: UNESCO ghi 6.226 ha, báo 2014 nêu 4.000 ha, cổng tỉnh nêu 12.000 ha",
-      "slot": "W3",
-      "session": "seodev-w58",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001249",
-      "state": "WRITING",
-      "reason": "leased to seodev-w58",
-      "title": "Tam Cốc mùa lúa chín tháng mấy: lúa cấy một vụ chín tháng 5–6, Tuần Du lịch Sắc vàng đổi ngày mỗi năm từ 2023 đến 2026",
       "slot": "W3",
       "session": "seodev-w58",
       "wp_id": null,
@@ -359,6 +191,54 @@
       "url": null,
       "qa_status": null,
       "seo_score": null
+    },
+    {
+      "topic_id": "NT-001244",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Chợ tình Khâu Vai họp ngày nào: 27/3 âm lịch, năm 2024 là 4–5/5, năm 2026 khai mạc tối 12/5 ở xã Khâu Vai",
+      "slot": "W3",
+      "session": "seodev-w58",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001247",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Pù Luông tháng nào đẹp: lúa chín cuối tháng 5–giữa tháng 6 và cuối tháng 9–tháng 10, mùa vàng chỉ 2–3 tuần",
+      "slot": "W3",
+      "session": "seodev-w58",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001248",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Quần thể danh thắng Tràng An rộng bao nhiêu: UNESCO ghi 6.226 ha, báo 2014 nêu 4.000 ha, cổng tỉnh nêu 12.000 ha",
+      "slot": "W3",
+      "session": "seodev-w58",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001249",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Tam Cốc mùa lúa chín tháng mấy: lúa cấy một vụ chín tháng 5–6, Tuần Du lịch Sắc vàng đổi ngày mỗi năm từ 2023 đến 2026",
+      "slot": "W3",
+      "session": "seodev-w58",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
     },
     {
       "topic_id": "NT-001101",
@@ -5965,6 +5845,30 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001143",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Bảy cầu qua sông Hồng đang thi công ở Hà Nội: Hồng Hà và Mễ Sở vượt 45%, mục tiêu xong quý 2/2027 trước APEC",
+      "slot": "W7",
+      "session": "seodev-w56",
+      "wp_id": 4548,
+      "url": "https://thuexemaynguyentu.com/bay-cau-qua-song-hong-dang-thi-cong-o-ha-noi-hong-ha-va-me-so-vuot-45-muc-tieu-xong-quy-2-2027-truoc-apec/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001144",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Làn sóng xanh ở Hà Nội: 23 tuyến, 564 nút giao do CSGT điều hành đèn và cách đi để ít gặp đèn đỏ",
+      "slot": "W7",
+      "session": "seodev-w56",
+      "wp_id": 4549,
+      "url": "https://thuexemaynguyentu.com/lan-song-xanh-o-ha-noi-23-tuyen-564-nut-giao-do-csgt-dieu-hanh-den-va-cach-di-de-it-gap-den-do/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001146",
       "state": "VERIFIED",
       "reason": "publish",
@@ -5997,6 +5901,30 @@
       "session": "seodev-w56",
       "wp_id": 4542,
       "url": "https://thuexemaynguyentu.com/ham-chui-me-tri-duong-dinh-nghe-duoi-vanh-dai-3-tren-cao-6-lan-dai-655-m-du-kien-xong-cuoi-nam-2027/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001149",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Vành đai 3 trên cao giờ cao điểm 7h–9h, 17h–19h30: hơn 100.000 lượt xe mỗi ngày và vì sao giữ làn dừng khẩn cấp",
+      "slot": "W7",
+      "session": "seodev-w56",
+      "wp_id": 4550,
+      "url": "https://thuexemaynguyentu.com/vanh-dai-3-tren-cao-gio-cao-diem-7h-9h-17h-19h30-hon-100-000-luot-xe-moi-ngay-va-vi-sao-giu-lan-dung-khan-cap/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001150",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Metro số 3 kéo dài đến Hoàng Mai: EU hỗ trợ 10 triệu euro chuẩn bị đoạn ngầm 11 km, hoàn tất nghiên cứu cuối 2027",
+      "slot": "W7",
+      "session": "seodev-w56",
+      "wp_id": 4551,
+      "url": "https://thuexemaynguyentu.com/metro-so-3-keo-dai-den-hoang-mai-eu-ho-tro-10-trieu-euro-chuan-bi-doan-ngam-11-km-hoan-tat-nghien-cuu-cuoi-2027/",
       "qa_status": "PASS",
       "seo_score": 100
     },
@@ -6481,6 +6409,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001201",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đi xe máy trong hầm đường bộ: bật đèn chiếu gần, không dừng đỗ, không quay đầu, không vượt và cách xử lý khi xe hỏng giữa hầm",
+      "slot": "W1",
+      "session": "seodev-w57",
+      "wp_id": 4552,
+      "url": "https://thuexemaynguyentu.com/di-xe-may-trong-ham-duong-bo-bat-den-chieu-gan-khong-dung-do-khong-quay-dau-khong-vuot-va-cach-xu-ly-khi-xe-hong-giua-ham/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001211",
       "state": "VERIFIED",
       "reason": "publish",
@@ -6625,6 +6565,30 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001223",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Giấy đăng ký xe máy điện tử trên VNeID và VNeTraffic: Thông tư 37/2026 có hiệu lực 8/6/2026 nói gì?",
+      "slot": "W5",
+      "session": "seodev-w55",
+      "wp_id": 4553,
+      "url": "https://thuexemaynguyentu.com/giay-dang-ky-xe-may-dien-tu-tren-vneid-va-vnetraffic-thong-tu-37-2026-co-hieu-luc-8-6-2026-noi-gi/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001224",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Che hoặc làm mờ biển số xe máy: Nghị định 238/2026 phạt 4–6 triệu đồng những hành vi nào từ 15/8/2026?",
+      "slot": "W5",
+      "session": "seodev-w55",
+      "wp_id": 4554,
+      "url": "https://thuexemaynguyentu.com/che-hoac-lam-mo-bien-so-xe-may-nghi-dinh-238-2026-phat-4-6-trieu-dong-nhung-hanh-vi-nao-tu-15-8-2026/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001226",
       "state": "VERIFIED",
       "reason": "publish",
@@ -6673,6 +6637,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001230",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Giấy phép lái xe điện tử sau khi thi đạt hạng A1, A: tích hợp VNeTraffic trong 2 giờ, thẻ PET 3,5 ngày làm việc",
+      "slot": "W5",
+      "session": "seodev-w55",
+      "wp_id": 4555,
+      "url": "https://thuexemaynguyentu.com/giay-phep-lai-xe-dien-tu-sau-khi-thi-dat-hang-a1-a-tich-hop-vnetraffic-trong-2-gio-the-pet-3-5-ngay-lam-viec/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001241",
       "state": "VERIFIED",
       "reason": "publish",
@@ -6681,6 +6657,30 @@
       "session": "seodev-w58",
       "wp_id": 4546,
       "url": "https://thuexemaynguyentu.com/cot-co-lung-cu-bao-nhieu-bac-thang-cac-bao-neu-839-279-hay-gan-400-bac-va-cao-1-468-hay-1-470-m/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001242",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đèo Mã Pì Lèng cao bao nhiêu mét: các báo nêu 1.200 m, hơn 1.500 m và gần 2.000 m, đèo dài 20 km trên quốc lộ 4C",
+      "slot": "W3",
+      "session": "seodev-w58",
+      "wp_id": 4556,
+      "url": "https://thuexemaynguyentu.com/deo-ma-pi-leng-cao-bao-nhieu-met-cac-bao-neu-1-200-m-hon-1-500-m-va-gan-2-000-m-deo-dai-20-km-tren-quoc-lo-4c/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001243",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Dinh thự họ Vương ở Sà Phìn xây năm nào: 1898–1903 hay 1919–1928, tốn 15.000 đồng bạc hoa xòe hay 15 vạn đồng",
+      "slot": "W3",
+      "session": "seodev-w58",
+      "wp_id": 4557,
+      "url": "https://thuexemaynguyentu.com/dinh-thu-ho-vuong-o-sa-phin-xay-nam-nao-1898-1903-hay-1919-1928-ton-15-000-dong-bac-hoa-xoe-hay-15-van-dong/",
       "qa_status": "PASS",
       "seo_score": 100
     },
