@@ -19932,7 +19932,7 @@
       }
     },
     "NT-000734": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:18:19.010165+00:00",
       "source_hash": "3d2282dc431d6d4c46613f94eab9b4215b9e40b8feafab37406a0c8b18ae3630",
       "slug": "dien-bien-phu-trong-mot-ngay-doi-a1-ham-do-cat-bao-tang-va-muong-phang-cach-nhau-bao-xa",
@@ -19948,8 +19948,37 @@
       "category_warning": null,
       "git_commit": "f51dccf09e632fe70acfd6dfbc7d931d064689e4",
       "run_id": "39542955374",
-      "updated_at": "2026-10-21T04:18:23.129917+00:00",
-      "wp_id": 4419
+      "updated_at": "2026-10-21T04:18:29.052264+00:00",
+      "wp_id": 4419,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/dien-bien-phu-trong-mot-ngay-doi-a1-ham-do-cat-bao-tang-va-muong-phang-cach-nhau-bao-xa/",
+      "verified_at": "2026-10-21T04:18:29.052257+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4419,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/dien-bien-phu-trong-mot-ngay-doi-a1-ham-do-cat-bao-tang-va-muong-phang-cach-nhau-bao-xa/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/dien-bien-phu-trong-mot-ngay-doi-a1-ham-do-cat-bao-tang-va-muong-phang-cach-nhau-bao-xa/",
+        "seo_title": "Điện Biên Phủ trong một ngày: đồi A1, hầm Đờ Cát, Mường Phăng",
+        "seo_description": "Điện Biên Phủ trong một ngày: đồi A1, hầm Đờ Cát, bảo tàng, tượng đài nằm gần nhau, còn Mường Phăng cách trung tâm hơn 30 km. Cách xếp thứ tự theo khoảng cách nguồn nêu.",
+        "checked_at": "2026-10-21T04:18:29.052237+00:00"
+      }
     }
   },
   "categories": {}
