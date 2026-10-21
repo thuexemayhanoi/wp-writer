@@ -22431,7 +22431,7 @@
       }
     },
     "NT-001136": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T05:06:47.682084+00:00",
       "source_hash": "c8d7378410ac7850eea15e18d6be533aa7c8604c65e8b9132b5326225992e09c",
       "slug": "tau-duong-dai-roi-ga-ha-noi-ngoc-hoi-va-gia-lam-thanh-ga-dau-moi-nhung-ga-ha-noi-chua-dung-don-tau-ngay",
@@ -22447,8 +22447,37 @@
       "category_warning": null,
       "git_commit": "39eecb2c3f896cdeaa550308288f4f72884c65a6",
       "run_id": "39547230986",
-      "updated_at": "2026-10-21T05:06:51.658321+00:00",
-      "wp_id": 4478
+      "updated_at": "2026-10-21T05:06:58.341513+00:00",
+      "wp_id": 4478,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tau-duong-dai-roi-ga-ha-noi-ngoc-hoi-va-gia-lam-thanh-ga-dau-moi-nhung-ga-ha-noi-chua-dung-don-tau-ngay/",
+      "verified_at": "2026-10-21T05:06:58.341505+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4478,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tau-duong-dai-roi-ga-ha-noi-ngoc-hoi-va-gia-lam-thanh-ga-dau-moi-nhung-ga-ha-noi-chua-dung-don-tau-ngay/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tau-duong-dai-roi-ga-ha-noi-ngoc-hoi-va-gia-lam-thanh-ga-dau-moi-nhung-ga-ha-noi-chua-dung-don-tau-ngay/",
+        "seo_title": "Tàu đường dài rời ga Hà Nội: Ngọc Hồi, Gia Lâm và mốc chưa rõ",
+        "seo_description": "Tàu đường dài rời ga Hà Nội chưa có ngày chuyển: Báo Văn hóa và Báo Xây dựng nói Ngọc Hồi, Gia Lâm thành ga đầu mối, ga Hà Nội đổi vai khi hạ tầng xong.",
+        "checked_at": "2026-10-21T05:06:58.341475+00:00"
+      }
     }
   },
   "categories": {}
