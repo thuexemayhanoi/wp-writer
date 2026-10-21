@@ -21990,7 +21990,7 @@
       }
     },
     "NT-001184": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:57:41.867049+00:00",
       "source_hash": "57ed0730ce839a9870585b23c437a88f20b5c4f4203db33b26335a4b7200660c",
       "slug": "ve-sinh-va-bao-quan-mu-bao-hiem-nuoc-xa-phong-khong-dung-xang-hay-dung-moi-va-chuyen-son-hoac-dan-decal-len-mu",
@@ -22006,8 +22006,37 @@
       "category_warning": null,
       "git_commit": "964458a089206e771b6fb04bf6694090cdfda34f",
       "run_id": "39546378277",
-      "updated_at": "2026-10-21T04:57:45.765638+00:00",
-      "wp_id": 4469
+      "updated_at": "2026-10-21T04:57:51.462702+00:00",
+      "wp_id": 4469,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ve-sinh-va-bao-quan-mu-bao-hiem-nuoc-xa-phong-khong-dung-xang-hay-dung-moi-va-chuyen-son-hoac-dan-decal-len-mu/",
+      "verified_at": "2026-10-21T04:57:51.462695+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4469,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ve-sinh-va-bao-quan-mu-bao-hiem-nuoc-xa-phong-khong-dung-xang-hay-dung-moi-va-chuyen-son-hoac-dan-decal-len-mu/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ve-sinh-va-bao-quan-mu-bao-hiem-nuoc-xa-phong-khong-dung-xang-hay-dung-moi-va-chuyen-son-hoac-dan-decal-len-mu/",
+        "seo_title": "Vệ sinh và bảo quản mũ bảo hiểm: nước xà phòng, tránh xăng",
+        "seo_description": "Vệ sinh và bảo quản mũ bảo hiểm đúng cách: nước xà phòng nhẹ, không dùng xăng hay dung môi, lịch vệ sinh của SHARP, cách cất mũ, chuyện sơn và dán decal.",
+        "checked_at": "2026-10-21T04:57:51.462675+00:00"
+      }
     }
   },
   "categories": {}
