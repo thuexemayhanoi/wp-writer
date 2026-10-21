@@ -326,6 +326,15 @@
         "verdict": "INDEPENDENT"
       },
       {
+        "id": 851,
+        "title": "Cho Thuê Xe Máy Gia Lâm Hà Nội – Giá, Loại Xe, Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "b1d0d309d507f23ea9219bb1ac667523accc6051e49e97dbc0651c326e0d1483",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
         "id": 891,
         "title": "Hợp Đồng Thuê Xe Máy Hà Nội Có Cần Đặt Cọc Không? Tư Vấn Nhanh",
         "why": "stale",
@@ -339,12 +348,11 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-21T14:47:47.321670+00:00",
-  "live_links_checked": false,
+  "at": "2026-10-21T15:04:43.140138+00:00",
+  "live_links_checked": true,
   "legal_required": false,
   "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-  "inventory_sha256": "67bd96509bb0f1c5dc3ad643741f33c6da12981f7a114d723519500305aca41e",
-  "incremental_key": "eb845d70bb297386f36fe23985910c23314118f7c62de533a3657de8da3404f6",
+  "inventory_sha256": "d9c8b752c6234b4904fcdf11c64c1450c5a637abe03173c1f6dbe589f8c7a68e",
   "triage": {
     "hold_class": "NONE",
     "real_risk": [],

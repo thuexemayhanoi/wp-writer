@@ -1,0 +1,306 @@
+{
+  "topic_id": "NT-001316",
+  "status": "PASS",
+  "source_sha256": "b3fe6e270463ec7c213405ca8e78f2b916c118b731a37c03ec33286ff97f2bc2",
+  "body_sha256": "a2c55655c94d1f9b7ce77a9f56589fa2fc20eac5c0abdeb0bc3ff56b0299800c",
+  "word_count": 2740,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn ERA (đăng 23/05/2026, sửa 12/10/2026) nêu lưu ý ổ cắm có công suất tối thiểu bằng 1,5 lần công suất sạc của xe, tiếp xúc tốt, không lỏng chân.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn ERA nêu màn hình hiển thị chế độ sạc Standard công suất sạc tối đa 1200W.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn ERA nêu việc chuyển sang chế độ Boost 2700W bằng nút Bật Boost trong ứng dụng khi xe đã được sạc.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn ERA nêu chức năng thiết lập công suất sạc chỉ áp dụng cho ERA E1 và gắn với công suất nguồn điện AC tại nơi sạc.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn ERA giới thiệu công nghệ bộ sạc tích hợp trên xe (lời hãng).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/xe-may-dien-era/",
+      "supports": "Trang giới thiệu ERA nêu ba chế độ sạc và thời gian sạc của hãng, chỉ có trên ERA E1 (nội dung quảng cáo).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/xe-may-dien-era/",
+      "supports": "Trang giới thiệu ERA mô tả bộ sạc tích hợp tận dụng hệ truyền động để tản nhiệt (lời hãng).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn Quantum nêu bộ sạc rời đi kèm xe tiêu thụ tối đa khoảng 2000W từ nguồn AC 220V/50Hz.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/faq-usage/",
+      "supports": "Mục hỏi đáp của Dat Bike (không nêu mẫu xe) nêu ổ cắm nối dài công suất ít nhất 2000W.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "supports": "Hướng dẫn sạc pin xe điện của Dat Bike (bộ sạc Quantum) nêu ổ điện chịu dòng 20A hoặc công suất 3000W.",
+      "checked_at": "2026-10-18",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/xe-may-dien-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/xe-may-dien-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/faq-usage/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-cach-sac-pin-xe-dien-dung-cach-an-toan/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 940,
+        "title": "Khám Phá Hồ Hoàn Kiếm – Biểu Tượng Thủ Đô Hà Nội",
+        "why": "stale",
+        "content_hash": "cb8272501ca6511846e96aff0a58ef15afbac79b89800337da2fb514b849b235",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2374,
+        "title": "Xe máy điện đi mưa có an toàn không? Cách sử dụng đúng và bền",
+        "why": "stale",
+        "content_hash": "f86d1aa55c92feadb7f1f7424eb5a8881f374d07d09eba557a5974bddc4ab23f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2413,
+        "title": "Honda ICON e: có cần bằng lái không và ai nên sử dụng mẫu xe này?",
+        "why": "stale",
+        "content_hash": "1cec213da2c026074a8eef073c5eee4f24e6a5ee5a39071584bb8e1f1a96c4a5",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2426,
+        "title": "Đánh giá Dat Bike Quantum: ưu nhược điểm và nhu cầu dùng thực tế",
+        "why": "stale",
+        "content_hash": "3c8d470345431fcbc37ef481fcc91babb838e88c276f79fcd299cde3305e020d",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2625,
+        "title": "Nhà tù Hỏa Lò Hà Nội: Giá vé, giờ mở cửa và kinh nghiệm đi tour đêm",
+        "why": "stale",
+        "content_hash": "fc86cac4da1911528d32104d0969754534fb81041738085bfe6eb76c69849a7a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T15:01:38.849914+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "4442e7d5012087fb60ebf22f52d5e1c0cc3230ef815fb6bc8e761874ec917b40",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
