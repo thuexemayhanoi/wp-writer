@@ -1,22 +1,22 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 13,
+  "ready_stock": 3,
   "trigger_below_ready": 900,
   "rounds_opened": 4,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 636,
-  "capacity_remaining": 1364,
+  "topic_rows": 646,
+  "capacity_remaining": 1354,
   "order": {
     "id": "RF-0004",
     "round": 4,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 45,
-    "remaining_to_min": 55,
-    "remaining_to_max": 155,
-    "batches_still_needed": 6,
+    "accepted_so_far": 55,
+    "remaining_to_min": 45,
+    "remaining_to_max": 145,
+    "batches_still_needed": 5,
     "batch_size": 10,
     "capacity_limited": false,
     "stalled": false,
@@ -47,10 +47,10 @@
         "allocation": 41
       },
       {
-        "taxonomy_key": "trip-planning",
-        "quota": 7,
-        "known_now": 67,
-        "allocation": 91
+        "taxonomy_key": "electric-maintenance",
+        "quota": 6,
+        "known_now": 23,
+        "allocation": 41
       },
       {
         "taxonomy_key": "green-travel",
@@ -65,10 +65,22 @@
         "allocation": 23
       },
       {
-        "taxonomy_key": "destinations",
+        "taxonomy_key": "trip-planning",
+        "quota": 6,
+        "known_now": 70,
+        "allocation": 91
+      },
+      {
+        "taxonomy_key": "driving-licence",
         "quota": 5,
-        "known_now": 9,
-        "allocation": 27
+        "known_now": 17,
+        "allocation": 32
+      },
+      {
+        "taxonomy_key": "ebikes",
+        "quota": 5,
+        "known_now": 17,
+        "allocation": 32
       },
       {
         "taxonomy_key": "electric",
@@ -77,22 +89,10 @@
         "allocation": 59
       },
       {
-        "taxonomy_key": "electric-maintenance",
-        "quota": 5,
-        "known_now": 23,
-        "allocation": 41
-      },
-      {
-        "taxonomy_key": "driving-licence",
+        "taxonomy_key": "destinations",
         "quota": 4,
-        "known_now": 17,
-        "allocation": 32
-      },
-      {
-        "taxonomy_key": "ebikes",
-        "quota": 4,
-        "known_now": 17,
-        "allocation": 32
+        "known_now": 13,
+        "allocation": 27
       },
       {
         "taxonomy_key": "rental-costs",
@@ -108,8 +108,8 @@
       },
       {
         "taxonomy_key": "vietnam-travel",
-        "quota": 4,
-        "known_now": 42,
+        "quota": 3,
+        "known_now": 45,
         "allocation": 55
       },
       {
@@ -133,7 +133,7 @@
     ],
     "next_batch_categories": {
       "battery-charging": 1,
-      "destinations": 1,
+      "ebikes": 1,
       "electric": 1,
       "electric-maintenance": 1,
       "electric-transition": 1,
@@ -146,9 +146,9 @@
   },
   "dedupe_universe": {
     "published_wordpress_items": 693,
-    "topics_in_factory": 636,
+    "topics_in_factory": 646,
     "topics_by_status": {
-      "PLANNED": 559,
+      "PLANNED": 569,
       "REJECTED": 2,
       "RESEARCH": 75
     },
