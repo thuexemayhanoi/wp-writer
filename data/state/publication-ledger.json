@@ -23705,7 +23705,7 @@
       }
     },
     "NT-001161": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T09:13:30.743734+00:00",
       "source_hash": "4cd764a6f2c300be1e4ce294b590ecbe46a0b84bfe9aebe1e85d8793c505f559",
       "slug": "xe-may-kho-no-khi-troi-lanh-vi-sao-no-khong-deu-dong-le-gio-va-cach-de-dung-khi-may-nguoi",
@@ -23721,8 +23721,37 @@
       "category_warning": null,
       "git_commit": "e0be378c2078eeb1d114cc3e67e701270ff6146f",
       "run_id": "39574850605",
-      "updated_at": "2026-10-21T09:13:35.081337+00:00",
-      "wp_id": 4518
+      "updated_at": "2026-10-21T09:13:41.068396+00:00",
+      "wp_id": 4518,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-kho-no-khi-troi-lanh-vi-sao-no-khong-deu-dong-le-gio-va-cach-de-dung-khi-may-nguoi/",
+      "verified_at": "2026-10-21T09:13:41.068387+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4518,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-kho-no-khi-troi-lanh-vi-sao-no-khong-deu-dong-le-gio-va-cach-de-dung-khi-may-nguoi/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-kho-no-khi-troi-lanh-vi-sao-no-khong-deu-dong-le-gio-va-cach-de-dung-khi-may-nguoi/",
+        "seo_title": "Xe máy khó nổ khi trời lạnh: nguyên nhân và cách đề đúng",
+        "seo_description": "Xe máy khó nổ khi trời lạnh vì máy nguội, nhiên liệu khó cháy. Tổng hợp lời Honda Việt Nam và Dân Trí về le gió, cách đề và thời gian nổ không tải.",
+        "checked_at": "2026-10-21T09:13:41.068351+00:00"
+      }
     }
   },
   "categories": {}
