@@ -19685,6 +19685,25 @@
         "seo_description": "Sét khi đang chạy xe máy nên làm gì: NWS và CDC nói xe máy là phương tiện hở không an toàn, cần dừng ở công trình kiên cố và chờ 30 phút sau tiếng sấm cuối.",
         "checked_at": "2026-10-21T04:11:45.442285+00:00"
       }
+    },
+    "NT-000902": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T04:11:58.055575+00:00",
+      "source_hash": "b2a3ea457114524efec32033c6d8123db43ffcfab423aa916cf081277fa8c93f",
+      "slug": "thuc-17-24-gio-roi-chay-xe-may-duong-dai-moc-khong-ngu-so-voi-nong-do-con-0-05-va-0-10",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 175,
+      "visible_hash": "534668f6ff51703c783fb2dafcaf2c0e9a40b8c7acfeec3b954156994be5178a",
+      "first_paragraph": "Thức 17–24 giờ rồi chạy xe máy đường dài là khoảng giờ mà hai nguồn y tế của Hoa Kỳ so sánh với nồng độ cồn trong máu (BAC): CDC/NIOSH nói sau 17 giờ thức liên tục, mức suy giảm tương đương BAC .05 và sau 24 giờ tương đương .10; Sleep Foundation nêu khoảng 18 giờ ứng với 0,05%, 20 giờ ứng với 0,08% và 24 giờ ứng với 0,1%. Đó là phép so sánh về phản xạ, độ cảnh giác và phối hợp tay mắt, không phải nồng độ cồn thật, và hai nguồn lệch nhau một giờ ở mốc đầu tiên nên bài ghi cả hai thay vì chọn một con số.",
+      "meta_title": "Thức 17–24 giờ rồi chạy xe máy đường dài so với nồng độ cồn",
+      "meta_description": "Thức 17–24 giờ rồi chạy xe máy đường dài: CDC/NIOSH và Sleep Foundation so mốc giờ thức với nồng độ cồn 0,05 và 0,10, lệch nhau ở mốc 17 và 18 giờ.",
+      "intended_taxonomy_key": "trip-planning",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "de620203b9af43fe73a1bde8fc7fb84a17756fef",
+      "run_id": "39542303090",
+      "updated_at": "2026-10-21T04:11:58.057236+00:00"
     }
   },
   "categories": {}
