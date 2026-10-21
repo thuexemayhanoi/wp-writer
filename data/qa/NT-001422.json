@@ -1,0 +1,142 @@
+{
+  "topic_id": "NT-001422",
+  "status": "PASS",
+  "source_sha256": "cd3c681fc98252d7c0de500121a8203eba9fdabc60bcc61b4852995334587c67",
+  "body_sha256": "812f3acae31dee91e0e9c7ec5182d49a033162c419799e3ab8e44cb2536ded46",
+  "word_count": 2599,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://thanhnien.vn/niem-yet-gia-luat-da-co-sao-chua-lam-185250207225406427.htm",
+      "supports": "Thanh Niên 08/02/2025 (Mai Hà) tường thuật Luật Giá 2023: người bán phải niêm yết giá rõ ràng, không gây nhầm lẫn cho khách hàng bằng các hình thức như in, dán, ghi thông báo trên bảng; các tổ chức, cá nhân không được bán cao hơn giá niêm yết.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.cantho.gov.vn/quyen-va-nghia-vu-cua-nguoi-tieu-dung",
+      "supports": "Cổng phổ biến pháp luật Cần Thơ (Sở Tư pháp, đăng 12/03/2026): quyền của người tiêu dùng gồm được cung cấp dịch vụ đúng với nội dung đã giao kết và yêu cầu bồi thường khi dịch vụ không đúng với niêm yết, giao kết, cam kết.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://thanhnien.vn/niem-yet-gia-luat-da-co-sao-chua-lam-185250207225406427.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.cantho.gov.vn/quyen-va-nghia-vu-cua-nguoi-tieu-dung",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 895,
+        "title": "Thuê Xe Máy 50cc Hà Nội: Giá Xe Ga, Thủ Tục Và Nhận Xe",
+        "why": "stale",
+        "content_hash": "7d8d7be44e8b859ed4707a58c208a898ad2a5db2ef4107d9f215e1e7e1056012",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T15:16:08.784456+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "e149456c829b2bc3afdcd1d79746aa37cffcfa62531360f70dee2fe3420d41e9",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

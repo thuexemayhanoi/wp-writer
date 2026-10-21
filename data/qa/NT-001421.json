@@ -1,0 +1,169 @@
+{
+  "topic_id": "NT-001421",
+  "status": "PASS",
+  "source_sha256": "5c5995b56229a83a58e50cdb20c882ecd394e8a09aee249293a2add4b64bc5f2",
+  "body_sha256": "017132bf2e58a518a3f9d2e9d91943b076607d4445380dced5e639050a858bc5",
+  "word_count": 2992,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://pbgdpl.cantho.gov.vn/quyen-va-nghia-vu-cua-nguoi-tieu-dung",
+      "supports": "Cổng phổ biến pháp luật Cần Thơ (Sở Tư pháp, đăng 12/03/2026) liệt kê quyền của người tiêu dùng theo Luật Bảo vệ quyền lợi người tiêu dùng, trong đó có quyền được cung cấp hóa đơn, chứng từ, tài liệu liên quan đến giao dịch và thông tin đầy đủ về nội dung giao dịch; cùng trang nêu người tiêu dùng chịu trách nhiệm khi cung cấp thông tin giao dịch không chính xác hoặc không đầy đủ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/khong-cap-hoa-don-tung-lan-cho-ho-kinh-doanh-co-doanh-thu-duoi-1-ti-185260727100351728.htm",
+      "supports": "Thanh Niên 27/07/2026 tường thuật công văn của Cục Thuế (Bộ Tài chính): hộ kinh doanh doanh thu năm dưới 1 tỉ đồng khi có nhu cầu thì đăng ký dùng hóa đơn có mã hoặc hóa đơn từ máy tính tiền, không cấp theo từng lần; hộ từ 1 tỉ đồng trở lên phải áp dụng hóa đơn điện tử (điểm d khoản 1 điều 6 Nghị định 254 năm 2026 theo bài báo).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://pbgdpl.cantho.gov.vn/quyen-va-nghia-vu-cua-nguoi-tieu-dung",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/khong-cap-hoa-don-tung-lan-cho-ho-kinh-doanh-co-doanh-thu-duoi-1-ti-185260727100351728.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 891,
+        "title": "Hợp Đồng Thuê Xe Máy Hà Nội Có Cần Đặt Cọc Không? Tư Vấn Nhanh",
+        "why": "stale",
+        "content_hash": "dfef1f80adfed1e1d9366a3b620ef84119b9cf4fc4ea34f66fe16eb22f52bcca",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 920,
+        "title": "Cho Thuê xe máy gần Time City – Xe tốt, giá rẻ",
+        "why": "stale",
+        "content_hash": "2cbb432094747e754d0c634c671847d6e1f728632472b9aa707418b8dad3c5a6",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2498,
+        "title": "Khi nào cần tăng xích xe máy? Dấu hiệu dễ nhận biết khi sử dụng",
+        "why": "stale",
+        "content_hash": "cc66bddca00ff3ff900a51cce730848c80a7f0e8979caaf256eec12589620f67",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2559,
+        "title": "Các loại bằng lái xe máy hiện nay và cách phân biệt từng hạng",
+        "why": "stale",
+        "content_hash": "1dbe75f2df7dd3b894e673123e9c56ffdda9c772f072b8cb4682f49b0f264d0e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T15:15:12.649438+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "4435009d33e13395292b38c169373a91a1a21e7f0a530f7792d8ba706ec98d0f",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

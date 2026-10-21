@@ -1,0 +1,329 @@
+{
+  "topic_id": "NT-001313",
+  "status": "PASS",
+  "source_sha256": "9363dc862400ecb31cf163bb4787e0885239f091dbd37867c4d13a766ab571e9",
+  "body_sha256": "003601434dd9ff3537f6bda4a61fb0a57407127dffaf2c6136ac6a9dffc1af36",
+  "word_count": 2669,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/faq-usage/",
+      "supports": "Mục hỏi đáp của Dat Bike nêu ổ cắm nối dài dùng để sạc pin xe nên có công suất ít nhất 2.000 W để tránh quá tải phích cắm; không ghi ngày, không nêu mẫu xe.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Hướng dẫn xe Quantum của Dat Bike nêu bộ sạc đi kèm tiêu thụ tối đa khoảng 2.000 W và chỉ dùng ổ đảm bảo cho bộ sạc, không dùng chung ổ với thiết bị khác.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn xe ERA của Dat Bike nêu dùng ổ cắm có công suất tối thiểu bằng 1,5 lần công suất sạc của xe, tiếp xúc tốt, không lỏng chân.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/chinh-sach-bao-hanh-doi-tra-xe/",
+      "supports": "Điều khoản bảo hành Dat Bike liệt kê phồng, nứt, cháy, nổ, bốc khói pin do sạc cùng thiết bị tiêu thụ điện khác hoặc dùng nguồn điện không theo hướng dẫn là trường hợp không được bảo hành.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nhung-luu-y-an-toan-khi-dung-xe-dien-4911573.html",
+      "supports": "VnExpress 09/07/2025 nêu dây nối dài có thể dùng khi sạc xe máy điện nhưng không nên dùng cho ô tô điện công suất lớn; không dùng ổ chia điện.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nhung-luu-y-an-toan-khi-dung-xe-dien-4911573.html",
+      "supports": "Cùng bài: theo dõi nhiệt độ phần dây dẫn khi sạc; quá nóng là dấu hiệu quá tải.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/sac-xe-may-dien-tai-nha-the-nao-cho-an-toan-4920760.html",
+      "supports": "VnExpress 31/07/2025 nêu cần hạn chế dây nối, nếu phải dùng thì chọn dây tiết diện dày, thông thường khoảng 2 mm².",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/sac-xe-may-dien-tai-nha-the-nao-cho-an-toan-4920760.html",
+      "supports": "Cùng bài: dùng một ổ cắm riêng, không cắm cùng lúc nhiều xe hoặc nhiều thiết bị công suất lớn chung một ổ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/tin-tuc-pccc-va-cnch/khuyen-cao-mot-so-bien-phap-bao-dam-an-toan-phong-chay-chua-chay-trong-su-dung-dien-tai-gia-dinh-mua-nang-nong-4621",
+      "supports": "Cục Cảnh sát PCCC và CNCH (05/06/2025) khuyến cáo không cắm nhiều thiết bị điện trên cùng một ổ cắm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/tin-tuc-pccc-va-cnch/khuyen-cao-mot-so-bien-phap-bao-dam-an-toan-phong-chay-chua-chay-trong-su-dung-dien-tai-gia-dinh-mua-nang-nong-4621",
+      "supports": "Cùng trang: không tự ý câu, móc, đấu nối dây điện.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pega.com.vn/huong-dan-su-dung.html",
+      "supports": "Trang hướng dẫn sử dụng Pega (xe đạp điện) dặn dùng ổ cắm điện chuyên dụng với nguồn điện 180–240 V.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/ho-tro-bao-hanh/",
+      "supports": "Trang hỗ trợ của Yadea dặn kiểm tra nguồn cấp điện đầu vào cho sạc: dây dẫn, ổ cắm, thông số chịu tải của dòng điện.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://dat.bike/faq-usage/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/chinh-sach-bao-hanh-doi-tra-xe/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nhung-luu-y-an-toan-khi-dung-xe-dien-4911573.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nhung-luu-y-an-toan-khi-dung-xe-dien-4911573.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/sac-xe-may-dien-tai-nha-the-nao-cho-an-toan-4920760.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/sac-xe-may-dien-tai-nha-the-nao-cho-an-toan-4920760.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/tin-tuc-pccc-va-cnch/khuyen-cao-mot-so-bien-phap-bao-dam-an-toan-phong-chay-chua-chay-trong-su-dung-dien-tai-gia-dinh-mua-nang-nong-4621",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/tin-tuc-pccc-va-cnch/khuyen-cao-mot-so-bien-phap-bao-dam-an-toan-phong-chay-chua-chay-trong-su-dung-dien-tai-gia-dinh-mua-nang-nong-4621",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pega.com.vn/huong-dan-su-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/ho-tro-bao-hanh/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 891,
+        "title": "Hợp Đồng Thuê Xe Máy Hà Nội Có Cần Đặt Cọc Không? Tư Vấn Nhanh",
+        "why": "stale",
+        "content_hash": "dfef1f80adfed1e1d9366a3b620ef84119b9cf4fc4ea34f66fe16eb22f52bcca",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 895,
+        "title": "Thuê Xe Máy 50cc Hà Nội: Giá Xe Ga, Thủ Tục Và Nhận Xe",
+        "why": "stale",
+        "content_hash": "7d8d7be44e8b859ed4707a58c208a898ad2a5db2ef4107d9f215e1e7e1056012",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2343,
+        "title": "Xe máy điện: các hãng nổi bật và cách chọn xe phù hợp nhất",
+        "why": "stale",
+        "content_hash": "c6618e9c49c5f2f25650deea3da4d70c0b7ac0a3821f5dc81a038f2aae0716d7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2426,
+        "title": "Đánh giá Dat Bike Quantum: ưu nhược điểm và nhu cầu dùng thực tế",
+        "why": "stale",
+        "content_hash": "3c8d470345431fcbc37ef481fcc91babb838e88c276f79fcd299cde3305e020d",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T15:12:35.188393+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "3f791947ce18d58d081775034ad9083d39eff0db612371c93a5fba8e24ac80dd",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

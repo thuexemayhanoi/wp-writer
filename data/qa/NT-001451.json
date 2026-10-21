@@ -1,0 +1,233 @@
+{
+  "topic_id": "NT-001451",
+  "status": "PASS",
+  "source_sha256": "520b11ccc4f0e826b700dc5ddcdc5688b745daa1cf7f7836aadd7f2ec016ac87",
+  "body_sha256": "770c4d23eb60f7b52ce363bfd809c8f4450a456648468cecb93e60819499b5cf",
+  "word_count": 2916,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.giant-bicycles.com/us/recon-e-lights",
+      "supports": "Trang đèn Recon E của Giant (bản Mỹ, trang bán hàng): đèn chạy trên hầu hết động cơ xe đạp điện phổ biến, tự bật tắt theo động cơ; FAQ nêu thứ tự kiểm tra khi đèn không bật (cáp và cổng, đầu nối oxy hóa, pin sạc đầy, chức năng bị khóa).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ul.com/news/e-bikemicromobility-device-safety-product-certification",
+      "supports": "Bài của UL Solutions (1/8/2023): bộ điều khiển động cơ xe đạp điện có thể cấp điện cho thiết bị phụ như đèn; lời dặn không sửa đổi thiết bị hoặc pin và chỉ dùng đại lý được ủy quyền.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.trekbikes.com/us/en_US/new-to-e-bikes/",
+      "supports": "Trang hướng dẫn người mới của Trek (bản Mỹ, không ghi ngày): bộ điều khiển có thể kích hoạt các tính năng gắn sẵn như đèn.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.radpowerbikes.com/blogs/the-scenic-route/how-to-ride-an-ebike-in-the-rain",
+      "supports": "Blog Rad Power Bikes (không ghi ngày): bật đèn trước và đèn sau khi trời mưa; kiểm tra đèn sạch, hoạt động, dễ thấy, gắn chắc trước mỗi chuyến.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.aventon.com/blogs/aventon_bikes/can-you-ride-an-ebike-in-the-rain",
+      "supports": "Blog Aventon (13/5/2026): gắn đèn trước và đèn sau, kể cả ban ngày; được nhìn thấy quan trọng hơn nhìn thấy.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.bikeradar.com/advice/workshop/electric-bike-maintenance",
+      "supports": "BikeRadar (22/6/2025): mỡ điện môi trong đầu nối điện giúp kéo dài tuổi thọ đầu nối và bít nước; tránh vòi xịt áp lực, không nhúng chìm xe; xe trục trặc thì tới đại lý.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.giant-bicycles.com/us/recon-e-lights",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ul.com/news/e-bikemicromobility-device-safety-product-certification",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.trekbikes.com/us/en_US/new-to-e-bikes/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.radpowerbikes.com/blogs/the-scenic-route/how-to-ride-an-ebike-in-the-rain",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.aventon.com/blogs/aventon_bikes/can-you-ride-an-ebike-in-the-rain",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.bikeradar.com/advice/workshop/electric-bike-maintenance",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2359,
+        "title": "Pin Lithium Và Ắc Quy Xe Máy Điện Khác Nhau Như Thế Nào Khi Dùng?",
+        "why": "stale",
+        "content_hash": "bad77afd59bcc932b63ec50e4d14d9c1f4c164d9587ac616c550e0651324d6c3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2390,
+        "title": "Giá pin xe máy điện VinFast và những chi phí người dùng nên biết",
+        "why": "stale",
+        "content_hash": "c435ce6e6e7b1791b32ee311f65ed49f872191baee5071a5d5a3aec71094aef3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2580,
+        "title": "Đi Hà Nội nên chọn xe ga hay xe số để di chuyển thuận tiện hơn?",
+        "why": "stale",
+        "content_hash": "6aa38b717367fc0077cddd4330e078e59294b75c84a725df25d0c1ffd299712f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4047,
+        "title": "Thuê xe máy Hà Nội 2 ngày 1 đêm: tính tiền theo mốc nào và trả xe lúc nào?",
+        "why": "stale",
+        "content_hash": "ff3360a833efc7ccb2778f577426a6ccdec6c16a3c8c30c58243ba9e9175e695",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T15:16:40.032149+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "be0199b1e64d185853d0446f3e9047fd0a8d09af491866d1415fad5ffce643bf",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
