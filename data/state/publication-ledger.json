@@ -21157,7 +21157,7 @@
       }
     },
     "NT-001154": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:40:13.385168+00:00",
       "source_hash": "d7d18b49bfb0de211439e64b9f5b591a78dc17bcb4ba64008570df3da562bf5a",
       "slug": "den-mil-tren-xe-honda-y-nghia-khi-nao-den-tat-va-viec-nen-lam-khi-honda-viet-nam-goi-bao-loi",
@@ -21173,8 +21173,37 @@
       "category_warning": null,
       "git_commit": "61285248c7d8eca7c8250b277de2091dd2ca1bae",
       "run_id": "39544657734",
-      "updated_at": "2026-10-21T04:40:17.453121+00:00",
-      "wp_id": 4451
+      "updated_at": "2026-10-21T04:40:23.857583+00:00",
+      "wp_id": 4451,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/den-mil-tren-xe-honda-y-nghia-khi-nao-den-tat-va-viec-nen-lam-khi-honda-viet-nam-goi-bao-loi/",
+      "verified_at": "2026-10-21T04:40:23.857576+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4451,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/den-mil-tren-xe-honda-y-nghia-khi-nao-den-tat-va-viec-nen-lam-khi-honda-viet-nam-goi-bao-loi/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/den-mil-tren-xe-honda-y-nghia-khi-nao-den-tat-va-viec-nen-lam-khi-honda-viet-nam-goi-bao-loi/",
+        "seo_title": "Đèn MIL trên xe Honda: ý nghĩa, khi nào đèn tắt và cuộc gọi báo lỗi",
+        "seo_description": "Đèn MIL trên xe Honda báo lỗi hệ thống phun xăng điện tử PGM-FI: Honda Việt Nam nói gì về lúc đèn tắt, cuộc gọi báo lỗi áp dụng cho SH150i và việc nên làm khi nhận cuộc gọi.",
+        "checked_at": "2026-10-21T04:40:23.857555+00:00"
+      }
     }
   },
   "categories": {}
