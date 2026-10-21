@@ -1,0 +1,176 @@
+{
+  "topic_id": "NT-001183",
+  "status": "PASS",
+  "source_sha256": "37b1d83ef0c4f76c03555e9d97fd3a97d228dee6a41699353fb7dfcd7dff9e14",
+  "body_sha256": "d6bb80d799450d1247e33476d095f57531a3ae132757455841e0ccbc2c28d04e",
+  "word_count": 2100,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://smf.org/faq",
+      "supports": "Snell Memorial Foundation (FAQ): mũ chịu va đập khi đang đội thì thay, lớp lót chỉ hấp thụ được một lần; rơi từ tay hoặc từ yên, tay lái thường không phải thay; thay sau năm năm dùng bình thường là phán đoán.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sharp.dft.gov.uk/helmet-care/",
+      "supports": "SHARP (Bộ Giao thông Anh): mũ thường dùng được khoảng năm năm, ba năm nếu dùng thường xuyên; kính xước thì thay.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/you-and-your-motorcycle/wearing-the-right-gear",
+      "supports": "NZTA (New Zealand): thay mũ nếu nứt, lót lỏng, quai sờn, lộ kim loại; rơi xuống nền cứng có thể gây hỏng không nhìn thấy; không mua mũ cũ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://smf.org/faq",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sharp.dft.gov.uk/helmet-care/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/you-and-your-motorcycle/wearing-the-right-gear",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2393,
+        "title": "Thuê pin hay mua pin xe máy điện VinFast: phương án nào hợp lý?",
+        "why": "stale",
+        "content_hash": "b26adf50a482554d3cb08a77a5edd2ce3012f2ce554cb624584729fd43c82f18",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2607,
+        "title": "Du lịch Hà Nội 1 ngày nên đi đâu? Lịch trình tự túc cho người lần đầu",
+        "why": "stale",
+        "content_hash": "a1cff81fdc7e8cafbd10b7cf581b564b2fb977ecda01fd7c7df50dab1077dfdb",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2632,
+        "title": "Cầu Long Biên Hà Nội: Đi lúc nào đẹp, chụp ảnh ở đâu và chơi gì gần đó?",
+        "why": "stale",
+        "content_hash": "36dfb351fe0b68f0a6c25d3903504798235bac27df1d97f4c68ca001b55d25e3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:57:01.494378+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "537d9114b2e4fde9ab8245d2ddcbff1fdcd638a1263f4ec26009165a29320f20",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

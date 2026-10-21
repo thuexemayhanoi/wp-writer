@@ -1,0 +1,258 @@
+{
+  "topic_id": "NT-001211",
+  "status": "PASS",
+  "source_sha256": "2e3e314aefd4dc4c8959fb6b6cd71fbb79b1f9df37792f9859af8ff4239976b5",
+  "body_sha256": "616d35b87c47008d90f1a79df342fc56e5c2913c50643397becb126e1faad451",
+  "word_count": 2822,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://moc.gov.vn/vn/tin-tuc/1184/96165/ha-noichinh-sach-ho-tro-chuyen-doi-phuong-tien-giao-thong-duong-bo-tu-su-dung-nhien-lieu-hoa-thach-sang-su-dung-nang-luong-sach-va-khuyen-khich-su%2D%2D%2D.aspx",
+      "supports": "Cổng thông tin Bộ Xây dựng 07/08/2026: UBND Hà Nội ban hành Kế hoạch 295 triển khai Nghị quyết 68/2026; đối tượng nhận tiền hỗ trợ trực tiếp là cá nhân thuộc hộ nghèo theo chuẩn nghèo đa chiều áp dụng 2026 và 2027, chủ sở hữu xe mô tô, xe gắn máy nhiên liệu hóa thạch đã đăng ký trước thời điểm nghị quyết có hiệu lực.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://moc.gov.vn/vn/tin-tuc/1184/96165/ha-noichinh-sach-ho-tro-chuyen-doi-phuong-tien-giao-thong-duong-bo-tu-su-dung-nhien-lieu-hoa-thach-sang-su-dung-nang-luong-sach-va-khuyen-khich-su%2D%2D%2D.aspx",
+      "supports": "Cùng bản tin: nguyên tắc chi trả một lần cho một xe theo giá trị phương tiện xanh trên hóa đơn hợp pháp, không vượt mức tối đa nghị quyết quy định (không nêu số).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://moc.gov.vn/vn/tin-tuc/1184/96165/ha-noichinh-sach-ho-tro-chuyen-doi-phuong-tien-giao-thong-duong-bo-tu-su-dung-nhien-lieu-hoa-thach-sang-su-dung-nang-luong-sach-va-khuyen-khich-su%2D%2D%2D.aspx",
+      "supports": "Cùng bản tin: Kế hoạch 295 nêu miễn tiền vé xe buýt trợ giá trong khu vực Vành đai 1 từ 1/7/2026 đến hết 30/6/2027.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.hanoi.gov.vn/van-ban-chi-dao-dieu-hanh/ke-hoach-trien-khai-thuc-hien-nghi-quyet-so-68-2026-nq-hdnd-ngay-15-thang-6-nam-2026-cua-hoi-dong-n-264756",
+      "supports": "Trang văn bản của UBND Hà Nội ghi số hiệu, ngày ban hành 30/07/2026, người ký và tệp đính kèm Kế hoạch 295/KH-UBND.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/khong-con-ho-ngheo-ha-noi-ho-tro-20-trieu-dong-cho-ai-khi-chuyen-sang-xe-dien-post1851560.tpo",
+      "supports": "Tiền Phong 15/06/2026 tường thuật phiên HĐND: theo dự thảo, hộ nghèo được hỗ trợ 100% giá trị xe nhưng không quá 20 triệu đồng; thành phố hiện không còn hộ nghèo theo Quyết định 740/QĐ-UBND.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/khong-con-ho-ngheo-ha-noi-ho-tro-20-trieu-dong-cho-ai-khi-chuyen-sang-xe-dien-post1851560.tpo",
+      "supports": "Cùng bài báo: Quyết định 740/QĐ-UBND ngày 13/02/2026, thành phố không còn hộ nghèo và còn 7.565 hộ cận nghèo.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/khong-con-ho-ngheo-ha-noi-ho-tro-20-trieu-dong-cho-ai-khi-chuyen-sang-xe-dien-post1851560.tpo",
+      "supports": "Cùng bài báo: dự toán giả định 70% hộ nghèo chuyển đổi trong năm 2027 với mức tối đa 20 triệu đồng, kinh phí khoảng 140 tỷ đồng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://moc.gov.vn/vn/tin-tuc/1184/96165/ha-noichinh-sach-ho-tro-chuyen-doi-phuong-tien-giao-thong-duong-bo-tu-su-dung-nhien-lieu-hoa-thach-sang-su-dung-nang-luong-sach-va-khuyen-khich-su%2D%2D%2D.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://moc.gov.vn/vn/tin-tuc/1184/96165/ha-noichinh-sach-ho-tro-chuyen-doi-phuong-tien-giao-thong-duong-bo-tu-su-dung-nhien-lieu-hoa-thach-sang-su-dung-nang-luong-sach-va-khuyen-khich-su%2D%2D%2D.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://moc.gov.vn/vn/tin-tuc/1184/96165/ha-noichinh-sach-ho-tro-chuyen-doi-phuong-tien-giao-thong-duong-bo-tu-su-dung-nhien-lieu-hoa-thach-sang-su-dung-nang-luong-sach-va-khuyen-khich-su%2D%2D%2D.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.hanoi.gov.vn/van-ban-chi-dao-dieu-hanh/ke-hoach-trien-khai-thuc-hien-nghi-quyet-so-68-2026-nq-hdnd-ngay-15-thang-6-nam-2026-cua-hoi-dong-n-264756",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/khong-con-ho-ngheo-ha-noi-ho-tro-20-trieu-dong-cho-ai-khi-chuyen-sang-xe-dien-post1851560.tpo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/khong-con-ho-ngheo-ha-noi-ho-tro-20-trieu-dong-cho-ai-khi-chuyen-sang-xe-dien-post1851560.tpo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/khong-con-ho-ngheo-ha-noi-ho-tro-20-trieu-dong-cho-ai-khi-chuyen-sang-xe-dien-post1851560.tpo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2424,
+        "title": "Dat Bike có những dòng xe nào? Tổng hợp các mẫu đáng chú ý",
+        "why": "stale",
+        "content_hash": "8547bbe19e35f1a3e720df88f2c659b744799c8f50115b8e6bfac67e10bf2889",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2553,
+        "title": "Đăng ký biển số xe máy trực tuyến: hồ sơ và các bước cần chuẩn bị",
+        "why": "stale",
+        "content_hash": "07c18eff30a0c8796b3fd7944021fa719dc4afaaacb4f55eb99e40c062e94782",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2559,
+        "title": "Các loại bằng lái xe máy hiện nay và cách phân biệt từng hạng",
+        "why": "stale",
+        "content_hash": "1dbe75f2df7dd3b894e673123e9c56ffdda9c772f072b8cb4682f49b0f264d0e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2580,
+        "title": "Đi Hà Nội nên chọn xe ga hay xe số để di chuyển thuận tiện hơn?",
+        "why": "stale",
+        "content_hash": "6aa38b717367fc0077cddd4330e078e59294b75c84a725df25d0c1ffd299712f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2615,
+        "title": "Phố cổ Hà Nội có gì chơi? 15 địa điểm, món ngon và lịch trình đi bộ",
+        "why": "stale",
+        "content_hash": "e9addb8498afd5d9d13bd70c14aa17da5a5746f6ac0ac5ba4247af9d1591d5ff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T05:08:44.351672+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "6e23bc7901d6379f52a775f85fe531edff6cbeeed0e5ad5d2d4ff04d34577f34",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

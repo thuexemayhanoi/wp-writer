@@ -1,0 +1,183 @@
+{
+  "topic_id": "NT-001189",
+  "status": "PASS",
+  "source_sha256": "2ca1d0407ec3df1a3280ecdf249e60046f0057432e0a9c33c7256bcdd519bf2d",
+  "body_sha256": "6c0f63404048c1e05c5b041795cf29396b119f62ea4e41cbe8383d9f2de1e355",
+  "word_count": 2139,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "supports": "NZTA (New Zealand): lốp trước xẹp thì tay lái nặng, lốp sau xẹp thì đuôi xe lắc; cầm chắc tay lái, không phanh, nhả ga dần, dồn người ra sau khi lốp trước hỏng, báo hiệu rồi vào lề khi đã chậm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "supports": "NZTA (New Zealand), mục Pulling off the road: kiểm tra gương và báo hiệu rõ vì xe phía sau có thể không ngờ bạn chậm lại.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "supports": "Bộ Giao thông Ontario (Canada): giữ chặt tay lái, không phanh, nhả ga dần cho xe trôi, dồn trọng lượng ra sau nếu lốp trước nổ, khi rất chậm mới tấp vào lề.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baohatinh.vn/lam-gi-de-tranh-tinh-trang-no-lop-xe-may-post282583.html",
+      "supports": "Báo Hà Tĩnh 12/2/2025: nổ lốp xe máy nguy hiểm; nguyên nhân gồm lốp quá tuổi thọ, chở quá tải, đi nhanh vào ổ gà, nắng nóng; cách phòng tránh.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/about-riding/hazards-and-emergencies/tips-for-handling",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baohatinh.vn/lam-gi-de-tranh-tinh-trang-no-lop-xe-may-post282583.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2500,
+        "title": "Dấu hiệu xích xe máy quá chùng và cách kiểm tra trước khi đi xa",
+        "why": "stale",
+        "content_hash": "d061c138b067d5f2223950a7aaa38ebe11024f983962f728d69b56d64948608d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4046,
+        "title": "Nhận xe máy thuê tại homestay Hà Nội không có lễ tân: hẹn giao, kiểm tra và trả xe",
+        "why": "stale",
+        "content_hash": "408ee1c935cbed2cc7b830b85734e14e93e1a4c5ee2cc36d01097733e2853eb2",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T05:00:22.614454+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "8ae29ab2b39875fa7cfe0d532351666de8cef4a0aac41a5b865029d646d1e87c",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
