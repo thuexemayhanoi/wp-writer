@@ -28703,7 +28703,7 @@
       }
     },
     "NT-001316": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T15:01:39.005268+00:00",
       "source_hash": "b3fe6e270463ec7c213405ca8e78f2b916c118b731a37c03ec33286ff97f2bc2",
       "slug": "sac-tich-hop-tren-dat-bike-era-o-cam-gap-1-5-lan-cong-suat-va-ba-che-do-standard-fast-boost",
@@ -28719,8 +28719,37 @@
       "category_warning": null,
       "git_commit": "018dfb7385f0f5a57cff206cc8daa1c2fbd7645c",
       "run_id": "39621413630",
-      "updated_at": "2026-10-21T15:01:44.270884+00:00",
-      "wp_id": 4651
+      "updated_at": "2026-10-21T15:01:52.309284+00:00",
+      "wp_id": 4651,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/sac-tich-hop-tren-dat-bike-era-o-cam-gap-1-5-lan-cong-suat-va-ba-che-do-standard-fast-boost/",
+      "verified_at": "2026-10-21T15:01:52.309276+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4651,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/sac-tich-hop-tren-dat-bike-era-o-cam-gap-1-5-lan-cong-suat-va-ba-che-do-standard-fast-boost/",
+        "categories": [
+          167
+        ],
+        "canonical": "https://thuexemaynguyentu.com/sac-tich-hop-tren-dat-bike-era-o-cam-gap-1-5-lan-cong-suat-va-ba-che-do-standard-fast-boost/",
+        "seo_title": "Sạc tích hợp trên Dat Bike ERA: ba chế độ và ổ cắm gấp 1,5 lần",
+        "seo_description": "Sạc tích hợp trên Dat Bike ERA: chế độ Standard 1.200 W, Fast 1.800 W, Boost 2.700 W (hai chế độ sau chỉ cho ERA E1) và lời dặn về ổ cắm gấp 1,5 lần công suất sạc.",
+        "checked_at": "2026-10-21T15:01:52.309258+00:00"
+      }
     }
   },
   "categories": {}
