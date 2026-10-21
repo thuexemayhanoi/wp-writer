@@ -24244,7 +24244,7 @@
       }
     },
     "NT-001194": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T09:23:34.707390+00:00",
       "source_hash": "644ddb5ce5a9e428129182472d979bd7f520aa6a87709417e38a5c9c5b09bfb9",
       "slug": "cho-duoi-theo-khi-dang-di-xe-may-khong-da-chan-giam-toc-roi-tang-toc-bo-lai-va-viec-can-lam-neu-bi-can",
@@ -24260,8 +24260,37 @@
       "category_warning": null,
       "git_commit": "cbe80ebcd156338c61617804e205c084d66ff636",
       "run_id": "39575610387",
-      "updated_at": "2026-10-21T09:23:38.851657+00:00",
-      "wp_id": 4531
+      "updated_at": "2026-10-21T09:23:44.884576+00:00",
+      "wp_id": 4531,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cho-duoi-theo-khi-dang-di-xe-may-khong-da-chan-giam-toc-roi-tang-toc-bo-lai-va-viec-can-lam-neu-bi-can/",
+      "verified_at": "2026-10-21T09:23:44.884568+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4531,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cho-duoi-theo-khi-dang-di-xe-may-khong-da-chan-giam-toc-roi-tang-toc-bo-lai-va-viec-can-lam-neu-bi-can/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cho-duoi-theo-khi-dang-di-xe-may-khong-da-chan-giam-toc-roi-tang-toc-bo-lai-va-viec-can-lam-neu-bi-can/",
+        "seo_title": "Chó đuổi theo khi đang đi xe máy: không đá, xuống số, tăng tốc",
+        "seo_description": "Chó đuổi theo khi đang đi xe máy thì không đá, xuống số, tiến chậm rồi tăng tốc theo NZTA và New York; phần xe ga là gợi ý, cùng điều WHO dặn khi bị cắn.",
+        "checked_at": "2026-10-21T09:23:44.884550+00:00"
+      }
     }
   },
   "categories": {}
