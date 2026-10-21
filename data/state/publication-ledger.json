@@ -28556,7 +28556,7 @@
       }
     },
     "NT-001372": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:55:37.457631+00:00",
       "source_hash": "679422d8a9fa24f55bec4c2082314b29e365464ec69070a140f54f68b433f82d",
       "slug": "canh-sat-giao-thong-thu-tien-phat-tai-cho-chi-vung-kho-khan-hoac-ngoai-gio-va-phai-co-chung-tu",
@@ -28572,8 +28572,37 @@
       "category_warning": null,
       "git_commit": "98d66420ecdf9ed940584762b90f7fcdd5d15993",
       "run_id": "39619876214",
-      "updated_at": "2026-10-21T14:55:41.852821+00:00",
-      "wp_id": 4646
+      "updated_at": "2026-10-21T14:55:48.322825+00:00",
+      "wp_id": 4646,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/canh-sat-giao-thong-thu-tien-phat-tai-cho-chi-vung-kho-khan-hoac-ngoai-gio-va-phai-co-chung-tu/",
+      "verified_at": "2026-10-21T14:55:48.322819+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4646,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/canh-sat-giao-thong-thu-tien-phat-tai-cho-chi-vung-kho-khan-hoac-ngoai-gio-va-phai-co-chung-tu/",
+        "categories": [
+          163
+        ],
+        "canonical": "https://thuexemaynguyentu.com/canh-sat-giao-thong-thu-tien-phat-tai-cho-chi-vung-kho-khan-hoac-ngoai-gio-va-phai-co-chung-tu/",
+        "seo_title": "Cảnh sát giao thông thu tiền phạt tại chỗ: khi nào được, chứng từ",
+        "seo_description": "Cảnh sát giao thông thu tiền phạt tại chỗ chỉ ở vùng khó khăn hoặc ngoài giờ hành chính, phải nộp Kho bạc trong 07 ngày hoặc 02 ngày làm việc và giao chứng từ thu tiền.",
+        "checked_at": "2026-10-21T14:55:48.322801+00:00"
+      }
     }
   },
   "categories": {}
