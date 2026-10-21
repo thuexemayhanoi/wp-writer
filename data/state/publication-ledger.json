@@ -24195,7 +24195,7 @@
       }
     },
     "NT-001170": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T09:22:50.516317+00:00",
       "source_hash": "92a8e8efad58baf27755e3beae9cbd17409afddbd1defcc2ddd42e3621f897e1",
       "slug": "nhot-chai-honda-cho-xe-so-va-xe-ga-dong-ma-mb-va-nhot-thung-phuy-o-cua-hang-uy-nhiem",
@@ -24211,8 +24211,37 @@
       "category_warning": null,
       "git_commit": "cbe80ebcd156338c61617804e205c084d66ff636",
       "run_id": "39575610387",
-      "updated_at": "2026-10-21T09:22:54.329733+00:00",
-      "wp_id": 4530
+      "updated_at": "2026-10-21T09:23:00.339731+00:00",
+      "wp_id": 4530,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nhot-chai-honda-cho-xe-so-va-xe-ga-dong-ma-mb-va-nhot-thung-phuy-o-cua-hang-uy-nhiem/",
+      "verified_at": "2026-10-21T09:23:00.339723+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4530,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nhot-chai-honda-cho-xe-so-va-xe-ga-dong-ma-mb-va-nhot-thung-phuy-o-cua-hang-uy-nhiem/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nhot-chai-honda-cho-xe-so-va-xe-ga-dong-ma-mb-va-nhot-thung-phuy-o-cua-hang-uy-nhiem/",
+        "seo_title": "Nhớt chai Honda cho xe số và xe ga: dòng MA, MB và nhớt phuy",
+        "seo_description": "Nhớt chai Honda cho xe số và xe ga gồm dòng MA, MB và loại tổng hợp cao cấp; Honda nói gì về nhớt thùng phuy ở cửa hàng ủy nhiệm và mốc thay nhớt.",
+        "checked_at": "2026-10-21T09:23:00.339706+00:00"
+      }
     }
   },
   "categories": {}
