@@ -1,0 +1,209 @@
+{
+  "topic_id": "NT-001220",
+  "status": "PASS",
+  "source_sha256": "f0801facf9b94c418c8d3a4099cad923453d3e6649d64d1cb5a4085b19c04b0d",
+  "body_sha256": "900c6b9e5c361bb71fd2e2c955546ebcbdef97b6f85782c9d4dbc16c340dbf58",
+  "word_count": 3194,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=218635&pageid=27160&typegroupid=6",
+      "supports": "vanban.chinhphu.vn: Thông tư 30/2026/TT-BXD của Bộ Xây dựng ban hành 15-06-2026, gồm trình tự, thủ tục chứng nhận an toàn kỹ thuật và bảo vệ môi trường đối với xe cơ giới cải tạo; tệp đính kèm 30-bxd.pdf.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=218635&pageid=27160&typegroupid=6",
+      "supports": "vanban.chinhphu.vn: Thông tư 30/2026/TT-BXD có hiệu lực từ 01-07-2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/giao-thong/thong-tu-30-2026-tt-bxd-quy-dinh-kiem-dinh-va-chung-nhan-an-toan-xe-co-gioi-438970-d1.html",
+      "supports": "Toàn văn Thông tư 30/2026/TT-BXD (luatvietnam.vn, nguồn thương mại) Điều 20 khoản 3: thay động cơ đốt trong bằng động cơ điện thì công suất lớn nhất của động cơ cải tạo theo công bố nằm trong khoảng 90% đến 120% so với thiết kế của nhà sản xuất xe.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/giao-thong/thong-tu-30-2026-tt-bxd-quy-dinh-kiem-dinh-va-chung-nhan-an-toan-xe-co-gioi-438970-d1.html",
+      "supports": "Điều 20 khoản 6: không được cải tạo đồng thời cả khung xe và động cơ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/giao-thong/thong-tu-30-2026-tt-bxd-quy-dinh-kiem-dinh-va-chung-nhan-an-toan-xe-co-gioi-438970-d1.html",
+      "supports": "Điều 20 khoản 4 điểm g: cải tạo, thay thế hệ thống REESS hoặc loại pin (ắc quy) cho mô tô, xe gắn máy điện thuộc nhóm phải do nhà sản xuất xe hoặc đại diện ủy quyền thiết kế và thi công.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=218635&pageid=27160&typegroupid=6",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=218635&pageid=27160&typegroupid=6",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/giao-thong/thong-tu-30-2026-tt-bxd-quy-dinh-kiem-dinh-va-chung-nhan-an-toan-xe-co-gioi-438970-d1.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/giao-thong/thong-tu-30-2026-tt-bxd-quy-dinh-kiem-dinh-va-chung-nhan-an-toan-xe-co-gioi-438970-d1.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/giao-thong/thong-tu-30-2026-tt-bxd-quy-dinh-kiem-dinh-va-chung-nhan-an-toan-xe-co-gioi-438970-d1.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 891,
+        "title": "Hợp Đồng Thuê Xe Máy Hà Nội Có Cần Đặt Cọc Không? Tư Vấn Nhanh",
+        "why": "stale",
+        "content_hash": "dfef1f80adfed1e1d9366a3b620ef84119b9cf4fc4ea34f66fe16eb22f52bcca",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2622,
+        "title": "Hoàng thành Thăng Long có gì? Giá vé, giờ mở cửa và cách tham quan",
+        "why": "stale",
+        "content_hash": "1d198ab7452c92604271329801956283c798cb81955fe394ef94bb66188faaf3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T04:52:41.091286+00:00",
+  "live_links_checked": false,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "1ea266da4ab34f5f53f73c15e9824e4d3fe365f30487daf42754cc256943da37",
+  "incremental_key": "59b3b3d35b8babd51a149c554638484f0b8acc54c0d87d0765417f403661985d",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
