@@ -22970,7 +22970,7 @@
       }
     },
     "NT-001196": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T05:16:56.911827+00:00",
       "source_hash": "65ad0e51ac8ca1475b86ac3cbb2779fc84aece6ad02bb064170db497e725d10f",
       "slug": "chay-xe-may-qua-vat-can-tren-duong-nam-chac-tay-lai-giu-thang-huong-nhom-nhe-nguoi-va-kiem-tra-lop-sau-do",
@@ -22986,8 +22986,37 @@
       "category_warning": null,
       "git_commit": "4022a17feb60320613408b0d829a96e6ba1aebaa",
       "run_id": "39548159025",
-      "updated_at": "2026-10-21T05:17:01.056144+00:00",
-      "wp_id": 4489
+      "updated_at": "2026-10-21T05:17:07.769425+00:00",
+      "wp_id": 4489,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/chay-xe-may-qua-vat-can-tren-duong-nam-chac-tay-lai-giu-thang-huong-nhom-nhe-nguoi-va-kiem-tra-lop-sau-do/",
+      "verified_at": "2026-10-21T05:17:07.769419+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4489,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/chay-xe-may-qua-vat-can-tren-duong-nam-chac-tay-lai-giu-thang-huong-nhom-nhe-nguoi-va-kiem-tra-lop-sau-do/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/chay-xe-may-qua-vat-can-tren-duong-nam-chac-tay-lai-giu-thang-huong-nhom-nhe-nguoi-va-kiem-tra-lop-sau-do/",
+        "seo_title": "Chạy xe máy qua vật cản trên đường: các bước theo NZTA, Ontario",
+        "seo_description": "Chạy xe máy qua vật cản trên đường khi không kịp né: nắm chắc tay lái, giữ thẳng hướng, nhổm nhẹ người, kiểm tra lốp và vành, kèm lưu ý cho xe tay ga.",
+        "checked_at": "2026-10-21T05:17:07.769399+00:00"
+      }
     }
   },
   "categories": {}
