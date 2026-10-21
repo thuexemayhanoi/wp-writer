@@ -19638,7 +19638,7 @@
       }
     },
     "NT-000901": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:11:35.461616+00:00",
       "source_hash": "7033b51ddeb334c9fc2c71f14f1d448bcb667c3cf2f65f566bb86fb9516b1f25",
       "slug": "set-khi-dang-chay-xe-may-xe-may-khong-phai-noi-tru-an-toan-va-quy-tac-cho-30-phut-sau-tieng-sam",
@@ -19654,8 +19654,37 @@
       "category_warning": null,
       "git_commit": "de620203b9af43fe73a1bde8fc7fb84a17756fef",
       "run_id": "39542303090",
-      "updated_at": "2026-10-21T04:11:39.539674+00:00",
-      "wp_id": 4412
+      "updated_at": "2026-10-21T04:11:45.442310+00:00",
+      "wp_id": 4412,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/set-khi-dang-chay-xe-may-xe-may-khong-phai-noi-tru-an-toan-va-quy-tac-cho-30-phut-sau-tieng-sam/",
+      "verified_at": "2026-10-21T04:11:45.442302+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4412,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/set-khi-dang-chay-xe-may-xe-may-khong-phai-noi-tru-an-toan-va-quy-tac-cho-30-phut-sau-tieng-sam/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/set-khi-dang-chay-xe-may-xe-may-khong-phai-noi-tru-an-toan-va-quy-tac-cho-30-phut-sau-tieng-sam/",
+        "seo_title": "Sét khi đang chạy xe máy: xe máy không phải nơi trú an toàn",
+        "seo_description": "Sét khi đang chạy xe máy nên làm gì: NWS và CDC nói xe máy là phương tiện hở không an toàn, cần dừng ở công trình kiên cố và chờ 30 phút sau tiếng sấm cuối.",
+        "checked_at": "2026-10-21T04:11:45.442285+00:00"
+      }
     }
   },
   "categories": {}
