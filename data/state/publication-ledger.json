@@ -25861,7 +25861,7 @@
       }
     },
     "NT-001208": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T10:12:23.964439+00:00",
       "source_hash": "715e9c2a55ef8233b8f91c4ef03cf485f030c4b20e76b159e59f6c10298b97fb",
       "slug": "chuyen-lan-duong-bang-xe-may-moi-lan-mot-lan-lien-ke-bat-xi-nhan-truoc-xe-cham-di-ben-phai-va-phat-200-000-400-000-dong",
@@ -25877,8 +25877,37 @@
       "category_warning": null,
       "git_commit": "d254586ab66c99b3a3fed992c9b0e2d0f0872538",
       "run_id": "39582063937",
-      "updated_at": "2026-10-21T10:12:29.741677+00:00",
-      "wp_id": 4568
+      "updated_at": "2026-10-21T10:12:36.339437+00:00",
+      "wp_id": 4568,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/chuyen-lan-duong-bang-xe-may-moi-lan-mot-lan-lien-ke-bat-xi-nhan-truoc-xe-cham-di-ben-phai-va-phat-200-000-400-000-dong/",
+      "verified_at": "2026-10-21T10:12:36.339431+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4568,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/chuyen-lan-duong-bang-xe-may-moi-lan-mot-lan-lien-ke-bat-xi-nhan-truoc-xe-cham-di-ben-phai-va-phat-200-000-400-000-dong/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/chuyen-lan-duong-bang-xe-may-moi-lan-mot-lan-lien-ke-bat-xi-nhan-truoc-xe-cham-di-ben-phai-va-phat-200-000-400-000-dong/",
+        "seo_title": "Chuyển làn đường bằng xe máy: quy tắc Điều 13 và mức phạt",
+        "seo_description": "Chuyển làn đường bằng xe máy: mỗi lần một làn liền kề, báo hiệu trước, giữ khoảng cách an toàn; mức phạt 200.000–400.000 đồng và điều Nghị định 238/2026 đã sửa.",
+        "checked_at": "2026-10-21T10:12:36.339408+00:00"
+      }
     }
   },
   "categories": {}
