@@ -26447,6 +26447,25 @@
         "seo_description": "Pin xe máy điện VinFast bảo hành bao lâu theo trang chính sách của hãng: pin LFP 8 năm, pin khác 3 năm, ắc quy 12V 1 năm, mốc kích hoạt hay ngày mua và ba sổ bảo hành.",
         "checked_at": "2026-10-21T10:22:33.803028+00:00"
       }
+    },
+    "NT-001306": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T10:26:37.870237+00:00",
+      "source_hash": "be6e972c9aa2365802492be53824f9b4bc323ca8f56cd631e3867f332a537324",
+      "slug": "chay-xong-co-sac-xe-dien-ngay-duoc-khong-pccc-dan-cho-20-phut-yadea-30-phut-den-1-gio",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 167,
+      "visible_hash": "8766fd0b4b721d06af74727bda575fc959dcb97f3836868407212689def52e07",
+      "first_paragraph": "Chạy xong có sạc xe điện ngay được không? Theo các nguồn người viết đọc ngày 21/10/2026, câu trả lời là không nên cắm sạc ngay mà cần chờ pin nguội trước, nhưng mỗi nguồn nêu một mốc khác nhau: Cục Cảnh sát PCCC và CNCH dặn chờ khoảng 20 phút, Yadea Việt Nam dặn ít nhất 30 phút đến 1 tiếng ở trang hỗ trợ và khoảng 30 đến 45 phút ở trang hỏi đáp, còn sổ hướng dẫn xe Quantum của Dat Bike không nêu số phút mà nêu ngưỡng 65°C, vượt ngưỡng đó pin sẽ từ chối sạc.",
+      "meta_title": "Chạy xong có sạc xe điện ngay được không? Mốc chờ pin nguội",
+      "meta_description": "Chạy xong có sạc xe điện ngay được không: PCCC dặn chờ khoảng 20 phút, Yadea 30 phút đến 1 giờ, Dat Bike nêu ngưỡng 65°C khi sạc; cách đọc các mốc khác nhau.",
+      "intended_taxonomy_key": "battery-charging",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "890e077cf1af6d2b0fee88e6be2f19cd59f77979",
+      "run_id": "39583366184",
+      "updated_at": "2026-10-21T10:26:37.872305+00:00"
     }
   },
   "categories": {}
