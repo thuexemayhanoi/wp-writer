@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-21T14:15:50.985019+00:00",
+  "at": "2026-10-21T14:24:37.293001+00:00",
   "counts": {
-    "WRITING": 14,
+    "WRITING": 6,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 569
+    "VERIFIED": 577
   },
   "ready_backlog": 0,
-  "in_flight": 17,
+  "in_flight": 9,
   "items": [
     {
       "topic_id": "NT-001104",
@@ -49,106 +49,10 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001304",
-      "state": "WRITING",
-      "reason": "leased to seodev-w59",
-      "title": "Sửa xe điện ngoài hãng mất bảo hành: phụ tùng không chính hãng, hoán cải và thay ở tiệm lạ",
-      "slot": "W4",
-      "session": "seodev-w59",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001305",
-      "state": "WRITING",
-      "reason": "leased to seodev-w59",
-      "title": "Cắm nhầm bộ sạc của xe khác: sai điện áp làm phồng pin và mất bảo hành theo Pega, Yadea, PCCC",
-      "slot": "W4",
-      "session": "seodev-w59",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001310",
-      "state": "WRITING",
-      "reason": "leased to seodev-w59",
-      "title": "Đặt bộ sạc xe điện thế nào: nằm ngang, không che khe quạt, không bọc kín, tránh nước",
-      "slot": "W4",
-      "session": "seodev-w59",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001333",
-      "state": "WRITING",
-      "reason": "leased to seodev-w60",
-      "title": "Vườn quốc gia Xuân Sơn từ Hà Nội: 120–130 km, 20 km đường hẹp cuối, đi trong ngày hay ở lại",
-      "slot": "W9",
-      "session": "seodev-w60",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001334",
-      "state": "WRITING",
-      "reason": "leased to seodev-w60",
-      "title": "Chùa Mía ở Đường Lâm: 287 pho tượng, kỷ lục năm 2006, chùa xây lại 1632 và những gì nên xem",
-      "slot": "W9",
-      "session": "seodev-w60",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001335",
       "state": "WRITING",
       "reason": "leased to seodev-w60",
       "title": "Đền Và ở Sơn Tây: thờ Tản Viên Sơn Thánh, chính hội 3 năm một lần và lễ rước sang đền Ngự Dội",
-      "slot": "W9",
-      "session": "seodev-w60",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001338",
-      "state": "WRITING",
-      "reason": "leased to seodev-w60",
-      "title": "Đền Sái ở Thụy Lâm, Đông Anh: lễ hội rước vua giả 11 tháng Giêng và điểm du lịch được công nhận",
-      "slot": "W9",
-      "session": "seodev-w60",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001339",
-      "state": "WRITING",
-      "reason": "leased to seodev-w60",
-      "title": "Làng nghề gỗ Thiết Úng ở Đông Anh: nghề chạm khắc tạc tượng và điểm du lịch Hà Nội công nhận",
-      "slot": "W9",
-      "session": "seodev-w60",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001340",
-      "state": "WRITING",
-      "reason": "leased to seodev-w60",
-      "title": "Làng khảm trai Chuyên Mỹ: nghề từ thế kỷ XI–XIII và lễ đón nhận mạng lưới thủ công 8/5/2026",
       "slot": "W9",
       "session": "seodev-w60",
       "wp_id": null,
@@ -6877,6 +6781,30 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001304",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Sửa xe điện ngoài hãng mất bảo hành: phụ tùng không chính hãng, hoán cải và thay ở tiệm lạ",
+      "slot": "W4",
+      "session": "seodev-w59",
+      "wp_id": 4590,
+      "url": "https://thuexemaynguyentu.com/sua-xe-dien-ngoai-hang-mat-bao-hanh-phu-tung-khong-chinh-hang-hoan-cai-va-thay-o-tiem-la/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001305",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Cắm nhầm bộ sạc của xe khác: sai điện áp làm phồng pin và mất bảo hành theo Pega, Yadea, PCCC",
+      "slot": "W4",
+      "session": "seodev-w59",
+      "wp_id": 4591,
+      "url": "https://thuexemaynguyentu.com/cam-nham-bo-sac-cua-xe-khac-sai-dien-ap-lam-phong-pin-va-mat-bao-hanh-theo-pega-yadea-pccc/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001306",
       "state": "VERIFIED",
       "reason": "publish",
@@ -6925,6 +6853,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001310",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đặt bộ sạc xe điện thế nào: nằm ngang, không che khe quạt, không bọc kín, tránh nước",
+      "slot": "W4",
+      "session": "seodev-w59",
+      "wp_id": 4592,
+      "url": "https://thuexemaynguyentu.com/dat-bo-sac-xe-dien-the-nao-nam-ngang-khong-che-khe-quat-khong-boc-kin-tranh-nuoc/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001331",
       "state": "VERIFIED",
       "reason": "publish",
@@ -6949,6 +6889,30 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001333",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Vườn quốc gia Xuân Sơn từ Hà Nội: 120–130 km, 20 km đường hẹp cuối, đi trong ngày hay ở lại",
+      "slot": "W9",
+      "session": "seodev-w60",
+      "wp_id": 4593,
+      "url": "https://thuexemaynguyentu.com/vuon-quoc-gia-xuan-son-tu-ha-noi-120-130-km-20-km-duong-hep-cuoi-di-trong-ngay-hay-o-lai/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001334",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Chùa Mía ở Đường Lâm: 287 pho tượng, kỷ lục năm 2006, chùa xây lại 1632 và những gì nên xem",
+      "slot": "W9",
+      "session": "seodev-w60",
+      "wp_id": 4594,
+      "url": "https://thuexemaynguyentu.com/chua-mia-o-duong-lam-287-pho-tuong-ky-luc-nam-2006-chua-xay-lai-1632-va-nhung-gi-nen-xem/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001336",
       "state": "VERIFIED",
       "reason": "publish",
@@ -6969,6 +6933,42 @@
       "session": "seodev-w60",
       "wp_id": 4589,
       "url": "https://thuexemaynguyentu.com/du-lich-nong-nghiep-bai-song-hong-vuon-trai-nghiem-o-giang-bien-va-nghi-quyet-9-7-2025/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001338",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đền Sái ở Thụy Lâm, Đông Anh: lễ hội rước vua giả 11 tháng Giêng và điểm du lịch được công nhận",
+      "slot": "W9",
+      "session": "seodev-w60",
+      "wp_id": 4595,
+      "url": "https://thuexemaynguyentu.com/den-sai-o-thuy-lam-dong-anh-le-hoi-ruoc-vua-gia-11-thang-gieng-va-diem-du-lich-duoc-cong-nhan/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001339",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Làng nghề gỗ Thiết Úng ở Đông Anh: nghề chạm khắc tạc tượng và điểm du lịch Hà Nội công nhận",
+      "slot": "W9",
+      "session": "seodev-w60",
+      "wp_id": 4597,
+      "url": "https://thuexemaynguyentu.com/lang-nghe-go-thiet-ung-o-dong-anh-nghe-cham-khac-tac-tuong-va-diem-du-lich-ha-noi-cong-nhan/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001340",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Làng khảm trai Chuyên Mỹ: nghề từ thế kỷ XI–XIII và lễ đón nhận mạng lưới thủ công 8/5/2026",
+      "slot": "W9",
+      "session": "seodev-w60",
+      "wp_id": 4598,
+      "url": "https://thuexemaynguyentu.com/lang-kham-trai-chuyen-my-nghe-tu-the-ky-xi-xiii-va-le-don-nhan-mang-luoi-thu-cong-8-5-2026/",
       "qa_status": "PASS",
       "seo_score": 100
     },
