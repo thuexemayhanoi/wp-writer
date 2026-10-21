@@ -23509,7 +23509,7 @@
       }
     },
     "NT-090012": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T09:04:43.522079+00:00",
       "source_hash": "03c51ca5693ffc32f025fa0a2e91d79460e01837e83872ae22d11dc8506f9099",
       "slug": "bao-tang-phu-nu-viet-nam-lich-trinh-cho-gia-dinh-co-tre",
@@ -23525,8 +23525,37 @@
       "category_warning": null,
       "git_commit": "65f470c0a0edbff4fe00883c6c44fc28a8340ba8",
       "run_id": "39573497380",
-      "updated_at": "2026-10-21T09:04:47.566343+00:00",
-      "wp_id": 4514
+      "updated_at": "2026-10-21T09:04:54.276950+00:00",
+      "wp_id": 4514,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bao-tang-phu-nu-viet-nam-lich-trinh-cho-gia-dinh-co-tre/",
+      "verified_at": "2026-10-21T09:04:54.276938+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4514,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bao-tang-phu-nu-viet-nam-lich-trinh-cho-gia-dinh-co-tre/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bao-tang-phu-nu-viet-nam-lich-trinh-cho-gia-dinh-co-tre/",
+        "seo_title": "Bảo tàng Phụ nữ Việt Nam: lịch trình phù hợp cho trẻ",
+        "seo_description": "Đi Bảo tàng Phụ nữ Việt Nam cùng trẻ nhỏ: gợi ý lịch 60–120 phút, Phòng Khám phá, giờ mở cửa, cách nghỉ và câu hỏi cần kiểm trước chuyến đi.",
+        "checked_at": "2026-10-21T09:04:54.276918+00:00"
+      }
     }
   },
   "categories": {}
