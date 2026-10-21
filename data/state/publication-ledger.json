@@ -24291,6 +24291,25 @@
         "seo_description": "Chó đuổi theo khi đang đi xe máy thì không đá, xuống số, tiến chậm rồi tăng tốc theo NZTA và New York; phần xe ga là gợi ý, cùng điều WHO dặn khi bị cắn.",
         "checked_at": "2026-10-21T09:23:44.884550+00:00"
       }
+    },
+    "NT-001195": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T09:24:01.256857+00:00",
+      "source_hash": "311d9955c1499bee5a1484892881b09d6caa849af7f45ce0b61fbd6291bb693a",
+      "slug": "tranh-va-cham-truc-dien-khi-di-xe-may-phanh-manh-bop-coi-tim-loi-thoat-ben-phai-va-khong-danh-lai-sang-lan-nguoc",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 161,
+      "visible_hash": "7e043fe5ef2b85a3192d71f44aab3b60253f369b0f424a2896adf4c041a0584c",
+      "first_paragraph": "Tránh va chạm trực diện khi đi xe máy: theo NZTA (cơ quan giao thông New Zealand), va chạm trực diện có lẽ là loại va chạm nguy hiểm nhất vì lực va thường gấp đôi lực khi va vào vật đứng yên, nên cần phanh mạnh, báo cho người lái xe kia bằng còi và đèn, tìm lối thoát và không đánh lái về phía xe ngược chiều. New Zealand đi bên trái còn Việt Nam đi bên phải, nên hướng thoát trong bài gốc phải đảo lại: người viết hiểu là về phía mép đường bên phải theo chiều đi của mình và không đánh lái sang trái, và đó là điều chỉnh của người viết chứ không phải lời của NZTA.",
+      "meta_title": "Tránh va chạm trực diện khi đi xe máy: phanh, còi, lối thoát bên phải",
+      "meta_description": "Tránh va chạm trực diện khi đi xe máy: bốn việc NZTA dặn, cách đảo hướng thoát cho đường đi bên phải ở Việt Nam, điều khoản về còi và đèn, và khoảng đệm để né.",
+      "intended_taxonomy_key": "road-safety",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "cbe80ebcd156338c61617804e205c084d66ff636",
+      "run_id": "39575610387",
+      "updated_at": "2026-10-21T09:24:01.258245+00:00"
     }
   },
   "categories": {}
