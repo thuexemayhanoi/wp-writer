@@ -20618,7 +20618,7 @@
       }
     },
     "NT-000905": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:30:26.927589+00:00",
       "source_hash": "62af0ffbe604ca9ea35d8f6fcad13a6907fcdcf78170fa1c4e1f51fdf4018d15",
       "slug": "chi-so-uv-khi-di-xe-may-ca-ngay-thang-uv-cua-who-moc-3-va-8-gio-nang-gat-va-cach-che-chan",
@@ -20634,8 +20634,37 @@
       "category_warning": null,
       "git_commit": "893f6a71f41112399a056137c6ccd46ca125a3cd",
       "run_id": "39543790252",
-      "updated_at": "2026-10-21T04:30:32.641528+00:00",
-      "wp_id": 4437
+      "updated_at": "2026-10-21T04:30:38.452096+00:00",
+      "wp_id": 4437,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/chi-so-uv-khi-di-xe-may-ca-ngay-thang-uv-cua-who-moc-3-va-8-gio-nang-gat-va-cach-che-chan/",
+      "verified_at": "2026-10-21T04:30:38.452090+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4437,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/chi-so-uv-khi-di-xe-may-ca-ngay-thang-uv-cua-who-moc-3-va-8-gio-nang-gat-va-cach-che-chan/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/chi-so-uv-khi-di-xe-may-ca-ngay-thang-uv-cua-who-moc-3-va-8-gio-nang-gat-va-cach-che-chan/",
+        "seo_title": "Chỉ số UV khi đi xe máy cả ngày: thang WHO, mốc 3 và 8, giờ nắng gắt",
+        "seo_description": "Chỉ số UV khi đi xe máy cả ngày: thang UV của WHO với mốc 3 và 8, giờ UV cao nhất quanh trưa mặt trời và cách che chắn khi chạy xe nhiều giờ.",
+        "checked_at": "2026-10-21T04:30:38.452071+00:00"
+      }
     }
   },
   "categories": {}
