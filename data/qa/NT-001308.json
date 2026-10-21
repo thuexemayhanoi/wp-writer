@@ -1,0 +1,279 @@
+{
+  "topic_id": "NT-001308",
+  "status": "PASS",
+  "source_sha256": "2dad5c705a5a9a6c9470352fa30acbe7ad71f0de2d2b6b026642e07be53c0e73",
+  "body_sha256": "9f6077480cdc6343cf16690385a652627a0f2dc45481babb673e169b83bbcf3c",
+  "word_count": 2772,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.bosch-ebike.com/us/service/battery-safety",
+      "supports": "Bosch eBike Systems nêu không được mở vỏ pin, pin xe đạp điện là chi tiết hao mòn, pin hỏng, cũ hoặc đã dùng không thể sửa hay làm mới mà phải mang đến đại lý.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/xe-may-dien-la-gi/",
+      "supports": "Trang hỏi đáp Yadea Việt Nam cảnh báo tự độ hoặc ghép thêm pin không đồng bộ với bo mạch và động cơ gây quá tải, nguy cơ chập cháy và mất quyền lợi bảo hành.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "supports": "Cục Cảnh sát PCCC và CNCH (24/05/2024) nêu pin kém chất lượng, không rõ nguồn gốc hoặc đã sửa làm đổi thông số của nhà sản xuất có thể phồng, nổ khi sạc; không tự ý thay đổi kết cấu hay lắp thêm phụ kiện.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "supports": "Sổ Dat Bike Quantum dặn không tự ý tháo dỡ hoặc sửa chữa pin điện, mọi vấn đề bảo hành sửa chữa liên quan đến pin phải do Dat Bike thực hiện.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "supports": "Trang bảo hành VinFast loại hư hỏng do hoán cải trái phép so với thiết kế ban đầu như thay đổi công suất, thay đổi cấu trúc.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nhung-luu-y-khi-dung-xe-may-dien-4449161.html",
+      "supports": "Bài ý kiến độc giả VnExpress (13/4/2022) nêu pin trôi nổi do thợ mua cell rời ráp bằng lá thép và máy hàn điểm dễ chạm chập sau một thời gian dùng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pega.com.vn/huong-dan-su-dung.html",
+      "supports": "Trang hướng dẫn sử dụng của Pega (mục chú ý an toàn khi sử dụng xe đạp điện) dặn không tự ý tháo hay sửa chữa ắc quy.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nhung-luu-y-an-toan-khi-dung-xe-dien-4911573.html",
+      "supports": "VnExpress ngày 9/7/2025 nêu việc độ xe điện và dùng linh kiện không đúng chuẩn thiết kế của nhà sản xuất là mối nguy hiểm tiềm ẩn, ví dụ đèn 35W thay bằng đèn công suất lớn hơn gấp đôi, gấp ba.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "supports": "Trang bảo hành VinFast, phần câu hỏi thường gặp: hiện tượng chai thông thường của pin là hao mòn tự nhiên và không được áp dụng bảo hành; tuổi thọ pin phụ thuộc cách sạc, dòng sạc, số lần phóng điện và nhiệt độ môi trường.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "supports": "Trang bảo hành VinFast: phụ tùng thay thế tại xưởng dịch vụ hoặc đại lý VinFast do khách hàng chịu chi phí có thời hạn bảo hành riêng (pin LFP 8 năm, pin khác 3 năm kể từ ngày mua).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.bosch-ebike.com/us/service/battery-safety",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/xe-may-dien-la-gi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/en/huong-dan-su-dung-xe-quantum-en/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nhung-luu-y-khi-dung-xe-may-dien-4449161.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pega.com.vn/huong-dan-su-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nhung-luu-y-an-toan-khi-dung-xe-dien-4911573.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/chinh-sach-bao-hanh-xe-may-dien",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2390,
+        "title": "Giá pin xe máy điện VinFast và những chi phí người dùng nên biết",
+        "why": "stale",
+        "content_hash": "c435ce6e6e7b1791b32ee311f65ed49f872191baee5071a5d5a3aec71094aef3",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2578,
+        "title": "Có nên mua xe máy cũ để đi ngắn hạn? Những điểm cần cân nhắc",
+        "why": "stale",
+        "content_hash": "2edb32e1617a09723b835349742c0b85646c6fe086eb11610946f0b304bbc7ff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T14:13:32.119419+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "cdc0dfe8a433c16424dbed84b0c6eb3f896f431e790381ced587114d3e2b038b",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

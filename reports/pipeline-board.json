@@ -1,24 +1,48 @@
 {
-  "at": "2026-10-21T14:09:07.910054+00:00",
+  "at": "2026-10-21T14:15:50.985019+00:00",
   "counts": {
-    "WRITING": 16,
+    "WRITING": 14,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 564
+    "VERIFIED": 569
   },
   "ready_backlog": 0,
-  "in_flight": 19,
+  "in_flight": 17,
   "items": [
     {
-      "topic_id": "NT-001303",
+      "topic_id": "NT-001104",
       "state": "WRITING",
-      "reason": "leased to seodev-w59",
-      "title": "Pin chai có được bảo hành không: VinFast, Honda và Yadea xếp chai tự nhiên vào hao mòn",
-      "slot": "W4",
-      "session": "seodev-w59",
+      "reason": "leased to seodev-w61",
+      "title": "Thuê xe máy phường Việt Hưng: chọn Honda Wave hay Yamaha Sirius để đi làm theo tuần?",
+      "slot": "W1",
+      "session": "seodev-w61",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001105",
+      "state": "WRITING",
+      "reason": "leased to seodev-w61",
+      "title": "Thuê xe máy phường Tây Hồ: chọn Honda Vision hay xe điện cho hành trình quanh hồ?",
+      "slot": "W1",
+      "session": "seodev-w61",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001106",
+      "state": "WRITING",
+      "reason": "leased to seodev-w61",
+      "title": "Thuê xe máy phường Đống Đa: sinh viên chọn Honda Wave, Cub 50 hay SYM 50cc?",
+      "slot": "W1",
+      "session": "seodev-w61",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -49,48 +73,12 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001308",
-      "state": "WRITING",
-      "reason": "leased to seodev-w59",
-      "title": "Thay cell hoặc độ pin xe điện ngoài hãng: Bosch dặn đổi pin không sửa, Yadea cảnh báo chập",
-      "slot": "W4",
-      "session": "seodev-w59",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001309",
-      "state": "WRITING",
-      "reason": "leased to seodev-w59",
-      "title": "Đỗ xe điện ở đâu cho thoáng: cách xe xăng 3 m, tránh nắng, có báo khói theo PCCC và Bosch",
-      "slot": "W4",
-      "session": "seodev-w59",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001310",
       "state": "WRITING",
       "reason": "leased to seodev-w59",
       "title": "Đặt bộ sạc xe điện thế nào: nằm ngang, không che khe quạt, không bọc kín, tránh nước",
       "slot": "W4",
       "session": "seodev-w59",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001332",
-      "state": "WRITING",
-      "reason": "leased to seodev-w60",
-      "title": "Làng Văn hóa các dân tộc Việt Nam: khu du lịch cấp thành phố từ 5/10/2026, rộng 1.544 ha",
-      "slot": "W9",
-      "session": "seodev-w60",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -125,18 +113,6 @@
       "state": "WRITING",
       "reason": "leased to seodev-w60",
       "title": "Đền Và ở Sơn Tây: thờ Tản Viên Sơn Thánh, chính hội 3 năm một lần và lễ rước sang đền Ngự Dội",
-      "slot": "W9",
-      "session": "seodev-w60",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001337",
-      "state": "WRITING",
-      "reason": "leased to seodev-w60",
-      "title": "Du lịch nông nghiệp bãi sông Hồng: vườn trải nghiệm ở Giang Biên và nghị quyết 9/7/2025",
       "slot": "W9",
       "session": "seodev-w60",
       "wp_id": null,
@@ -6889,6 +6865,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001303",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Pin chai có được bảo hành không: VinFast, Honda và Yadea xếp chai tự nhiên vào hao mòn",
+      "slot": "W4",
+      "session": "seodev-w59",
+      "wp_id": 4585,
+      "url": "https://thuexemaynguyentu.com/pin-chai-co-duoc-bao-hanh-khong-vinfast-honda-va-yadea-xep-chai-tu-nhien-vao-hao-mon/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001306",
       "state": "VERIFIED",
       "reason": "publish",
@@ -6913,6 +6901,30 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001308",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Thay cell hoặc độ pin xe điện ngoài hãng: Bosch dặn đổi pin không sửa, Yadea cảnh báo chập",
+      "slot": "W4",
+      "session": "seodev-w59",
+      "wp_id": 4586,
+      "url": "https://thuexemaynguyentu.com/thay-cell-hoac-do-pin-xe-dien-ngoai-hang-bosch-dan-doi-pin-khong-sua-yadea-canh-bao-chap/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001309",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đỗ xe điện ở đâu cho thoáng: cách xe xăng 3 m, tránh nắng, có báo khói theo PCCC và Bosch",
+      "slot": "W4",
+      "session": "seodev-w59",
+      "wp_id": 4587,
+      "url": "https://thuexemaynguyentu.com/do-xe-dien-o-dau-cho-thoang-cach-xe-xang-3-m-tranh-nang-co-bao-khoi-theo-pccc-va-bosch/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001331",
       "state": "VERIFIED",
       "reason": "publish",
@@ -6925,6 +6937,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001332",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Làng Văn hóa các dân tộc Việt Nam: khu du lịch cấp thành phố từ 5/10/2026, rộng 1.544 ha",
+      "slot": "W9",
+      "session": "seodev-w60",
+      "wp_id": 4588,
+      "url": "https://thuexemaynguyentu.com/lang-van-hoa-cac-dan-toc-viet-nam-khu-du-lich-cap-thanh-pho-tu-5-10-2026-rong-1-544-ha/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001336",
       "state": "VERIFIED",
       "reason": "publish",
@@ -6933,6 +6957,18 @@
       "session": "seodev-w60",
       "wp_id": 4584,
       "url": "https://thuexemaynguyentu.com/lang-quat-chang-son-o-thach-that-nghe-quat-giay-tu-the-ky-xix-va-trai-nghiem-lam-quat/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001337",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Du lịch nông nghiệp bãi sông Hồng: vườn trải nghiệm ở Giang Biên và nghị quyết 9/7/2025",
+      "slot": "W9",
+      "session": "seodev-w60",
+      "wp_id": 4589,
+      "url": "https://thuexemaynguyentu.com/du-lich-nong-nghiep-bai-song-hong-vuon-trai-nghiem-o-giang-bien-va-nghi-quyet-9-7-2025/",
       "qa_status": "PASS",
       "seo_score": 100
     },
