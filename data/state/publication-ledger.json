@@ -21106,6 +21106,25 @@
         "seo_description": "Xích xe máy căng quá có sao không: Yamaha dặn chừa độ chùng vì sên quá căng có thể đứt, chỗ căng chỗ chùng do nhông ô van hoặc mắt xích đội răng, 20–30 mm chỉ là ví dụ cũ.",
         "checked_at": "2026-10-21T04:39:09.735936+00:00"
       }
+    },
+    "NT-001153": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T04:39:49.032052+00:00",
+      "source_hash": "b5d432d9674a26933b6e105b680fc86332c11ec09b0a45bc4bc7fc7732da1bc3",
+      "slug": "do-nhot-sae-tren-nhot-xe-may-doc-10w-30-10w-40-va-vi-sao-honda-yamaha-motul-khuyen-khac-nhau",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 170,
+      "visible_hash": "664a5200318b4d05d8d2366405bb8f6d1ed269978cd9c0ec9183b9ee038cb150",
+      "first_paragraph": "Độ nhớt SAE trên nhớt xe máy là chỉ số cho biết dầu đặc hay loãng ở các mức nhiệt độ khác nhau: theo Motul Việt Nam và Yamaha Motor Việt Nam, trong ký hiệu như 10W-40, số đứng trước chữ W nói về độ nhớt ở nhiệt độ thấp (số càng nhỏ dầu càng loãng và dễ chảy khi lạnh), còn số sau chữ W nói về độ nhớt ở nhiệt độ cao (số càng lớn dầu càng đặc). Sách hướng dẫn Honda của sáu mẫu xe đã đọc đều ghi SAE 10W-30, nhưng Motul nêu 10W40 hoặc 10W50 cho khí hậu nóng ẩm còn Yamaha nêu SAE 30 cho quãng ngắn và 40 hoặc 50 cho đi xa, nên ba lời khuyên không trùng nhau; vì vậy cấp ghi trong sách hướng dẫn của đúng xe là căn cứ chính, lời khuyên chung của hãng nhớt chỉ để tham khảo.",
+      "meta_title": "Độ nhớt SAE trên nhớt xe máy: đọc 10W-30, 10W-40 thế nào",
+      "meta_description": "Độ nhớt SAE trên nhớt xe máy: đọc số trước và sau chữ W, sách Honda sáu xe cùng ghi 10W-30, vì sao Motul và Yamaha khuyên khác và cách đối chiếu nhãn chai.",
+      "intended_taxonomy_key": "engine-care",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "61285248c7d8eca7c8250b277de2091dd2ca1bae",
+      "run_id": "39544657734",
+      "updated_at": "2026-10-21T04:39:49.033723+00:00"
     }
   },
   "categories": {}
