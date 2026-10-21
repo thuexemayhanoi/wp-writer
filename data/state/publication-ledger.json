@@ -20177,7 +20177,7 @@
       }
     },
     "NT-000904": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T04:21:43.951642+00:00",
       "source_hash": "fb79d9737d154d41fd12df01a675f92a509ee7941c55c2c91571c814b2daeddd",
       "slug": "nang-nong-gay-gat-dac-biet-gay-gat-la-bao-nhieu-do-doc-ban-tin-nang-nong-truoc-chuyen-xe-may",
@@ -20193,8 +20193,37 @@
       "category_warning": null,
       "git_commit": "f51dccf09e632fe70acfd6dfbc7d931d064689e4",
       "run_id": "39542955374",
-      "updated_at": "2026-10-21T04:21:48.126525+00:00",
-      "wp_id": 4428
+      "updated_at": "2026-10-21T04:21:53.943565+00:00",
+      "wp_id": 4428,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nang-nong-gay-gat-dac-biet-gay-gat-la-bao-nhieu-do-doc-ban-tin-nang-nong-truoc-chuyen-xe-may/",
+      "verified_at": "2026-10-21T04:21:53.943559+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4428,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nang-nong-gay-gat-dac-biet-gay-gat-la-bao-nhieu-do-doc-ban-tin-nang-nong-truoc-chuyen-xe-may/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nang-nong-gay-gat-dac-biet-gay-gat-la-bao-nhieu-do-doc-ban-tin-nang-nong-truoc-chuyen-xe-may/",
+        "seo_title": "Nắng nóng, gay gắt, đặc biệt gay gắt là bao nhiêu độ: 35, 37, 39 độ C",
+        "seo_description": "Nắng nóng, gay gắt, đặc biệt gay gắt là bao nhiêu độ: các mức 35, 37, 39 độ C của ngành khí tượng, nghĩa của diện rộng, cục bộ, đợt và cách đọc bản tin.",
+        "checked_at": "2026-10-21T04:21:53.943542+00:00"
+      }
     }
   },
   "categories": {}
