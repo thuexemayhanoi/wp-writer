@@ -28213,7 +28213,7 @@
       }
     },
     "NT-001106": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:51:32.804036+00:00",
       "source_hash": "ddd318f61035b64c9ff54038b3ad3089bb08edf05629167e33cfceb46bc47e44",
       "slug": "thue-xe-may-phuong-dong-da-sinh-vien-wave-cub-sym-50cc",
@@ -28229,8 +28229,37 @@
       "category_warning": null,
       "git_commit": "98d66420ecdf9ed940584762b90f7fcdd5d15993",
       "run_id": "39619876214",
-      "updated_at": "2026-10-21T14:51:37.726676+00:00",
-      "wp_id": 4638
+      "updated_at": "2026-10-21T14:51:44.399419+00:00",
+      "wp_id": 4638,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/thue-xe-may-phuong-dong-da-sinh-vien-wave-cub-sym-50cc/",
+      "verified_at": "2026-10-21T14:51:44.399411+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4638,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/thue-xe-may-phuong-dong-da-sinh-vien-wave-cub-sym-50cc/",
+        "categories": [
+          182
+        ],
+        "canonical": "https://thuexemaynguyentu.com/thue-xe-may-phuong-dong-da-sinh-vien-wave-cub-sym-50cc/",
+        "seo_title": "Thuê xe máy phường Đống Đa: sinh viên chọn Wave, Cub hay 50cc",
+        "seo_description": "Thuê xe máy phường Đống Đa cho sinh viên: chọn Honda Wave hay xe 50cc theo tuổi và phân loại xe, cách kiểm tra Cub 50, SYM 50cc, ngân sách tuần, tháng và tiền cọc.",
+        "checked_at": "2026-10-21T14:51:44.399394+00:00"
+      }
     }
   },
   "categories": {}
