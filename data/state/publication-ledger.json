@@ -28066,7 +28066,7 @@
       }
     },
     "NT-001370": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T14:45:15.610282+00:00",
       "source_hash": "ae3231a9c9f067553cabe115ab0df89a30f41494eb3337e7f3ced8faf9dc4c5b",
       "slug": "tai-nan-xe-may-co-bao-hiem-bat-buoc-bao-trong-5-ngay-lam-viec-ho-so-gom-gi-tam-ung-3-ngay",
@@ -28082,8 +28082,37 @@
       "category_warning": null,
       "git_commit": "1548faa8656ddb9fa7d131e0a1f6d4da23750132",
       "run_id": "39618406418",
-      "updated_at": "2026-10-21T14:45:20.258910+00:00",
-      "wp_id": 4633
+      "updated_at": "2026-10-21T14:45:26.480065+00:00",
+      "wp_id": 4633,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tai-nan-xe-may-co-bao-hiem-bat-buoc-bao-trong-5-ngay-lam-viec-ho-so-gom-gi-tam-ung-3-ngay/",
+      "verified_at": "2026-10-21T14:45:26.480059+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4633,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tai-nan-xe-may-co-bao-hiem-bat-buoc-bao-trong-5-ngay-lam-viec-ho-so-gom-gi-tam-ung-3-ngay/",
+        "categories": [
+          163
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tai-nan-xe-may-co-bao-hiem-bat-buoc-bao-trong-5-ngay-lam-viec-ho-so-gom-gi-tam-ung-3-ngay/",
+        "seo_title": "Tai nạn xe máy có bảo hiểm bắt buộc: báo trong 5 ngày, hồ sơ, tạm ứng",
+        "seo_description": "Tai nạn xe máy có bảo hiểm bắt buộc: báo ngay đường dây nóng, gửi thông báo trong 5 ngày làm việc, hồ sơ chủ xe tự thu thập, mốc 1 giờ, 24 giờ và tạm ứng 3 ngày.",
+        "checked_at": "2026-10-21T14:45:26.480043+00:00"
+      }
     }
   },
   "categories": {}
