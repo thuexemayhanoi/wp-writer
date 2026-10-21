@@ -20714,6 +20714,25 @@
         "seo_description": "Chia sẻ vị trí trực tiếp khi đi xe máy: iPhone (Find My, Tin nhắn, Check In) và Google Maps cho người thân thấy gì, chia sẻ bao lâu và dừng chia sẻ thế nào.",
         "checked_at": "2026-10-21T04:31:00.766684+00:00"
       }
+    },
+    "NT-000910": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T04:31:33.490647+00:00",
+      "source_hash": "062723156ccf269898be49b2b6f8a0686cb698f27e96ec65f10e7812c8695d54",
+      "slug": "xac-suat-mua-40-nghia-la-gi-nws-va-met-office-dinh-nghia-khac-nhau-ra-sao-va-cach-doc-bang-du-bao-truoc-chuyen-xe-may",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 175,
+      "visible_hash": "dc1d42b1eb4fafec23d2172d327dc0e74babb3d8903477bfdb5af44e2af441a7",
+      "first_paragraph": "Xác suất mưa 40% nghĩa là gì? Theo hai trang của các văn phòng thuộc Cơ quan Thời tiết Quốc gia Mỹ (NWS), đọc ngày 21/10/2026, 40% là xác suất tại một điểm dự báo có ít nhất 0,01 inch (khoảng 0,25 mm) mưa trong khoảng thời gian ghi trong bản tin; đó không phải 40% thời gian hay 40% diện tích. Met Office (Anh) định nghĩa theo cách khác: 70% là 7 trong 10 khả năng có mưa ở một lúc nào đó trong khoảng ấy, với ngưỡng ít nhất 0,1 mm trong 1 giờ ở bảng theo giờ. Vì mỗi nơi định nghĩa một kiểu, con số 40% của hai ứng dụng khác nhau chưa chắc so sánh được với nhau.",
+      "meta_title": "Xác suất mưa 40% nghĩa là gì? NWS và Met Office khác nhau ra sao",
+      "meta_description": "Xác suất mưa 40% nghĩa là gì: NWS (Mỹ) tính khả năng có ít nhất 0,01 inch mưa tại một điểm, Met Office (Anh) tính theo giờ, và cách đọc bảng dự báo trước chuyến xe máy.",
+      "intended_taxonomy_key": "trip-planning",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "893f6a71f41112399a056137c6ccd46ca125a3cd",
+      "run_id": "39543790252",
+      "updated_at": "2026-10-21T04:31:33.492274+00:00"
     }
   },
   "categories": {}
