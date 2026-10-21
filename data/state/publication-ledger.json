@@ -24832,7 +24832,7 @@
       }
     },
     "NT-001222": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T09:54:00.326142+00:00",
       "source_hash": "4f12a4c492fe642005527a51fc8e285016304b72dbe5c7cf9757b0ca0e402b6a",
       "slug": "mat-dang-ky-hoac-bien-so-xe-may-thong-tu-62-2026-bo-xac-minh-30-ngay-cap-lai-trong-2-den-7-ngay-lam-viec",
@@ -24848,8 +24848,37 @@
       "category_warning": null,
       "git_commit": "ee8cdb7d7fa24bc2ba89e576e7751976e0851152",
       "run_id": "39579774433",
-      "updated_at": "2026-10-21T09:54:04.701551+00:00",
-      "wp_id": 4543
+      "updated_at": "2026-10-21T09:54:10.677481+00:00",
+      "wp_id": 4543,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/mat-dang-ky-hoac-bien-so-xe-may-thong-tu-62-2026-bo-xac-minh-30-ngay-cap-lai-trong-2-den-7-ngay-lam-viec/",
+      "verified_at": "2026-10-21T09:54:10.677475+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4543,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/mat-dang-ky-hoac-bien-so-xe-may-thong-tu-62-2026-bo-xac-minh-30-ngay-cap-lai-trong-2-den-7-ngay-lam-viec/",
+        "categories": [
+          159
+        ],
+        "canonical": "https://thuexemaynguyentu.com/mat-dang-ky-hoac-bien-so-xe-may-thong-tu-62-2026-bo-xac-minh-30-ngay-cap-lai-trong-2-den-7-ngay-lam-viec/",
+        "seo_title": "Mất đăng ký hoặc biển số xe máy: Thông tư 62/2026 cấp lại bao lâu",
+        "seo_description": "Mất đăng ký hoặc biển số xe máy thì cấp lại thế nào: thời hạn 2 và 7 ngày làm việc theo Thông tư 62/2026, hồ sơ, biển 3–4 số và chỗ trang thủ tục Bộ Công an chưa khớp.",
+        "checked_at": "2026-10-21T09:54:10.677459+00:00"
+      }
     }
   },
   "categories": {}
