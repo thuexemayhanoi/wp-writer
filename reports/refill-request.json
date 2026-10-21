@@ -1,22 +1,22 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 13,
+  "ready_stock": 3,
   "trigger_below_ready": 900,
-  "rounds_opened": 3,
+  "rounds_opened": 4,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 577,
-  "capacity_remaining": 1423,
+  "topic_rows": 606,
+  "capacity_remaining": 1394,
   "order": {
-    "id": "RF-0003",
-    "round": 3,
+    "id": "RF-0004",
+    "round": 4,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 93,
-    "remaining_to_min": 7,
-    "remaining_to_max": 107,
-    "batches_still_needed": 1,
+    "accepted_so_far": 15,
+    "remaining_to_min": 85,
+    "remaining_to_max": 185,
+    "batches_still_needed": 9,
     "batch_size": 10,
     "capacity_limited": false,
     "stalled": false,
@@ -37,13 +37,13 @@
       {
         "taxonomy_key": "battery-charging",
         "quota": 9,
-        "known_now": 25,
+        "known_now": 26,
         "allocation": 57
       },
       {
         "taxonomy_key": "electric-transition",
         "quota": 8,
-        "known_now": 13,
+        "known_now": 14,
         "allocation": 41
       },
       {
@@ -61,7 +61,7 @@
       {
         "taxonomy_key": "driving-licence",
         "quota": 5,
-        "known_now": 12,
+        "known_now": 13,
         "allocation": 32
       },
       {
@@ -73,7 +73,7 @@
       {
         "taxonomy_key": "electric-maintenance",
         "quota": 5,
-        "known_now": 22,
+        "known_now": 23,
         "allocation": 41
       },
       {
@@ -91,13 +91,13 @@
       {
         "taxonomy_key": "ebikes",
         "quota": 4,
-        "known_now": 16,
+        "known_now": 17,
         "allocation": 32
       },
       {
         "taxonomy_key": "legal",
         "quota": 4,
-        "known_now": 34,
+        "known_now": 35,
         "allocation": 50
       },
       {
@@ -132,24 +132,25 @@
       }
     ],
     "next_batch_categories": {
-      "rental-guide": 2,
       "battery-charging": 1,
       "destinations": 1,
-      "driving-licence": 1,
-      "ebikes": 1,
+      "electric": 1,
       "electric-maintenance": 1,
       "electric-transition": 1,
       "green-travel": 1,
-      "rental-50cc": 1
+      "rental-50cc": 1,
+      "rental-guide": 1,
+      "trip-planning": 1,
+      "urban-mobility": 1
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 620,
-    "topics_in_factory": 577,
+    "published_wordpress_items": 672,
+    "topics_in_factory": 606,
     "topics_by_status": {
-      "PLANNED": 504,
-      "REJECTED": 1,
-      "RESEARCH": 72
+      "PLANNED": 529,
+      "REJECTED": 2,
+      "RESEARCH": 75
     },
     "rule": "A candidate is compared with EVERY published WordPress item and EVERY topic in the factory (any status except REJECTED), and with the other new rows of the same research run."
   },

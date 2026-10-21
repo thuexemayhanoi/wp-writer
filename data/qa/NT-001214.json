@@ -1,0 +1,322 @@
+{
+  "topic_id": "NT-001214",
+  "status": "PASS",
+  "source_sha256": "7ef66c011f1f520272b49a0262b2e197c87c309b1f56242d9904a2a56ac5e9ad",
+  "body_sha256": "72540d691e2445c8b60d8d3c8984d147b70747934574156b9b1d82d1b03d4522",
+  "word_count": 2142,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://bienhoa.dongnai.gov.vn/vi/news/thong-bao/thong-tin-chinh-sach-mien-giam-phi-le-phi-trien-khai-nghi-quyet-ve-phat-trien-cong-dan-so-489.html",
+      "supports": "UBND phường Biên Hòa 04/09/2026: Thông tư 117/2026/TT-BTC giảm 100% lệ phí trước bạ xe mô tô nộp từ lần thứ 2 trở đi khi đăng ký quyền sở hữu.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bienhoa.dongnai.gov.vn/vi/news/thong-bao/thong-tin-chinh-sach-mien-giam-phi-le-phi-trien-khai-nghi-quyet-ve-phat-trien-cong-dan-so-489.html",
+      "supports": "Cùng bản tin: Thông tư 117/2026/TT-BTC có hiệu lực 15/8/2026 đến hết 28/02/2027, từ 01/3/2027 mức thu theo các thông tư gốc.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bienhoa.dongnai.gov.vn/vi/news/thong-bao/thong-tin-chinh-sach-mien-giam-phi-le-phi-trien-khai-nghi-quyet-ve-phat-trien-cong-dan-so-489.html",
+      "supports": "Cùng bản tin: ô tô chở người từ 9 chỗ trở xuống giảm 50% khi nộp lệ phí trước bạ từ lần thứ 2 trở đi.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hatinh.gov.vn/vi/bai-viet/mien-giam-le-phi-truoc-ba-khi-sang-ten-xe-cu-qua-vneid",
+      "supports": "Cổng thông tin tỉnh Hà Tĩnh 14/07/2026: ưu đãi chỉ áp dụng tối đa một lần trong năm, mức ưu đãi không quá 5 lần lương cơ sở (12,65 triệu đồng).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hatinh.gov.vn/vi/bai-viet/mien-giam-le-phi-truoc-ba-khi-sang-ten-xe-cu-qua-vneid",
+      "supports": "Cùng bài: mức thu phổ biến của xe máy là 2% khi đăng ký lần đầu và 1% từ lần thứ hai.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hatinh.gov.vn/vi/bai-viet/mien-giam-le-phi-truoc-ba-khi-sang-ten-xe-cu-qua-vneid",
+      "supports": "Cùng bài: điều kiện nộp thuế điện tử và tích hợp thông tin trên VNeID.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/o-to-xe-may/hieu-ro-ve-quy-dinh-giam-le-phi-truoc-ba-cho-o-to-xe-may-tu-158-20260715003046121.htm",
+      "supports": "Dân trí 15/07/2026: xe máy đăng ký từ lần 2 trở đi nộp lệ phí trước bạ 1% giá trị xe; Nghị quyết giảm 100%.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/o-to-xe-may/hieu-ro-ve-quy-dinh-giam-le-phi-truoc-ba-cho-o-to-xe-may-tu-158-20260715003046121.htm",
+      "supports": "Dân trí: mức lương cơ sở từ 1/7/2026 là 2,53 triệu đồng theo Nghị định 161/2026/NĐ-CP.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hethongphapluat.com/thong-tu-117-2026-tt-btc-quy-dinh-mien-giam-mot-so-khoan-phi-le-phi-de-trien-khai-nghi-quyet-66-22-2026-nq-cp-ve-phat-trien-cong-dan-so-do-bo-truong-bo-tai-chinh-ban-hanh.html",
+      "supports": "Bản toàn văn Thông tư 117/2026/TT-BTC đăng lại trên hethongphapluat.com (nguồn phụ): giảm 100% lệ phí trước bạ xe mô tô nộp từ lần thứ 2 trở đi.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hethongphapluat.com/thong-tu-117-2026-tt-btc-quy-dinh-mien-giam-mot-so-khoan-phi-le-phi-de-trien-khai-nghi-quyet-66-22-2026-nq-cp-ve-phat-trien-cong-dan-so-do-bo-truong-bo-tai-chinh-ban-hanh.html",
+      "supports": "Cùng bản đăng lại: chỉ áp dụng một lần cho mỗi loại tài sản trong một năm kể từ ngày thông tư có hiệu lực.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hethongphapluat.com/thong-tu-117-2026-tt-btc-quy-dinh-mien-giam-mot-so-khoan-phi-le-phi-de-trien-khai-nghi-quyet-66-22-2026-nq-cp-ve-phat-trien-cong-dan-so-do-bo-truong-bo-tai-chinh-ban-hanh.html",
+      "supports": "Cùng bản đăng lại: điều kiện tích hợp VNeID đặt ở bên chuyển nhượng với xe.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://bienhoa.dongnai.gov.vn/vi/news/thong-bao/thong-tin-chinh-sach-mien-giam-phi-le-phi-trien-khai-nghi-quyet-ve-phat-trien-cong-dan-so-489.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bienhoa.dongnai.gov.vn/vi/news/thong-bao/thong-tin-chinh-sach-mien-giam-phi-le-phi-trien-khai-nghi-quyet-ve-phat-trien-cong-dan-so-489.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bienhoa.dongnai.gov.vn/vi/news/thong-bao/thong-tin-chinh-sach-mien-giam-phi-le-phi-trien-khai-nghi-quyet-ve-phat-trien-cong-dan-so-489.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hatinh.gov.vn/vi/bai-viet/mien-giam-le-phi-truoc-ba-khi-sang-ten-xe-cu-qua-vneid",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hatinh.gov.vn/vi/bai-viet/mien-giam-le-phi-truoc-ba-khi-sang-ten-xe-cu-qua-vneid",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hatinh.gov.vn/vi/bai-viet/mien-giam-le-phi-truoc-ba-khi-sang-ten-xe-cu-qua-vneid",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/o-to-xe-may/hieu-ro-ve-quy-dinh-giam-le-phi-truoc-ba-cho-o-to-xe-may-tu-158-20260715003046121.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/o-to-xe-may/hieu-ro-ve-quy-dinh-giam-le-phi-truoc-ba-cho-o-to-xe-may-tu-158-20260715003046121.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hethongphapluat.com/thong-tu-117-2026-tt-btc-quy-dinh-mien-giam-mot-so-khoan-phi-le-phi-de-trien-khai-nghi-quyet-66-22-2026-nq-cp-ve-phat-trien-cong-dan-so-do-bo-truong-bo-tai-chinh-ban-hanh.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hethongphapluat.com/thong-tu-117-2026-tt-btc-quy-dinh-mien-giam-mot-so-khoan-phi-le-phi-de-trien-khai-nghi-quyet-66-22-2026-nq-cp-ve-phat-trien-cong-dan-so-do-bo-truong-bo-tai-chinh-ban-hanh.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hethongphapluat.com/thong-tu-117-2026-tt-btc-quy-dinh-mien-giam-mot-so-khoan-phi-le-phi-de-trien-khai-nghi-quyet-66-22-2026-nq-cp-ve-phat-trien-cong-dan-so-do-bo-truong-bo-tai-chinh-ban-hanh.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2515,
+        "title": "Bình ắc quy xe máy dùng được bao lâu? Khi nào nên kiểm tra lại?",
+        "why": "stale",
+        "content_hash": "26576df935c21a29be7d5e9013419bbd9273bc6c5f99f106848143996460de9a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2532,
+        "title": "Bảo dưỡng xe máy Honda định kỳ gồm những hạng mục nào quan trọng?",
+        "why": "stale",
+        "content_hash": "3b3f8540d3f280a070202fee58502694cd67d9aa913f3fd5820127ff78745746",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2538,
+        "title": "Bảo dưỡng xe máy Yamaha định kỳ: những hạng mục không nên bỏ qua",
+        "why": "stale",
+        "content_hash": "7ba921b8bab5c4d33595262c9663c3d0cda2779ce5193da515df1b4733f9a21f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4047,
+        "title": "Thuê xe máy Hà Nội 2 ngày 1 đêm: tính tiền theo mốc nào và trả xe lúc nào?",
+        "why": "stale",
+        "content_hash": "ff3360a833efc7ccb2778f577426a6ccdec6c16a3c8c30c58243ba9e9175e695",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T05:10:17.739995+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "f0d571808c141e0316c7ad2f0d5fd9f0c4e1b7a9e2a9e4e2599c904e053cf9d3",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

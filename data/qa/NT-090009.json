@@ -1,0 +1,146 @@
+{
+  "topic_id": "NT-090009",
+  "status": "PASS",
+  "source_sha256": "4eeef87f8adeb1fa99e2331f24402abdb92a8d6a2fa423d8a4765b514982bc63",
+  "body_sha256": "28be891df7a3c75ca3dcb1d013c85e3a59371b333cebdf6326b9048744cdd619",
+  "word_count": 3158,
+  "quality_score": 100,
+  "seo_score": 95,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 10,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [
+    "Add contextual links to real published related articles"
+  ],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/xe-may-het-ac-quy-phai-lam-sao/",
+      "supports": "Yamaha Việt Nam nêu đèn pha và đèn tín hiệu có thể mờ khi ắc quy yếu; không thể kết luận thay bóng đèn chỉ vì thấy tối.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/xe-may-het-ac-quy-phai-lam-sao/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 875,
+        "title": "Thuê Xe Máy Bến Xe Gia Lâm Gần Cầu Long Biên – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "db5df2f80d08f10a53ae1b5591ce273726a00ca2e5fdfe2b02911d0dbf27935a",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2535,
+        "title": "Lịch bảo dưỡng xe máy Honda: các mốc nên kiểm tra theo thời gian",
+        "why": "stale",
+        "content_hash": "c705587e1fddf801c67af2ee8927918bea23539eb6755e4f4da4fe7ae47943cb",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4344,
+        "title": "Thuê xe máy phường Bồ Đề: chọn Honda Vision hay Wave, nhận xe ở đâu?",
+        "why": "stale",
+        "content_hash": "dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-21T06:04:50.468594+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "09b4288b9a95a3f3328805693c57133ad2787ed44c41a9381edf1d50acd53234",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -1730,6 +1730,127 @@
         "NT-001140"
       ],
       "not_accepted": {}
+    },
+    "data/candidates/seodev-r39-0002.jsonl": {
+      "sha256": "1cff55cdb3455e8699e337fd04505a612940023a0330b0d148489c621edfe62b",
+      "at": "2026-10-21T04:54:27.319578+00:00",
+      "state": "TOPIC_QA_APPLIED",
+      "research_branch": "research/seodev-r39",
+      "research_commit": "2952ef784cbe149d21f506c2c6e7dd8b9b3b7e48",
+      "topic_ids": [
+        "NT-001191",
+        "NT-001192",
+        "NT-001193",
+        "NT-001194",
+        "NT-001195",
+        "NT-001196",
+        "NT-001197",
+        "NT-001198",
+        "NT-001199",
+        "NT-001200"
+      ],
+      "accepted_ids": [
+        "NT-001191",
+        "NT-001192",
+        "NT-001193",
+        "NT-001194",
+        "NT-001195",
+        "NT-001196",
+        "NT-001197",
+        "NT-001198",
+        "NT-001199",
+        "NT-001200"
+      ],
+      "not_accepted": {}
+    },
+    "data/candidates/seodev-r38-0002.jsonl": {
+      "sha256": "228382d09bdc955cf3e45a63bab5ddf6050cfd9079a152e0b0cf232f944e72d1",
+      "at": "2026-10-21T05:03:41.737375+00:00",
+      "state": "TOPIC_QA_APPLIED",
+      "research_branch": "research/seodev-r38",
+      "research_commit": "65ced92caf46bead746150d0e05b82dde00aff4f",
+      "topic_ids": [
+        "NT-001161",
+        "NT-001162",
+        "NT-001163",
+        "NT-001164",
+        "NT-001165",
+        "NT-001166",
+        "NT-001167",
+        "NT-001168",
+        "NT-001169",
+        "NT-001170"
+      ],
+      "accepted_ids": [
+        "NT-001161",
+        "NT-001162",
+        "NT-001163",
+        "NT-001164",
+        "NT-001165",
+        "NT-001166",
+        "NT-001167",
+        "NT-001168",
+        "NT-001169",
+        "NT-001170"
+      ],
+      "not_accepted": {}
+    },
+    "data/candidates/gpt6-excel-pilot02-20261021-0001.jsonl": {
+      "sha256": "52e2aa85b6743261bf653f1d50ced319d9d86fdccc9d5ad17880d4ed6cc67275",
+      "at": "2026-10-21T05:30:15.660785+00:00",
+      "state": "TOPIC_QA_APPLIED",
+      "research_branch": "research/gpt6-excel-pilot02-20261021",
+      "research_commit": "226aa10d854f35e963c365c757329cd1c68d7650",
+      "topic_ids": [
+        "NT-090004",
+        "NT-090005",
+        "NT-090006"
+      ],
+      "accepted_ids": [
+        "NT-090004",
+        "NT-090006"
+      ],
+      "not_accepted": {
+        "NT-090005": "RESEARCH"
+      }
+    },
+    "data/candidates/gpt6-excel-pilot03-20261021-0001.jsonl": {
+      "sha256": "586ba2472020e1b2c94c1b52e06ff95da622e04cb10ab3550a1f0884aaa69df2",
+      "at": "2026-10-21T05:52:43.865409+00:00",
+      "state": "TOPIC_QA_APPLIED",
+      "research_branch": "research/gpt6-excel-pilot03-20261021",
+      "research_commit": "21f30f2d8506a4f50f0a56a86302b1768988f172",
+      "topic_ids": [
+        "NT-090007",
+        "NT-090008",
+        "NT-090009"
+      ],
+      "accepted_ids": [
+        "NT-090009"
+      ],
+      "not_accepted": {
+        "NT-090007": "RESEARCH",
+        "NT-090008": "RESEARCH"
+      }
+    },
+    "data/candidates/gpt6-excel-pilot04-20261021-0001.jsonl": {
+      "sha256": "88e4536c9dec17866bfecff3eb01f07a271b4146bdc82f6a17fed8b5b0945ada",
+      "at": "2026-10-21T06:59:14.761926+00:00",
+      "state": "TOPIC_QA_APPLIED",
+      "research_branch": "research/gpt6-excel-pilot04-20261021",
+      "research_commit": "cd071ed5f5b26519732f7a160306f15b51d2b104",
+      "topic_ids": [
+        "NT-090010",
+        "NT-090011",
+        "NT-090012"
+      ],
+      "accepted_ids": [
+        "NT-090011",
+        "NT-090012"
+      ],
+      "not_accepted": {
+        "NT-090010": "REJECTED"
+      }
     }
   }
 }
