@@ -29093,6 +29093,25 @@
         "seo_description": "Chữa cháy pin xe máy điện bằng gì: Cục PCCC nêu bình gốc nước hoặc cát ẩm, một bài báo nêu CO2 và bột; các nguồn lệch nhau, điểm chung là gọi 114 và rời đi khi không dập nổi.",
         "checked_at": "2026-10-21T15:12:18.313624+00:00"
       }
+    },
+    "NT-001313": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-21T15:12:35.541646+00:00",
+      "source_hash": "9363dc862400ecb31cf163bb4787e0885239f091dbd37867c4d13a766ab571e9",
+      "slug": "sac-xe-dien-qua-day-noi-dai-dat-bike-neu-o-tu-2-000-w-vnexpress-neu-day-khoang-2-mm",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 167,
+      "visible_hash": "25c552cdb7b0850ab4be4431a870060323b495ba929d4df1e7cd8685d32f1ae8",
+      "first_paragraph": "Sạc xe điện qua dây nối dài là việc các nguồn đã đọc không cấm hẳn nhưng cũng không bảo đảm là an toàn: VnExpress ngày 09/07/2025 viết dây nối dài có thể dùng khi sạc xe máy điện nhưng không dùng ổ chia điện, bài VnExpress ngày 31/07/2025 nói cần hạn chế dùng dây nối và nếu phải dùng thì chọn dây tiết diện dày, thông thường khoảng 2 mm², còn mục hỏi đáp của Dat Bike nêu ổ cắm nối dài để sạc pin nên có công suất ít nhất 2.000 W. Cục Cảnh sát PCCC và CNCH, trong khuyến cáo ngày 05/06/2025, không nhắc tới dây nối dài. Các con số này đến từ ba loại nguồn khác nhau và không quy đổi được sang nhau.",
+      "meta_title": "Sạc xe điện qua dây nối dài: ổ từ 2.000 W hay dây khoảng 2 mm²?",
+      "meta_description": "Sạc xe điện qua dây nối dài: Dat Bike nêu ổ nối dài từ 2.000 W, VnExpress nêu dây khoảng 2 mm² và hạn chế dây nối; các trang lệch nhau, PCCC chưa nhắc dây nối dài.",
+      "intended_taxonomy_key": "battery-charging",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "81a82aa1136451c663884386ac8cf6a12a652ca1",
+      "run_id": "39622613046",
+      "updated_at": "2026-10-21T15:12:35.543767+00:00"
     }
   },
   "categories": {}
