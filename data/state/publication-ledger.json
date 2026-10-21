@@ -22872,7 +22872,7 @@
       }
     },
     "NT-001138": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T05:15:53.456336+00:00",
       "source_hash": "7554e7f9fed4c01dac072d046b72c737c7835c51a7139ee6678877922df31a91",
       "slug": "cau-vuot-nut-giao-trung-tam-long-bien-tu-20-10-den-15-12-2026-xe-may-xuong-duong-song-hanh-o-to-di-hai-chieu",
@@ -22888,8 +22888,37 @@
       "category_warning": null,
       "git_commit": "4022a17feb60320613408b0d829a96e6ba1aebaa",
       "run_id": "39548159025",
-      "updated_at": "2026-10-21T05:15:57.448749+00:00",
-      "wp_id": 4487
+      "updated_at": "2026-10-21T05:16:03.672199+00:00",
+      "wp_id": 4487,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cau-vuot-nut-giao-trung-tam-long-bien-tu-20-10-den-15-12-2026-xe-may-xuong-duong-song-hanh-o-to-di-hai-chieu/",
+      "verified_at": "2026-10-21T05:16:03.672193+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4487,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cau-vuot-nut-giao-trung-tam-long-bien-tu-20-10-den-15-12-2026-xe-may-xuong-duong-song-hanh-o-to-di-hai-chieu/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cau-vuot-nut-giao-trung-tam-long-bien-tu-20-10-den-15-12-2026-xe-may-xuong-duong-song-hanh-o-to-di-hai-chieu/",
+        "seo_title": "Cầu vượt nút giao trung tâm Long Biên: xe máy đi đường song hành",
+        "seo_description": "Cầu vượt nút giao trung tâm Long Biên sửa chữa từ 20/10 đến 15/12/2026: xe máy bị cấm lên cầu, đi đường song hành, ô tô hai chiều và lộ trình thay thế Sở Xây dựng nêu.",
+        "checked_at": "2026-10-21T05:16:03.672172+00:00"
+      }
     }
   },
   "categories": {}
