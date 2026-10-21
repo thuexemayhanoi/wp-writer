@@ -1,21 +1,21 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 4,
+  "ready_stock": 2,
   "trigger_below_ready": 900,
   "rounds_opened": 5,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 717,
-  "capacity_remaining": 1283,
+  "topic_rows": 719,
+  "capacity_remaining": 1281,
   "order": {
     "id": "RF-0005",
     "round": 5,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 21,
-    "remaining_to_min": 79,
-    "remaining_to_max": 179,
+    "accepted_so_far": 23,
+    "remaining_to_min": 77,
+    "remaining_to_max": 177,
     "batches_still_needed": 8,
     "batch_size": 10,
     "capacity_limited": false,
@@ -47,12 +47,6 @@
         "allocation": 57
       },
       {
-        "taxonomy_key": "green-travel",
-        "quota": 7,
-        "known_now": 9,
-        "allocation": 27
-      },
-      {
         "taxonomy_key": "rental-50cc",
         "quota": 7,
         "known_now": 4,
@@ -63,6 +57,12 @@
         "quota": 6,
         "known_now": 43,
         "allocation": 59
+      },
+      {
+        "taxonomy_key": "green-travel",
+        "quota": 6,
+        "known_now": 11,
+        "allocation": 27
       },
       {
         "taxonomy_key": "trip-planning",
@@ -119,16 +119,16 @@
         "allocation": 32
       },
       {
+        "taxonomy_key": "legal",
+        "quota": 2,
+        "known_now": 46,
+        "allocation": 50
+      },
+      {
         "taxonomy_key": "reviews",
         "quota": 2,
         "known_now": 54,
         "allocation": 59
-      },
-      {
-        "taxonomy_key": "legal",
-        "quota": 1,
-        "known_now": 46,
-        "allocation": 50
       }
     ],
     "next_batch_categories": {
@@ -144,9 +144,9 @@
   },
   "dedupe_universe": {
     "published_wordpress_items": 780,
-    "topics_in_factory": 717,
+    "topics_in_factory": 719,
     "topics_by_status": {
-      "PLANNED": 640,
+      "PLANNED": 642,
       "REJECTED": 2,
       "RESEARCH": 75
     },
