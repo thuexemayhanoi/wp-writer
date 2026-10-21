@@ -23117,7 +23117,7 @@
       }
     },
     "NT-001216": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-21T05:18:29.475951+00:00",
       "source_hash": "ac0f1befb75b6791dec63f5a8e1e594b2644a94a1b8a6d9ab8efe0fba6e2a17a",
       "slug": "qcvn-31-2026-bxd-ve-ac-quy-xe-may-dien-dien-ap-dung-luong-toi-thieu-va-sau-phep-thu-an-toan",
@@ -23133,8 +23133,37 @@
       "category_warning": null,
       "git_commit": "4022a17feb60320613408b0d829a96e6ba1aebaa",
       "run_id": "39548159025",
-      "updated_at": "2026-10-21T05:18:33.776932+00:00",
-      "wp_id": 4492
+      "updated_at": "2026-10-21T05:18:39.803448+00:00",
+      "wp_id": 4492,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/qcvn-31-2026-bxd-ve-ac-quy-xe-may-dien-dien-ap-dung-luong-toi-thieu-va-sau-phep-thu-an-toan/",
+      "verified_at": "2026-10-21T05:18:39.803441+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4492,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/qcvn-31-2026-bxd-ve-ac-quy-xe-may-dien-dien-ap-dung-luong-toi-thieu-va-sau-phep-thu-an-toan/",
+        "categories": [
+          157
+        ],
+        "canonical": "https://thuexemaynguyentu.com/qcvn-31-2026-bxd-ve-ac-quy-xe-may-dien-dien-ap-dung-luong-toi-thieu-va-sau-phep-thu-an-toan/",
+        "seo_title": "QCVN 31:2026/BXD về ắc quy xe máy điện: điện áp, dung lượng, phép thử",
+        "seo_description": "QCVN 31:2026/BXD về ắc quy xe máy điện, hiệu lực 09/10/2026: điện áp danh định, dung lượng C3 tối thiểu 90% hay 100%, sáu phép thử an toàn và phép nào không áp dụng cho chì axit.",
+        "checked_at": "2026-10-21T05:18:39.803424+00:00"
+      }
     }
   },
   "categories": {}
