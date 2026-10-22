@@ -1,21 +1,21 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 13,
+  "ready_stock": 2,
   "trigger_below_ready": 900,
   "rounds_opened": 6,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 808,
-  "capacity_remaining": 1192,
+  "topic_rows": 811,
+  "capacity_remaining": 1189,
   "order": {
     "id": "RF-0006",
     "round": 6,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 10,
-    "remaining_to_min": 90,
-    "remaining_to_max": 190,
+    "accepted_so_far": 13,
+    "remaining_to_min": 87,
+    "remaining_to_max": 187,
     "batches_still_needed": 9,
     "batch_size": 10,
     "capacity_limited": false,
@@ -24,7 +24,7 @@
     "category_quotas": [
       {
         "taxonomy_key": "rental-guide",
-        "quota": 17,
+        "quota": 18,
         "known_now": 13,
         "allocation": 46
       },
@@ -48,7 +48,7 @@
       },
       {
         "taxonomy_key": "electric",
-        "quota": 8,
+        "quota": 9,
         "known_now": 43,
         "allocation": 59
       },
@@ -69,12 +69,6 @@
         "quota": 5,
         "known_now": 14,
         "allocation": 23
-      },
-      {
-        "taxonomy_key": "driving-licence",
-        "quota": 4,
-        "known_now": 25,
-        "allocation": 32
       },
       {
         "taxonomy_key": "ebikes",
@@ -99,6 +93,12 @@
         "quota": 3,
         "known_now": 35,
         "allocation": 41
+      },
+      {
+        "taxonomy_key": "driving-licence",
+        "quota": 2,
+        "known_now": 28,
+        "allocation": 32
       },
       {
         "taxonomy_key": "legal",
@@ -126,10 +126,10 @@
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 866,
-    "topics_in_factory": 808,
+    "published_wordpress_items": 882,
+    "topics_in_factory": 811,
     "topics_by_status": {
-      "PLANNED": 729,
+      "PLANNED": 732,
       "REJECTED": 2,
       "RESEARCH": 77
     },
