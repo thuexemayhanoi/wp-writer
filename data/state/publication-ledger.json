@@ -40365,7 +40365,7 @@
       }
     },
     "NT-002150": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T20:48:55.110986+00:00",
       "source_hash": "9078d70faa66fcc149451b2538d3910cff0ebdb5169869535dfc2b8ee8989e42",
       "slug": "bong-ong-xa-xe-may-lam-mat-20-phut-bang-nuoc-sach-tranh-meo-va-khi-nao-di-kham",
@@ -40381,8 +40381,37 @@
       "category_warning": null,
       "git_commit": "0f8cdb64114b138c22d2759d2171fe3a2d74a25b",
       "run_id": "39850717154",
-      "updated_at": "2026-10-22T20:48:59.279204+00:00",
-      "wp_id": 5029
+      "updated_at": "2026-10-22T20:49:05.852916+00:00",
+      "wp_id": 5029,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bong-ong-xa-xe-may-lam-mat-20-phut-bang-nuoc-sach-tranh-meo-va-khi-nao-di-kham/",
+      "verified_at": "2026-10-22T20:49:05.852909+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 5029,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bong-ong-xa-xe-may-lam-mat-20-phut-bang-nuoc-sach-tranh-meo-va-khi-nao-di-kham/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bong-ong-xa-xe-may-lam-mat-20-phut-bang-nuoc-sach-tranh-meo-va-khi-nao-di-kham/",
+        "seo_title": "Bỏng ống xả xe máy: làm mát 20 phút bằng nước sạch, tránh mẹo, đi khám",
+        "seo_description": "Bỏng ống xả xe máy: NHS (Anh) nêu làm mát 20 phút bằng nước mát chảy, VnExpress 2012 nêu 15–20 phút; vì sao tránh mẹo dân gian và khi nào cần đến cơ sở y tế.",
+        "checked_at": "2026-10-22T20:49:05.852890+00:00"
+      }
     }
   },
   "categories": {}
