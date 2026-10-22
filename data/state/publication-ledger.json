@@ -35808,7 +35808,7 @@
       }
     },
     "NT-090080": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T11:53:28.894568+00:00",
       "source_hash": "88a6cd2df1a794385f36d31357320fc89aeb058dba097038adad0df39e80c0c1",
       "slug": "tram-sac-ngoai-troi-ngap-nuoc-thi-sao-qcvn-32-2026-bct-tu-1-7-2027-buoc-ngat-dien-thoat-nuoc",
@@ -35824,8 +35824,37 @@
       "category_warning": null,
       "git_commit": "e16c410d6631f60b180add791f595dbc82112771",
       "run_id": "39773469008",
-      "updated_at": "2026-10-22T11:53:33.219470+00:00",
-      "wp_id": 4826
+      "updated_at": "2026-10-22T11:53:39.281175+00:00",
+      "wp_id": 4826,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tram-sac-ngoai-troi-ngap-nuoc-thi-sao-qcvn-32-2026-bct-tu-1-7-2027-buoc-ngat-dien-thoat-nuoc/",
+      "verified_at": "2026-10-22T11:53:39.281168+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4826,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tram-sac-ngoai-troi-ngap-nuoc-thi-sao-qcvn-32-2026-bct-tu-1-7-2027-buoc-ngat-dien-thoat-nuoc/",
+        "categories": [
+          169
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tram-sac-ngoai-troi-ngap-nuoc-thi-sao-qcvn-32-2026-bct-tu-1-7-2027-buoc-ngat-dien-thoat-nuoc/",
+        "seo_title": "Trạm sạc ngoài trời ngập nước: QCVN 32:2026/BCT từ 1/7/2027 ngắt điện",
+        "seo_description": "Trạm sạc ngoài trời ngập nước theo QCVN 32:2026/BCT, hiệu lực 1/7/2027: ngắt điện, cô lập phần ngập, thoát nước chân trụ; chưa nêu cấp IP, VinFast dặn cân nhắc sạc khi mưa to.",
+        "checked_at": "2026-10-22T11:53:39.281150+00:00"
+      }
     }
   },
   "categories": {}
