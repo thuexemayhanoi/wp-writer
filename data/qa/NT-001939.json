@@ -1,0 +1,242 @@
+{
+  "topic_id": "NT-001939",
+  "status": "PASS",
+  "source_sha256": "0b8e87339149d51f2454b114362a34ab49ba4c8bb75db2c397afe2b2b2228b83",
+  "body_sha256": "00237d969c1cb446231374bee807b86575f062ebdbefa733b56c883ebe604897",
+  "word_count": 2597,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dantocphattrien.vietnamnet.vn/gieo-trong-khoang-400-ha-hoa-tam-giac-mach-cho-mua-le-hoi-2026-77349.html",
+      "supports": "VietNamNet (dantocphattrien.vietnamnet.vn), bài đăng 14:40 ngày 06/08/2026, đọc 22/10/2026: theo kế hoạch vừa được Ủy ban nhân dân tỉnh Tuyên Quang ban hành, lễ hội khai mạc 20 giờ ngày 6/11/2026 tại Quảng trường Thanh niên, xã Đồng Văn; hội chợ Việt - Trung 5 đến 11/11; không gian OCOP ở phố cổ Đồng Văn 3 đến 7/11; khoảng 400 ha gieo theo ba đợt, hoa nở từ tháng 10 đến hết tháng 12/2026; các điểm đến nổi tiếng.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotuyenquang.com.vn/xa-hoi/202610/gieo-trong-hon-240-ha-cay-tam-giac-mach-phuc-vu-le-hoi-cd75329/",
+      "supports": "Báo Tuyên Quang, bài đăng 11:04 ngày 01/10/2026, đọc 22/10/2026: toàn tỉnh gieo trồng hơn 240 ha tại 12/22 xã vùng Cao nguyên đá Đồng Văn; Đồng Văn 100 ha, Sà Phìn 50 ha, Lũng Cú 39,4 ha, Phố Bảng 18 ha, Quản Bạ 12 ha, Yên Minh 6,5 ha; một số diện tích trồng trà sớm đã nở hoa; lễ hội dự kiến khai mạc 20 giờ ngày 25-10 tại Quảng trường Thanh niên, xã Đồng Văn; hoạt động từ tháng 10 đến hết tháng 12.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/du-lich/lung-cu-san-sang-don-du-khach-mua-hoa-tam-giac-mach-272144.html",
+      "supports": "Báo Văn hóa, bài đăng ngày 07/10/2026, đọc 22/10/2026: xã Lũng Cú gieo trồng khoảng 70 ha hoa tam giác mạch tại 16 thôn, vùng trọng điểm là các thôn Thèn Pả, Lô Lô Chải, Sán Trồ, Ma Lé và Má Sồ; nhiều trà để hoa nở đến đầu tháng 12; toàn vùng Công viên địa chất khoảng 400 ha; lễ khai mạc lúc 20 giờ ngày 25.10 tại Quảng trường Thanh niên, xã Đồng Văn.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/tuyen-quang-trong-400ha-hoa-tam-giac-mach-moi-goi-du-khach-post1884881.tpo",
+      "supports": "Tiền Phong, bài đăng ngày 14/10/2026, đọc 22/10/2026: Ủy ban nhân dân tỉnh Tuyên Quang cho biết lễ hội diễn ra ngày 25/10 tại Quảng trường Thanh niên, xã Đồng Văn; khoảng 400 ha chia ba đợt, hoa nở từ tháng 10 đến tháng 12, tập trung vào tuần khai mạc; các điểm trồng hoa; chuỗi sự kiện dự kiến (23/10, 24 và 25/10, 31/10, hội chợ 5 đến 11/11, các hoạt động trong tháng 11).",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/tam-dung-tat-ca-cac-loai-xe-cho-khach-vao-lo-lo-chai-lung-cu-100261021172625746.htm",
+      "supports": "Tuổi Trẻ, bài đăng 17:37 ngày 21/10/2026, đọc 22/10/2026: Lễ hội hoa tam giác mạch tỉnh Tuyên Quang lần thứ 12 năm 2026 chính thức khai mạc vào 20h ngày 25-10 tại quảng trường Thanh niên, xã Đồng Văn với chủ đề Âm vang miền đá; xã Lũng Cú phân luồng giao thông từ ngày 15-10-2026 đến ngày 28-2-2027 (bài chỉ dùng hai thông tin này).",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/tam-dung-toan-bo-xe-cho-khach-vao-lo-lo-chai-5135470.html",
+      "supports": "VnExpress, bài đăng ngày 22/10/2026, đọc 22/10/2026: Lễ hội hoa tam giác mạch tỉnh Tuyên Quang lần thứ 12 khai mạc 20h ngày 25/10 tại quảng trường Thanh niên, xã Đồng Văn, với chủ đề Âm vang miền đá (bài chỉ dùng thông tin này).",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://dantocphattrien.vietnamnet.vn/gieo-trong-khoang-400-ha-hoa-tam-giac-mach-cho-mua-le-hoi-2026-77349.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotuyenquang.com.vn/xa-hoi/202610/gieo-trong-hon-240-ha-cay-tam-giac-mach-phuc-vu-le-hoi-cd75329/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/du-lich/lung-cu-san-sang-don-du-khach-mua-hoa-tam-giac-mach-272144.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/tuyen-quang-trong-400ha-hoa-tam-giac-mach-moi-goi-du-khach-post1884881.tpo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/tam-dung-tat-ca-cac-loai-xe-cho-khach-vao-lo-lo-chai-lung-cu-100261021172625746.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/tam-dung-toan-bo-xe-cho-khach-vao-lo-lo-chai-5135470.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2378,
+        "title": "Xe máy điện VinFast: các mẫu đáng chú ý và điểm khác biệt",
+        "why": "stale",
+        "content_hash": "37ef98f1fa6912ab03a40b59b7957c089abbadee5f0ea45c7e3fcf1b939d9074",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2415,
+        "title": "Honda ICON e: và Yamaha NEO's khác nhau ở điểm nào khi sử dụng?",
+        "why": "stale",
+        "content_hash": "46d798529e84be3408ca9645084bcb3ab939b77426292e48c1867fa9e8a729f8",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2453,
+        "title": "Honda SH Mode và Vision khác nhau thế nào về trải nghiệm sử dụng?",
+        "why": "stale",
+        "content_hash": "6d6ef8bf674caf2bb13b1743aa5f8d93dbbf026424b175bf3ccf09349bc82caf",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2485,
+        "title": "Honda Vision và Yamaha Grande khác nhau thế nào khi sử dụng?",
+        "why": "stale",
+        "content_hash": "9703b83fc962ecebe02b7b5ffd9c16749d3b18bd0a96a57af034e25e79a9fc7b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2498,
+        "title": "Khi nào cần tăng xích xe máy? Dấu hiệu dễ nhận biết khi sử dụng",
+        "why": "stale",
+        "content_hash": "cc66bddca00ff3ff900a51cce730848c80a7f0e8979caaf256eec12589620f67",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:06:16.627578+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "88cc7e1550e4fcde3508ef962553fc694a2a0a748652d7a11eff9272bfe31436",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
