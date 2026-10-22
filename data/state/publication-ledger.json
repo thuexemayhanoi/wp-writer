@@ -33897,7 +33897,7 @@
       }
     },
     "NT-001819": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T10:19:12.350679+00:00",
       "source_hash": "aee3c8938deacbe32c73ddbfe120af7820ac3e784dce0d3c0d051073efa5e513",
       "slug": "dong-ho-xe-may-hien-thi-gi-lcd-tft-hay-kim-bao-thay-nhot-muc-tieu-thu-xang-theo-trang-hang",
@@ -33913,8 +33913,37 @@
       "category_warning": null,
       "git_commit": "c68fcc7040146e10c410a150c67ad8d5d68737c5",
       "run_id": "39761284372",
-      "updated_at": "2026-10-22T10:19:16.516292+00:00",
-      "wp_id": 4787
+      "updated_at": "2026-10-22T10:19:22.911517+00:00",
+      "wp_id": 4787,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/dong-ho-xe-may-hien-thi-gi-lcd-tft-hay-kim-bao-thay-nhot-muc-tieu-thu-xang-theo-trang-hang/",
+      "verified_at": "2026-10-22T10:19:22.911510+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4787,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/dong-ho-xe-may-hien-thi-gi-lcd-tft-hay-kim-bao-thay-nhot-muc-tieu-thu-xang-theo-trang-hang/",
+        "categories": [
+          156
+        ],
+        "canonical": "https://thuexemaynguyentu.com/dong-ho-xe-may-hien-thi-gi-lcd-tft-hay-kim-bao-thay-nhot-muc-tieu-thu-xang-theo-trang-hang/",
+        "seo_title": "Đồng hồ xe máy hiển thị gì: LCD, TFT hay kim theo trang hãng",
+        "seo_description": "Đồng hồ xe máy hiển thị gì theo 22 trang Honda, Yamaha đọc 22/10/2026: LCD, TFT hay kim, báo thay nhớt, mức tiêu thụ xăng và thông báo điện thoại.",
+        "checked_at": "2026-10-22T10:19:22.911492+00:00"
+      }
     }
   },
   "categories": {}
