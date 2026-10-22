@@ -40267,7 +40267,7 @@
       }
     },
     "NT-002085": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T20:47:37.873275+00:00",
       "source_hash": "dc9ef1536bc46a71558364a47a8ec17ce58adfb58c055059853900c497ab1134",
       "slug": "gui-xe-may-o-van-mieu-trang-chinh-thuc-ghi-vuon-giam-cong-vao-58-quoc-tu-giam",
@@ -40283,8 +40283,37 @@
       "category_warning": null,
       "git_commit": "0f8cdb64114b138c22d2759d2171fe3a2d74a25b",
       "run_id": "39850717154",
-      "updated_at": "2026-10-22T20:47:42.605442+00:00",
-      "wp_id": 5027
+      "updated_at": "2026-10-22T20:47:49.055597+00:00",
+      "wp_id": 5027,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/gui-xe-may-o-van-mieu-trang-chinh-thuc-ghi-vuon-giam-cong-vao-58-quoc-tu-giam/",
+      "verified_at": "2026-10-22T20:47:49.055591+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 5027,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/gui-xe-may-o-van-mieu-trang-chinh-thuc-ghi-vuon-giam-cong-vao-58-quoc-tu-giam/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/gui-xe-may-o-van-mieu-trang-chinh-thuc-ghi-vuon-giam-cong-vao-58-quoc-tu-giam/",
+        "seo_title": "Gửi xe máy ở Văn Miếu: Vườn Giám, cổng vào 58 Quốc Tử Giám",
+        "seo_description": "Gửi xe máy ở Văn Miếu theo trang chính thức: bãi Vườn Giám, cổng vào 58 Quốc Tử Giám, lối ra đối diện 40 Tôn Đức Thắng, tuyến buýt, phương án Tết 2026 và điều chưa có nguồn.",
+        "checked_at": "2026-10-22T20:47:49.055570+00:00"
+      }
     }
   },
   "categories": {}
