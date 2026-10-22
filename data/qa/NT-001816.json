@@ -1,0 +1,562 @@
+{
+  "topic_id": "NT-001816",
+  "status": "PASS",
+  "source_sha256": "5f6008c1ea6dd38523b85546b4d3d1189b20ec134b0157434744ab0545ceb076",
+  "body_sha256": "71b0be119e10084a3403c9a900459c2a7d9aa09626a7fa1f4a6d817ac45a8ff9",
+  "word_count": 2360,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/future-125-fi?category=1",
+      "supports": "Trang Honda Việt Nam của Honda Future 125 FI (đọc 22/10/2026) nói về đèn: Cụm đèn pha với thiết kế nổi bật, được trang bị đèn LED cao cấp, có tuổi thọ cao, tiết kiệm năng lượng",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/air-blade-160125?category=2",
+      "supports": "Trang Honda Việt Nam của Honda Air Blade (đọc 22/10/2026) nói về đèn: Với công nghệ Ánh sáng Pha Lê mới trên hệ thống đèn LED, cường độ chiếu sáng của đèn pha được nâng cấp rõ rệt",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/sh-mode-125?category=2",
+      "supports": "Trang Honda Việt Nam của Honda SH Mode (đọc 22/10/2026) nói về đèn: Hệ thống đèn trước được trang bị công nghệ LED hiện đại",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-160?category=2",
+      "supports": "Trang Honda Việt Nam của Honda Vario 160 (đọc 22/10/2026) nói về đèn: Công nghệ LED được trang bị đồng bộ cho hệ thống đèn giúp tiết kiệm nhiên liệu và tăng độ nhận diện.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-125?category=2",
+      "supports": "Trang Honda Việt Nam của Honda Vario 125 (đọc 22/10/2026) nói về đèn: Đầu xe được thiết kế mới với hệ thống đèn LED chiếu sáng toàn diện",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/winner-r?category=3",
+      "supports": "Trang Honda Việt Nam của Honda Winner R (đọc 22/10/2026) nói về đèn: Hệ thống đèn chiếu sáng LED hiện đại với cụm đèn pha tích hợp với đèn xi nhan mới được thiết kế nhỏ gọn",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/lead-abs?category=2",
+      "supports": "Trang Honda Việt Nam của Honda LEAD (đọc 22/10/2026) nói về đèn: Ở phiên bản đặc biệt & cao cấp, cụm đèn LED 2 tầng đem đến giải pháp chiếu sáng hiệu quả",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?category=2",
+      "supports": "Trang Honda Việt Nam của Honda Vision (đọc 22/10/2026) nói về đèn: kết hợp cùng đèn trang trí LED và hệ thống đèn trước sử dụng thấu kính xám khói đầy mạnh mẽ",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110?category=1",
+      "supports": "Trang Honda Việt Nam của Honda Wave Alpha 110 (đọc 22/10/2026) nói về đèn: Chế độ đèn luôn sáng đảm bảo cho người sử dụng có tầm nhìn tốt nhất.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx?category=1",
+      "supports": "Trang Honda Việt Nam của Honda Wave RSX (đọc 22/10/2026) nói về đèn: Đèn chiếu sáng phía trước luôn bật sáng khi xe vận hành",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/freego-s-abs-phien-ban-dac-biet-mau-moi-b4uc/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha FreeGo S ABS (đọc 22/10/2026) nói về đèn: Đèn pha và đèn hậu sử dụng công nghệ LED hiện đại giúp chiếu sáng tối ưu trong môi trường đô thị.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Grande (đọc 22/10/2026) nói về đèn: Sự kết hợp độc đáo của cụm đèn chính mang dáng dấp một viên kim cương cùng dải đèn LED",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/lexi-155-vva-abs-phien-ban-cao-cap-moi-bvy4/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha LEXi 155 VVA-ABS (đọc 22/10/2026) nói về đèn: HỆ THỐNG CHIẾU SÁNG CÔNG NGHỆ LED - HIỆN ĐẠI VÀ THỂ THAO",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/nvx-155-phien-ban-gp-2025-d111-2/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha NVX 155 (đọc 22/10/2026) nói về đèn: Đèn LED trước Hệ thống đèn LED trước chiếu sáng mạnh, mang lại diện mạo cao cấp",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/nvx-155-phien-ban-gp-2025-d111-2/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha NVX 155 (đọc 22/10/2026) nói về đèn: Đèn trước LED/12V, 31.3W (Xa) 12V, 14.5W (Gần)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/gear-125-hybrid-phien-ban-cao-cap-df94/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Gear 125 Hybrid (đọc 22/10/2026) nói về đèn: Đèn trước/đèn sau LED Đèn sau Halogen",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/latte-phien-ban-tieu-chuan-mau-moi-2025-b0r7/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Latte (đọc 22/10/2026) nói về đèn: Cụm đèn halogen trước và sau giúp chiếu sáng tối ưu.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/latte-phien-ban-tieu-chuan-mau-moi-2025-b0r7/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Latte (đọc 22/10/2026) nói về đèn: Đèn trước HS1, 35.0 W/35.0 W",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-rc-phien-ban-vanh-duc-mau-moi-2025-bgyf-g/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Sirius RC (đọc 22/10/2026) nói về đèn: Đèn pha Halogen HS-1 công suất 35W kết hợp với cụm đèn xi nhan",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-rc-phien-ban-vanh-duc-mau-moi-2025-bgyf-g/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Sirius RC (đọc 22/10/2026) nói về đèn: Đèn trước Halogen 12V, 35W/35Wx1",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-phanh-co-mau-moi-2025-bsaf/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Sirius FI (đọc 22/10/2026) nói về đèn: Đèn trước 12V 35/35W Đèn trước/đèn sau 12V 10W (halogen) ×2 / 12V 10W (halogen) ×2",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Jupiter Finn (đọc 22/10/2026) nói về đèn: Đèn trước 12V 35W/35W",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Jupiter Finn (đọc 22/10/2026) nói về đèn: Cụm đèn trước luôn sáng khi vận hành xe.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-dac-biet-mau-moi-2025-bj7x-2/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Janus (đọc 22/10/2026) nói về đèn: Cụm đèn trước gây ấn tượng với đèn luôn sáng và thiết kế viền đèn xe mạ Chrome sáng bóng",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-monster-d199/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Exciter 155 VVA-TCS (đọc 22/10/2026) nói về đèn: kết hợp với đèn pha nhỏ gọn và có khả năng chiếu sáng rộng, cải thiện tầm quan sát ban đêm",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha PG-1 (đọc 22/10/2026) nói về đèn: Đầu đèn trước có kích thước lớn và được gắn gần khung sườn mang lại vẻ ngoài liền mạch.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/future-125-fi?category=1",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/air-blade-160125?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/sh-mode-125?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-160?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-125?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/winner-r?category=3",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/lead-abs?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110?category=1",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx?category=1",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/freego-s-abs-phien-ban-dac-biet-mau-moi-b4uc/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/lexi-155-vva-abs-phien-ban-cao-cap-moi-bvy4/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/nvx-155-phien-ban-gp-2025-d111-2/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/nvx-155-phien-ban-gp-2025-d111-2/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/gear-125-hybrid-phien-ban-cao-cap-df94/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/latte-phien-ban-tieu-chuan-mau-moi-2025-b0r7/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/latte-phien-ban-tieu-chuan-mau-moi-2025-b0r7/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-rc-phien-ban-vanh-duc-mau-moi-2025-bgyf-g/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-rc-phien-ban-vanh-duc-mau-moi-2025-bgyf-g/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-phanh-co-mau-moi-2025-bsaf/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-dac-biet-mau-moi-2025-bj7x-2/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-monster-d199/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 847,
+        "title": "Cho Thuê Xe Máy Long Biên Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "9684f98d9a0c12291e20219c3746186ca86448c363b1b1f457d7917ff7c90680",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2458,
+        "title": "Các dòng xe máy Yamaha: tổng hợp mẫu đáng chú ý tại Việt Nam",
+        "why": "stale",
+        "content_hash": "71b9706803d72159065f0491b44ef5886bbf30b4e2b5490efc3dc5486b8d9a1c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2538,
+        "title": "Bảo dưỡng xe máy Yamaha định kỳ: những hạng mục không nên bỏ qua",
+        "why": "stale",
+        "content_hash": "7ba921b8bab5c4d33595262c9663c3d0cda2779ce5193da515df1b4733f9a21f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2582,
+        "title": "Xe nào phù hợp chạy trong phố Hà Nội? Gợi ý theo từng nhu cầu",
+        "why": "stale",
+        "content_hash": "0f62d1c774af57a3c896ffd697700d31e6892614883dbc70f9970230ae26d134",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T10:10:54.031830+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "df99c860f67d5e9aa7ff090699eaac2b38f9f190a5d12c92248f67485c6d51fe",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

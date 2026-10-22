@@ -1,29 +1,17 @@
 {
-  "at": "2026-10-22T10:01:58.576256+00:00",
+  "at": "2026-10-22T10:12:01.057701+00:00",
   "counts": {
-    "WRITING": 15,
+    "WRITING": 16,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 701
+    "VERIFIED": 706
   },
   "ready_backlog": 0,
-  "in_flight": 18,
+  "in_flight": 19,
   "items": [
-    {
-      "topic_id": "NT-001635",
-      "state": "WRITING",
-      "reason": "leased to seodev-w77",
-      "title": "Đà Lạt mùa khô: mẹo dành cho khách lần đầu tự tổ chức chuyến đi",
-      "slot": "W3",
-      "session": "seodev-w77",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-001636",
       "state": "WRITING",
@@ -37,12 +25,12 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001691",
+      "topic_id": "NT-001662",
       "state": "WRITING",
-      "reason": "leased to seodev-w74",
-      "title": "Quan sát trước khi mở cửa xe: Điều 19 Luật 36/2024, mức phạt và tránh va xe máy",
-      "slot": "W8",
-      "session": "seodev-w74",
+      "reason": "leased to seodev-w80",
+      "title": "Du lịch hai ngày một đêm: xuất phát buổi sáng hay buổi chiều hợp lý hơn",
+      "slot": "W1",
+      "session": "seodev-w80",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -77,42 +65,6 @@
       "state": "WRITING",
       "reason": "leased to seodev-w77",
       "title": "Cấm đường để thi công ở Hà Nội: đọc thông báo phân luồng và chọn đường vòng",
-      "slot": "W3",
-      "session": "seodev-w77",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001813",
-      "state": "WRITING",
-      "reason": "leased to seodev-w75",
-      "title": "Xe số nào còn cần đạp nổ: Future, Wave RSX, Sirius, Jupiter ghi đạp chân, Wave Alpha chỉ ghi điện",
-      "slot": "W9",
-      "session": "seodev-w75",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001816",
-      "state": "WRITING",
-      "reason": "leased to seodev-w75",
-      "title": "Đèn pha LED hay halogen trên xe máy: trang Honda, Yamaha ghi mẫu nào dùng LED, mẫu nào halogen",
-      "slot": "W9",
-      "session": "seodev-w75",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001817",
-      "state": "WRITING",
-      "reason": "leased to seodev-w77",
-      "title": "Blue Core trên xe Yamaha: Latte, FreeGo, Janus có Blue Core, Grande và Gear thêm Hybrid",
       "slot": "W3",
       "session": "seodev-w77",
       "wp_id": null,
@@ -187,6 +139,66 @@
       "title": "Xe máy biển nước ngoài vào Việt Nam du lịch: xe dẫn đường, giấy tờ cần mang và thủ tục chấp thuận",
       "slot": "W4",
       "session": "seodev-w78",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-090024",
+      "state": "WRITING",
+      "reason": "leased to seodev-w80",
+      "title": "Xe đạp điện Bosch báo lỗi 503, 504: khe nam châm cảm biến tốc độ 2–8 mm hay 5–17 mm?",
+      "slot": "W1",
+      "session": "seodev-w80",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-090181",
+      "state": "WRITING",
+      "reason": "leased to seodev-w80",
+      "title": "Nhóm bạn thuê xe máy: một người đứng tên hay cùng ký, Điều 287 và 288 Bộ luật Dân sự nói gì?",
+      "slot": "W1",
+      "session": "seodev-w80",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-090269",
+      "state": "WRITING",
+      "reason": "leased to seodev-w80",
+      "title": "Du lịch bằng xe đạp điện thải bao nhiêu CO2 mỗi km: lưới điện 0,6187 tCO2/MWh, pin 640 Wh",
+      "slot": "W1",
+      "session": "seodev-w80",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-090368",
+      "state": "WRITING",
+      "reason": "leased to seodev-w80",
+      "title": "Trạm sạc công cộng không được cản lối thoát nạn, xe chữa cháy, người đi bộ: QCVN 32:2026/BCT",
+      "slot": "W1",
+      "session": "seodev-w80",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-090527",
+      "state": "WRITING",
+      "reason": "leased to seodev-w80",
+      "title": "Dây nguồn bộ sạc xe điện sờn thì dùng tiếp được không? VinFast, Bosch và Shimano dặn ngừng dùng",
+      "slot": "W1",
+      "session": "seodev-w80",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -8041,6 +8053,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001635",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đà Lạt mùa khô: mẹo dành cho khách lần đầu tự tổ chức chuyến đi",
+      "slot": "W3",
+      "session": "seodev-w77",
+      "wp_id": 4777,
+      "url": "https://thuexemaynguyentu.com/da-lat-mua-kho-meo-danh-cho-khach-lan-dau-tu-to-chuc-chuyen-di/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001637",
       "state": "VERIFIED",
       "reason": "publish",
@@ -8073,6 +8097,18 @@
       "session": "s-claude-df7eb8c1-20261022",
       "wp_id": 4771,
       "url": "https://thuexemaynguyentu.com/du-tru-phi-phat-sinh-nhung-khoan-nguoi-di-du-lich-tu-tuc-lan-dau-hay-bo-sot/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001691",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Quan sát trước khi mở cửa xe: Điều 19 Luật 36/2024, mức phạt và tránh va xe máy",
+      "slot": "W8",
+      "session": "seodev-w74",
+      "wp_id": 4778,
+      "url": "https://thuexemaynguyentu.com/quan-sat-truoc-khi-mo-cua-xe-dieu-19-luat-36-2024-muc-phat-va-tranh-va-xe-may/",
       "qa_status": "PASS",
       "seo_score": 100
     },
@@ -8233,6 +8269,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001813",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe số nào còn cần đạp nổ: Future, Wave RSX, Sirius, Jupiter ghi đạp chân, Wave Alpha chỉ ghi điện",
+      "slot": "W9",
+      "session": "seodev-w75",
+      "wp_id": 4779,
+      "url": "https://thuexemaynguyentu.com/xe-so-nao-con-can-dap-no-future-wave-rsx-sirius-jupiter-ghi-dap-chan-wave-alpha-chi-ghi-dien/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001814",
       "state": "VERIFIED",
       "reason": "publish",
@@ -8253,6 +8301,30 @@
       "session": "seodev-w75",
       "wp_id": 4721,
       "url": "https://thuexemaynguyentu.com/co-lop-xe-so-xe-ga-honda-yamaha-lop-truoc-lop-sau-va-loai-co-sam-hay-khong-sam-theo-trang-hang/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001816",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đèn pha LED hay halogen trên xe máy: trang Honda, Yamaha ghi mẫu nào dùng LED, mẫu nào halogen",
+      "slot": "W9",
+      "session": "seodev-w75",
+      "wp_id": 4780,
+      "url": "https://thuexemaynguyentu.com/den-pha-led-hay-halogen-tren-xe-may-trang-honda-yamaha-ghi-mau-nao-dung-led-mau-nao-halogen/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001817",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Blue Core trên xe Yamaha: Latte, FreeGo, Janus có Blue Core, Grande và Gear thêm Hybrid",
+      "slot": "W3",
+      "session": "seodev-w77",
+      "wp_id": 4781,
+      "url": "https://thuexemaynguyentu.com/blue-core-tren-xe-yamaha-latte-freego-janus-co-blue-core-grande-va-gear-them-hybrid/",
       "qa_status": "PASS",
       "seo_score": 100
     },

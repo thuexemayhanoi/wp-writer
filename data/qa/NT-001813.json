@@ -1,0 +1,649 @@
+{
+  "topic_id": "NT-001813",
+  "status": "PASS",
+  "source_sha256": "c3ed4141978c8108f774287a07b01b0cfccd6462a07209760c5f609d47a72607",
+  "body_sha256": "98dad3b3b45b779fcba551d942ea884218355c038a0068afef05b99bdcad8343",
+  "word_count": 2019,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110?category=1",
+      "supports": "Trang Honda Việt Nam của Honda Wave Alpha 110 (đọc 22/10/2026) ghi dòng hệ thống khởi động: trang chỉ ghi \"Điện\" ở dòng hệ thống khởi động; không nhắc cần đạp (trang không nhắc ≠ xe không có)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx?category=1",
+      "supports": "Trang Honda Việt Nam của Honda Wave RSX (đọc 22/10/2026) ghi dòng hệ thống khởi động: trang ghi \"Đạp chân/Điện\"",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/future-125-fi?category=1",
+      "supports": "Trang Honda Việt Nam của Honda Future 125 FI (đọc 22/10/2026) ghi dòng hệ thống khởi động: trang ghi \"Đạp chân / Điện\"",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/winner-r?category=3",
+      "supports": "Trang Honda Việt Nam của Honda Winner R (đọc 22/10/2026) ghi dòng hệ thống khởi động: trang chỉ ghi \"Điện\"",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-phanh-co-mau-moi-2025-bsaf/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Sirius FI (đọc 22/10/2026) ghi dòng hệ thống khởi động: trang ghi \"Điện và Cần đạp\"",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-rc-phien-ban-vanh-duc-mau-moi-2025-bgyf-g/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Sirius RC (đọc 22/10/2026) ghi dòng hệ thống khởi động: trang ghi \"Điện / Cần khởi động\"",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Jupiter Finn (đọc 22/10/2026) ghi dòng hệ thống khởi động: trang ghi \"Điện và cần đạp\"",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha PG-1 (đọc 22/10/2026) ghi dòng hệ thống khởi động: trang chỉ ghi \"Khởi động điện\"",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-monster-d199/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Exciter 155 VVA-TCS (đọc 22/10/2026) ghi dòng hệ thống khởi động: trang chỉ ghi \"Khởi động điện\"",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?category=2",
+      "supports": "Trang Honda Việt Nam của Honda Vision (đọc 22/10/2026) ghi dòng hệ thống khởi động: trang ghi \"Điện\"",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/lead-abs?category=2",
+      "supports": "Trang Honda Việt Nam của Honda LEAD (đọc 22/10/2026) ghi dòng hệ thống khởi động: trang ghi \"Khởi động điện\"",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Grande (đọc 22/10/2026) ghi dòng hệ thống khởi động: trang ghi \"Khởi động điện\"",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/air-blade-160125?category=2",
+      "supports": "Trang Honda Việt Nam của Honda Air Blade (đọc 22/10/2026) ghi dòng hệ thống khởi động là Điện",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/sh-mode-125?category=2",
+      "supports": "Trang Honda Việt Nam của Honda SH Mode (đọc 22/10/2026) ghi dòng hệ thống khởi động là Bộ khởi động điện",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-125?category=2",
+      "supports": "Trang Honda Việt Nam của Honda Vario 125 (đọc 22/10/2026) ghi dòng hệ thống khởi động là Điện",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-160?category=2",
+      "supports": "Trang Honda Việt Nam của Honda Vario 160 (đọc 22/10/2026) ghi dòng hệ thống khởi động là Điện",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-dac-biet-mau-moi-2025-bj7x-2/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Janus (đọc 22/10/2026) ghi dòng hệ thống khởi động là Điện",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/freego-s-abs-phien-ban-dac-biet-mau-moi-b4uc/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha FreeGo S ABS (đọc 22/10/2026) ghi dòng hệ thống khởi động là Điện",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/gear-125-hybrid-phien-ban-cao-cap-df94/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Gear 125 Hybrid (đọc 22/10/2026) ghi dòng hệ thống khởi động là Điện",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/latte-phien-ban-tieu-chuan-mau-moi-2025-b0r7/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Latte (đọc 22/10/2026) ghi dòng hệ thống khởi động là Khởi động điện",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/lexi-155-vva-abs-phien-ban-cao-cap-moi-bvy4/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha LEXi 155 VVA-ABS (đọc 22/10/2026) ghi dòng hệ thống khởi động là Khởi động điện",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/nvx-155-phien-ban-gp-2025-d111-2/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha NVX 155 (đọc 22/10/2026) ghi dòng hệ thống khởi động là Khởi động điện",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110?category=1",
+      "supports": "Trang Honda Việt Nam của Honda Wave Alpha 110 (đọc 22/10/2026) ghi dòng loại truyền động: Cơ khí, 4 số tròn",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx?category=1",
+      "supports": "Trang Honda Việt Nam của Honda Wave RSX (đọc 22/10/2026) ghi dòng hộp số: Cơ khí, 4 số vòng",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/future-125-fi?category=1",
+      "supports": "Trang Honda Việt Nam của Honda Future 125 FI (đọc 22/10/2026) ghi dòng hộp số: 4 số tròn",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-phanh-co-mau-moi-2025-bsaf/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Sirius FI (đọc 22/10/2026) ghi kiểu hệ thống truyền lực: 4 số dạng quay vòng",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-rc-phien-ban-vanh-duc-mau-moi-2025-bgyf-g/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Sirius RC (đọc 22/10/2026) ghi kiểu hệ thống truyền lực: 4 số tròn",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-rc-phien-ban-vanh-duc-mau-moi-2025-bgyf-g/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Sirius RC (đọc 22/10/2026) nói xe hiện có 3 phiên bản (phanh cơ, phanh đĩa, vành đúc), trong khi bảng thông số chỉ hiển thị một phiên bản",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Jupiter Finn (đọc 22/10/2026) ghi kiểu hệ thống truyền lực: 4 số dạng quay vòng",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-monster-d199/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Exciter 155 VVA TCS (đọc 22/10/2026) ghi kiểu hệ thống truyền lực: Cơ khí, 6 cấp",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha PG-1 ABS (đọc 22/10/2026) ghi kiểu hệ thống truyền lực: Truyền động xích, chuyển số bằng chân",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/winner-r?category=3",
+      "supports": "Trang Honda Việt Nam của Honda Winner R (đọc 22/10/2026) mô tả khối động cơ 150cc, DOHC, 4 van, 6 cấp số",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110?category=1",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx?category=1",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/future-125-fi?category=1",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/winner-r?category=3",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-phanh-co-mau-moi-2025-bsaf/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-rc-phien-ban-vanh-duc-mau-moi-2025-bgyf-g/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-monster-d199/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/lead-abs?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/air-blade-160125?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/sh-mode-125?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-125?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-160?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-dac-biet-mau-moi-2025-bj7x-2/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/freego-s-abs-phien-ban-dac-biet-mau-moi-b4uc/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/gear-125-hybrid-phien-ban-cao-cap-df94/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/latte-phien-ban-tieu-chuan-mau-moi-2025-b0r7/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/lexi-155-vva-abs-phien-ban-cao-cap-moi-bvy4/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/nvx-155-phien-ban-gp-2025-d111-2/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110?category=1",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx?category=1",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/future-125-fi?category=1",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-phanh-co-mau-moi-2025-bsaf/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-rc-phien-ban-vanh-duc-mau-moi-2025-bgyf-g/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-rc-phien-ban-vanh-duc-mau-moi-2025-bgyf-g/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-monster-d199/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/winner-r?category=3",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2451,
+        "title": "Honda Future 125 FI có gì nổi bật cho nhu cầu đi lại hằng ngày?",
+        "why": "stale",
+        "content_hash": "ec0dfcf53d86e9248f1ec80d5341fbaed52bf60b116dcd54d4b6e981969b645f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2471,
+        "title": "Yamaha Jupiter Finn có gì đáng chú ý với người dùng xe số phổ thông?",
+        "why": "stale",
+        "content_hash": "8ab9f23c6911f4561c55993f7c52b6e694c4d89245c73dcd661a0d9bc0f5db62",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4048,
+        "title": "Thuê xe máy Hà Nội khi xe cá nhân đang sửa: chọn kỳ thuê và gia hạn nếu gara trễ",
+        "why": "stale",
+        "content_hash": "5eaf7d3b4d760f2a4ab0df94807fe114a8927ceb0af3b0ea5d1d59453a46f20d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4053,
+        "title": "Thuê xe máy Hà Nội đi công tác 3–5 ngày: chọn xe, dự trù chi phí và sắp lịch trả",
+        "why": "stale",
+        "content_hash": "10253f4071ea9522162e7b5ec6b75dfc3be0638bd9a1598e0136485ddfd9dbec",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T10:10:25.159620+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "2e1ccddd4504507158b3cfb2c4aff592310e630b85443379997768d22a99d334",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

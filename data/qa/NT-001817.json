@@ -1,0 +1,297 @@
+{
+  "topic_id": "NT-001817",
+  "status": "PASS",
+  "source_sha256": "663b2d91b757560021767f65c085188d9fd541c1cbb689cf9648ec1bbea9daa1",
+  "body_sha256": "44025e035bc20bcf4897713bc1794ea4cf18bbbcd1b9ce8db339375dc31ac863",
+  "word_count": 2191,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://yamaha-motor.com.vn/cong-nghe/bluecore/",
+      "supports": "Trang Yamaha Motor Việt Nam (đọc 22/10/2026): Trang Công nghệ Blue Core của Yamaha: động cơ Blue Core (làm mát bằng không khí hay bằng dung dịch) được thiết kế để tối ưu khả năng làm mát; kèm FI (phun xăng điện tử), xy-lanh DiASil và piston dập trong mục công nghệ",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/latte-phien-ban-tieu-chuan-mau-moi-2025-b0r7/",
+      "supports": "Trang Yamaha Motor Việt Nam (đọc 22/10/2026): Latte: \"động cơ Blue Core 125cc\"; bảng thông số ghi loại động cơ \"Blue Core, 2 van, 4 kỳ, SOHC, Làm mát bằng không khí cưỡng bức\"",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/freego-s-abs-phien-ban-dac-biet-mau-moi-b4uc/",
+      "supports": "Trang Yamaha Motor Việt Nam (đọc 22/10/2026): FreeGo: \"động cơ Blue Core 125cc, xy-lanh đơn 4 thì, 2 van làm mát bằng không khí\"; trang nêu thêm bộ phát điện thông minh (Smart Motor Generator) giúp khởi động mượt",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-dac-biet-mau-moi-2025-bj7x-2/",
+      "supports": "Trang Yamaha Motor Việt Nam (đọc 22/10/2026): Janus: trang mô tả \"động cơ Bluecore\", mức tiêu thụ 1,98 lít/100km; riêng bảng thông số chỉ ghi \"Xăng 4 kỳ, làm mát bằng không khí\" (không có chữ Blue Core)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+      "supports": "Trang Yamaha Motor Việt Nam (đọc 22/10/2026): Grande: \"động cơ Blue Core Hybrid 125 phân khối\" và hệ thống trợ lực điện (Hybrid) kích hoạt tối đa 3 giây sau khi xe lăn bánh",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/gear-125-hybrid-phien-ban-cao-cap-df94/",
+      "supports": "Trang Yamaha Motor Việt Nam (đọc 22/10/2026): Gear 125 Hybrid: \"động cơ Blue Core Hybrid 125cc\" và trợ lực điện trong tối đa 3 giây kể từ khi khởi động; bảng ghi động cơ \"Yamaha E36HE, xăng, 4 kỳ, 1 xi lanh, làm mát bằng không khí\"",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/nvx-155-phien-ban-gp-2025-d111-2/",
+      "supports": "Trang Yamaha Motor Việt Nam (đọc 22/10/2026): NVX 155: bảng ghi loại động cơ làm mát bằng chất lỏng; trang gọi công nghệ YECVT, không dùng chữ Blue Core trong phần đã đọc",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/lexi-155-vva-abs-phien-ban-cao-cap-moi-bvy4/",
+      "supports": "Trang Yamaha Motor Việt Nam (đọc 22/10/2026): Lexi 155: động cơ xăng 4 kỳ làm mát bằng chất lỏng; phần đã đọc không dùng chữ Blue Core",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-monster-d199/",
+      "supports": "Trang Yamaha Motor Việt Nam (đọc 22/10/2026): Exciter 155 VVA-TCS: động cơ 155cc làm mát bằng chất lỏng tích hợp VVA (van biến thiên); phần đã đọc không dùng chữ Blue Core",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-phanh-co-mau-moi-2025-bsaf/",
+      "supports": "Trang Yamaha Motor Việt Nam (đọc 22/10/2026): Sirius FI: động cơ 4 thì, 2 van, SOHC, làm mát bằng không khí; phần đã đọc không dùng chữ Blue Core",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://yamaha-motor.com.vn/cong-nghe/bluecore/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/latte-phien-ban-tieu-chuan-mau-moi-2025-b0r7/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/freego-s-abs-phien-ban-dac-biet-mau-moi-b4uc/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-dac-biet-mau-moi-2025-bj7x-2/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/gear-125-hybrid-phien-ban-cao-cap-df94/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/nvx-155-phien-ban-gp-2025-d111-2/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/lexi-155-vva-abs-phien-ban-cao-cap-moi-bvy4/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-monster-d199/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-phanh-co-mau-moi-2025-bsaf/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2485,
+        "title": "Honda Vision và Yamaha Grande khác nhau thế nào khi sử dụng?",
+        "why": "stale",
+        "content_hash": "9703b83fc962ecebe02b7b5ffd9c16749d3b18bd0a96a57af034e25e79a9fc7b",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2550,
+        "title": "Thủ tục sang tên xe máy cũ gồm những bước nào theo quy định hiện nay?",
+        "why": "stale",
+        "content_hash": "bbb2cdb8032f56b92d9bccf003c045dc66a520285ee21afc89e36f956c1cf093",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2630,
+        "title": "Chùa Trấn Quốc Hà Nội: Lịch sử, giờ mở cửa và kinh nghiệm tham quan",
+        "why": "stale",
+        "content_hash": "1cedf563cfdadc1e4b3bafa07d97d0868a00d865df06edb4c401019a91229635",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4048,
+        "title": "Thuê xe máy Hà Nội khi xe cá nhân đang sửa: chọn kỳ thuê và gia hạn nếu gara trễ",
+        "why": "stale",
+        "content_hash": "5eaf7d3b4d760f2a4ab0df94807fe114a8927ceb0af3b0ea5d1d59453a46f20d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T10:11:37.790698+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "e1ba7ef40c766ff82e4bb326543f985829c8198e32557873f2d4ec7970cbb112",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
