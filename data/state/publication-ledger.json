@@ -29779,6 +29779,25 @@
         "seo_description": "Bảo hành xe điện Pega theo trang của hãng: động cơ, khung 36 tháng, pin ắc quy 12 tháng, điều kiện phớt động cơ hằng năm, rửa xe và việc cần hỏi đại lý.",
         "checked_at": "2026-10-22T03:44:31.077983+00:00"
       }
+    },
+    "NT-001453": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T03:48:25.636204+00:00",
+      "source_hash": "7b95d9bb298930b761d4d45f1a535ddee0ee03ec90422e8379b5d66cd93cfb78",
+      "slug": "xe-dap-dien-dung-pin-lithium-doi-chieu-nhan-ul-2849-ul-2271-voi-thong-tin-hang",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 166,
+      "visible_hash": "146cd0717bac055e178bc322d52f2b3c08774c95787c63f419db06236920d082",
+      "first_paragraph": "Xe đạp điện dùng pin lithium có thể được hãng nhắc tới hai tên chuẩn UL 2849 và UL 2271, và theo UL Solutions hai tên này nói về hai đối tượng khác nhau: UL 2849 là chuẩn hệ thống điện của cả chiếc xe (hệ truyền động điện, hệ pin và hệ sạc được xét cùng nhau), còn UL 2271 là chuẩn cho bộ pin của phương tiện điện nhẹ. Việc một trang hãng nhắc tên chuẩn chưa phải là giấy chứng nhận: UL nhấn mạnh rằng \"tested to a standard\" (thử theo một tiêu chuẩn) không phải là tuân thủ hay chứng nhận, và muốn đối chiếu thì cần số chứng nhận cùng công cụ tra của đơn vị cấp.",
+      "meta_title": "Xe đạp điện dùng pin lithium: nhãn UL 2849, UL 2271 nghĩa là gì?",
+      "meta_description": "Xe đạp điện dùng pin lithium nhắc UL 2849, UL 2271: UL mô tả hai chuẩn này xét xe hay pin, vì sao thử theo chuẩn chưa là chứng nhận và cách đối chiếu thông tin hãng.",
+      "intended_taxonomy_key": "ebikes",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "4088a3633258e497a21f5d954f4ae6fbebc616d4",
+      "run_id": "39718326411",
+      "updated_at": "2026-10-22T03:48:25.637536+00:00"
     }
   },
   "categories": {}
