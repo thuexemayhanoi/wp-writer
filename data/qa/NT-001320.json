@@ -1,0 +1,185 @@
+{
+  "topic_id": "NT-001320",
+  "status": "PASS",
+  "source_sha256": "19a17a55eed9d8c0e9bf26d535ccb24f16e133a17825f34e1f9454649adb549e",
+  "body_sha256": "d4761e538060db4c94e4029e26d0d00fac01df8fc45cfa148266726405760115",
+  "word_count": 2485,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://pega.com.vn/bao-hanh.html",
+      "supports": "Trang bảo hành Pega nêu thời hạn theo bộ phận (động cơ 36 tháng, pin ắc quy 12 tháng...), các lỗi loại trừ và điều kiện kiểm tra phớt động cơ hằng năm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pega.com.vn/bao-hanh.html",
+      "supports": "Trang bảo hành Pega nêu mốc đổi mới 3 tháng với động cơ Pega-HKbike và 12 tháng với động cơ Bosch khi có lỗi kỹ thuật.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pega.com.vn/huong-dan-su-dung.html",
+      "supports": "Trang hướng dẫn sử dụng Pega nêu chu kỳ tra dầu dây phanh mỗi tháng, thay mỡ trục 6 tháng và bôi dầu xích mỗi tháng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://pega.com.vn/bao-hanh.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pega.com.vn/bao-hanh.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pega.com.vn/huong-dan-su-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2349,
+        "title": "Xe máy điện giá bao nhiêu? Các nhóm giá phổ biến hiện nay",
+        "why": "stale",
+        "content_hash": "7cbacf7f21600cfcf6443eefa80b95d210de98f76fea5ef8dade3a018e9a3e6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2370,
+        "title": "Chi Phí Đi Xe Máy Điện Mỗi Tháng So Với Xe Máy Xăng Phổ Thông: Bài Toán Chi Tiết Từ Người Dùng Thực Tế",
+        "why": "stale",
+        "content_hash": "92d045593ec18a74d2c912be44adc4f392b4b025734668676528c637f6ed0b2d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2437,
+        "title": "Các dòng xe máy Honda: tổng hợp mẫu phổ biến tại Việt Nam",
+        "why": "stale",
+        "content_hash": "5cff2a6706b84439a61843ab51b848da33a40d9c155c5eb687076b40c694e51f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4046,
+        "title": "Nhận xe máy thuê tại homestay Hà Nội không có lễ tân: hẹn giao, kiểm tra và trả xe",
+        "why": "stale",
+        "content_hash": "408ee1c935cbed2cc7b830b85734e14e93e1a4c5ee2cc36d01097733e2853eb2",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T03:44:17.057430+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "a114f2161fd2417aed93887d1751a76159c067bfc3319cfa115fa527f803d884",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

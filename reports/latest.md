@@ -4,34 +4,34 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-22T03:25:42.159759+00:00 |
+| at | 2026-10-22T03:44:39.054548+00:00 |
 | existing_published_posts | 779 |
 | existing_pages | 10 |
 | existing_products | 13 |
 | candidate_topics | 725 |
 | planned_topics | 648 |
-| claimable_topics | 22 |
-| ready_stock | 16 |
-| stock_stages | {'IDEA': 300, 'RESEARCH': 75, 'REJECTED': 2, 'PLANNED': 16, 'PLANNED_HOLD': 3, 'CLAIMED': 0, 'AUTHORED': 3, 'QA_PASS': 0, 'PUBLISHED': 626, 'WP_DRAFT': 0} |
+| claimable_topics | 12 |
+| ready_stock | 6 |
+| stock_stages | {'IDEA': 300, 'RESEARCH': 75, 'REJECTED': 2, 'PLANNED': 6, 'PLANNED_HOLD': 3, 'CLAIMED': 9, 'AUTHORED': 3, 'QA_PASS': 0, 'PUBLISHED': 627, 'WP_DRAFT': 0} |
 | needs_research | True |
-| research_shortfall | 884 |
+| research_shortfall | 894 |
 | refill_trigger_below_ready | 900 |
 | refill_round_target | 100-200 |
 | refill_state | REFILL_IN_PROGRESS |
 | refill_order | RF-0005 |
 | refill_accepted_so_far | 29 |
-| writing | 3 |
-| draft_authored | 626 |
-| qa_pass | 623 |
+| writing | 13 |
+| draft_authored | 627 |
+| qa_pass | 624 |
 | qa_fail | 3 |
 | qa_review | 0 |
 | repair_queue | 3 |
 | held_by_class | {'REAL_RISK': 3} |
-| g7_pass | 601 |
+| g7_pass | 602 |
 | g7_not_recorded | 25 |
 | wordpress_draft | 0 |
-| wordpress_published | 626 |
-| verified_public | 626 |
+| wordpress_published | 627 |
+| verified_public | 627 |
 | indexed | None |
 | topic_collisions | 2 |
 | category_mapping_errors | 0 |
@@ -43,12 +43,12 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | delivery_mode | production |
 | production_enabled | True |
 | draft_staging_enabled | False |
-| qa_pass_live_checked | 282 |
+| qa_pass_live_checked | 283 |
 | qa_pass_awaiting_wordpress | 0 |
 | queued_topic_ids | [] |
 | pending_wordpress_intents | [] |
 | blocked_writer_sessions | [] |
-| last_wordpress_verified_at | 2026-10-21T19:41:43.936205+00:00 |
+| last_wordpress_verified_at | 2026-10-22T03:44:31.078004+00:00 |
 | capacity | 10000 |
 | authenticated_inventory | True |
 | test_drafts_excluded | 2 |
