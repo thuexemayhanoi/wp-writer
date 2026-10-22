@@ -6,17 +6,17 @@
   "rounds_opened": 6,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 876,
-  "capacity_remaining": 1124,
+  "topic_rows": 886,
+  "capacity_remaining": 1114,
   "order": {
     "id": "RF-0006",
     "round": 6,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 78,
-    "remaining_to_min": 22,
-    "remaining_to_max": 122,
-    "batches_still_needed": 3,
+    "accepted_so_far": 88,
+    "remaining_to_min": 12,
+    "remaining_to_max": 112,
+    "batches_still_needed": 2,
     "batch_size": 10,
     "capacity_limited": false,
     "stalled": false,
@@ -24,44 +24,44 @@
     "category_quotas": [
       {
         "taxonomy_key": "rental-guide",
-        "quota": 20,
-        "known_now": 15,
+        "quota": 19,
+        "known_now": 17,
         "allocation": 46
       },
       {
         "taxonomy_key": "urban-mobility",
-        "quota": 14,
-        "known_now": 69,
+        "quota": 15,
+        "known_now": 70,
         "allocation": 92
       },
       {
         "taxonomy_key": "electric-transition",
         "quota": 12,
-        "known_now": 22,
+        "known_now": 23,
         "allocation": 41
       },
       {
         "taxonomy_key": "electric",
-        "quota": 9,
-        "known_now": 44,
+        "quota": 10,
+        "known_now": 45,
         "allocation": 59
       },
       {
         "taxonomy_key": "battery-charging",
         "quota": 8,
-        "known_now": 44,
+        "known_now": 45,
         "allocation": 57
       },
       {
         "taxonomy_key": "rental-50cc",
-        "quota": 8,
-        "known_now": 11,
+        "quota": 7,
+        "known_now": 12,
         "allocation": 23
       },
       {
         "taxonomy_key": "green-travel",
         "quota": 6,
-        "known_now": 17,
+        "known_now": 18,
         "allocation": 27
       },
       {
@@ -79,7 +79,7 @@
       {
         "taxonomy_key": "ebikes",
         "quota": 4,
-        "known_now": 25,
+        "known_now": 26,
         "allocation": 32
       },
       {
@@ -110,19 +110,19 @@
     "next_batch_categories": {
       "rental-guide": 2,
       "urban-mobility": 2,
-      "battery-charging": 1,
       "electric": 1,
       "electric-maintenance": 1,
       "electric-transition": 1,
       "rental-50cc": 1,
+      "rental-costs": 1,
       "trip-planning": 1
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 893,
-    "topics_in_factory": 876,
+    "published_wordpress_items": 898,
+    "topics_in_factory": 886,
     "topics_by_status": {
-      "PLANNED": 797,
+      "PLANNED": 807,
       "REJECTED": 2,
       "RESEARCH": 77
     },
