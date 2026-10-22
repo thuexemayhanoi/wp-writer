@@ -32572,6 +32572,25 @@
         "seo_description": "Màn hình HMI xe đạp điện VinFast DrgnFly theo sách tiếng Việt: 3 mức trợ lực 0/1/2, 4 thông số, 10 mã lỗi; so với sách tiếng Anh có 5 chế độ và 20 mã lỗi.",
         "checked_at": "2026-10-22T06:48:58.269390+00:00"
       }
+    },
+    "NT-090138": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T06:58:08.144160+00:00",
+      "source_hash": "6b5ae89252cb425319bb4859915865eeb47f494e485f624f8fd3a4e8f95f6beb",
+      "slug": "bao-tang-ha-noi-ve-50-000-dong-nghi-thu-hai-mo-toi-thu-sau-bay-bai-gui-xe-chua-350-xe-may",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 172,
+      "visible_hash": "a8437f80dccd9d606c3296dd7e608b0b3a082c67abb200f489efa34859ccb8a8",
+      "first_paragraph": "Giá vé Bảo tàng Hà Nội theo các trang của chính bảo tàng là 50.000 đồng một người; trẻ em dưới 16 tuổi và người khuyết tật nặng được miễn, một số nhóm khác được giảm 50%. Bảo tàng mở cửa 9h00–17h00 từ thứ Ba đến Chủ nhật và nghỉ thứ Hai; từ ngày 11/9/2026 bảo tàng mở thêm buổi tối 17h00–21h00 vào thứ Sáu và thứ Bảy. Trang giới thiệu ghi bãi gửi xe có sức chứa 350 xe máy và 40 ô tô. Các trang chính thức đã đọc không nêu giá vé buổi tối, phí gửi xe hay giờ nhận gửi, nên nếu đi bằng xe máy thuê bạn nên hỏi trực tiếp tại bảo tàng. Mọi số liệu theo các trang đọc ngày 22/10/2026; bài không biết thay đổi sau ngày đó.",
+      "meta_title": "Giá vé Bảo tàng Hà Nội 50.000 đồng, giờ mở cửa và chỗ gửi xe máy",
+      "meta_description": "Giá vé Bảo tàng Hà Nội 50.000 đồng, ai được miễn và giảm 50%, giờ mở cửa ban ngày, mở thêm tối thứ Sáu và thứ Bảy từ 11/9/2026, bãi gửi xe ghi sức chứa 350 xe máy.",
+      "intended_taxonomy_key": "hanoi-travel",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "8fdf0ae9aed17312a93014a40172712bb7676255",
+      "run_id": "39736905918",
+      "updated_at": "2026-10-22T06:58:08.145948+00:00"
     }
   },
   "categories": {}
