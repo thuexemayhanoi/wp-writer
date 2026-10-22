@@ -40510,6 +40510,25 @@
         "seo_description": "Tìm bãi đỗ xe trên VNeID theo hai bài báo tháng 10/2026: vào Nền tảng giao thông tập trung bằng tài khoản mức 2, xem chỗ trống và biểu phí, dữ liệu thí điểm chưa phủ cả nước.",
         "checked_at": "2026-10-22T20:50:20.205252+00:00"
       }
+    },
+    "NT-090271": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T20:56:18.353768+00:00",
+      "source_hash": "63ab905d8e3d37ecfba6e6beced354188723079c013483e9ae7a56aa26c40564",
+      "slug": "chia-khoa-du-phong-xe-may-thue-co-phai-vat-phu-theo-dieu-110-mat-chia-thi-den-theo-dieu-479",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 163,
+      "visible_hash": "47dec49e0537e15c4245e5879a7b811a9e23346d44e1750ca4b23dad04358bb9",
+      "first_paragraph": "Bộ luật Dân sự 2015 không có điều nào nói riêng về chìa khóa xe, nên câu trả lời cho chìa khóa dự phòng xe máy thuê phải đi từ các điều chung. Điều 110 khoản 3 buộc khi chuyển giao vật chính thì phải chuyển giao cả vật phụ, trừ khi có thỏa thuận khác; việc coi chìa khóa dự phòng là vật phụ của chiếc xe là cách đọc của người viết, không có điều luật hay nguồn nào đọc được nói thẳng như vậy. Nếu người thuê làm mất chìa, Điều 479 khoản 1 nói bên thuê phải bồi thường khi làm mất hoặc hư hỏng tài sản thuê, còn mức đền tính theo Điều 360 đến 362: thiệt hại thực tế xác định được, không có bảng giá nào cho một chiếc chìa.",
+      "meta_title": "Chìa khóa dự phòng xe máy thuê: vật phụ Điều 110, mất chìa đền sao",
+      "meta_description": "Chìa khóa dự phòng xe máy thuê có phải vật phụ theo Điều 110 Bộ luật Dân sự không, mất chìa thì đền theo Điều 479, 482, 360 đến 362 thế nào, và nên hỏi gì khi nhận xe.",
+      "intended_taxonomy_key": "rental-procedures",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "6ca4e3e3f1f55d6eaeff219b7c2b710c67e9b191",
+      "run_id": "39852422353",
+      "updated_at": "2026-10-22T20:56:18.355176+00:00"
     }
   },
   "categories": {}
