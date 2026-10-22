@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-22T06:00:52.426098+00:00",
+  "at": "2026-10-22T06:09:59.164232+00:00",
   "counts": {
     "WRITING": 16,
     "QA": 0,
@@ -7,7 +7,7 @@
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 674
+    "VERIFIED": 675
   },
   "ready_backlog": 0,
   "in_flight": 19,
@@ -193,11 +193,11 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-090006",
+      "topic_id": "NT-080006",
       "state": "WRITING",
       "reason": "leased to s-claude-df7eb8c1-20261022",
-      "title": "Màn hình TFT xe máy điện: cấu tạo cơ bản và các giới hạn không nên tự can thiệp",
-      "slot": "W6",
+      "title": "Chụp ảnh bàn giao xe máy thuê: góc nên lưu theo phiếu Yamaha, sách Honda và giá trị chứng cứ của ảnh",
+      "slot": "W2",
       "session": "s-claude-df7eb8c1-20261022",
       "wp_id": null,
       "url": null,
@@ -8327,6 +8327,18 @@
       "url": "https://thuexemaynguyentu.com/bao-tang-phu-nu-viet-nam-lich-trinh-cho-gia-dinh-co-tre/",
       "qa_status": "PASS",
       "seo_score": 95
+    },
+    {
+      "topic_id": "NT-090681",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Lịch nghỉ lễ sắp tới: 24/11/2026 nghỉ 1 ngày, Tết Đinh Mùi 4–10/2/2027 và Quốc khánh 2–5/9/2027",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": 4750,
+      "url": "https://thuexemaynguyentu.com/lich-nghi-le-sap-toi-24-11-2026-nghi-1-ngay-tet-dinh-mui-4-10-2-2027-va-quoc-khanh-2-5-9-2027/",
+      "qa_status": "PASS",
+      "seo_score": 100
     }
   ]
 }
