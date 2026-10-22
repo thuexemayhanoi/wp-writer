@@ -34779,7 +34779,7 @@
       }
     },
     "NT-001902": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T11:20:02.590822+00:00",
       "source_hash": "18223bd13a3ac6434ce28a5d451da78910323fefa5a783270b4e23cef19f894d",
       "slug": "ho-dong-do-sau-cuong-che-2026-villa-dong-cua-nuoc-ho-duc-co-nen-di-cam-trai",
@@ -34795,8 +34795,37 @@
       "category_warning": null,
       "git_commit": "abb53e9a25e04324f37450d57629e87b655db50f",
       "run_id": "39769304805",
-      "updated_at": "2026-10-22T11:20:08.119276+00:00",
-      "wp_id": 4805
+      "updated_at": "2026-10-22T11:20:13.942161+00:00",
+      "wp_id": 4805,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ho-dong-do-sau-cuong-che-2026-villa-dong-cua-nuoc-ho-duc-co-nen-di-cam-trai/",
+      "verified_at": "2026-10-22T11:20:13.942154+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4805,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ho-dong-do-sau-cuong-che-2026-villa-dong-cua-nuoc-ho-duc-co-nen-di-cam-trai/",
+        "categories": [
+          126
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ho-dong-do-sau-cuong-che-2026-villa-dong-cua-nuoc-ho-duc-co-nen-di-cam-trai/",
+        "seo_title": "Hồ Đồng Đò sau cưỡng chế 2026: villa đóng cửa, có nên đi cắm trại",
+        "seo_description": "Hồ Đồng Đò sau cưỡng chế 2026: báo ghi villa, homestay đóng cửa, nước hồ từng đục ngầu cuối 2025, điều nguồn chưa cho biết và cách hỏi trước khi chạy 40 km.",
+        "checked_at": "2026-10-22T11:20:13.942134+00:00"
+      }
     }
   },
   "categories": {}
