@@ -30859,7 +30859,7 @@
       }
     },
     "NT-001603": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:20:36.716439+00:00",
       "source_hash": "156a8400cd452a8ad1f7ff999fcc008db341d9b41b4a7843e7864de63fdc5015",
       "slug": "ve-sinh-khi-an-nem-ran-ha-noi-dau-hieu-ve-dau-ran-nhan-thit-va-cach-bay-ban",
@@ -30875,8 +30875,37 @@
       "category_warning": null,
       "git_commit": "e8867ed3ab382cf02fcc9d35a5f3f731186b146e",
       "run_id": "39721381932",
-      "updated_at": "2026-10-22T04:20:40.751538+00:00",
-      "wp_id": 4697
+      "updated_at": "2026-10-22T04:20:47.539882+00:00",
+      "wp_id": 4697,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ve-sinh-khi-an-nem-ran-ha-noi-dau-hieu-ve-dau-ran-nhan-thit-va-cach-bay-ban/",
+      "verified_at": "2026-10-22T04:20:47.539874+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4697,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ve-sinh-khi-an-nem-ran-ha-noi-dau-hieu-ve-dau-ran-nhan-thit-va-cach-bay-ban/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ve-sinh-khi-an-nem-ran-ha-noi-dau-hieu-ve-dau-ran-nhan-thit-va-cach-bay-ban/",
+        "seo_title": "Vệ sinh khi ăn nem rán Hà Nội: dấu hiệu về dầu rán, nhân, nơi bán",
+        "seo_description": "Vệ sinh khi ăn nem rán Hà Nội: dấu hiệu về dầu rán, nhân thịt và cách bày bán theo Cục An toàn thực phẩm và năm chìa khóa của WHO, kèm phần suy luận của người viết.",
+        "checked_at": "2026-10-22T04:20:47.539856+00:00"
+      }
     }
   },
   "categories": {}
