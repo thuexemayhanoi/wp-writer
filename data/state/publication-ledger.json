@@ -31447,7 +31447,7 @@
       }
     },
     "NT-001723": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:35:41.687988+00:00",
       "source_hash": "825095cca3a64b5af894da225a88eb9c9df04600cfa88fe70af6fd11d9b5ade1",
       "slug": "giao-thong-chiem-bao-nhieu-phan-o-nhiem-khong-khi-ha-noi-60-38-25-hay-23",
@@ -31463,8 +31463,37 @@
       "category_warning": null,
       "git_commit": "9c0156d4d7b1a140206400ae532157c1ebdc3261",
       "run_id": "39722469737",
-      "updated_at": "2026-10-22T04:35:45.440558+00:00",
-      "wp_id": 4709
+      "updated_at": "2026-10-22T04:35:50.957337+00:00",
+      "wp_id": 4709,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/giao-thong-chiem-bao-nhieu-phan-o-nhiem-khong-khi-ha-noi-60-38-25-hay-23/",
+      "verified_at": "2026-10-22T04:35:50.957329+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4709,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/giao-thong-chiem-bao-nhieu-phan-o-nhiem-khong-khi-ha-noi-60-38-25-hay-23/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/giao-thong-chiem-bao-nhieu-phan-o-nhiem-khong-khi-ha-noi-60-38-25-hay-23/",
+        "seo_title": "Giao thông chiếm bao nhiêu phần ô nhiễm không khí Hà Nội: 60% hay 23%",
+        "seo_description": "Giao thông chiếm bao nhiêu phần ô nhiễm không khí Hà Nội? Đặt cạnh các con số 60%, 38%, 25% và 23% theo từng bên công bố, năm và chất được đo, không chọn số nào là đúng.",
+        "checked_at": "2026-10-22T04:35:50.957311+00:00"
+      }
     }
   },
   "categories": {}
