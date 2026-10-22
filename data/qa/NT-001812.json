@@ -1,0 +1,579 @@
+{
+  "topic_id": "NT-001812",
+  "status": "PASS",
+  "source_sha256": "ea654e97964622caafbc04f619a7a087be299f8e06a2e9b652f2a699e559194b",
+  "body_sha256": "7566c27310902a3b8a184818ce9ffc0706d6d127b4b6b0129625525c220812a8",
+  "word_count": 2557,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?category=2",
+      "supports": "Trang Honda Việt Nam của Honda Vision (đọc 22/10/2026): Vision: hộc đựng đồ phía trước có nắp đậy, tích hợp cổng sạc USB loại C (đây là bản trang đang hiển thị; bản khác của Vision phải xem trang riêng)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/air-blade-160125?category=2",
+      "supports": "Trang Honda Việt Nam của Honda Air Blade (đọc 22/10/2026): Air Blade: nâng cấp cổng sạc USB loại A thành loại C kèm nắp chống nước, đặt trong hộc đựng đồ dưới yên, trên cả hai bản 160cc và 125cc",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/lead-abs?category=2",
+      "supports": "Trang Honda Việt Nam của Honda LEAD (đọc 22/10/2026): LEAD: hộc đựng đồ phía trước có cổng sạc USB loại C (trang gắn dấu * sau chữ \"loại C*\"; trang không giải thích dấu * trong phần đọc được — không đoán nghĩa)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/sh-mode-125?category=2",
+      "supports": "Trang Honda Việt Nam của Honda SH Mode (đọc 22/10/2026): SH Mode: hộc để đồ phía trước bên trái dạng nắp mở, cổng sạc USB loại C",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-160?category=2",
+      "supports": "Trang Honda Việt Nam của Honda Vario 160 (đọc 22/10/2026): Vario 160: hộc chứa đồ phía trước bên trái có nắp che tích hợp cổng sạc USB loại A, công suất tối đa 10,5W (5V – 2,1A)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/winner-r?category=3",
+      "supports": "Trang Honda Việt Nam của Honda Winner R (đọc 22/10/2026): Winner R: cổng sạc USB loại A kèm nắp chống nước ở phía trước xe, chỉ trên các phiên bản Đặc biệt và Thể thao",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/freego-s-abs-phien-ban-dac-biet-mau-moi-b4uc/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha FreeGo S ABS (đọc 22/10/2026): FreeGo S ABS: cổng sạc điện thoại 12V và nắp bình xăng nằm ở dưới phía trước đầu xe, phía trên chỗ để chân",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/gear-125-hybrid-phien-ban-cao-cap-df94/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Gear 125 Hybrid (đọc 22/10/2026): Gear 125 Hybrid: \"Cổng sạc thông minh\" phía trước; trang không nêu loại cổng",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-dac-biet-mau-moi-2025-bj7x-2/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Janus (đọc 22/10/2026): Janus: cổng sạc USB; lưu ý của Yamaha không để điện thoại/pin trong cốp xe khi đang sạc",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/lexi-155-vva-abs-phien-ban-cao-cap-moi-bvy4/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Lexi 155 VVA-ABS (đọc 22/10/2026): Lexi 155: \"cổng sạc tích hợp\"; trang không nêu loại cổng và vị trí",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/nvx-155-phien-ban-gp-2025-d111-2/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha NVX 155 (đọc 22/10/2026): NVX 155: cổng sạc điện thoại tích hợp bên trong hộc chứa đồ; trang không nêu loại cổng",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Grande (đọc 22/10/2026): Grande: mục \"Cổng sạc điện thoại & hộc đựng đồ\"; trang không nêu loại cổng và vị trí",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-125?category=2",
+      "supports": "Trang Honda Việt Nam của Honda Vario 125 (đọc 22/10/2026): cổng sạc USB loại C tích hợp trong hộc chứa đồ phía trước",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?version=104&changeVersionFlag=1",
+      "supports": "Trang Honda Việt Nam của Honda Vision ở địa chỉ có tham số version=104 (đọc 19/10/2026) có cùng đoạn chữ về cổng sạc USB loại C trong hộc đựng đồ phía trước như trang mặc định",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?version=106&changeVersionFlag=1",
+      "supports": "Trang Honda Việt Nam của Honda Vision ở địa chỉ có tham số version=106 (đọc 19/10/2026) có cùng đoạn chữ về cổng sạc USB loại C trong hộc đựng đồ phía trước như trang mặc định",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/cong-nghe/nhung-tinh-nang-hien-dai-cua-cac-dong-xe-yamaha/",
+      "supports": "Trang công nghệ của Yamaha Motor Việt Nam (đọc 22/10/2026) nói cổng sạc tích hợp 12V được trang bị trên một số dòng xe ga Yamaha, không nêu tên mẫu nào",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/nhung-mau-xe-tay-ga-co-phanh-abs/",
+      "supports": "Trang tin tức của Yamaha Motor Việt Nam về xe tay ga có ABS (đọc 19/10/2026) nhắc Exciter 155 có ổ cắm sạc điện thoại, không nêu loại ổ hay vị trí, trong khi các trang sản phẩm Exciter 155 đã đọc không nhắc cổng sạc",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/so-sanh-yamaha-exciter-155-vva-tcs-2026-va-phien-ban-2025-co-gi-moi/",
+      "supports": "Trang tin tức của Yamaha Motor Việt Nam so sánh Exciter 155 VVA TCS 2026 với phiên bản 2025 (đọc 19/10/2026) nói ổ cắm sạc điện thoại vẫn được giữ nguyên, không nêu loại ổ hay vị trí",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110?category=1",
+      "supports": "Trang Honda Việt Nam của Honda Wave Alpha 110 (đọc 22/10/2026) được đọc để kiểm tra cổng sạc: trong phần văn bản đã lưu không có đoạn nào nhắc cổng sạc điện thoại; câu trích chỉ xác nhận nội dung trang",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx?category=1",
+      "supports": "Trang Honda Việt Nam của Honda Wave RSX (đọc 22/10/2026) được đọc để kiểm tra cổng sạc: trong phần văn bản đã lưu không có đoạn nào nhắc cổng sạc điện thoại; câu trích chỉ xác nhận nội dung trang",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/future-125-fi?category=1",
+      "supports": "Trang Honda Việt Nam của Honda Future 125 FI (đọc 22/10/2026) được đọc để kiểm tra cổng sạc: trong phần văn bản đã lưu không có đoạn nào nhắc cổng sạc điện thoại; câu trích chỉ xác nhận nội dung trang",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-phanh-co-mau-moi-2025-bsaf/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Sirius FI (đọc 22/10/2026) được đọc để kiểm tra cổng sạc: trong phần văn bản đã lưu không có đoạn nào nhắc cổng sạc điện thoại; câu trích chỉ xác nhận nội dung trang",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-rc-phien-ban-vanh-duc-mau-moi-2025-bgyf-g/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Sirius RC (đọc 22/10/2026) được đọc để kiểm tra cổng sạc: trong phần văn bản đã lưu không có đoạn nào nhắc cổng sạc điện thoại; câu trích chỉ xác nhận nội dung trang",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Jupiter Finn (đọc 22/10/2026) được đọc để kiểm tra cổng sạc: trong phần văn bản đã lưu không có đoạn nào nhắc cổng sạc điện thoại; câu trích chỉ xác nhận nội dung trang",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha PG-1 ABS (đọc 22/10/2026) được đọc để kiểm tra cổng sạc: trong phần văn bản đã lưu không có đoạn nào nhắc cổng sạc điện thoại; câu trích chỉ xác nhận nội dung trang",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/latte-phien-ban-tieu-chuan-mau-moi-2025-b0r7/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Latte (đọc 22/10/2026) được đọc để kiểm tra cổng sạc: trong phần văn bản đã lưu không có đoạn nào nhắc cổng sạc điện thoại; câu trích chỉ xác nhận nội dung trang",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-monster-d199/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Exciter 155 VVA TCS phiên bản Monster (đọc 22/10/2026) được đọc để kiểm tra cổng sạc: trong phần văn bản đã lưu không có đoạn nào nhắc cổng sạc điện thoại; câu trích chỉ xác nhận nội dung trang",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/air-blade-160125?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/lead-abs?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/sh-mode-125?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-160?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/winner-r?category=3",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/freego-s-abs-phien-ban-dac-biet-mau-moi-b4uc/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/gear-125-hybrid-phien-ban-cao-cap-df94/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-dac-biet-mau-moi-2025-bj7x-2/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/lexi-155-vva-abs-phien-ban-cao-cap-moi-bvy4/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/nvx-155-phien-ban-gp-2025-d111-2/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-125?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?version=104&changeVersionFlag=1",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?version=106&changeVersionFlag=1",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/cong-nghe/nhung-tinh-nang-hien-dai-cua-cac-dong-xe-yamaha/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/nhung-mau-xe-tay-ga-co-phanh-abs/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/so-sanh-yamaha-exciter-155-vva-tcs-2026-va-phien-ban-2025-co-gi-moi/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110?category=1",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx?category=1",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/future-125-fi?category=1",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-phanh-co-mau-moi-2025-bsaf/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-rc-phien-ban-vanh-duc-mau-moi-2025-bgyf-g/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/latte-phien-ban-tieu-chuan-mau-moi-2025-b0r7/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-monster-d199/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 851,
+        "title": "Cho Thuê Xe Máy Gia Lâm Hà Nội – Giá, Loại Xe, Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "b1d0d309d507f23ea9219bb1ac667523accc6051e49e97dbc0651c326e0d1483",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 862,
+        "title": "Cho Thuê Xe Máy Gần Tây Hồ Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "b0b3ebf305a54ce7dd2071018d62d234aa1338aeb544eef72a5d63a841fba288",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 868,
+        "title": "Thuê Xe Máy Gần Đống Đa Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "ba1ec71dfb2fbdc6d28b06931efdd59bd55ff37a920f7477428f406fb29c5bff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 912,
+        "title": "Cho Thuê Xe Máy Gần Hai Bà Trưng Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "e3a1939cca55f0bccd95c320658c1807feb7d19588435fda4d8fbc016652f731",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2613,
+        "title": "Thuê Xe Máy Du Lịch Hà Nội: Hướng Dẫn Toàn Diện Từ A–Z Cho Người Lần Đầu",
+        "why": "stale",
+        "content_hash": "bba381bbf7c63d362331437ee0e9ba63294ca01b4eb144c43fe71ca1f20731a0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T04:25:04.835302+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "eeb44dce9304a371ad18a1d39fc1eea182b066f698300281bdcf6fbefd051e4f",
+  "incremental_key": "ae5410d7798b631490dc1f8c9ff43f0f280d9b4bfeb4919f483b17d1c2552110",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

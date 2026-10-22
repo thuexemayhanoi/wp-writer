@@ -1,0 +1,547 @@
+{
+  "topic_id": "NT-001815",
+  "status": "PASS",
+  "source_sha256": "81cae4ea94a1843293ab80bb8f47cd204080ef6476c339b5421b1f27197be93a",
+  "body_sha256": "611281f655eca05f3b1fc07bbd6e82f987fabd563d931a6585c2ce9ce8d7f4fb",
+  "word_count": 2306,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110?category=1",
+      "supports": "Trang Honda Việt Nam của Honda Wave Alpha 110 (đọc 22/10/2026) ghi cỡ lốp: Kích cỡ lốp trước/ sau Lốp trước 70/90-17M/C 38P Lốp sau 80/90-17M/C 50P",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx?category=1",
+      "supports": "Trang Honda Việt Nam của Honda Wave RSX (đọc 22/10/2026) ghi cỡ lốp: Kích cỡ lốp trước/ sau Lốp trước: 70/90 - 17 M/C 38P Lốp sau: 80/90 - 17 M/C 50P",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/future-125-fi?category=1",
+      "supports": "Trang Honda Việt Nam của Honda Future 125 FI (đọc 22/10/2026) ghi cỡ lốp: Kích cỡ lốp trước/ sau Lốp trước: 70/90-17M/C 38P Lốp sau: 80/90-17M/C 50P",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?category=2",
+      "supports": "Trang Honda Việt Nam của Honda Vision (đọc 22/10/2026) ghi cỡ lốp: Kích cỡ lốp trước/ sau Lốp trước: 80/90-16M/C 43P Lốp sau: 90/90-14M/C 46P",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/air-blade-160125?category=2",
+      "supports": "Trang Honda Việt Nam của Honda Air Blade (đọc 22/10/2026) ghi cỡ lốp: Kích cỡ lốp trước/ sau Trước: 90/80-14M/C 43P Sau : 100/80 -14M/C 48P",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/lead-abs?category=2",
+      "supports": "Trang Honda Việt Nam của Honda LEAD (đọc 22/10/2026) ghi cỡ lốp: Kích cỡ lốp trước/ sau Trước: 90/90-12 44J Sau: 100/90-10 56J",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/sh-mode-125?category=2",
+      "supports": "Trang Honda Việt Nam của Honda SH Mode (đọc 22/10/2026) ghi cỡ lốp: Kích cỡ lốp trước/ sau Lốp trước 80/90-16M/C 43P Lốp sau 100/90-14M/C 57P",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-125?category=2",
+      "supports": "Trang Honda Việt Nam của Honda Vario 125 (đọc 22/10/2026) ghi cỡ lốp: Kích cỡ lốp trước/ sau Trước: 90/80 - 14M/C 43P Sau: 100/80-14M/C 48P",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-125?category=2",
+      "supports": "Trang Honda Việt Nam của Honda Vario 125 (đọc 22/10/2026) có một câu mô tả nhắc \"lốp không săm kích thước rộng\"; bảng thông số của trang không ghi loại săm.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-160?category=2",
+      "supports": "Trang Honda Việt Nam của Honda Vario 160 (đọc 22/10/2026) ghi cỡ lốp: Kích cỡ lốp trước/ sau Lốp trước:100/80-14 M/C48P Lốp sau:120/70-14 M/C61P",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/winner-r?category=3",
+      "supports": "Trang Honda Việt Nam của Honda Winner R (đọc 22/10/2026) ghi cỡ lốp: Kích cỡ lốp trước/ sau Trước: 90/80-17 Sau: 120/70-17",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-phanh-co-mau-moi-2025-bsaf/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Sirius FI (đọc 22/10/2026) ghi cỡ lốp: Lốp trước 70/90-17 M/C 38P (Có săm) Lốp sau 80/90-17 M/C 50P (Có săm)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-rc-phien-ban-vanh-duc-mau-moi-2025-bgyf-g/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Sirius RC (đọc 22/10/2026) ghi cỡ lốp: Lốp trước 70/90 - 17 38P (Lốp có săm) Lốp sau 80/90 - 17 44P (Lốp có săm)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Jupiter Finn (đọc 22/10/2026) ghi cỡ lốp: Lốp trước 70/90-17M/C 38P (có săm) Lốp sau 80/90-17M/C 50P (có săm)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha PG-1 (đọc 22/10/2026) ghi cỡ lốp: Lốp trước 90/ 100-16M/ C 51P (lốp có săm) Lốp sau 90/ 100-16M/ C 51P (lốp có săm)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-monster-d199/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Exciter 155 VVA-TCS (đọc 22/10/2026) ghi cỡ lốp: Lốp trước 90/80-17M/C 46P Lốp sau 120/70-17M/C 58P",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-dac-biet-mau-moi-2025-bj7x-2/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Janus (đọc 22/10/2026) ghi cỡ lốp: Lốp trước Lốp không săm 80/80-14M/C 43P Lốp sau Lốp không săm 100/70-14M/C 51P",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-dac-biet-mau-moi-2025-bj7x-2/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Janus (đọc 22/10/2026) mô tả lợi ích của lốp không săm theo lời của hãng: Lốp xe không săm không chỉ giúp xe nhẹ hơn mà còn giảm thiểu nguy cơ thủng lốp đột ngột",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Grande (đọc 22/10/2026) ghi cỡ lốp: Lốp trước 110/70-12 47L (MAXXIS-M6219Y) Lốp sau 110/70-12 47L (MAXXIS-M6220)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/freego-s-abs-phien-ban-dac-biet-mau-moi-b4uc/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha FreeGo S ABS (đọc 22/10/2026) ghi cỡ lốp: Lốp trước 100/90 – 12 59J (Không săm) Lốp sau 110/90 – 12 64L (Không săm)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/freego-s-abs-phien-ban-dac-biet-mau-moi-b4uc/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha FreeGo S ABS (đọc 22/10/2026) mô tả lợi ích của lốp không săm theo lời của hãng: Lốp không săm giúp hạn chế các trường hợp nổ lốp gây ra do vật nhọn.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/latte-phien-ban-tieu-chuan-mau-moi-2025-b0r7/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Latte (đọc 22/10/2026) ghi cỡ lốp: Lốp trước 90/90 - 12 44J (Lốp không săm) Lốp sau 100/90 - 10 56J (Lốp không săm)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/lexi-155-vva-abs-phien-ban-cao-cap-moi-bvy4/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha LEXi 155 VVA-ABS (đọc 22/10/2026) ghi cỡ lốp: Lốp trước 90/90-14M/C 46P Lốp sau 100/90-14M/C 57P",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/nvx-155-phien-ban-gp-2025-d111-2/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha NVX 155 (đọc 22/10/2026) ghi cỡ lốp: Lốp trước 110/80-14M/C 53P (lốp không săm) Lốp sau 140/70-14M/C 62P (lốp không săm)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/gear-125-hybrid-phien-ban-cao-cap-df94/",
+      "supports": "Trang Yamaha Motor Việt Nam của Yamaha Gear 125 Hybrid (đọc 22/10/2026) ghi cỡ lốp: Kích thước bánh trước / bánh sau 110/70-12 47L (không săm)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110?category=1",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-rsx?category=1",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/future-125-fi?category=1",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/air-blade-160125?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/lead-abs?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/sh-mode-125?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-125?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-125?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vario-160?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/winner-r?category=3",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-fi-phien-ban-phanh-co-mau-moi-2025-bsaf/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/sirius-rc-phien-ban-vanh-duc-mau-moi-2025-bgyf-g/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/jupiter-finn-phien-ban-cao-cap-mau-moi-bpc6/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/pg-1-abs-moi-phien-ban-gioi-han-dg12-2/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/exciter-155-vva-tcs-phien-ban-monster-d199/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-dac-biet-mau-moi-2025-bj7x-2/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/janus-phien-ban-dac-biet-mau-moi-2025-bj7x-2/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/grande-phien-ban-tieu-chuan-mau-moi-nhat-2025-bjjd/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/freego-s-abs-phien-ban-dac-biet-mau-moi-b4uc/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/freego-s-abs-phien-ban-dac-biet-mau-moi-b4uc/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/latte-phien-ban-tieu-chuan-mau-moi-2025-b0r7/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/lexi-155-vva-abs-phien-ban-cao-cap-moi-bvy4/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/nvx-155-phien-ban-gp-2025-d111-2/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/xe/gear-125-hybrid-phien-ban-cao-cap-df94/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 851,
+        "title": "Cho Thuê Xe Máy Gia Lâm Hà Nội – Giá, Loại Xe, Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "b1d0d309d507f23ea9219bb1ac667523accc6051e49e97dbc0651c326e0d1483",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 891,
+        "title": "Hợp Đồng Thuê Xe Máy Hà Nội Có Cần Đặt Cọc Không? Tư Vấn Nhanh",
+        "why": "stale",
+        "content_hash": "dfef1f80adfed1e1d9366a3b620ef84119b9cf4fc4ea34f66fe16eb22f52bcca",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2517,
+        "title": "Xe ga rung khi tăng tốc do đâu? Các nguyên nhân thường gặp khi dùng",
+        "why": "stale",
+        "content_hash": "44f236046c1f74ea9761d7bd0ae2d3b0ea286bc2118a85e0aadf8beb2df1afc1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2553,
+        "title": "Đăng ký biển số xe máy trực tuyến: hồ sơ và các bước cần chuẩn bị",
+        "why": "stale",
+        "content_hash": "07c18eff30a0c8796b3fd7944021fa719dc4afaaacb4f55eb99e40c062e94782",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2590,
+        "title": "Xe ga nào dễ lái cho người mới? Tiêu chí chọn xe an toàn hơn",
+        "why": "stale",
+        "content_hash": "f8902bfd6a2486eeeba8cd80b6a82c343421a30c904c7f55f75916cb9ec28c44",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T04:25:06.284140+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "eeb44dce9304a371ad18a1d39fc1eea182b066f698300281bdcf6fbefd051e4f",
+  "incremental_key": "ff973838b26e05ddd9447a9de16d9a3e125ad6993134ee70426fbe95fa73eb6a",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

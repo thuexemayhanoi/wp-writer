@@ -1,0 +1,287 @@
+{
+  "topic_id": "NT-001754",
+  "status": "PASS",
+  "source_sha256": "5e21a2fa120f62e326104f900612cef86d39261c5fac65bc3773f9a999844f73",
+  "body_sha256": "ff13ea0aaa7e400d5f5692cf9c714bc6ab4b2958b9883b32513a37cf8fd4c0ed",
+  "word_count": 2654,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "supports": "Dat Bike nêu nên chờ ít nhất 30 phút đến 1 giờ trước khi cắm sạc sau khi rửa xe.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/xe-may-dien-co-rua-duoc-khong-luu-y-khi-rua-xe-may-dien/",
+      "supports": "Yamaha Motor Việt Nam (26/04/2023) dặn lau khô toàn bộ chi tiết sau khi rửa, nhất là khu vực cắm điện.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-dien-co-rua-duoc-khong-cach-rua-xe-may-dien-vinfast-an-toan-tai-nha",
+      "supports": "VinFast (29/07/2023, sửa 18/07/2024) dặn lau khô lại khu vực cổng sạc sau khi tháo lớp bịt để tránh han gỉ.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "supports": "Dat Bike (trang rửa xe, đăng 17/10/2025, sửa 09/10/2026) dặn ổ sạc, giắc nối, mặt đồng hồ còn ẩm hoặc rỉ sét thì không sạc hay khởi động ngay; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "supports": "Dat Bike dặn lau kỹ khe hở, gầm xe và chỗ dễ đọng nước sau khi rửa; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "supports": "Dat Bike dặn không dùng máy sấy nóng, không phơi nắng gắt vì dễ làm biến dạng gioăng và nhựa; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "supports": "Dat Bike dặn không xịt khí nén thẳng vào ổ cắm, giắc nối vì dễ đẩy nước vào sâu hơn; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "supports": "Dat Bike dặn dù bề mặt đã khô vẫn không thử sạc hoặc khởi động nếu còn nghi có nước bên trong; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "supports": "Dat Bike liệt kê xe vẫn báo lỗi, không khởi động hoặc không nhận sạc sau khi làm khô bề mặt là trường hợp nên mang xe đến bảo hành; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/xe-may-dien-co-rua-duoc-khong-luu-y-khi-rua-xe-may-dien/",
+      "supports": "Yamaha Motor Việt Nam (26/04/2023) mở quy trình rửa xe bằng việc tháo bình ắc quy ra khỏi xe máy điện, khác với Dat Bike; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/xe-may-dien-co-rua-duoc-khong-luu-y-khi-rua-xe-may-dien/",
+      "supports": "Yamaha nêu sau khi lau khô có thể bật chống nghiêng cho nước đọng trong các khe thoát ra; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/xe-may-dien-co-rua-duoc-khong-luu-y-khi-rua-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-dien-co-rua-duoc-khong-cach-rua-xe-may-dien-vinfast-an-toan-tai-nha",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/xe-may-dien-co-rua-duoc-khong-luu-y-khi-rua-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://yamaha-motor.com.vn/tin-tuc/xe-may-dien-co-rua-duoc-khong-luu-y-khi-rua-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T04:25:02.696310+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "eeb44dce9304a371ad18a1d39fc1eea182b066f698300281bdcf6fbefd051e4f",
+  "incremental_key": "35c4425aeab287f949f9a51c65a3bce9ef5433468ccb8e6c72fdce2f511e3000",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

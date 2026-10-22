@@ -1,0 +1,243 @@
+{
+  "topic_id": "NT-001721",
+  "status": "PASS",
+  "source_sha256": "3bffb912bd5c1e099a8966ef24dac6c439e33e3d5fc78f80cb970f565b138b53",
+  "body_sha256": "3f33602ce354d14a01955da40fceba918c2e0654d152a9a776145f1ea45a0e8b",
+  "word_count": 2869,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://tienphong.vn/ha-noi-cho-phep-o-to-xe-may-duoc-di-vao-lan-brt-truc-lang-ha-giang-vo-tu-ngay-159-post1876544.tpo",
+      "supports": "Tiền Phong 15/9/2026: Sở Xây dựng Hà Nội cho các loại phương tiện đi chung làn dành riêng cho BRT trên trục Láng Hạ – Giảng Võ theo cả hai hướng ở một số đoạn, phục vụ thi công cầu vượt Vành đai 1",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/cho-phep-phuong-tien-di-vao-lan-brt-doan-lang-ha-giang-vo-de-giam-un-tac-20260915155826415.htm",
+      "supports": "Dân trí 15/9/2026: đoạn từ số 8 Láng Hạ đến giao Trần Huy Liệu theo hướng Láng Hạ – Giảng Võ, hướng ngược lại, điểm quay đầu bị cấm và thời hạn áp dụng đến khi có thông báo tiếp theo",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/ha-noi-cho-xe-di-vao-lan-brt-lang-ha-giang-vo-5120670.html",
+      "supports": "VnExpress 15/9/2026: tuyến BRT Kim Mã – Yên Nghĩa dài gần 15 km có ba làn mỗi chiều gồm một làn riêng và hai làn hỗn hợp; hai cầu vượt dự kiến hoàn thành cuối năm 2026; đề xuất khung giờ từng được nêu",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/ha-noi-cho-phep-xe-di-vao-lan-brt-tren-duong-lang-ha-de-thi-cong-cau-vuot-vanh-dai-1-100260915160533584.htm",
+      "supports": "Tuổi Trẻ 15/9/2026: các hướng giao thông khác giữ theo thông báo số 920 ngày 11/6/2026 và số 1337 ngày 9/9/2026 của Sở Xây dựng; thời gian thực hiện từ 15/9 đến khi có thông báo tiếp theo",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/oto-xe-may-lap-day-lan-brt-trong-gio-cao-diem-post1876844.tpo",
+      "supports": "Tiền Phong 16/9/2026: quan sát giờ cao điểm làn BRT nhanh chóng đầy xe, vắng lúc thấp điểm, nút giao vẫn ùn cục bộ và nhiều người chưa nắm thay đổi",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/camera-ai-o-ha-noi-phat-hien-29-truong-hop-di-vao-lan-duong-brt-20250929175033874.htm",
+      "supports": "Dân trí 29/9/2025: camera AI trên đường Lê Văn Lương ghi nhận 29 trường hợp đi vào hành lang BRT trong 24 giờ, làm bối cảnh có ngày về việc làn BRT ngoài đoạn tạm mở vẫn bị giám sát",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://tienphong.vn/ha-noi-cho-phep-o-to-xe-may-duoc-di-vao-lan-brt-truc-lang-ha-giang-vo-tu-ngay-159-post1876544.tpo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/cho-phep-phuong-tien-di-vao-lan-brt-doan-lang-ha-giang-vo-de-giam-un-tac-20260915155826415.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/ha-noi-cho-xe-di-vao-lan-brt-lang-ha-giang-vo-5120670.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/ha-noi-cho-phep-xe-di-vao-lan-brt-tren-duong-lang-ha-de-thi-cong-cau-vuot-vanh-dai-1-100260915160533584.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/oto-xe-may-lap-day-lan-brt-trong-gio-cao-diem-post1876844.tpo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/camera-ai-o-ha-noi-phat-hien-29-truong-hop-di-vao-lan-duong-brt-20250929175033874.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 562,
+        "title": "Cho Thuê Xe Máy ở Hà Nội – Giao Tận Nơi, Cọc Nhẹ | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "bef2a1222a528843870457f0106cf4c95a0e35e17def59be14a16504af267b6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2359,
+        "title": "Pin Lithium Và Ắc Quy Xe Máy Điện Khác Nhau Như Thế Nào Khi Dùng?",
+        "why": "stale",
+        "content_hash": "bad77afd59bcc932b63ec50e4d14d9c1f4c164d9587ac616c550e0651324d6c3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2362,
+        "title": "Trạm Sạc Xe Máy Điện Hoạt Động Ra Sao Và Cần Lưu Ý Gì Khi Sử Dụng?",
+        "why": "stale",
+        "content_hash": "a17c9cf060eb4fcc003a8361442a9640e3697f1a42863cfbcf483016e0e39b82",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2559,
+        "title": "Các loại bằng lái xe máy hiện nay và cách phân biệt từng hạng",
+        "why": "stale",
+        "content_hash": "1dbe75f2df7dd3b894e673123e9c56ffdda9c772f072b8cb4682f49b0f264d0e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4050,
+        "title": "Thuê xe máy đi làm theo ca ở Hà Nội: chọn giờ nhận, gửi xe và trả xe đúng hạn",
+        "why": "stale",
+        "content_hash": "f5a41002206250a00b0d4b19ec54ada261a36c020a5c2f89aa531c79304f4012",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T04:24:59.880554+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "eeb44dce9304a371ad18a1d39fc1eea182b066f698300281bdcf6fbefd051e4f",
+  "incremental_key": "0ac79e6a2010f840bd27e58bfe258abfd3ea6ee095675ef80a93aa725aeb7b16",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

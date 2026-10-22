@@ -1,0 +1,330 @@
+{
+  "topic_id": "NT-001753",
+  "status": "PASS",
+  "source_sha256": "bfd7bc5d6734827bb3faf2bb8d65aebe324da2785d6fae8932e5e70a273f4f56",
+  "body_sha256": "4aa48584e39ade5184fdaceee56657bc6a8d46587e3634f9a30aa1a77d5c36e1",
+  "word_count": 2548,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "supports": "Dat Bike (trang lỗi thường gặp, đăng 17/10/2025, sửa 09/10/2026) nêu dấu hiệu lỗi bộ điều khiển hoặc động cơ gồm rung giật mạnh khi chạy; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cach-kiem-tra-he-thong-dien-tren-xe-may-dien-yadea/",
+      "supports": "Yadea Việt Nam (20/02/2025) dặn xem xe có rung, giật hay tiếng kêu bất thường không.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-dien-bi-giat-ga",
+      "supports": "VinFast (trang giật ga, đăng 04/08/2023, sửa 17/07/2024; runner GitHub nhận 403) nêu dòng điện đến động cơ không liên tục làm xe điện giật khi tăng tốc.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "supports": "Dat Bike (trang rửa xe) xếp tiếng kêu lạ, rung giật khi vặn ga vào dấu hiệu nước đã vào động cơ hoặc truyền động.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "supports": "Dat Bike (trang lỗi thường gặp, đăng 17/10/2025, sửa 09/10/2026) giải thích vì sao lỗi bộ điều khiển hoặc động cơ không nên tự sửa; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "supports": "Dat Bike nêu cách xử lý lỗi bộ điều khiển hoặc động cơ: không tháo rời, liên hệ trung tâm bảo hành; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cach-kiem-tra-he-thong-dien-tren-xe-may-dien-yadea/",
+      "supports": "Yadea Việt Nam (20/02/2025) nêu xe chạy yếu hoặc đứt quãng có thể do bộ điều khiển hoặc động cơ; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-dien-bi-giat-ga",
+      "supports": "VinFast (trang giật ga, đăng 04/08/2023, sửa 17/07/2024) mô tả dấu hiệu IC hỏng là tăng ga thì giật mạnh hoặc tăng tốc không đều; nguồn phụ, đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-dien-bi-giat-ga",
+      "supports": "VinFast nêu ắc quy hoặc pin chai không cấp đủ điện dẫn tới giật ga; nguồn phụ, đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "supports": "Dat Bike (trang rửa xe, đăng 17/10/2025, sửa 09/10/2026) dặn dừng xe, tắt nguồn và tháo chìa khi nghi nước vào pin hoặc động cơ; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "supports": "Dat Bike dặn không sạc, không vận hành cho đến khi kỹ thuật xác nhận an toàn trong trường hợp nước vào pin và động cơ; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "supports": "Dat Bike dặn ghi lại triệu chứng và chụp ảnh để trung tâm bảo hành nắm tình hình; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cach-kiem-tra-he-thong-dien-tren-xe-may-dien-yadea/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-dien-bi-giat-ga",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cach-kiem-tra-he-thong-dien-tren-xe-may-dien-yadea/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-dien-bi-giat-ga",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-dien-bi-giat-ga",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 925,
+        "title": "Thuê Xe Điện Hà Nội – Chọn Xe Máy Điện Hay Xe Đạp Điện?",
+        "why": "stale",
+        "content_hash": "d1d720896f2dcd7fbea082535aa3bac59e747624b917873c8758b7d587b5234c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2378,
+        "title": "Xe máy điện VinFast: các mẫu đáng chú ý và điểm khác biệt",
+        "why": "stale",
+        "content_hash": "37ef98f1fa6912ab03a40b59b7957c089abbadee5f0ea45c7e3fcf1b939d9074",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2413,
+        "title": "Honda ICON e: có cần bằng lái không và ai nên sử dụng mẫu xe này?",
+        "why": "stale",
+        "content_hash": "1cec213da2c026074a8eef073c5eee4f24e6a5ee5a39071584bb8e1f1a96c4a5",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2594,
+        "title": "Đi ngoại thành Hà Nội nên chọn xe ga hay xe côn tay để phù hợp hơn?",
+        "why": "stale",
+        "content_hash": "c828fb01d0925dea14287531e51418ebeef09564d4fb50f52a2398ebd052935e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T04:25:02.038019+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "eeb44dce9304a371ad18a1d39fc1eea182b066f698300281bdcf6fbefd051e4f",
+  "incremental_key": "3ccbf5b226dc866e51053ba9859e0ee5e20388e7a2650e68a7d3f3f0cdb730bd",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

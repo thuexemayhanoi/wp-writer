@@ -1,41 +1,55 @@
 # Pipeline board
 
-Generated 2026-10-22T04:23:54.516814+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-22T04:28:39.149784+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
-| WRITING | 18 |
+| WRITING | 20 |
 | QA | 0 |
-| READY | 0 |
+| READY | 12 |
 | REPAIR | 0 |
 | HELD | 3 |
 | PUBLISHING | 0 |
 | VERIFIED | 655 |
 
-Ready backlog (QA PASS waiting for the Publisher): **0**
+Ready backlog (QA PASS waiting for the Publisher): **12**
 
 ## Articles not yet VERIFIED
 
 | Topic | State | Slot | Session | Reason |
 |---|---|---|---|---|
-| NT-001632 | WRITING | W8 | seodev-w74 | leased to seodev-w74 |
-| NT-001633 | WRITING | W8 | seodev-w74 | leased to seodev-w74 |
+| NT-001634 | WRITING | W3 | seodev-w77 | leased to seodev-w77 |
+| NT-001635 | WRITING | W3 | seodev-w77 | leased to seodev-w77 |
+| NT-001636 | WRITING | W3 | seodev-w77 | leased to seodev-w77 |
+| NT-001637 | WRITING | W6 | s-claude-df7eb8c1-20261022 | leased to s-claude-df7eb8c1-20261022 |
 | NT-001691 | WRITING | W8 | seodev-w74 | leased to seodev-w74 |
 | NT-001692 | WRITING | W8 | seodev-w74 | leased to seodev-w74 |
-| NT-001721 | WRITING | W1 | seodev-w76 | leased to seodev-w76 |
-| NT-001722 | WRITING | W1 | seodev-w76 | leased to seodev-w76 |
 | NT-001723 | WRITING | W1 | seodev-w76 | leased to seodev-w76 |
-| NT-001752 | WRITING | W8 | seodev-w74 | leased to seodev-w74 |
-| NT-001753 | WRITING | W8 | seodev-w74 | leased to seodev-w74 |
-| NT-001754 | WRITING | W8 | seodev-w74 | leased to seodev-w74 |
-| NT-001782 | WRITING | W7 | seodev-w73 | leased to seodev-w73 |
-| NT-001811 | WRITING | W9 | seodev-w75 | leased to seodev-w75 |
-| NT-001812 | WRITING | W9 | seodev-w75 | leased to seodev-w75 |
+| NT-001724 | WRITING | W3 | seodev-w77 | leased to seodev-w77 |
+| NT-001725 | WRITING | W3 | seodev-w77 | leased to seodev-w77 |
+| NT-001726 | WRITING | W3 | seodev-w77 | leased to seodev-w77 |
+| NT-001727 | WRITING | W6 | s-claude-df7eb8c1-20261022 | leased to s-claude-df7eb8c1-20261022 |
 | NT-001813 | WRITING | W9 | seodev-w75 | leased to seodev-w75 |
-| NT-001814 | WRITING | W9 | seodev-w75 | leased to seodev-w75 |
-| NT-001815 | WRITING | W9 | seodev-w75 | leased to seodev-w75 |
 | NT-001816 | WRITING | W9 | seodev-w75 | leased to seodev-w75 |
-| NT-090006 | WRITING | W3 | seodev-w70 | leased to seodev-w70 |
+| NT-001817 | WRITING | W3 | seodev-w77 | leased to seodev-w77 |
+| NT-001818 | WRITING | W3 | seodev-w77 | leased to seodev-w77 |
+| NT-001819 | WRITING | W3 | seodev-w77 | leased to seodev-w77 |
+| NT-001820 | WRITING | W5 | seodev-w79 | leased to seodev-w79 |
+| NT-001841 | WRITING | W3 | seodev-w77 | leased to seodev-w77 |
+| NT-001842 | WRITING | W4 | seodev-w78 | leased to seodev-w78 |
+| NT-001843 | WRITING | W4 | seodev-w78 | leased to seodev-w78 |
+| NT-001632 | READY | W8 | seodev-w74 | QA PASS; waiting for the Publisher |
+| NT-001633 | READY | W8 | seodev-w74 | QA PASS; waiting for the Publisher |
+| NT-001721 | READY | W1 | seodev-w76 | QA PASS; waiting for the Publisher |
+| NT-001722 | READY | W1 | seodev-w76 | QA PASS; waiting for the Publisher |
+| NT-001752 | READY | W8 | seodev-w74 | QA PASS; waiting for the Publisher |
+| NT-001753 | READY | W8 | seodev-w74 | QA PASS; waiting for the Publisher |
+| NT-001754 | READY | W8 | seodev-w74 | QA PASS; waiting for the Publisher |
+| NT-001782 | READY | W7 | seodev-w73 | QA PASS; waiting for the Publisher |
+| NT-001811 | READY | W9 | seodev-w75 | QA PASS; waiting for the Publisher |
+| NT-001812 | READY | W9 | seodev-w75 | QA PASS; waiting for the Publisher |
+| NT-001814 | READY | W9 | seodev-w75 | QA PASS; waiting for the Publisher |
+| NT-001815 | READY | W9 | seodev-w75 | QA PASS; waiting for the Publisher |
 | NT-001101 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4344; Near duplicate existing:4344 |
 | NT-001102 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4345; Near duplicate existing:4345 |
 | NT-001103 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4346; Near duplicate existing:4346 |

@@ -1,0 +1,305 @@
+{
+  "topic_id": "NT-001752",
+  "status": "PASS",
+  "source_sha256": "f8b0b250f456cd5dae5a532d0cd90ba857d7ea0fe3e166d8411a06f3e26279bc",
+  "body_sha256": "0be948d6a2531724f4fb50d23b4a7d5cc9f6457211342c238cbec8f97518327d",
+  "word_count": 2347,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "supports": "Dat Bike (trang lỗi thường gặp, đăng 17/10/2025, sửa 09/10/2026) mô tả dấu hiệu tiếng ồn bất thường: lạch cạch, rít hoặc ù, rõ khi tăng tốc hoặc leo dốc; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/dong-co-xe-may-dien/",
+      "supports": "Dat Bike (trang động cơ, đăng 26/12/2025, sửa 09/10/2026) giải thích động cơ mid-motor truyền xích, bánh răng nên có tiếng động cơ và sên đặc trưng, khác hub motor.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cach-kiem-tra-he-thong-dien-tren-xe-may-dien-yadea/",
+      "supports": "Yadea Việt Nam (20/02/2025) dặn xem xe có rung, giật hay tiếng kêu bất thường không trong mục kiểm tra động cơ và bộ điều khiển.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "supports": "Dat Bike (trang rửa xe) xếp tiếng kêu lạ, rung giật khi vặn ga vào dấu hiệu nước đã vào động cơ hoặc truyền động.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "supports": "Dat Bike (trang lỗi thường gặp, đăng 17/10/2025, sửa 09/10/2026) nêu nguyên nhân thứ nhất của tiếng ồn bất thường: ốc vít, bu lông bị lỏng; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "supports": "Dat Bike nêu nguyên nhân thứ hai của tiếng ồn bất thường: vòng bi (bạc đạn) hỏng hoặc khô dầu; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "supports": "Dat Bike nêu cách xử lý khi nghi động cơ lỗi: đưa xe đến trung tâm bảo hành để kiểm tra chuyên sâu; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "supports": "Dat Bike khuyên tra dầu bôi trơn xích, ổ trục và vòng bi để giảm ma sát và tránh phát sinh tiếng ồn; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/dong-co-xe-may-dien/",
+      "supports": "Dat Bike (trang động cơ, đăng 26/12/2025, sửa 09/10/2026) nêu nhược điểm của mid-motor là có tiếng ồn từ hệ thống truyền động; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cach-kiem-tra-he-thong-dien-tren-xe-may-dien-yadea/",
+      "supports": "Yadea Việt Nam (20/02/2025) nêu xe chạy yếu hoặc đứt quãng có thể do bộ điều khiển hoặc động cơ; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "supports": "Dat Bike (trang rửa xe, đăng 17/10/2025, sửa 09/10/2026) liệt kê tiếng kêu lạ, rung mạnh, giảm công suất rõ rệt trong các trường hợp nên mang xe đến bảo hành; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/dong-co-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cach-kiem-tra-he-thong-dien-tren-xe-may-dien-yadea/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/dong-co-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cach-kiem-tra-he-thong-dien-tren-xe-may-dien-yadea/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2349,
+        "title": "Xe máy điện giá bao nhiêu? Các nhóm giá phổ biến hiện nay",
+        "why": "stale",
+        "content_hash": "7cbacf7f21600cfcf6443eefa80b95d210de98f76fea5ef8dade3a018e9a3e6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2352,
+        "title": "Xe máy điện có cần bằng lái không? Cách phân biệt theo công suất",
+        "why": "stale",
+        "content_hash": "8c5c200eacd4af62c6f482e36bad9112feb65d56c6bb4032d8dbae3c82a64876",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2540,
+        "title": "Xe máy hao xăng bất thường do đâu? Các nguyên nhân thường gặp",
+        "why": "stale",
+        "content_hash": "5c70a54e235309eb24f97e3e7ea779c89f838366ff1a2bd96487d780ea3eb0c2",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T04:25:01.200035+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "eeb44dce9304a371ad18a1d39fc1eea182b066f698300281bdcf6fbefd051e4f",
+  "incremental_key": "20a6f3b6d6c9bd7578de01f3e6496a3e04b9e6dcc1e2d5f7f3be47d179fde035",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
