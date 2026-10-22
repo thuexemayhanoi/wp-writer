@@ -32280,7 +32280,7 @@
       }
     },
     "NT-091240": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T06:30:51.999637+00:00",
       "source_hash": "677a9155c6c298e629de22290ea6ce7f135153d0e165469c66497986dffeed25",
       "slug": "mang-vali-len-xe-buyt-ha-noi-duoc-khong-10-kg-va-30x40x60-cm-tuyen-san-bay-va-lien-tinh-duoc-20-kg",
@@ -32296,8 +32296,37 @@
       "category_warning": null,
       "git_commit": "324d5fa95b1b3cf509d8171b4f0b681d35eddccc",
       "run_id": "39733958321",
-      "updated_at": "2026-10-22T06:30:57.965218+00:00",
-      "wp_id": 4754
+      "updated_at": "2026-10-22T06:31:04.877572+00:00",
+      "wp_id": 4754,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/mang-vali-len-xe-buyt-ha-noi-duoc-khong-10-kg-va-30x40x60-cm-tuyen-san-bay-va-lien-tinh-duoc-20-kg/",
+      "verified_at": "2026-10-22T06:31:04.877561+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4754,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/mang-vali-len-xe-buyt-ha-noi-duoc-khong-10-kg-va-30x40x60-cm-tuyen-san-bay-va-lien-tinh-duoc-20-kg/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/mang-vali-len-xe-buyt-ha-noi-duoc-khong-10-kg-va-30x40x60-cm-tuyen-san-bay-va-lien-tinh-duoc-20-kg/",
+        "seo_title": "Mang vali lên xe buýt Hà Nội: 10 kg, 30x40x60 cm, tuyến sân bay 20 kg",
+        "seo_description": "Mang vali lên xe buýt Hà Nội: Điều 24 Thông tư 36/2024 cho 10 kg và 30x40x60 cm, tuyến sân bay và liên tỉnh 20 kg; so với metro 56x36x23 cm và 18 kg.",
+        "checked_at": "2026-10-22T06:31:04.877536+00:00"
+      }
     }
   },
   "categories": {}
