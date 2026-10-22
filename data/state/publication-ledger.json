@@ -30565,7 +30565,7 @@
       }
     },
     "NT-001602": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:13:30.189075+00:00",
       "source_hash": "ff5fd59665c506ccc1adc787b3e118f994ff4ed20e49f4e1f0574777da9c49dd",
       "slug": "cao-lau-hoi-an-va-buoi-di-bo-pho-co-nuoc-gieng-ba-le-tro-cu-lao-cham",
@@ -30581,8 +30581,37 @@
       "category_warning": null,
       "git_commit": "c9657e0c2092d90d90220c2c60a49d8afebb4906",
       "run_id": "39720614350",
-      "updated_at": "2026-10-22T04:13:34.250912+00:00",
-      "wp_id": 4691
+      "updated_at": "2026-10-22T04:13:39.830293+00:00",
+      "wp_id": 4691,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cao-lau-hoi-an-va-buoi-di-bo-pho-co-nuoc-gieng-ba-le-tro-cu-lao-cham/",
+      "verified_at": "2026-10-22T04:13:39.830286+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4691,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cao-lau-hoi-an-va-buoi-di-bo-pho-co-nuoc-gieng-ba-le-tro-cu-lao-cham/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cao-lau-hoi-an-va-buoi-di-bo-pho-co-nuoc-gieng-ba-le-tro-cu-lao-cham/",
+        "seo_title": "Cao lầu Hội An và buổi đi bộ phố cổ: giếng Bá Lễ, tro, giờ đi bộ",
+        "seo_description": "Cao lầu Hội An và buổi đi bộ phố cổ: sợi mì ngâm tro, nước giếng Bá Lễ, tro Cù Lao Chàm theo hai nguồn, cùng giờ đi bộ và giờ xe máy bị cấm theo báo, kèm ngày.",
+        "checked_at": "2026-10-22T04:13:39.830269+00:00"
+      }
     }
   },
   "categories": {}
