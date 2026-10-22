@@ -30122,6 +30122,25 @@
         "seo_description": "Xe 50cc cho hành trình ngắn: tập ở bãi vắng theo cẩm nang Ontario và RoSPA, thứ tự bài tập ga êm, hai phanh, rẽ chậm, nhìn xa và dấu hiệu tự kiểm tra.",
         "checked_at": "2026-10-22T03:59:31.562805+00:00"
       }
+    },
+    "NT-001481": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T04:04:46.158492+00:00",
+      "source_hash": "5cdfdd90ffd4cb97b3223df404533610193ea57cabb4a929e53b55d428d3f932",
+      "slug": "quen-giay-to-xe-may-dien-co-bi-phat-khong-luat-bat-buoc-mang-gi-va-loi-nao-bi-phat",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 171,
+      "visible_hash": "d9e8d5e51d5b737215bb928b3963fad3cd44c97f0cc52942b258c1bb9911cafa",
+      "first_paragraph": "Quên giấy tờ xe máy điện có bị phạt không phụ thuộc vào chuyện bạn quên mang hay không có giấy tờ: Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 buộc người lái xe mang theo giấy tờ, còn Nghị định 168/2024/NĐ-CP phạt rõ các lỗi không có chứng nhận đăng ký xe (2–3 triệu đồng), không có chứng nhận bảo hiểm bắt buộc (200–300 nghìn đồng) và, với mô tô điện, không có giấy phép lái xe (2–4 triệu hoặc 6–8 triệu đồng tùy công suất). Trong các điều người viết đọc, chữ \"không mang theo\" chỉ gắn với xe kinh doanh vận tải và một trường hợp giấy phép lái xe quốc tế, nên bài không thấy điểm nào phạt riêng người đi xe không kinh doanh vận tải chỉ vì để quên giấy ở nhà; tuy vậy bài không kết luận rằng như thế chắc chắn không bị xử lý.",
+      "meta_title": "Quên giấy tờ xe máy điện có bị phạt không: Luật buộc mang gì, lỗi nào",
+      "meta_description": "Quên giấy tờ xe máy điện có bị phạt không: Luật 36/2024 buộc mang gì, Nghị định 168/2024 phạt lỗi không có đăng ký, bảo hiểm, bằng lái và khác gì với quên mang theo.",
+      "intended_taxonomy_key": "driving-licence",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "6cfc2a756a7b4ed4288ecf4d4d7856f3349d40e6",
+      "run_id": "39719712916",
+      "updated_at": "2026-10-22T04:04:46.160669+00:00"
     }
   },
   "categories": {}
