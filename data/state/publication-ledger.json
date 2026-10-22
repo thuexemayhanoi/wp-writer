@@ -31202,7 +31202,7 @@
       }
     },
     "NT-001633": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:32:56.024656+00:00",
       "source_hash": "9b7461c85755ae9a8cd7625bd95b7b9bea24eccab32ad18582d8f1dc90fe2ba6",
       "slug": "ba-vi-va-rung-thong-voi-tre-nho-chon-doan-di-bo-ngan-ngay-di-va-gio-nghi",
@@ -31218,8 +31218,37 @@
       "category_warning": null,
       "git_commit": "9c0156d4d7b1a140206400ae532157c1ebdc3261",
       "run_id": "39722469737",
-      "updated_at": "2026-10-22T04:32:59.894271+00:00",
-      "wp_id": 4704
+      "updated_at": "2026-10-22T04:33:05.744435+00:00",
+      "wp_id": 4704,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ba-vi-va-rung-thong-voi-tre-nho-chon-doan-di-bo-ngan-ngay-di-va-gio-nghi/",
+      "verified_at": "2026-10-22T04:33:05.744427+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4704,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ba-vi-va-rung-thong-voi-tre-nho-chon-doan-di-bo-ngan-ngay-di-va-gio-nghi/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ba-vi-va-rung-thong-voi-tre-nho-chon-doan-di-bo-ngan-ngay-di-va-gio-nghi/",
+        "seo_title": "Ba Vì và rừng thông với trẻ nhỏ: đi bộ ngắn, ngày đi, giờ nghỉ",
+        "seo_description": "Ba Vì và rừng thông với trẻ nhỏ: chọn đoạn đi bộ ngắn 300 m, ngày thường trong mùa dã quỳ 2026, giờ nghỉ và lưu ý an toàn trên đường núi.",
+        "checked_at": "2026-10-22T04:33:05.744410+00:00"
+      }
     }
   },
   "categories": {}
