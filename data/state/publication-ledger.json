@@ -33062,6 +33062,25 @@
         "seo_description": "Đường dành riêng cho xe buýt được Nghị định 168/2024 nhắc ở Điều 6 và 8, không ở Điều 7 dành cho xe máy. Luật 36/2024, Nghị định 238/2026 và điều bài chưa kết luận.",
         "checked_at": "2026-10-22T09:29:03.502927+00:00"
       }
+    },
+    "NT-090291": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T09:29:41.786065+00:00",
+      "source_hash": "43d0f9dc61a9b4e987bfdbbd636809b8af69c8c4ae9b45ecbfbe8be5f10b126b",
+      "slug": "bien-p-111a-cam-xe-gan-may-p-104-cam-xe-may-va-p-103a-cam-xe-o-to-xe-50cc-bi-cam-o-bien-nao",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 165,
+      "visible_hash": "fb94c2a1aafc2ce0b039796f978a264cdd4d28a7670cc70fecd939c15f5621a1",
+      "first_paragraph": "Biển cấm xe gắn máy P.111a là biển nêu thẳng tên xe gắn máy trong danh sách biển cấm ở Điều 22 của QCVN 41:2024/BGTVT, và mục B.11 của quy chuẩn ghi biển này báo đường cấm xe gắn máy đi qua, không có giá trị đối với xe đạp. Xe 50cc là xe gắn máy theo Điều 34 Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 khi động cơ nhiệt không lớn hơn 50 cm³ và vận tốc thiết kế không lớn hơn 50 km/h. Biển P.103a \"Cấm xe ô tô\" theo mục B.3 loại trừ xe máy 2 bánh và xe gắn máy, nên chính biển đó không cấm xe 50cc. Biển P.104 \"Cấm xe máy\" thì mục B.4 chỉ viết \"các loại xe máy\", và trong các đoạn quy chuẩn bài đã đọc không có định nghĩa \"xe máy\" hay \"xe gắn máy\", nên bài không kết luận P.104 có cấm xe gắn máy hay không. Khi chưa chắc, gợi ý của người viết là không đi vào đoạn có biển P.104 hoặc P.105 và hỏi cơ quan có thẩm quyền.",
+      "meta_title": "Biển cấm xe gắn máy P.111a, P.104, P.103a: xe 50cc bị cấm ở biển nào",
+      "meta_description": "Biển cấm xe gắn máy P.111a nêu thẳng xe gắn máy; P.103a loại trừ xe gắn máy; P.104 chưa nói rõ theo QCVN 41:2024/BGTVT. Xe 50cc bị cấm ở biển nào và nên làm gì khi chưa chắc.",
+      "intended_taxonomy_key": "rental-50cc",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "d7d0cbd4d61b69ff3bdbb166c0299bc855cce0b1",
+      "run_id": "39755164181",
+      "updated_at": "2026-10-22T09:29:41.787933+00:00"
     }
   },
   "categories": {}
