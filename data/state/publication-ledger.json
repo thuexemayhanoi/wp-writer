@@ -32231,7 +32231,7 @@
       }
     },
     "NT-080017": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T06:22:58.510652+00:00",
       "source_hash": "673c38b5bab10bf150ac96d57b03020d2dc2ad7956729a71cd789d1e0ab5ed01",
       "slug": "di-xe-may-tu-long-bien-den-pho-co-cau-long-bien-mo-lai-28-5-2026-khu-cam-xe-19h-24h-thu-sau-chu-nhat-bat-dau-tu-dau",
@@ -32247,8 +32247,37 @@
       "category_warning": null,
       "git_commit": "4a5bb9a8771c7ae28500ebbbb60300c061d7252e",
       "run_id": "39733143619",
-      "updated_at": "2026-10-22T06:23:02.581684+00:00",
-      "wp_id": 4753
+      "updated_at": "2026-10-22T06:23:08.662507+00:00",
+      "wp_id": 4753,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/di-xe-may-tu-long-bien-den-pho-co-cau-long-bien-mo-lai-28-5-2026-khu-cam-xe-19h-24h-thu-sau-chu-nhat-bat-dau-tu-dau/",
+      "verified_at": "2026-10-22T06:23:08.662501+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4753,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/di-xe-may-tu-long-bien-den-pho-co-cau-long-bien-mo-lai-28-5-2026-khu-cam-xe-19h-24h-thu-sau-chu-nhat-bat-dau-tu-dau/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/di-xe-may-tu-long-bien-den-pho-co-cau-long-bien-mo-lai-28-5-2026-khu-cam-xe-19h-24h-thu-sau-chu-nhat-bat-dau-tu-dau/",
+        "seo_title": "Đi xe máy từ Long Biên đến Phố Cổ: chọn cầu, giờ cấm 19h–24h, chỗ gửi",
+        "seo_description": "Đi xe máy từ Long Biên đến Phố Cổ: cầu Long Biên mở lại từ 28/5/2026, Khu vực 1 cấm xe 19h–24h thứ Sáu đến Chủ nhật, chốt kiểm soát và cách chọn chỗ gửi xe.",
+        "checked_at": "2026-10-22T06:23:08.662483+00:00"
+      }
     }
   },
   "categories": {}
