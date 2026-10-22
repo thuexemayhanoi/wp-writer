@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-22T10:46:53.309293+00:00",
-  "attempted": 3,
+  "at": "2026-10-22T11:05:41.946540+00:00",
+  "attempted": 2,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -191,11 +191,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T10:44:54.323488+00:00",
+      "at": "2026-10-22T11:04:10.106768+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "4c6a8d2ca298ecb4051dd04d414f1d9394c97bca8d5153109eeb978e34227043",
+      "inventory_sha256": "c5db24e280ca25e23347869b966107830cec1f2f5a6a9e048e9600a5513a824f",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -380,11 +380,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T10:45:03.506335+00:00",
+      "at": "2026-10-22T11:04:19.189368+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "4c6a8d2ca298ecb4051dd04d414f1d9394c97bca8d5153109eeb978e34227043",
+      "inventory_sha256": "c5db24e280ca25e23347869b966107830cec1f2f5a6a9e048e9600a5513a824f",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -577,11 +577,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T10:45:11.481202+00:00",
+      "at": "2026-10-22T11:04:27.395723+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "4c6a8d2ca298ecb4051dd04d414f1d9394c97bca8d5153109eeb978e34227043",
+      "inventory_sha256": "c5db24e280ca25e23347869b966107830cec1f2f5a6a9e048e9600a5513a824f",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -601,27 +601,19 @@
       }
     },
     {
-      "topic_id": "NT-001844",
+      "topic_id": "NT-001871",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 171,
+      "category_id": 172,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "driving-licence",
+      "intended_taxonomy_key": "hanoi-travel",
       "category_warning": null
     },
     {
-      "topic_id": "NT-001845",
+      "topic_id": "NT-001933",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 171,
+      "category_id": 173,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "driving-licence",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001846",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 171,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "driving-licence",
+      "intended_taxonomy_key": "vietnam-travel",
       "category_warning": null
     }
   ],
