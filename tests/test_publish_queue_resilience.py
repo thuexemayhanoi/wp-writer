@@ -17,7 +17,7 @@ import intake
 import qa
 import qa_gate
 from common import SITE, WP, WPRejected, digest
-from publisher import Publisher, RunStop, attempt_create
+from publisher import Publisher, RunStop, attempt_create, publisher_has_work
 from test_factory import FakeWP
 
 POLICY = {'mode': 'draft_only', 'production_enabled': False, 'paused': False, 'emergency_stop': False}
@@ -28,6 +28,49 @@ TOPIC = {'topic_id': 'NT-999999', 'title': 'Isolated unit fixture', 'proposed_sl
 def http_error(status):
     return urllib.error.HTTPError(SITE + '/wp-json/wp/v2/posts', status, 'simulated response', {}, None)
 
+
+
+class IdlePublisherPreflightTests(unittest.TestCase):
+    """Idle scheduled runs must not burden WordPress; new/uncertain work must still run."""
+
+    def check(self, draft_content=None, qa_status=None, recorded_hash=None, ledger=None):
+        import json
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp)
+            (root/'posts/drafts').mkdir(parents=True)
+            (root/'data/qa').mkdir(parents=True)
+            if draft_content is not None:
+                (root/'posts/drafts/NT-000001.md').write_text(draft_content,encoding='utf-8')
+            if qa_status is not None:
+                (root/'data/qa/NT-000001.json').write_text(json.dumps({
+                    'status':qa_status,
+                    'source_sha256':recorded_hash if recorded_hash is not None else digest(draft_content)
+                }),encoding='utf-8')
+            with patch('publisher.ROOT',root), patch('publisher.load',side_effect=lambda p,default=None: (
+                    ledger if p=='data/state/publication-ledger.json'
+                    else json.loads((root/p).read_text()) if (root/p).exists() else default)):
+                return publisher_has_work()
+
+    def test_empty_run_skips_network(self):
+        self.assertFalse(self.check(ledger={'posts':{}}))
+
+    def test_existing_failed_unchanged_draft_skips_network(self):
+        self.assertFalse(self.check('unchanged',qa_status='FAIL',ledger={'posts':{}}))
+
+    def test_changed_failed_draft_requires_live_recheck(self):
+        self.assertTrue(self.check('new bytes',qa_status='FAIL',recorded_hash=digest('old bytes'),ledger={'posts':{}}))
+
+    def test_new_draft_requires_live_recheck(self):
+        self.assertTrue(self.check('unscored',ledger={'posts':{}}))
+
+    def test_qa_pass_draft_requires_wordpress(self):
+        self.assertTrue(self.check('qa pass',qa_status='PASS',ledger={'posts':{}}))
+
+    def test_uncertain_post_intent_requires_reconciliation(self):
+        self.assertTrue(self.check(ledger={'posts':{'NT-000007':{'phase':'NEEDS_RECONCILE'}}}))
+
+    def test_verified_post_does_not_trigger_wordpress(self):
+        self.assertFalse(self.check(ledger={'posts':{'NT-000008':{'phase':'VERIFIED'}}}))
 
 class WithdrawTests(unittest.TestCase):
     def setUp(self):
