@@ -35073,7 +35073,7 @@
       }
     },
     "NT-001935": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T11:23:23.994612+00:00",
       "source_hash": "43a3775f2b467e79147df2643397059584dbe4077edf1a332f094f8a59330e66",
       "slug": "di-co-to-tu-ha-noi-cang-cai-rong-hay-ao-tien-lich-tau-don-chuyen-tu-3-2026",
@@ -35089,8 +35089,37 @@
       "category_warning": null,
       "git_commit": "abb53e9a25e04324f37450d57629e87b655db50f",
       "run_id": "39769304805",
-      "updated_at": "2026-10-22T11:23:28.080612+00:00",
-      "wp_id": 4811
+      "updated_at": "2026-10-22T11:23:33.730985+00:00",
+      "wp_id": 4811,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/di-co-to-tu-ha-noi-cang-cai-rong-hay-ao-tien-lich-tau-don-chuyen-tu-3-2026/",
+      "verified_at": "2026-10-22T11:23:33.730978+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4811,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/di-co-to-tu-ha-noi-cang-cai-rong-hay-ao-tien-lich-tau-don-chuyen-tu-3-2026/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/di-co-to-tu-ha-noi-cang-cai-rong-hay-ao-tien-lich-tau-don-chuyen-tu-3-2026/",
+        "seo_title": "Đi Cô Tô từ Hà Nội: cảng Cái Rồng hay Ao Tiên, lịch tàu từ 3/2026",
+        "seo_description": "Đi Cô Tô từ Hà Nội theo hai chặng: cảng Cái Rồng hay Ao Tiên theo VnExpress, tàu cao tốc và tàu gỗ khác nhau ra sao, lịch tàu dồn chuyến ngày 11/3/2026 và mùa đi.",
+        "checked_at": "2026-10-22T11:23:33.730959+00:00"
+      }
     }
   },
   "categories": {}
