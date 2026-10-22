@@ -38895,7 +38895,7 @@
       }
     },
     "NT-090181": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T16:18:23.272939+00:00",
       "source_hash": "fa5c68d65e4ba381d98e557a7a6669397ae41fc525d5712f10d586e895e5b47b",
       "slug": "nhom-ban-thue-xe-may-mot-nguoi-dung-ten-hay-cung-ky-dieu-287-va-288-bo-luat-dan-su-noi-gi",
@@ -38911,8 +38911,37 @@
       "category_warning": null,
       "git_commit": "bbb96c083cbf7410f70b96d536d8be024df30c78",
       "run_id": "39811599986",
-      "updated_at": "2026-10-22T16:18:27.636471+00:00",
-      "wp_id": 4889
+      "updated_at": "2026-10-22T16:18:34.393710+00:00",
+      "wp_id": 4889,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nhom-ban-thue-xe-may-mot-nguoi-dung-ten-hay-cung-ky-dieu-287-va-288-bo-luat-dan-su-noi-gi/",
+      "verified_at": "2026-10-22T16:18:34.393704+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4889,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nhom-ban-thue-xe-may-mot-nguoi-dung-ten-hay-cung-ky-dieu-287-va-288-bo-luat-dan-su-noi-gi/",
+        "categories": [
+          163
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nhom-ban-thue-xe-may-mot-nguoi-dung-ten-hay-cung-ky-dieu-287-va-288-bo-luat-dan-su-noi-gi/",
+        "seo_title": "Một người đứng tên thuê xe máy cho nhóm bạn: Điều 287, 288 nói gì",
+        "seo_description": "Một người đứng tên thuê xe máy cho nhóm bạn hay cùng ký? Cách đọc Điều 287 và 288 Bộ luật Dân sự về nghĩa vụ riêng rẽ, liên đới và việc nên ghi rõ trước khi nhận xe.",
+        "checked_at": "2026-10-22T16:18:34.393686+00:00"
+      }
     }
   },
   "categories": {}
