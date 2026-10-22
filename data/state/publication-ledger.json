@@ -33309,7 +33309,7 @@
       }
     },
     "NT-090452": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T09:57:25.174832+00:00",
       "source_hash": "4befa36a2633cecb8c222019b959fa2b00b0b5d8954abbce1521e4d150e6f194",
       "slug": "phat-nguoi-den-sau-khi-tra-xe-may-thue-thoi-hieu-1-nam-tinh-tu-luc-camera-ghi-hinh",
@@ -33325,8 +33325,37 @@
       "category_warning": null,
       "git_commit": "65f394e6fdd3b74f9ee61b86d116dcc60c2db49d",
       "run_id": "39758867581",
-      "updated_at": "2026-10-22T09:57:29.836880+00:00",
-      "wp_id": 4775
+      "updated_at": "2026-10-22T09:57:36.211717+00:00",
+      "wp_id": 4775,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/phat-nguoi-den-sau-khi-tra-xe-may-thue-thoi-hieu-1-nam-tinh-tu-luc-camera-ghi-hinh/",
+      "verified_at": "2026-10-22T09:57:36.211709+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4775,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/phat-nguoi-den-sau-khi-tra-xe-may-thue-thoi-hieu-1-nam-tinh-tu-luc-camera-ghi-hinh/",
+        "categories": [
+          164
+        ],
+        "canonical": "https://thuexemaynguyentu.com/phat-nguoi-den-sau-khi-tra-xe-may-thue-thoi-hieu-1-nam-tinh-tu-luc-camera-ghi-hinh/",
+        "seo_title": "Phạt nguội sau khi trả xe máy thuê: thời hiệu 1 năm từ lúc ghi hình",
+        "seo_description": "Phạt nguội đến sau khi trả xe máy thuê: Điều 4 Nghị định 168/2024 đặt thời hiệu 01 năm tính từ lúc thiết bị ghi hình; quá hạn mà chưa ra quyết định thì kết quả hết giá trị.",
+        "checked_at": "2026-10-22T09:57:36.211690+00:00"
+      }
     }
   },
   "categories": {}
