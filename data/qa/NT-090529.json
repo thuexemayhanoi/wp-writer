@@ -1,0 +1,163 @@
+{
+  "topic_id": "NT-090529",
+  "status": "PASS",
+  "source_sha256": "c9757d58da4260a5c20b7d37b0360461c3ed972592fc1f39bba915be4735d1ab",
+  "body_sha256": "01ad11391c94e4060f0cdbeb0028d0a5a611de2a882975d31009023229f2942e",
+  "word_count": 2520,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "supports": "Cục Cảnh sát PCCC và CNCH (đăng 24/05/2024): sạc nơi không thông thoáng để thiết bị tản nhiệt là một nguyên nhân chập cháy; khuyến cáo sạc nơi khô ráo, thoáng mát và tránh nơi kín.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://canhsatpccc.gov.vn/vi/news/huong-dan-cong-dong/an-toan-phong-chong-chay-khi-sac-xe-dien-614",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 836,
+        "title": "Thuê Xe Máy Ở Phố Cổ Hà Nội – Địa Chỉ & Giá Tham Khảo",
+        "why": "stale",
+        "content_hash": "82db64c0e0ace3f1b947ea98d95ff4eafbfb3e5bcfb87818d4d66d92eda0a9e1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2362,
+        "title": "Trạm Sạc Xe Máy Điện Hoạt Động Ra Sao Và Cần Lưu Ý Gì Khi Sử Dụng?",
+        "why": "stale",
+        "content_hash": "a17c9cf060eb4fcc003a8361442a9640e3697f1a42863cfbcf483016e0e39b82",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2395,
+        "title": "Trạm đổi pin VinFast hoạt động thế nào và phù hợp với ai khi dùng?",
+        "why": "stale",
+        "content_hash": "9f9843961c374c21766abd5bb5050f062102544f65af6bdc3a63b572f32ea88e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2397,
+        "title": "Xe máy điện VinFast nào phù hợp đi phố và quãng đường ngắn hằng ngày?",
+        "why": "stale",
+        "content_hash": "2b93d3334950d29cdf087539809b34e2aca4cc02672b85bcc31d2f5de9a815aa",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2559,
+        "title": "Các loại bằng lái xe máy hiện nay và cách phân biệt từng hạng",
+        "why": "stale",
+        "content_hash": "1dbe75f2df7dd3b894e673123e9c56ffdda9c772f072b8cb4682f49b0f264d0e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T20:41:01.222612+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "650834190894a12fe69aa78e0046bc03153409195c02a36a37d2bf406ee573bd",
+  "incremental_key": "4bb201c1115595af40c1fcfde7d817f7fdfe12f1122d3fbed75e8cbc31fca53a",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

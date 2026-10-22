@@ -1,0 +1,176 @@
+{
+  "topic_id": "NT-002084",
+  "status": "PASS",
+  "source_sha256": "87c66d2985be25631b493ef73aa490b78c4a874e9b1727bfc5874d6ec381a191",
+  "body_sha256": "bb01dbf3d23f9078c0edfcc6e240e4a51285cbb01a673c74d24aaba848023c16",
+  "word_count": 1980,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vanmieu.gov.vn/vi/experience/night-tour",
+      "supports": "Trang Tour đêm Văn Miếu trên vanmieu.gov.vn (đọc ngày 22/10/2026, trang không ghi ngày đăng): bảng giá gói 1 show và gói 2 show, quy định chiều cao, nội dung hành trình và show 3D Mapping Tinh hoa đạo học",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanmieu.gov.vn/vi/introduction/visitor-information",
+      "supports": "Trang Thông tin cho du khách trên vanmieu.gov.vn (đọc ngày 22/10/2026, không ghi ngày đăng): giờ mở cửa 8:00 AM - 5:00 PM mọi ngày; tour đêm 6:30 PM - 10:00 PM thứ Tư, thứ Bảy và Chủ nhật; vé tiêu chuẩn 70.000 đồng, ưu tiên 35.000 đồng",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baolaocai.vn/co-gi-ben-trong-tour-du-lich-ban-dem-cua-van-mieu-quoc-tu-giam-post375388.html",
+      "supports": "Báo Lào Cai đăng lại VietnamPlus (30/10/2023, đọc ngày 22/10/2026): tour ra mắt từ 1/11/2023, giá 199 nghìn đồng, 19h00-22h30 thứ 4, thứ 7, Chủ nhật, ba suất 3D Mapping 20h-21h-22h",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vanmieu.gov.vn/vi/experience/night-tour",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanmieu.gov.vn/vi/introduction/visitor-information",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baolaocai.vn/co-gi-ben-trong-tour-du-lich-ban-dem-cua-van-mieu-quoc-tu-giam-post375388.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 829,
+        "title": "Hướng dẫn thủ tục thuê xe máy Hà Nội – Đơn giản, tiện lợi",
+        "why": "stale",
+        "content_hash": "578318e5b17adb06772523887bf8a61220239f52bf707ffec94a5eb9e5893753",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2483,
+        "title": "Honda Vision và Yamaha Janus: mẫu nào phù hợp người mới sử dụng?",
+        "why": "stale",
+        "content_hash": "6fc466c3b5378c825c8cf13864a995f0318d2f54654eae6377cfd6cd89a8bd59",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2634,
+        "title": "Địa điểm du lịch ngoại thành Hà Nội: 15 nơi đẹp đi về trong ngày",
+        "why": "stale",
+        "content_hash": "2731adb7b543fe9e03020ef632b7c13b728e598511c01bf75b886ac18433f364",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T20:47:11.929717+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "a7de22b1df1df87887f527a55555970f36cdcb346ff6fbd25e78721fdfed04d3",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

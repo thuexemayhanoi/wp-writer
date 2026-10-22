@@ -1,0 +1,322 @@
+{
+  "topic_id": "NT-002149",
+  "status": "PASS",
+  "source_sha256": "30c65a6cbfc71b7d4b3ed87573aa0b4aba2d3173bd40a256a359c44078f7f8ad",
+  "body_sha256": "dbe751dba2f99e90d6df9f56b16a0a72efadfe6cad328be45a99dfb0431dc104",
+  "word_count": 2020,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "supports": "Ontario MTO: nếu phải rời đường để kiểm tra xe hoặc nghỉ, kiểm tra mặt lề đủ cứng để chạy.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "supports": "Ontario MTO: lề cỏ mềm, cát rời hoặc không chắc thì giảm tốc hẳn trước khi rẽ vào.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "supports": "Ontario MTO: xe phía sau có thể không ngờ bạn giảm tốc nên nhìn gương và báo hiệu.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "supports": "Ontario MTO: tấp ra xa mép đường nhất có thể; xe máy bên lề rất khó thấy.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "supports": "Ontario MTO: lốp nổ thì chờ xe chạy rất chậm rồi mới nhích vào lề và để xe trôi đến khi dừng.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "supports": "Ontario MTO: đặt mũ xuống đất gần đường là tín hiệu giữa người đi xe máy rằng cần giúp (quy ước ở Canada).",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287",
+      "supports": "Highway Code Rule 275 (Anh): chỗ dừng tương đối an toàn là nơi ít bị đe dọa bởi xe đang chạy.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287",
+      "supports": "Highway Code Rule 275 (Anh): nơi an toàn nhất để dừng là nơi được thiết kế để đỗ xe.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287",
+      "supports": "Highway Code Rule 275 (Anh): giữ xa xe và dòng xe, nếu không xe bị đâm có thể bị đẩy vào người.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287",
+      "supports": "Highway Code Rule 276 (Anh): không đứng, và không để ai đứng, giữa xe và dòng xe đang tới.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287",
+      "supports": "Highway Code Rule 276 (Anh): ban đêm hoặc tầm nhìn kém, không đứng ở chỗ che đèn xe của mình.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/dealing-emergencies",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2500,
+        "title": "Dấu hiệu xích xe máy quá chùng và cách kiểm tra trước khi đi xa",
+        "why": "stale",
+        "content_hash": "d061c138b067d5f2223950a7aaa38ebe11024f983962f728d69b56d64948608d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2513,
+        "title": "Dấu hiệu má phanh xe máy cần thay và cách kiểm tra an toàn hằng ngày",
+        "why": "stale",
+        "content_hash": "f1040fa1950d3342eebff669b05d5319f4be2c2517c80ecddf1b4b239e6f5f16",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2521,
+        "title": "Cách kiểm tra lốp xe máy để phát hiện mòn, nứt và áp suất bất thường",
+        "why": "stale",
+        "content_hash": "08080c3d371127024550acb47d9ddf7feb4cdba807bbb1f3996c8e47b110a33d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2613,
+        "title": "Thuê Xe Máy Du Lịch Hà Nội: Hướng Dẫn Toàn Diện Từ A–Z Cho Người Lần Đầu",
+        "why": "stale",
+        "content_hash": "bba381bbf7c63d362331437ee0e9ba63294ca01b4eb144c43fe71ca1f20731a0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4060,
+        "title": "Thuê xe máy mang máy ảnh và laptop đi nhiều điểm ở Hà Nội: chọn xe, xếp đồ, giữ tài sản",
+        "why": "stale",
+        "content_hash": "584f824812a9722445c863b0480c4d8fb9b5cfcccab9e5bbca8a4de6ce3e0be4",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T20:48:28.721314+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "2f93822d618ba625bc4189b986576a4d7f4fdcac707773436bfe83755d564ebf",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

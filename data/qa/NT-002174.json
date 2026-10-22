@@ -1,0 +1,169 @@
+{
+  "topic_id": "NT-002174",
+  "status": "PASS",
+  "source_sha256": "4d3d444ab74fea84f2983a3fc1830d5afeb5c68755f9e530bb4d4934dafb657a",
+  "body_sha256": "9a956ba548a71b3ce124623cd60c826fa5bfd04572240c84670fbc7d963a46c3",
+  "word_count": 2329,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://noibaiairport.vn/vi/CO-SO-HA-TANG-DANH-CHO-NGUOI-HAN-CHE-DI-CHUYEN-TAI-NHA-GA-HANH-KHACH-T2--CANG-HKQT-NOI-BAI-nid643.html",
+      "supports": "Trang của cảng về cơ sở hạ tầng cho người hạn chế di chuyển ở T2: lối xe đẩy ở tầng 3, lối ưu tiên, nhà vệ sinh riêng, ghế ưu tiên, độ dốc làn đón, 12 vị trí đỗ ở P3 và 2 vị trí đón tầng 1, xe nối chuyến có ghế riêng",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://noibaiairport.vn/vi/ban-co-biet-dich-vu-xe-buyt-noi-chuyen--shuttle-bus---mien-phi-tai-cang-hkqt-noi-bai-nid478.html",
+      "supports": "Bài giới thiệu xe buýt nối chuyến miễn phí của cảng: sức chứa 60 chỗ, có khu vực ghế phục vụ khách sử dụng xe lăn, trẻ em, người già",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://noibaiairport.vn/vi/CO-SO-HA-TANG-DANH-CHO-NGUOI-HAN-CHE-DI-CHUYEN-TAI-NHA-GA-HANH-KHACH-T2--CANG-HKQT-NOI-BAI-nid643.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://noibaiairport.vn/vi/ban-co-biet-dich-vu-xe-buyt-noi-chuyen--shuttle-bus---mien-phi-tai-cang-hkqt-noi-bai-nid478.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 868,
+        "title": "Thuê Xe Máy Gần Đống Đa Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "7574ba8706698856e8606ef76031148431139d18607d01d046086677ef8b181d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 875,
+        "title": "Thuê xe máy Bến xe Gia Lâm: giá và cách nhận xe Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "6e8e3642aed27cd0f35c4dc19df3adf22668ca6e4d469dd846fe73662e851a99",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 1061,
+        "title": "Thuê Xe Máy Sân Bay Nội Bài: Hướng Dẫn Đi Buýt 17 Về Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "94df7fc2946d2c862d4f9d470cb51c0cfcc6a20f6f20d8077663c3178d1f6ab9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2413,
+        "title": "Honda ICON e: có cần bằng lái không và ai nên sử dụng mẫu xe này?",
+        "why": "stale",
+        "content_hash": "1cec213da2c026074a8eef073c5eee4f24e6a5ee5a39071584bb8e1f1a96c4a5",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T20:49:44.171298+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "84d33b591f99e71eb164740cef31312fb858fa33a7b6202ade2eb69396ca569e",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

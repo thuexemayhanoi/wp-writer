@@ -1,53 +1,17 @@
 {
-  "at": "2026-10-22T20:39:53.591388+00:00",
+  "at": "2026-10-22T20:50:30.698640+00:00",
   "counts": {
-    "WRITING": 31,
+    "WRITING": 19,
     "QA": 0,
-    "READY": 0,
+    "READY": 2,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 836
+    "VERIFIED": 846
   },
-  "ready_backlog": 0,
-  "in_flight": 34,
+  "ready_backlog": 2,
+  "in_flight": 24,
   "items": [
-    {
-      "topic_id": "NT-001944",
-      "state": "WRITING",
-      "reason": "leased to seodev-w90",
-      "title": "Liên hoan Ẩm thực Quảng Ninh 2026: 20–24/11 ở Bãi Cháy, khoảng 150 gian hàng",
-      "slot": "W2",
-      "session": "seodev-w90",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001945",
-      "state": "WRITING",
-      "reason": "leased to seodev-w90",
-      "title": "Đồng Văn tái thẩm định UNESCO 2026: đoàn chuyên gia kiểm tra 34 điểm di sản nào",
-      "slot": "W2",
-      "session": "seodev-w90",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001979",
-      "state": "WRITING",
-      "reason": "leased to seodev-w90",
-      "title": "Làng đúc đồng Ngũ Xã ở hồ Trúc Bạch: 400 hay 500 năm tuổi, nghề còn gì",
-      "slot": "W2",
-      "session": "seodev-w90",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-002051",
       "state": "WRITING",
@@ -157,42 +121,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-002083",
-      "state": "WRITING",
-      "reason": "leased to seodev-w91",
-      "title": "Tour đêm Hoàng thành Thăng Long: trang chính thức ghi tối thứ Sáu–Bảy hay Bảy–CN",
-      "slot": "W1",
-      "session": "seodev-w91",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-002084",
-      "state": "WRITING",
-      "reason": "leased to seodev-w91",
-      "title": "Tour đêm Văn Miếu: 18h30–22h thứ Tư, Bảy, Chủ nhật, gói 1 show 299.000 đồng",
-      "slot": "W1",
-      "session": "seodev-w91",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-002085",
-      "state": "WRITING",
-      "reason": "leased to seodev-w91",
-      "title": "Gửi xe máy ở Văn Miếu: trang chính thức ghi Vườn Giám, cổng vào 58 Quốc Tử Giám",
-      "slot": "W1",
-      "session": "seodev-w91",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-002089",
       "state": "WRITING",
       "reason": "leased to seodev-w91",
@@ -211,54 +139,6 @@
       "title": "Bảo tàng Hồ Chí Minh: đóng cửa thứ Hai, thứ Sáu và người Việt Nam miễn vé",
       "slot": "W1",
       "session": "seodev-w91",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-002149",
-      "state": "WRITING",
-      "reason": "leased to seodev-w92",
-      "title": "Tấp xe máy vào lề an toàn: kiểm tra lề mềm, báo hiệu trước và đứng xa mép đường",
-      "slot": "W3",
-      "session": "seodev-w92",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-002150",
-      "state": "WRITING",
-      "reason": "leased to seodev-w92",
-      "title": "Bỏng ống xả xe máy: làm mát 20 phút bằng nước sạch, tránh mẹo và khi nào đi khám",
-      "slot": "W3",
-      "session": "seodev-w92",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-002174",
-      "state": "WRITING",
-      "reason": "leased to seodev-w95",
-      "title": "Người đi xe lăn ở sân bay Nội Bài: lối vào T2, chỗ đỗ P3 và xe nối chuyến",
-      "slot": "W7",
-      "session": "seodev-w95",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-002175",
-      "state": "WRITING",
-      "reason": "leased to seodev-w95",
-      "title": "Tìm bãi đỗ xe trên VNeID: thí điểm từ 9/2026, cần tài khoản mức 2, chưa phủ hết",
-      "slot": "W7",
-      "session": "seodev-w95",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -349,18 +229,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-090271",
-      "state": "WRITING",
-      "reason": "leased to seodev-w90",
-      "title": "Chìa khóa dự phòng xe máy thuê có phải vật phụ theo Điều 110, mất chìa thì đền theo Điều 479?",
-      "slot": "W2",
-      "session": "seodev-w90",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-090330",
       "state": "WRITING",
       "reason": "leased to seodev-w93",
@@ -373,16 +241,28 @@
       "seo_score": null
     },
     {
+      "topic_id": "NT-090271",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Chìa khóa dự phòng xe máy thuê có phải vật phụ theo Điều 110, mất chìa thì đền theo Điều 479?",
+      "slot": "W2",
+      "session": "seodev-w90",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-090529",
-      "state": "WRITING",
-      "reason": "leased to seodev-w93",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
       "title": "Để bộ sạc trong cốp khi đang sạc xe VinFast: sổ Amio S, Evo Lite, Motio ghi quá nhiệt, cháy nổ",
       "slot": "W4",
       "session": "seodev-w93",
       "wp_id": null,
       "url": null,
-      "qa_status": null,
-      "seo_score": null
+      "qa_status": "PASS",
+      "seo_score": 100
     },
     {
       "topic_id": "NT-001101",
@@ -9085,6 +8965,30 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001944",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Liên hoan Ẩm thực Quảng Ninh 2026: 20–24/11 ở Bãi Cháy, khoảng 150 gian hàng",
+      "slot": "W2",
+      "session": "seodev-w90",
+      "wp_id": 5022,
+      "url": "https://thuexemaynguyentu.com/lien-hoan-am-thuc-quang-ninh-2026-20-24-11-o-bai-chay-khoang-150-gian-hang/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001945",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đồng Văn tái thẩm định UNESCO 2026: đoàn chuyên gia kiểm tra 34 điểm di sản nào",
+      "slot": "W2",
+      "session": "seodev-w90",
+      "wp_id": 5023,
+      "url": "https://thuexemaynguyentu.com/dong-van-tai-tham-dinh-unesco-2026-doan-chuyen-gia-kiem-tra-34-diem-di-san-nao/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001961",
       "state": "VERIFIED",
       "reason": "publish",
@@ -9297,6 +9201,18 @@
       "session": "seodev-w89",
       "wp_id": 4872,
       "url": "https://thuexemaynguyentu.com/cha-ruoi-ha-noi-mua-ruoi-thang-nao-vo-quyt-hoi-va-cach-an-luc-con-nong/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001979",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Làng đúc đồng Ngũ Xã ở hồ Trúc Bạch: 400 hay 500 năm tuổi, nghề còn gì",
+      "slot": "W2",
+      "session": "seodev-w90",
+      "wp_id": 5024,
+      "url": "https://thuexemaynguyentu.com/lang-duc-dong-ngu-xa-o-ho-truc-bach-400-hay-500-nam-tuoi-nghe-con-gi/",
       "qa_status": "PASS",
       "seo_score": 100
     },
@@ -9553,6 +9469,42 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-002083",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Tour đêm Hoàng thành Thăng Long: trang chính thức ghi tối thứ Sáu–Bảy hay Bảy–CN",
+      "slot": "W1",
+      "session": "seodev-w91",
+      "wp_id": 5025,
+      "url": "https://thuexemaynguyentu.com/tour-dem-hoang-thanh-thang-long-trang-chinh-thuc-ghi-toi-thu-sau-bay-hay-bay-cn/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-002084",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Tour đêm Văn Miếu: 18h30–22h thứ Tư, Bảy, Chủ nhật, gói 1 show 299.000 đồng",
+      "slot": "W1",
+      "session": "seodev-w91",
+      "wp_id": 5026,
+      "url": "https://thuexemaynguyentu.com/tour-dem-van-mieu-18h30-22h-thu-tu-bay-chu-nhat-goi-1-show-299-000-dong/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-002085",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Gửi xe máy ở Văn Miếu: trang chính thức ghi Vườn Giám, cổng vào 58 Quốc Tử Giám",
+      "slot": "W1",
+      "session": "seodev-w91",
+      "wp_id": 5027,
+      "url": "https://thuexemaynguyentu.com/gui-xe-may-o-van-mieu-trang-chinh-thuc-ghi-vuon-giam-cong-vao-58-quoc-tu-giam/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-002086",
       "state": "VERIFIED",
       "reason": "publish",
@@ -9685,6 +9637,30 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-002149",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Tấp xe máy vào lề an toàn: kiểm tra lề mềm, báo hiệu trước và đứng xa mép đường",
+      "slot": "W3",
+      "session": "seodev-w92",
+      "wp_id": 5028,
+      "url": "https://thuexemaynguyentu.com/tap-xe-may-vao-le-an-toan-kiem-tra-le-mem-bao-hieu-truoc-va-dung-xa-mep-duong/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-002150",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Bỏng ống xả xe máy: làm mát 20 phút bằng nước sạch, tránh mẹo và khi nào đi khám",
+      "slot": "W3",
+      "session": "seodev-w92",
+      "wp_id": 5029,
+      "url": "https://thuexemaynguyentu.com/bong-ong-xa-xe-may-lam-mat-20-phut-bang-nuoc-sach-tranh-meo-va-khi-nao-di-kham/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-002171",
       "state": "VERIFIED",
       "reason": "publish",
@@ -9717,6 +9693,30 @@
       "session": "seodev-w95",
       "wp_id": 5019,
       "url": "https://thuexemaynguyentu.com/di-ben-xe-yen-nghia-bang-tau-dien-ga-cuoi-noi-xe-buyt-va-xe-khach-di-tinh/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-002174",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Người đi xe lăn ở sân bay Nội Bài: lối vào T2, chỗ đỗ P3 và xe nối chuyến",
+      "slot": "W7",
+      "session": "seodev-w95",
+      "wp_id": 5030,
+      "url": "https://thuexemaynguyentu.com/nguoi-di-xe-lan-o-san-bay-noi-bai-loi-vao-t2-cho-do-p3-va-xe-noi-chuyen/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-002175",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Tìm bãi đỗ xe trên VNeID: thí điểm từ 9/2026, cần tài khoản mức 2, chưa phủ hết",
+      "slot": "W7",
+      "session": "seodev-w95",
+      "wp_id": 5031,
+      "url": "https://thuexemaynguyentu.com/tim-bai-do-xe-tren-vneid-thi-diem-tu-9-2026-can-tai-khoan-muc-2-chua-phu-het/",
       "qa_status": "PASS",
       "seo_score": 100
     },

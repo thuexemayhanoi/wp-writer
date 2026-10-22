@@ -1,0 +1,272 @@
+{
+  "topic_id": "NT-002150",
+  "status": "PASS",
+  "source_sha256": "9078d70faa66fcc149451b2538d3910cff0ebdb5169869535dfc2b8ee8989e42",
+  "body_sha256": "d231538265d9e083fbab686673110e659fd6a27ebcdfdb2a549964444e7523c5",
+  "word_count": 2080,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.nhs.uk/conditions/burns-and-scalds/",
+      "supports": "NHS (rà soát 31/3/2026): xử lý ngay mọi vết bỏng; giữ dưới nước mát chảy 20 phút, càng sớm càng tốt, trong vòng 3 giờ.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/burns-and-scalds/",
+      "supports": "NHS: không có nước chảy thì dùng nước đóng chai mát hoặc khăn ướt.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/burns-and-scalds/",
+      "supports": "NHS: không bôi kem, dầu, bơ; không dùng băng dính; không chọc bóng nước.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/burns-and-scalds/",
+      "supports": "NHS: vết bỏng nhỏ thường xử lý ở nhà và mất khoảng 2 tuần để lành.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/chua-bong-bo-dung-cach-2279320.html",
+      "supports": "VnExpress (2012), PGS Lê Năm, Viện Bỏng Quốc gia: giảm nhiệt ngay bằng cách cho chân vào nước.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/chua-bong-bo-dung-cach-2279320.html",
+      "supports": "VnExpress (2012): chỉ nên ngâm nước lạnh 15–20 phút để hạ nhiệt, giảm đau, giảm phù nề.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/chua-bong-bo-dung-cach-2279320.html",
+      "supports": "VnExpress (2012): ngâm nước hoặc chườm đá quá lâu làm da hoại tử, vết thương sâu hơn.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/chua-bong-bo-dung-cach-2279320.html",
+      "supports": "VnExpress (2012): mẹo dân gian làm vết bỏng ăn sâu, nhiễm trùng, để lại sẹo lớn.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/chua-bong-bo-dung-cach-2279320.html",
+      "supports": "VnExpress (2012): không bôi nghệ tươi hay kem chiết xuất từ nghệ lên vết bỏng vì tỷ lệ dị ứng nghệ khá cao theo Viện Bỏng Quốc gia.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.nhs.uk/conditions/burns-and-scalds/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/burns-and-scalds/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/burns-and-scalds/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/burns-and-scalds/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/chua-bong-bo-dung-cach-2279320.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/chua-bong-bo-dung-cach-2279320.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/chua-bong-bo-dung-cach-2279320.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/chua-bong-bo-dung-cach-2279320.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/chua-bong-bo-dung-cach-2279320.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2437,
+        "title": "Các dòng xe máy Honda: tổng hợp mẫu phổ biến tại Việt Nam",
+        "why": "stale",
+        "content_hash": "5cff2a6706b84439a61843ab51b848da33a40d9c155c5eb687076b40c694e51f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2458,
+        "title": "Các dòng xe máy Yamaha: tổng hợp mẫu đáng chú ý tại Việt Nam",
+        "why": "stale",
+        "content_hash": "71b9706803d72159065f0491b44ef5886bbf30b4e2b5490efc3dc5486b8d9a1c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2538,
+        "title": "Bảo dưỡng xe máy Yamaha định kỳ: những hạng mục không nên bỏ qua",
+        "why": "stale",
+        "content_hash": "7ba921b8bab5c4d33595262c9663c3d0cda2779ce5193da515df1b4733f9a21f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T20:48:54.917458+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "804a6c78c31c6cff5f7fb8069aeb8ee0d593edc3b72c1c3d545c3edf432bfb96",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
