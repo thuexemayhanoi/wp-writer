@@ -36200,7 +36200,7 @@
       }
     },
     "NT-001876": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:18:42.021989+00:00",
       "source_hash": "7c04ba57d52611df1c65222a05b2d076787e46b17a15b731859318d3ef98f3d6",
       "slug": "cong-vien-thong-nhat-bo-rao-du-an-2023-2026-va-cong-tran-nhan-tong-sua-den-31-12",
@@ -36216,8 +36216,37 @@
       "category_warning": null,
       "git_commit": "22028d2cf008f7aeaa28bfb5b6621e31b3af6f5a",
       "run_id": "39802649994",
-      "updated_at": "2026-10-22T15:18:46.645857+00:00",
-      "wp_id": 4834
+      "updated_at": "2026-10-22T15:18:53.191270+00:00",
+      "wp_id": 4834,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cong-vien-thong-nhat-bo-rao-du-an-2023-2026-va-cong-tran-nhan-tong-sua-den-31-12/",
+      "verified_at": "2026-10-22T15:18:53.191264+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4834,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cong-vien-thong-nhat-bo-rao-du-an-2023-2026-va-cong-tran-nhan-tong-sua-den-31-12/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cong-vien-thong-nhat-bo-rao-du-an-2023-2026-va-cong-tran-nhan-tong-sua-den-31-12/",
+        "seo_title": "Công viên Thống Nhất bỏ rào: dự án 2023–2026, cổng Trần Nhân Tông",
+        "seo_description": "Công viên Thống Nhất bỏ rào đến đâu: chủ trương dỡ hơn 1.700 m rào, khu cổng Trần Nhân Tông sửa từ 1/7/2026 dự kiến xong trước 31/12 và điều các báo không nêu.",
+        "checked_at": "2026-10-22T15:18:53.191246+00:00"
+      }
     }
   },
   "categories": {}
