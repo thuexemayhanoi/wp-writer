@@ -33407,7 +33407,7 @@
       }
     },
     "NT-001635": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T10:09:15.304664+00:00",
       "source_hash": "f5deaf8b8ec2c07d547bf0e00854ade73eec2781dde8cce0939da184ab0e9873",
       "slug": "da-lat-mua-kho-meo-danh-cho-khach-lan-dau-tu-to-chuc-chuyen-di",
@@ -33423,8 +33423,37 @@
       "category_warning": null,
       "git_commit": "f1b720c398d12b43f95387172a57615c48023927",
       "run_id": "39760445569",
-      "updated_at": "2026-10-22T10:09:21.799112+00:00",
-      "wp_id": 4777
+      "updated_at": "2026-10-22T10:09:27.917156+00:00",
+      "wp_id": 4777,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/da-lat-mua-kho-meo-danh-cho-khach-lan-dau-tu-to-chuc-chuyen-di/",
+      "verified_at": "2026-10-22T10:09:27.917149+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4777,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/da-lat-mua-kho-meo-danh-cho-khach-lan-dau-tu-to-chuc-chuyen-di/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/da-lat-mua-kho-meo-danh-cho-khach-lan-dau-tu-to-chuc-chuyen-di/",
+        "seo_title": "Đà Lạt mùa khô: mẹo cho khách lần đầu tự tổ chức chuyến đi",
+        "seo_description": "Đà Lạt mùa khô cho khách lần đầu tự đi: các báo ghi mùa khô vào những tháng khác nhau, ngày nắng đêm lạnh nên mặc và mang gì, đi lại và xếp lịch ra sao.",
+        "checked_at": "2026-10-22T10:09:27.917130+00:00"
+      }
     }
   },
   "categories": {}
