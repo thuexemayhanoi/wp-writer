@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-22T16:08:47.664635+00:00",
+  "at": "2026-10-22T16:20:02.855286+00:00",
   "attempted": 10,
-  "ready_backlog": 11,
+  "ready_backlog": 7,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -191,11 +191,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T16:02:31.311520+00:00",
+      "at": "2026-10-22T16:13:41.042156+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "92047e2a76ff566bb03306e7a50ce2fa2c970c0cc9956cba70454ab1f861f0c0",
+      "inventory_sha256": "56c96ec60e8dbc88065bdbc2e1960fd8a62ae11a75594d03f3d195fbb0acb4fd",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -380,11 +380,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T16:02:39.329991+00:00",
+      "at": "2026-10-22T16:13:49.659385+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "92047e2a76ff566bb03306e7a50ce2fa2c970c0cc9956cba70454ab1f861f0c0",
+      "inventory_sha256": "56c96ec60e8dbc88065bdbc2e1960fd8a62ae11a75594d03f3d195fbb0acb4fd",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -577,11 +577,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T16:02:46.339649+00:00",
+      "at": "2026-10-22T16:13:56.975671+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "92047e2a76ff566bb03306e7a50ce2fa2c970c0cc9956cba70454ab1f861f0c0",
+      "inventory_sha256": "56c96ec60e8dbc88065bdbc2e1960fd8a62ae11a75594d03f3d195fbb0acb4fd",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -601,47 +601,7 @@
       }
     },
     {
-      "topic_id": "NT-001978",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 174,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "food-culture",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001980",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 174,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "food-culture",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001995",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-002000",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 159,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "legal",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-002027",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 169,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "electric-transition",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-002086",
+      "topic_id": "NT-002057",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 172,
       "category_resolution": "EXACT",
@@ -649,7 +609,23 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-002141",
+      "topic_id": "NT-002087",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 172,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "hanoi-travel",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-002088",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 172,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "hanoi-travel",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-002142",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 161,
       "category_resolution": "EXACT",
@@ -657,27 +633,51 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-085402",
+      "topic_id": "NT-002143",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 162,
+      "category_id": 161,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "rental-guide",
+      "intended_taxonomy_key": "road-safety",
       "category_warning": null
     },
     {
-      "topic_id": "NT-085405",
+      "topic_id": "NT-002171",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 157,
+      "category_id": 176,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "electric",
+      "intended_taxonomy_key": "urban-mobility",
       "category_warning": null
     },
     {
-      "topic_id": "NT-090024",
+      "topic_id": "NT-090131",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 168,
+      "category_id": 167,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "electric-tech",
+      "intended_taxonomy_key": "battery-charging",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-090181",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 163,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "rental-procedures",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-090206",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 169,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-transition",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-090256",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 166,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "ebikes",
       "category_warning": null
     }
   ],

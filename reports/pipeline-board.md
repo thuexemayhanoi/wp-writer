@@ -1,18 +1,18 @@
 # Pipeline board
 
-Generated 2026-10-22T16:08:55.441512+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-22T16:20:10.929341+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
-| WRITING | 40 |
+| WRITING | 44 |
 | QA | 0 |
-| READY | 11 |
+| READY | 7 |
 | REPAIR | 0 |
 | HELD | 3 |
 | PUBLISHING | 0 |
-| VERIFIED | 806 |
+| VERIFIED | 816 |
 
-Ready backlog (QA PASS waiting for the Publisher): **11**
+Ready backlog (QA PASS waiting for the Publisher): **7**
 
 ## Articles not yet VERIFIED
 
@@ -29,7 +29,6 @@ Ready backlog (QA PASS waiting for the Publisher): **11**
 | NT-002054 | WRITING | W6 | seodev-w94 | leased to seodev-w94 |
 | NT-002055 | WRITING | W6 | seodev-w94 | leased to seodev-w94 |
 | NT-002056 | WRITING | W6 | seodev-w94 | leased to seodev-w94 |
-| NT-002057 | WRITING | W6 | seodev-w94 | leased to seodev-w94 |
 | NT-002058 | WRITING | W6 | seodev-w94 | leased to seodev-w94 |
 | NT-002059 | WRITING | W6 | seodev-w94 | leased to seodev-w94 |
 | NT-002060 | WRITING | W6 | seodev-w94 | leased to seodev-w94 |
@@ -38,12 +37,8 @@ Ready backlog (QA PASS waiting for the Publisher): **11**
 | NT-002083 | WRITING | W1 | seodev-w91 | leased to seodev-w91 |
 | NT-002084 | WRITING | W1 | seodev-w91 | leased to seodev-w91 |
 | NT-002085 | WRITING | W1 | seodev-w91 | leased to seodev-w91 |
-| NT-002087 | WRITING | W1 | seodev-w91 | leased to seodev-w91 |
-| NT-002088 | WRITING | W1 | seodev-w91 | leased to seodev-w91 |
 | NT-002089 | WRITING | W1 | seodev-w91 | leased to seodev-w91 |
 | NT-002090 | WRITING | W1 | seodev-w91 | leased to seodev-w91 |
-| NT-002142 | WRITING | W3 | seodev-w92 | leased to seodev-w92 |
-| NT-002143 | WRITING | W3 | seodev-w92 | leased to seodev-w92 |
 | NT-002144 | WRITING | W3 | seodev-w92 | leased to seodev-w92 |
 | NT-002145 | WRITING | W3 | seodev-w92 | leased to seodev-w92 |
 | NT-002146 | WRITING | W3 | seodev-w92 | leased to seodev-w92 |
@@ -51,6 +46,15 @@ Ready backlog (QA PASS waiting for the Publisher): **11**
 | NT-002148 | WRITING | W3 | seodev-w92 | leased to seodev-w92 |
 | NT-002149 | WRITING | W3 | seodev-w92 | leased to seodev-w92 |
 | NT-002150 | WRITING | W3 | seodev-w92 | leased to seodev-w92 |
+| NT-002172 | WRITING | W7 | seodev-w95 | leased to seodev-w95 |
+| NT-002173 | WRITING | W7 | seodev-w95 | leased to seodev-w95 |
+| NT-002174 | WRITING | W7 | seodev-w95 | leased to seodev-w95 |
+| NT-002175 | WRITING | W7 | seodev-w95 | leased to seodev-w95 |
+| NT-002231 | WRITING | W8 | seodev-w96 | leased to seodev-w96 |
+| NT-002232 | WRITING | W8 | seodev-w96 | leased to seodev-w96 |
+| NT-002233 | WRITING | W8 | seodev-w96 | leased to seodev-w96 |
+| NT-002234 | WRITING | W8 | seodev-w96 | leased to seodev-w96 |
+| NT-002235 | WRITING | W8 | seodev-w96 | leased to seodev-w96 |
 | NT-090084 | WRITING | W2 | seodev-w90 | leased to seodev-w90 |
 | NT-090099 | WRITING | W2 | seodev-w90 | leased to seodev-w90 |
 | NT-090126 | WRITING | W2 | seodev-w90 | leased to seodev-w90 |
@@ -58,10 +62,6 @@ Ready backlog (QA PASS waiting for the Publisher): **11**
 | NT-090330 | WRITING | W4 | seodev-w93 | leased to seodev-w93 |
 | NT-090497 | WRITING | W4 | seodev-w93 | leased to seodev-w93 |
 | NT-090529 | WRITING | W4 | seodev-w93 | leased to seodev-w93 |
-| NT-090131 | READY | W4 | seodev-w82 | QA PASS; waiting for the Publisher |
-| NT-090181 | READY | W1 | seodev-w80 | QA PASS; waiting for the Publisher |
-| NT-090206 | READY | W4 | seodev-w82 | QA PASS; waiting for the Publisher |
-| NT-090256 | READY | W4 | seodev-w82 | QA PASS; waiting for the Publisher |
 | NT-090269 | READY | W1 | seodev-w80 | QA PASS; waiting for the Publisher |
 | NT-090272 | READY | W4 | seodev-w82 | QA PASS; waiting for the Publisher |
 | NT-090368 | READY | W1 | seodev-w80 | QA PASS; waiting for the Publisher |

@@ -1,0 +1,201 @@
+{
+  "topic_id": "NT-002171",
+  "status": "PASS",
+  "source_sha256": "d824e86a810a1bcc8467079e99060dc8642f2df1cd7e28b2137dbe2a4bb34d52",
+  "body_sha256": "a8f66e72a59f8aa5ef0e091d5b2bcc142418fa995ca0e9bc01fd8bfd828166df",
+  "word_count": 2781,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://noibaiairport.vn/vi/xe-buyt-mien-phi-phuc-vu-hanh-khach-noi-chuyen-nid9.html",
+      "supports": "Trang mới của Cảng HKQT Nội Bài về xe buýt điện miễn phí cho khách nối chuyến: giờ phục vụ 5h00 đến 1h00, tần suất theo khung giờ, vị trí đón ở T1 sảnh A và T2 làn số 2 cột 11-12",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://kenh14.vn/tu-hom-nay-11-8-hanh-khach-den-san-bay-noi-bai-chu-y-tiep-tuc-co-cap-nhat-moi-ve-cach-di-chuyen-215260811135155544.chn",
+      "supports": "Kenh14 (theo Phụ Nữ Mới) ngày 11/8/2026 thuật lại thông báo cập nhật biểu đồ chạy xe nối chuyến giữa hai nhà ga, tần suất 10 phút giờ cao điểm và điểm đón mới",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://noibaiairport.vn/vi/ban-co-biet-dich-vu-xe-buyt-noi-chuyen--shuttle-bus---mien-phi-tai-cang-hkqt-noi-bai-nid478.html",
+      "supports": "Bài giới thiệu của cảng: hai nhà ga cách nhau khoảng 1 km, hai xe, sức chứa 60 chỗ, ghế cho người dùng xe lăn, cảnh báo xe dù, trường hợp bị tính 1 triệu đồng; có số liệu giờ và điểm đón cũ khác trang mới",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://noibaiairport.vn/vi/Phuong-tien-van-chuyen-cong-cong-nid260.html",
+      "supports": "Trang hướng dẫn đi lại của cảng: T1 nội địa, T2 quốc tế; thông báo điều chỉnh vị trí đón trả xe nối chuyến từ 20/03/2023 với giờ phục vụ 6h00 đến 1h30",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://noibaiairport.vn/vi/xe-buyt-mien-phi-phuc-vu-hanh-khach-noi-chuyen-nid9.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://kenh14.vn/tu-hom-nay-11-8-hanh-khach-den-san-bay-noi-bai-chu-y-tiep-tuc-co-cap-nhat-moi-ve-cach-di-chuyen-215260811135155544.chn",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://noibaiairport.vn/vi/ban-co-biet-dich-vu-xe-buyt-noi-chuyen--shuttle-bus---mien-phi-tai-cang-hkqt-noi-bai-nid478.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://noibaiairport.vn/vi/Phuong-tien-van-chuyen-cong-cong-nid260.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2559,
+        "title": "Các loại bằng lái xe máy hiện nay và cách phân biệt từng hạng",
+        "why": "stale",
+        "content_hash": "1dbe75f2df7dd3b894e673123e9c56ffdda9c772f072b8cb4682f49b0f264d0e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2592,
+        "title": "Đi Hà Nội hai người nên chọn xe gì để thoải mái và dễ điều khiển?",
+        "why": "stale",
+        "content_hash": "5c0894287bcacd6fb1f4e67cebc0eb2d421ebeddf8dc30ba47f488d03a2cf568",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2594,
+        "title": "Đi ngoại thành Hà Nội nên chọn xe ga hay xe côn tay để phù hợp hơn?",
+        "why": "stale",
+        "content_hash": "c828fb01d0925dea14287531e51418ebeef09564d4fb50f52a2398ebd052935e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4055,
+        "title": "Thuê 2 xe máy cùng lúc ở Hà Nội: chuẩn bị giấy tờ, giao nhận và hoàn cọc từng xe",
+        "why": "stale",
+        "content_hash": "029d48a9e900c89ea965179099932a9ddb51ee071f065aca1c29903fd58a13c9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T16:16:54.435338+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "0bf95b735eb81bb05e19a4c5da4d18bbdfc22de7b82bd1a089f98122ca6314af",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

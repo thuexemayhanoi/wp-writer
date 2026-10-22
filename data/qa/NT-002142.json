@@ -1,0 +1,313 @@
+{
+  "topic_id": "NT-002142",
+  "status": "PASS",
+  "source_sha256": "dc4b5c351f1226765236d203cc9ab37403a8e28776bb64702233387429c8d696",
+  "body_sha256": "f72ac9c1ce4949a30cf81878a915abfb8dfc8d4ab14f1290cb7a6e9a09803788",
+  "word_count": 2042,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.gov.uk/government/publications/motorcycle-helmets-visors-and-goggles-safety-advice/motorcycle-helmets-visors-and-goggles",
+      "supports": "gov.uk (Bộ Giao thông Anh), cập nhật 22/7/2025: kính truyền dưới 50% ánh sáng không đạt tiêu chuẩn nào; gov.uk: kính ghi Daytime Use Only hoặc có ký hiệu tương đương chỉ nên dùng ban ngày",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/you-and-your-motorcycle/wearing-the-right-gear",
+      "supports": "NZTA: không bao giờ dùng kính tối màu hoặc kính râm ban đêm; kính phải thông gió để khỏi mờ",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sharp.dft.gov.uk/helmet-care/",
+      "supports": "SHARP (Anh): kính xước phải thay ngay vì gây lóa đèn pha xe khác",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/rules-for-motorcyclists-83-to-88",
+      "supports": "Highway Code Rule 84: kính bảo hộ xước hoặc không vừa hạn chế tầm nhìn khi nắng gắt và ban đêm",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/driving-difficult-weather-conditions",
+      "supports": "Sổ tay xe máy của Ontario: kính che mặt mờ nhiều hơn khi trời lạnh",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/motorcycle-helmets-visors-and-goggles-safety-advice/motorcycle-helmets-visors-and-goggles",
+      "supports": "gov.uk (cập nhật 22/7/2025): kính ghi Daytime Use Only hoặc ký hiệu cùng nghĩa chỉ nên dùng ban ngày",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/motorcycle-helmets-visors-and-goggles-safety-advice/motorcycle-helmets-visors-and-goggles",
+      "supports": "gov.uk: kính che mặt theo UNECE 22.05 hoặc 22.06 có dấu E của UN và hai chữ số đầu của số phê duyệt là 05 hoặc 06",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sharp.dft.gov.uk/helmet-care/",
+      "supports": "SHARP (Bộ Giao thông Anh): kính sạch, chất lượng tốt là trang bị thiết yếu; xác côn trùng và bụi làm giảm thị lực",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/you-and-your-motorcycle/wearing-the-right-gear",
+      "supports": "NZTA: kính che mặt phải cho không khí lưu thông để không bị mờ hơi nước",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/rules-for-motorcyclists-83-to-88",
+      "supports": "Quy tắc đường bộ của Anh, Rule 83: trước mỗi chuyến kiểm tra kính mũ sạch và còn tốt",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hart.honda.com.au/resources/safety-and-riding-tips/wet-weather-riding",
+      "supports": "HART (Honda Úc): giữ kính sạch giúp nước mưa tụ thành giọt và dễ trôi",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.gov.uk/government/publications/motorcycle-helmets-visors-and-goggles-safety-advice/motorcycle-helmets-visors-and-goggles",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/you-and-your-motorcycle/wearing-the-right-gear",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sharp.dft.gov.uk/helmet-care/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/rules-for-motorcyclists-83-to-88",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/driving-difficult-weather-conditions",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/motorcycle-helmets-visors-and-goggles-safety-advice/motorcycle-helmets-visors-and-goggles",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/motorcycle-helmets-visors-and-goggles-safety-advice/motorcycle-helmets-visors-and-goggles",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://sharp.dft.gov.uk/helmet-care/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/you-and-your-motorcycle/wearing-the-right-gear",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/rules-for-motorcyclists-83-to-88",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hart.honda.com.au/resources/safety-and-riding-tips/wet-weather-riding",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2355,
+        "title": "Bao nhiêu tuổi được đi xe máy điện? Những điều cần biết",
+        "why": "stale",
+        "content_hash": "df4e397638303da8d179daafae395db634b027fd262d47406e50b3e2c2cf527c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2374,
+        "title": "Xe máy điện đi mưa có an toàn không? Cách sử dụng đúng và bền",
+        "why": "stale",
+        "content_hash": "f86d1aa55c92feadb7f1f7424eb5a8881f374d07d09eba557a5974bddc4ab23f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2596,
+        "title": "Những thứ cần kiểm tra trước khi nhận một chiếc xe máy sử dụng",
+        "why": "stale",
+        "content_hash": "26e2f6f6b72011f22f1c72c5d71add456975764e12b26f109f58c9c8e5e98b76",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2625,
+        "title": "Nhà tù Hỏa Lò Hà Nội: Giá vé, giờ mở cửa và kinh nghiệm đi tour đêm",
+        "why": "stale",
+        "content_hash": "fc86cac4da1911528d32104d0969754534fb81041738085bfe6eb76c69849a7a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T16:15:41.783911+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "92dea892acc424f6f8dd3f7a043ee35279fac3cb2d0253c3bee88fc9f93d4eef",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
