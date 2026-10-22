@@ -34093,7 +34093,7 @@
       }
     },
     "NT-001725": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T10:26:03.767892+00:00",
       "source_hash": "2483f9dab15901a884c7a6073636ce0900835c4aa1acd4840e1c8cf1ad1e0291",
       "slug": "cam-duong-de-thi-cong-o-ha-noi-doc-thong-bao-phan-luong-va-chon-duong-vong",
@@ -34109,8 +34109,37 @@
       "category_warning": null,
       "git_commit": "4784c4cfe7d7504748ed3ffec91b3cf3dab70a3e",
       "run_id": "39761952973",
-      "updated_at": "2026-10-22T10:26:07.971989+00:00",
-      "wp_id": 4791
+      "updated_at": "2026-10-22T10:26:14.046405+00:00",
+      "wp_id": 4791,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cam-duong-de-thi-cong-o-ha-noi-doc-thong-bao-phan-luong-va-chon-duong-vong/",
+      "verified_at": "2026-10-22T10:26:14.046398+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4791,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cam-duong-de-thi-cong-o-ha-noi-doc-thong-bao-phan-luong-va-chon-duong-vong/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cam-duong-de-thi-cong-o-ha-noi-doc-thong-bao-phan-luong-va-chon-duong-vong/",
+        "seo_title": "Cấm đường để thi công ở Hà Nội: đọc thông báo và chọn đường vòng",
+        "seo_description": "Cấm đường để thi công ở Hà Nội: cách đọc thông báo phân luồng (nhóm xe, khung giờ, ngày hiệu lực, đường thay thế) qua ba đợt ở cầu Long Biên, Thăng Long, Tứ Liên.",
+        "checked_at": "2026-10-22T10:26:14.046380+00:00"
+      }
     }
   },
   "categories": {}
