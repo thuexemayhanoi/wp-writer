@@ -1,0 +1,142 @@
+{
+  "topic_id": "NT-001111",
+  "status": "PASS",
+  "source_sha256": "838ce9a1ea2263918c79c19febf4f4f0829052ed41bda105b7ac3d967be4cc07",
+  "body_sha256": "08ddcc5d4fa6ba06d11509a7ae3014508fa61427d541ad27a55bd67f2b106cd9",
+  "word_count": 2850,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-1656-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-thanh-pho-ha-noi-nam-2025-119250616192433872.htm",
+      "supports": "Khoản 7 Điều 1 Nghị quyết 1656/NQ-UBTVQH15 lập phường Vĩnh Tuy từ một phần bốn phường cũ; khoản 17 đưa phần còn lại của phường Vĩnh Tuy cũ vào phường Vĩnh Hưng mới; Điều 2 nêu chính quyền các đơn vị mới hoạt động từ 01/7/2025.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/luat-trat-tu-an-toan-giao-thong-duong-bo-so-36-2024-qh15--170620",
+      "supports": "Luật 36/2024/QH15: Điều 57 phân hạng giấy phép lái xe A1 (đến 125 cm³ hoặc 11 kW) và A (trên 125 cm³ hoặc 11 kW); Điều 59 độ tuổi 16 điều khiển xe gắn máy và 18 tuổi được cấp giấy phép hạng A1, A.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-1656-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-thanh-pho-ha-noi-nam-2025-119250616192433872.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/luat-trat-tu-an-toan-giao-thong-duong-bo-so-36-2024-qh15--170620",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 862,
+        "title": "Cho Thuê Xe Máy Gần Tây Hồ Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "b0b3ebf305a54ce7dd2071018d62d234aa1338aeb544eef72a5d63a841fba288",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T04:42:56.316403+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "f4bb581e9fb0785e23221b796880ee64e5127090d47ea8cd51a6d703476346f5",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

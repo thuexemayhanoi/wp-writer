@@ -4,15 +4,15 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-22T04:37:28.840763+00:00 |
-| existing_published_posts | 808 |
+| at | 2026-10-22T04:48:46.776306+00:00 |
+| existing_published_posts | 818 |
 | existing_pages | 10 |
 | existing_products | 13 |
 | candidate_topics | 773 |
 | planned_topics | 696 |
 | claimable_topics | 7 |
 | ready_stock | 1 |
-| stock_stages | {'IDEA': 300, 'RESEARCH': 75, 'REJECTED': 2, 'PLANNED': 1, 'PLANNED_HOLD': 3, 'CLAIMED': 17, 'AUTHORED': 3, 'QA_PASS': 7, 'PUBLISHED': 665, 'WP_DRAFT': 0} |
+| stock_stages | {'IDEA': 300, 'RESEARCH': 75, 'REJECTED': 2, 'PLANNED': 1, 'PLANNED_HOLD': 3, 'CLAIMED': 15, 'AUTHORED': 3, 'QA_PASS': 0, 'PUBLISHED': 674, 'WP_DRAFT': 0} |
 | needs_research | True |
 | research_shortfall | 899 |
 | refill_trigger_below_ready | 900 |
@@ -21,17 +21,17 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | refill_order | RF-0005 |
 | refill_accepted_so_far | 77 |
 | writing | 38 |
-| draft_authored | 672 |
-| qa_pass | 669 |
+| draft_authored | 674 |
+| qa_pass | 671 |
 | qa_fail | 3 |
 | qa_review | 0 |
 | repair_queue | 3 |
 | held_by_class | {'REAL_RISK': 3} |
-| g7_pass | 640 |
+| g7_pass | 649 |
 | g7_not_recorded | 25 |
 | wordpress_draft | 0 |
-| wordpress_published | 665 |
-| verified_public | 665 |
+| wordpress_published | 674 |
+| verified_public | 674 |
 | indexed | None |
 | topic_collisions | 2 |
 | category_mapping_errors | 0 |
@@ -43,12 +43,12 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | delivery_mode | production |
 | production_enabled | True |
 | draft_staging_enabled | False |
-| qa_pass_live_checked | 321 |
-| qa_pass_awaiting_wordpress | 7 |
-| queued_topic_ids | ['NT-001754', 'NT-001812', 'NT-001782', 'NT-001814', 'NT-001753', 'NT-001811', 'NT-001815'] |
+| qa_pass_live_checked | 330 |
+| qa_pass_awaiting_wordpress | 0 |
+| queued_topic_ids | [] |
 | pending_wordpress_intents | [] |
 | blocked_writer_sessions | [] |
-| last_wordpress_verified_at | 2026-10-22T04:37:22.173138+00:00 |
+| last_wordpress_verified_at | 2026-10-22T04:48:36.251222+00:00 |
 | capacity | 10000 |
 | authenticated_inventory | True |
 | test_drafts_excluded | 2 |

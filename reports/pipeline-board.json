@@ -1,41 +1,17 @@
 {
-  "at": "2026-10-22T04:37:30.145873+00:00",
+  "at": "2026-10-22T04:48:48.101928+00:00",
   "counts": {
-    "WRITING": 17,
+    "WRITING": 15,
     "QA": 0,
-    "READY": 7,
+    "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 665
+    "VERIFIED": 674
   },
-  "ready_backlog": 7,
-  "in_flight": 27,
+  "ready_backlog": 0,
+  "in_flight": 18,
   "items": [
-    {
-      "topic_id": "NT-001111",
-      "state": "WRITING",
-      "reason": "leased to s-claude-df7eb8c1-20261022",
-      "title": "Thuê xe máy phường Vĩnh Tuy: Honda Vision hay Air Blade cho lịch qua cầu, đi nhiều điểm?",
-      "slot": "W6",
-      "session": "s-claude-df7eb8c1-20261022",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001112",
-      "state": "WRITING",
-      "reason": "leased to s-claude-df7eb8c1-20261022",
-      "title": "Thuê xe máy phường Cầu Giấy: Honda Vision hay Yamaha Janus cho người đi làm một tuần?",
-      "slot": "W6",
-      "session": "s-claude-df7eb8c1-20261022",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-001635",
       "state": "WRITING",
@@ -215,90 +191,6 @@
       "url": null,
       "qa_status": null,
       "seo_score": null
-    },
-    {
-      "topic_id": "NT-001753",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Xe điện rung giật khi khởi hành hoặc vặn ga: vì sao nên dừng chạy để kiểm tra",
-      "slot": "W8",
-      "session": "seodev-w74",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001754",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Làm khô xe máy điện sau khi rửa: lau ổ sạc, giắc nối và chờ bao lâu mới sạc",
-      "slot": "W8",
-      "session": "seodev-w74",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001782",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Kiểm tra phanh khi nhận xe máy thuê: cách thử và việc cần làm trước khi đặt cọc",
-      "slot": "W7",
-      "session": "seodev-w73",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001811",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Xe máy dài bao nhiêu mm: số đo 1.820–2.013 mm của xe số, xe ga Honda, Yamaha theo trang hãng",
-      "slot": "W9",
-      "session": "seodev-w75",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001812",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Cổng sạc điện thoại trên xe máy: mẫu Honda, Yamaha nào ghi USB-C, USB-A hay ổ 12V và đặt ở đâu",
-      "slot": "W9",
-      "session": "seodev-w75",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001814",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Dung tích nhớt máy xe máy: Honda ghi lượng sau khi xả và sau khi rã máy, Yamaha ghi 0,8–1,1 lít",
-      "slot": "W9",
-      "session": "seodev-w75",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001815",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Cỡ lốp xe số, xe ga Honda, Yamaha: lốp trước, lốp sau và loại có săm hay không săm theo trang hãng",
-      "slot": "W9",
-      "session": "seodev-w75",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
     },
     {
       "topic_id": "NT-001101",
@@ -5725,6 +5617,30 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001111",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Thuê xe máy phường Vĩnh Tuy: Honda Vision hay Air Blade cho lịch qua cầu, đi nhiều điểm?",
+      "slot": "W6",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": 4713,
+      "url": "https://thuexemaynguyentu.com/thue-xe-may-phuong-vinh-tuy-vision-air-blade-qua-cau/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001112",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Thuê xe máy phường Cầu Giấy: Honda Vision hay Yamaha Janus cho người đi làm một tuần?",
+      "slot": "W6",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": 4714,
+      "url": "https://thuexemaynguyentu.com/thue-xe-may-phuong-cau-giay-honda-vision-yamaha-janus-theo-tuan/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001121",
       "state": "VERIFIED",
       "reason": "publish",
@@ -8221,6 +8137,30 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001753",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe điện rung giật khi khởi hành hoặc vặn ga: vì sao nên dừng chạy để kiểm tra",
+      "slot": "W8",
+      "session": "seodev-w74",
+      "wp_id": 4715,
+      "url": "https://thuexemaynguyentu.com/xe-dien-rung-giat-khi-khoi-hanh-hoac-van-ga-vi-sao-nen-dung-chay-de-kiem-tra/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001754",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Làm khô xe máy điện sau khi rửa: lau ổ sạc, giắc nối và chờ bao lâu mới sạc",
+      "slot": "W8",
+      "session": "seodev-w74",
+      "wp_id": 4716,
+      "url": "https://thuexemaynguyentu.com/lam-kho-xe-may-dien-sau-khi-rua-lau-o-sac-giac-noi-va-cho-bao-lau-moi-sac/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001781",
       "state": "VERIFIED",
       "reason": "publish",
@@ -8229,6 +8169,66 @@
       "session": "seodev-w73",
       "wp_id": 4702,
       "url": "https://thuexemaynguyentu.com/thue-xe-may-khi-doi-lich-bay-nen-uu-tien-yeu-to-nao-neu-chi-dung-vai-ngay/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001782",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Kiểm tra phanh khi nhận xe máy thuê: cách thử và việc cần làm trước khi đặt cọc",
+      "slot": "W7",
+      "session": "seodev-w73",
+      "wp_id": 4717,
+      "url": "https://thuexemaynguyentu.com/kiem-tra-phanh-khi-nhan-xe-may-thue-cach-thu-va-viec-can-lam-truoc-khi-dat-coc/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001811",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe máy dài bao nhiêu mm: số đo 1.820–2.013 mm của xe số, xe ga Honda, Yamaha theo trang hãng",
+      "slot": "W9",
+      "session": "seodev-w75",
+      "wp_id": 4718,
+      "url": "https://thuexemaynguyentu.com/xe-may-dai-bao-nhieu-mm-so-do-1-820-2-013-mm-cua-xe-so-xe-ga-honda-yamaha-theo-trang-hang/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001812",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Cổng sạc điện thoại trên xe máy: mẫu Honda, Yamaha nào ghi USB-C, USB-A hay ổ 12V và đặt ở đâu",
+      "slot": "W9",
+      "session": "seodev-w75",
+      "wp_id": 4719,
+      "url": "https://thuexemaynguyentu.com/cong-sac-dien-thoai-tren-xe-may-mau-honda-yamaha-nao-ghi-usb-c-usb-a-hay-o-12v-va-dat-o-dau/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001814",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Dung tích nhớt máy xe máy: Honda ghi lượng sau khi xả và sau khi rã máy, Yamaha ghi 0,8–1,1 lít",
+      "slot": "W9",
+      "session": "seodev-w75",
+      "wp_id": 4720,
+      "url": "https://thuexemaynguyentu.com/dung-tich-nhot-may-xe-may-honda-ghi-luong-sau-khi-xa-va-sau-khi-ra-may-yamaha-ghi-0-8-1-1-lit/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001815",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Cỡ lốp xe số, xe ga Honda, Yamaha: lốp trước, lốp sau và loại có săm hay không săm theo trang hãng",
+      "slot": "W9",
+      "session": "seodev-w75",
+      "wp_id": 4721,
+      "url": "https://thuexemaynguyentu.com/co-lop-xe-so-xe-ga-honda-yamaha-lop-truoc-lop-sau-va-loai-co-sam-hay-khong-sam-theo-trang-hang/",
       "qa_status": "PASS",
       "seo_score": 100
     },

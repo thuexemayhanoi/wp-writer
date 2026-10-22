@@ -1,25 +1,23 @@
 # Pipeline board
 
-Generated 2026-10-22T04:37:30.145873+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-22T04:48:48.101928+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
-| WRITING | 17 |
+| WRITING | 15 |
 | QA | 0 |
-| READY | 7 |
+| READY | 0 |
 | REPAIR | 0 |
 | HELD | 3 |
 | PUBLISHING | 0 |
-| VERIFIED | 665 |
+| VERIFIED | 674 |
 
-Ready backlog (QA PASS waiting for the Publisher): **7**
+Ready backlog (QA PASS waiting for the Publisher): **0**
 
 ## Articles not yet VERIFIED
 
 | Topic | State | Slot | Session | Reason |
 |---|---|---|---|---|
-| NT-001111 | WRITING | W6 | s-claude-df7eb8c1-20261022 | leased to s-claude-df7eb8c1-20261022 |
-| NT-001112 | WRITING | W6 | s-claude-df7eb8c1-20261022 | leased to s-claude-df7eb8c1-20261022 |
 | NT-001635 | WRITING | W3 | seodev-w77 | leased to seodev-w77 |
 | NT-001636 | WRITING | W3 | seodev-w77 | leased to seodev-w77 |
 | NT-001691 | WRITING | W8 | seodev-w74 | leased to seodev-w74 |
@@ -35,13 +33,6 @@ Ready backlog (QA PASS waiting for the Publisher): **7**
 | NT-001841 | WRITING | W3 | seodev-w77 | leased to seodev-w77 |
 | NT-001842 | WRITING | W4 | seodev-w78 | leased to seodev-w78 |
 | NT-001843 | WRITING | W4 | seodev-w78 | leased to seodev-w78 |
-| NT-001753 | READY | W8 | seodev-w74 | QA PASS; waiting for the Publisher |
-| NT-001754 | READY | W8 | seodev-w74 | QA PASS; waiting for the Publisher |
-| NT-001782 | READY | W7 | seodev-w73 | QA PASS; waiting for the Publisher |
-| NT-001811 | READY | W9 | seodev-w75 | QA PASS; waiting for the Publisher |
-| NT-001812 | READY | W9 | seodev-w75 | QA PASS; waiting for the Publisher |
-| NT-001814 | READY | W9 | seodev-w75 | QA PASS; waiting for the Publisher |
-| NT-001815 | READY | W9 | seodev-w75 | QA PASS; waiting for the Publisher |
 | NT-001101 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4344; Near duplicate existing:4344 |
 | NT-001102 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4345; Near duplicate existing:4345 |
 | NT-001103 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4346; Near duplicate existing:4346 |

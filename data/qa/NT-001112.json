@@ -1,0 +1,158 @@
+{
+  "topic_id": "NT-001112",
+  "status": "PASS",
+  "source_sha256": "1800795401e6ee81b8451caecdd9a53a2011ed9a3acc0cb92ca4ee9ff605fca2",
+  "body_sha256": "c729297c90517f522eabae48390e8ebfd72ba2f936ca1d2d7e8aa7bba93a6735",
+  "word_count": 3365,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-1656-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-thanh-pho-ha-noi-nam-2025-119250616192433872.htm",
+      "supports": "Khoản 25 Điều 1 Nghị quyết 1656/NQ-UBTVQH15 lập phường Cầu Giấy từ một phần sáu phường cũ; Điều 2 nêu chính quyền các đơn vị mới hoạt động từ 01/7/2025.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://caugiay.hanoi.gov.vn/gioi-thieu-chung/gioi-thieu-chung-2805250626170626104.htm",
+      "supports": "Trang giới thiệu của phường Cầu Giấy: phường mới nhập phần lớn Dịch Vọng, Dịch Vọng Hậu và một phần Quan Hoa, Yên Hòa, Mỹ Đình 1, Mỹ Đình 2; diện tích 3,74 km², dân số 74.516 người; giáp Láng, Từ Liêm, Phú Diễn, Yên Hòa, Nghĩa Đô; trụ sở UBND tại số 96 phố Trần Thái Tông.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/luat-trat-tu-an-toan-giao-thong-duong-bo-so-36-2024-qh15--170620",
+      "supports": "Luật 36/2024/QH15: Điều 57 phân hạng giấy phép lái xe A1 (đến 125 cm³ hoặc 11 kW) và A (trên 125 cm³ hoặc 11 kW); Điều 59 độ tuổi 16 điều khiển xe gắn máy và 18 tuổi được cấp giấy phép hạng A1, A.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-1656-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-thanh-pho-ha-noi-nam-2025-119250616192433872.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://caugiay.hanoi.gov.vn/gioi-thieu-chung/gioi-thieu-chung-2805250626170626104.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/luat-trat-tu-an-toan-giao-thong-duong-bo-so-36-2024-qh15--170620",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2408,
+        "title": "Xe máy điện Honda: các mẫu đang được người dùng quan tâm",
+        "why": "stale",
+        "content_hash": "ded30343606cc54b9fa64db90b6a7c2bc7b959cdd75d5c4e2c0e9f4663dfce0b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T04:43:28.622385+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "013ec25d913440a38d8df618bca5d07c665cd0d16df59d8656c87e419cfb045c",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
