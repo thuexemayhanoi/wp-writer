@@ -31692,7 +31692,7 @@
       }
     },
     "NT-001112": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:43:28.782720+00:00",
       "source_hash": "1800795401e6ee81b8451caecdd9a53a2011ed9a3acc0cb92ca4ee9ff605fca2",
       "slug": "thue-xe-may-phuong-cau-giay-honda-vision-yamaha-janus-theo-tuan",
@@ -31708,8 +31708,37 @@
       "category_warning": null,
       "git_commit": "c7de7c79ccdec5547a0dba5bc3326787f2722919",
       "run_id": "39723491639",
-      "updated_at": "2026-10-22T04:43:32.786182+00:00",
-      "wp_id": 4714
+      "updated_at": "2026-10-22T04:43:39.062782+00:00",
+      "wp_id": 4714,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/thue-xe-may-phuong-cau-giay-honda-vision-yamaha-janus-theo-tuan/",
+      "verified_at": "2026-10-22T04:43:39.062772+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4714,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/thue-xe-may-phuong-cau-giay-honda-vision-yamaha-janus-theo-tuan/",
+        "categories": [
+          182
+        ],
+        "canonical": "https://thuexemaynguyentu.com/thue-xe-may-phuong-cau-giay-honda-vision-yamaha-janus-theo-tuan/",
+        "seo_title": "Thuê xe máy phường Cầu Giấy: Vision, Janus và giá thuê tuần",
+        "seo_description": "Thuê xe máy phường Cầu Giấy cho người đi làm một tuần: so Honda Vision có giá tham khảo với Yamaha Janus chưa xác minh, tiền cọc, địa giới mới và cách nhận xe từ Bồ Đề.",
+        "checked_at": "2026-10-22T04:43:39.062752+00:00"
+      }
     }
   },
   "categories": {}
