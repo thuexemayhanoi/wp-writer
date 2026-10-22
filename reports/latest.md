@@ -4,8 +4,8 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-22T20:56:56.633684+00:00 |
-| existing_published_posts | 999 |
+| at | 2026-10-22T21:04:20.213107+00:00 |
+| existing_published_posts | 1000 |
 | existing_pages | 10 |
 | existing_products | 13 |
 | candidate_topics | 971 |
@@ -17,7 +17,7 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | research_shortfall | 881 |
 | refill_trigger_below_ready | 900 |
 | refill_round_target | 100-200 |
-| refill_state | REFILL_IN_PROGRESS |
+| refill_state | DISABLED |
 | refill_order | RF-0007 |
 | refill_accepted_so_far | 71 |
 | writing | 53 |
