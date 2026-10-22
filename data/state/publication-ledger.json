@@ -36347,7 +36347,7 @@
       }
     },
     "NT-001999": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:20:34.299815+00:00",
       "source_hash": "dcbc8bd4c15d2d9e7c392304028123637c293c1dce9e9a73af97b7f4aa76fd76",
       "slug": "tranh-xe-di-nguoc-chieu-bang-xe-may-xe-xuong-doc-phai-nhuong-xe-len-doc",
@@ -36363,8 +36363,37 @@
       "category_warning": null,
       "git_commit": "22028d2cf008f7aeaa28bfb5b6621e31b3af6f5a",
       "run_id": "39802649994",
-      "updated_at": "2026-10-22T15:20:40.183422+00:00",
-      "wp_id": 4837
+      "updated_at": "2026-10-22T15:20:46.563569+00:00",
+      "wp_id": 4837,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tranh-xe-di-nguoc-chieu-bang-xe-may-xe-xuong-doc-phai-nhuong-xe-len-doc/",
+      "verified_at": "2026-10-22T15:20:46.563564+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4837,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tranh-xe-di-nguoc-chieu-bang-xe-may-xe-xuong-doc-phai-nhuong-xe-len-doc/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tranh-xe-di-nguoc-chieu-bang-xe-may-xe-xuong-doc-phai-nhuong-xe-len-doc/",
+        "seo_title": "Tránh xe đi ngược chiều bằng xe máy: xe xuống dốc nhường xe lên dốc",
+        "seo_description": "Tránh xe đi ngược chiều bằng xe máy theo Điều 17 Luật 36/2024: giảm tốc độ, đi về bên phải; xe xuống dốc nhường xe lên dốc, đường hẹp xe gần chỗ tránh hơn vào tránh.",
+        "checked_at": "2026-10-22T15:20:46.563547+00:00"
+      }
     }
   },
   "categories": {}
