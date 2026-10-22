@@ -1,0 +1,152 @@
+{
+  "topic_id": "NT-001935",
+  "status": "PASS",
+  "source_sha256": "43a3775f2b467e79147df2643397059584dbe4077edf1a332f094f8a59330e66",
+  "body_sha256": "03f5fbdf89bf9da3fd47cf1a2b1be2eacad8255d6a5e6c7f87559ad59fec93e5",
+  "word_count": 2359,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/cam-nang-du-lich-co-to-4478268.html",
+      "supports": "Cẩm nang VnExpress (cập nhật 4/2/2025): đi Cô Tô theo 2 chặng, chặng 1 tới cảng Cái Rồng (Vân Đồn), có tàu cao tốc, tàu gỗ và tàu tăng cường",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/tang-gia-ve-don-chuyen-cac-tuyen-ra-dao-o-quang-ninh-5049190.html",
+      "supports": "Tin VnExpress 11/3/2026: tuyến từ cảng Ao Tiên (Vân Đồn) đi Cô Tô giảm từ hai chuyến ngày xuống một; giá vé người lớn tăng từ 250.000 lên 300.000 đồng",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vnexpress.net/cam-nang-du-lich-co-to-4478268.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/tang-gia-ve-don-chuyen-cac-tuyen-ra-dao-o-quang-ninh-5049190.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 1061,
+        "title": "Thuê Xe Máy Sân Bay Nội Bài: Hướng Dẫn Đi Buýt 17 Về Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "fb3b7f2450df53950a064262ea32d4d11bf69f30edb2fbae3768611953b0c335",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4059,
+        "title": "Thuê xe máy đi phỏng vấn ở Hà Nội trong một ngày: xếp lịch, chọn xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "0ffbbff60edf006739890cca423af4e81cb5346ee434c29859648be6bdb57675",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T11:14:56.899111+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "9f86ccec8e538ec80f3657b34ce89641358bdf0663d16a9aa5267f09cd20fa3a",
+  "incremental_key": "5a304e0ccf511d23c710a0a4dfd557f79354246a9bc7ab58efe6c295915f36d4",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

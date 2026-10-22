@@ -1,15 +1,15 @@
 {
-  "at": "2026-10-22T11:13:48.183197+00:00",
+  "at": "2026-10-22T11:16:20.653656+00:00",
   "counts": {
-    "WRITING": 61,
+    "WRITING": 54,
     "QA": 0,
-    "READY": 0,
+    "READY": 7,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
     "VERIFIED": 729
   },
-  "ready_backlog": 0,
+  "ready_backlog": 7,
   "in_flight": 64,
   "items": [
     {
@@ -133,30 +133,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001902",
-      "state": "WRITING",
-      "reason": "leased to seodev-w86",
-      "title": "Hồ Đồng Đò sau cưỡng chế 2026: villa đóng cửa, nước hồ đục, có nên đi cắm trại",
-      "slot": "W8",
-      "session": "seodev-w86",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001903",
-      "state": "WRITING",
-      "reason": "leased to seodev-w86",
-      "title": "Hồ Quan Sơn ở Mỹ Đức: đi xe máy qua Vân Đình, đi thuyền và mùa sen giữa tháng 5",
-      "slot": "W8",
-      "session": "seodev-w86",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001904",
       "state": "WRITING",
       "reason": "leased to seodev-w86",
@@ -181,48 +157,12 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001908",
-      "state": "WRITING",
-      "reason": "leased to seodev-w86",
-      "title": "Làng gốm Phù Lãng ở Bắc Ninh: men da lươn, nung củi và cách đi từ Hà Nội",
-      "slot": "W8",
-      "session": "seodev-w86",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001909",
-      "state": "WRITING",
-      "reason": "leased to seodev-w86",
-      "title": "Chùa Long Đọi Sơn có bao nhiêu bậc thang: gần 373 bậc, bia Sùng Thiện Diên Linh",
-      "slot": "W8",
-      "session": "seodev-w86",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001910",
       "state": "WRITING",
       "reason": "leased to seodev-w86",
       "title": "Chùa Vĩnh Nghiêm ở Bắc Giang: kho mộc bản gần 3.000 ván khắc, hội 14 tháng 2",
       "slot": "W8",
       "session": "seodev-w86",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001935",
-      "state": "WRITING",
-      "reason": "leased to seodev-w84",
-      "title": "Đi Cô Tô từ Hà Nội: cảng Cái Rồng hay Ao Tiên, lịch tàu dồn chuyến từ 3/2026",
-      "slot": "W6",
-      "session": "seodev-w84",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -493,30 +433,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-002021",
-      "state": "WRITING",
-      "reason": "leased to seodev-w87",
-      "title": "Xuân Thủy thuộc tỉnh nào: Ninh Bình, cách Hà Nội 150 km và ba điểm du lịch mới",
-      "slot": "W9",
-      "session": "seodev-w87",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-002022",
-      "state": "WRITING",
-      "reason": "leased to seodev-w87",
-      "title": "Xuân Thủy xem chim tháng nào: từ tháng 10 đến tháng 4, cò thìa quanh 40 con",
-      "slot": "W9",
-      "session": "seodev-w87",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-002023",
       "state": "WRITING",
       "reason": "leased to seodev-w87",
@@ -743,6 +659,90 @@
       "url": null,
       "qa_status": null,
       "seo_score": null
+    },
+    {
+      "topic_id": "NT-001902",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Hồ Đồng Đò sau cưỡng chế 2026: villa đóng cửa, nước hồ đục, có nên đi cắm trại",
+      "slot": "W8",
+      "session": "seodev-w86",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001903",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Hồ Quan Sơn ở Mỹ Đức: đi xe máy qua Vân Đình, đi thuyền và mùa sen giữa tháng 5",
+      "slot": "W8",
+      "session": "seodev-w86",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001908",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Làng gốm Phù Lãng ở Bắc Ninh: men da lươn, nung củi và cách đi từ Hà Nội",
+      "slot": "W8",
+      "session": "seodev-w86",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001909",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Chùa Long Đọi Sơn có bao nhiêu bậc thang: gần 373 bậc, bia Sùng Thiện Diên Linh",
+      "slot": "W8",
+      "session": "seodev-w86",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001935",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Đi Cô Tô từ Hà Nội: cảng Cái Rồng hay Ao Tiên, lịch tàu dồn chuyến từ 3/2026",
+      "slot": "W6",
+      "session": "seodev-w84",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-002021",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Xuân Thủy thuộc tỉnh nào: Ninh Bình, cách Hà Nội 150 km và ba điểm du lịch mới",
+      "slot": "W9",
+      "session": "seodev-w87",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-002022",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Xuân Thủy xem chim tháng nào: từ tháng 10 đến tháng 4, cò thìa quanh 40 con",
+      "slot": "W9",
+      "session": "seodev-w87",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
     },
     {
       "topic_id": "NT-001101",
