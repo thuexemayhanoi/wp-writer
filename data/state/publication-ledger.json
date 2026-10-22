@@ -30320,7 +30320,7 @@
       }
     },
     "NT-001542": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:07:03.089268+00:00",
       "source_hash": "e98b28ceb176985e4832af3ed3d1ad288d7901b5e364d742ccb63aec05685b1d",
       "slug": "du-lich-voi-hanh-ly-nhe-gioi-han-sac-du-phong-khi-bay-can-kiem-tra-truoc",
@@ -30336,8 +30336,37 @@
       "category_warning": null,
       "git_commit": "6cfc2a756a7b4ed4288ecf4d4d7856f3349d40e6",
       "run_id": "39719712916",
-      "updated_at": "2026-10-22T04:07:07.324869+00:00",
-      "wp_id": 4686
+      "updated_at": "2026-10-22T04:07:13.696311+00:00",
+      "wp_id": 4686,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/du-lich-voi-hanh-ly-nhe-gioi-han-sac-du-phong-khi-bay-can-kiem-tra-truoc/",
+      "verified_at": "2026-10-22T04:07:13.696302+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4686,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/du-lich-voi-hanh-ly-nhe-gioi-han-sac-du-phong-khi-bay-can-kiem-tra-truoc/",
+        "categories": [
+          177
+        ],
+        "canonical": "https://thuexemaynguyentu.com/du-lich-voi-hanh-ly-nhe-gioi-han-sac-du-phong-khi-bay-can-kiem-tra-truoc/",
+        "seo_title": "Du lịch với hành lý nhẹ: giới hạn sạc dự phòng khi bay cần kiểm tra",
+        "seo_description": "Du lịch với hành lý nhẹ: sạc dự phòng khi bay tối đa hai chiếc, dưới 100 Wh, để trong hành lý xách tay theo Chỉ thị của Cục Hàng không, cách đổi mAh sang Wh và việc nên kiểm tra.",
+        "checked_at": "2026-10-22T04:07:13.696281+00:00"
+      }
     }
   },
   "categories": {}
