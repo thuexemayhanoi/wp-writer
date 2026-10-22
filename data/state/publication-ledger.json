@@ -31986,7 +31986,7 @@
       }
     },
     "NT-001814": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:47:26.035336+00:00",
       "source_hash": "f4f450110f0dd8f55401bef7ab04b43f427c7aa5fcfd9ad27a140117bb00f7f8",
       "slug": "dung-tich-nhot-may-xe-may-honda-ghi-luong-sau-khi-xa-va-sau-khi-ra-may-yamaha-ghi-0-8-1-1-lit",
@@ -32002,8 +32002,37 @@
       "category_warning": null,
       "git_commit": "c7de7c79ccdec5547a0dba5bc3326787f2722919",
       "run_id": "39723491639",
-      "updated_at": "2026-10-22T04:47:30.191192+00:00",
-      "wp_id": 4720
+      "updated_at": "2026-10-22T04:47:36.693136+00:00",
+      "wp_id": 4720,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/dung-tich-nhot-may-xe-may-honda-ghi-luong-sau-khi-xa-va-sau-khi-ra-may-yamaha-ghi-0-8-1-1-lit/",
+      "verified_at": "2026-10-22T04:47:36.693129+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4720,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/dung-tich-nhot-may-xe-may-honda-ghi-luong-sau-khi-xa-va-sau-khi-ra-may-yamaha-ghi-0-8-1-1-lit/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/dung-tich-nhot-may-xe-may-honda-ghi-luong-sau-khi-xa-va-sau-khi-ra-may-yamaha-ghi-0-8-1-1-lit/",
+        "seo_title": "Dung tích nhớt máy xe máy: số Honda, Yamaha ghi trên trang hãng",
+        "seo_description": "Dung tích nhớt máy xe máy theo trang Honda, Yamaha đọc 22/10/2026: Honda ghi mốc sau khi xả, sau khi rã máy; Yamaha ghi một số. Cách đọc mốc và dùng số liệu an toàn.",
+        "checked_at": "2026-10-22T04:47:36.693111+00:00"
+      }
     }
   },
   "categories": {}
