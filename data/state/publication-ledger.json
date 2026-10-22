@@ -39140,7 +39140,7 @@
       }
     },
     "NT-090368": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T16:26:58.318645+00:00",
       "source_hash": "6f882a23ef201d080bdcfb1bbf84ced5b88a398b06d9da8025705819d9f1345b",
       "slug": "tram-sac-cong-cong-khong-duoc-can-loi-thoat-nan-xe-chua-chay-nguoi-di-bo-qcvn-32-2026-bct",
@@ -39156,8 +39156,37 @@
       "category_warning": null,
       "git_commit": "f8052e8e8752a18473f6e50d49ad609ccb9029b7",
       "run_id": "39813289392",
-      "updated_at": "2026-10-22T16:27:02.801372+00:00",
-      "wp_id": 4894
+      "updated_at": "2026-10-22T16:27:09.396248+00:00",
+      "wp_id": 4894,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tram-sac-cong-cong-khong-duoc-can-loi-thoat-nan-xe-chua-chay-nguoi-di-bo-qcvn-32-2026-bct/",
+      "verified_at": "2026-10-22T16:27:09.396241+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4894,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tram-sac-cong-cong-khong-duoc-can-loi-thoat-nan-xe-chua-chay-nguoi-di-bo-qcvn-32-2026-bct/",
+        "categories": [
+          169
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tram-sac-cong-cong-khong-duoc-can-loi-thoat-nan-xe-chua-chay-nguoi-di-bo-qcvn-32-2026-bct/",
+        "seo_title": "Vị trí đặt trạm sạc công cộng theo QCVN 32:2026/BCT: lối thoát nạn",
+        "seo_description": "Vị trí đặt trạm sạc công cộng theo QCVN 32:2026/BCT: không cản lối thoát nạn, xe chữa cháy, người đi bộ; trụ trên vỉa hè cần chừa gì, hiệu lực từ 01/7/2027.",
+        "checked_at": "2026-10-22T16:27:09.396221+00:00"
+      }
     }
   },
   "categories": {}
