@@ -34485,7 +34485,7 @@
       }
     },
     "NT-001906": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T11:10:30.493027+00:00",
       "source_hash": "87b0ea645f553067862a75d42a1588e6469f0e244e557f7003b5691d550e26ba",
       "slug": "di-bat-trang-bang-xe-may-qua-de-song-hong-cho-gom-mo-may-gio-ve-bao-tang-gom",
@@ -34501,8 +34501,37 @@
       "category_warning": null,
       "git_commit": "5387ba47be38fd5eda4860e2a8352294b985f709",
       "run_id": "39768063577",
-      "updated_at": "2026-10-22T11:10:34.689391+00:00",
-      "wp_id": 4799
+      "updated_at": "2026-10-22T11:10:40.431735+00:00",
+      "wp_id": 4799,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/di-bat-trang-bang-xe-may-qua-de-song-hong-cho-gom-mo-may-gio-ve-bao-tang-gom/",
+      "verified_at": "2026-10-22T11:10:40.431728+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4799,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/di-bat-trang-bang-xe-may-qua-de-song-hong-cho-gom-mo-may-gio-ve-bao-tang-gom/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/di-bat-trang-bang-xe-may-qua-de-song-hong-cho-gom-mo-may-gio-ve-bao-tang-gom/",
+        "seo_title": "Đi Bát Tràng bằng xe máy: đường qua đê sông Hồng, giờ chợ gốm, vé",
+        "seo_description": "Đi Bát Tràng bằng xe máy qua cầu Long Biên, Chương Dương, Vĩnh Tuy hoặc Thanh Trì rồi dọc đê sông Hồng; giờ chợ gốm, nhà cổ Vạn Vân và vé bảo tàng theo VnExpress 12/12/2025.",
+        "checked_at": "2026-10-22T11:10:40.431710+00:00"
+      }
     }
   },
   "categories": {}
