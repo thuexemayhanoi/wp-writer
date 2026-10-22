@@ -32035,7 +32035,7 @@
       }
     },
     "NT-001815": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:48:25.962496+00:00",
       "source_hash": "81cae4ea94a1843293ab80bb8f47cd204080ef6476c339b5421b1f27197be93a",
       "slug": "co-lop-xe-so-xe-ga-honda-yamaha-lop-truoc-lop-sau-va-loai-co-sam-hay-khong-sam-theo-trang-hang",
@@ -32051,8 +32051,37 @@
       "category_warning": null,
       "git_commit": "c7de7c79ccdec5547a0dba5bc3326787f2722919",
       "run_id": "39723491639",
-      "updated_at": "2026-10-22T04:48:30.063909+00:00",
-      "wp_id": 4721
+      "updated_at": "2026-10-22T04:48:36.251228+00:00",
+      "wp_id": 4721,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/co-lop-xe-so-xe-ga-honda-yamaha-lop-truoc-lop-sau-va-loai-co-sam-hay-khong-sam-theo-trang-hang/",
+      "verified_at": "2026-10-22T04:48:36.251222+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4721,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/co-lop-xe-so-xe-ga-honda-yamaha-lop-truoc-lop-sau-va-loai-co-sam-hay-khong-sam-theo-trang-hang/",
+        "categories": [
+          170
+        ],
+        "canonical": "https://thuexemaynguyentu.com/co-lop-xe-so-xe-ga-honda-yamaha-lop-truoc-lop-sau-va-loai-co-sam-hay-khong-sam-theo-trang-hang/",
+        "seo_title": "Cỡ lốp xe số, xe ga Honda, Yamaha: lốp trước, lốp sau theo trang hãng",
+        "seo_description": "Cỡ lốp xe số, xe ga Honda, Yamaha theo 22 trang hãng đọc 22/10/2026: lốp trước, lốp sau, mẫu Yamaha ghi có săm hay không săm, Honda ghi gì và lưu ý không tự đổi cỡ.",
+        "checked_at": "2026-10-22T04:48:36.251201+00:00"
+      }
     }
   },
   "categories": {}
