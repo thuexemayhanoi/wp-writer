@@ -1,0 +1,184 @@
+{
+  "topic_id": "NT-090059",
+  "status": "PASS",
+  "source_sha256": "0e38fd42601303f9f3137962bf7fd1eb2d6824ceb870840f4d3f1b9477b03131",
+  "body_sha256": "d791c79b1688bf82284ed8b6fb9e3496f7466d5357d179daec1a6acfd9644b95",
+  "word_count": 2067,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vinfastauto.com/vn_vi/huong-dan-chi-tiet-cach-sac-ac-quy-xe-may-dien-dung-giup-tang-tuoi-tho-pin",
+      "supports": "Trang hướng dẫn sạc ắc quy xe máy điện của VinFast (cuối bài ghi 29/07/2023, ghi thông tin mang tính chất tham khảo): hao hụt năng lượng của pin LFP dưới 1,5%/ngày sau 1 ngày trong điều kiện sử dụng thông thường, bật công tắc BMS và dưới 4%/tháng sau 1 tháng trong điều kiện không sử dụng, tắt công tắc BMS; trang không định nghĩa công tắc BMS.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/huong-dan-sac-xe-vinfast-evo-200",
+      "supports": "Trang hướng dẫn sạc VinFast Evo200: mức hao hụt của pin LFP khi xe không được sử dụng chỉ khoảng 2%, mẫu pin khác có thể lên tới 30%, không nêu khoảng thời gian; phần đọc không in ngày đăng.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/pin-lfp-vu-khi-cua-xe-may-dien-vinfast-4459623.html",
+      "supports": "Bài VnExpress về pin LFP của xe máy điện VinFast: đại diện VinFast nói tỷ lệ hao hụt của loại pin mới là 2% mỗi tháng nếu không sử dụng xe, trong khi ắc quy axit chì hao hụt khoảng 30%; phần đọc không in ngày đăng.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/espcne9bol003-01-evo_max_lite_owner_manual.pdf",
+      "supports": "Sổ hướng dẫn VinFast Evo Lite (pin lithium-ion, không ghi LFP): khi tắt xe hệ thống điện tử vẫn tiêu thụ một lượng năng lượng nhỏ, đỗ xe trên 14 ngày sạc pin trên 50% đến 80%, kiểm tra mỗi tháng và sạc lại khi dưới 10%, BMS tự tắt pin trong hai trường hợp, BMS luôn làm việc khi lái xe và cất giữ xe, mục 8.3 nêu xả đến 4 trên 5 vạch cho xe cất trên 30 ngày và sạc lại ở 2 trên 5 vạch.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vinfastauto.com/vn_vi/huong-dan-chi-tiet-cach-sac-ac-quy-xe-may-dien-dung-giup-tang-tuoi-tho-pin",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/huong-dan-sac-xe-vinfast-evo-200",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/pin-lfp-vu-khi-cua-xe-may-dien-vinfast-4459623.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/espcne9bol003-01-evo_max_lite_owner_manual.pdf",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2411,
+        "title": "Honda ICON e: đi được bao nhiêu km và phù hợp quãng đường nào?",
+        "why": "stale",
+        "content_hash": "c51f9eca9b43c76b8f4f2101ab1c67f670c8d7d31345309ffbda12f55c573f6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2569,
+        "title": "Xe ga tốn xăng hơn xe số bao nhiêu khi sử dụng trong thành phố?",
+        "why": "stale",
+        "content_hash": "0e0403a44ff6ce7c19068379c2905b55413b5e6b08f79ca8a2a469fd0114f8e0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T07:02:06.630381+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "c13f33379c561891a3860a78e234c8172f08ef026c90f66a09dd485968e8af14",
+  "incremental_key": "44df37745106af5780b9a2033176d48925b8fcec2db428c0869ca0fbfb50eab0",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

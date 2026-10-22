@@ -1,0 +1,184 @@
+{
+  "topic_id": "NT-090758",
+  "status": "PASS",
+  "source_sha256": "6d2dedd63e2e5b29802f4a437e56008cb8572a06e7dedc9084f8e5e13552631f",
+  "body_sha256": "49dea60250f470a57fb4c58feac9c5b13b6e30c7871c15e7ae5e75e2f23a5a22",
+  "word_count": 2097,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://moit.gov.vn/tin-tuc/thong-tin-ve-viec-dieu-hanh-gia-xang-dau-ngay-15-10-2026.html",
+      "supports": "Thông báo điều hành giá xăng dầu ngày 15/10/2026 của Bộ Công Thương (moit.gov.vn): giá bán xăng E5RON92 không cao hơn 26.971 đồng/lít và E10RON95-III không cao hơn 27.029 đồng/lít (E5RON92 thấp hơn 58 đồng/lít), áp dụng từ 15 giờ 00 ngày 15/10/2026 đến khi Bộ Công Thương công bố giá cơ sở tiếp theo; thương nhân quyết định giá bán, nên đây là mức tối đa.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110",
+      "supports": "Trang sản phẩm Honda Việt Nam của Wave Alpha 110 ghi mức tiêu thụ nhiên liệu 1,72 l/100km (cùng trang: bình xăng 3,7 L, động cơ 109,2 cm3); trang không nêu điều kiện đo.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?category=2",
+      "supports": "Trang sản phẩm Honda Việt Nam của Vision ghi mức tiêu thụ nhiên liệu 1,82 lít/100 km (cùng trang: bình xăng 4,8 lít, động cơ 109,5 cm3); trang không nêu điều kiện đo.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/air-blade-160125?version=93&changeVersionFlag=1",
+      "supports": "Trang sản phẩm Honda Việt Nam của Air Blade, bản hiển thị dung tích xy-lanh 124,8 cm3, ghi mức tiêu thụ nhiên liệu 2,12l/100km và bình xăng 4,4L; trang không nêu điều kiện đo và có nhiều phiên bản theo tham số trên đường dẫn.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://moit.gov.vn/tin-tuc/thong-tin-ve-viec-dieu-hanh-gia-xang-dau-ngay-15-10-2026.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/wave-alpha-110",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision?category=2",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/air-blade-160125?version=93&changeVersionFlag=1",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 925,
+        "title": "Thuê Xe Điện Hà Nội – Chọn Xe Máy Điện Hay Xe Đạp Điện?",
+        "why": "stale",
+        "content_hash": "d1d720896f2dcd7fbea082535aa3bac59e747624b917873c8758b7d587b5234c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4048,
+        "title": "Thuê xe máy Hà Nội khi xe cá nhân đang sửa: chọn kỳ thuê và gia hạn nếu gara trễ",
+        "why": "stale",
+        "content_hash": "5eaf7d3b4d760f2a4ab0df94807fe114a8927ceb0af3b0ea5d1d59453a46f20d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T07:02:07.326099+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "c13f33379c561891a3860a78e234c8172f08ef026c90f66a09dd485968e8af14",
+  "incremental_key": "d47360b425f1df8452ae5987512885820c773b0d9643e9fb21e9ef5b2a555eb5",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

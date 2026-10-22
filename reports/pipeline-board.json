@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-22T06:59:14.599507+00:00",
+  "at": "2026-10-22T07:03:29.320010+00:00",
   "counts": {
     "WRITING": 15,
     "QA": 0,
-    "READY": 0,
+    "READY": 2,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
     "VERIFIED": 686
   },
-  "ready_backlog": 0,
-  "in_flight": 18,
+  "ready_backlog": 2,
+  "in_flight": 20,
   "items": [
     {
       "topic_id": "NT-001635",
@@ -191,6 +191,30 @@
       "url": null,
       "qa_status": null,
       "seo_score": null
+    },
+    {
+      "topic_id": "NT-090059",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Pin LFP VinFast để yên hao bao nhiêu: khoảng 2%, dưới 4% mỗi tháng hay dưới 1,5% mỗi ngày?",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-090758",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Thuê xe đi 100 km hết bao nhiêu tiền xăng: Wave Alpha, Vision, Air Blade theo giá 15/10/2026",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
     },
     {
       "topic_id": "NT-001101",
