@@ -30957,7 +30957,7 @@
       }
     },
     "NT-001607": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:21:39.712867+00:00",
       "source_hash": "739a2d9be92fc89baa5b785309708d3e4817819bb82d25d8e9a157d0db78987e",
       "slug": "banh-can-da-lat-an-sang-trung-cut-nuoc-xiu-mai-mam-hanh-va-goi-cho-nhom-nho",
@@ -30973,8 +30973,37 @@
       "category_warning": null,
       "git_commit": "e8867ed3ab382cf02fcc9d35a5f3f731186b146e",
       "run_id": "39721381932",
-      "updated_at": "2026-10-22T04:21:43.788712+00:00",
-      "wp_id": 4699
+      "updated_at": "2026-10-22T04:21:49.304560+00:00",
+      "wp_id": 4699,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/banh-can-da-lat-an-sang-trung-cut-nuoc-xiu-mai-mam-hanh-va-goi-cho-nhom-nho/",
+      "verified_at": "2026-10-22T04:21:49.304553+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4699,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/banh-can-da-lat-an-sang-trung-cut-nuoc-xiu-mai-mam-hanh-va-goi-cho-nhom-nho/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/banh-can-da-lat-an-sang-trung-cut-nuoc-xiu-mai-mam-hanh-va-goi-cho-nhom-nho/",
+        "seo_title": "Bánh căn Đà Lạt ăn sáng: nhân trứng cút, nước xíu mại, gọi theo cặp",
+        "seo_description": "Bánh căn Đà Lạt ăn sáng gồm bánh bột gạo, nhân trứng cút hay thịt bò, nước xíu mại hoặc nước mắm mỡ hành; khác Phan Rang, Nha Trang, Mũi Né ra sao theo hai báo.",
+        "checked_at": "2026-10-22T04:21:49.304533+00:00"
+      }
     }
   },
   "categories": {}
