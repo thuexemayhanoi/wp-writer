@@ -32868,7 +32868,7 @@
       }
     },
     "NT-090242": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T07:26:08.051623+00:00",
       "source_hash": "d0d59f3bc3794d63d504cd88b0c9d23d9f6db2f7c411b90c52b86e6d8c67b2a5",
       "slug": "khu-sac-xe-dien-tap-trung-trong-nha-khong-co-giai-phap-ngan-chay-phat-40-50-trieu-nd-106-2025",
@@ -32884,8 +32884,37 @@
       "category_warning": null,
       "git_commit": "c5acdefc6bfdb2d9959c3b3187e496e8bf0b729a",
       "run_id": "39740049773",
-      "updated_at": "2026-10-22T07:26:12.521781+00:00",
-      "wp_id": 4766
+      "updated_at": "2026-10-22T07:26:18.990164+00:00",
+      "wp_id": 4766,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/khu-sac-xe-dien-tap-trung-trong-nha-khong-co-giai-phap-ngan-chay-phat-40-50-trieu-nd-106-2025/",
+      "verified_at": "2026-10-22T07:26:18.990158+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4766,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/khu-sac-xe-dien-tap-trung-trong-nha-khong-co-giai-phap-ngan-chay-phat-40-50-trieu-nd-106-2025/",
+        "categories": [
+          169
+        ],
+        "canonical": "https://thuexemaynguyentu.com/khu-sac-xe-dien-tap-trung-trong-nha-khong-co-giai-phap-ngan-chay-phat-40-50-trieu-nd-106-2025/",
+        "seo_title": "Phạt khu sạc xe điện không có giải pháp ngăn cháy: 40–50 triệu",
+        "seo_description": "Khu sạc xe điện tập trung trong nhà không có giải pháp ngăn cháy bị phạt 40–50 triệu theo Nghị định 106/2025/NĐ-CP: ai bị phạt, tổ chức gấp đôi, Hà Nội và điều văn bản chưa nói.",
+        "checked_at": "2026-10-22T07:26:18.990129+00:00"
+      }
     }
   },
   "categories": {}
