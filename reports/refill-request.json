@@ -1,21 +1,21 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 4,
+  "ready_stock": 7,
   "trigger_below_ready": 900,
   "rounds_opened": 5,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 740,
-  "capacity_remaining": 1260,
+  "topic_rows": 745,
+  "capacity_remaining": 1255,
   "order": {
     "id": "RF-0005",
     "round": 5,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 44,
-    "remaining_to_min": 56,
-    "remaining_to_max": 156,
+    "accepted_so_far": 49,
+    "remaining_to_min": 51,
+    "remaining_to_max": 151,
     "batches_still_needed": 6,
     "batch_size": 10,
     "capacity_limited": false,
@@ -23,16 +23,16 @@
     "category_quotas_basis": "initial",
     "category_quotas": [
       {
+        "taxonomy_key": "rental-guide",
+        "quota": 14,
+        "known_now": 13,
+        "allocation": 46
+      },
+      {
         "taxonomy_key": "urban-mobility",
         "quota": 14,
         "known_now": 58,
         "allocation": 92
-      },
-      {
-        "taxonomy_key": "rental-guide",
-        "quota": 13,
-        "known_now": 13,
-        "allocation": 46
       },
       {
         "taxonomy_key": "electric-transition",
@@ -96,8 +96,8 @@
       },
       {
         "taxonomy_key": "vietnam-travel",
-        "quota": 4,
-        "known_now": 45,
+        "quota": 3,
+        "known_now": 48,
         "allocation": 55
       },
       {
@@ -129,18 +129,18 @@
       "rental-guide": 2,
       "urban-mobility": 2,
       "battery-charging": 1,
+      "destinations": 1,
       "electric": 1,
       "electric-transition": 1,
       "green-travel": 1,
-      "trip-planning": 1,
-      "vietnam-travel": 1
+      "trip-planning": 1
     }
   },
   "dedupe_universe": {
     "published_wordpress_items": 807,
-    "topics_in_factory": 740,
+    "topics_in_factory": 745,
     "topics_by_status": {
-      "PLANNED": 663,
+      "PLANNED": 668,
       "REJECTED": 2,
       "RESEARCH": 75
     },
