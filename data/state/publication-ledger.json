@@ -32425,6 +32425,25 @@
         "seo_description": "Biển báo khu vực sạc xe điện theo QCVN 32:2026/BCT: sáu nội dung ở mục 3.2.8, trạm nào thuộc phạm vi, khác biển I.428b ngoài đường; hiệu lực từ 1/7/2027.",
         "checked_at": "2026-10-22T06:41:37.546845+00:00"
       }
+    },
+    "NT-090413": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T06:41:50.716292+00:00",
+      "source_hash": "4a090d02f5ec85bf2f8542f25828201468f270fffee2a9b4e791fd3d3dd024cc",
+      "slug": "tieng-on-theo-qcvn-26-2025-bnnmt-ban-dem-nha-o-khach-san-45-dba-duong-bo-58-dba-ap-dung-du-tu-1-1-2027",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 177,
+      "visible_hash": "98c0e8ed39c9aec885d5abb330956e253488c5df03f80c0a5333f29088fb42c9",
+      "first_paragraph": "QCVN 26:2025/BNNMT tiếng ồn ban đêm đặt giới hạn theo từng bảng và từng nguồn ồn, nên đừng gom thành một con số. Với tiếng ồn phát sinh từ cơ sở sản xuất, kinh doanh, dịch vụ và hoạt động dân sinh, Bảng 1 cho khu vực B, gồm nhà ở và khách sạn, nhà khách, nhà nghỉ, các cơ sở lưu trú khác, mức tối đa 45 dBA vào ban đêm (22h00 đến trước 06h00), 50 dBA buổi tối và 55 dBA ban ngày. Với phương tiện giao thông, Bảng 5 cho đường bộ ở khu vực A, B, C mức 58 dBA ban đêm (22:00 đến trước 06:00) và 68 dBA ban ngày. Quy chuẩn ban hành kèm Thông tư 01/2025/TT-BNNMT (ngày ban hành 15/05/2025, hiệu lực 14/11/2025) và thay QCVN 26:2010/BTNMT; cơ sở đã vận hành hoặc dự án có hồ sơ môi trường trước ngày hiệu lực được dùng quy chuẩn 2010 đến hết 31/12/2026, và từ 01/01/2027 phải đáp ứng quy chuẩn 2025, còn dự án mới áp dụng quy chuẩn 2025 ngay. Quy chuẩn không đặt trần dB cho từng chiếc xe máy và bài không nêu mức phạt.",
+      "meta_title": "QCVN 26:2025/BNNMT tiếng ồn ban đêm: nhà ở 45 dBA, đường bộ 58 dBA",
+      "meta_description": "QCVN 26:2025/BNNMT tiếng ồn ban đêm: nhà ở và khách sạn 45 dBA theo Bảng 1, đường bộ 58 dBA theo Bảng 5, mốc 14/11/2025 và 1/1/2027, cách đo và giới hạn của bài.",
+      "intended_taxonomy_key": "green-travel",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "033998ab94f47addf57fdb5d33e97d5dda9e5903",
+      "run_id": "39735100821",
+      "updated_at": "2026-10-22T06:41:50.718278+00:00"
     }
   },
   "categories": {}
