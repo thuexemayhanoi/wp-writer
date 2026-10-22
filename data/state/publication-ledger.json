@@ -32084,7 +32084,7 @@
       }
     },
     "NT-090681": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T06:09:35.397534+00:00",
       "source_hash": "6bee889ba88ebd2e8a7562b5beba943a08fa68448cccc38fc61be4b041d7ab51",
       "slug": "lich-nghi-le-sap-toi-24-11-2026-nghi-1-ngay-tet-dinh-mui-4-10-2-2027-va-quoc-khanh-2-5-9-2027",
@@ -32100,8 +32100,37 @@
       "category_warning": null,
       "git_commit": "fb18c53fc0db64f32d761b0349a17a3a0a79ea25",
       "run_id": "39731745630",
-      "updated_at": "2026-10-22T06:09:40.286268+00:00",
-      "wp_id": 4750
+      "updated_at": "2026-10-22T06:09:47.177381+00:00",
+      "wp_id": 4750,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lich-nghi-le-sap-toi-24-11-2026-nghi-1-ngay-tet-dinh-mui-4-10-2-2027-va-quoc-khanh-2-5-9-2027/",
+      "verified_at": "2026-10-22T06:09:47.177374+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4750,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lich-nghi-le-sap-toi-24-11-2026-nghi-1-ngay-tet-dinh-mui-4-10-2-2027-va-quoc-khanh-2-5-9-2027/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lich-nghi-le-sap-toi-24-11-2026-nghi-1-ngay-tet-dinh-mui-4-10-2-2027-va-quoc-khanh-2-5-9-2027/",
+        "seo_title": "Lịch nghỉ lễ sắp tới: 24/11/2026, Tết Đinh Mùi 2027, Quốc khánh 2027",
+        "seo_description": "Lịch nghỉ lễ sắp tới: 24/11/2026 nghỉ 1 ngày, Tết Đinh Mùi 4–10/2/2027, Quốc khánh 2–5/9/2027; công chức và doanh nghiệp khác nhau ra sao, xếp chuyến đi thế nào.",
+        "checked_at": "2026-10-22T06:09:47.177351+00:00"
+      }
     }
   },
   "categories": {}
