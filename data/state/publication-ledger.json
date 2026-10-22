@@ -33260,7 +33260,7 @@
       }
     },
     "NT-090609": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T09:50:26.663143+00:00",
       "source_hash": "024d1e9933ada6331b6a7b47104b156e65e8ab6d221778f521b2ad19a8b45b8e",
       "slug": "xe-may-lien-tinh-qua-tram-bot-co-mat-phi-khong-thong-tu-32-2024-mien-tu-1-1-2025-tru-cao-toc",
@@ -33276,8 +33276,37 @@
       "category_warning": null,
       "git_commit": "7d7844e154356eb814f295f1361c221a00885ec0",
       "run_id": "39757967154",
-      "updated_at": "2026-10-22T09:50:30.936786+00:00",
-      "wp_id": 4774
+      "updated_at": "2026-10-22T09:50:37.039832+00:00",
+      "wp_id": 4774,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-lien-tinh-qua-tram-bot-co-mat-phi-khong-thong-tu-32-2024-mien-tu-1-1-2025-tru-cao-toc/",
+      "verified_at": "2026-10-22T09:50:37.039825+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4774,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-lien-tinh-qua-tram-bot-co-mat-phi-khong-thong-tu-32-2024-mien-tu-1-1-2025-tru-cao-toc/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-lien-tinh-qua-tram-bot-co-mat-phi-khong-thong-tu-32-2024-mien-tu-1-1-2025-tru-cao-toc/",
+        "seo_title": "Xe máy qua trạm BOT có mất phí không: Thông tư 32/2024 từ 1/1/2025",
+        "seo_description": "Xe máy qua trạm BOT có mất phí không? Điều 3 Thông tư 32/2024/TT-BGTVT xếp xe mô tô, xe gắn máy vào nhóm miễn thu từ 1/1/2025; cao tốc nằm ngoài Thông tư.",
+        "checked_at": "2026-10-22T09:50:37.039805+00:00"
+      }
     }
   },
   "categories": {}
