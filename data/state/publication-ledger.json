@@ -30761,7 +30761,7 @@
       }
     },
     "NT-001110": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:19:25.702734+00:00",
       "source_hash": "96edb8b5a1101ad41bb644ba526a4ca0dca2f7825553ca748709abd845de0118",
       "slug": "thue-xe-may-phuong-bach-mai-wave-xe-ga-50cc-di-hoc-thuc-tap",
@@ -30777,8 +30777,37 @@
       "category_warning": null,
       "git_commit": "e8867ed3ab382cf02fcc9d35a5f3f731186b146e",
       "run_id": "39721381932",
-      "updated_at": "2026-10-22T04:19:30.409847+00:00",
-      "wp_id": 4695
+      "updated_at": "2026-10-22T04:19:38.057178+00:00",
+      "wp_id": 4695,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/thue-xe-may-phuong-bach-mai-wave-xe-ga-50cc-di-hoc-thuc-tap/",
+      "verified_at": "2026-10-22T04:19:38.057169+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4695,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/thue-xe-may-phuong-bach-mai-wave-xe-ga-50cc-di-hoc-thuc-tap/",
+        "categories": [
+          182
+        ],
+        "canonical": "https://thuexemaynguyentu.com/thue-xe-may-phuong-bach-mai-wave-xe-ga-50cc-di-hoc-thuc-tap/",
+        "seo_title": "Thuê xe máy phường Bạch Mai: Wave, xe ga 50cc và giá",
+        "seo_description": "Thuê xe máy ở phường Bạch Mai nên chọn Honda Wave hay xe tay ga 50cc? Giá tham khảo, điều kiện người lái, tiền cọc, giao nhận từ Bồ Đề và địa giới mới.",
+        "checked_at": "2026-10-22T04:19:38.057147+00:00"
+      }
     }
   },
   "categories": {}
