@@ -38501,6 +38501,25 @@
         "seo_description": "Sạc đầy xe máy điện hết bao nhiêu tiền điện: pin 3,5 kWh của VinFast Evo200 Lite tốn 6.944–12.110 đồng chưa VAT theo 6 bậc giá điện, và biểu giá 5 bậc chưa áp dụng.",
         "checked_at": "2026-10-22T16:08:18.031052+00:00"
       }
+    },
+    "NT-090024": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T16:08:34.037586+00:00",
+      "source_hash": "a1c432c91371bb92f48ab57ee81d42a1d23734bfd158ca0d7997c7c43838ec7f",
+      "slug": "xe-dap-dien-bosch-bao-loi-503-504-khe-nam-cham-cam-bien-toc-do-2-8-mm-hay-5-17-mm",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 168,
+      "visible_hash": "82cfc289b0c883e5622aa417436bea8acdb72ce6205abeed0715833eb9c08993",
+      "first_paragraph": "Lỗi 503 xe đạp điện Bosch là mã báo lỗi cảm biến tốc độ, còn mã 504 báo hệ thống phát hiện tín hiệu tốc độ bị méo; khe giữa nam châm và cảm biến thì không có một con số chung, vì sách Bosch người viết đọc ghi 2–8 mm, 2–15 mm hoặc 5–17 mm tùy loại cảm biến, loại nam châm và đời sách. Với mã 503, hãng chỉ dặn khởi động lại hệ thống và liên hệ đại lý Bosch eBike nếu lỗi còn; với mã 504, hãng dặn kiểm tra nam châm nan hoa đã đặt đúng chưa, kiểm tra xe có bị can thiệp (tuning) không, và nói rõ trợ lực bị giảm.",
+      "meta_title": "Lỗi 503 xe đạp điện Bosch: khe nam châm cảm biến tốc độ theo sách",
+      "meta_description": "Lỗi 503 xe đạp điện Bosch và mã 504: hãng dặn gì, khe nam châm cảm biến tốc độ 2–8, 2–15 hay 5–17 mm theo từng đời sách và khi nào đến đại lý.",
+      "intended_taxonomy_key": "electric-tech",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "08d0f963333ced9e90d0a2ead64e40bad75800fa",
+      "run_id": "39809851095",
+      "updated_at": "2026-10-22T16:08:34.039449+00:00"
     }
   },
   "categories": {}
