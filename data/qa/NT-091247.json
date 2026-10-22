@@ -1,0 +1,201 @@
+{
+  "topic_id": "NT-091247",
+  "status": "PASS",
+  "source_sha256": "0d3f718cbdd5e91db13b7351d9e71ad78fd518af225a3fc89508c794b029842b",
+  "body_sha256": "dde59b0f3cc4a9db54ff5cf3c84b9d6b2c797c6b968930a1ccd5c5465a5a0da4",
+  "word_count": 2270,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vinfastauto.com/vn_vi/top-5-xe-may-ket-noi-smartphone-thong-minh-tien-ich",
+      "supports": "Trang VinFast nói về Evo200 và Evo200 Lite: qua ứng dụng chủ xe xem được thông tin pin gồm dung lượng còn lại, tuổi thọ pin, nhiệt độ, số vòng sạc, điện áp và dòng điện, cùng thông tin vận hành; phần Klara S (2022) trên cùng trang, trong đoạn đã đọc, nói về chế độ lái Eco/Sport chứ không liệt kê chỉ số pin; phần bài đọc không có ngày đăng.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://apps.apple.com/vn/app/vinfast-e-scooter/id1464483545",
+      "supports": "Mô tả ứng dụng VinFast E-Scooter trên App Store (nhà phát triển Vingroup) cho Ludo, Impes, Klara S: ứng dụng tra cứu dung lượng pin hiện tại, hỏi tuổi thọ pin còn bao nhiêu phần trăm và cảnh báo khi dung lượng pin thấp; trong phần đã đọc không có định nghĩa tuổi thọ pin.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/espcnf1bol003-01-hs_bol_owner_manual_amio_s_ver01.pdf",
+      "supports": "Sổ hướng dẫn VinFast Amio S (trích xuất ghi 06/05/2026): đồng hồ HMI có thanh dung lượng nhấp nháy khi SOC dưới 20%, biểu tượng pin nhấp nháy dưới 10% và giá trị dung lượng pin còn lại; ứng dụng điện thoại dùng để đọc lỗi; hãng dặn định kỳ mang xe đến đại lý và xưởng dịch vụ VinFast để kiểm tra hệ thống pin; bảng mã lỗi có các mã BMS.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "supports": "Hướng dẫn Dat Bike ERA: màn hình hiển thị chỉ thị dòng điện ra hoặc vào, LCD chuyển được sang màn hình kỹ thuật để đọc thêm nội dung kỹ thuật, và hãng dặn bảo đảm min volt của xe lớn hơn 3,3 V trước khi tắt xe khi không sạc đầy thường xuyên (bước bảo quản ghi giá trị Min trên màn hình kỹ thuật phải lớn hơn 3,3 V nếu không sạc đầy); bài không định nghĩa Min và không chép cách bật màn hình kỹ thuật.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vinfastauto.com/vn_vi/top-5-xe-may-ket-noi-smartphone-thong-minh-tien-ich",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://apps.apple.com/vn/app/vinfast-e-scooter/id1464483545",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/espcnf1bol003-01-hs_bol_owner_manual_amio_s_ver01.pdf",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-su-dung-xe-era/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2352,
+        "title": "Xe máy điện có cần bằng lái không? Cách phân biệt theo công suất",
+        "why": "stale",
+        "content_hash": "8c5c200eacd4af62c6f482e36bad9112feb65d56c6bb4032d8dbae3c82a64876",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2355,
+        "title": "Bao nhiêu tuổi được đi xe máy điện? Những điều cần biết",
+        "why": "stale",
+        "content_hash": "df4e397638303da8d179daafae395db634b027fd262d47406e50b3e2c2cf527c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2378,
+        "title": "Xe máy điện VinFast: các mẫu đáng chú ý và điểm khác biệt",
+        "why": "stale",
+        "content_hash": "37ef98f1fa6912ab03a40b59b7957c089abbadee5f0ea45c7e3fcf1b939d9074",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2559,
+        "title": "Các loại bằng lái xe máy hiện nay và cách phân biệt từng hạng",
+        "why": "stale",
+        "content_hash": "1dbe75f2df7dd3b894e673123e9c56ffdda9c772f072b8cb4682f49b0f264d0e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T06:48:21.812132+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "d72f9f89f4b5a91b1ede40b71ad6c9b7a50e7b91de04d4b4618bf8b7a952c866",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

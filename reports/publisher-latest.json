@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-22T06:42:26.699170+00:00",
+  "at": "2026-10-22T06:49:23.390283+00:00",
   "attempted": 2,
   "ready_backlog": 0,
   "batch_size": 2,
@@ -191,11 +191,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T06:41:03.488691+00:00",
+      "at": "2026-10-22T06:47:56.190453+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "d6a4ac2eaa1dc2f5646d7aa878edb01a8954a35777388f3472dad312732b0743",
+      "inventory_sha256": "d72f9f89f4b5a91b1ede40b71ad6c9b7a50e7b91de04d4b4618bf8b7a952c866",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -380,11 +380,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T06:41:10.669585+00:00",
+      "at": "2026-10-22T06:48:04.161429+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "d6a4ac2eaa1dc2f5646d7aa878edb01a8954a35777388f3472dad312732b0743",
+      "inventory_sha256": "d72f9f89f4b5a91b1ede40b71ad6c9b7a50e7b91de04d4b4618bf8b7a952c866",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -577,11 +577,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T06:41:16.810465+00:00",
+      "at": "2026-10-22T06:48:11.163686+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "d6a4ac2eaa1dc2f5646d7aa878edb01a8954a35777388f3472dad312732b0743",
+      "inventory_sha256": "d72f9f89f4b5a91b1ede40b71ad6c9b7a50e7b91de04d4b4618bf8b7a952c866",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -601,19 +601,19 @@
       }
     },
     {
-      "topic_id": "NT-090404",
+      "topic_id": "NT-091247",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 169,
+      "category_id": 167,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "electric-transition",
+      "intended_taxonomy_key": "battery-charging",
       "category_warning": null
     },
     {
-      "topic_id": "NT-090413",
+      "topic_id": "NT-091444",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 177,
+      "category_id": 166,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "green-travel",
+      "intended_taxonomy_key": "ebikes",
       "category_warning": null
     }
   ],
