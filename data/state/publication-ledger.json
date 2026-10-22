@@ -32427,7 +32427,7 @@
       }
     },
     "NT-090413": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T06:41:50.716292+00:00",
       "source_hash": "4a090d02f5ec85bf2f8542f25828201468f270fffee2a9b4e791fd3d3dd024cc",
       "slug": "tieng-on-theo-qcvn-26-2025-bnnmt-ban-dem-nha-o-khach-san-45-dba-duong-bo-58-dba-ap-dung-du-tu-1-1-2027",
@@ -32443,8 +32443,37 @@
       "category_warning": null,
       "git_commit": "033998ab94f47addf57fdb5d33e97d5dda9e5903",
       "run_id": "39735100821",
-      "updated_at": "2026-10-22T06:41:55.045550+00:00",
-      "wp_id": 4757
+      "updated_at": "2026-10-22T06:42:00.899102+00:00",
+      "wp_id": 4757,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tieng-on-theo-qcvn-26-2025-bnnmt-ban-dem-nha-o-khach-san-45-dba-duong-bo-58-dba-ap-dung-du-tu-1-1-2027/",
+      "verified_at": "2026-10-22T06:42:00.899095+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4757,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tieng-on-theo-qcvn-26-2025-bnnmt-ban-dem-nha-o-khach-san-45-dba-duong-bo-58-dba-ap-dung-du-tu-1-1-2027/",
+        "categories": [
+          177
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tieng-on-theo-qcvn-26-2025-bnnmt-ban-dem-nha-o-khach-san-45-dba-duong-bo-58-dba-ap-dung-du-tu-1-1-2027/",
+        "seo_title": "QCVN 26:2025/BNNMT tiếng ồn ban đêm: nhà ở 45 dBA, đường bộ 58 dBA",
+        "seo_description": "QCVN 26:2025/BNNMT tiếng ồn ban đêm: nhà ở và khách sạn 45 dBA theo Bảng 1, đường bộ 58 dBA theo Bảng 5, mốc 14/11/2025 và 1/1/2027, cách đo và giới hạn của bài.",
+        "checked_at": "2026-10-22T06:42:00.899078+00:00"
+      }
     }
   },
   "categories": {}
