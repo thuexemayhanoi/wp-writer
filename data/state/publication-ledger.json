@@ -30173,7 +30173,7 @@
       }
     },
     "NT-001512": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:05:11.913447+00:00",
       "source_hash": "0c70f74ce015d4117733cb47d8bbce37a96a36e67c182899069bb14c3864123d",
       "slug": "tu-the-lai-xe-50cc-nguoi-moi-hay-hieu-sai-dieu-gi-ve-tay-lung-va-dau-goi",
@@ -30189,8 +30189,37 @@
       "category_warning": null,
       "git_commit": "6cfc2a756a7b4ed4288ecf4d4d7856f3349d40e6",
       "run_id": "39719712916",
-      "updated_at": "2026-10-22T04:05:15.993286+00:00",
-      "wp_id": 4683
+      "updated_at": "2026-10-22T04:05:22.237810+00:00",
+      "wp_id": 4683,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tu-the-lai-xe-50cc-nguoi-moi-hay-hieu-sai-dieu-gi-ve-tay-lung-va-dau-goi/",
+      "verified_at": "2026-10-22T04:05:22.237803+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4683,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tu-the-lai-xe-50cc-nguoi-moi-hay-hieu-sai-dieu-gi-ve-tay-lung-va-dau-goi/",
+        "categories": [
+          165
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tu-the-lai-xe-50cc-nguoi-moi-hay-hieu-sai-dieu-gi-ve-tay-lung-va-dau-goi/",
+        "seo_title": "Tư thế lái xe 50cc: điều người mới hiểu sai về tay, lưng và đầu gối",
+        "seo_description": "Tư thế lái xe 50cc theo Honda Global, cẩm nang Ontario và RoSPA: cách đặt tay, lưng, đầu gối, bàn chân, hướng nhìn, chỗ nguồn nói khác nhau và danh sách tự kiểm tra.",
+        "checked_at": "2026-10-22T04:05:22.237782+00:00"
+      }
     }
   },
   "categories": {}
