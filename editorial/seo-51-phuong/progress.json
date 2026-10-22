@@ -8,7 +8,7 @@
   "checkpoint_date": "2026-10-20",
   "completed_editorial_drafts": 12,
   "imported_into_topic_factory": 12,
-  "published_new_articles": 6,
+  "published_new_articles": 7,
   "owner_approval_mode": "3 bài mỗi lượt duyệt",
   "status": "SIX_RESEARCH_TOPICS_PLANNED_AWAITING_WRITER;_SIX_EDITORIAL_AWAIT_RESEARCH",
   "completed": [
@@ -191,13 +191,15 @@
       "approx_quality_word_count": 4033,
       "taxonomy_key": "hanoi-ward-rentals",
       "research_status": "PLANNED_RESEARCH_PASS",
-      "writer_qa_status": "NOT_VERIFIED_CURRENT_RUN",
-      "publication_status": "GITHUB_EDITORIAL_ONLY",
+      "writer_qa_status": "PASS",
+      "publication_status": "WORDPRESS_PUBLISHED_G7_PASS",
       "topic_id": "NT-001110",
-      "wp_post_id": null,
+      "wp_post_id": 4695,
       "campaign_id": "HN-51-WARDS",
       "wp_exact_slug_check": "PENDING_LIVE_WP_CHECK",
-      "intent_collision_check": "PENDING_FULL_WP_AND_FACTORY_RESEARCH"
+      "intent_collision_check": "PENDING_FULL_WP_AND_FACTORY_RESEARCH",
+      "wp_permalink": "https://thuexemaynguyentu.com/thue-xe-may-phuong-bach-mai-wave-xe-ga-50cc-di-hoc-thuc-tap/",
+      "g7_verified_at": "2026-10-22T04:19:38.057169+00:00"
     },
     {
       "batch": 4,
@@ -252,7 +254,7 @@
     "G7_LIVE_READBACK"
   ],
   "publication_policy": "Publish immediately after all gates pass; no WordPress draft; category drift or duplicate holds on GitHub",
-  "last_reconciled_at": "2026-10-21T20:41:44.309509+00:00",
+  "last_reconciled_at": "2026-10-22T04:23:51.269840+00:00",
   "last_live_reconciliation": {
     "checked_at": "2026-10-20T09:33:16.484Z",
     "wordpress_category": {
@@ -290,5 +292,5 @@
   },
   "existing_wordpress_collisions": 0,
   "published_existing_articles": 3,
-  "published_live_ward_articles": 9
+  "published_live_ward_articles": 10
 }
