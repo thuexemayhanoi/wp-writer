@@ -38013,7 +38013,7 @@
       }
     },
     "NT-001977": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:57:20.919222+00:00",
       "source_hash": "1497fa842a3d1be1a9c5cf27a5a84320f3eb9884e1600bc247d3cb11098ac310",
       "slug": "ha-noi-duoc-unesco-ghi-nhan-gi-vi-hoa-binh-1999-sang-tao-2019-hoc-tap",
@@ -38029,8 +38029,37 @@
       "category_warning": null,
       "git_commit": "18322d4fb6c4e2fe50de87cdd8c8c8928ff2de0a",
       "run_id": "39808188049",
-      "updated_at": "2026-10-22T15:57:25.042203+00:00",
-      "wp_id": 4871
+      "updated_at": "2026-10-22T15:57:30.689130+00:00",
+      "wp_id": 4871,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ha-noi-duoc-unesco-ghi-nhan-gi-vi-hoa-binh-1999-sang-tao-2019-hoc-tap/",
+      "verified_at": "2026-10-22T15:57:30.689124+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4871,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ha-noi-duoc-unesco-ghi-nhan-gi-vi-hoa-binh-1999-sang-tao-2019-hoc-tap/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ha-noi-duoc-unesco-ghi-nhan-gi-vi-hoa-binh-1999-sang-tao-2019-hoc-tap/",
+        "seo_title": "Hà Nội được UNESCO ghi nhận gì: hòa bình 1999, sáng tạo 2019, học tập",
+        "seo_description": "Hà Nội được UNESCO ghi nhận gì: ba danh hiệu thành phố Vì hòa bình 1999, Sáng tạo 2019 và Học tập toàn cầu, kèm chỗ hai báo ghi năm khác nhau.",
+        "checked_at": "2026-10-22T15:57:30.689105+00:00"
+      }
     }
   },
   "categories": {}
