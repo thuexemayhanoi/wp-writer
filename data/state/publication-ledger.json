@@ -37523,7 +37523,7 @@
       }
     },
     "NT-001968": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:46:42.930078+00:00",
       "source_hash": "b5cf276e67debec9d4d8563cc9b100cedad4518ddc4b09939d9f11cf4dc3cae5",
       "slug": "hau-dong-la-gi-len-dong-trong-tho-mau-tam-phu-va-unesco-ghi-danh-ngay-1-12-2016",
@@ -37539,8 +37539,37 @@
       "category_warning": null,
       "git_commit": "29b371a50ce93cffc2535aafb2c098124c5c38a7",
       "run_id": "39806500390",
-      "updated_at": "2026-10-22T15:46:47.336933+00:00",
-      "wp_id": 4861
+      "updated_at": "2026-10-22T15:46:53.485210+00:00",
+      "wp_id": 4861,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/hau-dong-la-gi-len-dong-trong-tho-mau-tam-phu-va-unesco-ghi-danh-ngay-1-12-2016/",
+      "verified_at": "2026-10-22T15:46:53.485204+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4861,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/hau-dong-la-gi-len-dong-trong-tho-mau-tam-phu-va-unesco-ghi-danh-ngay-1-12-2016/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/hau-dong-la-gi-len-dong-trong-tho-mau-tam-phu-va-unesco-ghi-danh-ngay-1-12-2016/",
+        "seo_title": "Hầu đồng là gì: lên đồng trong thờ Mẫu Tam phủ, UNESCO ghi danh 2016",
+        "seo_description": "Hầu đồng là gì? Theo Cục Di sản văn hóa và Bộ VHTTDL, đó là nghi lễ lên đồng trung tâm của thờ Mẫu Tam phủ, được UNESCO ghi danh ngày 1/12/2016.",
+        "checked_at": "2026-10-22T15:46:53.485184+00:00"
+      }
     }
   },
   "categories": {}
