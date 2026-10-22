@@ -62,6 +62,17 @@ class WordPressRateLimitTests(unittest.TestCase):
         sleep.assert_not_called()
 
     @patch('common.time.sleep')
+    def test_get_timeout_reports_endpoint_and_cause_without_credentials(self, sleep):
+        client = WP()
+        client.opener = Mock()
+        client.opener.open.side_effect = [urllib.error.URLError(TimeoutError('simulated'))] * 3
+        with self.assertRaisesRegex(RuntimeError,
+                                     r'GET; path=/wp-json/wp/v2/users/me; reason=TimeoutError'):
+            client.request('wp/v2/users/me?context=edit')
+        self.assertEqual(client.opener.open.call_count, 3)
+        self.assertEqual(sleep.call_count, 2)
+
+    @patch('common.time.sleep')
     def test_post_is_never_retried_after_429(self, sleep):
         client = WP()
         client.opener = Mock()

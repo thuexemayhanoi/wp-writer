@@ -441,6 +441,30 @@ def daily_created_count(ledger, utc_day, status=None):
     return count
 
 
+
+def publisher_has_work():
+    """Avoid costly authenticated WP GETs when there is nothing to publish.
+
+    A new/changed/unscored draft must still go through live QA. Only a
+    byte-identical draft already assessed as FAIL/REVIEW/BLOCKED can be
+    skipped. Unresolved write-ahead intents always require reconciliation.
+    The separate audit workflows remain responsible for periodic site drift.
+    """
+    ledger=load(LEDGER,{'posts':{}})
+    published=ledger.get('posts',{})
+    if any(not isinstance(rec,dict) or rec.get('phase')!='VERIFIED'
+           for rec in published.values()):
+        return True
+    for path in (ROOT/'posts/drafts').glob('NT-*.md'):
+        if path.stem in published:
+            continue
+        qa=load('data/qa/'+path.stem+'.json',{}) or {}
+        if (qa.get('status') in ('FAIL','REVIEW','BLOCKED')
+                and qa.get('source_sha256')==digest(path.read_bytes())):
+            continue
+        return True
+    return False
+
 def run(args):
     base_policy=load('config/production-policy.json');policy=dict(base_policy)
     batch_limit=delivery_batch_limit(policy)
@@ -475,6 +499,9 @@ def run(args):
             if len(matches)!=1:raise ValueError('Unknown draft')
             result=evaluate(path,matches[0],rows=rows,live=False);save('data/qa/'+path.stem+'.json',result);results.append(result)
         save('reports/publisher-preview.json',{'mode':'dry_run','wordpress_writes':0,'qa':results,'at':now()});print('DRY_RUN: no WordPress writes');return
+    if not (args.acceptance_topic or args.acceptance_draft) and not publisher_has_work():
+        print('PUBLISHER_IDLE: no unpublished actionable draft or unresolved POST intent; skipping WordPress REST')
+        return
     with lock():
         client=WP(authenticated=True);client.get('wp/v2/users/me?context=edit&_fields=id')
         live=inventory(client);cats=client.all('wp/v2/categories',hide_empty='false')

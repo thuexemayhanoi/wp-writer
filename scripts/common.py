@@ -164,8 +164,16 @@ class WP:
                     if verb == 'POST' and e.code in REFUSED_BEFORE_CREATE:
                         raise WPRejected(e.code) from None
                     raise RuntimeError(f'WordPress HTTP {e.code}; {verb}') from None
-            except (urllib.error.URLError, TimeoutError, OSError):
-                if verb != 'GET' or attempt == 2: raise RuntimeError(f'WordPress network error; {verb}; outcome unknown for writes') from None
+            except (urllib.error.URLError, TimeoutError, OSError) as exc:
+                if verb != 'GET' or attempt == 2:
+                    # No tokens or Basic Auth headers in logs. Expose only the
+                    # failing endpoint path and exception type for diagnosis.
+                    reason = exc.reason if isinstance(exc, urllib.error.URLError) else exc
+                    safe_path = urllib.parse.urlsplit(url).path
+                    raise RuntimeError(
+                        f'WordPress network error; {verb}; path={safe_path}; '
+                        f'reason={type(reason).__name__}; outcome unknown for writes'
+                    ) from None
             time.sleep(2 ** attempt)
 
     def get(self, path, **kwargs): return self.request(path, **kwargs)[0]
