@@ -30908,7 +30908,7 @@
       }
     },
     "NT-001604": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:20:59.034123+00:00",
       "source_hash": "66c3d8b3dae39027153196552489002b6ede291e3be45bfc0dcdd7fdc19a8a23",
       "slug": "tre-nho-uong-ca-phe-trung-duoc-khong-trung-chua-chin-ky-caffeine-do-thay-the",
@@ -30924,8 +30924,37 @@
       "category_warning": null,
       "git_commit": "e8867ed3ab382cf02fcc9d35a5f3f731186b146e",
       "run_id": "39721381932",
-      "updated_at": "2026-10-22T04:21:03.345592+00:00",
-      "wp_id": 4698
+      "updated_at": "2026-10-22T04:21:09.098522+00:00",
+      "wp_id": 4698,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tre-nho-uong-ca-phe-trung-duoc-khong-trung-chua-chin-ky-caffeine-do-thay-the/",
+      "verified_at": "2026-10-22T04:21:09.098514+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4698,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tre-nho-uong-ca-phe-trung-duoc-khong-trung-chua-chin-ky-caffeine-do-thay-the/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tre-nho-uong-ca-phe-trung-duoc-khong-trung-chua-chin-ky-caffeine-do-thay-the/",
+        "seo_title": "Trẻ nhỏ uống cà phê trứng được không: trứng chưa chín kỹ, caffeine",
+        "seo_description": "Trẻ nhỏ uống cà phê trứng được không: điều CDC, Health Canada và hướng dẫn Hoa Kỳ qua Tuổi Trẻ nói về trứng chưa chín kỹ và caffeine, công thức có vodka, kèm gợi ý hỏi quán.",
+        "checked_at": "2026-10-22T04:21:09.098493+00:00"
+      }
     }
   },
   "categories": {}
