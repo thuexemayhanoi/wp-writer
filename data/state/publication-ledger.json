@@ -38111,7 +38111,7 @@
       }
     },
     "NT-001980": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T16:03:20.122414+00:00",
       "source_hash": "350fede48b9667684ed928f9d0329f3798d7873e930a4e8c76fd5f64bc9aeb65",
       "slug": "tiet-thanh-minh-o-mien-bac-tao-mo-ngay-nao-xoi-gac-thit-vit-va-luu-y",
@@ -38127,8 +38127,37 @@
       "category_warning": null,
       "git_commit": "08d0f963333ced9e90d0a2ead64e40bad75800fa",
       "run_id": "39809851095",
-      "updated_at": "2026-10-22T16:03:25.101737+00:00",
-      "wp_id": 4873
+      "updated_at": "2026-10-22T16:03:31.557544+00:00",
+      "wp_id": 4873,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tiet-thanh-minh-o-mien-bac-tao-mo-ngay-nao-xoi-gac-thit-vit-va-luu-y/",
+      "verified_at": "2026-10-22T16:03:31.557538+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4873,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tiet-thanh-minh-o-mien-bac-tao-mo-ngay-nao-xoi-gac-thit-vit-va-luu-y/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tiet-thanh-minh-o-mien-bac-tao-mo-ngay-nao-xoi-gac-thit-vit-va-luu-y/",
+        "seo_title": "Tiết Thanh minh ở miền Bắc: tảo mộ ngày nào, xôi gấc thịt vịt",
+        "seo_description": "Tiết Thanh minh ở miền Bắc bắt đầu khoảng 4–5/4, năm 2026 từ 5/4 đến 20/4; tảo mộ ngày nào cũng được, lễ vật thường xôi gấc, thịt vịt, mâm đơn giản và các bước tại mộ.",
+        "checked_at": "2026-10-22T16:03:31.557522+00:00"
+      }
     }
   },
   "categories": {}
