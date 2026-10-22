@@ -1,0 +1,201 @@
+{
+  "topic_id": "NT-001842",
+  "status": "PASS",
+  "source_sha256": "31dab5936d2cf84567fa508d5ae6d6e96fbb864b763e8b481fe96a4aa52bd3cf",
+  "body_sha256": "6583ccf6a98288707a045198b1942ac66191dbd19b0ebb58cd0d510469422992",
+  "word_count": 2874,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=43493",
+      "supports": "Trang thủ tục 2.001485 (Bộ Công an, đọc 22/10/2026): trong 07 ngày làm việc kể từ ngày xe hư hỏng không sử dụng được, bị thải bỏ, chủ xe phải khai báo và nộp giấy đăng ký, biển số để thu hồi; mất giấy hoặc biển thì ghi rõ lý do trong giấy khai; thu hồi toàn trình giải quyết không quá 8 giờ làm việc",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.camau.gov.vn/quy-dinh-ve-thu-tuc-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe.8381",
+      "supports": "Bài Sở Tư pháp Cà Mau (26/05/2026) về Thông tư 62/2026/TT-BCA ký 18/5/2026, hiệu lực từ ngày ký: thu hồi toàn trình đối với xe hư hỏng không sử dụng được, thải bỏ, mất không tìm được; chứng nhận thu hồi điện tử không yêu cầu bản chà số máy, số khung",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.camau.gov.vn/ch9/8887-Diem-moi-ve-dang-ky-xe-theo-Thong-tu-so-622026TT-BCA-cua-Bo-Cong-an.mhtml",
+      "supports": "Trang Công an tỉnh Cà Mau (cập nhật 01/07/2026): cấp chứng nhận thu hồi hoặc bản sao trong trường hợp bị mất giải quyết không quá 2 ngày làm việc theo Thông tư 62/2026/TT-BCA",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=62012",
+      "supports": "Trang thủ tục 1.013123 (Bộ Công an, đọc 22/10/2026): thu hồi áp dụng với xe hư hỏng không sử dụng được, xe thải bỏ, mất không tìm được và đề nghị thu hồi theo yêu cầu; hồ sơ gồm giấy khai, giấy tờ chủ xe, bản chà số máy số khung, giấy đăng ký, biển số; không thu lệ phí",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=43493",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.camau.gov.vn/quy-dinh-ve-thu-tuc-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe.8381",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.camau.gov.vn/ch9/8887-Diem-moi-ve-dang-ky-xe-theo-Thong-tu-so-622026TT-BCA-cua-Bo-Cong-an.mhtml",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=62012",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 857,
+        "title": "Thuê Xe Máy Gần Ba Đình Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "ff038987475d1c5973af24c729ffdbc9e5c5499ac63cb30faeaeec38d4c88f28",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 868,
+        "title": "Thuê Xe Máy Gần Đống Đa Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "546ff0ab13dd4c91bda33597cb95550dd779713c68f07ed7f71352bda36d5fc9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 912,
+        "title": "Cho Thuê Xe Máy Gần Hai Bà Trưng Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "44e6e84c13c7ef2a480615cae366f2478dcfd27d57fa8f252adaf04470732e91",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T10:20:28.281130+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "8b92a5901d0e45d297c331f8e28794ee95033a2bd0c9ccea5e2bfadc4357b461",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

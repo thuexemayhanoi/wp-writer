@@ -1,65 +1,17 @@
 {
-  "at": "2026-10-22T10:12:01.057701+00:00",
+  "at": "2026-10-22T10:21:36.651412+00:00",
   "counts": {
-    "WRITING": 16,
+    "WRITING": 7,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 706
+    "VERIFIED": 715
   },
   "ready_backlog": 0,
-  "in_flight": 19,
+  "in_flight": 10,
   "items": [
-    {
-      "topic_id": "NT-001636",
-      "state": "WRITING",
-      "reason": "leased to seodev-w77",
-      "title": "Mai Châu vào cuối tuần: điều nên tìm hiểu trước để tôn trọng văn hóa địa phương",
-      "slot": "W3",
-      "session": "seodev-w77",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001662",
-      "state": "WRITING",
-      "reason": "leased to seodev-w80",
-      "title": "Du lịch hai ngày một đêm: xuất phát buổi sáng hay buổi chiều hợp lý hơn",
-      "slot": "W1",
-      "session": "seodev-w80",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001692",
-      "state": "WRITING",
-      "reason": "leased to seodev-w74",
-      "title": "Qua đoạn đường đang sửa bằng xe máy: biển tạm, tốc độ, tấm thép và sỏi trượt",
-      "slot": "W8",
-      "session": "seodev-w74",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001724",
-      "state": "WRITING",
-      "reason": "leased to seodev-w77",
-      "title": "Gửi xe ở Hà Nội không tiền mặt từ 1/7/2026: quét mã QR theo mệnh giá in sẵn",
-      "slot": "W3",
-      "session": "seodev-w77",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-001725",
       "state": "WRITING",
@@ -73,72 +25,12 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001818",
-      "state": "WRITING",
-      "reason": "leased to seodev-w77",
-      "title": "Xe nào có Smart Key: mẫu Honda, Yamaha trang hãng ghi khóa thông minh và mẫu trang không nhắc",
-      "slot": "W3",
-      "session": "seodev-w77",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001819",
-      "state": "WRITING",
-      "reason": "leased to seodev-w77",
-      "title": "Đồng hồ xe máy hiển thị gì: LCD, TFT hay kim, báo thay nhớt, mức tiêu thụ xăng theo trang hãng",
-      "slot": "W3",
-      "session": "seodev-w77",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001820",
-      "state": "WRITING",
-      "reason": "leased to seodev-w79",
-      "title": "Xe 125cc, 150cc nghĩa là gì: số cm3 thực tế của xe Honda, Yamaha và vì sao không phải tốc độ",
-      "slot": "W5",
-      "session": "seodev-w79",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001841",
       "state": "WRITING",
       "reason": "leased to seodev-w77",
       "title": "Đổi giấy đăng ký xe máy: màu sơn, địa chỉ, giấy mờ rách, biển gãy và thời hạn 2–7 ngày làm việc",
       "slot": "W3",
       "session": "seodev-w77",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001842",
-      "state": "WRITING",
-      "reason": "leased to seodev-w78",
-      "title": "Thu hồi biển số xe máy khi xe hỏng hoặc thải bỏ: khai báo trong 07 ngày làm việc và thu hồi điện tử",
-      "slot": "W4",
-      "session": "seodev-w78",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001843",
-      "state": "WRITING",
-      "reason": "leased to seodev-w78",
-      "title": "Xe máy biển nước ngoài vào Việt Nam du lịch: xe dẫn đường, giấy tờ cần mang và thủ tục chấp thuận",
-      "slot": "W4",
-      "session": "seodev-w78",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -8065,6 +7957,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001636",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Mai Châu vào cuối tuần: điều nên tìm hiểu trước để tôn trọng văn hóa địa phương",
+      "slot": "W3",
+      "session": "seodev-w77",
+      "wp_id": 4782,
+      "url": "https://thuexemaynguyentu.com/mai-chau-vao-cuoi-tuan-dieu-nen-tim-hieu-truoc-de-ton-trong-van-hoa-dia-phuong/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001637",
       "state": "VERIFIED",
       "reason": "publish",
@@ -8089,6 +7993,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001662",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Du lịch hai ngày một đêm: xuất phát buổi sáng hay buổi chiều hợp lý hơn",
+      "slot": "W1",
+      "session": "seodev-w80",
+      "wp_id": 4783,
+      "url": "https://thuexemaynguyentu.com/du-lich-hai-ngay-mot-dem-xuat-phat-buoi-sang-hay-buoi-chieu-hop-ly-hon/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001665",
       "state": "VERIFIED",
       "reason": "publish",
@@ -8109,6 +8025,18 @@
       "session": "seodev-w74",
       "wp_id": 4778,
       "url": "https://thuexemaynguyentu.com/quan-sat-truoc-khi-mo-cua-xe-dieu-19-luat-36-2024-muc-phat-va-tranh-va-xe-may/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001692",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Qua đoạn đường đang sửa bằng xe máy: biển tạm, tốc độ, tấm thép và sỏi trượt",
+      "slot": "W8",
+      "session": "seodev-w74",
+      "wp_id": 4784,
+      "url": "https://thuexemaynguyentu.com/qua-doan-duong-dang-sua-bang-xe-may-bien-tam-toc-do-tam-thep-va-soi-truot/",
       "qa_status": "PASS",
       "seo_score": 100
     },
@@ -8145,6 +8073,18 @@
       "session": "seodev-w76",
       "wp_id": 4709,
       "url": "https://thuexemaynguyentu.com/giao-thong-chiem-bao-nhieu-phan-o-nhiem-khong-khi-ha-noi-60-38-25-hay-23/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001724",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Gửi xe ở Hà Nội không tiền mặt từ 1/7/2026: quét mã QR theo mệnh giá in sẵn",
+      "slot": "W3",
+      "session": "seodev-w77",
+      "wp_id": 4785,
+      "url": "https://thuexemaynguyentu.com/gui-xe-o-ha-noi-khong-tien-mat-tu-1-7-2026-quet-ma-qr-theo-menh-gia-in-san/",
       "qa_status": "PASS",
       "seo_score": 100
     },
@@ -8325,6 +8265,66 @@
       "session": "seodev-w77",
       "wp_id": 4781,
       "url": "https://thuexemaynguyentu.com/blue-core-tren-xe-yamaha-latte-freego-janus-co-blue-core-grande-va-gear-them-hybrid/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001818",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe nào có Smart Key: mẫu Honda, Yamaha trang hãng ghi khóa thông minh và mẫu trang không nhắc",
+      "slot": "W3",
+      "session": "seodev-w77",
+      "wp_id": 4786,
+      "url": "https://thuexemaynguyentu.com/xe-nao-co-smart-key-mau-honda-yamaha-trang-hang-ghi-khoa-thong-minh-va-mau-trang-khong-nhac/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001819",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đồng hồ xe máy hiển thị gì: LCD, TFT hay kim, báo thay nhớt, mức tiêu thụ xăng theo trang hãng",
+      "slot": "W3",
+      "session": "seodev-w77",
+      "wp_id": 4787,
+      "url": "https://thuexemaynguyentu.com/dong-ho-xe-may-hien-thi-gi-lcd-tft-hay-kim-bao-thay-nhot-muc-tieu-thu-xang-theo-trang-hang/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001820",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe 125cc, 150cc nghĩa là gì: số cm3 thực tế của xe Honda, Yamaha và vì sao không phải tốc độ",
+      "slot": "W5",
+      "session": "seodev-w79",
+      "wp_id": 4788,
+      "url": "https://thuexemaynguyentu.com/xe-125cc-150cc-nghia-la-gi-so-cm3-thuc-te-cua-xe-honda-yamaha-va-vi-sao-khong-phai-toc-do/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001842",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Thu hồi biển số xe máy khi xe hỏng hoặc thải bỏ: khai báo trong 07 ngày làm việc và thu hồi điện tử",
+      "slot": "W4",
+      "session": "seodev-w78",
+      "wp_id": 4789,
+      "url": "https://thuexemaynguyentu.com/thu-hoi-bien-so-xe-may-khi-xe-hong-hoac-thai-bo-khai-bao-trong-07-ngay-lam-viec-va-thu-hoi-dien-tu/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001843",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe máy biển nước ngoài vào Việt Nam du lịch: xe dẫn đường, giấy tờ cần mang và thủ tục chấp thuận",
+      "slot": "W4",
+      "session": "seodev-w78",
+      "wp_id": 4790,
+      "url": "https://thuexemaynguyentu.com/xe-may-bien-nuoc-ngoai-vao-viet-nam-du-lich-xe-dan-duong-giay-to-can-mang-va-thu-tuc-chap-thuan/",
       "qa_status": "PASS",
       "seo_score": 100
     },

@@ -1,0 +1,167 @@
+{
+  "topic_id": "NT-001843",
+  "status": "PASS",
+  "source_sha256": "33964fbc29c05bfac6665121d03e9b456e7b0c2c9f51b0839f11d708435081c5",
+  "body_sha256": "692f0885cdb58701d658cd0260e72f11bb8c81bc5882009b6be66b4e21975dc3",
+  "word_count": 2981,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://pbgdpl.camau.gov.vn/quy-dinh-doi%C2%A0voi-nguoi%C2%A0dieu-khien-va-phuong-tien-co%C2%A0gioi%C2%A0nuoc-ngoai-khi-tham-gia-giao-thong-tai-viet-nam.4960",
+      "supports": "Bài Sở Tư pháp Cà Mau (12/03/2024) về Nghị định 30/2024/NĐ-CP (hiệu lực 01/5/2024): xe cơ giới nước ngoài du lịch phải có phương tiện đi trước dẫn đường (xe mô tô nếu khách điều khiển xe mô tô) do doanh nghiệp lữ hành quốc tế Việt Nam bố trí, gắn logo hoặc cắm cờ; chỉ chạy theo tuyến, phạm vi và thời gian trong văn bản chấp thuận của Bộ Công an; danh sách giấy tờ phải mang theo",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=64169",
+      "supports": "Trang thủ tục 1.010918 (Bộ Công an, đọc 22/10/2026): xe đăng ký ở nước ngoài tạm nhập, tái xuất có thời hạn để du lịch được cấp chứng nhận đăng ký xe tạm thời ghi theo thời hạn cơ quan thẩm quyền cho phép; cấp trong 01 ngày làm việc; xe chỉ chạy theo thời hạn, tuyến đường, phạm vi ghi trong chứng nhận",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/quy-dinh-ve-so-hoa-thu-tuc-hanh-chinh-va-nang-cao-hieu-qua-cong-tac-quan-ly-phuong-tien-giao-thong-1787384741",
+      "supports": "Bài trên Cổng TTĐT Bộ Công an (22/08/2026): Nghị định 236/2026/NĐ-CP ngày 26/6/2026 sửa đổi Nghị định 151/2024/NĐ-CP; chấp thuận xe nước ngoài, xe tay lái bên phải rút từ 5 ngày xuống còn 2 ngày; doanh nghiệp lữ hành bố trí xe dẫn đường có thiết bị giám sát hành trình",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://pbgdpl.camau.gov.vn/quy-dinh-doi%C2%A0voi-nguoi%C2%A0dieu-khien-va-phuong-tien-co%C2%A0gioi%C2%A0nuoc-ngoai-khi-tham-gia-giao-thong-tai-viet-nam.4960",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=64169",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/quy-dinh-ve-so-hoa-thu-tuc-hanh-chinh-va-nang-cao-hieu-qua-cong-tac-quan-ly-phuong-tien-giao-thong-1787384741",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2397,
+        "title": "Xe máy điện VinFast nào phù hợp đi phố và quãng đường ngắn hằng ngày?",
+        "why": "stale",
+        "content_hash": "2b93d3334950d29cdf087539809b34e2aca4cc02672b85bcc31d2f5de9a815aa",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2572,
+        "title": "Bảo hiểm xe máy bắt buộc gồm những gì? Điều cần lưu ý khi mua",
+        "why": "stale",
+        "content_hash": "ce6003628f4d0d89bace38e8875f0d4d93d5b57145b42e9b61fb223237982e8f",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T10:21:13.312178+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "dfb936783859b6db8095f9bd1d384ba60252871fe78c0b83b0b1d863adf67354",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

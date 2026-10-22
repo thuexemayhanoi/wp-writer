@@ -1,0 +1,167 @@
+{
+  "topic_id": "NT-001662",
+  "status": "PASS",
+  "source_sha256": "17bb61470ff337ac057d71738bda136f8c33f37470cedba696955c9cec882fa8",
+  "body_sha256": "3aaa7978adb587b450b803480cc08113e43fc44bc71e772beade39520bb2deb6",
+  "word_count": 2866,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/vi-sao-khach-phai-tra-phong-truoc-12h-nhan-tu-14h-5012305.html",
+      "supports": "VnExpress 2/2/2026 (Hỏi - Đáp) dẫn Giám đốc Thương mại The Anam Group: mốc trả phòng 12h, nhận phòng 14h (hoặc 15h) là bài toán vận hành, hai tiếng ở giữa để dọn phòng, nhiều nơi vẫn linh hoạt cho nhận sớm hoặc trả muộn miễn phí hoặc có phụ phí.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/cac-quy-dinh-check-in-som-va-check-out-muon-khach-san-4643805.html",
+      "supports": "VnExpress 20/8/2023 dẫn đại diện một khách sạn 5 sao ở Hà Nội: nhận phòng từ 14h, trả phòng thường 12h (có nơi 11h); đến sớm hoặc trả muộn 1-2 giờ thường miễn phí, dài hơn trả 30% đến 100% giá phòng.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/nhuc-cai-dau-voi-kieu-tinh-gio-tinh-gia-phong-khach-san-20250211152521743.htm",
+      "supports": "Tuổi Trẻ 11/02/2025 (bạn đọc gửi): ví dụ phụ thu 50.000 đồng một giờ khi nhận sớm hơn 14h, nhận trước 7h tính thêm một đêm, khách sạn thường giữ hành lý trước giờ nhận phòng, và một số nơi bán gói lưu trú 4, 8, 10, 12, 24 tiếng.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vnexpress.net/vi-sao-khach-phai-tra-phong-truoc-12h-nhan-tu-14h-5012305.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/cac-quy-dinh-check-in-som-va-check-out-muon-khach-san-4643805.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/nhuc-cai-dau-voi-kieu-tinh-gio-tinh-gia-phong-khach-san-20250211152521743.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 841,
+        "title": "Dịch vụ Cho Thuê Xe Máy Hà Nội Gần Hồ Hoàn Kiếm",
+        "why": "stale",
+        "content_hash": "2fd8a54dd17f2343bb342755c3d523dae5e4a63d02a06fdc3073e6e3bc357a05",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2594,
+        "title": "Đi ngoại thành Hà Nội nên chọn xe ga hay xe côn tay để phù hợp hơn?",
+        "why": "stale",
+        "content_hash": "c828fb01d0925dea14287531e51418ebeef09564d4fb50f52a2398ebd052935e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T10:16:53.251071+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "8cc32df7ba0d453a8ad8e1acda786eec13c12f37f27dfad6f0429d001078d69c",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
