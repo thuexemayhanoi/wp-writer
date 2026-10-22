@@ -38258,7 +38258,7 @@
       }
     },
     "NT-002027": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T16:05:25.560978+00:00",
       "source_hash": "ccccf5140ce97776aea1c4751fd1b2129a339104cce7db733afb3a118a91f90f",
       "slug": "bao-hanh-va-mua-lai-honda-cuv-e-xe-3-nam-pin-2-nam-mua-lai-trong-3-nam",
@@ -38274,8 +38274,37 @@
       "category_warning": null,
       "git_commit": "08d0f963333ced9e90d0a2ead64e40bad75800fa",
       "run_id": "39809851095",
-      "updated_at": "2026-10-22T16:05:29.925685+00:00",
-      "wp_id": 4876
+      "updated_at": "2026-10-22T16:05:37.144892+00:00",
+      "wp_id": 4876,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bao-hanh-va-mua-lai-honda-cuv-e-xe-3-nam-pin-2-nam-mua-lai-trong-3-nam/",
+      "verified_at": "2026-10-22T16:05:37.144885+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4876,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bao-hanh-va-mua-lai-honda-cuv-e-xe-3-nam-pin-2-nam-mua-lai-trong-3-nam/",
+        "categories": [
+          169
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bao-hanh-va-mua-lai-honda-cuv-e-xe-3-nam-pin-2-nam-mua-lai-trong-3-nam/",
+        "seo_title": "Bảo hành và mua lại Honda CUV e: xe 3 năm, pin 2 năm, mua lại 3 năm",
+        "seo_description": "Bảo hành và mua lại Honda CUV e: xe 3 năm không giới hạn km, pin 2 năm, mua lại trong 3 năm theo trang Honda 4/6/2026, kèm điều chưa có số và câu hỏi cho HEAD.",
+        "checked_at": "2026-10-22T16:05:37.144867+00:00"
+      }
     }
   },
   "categories": {}
