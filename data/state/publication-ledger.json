@@ -35857,7 +35857,7 @@
       }
     },
     "NT-090233": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T12:00:14.518531+00:00",
       "source_hash": "9a386d50cf7e08ffd887f9a2a655205789675665e1c959d33fc378e6a9239640",
       "slug": "tui-ni-long-o-cho-ha-noi-het-mien-phi-tu-1-1-2026-hay-1-1-2027-khong-luu-hanh-tu-1-1-2028",
@@ -35873,8 +35873,37 @@
       "category_warning": null,
       "git_commit": "a3cbb1a7189d586a340da13703c5f68cba63414d",
       "run_id": "39774287812",
-      "updated_at": "2026-10-22T12:00:19.116579+00:00",
-      "wp_id": 4827
+      "updated_at": "2026-10-22T12:00:25.719643+00:00",
+      "wp_id": 4827,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tui-ni-long-o-cho-ha-noi-het-mien-phi-tu-1-1-2026-hay-1-1-2027-khong-luu-hanh-tu-1-1-2028/",
+      "verified_at": "2026-10-22T12:00:25.719612+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4827,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tui-ni-long-o-cho-ha-noi-het-mien-phi-tu-1-1-2026-hay-1-1-2027-khong-luu-hanh-tu-1-1-2028/",
+        "categories": [
+          177
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tui-ni-long-o-cho-ha-noi-het-mien-phi-tu-1-1-2026-hay-1-1-2027-khong-luu-hanh-tu-1-1-2028/",
+        "seo_title": "Túi ni lông ở chợ Hà Nội: hết miễn phí 1/1/2026 hay 2027, cấm từ 2028",
+        "seo_description": "Túi ni lông ở chợ Hà Nội hết miễn phí từ 1/1/2026 theo nghị quyết và kế hoạch; bài Bộ Công Thương ghi 1/1/2027. Chợ, cửa hàng tiện lợi không lưu hành từ 1/1/2028.",
+        "checked_at": "2026-10-22T12:00:25.719591+00:00"
+      }
     }
   },
   "categories": {}
