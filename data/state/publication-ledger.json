@@ -36396,7 +36396,7 @@
       }
     },
     "NT-002026": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:21:23.130299+00:00",
       "source_hash": "eac958c299efbebec2ed283bfa1e439e4a8e2d3d67ec2ea5a1b4406cb42aeed5",
       "slug": "goi-thue-pin-hay-doi-pin-honda-cuv-e-250-000-va-350-000-dong-moi-thang",
@@ -36412,8 +36412,37 @@
       "category_warning": null,
       "git_commit": "22028d2cf008f7aeaa28bfb5b6621e31b3af6f5a",
       "run_id": "39802649994",
-      "updated_at": "2026-10-22T15:21:27.774004+00:00",
-      "wp_id": 4838
+      "updated_at": "2026-10-22T15:21:34.618964+00:00",
+      "wp_id": 4838,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/goi-thue-pin-hay-doi-pin-honda-cuv-e-250-000-va-350-000-dong-moi-thang/",
+      "verified_at": "2026-10-22T15:21:34.618959+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4838,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/goi-thue-pin-hay-doi-pin-honda-cuv-e-250-000-va-350-000-dong-moi-thang/",
+        "categories": [
+          167
+        ],
+        "canonical": "https://thuexemaynguyentu.com/goi-thue-pin-hay-doi-pin-honda-cuv-e-250-000-va-350-000-dong-moi-thang/",
+        "seo_title": "Gói thuê pin hay đổi pin Honda CUV e: 250.000 và 350.000 đồng/tháng",
+        "seo_description": "Gói thuê pin hay đổi pin Honda CUV e: phí 250.000 và 350.000 đồng mỗi tháng theo trang Honda ngày 4/6/2026, khoản chênh 20 triệu giữa hai bản xe và phép chia hoàn vốn.",
+        "checked_at": "2026-10-22T15:21:34.618941+00:00"
+      }
     }
   },
   "categories": {}
