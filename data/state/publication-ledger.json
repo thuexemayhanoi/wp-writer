@@ -39336,7 +39336,7 @@
       }
     },
     "NT-090719": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T16:29:42.436754+00:00",
       "source_hash": "0c0467e9accacaf25a3f1e58545f6cdea9090293f041110321545342e47d2c7f",
       "slug": "tuyen-pho-thong-minh-o-pho-co-ha-noi-ma-qr-tren-bien-ten-pho-wi-fi-mien-phi-5-pho-thi-diem",
@@ -39352,8 +39352,37 @@
       "category_warning": null,
       "git_commit": "f8052e8e8752a18473f6e50d49ad609ccb9029b7",
       "run_id": "39813289392",
-      "updated_at": "2026-10-22T16:29:48.118960+00:00",
-      "wp_id": 4898
+      "updated_at": "2026-10-22T16:29:55.895518+00:00",
+      "wp_id": 4898,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tuyen-pho-thong-minh-o-pho-co-ha-noi-ma-qr-tren-bien-ten-pho-wi-fi-mien-phi-5-pho-thi-diem/",
+      "verified_at": "2026-10-22T16:29:55.895511+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4898,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tuyen-pho-thong-minh-o-pho-co-ha-noi-ma-qr-tren-bien-ten-pho-wi-fi-mien-phi-5-pho-thi-diem/",
+        "categories": [
+          177
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tuyen-pho-thong-minh-o-pho-co-ha-noi-ma-qr-tren-bien-ten-pho-wi-fi-mien-phi-5-pho-thi-diem/",
+        "seo_title": "Tuyến phố thông minh phố cổ Hà Nội: mã QR biển tên phố, Wi-Fi, 5 phố",
+        "seo_description": "Tuyến phố thông minh phố cổ Hà Nội thí điểm từ 9/10/2026 trên 5 phố: mã QR trên biển tên phố, Wi-Fi miễn phí, bản đồ số, chatbot AI và cách đi bộ một mạch.",
+        "checked_at": "2026-10-22T16:29:55.895492+00:00"
+      }
     }
   },
   "categories": {}
