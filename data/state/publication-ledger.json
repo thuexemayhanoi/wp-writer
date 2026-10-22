@@ -34926,7 +34926,7 @@
       }
     },
     "NT-001908": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T11:21:36.202797+00:00",
       "source_hash": "3ab5d03b1567b8ea93b177fedfb161b3f9fd87362344bc522ecd44182a9e7c47",
       "slug": "lang-gom-phu-lang-o-bac-ninh-men-da-luon-nung-cui-va-cach-di-tu-ha-noi",
@@ -34942,8 +34942,37 @@
       "category_warning": null,
       "git_commit": "abb53e9a25e04324f37450d57629e87b655db50f",
       "run_id": "39769304805",
-      "updated_at": "2026-10-22T11:21:40.443640+00:00",
-      "wp_id": 4808
+      "updated_at": "2026-10-22T11:21:46.318476+00:00",
+      "wp_id": 4808,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lang-gom-phu-lang-o-bac-ninh-men-da-luon-nung-cui-va-cach-di-tu-ha-noi/",
+      "verified_at": "2026-10-22T11:21:46.318466+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4808,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lang-gom-phu-lang-o-bac-ninh-men-da-luon-nung-cui-va-cach-di-tu-ha-noi/",
+        "categories": [
+          126
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lang-gom-phu-lang-o-bac-ninh-men-da-luon-nung-cui-va-cach-di-tu-ha-noi/",
+        "seo_title": "Làng gốm Phù Lãng ở Bắc Ninh: men da lươn, nung củi, cách đi từ Hà Nội",
+        "seo_description": "Làng gốm Phù Lãng ở Bắc Ninh: men da lươn, nung củi, tuổi nghề gần 700 hay 800 năm, trải nghiệm nặn gốm, số liệu nghề và những gì báo chưa nói về đường đi từ Hà Nội.",
+        "checked_at": "2026-10-22T11:21:46.318447+00:00"
+      }
     }
   },
   "categories": {}
