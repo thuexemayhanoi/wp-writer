@@ -29928,7 +29928,7 @@
       }
     },
     "NT-001483": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T03:54:04.785335+00:00",
       "source_hash": "72fa7a6b7f0c2f2d671bb5b0b77f8eaa6bd2ece22c58ed40da69663f18136a48",
       "slug": "mu-bao-hiem-cho-du-khach-nuoc-ngoai-luat-viet-nam-bat-buoc-gi-va-anh-uc-canada-khuyen-gi",
@@ -29944,8 +29944,37 @@
       "category_warning": null,
       "git_commit": "def849ecf657875cd4e12290bad7e243a9f44ac8",
       "run_id": "39718786346",
-      "updated_at": "2026-10-22T03:54:08.890180+00:00",
-      "wp_id": 4678
+      "updated_at": "2026-10-22T03:54:15.321331+00:00",
+      "wp_id": 4678,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/mu-bao-hiem-cho-du-khach-nuoc-ngoai-luat-viet-nam-bat-buoc-gi-va-anh-uc-canada-khuyen-gi/",
+      "verified_at": "2026-10-22T03:54:15.321319+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4678,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/mu-bao-hiem-cho-du-khach-nuoc-ngoai-luat-viet-nam-bat-buoc-gi-va-anh-uc-canada-khuyen-gi/",
+        "categories": [
+          171
+        ],
+        "canonical": "https://thuexemaynguyentu.com/mu-bao-hiem-cho-du-khach-nuoc-ngoai-luat-viet-nam-bat-buoc-gi-va-anh-uc-canada-khuyen-gi/",
+        "seo_title": "Mũ bảo hiểm cho du khách nước ngoài: luật Việt Nam và Anh, Úc, Canada",
+        "seo_description": "Mũ bảo hiểm cho du khách nước ngoài: điều Luật 36/2024 bắt buộc, mức phạt theo Nghị định 168/2024, lời khuyên của Anh, Úc, Canada và điều nguồn chưa nói về mũ chuẩn nước ngoài.",
+        "checked_at": "2026-10-22T03:54:15.321298+00:00"
+      }
     }
   },
   "categories": {}
