@@ -31741,7 +31741,7 @@
       }
     },
     "NT-001753": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:44:16.793120+00:00",
       "source_hash": "bfd7bc5d6734827bb3faf2bb8d65aebe324da2785d6fae8932e5e70a273f4f56",
       "slug": "xe-dien-rung-giat-khi-khoi-hanh-hoac-van-ga-vi-sao-nen-dung-chay-de-kiem-tra",
@@ -31757,8 +31757,37 @@
       "category_warning": null,
       "git_commit": "c7de7c79ccdec5547a0dba5bc3326787f2722919",
       "run_id": "39723491639",
-      "updated_at": "2026-10-22T04:44:20.967194+00:00",
-      "wp_id": 4715
+      "updated_at": "2026-10-22T04:44:27.298002+00:00",
+      "wp_id": 4715,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-dien-rung-giat-khi-khoi-hanh-hoac-van-ga-vi-sao-nen-dung-chay-de-kiem-tra/",
+      "verified_at": "2026-10-22T04:44:27.297994+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4715,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-dien-rung-giat-khi-khoi-hanh-hoac-van-ga-vi-sao-nen-dung-chay-de-kiem-tra/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-dien-rung-giat-khi-khoi-hanh-hoac-van-ga-vi-sao-nen-dung-chay-de-kiem-tra/",
+        "seo_title": "Xe điện rung giật khi khởi hành hoặc vặn ga: vì sao nên dừng chạy",
+        "seo_description": "Xe điện rung giật khi khởi hành hoặc vặn ga: Dat Bike, Yadea, VinFast gắn với bộ điều khiển, động cơ, nước vào hay pin chai; phần nào hãng nói, phần nào là suy luận của người viết.",
+        "checked_at": "2026-10-22T04:44:27.297976+00:00"
+      }
     }
   },
   "categories": {}
