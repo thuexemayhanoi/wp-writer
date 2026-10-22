@@ -33111,6 +33111,25 @@
         "seo_description": "Biển cấm xe gắn máy P.111a nêu thẳng xe gắn máy; P.103a loại trừ xe gắn máy; P.104 chưa nói rõ theo QCVN 41:2024/BGTVT. Xe 50cc bị cấm ở biển nào và nên làm gì khi chưa chắc.",
         "checked_at": "2026-10-22T09:29:52.145721+00:00"
       }
+    },
+    "NT-001665": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T09:36:54.727983+00:00",
+      "source_hash": "cd9f938ce24816f4e6490273ab86bbca6179c27de081ca2313821b7884a1a1e9",
+      "slug": "du-tru-phi-phat-sinh-nhung-khoan-nguoi-di-du-lich-tu-tuc-lan-dau-hay-bo-sot",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 175,
+      "visible_hash": "4a711c3b3ce0bcdf513c3e3c471eb22e82fe0edb77fd5adb02af24b6a87cae40",
+      "first_paragraph": "Dự trù phí phát sinh cho chuyến du lịch tự túc bắt đầu bằng việc tách chi phí thành hai nhóm: khoản đã chốt giá (tiền phòng, vé, tiền thuê xe đã thỏa thuận) và khoản có thể phát sinh sau đó. Qua năm bài báo và hướng dẫn đã đọc, có năm nhóm khoản được nhắc nhiều nhất: phụ thu nhận phòng sớm hoặc trả phòng muộn; phí tại chỗ nghỉ như đỗ xe, dọn phòng, nước uống, tủ lạnh và két sắt; phí ẩn khi đặt phòng như phí dịch vụ, phí resort và thuế; tiền đi lại do ở xa trung tâm hoặc bay giờ quá sớm; và chi phí khi không có bảo hiểm du lịch. Phần lớn các khoản này hỏi được trước bằng một tin nhắn. Không nguồn nào nêu tỷ lệ dự phòng chuẩn, nên mức dự trù chung là lựa chọn của người đi; bài chỉ gợi ý cách tự đặt.",
+      "meta_title": "Dự trù phí phát sinh khi du lịch tự túc: 5 nhóm khoản dễ bỏ sót",
+      "meta_description": "Dự trù phí phát sinh khi đi du lịch tự túc lần đầu: phụ thu nhận phòng sớm, trả muộn, phí đỗ xe, phí ẩn khi đặt phòng, tiền đi lại, bảo hiểm và cách lập bảng dự trù.",
+      "intended_taxonomy_key": "trip-planning",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "cef24cb86112cfff861e17edd29bf16fdaa40b90",
+      "run_id": "39756273399",
+      "updated_at": "2026-10-22T09:36:54.730729+00:00"
     }
   },
   "categories": {}
