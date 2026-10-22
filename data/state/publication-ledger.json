@@ -31006,7 +31006,7 @@
       }
     },
     "NT-001631": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:22:02.098292+00:00",
       "source_hash": "0bc1801357595c8c6289a62e0b7965c7e1ac29a7084e2ce4ed28d309c353dbda",
       "slug": "cao-bang-mua-thac-ban-gioc-lich-trinh-trong-ngay-va-cach-phan-bo-thoi-gian",
@@ -31022,8 +31022,37 @@
       "category_warning": null,
       "git_commit": "e8867ed3ab382cf02fcc9d35a5f3f731186b146e",
       "run_id": "39721381932",
-      "updated_at": "2026-10-22T04:22:06.213198+00:00",
-      "wp_id": 4700
+      "updated_at": "2026-10-22T04:22:11.849715+00:00",
+      "wp_id": 4700,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cao-bang-mua-thac-ban-gioc-lich-trinh-trong-ngay-va-cach-phan-bo-thoi-gian/",
+      "verified_at": "2026-10-22T04:22:11.849708+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4700,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cao-bang-mua-thac-ban-gioc-lich-trinh-trong-ngay-va-cach-phan-bo-thoi-gian/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cao-bang-mua-thac-ban-gioc-lich-trinh-trong-ngay-va-cach-phan-bo-thoi-gian/",
+        "seo_title": "Cao Bằng mùa thác Bản Giốc: lịch trình trong một ngày",
+        "seo_description": "Cao Bằng mùa thác Bản Giốc: chia một ngày thành ba khối thời gian theo VnExpress 2023 và VietNamNet 2025, kèm phương án rút gọn khi mưa bão.",
+        "checked_at": "2026-10-22T04:22:11.849690+00:00"
+      }
     }
   },
   "categories": {}
