@@ -30810,7 +30810,7 @@
       }
     },
     "NT-001395": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:19:53.616775+00:00",
       "source_hash": "08e2b09b9335bed3c77b033026897fd0b9c8dd3823adb85b5a2fc897d9f99386",
       "slug": "vinbus-ha-noi-doi-diem-dung-va-ma-tuyen-e03-e08-e11-tuyen-179-va-180-tu-9-10-2026",
@@ -30826,8 +30826,37 @@
       "category_warning": null,
       "git_commit": "e8867ed3ab382cf02fcc9d35a5f3f731186b146e",
       "run_id": "39721381932",
-      "updated_at": "2026-10-22T04:19:59.949577+00:00",
-      "wp_id": 4696
+      "updated_at": "2026-10-22T04:20:06.208315+00:00",
+      "wp_id": 4696,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/vinbus-ha-noi-doi-diem-dung-va-ma-tuyen-e03-e08-e11-tuyen-179-va-180-tu-9-10-2026/",
+      "verified_at": "2026-10-22T04:20:06.208307+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4696,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/vinbus-ha-noi-doi-diem-dung-va-ma-tuyen-e03-e08-e11-tuyen-179-va-180-tu-9-10-2026/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/vinbus-ha-noi-doi-diem-dung-va-ma-tuyen-e03-e08-e11-tuyen-179-va-180-tu-9-10-2026/",
+        "seo_title": "VinBus đổi điểm dừng, mã tuyến: E03, E08, E11 và 179, 180",
+        "seo_description": "VinBus đổi điểm dừng E03, lộ trình một chiều E08, E11 và mã tuyến 179, 180 từ 9–10/2026: ngày áp dụng, phố đi qua, tuyến nào thuộc Hà Nội và điều chưa rõ.",
+        "checked_at": "2026-10-22T04:20:06.208290+00:00"
+      }
     }
   },
   "categories": {}
