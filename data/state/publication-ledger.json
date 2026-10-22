@@ -32621,6 +32621,25 @@
         "seo_description": "Giá vé Bảo tàng Hà Nội 50.000 đồng, ai được miễn và giảm 50%, giờ mở cửa ban ngày, mở thêm tối thứ Sáu và thứ Bảy từ 11/9/2026, bãi gửi xe ghi sức chứa 350 xe máy.",
         "checked_at": "2026-10-22T06:58:17.348430+00:00"
       }
+    },
+    "NT-090364": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T06:58:32.330108+00:00",
+      "source_hash": "4b5c6e2d613b6c883f89c215f0809fdd0ace50ad664d1a423d79e24f87556226",
+      "slug": "phanh-co-xe-dap-dien-shimano-ghi-khe-ma-phanh-0-2-0-4-mm-tektro-0-3-mm-vi-sao-chinh-hai-ben",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 166,
+      "visible_hash": "374170d6d9ed12fa335b7f54bf079e9ec370f93bb6a7f4daebace89c2ea7c272",
+      "first_paragraph": "Phanh cơ xe đạp điện trong bài này được hiểu là phanh đĩa điều khiển bằng dây cáp, khác với phanh dầu. Hai tài liệu của hãng linh kiện cùng dặn một điều: khi má phanh mòn phải chỉnh khe ở cả hai phía của má phanh với đĩa, chứ không chỉ siết dây. Sổ phanh đĩa cơ của Shimano (dành cho thợ) ghi khe 0,2–0,4 mm ở cả phía trong lẫn phía ngoài và dặn chỉnh hai phía cùng lúc; hướng dẫn của Tektro ghi khe 0,3 mm cho cả hai bên và cảnh báo chỉ chỉnh một bên sẽ làm phanh hỏng. Các mốc độ dày má phanh trong tài liệu là 0,5 mm (Shimano), tổng 2,5 mm gồm cả tấm kim loại (Tektro) và khoảng 0,65 mm (sổ VinFast E-Bike Long Saddle); ba mốc này thuộc ba hãng và có thể không cùng cách đo nên không quy đổi cho nhau. Vì sổ Shimano dành cho thợ chuyên nghiệp, bài không hướng dẫn tự chỉnh từng bước.",
+      "meta_title": "Phanh cơ xe đạp điện: khe má phanh 0,2–0,4 mm Shimano, 0,3 mm Tektro",
+      "meta_description": "Phanh cơ xe đạp điện: Shimano ghi khe má phanh 0,2–0,4 mm, Tektro 0,3 mm, vì sao phải chỉnh cả hai bên, các mốc thay má 0,5 mm, 2,5 mm và 0,65 mm, và việc nên nhờ thợ.",
+      "intended_taxonomy_key": "ebikes",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "8fdf0ae9aed17312a93014a40172712bb7676255",
+      "run_id": "39736905918",
+      "updated_at": "2026-10-22T06:58:32.331862+00:00"
     }
   },
   "categories": {}
