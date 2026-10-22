@@ -32721,7 +32721,7 @@
       }
     },
     "NT-090393": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T07:11:50.866476+00:00",
       "source_hash": "79e842f0cfd91b30535fd0d043613950e0275c508d675e1210a0cd2c735e983f",
       "slug": "ha-noi-giap-5-tinh-nao-sau-sap-nhap-thai-nguyen-phu-tho-bac-ninh-hung-yen-va-ninh-binh",
@@ -32737,8 +32737,37 @@
       "category_warning": null,
       "git_commit": "8389dfb7827a337e0ad0b4e8a2d3bb5d8f8b0ddd",
       "run_id": "39738280239",
-      "updated_at": "2026-10-22T07:11:55.073577+00:00",
-      "wp_id": 4763
+      "updated_at": "2026-10-22T07:12:00.910431+00:00",
+      "wp_id": 4763,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ha-noi-giap-5-tinh-nao-sau-sap-nhap-thai-nguyen-phu-tho-bac-ninh-hung-yen-va-ninh-binh/",
+      "verified_at": "2026-10-22T07:12:00.910425+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4763,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ha-noi-giap-5-tinh-nao-sau-sap-nhap-thai-nguyen-phu-tho-bac-ninh-hung-yen-va-ninh-binh/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ha-noi-giap-5-tinh-nao-sau-sap-nhap-thai-nguyen-phu-tho-bac-ninh-hung-yen-va-ninh-binh/",
+        "seo_title": "Hà Nội giáp những tỉnh nào sau sáp nhập: 5 tỉnh theo NQ 202/2025",
+        "seo_description": "Hà Nội giáp những tỉnh nào sau sáp nhập: Nghị quyết 202/2025/QH15 ghi năm tỉnh giáp Hà Nội, bảng tên tỉnh cũ và mới ở phía Bắc, và cách kiểm tra tên tỉnh trước chuyến đi xe máy.",
+        "checked_at": "2026-10-22T07:12:00.910402+00:00"
+      }
     }
   },
   "categories": {}
