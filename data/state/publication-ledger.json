@@ -32670,6 +32670,25 @@
         "seo_description": "Phanh cơ xe đạp điện: Shimano ghi khe má phanh 0,2–0,4 mm, Tektro 0,3 mm, vì sao phải chỉnh cả hai bên, các mốc thay má 0,5 mm, 2,5 mm và 0,65 mm, và việc nên nhờ thợ.",
         "checked_at": "2026-10-22T06:58:42.990635+00:00"
       }
+    },
+    "NT-090059": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T07:11:24.539741+00:00",
+      "source_hash": "0e38fd42601303f9f3137962bf7fd1eb2d6824ceb870840f4d3f1b9477b03131",
+      "slug": "pin-lfp-vinfast-de-yen-hao-bao-nhieu-khoang-2-duoi-4-moi-thang-hay-duoi-1-5-moi-ngay",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 167,
+      "visible_hash": "c41a2ed877ceea204506a65b704d801f14ff6624e9345e4f9226ab4d4de31b93",
+      "first_paragraph": "Pin LFP VinFast để yên hao bao nhiêu thì chính VinFast đã nêu ba con số khác nhau ở ba nơi, và mỗi con số gắn với một điều kiện riêng. Trang hướng dẫn sạc Evo200 ghi mức hao hụt của pin LFP khi xe không được sử dụng chỉ khoảng 2%, so với mẫu pin khác có thể lên tới 30%, mà không nêu khoảng thời gian. Bài VnExpress dẫn đại diện VinFast nói 2% mỗi tháng nếu không sử dụng xe và ắc quy axit chì hao hụt khoảng 30%. Trang hướng dẫn sạc ắc quy xe máy điện của VinFast (cuối bài ghi 29/07/2023) viết hao hụt năng lượng của pin LFP dưới 1,5% mỗi ngày sau 1 ngày khi bật công tắc BMS và dưới 4% mỗi tháng sau 1 tháng khi tắt công tắc BMS, và ghi thông tin mang tính chất tham khảo. Đây là lời của hãng chứ không phải số đo độc lập, bài không nhân tỷ lệ theo ngày thành tháng và không suy ra ngày pin cạn; hãy ghi phần trăm pin lúc cất xe và lúc kiểm tra để biết xe của bạn thực tế tụt bao nhiêu.",
+      "meta_title": "Pin LFP VinFast để yên hao bao nhiêu: ba con số của hãng và điều kiện",
+      "meta_description": "Pin LFP VinFast để yên hao bao nhiêu: hãng nêu khoảng 2%, 2% mỗi tháng, dưới 1,5% mỗi ngày và dưới 4% mỗi tháng; điều kiện từng số, công tắc BMS và lịch đỗ xe Evo Lite.",
+      "intended_taxonomy_key": "battery-charging",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "8389dfb7827a337e0ad0b4e8a2d3bb5d8f8b0ddd",
+      "run_id": "39738280239",
+      "updated_at": "2026-10-22T07:11:24.541221+00:00"
     }
   },
   "categories": {}
