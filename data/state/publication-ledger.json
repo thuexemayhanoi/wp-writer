@@ -32525,7 +32525,7 @@
       }
     },
     "NT-091444": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T06:48:48.100684+00:00",
       "source_hash": "bc9ff8f09928e130cc747dbec7908dc8a13914f8f4400cb37b1528167c707c03",
       "slug": "man-hinh-hmi-vinfast-drgnfly-sach-tieng-viet-ghi-3-muc-tro-luc-4-thong-so-10-ma-loi-ban-tieng-anh-ghi-gi",
@@ -32541,8 +32541,37 @@
       "category_warning": null,
       "git_commit": "015b18c50bb7ebabcaa95f9d373758c28fbf44b8",
       "run_id": "39735839106",
-      "updated_at": "2026-10-22T06:48:52.221370+00:00",
-      "wp_id": 4759
+      "updated_at": "2026-10-22T06:48:58.269415+00:00",
+      "wp_id": 4759,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/man-hinh-hmi-vinfast-drgnfly-sach-tieng-viet-ghi-3-muc-tro-luc-4-thong-so-10-ma-loi-ban-tieng-anh-ghi-gi/",
+      "verified_at": "2026-10-22T06:48:58.269409+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4759,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/man-hinh-hmi-vinfast-drgnfly-sach-tieng-viet-ghi-3-muc-tro-luc-4-thong-so-10-ma-loi-ban-tieng-anh-ghi-gi/",
+        "categories": [
+          166
+        ],
+        "canonical": "https://thuexemaynguyentu.com/man-hinh-hmi-vinfast-drgnfly-sach-tieng-viet-ghi-3-muc-tro-luc-4-thong-so-10-ma-loi-ban-tieng-anh-ghi-gi/",
+        "seo_title": "Màn hình HMI xe đạp điện VinFast DrgnFly: 3 mức trợ lực, 10 mã lỗi",
+        "seo_description": "Màn hình HMI xe đạp điện VinFast DrgnFly theo sách tiếng Việt: 3 mức trợ lực 0/1/2, 4 thông số, 10 mã lỗi; so với sách tiếng Anh có 5 chế độ và 20 mã lỗi.",
+        "checked_at": "2026-10-22T06:48:58.269390+00:00"
+      }
     }
   },
   "categories": {}
