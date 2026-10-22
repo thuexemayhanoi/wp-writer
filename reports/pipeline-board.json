@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-22T11:46:40.455133+00:00",
+  "at": "2026-10-22T11:47:32.749730+00:00",
   "counts": {
-    "WRITING": 44,
+    "WRITING": 46,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
@@ -10,7 +10,7 @@
     "VERIFIED": 750
   },
   "ready_backlog": 0,
-  "in_flight": 47,
+  "in_flight": 49,
   "items": [
     {
       "topic_id": "NT-001847",
@@ -409,6 +409,18 @@
       "seo_score": null
     },
     {
+      "topic_id": "NT-090080",
+      "state": "WRITING",
+      "reason": "leased to s-claude-df7eb8c1-20261022",
+      "title": "Trạm sạc ngoài trời ngập nước thì sao: QCVN 32:2026/BCT từ 1/7/2027 buộc ngắt điện, thoát nước",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
       "topic_id": "NT-090131",
       "state": "WRITING",
       "reason": "leased to seodev-w82",
@@ -439,6 +451,18 @@
       "title": "Tủ đổi pin xe máy điện ở chung cư: ngoài trời 3 m, trong nhà cách thang 6 m, trần 18–100 kWh",
       "slot": "W4",
       "session": "seodev-w82",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-090233",
+      "state": "WRITING",
+      "reason": "leased to s-claude-df7eb8c1-20261022",
+      "title": "Túi ni lông ở chợ Hà Nội hết miễn phí từ 1/1/2026 hay 1/1/2027, không lưu hành từ 1/1/2028",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
       "wp_id": null,
       "url": null,
       "qa_status": null,
