@@ -6,16 +6,16 @@
   "rounds_opened": 5,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 749,
-  "capacity_remaining": 1251,
+  "topic_rows": 755,
+  "capacity_remaining": 1245,
   "order": {
     "id": "RF-0005",
     "round": 5,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 53,
-    "remaining_to_min": 47,
-    "remaining_to_max": 147,
+    "accepted_so_far": 59,
+    "remaining_to_min": 41,
+    "remaining_to_max": 141,
     "batches_still_needed": 5,
     "batch_size": 10,
     "capacity_limited": false,
@@ -36,7 +36,7 @@
       },
       {
         "taxonomy_key": "electric-transition",
-        "quota": 10,
+        "quota": 11,
         "known_now": 16,
         "allocation": 41
       },
@@ -89,16 +89,16 @@
         "allocation": 32
       },
       {
+        "taxonomy_key": "destinations",
+        "quota": 3,
+        "known_now": 21,
+        "allocation": 27
+      },
+      {
         "taxonomy_key": "vietnam-travel",
         "quota": 3,
         "known_now": 48,
         "allocation": 55
-      },
-      {
-        "taxonomy_key": "destinations",
-        "quota": 2,
-        "known_now": 21,
-        "allocation": 27
       },
       {
         "taxonomy_key": "electric-maintenance",
@@ -117,30 +117,24 @@
         "quota": 2,
         "known_now": 31,
         "allocation": 36
-      },
-      {
-        "taxonomy_key": "reviews",
-        "quota": 2,
-        "known_now": 54,
-        "allocation": 59
       }
     ],
     "next_batch_categories": {
       "rental-guide": 2,
       "urban-mobility": 2,
       "battery-charging": 1,
+      "destinations": 1,
       "electric": 1,
       "electric-transition": 1,
       "green-travel": 1,
-      "rental-costs": 1,
       "trip-planning": 1
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 807,
-    "topics_in_factory": 749,
+    "published_wordpress_items": 810,
+    "topics_in_factory": 755,
     "topics_by_status": {
-      "PLANNED": 672,
+      "PLANNED": 678,
       "REJECTED": 2,
       "RESEARCH": 75
     },
