@@ -34287,6 +34287,25 @@
         "seo_description": "Đấu giá biển số xe máy trực tuyến theo Nghị định 156/2024: giá khởi điểm 5 triệu, bước giá 500.000 đồng, tiền đặt trước, tiền hồ sơ 50 nghìn và sáu bước đăng ký trên mạng.",
         "checked_at": "2026-10-22T10:46:02.859861+00:00"
       }
+    },
+    "NT-001846": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T10:46:37.012742+00:00",
+      "source_hash": "6d7df5076a7a4b594b2b2ee1c8b902967e47b831103e8421eb6ab7e96121c895",
+      "slug": "trung-dau-gia-bien-so-xe-may-nop-tien-30-ngay-dang-ky-xe-12-thang-va-khi-nao-mat-tien-dat-truoc",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 171,
+      "visible_hash": "bc7e8bdb3858035ba6e478f63dc407c78ceda450b4634f03db79fd3ab290c686",
+      "first_paragraph": "Trúng đấu giá biển số xe máy kéo theo hai mốc thời gian phải nhớ: nộp đủ tiền trúng đấu giá trong 30 ngày kể từ ngày có thông báo kết quả, rồi làm thủ tục đăng ký xe để gắn biển trong 12 tháng kể từ ngày được cấp quyết định xác nhận biển số, gia hạn thêm tối đa 06 tháng nếu gặp bất khả kháng hoặc trở ngại khách quan. Sau 30 ngày mà không nộp hoặc nộp thiếu thì biển được đấu giá lại hoặc đưa về hệ thống đăng ký, tiền đặt trước và số tiền đã nộp không được hoàn trả, và người đó không được đấu giá biển số xe trong 12 tháng kể từ ngày có thông báo; quá hạn đăng ký xe thì biển cũng bị đấu giá lại hoặc đưa về hệ thống và tiền trúng đấu giá đã nộp không được hoàn trả.",
+      "meta_title": "Trúng đấu giá biển số xe máy: nộp tiền 30 ngày, đăng ký xe 12 tháng",
+      "meta_description": "Trúng đấu giá biển số xe máy phải nộp đủ tiền trong 30 ngày và đăng ký xe trong 12 tháng; quá hạn thì không hoàn tiền đặt trước, bị cấm đấu giá 12 tháng.",
+      "intended_taxonomy_key": "driving-licence",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "f9037106cb5fab8e879cc3bf0ef52bbdd467ca93",
+      "run_id": "39764969071",
+      "updated_at": "2026-10-22T10:46:37.014741+00:00"
     }
   },
   "categories": {}
