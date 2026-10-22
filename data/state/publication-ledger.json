@@ -31790,7 +31790,7 @@
       }
     },
     "NT-001754": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:44:43.225555+00:00",
       "source_hash": "5e21a2fa120f62e326104f900612cef86d39261c5fac65bc3773f9a999844f73",
       "slug": "lam-kho-xe-may-dien-sau-khi-rua-lau-o-sac-giac-noi-va-cho-bao-lau-moi-sac",
@@ -31806,8 +31806,37 @@
       "category_warning": null,
       "git_commit": "c7de7c79ccdec5547a0dba5bc3326787f2722919",
       "run_id": "39723491639",
-      "updated_at": "2026-10-22T04:44:47.214754+00:00",
-      "wp_id": 4716
+      "updated_at": "2026-10-22T04:44:53.677368+00:00",
+      "wp_id": 4716,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lam-kho-xe-may-dien-sau-khi-rua-lau-o-sac-giac-noi-va-cho-bao-lau-moi-sac/",
+      "verified_at": "2026-10-22T04:44:53.677361+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4716,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lam-kho-xe-may-dien-sau-khi-rua-lau-o-sac-giac-noi-va-cho-bao-lau-moi-sac/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lam-kho-xe-may-dien-sau-khi-rua-lau-o-sac-giac-noi-va-cho-bao-lau-moi-sac/",
+        "seo_title": "Làm khô xe máy điện sau khi rửa: ổ sạc, giắc nối và bao lâu mới sạc",
+        "seo_description": "Làm khô xe máy điện sau khi rửa theo Dat Bike, Yamaha, VinFast: lau ổ sạc, giắc nối, tránh máy sấy nóng và khí nén, mốc chờ 30 phút đến 1 giờ trước khi cắm sạc.",
+        "checked_at": "2026-10-22T04:44:53.677342+00:00"
+      }
     }
   },
   "categories": {}
