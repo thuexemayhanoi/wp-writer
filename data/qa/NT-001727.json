@@ -1,0 +1,240 @@
+{
+  "topic_id": "NT-001727",
+  "status": "PASS",
+  "source_sha256": "e0eebe3f1c4b707dac43c1b6ab1508129759d809dd7327b35159edf50296b32d",
+  "body_sha256": "72274046ee8b814fea6018571f76258ba4166a392a90199a9f20879f5e96f406",
+  "word_count": 3201,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/ha-noi-du-bao-co-220-diem-ung-ngap-neu-mua-to-nhieu-gio-5068604.html",
+      "supports": "VnExpress 30/4/2026: Sở Xây dựng dự báo số điểm úng ngập theo cường độ mưa trong mùa mưa 2026 (dưới 50 mm/giờ cơ bản không úng ngập, 70–100 mm/giờ có 71 điểm, trên 100 mm/giờ nhiều giờ có 220 điểm)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/ha-noi-don-toan-luc-giai-cuu-hon-40-diem-ngap-post1877044.tpo",
+      "supports": "Tiền Phong 17/9/2026: đợt mưa đêm 16 rạng sáng 17/9, lượng mưa đo được, hơn 40 điểm ngập úng cản trở giao thông lúc 6h30 và mức ngập phổ biến 0,1–0,35 m",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/ha-noi-con-19-diem-ung-ngap-20260917165626695.htm",
+      "supports": "Dân trí 17/9/2026: đến 15h còn 19 điểm úng ngập chủ yếu ở lưu vực sông Nhuệ và sông Tô Lịch, các điểm được nêu tên và lực lượng ứng trực",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vtv.vn/ha-noi-ra-mat-mini-app-ban-do-mua-ngap-tren-ihanoi-100260903200723571.htm",
+      "supports": "VTV 3/9/2026: Sở Khoa học và Công nghệ Hà Nội đưa mini app Bản đồ mưa ngập lên iHanoi, theo dõi mưa và điểm ngập, cảnh báo bán kính 1–100 km, khung giờ nhận tin, dữ liệu từ trạm giám sát của Công ty Thoát nước Hà Nội",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/mua-lon-gay-ngap-khap-noi-ban-do-mua-ngap-cua-ha-noi-vua-ra-mat-da-te-liet-post1877028.tpo",
+      "supports": "Tiền Phong 17/9/2026: sáng 17/9 nhiều người không tải được Bản đồ mưa ngập, điểm ngập ở đường Đồng Me không hiển thị, Công ty Thoát nước nói hệ thống đang khớp nối dữ liệu, Sở Khoa học và Công nghệ nói thành phố thiếu cảm biến tự động",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/ban-do-mua-ngap-bien-mat-khoi-ihanoi-so-khoa-hoc-va-cong-nghe-noi-gi-post1877316.tpo",
+      "supports": "Tiền Phong 18/9/2026: tính năng Bản đồ mưa ngập bị tạm ẩn khỏi iHanoi để cập nhật, hoàn thiện; trạm quan trắc, cảm biến còn hạn chế và tập trung ở các điểm ngập cũ; giải pháp chờ tích hợp camera Công an thành phố",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/noi-kho-do-duong-ngay-mua-ngap-cua-nguoi-ha-noi-5122011.html",
+      "supports": "VnExpress 21/9/2026: người dân Hà Nội dò điểm ngập qua nhóm mạng xã hội, bản tin giao thông, nhóm chat, HSDC Maps; mini app ẩn sau 14 ngày; chuyên gia nêu một bản đồ ngập hữu ích cần những thông tin gì",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vnexpress.net/ha-noi-du-bao-co-220-diem-ung-ngap-neu-mua-to-nhieu-gio-5068604.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/ha-noi-don-toan-luc-giai-cuu-hon-40-diem-ngap-post1877044.tpo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/ha-noi-con-19-diem-ung-ngap-20260917165626695.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vtv.vn/ha-noi-ra-mat-mini-app-ban-do-mua-ngap-tren-ihanoi-100260903200723571.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/mua-lon-gay-ngap-khap-noi-ban-do-mua-ngap-cua-ha-noi-vua-ra-mat-da-te-liet-post1877028.tpo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/ban-do-mua-ngap-bien-mat-khoi-ihanoi-so-khoa-hoc-va-cong-nghe-noi-gi-post1877316.tpo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/noi-kho-do-duong-ngay-mua-ngap-cua-nguoi-ha-noi-5122011.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2625,
+        "title": "Nhà tù Hỏa Lò Hà Nội: Giá vé, giờ mở cửa và kinh nghiệm đi tour đêm",
+        "why": "stale",
+        "content_hash": "fc86cac4da1911528d32104d0969754534fb81041738085bfe6eb76c69849a7a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4048,
+        "title": "Thuê xe máy Hà Nội khi xe cá nhân đang sửa: chọn kỳ thuê và gia hạn nếu gara trễ",
+        "why": "stale",
+        "content_hash": "5eaf7d3b4d760f2a4ab0df94807fe114a8927ceb0af3b0ea5d1d59453a46f20d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4050,
+        "title": "Thuê xe máy đi làm theo ca ở Hà Nội: chọn giờ nhận, gửi xe và trả xe đúng hạn",
+        "why": "stale",
+        "content_hash": "f5a41002206250a00b0d4b19ec54ada261a36c020a5c2f89aa531c79304f4012",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T04:36:48.530369+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "1ac6b006dc090663838182e11e76700a6f77da1dde21e8abc24e88d70eb7e303",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "topic_id": "NT-001726",
+  "status": "PASS",
+  "source_sha256": "3bfd3d34f5a7475b8a04b50bc7d1baaed2c1d5ce62d77cdeb9aa1a42daeb9036",
+  "body_sha256": "963e5c7fd1c368370fcb1388b7e6574ac28e15ca865a243ff160885685576986",
+  "word_count": 2838,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dantri.com.vn/thoi-su/cau-long-bien-tro-lai-nhip-song-thuong-ngay-sau-2-thang-sua-chua-20260528083819537.htm",
+      "supports": "Dân trí 28/5/2026: cầu Long Biên mở lại cho xe máy, xe thô sơ, người đi bộ hai chiều, mặt đường đổ bê tông mới, người đi bộ, đạp xe và dừng chụp ảnh, hướng Bồ Đề vào trung tâm đông, tàu vẫn chạy",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/cau-long-bien-mo-lai-cho-xe-may-nguoi-di-bo-tu-0h-ngay-1-1-2026-20251231164235316.htm",
+      "supports": "Tuổi Trẻ 31/12/2025: cầu Long Biên mở lại từ 0h ngày 1/1/2026 sau 61 ngày cấm để sửa chữa, xe cộ dồn về cầu Chương Dương giờ cao điểm trong thời gian đóng",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/ban-doc/ha-noi-cam-nguoi-di-bo-tren-cau-long-bien-vi-cac-tam-dan-xuong-cap-20220613154327950.htm",
+      "supports": "Dân trí 13/6/2022 (tiền sử): tấm đan phần đường xe máy và xe đạp rơi, xe máy chạy lên tấm đan sát thành cầu, biển cấm người đi bộ bị phớt lờ, chuyên gia nói hai làn bên cầu vốn là đường nghiệp vụ",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/cam-cau-long-bien-un-tac-keo-dai-do-phuong-tien-do-don-ve-cau-chuong-duong-20260330084055611.htm",
+      "supports": "Dân trí 30/3/2026: khi cầu Long Biên đóng 60 ngày từ 28/3, xe dồn về cầu Chương Dương, ùn từ 6h30, xe leo vỉa hè, người dân được khuyến cáo chọn lộ trình để tránh giờ cao điểm",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://dantri.com.vn/thoi-su/cau-long-bien-tro-lai-nhip-song-thuong-ngay-sau-2-thang-sua-chua-20260528083819537.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/cau-long-bien-mo-lai-cho-xe-may-nguoi-di-bo-tu-0h-ngay-1-1-2026-20251231164235316.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/ban-doc/ha-noi-cam-nguoi-di-bo-tren-cau-long-bien-vi-cac-tam-dan-xuong-cap-20220613154327950.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/cam-cau-long-bien-un-tac-keo-dai-do-phuong-tien-do-don-ve-cau-chuong-duong-20260330084055611.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-22T04:36:04.054846+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "6fb85ebb08c17bf0fb4792e711946ebff07f3e3dd6fe4d6941ea40c91d0c7236",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
