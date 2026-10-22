@@ -32574,7 +32574,7 @@
       }
     },
     "NT-090138": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T06:58:08.144160+00:00",
       "source_hash": "6b5ae89252cb425319bb4859915865eeb47f494e485f624f8fd3a4e8f95f6beb",
       "slug": "bao-tang-ha-noi-ve-50-000-dong-nghi-thu-hai-mo-toi-thu-sau-bay-bai-gui-xe-chua-350-xe-may",
@@ -32590,8 +32590,37 @@
       "category_warning": null,
       "git_commit": "8fdf0ae9aed17312a93014a40172712bb7676255",
       "run_id": "39736905918",
-      "updated_at": "2026-10-22T06:58:12.093028+00:00",
-      "wp_id": 4760
+      "updated_at": "2026-10-22T06:58:17.348450+00:00",
+      "wp_id": 4760,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bao-tang-ha-noi-ve-50-000-dong-nghi-thu-hai-mo-toi-thu-sau-bay-bai-gui-xe-chua-350-xe-may/",
+      "verified_at": "2026-10-22T06:58:17.348444+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4760,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bao-tang-ha-noi-ve-50-000-dong-nghi-thu-hai-mo-toi-thu-sau-bay-bai-gui-xe-chua-350-xe-may/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bao-tang-ha-noi-ve-50-000-dong-nghi-thu-hai-mo-toi-thu-sau-bay-bai-gui-xe-chua-350-xe-may/",
+        "seo_title": "Giá vé Bảo tàng Hà Nội 50.000 đồng, giờ mở cửa và chỗ gửi xe máy",
+        "seo_description": "Giá vé Bảo tàng Hà Nội 50.000 đồng, ai được miễn và giảm 50%, giờ mở cửa ban ngày, mở thêm tối thứ Sáu và thứ Bảy từ 11/9/2026, bãi gửi xe ghi sức chứa 350 xe máy.",
+        "checked_at": "2026-10-22T06:58:17.348430+00:00"
+      }
     }
   },
   "categories": {}
