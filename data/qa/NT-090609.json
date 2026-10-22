@@ -1,0 +1,176 @@
+{
+  "topic_id": "NT-090609",
+  "status": "PASS",
+  "source_sha256": "024d1e9933ada6331b6a7b47104b156e65e8ab6d221778f521b2ad19a8b45b8e",
+  "body_sha256": "199dd23c5ac2e7f14566b741e52cecb3436415d17567c80700e2c8f55647e8ae",
+  "word_count": 2237,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/11/32-bgtvt.pdf",
+      "supports": "Bản PDF Thông tư về quản lý giá dịch vụ sử dụng đường bộ của các dự án đầu tư xây dựng đường bộ để kinh doanh, do trung ương quản lý, trên datafiles.chinhphu.vn (máy chủ tệp của Chính phủ), để trống số và ngày: Điều 1 giới hạn phạm vi ở dự án do trung ương quản lý và loại trừ dịch vụ sử dụng đường bộ cao tốc; Điều 2 đối tượng thanh toán; Điều 3 có 12 mục miễn thu, mục 12 là xe mô tô, xe gắn máy, xe thô sơ; Điều 9 và Điều 11 khoản 2 điểm b về niêm yết giá và đối tượng miễn thu tại trạm; Điều 12 hiệu lực 01/01/2025 và các văn bản bị bãi bỏ.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.camau.gov.vn/doi-tuong-mien-thu-tien-dich-vu-su-dung-duong-bo.5828",
+      "supports": "Cổng phổ biến giáo dục pháp luật tỉnh Cà Mau (Sở Tư pháp, đăng 17/11/2024): Bộ trưởng Bộ Giao thông vận tải ban hành Thông tư số 32/2024/TT-BGTVT ngày 13/11/2024; danh sách đối tượng miễn thu từ 01/01/2025, mục 12 là xe mô tô, xe gắn máy, xe thô sơ.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vtv8.vtv.vn/12-nhom-phuong-tien-duoc-mien-phi-khi-qua-tram-bot-theo-quy-dinh-moi-107260306211037677.htm",
+      "supports": "Bài VTV8 ngày 07/03/2026 (Nam Phong): vẫn dẫn Thông tư 32/2024/TT-BGTVT với 12 nhóm miễn thu và nhắc danh mục gồm xe mô tô, xe gắn máy, phương tiện thô sơ; chỉ là tin báo dùng để ghi nhận văn bản còn được dẫn năm 2026, không phải căn cứ pháp lý.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/11/32-bgtvt.pdf",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.camau.gov.vn/doi-tuong-mien-thu-tien-dich-vu-su-dung-duong-bo.5828",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vtv8.vtv.vn/12-nhom-phuong-tien-duoc-mien-phi-khi-qua-tram-bot-theo-quy-dinh-moi-107260306211037677.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2613,
+        "title": "Thuê Xe Máy Du Lịch Hà Nội: Hướng Dẫn Toàn Diện Từ A–Z Cho Người Lần Đầu",
+        "why": "stale",
+        "content_hash": "bba381bbf7c63d362331437ee0e9ba63294ca01b4eb144c43fe71ca1f20731a0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4046,
+        "title": "Nhận xe máy thuê tại homestay Hà Nội không có lễ tân: hẹn giao, kiểm tra và trả xe",
+        "why": "stale",
+        "content_hash": "408ee1c935cbed2cc7b830b85734e14e93e1a4c5ee2cc36d01097733e2853eb2",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4049,
+        "title": "Thuê xe máy điện ở chung cư Hà Nội không có chỗ sạc riêng: cần kiểm tra gì trước khi đặt?",
+        "why": "stale",
+        "content_hash": "60ea270b75576e53780d251f2026ebec6088930775beded46df2ce5bc3601d66",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T09:50:26.493068+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "6279326a19c6937643bc2fc543e3c75fdcd6bf040e6c2ce4a6cf0e077eae3575",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
