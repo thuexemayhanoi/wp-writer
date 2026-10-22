@@ -37621,7 +37621,7 @@
       }
     },
     "NT-001969": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:52:40.283953+00:00",
       "source_hash": "78d431dd977914c57d32131e8042cc7556e10368ce4bf452d8e740287b035005",
       "slug": "hat-xoan-phu-tho-hat-tho-qua-cach-hat-hoi-va-moc-unesco-ghi-danh-2011-2017",
@@ -37637,8 +37637,37 @@
       "category_warning": null,
       "git_commit": "18322d4fb6c4e2fe50de87cdd8c8c8928ff2de0a",
       "run_id": "39808188049",
-      "updated_at": "2026-10-22T15:52:44.091505+00:00",
-      "wp_id": 4863
+      "updated_at": "2026-10-22T15:52:49.790832+00:00",
+      "wp_id": 4863,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/hat-xoan-phu-tho-hat-tho-qua-cach-hat-hoi-va-moc-unesco-ghi-danh-2011-2017/",
+      "verified_at": "2026-10-22T15:52:49.790824+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4863,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/hat-xoan-phu-tho-hat-tho-qua-cach-hat-hoi-va-moc-unesco-ghi-danh-2011-2017/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/hat-xoan-phu-tho-hat-tho-qua-cach-hat-hoi-va-moc-unesco-ghi-danh-2011-2017/",
+        "seo_title": "Hát xoan Phú Thọ: ba chặng hát, bốn phường và mốc UNESCO 2011, 2017",
+        "seo_description": "Hát xoan Phú Thọ gồm hát thờ, hát quả cách, hát hội, do bốn phường gìn giữ; UNESCO đưa vào danh sách khẩn cấp năm 2011 và danh sách đại diện năm 2017.",
+        "checked_at": "2026-10-22T15:52:49.790807+00:00"
+      }
     }
   },
   "categories": {}
