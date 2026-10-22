@@ -38209,7 +38209,7 @@
       }
     },
     "NT-002000": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T16:04:36.069086+00:00",
       "source_hash": "37736115549c7f5432c6e80b379ba0e30d987cbaf47cb27cb939dd1b497c74f3",
       "slug": "xe-may-qua-toc-do-bi-phat-bao-nhieu-400-000-dong-den-8-trieu-theo-muc-vuot",
@@ -38225,8 +38225,37 @@
       "category_warning": null,
       "git_commit": "08d0f963333ced9e90d0a2ead64e40bad75800fa",
       "run_id": "39809851095",
-      "updated_at": "2026-10-22T16:04:40.289113+00:00",
-      "wp_id": 4875
+      "updated_at": "2026-10-22T16:04:48.769272+00:00",
+      "wp_id": 4875,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-qua-toc-do-bi-phat-bao-nhieu-400-000-dong-den-8-trieu-theo-muc-vuot/",
+      "verified_at": "2026-10-22T16:04:48.769266+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4875,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-qua-toc-do-bi-phat-bao-nhieu-400-000-dong-den-8-trieu-theo-muc-vuot/",
+        "categories": [
+          159
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-qua-toc-do-bi-phat-bao-nhieu-400-000-dong-den-8-trieu-theo-muc-vuot/",
+        "seo_title": "Xe máy quá tốc độ bị phạt bao nhiêu: 400.000 đồng đến 8 triệu",
+        "seo_description": "Xe máy quá tốc độ bị phạt bao nhiêu theo Nghị định 168/2024: 400.000–600.000, 800.000–1.000.000 và 6–8 triệu đồng theo mức vượt, trên 20 km/h trừ 4 điểm.",
+        "checked_at": "2026-10-22T16:04:48.769248+00:00"
+      }
     }
   },
   "categories": {}
