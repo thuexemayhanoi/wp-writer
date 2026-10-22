@@ -30416,6 +30416,25 @@
         "seo_description": "Trạm sạc xe điện trong chung cư theo Thông tư 31/2026/TT-BXD: hiệu lực 15/12/2026, hạn rà soát 6 tháng, ba trường hợp thiết kế PCCC và trách nhiệm từng bên.",
         "checked_at": "2026-10-22T04:07:36.832374+00:00"
       }
+    },
+    "NT-001513": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T04:12:01.347293+00:00",
+      "source_hash": "407d88512a4e49f2bb0c882191e1785822e8f248e9338a985537f0df7fe559a0",
+      "slug": "muc-tieu-hao-nhien-lieu-xe-50cc-uu-diem-va-gioi-han-khi-su-dung-hang-ngay",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 165,
+      "visible_hash": "0f28b1d57ae849be1a59a563d54be0feaeec9e9fd6982db159f9cbbaf579766d",
+      "first_paragraph": "Mức tiêu hao nhiên liệu xe 50cc không có một con số chung: số hãng công bố gắn với từng mẫu xe và từng điều kiện thử, và chính hãng nói kết quả đổi theo thời tiết, giao thông, cách lái, tình trạng xe và bảo dưỡng. Ví dụ Honda ghi cho Super Cub 50 bản bán ở Nhật (một người ngồi) 105,0 km/L khi chạy đều ở 30 km/h và 69,4 km/L theo chế độ thử WMTC Class 1, tức khoảng 0,95 và 1,44 lít mỗi 100 km theo phép tính của người viết. Đó là số của một mẫu xe thị trường Nhật, không phải mức bạn sẽ đạt và không áp được cho chiếc 50cc nào khác; muốn biết chiếc xe của mình, cách đáng tin nhất là tự đo.",
+      "meta_title": "Mức tiêu hao nhiên liệu xe 50cc: ưu điểm, giới hạn khi dùng hằng ngày",
+      "meta_description": "Mức tiêu hao nhiên liệu xe 50cc: đọc số định địa và WMTC của hãng (ví dụ Honda Super Cub 50 bản Nhật), cách quy ra lít mỗi tháng, tự đo và giới hạn khi dùng hằng ngày.",
+      "intended_taxonomy_key": "rental-50cc",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "c9657e0c2092d90d90220c2c60a49d8afebb4906",
+      "run_id": "39720614350",
+      "updated_at": "2026-10-22T04:12:01.349205+00:00"
     }
   },
   "categories": {}
