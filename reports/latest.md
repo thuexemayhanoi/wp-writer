@@ -4,15 +4,15 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-22T11:47:31.366468+00:00 |
-| existing_published_posts | 901 |
+| at | 2026-10-22T11:53:50.824773+00:00 |
+| existing_published_posts | 903 |
 | existing_pages | 10 |
 | existing_products | 13 |
 | candidate_topics | 900 |
 | planned_topics | 821 |
 | claimable_topics | 25 |
 | ready_stock | 19 |
-| stock_stages | {'IDEA': 300, 'RESEARCH': 77, 'REJECTED': 2, 'PLANNED': 19, 'PLANNED_HOLD': 3, 'CLAIMED': 46, 'AUTHORED': 3, 'QA_PASS': 0, 'PUBLISHED': 750, 'WP_DRAFT': 0} |
+| stock_stages | {'IDEA': 300, 'RESEARCH': 77, 'REJECTED': 2, 'PLANNED': 19, 'PLANNED_HOLD': 3, 'CLAIMED': 45, 'AUTHORED': 3, 'QA_PASS': 0, 'PUBLISHED': 751, 'WP_DRAFT': 0} |
 | needs_research | True |
 | research_shortfall | 881 |
 | refill_trigger_below_ready | 900 |
@@ -21,17 +21,17 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | refill_order | RF-0007 |
 | refill_accepted_so_far | 0 |
 | writing | 71 |
-| draft_authored | 750 |
-| qa_pass | 747 |
+| draft_authored | 751 |
+| qa_pass | 748 |
 | qa_fail | 3 |
 | qa_review | 0 |
 | repair_queue | 3 |
 | held_by_class | {'REAL_RISK': 3} |
-| g7_pass | 725 |
+| g7_pass | 726 |
 | g7_not_recorded | 25 |
 | wordpress_draft | 0 |
-| wordpress_published | 750 |
-| verified_public | 750 |
+| wordpress_published | 751 |
+| verified_public | 751 |
 | indexed | None |
 | topic_collisions | 2 |
 | category_mapping_errors | 0 |
@@ -43,12 +43,12 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | delivery_mode | production |
 | production_enabled | True |
 | draft_staging_enabled | False |
-| qa_pass_live_checked | 406 |
+| qa_pass_live_checked | 407 |
 | qa_pass_awaiting_wordpress | 0 |
 | queued_topic_ids | [] |
 | pending_wordpress_intents | [] |
 | blocked_writer_sessions | [] |
-| last_wordpress_verified_at | 2026-10-22T11:46:08.061746+00:00 |
+| last_wordpress_verified_at | 2026-10-22T11:53:39.281168+00:00 |
 | capacity | 10000 |
 | authenticated_inventory | True |
 | test_drafts_excluded | 2 |

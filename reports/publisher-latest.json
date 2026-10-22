@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-22T11:46:33.152135+00:00",
-  "attempted": 2,
+  "at": "2026-10-22T11:53:44.582690+00:00",
+  "attempted": 1,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -191,11 +191,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T11:44:58.168692+00:00",
+      "at": "2026-10-22T11:53:00.596388+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "8fc14a74fa0407ffd0be5cf2b32d4db69657172eb8376c1ae3e2404a9040cf68",
+      "inventory_sha256": "4e3acd2786020f52839f76e2a549163b7d478fd09596ab6616ccdfc825e2575f",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -380,11 +380,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T11:45:07.758232+00:00",
+      "at": "2026-10-22T11:53:08.710799+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "8fc14a74fa0407ffd0be5cf2b32d4db69657172eb8376c1ae3e2404a9040cf68",
+      "inventory_sha256": "4e3acd2786020f52839f76e2a549163b7d478fd09596ab6616ccdfc825e2575f",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -577,11 +577,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T11:45:15.857498+00:00",
+      "at": "2026-10-22T11:53:15.606494+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "8fc14a74fa0407ffd0be5cf2b32d4db69657172eb8376c1ae3e2404a9040cf68",
+      "inventory_sha256": "4e3acd2786020f52839f76e2a549163b7d478fd09596ab6616ccdfc825e2575f",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -601,19 +601,11 @@
       }
     },
     {
-      "topic_id": "NT-090309",
+      "topic_id": "NT-090080",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 165,
+      "category_id": 169,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "rental-50cc",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-090502",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 176,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "urban-mobility",
+      "intended_taxonomy_key": "electric-transition",
       "category_warning": null
     }
   ],
