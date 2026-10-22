@@ -30467,7 +30467,7 @@
       }
     },
     "NT-001572": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:12:26.271799+00:00",
       "source_hash": "f5b5d3d1f8592a699b5e29a5b2763ea55b1f05126bee41e96d71622cf424441f",
       "slug": "quan-ly-phu-tai-khi-sac-xe-nguon-rieng-phan-vung-va-so-cho-sac-o-chung-cu",
@@ -30483,8 +30483,37 @@
       "category_warning": null,
       "git_commit": "c9657e0c2092d90d90220c2c60a49d8afebb4906",
       "run_id": "39720614350",
-      "updated_at": "2026-10-22T04:12:30.422998+00:00",
-      "wp_id": 4689
+      "updated_at": "2026-10-22T04:12:36.051242+00:00",
+      "wp_id": 4689,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/quan-ly-phu-tai-khi-sac-xe-nguon-rieng-phan-vung-va-so-cho-sac-o-chung-cu/",
+      "verified_at": "2026-10-22T04:12:36.051235+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4689,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/quan-ly-phu-tai-khi-sac-xe-nguon-rieng-phan-vung-va-so-cho-sac-o-chung-cu/",
+        "categories": [
+          169
+        ],
+        "canonical": "https://thuexemaynguyentu.com/quan-ly-phu-tai-khi-sac-xe-nguon-rieng-phan-vung-va-so-cho-sac-o-chung-cu/",
+        "seo_title": "Quản lý phụ tải khi sạc xe ở chung cư: nguồn riêng, số chỗ, 22 kW",
+        "seo_description": "Quản lý phụ tải khi sạc xe ở chung cư theo Sửa đổi 01:2026 QCVN 04:2021/BXD: nguồn điện riêng, giới hạn số chỗ sạc mỗi phân vùng, khoang cháy và trụ sạc 22 kW.",
+        "checked_at": "2026-10-22T04:12:36.051217+00:00"
+      }
     }
   },
   "categories": {}
