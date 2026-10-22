@@ -29732,7 +29732,7 @@
       }
     },
     "NT-001320": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T03:44:17.220668+00:00",
       "source_hash": "19a17a55eed9d8c0e9bf26d535ccb24f16e133a17825f34e1f9454649adb549e",
       "slug": "bao-hanh-xe-dien-pega-dong-co-36-thang-pin-ac-quy-12-thang-va-phot-dong-co-thay-hang-nam",
@@ -29748,8 +29748,37 @@
       "category_warning": null,
       "git_commit": "094fa65b0decc12c7e5c372a0041f8e6df2c7836",
       "run_id": "39718102734",
-      "updated_at": "2026-10-22T03:44:24.303318+00:00",
-      "wp_id": 4674
+      "updated_at": "2026-10-22T03:44:31.078011+00:00",
+      "wp_id": 4674,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bao-hanh-xe-dien-pega-dong-co-36-thang-pin-ac-quy-12-thang-va-phot-dong-co-thay-hang-nam/",
+      "verified_at": "2026-10-22T03:44:31.078004+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4674,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bao-hanh-xe-dien-pega-dong-co-36-thang-pin-ac-quy-12-thang-va-phot-dong-co-thay-hang-nam/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bao-hanh-xe-dien-pega-dong-co-36-thang-pin-ac-quy-12-thang-va-phot-dong-co-thay-hang-nam/",
+        "seo_title": "Bảo hành xe điện Pega: thời hạn từng bộ phận, điều kiện giữ bảo hành",
+        "seo_description": "Bảo hành xe điện Pega theo trang của hãng: động cơ, khung 36 tháng, pin ắc quy 12 tháng, điều kiện phớt động cơ hằng năm, rửa xe và việc cần hỏi đại lý.",
+        "checked_at": "2026-10-22T03:44:31.077983+00:00"
+      }
     }
   },
   "categories": {}
