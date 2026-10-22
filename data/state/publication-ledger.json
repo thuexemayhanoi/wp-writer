@@ -39630,7 +39630,7 @@
       }
     },
     "NT-002082": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T20:34:53.501617+00:00",
       "source_hash": "5c1a90dcf9b89ebd73e6fc0889c3d15c9a473f30dd862c03c71166621370b7f4",
       "slug": "bon-di-tich-pho-co-ban-ve-20-000-dong-bach-ma-kim-ngan-quan-de-dao-duy-tu",
@@ -39646,8 +39646,37 @@
       "category_warning": null,
       "git_commit": "0a7ac0bbcd8e029fa300a62a1eda811599a44877",
       "run_id": "39849225031",
-      "updated_at": "2026-10-22T20:34:58.127033+00:00",
-      "wp_id": 5014
+      "updated_at": "2026-10-22T20:35:04.697918+00:00",
+      "wp_id": 5014,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bon-di-tich-pho-co-ban-ve-20-000-dong-bach-ma-kim-ngan-quan-de-dao-duy-tu/",
+      "verified_at": "2026-10-22T20:35:04.697912+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 5014,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bon-di-tich-pho-co-ban-ve-20-000-dong-bach-ma-kim-ngan-quan-de-dao-duy-tu/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bon-di-tich-pho-co-ban-ve-20-000-dong-bach-ma-kim-ngan-quan-de-dao-duy-tu/",
+        "seo_title": "Bốn di tích phố cổ bán vé 20.000 đồng: Bạch Mã, Kim Ngân, Quan Đế",
+        "seo_description": "Bốn di tích phố cổ bán vé 20.000 đồng một lượt: mốc 8/12/2025 và 1/1/2026, ai được miễn hay giảm 50%, ngày không thu vé, giờ mở cửa và cách kiểm tra tại cổng.",
+        "checked_at": "2026-10-22T20:35:04.697894+00:00"
+      }
     }
   },
   "categories": {}
