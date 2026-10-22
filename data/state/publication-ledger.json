@@ -32474,6 +32474,25 @@
         "seo_description": "QCVN 26:2025/BNNMT tiếng ồn ban đêm: nhà ở và khách sạn 45 dBA theo Bảng 1, đường bộ 58 dBA theo Bảng 5, mốc 14/11/2025 và 1/1/2027, cách đo và giới hạn của bài.",
         "checked_at": "2026-10-22T06:42:00.899078+00:00"
       }
+    },
+    "NT-091247": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T06:48:21.981274+00:00",
+      "source_hash": "0d3f718cbdd5e91db13b7351d9e71ad78fd518af225a3fc89508c794b029842b",
+      "slug": "xem-tuoi-tho-pin-xe-may-dien-o-dau-app-vinfast-evo200-neu-6-chi-so-pin-dat-bike-co-man-hinh-ky-thuat",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 167,
+      "visible_hash": "42254693391dc50db5dff31c16385b1bbd9281cebfbb3b82fb58a74cd0abcd94",
+      "first_paragraph": "Xem tuổi thọ pin xe máy điện ở đâu còn tùy hãng và mẫu xe, và các trang của hãng không dùng chung một khái niệm. Trang của VinFast viết rằng qua ứng dụng, chủ xe VinFast Evo200 và Evo200 Lite nắm được thông tin về pin gồm dung lượng còn lại, tuổi thọ pin, nhiệt độ, số vòng sạc, điện áp và dòng điện. Mô tả ứng dụng VinFast E-Scooter trên App Store, dành cho Ludo, Impes và Klara S, có mục \"Tuổi thọ pin còn bao nhiêu %?\". Sổ hướng dẫn VinFast Amio S nói đồng hồ HMI cho xem thanh dung lượng và giá trị dung lượng pin còn lại, cảnh báo nhấp nháy khi dung lượng dưới 20% và dưới 10%, và dặn định kỳ mang xe đến đại lý và xưởng dịch vụ để kiểm tra hệ thống pin. Dat Bike ERA có màn hình kỹ thuật và dặn giá trị Min trên màn hình đó phải lớn hơn 3,3 V ở một số bước tắt hoặc bảo quản pin. Các trang không định nghĩa \"tuổi thọ pin\", không nêu ngưỡng phần trăm để bảo hành hay thay pin và không nói ứng dụng thay được việc kiểm tra tại hãng.",
+      "meta_title": "Xem tuổi thọ pin xe máy điện ở đâu: ứng dụng VinFast, Dat Bike",
+      "meta_description": "Xem tuổi thọ pin xe máy điện ở đâu: ứng dụng VinFast Evo200 nêu 6 thông tin pin, sổ Amio S, màn hình kỹ thuật Dat Bike ERA và điều các trang không nói.",
+      "intended_taxonomy_key": "battery-charging",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "015b18c50bb7ebabcaa95f9d373758c28fbf44b8",
+      "run_id": "39735839106",
+      "updated_at": "2026-10-22T06:48:21.983057+00:00"
     }
   },
   "categories": {}
