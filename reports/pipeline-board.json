@@ -1,41 +1,17 @@
 {
-  "at": "2026-10-22T10:21:36.651412+00:00",
+  "at": "2026-10-22T10:27:11.033406+00:00",
   "counts": {
-    "WRITING": 7,
+    "WRITING": 5,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 715
+    "VERIFIED": 717
   },
   "ready_backlog": 0,
-  "in_flight": 10,
+  "in_flight": 8,
   "items": [
-    {
-      "topic_id": "NT-001725",
-      "state": "WRITING",
-      "reason": "leased to seodev-w77",
-      "title": "Cấm đường để thi công ở Hà Nội: đọc thông báo phân luồng và chọn đường vòng",
-      "slot": "W3",
-      "session": "seodev-w77",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001841",
-      "state": "WRITING",
-      "reason": "leased to seodev-w77",
-      "title": "Đổi giấy đăng ký xe máy: màu sơn, địa chỉ, giấy mờ rách, biển gãy và thời hạn 2–7 ngày làm việc",
-      "slot": "W3",
-      "session": "seodev-w77",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-090024",
       "state": "WRITING",
@@ -8089,6 +8065,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001725",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Cấm đường để thi công ở Hà Nội: đọc thông báo phân luồng và chọn đường vòng",
+      "slot": "W3",
+      "session": "seodev-w77",
+      "wp_id": 4791,
+      "url": "https://thuexemaynguyentu.com/cam-duong-de-thi-cong-o-ha-noi-doc-thong-bao-phan-luong-va-chon-duong-vong/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001726",
       "state": "VERIFIED",
       "reason": "publish",
@@ -8301,6 +8289,18 @@
       "session": "seodev-w79",
       "wp_id": 4788,
       "url": "https://thuexemaynguyentu.com/xe-125cc-150cc-nghia-la-gi-so-cm3-thuc-te-cua-xe-honda-yamaha-va-vi-sao-khong-phai-toc-do/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001841",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đổi giấy đăng ký xe máy: màu sơn, địa chỉ, giấy mờ rách, biển gãy và thời hạn 2–7 ngày làm việc",
+      "slot": "W3",
+      "session": "seodev-w77",
+      "wp_id": 4792,
+      "url": "https://thuexemaynguyentu.com/doi-giay-dang-ky-xe-may-mau-son-dia-chi-giay-mo-rach-bien-gay-va-thoi-han-2-7-ngay-lam-viec/",
       "qa_status": "PASS",
       "seo_score": 100
     },
