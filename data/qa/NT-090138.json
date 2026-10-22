@@ -1,0 +1,210 @@
+{
+  "topic_id": "NT-090138",
+  "status": "PASS",
+  "source_sha256": "6b5ae89252cb425319bb4859915865eeb47f494e485f624f8fd3a4e8f95f6beb",
+  "body_sha256": "718f4d42a5b219605ba28e6744777932fdecd0a3b7b9b2b21049046d170b9f0e",
+  "word_count": 2206,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://baotanghanoi.com.vn/gioi-thieu-tong-quat-ve-bao-tang-ha-noi",
+      "supports": "Trang giới thiệu chính thức của Bảo tàng Hà Nội, mục dịch vụ dưới tiêu đề Định hướng trong giai đoạn sắp tới: vé 50.000 đồng một người, nhóm giảm 50%, nhóm miễn vé, hướng dẫn đoàn 150.000 đồng và bãi gửi xe sức chứa 350 xe máy, 40 ô tô; địa điểm đường Phạm Hùng, trụ sở chính 5D Hàm Long.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanghanoi.com.vn/en/thong-bao/",
+      "supports": "Thông báo của Bảo tàng Hà Nội: căn cứ Nghị quyết 44/2024/NQ-HĐND ngày 10/12/2024 của HĐND Hà Nội, thu phí tham quan từ 03/03/2026, mở cửa 9h00–17h00 từ thứ Ba đến Chủ Nhật, nghỉ thứ Hai.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanghanoi.com.vn/en/bao-tang-ha-noi-mo-cua-buoi-toi-danh-thuc/",
+      "supports": "Bài đăng của bảo tàng: từ 11/9/2026 mở cửa buổi tối 17h00–21h00 vào thứ Sáu và thứ Bảy hằng tuần; chân trang cùng bài ghi giờ ban ngày, vé 50K, miễn phí dưới 16 tuổi, giảm 50% cho học sinh, sinh viên, người cao tuổi; không nêu giá vé buổi tối.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dbndhanoi.gov.vn/bai-viet/Thong-qua-Nghi-quyet-thu-phi-tham-quan-danh-lam-th6pnbni69bmkr",
+      "supports": "Trang .gov.vn của Đoàn đại biểu Quốc hội và HĐND Hà Nội (10/12/2024): nhóm miễn, nhóm giảm 50%, hai giai đoạn mức thu 30.000 và 50.000 đồng, ngày không thu phí 23/11, riêng Bảo tàng Hà Nội thêm 18/5.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://baotanghanoi.com.vn/gioi-thieu-tong-quat-ve-bao-tang-ha-noi",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanghanoi.com.vn/en/thong-bao/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanghanoi.com.vn/en/bao-tang-ha-noi-mo-cua-buoi-toi-danh-thuc/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dbndhanoi.gov.vn/bai-viet/Thong-qua-Nghi-quyet-thu-phi-tham-quan-danh-lam-th6pnbni69bmkr",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2424,
+        "title": "Dat Bike có những dòng xe nào? Tổng hợp các mẫu đáng chú ý",
+        "why": "stale",
+        "content_hash": "8547bbe19e35f1a3e720df88f2c659b744799c8f50115b8e6bfac67e10bf2889",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2613,
+        "title": "Thuê Xe Máy Du Lịch Hà Nội: Hướng Dẫn Toàn Diện Từ A–Z Cho Người Lần Đầu",
+        "why": "stale",
+        "content_hash": "bba381bbf7c63d362331437ee0e9ba63294ca01b4eb144c43fe71ca1f20731a0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2625,
+        "title": "Nhà tù Hỏa Lò Hà Nội: Giá vé, giờ mở cửa và kinh nghiệm đi tour đêm",
+        "why": "stale",
+        "content_hash": "fc86cac4da1911528d32104d0969754534fb81041738085bfe6eb76c69849a7a",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4050,
+        "title": "Thuê xe máy đi làm theo ca ở Hà Nội: chọn giờ nhận, gửi xe và trả xe đúng hạn",
+        "why": "stale",
+        "content_hash": "f5a41002206250a00b0d4b19ec54ada261a36c020a5c2f89aa531c79304f4012",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4051,
+        "title": "Thuê xe máy Hà Nội vào ngày mưa: khi nào nên lùi giờ nhận và kiểm tra gì trước khi chạy?",
+        "why": "stale",
+        "content_hash": "6cf70a5e919d453dbe3c15e8dc9ed97616caa41d0b3239c73331a63a003192fb",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T06:58:07.976641+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "0d5dc94ad9d4d0bcbd304161413cfd52d9591aa92dea16c11b57ab32cee62c81",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

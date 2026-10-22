@@ -1,0 +1,210 @@
+{
+  "topic_id": "NT-090364",
+  "status": "PASS",
+  "source_sha256": "4b5c6e2d613b6c883f89c215f0809fdd0ace50ad664d1a423d79e24f87556226",
+  "body_sha256": "dec4a66678a3ef265dbf13e5548ee3d3bdbe6ca24082e2d00d431967613ecfe7",
+  "word_count": 2026,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/dm/RBMBR01/DM-RBMBR01-00-ENG.pdf",
+      "supports": "Sổ phanh đĩa cơ Shimano BR-RS305 dành cho thợ (DM-RBMBR01-00, tiếng Anh, không ghi ngày; bìa liệt kê nhãn E-BIKE cùng các loại xe khác): khe giữa má phanh và đĩa 0,2–0,4 mm ở cả phía trong lẫn phía ngoài, chỉnh hai phía cùng lúc, má phanh dùng được đến 0,5 mm; chỉ chỉnh một phía có thể làm má chạm đĩa khi không phanh hoặc lực phanh không đủ.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tektro.com/upload/Mf5L4k4HJrOZNOzzRYDc_1676620306.pdf",
+      "supports": "Hướng dẫn lắp đặt phanh đĩa cơ Tektro (không ghi ngày, lớp chữ nhận dạng thô): khi má mòn chỉnh cả hai khe bằng nhau ở 0,3 mm, chỉ chỉnh một bên sẽ làm phanh hỏng, không chỉ chỉnh lực căng dây để bù độ mòn, thay má khi tổng độ dày gồm lớp ma sát và tấm kim loại dưới 2,5 mm.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/dm/BR0005/DM-BR0005-16-ENG.pdf",
+      "supports": "Sổ phanh đĩa dầu Shimano dành cho thợ (DM-BR0005-16, tiếng Anh): pít-tông tự nhô dần ra để bù độ mòn má phanh nên khi thay má phải đẩy pít-tông về; không dùng má phanh dày 0,5 mm hoặc mỏng hơn; thay má khi dính dầu hoặc lò xo ép má chạm đĩa.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.us/cms-vinfast-us/ebike/BOL00010047-User-manual-E-BIKE-EN.pdf",
+      "supports": "Sổ hướng dẫn tiếng Anh VinFast E-Bike Long Saddle (BOL00010047, trang vinfastauto.us): mục phanh đĩa trước và sau, lịch bảo dưỡng liệt kê tay phanh, dầu phanh (kiểm tra bằng mắt), má phanh và ống dẫn phanh, quan sát độ dày má phanh qua khe ngàm và mang xe đến nhà phân phối và xưởng dịch vụ VinFast khi mỏng dưới khoảng 0,65 mm; chỉ dùng làm ví dụ đối chiếu.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://si.shimano.com/en/pdfs/dm/RBMBR01/DM-RBMBR01-00-ENG.pdf",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tektro.com/upload/Mf5L4k4HJrOZNOzzRYDc_1676620306.pdf",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://si.shimano.com/en/pdfs/dm/BR0005/DM-BR0005-16-ENG.pdf",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.us/cms-vinfast-us/ebike/BOL00010047-User-manual-E-BIKE-EN.pdf",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 887,
+        "title": "Chi Phí Giao Xe Máy Tận Nơi Hà Nội – Cách Tính & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "6c27605fc8d85de1852488f84e098724f3408d70c6c8b62c581045e5fb205778",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2352,
+        "title": "Xe máy điện có cần bằng lái không? Cách phân biệt theo công suất",
+        "why": "stale",
+        "content_hash": "8c5c200eacd4af62c6f482e36bad9112feb65d56c6bb4032d8dbae3c82a64876",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2370,
+        "title": "Chi Phí Đi Xe Máy Điện Mỗi Tháng So Với Xe Máy Xăng Phổ Thông: Bài Toán Chi Tiết Từ Người Dùng Thực Tế",
+        "why": "stale",
+        "content_hash": "92d045593ec18a74d2c912be44adc4f392b4b025734668676528c637f6ed0b2d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2374,
+        "title": "Xe máy điện đi mưa có an toàn không? Cách sử dụng đúng và bền",
+        "why": "stale",
+        "content_hash": "f86d1aa55c92feadb7f1f7424eb5a8881f374d07d09eba557a5974bddc4ab23f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2615,
+        "title": "Phố cổ Hà Nội có gì chơi? 15 địa điểm, món ngon và lịch trình đi bộ",
+        "why": "stale",
+        "content_hash": "e9addb8498afd5d9d13bd70c14aa17da5a5746f6ac0ac5ba4247af9d1591d5ff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T06:58:32.171748+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "5e9d0ed60479a31321db571cf6545ff7f7771b87d82ca32281883351c6eab445",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
