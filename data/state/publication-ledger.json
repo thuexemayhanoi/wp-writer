@@ -39679,7 +39679,7 @@
       }
     },
     "NT-002144": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T20:35:21.122769+00:00",
       "source_hash": "37f98887f05ebad074cb03c09fac03b5512c6a4488006b5293b12f455599b21f",
       "slug": "day-dien-dut-cot-dien-nghieng-sau-mua-bao-di-xe-may-dung-xa-va-khong-loi-nuoc",
@@ -39695,8 +39695,37 @@
       "category_warning": null,
       "git_commit": "0a7ac0bbcd8e029fa300a62a1eda811599a44877",
       "run_id": "39849225031",
-      "updated_at": "2026-10-22T20:35:25.464133+00:00",
-      "wp_id": 5015
+      "updated_at": "2026-10-22T20:35:31.477394+00:00",
+      "wp_id": 5015,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/day-dien-dut-cot-dien-nghieng-sau-mua-bao-di-xe-may-dung-xa-va-khong-loi-nuoc/",
+      "verified_at": "2026-10-22T20:35:31.477387+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 5015,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/day-dien-dut-cot-dien-nghieng-sau-mua-bao-di-xe-may-dung-xa-va-khong-loi-nuoc/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/day-dien-dut-cot-dien-nghieng-sau-mua-bao-di-xe-may-dung-xa-va-khong-loi-nuoc/",
+        "seo_title": "Dây điện đứt, cột điện nghiêng sau mưa bão: dừng xa, không lội nước",
+        "seo_description": "Dây điện đứt, cột điện nghiêng sau mưa bão: người đi xe máy nên dừng xa, không lội nước và báo điện lực theo khuyến cáo của EVNHANOI, Bộ Công Thương và EVNCPC.",
+        "checked_at": "2026-10-22T20:35:31.477370+00:00"
+      }
     }
   },
   "categories": {}
