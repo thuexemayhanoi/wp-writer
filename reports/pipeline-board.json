@@ -1,29 +1,17 @@
 {
-  "at": "2026-10-22T03:54:46.157953+00:00",
+  "at": "2026-10-22T03:59:44.567235+00:00",
   "counts": {
-    "WRITING": 13,
+    "WRITING": 10,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 631
+    "VERIFIED": 634
   },
   "ready_backlog": 0,
-  "in_flight": 16,
+  "in_flight": 13,
   "items": [
-    {
-      "topic_id": "NT-001455",
-      "state": "WRITING",
-      "reason": "leased to seodev-w69",
-      "title": "Xe đạp điện có bàn đạp: cấu tạo cơ bản và những bộ phận không nên tự can thiệp",
-      "slot": "W1",
-      "session": "seodev-w69",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-001481",
       "state": "WRITING",
@@ -31,30 +19,6 @@
       "title": "Quên giấy tờ xe máy điện có bị phạt không: Luật bắt buộc mang gì và lỗi nào bị phạt",
       "slot": "W1",
       "session": "seodev-w69",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001484",
-      "state": "WRITING",
-      "reason": "leased to seodev-w69",
-      "title": "Biển số xe máy màu gì: nền trắng, nền xanh, tem xanh lá và kích thước theo Thông tư 79/2024",
-      "slot": "W1",
-      "session": "seodev-w69",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001511",
-      "state": "WRITING",
-      "reason": "leased to seodev-w70",
-      "title": "Xe 50cc cho hành trình ngắn: cách làm quen xe trong khu vực ít phương tiện",
-      "slot": "W3",
-      "session": "seodev-w70",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -7681,6 +7645,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001455",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe đạp điện có bàn đạp: cấu tạo cơ bản và những bộ phận không nên tự can thiệp",
+      "slot": "W1",
+      "session": "seodev-w69",
+      "wp_id": 4679,
+      "url": "https://thuexemaynguyentu.com/xe-dap-dien-co-ban-dap-cau-tao-co-ban-va-nhung-bo-phan-khong-nen-tu-can-thiep/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001482",
       "state": "VERIFIED",
       "reason": "publish",
@@ -7701,6 +7677,30 @@
       "session": "seodev-w69",
       "wp_id": 4678,
       "url": "https://thuexemaynguyentu.com/mu-bao-hiem-cho-du-khach-nuoc-ngoai-luat-viet-nam-bat-buoc-gi-va-anh-uc-canada-khuyen-gi/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001484",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Biển số xe máy màu gì: nền trắng, nền xanh, tem xanh lá và kích thước theo Thông tư 79/2024",
+      "slot": "W1",
+      "session": "seodev-w69",
+      "wp_id": 4680,
+      "url": "https://thuexemaynguyentu.com/bien-so-xe-may-mau-gi-nen-trang-nen-xanh-tem-xanh-la-va-kich-thuoc-theo-thong-tu-79-2024/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001511",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe 50cc cho hành trình ngắn: cách làm quen xe trong khu vực ít phương tiện",
+      "slot": "W3",
+      "session": "seodev-w70",
+      "wp_id": 4681,
+      "url": "https://thuexemaynguyentu.com/xe-50cc-cho-hanh-trinh-ngan-cach-lam-quen-xe-trong-khu-vuc-it-phuong-tien/",
       "qa_status": "PASS",
       "seo_score": 100
     },
