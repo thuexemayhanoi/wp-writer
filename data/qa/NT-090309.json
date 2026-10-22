@@ -1,0 +1,201 @@
+{
+  "topic_id": "NT-090309",
+  "status": "PASS",
+  "source_sha256": "37def42fbc54c23ea498614f23b4fad05903a83d6fdfc174ba9397022439324e",
+  "body_sha256": "a09d0ed5c4bd5a2a3e9a6c37c577646bed7fe04581ab7ba1b87db0cdff7b5d84",
+  "word_count": 1703,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.sym.com.vn/san-pham/priti-50-35.html",
+      "supports": "Trang sản phẩm Priti 50 của SYM Việt Nam (sym.com.vn), không ghi ngày đăng, đọc 22/10/2026: phanh trước là phanh đĩa, phanh sau tang trống (đùm), truyền động tự động vô cấp, lốp trước và lốp sau không ruột 90/90-10, thể tích làm việc 49,5 cm3.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sym.com.vn/san-pham/shark-efi-50-41.html",
+      "supports": "Trang sản phẩm Shark EFI 50 của SYM Việt Nam (sym.com.vn), không ghi ngày đăng, đọc 22/10/2026: phanh trước và phanh sau đều tang trống (chữ trên trang là dùm), truyền động tự động vô cấp, lốp không ruột 70/90-14 phía trước và 80/90-14 phía sau, thể tích làm việc 49,5 cm3.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sym.com.vn/san-pham/elegant-50-13.html",
+      "supports": "Trang sản phẩm Elegant 50 của SYM Việt Nam (sym.com.vn), không ghi ngày đăng, đọc 22/10/2026: hộp số 4 số, phanh trước và sau đều tang trống (đùm), lốp có ruột 70/80-17 phía trước và 80/80-17 phía sau, phân khối 49.5cc.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sym.com.vn/san-pham/galaxy-50-12.html",
+      "supports": "Trang sản phẩm Galaxy 50 của SYM Việt Nam (sym.com.vn), không ghi ngày đăng, đọc 22/10/2026: hộp số 4 số, phanh trước và sau đều ghi phanh trống (đùm), lốp có ruột 70/80-17 phía trước và 80/80-17 phía sau, phân khối 49.5cc.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.sym.com.vn/san-pham/priti-50-35.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sym.com.vn/san-pham/shark-efi-50-41.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sym.com.vn/san-pham/elegant-50-13.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sym.com.vn/san-pham/galaxy-50-12.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2393,
+        "title": "Thuê pin hay mua pin xe máy điện VinFast: phương án nào hợp lý?",
+        "why": "stale",
+        "content_hash": "b26adf50a482554d3cb08a77a5edd2ce3012f2ce554cb624584729fd43c82f18",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2515,
+        "title": "Bình ắc quy xe máy dùng được bao lâu? Khi nào nên kiểm tra lại?",
+        "why": "stale",
+        "content_hash": "26576df935c21a29be7d5e9013419bbd9273bc6c5f99f106848143996460de9a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2521,
+        "title": "Cách kiểm tra lốp xe máy để phát hiện mòn, nứt và áp suất bất thường",
+        "why": "stale",
+        "content_hash": "08080c3d371127024550acb47d9ddf7feb4cdba807bbb1f3996c8e47b110a33d",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2600,
+        "title": "Cách chọn xe máy phù hợp khi lịch trình chủ yếu di chuyển trong phố",
+        "why": "stale",
+        "content_hash": "782e81a248515b0121bb96f7a114ce29f0c8ceb33137bb7a23e8a4d857d27bfe",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T11:45:28.384412+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "8fc14a74fa0407ffd0be5cf2b32d4db69657172eb8376c1ae3e2404a9040cf68",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

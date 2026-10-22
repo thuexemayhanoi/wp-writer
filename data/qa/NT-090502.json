@@ -1,0 +1,201 @@
+{
+  "topic_id": "NT-090502",
+  "status": "PASS",
+  "source_sha256": "66d0f28cd3a62d5b1001af1fdb2b8d97ca35cc3a0de33510ffbeacf3f45d0566",
+  "body_sha256": "3f06649d1b1d8490a8f05860083c9d44242050a0de5a4c355aa438f4704db4d0",
+  "word_count": 2528,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://hanoi.gov.vn/tin-so-nganh/ha-noi-xe-buyt-tau-dien-co-the-tam-dung-hoat-dong-de-ung-pho-bao-so-3-4250721192521262.htm",
+      "supports": "Cổng thông tin điện tử Hà Nội (hanoi.gov.vn), đăng 20:53 ngày 21/07/2025, đọc 22/10/2026: văn bản hỏa tốc của Trung tâm Quản lý và Điều hành giao thông Hà Nội về bão số 3 (Wipha): doanh nghiệp xe buýt có thể điều chỉnh thời gian hoạt động hoặc tạm dừng tuyến khi thời tiết xấu, chuẩn bị phương tiện giải tỏa hành khách và trung chuyển qua khu ngập sâu; Hà Nội Metro theo dõi bản tin cảnh báo và có thể điều chỉnh hoặc tạm dừng vận hành hai tuyến 2A và 3.1 khi cần.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/ha-noi-metro-chu-dong-trien-khai-cac-bien-phap-ung-pho-bao-so-3-dam-bao-an-toan-tuyet-doi-cho-hanh-khach-va-he-thong-van-hanh/",
+      "supports": "Thông báo của Hà Nội Metro (metrohanoi.vn) ngày 21/07/2025, đọc 22/10/2026: thang máy và thang cuốn ngoài trời tạm dừng khi bão ảnh hưởng trực tiếp và chỉ chạy lại sau khi kỹ thuật kiểm tra, đánh giá; thiết bị hiển thị tại sân ga được ngắt điện trong thời gian bão đổ bộ; gia cố khu vực trũng thấp, kiểm tra depot; hotline 19001086.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nguoihanoi.vn/metro-ha-noi-dung-hoat-dong-khi-gio-bao-manh-cap-8-86714.html",
+      "supports": "Báo Người Hà Nội (nguoihanoi.vn), đăng 16:41 ngày 07/09/2024, đọc 22/10/2026: Tổng Giám đốc Hanoi Metro nói theo phương án vận hành an toàn các tuyến đường sắt đô thị phải tạm dừng khi bão mạnh cấp 8 trở lên; mưa lớn kéo dài thì tàu chuyển từ lái tự động sang lái thủ công; kíp trực ở trung tâm điều độ căn cứ bản tin khí tượng để quyết định tạm dừng chạy tàu.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congly.vn/ha-noi-hai-tuyen-metro-hoat-dong-lai-tu-chieu-nay-447194.html",
+      "supports": "Báo Công lý (congly.vn), đăng 16:15 ngày 08/09/2024, đọc 22/10/2026: sau khi hai tuyến metro dừng ngày 7/9 do bão Yagi, hai tuyến dự kiến chạy lại từ 13h30 ngày 8/9 sau khi kiểm tra các chỉ số an toàn, biểu đồ giãn cách 10 phút ngày 8/9 và chạy theo kế hoạch từ 9/9; xe buýt có thể phải chờ lâu hoặc đổi lịch vì cây đổ, sáng 8/9 mới có hai tuyến 86 và 68 đi Nội Bài hoạt động.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://hanoi.gov.vn/tin-so-nganh/ha-noi-xe-buyt-tau-dien-co-the-tam-dung-hoat-dong-de-ung-pho-bao-so-3-4250721192521262.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/ha-noi-metro-chu-dong-trien-khai-cac-bien-phap-ung-pho-bao-so-3-dam-bao-an-toan-tuyet-doi-cho-hanh-khach-va-he-thong-van-hanh/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nguoihanoi.vn/metro-ha-noi-dung-hoat-dong-khi-gio-bao-manh-cap-8-86714.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congly.vn/ha-noi-hai-tuyen-metro-hoat-dong-lai-tu-chieu-nay-447194.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 1061,
+        "title": "Thuê Xe Máy Sân Bay Nội Bài: Hướng Dẫn Đi Buýt 17 Về Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "fb3b7f2450df53950a064262ea32d4d11bf69f30edb2fbae3768611953b0c335",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2478,
+        "title": "Yamaha Exciter 155 có gì đáng chú ý với người thích xe côn tay?",
+        "why": "stale",
+        "content_hash": "2302e84fab159860a06c354d465ef2e7d5b578c0e4464ad6749fa09c10daf2c6",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2592,
+        "title": "Đi Hà Nội hai người nên chọn xe gì để thoải mái và dễ điều khiển?",
+        "why": "stale",
+        "content_hash": "5c0894287bcacd6fb1f4e67cebc0eb2d421ebeddf8dc30ba47f488d03a2cf568",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2615,
+        "title": "Phố cổ Hà Nội có gì chơi? 15 địa điểm, món ngon và lịch trình đi bộ",
+        "why": "stale",
+        "content_hash": "e9addb8498afd5d9d13bd70c14aa17da5a5746f6ac0ac5ba4247af9d1591d5ff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T11:45:57.571814+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "74bab75a2bd356e7977f041925b9d57b05a32c8221203bf4133cd6a542a2d525",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
