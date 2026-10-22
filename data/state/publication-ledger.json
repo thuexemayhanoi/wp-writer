@@ -39581,7 +39581,7 @@
       }
     },
     "NT-002081": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T20:34:02.271805+00:00",
       "source_hash": "11a60250481a72eac1c90e72adc37b46d8020f123c45916a25cac3ba264ae198",
       "slug": "ha-noi-mien-ve-17-di-tich-tet-2026-tu-20-22-2-va-quoc-khanh-2-9-2026",
@@ -39597,8 +39597,37 @@
       "category_warning": null,
       "git_commit": "0a7ac0bbcd8e029fa300a62a1eda811599a44877",
       "run_id": "39849225031",
-      "updated_at": "2026-10-22T20:34:06.814690+00:00",
-      "wp_id": 5013
+      "updated_at": "2026-10-22T20:34:13.492666+00:00",
+      "wp_id": 5013,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ha-noi-mien-ve-17-di-tich-tet-2026-tu-20-22-2-va-quoc-khanh-2-9-2026/",
+      "verified_at": "2026-10-22T20:34:13.492659+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 5013,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ha-noi-mien-ve-17-di-tich-tet-2026-tu-20-22-2-va-quoc-khanh-2-9-2026/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ha-noi-mien-ve-17-di-tich-tet-2026-tu-20-22-2-va-quoc-khanh-2-9-2026/",
+        "seo_title": "Hà Nội miễn vé 17 di tích: Tết 2026 từ 20–22/2 và Quốc khánh 2/9",
+        "seo_description": "Hà Nội miễn vé 17 di tích, danh thắng dịp Tết 2026 (20–22/2) và Quốc khánh 2/9/2026: danh sách 17 điểm, chỗ Hoàng thành ghi người Việt Nam, cách kiểm tra.",
+        "checked_at": "2026-10-22T20:34:13.492642+00:00"
+      }
     }
   },
   "categories": {}
