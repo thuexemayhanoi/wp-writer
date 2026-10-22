@@ -416,6 +416,14 @@ def pilot_reserved(ledger, pilot_id):
                and rec.get('pilot_id')==pilot_id)
 
 
+def count_site_posts(live):
+    """Public WordPress posts (not pages, drafts or products) in a live inventory read."""
+    return sum(1 for p in live if p.get('resource')=='posts' and p.get('status')=='publish')
+
+def site_cap_reached(site_posts,cap):
+    """True when the owner's site-wide ceiling `site_published_post_cap` leaves no room for one more public post. Unset/0 disables it."""
+    return bool(cap) and site_posts>=int(cap)
+
 def daily_created_count(ledger, utc_day, status=None):
     """Count first-create intents for one UTC day, including uncertain POSTs.
 
@@ -547,6 +555,7 @@ def run(args):
         policy_runtime=load('config/production-policy.json')
         if policy_runtime!=base_policy:raise ValueError('Policy changed during inventory')
         attempted=0
+        site_cap=policy.get('site_published_post_cap');site_posts=count_site_posts(live)
         recheck_state=load('reports/gate-recheck.json',{})
         for path in sorted((ROOT/'posts/drafts').glob('NT-*.md')):
             if args.acceptance_topic and path.stem!=args.acceptance_topic:continue
@@ -614,6 +623,12 @@ def run(args):
                     'mode':route['status'],'today_total':all_created,
                     'daily_limit':daily_cap})
                 continue
+            # Owner hard ceiling on public posts site-wide: counted from the live inventory read at run start and
+            # never decremented in-run, so a created-but-unverified POST can only make the stop earlier, not later.
+            if route['status']=='publish':
+                if site_cap_reached(site_posts,site_cap):
+                    results.append({'topic_id':t['topic_id'],'status':'SITE_CAP','site_posts':site_posts,'limit':site_cap});continue
+                site_posts+=1
             if not attempt_create(publisher,ledger,results,t,body,sha,route,live,meta):continue
             attempted+=1
             # Pace the host: a short pause after each post, a longer one after each full batch (never after the last).
