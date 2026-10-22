@@ -32131,6 +32131,25 @@
         "seo_description": "Lịch nghỉ lễ sắp tới: 24/11/2026 nghỉ 1 ngày, Tết Đinh Mùi 4–10/2/2027, Quốc khánh 2–5/9/2027; công chức và doanh nghiệp khác nhau ra sao, xếp chuyến đi thế nào.",
         "checked_at": "2026-10-22T06:09:47.177351+00:00"
       }
+    },
+    "NT-080006": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T06:13:42.044331+00:00",
+      "source_hash": "e70571248de95f827ee2901c1b99c12edc8b5992c2b648aa62f0ce58287bc02f",
+      "slug": "chup-anh-ban-giao-xe-may-thue-goc-nen-luu-theo-phieu-yamaha-sach-honda-va-gia-tri-chung-cu-cua-anh",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 163,
+      "visible_hash": "095ace9d7093d59163e3d2d43e14bd9770590ca57bcb1816b3030077da16755c",
+      "first_paragraph": "Cách chụp ảnh bàn giao xe máy thuê gọn nhất là chụp theo một thứ tự cố định rồi lặp lại đúng thứ tự đó khi trả xe: bốn phía và hai đường chéo, từng vết xước kèm ảnh cận, gương, đèn và biển số, thành lốp và gai lốp của cả hai bánh, tay phanh và hộp dầu phanh nếu nhìn thấy, chân chống, mặt đồng hồ có công tơ mét và mức xăng, cuối cùng là phụ kiện và chìa khóa. Danh sách này người viết rút ra từ các hạng mục kiểm tra trong phiếu của Yamaha trước khi giao xe mới và mục kiểm tra trước khi lái trong sách hướng dẫn Honda Vision; hai tài liệu đó không viết cho xe thuê và không nói gì về việc chụp ảnh. Về giá trị chứng cứ, Luật Giao dịch điện tử 2023 nêu giá trị chứng cứ của thông điệp dữ liệu được xác định theo độ tin cậy của cách khởi tạo, gửi, nhận hoặc lưu trữ, còn Bộ luật Tố tụng dân sự coi tài liệu nhìn được là chứng cứ khi kèm văn bản trình bày xuất xứ nếu người có tài liệu tự thu hình. Vì vậy hãy giữ ảnh gốc, không chỉnh sửa, gửi ảnh vào cuộc trò chuyện với bên cho thuê ngay tại điểm giao và ghi một dòng về xuất xứ. Bài không bảo đảm Tòa án sẽ chấp nhận bất kỳ bức ảnh nào.",
+      "meta_title": "Cách chụp ảnh bàn giao xe máy thuê: danh sách góc và giá trị chứng cứ",
+      "meta_description": "Cách chụp ảnh bàn giao xe máy thuê theo hạng mục Yamaha và Honda: góc cần chụp, đặt tên tệp, gửi ảnh, và giá trị chứng cứ theo Luật Giao dịch điện tử 2023.",
+      "intended_taxonomy_key": "rental-procedures",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "f8266bb77303bc6e5d6ad621ac9a6780aa15522c",
+      "run_id": "39732143769",
+      "updated_at": "2026-10-22T06:13:42.046342+00:00"
     }
   },
   "categories": {}
