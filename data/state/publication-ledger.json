@@ -37180,7 +37180,7 @@
       }
     },
     "NT-001874": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:42:36.645735+00:00",
       "source_hash": "064307e707e5ce38bddfaa066befe20fd5338fc0404fded1c0e66c2195a15b8f",
       "slug": "nha-hat-lon-ha-noi-dong-cua-trung-tu-sau-31-1-2026-du-kien-2-nam-khong-phai-1-nam",
@@ -37196,8 +37196,37 @@
       "category_warning": null,
       "git_commit": "29b371a50ce93cffc2535aafb2c098124c5c38a7",
       "run_id": "39806500390",
-      "updated_at": "2026-10-22T15:42:41.186233+00:00",
-      "wp_id": 4854
+      "updated_at": "2026-10-22T15:42:47.502566+00:00",
+      "wp_id": 4854,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nha-hat-lon-ha-noi-dong-cua-trung-tu-sau-31-1-2026-du-kien-2-nam-khong-phai-1-nam/",
+      "verified_at": "2026-10-22T15:42:47.502560+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4854,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nha-hat-lon-ha-noi-dong-cua-trung-tu-sau-31-1-2026-du-kien-2-nam-khong-phai-1-nam/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nha-hat-lon-ha-noi-dong-cua-trung-tu-sau-31-1-2026-du-kien-2-nam-khong-phai-1-nam/",
+        "seo_title": "Nhà hát Lớn Hà Nội đóng cửa trùng tu sau 31/1/2026: dự kiến 2 năm",
+        "seo_description": "Nhà hát Lớn Hà Nội đóng cửa trùng tu sau 31/1/2026 theo kế hoạch, dự kiến khoảng 2 năm chứ không phải 1 năm như báo 2023; chưa có nguồn nêu ngày mở lại.",
+        "checked_at": "2026-10-22T15:42:47.502537+00:00"
+      }
     }
   },
   "categories": {}
