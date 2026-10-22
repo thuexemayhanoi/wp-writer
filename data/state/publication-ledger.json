@@ -34583,7 +34583,7 @@
       }
     },
     "NT-001931": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T11:11:37.218684+00:00",
       "source_hash": "cfb8616a359d690be9bb7709b6439f08e617d9da76f88491a5e50f0823f61f52",
       "slug": "khu-di-tich-pac-bo-mien-phi-tu-4-7-2026-cach-thanh-pho-cao-bang-50-km",
@@ -34599,8 +34599,37 @@
       "category_warning": null,
       "git_commit": "5387ba47be38fd5eda4860e2a8352294b985f709",
       "run_id": "39768063577",
-      "updated_at": "2026-10-22T11:11:41.625972+00:00",
-      "wp_id": 4801
+      "updated_at": "2026-10-22T11:11:47.358736+00:00",
+      "wp_id": 4801,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/khu-di-tich-pac-bo-mien-phi-tu-4-7-2026-cach-thanh-pho-cao-bang-50-km/",
+      "verified_at": "2026-10-22T11:11:47.358729+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4801,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/khu-di-tich-pac-bo-mien-phi-tu-4-7-2026-cach-thanh-pho-cao-bang-50-km/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/khu-di-tich-pac-bo-mien-phi-tu-4-7-2026-cach-thanh-pho-cao-bang-50-km/",
+        "seo_title": "Khu di tích Pác Bó: miễn phí từ 4/7/2026, cách TP Cao Bằng 50 km",
+        "seo_description": "Khu di tích Pác Bó không thu phí tham quan từ 4/7/2026 theo hai bản tin ngày 3/7/2026, còn cẩm nang VnExpress ghi vé 25.000 đồng. Cách TP Cao Bằng 50 km, nên dành khoảng 4 tiếng.",
+        "checked_at": "2026-10-22T11:11:47.358712+00:00"
+      }
     }
   },
   "categories": {}
