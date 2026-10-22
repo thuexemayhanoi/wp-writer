@@ -33750,7 +33750,7 @@
       }
     },
     "NT-001692": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T10:17:37.626509+00:00",
       "source_hash": "7b226cfa94760becf278f00418cfceeac38f10f9a83a1d78f01c604ff23df4d0",
       "slug": "qua-doan-duong-dang-sua-bang-xe-may-bien-tam-toc-do-tam-thep-va-soi-truot",
@@ -33766,8 +33766,37 @@
       "category_warning": null,
       "git_commit": "c68fcc7040146e10c410a150c67ad8d5d68737c5",
       "run_id": "39761284372",
-      "updated_at": "2026-10-22T10:17:41.746151+00:00",
-      "wp_id": 4784
+      "updated_at": "2026-10-22T10:17:48.370126+00:00",
+      "wp_id": 4784,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/qua-doan-duong-dang-sua-bang-xe-may-bien-tam-toc-do-tam-thep-va-soi-truot/",
+      "verified_at": "2026-10-22T10:17:48.370119+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4784,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/qua-doan-duong-dang-sua-bang-xe-may-bien-tam-toc-do-tam-thep-va-soi-truot/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/qua-doan-duong-dang-sua-bang-xe-may-bien-tam-toc-do-tam-thep-va-soi-truot/",
+        "seo_title": "Qua đoạn đường đang sửa bằng xe máy: biển tạm, tấm thép, sỏi",
+        "seo_description": "Qua đoạn đường đang sửa bằng xe máy: Điều 11 và Điều 12 Luật 36/2024, đọc biển tạm, tấm thép che hố, sỏi trượt và cách thao tác xe từng bước.",
+        "checked_at": "2026-10-22T10:17:48.370101+00:00"
+      }
     }
   },
   "categories": {}
