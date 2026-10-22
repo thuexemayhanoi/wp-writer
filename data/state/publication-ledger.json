@@ -32523,6 +32523,25 @@
         "seo_description": "Xem tuổi thọ pin xe máy điện ở đâu: ứng dụng VinFast Evo200 nêu 6 thông tin pin, sổ Amio S, màn hình kỹ thuật Dat Bike ERA và điều các trang không nói.",
         "checked_at": "2026-10-22T06:48:32.395793+00:00"
       }
+    },
+    "NT-091444": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T06:48:48.100684+00:00",
+      "source_hash": "bc9ff8f09928e130cc747dbec7908dc8a13914f8f4400cb37b1528167c707c03",
+      "slug": "man-hinh-hmi-vinfast-drgnfly-sach-tieng-viet-ghi-3-muc-tro-luc-4-thong-so-10-ma-loi-ban-tieng-anh-ghi-gi",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 166,
+      "visible_hash": "6ab22c7cf91bb806e4d2ec684305721d5ec7e5cadb7f8d7b2714f4484fb296c5",
+      "first_paragraph": "Màn hình HMI xe đạp điện VinFast DrgnFly theo sách hướng dẫn sử dụng tiếng Việt của VinFast (ký hiệu \"HƯỚNG DẪN SỬ DỤNG - 05\") hiển thị thanh dung lượng pin với mỗi vạch ứng với 20% dung lượng, ba chế độ trợ lực 0, 1, 2 theo số vạch (chế độ 0 không hỗ trợ trợ lực) và bốn thông số gồm tốc độ tức thời, TRIP, ODO và phần trăm pin còn lại. Khi có sự cố, mã lỗi hiện ở vị trí (B) trên màn hình và bảng mã của sách tiếng Việt có đúng 10 mã: 01, 02, 03, 04, 05, 06, 09, 20, 30 và 37. Sách tiếng Anh \"USER MANUAL - 04\" mà blog đã dùng ở bài về mức trợ lực, ghi trên bìa là \"E-BIKE LONG SADDLE\", mô tả màn hình khác: năm chế độ ZERO, ECO, TOUR, SPORT, BOOST, mười một thông số và hai mươi mã lỗi. Hai sách không nói bản nào áp dụng cho chiếc xe cụ thể, nên bạn hãy đối chiếu với màn hình trên xe của mình. Bài chỉ chép mô tả của sách, không nêu nguyên nhân hay cách tự sửa từng mã lỗi.",
+      "meta_title": "Màn hình HMI xe đạp điện VinFast DrgnFly: 3 mức trợ lực, 10 mã lỗi",
+      "meta_description": "Màn hình HMI xe đạp điện VinFast DrgnFly theo sách tiếng Việt: 3 mức trợ lực 0/1/2, 4 thông số, 10 mã lỗi; so với sách tiếng Anh có 5 chế độ và 20 mã lỗi.",
+      "intended_taxonomy_key": "ebikes",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "015b18c50bb7ebabcaa95f9d373758c28fbf44b8",
+      "run_id": "39735839106",
+      "updated_at": "2026-10-22T06:48:48.102846+00:00"
     }
   },
   "categories": {}
