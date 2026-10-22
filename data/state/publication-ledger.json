@@ -36984,7 +36984,7 @@
       }
     },
     "NT-001965": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:35:12.828035+00:00",
       "source_hash": "3bd7cb4d0d6171b0d15b70f607686d5f6fceecefe3f82d56dd770bafad8affe9",
       "slug": "banh-khuc-ha-noi-rau-khuc-xoi-nep-nhan-dau-thit-va-mua-an-bao-ke-khac-nhau",
@@ -37000,8 +37000,37 @@
       "category_warning": null,
       "git_commit": "0a2a030db6e3a6220b4bb13f8d2f3d92b3bde375",
       "run_id": "39804569895",
-      "updated_at": "2026-10-22T15:35:17.287944+00:00",
-      "wp_id": 4850
+      "updated_at": "2026-10-22T15:35:23.692798+00:00",
+      "wp_id": 4850,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/banh-khuc-ha-noi-rau-khuc-xoi-nep-nhan-dau-thit-va-mua-an-bao-ke-khac-nhau/",
+      "verified_at": "2026-10-22T15:35:23.692791+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4850,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/banh-khuc-ha-noi-rau-khuc-xoi-nep-nhan-dau-thit-va-mua-an-bao-ke-khac-nhau/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/banh-khuc-ha-noi-rau-khuc-xoi-nep-nhan-dau-thit-va-mua-an-bao-ke-khac-nhau/",
+        "seo_title": "Bánh khúc Hà Nội: làm từ gì, ăn nóng ra sao, ăn vào mùa nào",
+        "seo_description": "Bánh khúc Hà Nội làm từ lá rau khúc, bột gạo, đỗ xanh, thịt lợn và gạo nếp, ăn nóng với muối vừng; hai bài báo kể khác nhau về mùa ăn.",
+        "checked_at": "2026-10-22T15:35:23.692772+00:00"
+      }
     }
   },
   "categories": {}
