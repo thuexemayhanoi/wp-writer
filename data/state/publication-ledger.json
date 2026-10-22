@@ -30369,7 +30369,7 @@
       }
     },
     "NT-001571": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:07:26.390818+00:00",
       "source_hash": "d4fa08120af079d1209ce81f4b6bd4f8ca5f864a4e6c7669cc3d4bdafc1665f8",
       "slug": "tram-sac-xe-dien-trong-chung-cu-quy-trinh-ra-soat-theo-thong-tu-31-2026-tt-bxd",
@@ -30385,8 +30385,37 @@
       "category_warning": null,
       "git_commit": "6cfc2a756a7b4ed4288ecf4d4d7856f3349d40e6",
       "run_id": "39719712916",
-      "updated_at": "2026-10-22T04:07:30.525801+00:00",
-      "wp_id": 4687
+      "updated_at": "2026-10-22T04:07:36.832403+00:00",
+      "wp_id": 4687,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tram-sac-xe-dien-trong-chung-cu-quy-trinh-ra-soat-theo-thong-tu-31-2026-tt-bxd/",
+      "verified_at": "2026-10-22T04:07:36.832396+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4687,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tram-sac-xe-dien-trong-chung-cu-quy-trinh-ra-soat-theo-thong-tu-31-2026-tt-bxd/",
+        "categories": [
+          169
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tram-sac-xe-dien-trong-chung-cu-quy-trinh-ra-soat-theo-thong-tu-31-2026-tt-bxd/",
+        "seo_title": "Trạm sạc xe điện trong chung cư: rà soát theo Thông tư 31/2026",
+        "seo_description": "Trạm sạc xe điện trong chung cư theo Thông tư 31/2026/TT-BXD: hiệu lực 15/12/2026, hạn rà soát 6 tháng, ba trường hợp thiết kế PCCC và trách nhiệm từng bên.",
+        "checked_at": "2026-10-22T04:07:36.832374+00:00"
+      }
     }
   },
   "categories": {}
