@@ -34240,7 +34240,7 @@
       }
     },
     "NT-001845": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T10:45:50.707019+00:00",
       "source_hash": "db32777d0adcac9081e4933192cee255063bd7c90e0b083bfb2d7e6f365d4787",
       "slug": "dau-gia-bien-so-xe-may-truc-tuyen-gia-khoi-diem-5-trieu-buoc-gia-500-000-dong-tien-dat-truoc",
@@ -34256,8 +34256,37 @@
       "category_warning": null,
       "git_commit": "f9037106cb5fab8e879cc3bf0ef52bbdd467ca93",
       "run_id": "39764969071",
-      "updated_at": "2026-10-22T10:45:55.498136+00:00",
-      "wp_id": 4794
+      "updated_at": "2026-10-22T10:46:02.859884+00:00",
+      "wp_id": 4794,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/dau-gia-bien-so-xe-may-truc-tuyen-gia-khoi-diem-5-trieu-buoc-gia-500-000-dong-tien-dat-truoc/",
+      "verified_at": "2026-10-22T10:46:02.859878+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4794,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/dau-gia-bien-so-xe-may-truc-tuyen-gia-khoi-diem-5-trieu-buoc-gia-500-000-dong-tien-dat-truoc/",
+        "categories": [
+          171
+        ],
+        "canonical": "https://thuexemaynguyentu.com/dau-gia-bien-so-xe-may-truc-tuyen-gia-khoi-diem-5-trieu-buoc-gia-500-000-dong-tien-dat-truoc/",
+        "seo_title": "Đấu giá biển số xe máy trực tuyến: khởi điểm 5 triệu, bước giá 500.000",
+        "seo_description": "Đấu giá biển số xe máy trực tuyến theo Nghị định 156/2024: giá khởi điểm 5 triệu, bước giá 500.000 đồng, tiền đặt trước, tiền hồ sơ 50 nghìn và sáu bước đăng ký trên mạng.",
+        "checked_at": "2026-10-22T10:46:02.859861+00:00"
+      }
     }
   },
   "categories": {}
