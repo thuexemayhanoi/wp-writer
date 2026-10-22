@@ -1,22 +1,22 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 2,
+  "ready_stock": 5,
   "trigger_below_ready": 900,
   "rounds_opened": 5,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 755,
-  "capacity_remaining": 1245,
+  "topic_rows": 758,
+  "capacity_remaining": 1242,
   "order": {
     "id": "RF-0005",
     "round": 5,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 59,
-    "remaining_to_min": 41,
-    "remaining_to_max": 141,
-    "batches_still_needed": 5,
+    "accepted_so_far": 62,
+    "remaining_to_min": 38,
+    "remaining_to_max": 138,
+    "batches_still_needed": 4,
     "batch_size": 10,
     "capacity_limited": false,
     "stalled": false,
@@ -30,8 +30,8 @@
       },
       {
         "taxonomy_key": "urban-mobility",
-        "quota": 14,
-        "known_now": 58,
+        "quota": 13,
+        "known_now": 61,
         "allocation": 92
       },
       {
@@ -42,7 +42,7 @@
       },
       {
         "taxonomy_key": "battery-charging",
-        "quota": 8,
+        "quota": 9,
         "known_now": 37,
         "allocation": 57
       },
@@ -132,9 +132,9 @@
   },
   "dedupe_universe": {
     "published_wordpress_items": 810,
-    "topics_in_factory": 755,
+    "topics_in_factory": 758,
     "topics_by_status": {
-      "PLANNED": 678,
+      "PLANNED": 681,
       "REJECTED": 2,
       "RESEARCH": 75
     },
