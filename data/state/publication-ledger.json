@@ -34189,6 +34189,25 @@
         "seo_description": "Đổi giấy đăng ký xe máy theo trang Bộ Công an và Điều 18 Thông tư 79/2024: màu sơn, địa chỉ, giấy mờ rách, biển gãy; giấy không quá 2 ngày, biển không quá 07 ngày làm việc.",
         "checked_at": "2026-10-22T10:26:39.698721+00:00"
       }
+    },
+    "NT-001844": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T10:45:24.188766+00:00",
+      "source_hash": "0499944e56699a3bc0ab8ab93bc8b50980d065cbf45f4792399c5e7bf83a3cfd",
+      "slug": "xe-may-khong-chinh-chu-sang-ten-khi-mat-lien-lac-chu-cu-giay-hen-30-ngay-va-muc-phat",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 171,
+      "visible_hash": "f314af3ed84cf44a05090a70b4e481280c2f67fd850a0bbc6292bd1666e942eb",
+      "first_paragraph": "Xe máy không chính chủ mà không liên lạc được chủ cũ vẫn có đường sang tên theo Điều 32 Thông tư 79/2024/TT-BCA: người đang dùng xe đến cơ quan đăng ký xe quản lý hồ sơ xe đó để làm thủ tục thu hồi, rồi đến cơ quan đăng ký xe nơi mình cư trú để đăng ký sang tên. Khi người đang dùng xe không có chứng từ chuyển quyền sở hữu của chủ xe và của người bán cuối cùng, cơ quan đăng ký xe cấp giấy hẹn có giá trị được sử dụng xe trong thời gian 30 ngày. Trả lời của Bộ Công an cho một câu hỏi đăng ngày 10/04/2026 dẫn mức phạt theo Điều 32 Nghị định 168/2024/NĐ-CP đối với chủ xe mô tô, xe gắn máy không làm thủ tục khi thay đổi chủ xe: 800.000–1.000.000 đồng với cá nhân, 1.600.000–2.000.000 đồng với tổ chức. Bài đọc các nguồn ngày 22/10/2026 và chưa kết luận được ai là người nộp phạt.",
+      "meta_title": "Xe máy không chính chủ mất liên lạc chủ cũ: sang tên, giấy hẹn 30 ngày",
+      "meta_description": "Xe máy không chính chủ, mất liên lạc chủ cũ: Điều 32 Thông tư 79/2024 cho thu hồi rồi sang tên, giấy hẹn 30 ngày, hồ sơ và khung phạt 800.000–1.000.000 đồng Bộ Công an dẫn.",
+      "intended_taxonomy_key": "driving-licence",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "f9037106cb5fab8e879cc3bf0ef52bbdd467ca93",
+      "run_id": "39764969071",
+      "updated_at": "2026-10-22T10:45:24.190708+00:00"
     }
   },
   "categories": {}
