@@ -40461,6 +40461,25 @@
         "seo_description": "Người đi xe lăn ở sân bay Nội Bài theo trang của cảng: lối cho xe đẩy ở T2, nhà vệ sinh riêng, 12 vị trí đỗ ở P3, xe nối chuyến có ghế riêng và những điều trang chưa nói.",
         "checked_at": "2026-10-22T20:49:55.264646+00:00"
       }
+    },
+    "NT-002175": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T20:50:08.778946+00:00",
+      "source_hash": "d7cf3ae2e40436e6a37c75f5d39adee782e2d3a6b32c98ab600380bc9a113fef",
+      "slug": "tim-bai-do-xe-tren-vneid-thi-diem-tu-9-2026-can-tai-khoan-muc-2-chua-phu-het",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 176,
+      "visible_hash": "23f2e43f000306473665a94a3efbf7fe6bfb7989c148120dc1890d7202cccb6a",
+      "first_paragraph": "Tìm bãi đỗ xe trên VNeID hiện là một tính năng thí điểm: theo bài trên congan.com.vn ngày 3/10/2026 và bài của Tạp chí An ninh mạng Việt Nam ngày 14/10/2026, bạn đăng nhập VNeID bằng tài khoản định danh điện tử mức 2, vào \"Dịch vụ khác\", \"Dịch vụ giao thông\", \"Nền tảng giao thông tập trung\", rồi chọn tra cứu bãi đỗ xe để xem bãi gần nhất, chỗ trống, biểu phí và đường dẫn. Dữ liệu giai đoạn thí điểm chủ yếu nằm ở các điểm dùng thu phí tự động của VETC và Viettel ePass nên chưa phủ hết bãi đỗ xe cả nước, và hai bài không nói thành phố nào đã có dữ liệu, kể cả Hà Nội.",
+      "meta_title": "Tìm bãi đỗ xe trên VNeID: thí điểm từ 9/2026, cần tài khoản mức 2",
+      "meta_description": "Tìm bãi đỗ xe trên VNeID theo hai bài báo tháng 10/2026: vào Nền tảng giao thông tập trung bằng tài khoản mức 2, xem chỗ trống và biểu phí, dữ liệu thí điểm chưa phủ cả nước.",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "0f8cdb64114b138c22d2759d2171fe3a2d74a25b",
+      "run_id": "39850717154",
+      "updated_at": "2026-10-22T20:50:08.780219+00:00"
     }
   },
   "categories": {}
