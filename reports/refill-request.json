@@ -1,21 +1,21 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 14,
+  "ready_stock": 4,
   "trigger_below_ready": 900,
   "rounds_opened": 5,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 770,
-  "capacity_remaining": 1230,
+  "topic_rows": 771,
+  "capacity_remaining": 1229,
   "order": {
     "id": "RF-0005",
     "round": 5,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 74,
-    "remaining_to_min": 26,
-    "remaining_to_max": 126,
+    "accepted_so_far": 75,
+    "remaining_to_min": 25,
+    "remaining_to_max": 125,
     "batches_still_needed": 3,
     "batch_size": 10,
     "capacity_limited": false,
@@ -30,7 +30,7 @@
       },
       {
         "taxonomy_key": "urban-mobility",
-        "quota": 12,
+        "quota": 13,
         "known_now": 64,
         "allocation": 92
       },
@@ -114,8 +114,8 @@
       },
       {
         "taxonomy_key": "vietnam-travel",
-        "quota": 2,
-        "known_now": 51,
+        "quota": 1,
+        "known_now": 52,
         "allocation": 55
       }
     ],
@@ -133,9 +133,9 @@
   },
   "dedupe_universe": {
     "published_wordpress_items": 816,
-    "topics_in_factory": 770,
+    "topics_in_factory": 771,
     "topics_by_status": {
-      "PLANNED": 693,
+      "PLANNED": 694,
       "REJECTED": 2,
       "RESEARCH": 75
     },
