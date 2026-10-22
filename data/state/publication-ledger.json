@@ -37768,7 +37768,7 @@
       }
     },
     "NT-001972": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:54:39.372333+00:00",
       "source_hash": "74b94b127540e864292a1adb23322e746eec3088383a5cd44900fec15297266d",
       "slug": "tet-han-thuc-3-3-am-lich-vi-sao-nguoi-ha-noi-cung-banh-troi-banh-chay",
@@ -37784,8 +37784,37 @@
       "category_warning": null,
       "git_commit": "18322d4fb6c4e2fe50de87cdd8c8c8928ff2de0a",
       "run_id": "39808188049",
-      "updated_at": "2026-10-22T15:54:43.259220+00:00",
-      "wp_id": 4866
+      "updated_at": "2026-10-22T15:54:48.933357+00:00",
+      "wp_id": 4866,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tet-han-thuc-3-3-am-lich-vi-sao-nguoi-ha-noi-cung-banh-troi-banh-chay/",
+      "verified_at": "2026-10-22T15:54:48.933350+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4866,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tet-han-thuc-3-3-am-lich-vi-sao-nguoi-ha-noi-cung-banh-troi-banh-chay/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tet-han-thuc-3-3-am-lich-vi-sao-nguoi-ha-noi-cung-banh-troi-banh-chay/",
+        "seo_title": "Tết Hàn thực 3/3 âm lịch: vì sao Hà Nội cúng bánh trôi, bánh chay",
+        "seo_description": "Tết Hàn thực 3/3 âm lịch là gì, vì sao người Hà Nội cúng bánh trôi, bánh chay: tích Âu Cơ, \"bánh nên thơ\" hay bánh rán xưa theo VnExpress và Tuổi Trẻ.",
+        "checked_at": "2026-10-22T15:54:48.933332+00:00"
+      }
     }
   },
   "categories": {}
