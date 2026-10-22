@@ -37817,7 +37817,7 @@
       }
     },
     "NT-001973": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:55:02.475400+00:00",
       "source_hash": "4ae75eb294e7a077f6d6f5b1083ed5f51d466921ae4db5d3cbd9aa2cd8058bf1",
       "slug": "hai-loc-dau-nam-o-ha-noi-loc-la-gi-vi-sao-khong-be-canh-va-cach-thay-the",
@@ -37833,8 +37833,37 @@
       "category_warning": null,
       "git_commit": "18322d4fb6c4e2fe50de87cdd8c8c8928ff2de0a",
       "run_id": "39808188049",
-      "updated_at": "2026-10-22T15:55:06.599295+00:00",
-      "wp_id": 4867
+      "updated_at": "2026-10-22T15:55:12.155527+00:00",
+      "wp_id": 4867,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/hai-loc-dau-nam-o-ha-noi-loc-la-gi-vi-sao-khong-be-canh-va-cach-thay-the/",
+      "verified_at": "2026-10-22T15:55:12.155519+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4867,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/hai-loc-dau-nam-o-ha-noi-loc-la-gi-vi-sao-khong-be-canh-va-cach-thay-the/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/hai-loc-dau-nam-o-ha-noi-loc-la-gi-vi-sao-khong-be-canh-va-cach-thay-the/",
+        "seo_title": "Hái lộc đầu năm ở Hà Nội: lộc là gì, vì sao không bẻ cành",
+        "seo_description": "Hái lộc đầu năm ở Hà Nội là gì, vì sao nhiều người phản đối bẻ cành và các cách lấy lộc không hại cây theo Báo Văn hóa (16/2/2026) và Thanh Niên (25/1/2020).",
+        "checked_at": "2026-10-22T15:55:12.155499+00:00"
+      }
     }
   },
   "categories": {}
