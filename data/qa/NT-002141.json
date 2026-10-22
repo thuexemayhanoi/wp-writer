@@ -1,0 +1,274 @@
+{
+  "topic_id": "NT-002141",
+  "status": "PASS",
+  "source_sha256": "43f31e6528a5c2cdaeec7d2153ae118c1d29fc3dd70d3dfea804457ab46adba0",
+  "body_sha256": "c937eca7676beaaebfb43eee44f664f8684f329b22f2281f3eee5c7d34946e18",
+  "word_count": 2543,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/driving-in-adverse-weather-conditions-226-to-237",
+      "supports": "Quy tắc 237 (Hot weather) của Highway Code: bị chói nắng thì giảm tốc và nếu cần thì dừng; mặt đường sau mưa khô nắng có thể trơn",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/rules-for-motorcyclists-83-to-88",
+      "supports": "Quy tắc 84 của Highway Code: kính bảo hộ xước hoặc không vừa hạn chế tầm nhìn khi nắng gắt và ban đêm",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.rsa.ie/news-events/news/details/2025/05/13/rsa-urges-road-users-to-be-aware-of-sun-glare",
+      "supports": "RSA Ireland 13/5/2025: chói nắng làm lóa tạm thời, chú ý khi đi hướng đông buổi sáng và hướng tây cuối ngày, ảnh hưởng cả người đi xe máy ở giao lộ",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/you-and-your-motorcycle/wearing-the-right-gear",
+      "supports": "NZTA: không bao giờ dùng kính tối màu, kính râm ban đêm vì phải nhìn rõ",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/rules-for-motorcyclists-83-to-88",
+      "supports": "Quy tắc đường bộ của Anh, Rule 83: trước mỗi chuyến kiểm tra kính mũ sạch và còn tốt",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/rules-for-motorcyclists-83-to-88",
+      "supports": "Quy tắc đường bộ của Anh, Rule 86: người lái xe khác vẫn có thể chưa thấy hoặc đánh giá sai khoảng cách và tốc độ của người đi xe máy, nhất là ở giao lộ",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.rsa.ie/news-events/news/details/2025/05/13/rsa-urges-road-users-to-be-aware-of-sun-glare",
+      "supports": "RSA Ireland 13/5/2025: chói nắng có thể làm người lái tạm thời bị lóa hoặc không nhìn thấy",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/you-and-your-motorcycle/wearing-the-right-gear",
+      "supports": "NZTA: kính che mặt bị lem trong lúc chạy thì tấp vào lề lau khi đã an toàn",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/driving-in-adverse-weather-conditions-226-to-237",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/rules-for-motorcyclists-83-to-88",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.rsa.ie/news-events/news/details/2025/05/13/rsa-urges-road-users-to-be-aware-of-sun-glare",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/you-and-your-motorcycle/wearing-the-right-gear",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/rules-for-motorcyclists-83-to-88",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/rules-for-motorcyclists-83-to-88",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.rsa.ie/news-events/news/details/2025/05/13/rsa-urges-road-users-to-be-aware-of-sun-glare",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nzta.govt.nz/driving-skills/learn-to-drive/roadcode/motorcycle-code/you-and-your-motorcycle/wearing-the-right-gear",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 823,
+        "title": "Kinh nghiệm thuê xe máy Hà Nội cho khách du lịch",
+        "why": "stale",
+        "content_hash": "48b2150b651127cbb188ff9de174d5bdb5075aa4cfef807d08c1f395f72db495",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2538,
+        "title": "Bảo dưỡng xe máy Yamaha định kỳ: những hạng mục không nên bỏ qua",
+        "why": "stale",
+        "content_hash": "7ba921b8bab5c4d33595262c9663c3d0cda2779ce5193da515df1b4733f9a21f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2559,
+        "title": "Các loại bằng lái xe máy hiện nay và cách phân biệt từng hạng",
+        "why": "stale",
+        "content_hash": "1dbe75f2df7dd3b894e673123e9c56ffdda9c772f072b8cb4682f49b0f264d0e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2572,
+        "title": "Bảo hiểm xe máy bắt buộc gồm những gì? Điều cần lưu ý khi mua",
+        "why": "stale",
+        "content_hash": "ce6003628f4d0d89bace38e8875f0d4d93d5b57145b42e9b61fb223237982e8f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4050,
+        "title": "Thuê xe máy đi làm theo ca ở Hà Nội: chọn giờ nhận, gửi xe và trả xe đúng hạn",
+        "why": "stale",
+        "content_hash": "f5a41002206250a00b0d4b19ec54ada261a36c020a5c2f89aa531c79304f4012",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T16:06:44.061807+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "a5752d1b4707402c3e6d0d6fd2c2048dc95877671a0a60f8bb198213fa1b4b1d",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

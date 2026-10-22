@@ -1,0 +1,274 @@
+{
+  "topic_id": "NT-002086",
+  "status": "PASS",
+  "source_sha256": "0527c0228cae030195b41fb45f2b04d174b920ed10c5176f8e5c1310121df04f",
+  "body_sha256": "8a4483e96a89f924a2652ded5a8cf1de292f32657d15c82542c080f6b604827c",
+  "word_count": 2908,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://hanoimoi.vn/ben-ho-guom-ke-chuyen-rua-quy-noi-dat-thieng-749110.html",
+      "supports": "Hà Nội Mới (9/5/2026, đọc ngày 22/10/2026): cuốn sách Rùa quý nơi đất thiêng; Cụ Rùa qua đời ngày 19-1-2016, làm tiêu bản, tiêu bản trở về đền Ngọc Sơn; truyền thuyết Lục Thủy thành Hoàn Kiếm",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/bay-bat-duoc-60-ca-the-rua-tai-do-o-ho-guom-20260813185707904.htm",
+      "supports": "Dân trí (13/8/2026, đọc ngày 22/10/2026): 20 bẫy quanh đền Ngọc Sơn, bắt 60 rùa tai đỏ; phương án không ảnh hưởng loài rùa đặc hữu; hồ rộng khoảng 12ha",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/ho-dong-mo-con-rua-hoan-kiem-100260922202826309.htm",
+      "supports": "Tuổi Trẻ (22/9/2026, đọc ngày 22/10/2026): rùa Hoàn Kiếm Rafetus swinhoei; cá thể Đồng Mô chết tháng 4/2023; có thông tin còn một con khác nhưng cần thêm bằng chứng; Sách đỏ Việt Nam 2024",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/ben-ho-guom-ke-chuyen-rua-quy-noi-dat-thieng-749110.html",
+      "supports": "Hà Nội Mới (9/5/2026): truyền thuyết vua Lê Lợi trả gươm cho rùa thần ở hồ Lục Thủy, từ đó hồ đổi tên thành Hoàn Kiếm hay Hồ Gươm.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/bay-bat-duoc-60-ca-the-rua-tai-do-o-ho-guom-20260813185707904.htm",
+      "supports": "Dân trí (13/8/2026): từ 12/8 tổ công tác đặt 20 bẫy quanh đền Ngọc Sơn, kiểm tra mỗi ngày một lần.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/bay-bat-duoc-60-ca-the-rua-tai-do-o-ho-guom-20260813185707904.htm",
+      "supports": "Dân trí (13/8/2026): rùa tai đỏ thuộc danh mục loài ngoại lai xâm hại, có nguy cơ gây tác động tiêu cực đến đa dạng sinh học.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/ho-dong-mo-con-rua-hoan-kiem-100260922202826309.htm",
+      "supports": "Tuổi Trẻ (22/9/2026): rùa Hoàn Kiếm từng được ghi nhận ở Phú Thọ, Hà Nội và Thanh Hóa.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/ho-dong-mo-con-rua-hoan-kiem-100260922202826309.htm",
+      "supports": "Tuổi Trẻ (22/9/2026): hiện sự chú ý tập trung vào hồ Đồng Mô và hồ Xuân Khanh; Sách đỏ Việt Nam 2024 nói khảo sát gần đây chưa phát hiện lại loài ở hầu hết nơi từng ghi nhận.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://hanoimoi.vn/ben-ho-guom-ke-chuyen-rua-quy-noi-dat-thieng-749110.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/bay-bat-duoc-60-ca-the-rua-tai-do-o-ho-guom-20260813185707904.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/ho-dong-mo-con-rua-hoan-kiem-100260922202826309.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/ben-ho-guom-ke-chuyen-rua-quy-noi-dat-thieng-749110.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/bay-bat-duoc-60-ca-the-rua-tai-do-o-ho-guom-20260813185707904.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/bay-bat-duoc-60-ca-the-rua-tai-do-o-ho-guom-20260813185707904.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/ho-dong-mo-con-rua-hoan-kiem-100260922202826309.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/ho-dong-mo-con-rua-hoan-kiem-100260922202826309.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2346,
+        "title": "Top xe máy điện đáng chú ý năm 2026 cho nhu cầu đi lại hằng ngày",
+        "why": "stale",
+        "content_hash": "c7b5d7cca26b30a8483ce0a25e3d5de7d28c48a734a1969cf0ab5c477bf745b6",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2401,
+        "title": "Đánh giá Honda ICON e: ưu nhược điểm và nhu cầu sử dụng phù hợp",
+        "why": "stale",
+        "content_hash": "8e7a7b14e3ebe7505700162b1498c681b742964d82d878fd31022d62543aecae",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2559,
+        "title": "Các loại bằng lái xe máy hiện nay và cách phân biệt từng hạng",
+        "why": "stale",
+        "content_hash": "1dbe75f2df7dd3b894e673123e9c56ffdda9c772f072b8cb4682f49b0f264d0e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2588,
+        "title": "Xe số nào tiết kiệm cho người ở Hà Nội từ một đến ba tháng dài ngày?",
+        "why": "stale",
+        "content_hash": "3999a6360763f969b09aaaedde2cebedb8d5351b1b6007c094286363fe5cecfa",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4345,
+        "title": "Thuê xe máy phường Cửa Nam: chọn Air Blade, tính gói ngày hay tuần?",
+        "why": "stale",
+        "content_hash": "fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T16:05:49.697590+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "24edad888ee27876090936806cd645035a7cc7884a959337b858f42d741346a6",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
