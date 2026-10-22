@@ -40414,7 +40414,7 @@
       }
     },
     "NT-002174": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T20:49:44.326494+00:00",
       "source_hash": "4d3d444ab74fea84f2983a3fc1830d5afeb5c68755f9e530bb4d4934dafb657a",
       "slug": "nguoi-di-xe-lan-o-san-bay-noi-bai-loi-vao-t2-cho-do-p3-va-xe-noi-chuyen",
@@ -40430,8 +40430,37 @@
       "category_warning": null,
       "git_commit": "0f8cdb64114b138c22d2759d2171fe3a2d74a25b",
       "run_id": "39850717154",
-      "updated_at": "2026-10-22T20:49:48.795787+00:00",
-      "wp_id": 5030
+      "updated_at": "2026-10-22T20:49:55.264671+00:00",
+      "wp_id": 5030,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nguoi-di-xe-lan-o-san-bay-noi-bai-loi-vao-t2-cho-do-p3-va-xe-noi-chuyen/",
+      "verified_at": "2026-10-22T20:49:55.264664+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 5030,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nguoi-di-xe-lan-o-san-bay-noi-bai-loi-vao-t2-cho-do-p3-va-xe-noi-chuyen/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nguoi-di-xe-lan-o-san-bay-noi-bai-loi-vao-t2-cho-do-p3-va-xe-noi-chuyen/",
+        "seo_title": "Người đi xe lăn ở sân bay Nội Bài: lối vào T2, bãi P3 và xe nối chuyến",
+        "seo_description": "Người đi xe lăn ở sân bay Nội Bài theo trang của cảng: lối cho xe đẩy ở T2, nhà vệ sinh riêng, 12 vị trí đỗ ở P3, xe nối chuyến có ghế riêng và những điều trang chưa nói.",
+        "checked_at": "2026-10-22T20:49:55.264646+00:00"
+      }
     }
   },
   "categories": {}
