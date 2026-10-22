@@ -1,0 +1,306 @@
+{
+  "topic_id": "NT-002147",
+  "status": "PASS",
+  "source_sha256": "e46fe01612b3a27a3f0f72be17986c0326a6ab77b7ca3099bd06fcc240153b32",
+  "body_sha256": "f137a7350e26a9f5b5f082d3ec7ef434f663fc5d4265801436a8318053c4208d",
+  "word_count": 2565,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/driving-in-adverse-weather-conditions-226-to-237",
+      "supports": "Highway Code Rule 227 (Anh): tay lái không phản hồi thường nghĩa là nước ngăn lốp bám đường; nhả ga và giảm tốc từ từ.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/driving-in-adverse-weather-conditions-226-to-237",
+      "supports": "Highway Code Rule 227 (Anh): trời mưa quãng dừng ít nhất gấp đôi so với đường khô vì lốp ít bám hơn.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/driving-in-adverse-weather-conditions-226-to-237",
+      "supports": "Highway Code Rule 227 (Anh): mưa và nước bắn từ xe khác làm khó nhìn và khó được nhìn thấy.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/driving-difficult-weather-conditions",
+      "supports": "Ontario MTO: vũng nước có thể che ổ gà và bám đường kém hơn ở nước sâu.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/driving-difficult-weather-conditions",
+      "supports": "Ontario MTO: vũng nước che ổ gà lớn có thể làm hỏng xe, hệ thống treo hoặc làm xẹp lốp.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/driving-difficult-weather-conditions",
+      "supports": "Ontario MTO: mọi thay đổi tốc độ hoặc hướng đột ngột có thể gây trượt trên mặt trơn.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/driving-difficult-weather-conditions",
+      "supports": "Ontario MTO: nước làm phanh kém hiệu quả; dùng cả hai phanh hiệu quả hơn chỉ phanh sau.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hart.honda.com.au/resources/safety-and-riding-tips/wet-weather-riding",
+      "supports": "HART (Honda Úc): gai lốp càng nhiều càng dễ đẩy nước; lốp mòn nhẵn giảm bám khi ướt.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hart.honda.com.au/resources/safety-and-riding-tips/wet-weather-riding",
+      "supports": "HART (Honda Úc): xe máy dễ đổ khi bánh bị trượt.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hart.honda.com.au/resources/safety-and-riding-tips/wet-weather-riding",
+      "supports": "HART (Honda Úc): áp suất lốp khuyến nghị giúp lốp giữ hình dạng và rãnh gai mở để thoát nước.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/driving-in-adverse-weather-conditions-226-to-237",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/driving-in-adverse-weather-conditions-226-to-237",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.gov.uk/guidance/the-highway-code/driving-in-adverse-weather-conditions-226-to-237",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/driving-difficult-weather-conditions",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/driving-difficult-weather-conditions",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/driving-difficult-weather-conditions",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.ontario.ca/document/official-ministry-transportation-mto-motorcycle-handbook/driving-difficult-weather-conditions",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hart.honda.com.au/resources/safety-and-riding-tips/wet-weather-riding",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hart.honda.com.au/resources/safety-and-riding-tips/wet-weather-riding",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hart.honda.com.au/resources/safety-and-riding-tips/wet-weather-riding",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 823,
+        "title": "Kinh nghiệm thuê xe máy Hà Nội cho khách du lịch",
+        "why": "stale",
+        "content_hash": "48b2150b651127cbb188ff9de174d5bdb5075aa4cfef807d08c1f395f72db495",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 952,
+        "title": "Chùa Một Cột – Kiến Trúc Độc Đáo Ngàn Năm Tại Hà Nội",
+        "why": "stale",
+        "content_hash": "cea5d0b2752eb77a9e263a01b7392521003bfd4f4210a36cbaec61b1c93bef1a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2515,
+        "title": "Bình ắc quy xe máy dùng được bao lâu? Khi nào nên kiểm tra lại?",
+        "why": "stale",
+        "content_hash": "26576df935c21a29be7d5e9013419bbd9273bc6c5f99f106848143996460de9a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2544,
+        "title": "Xe máy phát tiếng kêu lạ khi chạy: nguyên nhân và cách kiểm tra",
+        "why": "stale",
+        "content_hash": "e4d2a8c9ffb2a022afd07f0d6cf92ad77c06cdf6fcad04bb7bae33b34bab81ad",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4060,
+        "title": "Thuê xe máy mang máy ảnh và laptop đi nhiều điểm ở Hà Nội: chọn xe, xếp đồ, giữ tài sản",
+        "why": "stale",
+        "content_hash": "584f824812a9722445c863b0480c4d8fb9b5cfcccab9e5bbca8a4de6ce3e0be4",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T20:36:37.096699+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "e8a4e43b5e983cef2831ac81465db26f0f46408101b9af76205840dc2e53c4aa",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "topic_id": "NT-002173",
+  "status": "PASS",
+  "source_sha256": "abcbf498c39273c6b20cfa69c277bccf476696442dd70a0469ba8a63519696c5",
+  "body_sha256": "da003e64e953f6e55fc0f10083e82052c5b392803bf4c7f981c558f6b9e2a920",
+  "word_count": 2184,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://metrohanoi.vn/station/yen-nghia/",
+      "supports": "Trang ga Yên Nghĩa của Hà Nội Metro: ga cuối nằm ngay trước cổng bến xe Yên Nghĩa trên đường Quang Trung, kết nối buýt nội đô, buýt liên tỉnh và xe khách đi Hòa Bình, Kon Tum, Điện Biên, Sơn La, Hải Phòng, Thanh Hóa; giờ tàu ghi 5h30-22h30 và 25,5 phút",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vovgiaothong.vn/newsaudio/cam-nang-di-tau-dien-cat-linh-ha-dong-d52874.html",
+      "supports": "Cẩm nang VOV Giao thông ngày 29/5/2026: tuyến 2A dài 13,05 km, 12 ga, 23 phút; tàu chạy 5h30-22h00; 100% nhà ga có điểm dừng buýt ngay dưới; ga Cát Linh và Yên Nghĩa là bến trung chuyển; bãi trông giữ dưới gầm ga",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://metrohanoi.vn/station/yen-nghia/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vovgiaothong.vn/newsaudio/cam-nang-di-tau-dien-cat-linh-ha-dong-d52874.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 851,
+        "title": "Cho Thuê Xe Máy Gia Lâm Hà Nội – Giá, Loại Xe, Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "595088bd3e91b09b67b4bc6a7008557fd3559f13f4dbfdb0d357ad33465576fe",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 887,
+        "title": "Giao nhận xe máy tại Hà Nội: điều kiện và chi phí",
+        "why": "stale",
+        "content_hash": "2b4f3d10b2cb1af13092d9637d46e812fa3b09379288d67ab279a5a41d5b1d55",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 1060,
+        "title": "Thuê Xe Máy Theo Tháng Hà Nội – Giá Rẻ, Xe Ga Xe Số",
+        "why": "stale",
+        "content_hash": "ec68fc98c8f71d13bc3b8499cd2861d12223b5ae0c33566e3f3868a83f1e0e01",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T20:37:56.626559+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "06a88cf79114072a222841434b4b8a2a528c372301f2fa7f5cedbc05f5d76312",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

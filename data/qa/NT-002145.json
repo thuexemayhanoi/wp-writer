@@ -1,0 +1,290 @@
+{
+  "topic_id": "NT-002145",
+  "status": "PASS",
+  "source_sha256": "5a4b7d800818bcdda6686f2550a3c03d436297e4b4aae447976412215d60ff4b",
+  "body_sha256": "911661eff98d655ef5a1958a240bebdfbc79694ae6817029ab64314dbe323bb4",
+  "word_count": 2274,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.nhs.uk/conditions/head-injury-and-concussion/",
+      "supports": "NHS (Anh), rà soát 29/5/2025: dấu hiệu cần cấp cứu sau đập đầu, gồm đập đầu ở tốc độ cao như tai nạn giao thông; NHS: chăm sóc chấn thương đầu nhẹ tại nhà, có người lớn ở cùng ít nhất 24 giờ đầu, không lái xe đến khi hồi phục",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bachmai.gov.vn/bai-viet/4-dau-hieu-canh-bao-nguy-hiem-sau-chan-thuong-vung-dau?id=cff1f855-1720-468f-e705-be992e376a0d",
+      "supports": "Bệnh viện Bạch Mai (đăng 28/6/2016): dấu hiệu cảnh báo sau chấn thương đầu, gồm đau đầu dai dẳng không giảm và máu hoặc dịch chảy ở mũi, tai",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/head-injury-and-concussion/",
+      "supports": "NHS (Anh, rà soát 29/5/2025): hầu hết chấn thương đầu không nghiêm trọng nhưng nên được hỗ trợ y tế nếu có triệu chứng; chấn động não là tổn thương não tạm thời có thể kéo dài vài tuần",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/head-injury-and-concussion/",
+      "supports": "NHS: cấp cứu nếu có dịch trong chảy ra từ tai hoặc mũi",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/head-injury-and-concussion/",
+      "supports": "NHS: nếu được bảo đến cấp cứu thì không tự lái xe đến đó khi đã đập đầu",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/head-injury-and-concussion/",
+      "supports": "NHS: nên có người lớn ở cùng ít nhất 24 giờ đầu",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/head-injury-and-concussion/",
+      "supports": "NHS: có thể có triệu chứng đến 2 tuần sau chấn thương đầu",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bachmai.gov.vn/bai-viet/4-dau-hieu-canh-bao-nguy-hiem-sau-chan-thuong-vung-dau?id=cff1f855-1720-468f-e705-be992e376a0d",
+      "supports": "Bệnh viện Bạch Mai (28/6/2016): máu hoặc dịch chảy ra từ mũi, tai sau va chạm mạnh cần khám sớm",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bachmai.gov.vn/bai-viet/4-dau-hieu-canh-bao-nguy-hiem-sau-chan-thuong-vung-dau?id=cff1f855-1720-468f-e705-be992e376a0d",
+      "supports": "Bệnh viện Bạch Mai (28/6/2016): đồng tử không đối xứng hoặc không phản ứng với ánh sáng cần nhập viện",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.nhs.uk/conditions/head-injury-and-concussion/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bachmai.gov.vn/bai-viet/4-dau-hieu-canh-bao-nguy-hiem-sau-chan-thuong-vung-dau?id=cff1f855-1720-468f-e705-be992e376a0d",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/head-injury-and-concussion/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/head-injury-and-concussion/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/head-injury-and-concussion/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/head-injury-and-concussion/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/head-injury-and-concussion/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bachmai.gov.vn/bai-viet/4-dau-hieu-canh-bao-nguy-hiem-sau-chan-thuong-vung-dau?id=cff1f855-1720-468f-e705-be992e376a0d",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bachmai.gov.vn/bai-viet/4-dau-hieu-canh-bao-nguy-hiem-sau-chan-thuong-vung-dau?id=cff1f855-1720-468f-e705-be992e376a0d",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 887,
+        "title": "Giao nhận xe máy tại Hà Nội: điều kiện và chi phí",
+        "why": "stale",
+        "content_hash": "2b4f3d10b2cb1af13092d9637d46e812fa3b09379288d67ab279a5a41d5b1d55",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2362,
+        "title": "Trạm Sạc Xe Máy Điện Hoạt Động Ra Sao Và Cần Lưu Ý Gì Khi Sử Dụng?",
+        "why": "stale",
+        "content_hash": "a17c9cf060eb4fcc003a8361442a9640e3697f1a42863cfbcf483016e0e39b82",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2578,
+        "title": "Có nên mua xe máy cũ để đi ngắn hạn? Những điểm cần cân nhắc",
+        "why": "stale",
+        "content_hash": "2edb32e1617a09723b835349742c0b85646c6fe086eb11610946f0b304bbc7ff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2613,
+        "title": "Thuê Xe Máy Du Lịch Hà Nội: Hướng Dẫn Toàn Diện Từ A–Z Cho Người Lần Đầu",
+        "why": "stale",
+        "content_hash": "bba381bbf7c63d362331437ee0e9ba63294ca01b4eb144c43fe71ca1f20731a0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4048,
+        "title": "Thuê xe máy Hà Nội khi xe cá nhân đang sửa: chọn kỳ thuê và gia hạn nếu gara trễ",
+        "why": "stale",
+        "content_hash": "5eaf7d3b4d760f2a4ab0df94807fe114a8927ceb0af3b0ea5d1d59453a46f20d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T20:36:06.405618+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "67ff093642e7f4a2f420d03bff93ed1fa09f484ab78f57ebf88e1975f44650db",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

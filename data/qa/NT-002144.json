@@ -1,0 +1,274 @@
+{
+  "topic_id": "NT-002144",
+  "status": "PASS",
+  "source_sha256": "37f98887f05ebad074cb03c09fac03b5512c6a4488006b5293b12f455599b21f",
+  "body_sha256": "409b2061b160b7e94285e7a1d28a0fea037ef477e0b975578feb3a3646cc3d46",
+  "word_count": 2137,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://evn.com.vn/d/vi-VN/news/EVNHANOI-dam-bao-an-toan-dien-tai-khu-vuc-nuoc-song-dang-cao-60-3557-509415",
+      "supports": "EVNHANOI (26/8/2026): không đi lại, lội nước tại khu vực có dây điện đứt, cột điện nghiêng hoặc thiết bị điện ngâm nước; không tự đóng điện lại khi còn ngập",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://moit.gov.vn/tin-tuc/su-dung-nang-luong-tiet-kiem-va-hieu-qua/khuyen-cao-su-dung-dien-an-toan-trong-mua-dong.html",
+      "supports": "Cổng thông tin Bộ Công Thương (đăng 17/5/2022, khuyến cáo EVNHANOI): tránh xa đường dây điện, trạm điện khi bão, mưa to, ngập úng; tránh xa dây điện đứt rơi xuống đất",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/dien-luc-mien-trung-huong-dan-an-toan-dien-trong-mua-bao-ngap-lut-do-bao-so-12-185251022140153847.htm",
+      "supports": "Thanh Niên (22/10/2025, EVNCPC): khi ngập nước tránh xa cột điện, trạm biến áp, dây điện đứt rơi xuống nước; báo điện lực địa phương khi có sự cố điện",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://evn.com.vn/d/vi-VN/news/EVNHANOI-dam-bao-an-toan-dien-tai-khu-vuc-nuoc-song-dang-cao-60-3557-509415",
+      "supports": "EVNHANOI (26/8/2026): không tự ý đóng điện trở lại khi khu vực còn ngập hoặc chưa được điện lực kiểm tra an toàn",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://evn.com.vn/d/vi-VN/news/EVNHANOI-dam-bao-an-toan-dien-tai-khu-vuc-nuoc-song-dang-cao-60-3557-509415",
+      "supports": "EVNHANOI (26/8/2026): bối cảnh nước sông Cầu dâng ở xã Trung Giã và Đa Phúc, 193 khách hàng tạm ngừng cấp điện",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://moit.gov.vn/tin-tuc/su-dung-nang-luong-tiet-kiem-va-hieu-qua/khuyen-cao-su-dung-dien-an-toan-trong-mua-dong.html",
+      "supports": "Cổng thông tin Bộ Công Thương (17/5/2022), khuyến cáo của EVNHANOI: các sự cố bất ngờ khi bão, mưa to gió lớn, ngập úng",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://moit.gov.vn/tin-tuc/su-dung-nang-luong-tiet-kiem-va-hieu-qua/khuyen-cao-su-dung-dien-an-toan-trong-mua-dong.html",
+      "supports": "Cổng thông tin Bộ Công Thương (17/5/2022): không chạm trực tiếp vào nạn nhân điện giật khi chưa tách nguồn điện",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/dien-luc-mien-trung-huong-dan-an-toan-dien-trong-mua-bao-ngap-lut-do-bao-so-12-185251022140153847.htm",
+      "supports": "Thanh Niên (22/10/2025), hướng dẫn của EVNCPC trong bão số 12: phát hiện sự cố điện thì báo điện lực địa phương hoặc gọi tổng đài",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://evn.com.vn/d/vi-VN/news/EVNHANOI-dam-bao-an-toan-dien-tai-khu-vuc-nuoc-song-dang-cao-60-3557-509415",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://moit.gov.vn/tin-tuc/su-dung-nang-luong-tiet-kiem-va-hieu-qua/khuyen-cao-su-dung-dien-an-toan-trong-mua-dong.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/dien-luc-mien-trung-huong-dan-an-toan-dien-trong-mua-bao-ngap-lut-do-bao-so-12-185251022140153847.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://evn.com.vn/d/vi-VN/news/EVNHANOI-dam-bao-an-toan-dien-tai-khu-vuc-nuoc-song-dang-cao-60-3557-509415",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://evn.com.vn/d/vi-VN/news/EVNHANOI-dam-bao-an-toan-dien-tai-khu-vuc-nuoc-song-dang-cao-60-3557-509415",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://moit.gov.vn/tin-tuc/su-dung-nang-luong-tiet-kiem-va-hieu-qua/khuyen-cao-su-dung-dien-an-toan-trong-mua-dong.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://moit.gov.vn/tin-tuc/su-dung-nang-luong-tiet-kiem-va-hieu-qua/khuyen-cao-su-dung-dien-an-toan-trong-mua-dong.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/dien-luc-mien-trung-huong-dan-an-toan-dien-trong-mua-bao-ngap-lut-do-bao-so-12-185251022140153847.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2422,
+        "title": "Yadea và VinFast khác nhau thế nào khi chọn xe máy điện",
+        "why": "stale",
+        "content_hash": "fad15df82e26c0a36f7ca807746c1f7a42149457965d7219044bd7238970ce07",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2513,
+        "title": "Dấu hiệu má phanh xe máy cần thay và cách kiểm tra an toàn hằng ngày",
+        "why": "stale",
+        "content_hash": "f1040fa1950d3342eebff669b05d5319f4be2c2517c80ecddf1b4b239e6f5f16",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2610,
+        "title": "Top địa điểm du lịch đẹp ở Hà Nội: Đi đâu, chơi gì và check-in ở đâu?",
+        "why": "stale",
+        "content_hash": "aa42ffbfca0e3b4188fde1e3cf3a06d9f9b9496580487304e5dbbd316db1a856",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2632,
+        "title": "Cầu Long Biên Hà Nội: Đi lúc nào đẹp, chụp ảnh ở đâu và chơi gì gần đó?",
+        "why": "stale",
+        "content_hash": "36dfb351fe0b68f0a6c25d3903504798235bac27df1d97f4c68ca001b55d25e3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2634,
+        "title": "Địa điểm du lịch ngoại thành Hà Nội: 15 nơi đẹp đi về trong ngày",
+        "why": "stale",
+        "content_hash": "2731adb7b543fe9e03020ef632b7c13b728e598511c01bf75b886ac18433f364",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T20:35:20.941043+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "716bf38747812a15f062293c5940a1af181e2983cd6b3f86034d3dd1aa1a64e6",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

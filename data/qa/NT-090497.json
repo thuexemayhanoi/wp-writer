@@ -1,0 +1,185 @@
+{
+  "topic_id": "NT-090497",
+  "status": "PASS",
+  "source_sha256": "2a9e3b2cc18b0eaf5ae5b42cf1e5bcbc6decc3da137430dbaf651120f07f920c",
+  "body_sha256": "b9e2b8d02077e083c1d0858981c63350147947c1bea09141bb240c28c7a4dd71",
+  "word_count": 2943,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+      "supports": "Điều 57 khoản 1 Luật 36/2024/QH15: hạng A1 và A cho mô tô hai bánh theo 125 cm3 hoặc 11 kW, B1 cho mô tô ba bánh, còn hạng B chỉ gồm xe ô tô; cùng Điều 56, 34, 59 về giấy phép phù hợp, xe gắn máy và độ tuổi 16, 18.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.cantho.gov.vn/quy-dinh-ve-hinh-thuc-noi-dung-va-trinh-tu-sat-hach-lai-xe",
+      "supports": "Thông tư 108/2026/TT-BCA (hiệu lực 01/7/2026) theo Cổng PBGDPL thành phố Cần Thơ: thí sinh thi A1, A có giấy phép lái xe ô tô còn hiệu lực được miễn sát hạch lý thuyết; thi mô tô gồm lý thuyết, bài số 1, bài số 2.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=211194&classid=1&typegroupid=3",
+      "supports": "Trang văn bản của Cổng thông tin điện tử Chính phủ ghi Luật 36/2024/QH15 ban hành 27-06-2024 và có hiệu lực từ 01-01-2025, căn cứ tình trạng hiệu lực của luật.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.cantho.gov.vn/quy-dinh-ve-hinh-thuc-noi-dung-va-trinh-tu-sat-hach-lai-xe",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?pageid=27160&docid=211194&classid=1&typegroupid=3",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 847,
+        "title": "Cho Thuê Xe Máy Long Biên Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "19a0d8e3fd2f1177dc931d07054fe2953a70da6f12a93ca19fecb367ed24aaec",
+        "jaccard": 0.003,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 851,
+        "title": "Cho Thuê Xe Máy Gia Lâm Hà Nội – Giá, Loại Xe, Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "595088bd3e91b09b67b4bc6a7008557fd3559f13f4dbfdb0d357ad33465576fe",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 875,
+        "title": "Thuê xe máy Bến xe Gia Lâm: giá và cách nhận xe Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "6e8e3642aed27cd0f35c4dc19df3adf22668ca6e4d469dd846fe73662e851a99",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2355,
+        "title": "Bao nhiêu tuổi được đi xe máy điện? Những điều cần biết",
+        "why": "stale",
+        "content_hash": "df4e397638303da8d179daafae395db634b027fd262d47406e50b3e2c2cf527c",
+        "jaccard": 0.005,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T20:39:32.282908+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "4996a75d131fff3b0658a51fdfe9064fa6741ce6390e2f5c94657b1bf0f4fc2e",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
