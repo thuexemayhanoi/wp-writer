@@ -31984,6 +31984,25 @@
         "seo_description": "Cổng sạc điện thoại trên xe máy theo trang hãng: mẫu Honda, Yamaha nào ghi USB loại C, loại A hay ổ 12V, cổng nằm ở đâu và cách kiểm tra khi nhận xe.",
         "checked_at": "2026-10-22T04:46:56.559011+00:00"
       }
+    },
+    "NT-001814": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T04:47:26.035336+00:00",
+      "source_hash": "f4f450110f0dd8f55401bef7ab04b43f427c7aa5fcfd9ad27a140117bb00f7f8",
+      "slug": "dung-tich-nhot-may-xe-may-honda-ghi-luong-sau-khi-xa-va-sau-khi-ra-may-yamaha-ghi-0-8-1-1-lit",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 170,
+      "visible_hash": "c83e63b68b3780ff288485b983a6f293fc007feb229c71c2e73a85134c82d5f9",
+      "first_paragraph": "Dung tích nhớt máy xe máy trên trang chính hãng không phải một con số duy nhất cho mỗi xe. Theo các trang sản phẩm đọc ngày 22/10/2026, Honda Việt Nam ghi hai hoặc ba mốc cho mỗi xe (sau khi xả, sau khi rã máy, ở vài mẫu thêm mốc lọc dầu) trong khoảng 0,65–1,3 lít, còn Yamaha Motor Việt Nam ghi một dòng \"Dung tích dầu máy\" từ 0,8 đến 1,1 lít ở 9 trong 12 trang đã đọc; ba trang còn lại không có dòng này. Bài lập bảng theo từng mẫu, chỉ nêu số mà trang ghi và nói rõ số đó thuộc mốc nào. Đây là số để tra cứu và so sánh, không phải hướng dẫn tự đổ nhớt.",
+      "meta_title": "Dung tích nhớt máy xe máy: số Honda, Yamaha ghi trên trang hãng",
+      "meta_description": "Dung tích nhớt máy xe máy theo trang Honda, Yamaha đọc 22/10/2026: Honda ghi mốc sau khi xả, sau khi rã máy; Yamaha ghi một số. Cách đọc mốc và dùng số liệu an toàn.",
+      "intended_taxonomy_key": "engine-care",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "c7de7c79ccdec5547a0dba5bc3326787f2722919",
+      "run_id": "39723491639",
+      "updated_at": "2026-10-22T04:47:26.038481+00:00"
     }
   },
   "categories": {}
