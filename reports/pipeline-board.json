@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-22T04:48:48.101928+00:00",
+  "at": "2026-10-22T06:00:52.426098+00:00",
   "counts": {
-    "WRITING": 15,
+    "WRITING": 16,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
@@ -10,7 +10,7 @@
     "VERIFIED": 674
   },
   "ready_backlog": 0,
-  "in_flight": 18,
+  "in_flight": 19,
   "items": [
     {
       "topic_id": "NT-001635",
@@ -187,6 +187,18 @@
       "title": "Xe máy biển nước ngoài vào Việt Nam du lịch: xe dẫn đường, giấy tờ cần mang và thủ tục chấp thuận",
       "slot": "W4",
       "session": "seodev-w78",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-090006",
+      "state": "WRITING",
+      "reason": "leased to s-claude-df7eb8c1-20261022",
+      "title": "Màn hình TFT xe máy điện: cấu tạo cơ bản và các giới hạn không nên tự can thiệp",
+      "slot": "W6",
+      "session": "s-claude-df7eb8c1-20261022",
       "wp_id": null,
       "url": null,
       "qa_status": null,
