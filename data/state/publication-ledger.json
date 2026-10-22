@@ -37033,7 +37033,7 @@
       }
     },
     "NT-001966": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:35:39.067461+00:00",
       "source_hash": "122f017209edd2b904e07a3e1dca8b02b8c769327fb4f6ce54f2482ccc5d0230",
       "slug": "bun-dau-mam-tom-ha-noi-ban-xua-chi-bun-la-dau-ran-cach-danh-mam-tom-rau-kem",
@@ -37049,8 +37049,37 @@
       "category_warning": null,
       "git_commit": "0a2a030db6e3a6220b4bb13f8d2f3d92b3bde375",
       "run_id": "39804569895",
-      "updated_at": "2026-10-22T15:35:43.531620+00:00",
-      "wp_id": 4851
+      "updated_at": "2026-10-22T15:35:49.821361+00:00",
+      "wp_id": 4851,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bun-dau-mam-tom-ha-noi-ban-xua-chi-bun-la-dau-ran-cach-danh-mam-tom-rau-kem/",
+      "verified_at": "2026-10-22T15:35:49.821352+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4851,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bun-dau-mam-tom-ha-noi-ban-xua-chi-bun-la-dau-ran-cach-danh-mam-tom-rau-kem/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bun-dau-mam-tom-ha-noi-ban-xua-chi-bun-la-dau-ran-cach-danh-mam-tom-rau-kem/",
+        "seo_title": "Bún đậu mắm tôm Hà Nội: bản xưa, cách đánh mắm tôm, rau kèm",
+        "seo_description": "Bún đậu mắm tôm Hà Nội bản xưa chỉ có bún lá và đậu rán; cách đánh mắm tôm theo hai bài VnExpress, rau kinh giới ăn kèm và các món thêm ngày nay.",
+        "checked_at": "2026-10-22T15:35:49.821333+00:00"
+      }
     }
   },
   "categories": {}
