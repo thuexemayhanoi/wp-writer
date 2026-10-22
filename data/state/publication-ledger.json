@@ -39826,7 +39826,7 @@
       }
     },
     "NT-002148": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T20:37:24.126775+00:00",
       "source_hash": "4be950c4ff468f85ee9fcba5b24ae0562e223f1e77f6227758e46e12fe3dbe27",
       "slug": "di-canh-xe-tai-xe-buyt-bang-xe-may-gio-xoay-khi-vuot-va-nuoc-ban-che-tam-mat",
@@ -39842,8 +39842,37 @@
       "category_warning": null,
       "git_commit": "0a7ac0bbcd8e029fa300a62a1eda811599a44877",
       "run_id": "39849225031",
-      "updated_at": "2026-10-22T20:37:29.692420+00:00",
-      "wp_id": 5018
+      "updated_at": "2026-10-22T20:37:35.580072+00:00",
+      "wp_id": 5018,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/di-canh-xe-tai-xe-buyt-bang-xe-may-gio-xoay-khi-vuot-va-nuoc-ban-che-tam-mat/",
+      "verified_at": "2026-10-22T20:37:35.580066+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 5018,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/di-canh-xe-tai-xe-buyt-bang-xe-may-gio-xoay-khi-vuot-va-nuoc-ban-che-tam-mat/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/di-canh-xe-tai-xe-buyt-bang-xe-may-gio-xoay-khi-vuot-va-nuoc-ban-che-tam-mat/",
+        "seo_title": "Đi cạnh xe tải, xe buýt bằng xe máy: gió xoáy khi vượt, nước bắn",
+        "seo_description": "Đi cạnh xe tải, xe buýt bằng xe máy: sổ tay Ontario, Highway Code (Anh) và sổ tay New York nói gì về gió xoáy khi vượt, nước bắn che tầm nhìn và khoảng cách với xe lớn.",
+        "checked_at": "2026-10-22T20:37:35.580050+00:00"
+      }
     }
   },
   "categories": {}
