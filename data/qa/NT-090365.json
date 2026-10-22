@@ -1,0 +1,201 @@
+{
+  "topic_id": "NT-090365",
+  "status": "PASS",
+  "source_sha256": "bf221032032fa0883719bed9e93f0ce17811bc18836afcd4106b1af55fda41a9",
+  "body_sha256": "2f2338dbb69b90b6980a7a501745424269041eae36473c42472b001a4b43f04c",
+  "word_count": 2748,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://dat.bike/tuoi-tho-xe-may-dien/",
+      "supports": "Trang Tuổi thọ xe máy điện của Dat Bike (dat.bike), trang ghi ngày đăng 17/10/2025, đọc 22/10/2026: pin lithium-ion được thiết kế để duy trì khoảng 80% hiệu suất sau quãng đường lên đến 350.000 km, tương đương khoảng 25 năm theo điều kiện vận hành phù hợp; bảng Quantum S1 và S2 (6,4 kWh) 350.000 km, S3 (4,3 kWh) 245.000 km khoảng 20 năm; bảo hành tiêu chuẩn 3 năm hoặc 30.000 km; gói bảo hành pin 10 năm mua thêm; kỹ thuật viên đánh giá tình trạng pin và xác định cell cần thay.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/thoi-gian-sac-xe-may-dien-dat-bike/",
+      "supports": "Trang Thời gian sạc xe máy điện Dat Bike (dat.bike), trang ghi ngày đăng 26/12/2025, đọc 22/10/2026: tuổi thọ pin lên đến 25 năm tương đương 50.000 km, sau thời gian này pin vẫn giữ khoảng 80% dung lượng nếu sạc/xả đúng cách; cell LFP, 85Ah, 285 km một lần sạc; bảo hành pin và sạc 3 năm hoặc 30.000 km; bảo dưỡng ở trung tâm chính hãng 6-12 tháng một lần có kiểm tra pin.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/faq-maintenance/",
+      "supports": "Trang FAQ - Sửa chữa, Bảo hành của Dat Bike (dat.bike), trang ghi ngày đăng 25/09/2025, đọc 22/10/2026, có ba thẻ Weaver, Weaver 200, Weaver++ và văn bản đọc được không ghi đoạn nào thuộc thẻ nào: bài test giả lập 150.000 km tương đương 15 năm, dung lượng còn đạt đến 70%; bảo hành 36 tháng hoặc 30,000 km kể từ ngày giao xe; bảo dưỡng 3-6-9 tháng; gói pin 10 năm tương đương 100,000 km kể cả chai pin cho khách đặt xe trước 31/01/2022 (đoạn nhắc Weaver 200) và trước 31/01/2023 (đoạn nhắc Weaver++).",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/chinh-sach-bao-hanh-doi-tra-xe/",
+      "supports": "Trang Chính sách bảo hành & bảo dưỡng của Dat Bike (dat.bike), trang ghi ngày đăng 24/09/2025, cuối trang ghi chính sách có hiệu lực từ 26/10/2024, đọc 22/10/2026: bảo hành 3 năm hoặc 30,000 km tính từ ngày ghi trên hóa đơn; chỉ sửa hoặc thay pin khi mức chai vượt mức chai tự nhiên, quyết định của Dat Bike; xe còn bảo hành, không thuộc trường hợp loại trừ và dung lượng dưới 70% thì khách có quyền yêu cầu thay pin mới; mức chai tự nhiên của pin theo thời gian thuộc các trường hợp không được bảo hành.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://dat.bike/tuoi-tho-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/thoi-gian-sac-xe-may-dien-dat-bike/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/faq-maintenance/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/chinh-sach-bao-hanh-doi-tra-xe/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2444,
+        "title": "Honda Air Blade 125 và 160 khác nhau thế nào khi sử dụng thực tế?",
+        "why": "stale",
+        "content_hash": "8054d94f3cdb8d21ac1c98cd701f32e769ff0469324af51729d0443d0d8a2143",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2532,
+        "title": "Bảo dưỡng xe máy Honda định kỳ gồm những hạng mục nào quan trọng?",
+        "why": "stale",
+        "content_hash": "3b3f8540d3f280a070202fee58502694cd67d9aa913f3fd5820127ff78745746",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4050,
+        "title": "Thuê xe máy đi làm theo ca ở Hà Nội: chọn giờ nhận, gửi xe và trả xe đúng hạn",
+        "why": "stale",
+        "content_hash": "f5a41002206250a00b0d4b19ec54ada261a36c020a5c2f89aa531c79304f4012",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4344,
+        "title": "Thuê xe máy phường Bồ Đề: chọn Honda Vision hay Wave, nhận xe ở đâu?",
+        "why": "stale",
+        "content_hash": "dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T11:35:19.194660+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "c8dbe9bdac2848d8f6eba8759a6d7ed1adda4dbd9d2c766f0beb9795901f7d68",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

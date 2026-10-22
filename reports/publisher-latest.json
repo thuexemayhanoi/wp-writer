@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-22T11:25:04.444541+00:00",
-  "attempted": 10,
-  "ready_backlog": 1,
+  "at": "2026-10-22T11:35:36.181169+00:00",
+  "attempted": 9,
+  "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -191,11 +191,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T11:19:40.793920+00:00",
+      "at": "2026-10-22T11:30:10.961957+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "a9706c73e75da004c7c83d846c227a59eb710a2197f08c12baccfa6b02f285d5",
+      "inventory_sha256": "c5fd9c1ed963042daef2ccd904d5afe02616e4d41f09f0b7421cfadbe6e8c9c8",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -380,11 +380,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T11:19:47.838868+00:00",
+      "at": "2026-10-22T11:30:20.258713+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "a9706c73e75da004c7c83d846c227a59eb710a2197f08c12baccfa6b02f285d5",
+      "inventory_sha256": "c5fd9c1ed963042daef2ccd904d5afe02616e4d41f09f0b7421cfadbe6e8c9c8",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -577,11 +577,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T11:19:54.110724+00:00",
+      "at": "2026-10-22T11:30:28.214393+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "a9706c73e75da004c7c83d846c227a59eb710a2197f08c12baccfa6b02f285d5",
+      "inventory_sha256": "c5fd9c1ed963042daef2ccd904d5afe02616e4d41f09f0b7421cfadbe6e8c9c8",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -601,7 +601,7 @@
       }
     },
     {
-      "topic_id": "NT-001902",
+      "topic_id": "NT-001905",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 126,
       "category_resolution": "EXACT",
@@ -609,55 +609,7 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001903",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 126,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "destinations",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001904",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 126,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "destinations",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001908",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 126,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "destinations",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001909",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 126,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "destinations",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001910",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 126,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "destinations",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001935",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 173,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "vietnam-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001991",
+      "topic_id": "NT-001992",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 161,
       "category_resolution": "EXACT",
@@ -665,7 +617,7 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001996",
+      "topic_id": "NT-001993",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 161,
       "category_resolution": "EXACT",
@@ -673,11 +625,51 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-002021",
+      "topic_id": "NT-001997",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 161,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "road-safety",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-002022",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 177,
       "category_resolution": "EXACT",
       "intended_taxonomy_key": "green-travel",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-002023",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 169,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "electric-transition",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-002024",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 167,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "battery-charging",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-085503",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 126,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "destinations",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-090365",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 167,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "battery-charging",
       "category_warning": null
     }
   ],
