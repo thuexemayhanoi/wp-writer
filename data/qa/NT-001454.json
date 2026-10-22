@@ -1,0 +1,272 @@
+{
+  "topic_id": "NT-001454",
+  "status": "PASS",
+  "source_sha256": "558080341664c8c839b1325d69e71b75c3c490ff742a39b4e0ead9366fbfc5e6",
+  "body_sha256": "23722de61c1757c6e2cd2aeec5fae1b58bd3307ae1720dac557074204b2e52d1",
+  "word_count": 2872,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.aventon.com/blogs/aventon_bikes/can-you-ride-an-ebike-in-the-rain",
+      "supports": "Blog Aventon (13/5/2026): xe chịu mưa nhưng không chống nước hoàn toàn, đường ướt bám kém, lau tiếp điểm pin, kiểm tra xích, thời tiết lạnh giảm tầm xa.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.aventon.com/blogs/aventon_bikes/how-to-maintain-your-ebike",
+      "supports": "Blog Aventon (3/4/2026): quy trình sau chuyến đi mưa, khăn riêng cho phanh, để khô hẳn trước khi sạc, dấu hiệu nên đưa xe đi bảo dưỡng, mốc tune-up của hãng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.radpowerbikes.com/blogs/the-scenic-route/how-to-ride-an-ebike-in-the-rain",
+      "supports": "Blog Rad Power Bikes (không ghi ngày): xe không chống nước 100%, kiểm tra lại sau khi đi ướt, cất xe nơi khô, xử lý pin dính nước muối, không ngâm xe.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.bikeradar.com/advice/buyers-guides/cycling-in-the-rain",
+      "supports": "BikeRadar (21/10/2025, xe đạp nói chung): về nhà kiểm tra má phanh vì đi mưa làm má phanh mòn nhanh hơn, dầu bôi trơn ướt bám xích lâu hơn.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.bikeradar.com/advice/workshop/electric-bike-maintenance",
+      "supports": "BikeRadar (22/6/2025): bộ truyền động mòn nhiều hơn, xích mòn kéo theo đĩa xích và líp, cách rửa xe, cổng sạc, động cơ là khối kín không tự tháo.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.aventon.com/blogs/aventon_bikes/how-to-maintain-your-ebike",
+      "supports": "Aventon (3/4/2026): hãng đề nghị bảo dưỡng tổng quát khoảng mỗi 700 dặm hoặc sáu tháng, tùy mức dùng và địa hình (đề nghị cho xe của hãng).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.aventon.com/blogs/aventon_bikes/how-to-maintain-your-ebike",
+      "supports": "Aventon (3/4/2026): dầu mỡ dính vào đĩa hoặc má phanh làm giảm lực phanh nhanh; phanh yếu hoặc kêu sau khi lau thì nghi nhiễm bẩn.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.radpowerbikes.com/blogs/the-scenic-route/how-to-ride-an-ebike-in-the-rain",
+      "supports": "Rad Power Bikes (không ghi ngày): pin dính nước muối thì tháo khỏi xe, lau khô, lau khung bằng khăn thấm nước ngọt, để khô rồi mới lắp lại.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.bikeradar.com/advice/workshop/electric-bike-maintenance",
+      "supports": "BikeRadar (22/6/2025): bộ truyền động xe đạp điện chịu lực lớn hơn và mòn nhiều hơn xe thường.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.aventon.com/blogs/aventon_bikes/can-you-ride-an-ebike-in-the-rain",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.aventon.com/blogs/aventon_bikes/how-to-maintain-your-ebike",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.radpowerbikes.com/blogs/the-scenic-route/how-to-ride-an-ebike-in-the-rain",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.bikeradar.com/advice/buyers-guides/cycling-in-the-rain",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.bikeradar.com/advice/workshop/electric-bike-maintenance",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.aventon.com/blogs/aventon_bikes/how-to-maintain-your-ebike",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.aventon.com/blogs/aventon_bikes/how-to-maintain-your-ebike",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.radpowerbikes.com/blogs/the-scenic-route/how-to-ride-an-ebike-in-the-rain",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.bikeradar.com/advice/workshop/electric-bike-maintenance",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2343,
+        "title": "Xe máy điện: các hãng nổi bật và cách chọn xe phù hợp nhất",
+        "why": "stale",
+        "content_hash": "c6618e9c49c5f2f25650deea3da4d70c0b7ac0a3821f5dc81a038f2aae0716d7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2378,
+        "title": "Xe máy điện VinFast: các mẫu đáng chú ý và điểm khác biệt",
+        "why": "stale",
+        "content_hash": "37ef98f1fa6912ab03a40b59b7957c089abbadee5f0ea45c7e3fcf1b939d9074",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2544,
+        "title": "Xe máy phát tiếng kêu lạ khi chạy: nguyên nhân và cách kiểm tra",
+        "why": "stale",
+        "content_hash": "e4d2a8c9ffb2a022afd07f0d6cf92ad77c06cdf6fcad04bb7bae33b34bab81ad",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T03:53:38.002145+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "74f23e6306b681e8df1e9960faa17dc02a9a6d2b2057d0c3bff6ed41dd929edd",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

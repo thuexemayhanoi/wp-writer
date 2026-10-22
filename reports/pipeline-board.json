@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-22T03:49:30.599720+00:00",
+  "at": "2026-10-22T03:54:46.157953+00:00",
   "counts": {
     "WRITING": 13,
     "QA": 0,
@@ -7,23 +7,11 @@
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 629
+    "VERIFIED": 631
   },
   "ready_backlog": 0,
   "in_flight": 16,
   "items": [
-    {
-      "topic_id": "NT-001454",
-      "state": "WRITING",
-      "reason": "leased to seodev-w69",
-      "title": "Xe đạp điện sau khi đi mưa: khi nào chỉ cần kiểm tra, khi nào cần thay linh kiện",
-      "slot": "W1",
-      "session": "seodev-w69",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-001455",
       "state": "WRITING",
@@ -41,18 +29,6 @@
       "state": "WRITING",
       "reason": "leased to seodev-w69",
       "title": "Quên giấy tờ xe máy điện có bị phạt không: Luật bắt buộc mang gì và lỗi nào bị phạt",
-      "slot": "W1",
-      "session": "seodev-w69",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001483",
-      "state": "WRITING",
-      "reason": "leased to seodev-w69",
-      "title": "Mũ bảo hiểm cho du khách nước ngoài: luật Việt Nam bắt buộc gì và Anh, Úc, Canada khuyên gì",
       "slot": "W1",
       "session": "seodev-w69",
       "wp_id": null,
@@ -139,6 +115,30 @@
       "title": "Du lịch với hành lý nhẹ: giới hạn sạc dự phòng khi bay cần kiểm tra trước",
       "slot": "W1",
       "session": "seodev-w69",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001571",
+      "state": "WRITING",
+      "reason": "leased to seodev-w71",
+      "title": "Trạm sạc xe điện trong chung cư: quy trình rà soát theo Thông tư 31/2026/TT-BXD",
+      "slot": "W4",
+      "session": "seodev-w71",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001572",
+      "state": "WRITING",
+      "reason": "leased to seodev-w71",
+      "title": "Quản lý phụ tải khi sạc xe: nguồn riêng, phân vùng và số chỗ sạc ở chung cư",
+      "slot": "W4",
+      "session": "seodev-w71",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -7669,6 +7669,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001454",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe đạp điện sau khi đi mưa: khi nào chỉ cần kiểm tra, khi nào cần thay linh kiện",
+      "slot": "W1",
+      "session": "seodev-w69",
+      "wp_id": 4677,
+      "url": "https://thuexemaynguyentu.com/xe-dap-dien-sau-khi-di-mua-khi-nao-chi-can-kiem-tra-khi-nao-can-thay-linh-kien/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001482",
       "state": "VERIFIED",
       "reason": "publish",
@@ -7677,6 +7689,18 @@
       "session": "seodev-w69",
       "wp_id": 4676,
       "url": "https://thuexemaynguyentu.com/cach-tra-cuu-van-ban-luat-giao-thong-kiem-tra-hieu-luc-luat-36-2024-va-nghi-dinh-168-2024/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001483",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Mũ bảo hiểm cho du khách nước ngoài: luật Việt Nam bắt buộc gì và Anh, Úc, Canada khuyên gì",
+      "slot": "W1",
+      "session": "seodev-w69",
+      "wp_id": 4678,
+      "url": "https://thuexemaynguyentu.com/mu-bao-hiem-cho-du-khach-nuoc-ngoai-luat-viet-nam-bat-buoc-gi-va-anh-uc-canada-khuyen-gi/",
       "qa_status": "PASS",
       "seo_score": 100
     },

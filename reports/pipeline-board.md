@@ -1,6 +1,6 @@
 # Pipeline board
 
-Generated 2026-10-22T03:49:30.599720+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-22T03:54:46.157953+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
@@ -10,7 +10,7 @@ Generated 2026-10-22T03:49:30.599720+00:00 from leases, drafts, QA records, rece
 | REPAIR | 0 |
 | HELD | 3 |
 | PUBLISHING | 0 |
-| VERIFIED | 629 |
+| VERIFIED | 631 |
 
 Ready backlog (QA PASS waiting for the Publisher): **0**
 
@@ -18,10 +18,8 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 
 | Topic | State | Slot | Session | Reason |
 |---|---|---|---|---|
-| NT-001454 | WRITING | W1 | seodev-w69 | leased to seodev-w69 |
 | NT-001455 | WRITING | W1 | seodev-w69 | leased to seodev-w69 |
 | NT-001481 | WRITING | W1 | seodev-w69 | leased to seodev-w69 |
-| NT-001483 | WRITING | W1 | seodev-w69 | leased to seodev-w69 |
 | NT-001484 | WRITING | W1 | seodev-w69 | leased to seodev-w69 |
 | NT-001511 | WRITING | W3 | seodev-w70 | leased to seodev-w70 |
 | NT-001512 | WRITING | W3 | seodev-w70 | leased to seodev-w70 |
@@ -29,6 +27,8 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 | NT-001514 | WRITING | W3 | seodev-w70 | leased to seodev-w70 |
 | NT-001541 | WRITING | W1 | seodev-w69 | leased to seodev-w69 |
 | NT-001542 | WRITING | W1 | seodev-w69 | leased to seodev-w69 |
+| NT-001571 | WRITING | W4 | seodev-w71 | leased to seodev-w71 |
+| NT-001572 | WRITING | W4 | seodev-w71 | leased to seodev-w71 |
 | NT-090004 | WRITING | W3 | seodev-w70 | leased to seodev-w70 |
 | NT-090006 | WRITING | W3 | seodev-w70 | leased to seodev-w70 |
 | NT-001101 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4344; Near duplicate existing:4344 |
