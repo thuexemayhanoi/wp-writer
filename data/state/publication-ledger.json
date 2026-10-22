@@ -39091,7 +39091,7 @@
       }
     },
     "NT-090272": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T16:26:10.025304+00:00",
       "source_hash": "2b97f996f0b4606111621b2f72598c9ff610188d5de3460dd59e1194e7e807e1",
       "slug": "dat-coc-thue-xe-may-bang-usd-han-che-ngoai-hoi-chuyen-tu-dieu-22-sang-dieu-31a-ngay-1-12-2026",
@@ -39107,8 +39107,37 @@
       "category_warning": null,
       "git_commit": "f8052e8e8752a18473f6e50d49ad609ccb9029b7",
       "run_id": "39813289392",
-      "updated_at": "2026-10-22T16:26:14.296681+00:00",
-      "wp_id": 4893
+      "updated_at": "2026-10-22T16:26:20.385326+00:00",
+      "wp_id": 4893,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/dat-coc-thue-xe-may-bang-usd-han-che-ngoai-hoi-chuyen-tu-dieu-22-sang-dieu-31a-ngay-1-12-2026/",
+      "verified_at": "2026-10-22T16:26:20.385319+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4893,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/dat-coc-thue-xe-may-bang-usd-han-che-ngoai-hoi-chuyen-tu-dieu-22-sang-dieu-31a-ngay-1-12-2026/",
+        "categories": [
+          164
+        ],
+        "canonical": "https://thuexemaynguyentu.com/dat-coc-thue-xe-may-bang-usd-han-che-ngoai-hoi-chuyen-tu-dieu-22-sang-dieu-31a-ngay-1-12-2026/",
+        "seo_title": "Đặt cọc thuê xe máy bằng USD: Điều 31a thay Điều 22 từ 1/12/2026",
+        "seo_description": "Đặt cọc thuê xe máy bằng USD có được không: Điều 3 Thông tư 32/2013, Điều 31a Luật Ngân hàng Nhà nước từ 01/12/2026, ngoại lệ và cách đặt cọc bằng đồng.",
+        "checked_at": "2026-10-22T16:26:20.385297+00:00"
+      }
     }
   },
   "categories": {}
