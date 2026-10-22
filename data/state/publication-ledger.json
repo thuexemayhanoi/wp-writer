@@ -39238,7 +39238,7 @@
       }
     },
     "NT-090527": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T16:28:20.467139+00:00",
       "source_hash": "89496ac491011a396645bf08af4484af1ce78e51275ec9b3af98ab23b778e333",
       "slug": "day-nguon-bo-sac-xe-dien-son-thi-dung-tiep-duoc-khong-vinfast-bosch-va-shimano-dan-ngung-dung",
@@ -39254,8 +39254,37 @@
       "category_warning": null,
       "git_commit": "f8052e8e8752a18473f6e50d49ad609ccb9029b7",
       "run_id": "39813289392",
-      "updated_at": "2026-10-22T16:28:25.154225+00:00",
-      "wp_id": 4896
+      "updated_at": "2026-10-22T16:28:31.775032+00:00",
+      "wp_id": 4896,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/day-nguon-bo-sac-xe-dien-son-thi-dung-tiep-duoc-khong-vinfast-bosch-va-shimano-dan-ngung-dung/",
+      "verified_at": "2026-10-22T16:28:31.775025+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4896,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/day-nguon-bo-sac-xe-dien-son-thi-dung-tiep-duoc-khong-vinfast-bosch-va-shimano-dan-ngung-dung/",
+        "categories": [
+          167
+        ],
+        "canonical": "https://thuexemaynguyentu.com/day-nguon-bo-sac-xe-dien-son-thi-dung-tiep-duoc-khong-vinfast-bosch-va-shimano-dan-ngung-dung/",
+        "seo_title": "Dây nguồn bộ sạc xe điện sờn: VinFast, Bosch, Shimano dặn ngừng dùng",
+        "seo_description": "Dây nguồn bộ sạc xe điện sờn thì dùng tiếp được không? Lời VinFast, Bosch và Shimano trong sách hướng dẫn: khi nào ngừng dùng, thói quen làm hỏng dây, ai được sửa.",
+        "checked_at": "2026-10-22T16:28:31.775005+00:00"
+      }
     }
   },
   "categories": {}
