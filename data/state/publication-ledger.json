@@ -36151,7 +36151,7 @@
       }
     },
     "NT-001939": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:06:16.807862+00:00",
       "source_hash": "0b8e87339149d51f2454b114362a34ab49ba4c8bb75db2c397afe2b2b2228b83",
       "slug": "le-hoi-hoa-tam-giac-mach-dong-van-2026-khai-mac-25-10-hay-6-11-hoa-no-bao-lau",
@@ -36167,8 +36167,37 @@
       "category_warning": null,
       "git_commit": "aec7c708c8ad6bffd7edbb8f00bfd81c61110d50",
       "run_id": "39800469365",
-      "updated_at": "2026-10-22T15:06:21.541189+00:00",
-      "wp_id": 4833
+      "updated_at": "2026-10-22T15:06:28.161483+00:00",
+      "wp_id": 4833,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/le-hoi-hoa-tam-giac-mach-dong-van-2026-khai-mac-25-10-hay-6-11-hoa-no-bao-lau/",
+      "verified_at": "2026-10-22T15:06:28.161476+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4833,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/le-hoi-hoa-tam-giac-mach-dong-van-2026-khai-mac-25-10-hay-6-11-hoa-no-bao-lau/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/le-hoi-hoa-tam-giac-mach-dong-van-2026-khai-mac-25-10-hay-6-11-hoa-no-bao-lau/",
+        "seo_title": "Lễ hội hoa tam giác mạch Đồng Văn 2026: khai mạc 25/10 hay 6/11?",
+        "seo_description": "Lễ hội hoa tam giác mạch Đồng Văn 2026: các báo ghi khai mạc 25/10 hoặc 6/11, hoa nở đến hết tháng 12 theo kế hoạch, diện tích 240, 400 hay 70 ha là số của từng phạm vi.",
+        "checked_at": "2026-10-22T15:06:28.161455+00:00"
+      }
     }
   },
   "categories": {}
