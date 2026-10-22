@@ -1,0 +1,167 @@
+{
+  "topic_id": "NT-001661",
+  "status": "PASS",
+  "source_sha256": "e0dfd9ef922f2c5999f8ac57ee3cde71c426a592ba145e2530fb197a4b7e6954",
+  "body_sha256": "f48f83db4ed56b0733720fb08c0636209efb5b68d70050d8af0f0cbc39ddf4b2",
+  "word_count": 2616,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://moc.gov.vn/vn/tin-tuc/1176/94774/quy-dinh-boi-thuong-cho-hanh-khach-khi-chuyen-bay-bi-cham--huy.aspx",
+      "supports": "Bài trên cổng thông tin điện tử Bộ Xây dựng (17/06/2026, ghi nguồn chinhphu.vn) trích Điều 36 (khoản 1a, 1c đến khoản 9), Điều 37 (khoản 2, 3), Điều 38 (khoản 1, 2) và khoản 4 Điều 39 của Nghị định 208/2026/NĐ-CP: lịch bay căn cứ, mốc 15 phút, các mốc 2, 3, 4, 6 giờ, điều kiện lỗi của hãng ở khoản 6 điểm d, điều kiện có vé, đã xác nhận chỗ và có mặt tại cảng hàng không ở khoản 8, mức bồi thường giao Bộ trưởng Bộ Xây dựng ở khoản 9, trường hợp loại trừ ở khoản 4 Điều 39 và hiệu lực 01/7/2026; bản trích không có điểm b khoản 1 Điều 36 và khoản 1 Điều 37.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?docid=218453&pageid=27160",
+      "supports": "Trang Nghị định 208/2026/NĐ-CP trên vanban.chinhphu.vn (cổng văn bản của Chính phủ), các trường đã đọc: số ký hiệu 208/2026/NĐ-CP, ban hành 15-06-2026, có hiệu lực 01-07-2026, trích yếu 'Về vận tải hàng không'; bài không đọc được toàn văn đã ký.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://caa.gov.vn/hoat-dong-nganh/nghi-dinh-moi-ve-van-tai-hang-khong-20260626090633040.htm",
+      "supports": "Bài của Cục Hàng không Việt Nam (29/06/2026) tóm tắt Nghị định 208/2026/NĐ-CP: 7 chương, 65 điều, 08 phụ lục biểu mẫu và việc bổ sung quy định về hoàn vé, nghĩa vụ của người vận chuyển khi thay đổi lịch và chậm chuyến trên khoang; không có nội dung mốc giờ cụ thể.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://moc.gov.vn/vn/tin-tuc/1176/94774/quy-dinh-boi-thuong-cho-hanh-khach-khi-chuyen-bay-bi-cham--huy.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?docid=218453&pageid=27160",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://caa.gov.vn/hoat-dong-nganh/nghi-dinh-moi-ve-van-tai-hang-khong-20260626090633040.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2413,
+        "title": "Honda ICON e: có cần bằng lái không và ai nên sử dụng mẫu xe này?",
+        "why": "stale",
+        "content_hash": "1cec213da2c026074a8eef073c5eee4f24e6a5ee5a39071584bb8e1f1a96c4a5",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2622,
+        "title": "Hoàng thành Thăng Long có gì? Giá vé, giờ mở cửa và cách tham quan",
+        "why": "stale",
+        "content_hash": "1d198ab7452c92604271329801956283c798cb81955fe394ef94bb66188faaf3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T09:28:23.294837+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "ce66836b8a4163ac96a7ec9a8ba6a87ec64608131a0dc6d6350d59e85aaa3dcc",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

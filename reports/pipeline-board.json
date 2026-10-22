@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-22T09:12:18.766112+00:00",
+  "at": "2026-10-22T09:30:04.529972+00:00",
   "counts": {
     "WRITING": 15,
     "QA": 0,
-    "READY": 2,
+    "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 692
+    "VERIFIED": 695
   },
-  "ready_backlog": 2,
-  "in_flight": 20,
+  "ready_backlog": 0,
+  "in_flight": 18,
   "items": [
     {
       "topic_id": "NT-001635",
@@ -191,30 +191,6 @@
       "url": null,
       "qa_status": null,
       "seo_score": null
-    },
-    {
-      "topic_id": "NT-090070",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Đường dành riêng cho xe buýt: Nghị định 168/2024 nêu ở Điều 6 và 8, xe máy áp dụng điều nào?",
-      "slot": "W2",
-      "session": "s-claude-df7eb8c1-20261022",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-090291",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Biển P.111a cấm xe gắn máy, P.104 cấm xe máy và P.103a cấm xe ô tô: xe 50cc bị cấm ở biển nào?",
-      "slot": "W2",
-      "session": "s-claude-df7eb8c1-20261022",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
     },
     {
       "topic_id": "NT-001101",
@@ -8077,6 +8053,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001661",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đổi lịch vì chuyến bay trễ: hãng phải hỗ trợ gì theo mốc giờ và khách nên làm gì",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": 4768,
+      "url": "https://thuexemaynguyentu.com/doi-lich-vi-chuyen-bay-tre-hang-phai-ho-tro-gi-theo-moc-gio-va-khach-nen-lam-gi/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001721",
       "state": "VERIFIED",
       "reason": "publish",
@@ -8389,6 +8377,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-090070",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đường dành riêng cho xe buýt: Nghị định 168/2024 nêu ở Điều 6 và 8, xe máy áp dụng điều nào?",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": 4769,
+      "url": "https://thuexemaynguyentu.com/duong-danh-rieng-cho-xe-buyt-nghi-dinh-168-2024-neu-o-dieu-6-va-8-xe-may-ap-dung-dieu-nao/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-090138",
       "state": "VERIFIED",
       "reason": "publish",
@@ -8409,6 +8409,18 @@
       "session": "s-claude-df7eb8c1-20261022",
       "wp_id": 4766,
       "url": "https://thuexemaynguyentu.com/khu-sac-xe-dien-tap-trung-trong-nha-khong-co-giai-phap-ngan-chay-phat-40-50-trieu-nd-106-2025/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-090291",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Biển P.111a cấm xe gắn máy, P.104 cấm xe máy và P.103a cấm xe ô tô: xe 50cc bị cấm ở biển nào?",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": 4770,
+      "url": "https://thuexemaynguyentu.com/bien-p-111a-cam-xe-gan-may-p-104-cam-xe-may-va-p-103a-cam-xe-o-to-xe-50cc-bi-cam-o-bien-nao/",
       "qa_status": "PASS",
       "seo_score": 100
     },
