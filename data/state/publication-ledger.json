@@ -40169,7 +40169,7 @@
       }
     },
     "NT-002083": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T20:46:26.320814+00:00",
       "source_hash": "9d4cfb7998eee30b03de742d6c513191c977037e28b9c0f15f112f17925c045b",
       "slug": "tour-dem-hoang-thanh-thang-long-trang-chinh-thuc-ghi-toi-thu-sau-bay-hay-bay-cn",
@@ -40185,8 +40185,37 @@
       "category_warning": null,
       "git_commit": "0f8cdb64114b138c22d2759d2171fe3a2d74a25b",
       "run_id": "39850717154",
-      "updated_at": "2026-10-22T20:46:30.888115+00:00",
-      "wp_id": 5025
+      "updated_at": "2026-10-22T20:46:37.238987+00:00",
+      "wp_id": 5025,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tour-dem-hoang-thanh-thang-long-trang-chinh-thuc-ghi-toi-thu-sau-bay-hay-bay-cn/",
+      "verified_at": "2026-10-22T20:46:37.238981+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 5025,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tour-dem-hoang-thanh-thang-long-trang-chinh-thuc-ghi-toi-thu-sau-bay-hay-bay-cn/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tour-dem-hoang-thanh-thang-long-trang-chinh-thuc-ghi-toi-thu-sau-bay-hay-bay-cn/",
+        "seo_title": "Tour đêm Hoàng thành Thăng Long: hai trang chính thức ghi hai lịch",
+        "seo_description": "Tour đêm Hoàng thành Thăng Long: trang 2022 ghi 19h thứ Sáu, thứ Bảy, trang 2023 ghi thứ Bảy, Chủ nhật; lộ trình, giá niêm yết 2022 và cách xác nhận lịch trước khi đặt.",
+        "checked_at": "2026-10-22T20:46:37.238962+00:00"
+      }
     }
   },
   "categories": {}
