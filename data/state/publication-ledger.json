@@ -37670,7 +37670,7 @@
       }
     },
     "NT-001970": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:53:27.765487+00:00",
       "source_hash": "16eeba24e12396bc7b4bedbad6b7d738da4eefb0db8f7a1d9b90afba00141f15",
       "slug": "xoe-thai-la-gi-ba-loai-xoe-xoe-vong-noi-tay-va-unesco-ghi-danh-thang-12-2021",
@@ -37686,8 +37686,37 @@
       "category_warning": null,
       "git_commit": "18322d4fb6c4e2fe50de87cdd8c8c8928ff2de0a",
       "run_id": "39808188049",
-      "updated_at": "2026-10-22T15:53:31.628351+00:00",
-      "wp_id": 4864
+      "updated_at": "2026-10-22T15:53:37.296695+00:00",
+      "wp_id": 4864,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xoe-thai-la-gi-ba-loai-xoe-xoe-vong-noi-tay-va-unesco-ghi-danh-thang-12-2021/",
+      "verified_at": "2026-10-22T15:53:37.296687+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4864,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xoe-thai-la-gi-ba-loai-xoe-xoe-vong-noi-tay-va-unesco-ghi-danh-thang-12-2021/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xoe-thai-la-gi-ba-loai-xoe-xoe-vong-noi-tay-va-unesco-ghi-danh-thang-12-2021/",
+        "seo_title": "Xòe Thái là gì: ba loại xòe, xòe vòng và UNESCO ghi danh 2021",
+        "seo_description": "Xòe Thái là gì? Đối chiếu UNESCO và VnExpress: ba loại xòe nghi lễ, vòng, trình diễn, cách múa xòe vòng, nhạc cụ và mốc UNESCO ghi danh trong phiên họp 13–18/12/2021.",
+        "checked_at": "2026-10-22T15:53:37.296652+00:00"
+      }
     }
   },
   "categories": {}
