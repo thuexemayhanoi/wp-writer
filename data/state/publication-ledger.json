@@ -38699,7 +38699,7 @@
       }
     },
     "NT-002142": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T16:15:41.963595+00:00",
       "source_hash": "dc4b5c351f1226765236d203cc9ab37403a8e28776bb64702233387429c8d696",
       "slug": "kinh-mu-bao-hiem-toi-mau-ban-dem-moc-50-anh-sang-nhan-ban-ngay-va-kinh-xuoc",
@@ -38715,8 +38715,37 @@
       "category_warning": null,
       "git_commit": "bbb96c083cbf7410f70b96d536d8be024df30c78",
       "run_id": "39811599986",
-      "updated_at": "2026-10-22T16:15:47.636592+00:00",
-      "wp_id": 4885
+      "updated_at": "2026-10-22T16:15:53.764404+00:00",
+      "wp_id": 4885,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/kinh-mu-bao-hiem-toi-mau-ban-dem-moc-50-anh-sang-nhan-ban-ngay-va-kinh-xuoc/",
+      "verified_at": "2026-10-22T16:15:53.764398+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4885,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/kinh-mu-bao-hiem-toi-mau-ban-dem-moc-50-anh-sang-nhan-ban-ngay-va-kinh-xuoc/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/kinh-mu-bao-hiem-toi-mau-ban-dem-moc-50-anh-sang-nhan-ban-ngay-va-kinh-xuoc/",
+        "seo_title": "Kính mũ bảo hiểm tối màu ban đêm: mốc 50% ánh sáng, nhãn ban ngày",
+        "seo_description": "Kính mũ bảo hiểm tối màu ban đêm nên tránh theo NZTA; mốc 50% ánh sáng, nhãn Daytime Use Only của chính phủ Anh và cách xử lý kính xước, bẩn, mờ hơi nước.",
+        "checked_at": "2026-10-22T16:15:53.764381+00:00"
+      }
     }
   },
   "categories": {}
