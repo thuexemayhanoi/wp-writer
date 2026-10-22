@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-22T06:09:59.164232+00:00",
+  "at": "2026-10-22T06:14:05.081959+00:00",
   "counts": {
-    "WRITING": 16,
+    "WRITING": 15,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 675
+    "VERIFIED": 676
   },
   "ready_backlog": 0,
-  "in_flight": 19,
+  "in_flight": 18,
   "items": [
     {
       "topic_id": "NT-001635",
@@ -187,18 +187,6 @@
       "title": "Xe máy biển nước ngoài vào Việt Nam du lịch: xe dẫn đường, giấy tờ cần mang và thủ tục chấp thuận",
       "slot": "W4",
       "session": "seodev-w78",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-080006",
-      "state": "WRITING",
-      "reason": "leased to s-claude-df7eb8c1-20261022",
-      "title": "Chụp ảnh bàn giao xe máy thuê: góc nên lưu theo phiếu Yamaha, sách Honda và giá trị chứng cứ của ảnh",
-      "slot": "W2",
-      "session": "s-claude-df7eb8c1-20261022",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -8241,6 +8229,18 @@
       "session": "seodev-w75",
       "wp_id": 4721,
       "url": "https://thuexemaynguyentu.com/co-lop-xe-so-xe-ga-honda-yamaha-lop-truoc-lop-sau-va-loai-co-sam-hay-khong-sam-theo-trang-hang/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-080006",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Chụp ảnh bàn giao xe máy thuê: góc nên lưu theo phiếu Yamaha, sách Honda và giá trị chứng cứ của ảnh",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": 4751,
+      "url": "https://thuexemaynguyentu.com/chup-anh-ban-giao-xe-may-thue-goc-nen-luu-theo-phieu-yamaha-sach-honda-va-gia-tri-chung-cu-cua-anh/",
       "qa_status": "PASS",
       "seo_score": 100
     },
