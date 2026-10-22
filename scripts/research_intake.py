@@ -200,6 +200,12 @@ def sweep(dry_run=False):
     return results
 
 
+def owner_paused():
+    """True while the owner's paused/emergency_stop switch is on; topic intake must then stay idle."""
+    policy = load('config/production-policy.json', {}) or {}
+    return bool(policy.get('paused') or policy.get('emergency_stop'))
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--branch')
@@ -207,6 +213,10 @@ def main():
     parser.add_argument('--sweep', action='store_true', help='ingest every research/* branch not yet accepted')
     parser.add_argument('--dry-run', action='store_true')
     args = parser.parse_args()
+    if owner_paused():
+        # Owner pause (paused/emergency_stop in config/production-policy.json): no new topic is admitted.
+        print(json.dumps({'status': 'PAUSED', 'new_topics': 0}, ensure_ascii=False))
+        return
     if not args.sweep and not (args.branch and args.sha):
         parser.error('--branch and --sha are required unless --sweep is given')
     if not args.dry_run:

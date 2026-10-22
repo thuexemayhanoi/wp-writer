@@ -2,6 +2,7 @@
 import json
 import sys
 import unittest
+import unittest.mock
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -39,6 +40,24 @@ class SitePostCapTests(unittest.TestCase):
         if cap is not None:
             self.assertIs(type(cap),int)
             self.assertGreater(cap,0)
+
+
+class OwnerPauseStopsTopicAutomationTests(unittest.TestCase):
+    def test_research_intake_main_is_idle_while_paused(self):
+        import io,contextlib
+        import research_intake as intake
+        buf=io.StringIO()
+        with unittest.mock.patch.object(intake,'owner_paused',return_value=True),\
+             unittest.mock.patch.object(sys,'argv',['research_intake.py','--sweep']),\
+             contextlib.redirect_stdout(buf):
+            intake.main()
+        self.assertEqual(json.loads(buf.getvalue())['status'],'PAUSED')
+
+    def test_owner_paused_reads_both_switches(self):
+        import research_intake as intake
+        for policy,expected in (({'paused':True},True),({'emergency_stop':True},True),({'paused':False,'emergency_stop':False},False)):
+            with unittest.mock.patch.object(intake,'load',return_value=policy):
+                self.assertIs(intake.owner_paused(),expected)
 
 
 if __name__=='__main__':

@@ -96,7 +96,7 @@ class PilotBudgetTests(TestCase):
         self.assertIsNone(pilot_settings(policy))
         self.assertEqual(delivery_batch_limit(policy),10)
         self.assertLessEqual(policy['max_new_posts_daily'],1000)
-        self.assertTrue(production_allowed(policy))
+        self.assertTrue(production_allowed({**policy,'paused':False}))
         self.assertFalse(policy['allow_category_create'])
         self.assertEqual(policy['on_category_mismatch'],'draft')
         self.assertEqual(policy['fallback_draft_taxonomy_key'],'blog')

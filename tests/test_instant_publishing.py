@@ -56,7 +56,7 @@ class InstantPublishingTests(unittest.TestCase):
     def test_owner_order_does_not_fake_unperformed_verifications(self):
         p=json.loads((ROOT/'config/production-policy.json').read_text(encoding='utf-8'))
         self.assertEqual(p['mode'], 'production')
-        self.assertIs(p['paused'], False)
+        self.assertIs(type(p['paused']), bool)  # the owner may pause (1,000-post ceiling reached)
         self.assertIs(type(p['emergency_stop']), bool)
         # Pilot complete by owner order: release pilot only; keep normal 2x5
         # serial publishing, daily cap and exact-category guardrails.
@@ -69,8 +69,8 @@ class InstantPublishingTests(unittest.TestCase):
         # Never performed, so never marked true; they no longer gate publication.
         self.assertIs(p['security_controls_verified'], False)
         self.assertIs(p['acceptance_passed'], False)
-        self.assertEqual(production_allowed(p), not p['emergency_stop'])
-        self.assertTrue(production_allowed({**p,'emergency_stop':False}))
+        self.assertEqual(production_allowed(p), not (p['emergency_stop'] or p['paused']))
+        self.assertTrue(production_allowed({**p,'emergency_stop':False,'paused':False}))
 
     def test_unapproved_production_mode_never_loads_wp_credentials_or_posts(self):
         args=Namespace(persist_state=False, acceptance_topic=None,
@@ -81,7 +81,7 @@ class InstantPublishingTests(unittest.TestCase):
             if path=='config/production-policy.json':
                 # Isolate the unapproved-production gate from the independent
                 # owner emergency stop, without mutating the stored policy.
-                data={**data,'production_enabled':False,'emergency_stop':False,'publisher_pilot':None}
+                data={**data,'production_enabled':False,'emergency_stop':False,'paused':False,'publisher_pilot':None}
             return data
         capture=io.StringIO()
         with (patch('publisher.load', side_effect=switched_off),

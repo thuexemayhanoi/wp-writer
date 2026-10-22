@@ -18,7 +18,7 @@ import refill_policy
 from topic_stock import build_stock
 
 AT = dt.datetime(2026, 10, 18, 9, 0, tzinfo=dt.timezone.utc)
-POLICY = refill_policy.policy({'trigger_below_ready': 50, 'round_target_min': 200,
+POLICY = refill_policy.policy({'enabled': True, 'trigger_below_ready': 50, 'round_target_min': 200,
                                'round_target_max': 300, 'research_batch_size': 10, 'max_rounds': None})
 TAXONOMY = [{'taxonomy_key': k, 'status': 'ACTIVE', 'wordpress_term_id': 100 + i}
             for i, k in enumerate(['engine-care', 'road-safety', 'battery-charging', 'trip-planning',
@@ -154,7 +154,7 @@ class OrderLifecycleTests(unittest.TestCase):
                          ('REFILL_OPENED', 'RF-0002', 0))
 
     def test_an_optional_round_limit_can_be_set_by_the_owner(self):
-        limited = refill_policy.policy({'max_rounds': 1})
+        limited = refill_policy.policy({'enabled': True, 'max_rounds': 1})
         orders = {'RF-0001': {**self.open_order()['RF-0001'], 'status': 'FULFILLED'}}
         self.assertEqual(assess([], orders, refill=limited)[1]['state'], 'ROUND_LIMIT_REACHED')
 
@@ -287,7 +287,8 @@ class PolicyTests(unittest.TestCase):
         self.assertIsNone(policy['max_rounds'])
 
     def test_repository_policy_keeps_opening_rounds_until_the_approved_capacity_is_used(self):
-        live = refill_policy.policy()
+        # `enabled` is the owner's on/off switch (off after the 1,000-post ceiling); the round arithmetic is what is tested here.
+        live = refill_policy.policy({'enabled': True})
         rows = [planned(i) for i in range(1, 401)]  # 400 ready topics: a reserve, but far from 1,000
         self.assertEqual(assess(rows, refill=live)[1]['state'], 'REFILL_OPENED')
         orders, request, _ = assess(rows, capacity=1000, refill=live)
