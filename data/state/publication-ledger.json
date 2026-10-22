@@ -40022,7 +40022,7 @@
       }
     },
     "NT-001944": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T20:44:43.092781+00:00",
       "source_hash": "7f2e740b4e2c42e32b09b52b2401a28f8c5ecaf75019c3d9c1eb4b7a187e8c4f",
       "slug": "lien-hoan-am-thuc-quang-ninh-2026-20-24-11-o-bai-chay-khoang-150-gian-hang",
@@ -40038,8 +40038,37 @@
       "category_warning": null,
       "git_commit": "0f8cdb64114b138c22d2759d2171fe3a2d74a25b",
       "run_id": "39850717154",
-      "updated_at": "2026-10-22T20:44:47.828907+00:00",
-      "wp_id": 5022
+      "updated_at": "2026-10-22T20:44:54.275772+00:00",
+      "wp_id": 5022,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lien-hoan-am-thuc-quang-ninh-2026-20-24-11-o-bai-chay-khoang-150-gian-hang/",
+      "verified_at": "2026-10-22T20:44:54.275766+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 5022,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lien-hoan-am-thuc-quang-ninh-2026-20-24-11-o-bai-chay-khoang-150-gian-hang/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lien-hoan-am-thuc-quang-ninh-2026-20-24-11-o-bai-chay-khoang-150-gian-hang/",
+        "seo_title": "Liên hoan Ẩm thực Quảng Ninh 2026: dự kiến 20–24/11 ở Bãi Cháy",
+        "seo_description": "Liên hoan Ẩm thực Quảng Ninh 2026 dự kiến 20–24/11 tại Chợ đêm Vui Fest, Sun Marina Hạ Long, Bãi Cháy: khoảng 150 gian hàng, khai mạc 20 giờ 20/11, gian hàng 9–23 giờ.",
+        "checked_at": "2026-10-22T20:44:54.275746+00:00"
+      }
     }
   },
   "categories": {}
