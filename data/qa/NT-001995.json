@@ -1,0 +1,218 @@
+{
+  "topic_id": "NT-001995",
+  "status": "PASS",
+  "source_sha256": "014790fd13200ac12a7c6674265a542d05c5276572b8d05e6dd24767c054cb70",
+  "body_sha256": "75ed004f8bcb95abdc55ea850748fafefc00779d645aeebb2739995fde3993fe",
+  "word_count": 2092,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vov.gov.vn/theo-luat-trat-tu-atgt-moi-den-doan-re-phai-bat-xi-nhan-truoc-bao-nhieu-met-dtnew-1058570",
+      "supports": "VOV (19/01/2025): luật không nêu cụ thể khoảng cách bật tín hiệu trước khi rẽ; cùng bài nêu con số 10–15 m cho xe máy và mức phạt 600.000–800.000 đồng",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://csgt-congan.hochiminhcity.gov.vn/wps/portal/Home/trang-chu/noi-dung-chi-tiet/tin-giao-thong/doi3_14082025",
+      "supports": "Trang Phòng CSGT Công an TP.HCM (14/08/2025): khuyến cáo khoảng 25–30 m trước và 5–10 m sau khi rẽ; cùng trang nêu mức phạt khoản 3 Điều 7",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+      "supports": "Điều 15 khoản 2 Luật 36/2024 (toàn văn trên cổng Nghệ An, đọc 22/10/2026): tín hiệu phải dùng liên tục",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/chinh-phu-ban-hanh-nghi-dinh-so-238-2026-nd-cp-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-168-2024-nd-cp-1786704471",
+      "supports": "Cổng Bộ Công an: Nghị định 238/2026/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định 168/2024/NĐ-CP, có hiệu lực từ 15/8/2026 (bản lưu 21/10/2026)",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.ninhbinh.gov.vn/loi-khong-bat-den-xi-nhan-quy-dinh-va-muc-phat-nghiem-khac-tu-2025",
+      "supports": "Cổng Công an tỉnh Ninh Bình (14/11/2025): tín hiệu phải được bật kịp thời, trước khi bắt đầu chuyển hướng, và duy trì suốt thao tác; chỉ dùng câu này, không dùng các điều khoản trang dẫn",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vov.gov.vn/theo-luat-trat-tu-atgt-moi-den-doan-re-phai-bat-xi-nhan-truoc-bao-nhieu-met-dtnew-1058570",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://csgt-congan.hochiminhcity.gov.vn/wps/portal/Home/trang-chu/noi-dung-chi-tiet/tin-giao-thong/doi3_14082025",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hcc.nghean.gov.vn/tin-tong-hop/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-1545.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/chinh-phu-ban-hanh-nghi-dinh-so-238-2026-nd-cp-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-168-2024-nd-cp-1786704471",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.ninhbinh.gov.vn/loi-khong-bat-den-xi-nhan-quy-dinh-va-muc-phat-nghiem-khac-tu-2025",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2411,
+        "title": "Honda ICON e: đi được bao nhiêu km và phù hợp quãng đường nào?",
+        "why": "stale",
+        "content_hash": "c51f9eca9b43c76b8f4f2101ab1c67f670c8d7d31345309ffbda12f55c573f6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2426,
+        "title": "Đánh giá Dat Bike Quantum: ưu nhược điểm và nhu cầu dùng thực tế",
+        "why": "stale",
+        "content_hash": "3c8d470345431fcbc37ef481fcc91babb838e88c276f79fcd299cde3305e020d",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2569,
+        "title": "Xe ga tốn xăng hơn xe số bao nhiêu khi sử dụng trong thành phố?",
+        "why": "stale",
+        "content_hash": "0e0403a44ff6ce7c19068379c2905b55413b5e6b08f79ca8a2a469fd0114f8e0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:25:43.338540+00:00",
+  "live_links_checked": false,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "bd5609c2aea7767c01f09792c27ec76b63145f4775b3ab34e97cd9ba9c3a3636",
+  "incremental_key": "123a8099d833a55c49af56f92df94fc0f7166b18317406b6676797b204e16434",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "topic_id": "NT-001878",
+  "status": "PASS",
+  "source_sha256": "e76058e932a2417c464d541a365e3d849c44221a046b6594a35645826e41ad11",
+  "body_sha256": "4c106f2a95098d4239d29904c41e34e5cc0c4abb2acdf76950fa23644bdedcd0",
+  "word_count": 1884,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.qdnd.vn/van-hoa/doi-song/trung-bay-chuyen-de-but-thep-long-son-ton-vinh-nhung-nha-bao-chien-si-1044383",
+      "supports": "Báo QĐND (16/6/2026, đọc 22/10/2026): Ban Quản lý Di tích Nhà tù Hỏa Lò ra mắt trưng bày chuyên đề Bút thép, lòng son sáng 16/6 nhân 101 năm Ngày Báo chí cách mạng Việt Nam, diễn ra đến ngày 15-11; hai phần nội dung, điểm nhấn Ngòi bút sau song sắt, chủ đề Xông pha trong lửa đạn; các tờ báo bí mật ở Hỏa Lò và Côn Đảo.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/nhung-toa-soan-bao-duoi-gam-san-nha-tu-100260621153814596.htm",
+      "supports": "Tuổi Trẻ (21/6/2026, đọc 22/10/2026): tài liệu báo chí được tù chính trị cất giấu dưới gầm sàn, trong khe tường; văn phòng dưới gầm sàn của Trường Chinh, hầm hàm ếch của Trần Hữu Thỏa, báo Suối reo ở Sơn La của Xuân Thủy và câu chuyện các nhà báo liệt sĩ được kể tại trưng bày.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.qdnd.vn/van-hoa/doi-song/trung-bay-chuyen-de-but-thep-long-son-ton-vinh-nhung-nha-bao-chien-si-1044383",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/nhung-toa-soan-bao-duoi-gam-san-nha-tu-100260621153814596.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2562,
+        "title": "Chi phí sử dụng xe máy một tháng gồm những khoản nào phổ biến?",
+        "why": "stale",
+        "content_hash": "0e027bc06fdc27cef9d43033bb86723109f122a63e8485c8dd6f92fa12334be6",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2598,
+        "title": "Thuê hay mua xe máy khi ở Hà Nội từ một đến ba tháng thì hợp lý hơn?",
+        "why": "stale",
+        "content_hash": "f30e620f60320b130c5faa8dc1ea87f3d7cb2743018e4e55126b3a15e9598278",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4345,
+        "title": "Thuê xe máy phường Cửa Nam: chọn Air Blade, tính gói ngày hay tuần?",
+        "why": "stale",
+        "content_hash": "fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:31:01.774975+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "04b03a4906137455d205964dbf9f5dad807845af51805558896d3bf14d7c531a",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

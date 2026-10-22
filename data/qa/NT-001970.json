@@ -1,0 +1,202 @@
+{
+  "topic_id": "NT-001970",
+  "status": "PASS",
+  "source_sha256": "16eeba24e12396bc7b4bedbad6b7d738da4eefb0db8f7a1d9b90afba00141f15",
+  "body_sha256": "b2d6c49e9c15f3f947801ad9f356aa47aea5ac5c23f26b58c7a7184acd7f3ecb",
+  "word_count": 2168,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://ich.unesco.org/en/RL/art-of-xoe-dance-of-the-tai-people-in-viet-nam-01575",
+      "supports": "Trang UNESCO ghi nghệ thuật xòe Thái được ghi danh năm 2021 (16.COM) vào Danh sách đại diện; mô tả ba loại xòe (nghi lễ, vòng, trình diễn), xòe vòng phổ biến nhất, biểu tượng hiếu khách của người Thái Tây Bắc",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/xoe-thai-la-di-san-van-hoa-phi-vat-the-cua-nhan-loai-4403692.html",
+      "supports": "VnExpress nêu có ba loại xòe là xòe vòng, xòe nghi lễ, xòe trình diễn và xòe vòng phổ biến nhất",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://ich.unesco.org/en/RL/art-of-xoe-dance-of-the-tai-people-in-viet-nam-01575",
+      "supports": "Trang UNESCO (hồ sơ 01575), đọc đầy đủ ngày 22/10/2026: mô tả các động tác cơ bản của xòe vòng; mã quyết định 16.COM 8.b.48.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/xoe-thai-la-di-san-van-hoa-phi-vat-the-cua-nhan-loai-4403692.html",
+      "supports": "VnExpress 15/12/2021, đọc toàn bài ngày 22/10/2026: quyết định của UNESCO được đưa ra trong phiên họp lần thứ 16 tại Paris hôm 15/12; năm tiêu chí; 48 hồ sơ đại diện và sáu hồ sơ cần bảo vệ khẩn cấp.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://ich.unesco.org/en/RL/art-of-xoe-dance-of-the-tai-people-in-viet-nam-01575",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/xoe-thai-la-di-san-van-hoa-phi-vat-the-cua-nhan-loai-4403692.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://ich.unesco.org/en/RL/art-of-xoe-dance-of-the-tai-people-in-viet-nam-01575",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/xoe-thai-la-di-san-van-hoa-phi-vat-the-cua-nhan-loai-4403692.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 836,
+        "title": "Thuê Xe Máy Ở Phố Cổ Hà Nội – Địa Chỉ & Giá Tham Khảo",
+        "why": "stale",
+        "content_hash": "e4d2a2e4c6cf34d4060c57dc76dd746d59c33ad30ec30d62c3369c7d33510d16",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2451,
+        "title": "Honda Future 125 FI có gì nổi bật cho nhu cầu đi lại hằng ngày?",
+        "why": "stale",
+        "content_hash": "ec0dfcf53d86e9248f1ec80d5341fbaed52bf60b116dcd54d4b6e981969b645f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2521,
+        "title": "Cách kiểm tra lốp xe máy để phát hiện mòn, nứt và áp suất bất thường",
+        "why": "stale",
+        "content_hash": "08080c3d371127024550acb47d9ddf7feb4cdba807bbb1f3996c8e47b110a33d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2544,
+        "title": "Xe máy phát tiếng kêu lạ khi chạy: nguyên nhân và cách kiểm tra",
+        "why": "stale",
+        "content_hash": "e4d2a8c9ffb2a022afd07f0d6cf92ad77c06cdf6fcad04bb7bae33b34bab81ad",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:25:40.350138+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "bd5609c2aea7767c01f09792c27ec76b63145f4775b3ab34e97cd9ba9c3a3636",
+  "incremental_key": "e10d05bd1dbff7bc51ab16b84c8200e9ab67f67349f7bfc4d18bbad3765c28e9",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "topic_id": "NT-090272",
+  "status": "PASS",
+  "source_sha256": "2b97f996f0b4606111621b2f72598c9ff610188d5de3460dd59e1194e7e807e1",
+  "body_sha256": "70c9767242875f963bad2f8534b39908dc26681be2e1140c52c9bab185123470",
+  "word_count": 2657,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.sav.gov.vn/vi/bai-viet/tai-lieu-gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-ngan-hang-nha-nuoc-viet-nam-luat-phong-chong-rua-tien-va-luat-cac-to-chuc-tin-dung-so-232026qh16-",
+      "supports": "Trang giới thiệu Luật 23/2026/QH16 trên sav.gov.vn: luật có hiệu lực từ 01/12/2026, bổ sung Điều 31a vào Luật Ngân hàng Nhà nước để luật hóa Điều 22 Pháp lệnh Ngoại hối, nguyên văn nguyên tắc không giao dịch, thanh toán, niêm yết bằng ngoại hối trừ trường hợp được phép; Điều 4 của luật bãi bỏ Điều 22 Pháp lệnh.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=219491&orggroupid=1&pageid=27160",
+      "supports": "Trang văn bản của Cổng thông tin điện tử Chính phủ ghi Luật số 23/2026/QH16 do Quốc hội ban hành ngày 24-08-2026, có hiệu lực 01-12-2026, trích yếu là luật sửa đổi Luật Ngân hàng Nhà nước, Luật Phòng, chống rửa tiền và Luật Các tổ chức tín dụng.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.sav.gov.vn/vi/bai-viet/tai-lieu-gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-ngan-hang-nha-nuoc-viet-nam-luat-phong-chong-rua-tien-va-luat-cac-to-chuc-tin-dung-so-232026qh16-",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=219491&orggroupid=1&pageid=27160",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 841,
+        "title": "Dịch vụ Cho Thuê Xe Máy Hà Nội Gần Hồ Hoàn Kiếm",
+        "why": "stale",
+        "content_hash": "2fd8a54dd17f2343bb342755c3d523dae5e4a63d02a06fdc3073e6e3bc357a05",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 847,
+        "title": "Cho Thuê Xe Máy Long Biên Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "9684f98d9a0c12291e20219c3746186ca86448c363b1b1f457d7917ff7c90680",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 862,
+        "title": "Cho Thuê Xe Máy Gần Tây Hồ Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "b0b3ebf305a54ce7dd2071018d62d234aa1338aeb544eef72a5d63a841fba288",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:25:48.290614+00:00",
+  "live_links_checked": false,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "bd5609c2aea7767c01f09792c27ec76b63145f4775b3ab34e97cd9ba9c3a3636",
+  "incremental_key": "7b767a38a6bf0cabfe33791b1d354abd91a9108de4cd45b6c07957c2537725ae",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

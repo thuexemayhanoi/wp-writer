@@ -1,0 +1,264 @@
+{
+  "topic_id": "NT-090269",
+  "status": "PASS",
+  "source_sha256": "669d3759f613b86d9da46ed0a4b6704003f945c34c929d189ca4c31048513b12",
+  "body_sha256": "60d3f949ad6d11890f8efb9647c20e7aa4b828d72e900de21ef6608e89a43d91",
+  "word_count": 2987,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://thuvienphapluat.vn/cong-van/Tai-nguyen-Moi-truong/Cong-van-11232-BNNMT-BDKH-2026-cong-bo-ket-qua-tinh-toan-He-so-phat-thai-cua-luoi-dien-Viet-Nam-2024-729812.aspx",
+      "supports": "Công văn 11232/BNNMT-BĐKH ngày 30/9/2026 của Bộ Nông nghiệp và Môi trường công bố hệ số phát thải của lưới điện Việt Nam năm 2024 là 0,6187 tCO2/MWh do Bộ Công Thương tính (đọc qua thuvienphapluat.vn, chưa tìm thấy bản trên trang cơ quan nhà nước).",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thuvienphapluat.vn/cong-van/Tai-nguyen-Moi-truong/Cong-van-11232-BNNMT-BDKH-2026-cong-bo-ket-qua-tinh-toan-He-so-phat-thai-cua-luoi-dien-Viet-Nam-2024-729812.aspx",
+      "supports": "Công văn nêu hệ số được thông báo để tham khảo, áp dụng thống nhất cho các hoạt động giảm phát thải khí nhà kính và các chương trình, dự án liên quan; việc dùng cho một chuyến đi là cách áp dụng của người viết.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-dap-dien-drgnfly",
+      "supports": "Trang VinFast ghi VF DrgnFly dùng pin Lithium Ion 640 Wh tháo rời, đầu vào để tính Wh mỗi km.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-dap-dien-drgnfly",
+      "supports": "Trang VinFast ghi pin 640 Wh sạc đầy trong 5 giờ với bộ sạc 160 W; đầu vào cho mốc cận trên điện sạc 160 W nhân 5 giờ của người viết.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-dap-dien-drgnfly",
+      "supports": "Quãng đường hãng nêu cho VF DrgnFly: lên tới 110 km (trợ lực) và lên tới 75 km (tay ga toàn thời gian).",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-dap-dien-drgnfly",
+      "supports": "Trang VinFast ghi hiệu suất thay đổi tùy tốc độ, trọng tải, thời tiết.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision",
+      "supports": "Trang Honda Việt Nam ghi Vision dùng động cơ xăng 4 kỳ 1 xi lanh làm mát bằng không khí và mức tiêu thụ nhiên liệu 1,82 lít/100 km.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator-calculations-and-references",
+      "supports": "EPA nêu hệ số chung 8.887 gam CO2 mỗi gallon xăng tiêu thụ (Federal Register 2010), giả định toàn bộ carbon trong xăng thành CO2.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/vinfast-drgnfly-xe-dap-danh-cho-dan-choi-4786972.html",
+      "supports": "Bài đánh giá VnExpress ghi quãng đường thực tế ở chế độ trợ lực mức trung bình khoảng 60-70 km cho một lần sạc (bản lưu đọc 19/10/2026).",
+      "checked_at": "2026-10-19",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://thuvienphapluat.vn/cong-van/Tai-nguyen-Moi-truong/Cong-van-11232-BNNMT-BDKH-2026-cong-bo-ket-qua-tinh-toan-He-so-phat-thai-cua-luoi-dien-Viet-Nam-2024-729812.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thuvienphapluat.vn/cong-van/Tai-nguyen-Moi-truong/Cong-van-11232-BNNMT-BDKH-2026-cong-bo-ket-qua-tinh-toan-He-so-phat-thai-cua-luoi-dien-Viet-Nam-2024-729812.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-dap-dien-drgnfly",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-dap-dien-drgnfly",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-dap-dien-drgnfly",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-dap-dien-drgnfly",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/san-pham/vision",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator-calculations-and-references",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/vinfast-drgnfly-xe-dap-danh-cho-dan-choi-4786972.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2388,
+        "title": "Xe máy điện VinFast đi được bao nhiêu km sau mỗi lần sạc đầy?",
+        "why": "stale",
+        "content_hash": "e5285dab933a9e8523fa7f789f9bd5d57691724f1704aeef3c150a4cd22802f9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2590,
+        "title": "Xe ga nào dễ lái cho người mới? Tiêu chí chọn xe an toàn hơn",
+        "why": "stale",
+        "content_hash": "f8902bfd6a2486eeeba8cd80b6a82c343421a30c904c7f55f75916cb9ec28c44",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:25:47.436275+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "bd5609c2aea7767c01f09792c27ec76b63145f4775b3ab34e97cd9ba9c3a3636",
+  "incremental_key": "56395b88ecfce259e2b855089d8d4cd88344025c7b588b03842d289082c49eb1",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

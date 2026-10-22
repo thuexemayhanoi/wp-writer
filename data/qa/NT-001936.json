@@ -1,0 +1,194 @@
+{
+  "topic_id": "NT-001936",
+  "status": "PASS",
+  "source_sha256": "e5ff041530b61b4f835ff1d7efeee9ef9efeeb8445403a8cc9240b1e3b993654",
+  "body_sha256": "c5736f0555fad84f68cbd9c5813980d1627af5b3e522af21e3b49391373a5414",
+  "word_count": 2773,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/cam-nang-du-lich-lai-chau-4723675.html",
+      "supports": "Cẩm nang VnExpress (cập nhật 22/3/2024): các mốc tháng 9-10 lúa chín, 1-3 hoa, 4-5 mùa đổ nước và tránh 6-8; đỗ quyên Pu Ta Leng 2-3 tuần; sạt lở mùa mưa nằm trong cùng bài",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dulich.laichau.gov.vn/vi/blog/details/lai-chau-diem-hen-thien-nhien-giua-dai-ngan-tay-bac-927",
+      "supports": "Cổng thông tin du lịch Lai Châu (2/10/2024): Cổng trời Ô Quy Hồ ở độ cao 2.035 m, cao nguyên Sìn Hồ trên 1.500 m, cầu kính Rồng Mây trên 2.000 m",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dulich.laichau.gov.vn/vi/blog/details/lai-chau-diem-hen-thien-nhien-giua-dai-ngan-tay-bac-927",
+      "supports": "Cổng thông tin du lịch Lai Châu (2/10/2024), đọc lại trang đầy đủ ngày 22/10/2026: chú thích ảnh ghi đỗ quyên trên núi Răng Cưa trong những ngày tháng 3 và tháng 4; đèo Hoàng Liên Sơn biến ảo theo mùa, mùa đông có băng tuyết, mùa hạ thường có mây bao phủ.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vnexpress.net/cam-nang-du-lich-lai-chau-4723675.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dulich.laichau.gov.vn/vi/blog/details/lai-chau-diem-hen-thien-nhien-giua-dai-ngan-tay-bac-927",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dulich.laichau.gov.vn/vi/blog/details/lai-chau-diem-hen-thien-nhien-giua-dai-ngan-tay-bac-927",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2343,
+        "title": "Xe máy điện: các hãng nổi bật và cách chọn xe phù hợp nhất",
+        "why": "stale",
+        "content_hash": "c6618e9c49c5f2f25650deea3da4d70c0b7ac0a3821f5dc81a038f2aae0716d7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2422,
+        "title": "Yadea và VinFast khác nhau thế nào khi chọn xe máy điện",
+        "why": "stale",
+        "content_hash": "fad15df82e26c0a36f7ca807746c1f7a42149457965d7219044bd7238970ce07",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2428,
+        "title": "Dat Bike và VinFast: hãng nào phù hợp người thường xuyên đi xa?",
+        "why": "stale",
+        "content_hash": "8cb4cfc90c1561cb4c7dda67912d337a2c3081d39753b6d91e45717fd20b02b7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2500,
+        "title": "Dấu hiệu xích xe máy quá chùng và cách kiểm tra trước khi đi xa",
+        "why": "stale",
+        "content_hash": "d061c138b067d5f2223950a7aaa38ebe11024f983962f728d69b56d64948608d",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2632,
+        "title": "Cầu Long Biên Hà Nội: Đi lúc nào đẹp, chụp ảnh ở đâu và chơi gì gần đó?",
+        "why": "stale",
+        "content_hash": "36dfb351fe0b68f0a6c25d3903504798235bac27df1d97f4c68ca001b55d25e3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:32:56.194636+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "8782970398b5afb91a13781f56eb1798ec872d128c8af1240b96f74d4e5cab7f",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

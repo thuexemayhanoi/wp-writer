@@ -1,0 +1,160 @@
+{
+  "topic_id": "NT-001879",
+  "status": "PASS",
+  "source_sha256": "cd271ec0b3c29015df2802a31781f4042590559ed719c507aad960dceb5201fc",
+  "body_sha256": "0636298b0c0f36ee8baa9f80f7e6a877a5f8b7a05f59e69461e9dac72e9b75d3",
+  "word_count": 1693,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://tayho.hanoi.gov.vn/van-hoa-xa-hoi/phu-tay-ho-diem-den-van-hoa-tin-nguong-linh-thieng-cua-ha-noi-2697250709103526181.htm",
+      "supports": "Cổng thông tin phường Tây Hồ, Trung tâm VHTT&TT Tây Hồ (9/7/2025, đọc 22/10/2026): Phủ Tây Hồ thờ Chúa Liễu Hạnh, một trong Tứ bất tử; chưa xác định năm xây, dự đoán thế kỷ 17 hoặc muộn hơn; công nhận Di tích Lịch sử-Văn hóa ngày 13/2/1996; đông nhất mùng 1 và Rằm, giỗ Mẫu 3/3 âm lịch; kiến trúc tam quan, mật cung, động Sơn Trang, cây si cổ thụ.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/phu-tay-ho-dong-nghit-nguoi-di-le-trong-dem-dau-xuan-binh-ngo-733963.html",
+      "supports": "Hà Nội Mới (17/2/2026, đọc 22/10/2026): sau giao thừa Bính Ngọ hàng nghìn người đến Phủ Tây Hồ dâng hương, từ khoảng 0 giờ mùng 1 Tết các tuyến đường dẫn vào phủ ken đặc người và phương tiện; quan niệm xin lộc sớm; lễ vật hương hoa trầu cau bánh kẹo xôi chè; nhiều người vái vọng ở sân phủ.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://tayho.hanoi.gov.vn/van-hoa-xa-hoi/phu-tay-ho-diem-den-van-hoa-tin-nguong-linh-thieng-cua-ha-noi-2697250709103526181.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/phu-tay-ho-dong-nghit-nguoi-di-le-trong-dem-dau-xuan-binh-ngo-733963.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2355,
+        "title": "Bao nhiêu tuổi được đi xe máy điện? Những điều cần biết",
+        "why": "stale",
+        "content_hash": "df4e397638303da8d179daafae395db634b027fd262d47406e50b3e2c2cf527c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2542,
+        "title": "Xe máy bị nóng máy nhanh do đâu? Những điểm nên kiểm tra đầu tiên",
+        "why": "stale",
+        "content_hash": "994e220a440cdb5f8e90756cb7e6d0319a7cf0377e7377b9dd7b0b64ed9e9f51",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2584,
+        "title": "Honda Vision có phù hợp khách du lịch di chuyển trong Hà Nội không?",
+        "why": "stale",
+        "content_hash": "1b0da83421e494f9d8ee85b9bcd1582804c1209b75ed3f4defded42f09ef81f1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:31:33.876033+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "5f9e9ac55024e06dd7c7e2ca2d5a854a67f552bba0477fb77453def80d740082",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

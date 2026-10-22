@@ -1,0 +1,496 @@
+{
+  "topic_id": "NT-001961",
+  "status": "PASS",
+  "source_sha256": "a909f3e11156fc9a6a84b29d6b0aa7d53bbff89485f2c2a3f95e76f2c23256cf",
+  "body_sha256": "ef1d59ac20b32838e7efd0f5b62bd89cc6c6f9d19c96ea1114cc9fa0228c2ebf",
+  "word_count": 2309,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "supports": "Báo Văn hóa (18/6/2026) viết miền Bắc gắn Tết Đoan Ngọ với cơm rượu nếp cái hoa vàng và bánh gio ăn cùng mật mía",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "supports": "VnExpress Cooking (21/6/2023) liệt kê mâm cỗ Tết Đoan Ngọ của người Hà Nội gồm cơm rượu nếp, bánh gio chấm mật, mận hậu, vải thiều, cốm làng Vòng",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "supports": "Báo Văn hóa (18/6/2026): năm 2026 Tết Đoan Ngọ rơi vào thứ Sáu 19/6 dương lịch, tức mùng 5 tháng 5 âm lịch",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "supports": "Báo Văn hóa: theo quan niệm dân gian, vị nồng của cơm rượu nếp có tác dụng \"diệt sâu bọ\" trong cơ thể (niềm tin dân gian, bài không dẫn nghiên cứu y học)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "supports": "Báo Văn hóa: bánh gio (bánh tro) làm từ gạo nếp ngâm nước tro, gói lá chuối rồi luộc chín",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "supports": "Báo Văn hóa: mâm cúng miền Bắc thường có quả đúng mùa như mận và vải thiều",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "supports": "Báo Văn hóa: điển tích riêng của người Việt về ngày diệt sâu bọ (tương truyền, ông lão Đôi Truân)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "supports": "Báo Văn hóa: cơm rượu nếp ở miền Trung thường ép thành khối vuông thay vì để tơi như miền Bắc",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "supports": "Báo Văn hóa: tục diệt sâu bọ vào sáng sớm, người xưa cho rằng sau khi thức dậy nên ăn cơm rượu nếp hoặc quả chua, chát như mận, vải",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "supports": "Báo Văn hóa: ý nghĩa tên Đoan Ngọ theo quan niệm dân gian, giờ Ngọ 11–13 giờ",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "supports": "Báo Văn hóa: miền Nam có bánh ú Bá Trạng hình chóp nhọn, miền Trung có thịt vịt",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "supports": "Báo Văn hóa: ngày nay nhiều quan niệm chỉ còn mang ý nghĩa biểu tượng nhưng phong tục vẫn được nhiều gia đình duy trì",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "supports": "VnExpress (21/6/2023): các tên gọi khác của Tết Đoan Ngọ",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "supports": "VnExpress: cơm rượu nếp làm trước 2–3 ngày để kịp lên men",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "supports": "VnExpress: cơm rượu nếp là linh hồn của Tết Đoan Ngọ",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "supports": "VnExpress: theo phong tục xưa cúng vào giờ chính Ngọ 12 giờ trưa mồng 5/5 âm lịch",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "supports": "VnExpress: bánh gio luộc 2,5–3 giờ",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "supports": "VnExpress: hoa quả đầu hè miền Bắc trong mâm cúng",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "supports": "VnExpress: lời khuyên chọn vải thiều Thanh Hà",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "supports": "VnExpress: bánh cổ truyền miền Bắc đi kèm",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "supports": "VnExpress: tục nhuộm móng tay bằng lá diễn sáng mùng 5/5 âm lịch",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "supports": "VnExpress: miền Nam không thể thiếu bánh xèo",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "supports": "VnExpress: cốm lá me làng Vòng trong mâm cỗ người Hà Nội",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tet-doan-ngo-mam-cung-ba-mien-khac-nhau-the-nao-238258.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/doi-song-cooking-mam-co-tet-doan-ngo-goi-nho-ky-uc-xua-4620228.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2343,
+        "title": "Xe máy điện: các hãng nổi bật và cách chọn xe phù hợp nhất",
+        "why": "stale",
+        "content_hash": "c6618e9c49c5f2f25650deea3da4d70c0b7ac0a3821f5dc81a038f2aae0716d7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2430,
+        "title": "Yamaha NEO's có gì đáng chú ý? Đánh giá cho nhu cầu đi trong phố",
+        "why": "stale",
+        "content_hash": "cf4e466a86a7abedf9c23b34e3bafb0efbec07be3dbdd59491e1c722f75b7083",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2630,
+        "title": "Chùa Trấn Quốc Hà Nội: Lịch sử, giờ mở cửa và kinh nghiệm tham quan",
+        "why": "stale",
+        "content_hash": "1cedf563cfdadc1e4b3bafa07d97d0868a00d865df06edb4c401019a91229635",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:34:18.662825+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "fc0faad9d9f126214b9d84362a1f7af7ad49b302cc0bca86b4fcd2073211918f",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

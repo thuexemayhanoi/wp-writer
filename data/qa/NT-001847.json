@@ -1,0 +1,466 @@
+{
+  "topic_id": "NT-001847",
+  "status": "PASS",
+  "source_sha256": "4fff9ca71da0c822562dcfdf3b5cf9d4f6f283ab5a8062920c431259c237901f",
+  "body_sha256": "ab0b436480f41f65251489458e310e5b189e1ffca4213c76fa08c5bad717245b",
+  "word_count": 2976,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "supports": "Văn bản hợp nhất 41/VBHN-BCA (Thông tư 79/2024/TT-BCA đã được Thông tư 13/2025 và Thông tư 51/2025 sửa đổi) đăng trên laichau.gov.vn, cập nhật 14/11/2025: Điều 10 giấy tờ của chủ xe (người Việt, người nước ngoài là thành viên cơ quan ngoại giao hoặc sinh sống, làm việc tại Việt Nam xuất trình thẻ thường trú hoặc thẻ tạm trú còn thời hạn cư trú từ 06 tháng, người được ủy quyền nộp văn bản ủy quyền có công chứng hoặc chứng thực), Điều 4 cơ quan đăng ký xe, Điều 8, 12, 14 và Điều 39 khoản 9",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.camau.gov.vn/quan-ly-bien-so-xe-theo-ma-dinh-danh-cua-chu-xe.6362",
+      "supports": "Bài trên cổng PBGDPL tỉnh Cà Mau (08/04/2025) về Luật Trật tự, an toàn giao thông đường bộ 2024 và Thông tư 79/2024/TT-BCA: từ 01/01/2025 biển số xe được quản lý theo mã định danh của chủ xe; chủ xe là người nước ngoài thì quản lý theo số định danh của người nước ngoài hoặc số thẻ thường trú, thẻ tạm trú hoặc số chứng minh thư khác",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "supports": "Văn bản hợp nhất 41/VBHN-BCA (laichau.gov.vn, đăng 14/11/2025), Điều 10 khoản 2 điểm b: người nước ngoài sinh sống và làm việc tại Việt Nam xuất trình thẻ thường trú hoặc thẻ tạm trú còn thời hạn cư trú từ 06 tháng trở lên",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "supports": "Điều 10 khoản 2 điểm a: thành viên cơ quan đại diện ngoại giao, lãnh sự, tổ chức quốc tế xuất trình chứng minh thư các loại còn giá trị sử dụng và nộp giấy giới thiệu của Cục Lễ tân Nhà nước, Bộ Ngoại giao hoặc Sở Ngoại vụ",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "supports": "Điều 10 khoản 4: người được ủy quyền ngoài giấy tờ của chủ xe còn phải xuất trình giấy tờ tùy thân và nộp văn bản ủy quyền có công chứng hoặc chứng thực",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "supports": "Điều 4 khoản 4: Công an cấp xã đăng ký xe mô tô của tổ chức, cá nhân trong nước có trụ sở, cư trú trong tỉnh, thành phố",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "supports": "Điều 4 khoản 5: Giám đốc Công an tỉnh, thành phố thống nhất với Cục trưởng Cục Cảnh sát giao thông quyết định tổ chức điểm đăng ký của Phòng Cảnh sát giao thông và việc đăng ký xe của Công an cấp xã",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "supports": "Điều 8: hồ sơ đăng ký xe lần đầu gồm năm thành phần (giấy khai, giấy tờ của chủ xe, chứng nhận nguồn gốc, chứng nhận quyền sở hữu hợp pháp, chứng từ hoàn thành nghĩa vụ tài chính)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "supports": "Điều 14 khoản 3: đăng ký trực tiếp thì chủ xe kê khai giấy khai, đưa xe đến cơ quan đăng ký xe để kiểm tra và nộp giấy tờ theo các Điều 10, 11, 12 và 13",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "supports": "Điều 14 khoản 1: đăng ký xe lần đầu bằng dịch vụ công trực tuyến toàn trình ghi \"cho công dân Việt Nam\"",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "supports": "Điều 39 khoản 9: đăng ký xe lần đầu trực tuyến toàn trình với chủ xe là tổ chức, người nước ngoài áp dụng khi chủ xe có tài khoản định danh điện tử mức độ 2 trở lên",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "supports": "Điều 6 khoản 5 điểm b: trong 30 ngày kể từ ngày làm giấy tờ chuyển quyền sở hữu xe, chủ xe đứng tên phải làm thủ tục thu hồi",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "supports": "Điều 6 khoản 7: người đứng tên trong chứng nhận đăng ký xe tiếp tục chịu trách nhiệm của chủ xe khi chưa thu hồi",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "supports": "Điều 5 khoản 3: hồ sơ không đúng thủ tục thì cán bộ hướng dẫn cụ thể, đầy đủ và ghi vào phiếu hướng dẫn hồ sơ",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "supports": "Điều 7 khoản 1 điểm a: cấp mới chứng nhận đăng ký xe không quá 02 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "supports": "Phần mở đầu bản hợp nhất 41/VBHN-BCA: Thông tư 79/2024/TT-BCA ngày 15/11/2024, hiệu lực 01/01/2025, được sửa đổi bởi Thông tư 13/2025/TT-BCA và Thông tư 51/2025/TT-BCA",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "supports": "Điều 3 khoản 2: chủ xe cư trú (thường trú, tạm trú) ở địa phương nào thì đăng ký xe tại cơ quan đăng ký xe thuộc địa phương đó, trừ khoản 8 và khoản 9",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "supports": "Điều 3 khoản 9: tổ chức, cá nhân trong nước được lựa chọn đăng ký xe tại Phòng Cảnh sát giao thông hoặc Công an cấp xã trong tỉnh, thành phố",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "supports": "Điều 3 khoản 3 điểm d: khi chuyển quyền sở hữu xe, biển số định danh được thu hồi và giữ lại cho chủ xe 05 năm để cấp lại khi đăng ký xe khác",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.camau.gov.vn/quy-dinh-ve-thu-tuc-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe.8381",
+      "supports": "Bài trang Phổ biến giáo dục pháp luật tỉnh Cà Mau: ngày 18/5/2026 Bộ trưởng Bộ Công an ban hành Thông tư 62/2026/TT-BCA, sửa đổi, bổ sung Thông tư 79/2024/TT-BCA về thủ tục thu hồi chứng nhận đăng ký xe, biển số xe",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.camau.gov.vn/quan-ly-bien-so-xe-theo-ma-dinh-danh-cua-chu-xe.6362",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laichau.gov.vn/tin-tuc-su-kien/chuyen-de/tin-trong-nuoc/van-ban-hop-nhat-thong-tu-quy-dinh-ve-cap-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe-co-gioi-xe-may-chuyen-dung.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.camau.gov.vn/quy-dinh-ve-thu-tuc-thu-hoi-chung-nhan-dang-ky-xe-bien-so-xe.8381",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2419,
+        "title": "Các mẫu xe máy điện Yadea đáng chú ý cho nhu cầu đi lại hằng ngày",
+        "why": "stale",
+        "content_hash": "7bc38bc17116cc544098848d7efca54f1bc888d1f57abe8145c1da084d9bbeb5",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2513,
+        "title": "Dấu hiệu má phanh xe máy cần thay và cách kiểm tra an toàn hằng ngày",
+        "why": "stale",
+        "content_hash": "f1040fa1950d3342eebff669b05d5319f4be2c2517c80ecddf1b4b239e6f5f16",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2540,
+        "title": "Xe máy hao xăng bất thường do đâu? Các nguyên nhân thường gặp",
+        "why": "stale",
+        "content_hash": "5c70a54e235309eb24f97e3e7ea779c89f838366ff1a2bd96487d780ea3eb0c2",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2559,
+        "title": "Các loại bằng lái xe máy hiện nay và cách phân biệt từng hạng",
+        "why": "stale",
+        "content_hash": "1dbe75f2df7dd3b894e673123e9c56ffdda9c772f072b8cb4682f49b0f264d0e",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4345,
+        "title": "Thuê xe máy phường Cửa Nam: chọn Air Blade, tính gói ngày hay tuần?",
+        "why": "stale",
+        "content_hash": "fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:29:43.191678+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "e32d51f52a0751fcd38bef59ccbf82ec90fe5462412402ad2cecc192ded3919f",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

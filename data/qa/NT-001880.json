@@ -1,0 +1,169 @@
+{
+  "topic_id": "NT-001880",
+  "status": "PASS",
+  "source_sha256": "0c3ff18c85e76920ca58f4f3c04d24614e96df65ec321f3f83f6c6f7b9918929",
+  "body_sha256": "1ef11aa8386f85b9a968783b25dceffea1099c348173f38d5282eb34c125fda5",
+  "word_count": 1782,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://thanhnien.vn/ha-noi-to-chuc-festival-bao-ton-va-phat-trien-lang-nghe-toan-cau-lan-thu-nhat-185261014114406741.htm",
+      "supports": "Thanh Niên (14/10/2026, đọc 22/10/2026): Kế hoạch số 395/KHLT-UBND-BNNMT ngày 12/10/2026 về Festival Bảo tồn và Phát triển làng nghề toàn cầu lần thứ nhất năm 2026; khoảng 200 đại biểu từ 40-50 quốc gia; địa điểm chính Hoàng thành Thăng Long khoảng 10.000 m2; khai mạc dự kiến 19 giờ 14/11/2026; không gian trưng bày mở cửa 13-16/11; hội nghị xúc tiến đầu tư sáng 14/11 tại Bát Tràng.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/khoang-50-quoc-gia-tham-gia-festival-bao-ton-va-phat-trien-lang-nghe-toan-cau-tai-ha-noi-post1887471.tpo",
+      "supports": "Tiền Phong (22/10/2026, đọc 22/10/2026): festival diễn ra từ 13 đến 16/11 tại Hoàng thành Thăng Long; hội nghị chiều 19/10 với các làng nghề Bát Tràng, Sơn Đồng, Chuyên Mỹ, Vạn Phúc; bố trí hai khu vực, khu Hà Nội bốn không gian, mỗi làng nghề đăng ký 5-10 gian hàng, khu trình diễn của nghệ nhân.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://thanhnien.vn/ha-noi-to-chuc-festival-bao-ton-va-phat-trien-lang-nghe-toan-cau-lan-thu-nhat-185261014114406741.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/khoang-50-quoc-gia-tham-gia-festival-bao-ton-va-phat-trien-lang-nghe-toan-cau-tai-ha-noi-post1887471.tpo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2428,
+        "title": "Dat Bike và VinFast: hãng nào phù hợp người thường xuyên đi xa?",
+        "why": "stale",
+        "content_hash": "8cb4cfc90c1561cb4c7dda67912d337a2c3081d39753b6d91e45717fd20b02b7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2517,
+        "title": "Xe ga rung khi tăng tốc do đâu? Các nguyên nhân thường gặp khi dùng",
+        "why": "stale",
+        "content_hash": "44f236046c1f74ea9761d7bd0ae2d3b0ea286bc2118a85e0aadf8beb2df1afc1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2529,
+        "title": "Cách kiểm tra còi và gương chiếu hậu trước khi bắt đầu hành trình",
+        "why": "stale",
+        "content_hash": "007f62b63a70ea6f8600145b8d2ee9f85f0b8517ada9e45e7d465ddc4a57917a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2588,
+        "title": "Xe số nào tiết kiệm cho người ở Hà Nội từ một đến ba tháng dài ngày?",
+        "why": "stale",
+        "content_hash": "3999a6360763f969b09aaaedde2cebedb8d5351b1b6007c094286363fe5cecfa",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:32:20.600903+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "095fdbb7208e2ada31df3d367f7aa47133fef14879206646a63dc638b3461ebe",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

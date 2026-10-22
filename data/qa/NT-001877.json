@@ -1,0 +1,169 @@
+{
+  "topic_id": "NT-001877",
+  "status": "PASS",
+  "source_sha256": "7787a3176c09df00582ed62ac9beca1257477a0a7b0adc28d567c6065df6d769",
+  "body_sha256": "0d571d8d94b7f89bda27c8894a49abeb2875cc6c4afa827b6aeaefe2d44a473d",
+  "word_count": 2206,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://kinhtedothi.vn/tu-1-1-2025-cot-co-ha-noi-mo-cua-don-khach.html",
+      "supports": "Kinh tế Đô thị (31/12/2024, đọc 22/10/2026): từ 1/1/2025 Trung tâm Bảo tồn di sản Thăng Long – Hà Nội mở cửa cho khách tham quan Cột cờ Hà Nội, công trình bàn giao từ Bảo tàng Lịch sử quân sự Việt Nam ngày 25/12; vị trí đường Điện Biên Phủ, xây năm 1812, số đo ba tầng đế, thân cột 18,2 m, 54 bậc, cao 33,4 m; cờ đỏ sao vàng 10/10/1954, di tích lịch sử 1989.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/kham-pha-khong-gian-ben-trong-cot-co-ha-noi-post1805895.tpo",
+      "supports": "Tiền Phong (19/12/2025, đọc 22/10/2026): lễ khai mạc tour Ký ức Cột cờ chiều 18/12; lộ trình các tầng 1-3, leo lên đỉnh, show Họa nét Hà thành khoảng 15 phút; tour dự kiến phục vụ Tết Dương lịch 2026 và Tết Nguyên đán Bính Ngọ.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://kinhtedothi.vn/tu-1-1-2025-cot-co-ha-noi-mo-cua-don-khach.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/kham-pha-khong-gian-ben-trong-cot-co-ha-noi-post1805895.tpo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 943,
+        "title": "Phố Cổ Hà Nội – Nơi Giao Thoa Văn Hóa Độc Đáo",
+        "why": "stale",
+        "content_hash": "94ed04161842457043a170418b41d6c31cc9b9522a3b85831cffd732ec7d987c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2625,
+        "title": "Nhà tù Hỏa Lò Hà Nội: Giá vé, giờ mở cửa và kinh nghiệm đi tour đêm",
+        "why": "stale",
+        "content_hash": "fc86cac4da1911528d32104d0969754534fb81041738085bfe6eb76c69849a7a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4047,
+        "title": "Thuê xe máy Hà Nội 2 ngày 1 đêm: tính tiền theo mốc nào và trả xe lúc nào?",
+        "why": "stale",
+        "content_hash": "ff3360a833efc7ccb2778f577426a6ccdec6c16a3c8c30c58243ba9e9175e695",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4048,
+        "title": "Thuê xe máy Hà Nội khi xe cá nhân đang sửa: chọn kỳ thuê và gia hạn nếu gara trễ",
+        "why": "stale",
+        "content_hash": "5eaf7d3b4d760f2a4ab0df94807fe114a8927ceb0af3b0ea5d1d59453a46f20d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:30:15.542572+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "848ddaa3ae860eda4a503844cebc561d52cec1d5e184ef99454c178d437a82f0",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
