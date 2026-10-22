@@ -1,0 +1,194 @@
+{
+  "topic_id": "NT-091263",
+  "status": "PASS",
+  "source_sha256": "cad79e8cc7f0f16a9dd17e24bcc791a568d37adb490015d2ff5f42afc99256ad",
+  "body_sha256": "068d16c4ffe4804caca5ea561fff2f34f6e2afbf01495c294b8a74e72d8f176e",
+  "word_count": 2844,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/d3a2d680-8513-4280-8d9e-85c7645f7630?page=/",
+      "supports": "Trang hỏi đáp của Bộ Công an (mps.gov.vn) trả lời phụ huynh có con 16 tuổi lái xe gắn máy 50 cm³ đi học: trích điểm g khoản 1 Điều 34 (định nghĩa xe gắn máy), khoản 4 Điều 56 (điều kiện người điều khiển), điểm a khoản 1 Điều 59 (đủ 16 tuổi được điều khiển xe gắn máy), khoản 1 Điều 56 (giấy tờ phải mang theo) và điểm a khoản 1 Điều 5 Luật Xử lý vi phạm hành chính (người đủ 16 tuổi chịu trách nhiệm hành chính); bài đọc các điều qua câu trả lời này.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/x--95942",
+      "supports": "Văn bản Bộ luật Dân sự 91/2015/QH13 trên vbpl.vn (không đối chiếu văn bản sửa đổi): Điều 21 khoản 4 (người từ đủ 15 đến chưa đủ 18 tuổi tự xác lập giao dịch, trừ bất động sản, động sản phải đăng ký và giao dịch khác phải có người đại diện đồng ý), Điều 136 khoản 1 (cha, mẹ là người đại diện), Điều 125 khoản 1 và 2 (tuyên vô hiệu theo yêu cầu người đại diện, ngoại lệ), Điều 407 khoản 1 và Điều 586 khoản 2 (bồi thường bằng tài sản của mình, cha mẹ bù phần thiếu).",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.haiphong.gov.vn/Cong-tac-PBGDPL/Giao-dich-dan-su-cua-nguoi-chua-thanh-nien-theo-Bo-Luat-Dan-su-nam-2015-133687.html",
+      "supports": "Trang phổ biến giáo dục pháp luật Hải Phòng (pbgdpl.haiphong.gov.vn) giải thích giao dịch dân sự của người chưa thành niên theo từng độ tuổi: Điều 136 (cha, mẹ là người đại diện theo pháp luật), khoản 2 Điều 125 (ba trường hợp giao dịch không bị vô hiệu), người từ đủ 15 đến 18 tuổi cần người đại diện đồng ý khi liên quan đến động sản phải đăng ký, và Điều 117 (điều kiện có hiệu lực của giao dịch).",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/d3a2d680-8513-4280-8d9e-85c7645f7630?page=/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/x--95942",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.haiphong.gov.vn/Cong-tac-PBGDPL/Giao-dich-dan-su-cua-nguoi-chua-thanh-nien-theo-Bo-Luat-Dan-su-nam-2015-133687.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 901,
+        "title": "Chi Phí Thuê Xe Máy 50cc Tại Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "dd3ae63a9ffa1852f685eb6c6e4b0516c7002ebd707c56529bbee20f28481f74",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2346,
+        "title": "Top xe máy điện đáng chú ý năm 2026 cho nhu cầu đi lại hằng ngày",
+        "why": "stale",
+        "content_hash": "c7b5d7cca26b30a8483ce0a25e3d5de7d28c48a734a1969cf0ab5c477bf745b6",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2610,
+        "title": "Top địa điểm du lịch đẹp ở Hà Nội: Đi đâu, chơi gì và check-in ở đâu?",
+        "why": "stale",
+        "content_hash": "aa42ffbfca0e3b4188fde1e3cf3a06d9f9b9496580487304e5dbbd316db1a856",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4049,
+        "title": "Thuê xe máy điện ở chung cư Hà Nội không có chỗ sạc riêng: cần kiểm tra gì trước khi đặt?",
+        "why": "stale",
+        "content_hash": "60ea270b75576e53780d251f2026ebec6088930775beded46df2ce5bc3601d66",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4050,
+        "title": "Thuê xe máy đi làm theo ca ở Hà Nội: chọn giờ nhận, gửi xe và trả xe đúng hạn",
+        "why": "stale",
+        "content_hash": "f5a41002206250a00b0d4b19ec54ada261a36c020a5c2f89aa531c79304f4012",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T06:31:22.112179+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "8ce341f3e0f805ae7091efae941f3173e2b00a925255f724d67481c2c86d6cc0",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

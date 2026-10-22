@@ -1,6 +1,6 @@
 # Pipeline board
 
-Generated 2026-10-22T06:23:41.237988+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-22T06:32:06.147776+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
@@ -10,7 +10,7 @@ Generated 2026-10-22T06:23:41.237988+00:00 from leases, drafts, QA records, rece
 | REPAIR | 0 |
 | HELD | 3 |
 | PUBLISHING | 0 |
-| VERIFIED | 678 |
+| VERIFIED | 680 |
 
 Ready backlog (QA PASS waiting for the Publisher): **0**
 
