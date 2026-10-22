@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-22T09:57:48.261692+00:00",
+  "at": "2026-10-22T10:01:58.576256+00:00",
   "counts": {
-    "WRITING": 16,
+    "WRITING": 15,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 700
+    "VERIFIED": 701
   },
   "ready_backlog": 0,
-  "in_flight": 19,
+  "in_flight": 18,
   "items": [
     {
       "topic_id": "NT-001635",
@@ -187,18 +187,6 @@
       "title": "Xe máy biển nước ngoài vào Việt Nam du lịch: xe dẫn đường, giấy tờ cần mang và thủ tục chấp thuận",
       "slot": "W4",
       "session": "seodev-w78",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-090299",
-      "state": "WRITING",
-      "reason": "leased to s-claude-df7eb8c1-20261022",
-      "title": "Mất giấy phép lái xe còn hạn: cấp lại theo Điều 20 Thông tư 108/2026, hai trường hợp bị từ chối",
-      "slot": "W2",
-      "session": "s-claude-df7eb8c1-20261022",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -8445,6 +8433,18 @@
       "session": "s-claude-df7eb8c1-20261022",
       "wp_id": 4770,
       "url": "https://thuexemaynguyentu.com/bien-p-111a-cam-xe-gan-may-p-104-cam-xe-may-va-p-103a-cam-xe-o-to-xe-50cc-bi-cam-o-bien-nao/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-090299",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Mất giấy phép lái xe còn hạn: cấp lại theo Điều 20 Thông tư 108/2026, hai trường hợp bị từ chối",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": 4776,
+      "url": "https://thuexemaynguyentu.com/mat-giay-phep-lai-xe-con-han-cap-lai-theo-dieu-20-thong-tu-108-2026-hai-truong-hop-bi-tu-choi/",
       "qa_status": "PASS",
       "seo_score": 100
     },

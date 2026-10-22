@@ -1,0 +1,240 @@
+{
+  "topic_id": "NT-090299",
+  "status": "PASS",
+  "source_sha256": "9d36cc84bfc1d6217d257aaf1cad51440c577b5da9247908769463c0fc843dba",
+  "body_sha256": "448247897695c77c99f7a8f60ee2fe67d69f3fed1edfeb4f0719ef613f82ec69",
+  "word_count": 2703,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vanban.bocongan.gov.vn/co-so-du-lieu-van-ban/thong-tu-quy-dinh-ve-sat-hach-cap-giay-phep-lai-xe-cap-su-dung-giay-phep-lai-xe-quoc-te-1784191590",
+      "supports": "Cơ sở dữ liệu văn bản của Bộ Công an (vanban.bocongan.gov.vn), đọc 22/10/2026: Thông tư 108/2026/TT-BCA, tình trạng 'Còn hiệu lực', ngày có hiệu lực 01/07/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/media/bca-media/library-20260723141819-a2ce5861-a0e9-45b6-8d7b-84d13e58c7ad-thong-tu-so-108-2026.pdf",
+      "supports": "Bản PDF chính thức của Thông tư trên bocongan.gov.vn, lớp chữ nhận dạng bị lỗi (mất dấu, sai chữ): đọc được Điều 20 khoản 1 (người có giấy phép còn thời hạn bị mất được đề nghị cấp lại theo khoản 2, 3, 4 Điều 21), đoạn cuối khoản 2 và các câu trích của Điều 21 về mốc 01 ngày và 2,5 ngày làm việc.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thuvienphapluat.vn/van-ban/Giao-thong-Van-tai/Thong-tu-108-2026-TT-BCA-sat-hach-cap-giay-phep-lai-xe-704772.aspx",
+      "supports": "Bản chép lại chữ rõ của Điều 20 Thông tư 108/2026/TT-BCA trên thuvienphapluat.vn (trang tư nhân, không chính thức): khoản 1 cấp lại giấy phép còn thời hạn bị mất theo khoản 2, 3, 4 Điều 21; khoản 2 hai trường hợp không cấp lại.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.cantho.gov.vn/cac-truong-hop-doi-giay-phep-lai-xe-tu-thang-72026",
+      "supports": "Trang phổ biến pháp luật thành phố Cần Thơ (Sở Tư pháp), bài 09/07/2026: chép khoản 3 Điều 21 Thông tư 108/2026/TT-BCA về trình tự thực hiện (nộp hồ sơ trực tuyến hoặc trực tiếp tại Công an cấp xã hay Phòng Cảnh sát giao thông; kiểm tra, xác minh theo mẫu số 01 Phụ lục X; 01 ngày cấp và tích hợp; 2,5 ngày làm việc in và trả; hướng dẫn bổ sung trong 02 ngày làm việc), dưới tên thủ tục đổi giấy phép.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.camau.gov.vn/ch9/8988-Nhung-diem-moi-quan-trong-ve-sat-hach-va-cap-giay-phep-lai-xe.html",
+      "supports": "Trang của Công an tỉnh Cà Mau (congan.camau.gov.vn), cập nhật 27-07-2026: nêu Thông tư 108/2026/TT-BCA có hiệu lực từ 01/7/2026 thay Thông tư 12/2025/TT-BCA và tóm tắt trường hợp từ chối khi mất giấy phép mà không có dữ liệu hoặc người vi phạm chưa chấp hành xong quyết định xử phạt (dùng chữ 'cấp đổi').",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.lamdong.gov.vn/nhung-diem-moi-trong-quy-dinh-ve-sat-hach-cap-giay-phep-lai-xe-ap-dung-tu-ngay-01072026-N7742.aspx",
+      "supports": "Trang của Công an tỉnh Lâm Đồng (congan.lamdong.gov.vn): Thông tư ban hành ngày 29/06/2026; thời gian giải quyết thủ tục đổi giấy phép lái xe giảm từ 05 ngày xuống 2,5 ngày, thời gian tích hợp dữ liệu điện tử giảm từ 03 ngày xuống 01 ngày.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.002820",
+      "supports": "Trang thủ tục 'Cấp lại Giấy phép lái xe' (mã 1.002820) trên Cổng Dịch vụ công quốc gia, đọc 22/10/2026: vẫn ghi cơ quan thực hiện là Sở Giao thông vận tải, thời hạn 05 ngày làm việc và lệ phí 135.000 đồng; khác mốc 01 ngày và 2,5 ngày của Thông tư 108/2026, nên bài không chọn một con số.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vanban.bocongan.gov.vn/co-so-du-lieu-van-ban/thong-tu-quy-dinh-ve-sat-hach-cap-giay-phep-lai-xe-cap-su-dung-giay-phep-lai-xe-quoc-te-1784191590",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/media/bca-media/library-20260723141819-a2ce5861-a0e9-45b6-8d7b-84d13e58c7ad-thong-tu-so-108-2026.pdf",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thuvienphapluat.vn/van-ban/Giao-thong-Van-tai/Thong-tu-108-2026-TT-BCA-sat-hach-cap-giay-phep-lai-xe-704772.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.cantho.gov.vn/cac-truong-hop-doi-giay-phep-lai-xe-tu-thang-72026",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.camau.gov.vn/ch9/8988-Nhung-diem-moi-quan-trong-ve-sat-hach-va-cap-giay-phep-lai-xe.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congan.lamdong.gov.vn/nhung-diem-moi-trong-quy-dinh-ve-sat-hach-cap-giay-phep-lai-xe-ap-dung-tu-ngay-01072026-N7742.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.002820",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2370,
+        "title": "Chi Phí Đi Xe Máy Điện Mỗi Tháng So Với Xe Máy Xăng Phổ Thông: Bài Toán Chi Tiết Từ Người Dùng Thực Tế",
+        "why": "stale",
+        "content_hash": "92d045593ec18a74d2c912be44adc4f392b4b025734668676528c637f6ed0b2d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2403,
+        "title": "Honda CUV e: là mẫu xe gì? Những điểm đáng chú ý khi tìm hiểu",
+        "why": "stale",
+        "content_hash": "e399517f38135cfcf22118ac8b3465e9648764a47a92b9dbf33f6fecefc58540",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4059,
+        "title": "Thuê xe máy đi phỏng vấn ở Hà Nội trong một ngày: xếp lịch, chọn xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "0ffbbff60edf006739890cca423af4e81cb5346ee434c29859648be6bdb57675",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T10:01:36.826701+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "7a0444da5de279d5c81517a5cc557b360f3fe9eb35a04f1631a3b2f89c29834d",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
