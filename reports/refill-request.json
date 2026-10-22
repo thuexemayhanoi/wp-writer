@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "state": "REFILL_OPENED",
-  "ready_stock": 6,
+  "state": "REFILL_IN_PROGRESS",
+  "ready_stock": 13,
   "trigger_below_ready": 900,
   "rounds_opened": 6,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 798,
-  "capacity_remaining": 1202,
+  "topic_rows": 808,
+  "capacity_remaining": 1192,
   "order": {
     "id": "RF-0006",
     "round": 6,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 0,
-    "remaining_to_min": 100,
-    "remaining_to_max": 200,
-    "batches_still_needed": 10,
+    "accepted_so_far": 10,
+    "remaining_to_min": 90,
+    "remaining_to_max": 190,
+    "batches_still_needed": 9,
     "batch_size": 10,
     "capacity_limited": false,
     "stalled": false,
@@ -31,19 +31,19 @@
       {
         "taxonomy_key": "urban-mobility",
         "quota": 13,
-        "known_now": 67,
+        "known_now": 68,
         "allocation": 92
       },
       {
         "taxonomy_key": "electric-transition",
         "quota": 12,
-        "known_now": 18,
+        "known_now": 19,
         "allocation": 41
       },
       {
         "taxonomy_key": "battery-charging",
         "quota": 9,
-        "known_now": 39,
+        "known_now": 40,
         "allocation": 57
       },
       {
@@ -55,7 +55,7 @@
       {
         "taxonomy_key": "green-travel",
         "quota": 7,
-        "known_now": 13,
+        "known_now": 14,
         "allocation": 27
       },
       {
@@ -67,13 +67,13 @@
       {
         "taxonomy_key": "rental-costs",
         "quota": 5,
-        "known_now": 13,
+        "known_now": 14,
         "allocation": 23
       },
       {
         "taxonomy_key": "driving-licence",
         "quota": 4,
-        "known_now": 24,
+        "known_now": 25,
         "allocation": 32
       },
       {
@@ -85,7 +85,7 @@
       {
         "taxonomy_key": "trip-planning",
         "quota": 4,
-        "known_now": 82,
+        "known_now": 83,
         "allocation": 91
       },
       {
@@ -107,14 +107,8 @@
         "allocation": 50
       },
       {
-        "taxonomy_key": "rental-procedures",
-        "quota": 1,
-        "known_now": 34,
-        "allocation": 36
-      },
-      {
         "taxonomy_key": "vietnam-travel",
-        "quota": 1,
+        "quota": 2,
         "known_now": 52,
         "allocation": 55
       }
@@ -122,7 +116,7 @@
     "next_batch_categories": {
       "rental-guide": 2,
       "battery-charging": 1,
-      "driving-licence": 1,
+      "ebikes": 1,
       "electric": 1,
       "electric-transition": 1,
       "green-travel": 1,
@@ -133,9 +127,9 @@
   },
   "dedupe_universe": {
     "published_wordpress_items": 866,
-    "topics_in_factory": 798,
+    "topics_in_factory": 808,
     "topics_by_status": {
-      "PLANNED": 719,
+      "PLANNED": 729,
       "REJECTED": 2,
       "RESEARCH": 77
     },
