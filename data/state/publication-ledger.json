@@ -36935,7 +36935,7 @@
       }
     },
     "NT-001961": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:34:19.098627+00:00",
       "source_hash": "a909f3e11156fc9a6a84b29d6b0aa7d53bbff89485f2c2a3f95e76f2c23256cf",
       "slug": "tet-doan-ngo-mien-bac-an-gi-com-ruou-nep-banh-gio-man-vai-va-tuc-diet-sau-bo",
@@ -36951,8 +36951,37 @@
       "category_warning": null,
       "git_commit": "0a2a030db6e3a6220b4bb13f8d2f3d92b3bde375",
       "run_id": "39804569895",
-      "updated_at": "2026-10-22T15:34:24.914138+00:00",
-      "wp_id": 4849
+      "updated_at": "2026-10-22T15:34:32.090456+00:00",
+      "wp_id": 4849,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tet-doan-ngo-mien-bac-an-gi-com-ruou-nep-banh-gio-man-vai-va-tuc-diet-sau-bo/",
+      "verified_at": "2026-10-22T15:34:32.090449+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4849,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tet-doan-ngo-mien-bac-an-gi-com-ruou-nep-banh-gio-man-vai-va-tuc-diet-sau-bo/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tet-doan-ngo-mien-bac-an-gi-com-ruou-nep-banh-gio-man-vai-va-tuc-diet-sau-bo/",
+        "seo_title": "Tết Đoan Ngọ miền Bắc ăn gì: cơm rượu nếp, bánh gio, mận, vải",
+        "seo_description": "Tết Đoan Ngọ miền Bắc ăn gì: cơm rượu nếp, bánh gio chấm mật mía, mận, vải và tục diệt sâu bọ mùng 5 tháng 5 âm lịch, theo Báo Văn hóa và VnExpress.",
+        "checked_at": "2026-10-22T15:34:32.090429+00:00"
+      }
     }
   },
   "categories": {}
