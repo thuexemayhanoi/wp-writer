@@ -39040,6 +39040,25 @@
         "seo_description": "Xe đạp điện chở hàng được xếp tới đâu theo khoản 5 Điều 31 Luật 36/2024: 1/3 thân xe, 01 mét trước sau, 0,4 mét mỗi bên bánh, khác xe máy và khung phạt.",
         "checked_at": "2026-10-22T16:20:00.398882+00:00"
       }
+    },
+    "NT-090269": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T16:25:43.232221+00:00",
+      "source_hash": "669d3759f613b86d9da46ed0a4b6704003f945c34c929d189ca4c31048513b12",
+      "slug": "du-lich-bang-xe-dap-dien-thai-bao-nhieu-co2-moi-km-luoi-dien-0-6187-tco2-mwh-pin-640-wh",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 177,
+      "visible_hash": "280a70ec4bc4466eb03d6618496c1d298e1f93740e292c31832d8a8dc9b4763a",
+      "first_paragraph": "Xe đạp điện thải bao nhiêu CO2 mỗi km phụ thuộc vào chiếc xe và quãng đường đi thật, nhưng phép tính từ hệ số lưới điện 0,6187 tCO2/MWh cho VinFast VF DrgnFly (pin 640 Wh) ra khoảng 3,6 g CO2/km nếu xe đi đủ 110 km như hãng nêu ở chế độ trợ lực và khoảng 5,3 g CO2/km nếu chỉ đi 75 km ở chế độ tay ga toàn thời gian. Cũng bằng cách tính đó, một xe máy xăng ghi mức tiêu thụ 1,82 lít/100 km ra khoảng 42,7 g CO2/km. Đây là phép tính của người viết, chỉ đếm điện sạc và xăng đốt, chưa gồm sản xuất xe và pin, tổn hao khi sạc hay chuyện quãng đường thực tế có thể ngắn hơn số của hãng.",
+      "meta_title": "Xe đạp điện thải bao nhiêu CO2 mỗi km? Cách tính từ hệ số 0,6187",
+      "meta_description": "Xe đạp điện thải bao nhiêu CO2 mỗi km: tính từ hệ số lưới điện 2024 là 0,6187 tCO2/MWh và pin 640 Wh, so với xe máy xăng, kèm những gì phép tính chưa gồm.",
+      "intended_taxonomy_key": "green-travel",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "f8052e8e8752a18473f6e50d49ad609ccb9029b7",
+      "run_id": "39813289392",
+      "updated_at": "2026-10-22T16:25:43.233896+00:00"
     }
   },
   "categories": {}
