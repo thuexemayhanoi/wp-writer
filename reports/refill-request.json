@@ -1,22 +1,22 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 6,
+  "ready_stock": 11,
   "trigger_below_ready": 900,
   "rounds_opened": 5,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 731,
-  "capacity_remaining": 1269,
+  "topic_rows": 738,
+  "capacity_remaining": 1262,
   "order": {
     "id": "RF-0005",
     "round": 5,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 35,
-    "remaining_to_min": 65,
-    "remaining_to_max": 165,
-    "batches_still_needed": 7,
+    "accepted_so_far": 42,
+    "remaining_to_min": 58,
+    "remaining_to_max": 158,
+    "batches_still_needed": 6,
     "batch_size": 10,
     "capacity_limited": false,
     "stalled": false,
@@ -48,13 +48,13 @@
       },
       {
         "taxonomy_key": "electric",
-        "quota": 6,
+        "quota": 7,
         "known_now": 43,
         "allocation": 59
       },
       {
         "taxonomy_key": "green-travel",
-        "quota": 6,
+        "quota": 7,
         "known_now": 11,
         "allocation": 27
       },
@@ -113,12 +113,6 @@
         "allocation": 27
       },
       {
-        "taxonomy_key": "food-culture",
-        "quota": 2,
-        "known_now": 27,
-        "allocation": 32
-      },
-      {
         "taxonomy_key": "legal",
         "quota": 2,
         "known_now": 46,
@@ -143,10 +137,10 @@
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 802,
-    "topics_in_factory": 731,
+    "published_wordpress_items": 803,
+    "topics_in_factory": 738,
     "topics_by_status": {
-      "PLANNED": 654,
+      "PLANNED": 661,
       "REJECTED": 2,
       "RESEARCH": 75
     },
