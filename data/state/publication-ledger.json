@@ -37964,7 +37964,7 @@
       }
     },
     "NT-001976": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:56:54.608772+00:00",
       "source_hash": "d71ed45b0e70c1d0dce644653e7fd040c0ce7bbc32c626d74a474665555138a9",
       "slug": "le-hoi-long-tong-cua-nguoi-tay-tuyen-quang-ruoc-mam-tong-va-cay-tich-dien",
@@ -37980,8 +37980,37 @@
       "category_warning": null,
       "git_commit": "18322d4fb6c4e2fe50de87cdd8c8c8928ff2de0a",
       "run_id": "39808188049",
-      "updated_at": "2026-10-22T15:56:58.858658+00:00",
-      "wp_id": 4870
+      "updated_at": "2026-10-22T15:57:05.411911+00:00",
+      "wp_id": 4870,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/le-hoi-long-tong-cua-nguoi-tay-tuyen-quang-ruoc-mam-tong-va-cay-tich-dien/",
+      "verified_at": "2026-10-22T15:57:05.411904+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4870,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/le-hoi-long-tong-cua-nguoi-tay-tuyen-quang-ruoc-mam-tong-va-cay-tich-dien/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/le-hoi-long-tong-cua-nguoi-tay-tuyen-quang-ruoc-mam-tong-va-cay-tich-dien/",
+        "seo_title": "Lễ hội Lồng Tông của người Tày: rước mâm tồng và cày tịch điền",
+        "seo_description": "Lễ hội Lồng Tông của người Tày ở Tuyên Quang: ý nghĩa xuống đồng, rước mâm tồng, thầy mo khai lộ, cày tịch điền, múa và trò chơi theo hai bài báo.",
+        "checked_at": "2026-10-22T15:57:05.411883+00:00"
+      }
     }
   },
   "categories": {}
