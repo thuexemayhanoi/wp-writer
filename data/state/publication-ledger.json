@@ -33162,7 +33162,7 @@
       }
     },
     "NT-090520": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T09:41:59.668897+00:00",
       "source_hash": "53972dc7b69a042bcf395af5f68916a58f88bdf809e30d176d2bae5f07e48a43",
       "slug": "xe-buyt-ha-noi-chay-den-may-gio-tuyen-33-den-21h15-tuyen-54-den-21h00-tuyen-96-tuy-dau-ben",
@@ -33178,8 +33178,37 @@
       "category_warning": null,
       "git_commit": "e5afab9dcc87db1063a6df09e54a4a93ad48b2d4",
       "run_id": "39756930466",
-      "updated_at": "2026-10-22T09:42:03.979461+00:00",
-      "wp_id": 4772
+      "updated_at": "2026-10-22T09:42:09.963360+00:00",
+      "wp_id": 4772,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-buyt-ha-noi-chay-den-may-gio-tuyen-33-den-21h15-tuyen-54-den-21h00-tuyen-96-tuy-dau-ben/",
+      "verified_at": "2026-10-22T09:42:09.963352+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4772,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-buyt-ha-noi-chay-den-may-gio-tuyen-33-den-21h15-tuyen-54-den-21h00-tuyen-96-tuy-dau-ben/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-buyt-ha-noi-chay-den-may-gio-tuyen-33-den-21h15-tuyen-54-den-21h00-tuyen-96-tuy-dau-ben/",
+        "seo_title": "Xe buýt Hà Nội chạy đến mấy giờ: tuyến 33, 54, 92, 96 theo Transerco",
+        "seo_description": "Xe buýt Hà Nội chạy đến mấy giờ? Thông báo Transerco 2026: tuyến 33 đến 21h15, tuyến 54 đến 21h00, tuyến 92 đóng bến 21h30, tuyến 96 lệch 10 phút giữa hai đầu bến.",
+        "checked_at": "2026-10-22T09:42:09.963330+00:00"
+      }
     }
   },
   "categories": {}
