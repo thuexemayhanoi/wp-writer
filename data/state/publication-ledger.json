@@ -36592,7 +36592,7 @@
       }
     },
     "NT-001847": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:29:43.439988+00:00",
       "source_hash": "4fff9ca71da0c822562dcfdf3b5cf9d4f6f283ab5a8062920c431259c237901f",
       "slug": "nguoi-nuoc-ngoai-dang-ky-xe-may-o-viet-nam-the-thuong-tru-hoac-tam-tru-con-han-6-thang-va-noi-nop",
@@ -36608,8 +36608,37 @@
       "category_warning": null,
       "git_commit": "0a2a030db6e3a6220b4bb13f8d2f3d92b3bde375",
       "run_id": "39804569895",
-      "updated_at": "2026-10-22T15:29:49.220711+00:00",
-      "wp_id": 4842
+      "updated_at": "2026-10-22T15:29:55.947492+00:00",
+      "wp_id": 4842,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nguoi-nuoc-ngoai-dang-ky-xe-may-o-viet-nam-the-thuong-tru-hoac-tam-tru-con-han-6-thang-va-noi-nop/",
+      "verified_at": "2026-10-22T15:29:55.947483+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4842,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nguoi-nuoc-ngoai-dang-ky-xe-may-o-viet-nam-the-thuong-tru-hoac-tam-tru-con-han-6-thang-va-noi-nop/",
+        "categories": [
+          171
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nguoi-nuoc-ngoai-dang-ky-xe-may-o-viet-nam-the-thuong-tru-hoac-tam-tru-con-han-6-thang-va-noi-nop/",
+        "seo_title": "Người nước ngoài đăng ký xe máy ở Việt Nam: thẻ còn hạn 6 tháng",
+        "seo_description": "Người nước ngoài đăng ký xe máy ở Việt Nam cần thẻ thường trú hoặc thẻ tạm trú còn hạn 06 tháng, nơi nộp, hồ sơ lần đầu và ủy quyền theo Điều 10 Thông tư 79/2024.",
+        "checked_at": "2026-10-22T15:29:55.947462+00:00"
+      }
     }
   },
   "categories": {}
