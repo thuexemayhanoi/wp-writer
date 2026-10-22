@@ -39385,7 +39385,7 @@
       }
     },
     "NT-001942": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T20:27:08.492321+00:00",
       "source_hash": "9dbf949e5114783dcfc9be2bb264cc650e571c78494f7a123538bd4bba5a987e",
       "slug": "le-hoi-den-cong-dong-bac-le-2026-27-29-10-o-lang-son-chinh-hoi-ngay-29-10",
@@ -39401,8 +39401,37 @@
       "category_warning": null,
       "git_commit": "0f9a50b094d918616a1140dd42ec356dea70ad7e",
       "run_id": "39848245296",
-      "updated_at": "2026-10-22T20:27:13.175467+00:00",
-      "wp_id": 5009
+      "updated_at": "2026-10-22T20:27:19.447661+00:00",
+      "wp_id": 5009,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/le-hoi-den-cong-dong-bac-le-2026-27-29-10-o-lang-son-chinh-hoi-ngay-29-10/",
+      "verified_at": "2026-10-22T20:27:19.447653+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 5009,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/le-hoi-den-cong-dong-bac-le-2026-27-29-10-o-lang-son-chinh-hoi-ngay-29-10/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/le-hoi-den-cong-dong-bac-le-2026-27-29-10-o-lang-son-chinh-hoi-ngay-29-10/",
+        "seo_title": "Lễ hội đền Công đồng Bắc Lệ 2026: 27–29/10, chính hội ngày 29/10",
+        "seo_description": "Lễ hội đền Công đồng Bắc Lệ 2026 ở xã Tân Thành, Lạng Sơn diễn ra 27–29/10 (18–20/9 âm lịch), chính hội 29/10, chương trình nghệ thuật dự kiến 20 giờ ngày 28/10.",
+        "checked_at": "2026-10-22T20:27:19.447629+00:00"
+      }
     }
   },
   "categories": {}
