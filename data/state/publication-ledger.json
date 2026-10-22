@@ -35906,7 +35906,7 @@
       }
     },
     "NT-085505": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T14:43:44.848533+00:00",
       "source_hash": "e5de5f3c92380d7a34f063e1b119dab7a6440ec824cd9d1a5b6e8cd9ec994180",
       "slug": "di-xe-dap-dien-sau-khi-uong-ruou-bia-bi-phat-100-000-600-000-dong-xe-may-dien-phat-2-10-trieu",
@@ -35922,8 +35922,37 @@
       "category_warning": null,
       "git_commit": "dd8b2cc91a69809cd77546241081a977ff9964dc",
       "run_id": "39796935847",
-      "updated_at": "2026-10-22T14:43:49.585812+00:00",
-      "wp_id": 4828
+      "updated_at": "2026-10-22T14:43:56.818112+00:00",
+      "wp_id": 4828,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/di-xe-dap-dien-sau-khi-uong-ruou-bia-bi-phat-100-000-600-000-dong-xe-may-dien-phat-2-10-trieu/",
+      "verified_at": "2026-10-22T14:43:56.818105+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4828,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/di-xe-dap-dien-sau-khi-uong-ruou-bia-bi-phat-100-000-600-000-dong-xe-may-dien-phat-2-10-trieu/",
+        "categories": [
+          157
+        ],
+        "canonical": "https://thuexemaynguyentu.com/di-xe-dap-dien-sau-khi-uong-ruou-bia-bi-phat-100-000-600-000-dong-xe-may-dien-phat-2-10-trieu/",
+        "seo_title": "Xe đạp điện uống rượu bia phạt 100–600 nghìn, xe máy điện 2–10 triệu",
+        "seo_description": "Xe đạp điện uống rượu bia bị phạt 100.000–600.000 đồng theo Điều 9 Nghị định 168/2024, xe gắn máy điện 2–10 triệu đồng theo Điều 7: ba mức nồng độ cồn và cách đọc đơn vị đo.",
+        "checked_at": "2026-10-22T14:43:56.818086+00:00"
+      }
     }
   },
   "categories": {}
