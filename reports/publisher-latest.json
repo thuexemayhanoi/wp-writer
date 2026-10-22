@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-22T03:54:39.922106+00:00",
-  "attempted": 2,
+  "at": "2026-10-22T03:59:38.208380+00:00",
+  "attempted": 3,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -191,11 +191,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T03:53:12.175148+00:00",
+      "at": "2026-10-22T03:57:55.427822+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "74f23e6306b681e8df1e9960faa17dc02a9a6d2b2057d0c3bff6ed41dd929edd",
+      "inventory_sha256": "70fc741680bcf416fe0aedfe148e41d917c8b766c792b771efef314acc15750a",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -362,11 +362,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T03:53:21.974263+00:00",
+      "at": "2026-10-22T03:58:03.050815+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "74f23e6306b681e8df1e9960faa17dc02a9a6d2b2057d0c3bff6ed41dd929edd",
+      "inventory_sha256": "70fc741680bcf416fe0aedfe148e41d917c8b766c792b771efef314acc15750a",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -550,11 +550,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T03:53:29.858579+00:00",
+      "at": "2026-10-22T03:58:09.758386+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "74f23e6306b681e8df1e9960faa17dc02a9a6d2b2057d0c3bff6ed41dd929edd",
+      "inventory_sha256": "70fc741680bcf416fe0aedfe148e41d917c8b766c792b771efef314acc15750a",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -574,7 +574,7 @@
       }
     },
     {
-      "topic_id": "NT-001454",
+      "topic_id": "NT-001455",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 166,
       "category_resolution": "EXACT",
@@ -582,11 +582,19 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001483",
+      "topic_id": "NT-001484",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 171,
       "category_resolution": "EXACT",
       "intended_taxonomy_key": "driving-licence",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001511",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 165,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "rental-50cc",
       "category_warning": null
     }
   ],
