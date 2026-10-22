@@ -35220,7 +35220,7 @@
       }
     },
     "NT-002021": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T11:24:52.282191+00:00",
       "source_hash": "1727ec33c4933299324584fd36d9fa01aa804b40d003eac0892c26f50a245845",
       "slug": "xuan-thuy-thuoc-tinh-nao-ninh-binh-cach-ha-noi-150-km-va-ba-diem-du-lich-moi",
@@ -35236,8 +35236,37 @@
       "category_warning": null,
       "git_commit": "abb53e9a25e04324f37450d57629e87b655db50f",
       "run_id": "39769304805",
-      "updated_at": "2026-10-22T11:24:56.446372+00:00",
-      "wp_id": 4814
+      "updated_at": "2026-10-22T11:25:02.265075+00:00",
+      "wp_id": 4814,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xuan-thuy-thuoc-tinh-nao-ninh-binh-cach-ha-noi-150-km-va-ba-diem-du-lich-moi/",
+      "verified_at": "2026-10-22T11:25:02.265068+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4814,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xuan-thuy-thuoc-tinh-nao-ninh-binh-cach-ha-noi-150-km-va-ba-diem-du-lich-moi/",
+        "categories": [
+          177
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xuan-thuy-thuoc-tinh-nao-ninh-binh-cach-ha-noi-150-km-va-ba-diem-du-lich-moi/",
+        "seo_title": "Xuân Thủy thuộc tỉnh nào: Ninh Bình, cách Hà Nội 150 km",
+        "seo_description": "Xuân Thủy thuộc tỉnh nào: các báo năm 2026 ghi Ninh Bình, cách Hà Nội khoảng 150 km; đề án du lịch 2026-2030 có ba điểm, bốn tuyến, mới là kế hoạch.",
+        "checked_at": "2026-10-22T11:25:02.265049+00:00"
+      }
     }
   },
   "categories": {}
