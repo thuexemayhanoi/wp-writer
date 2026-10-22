@@ -31594,7 +31594,7 @@
       }
     },
     "NT-001752": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:37:13.014306+00:00",
       "source_hash": "f8b0b250f456cd5dae5a532d0cd90ba857d7ea0fe3e166d8411a06f3e26279bc",
       "slug": "kiem-tra-tieng-on-dong-co-dien-tieng-lach-cach-rit-hay-u-cho-biet-dieu-gi",
@@ -31610,8 +31610,37 @@
       "category_warning": null,
       "git_commit": "9c0156d4d7b1a140206400ae532157c1ebdc3261",
       "run_id": "39722469737",
-      "updated_at": "2026-10-22T04:37:16.635542+00:00",
-      "wp_id": 4712
+      "updated_at": "2026-10-22T04:37:22.173147+00:00",
+      "wp_id": 4712,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/kiem-tra-tieng-on-dong-co-dien-tieng-lach-cach-rit-hay-u-cho-biet-dieu-gi/",
+      "verified_at": "2026-10-22T04:37:22.173138+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4712,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/kiem-tra-tieng-on-dong-co-dien-tieng-lach-cach-rit-hay-u-cho-biet-dieu-gi/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/kiem-tra-tieng-on-dong-co-dien-tieng-lach-cach-rit-hay-u-cho-biet-dieu-gi/",
+        "seo_title": "Kiểm tra tiếng ồn động cơ điện: tiếng lạch cạch, rít hay ù",
+        "seo_description": "Kiểm tra tiếng ồn động cơ điện: Dat Bike nêu ba nhóm nguyên nhân của tiếng lạch cạch, rít, ù; Yadea xếp tiếng kêu cùng rung, giật; khi nào nên dừng xe và đưa đi bảo hành.",
+        "checked_at": "2026-10-22T04:37:22.173117+00:00"
+      }
     }
   },
   "categories": {}
