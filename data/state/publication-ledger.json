@@ -34975,7 +34975,7 @@
       }
     },
     "NT-001909": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T11:22:18.975884+00:00",
       "source_hash": "b197f4ece14a11883bd2c82ccf2c5decba2cee2408b746e5a3201b1e00255dda",
       "slug": "chua-long-doi-son-co-bao-nhieu-bac-thang-gan-373-bac-bia-sung-thien-dien-linh",
@@ -34991,8 +34991,37 @@
       "category_warning": null,
       "git_commit": "abb53e9a25e04324f37450d57629e87b655db50f",
       "run_id": "39769304805",
-      "updated_at": "2026-10-22T11:22:23.115157+00:00",
-      "wp_id": 4809
+      "updated_at": "2026-10-22T11:22:28.890251+00:00",
+      "wp_id": 4809,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/chua-long-doi-son-co-bao-nhieu-bac-thang-gan-373-bac-bia-sung-thien-dien-linh/",
+      "verified_at": "2026-10-22T11:22:28.890245+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4809,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/chua-long-doi-son-co-bao-nhieu-bac-thang-gan-373-bac-bia-sung-thien-dien-linh/",
+        "categories": [
+          126
+        ],
+        "canonical": "https://thuexemaynguyentu.com/chua-long-doi-son-co-bao-nhieu-bac-thang-gan-373-bac-bia-sung-thien-dien-linh/",
+        "seo_title": "Chùa Long Đọi Sơn có bao nhiêu bậc thang: gần 373 bậc theo hai nguồn",
+        "seo_description": "Chùa Long Đọi Sơn có bao nhiêu bậc thang: hai nguồn 2024 cùng ghi gần 373 bậc đá, kèm bia Sùng Thiện Diên Linh, mốc thời Lý, hội 21 tháng 3 âm lịch và địa danh sau sáp nhập.",
+        "checked_at": "2026-10-22T11:22:28.890227+00:00"
+      }
     }
   },
   "categories": {}
