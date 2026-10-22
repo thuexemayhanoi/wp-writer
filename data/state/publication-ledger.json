@@ -39973,7 +39973,7 @@
       }
     },
     "NT-090497": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T20:39:32.466336+00:00",
       "source_hash": "2a9e3b2cc18b0eaf5ae5b42cf1e5bcbc6decc3da137430dbaf651120f07f920c",
       "slug": "bang-o-to-hang-b-co-lai-duoc-xe-may-khong-dieu-57-luat-36-2024-va-thi-a1-duoc-mien-ly-thuyet",
@@ -39989,8 +39989,37 @@
       "category_warning": null,
       "git_commit": "0a7ac0bbcd8e029fa300a62a1eda811599a44877",
       "run_id": "39849225031",
-      "updated_at": "2026-10-22T20:39:37.057800+00:00",
-      "wp_id": 5021
+      "updated_at": "2026-10-22T20:39:43.091154+00:00",
+      "wp_id": 5021,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bang-o-to-hang-b-co-lai-duoc-xe-may-khong-dieu-57-luat-36-2024-va-thi-a1-duoc-mien-ly-thuyet/",
+      "verified_at": "2026-10-22T20:39:43.091147+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 5021,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bang-o-to-hang-b-co-lai-duoc-xe-may-khong-dieu-57-luat-36-2024-va-thi-a1-duoc-mien-ly-thuyet/",
+        "categories": [
+          171
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bang-o-to-hang-b-co-lai-duoc-xe-may-khong-dieu-57-luat-36-2024-va-thi-a1-duoc-mien-ly-thuyet/",
+        "seo_title": "Bằng ô tô hạng B có lái được xe máy không: Điều 57 và thi A1",
+        "seo_description": "Bằng ô tô hạng B có lái được xe máy không: đọc khoản 1 Điều 57 Luật 36/2024, ngoại lệ xe gắn máy, xe máy điện theo kW và việc thi A1, A được miễn lý thuyết.",
+        "checked_at": "2026-10-22T20:39:43.091130+00:00"
+      }
     }
   },
   "categories": {}
