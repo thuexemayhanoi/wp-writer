@@ -31055,7 +31055,7 @@
       }
     },
     "NT-001751": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:22:47.091101+00:00",
       "source_hash": "df12512bd90e7ea7a2389d4f31ca459b2a599446debd7032dbcd2aa77686f701",
       "slug": "kiem-tra-day-dien-xe-may-dien-truoc-khi-di-day-dut-ho-oxi-hoa-va-giac-long",
@@ -31071,8 +31071,37 @@
       "category_warning": null,
       "git_commit": "e8867ed3ab382cf02fcc9d35a5f3f731186b146e",
       "run_id": "39721381932",
-      "updated_at": "2026-10-22T04:22:51.187404+00:00",
-      "wp_id": 4701
+      "updated_at": "2026-10-22T04:22:56.942881+00:00",
+      "wp_id": 4701,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/kiem-tra-day-dien-xe-may-dien-truoc-khi-di-day-dut-ho-oxi-hoa-va-giac-long/",
+      "verified_at": "2026-10-22T04:22:56.942874+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4701,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/kiem-tra-day-dien-xe-may-dien-truoc-khi-di-day-dut-ho-oxi-hoa-va-giac-long/",
+        "categories": [
+          160
+        ],
+        "canonical": "https://thuexemaynguyentu.com/kiem-tra-day-dien-xe-may-dien-truoc-khi-di-day-dut-ho-oxi-hoa-va-giac-long/",
+        "seo_title": "Kiểm tra dây điện xe máy điện: dây đứt, hở, oxi hóa, giắc lỏng",
+        "seo_description": "Kiểm tra dây điện xe máy điện theo Yadea và Dat Bike: nhìn gì ở dây, đầu nối, giắc cắm; gặp mùi khét hay đèn báo lỗi thì dừng xe và đưa tới nơi bảo hành.",
+        "checked_at": "2026-10-22T04:22:56.942857+00:00"
+      }
     }
   },
   "categories": {}
