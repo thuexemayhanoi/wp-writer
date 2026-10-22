@@ -31398,7 +31398,7 @@
       }
     },
     "NT-001722": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:35:00.990031+00:00",
       "source_hash": "402d4abf39ca9f779e393827a22ae74f98cff68662cb39a452509a68d91616e1",
       "slug": "tat-may-khi-cho-den-do-tu-may-giay-co-loi-cho-xang-khi-thai-va-khi-nao-chua-nen",
@@ -31414,8 +31414,37 @@
       "category_warning": null,
       "git_commit": "9c0156d4d7b1a140206400ae532157c1ebdc3261",
       "run_id": "39722469737",
-      "updated_at": "2026-10-22T04:35:04.957021+00:00",
-      "wp_id": 4708
+      "updated_at": "2026-10-22T04:35:10.488373+00:00",
+      "wp_id": 4708,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tat-may-khi-cho-den-do-tu-may-giay-co-loi-cho-xang-khi-thai-va-khi-nao-chua-nen/",
+      "verified_at": "2026-10-22T04:35:10.488363+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4708,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tat-may-khi-cho-den-do-tu-may-giay-co-loi-cho-xang-khi-thai-va-khi-nao-chua-nen/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tat-may-khi-cho-den-do-tu-may-giay-co-loi-cho-xang-khi-thai-va-khi-nao-chua-nen/",
+        "seo_title": "Tắt máy khi chờ đèn đỏ: từ mấy giây có lợi cho xăng và khí thải",
+        "seo_description": "Tắt máy khi chờ đèn đỏ có lợi từ mấy giây? Đối chiếu mốc 10, 20 và 25 giây của Argonne, Đại học Bách khoa Hà Nội, Yamaha, Dân Việt và khi nào chưa nên tắt.",
+        "checked_at": "2026-10-22T04:35:10.488342+00:00"
+      }
     }
   },
   "categories": {}
