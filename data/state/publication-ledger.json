@@ -36249,7 +36249,7 @@
       }
     },
     "NT-001994": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:19:09.396711+00:00",
       "source_hash": "dc0f22590b7b3e8ed9b60b4878fb5a28a27c421765d1b98707fb17cb7304f79d",
       "slug": "vach-mat-vong-mau-vang-o-giao-lo-xe-may-khong-duoc-dung-va-bi-phat-ra-sao",
@@ -36265,8 +36265,37 @@
       "category_warning": null,
       "git_commit": "22028d2cf008f7aeaa28bfb5b6621e31b3af6f5a",
       "run_id": "39802649994",
-      "updated_at": "2026-10-22T15:19:14.926727+00:00",
-      "wp_id": 4835
+      "updated_at": "2026-10-22T15:19:21.681772+00:00",
+      "wp_id": 4835,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/vach-mat-vong-mau-vang-o-giao-lo-xe-may-khong-duoc-dung-va-bi-phat-ra-sao/",
+      "verified_at": "2026-10-22T15:19:21.681765+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4835,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/vach-mat-vong-mau-vang-o-giao-lo-xe-may-khong-duoc-dung-va-bi-phat-ra-sao/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/vach-mat-vong-mau-vang-o-giao-lo-xe-may-khong-duoc-dung-va-bi-phat-ra-sao/",
+        "seo_title": "Vạch mắt võng màu vàng ở giao lộ: xe máy không được dừng",
+        "seo_description": "Vạch mắt võng màu vàng ở giao lộ báo không được dừng xe trong phạm vi vạch; theo VOV, xe máy dừng trên vạch bị phạt 200.000–400.000 hoặc 400.000–600.000 đồng.",
+        "checked_at": "2026-10-22T15:19:21.681747+00:00"
+      }
     }
   },
   "categories": {}
