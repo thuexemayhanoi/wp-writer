@@ -33160,6 +33160,25 @@
         "seo_description": "Dự trù phí phát sinh khi đi du lịch tự túc lần đầu: phụ thu nhận phòng sớm, trả muộn, phí đỗ xe, phí ẩn khi đặt phòng, tiền đi lại, bảo hiểm và cách lập bảng dự trù.",
         "checked_at": "2026-10-22T09:37:06.189525+00:00"
       }
+    },
+    "NT-090520": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T09:41:59.668897+00:00",
+      "source_hash": "53972dc7b69a042bcf395af5f68916a58f88bdf809e30d176d2bae5f07e48a43",
+      "slug": "xe-buyt-ha-noi-chay-den-may-gio-tuyen-33-den-21h15-tuyen-54-den-21h00-tuyen-96-tuy-dau-ben",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 176,
+      "visible_hash": "912e3f3bc5eeaf1515ea63c1c85f86f41ac475cf33671a4e28196088d011b77b",
+      "first_paragraph": "Xe buýt Hà Nội chạy đến mấy giờ tùy từng tuyến và từng đầu bến, không có một giờ chung cho cả mạng. Trong các thông báo của Transerco (Tổng công ty Vận tải Hà Nội) mà bài đã đọc, giờ cuối ngày được ghi như sau: tuyến 33 hoạt động đến 21h15 ở cả hai đầu, tuyến 54 đến 21h00 ở cả hai đầu, tuyến 92 đóng bến lúc 21h30 ở cả hai đầu, còn tuyến 96 đóng bến lúc 21h00 ở đầu A nhưng 20h50 ở đầu B. Đó là giờ mở, đóng bến hoặc giờ hoạt động ở đầu tuyến; các thông báo không giải thích đó có phải giờ xuất bến chuyến cuối hay không và không ghi giờ xe qua từng điểm dừng. Những giờ này có thể đã đổi kể từ ngày đăng, nên hãy tra đúng số tuyến trên timbus.vn trước khi đi.",
+      "meta_title": "Xe buýt Hà Nội chạy đến mấy giờ: tuyến 33, 54, 92, 96 theo Transerco",
+      "meta_description": "Xe buýt Hà Nội chạy đến mấy giờ? Thông báo Transerco 2026: tuyến 33 đến 21h15, tuyến 54 đến 21h00, tuyến 92 đóng bến 21h30, tuyến 96 lệch 10 phút giữa hai đầu bến.",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "e5afab9dcc87db1063a6df09e54a4a93ad48b2d4",
+      "run_id": "39756930466",
+      "updated_at": "2026-10-22T09:41:59.670844+00:00"
     }
   },
   "categories": {}
