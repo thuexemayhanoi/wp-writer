@@ -35122,7 +35122,7 @@
       }
     },
     "NT-001991": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T11:23:45.074301+00:00",
       "source_hash": "4a2bf0825624638a788e16d8775185dc39ba9e53bd4b079f6e967387d2d388a4",
       "slug": "den-vang-nhap-nhay-khi-di-xe-may-duoc-di-tiep-khong-den-vang-thuong-thi-sao",
@@ -35138,8 +35138,37 @@
       "category_warning": null,
       "git_commit": "abb53e9a25e04324f37450d57629e87b655db50f",
       "run_id": "39769304805",
-      "updated_at": "2026-10-22T11:23:49.259114+00:00",
-      "wp_id": 4812
+      "updated_at": "2026-10-22T11:23:54.932802+00:00",
+      "wp_id": 4812,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/den-vang-nhap-nhay-khi-di-xe-may-duoc-di-tiep-khong-den-vang-thuong-thi-sao/",
+      "verified_at": "2026-10-22T11:23:54.932797+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4812,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/den-vang-nhap-nhay-khi-di-xe-may-duoc-di-tiep-khong-den-vang-thuong-thi-sao/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/den-vang-nhap-nhay-khi-di-xe-may-duoc-di-tiep-khong-den-vang-thuong-thi-sao/",
+        "seo_title": "Đèn vàng nhấp nháy khi đi xe máy: được đi tiếp không?",
+        "seo_description": "Đèn vàng nhấp nháy khi đi xe máy được đi nhưng phải quan sát, giảm tốc độ hoặc nhường đường; đèn vàng thường phải dừng trước vạch, có hai ngoại lệ.",
+        "checked_at": "2026-10-22T11:23:54.932779+00:00"
+      }
     }
   },
   "categories": {}
