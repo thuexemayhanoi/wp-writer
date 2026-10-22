@@ -1,0 +1,159 @@
+{
+  "topic_id": "NT-001542",
+  "status": "PASS",
+  "source_sha256": "e98b28ceb176985e4832af3ed3d1ad288d7901b5e364d742ccb63aec05685b1d",
+  "body_sha256": "7f10e120aa91e6e0873d41bc5afc209c804f398cb8b28d16c27f4710e01f0dd1",
+  "word_count": 1986,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://caa.gov.vn/hoat-dong-nganh/tu-ngay-01-7-2026-sac-du-phong-phai-duoc-van-chuyen-trong-hanh-ly-xach-tay-20260624135011119.htm",
+      "supports": "Bản tin trên trang Cục Hàng không Việt Nam đăng 24/06/2026: từ 01/7/2026 mỗi hành khách không mang quá hai sạc dự phòng, phải trong hành lý xách tay; pin lithium-ion không quá 100 Wh, trên 100 đến 160 Wh cần hãng chấp thuận; không sạc lại và không dùng sạc thiết bị khác trên tàu bay; che đầu cực chống đoản mạch.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://caa.gov.vn/van-ban/3557-ct-chk-32872.htm",
+      "supports": "Trang văn bản của Cục Hàng không Việt Nam: Chỉ thị 3557/CT-CHK về đảm bảo an toàn vận chuyển sạc dự phòng trong hành lý của hành khách, ban hành và có hiệu lực 24/06/2026, tình trạng còn hiệu lực khi đọc 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://caa.gov.vn/hanh-khach-can-biet/khuyen-cao-hanh-khach-ve-viec-mang-pin-lithium-trong-hanh-ly-xach-tay-20250321121038514.htm",
+      "supports": "Khuyến cáo đăng trên trang Cục Hàng không Việt Nam ngày 23/03/2025 (Vietnam Airlines thông tin): pin dự phòng phải mang trong hành lý xách tay, không ký gửi; lấy ra khỏi túi, để nơi dễ quan sát; không sạc từ cổng USB trên tàu bay và không dùng sạc thiết bị.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.vietnamairlines.com/go/vi/plan-book/travel/travel-guide/sac-du-phong-co-duoc-mang-len-may-bay-khong",
+      "supports": "Trang hướng dẫn của Vietnam Airlines (không ghi ngày): sạc dự phòng chỉ trong hành lý xách tay, dung lượng không quá 100Wh không cần thông báo trước, công thức đổi mAh sang Wh và ví dụ 10.000 mAh 3,7 V khoảng 37Wh, sạc cần ghi rõ công suất trên thân và che đầu cực; bảng có ghi tối đa 10 viên cho pin dưới 100Wh.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://caa.gov.vn/hoat-dong-nganh/tu-ngay-01-7-2026-sac-du-phong-phai-duoc-van-chuyen-trong-hanh-ly-xach-tay-20260624135011119.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://caa.gov.vn/van-ban/3557-ct-chk-32872.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://caa.gov.vn/hanh-khach-can-biet/khuyen-cao-hanh-khach-ve-viec-mang-pin-lithium-trong-hanh-ly-xach-tay-20250321121038514.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.vietnamairlines.com/go/vi/plan-book/travel/travel-guide/sac-du-phong-co-duoc-mang-len-may-bay-khong",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-22T04:07:02.934057+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "6f06b8bc6e1f7142c0492f1dd2d65cf16dedd56ad9d081669e0ac312d486bf80",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

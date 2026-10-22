@@ -1,16 +1,16 @@
 # Pipeline board
 
-Generated 2026-10-22T03:59:44.567235+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-22T04:08:07.275498+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
-| WRITING | 10 |
+| WRITING | 11 |
 | QA | 0 |
 | READY | 0 |
 | REPAIR | 0 |
 | HELD | 3 |
 | PUBLISHING | 0 |
-| VERIFIED | 634 |
+| VERIFIED | 640 |
 
 Ready backlog (QA PASS waiting for the Publisher): **0**
 
@@ -18,14 +18,15 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 
 | Topic | State | Slot | Session | Reason |
 |---|---|---|---|---|
-| NT-001481 | WRITING | W1 | seodev-w69 | leased to seodev-w69 |
-| NT-001512 | WRITING | W3 | seodev-w70 | leased to seodev-w70 |
 | NT-001513 | WRITING | W3 | seodev-w70 | leased to seodev-w70 |
-| NT-001514 | WRITING | W3 | seodev-w70 | leased to seodev-w70 |
-| NT-001541 | WRITING | W1 | seodev-w69 | leased to seodev-w69 |
-| NT-001542 | WRITING | W1 | seodev-w69 | leased to seodev-w69 |
-| NT-001571 | WRITING | W4 | seodev-w71 | leased to seodev-w71 |
 | NT-001572 | WRITING | W4 | seodev-w71 | leased to seodev-w71 |
+| NT-001601 | WRITING | W5 | seodev-w72 | leased to seodev-w72 |
+| NT-001602 | WRITING | W5 | seodev-w72 | leased to seodev-w72 |
+| NT-001603 | WRITING | W5 | seodev-w72 | leased to seodev-w72 |
+| NT-001604 | WRITING | W5 | seodev-w72 | leased to seodev-w72 |
+| NT-001605 | WRITING | W5 | seodev-w72 | leased to seodev-w72 |
+| NT-001606 | WRITING | W5 | seodev-w72 | leased to seodev-w72 |
+| NT-001607 | WRITING | W5 | seodev-w72 | leased to seodev-w72 |
 | NT-090004 | WRITING | W3 | seodev-w70 | leased to seodev-w70 |
 | NT-090006 | WRITING | W3 | seodev-w70 | leased to seodev-w70 |
 | NT-001101 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4344; Near duplicate existing:4344 |

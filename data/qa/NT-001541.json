@@ -1,0 +1,143 @@
+{
+  "topic_id": "NT-001541",
+  "status": "PASS",
+  "source_sha256": "bbdb61541190f7ecffebbd7d2bd70013266434eb6045f66d89659c7b805e8b55",
+  "body_sha256": "29fe20036758c85bc8656794b6a3971a4810aae556dfda6111c104e9d991024f",
+  "word_count": 2046,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.nps.gov/articles/leave-no-trace-seven-principles.htm",
+      "supports": "Trang Leave No Trace Seven Principles của Cơ quan Công viên Quốc gia Hoa Kỳ (NPS) tóm tắt bảy nguyên tắc, trong đó có chuẩn bị trước (biết quy định, tránh giờ đông, nhóm nhỏ), mang rác ra khỏi nơi đến, để đá cây và đồ tự nhiên nguyên trạng, quan sát động vật từ xa và giữ yên lặng; viết cho dã ngoại và cắm trại ở Hoa Kỳ.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bvhttdl.gov.vn/nganh-du-lich-chu-dong-no-luc-giam-thieu-rac-thai-nhua-phat-trien-theo-huong-xanh-ben-vung-20260206150403952.htm",
+      "supports": "Bài trên cổng thông tin Bộ Văn hóa, Thể thao và Du lịch ngày 06/02/2026 về hội thảo của Cục Du lịch Quốc gia Việt Nam và UNDP: rác thải nhựa ảnh hưởng đến cảnh quan và chất lượng điểm đến; số liệu UNDP ở Ninh Bình về chai nhựa mỗi ngày; số rác trung bình của khách lưu trú và không lưu trú.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/chinh-sach-quan-ly/ban-hanh-quy-tac-ung-xu-bao-ve-moi-truong-trong-hoat-dong%C2%A0vhttdlkhong-huy-hoai-moi-truong-vi-loi-ich-kinh-te-41332.html",
+      "supports": "Báo Văn hóa 30/12/2020 tóm tắt Quyết định 4216/QĐ-BVHTTDL về Quy tắc ứng xử bảo vệ môi trường trong hoạt động văn hóa, thể thao và du lịch: Điều 6 nêu việc khách du lịch không xâm hại cảnh quan, hệ động thực vật, không viết vẽ khắc lên hang động và cây xanh, hạn chế nhựa dùng một lần; quy tắc được khuyến khích áp dụng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.nps.gov/articles/leave-no-trace-seven-principles.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bvhttdl.gov.vn/nganh-du-lich-chu-dong-no-luc-giam-thieu-rac-thai-nhua-phat-trien-theo-huong-xanh-ben-vung-20260206150403952.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/chinh-sach-quan-ly/ban-hanh-quy-tac-ung-xu-bao-ve-moi-truong-trong-hoat-dong%C2%A0vhttdlkhong-huy-hoai-moi-truong-vi-loi-ich-kinh-te-41332.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-22T04:06:19.919785+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "d19851030522f0a1079c0e7ba7655b5a96861619235c086a3ec2419d5e5f076d",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
