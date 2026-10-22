@@ -40316,7 +40316,7 @@
       }
     },
     "NT-002149": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T20:48:28.877451+00:00",
       "source_hash": "30c65a6cbfc71b7d4b3ed87573aa0b4aba2d3173bd40a256a359c44078f7f8ad",
       "slug": "tap-xe-may-vao-le-an-toan-kiem-tra-le-mem-bao-hieu-truoc-va-dung-xa-mep-duong",
@@ -40332,8 +40332,37 @@
       "category_warning": null,
       "git_commit": "0f8cdb64114b138c22d2759d2171fe3a2d74a25b",
       "run_id": "39850717154",
-      "updated_at": "2026-10-22T20:48:33.537101+00:00",
-      "wp_id": 5028
+      "updated_at": "2026-10-22T20:48:40.157472+00:00",
+      "wp_id": 5028,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tap-xe-may-vao-le-an-toan-kiem-tra-le-mem-bao-hieu-truoc-va-dung-xa-mep-duong/",
+      "verified_at": "2026-10-22T20:48:40.157466+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 5028,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tap-xe-may-vao-le-an-toan-kiem-tra-le-mem-bao-hieu-truoc-va-dung-xa-mep-duong/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tap-xe-may-vao-le-an-toan-kiem-tra-le-mem-bao-hieu-truoc-va-dung-xa-mep-duong/",
+        "seo_title": "Tấp xe máy vào lề an toàn: kiểm tra lề, báo hiệu, đứng xa mép đường",
+        "seo_description": "Tấp xe máy vào lề an toàn theo sổ tay Ontario và Highway Code của Anh: giảm tốc, nhìn gương, báo hiệu, kiểm tra lề mềm, tấp xa mép đường và đứng xa dòng xe.",
+        "checked_at": "2026-10-22T20:48:40.157449+00:00"
+      }
     }
   },
   "categories": {}
