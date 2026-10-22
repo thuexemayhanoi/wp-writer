@@ -33456,7 +33456,7 @@
       }
     },
     "NT-001691": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T10:09:40.146215+00:00",
       "source_hash": "fe1cca445e9cfabc9fa4258cf335c9b5d6204e5c8f90ead73de87d28c44ce4a9",
       "slug": "quan-sat-truoc-khi-mo-cua-xe-dieu-19-luat-36-2024-muc-phat-va-tranh-va-xe-may",
@@ -33472,8 +33472,37 @@
       "category_warning": null,
       "git_commit": "f1b720c398d12b43f95387172a57615c48023927",
       "run_id": "39760445569",
-      "updated_at": "2026-10-22T10:09:44.507140+00:00",
-      "wp_id": 4778
+      "updated_at": "2026-10-22T10:09:50.986851+00:00",
+      "wp_id": 4778,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/quan-sat-truoc-khi-mo-cua-xe-dieu-19-luat-36-2024-muc-phat-va-tranh-va-xe-may/",
+      "verified_at": "2026-10-22T10:09:50.986842+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4778,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/quan-sat-truoc-khi-mo-cua-xe-dieu-19-luat-36-2024-muc-phat-va-tranh-va-xe-may/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/quan-sat-truoc-khi-mo-cua-xe-dieu-19-luat-36-2024-muc-phat-va-tranh-va-xe-may/",
+        "seo_title": "Quan sát trước khi mở cửa xe: Điều 19 Luật 36/2024 và mức phạt",
+        "seo_description": "Quan sát trước khi mở cửa xe theo Điều 19 Luật 36/2024: mức phạt 4–6 triệu đồng theo Nghị định 168/2024, các bước mở cửa và cách người đi xe máy tránh va cửa.",
+        "checked_at": "2026-10-22T10:09:50.986822+00:00"
+      }
     }
   },
   "categories": {}
