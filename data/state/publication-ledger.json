@@ -37425,7 +37425,7 @@
       }
     },
     "NT-001964": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:45:29.590688+00:00",
       "source_hash": "f69dd3a6827648a5e759488027fe16e51f458664fd63200e7a48b452bb7a00af",
       "slug": "dao-nhat-tan-quat-tu-lien-tuot-la-danh-chau-thang-nao-de-no-dung-tet",
@@ -37441,8 +37441,37 @@
       "category_warning": null,
       "git_commit": "29b371a50ce93cffc2535aafb2c098124c5c38a7",
       "run_id": "39806500390",
-      "updated_at": "2026-10-22T15:45:33.772261+00:00",
-      "wp_id": 4859
+      "updated_at": "2026-10-22T15:45:40.541731+00:00",
+      "wp_id": 4859,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/dao-nhat-tan-quat-tu-lien-tuot-la-danh-chau-thang-nao-de-no-dung-tet/",
+      "verified_at": "2026-10-22T15:45:40.541725+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4859,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/dao-nhat-tan-quat-tu-lien-tuot-la-danh-chau-thang-nao-de-no-dung-tet/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/dao-nhat-tan-quat-tu-lien-tuot-la-danh-chau-thang-nao-de-no-dung-tet/",
+        "seo_title": "Đào Nhật Tân, quất Tứ Liên: lịch tuốt lá, đánh chậu để nở đúng Tết",
+        "seo_description": "Đào Nhật Tân, quất Tứ Liên theo Tuổi Trẻ: tuốt lá cuối tháng 10 âm lịch, đánh chậu, bấm cành quất sau Tết, ra hoa tháng 4–5 và vì sao ngày nở đổi theo thời tiết.",
+        "checked_at": "2026-10-22T15:45:40.541704+00:00"
+      }
     }
   },
   "categories": {}
