@@ -1,22 +1,22 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 6,
+  "ready_stock": 9,
   "trigger_below_ready": 900,
   "rounds_opened": 7,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 958,
-  "capacity_remaining": 1042,
+  "topic_rows": 961,
+  "capacity_remaining": 1039,
   "order": {
     "id": "RF-0007",
     "round": 7,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 58,
-    "remaining_to_min": 42,
-    "remaining_to_max": 142,
-    "batches_still_needed": 5,
+    "accepted_so_far": 61,
+    "remaining_to_min": 39,
+    "remaining_to_max": 139,
+    "batches_still_needed": 4,
     "batch_size": 10,
     "capacity_limited": false,
     "stalled": false,
@@ -36,8 +36,8 @@
       },
       {
         "taxonomy_key": "urban-mobility",
-        "quota": 12,
-        "known_now": 75,
+        "quota": 10,
+        "known_now": 78,
         "allocation": 92
       },
       {
@@ -60,7 +60,7 @@
       },
       {
         "taxonomy_key": "green-travel",
-        "quota": 6,
+        "quota": 7,
         "known_now": 18,
         "allocation": 27
       },
@@ -89,35 +89,34 @@
         "allocation": 41
       },
       {
+        "taxonomy_key": "driving-licence",
+        "quota": 2,
+        "known_now": 30,
+        "allocation": 32
+      },
+      {
         "taxonomy_key": "legal",
         "quota": 2,
         "known_now": 47,
         "allocation": 50
-      },
-      {
-        "taxonomy_key": "driving-licence",
-        "quota": 1,
-        "known_now": 30,
-        "allocation": 32
       }
     ],
     "next_batch_categories": {
+      "electric-transition": 2,
       "rental-guide": 2,
       "battery-charging": 1,
       "electric": 1,
-      "electric-transition": 1,
       "green-travel": 1,
       "rental-50cc": 1,
       "rental-costs": 1,
-      "trip-planning": 1,
-      "urban-mobility": 1
+      "trip-planning": 1
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 962,
-    "topics_in_factory": 958,
+    "published_wordpress_items": 972,
+    "topics_in_factory": 961,
     "topics_by_status": {
-      "PLANNED": 879,
+      "PLANNED": 882,
       "REJECTED": 2,
       "RESEARCH": 77
     },
