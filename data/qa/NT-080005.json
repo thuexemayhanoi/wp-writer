@@ -1,0 +1,178 @@
+{
+  "topic_id": "NT-080005",
+  "status": "PASS",
+  "source_sha256": "481fbc1324b5e8c8dbecf8baea3dd56cceaea91499f9d3f93cadc9d91a305ec0",
+  "body_sha256": "46b6b01105aa8aeacd369726528f7aec007c7b18b7fc7d6cd351c9449186df5a",
+  "word_count": 3778,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/x--95942",
+      "supports": "Toàn văn Bộ luật Dân sự 2015 trên vbpl.vn (Cơ sở dữ liệu quốc gia về văn bản pháp luật): Điều 355 (chậm tiếp nhận việc thực hiện nghĩa vụ: định nghĩa, gửi giữ hoặc biện pháp bảo quản, chi phí hợp lý, thông báo ngay), Điều 359 (bên chậm tiếp nhận chịu bồi thường, rủi ro, chi phí), Điều 374 (bản đọc bị cắt cuối câu), Điều 351 khoản 3, Điều 107 khoản 2, Điều 119 khoản 1 và Điều 482 khoản 2, 4, 5; các điều viết cho nghĩa vụ nói chung, không riêng xe thuê.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/luat-giao-dich-dien-tu-so-20-2023-qh15--165913",
+      "supports": "Luật Giao dịch điện tử 20/2023/QH15 trên vbpl.vn (ngày cập nhật 02/04/2026, trang ghi \"Hết hiệu lực một phần\", bản đọc không nêu phần nào): Điều 9 khoản 1 (thông điệp dữ liệu đáp ứng yêu cầu văn bản nếu có thể truy cập và sử dụng để tham chiếu) và Điều 11 (giá trị làm chứng cứ xác định theo độ tin cậy của cách khởi tạo, gửi, nhận, lưu trữ) - căn cứ để giữ tin nhắn báo cửa hàng và ảnh có giờ khi đến trả mà không ai nhận.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/x--95942",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/luat-giao-dich-dien-tu-so-20-2023-qh15--165913",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2352,
+        "title": "Xe máy điện có cần bằng lái không? Cách phân biệt theo công suất",
+        "why": "stale",
+        "content_hash": "8c5c200eacd4af62c6f482e36bad9112feb65d56c6bb4032d8dbae3c82a64876",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2362,
+        "title": "Trạm Sạc Xe Máy Điện Hoạt Động Ra Sao Và Cần Lưu Ý Gì Khi Sử Dụng?",
+        "why": "stale",
+        "content_hash": "a17c9cf060eb4fcc003a8361442a9640e3697f1a42863cfbcf483016e0e39b82",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2374,
+        "title": "Xe máy điện đi mưa có an toàn không? Cách sử dụng đúng và bền",
+        "why": "stale",
+        "content_hash": "f86d1aa55c92feadb7f1f7424eb5a8881f374d07d09eba557a5974bddc4ab23f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4055,
+        "title": "Thuê 2 xe máy cùng lúc ở Hà Nội: chuẩn bị giấy tờ, giao nhận và hoàn cọc từng xe",
+        "why": "stale",
+        "content_hash": "029d48a9e900c89ea965179099932a9ddb51ee071f065aca1c29903fd58a13c9",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4345,
+        "title": "Thuê xe máy phường Cửa Nam: chọn Air Blade, tính gói ngày hay tuần?",
+        "why": "stale",
+        "content_hash": "fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T06:22:29.135634+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "90bc37f90bcdfbc62c33d1f934aadd99901b5510ebe771b9d940307318ea2145",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

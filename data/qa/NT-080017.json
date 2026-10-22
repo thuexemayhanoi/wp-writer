@@ -1,0 +1,183 @@
+{
+  "topic_id": "NT-080017",
+  "status": "PASS",
+  "source_sha256": "673c38b5bab10bf150ac96d57b03020d2dc2ad7956729a71cd789d1e0ab5ed01",
+  "body_sha256": "a0ae75b677f5b0db9dd162686b5da625572351b1702001030a94168bf56f5af6",
+  "word_count": 2644,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://sonnmt.hanoi.gov.vn/index.php/tin-t-c/moi-tru-ng/21856-ha-n-i-cong-b-d-an-vung-phat-th-i-th-p-trong-vanh-dai-1-thanh-ph-ha-n-i-thi-di-m-t-ngay-01-7-2027",
+      "supports": "Thông cáo chính thức của Sở Nông nghiệp và Môi trường Hà Nội (cổng thông tin .gov.vn, căn cứ Nghị quyết 57/2025/NQ-HĐND, Nghị quyết 34/NQ-HĐND ngày 15/6/2026 và Quyết định 3273/QĐ-UBND ngày 29/6/2026): Khu vực 1 cấm xe mô tô, xe gắn máy và ô tô từ 19h đến 24h các ngày thứ Sáu, thứ Bảy, Chủ nhật, xe ưu tiên 24/24, quy định áp dụng xuyên suốt các giai đoạn; giai đoạn 1 từ 01/7/2026 đến 31/12/2026 tại Khu vực 1 và 2 thuộc phường Hoàn Kiếm; xe không chạy ứng dụng chỉ được khuyến khích hạn chế xe mô tô trước 2008 và xe gắn máy trước 2016; ranh giới theo bản đồ kèm Quyết định 3273; không nêu mức phạt.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanglong.chinhphu.vn/cac-phuong-tien-duoc-luu-thong-tro-lai-tren-cau-long-bien-tu-ngay-mai-28-5-10326052709183041.htm",
+      "supports": "Tin của Cổng thông tin Chính phủ (thanglong.chinhphu.vn) ngày 27/5/2026 về thông báo của Sở Xây dựng Hà Nội: từ 0h ngày 28/5/2026 xe máy, xe thô sơ và người đi bộ lưu thông trở lại trên cầu Long Biên theo cả hai hướng Bồ Đề đi Hoàn Kiếm và Hoàn Kiếm đi Bồ Đề; trong thời gian đóng cầu (thông báo ngày 26/3) các phương tiện được phân luồng sang cầu Chương Dương.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laodong.vn/xa-hoi/cau-long-bien-thong-xe-tro-lai-giam-ap-luc-giao-thong-cho-ha-noi-1709697.ldo",
+      "supports": "Lao Động 28/5/2026: trong thời gian cầu Long Biên đóng, đi qua cầu Chương Dương hoặc các tuyến lân cận làm thời gian đi lại tăng thêm khoảng 15–20 phút mỗi ngày; lưu lượng dồn sang cầu Chương Dương và Vĩnh Tuy khiến Nguyễn Văn Cừ, Trần Nhật Duật, Trần Quang Khải, Minh Khai thường xuyên ùn tắc giờ cao điểm; ghi nhận của một tờ báo, không phải thời gian đi cố định.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/toi-cuoi-tuan-o-vung-phat-thai-thap-cua-trung-tam-ha-noi-100260704222850115.htm",
+      "supports": "Tuổi Trẻ 4/7/2026 (quan sát tối 4/7): danh sách các tuyến phố trong phạm vi áp dụng của Khu vực 1, chốt kiểm soát kích hoạt đúng 19h với rào chắn và biển cấm, người đi xe đến chốt được dừng và hướng dẫn gửi xe tại điểm trông giữ nếu muốn đi bộ vào, cư dân bị kiểm tra căn cước và phải tắt máy, dắt bộ; bài không nêu ngoại lệ cho xe thuê hay khách lưu trú.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://sonnmt.hanoi.gov.vn/index.php/tin-t-c/moi-tru-ng/21856-ha-n-i-cong-b-d-an-vung-phat-th-i-th-p-trong-vanh-dai-1-thanh-ph-ha-n-i-thi-di-m-t-ngay-01-7-2027",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanglong.chinhphu.vn/cac-phuong-tien-duoc-luu-thong-tro-lai-tren-cau-long-bien-tu-ngay-mai-28-5-10326052709183041.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://laodong.vn/xa-hoi/cau-long-bien-thong-xe-tro-lai-giam-ap-luc-giao-thong-cho-ha-noi-1709697.ldo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/toi-cuoi-tuan-o-vung-phat-thai-thap-cua-trung-tam-ha-noi-100260704222850115.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 847,
+        "title": "Cho Thuê Xe Máy Long Biên Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "9684f98d9a0c12291e20219c3746186ca86448c363b1b1f457d7917ff7c90680",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4059,
+        "title": "Thuê xe máy đi phỏng vấn ở Hà Nội trong một ngày: xếp lịch, chọn xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "0ffbbff60edf006739890cca423af4e81cb5346ee434c29859648be6bdb57675",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T06:22:58.321858+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "825060c5fc8c1d2aed5edfe15bf9227df75ecd225e4b156c46ea5fa68bda4843",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
