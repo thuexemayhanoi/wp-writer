@@ -36445,7 +36445,7 @@
       }
     },
     "NT-085401": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:21:58.393182+00:00",
       "source_hash": "7a4680cbb75aa38a8af9fb304d55d4ed19c66e23c1b106cff0f967a5e75f33e4",
       "slug": "nho-nguoi-khac-tra-xe-may-thue-dieu-283-can-cua-hang-dong-y-va-nguoi-thue-van-chiu-trach-nhiem",
@@ -36461,8 +36461,37 @@
       "category_warning": null,
       "git_commit": "22028d2cf008f7aeaa28bfb5b6621e31b3af6f5a",
       "run_id": "39802649994",
-      "updated_at": "2026-10-22T15:22:03.531045+00:00",
-      "wp_id": 4839
+      "updated_at": "2026-10-22T15:22:10.326360+00:00",
+      "wp_id": 4839,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nho-nguoi-khac-tra-xe-may-thue-dieu-283-can-cua-hang-dong-y-va-nguoi-thue-van-chiu-trach-nhiem/",
+      "verified_at": "2026-10-22T15:22:10.326355+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4839,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nho-nguoi-khac-tra-xe-may-thue-dieu-283-can-cua-hang-dong-y-va-nguoi-thue-van-chiu-trach-nhiem/",
+        "categories": [
+          162
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nho-nguoi-khac-tra-xe-may-thue-dieu-283-can-cua-hang-dong-y-va-nguoi-thue-van-chiu-trach-nhiem/",
+        "seo_title": "Nhờ người khác trả xe máy thuê: cần cửa hàng đồng ý (Điều 283)",
+        "seo_description": "Nhờ người khác trả xe máy thuê cần cửa hàng đồng ý theo Điều 283 Bộ luật Dân sự; người thuê vẫn chịu trách nhiệm. Cách ủy quyền, nhận cọc hộ và việc nên làm trước.",
+        "checked_at": "2026-10-22T15:22:10.326338+00:00"
+      }
     }
   },
   "categories": {}
