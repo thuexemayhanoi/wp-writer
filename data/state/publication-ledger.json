@@ -34828,7 +34828,7 @@
       }
     },
     "NT-001903": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T11:20:28.432786+00:00",
       "source_hash": "e8207d8f58ad79dcc22b71a12aa59f578c7e2820b0390574c3ec346ba230bed6",
       "slug": "ho-quan-son-o-my-duc-di-xe-may-qua-van-dinh-di-thuyen-va-mua-sen-giua-thang-5",
@@ -34844,8 +34844,37 @@
       "category_warning": null,
       "git_commit": "abb53e9a25e04324f37450d57629e87b655db50f",
       "run_id": "39769304805",
-      "updated_at": "2026-10-22T11:20:33.472682+00:00",
-      "wp_id": 4806
+      "updated_at": "2026-10-22T11:20:39.374751+00:00",
+      "wp_id": 4806,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ho-quan-son-o-my-duc-di-xe-may-qua-van-dinh-di-thuyen-va-mua-sen-giua-thang-5/",
+      "verified_at": "2026-10-22T11:20:39.374744+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4806,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ho-quan-son-o-my-duc-di-xe-may-qua-van-dinh-di-thuyen-va-mua-sen-giua-thang-5/",
+        "categories": [
+          126
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ho-quan-son-o-my-duc-di-xe-may-qua-van-dinh-di-thuyen-va-mua-sen-giua-thang-5/",
+        "seo_title": "Hồ Quan Sơn ở Mỹ Đức: đi xe máy qua Vân Đình, đi thuyền, mùa sen",
+        "seo_description": "Hồ Quan Sơn ở Mỹ Đức: đường xe máy qua Vân Đình theo bài 2019, đi thuyền, mùa sen giữa tháng 5 đến giữa tháng 6 và quy hoạch đến tháng 10/2026 cần hỏi lại.",
+        "checked_at": "2026-10-22T11:20:39.374717+00:00"
+      }
     }
   },
   "categories": {}
