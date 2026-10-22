@@ -40218,7 +40218,7 @@
       }
     },
     "NT-002084": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T20:47:12.082880+00:00",
       "source_hash": "87c66d2985be25631b493ef73aa490b78c4a874e9b1727bfc5874d6ec381a191",
       "slug": "tour-dem-van-mieu-18h30-22h-thu-tu-bay-chu-nhat-goi-1-show-299-000-dong",
@@ -40234,8 +40234,37 @@
       "category_warning": null,
       "git_commit": "0f8cdb64114b138c22d2759d2171fe3a2d74a25b",
       "run_id": "39850717154",
-      "updated_at": "2026-10-22T20:47:16.623875+00:00",
-      "wp_id": 5026
+      "updated_at": "2026-10-22T20:47:24.115299+00:00",
+      "wp_id": 5026,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tour-dem-van-mieu-18h30-22h-thu-tu-bay-chu-nhat-goi-1-show-299-000-dong/",
+      "verified_at": "2026-10-22T20:47:24.115293+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 5026,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tour-dem-van-mieu-18h30-22h-thu-tu-bay-chu-nhat-goi-1-show-299-000-dong/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tour-dem-van-mieu-18h30-22h-thu-tu-bay-chu-nhat-goi-1-show-299-000-dong/",
+        "seo_title": "Tour đêm Văn Miếu: 18h30–22h thứ Tư, Bảy, CN, người lớn 299.000 đồng",
+        "seo_description": "Tour đêm Văn Miếu chạy 18h30–22h thứ Tư, thứ Bảy, Chủ nhật theo trang chính thức: gói 1 show 299.000 đồng, gói 2 show 399.000 đồng, quy định chiều cao và số cũ 199.000 đồng.",
+        "checked_at": "2026-10-22T20:47:24.115274+00:00"
+      }
     }
   },
   "categories": {}
