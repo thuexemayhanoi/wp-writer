@@ -33013,6 +33013,25 @@
         "seo_description": "Đổi lịch vì chuyến bay trễ: Nghị định 208/2026 tính chậm từ 15 phút; hãng phải làm gì ở mốc 2, 3, 4, 6 giờ, điều kiện đi kèm và việc khách nên làm.",
         "checked_at": "2026-10-22T09:28:34.798124+00:00"
       }
+    },
+    "NT-090070": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T09:28:52.822963+00:00",
+      "source_hash": "9799ed272e4d0a9ff743b180b1e8229d52457d02f58b4898cbc35d66731c175c",
+      "slug": "duong-danh-rieng-cho-xe-buyt-nghi-dinh-168-2024-neu-o-dieu-6-va-8-xe-may-ap-dung-dieu-nao",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 176,
+      "visible_hash": "15ced3dccfc1e5e96fd6fccea87e1fd0e752dddb11b9075def0fbd5efd28a25f",
+      "first_paragraph": "Đường dành riêng cho xe buýt được Nghị định 168/2024/NĐ-CP nhắc đúng ba lần trong toàn văn mà bài đọc, đều ở các điều khoản về dừng xe và đỗ xe: điểm đ khoản 2 và điểm e khoản 3 Điều 6 (ô tô và các loại xe tương tự ô tô), và điểm c khoản 2 Điều 8 (xe máy chuyên dùng). Cụm từ này không có ở Điều 7, điều dành cho xe mô tô, xe gắn máy, nên bài không kết luận xe máy đi vào đường hay làn dành riêng cho xe buýt bị phạt theo khoản nào. Quy tắc nền nằm ở Luật Trật tự, an toàn giao thông đường bộ: khoản 4 Điều 13 không cho người điều khiển loại phương tiện khác đi vào làn đường dành riêng cho một loại phương tiện, và điểm o khoản 4 Điều 18 cấm dừng xe, đỗ xe trên đường dành riêng cho xe buýt. Hai điều khoản chung của Điều 7 hay được dẫn cho xe máy là điểm d khoản 3 và điểm b khoản 6; điều khoản nào áp dụng cho một tình huống cụ thể do cơ quan có thẩm quyền quyết định, và bài không nêu mức phạt cho việc xe máy đi vào làn BRT.",
+      "meta_title": "Đường dành riêng cho xe buýt: Nghị định 168/2024, xe máy theo điều nào",
+      "meta_description": "Đường dành riêng cho xe buýt được Nghị định 168/2024 nhắc ở Điều 6 và 8, không ở Điều 7 dành cho xe máy. Luật 36/2024, Nghị định 238/2026 và điều bài chưa kết luận.",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "d7d0cbd4d61b69ff3bdbb166c0299bc855cce0b1",
+      "run_id": "39755164181",
+      "updated_at": "2026-10-22T09:28:52.824892+00:00"
     }
   },
   "categories": {}
