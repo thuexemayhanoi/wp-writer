@@ -1,0 +1,201 @@
+{
+  "topic_id": "NT-090404",
+  "status": "PASS",
+  "source_sha256": "7a1b7ea5adc6aa159163669b99a6e3308b1beab8b85a369b90816b2994bf145b",
+  "body_sha256": "129e13766d8838cd3f704bf959703231d7e327256225b8d9a852ca7b9969f212",
+  "word_count": 2711,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://moit.gov.vn/upload/2005517/20261005/TT_61_tru___sa__c_die____n_b5124.pdf",
+      "supports": "Tệp PDF chính thức trên moit.gov.vn (Thông tư 61/2026/TT-BCT ngày 29/9/2026 kèm QCVN 32:2026/BCT, bản quét có lớp chữ nhận dạng không dấu): Điều 2 hiệu lực từ 01/7/2027; các mục 1.1.2, 1.1.3, 1.1.5.1, 1.1.5.3, 1.5.1, 1.5.8 và 3.2.8 (sáu nhóm biển, hướng dẫn, dấu hiệu của khu vực sạc); khớp với bản chữ của luatvietnam.vn.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/cong-nghiep/qcvn-322026-bct-tru-sac-tram-sac-xe-dien-449313-d3.html",
+      "supports": "Bản chữ QCVN 32:2026/BCT trên luatvietnam.vn (không phải trang nhà nước): mục 3.2.8 (khu vực sạc phải có biển nhận biết trạm sạc, biển cảnh báo an toàn điện, hướng dẫn thao tác, chỉ dẫn vị trí dừng đỗ, thông tin hỗ trợ khẩn cấp và vạch sơn hoặc dấu hiệu phân định ô sạc), mục 1.1.5.1, 1.1.5.4, 3.3.8, 3.4.1 và 3.4.8; toàn văn bản không có từ xe máy, mô tô, xe gắn máy hay xe đạp điện.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/chi-tiet-cau-hoi/916a2050-e49c-4b0f-bec1-fe599af03285",
+      "supports": "Trang hỏi đáp của Bộ Công an (bocongan.gov.vn, đề ngày 26/05/2026): cơ sở có khu sạc, khu hoán đổi pin, khu để xe điện cần ban hành và niêm yết nội quy PCCC, CNCH riêng cho từng khu vực, kèm các nội dung nội quy; nói về cơ sở thuộc diện quản lý PCCC, không nói về sạc ở nhà riêng và không nêu mức phạt.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/11/51-bgtvt-kem.pdf",
+      "supports": "QCVN 41:2024/BGTVT (Thông tư 51/2024/TT-BGTVT, tệp trên datafiles.chinhphu.vn): biển I.428b Trạm nạp điện trong nhóm I.428 chỉ dẫn nơi nạp điện phục vụ phương tiện đi trên đường, biển I.435 Bến xe điện là chỗ dừng đỗ xe điện cho khách lên xuống; Điều 38: biển chỉ dẫn hình vuông hoặc chữ nhật, nền xanh lam, hình vẽ và chữ viết màu trắng.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://moit.gov.vn/upload/2005517/20261005/TT_61_tru___sa__c_die____n_b5124.pdf",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/cong-nghiep/qcvn-322026-bct-tru-sac-tram-sac-xe-dien-449313-d3.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/chi-tiet-cau-hoi/916a2050-e49c-4b0f-bec1-fe599af03285",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/11/51-bgtvt-kem.pdf",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2055,
+        "title": "App Thuê Xe Máy Hà Nội Nguyễn Tú – Chọn Xe & Tính Giá Nhanh",
+        "why": "stale",
+        "content_hash": "7d1e35643517ac7dd14b5f4764532a79b79d0058b53ef18b878430d4531b97d7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2393,
+        "title": "Thuê pin hay mua pin xe máy điện VinFast: phương án nào hợp lý?",
+        "why": "stale",
+        "content_hash": "b26adf50a482554d3cb08a77a5edd2ce3012f2ce554cb624584729fd43c82f18",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2408,
+        "title": "Xe máy điện Honda: các mẫu đang được người dùng quan tâm",
+        "why": "stale",
+        "content_hash": "ded30343606cc54b9fa64db90b6a7c2bc7b959cdd75d5c4e2c0e9f4663dfce0b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2441,
+        "title": "Honda Vision có ưu nhược điểm gì khi sử dụng hằng ngày trong phố?",
+        "why": "stale",
+        "content_hash": "afe731aa2441d7ecdc450e2a9e5f0574a44dfcbbdc8455f0c3850b24a1490cca",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T06:41:24.141485+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "d6a4ac2eaa1dc2f5646d7aa878edb01a8954a35777388f3472dad312732b0743",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

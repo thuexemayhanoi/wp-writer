@@ -4,34 +4,34 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-22T06:32:04.968860+00:00 |
-| existing_published_posts | 831 |
+| at | 2026-10-22T06:42:32.308299+00:00 |
+| existing_published_posts | 833 |
 | existing_pages | 10 |
 | existing_products | 13 |
 | candidate_topics | 783 |
 | planned_topics | 706 |
-| claimable_topics | 11 |
-| ready_stock | 5 |
-| stock_stages | {'IDEA': 300, 'RESEARCH': 75, 'REJECTED': 2, 'PLANNED': 5, 'PLANNED_HOLD': 3, 'CLAIMED': 15, 'AUTHORED': 3, 'QA_PASS': 0, 'PUBLISHED': 680, 'WP_DRAFT': 0} |
+| claimable_topics | 9 |
+| ready_stock | 3 |
+| stock_stages | {'IDEA': 300, 'RESEARCH': 75, 'REJECTED': 2, 'PLANNED': 3, 'PLANNED_HOLD': 3, 'CLAIMED': 15, 'AUTHORED': 3, 'QA_PASS': 0, 'PUBLISHED': 682, 'WP_DRAFT': 0} |
 | needs_research | True |
-| research_shortfall | 895 |
+| research_shortfall | 897 |
 | refill_trigger_below_ready | 900 |
 | refill_round_target | 100-200 |
 | refill_state | REFILL_IN_PROGRESS |
 | refill_order | RF-0005 |
 | refill_accepted_so_far | 87 |
 | writing | 35 |
-| draft_authored | 680 |
-| qa_pass | 677 |
+| draft_authored | 682 |
+| qa_pass | 679 |
 | qa_fail | 3 |
 | qa_review | 0 |
 | repair_queue | 3 |
 | held_by_class | {'REAL_RISK': 3} |
-| g7_pass | 655 |
+| g7_pass | 657 |
 | g7_not_recorded | 25 |
 | wordpress_draft | 0 |
-| wordpress_published | 680 |
-| verified_public | 680 |
+| wordpress_published | 682 |
+| verified_public | 682 |
 | indexed | None |
 | topic_collisions | 2 |
 | category_mapping_errors | 0 |
@@ -43,12 +43,12 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | delivery_mode | production |
 | production_enabled | True |
 | draft_staging_enabled | False |
-| qa_pass_live_checked | 336 |
+| qa_pass_live_checked | 338 |
 | qa_pass_awaiting_wordpress | 0 |
 | queued_topic_ids | [] |
 | pending_wordpress_intents | [] |
 | blocked_writer_sessions | [] |
-| last_wordpress_verified_at | 2026-10-22T06:31:34.209922+00:00 |
+| last_wordpress_verified_at | 2026-10-22T06:42:00.899095+00:00 |
 | capacity | 10000 |
 | authenticated_inventory | True |
 | test_drafts_excluded | 2 |

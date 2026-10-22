@@ -1,0 +1,201 @@
+{
+  "topic_id": "NT-090413",
+  "status": "PASS",
+  "source_sha256": "4a090d02f5ec85bf2f8542f25828201468f270fffee2a9b4e791fd3d3dd024cc",
+  "body_sha256": "38361e8a0b9b0a27cbad3368a924ff9944aef4a561843a8527a6ff0030f2092c",
+  "word_count": 2609,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://mae.gov.vn/Pages/chitietvanban.aspx?ItemID=567",
+      "supports": "Trang văn bản của cổng Bộ Nông nghiệp và Môi trường (mae.gov.vn): Thông tư 01/2025/TT-BNNMT ban hành 03 quy chuẩn kỹ thuật quốc gia về chất lượng môi trường xung quanh, ngày ban hành 15/05/2025, ngày hiệu lực 14/11/2025, mục Tình trạng để trống.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mae.gov.vn/noidung/Lists/VBQPPL/Attachments/567/01_2025_tt_bnnmt.pdf",
+      "supports": "Điều 1 đến Điều 4 Thông tư 01/2025/TT-BNNMT: ban hành QCVN 26:2025/BNNMT về tiếng ồn, QCVN 26:2010/BTNMT hết hiệu lực, cơ sở và dự án có hồ sơ môi trường trước ngày hiệu lực được dùng quy chuẩn 2010 đến hết 31/12/2026, dự án mới áp dụng quy chuẩn 2025 ngay và từ 01/01/2027 các trường hợp Điều 3 phải đáp ứng quy chuẩn 2025.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mae.gov.vn/noidung/Lists/VBQPPL/Attachments/567/QCVN%2026_2025_BNNMT.pdf",
+      "supports": "QCVN 26:2025/BNNMT trên mae.gov.vn: mục 1.1 phạm vi, mục 2.1 phân loại khu vực A đến E (khu vực B gồm nhà ở, khách sạn, nhà khách, nhà nghỉ và các cơ sở lưu trú khác) và Bảng 1 (giới hạn A 50/45/40, B 55/50/45, C 60/55/50, D 65/60/55, E 70/65/60 dBA theo ngày, tối, đêm).",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/5/01-bnnmt-1.pdf",
+      "supports": "Bản QCVN 26:2025/BNNMT trên datafiles.chinhphu.vn: Bảng 3 (nguồn khác như loa, tiếng từ trong nhà ra ngoài, cơ sở cùng tòa nhà), Bảng 5 (phương tiện giao thông: đường bộ khu vực A, B, C là 68 dBA ban ngày và 58 dBA ban đêm), mục 3.2, 3.4, 4.1, 4.4, 5.1 về thiết bị đo loại 1, đo tối thiểu 15 phút, tổ chức quan trắc đủ năng lực và trách nhiệm không vượt giới hạn.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://mae.gov.vn/Pages/chitietvanban.aspx?ItemID=567",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mae.gov.vn/noidung/Lists/VBQPPL/Attachments/567/01_2025_tt_bnnmt.pdf",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mae.gov.vn/noidung/Lists/VBQPPL/Attachments/567/QCVN%2026_2025_BNNMT.pdf",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/5/01-bnnmt-1.pdf",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 1061,
+        "title": "Thuê Xe Máy Sân Bay Nội Bài: Hướng Dẫn Đi Buýt 17 Về Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "fb3b7f2450df53950a064262ea32d4d11bf69f30edb2fbae3768611953b0c335",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2370,
+        "title": "Chi Phí Đi Xe Máy Điện Mỗi Tháng So Với Xe Máy Xăng Phổ Thông: Bài Toán Chi Tiết Từ Người Dùng Thực Tế",
+        "why": "stale",
+        "content_hash": "92d045593ec18a74d2c912be44adc4f392b4b025734668676528c637f6ed0b2d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2374,
+        "title": "Xe máy điện đi mưa có an toàn không? Cách sử dụng đúng và bền",
+        "why": "stale",
+        "content_hash": "f86d1aa55c92feadb7f1f7424eb5a8881f374d07d09eba557a5974bddc4ab23f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2556,
+        "title": "Xe 50cc có cần bằng lái không? Những điều người dùng nên biết",
+        "why": "stale",
+        "content_hash": "85f63cfb2d7697a412f723a528177739ab99f134cb6f7ab5a119b07d2e960498",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T06:41:50.555242+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "480a2ddbd414bc9711faaefcf2a41e33efd564b11b392dff3ae2db09c722c018",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
