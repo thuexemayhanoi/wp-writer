@@ -31251,7 +31251,7 @@
       }
     },
     "NT-001634": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:33:38.159524+00:00",
       "source_hash": "516ac75ba6d68b222f27b7cf0c36c0b542607089a04cd7113525cbb53a7c792e",
       "slug": "ha-giang-dau-mua-dong-nhung-trai-nghiem-phu-hop-voi-nguoi-di-lan-dau",
@@ -31267,8 +31267,37 @@
       "category_warning": null,
       "git_commit": "9c0156d4d7b1a140206400ae532157c1ebdc3261",
       "run_id": "39722469737",
-      "updated_at": "2026-10-22T04:33:41.907921+00:00",
-      "wp_id": 4705
+      "updated_at": "2026-10-22T04:33:47.596970+00:00",
+      "wp_id": 4705,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ha-giang-dau-mua-dong-nhung-trai-nghiem-phu-hop-voi-nguoi-di-lan-dau/",
+      "verified_at": "2026-10-22T04:33:47.596962+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4705,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ha-giang-dau-mua-dong-nhung-trai-nghiem-phu-hop-voi-nguoi-di-lan-dau/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ha-giang-dau-mua-dong-nhung-trai-nghiem-phu-hop-voi-nguoi-di-lan-dau/",
+        "seo_title": "Hà Giang đầu mùa đông: trải nghiệm cho người đi lần đầu",
+        "seo_description": "Hà Giang đầu mùa đông cho người đi lần đầu: ngày khai mạc lễ hội hoa tam giác mạch (06/11 hay 25/10), diện tích hoa theo từng nguồn và phân luồng ở Lũng Cú.",
+        "checked_at": "2026-10-22T04:33:47.596945+00:00"
+      }
     }
   },
   "categories": {}
