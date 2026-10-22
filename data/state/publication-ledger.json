@@ -29830,7 +29830,7 @@
       }
     },
     "NT-001482": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T03:48:49.558382+00:00",
       "source_hash": "262259834ecd1a4b3752577c94be645679f006251ab3ac464b1734d62a77faef",
       "slug": "cach-tra-cuu-van-ban-luat-giao-thong-kiem-tra-hieu-luc-luat-36-2024-va-nghi-dinh-168-2024",
@@ -29846,8 +29846,37 @@
       "category_warning": null,
       "git_commit": "4088a3633258e497a21f5d954f4ae6fbebc616d4",
       "run_id": "39718326411",
-      "updated_at": "2026-10-22T03:48:53.845117+00:00",
-      "wp_id": 4676
+      "updated_at": "2026-10-22T03:49:00.399295+00:00",
+      "wp_id": 4676,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cach-tra-cuu-van-ban-luat-giao-thong-kiem-tra-hieu-luc-luat-36-2024-va-nghi-dinh-168-2024/",
+      "verified_at": "2026-10-22T03:49:00.399288+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4676,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cach-tra-cuu-van-ban-luat-giao-thong-kiem-tra-hieu-luc-luat-36-2024-va-nghi-dinh-168-2024/",
+        "categories": [
+          171
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cach-tra-cuu-van-ban-luat-giao-thong-kiem-tra-hieu-luc-luat-36-2024-va-nghi-dinh-168-2024/",
+        "seo_title": "Cách tra cứu văn bản luật giao thông: kiểm tra hiệu lực Luật 36/2024",
+        "seo_description": "Cách tra cứu văn bản luật giao thông trên trang chính thức: đọc ngày ban hành, ngày hiệu lực, văn bản sửa đổi và bản hợp nhất qua ví dụ Luật 36/2024, Nghị định 168/2024.",
+        "checked_at": "2026-10-22T03:49:00.399263+00:00"
+      }
     }
   },
   "categories": {}
