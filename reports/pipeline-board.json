@@ -1,29 +1,17 @@
 {
-  "at": "2026-10-22T03:44:40.281120+00:00",
+  "at": "2026-10-22T03:49:30.599720+00:00",
   "counts": {
-    "WRITING": 9,
+    "WRITING": 13,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 627
+    "VERIFIED": 629
   },
   "ready_backlog": 0,
-  "in_flight": 12,
+  "in_flight": 16,
   "items": [
-    {
-      "topic_id": "NT-001453",
-      "state": "WRITING",
-      "reason": "leased to seodev-w69",
-      "title": "Xe đạp điện dùng pin lithium: đối chiếu nhãn UL 2849, UL 2271 với thông tin hãng",
-      "slot": "W1",
-      "session": "seodev-w69",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-001454",
       "state": "WRITING",
@@ -61,18 +49,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001482",
-      "state": "WRITING",
-      "reason": "leased to seodev-w69",
-      "title": "Cách tra cứu văn bản luật giao thông: kiểm tra hiệu lực Luật 36/2024 và Nghị định 168/2024",
-      "slot": "W1",
-      "session": "seodev-w69",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001483",
       "state": "WRITING",
       "reason": "leased to seodev-w69",
@@ -97,6 +73,54 @@
       "seo_score": null
     },
     {
+      "topic_id": "NT-001511",
+      "state": "WRITING",
+      "reason": "leased to seodev-w70",
+      "title": "Xe 50cc cho hành trình ngắn: cách làm quen xe trong khu vực ít phương tiện",
+      "slot": "W3",
+      "session": "seodev-w70",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001512",
+      "state": "WRITING",
+      "reason": "leased to seodev-w70",
+      "title": "Tư thế lái xe 50cc: người mới hay hiểu sai điều gì về tay, lưng và đầu gối",
+      "slot": "W3",
+      "session": "seodev-w70",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001513",
+      "state": "WRITING",
+      "reason": "leased to seodev-w70",
+      "title": "Mức tiêu hao nhiên liệu xe 50cc: ưu điểm và giới hạn khi sử dụng hằng ngày",
+      "slot": "W3",
+      "session": "seodev-w70",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001514",
+      "state": "WRITING",
+      "reason": "leased to seodev-w70",
+      "title": "Xe Cub 50 dùng đi học: người mới hay hiểu nhầm gì về số, phanh và tuổi lái",
+      "slot": "W3",
+      "session": "seodev-w70",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
       "topic_id": "NT-001541",
       "state": "WRITING",
       "reason": "leased to seodev-w69",
@@ -115,6 +139,30 @@
       "title": "Du lịch với hành lý nhẹ: giới hạn sạc dự phòng khi bay cần kiểm tra trước",
       "slot": "W1",
       "session": "seodev-w69",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-090004",
+      "state": "WRITING",
+      "reason": "leased to seodev-w70",
+      "title": "Xe đạp điện bánh nhỏ: khi nào phù hợp và trong trường hợp nào nên cân nhắc",
+      "slot": "W3",
+      "session": "seodev-w70",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-090006",
+      "state": "WRITING",
+      "reason": "leased to seodev-w70",
+      "title": "Màn hình TFT xe máy điện: cấu tạo cơ bản và các giới hạn không nên tự can thiệp",
+      "slot": "W3",
+      "session": "seodev-w70",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -7605,6 +7653,30 @@
       "session": "seodev-w67",
       "wp_id": 4670,
       "url": "https://thuexemaynguyentu.com/xe-dap-dien-leo-doc-cach-doc-mo-men-xoan-cong-suat-va-pin-trong-thong-so-hang/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001453",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe đạp điện dùng pin lithium: đối chiếu nhãn UL 2849, UL 2271 với thông tin hãng",
+      "slot": "W1",
+      "session": "seodev-w69",
+      "wp_id": 4675,
+      "url": "https://thuexemaynguyentu.com/xe-dap-dien-dung-pin-lithium-doi-chieu-nhan-ul-2849-ul-2271-voi-thong-tin-hang/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001482",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Cách tra cứu văn bản luật giao thông: kiểm tra hiệu lực Luật 36/2024 và Nghị định 168/2024",
+      "slot": "W1",
+      "session": "seodev-w69",
+      "wp_id": 4676,
+      "url": "https://thuexemaynguyentu.com/cach-tra-cuu-van-ban-luat-giao-thong-kiem-tra-hieu-luc-luat-36-2024-va-nghi-dinh-168-2024/",
       "qa_status": "PASS",
       "seo_score": 100
     },
