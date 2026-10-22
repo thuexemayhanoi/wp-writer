@@ -4,23 +4,23 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-22T01:53:54.205789+00:00 |
+| at | 2026-10-22T03:25:42.159759+00:00 |
 | existing_published_posts | 779 |
 | existing_pages | 10 |
 | existing_products | 13 |
 | candidate_topics | 725 |
 | planned_topics | 648 |
-| claimable_topics | 13 |
-| ready_stock | 7 |
-| stock_stages | {'IDEA': 300, 'RESEARCH': 75, 'REJECTED': 2, 'PLANNED': 7, 'PLANNED_HOLD': 3, 'CLAIMED': 9, 'AUTHORED': 3, 'QA_PASS': 0, 'PUBLISHED': 626, 'WP_DRAFT': 0} |
+| claimable_topics | 22 |
+| ready_stock | 16 |
+| stock_stages | {'IDEA': 300, 'RESEARCH': 75, 'REJECTED': 2, 'PLANNED': 16, 'PLANNED_HOLD': 3, 'CLAIMED': 0, 'AUTHORED': 3, 'QA_PASS': 0, 'PUBLISHED': 626, 'WP_DRAFT': 0} |
 | needs_research | True |
-| research_shortfall | 893 |
+| research_shortfall | 884 |
 | refill_trigger_below_ready | 900 |
 | refill_round_target | 100-200 |
 | refill_state | REFILL_IN_PROGRESS |
 | refill_order | RF-0005 |
 | refill_accepted_so_far | 29 |
-| writing | 34 |
+| writing | 3 |
 | draft_authored | 626 |
 | qa_pass | 623 |
 | qa_fail | 3 |
