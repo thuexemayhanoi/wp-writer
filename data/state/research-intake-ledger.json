@@ -2633,6 +2633,29 @@
         "NT-090070"
       ],
       "not_accepted": {}
+    },
+    "data/candidates/seodev-r54b-0001.jsonl": {
+      "sha256": "4b9e7fa8e7b41327b551e9293217fdf0a2c2fe59e0bc16e46033024fe9b10806",
+      "at": "2026-10-22T07:57:18.449705+00:00",
+      "state": "TOPIC_QA_APPLIED",
+      "research_branch": "research/seodev-r54b",
+      "research_commit": "a612f571c97c0ccd2f5c9e9430c7131685c320ce",
+      "topic_ids": [
+        "NT-001661",
+        "NT-001662",
+        "NT-001663",
+        "NT-001664",
+        "NT-001665"
+      ],
+      "accepted_ids": [
+        "NT-001661",
+        "NT-001662",
+        "NT-001665"
+      ],
+      "not_accepted": {
+        "NT-001663": "RESEARCH",
+        "NT-001664": "RESEARCH"
+      }
     }
   }
 }
