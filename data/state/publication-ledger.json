@@ -35465,7 +35465,7 @@
       }
     },
     "NT-002022": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T11:32:57.197919+00:00",
       "source_hash": "dd8ec0412dd786d41367c28add8b8326fcbc8c7fee6ad44334f052228a1469f5",
       "slug": "xuan-thuy-xem-chim-thang-nao-tu-thang-10-den-thang-4-co-thia-quanh-40-con",
@@ -35481,8 +35481,37 @@
       "category_warning": null,
       "git_commit": "f4508aea6eff23accf301ee9877a2549f6b4865f",
       "run_id": "39770550592",
-      "updated_at": "2026-10-22T11:33:01.829763+00:00",
-      "wp_id": 4819
+      "updated_at": "2026-10-22T11:33:08.531544+00:00",
+      "wp_id": 4819,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xuan-thuy-xem-chim-thang-nao-tu-thang-10-den-thang-4-co-thia-quanh-40-con/",
+      "verified_at": "2026-10-22T11:33:08.531538+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4819,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xuan-thuy-xem-chim-thang-nao-tu-thang-10-den-thang-4-co-thia-quanh-40-con/",
+        "categories": [
+          177
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xuan-thuy-xem-chim-thang-nao-tu-thang-10-den-thang-4-co-thia-quanh-40-con/",
+        "seo_title": "Xuân Thủy xem chim tháng nào: mùa chim từ tháng 10 đến tháng 4",
+        "seo_description": "Xuân Thủy xem chim tháng nào: báo nêu mùa chim di cư từ tháng 10 đến tháng 4, có loài nán lại tới tháng 5; nguồn chưa nêu giờ triều hay tháng đông nhất.",
+        "checked_at": "2026-10-22T11:33:08.531519+00:00"
+      }
     }
   },
   "categories": {}
