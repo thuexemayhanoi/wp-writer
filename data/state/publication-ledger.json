@@ -31886,6 +31886,25 @@
         "seo_description": "Kiểm tra phanh khi nhận xe máy thuê: nhìn tay phanh và cáp, thử giữ xe từng phanh, xem đèn phanh, dắt thử chậm và việc cần làm trước khi đặt cọc hay ký nhận.",
         "checked_at": "2026-10-22T04:45:43.059781+00:00"
       }
+    },
+    "NT-001811": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T04:45:59.357349+00:00",
+      "source_hash": "be6bec0981a32d56481ed13bf529e4b6d270a3d38c046d4e49b60a41fdc42f8c",
+      "slug": "xe-may-dai-bao-nhieu-mm-so-do-1-820-2-013-mm-cua-xe-so-xe-ga-honda-yamaha-theo-trang-hang",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 156,
+      "visible_hash": "881df1fb7204953e509269e6b300172b6dd6f7a6f0cc3c1d15b0deb12c7b1c7e",
+      "first_paragraph": "Xe máy dài bao nhiêu mm theo trang chính hãng: trong 22 mẫu Honda và Yamaha được đọc ngày 22/10/2026, chiều dài ghi trên trang sản phẩm nằm từ 1.820 mm (Yamaha Grande) đến 2.013 mm (Honda Winner R), tức chênh 193 mm theo phép trừ của người viết. Đó là số hãng công bố ở dòng \"Dài x Rộng x Cao\", không phải kết quả đo của người viết, và các trang không nói số đo có tính gương, tay lái hay chân chống hay không.",
+      "meta_title": "Xe máy dài bao nhiêu mm: số đo hãng ghi của 22 mẫu Honda, Yamaha",
+      "meta_description": "Xe máy dài bao nhiêu mm theo trang hãng: bảng dài x rộng x cao và khoảng cách giữa hai trục của 22 mẫu Honda, Yamaha, cách đọc nhãn và tự đo không gian.",
+      "intended_taxonomy_key": "reviews",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "c7de7c79ccdec5547a0dba5bc3326787f2722919",
+      "run_id": "39723491639",
+      "updated_at": "2026-10-22T04:45:59.360562+00:00"
     }
   },
   "categories": {}
