@@ -33701,7 +33701,7 @@
       }
     },
     "NT-001662": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T10:16:53.442518+00:00",
       "source_hash": "17bb61470ff337ac057d71738bda136f8c33f37470cedba696955c9cec882fa8",
       "slug": "du-lich-hai-ngay-mot-dem-xuat-phat-buoi-sang-hay-buoi-chieu-hop-ly-hon",
@@ -33717,8 +33717,37 @@
       "category_warning": null,
       "git_commit": "c68fcc7040146e10c410a150c67ad8d5d68737c5",
       "run_id": "39761284372",
-      "updated_at": "2026-10-22T10:16:57.866811+00:00",
-      "wp_id": 4783
+      "updated_at": "2026-10-22T10:17:04.779653+00:00",
+      "wp_id": 4783,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/du-lich-hai-ngay-mot-dem-xuat-phat-buoi-sang-hay-buoi-chieu-hop-ly-hon/",
+      "verified_at": "2026-10-22T10:17:04.779645+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4783,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/du-lich-hai-ngay-mot-dem-xuat-phat-buoi-sang-hay-buoi-chieu-hop-ly-hon/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/du-lich-hai-ngay-mot-dem-xuat-phat-buoi-sang-hay-buoi-chieu-hop-ly-hon/",
+        "seo_title": "Du lịch hai ngày một đêm: đi sáng hay chiều theo giờ nhận phòng",
+        "seo_description": "Du lịch hai ngày một đêm nên xuất phát sáng hay chiều? Xếp chuyến đi quanh giờ nhận phòng 14h, trả phòng 12h, gửi hành lý và phụ phí nhận sớm, trả muộn.",
+        "checked_at": "2026-10-22T10:17:04.779627+00:00"
+      }
     }
   },
   "categories": {}
