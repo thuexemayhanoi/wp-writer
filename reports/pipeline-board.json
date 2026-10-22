@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-22T07:03:29.320010+00:00",
+  "at": "2026-10-22T07:13:40.175032+00:00",
   "counts": {
     "WRITING": 15,
     "QA": 0,
-    "READY": 2,
+    "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 686
+    "VERIFIED": 690
   },
-  "ready_backlog": 2,
-  "in_flight": 20,
+  "ready_backlog": 0,
+  "in_flight": 18,
   "items": [
     {
       "topic_id": "NT-001635",
@@ -191,30 +191,6 @@
       "url": null,
       "qa_status": null,
       "seo_score": null
-    },
-    {
-      "topic_id": "NT-090059",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Pin LFP VinFast để yên hao bao nhiêu: khoảng 2%, dưới 4% mỗi tháng hay dưới 1,5% mỗi ngày?",
-      "slot": "W2",
-      "session": "s-claude-df7eb8c1-20261022",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-090758",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Thuê xe đi 100 km hết bao nhiêu tiền xăng: Wave Alpha, Vision, Air Blade theo giá 15/10/2026",
-      "slot": "W2",
-      "session": "s-claude-df7eb8c1-20261022",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
     },
     {
       "topic_id": "NT-001101",
@@ -8377,6 +8353,18 @@
       "seo_score": 95
     },
     {
+      "topic_id": "NT-090059",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Pin LFP VinFast để yên hao bao nhiêu: khoảng 2%, dưới 4% mỗi tháng hay dưới 1,5% mỗi ngày?",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": 4762,
+      "url": "https://thuexemaynguyentu.com/pin-lfp-vinfast-de-yen-hao-bao-nhieu-khoang-2-duoi-4-moi-thang-hay-duoi-1-5-moi-ngay/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-090138",
       "state": "VERIFIED",
       "reason": "publish",
@@ -8397,6 +8385,18 @@
       "session": "s-claude-df7eb8c1-20261022",
       "wp_id": 4761,
       "url": "https://thuexemaynguyentu.com/phanh-co-xe-dap-dien-shimano-ghi-khe-ma-phanh-0-2-0-4-mm-tektro-0-3-mm-vi-sao-chinh-hai-ben/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-090393",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Hà Nội giáp 5 tỉnh nào sau sáp nhập: Thái Nguyên, Phú Thọ, Bắc Ninh, Hưng Yên và Ninh Bình",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": 4763,
+      "url": "https://thuexemaynguyentu.com/ha-noi-giap-5-tinh-nao-sau-sap-nhap-thai-nguyen-phu-tho-bac-ninh-hung-yen-va-ninh-binh/",
       "qa_status": "PASS",
       "seo_score": 100
     },
@@ -8425,6 +8425,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-090631",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Giữ thẻ căn cước khi thuê xe máy: Điều 7, Điều 29 Luật Căn cước và Nghị định 282/2025 nói gì?",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": 4764,
+      "url": "https://thuexemaynguyentu.com/giu-the-can-cuoc-khi-thue-xe-may-dieu-7-dieu-29-luat-can-cuoc-va-nghi-dinh-282-2025-noi-gi/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-090681",
       "state": "VERIFIED",
       "reason": "publish",
@@ -8433,6 +8445,18 @@
       "session": "s-claude-df7eb8c1-20261022",
       "wp_id": 4750,
       "url": "https://thuexemaynguyentu.com/lich-nghi-le-sap-toi-24-11-2026-nghi-1-ngay-tet-dinh-mui-4-10-2-2027-va-quoc-khanh-2-5-9-2027/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-090758",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Thuê xe đi 100 km hết bao nhiêu tiền xăng: Wave Alpha, Vision, Air Blade theo giá 15/10/2026",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": 4765,
+      "url": "https://thuexemaynguyentu.com/thue-xe-di-100-km-het-bao-nhieu-tien-xang-wave-alpha-vision-air-blade-theo-gia-15-10-2026/",
       "qa_status": "PASS",
       "seo_score": 100
     },

@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-22T06:59:07.904914+00:00",
-  "attempted": 2,
+  "at": "2026-10-22T07:13:33.579339+00:00",
+  "attempted": 4,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -191,11 +191,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T06:57:44.953733+00:00",
+      "at": "2026-10-22T07:10:59.837315+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "0d5dc94ad9d4d0bcbd304161413cfd52d9591aa92dea16c11b57ab32cee62c81",
+      "inventory_sha256": "9ce4a135e187befd8f71bc8f093e9e59a401c913b77f863e09c11d14843d4ac2",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -380,11 +380,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T06:57:52.438499+00:00",
+      "at": "2026-10-22T07:11:07.418067+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "0d5dc94ad9d4d0bcbd304161413cfd52d9591aa92dea16c11b57ab32cee62c81",
+      "inventory_sha256": "9ce4a135e187befd8f71bc8f093e9e59a401c913b77f863e09c11d14843d4ac2",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -577,11 +577,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T06:57:59.015179+00:00",
+      "at": "2026-10-22T07:11:14.011514+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "0d5dc94ad9d4d0bcbd304161413cfd52d9591aa92dea16c11b57ab32cee62c81",
+      "inventory_sha256": "9ce4a135e187befd8f71bc8f093e9e59a401c913b77f863e09c11d14843d4ac2",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -601,19 +601,35 @@
       }
     },
     {
-      "topic_id": "NT-090138",
+      "topic_id": "NT-090059",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 172,
+      "category_id": 167,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "hanoi-travel",
+      "intended_taxonomy_key": "battery-charging",
       "category_warning": null
     },
     {
-      "topic_id": "NT-090364",
+      "topic_id": "NT-090393",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 166,
+      "category_id": 175,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "ebikes",
+      "intended_taxonomy_key": "trip-planning",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-090631",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 163,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "rental-procedures",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-090758",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 164,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "rental-costs",
       "category_warning": null
     }
   ],

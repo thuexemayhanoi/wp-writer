@@ -1,0 +1,176 @@
+{
+  "topic_id": "NT-090393",
+  "status": "PASS",
+  "source_sha256": "79e842f0cfd91b30535fd0d043613950e0275c508d675e1210a0cd2c735e983f",
+  "body_sha256": "2b2f26a5faf90c79384c02350af076e25736d4161b000380eb0a22c415dbb8ac",
+  "word_count": 2048,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/nghi-quyet-so-202-2025-qh15-ve-viec-sap-xep-don-vi-hanh-chinh-cap-tinh--179501",
+      "supports": "Toàn văn Nghị quyết 202/2025/QH15 trên vbpl.vn (trạng thái Còn hiệu lực, hiệu lực 12/06/2025, cập nhật 31/03/2026): Điều 1 khoản 1 đến 8 và 24 (34 đơn vị cấp tỉnh, 11 đơn vị không sắp xếp gồm thành phố Hà Nội, các tỉnh mới, diện tích, dân số, tỉnh giáp; năm khoản 3, 4, 5, 6, 8 ghi giáp thành phố Hà Nội), Điều 2 (hiệu lực, chính quyền mới hoạt động từ 01/7/2025), Điều 3 khoản 2 (Chính phủ cập nhật diện tích).",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-202-2025-qh15-45050.htm",
+      "supports": "Trang văn bản của Công báo Chính phủ (congbao.chinhphu.vn): Nghị quyết 202/2025/QH15 ban hành 12/06/2025, hiệu lực 12/06/2025, nằm trong Công báo số 773 và 774 ngày 2025-06-23.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vass.gov.vn/van-ban-qppl-56020/nghi-quyet-so-202-2025-qh15-ngay-12-6-2025-cua-quoc-hoi-ve-viec-sap-xep-don-vi-hanh-chinh-cap-tinh-462309",
+      "supports": "Trang văn bản của Viện Hàn lâm Khoa học xã hội Việt Nam (vass.gov.vn) ngày 12/06/2025: Quốc hội thông qua Nghị quyết về sắp xếp đơn vị hành chính cấp tỉnh, có hiệu lực từ 12/6, cả nước còn 34 tỉnh, thành phố.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/nghi-quyet-so-202-2025-qh15-ve-viec-sap-xep-don-vi-hanh-chinh-cap-tinh--179501",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-202-2025-qh15-45050.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vass.gov.vn/van-ban-qppl-56020/nghi-quyet-so-202-2025-qh15-ngay-12-6-2025-cua-quoc-hoi-ve-viec-sap-xep-don-vi-hanh-chinh-cap-tinh-462309",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2055,
+        "title": "App Thuê Xe Máy Hà Nội Nguyễn Tú – Chọn Xe & Tính Giá Nhanh",
+        "why": "stale",
+        "content_hash": "7d1e35643517ac7dd14b5f4764532a79b79d0058b53ef18b878430d4531b97d7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2349,
+        "title": "Xe máy điện giá bao nhiêu? Các nhóm giá phổ biến hiện nay",
+        "why": "stale",
+        "content_hash": "7cbacf7f21600cfcf6443eefa80b95d210de98f76fea5ef8dade3a018e9a3e6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2580,
+        "title": "Đi Hà Nội nên chọn xe ga hay xe số để di chuyển thuận tiện hơn?",
+        "why": "stale",
+        "content_hash": "6aa38b717367fc0077cddd4330e078e59294b75c84a725df25d0c1ffd299712f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T07:11:50.683251+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "8d577ed13557bfc47de3302bc64ccbd2a3fb2b6aea265c474013701fce9f0dd3",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
