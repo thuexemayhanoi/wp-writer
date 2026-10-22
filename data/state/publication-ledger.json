@@ -38160,7 +38160,7 @@
       }
     },
     "NT-001995": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T16:04:05.593486+00:00",
       "source_hash": "014790fd13200ac12a7c6674265a542d05c5276572b8d05e6dd24767c054cb70",
       "slug": "bat-xi-nhan-truoc-khi-re-bao-nhieu-met-luat-khong-ghi-so-met-cu-the",
@@ -38176,8 +38176,37 @@
       "category_warning": null,
       "git_commit": "08d0f963333ced9e90d0a2ead64e40bad75800fa",
       "run_id": "39809851095",
-      "updated_at": "2026-10-22T16:04:10.273787+00:00",
-      "wp_id": 4874
+      "updated_at": "2026-10-22T16:04:18.928462+00:00",
+      "wp_id": 4874,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bat-xi-nhan-truoc-khi-re-bao-nhieu-met-luat-khong-ghi-so-met-cu-the/",
+      "verified_at": "2026-10-22T16:04:18.928456+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4874,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bat-xi-nhan-truoc-khi-re-bao-nhieu-met-luat-khong-ghi-so-met-cu-the/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bat-xi-nhan-truoc-khi-re-bao-nhieu-met-luat-khong-ghi-so-met-cu-the/",
+        "seo_title": "Bật xi nhan trước khi rẽ bao nhiêu mét: luật không ghi số mét",
+        "seo_description": "Bật xi nhan trước khi rẽ bao nhiêu mét? Điều 15 Luật 36/2024 không ghi số mét; 25–30 m hay 10–15 chỉ là khuyến cáo của hai trang, kèm mức phạt xe máy.",
+        "checked_at": "2026-10-22T16:04:18.928438+00:00"
+      }
     }
   },
   "categories": {}
