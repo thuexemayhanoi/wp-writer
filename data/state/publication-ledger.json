@@ -30075,7 +30075,7 @@
       }
     },
     "NT-001511": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T03:59:21.939832+00:00",
       "source_hash": "6b3d7026862fd837e467f01a2260d67d527d14fc278d0d994bf1eb9b8211bec7",
       "slug": "xe-50cc-cho-hanh-trinh-ngan-cach-lam-quen-xe-trong-khu-vuc-it-phuong-tien",
@@ -30091,8 +30091,37 @@
       "category_warning": null,
       "git_commit": "1e74ad701879bdb13da04b299582fca2ef1dc5af",
       "run_id": "39719359256",
-      "updated_at": "2026-10-22T03:59:25.946517+00:00",
-      "wp_id": 4681
+      "updated_at": "2026-10-22T03:59:31.562831+00:00",
+      "wp_id": 4681,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-50cc-cho-hanh-trinh-ngan-cach-lam-quen-xe-trong-khu-vuc-it-phuong-tien/",
+      "verified_at": "2026-10-22T03:59:31.562823+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4681,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-50cc-cho-hanh-trinh-ngan-cach-lam-quen-xe-trong-khu-vuc-it-phuong-tien/",
+        "categories": [
+          165
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-50cc-cho-hanh-trinh-ngan-cach-lam-quen-xe-trong-khu-vuc-it-phuong-tien/",
+        "seo_title": "Xe 50cc cho hành trình ngắn: cách làm quen xe ở nơi ít phương tiện",
+        "seo_description": "Xe 50cc cho hành trình ngắn: tập ở bãi vắng theo cẩm nang Ontario và RoSPA, thứ tự bài tập ga êm, hai phanh, rẽ chậm, nhìn xa và dấu hiệu tự kiểm tra.",
+        "checked_at": "2026-10-22T03:59:31.562805+00:00"
+      }
     }
   },
   "categories": {}
