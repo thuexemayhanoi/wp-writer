@@ -38846,7 +38846,7 @@
       }
     },
     "NT-090131": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T16:17:50.726515+00:00",
       "source_hash": "3a9ef8bbde725cdee8a41cb3cc2325e768d0f9b5d1e060e8ec32c19ea7047a14",
       "slug": "nhiet-do-pin-vinfast-amio-va-evo-lite-xe-giam-hieu-nang-tren-45-c-pin-ngung-o-65-c-hay-60-c",
@@ -38862,8 +38862,37 @@
       "category_warning": null,
       "git_commit": "bbb96c083cbf7410f70b96d536d8be024df30c78",
       "run_id": "39811599986",
-      "updated_at": "2026-10-22T16:17:55.006579+00:00",
-      "wp_id": 4888
+      "updated_at": "2026-10-22T16:18:02.423706+00:00",
+      "wp_id": 4888,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/nhiet-do-pin-vinfast-amio-va-evo-lite-xe-giam-hieu-nang-tren-45-c-pin-ngung-o-65-c-hay-60-c/",
+      "verified_at": "2026-10-22T16:18:02.423700+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4888,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/nhiet-do-pin-vinfast-amio-va-evo-lite-xe-giam-hieu-nang-tren-45-c-pin-ngung-o-65-c-hay-60-c/",
+        "categories": [
+          167
+        ],
+        "canonical": "https://thuexemaynguyentu.com/nhiet-do-pin-vinfast-amio-va-evo-lite-xe-giam-hieu-nang-tren-45-c-pin-ngung-o-65-c-hay-60-c/",
+        "seo_title": "Nhiệt độ pin VinFast giảm hiệu năng: Amio, Amio S và Evo Lite",
+        "seo_description": "Nhiệt độ pin VinFast giảm hiệu năng: sổ Amio và Evo Lite nêu mốc 0°C, 10°C, 45°C; pin ngừng ở 65°C hay 60°C, xem nhiệt độ pin ở đâu và các mã lỗi liên quan.",
+        "checked_at": "2026-10-22T16:18:02.423682+00:00"
+      }
     }
   },
   "categories": {}
