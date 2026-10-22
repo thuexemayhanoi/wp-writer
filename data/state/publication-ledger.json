@@ -38944,7 +38944,7 @@
       }
     },
     "NT-090206": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T16:19:15.966883+00:00",
       "source_hash": "f1b6d77d0d144f56bce1b6c544c791d4d4ca017f3e5f92701d15e3fccdc82f6d",
       "slug": "tu-doi-pin-xe-may-dien-o-chung-cu-ngoai-troi-3-m-trong-nha-cach-thang-6-m-tran-18-100-kwh",
@@ -38960,8 +38960,37 @@
       "category_warning": null,
       "git_commit": "bbb96c083cbf7410f70b96d536d8be024df30c78",
       "run_id": "39811599986",
-      "updated_at": "2026-10-22T16:19:19.895596+00:00",
-      "wp_id": 4890
+      "updated_at": "2026-10-22T16:19:26.269866+00:00",
+      "wp_id": 4890,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/tu-doi-pin-xe-may-dien-o-chung-cu-ngoai-troi-3-m-trong-nha-cach-thang-6-m-tran-18-100-kwh/",
+      "verified_at": "2026-10-22T16:19:26.269859+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4890,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/tu-doi-pin-xe-may-dien-o-chung-cu-ngoai-troi-3-m-trong-nha-cach-thang-6-m-tran-18-100-kwh/",
+        "categories": [
+          169
+        ],
+        "canonical": "https://thuexemaynguyentu.com/tu-doi-pin-xe-may-dien-o-chung-cu-ngoai-troi-3-m-trong-nha-cach-thang-6-m-tran-18-100-kwh/",
+        "seo_title": "Tủ đổi pin xe máy điện ở chung cư: khoảng cách 3 m, 6 m và trần kWh",
+        "seo_description": "Tủ đổi pin xe máy điện ở chung cư theo Sửa đổi 01:2026 QCVN 04:2021/BXD: đặt ở đâu, cách cầu thang thoát nạn bao nhiêu mét, trần 100, 35, 18 kWh và hiệu lực 15/12/2026.",
+        "checked_at": "2026-10-22T16:19:26.269840+00:00"
+      }
     }
   },
   "categories": {}
