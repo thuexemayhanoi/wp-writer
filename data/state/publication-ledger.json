@@ -37229,7 +37229,7 @@
       }
     },
     "NT-001940": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:43:02.869300+00:00",
       "source_hash": "5415f54ace328b40a0bb51e58090fefe77bfd600093424acbdba7e61002919d4",
       "slug": "vinh-ha-long-co-bao-nhieu-hon-dao-1-969-775-hay-hon-2-000-va-vung-loi-434-km2",
@@ -37245,8 +37245,37 @@
       "category_warning": null,
       "git_commit": "29b371a50ce93cffc2535aafb2c098124c5c38a7",
       "run_id": "39806500390",
-      "updated_at": "2026-10-22T15:43:07.114273+00:00",
-      "wp_id": 4855
+      "updated_at": "2026-10-22T15:43:13.776925+00:00",
+      "wp_id": 4855,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/vinh-ha-long-co-bao-nhieu-hon-dao-1-969-775-hay-hon-2-000-va-vung-loi-434-km2/",
+      "verified_at": "2026-10-22T15:43:13.776919+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4855,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/vinh-ha-long-co-bao-nhieu-hon-dao-1-969-775-hay-hon-2-000-va-vung-loi-434-km2/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/vinh-ha-long-co-bao-nhieu-hon-dao-1-969-775-hay-hon-2-000-va-vung-loi-434-km2/",
+        "seo_title": "Vịnh Hạ Long có bao nhiêu hòn đảo: 1.969, 775 hay hơn 2.000?",
+        "seo_description": "Vịnh Hạ Long có bao nhiêu hòn đảo: 1.969 đảo toàn vịnh, 775 đảo ở khu vực di sản 434 km2 hay hơn 2.000 theo cẩm nang. Mỗi số thuộc một phạm vi và một ngày khác nhau.",
+        "checked_at": "2026-10-22T15:43:13.776896+00:00"
+      }
     }
   },
   "categories": {}
