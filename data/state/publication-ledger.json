@@ -31104,7 +31104,7 @@
       }
     },
     "NT-001781": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:23:11.974840+00:00",
       "source_hash": "b3222df66ec0c314b9c4fd1e9049f8169d44eaa69a9145539f86768cbc527c33",
       "slug": "thue-xe-may-khi-doi-lich-bay-nen-uu-tien-yeu-to-nao-neu-chi-dung-vai-ngay",
@@ -31120,8 +31120,37 @@
       "category_warning": null,
       "git_commit": "e8867ed3ab382cf02fcc9d35a5f3f731186b146e",
       "run_id": "39721381932",
-      "updated_at": "2026-10-22T04:23:15.963565+00:00",
-      "wp_id": 4702
+      "updated_at": "2026-10-22T04:23:21.416355+00:00",
+      "wp_id": 4702,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/thue-xe-may-khi-doi-lich-bay-nen-uu-tien-yeu-to-nao-neu-chi-dung-vai-ngay/",
+      "verified_at": "2026-10-22T04:23:21.416348+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4702,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/thue-xe-may-khi-doi-lich-bay-nen-uu-tien-yeu-to-nao-neu-chi-dung-vai-ngay/",
+        "categories": [
+          163
+        ],
+        "canonical": "https://thuexemaynguyentu.com/thue-xe-may-khi-doi-lich-bay-nen-uu-tien-yeu-to-nao-neu-chi-dung-vai-ngay/",
+        "seo_title": "Thuê xe máy khi đổi lịch bay: thứ tự ưu tiên cho kỳ thuê vài ngày",
+        "seo_description": "Thuê xe máy khi đổi lịch bay: xếp giờ đến, giờ nhận trả, khoảng đệm và tiền cọc theo thứ tự nào, cách đọc thông báo của hãng bay và mẫu tin nhắn xác nhận.",
+        "checked_at": "2026-10-22T04:23:21.416333+00:00"
+      }
     }
   },
   "categories": {}
