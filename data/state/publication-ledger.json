@@ -38452,6 +38452,25 @@
         "seo_description": "Chụp ảnh CCCD khi thuê xe máy: ảnh thẻ căn cước là dữ liệu nhạy cảm theo NĐ 356/2025, sự đồng ý có hiệu lực khi nào, im lặng không phải đồng ý và cách xin xóa.",
         "checked_at": "2026-10-22T16:07:26.858350+00:00"
       }
+    },
+    "NT-085405": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T16:08:06.684416+00:00",
+      "source_hash": "784a4e0bdb412cd2bdeaad42194a3354df6c7149c933b719f702973dedc54e65",
+      "slug": "sac-day-vinfast-evo200-lite-3-5-kwh-het-bao-nhieu-tien-dien-1-984-3-460-dong-kwh-chua-vat",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 157,
+      "visible_hash": "2cfecaef0a7da85158706193730f708f0f10a0567ee23632ad87eab3db477409",
+      "first_paragraph": "Sạc đầy xe máy điện hết bao nhiêu tiền điện thì phụ thuộc vào bậc giá hộ nhà bạn đang ở. Với VinFast Evo200 Lite, pin 3,5 kWh nhân với giá điện sinh hoạt 6 bậc đang áp dụng (từ 1.984 đến 3.460 đồng/kWh, chưa gồm VAT) cho ra từ 6.944 đến 12.110 đồng tiền điện chưa VAT cho phần năng lượng nạp vào pin. Đó là mức tối thiểu, vì VinFast không nêu hiệu suất sạc nên điện lấy từ ổ cắm có thể lớn hơn điện vào pin. Biểu giá 5 bậc mới đến ngày 21/10/2026 vẫn chưa được áp dụng. Các số liệu được đọc ngày 22/10/2026; phép nhân và chia là phép tính của người viết, còn hóa đơn của điện lực mới là con số cuối cùng.",
+      "meta_title": "Sạc đầy xe máy điện hết bao nhiêu tiền điện: VinFast Evo200 Lite",
+      "meta_description": "Sạc đầy xe máy điện hết bao nhiêu tiền điện: pin 3,5 kWh của VinFast Evo200 Lite tốn 6.944–12.110 đồng chưa VAT theo 6 bậc giá điện, và biểu giá 5 bậc chưa áp dụng.",
+      "intended_taxonomy_key": "electric",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "08d0f963333ced9e90d0a2ead64e40bad75800fa",
+      "run_id": "39809851095",
+      "updated_at": "2026-10-22T16:08:06.686028+00:00"
     }
   },
   "categories": {}
