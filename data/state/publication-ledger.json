@@ -34191,7 +34191,7 @@
       }
     },
     "NT-001844": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T10:45:24.188766+00:00",
       "source_hash": "0499944e56699a3bc0ab8ab93bc8b50980d065cbf45f4792399c5e7bf83a3cfd",
       "slug": "xe-may-khong-chinh-chu-sang-ten-khi-mat-lien-lac-chu-cu-giay-hen-30-ngay-va-muc-phat",
@@ -34207,8 +34207,37 @@
       "category_warning": null,
       "git_commit": "f9037106cb5fab8e879cc3bf0ef52bbdd467ca93",
       "run_id": "39764969071",
-      "updated_at": "2026-10-22T10:45:28.737237+00:00",
-      "wp_id": 4793
+      "updated_at": "2026-10-22T10:45:35.193934+00:00",
+      "wp_id": 4793,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-khong-chinh-chu-sang-ten-khi-mat-lien-lac-chu-cu-giay-hen-30-ngay-va-muc-phat/",
+      "verified_at": "2026-10-22T10:45:35.193927+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4793,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-khong-chinh-chu-sang-ten-khi-mat-lien-lac-chu-cu-giay-hen-30-ngay-va-muc-phat/",
+        "categories": [
+          171
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-khong-chinh-chu-sang-ten-khi-mat-lien-lac-chu-cu-giay-hen-30-ngay-va-muc-phat/",
+        "seo_title": "Xe máy không chính chủ mất liên lạc chủ cũ: sang tên, giấy hẹn 30 ngày",
+        "seo_description": "Xe máy không chính chủ, mất liên lạc chủ cũ: Điều 32 Thông tư 79/2024 cho thu hồi rồi sang tên, giấy hẹn 30 ngày, hồ sơ và khung phạt 800.000–1.000.000 đồng Bộ Công an dẫn.",
+        "checked_at": "2026-10-22T10:45:35.193911+00:00"
+      }
     }
   },
   "categories": {}
