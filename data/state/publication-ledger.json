@@ -34387,7 +34387,7 @@
       }
     },
     "NT-001933": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T11:05:06.325646+00:00",
       "source_hash": "2767a618a4c8c9cfcfc36c2a7a79cbf8b1990866818db55cb204dd3eda842a18",
       "slug": "binh-lieu-bang-xe-may-tu-ha-noi-270-km-quoc-lo-18c-va-mua-san-may-cao-ly",
@@ -34403,8 +34403,37 @@
       "category_warning": null,
       "git_commit": "21b0957d479fbe02a910cf835abef3a88fac5ae6",
       "run_id": "39767318041",
-      "updated_at": "2026-10-22T11:05:10.591973+00:00",
-      "wp_id": 4797
+      "updated_at": "2026-10-22T11:05:16.979973+00:00",
+      "wp_id": 4797,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/binh-lieu-bang-xe-may-tu-ha-noi-270-km-quoc-lo-18c-va-mua-san-may-cao-ly/",
+      "verified_at": "2026-10-22T11:05:16.979965+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4797,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/binh-lieu-bang-xe-may-tu-ha-noi-270-km-quoc-lo-18c-va-mua-san-may-cao-ly/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/binh-lieu-bang-xe-may-tu-ha-noi-270-km-quoc-lo-18c-va-mua-san-may-cao-ly/",
+        "seo_title": "Bình Liêu bằng xe máy từ Hà Nội: 270 km, quốc lộ 18C, săn mây Cao Ly",
+        "seo_description": "Bình Liêu bằng xe máy từ Hà Nội khoảng 270 km: lộ trình quốc lộ 18 rẽ 18C ở Tiên Yên, mùa săn mây Cao Ly theo VnExpress và vietnam.travel, cột mốc biên giới.",
+        "checked_at": "2026-10-22T11:05:16.979948+00:00"
+      }
     }
   },
   "categories": {}
