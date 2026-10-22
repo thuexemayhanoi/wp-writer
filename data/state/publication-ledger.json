@@ -39285,6 +39285,25 @@
         "seo_description": "Dây nguồn bộ sạc xe điện sờn thì dùng tiếp được không? Lời VinFast, Bosch và Shimano trong sách hướng dẫn: khi nào ngừng dùng, thói quen làm hỏng dây, ai được sửa.",
         "checked_at": "2026-10-22T16:28:31.775005+00:00"
       }
+    },
+    "NT-090682": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T16:28:51.477305+00:00",
+      "source_hash": "73354823508d9e22eba884dcab5fafcc62a5afae071b8c1b6ec11d7aee61ed40",
+      "slug": "metro-ha-noi-chay-den-22h00-22h30-hay-23h00-khi-buyt-da-nghi-trang-chinh-thuc-ghi-khac-nhau",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 176,
+      "visible_hash": "1ddac0cf54301230dcde880370936394f70e294b47f7bd00f0bc9c88b3aec1e3",
+      "first_paragraph": "Metro Hà Nội chuyến cuối mấy giờ chưa có một con số duy nhất trên các trang chính thức của Hà Nội Metro. Thông báo áp dụng từ 9/2/2026 cho tuyến 2A và 3.1 ghi thời gian hoạt động từ 5h30 đến 22h00 hằng ngày, mục \"Bảng giờ tàu\" của trang ga Cát Linh ghi chạy tàu đến 22h30, còn mục \"Thông tin nhà ga\" trên cùng trang đó ghi dự kiến đến 23h00. Các trang người viết đã đọc không công bố giờ tàu cuối rời từng ga. Vì hai tuyến buýt trong thông báo của Transerco ngày 31/5/2026 đã đóng bến từ khoảng 20h50 đến 21h30, người cần đi muộn nên coi 22h00 là mốc lên tàu muộn nhất, đến ga sớm và hỏi lại Hà Nội Metro hoặc nhân viên ga về giờ tàu cuối ở đúng ga của mình.",
+      "meta_title": "Metro Hà Nội chuyến cuối mấy giờ: các trang ghi 22h00, 22h30, 23h00",
+      "meta_description": "Metro Hà Nội chuyến cuối mấy giờ: thông báo ghi 22h00, trang ga Cát Linh ghi 22h30 và dự kiến 23h00, trang ga Nhổn lặp mô tả tuyến 2A, cách chọn mốc an toàn.",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "f8052e8e8752a18473f6e50d49ad609ccb9029b7",
+      "run_id": "39813289392",
+      "updated_at": "2026-10-22T16:28:51.478644+00:00"
     }
   },
   "categories": {}
