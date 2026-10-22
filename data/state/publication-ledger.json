@@ -30222,7 +30222,7 @@
       }
     },
     "NT-001514": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:05:56.560995+00:00",
       "source_hash": "819f1aa2fc522282a04affc6296614d1aa8805dd27432250660c0ff5f6029dd8",
       "slug": "xe-cub-50-dung-di-hoc-nguoi-moi-hay-hieu-nham-gi-ve-so-phanh-va-tuoi-lai",
@@ -30238,8 +30238,37 @@
       "category_warning": null,
       "git_commit": "6cfc2a756a7b4ed4288ecf4d4d7856f3349d40e6",
       "run_id": "39719712916",
-      "updated_at": "2026-10-22T04:06:00.980430+00:00",
-      "wp_id": 4684
+      "updated_at": "2026-10-22T04:06:07.593192+00:00",
+      "wp_id": 4684,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-cub-50-dung-di-hoc-nguoi-moi-hay-hieu-nham-gi-ve-so-phanh-va-tuoi-lai/",
+      "verified_at": "2026-10-22T04:06:07.593183+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4684,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-cub-50-dung-di-hoc-nguoi-moi-hay-hieu-nham-gi-ve-so-phanh-va-tuoi-lai/",
+        "categories": [
+          165
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-cub-50-dung-di-hoc-nguoi-moi-hay-hieu-nham-gi-ve-so-phanh-va-tuoi-lai/",
+        "seo_title": "Xe Cub 50 dùng đi học: ngộ nhận về số, phanh và tuổi lái",
+        "seo_description": "Xe Cub 50 dùng đi học có phải xe số tự động không, yên 735 mm và 96 kg có vừa học sinh, phanh cơ, tuổi lái và giấy tờ theo trả lời của Bộ Công an ngày 20/01/2026.",
+        "checked_at": "2026-10-22T04:06:07.593161+00:00"
+      }
     }
   },
   "categories": {}
