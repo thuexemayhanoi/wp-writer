@@ -34044,7 +34044,7 @@
       }
     },
     "NT-001843": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T10:21:13.503090+00:00",
       "source_hash": "33964fbc29c05bfac6665121d03e9b456e7b0c2c9f51b0839f11d708435081c5",
       "slug": "xe-may-bien-nuoc-ngoai-vao-viet-nam-du-lich-xe-dan-duong-giay-to-can-mang-va-thu-tuc-chap-thuan",
@@ -34060,8 +34060,37 @@
       "category_warning": null,
       "git_commit": "c68fcc7040146e10c410a150c67ad8d5d68737c5",
       "run_id": "39761284372",
-      "updated_at": "2026-10-22T10:21:17.685451+00:00",
-      "wp_id": 4790
+      "updated_at": "2026-10-22T10:21:24.017150+00:00",
+      "wp_id": 4790,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-may-bien-nuoc-ngoai-vao-viet-nam-du-lich-xe-dan-duong-giay-to-can-mang-va-thu-tuc-chap-thuan/",
+      "verified_at": "2026-10-22T10:21:24.017143+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4790,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-may-bien-nuoc-ngoai-vao-viet-nam-du-lich-xe-dan-duong-giay-to-can-mang-va-thu-tuc-chap-thuan/",
+        "categories": [
+          171
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-may-bien-nuoc-ngoai-vao-viet-nam-du-lich-xe-dan-duong-giay-to-can-mang-va-thu-tuc-chap-thuan/",
+        "seo_title": "Xe máy biển nước ngoài vào Việt Nam du lịch: xe dẫn đường, giấy tờ",
+        "seo_description": "Xe máy biển nước ngoài vào Việt Nam du lịch cần xe dẫn đường, văn bản chấp thuận của Bộ Công an và giấy tờ gì theo Nghị định 30/2024; Nghị định 236/2026 rút còn 2 ngày.",
+        "checked_at": "2026-10-22T10:21:24.017125+00:00"
+      }
     }
   },
   "categories": {}
