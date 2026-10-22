@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-22T16:20:10.929341+00:00",
+  "at": "2026-10-22T16:30:10.921908+00:00",
   "counts": {
     "WRITING": 44,
     "QA": 0,
-    "READY": 7,
+    "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 816
+    "VERIFIED": 823
   },
-  "ready_backlog": 7,
-  "in_flight": 54,
+  "ready_backlog": 0,
+  "in_flight": 47,
   "items": [
     {
       "topic_id": "NT-001942",
@@ -539,90 +539,6 @@
       "url": null,
       "qa_status": null,
       "seo_score": null
-    },
-    {
-      "topic_id": "NT-090269",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Du lịch bằng xe đạp điện thải bao nhiêu CO2 mỗi km: lưới điện 0,6187 tCO2/MWh, pin 640 Wh",
-      "slot": "W1",
-      "session": "seodev-w80",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-090272",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Đặt cọc thuê xe máy bằng USD: hạn chế ngoại hối chuyển từ Điều 22 sang Điều 31a ngày 1/12/2026",
-      "slot": "W4",
-      "session": "seodev-w82",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-090368",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Trạm sạc công cộng không được cản lối thoát nạn, xe chữa cháy, người đi bộ: QCVN 32:2026/BCT",
-      "slot": "W1",
-      "session": "seodev-w80",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-090471",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Chở vali 20 inch bằng xe ga 50cc: SYM Priti 50 ghi sàn để chân 264 mm, tải 130 kg, 2 người",
-      "slot": "W4",
-      "session": "seodev-w82",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-090527",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Dây nguồn bộ sạc xe điện sờn thì dùng tiếp được không? VinFast, Bosch và Shimano dặn ngừng dùng",
-      "slot": "W1",
-      "session": "seodev-w80",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-090682",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Metro Hà Nội chạy đến 22h00, 22h30 hay 23h00 khi buýt đã nghỉ: trang chính thức ghi khác nhau",
-      "slot": "W4",
-      "session": "seodev-w82",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-090719",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Tuyến phố thông minh ở phố cổ Hà Nội: mã QR trên biển tên phố, Wi-Fi miễn phí, 5 phố thí điểm",
-      "slot": "W4",
-      "session": "seodev-w82",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
     },
     {
       "topic_id": "NT-001101",
@@ -10189,6 +10105,30 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-090269",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Du lịch bằng xe đạp điện thải bao nhiêu CO2 mỗi km: lưới điện 0,6187 tCO2/MWh, pin 640 Wh",
+      "slot": "W1",
+      "session": "seodev-w80",
+      "wp_id": 4892,
+      "url": "https://thuexemaynguyentu.com/du-lich-bang-xe-dap-dien-thai-bao-nhieu-co2-moi-km-luoi-dien-0-6187-tco2-mwh-pin-640-wh/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-090272",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đặt cọc thuê xe máy bằng USD: hạn chế ngoại hối chuyển từ Điều 22 sang Điều 31a ngày 1/12/2026",
+      "slot": "W4",
+      "session": "seodev-w82",
+      "wp_id": 4893,
+      "url": "https://thuexemaynguyentu.com/dat-coc-thue-xe-may-bang-usd-han-che-ngoai-hoi-chuyen-tu-dieu-22-sang-dieu-31a-ngay-1-12-2026/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-090291",
       "state": "VERIFIED",
       "reason": "publish",
@@ -10245,6 +10185,18 @@
       "session": "s-claude-df7eb8c1-20261022",
       "wp_id": 4823,
       "url": "https://thuexemaynguyentu.com/pin-dat-bike-25-nam-tuong-duong-350-000-km-hay-50-000-km-con-80-hay-70-dung-luong/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-090368",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Trạm sạc công cộng không được cản lối thoát nạn, xe chữa cháy, người đi bộ: QCVN 32:2026/BCT",
+      "slot": "W1",
+      "session": "seodev-w80",
+      "wp_id": 4894,
+      "url": "https://thuexemaynguyentu.com/tram-sac-cong-cong-khong-duoc-can-loi-thoat-nan-xe-chua-chay-nguoi-di-bo-qcvn-32-2026-bct/",
       "qa_status": "PASS",
       "seo_score": 100
     },
@@ -10309,6 +10261,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-090471",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Chở vali 20 inch bằng xe ga 50cc: SYM Priti 50 ghi sàn để chân 264 mm, tải 130 kg, 2 người",
+      "slot": "W4",
+      "session": "seodev-w82",
+      "wp_id": 4895,
+      "url": "https://thuexemaynguyentu.com/cho-vali-20-inch-bang-xe-ga-50cc-sym-priti-50-ghi-san-de-chan-264-mm-tai-130-kg-2-nguoi/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-090502",
       "state": "VERIFIED",
       "reason": "publish",
@@ -10329,6 +10293,18 @@
       "session": "s-claude-df7eb8c1-20261022",
       "wp_id": 4772,
       "url": "https://thuexemaynguyentu.com/xe-buyt-ha-noi-chay-den-may-gio-tuyen-33-den-21h15-tuyen-54-den-21h00-tuyen-96-tuy-dau-ben/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-090527",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Dây nguồn bộ sạc xe điện sờn thì dùng tiếp được không? VinFast, Bosch và Shimano dặn ngừng dùng",
+      "slot": "W1",
+      "session": "seodev-w80",
+      "wp_id": 4896,
+      "url": "https://thuexemaynguyentu.com/day-nguon-bo-sac-xe-dien-son-thi-dung-tiep-duoc-khong-vinfast-bosch-va-shimano-dan-ngung-dung/",
       "qa_status": "PASS",
       "seo_score": 100
     },
@@ -10377,6 +10353,30 @@
       "session": "s-claude-df7eb8c1-20261022",
       "wp_id": 4750,
       "url": "https://thuexemaynguyentu.com/lich-nghi-le-sap-toi-24-11-2026-nghi-1-ngay-tet-dinh-mui-4-10-2-2027-va-quoc-khanh-2-5-9-2027/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-090682",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Metro Hà Nội chạy đến 22h00, 22h30 hay 23h00 khi buýt đã nghỉ: trang chính thức ghi khác nhau",
+      "slot": "W4",
+      "session": "seodev-w82",
+      "wp_id": 4897,
+      "url": "https://thuexemaynguyentu.com/metro-ha-noi-chay-den-22h00-22h30-hay-23h00-khi-buyt-da-nghi-trang-chinh-thuc-ghi-khac-nhau/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-090719",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Tuyến phố thông minh ở phố cổ Hà Nội: mã QR trên biển tên phố, Wi-Fi miễn phí, 5 phố thí điểm",
+      "slot": "W4",
+      "session": "seodev-w82",
+      "wp_id": 4898,
+      "url": "https://thuexemaynguyentu.com/tuyen-pho-thong-minh-o-pho-co-ha-noi-ma-qr-tren-bien-ten-pho-wi-fi-mien-phi-5-pho-thi-diem/",
       "qa_status": "PASS",
       "seo_score": 100
     },

@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-22T16:20:02.855286+00:00",
-  "attempted": 10,
-  "ready_backlog": 7,
+  "at": "2026-10-22T16:30:02.361802+00:00",
+  "attempted": 7,
+  "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -191,11 +191,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T16:13:41.042156+00:00",
+      "at": "2026-10-22T16:25:09.568217+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "56c96ec60e8dbc88065bdbc2e1960fd8a62ae11a75594d03f3d195fbb0acb4fd",
+      "inventory_sha256": "dea21eb63a9b27a54d9a16bfbff5edbd67632a634631c570118fe8725ad9637f",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -380,11 +380,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T16:13:49.659385+00:00",
+      "at": "2026-10-22T16:25:18.196770+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "56c96ec60e8dbc88065bdbc2e1960fd8a62ae11a75594d03f3d195fbb0acb4fd",
+      "inventory_sha256": "dea21eb63a9b27a54d9a16bfbff5edbd67632a634631c570118fe8725ad9637f",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -577,11 +577,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T16:13:56.975671+00:00",
+      "at": "2026-10-22T16:25:25.617071+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "56c96ec60e8dbc88065bdbc2e1960fd8a62ae11a75594d03f3d195fbb0acb4fd",
+      "inventory_sha256": "dea21eb63a9b27a54d9a16bfbff5edbd67632a634631c570118fe8725ad9637f",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -601,71 +601,23 @@
       }
     },
     {
-      "topic_id": "NT-002057",
+      "topic_id": "NT-090269",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 172,
+      "category_id": 177,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "hanoi-travel",
+      "intended_taxonomy_key": "green-travel",
       "category_warning": null
     },
     {
-      "topic_id": "NT-002087",
+      "topic_id": "NT-090272",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 172,
+      "category_id": 164,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "hanoi-travel",
+      "intended_taxonomy_key": "rental-costs",
       "category_warning": null
     },
     {
-      "topic_id": "NT-002088",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 172,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "hanoi-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-002142",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-002143",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-002171",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 176,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "urban-mobility",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-090131",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 167,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "battery-charging",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-090181",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 163,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "rental-procedures",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-090206",
+      "topic_id": "NT-090368",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 169,
       "category_resolution": "EXACT",
@@ -673,11 +625,35 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-090256",
+      "topic_id": "NT-090471",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 166,
+      "category_id": 165,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "ebikes",
+      "intended_taxonomy_key": "rental-50cc",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-090527",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 167,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "battery-charging",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-090682",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 176,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-090719",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 177,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "green-travel",
       "category_warning": null
     }
   ],

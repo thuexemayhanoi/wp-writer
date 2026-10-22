@@ -1,18 +1,18 @@
 # Pipeline board
 
-Generated 2026-10-22T16:20:10.929341+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-22T16:30:10.921908+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
 | WRITING | 44 |
 | QA | 0 |
-| READY | 7 |
+| READY | 0 |
 | REPAIR | 0 |
 | HELD | 3 |
 | PUBLISHING | 0 |
-| VERIFIED | 816 |
+| VERIFIED | 823 |
 
-Ready backlog (QA PASS waiting for the Publisher): **7**
+Ready backlog (QA PASS waiting for the Publisher): **0**
 
 ## Articles not yet VERIFIED
 
@@ -62,13 +62,6 @@ Ready backlog (QA PASS waiting for the Publisher): **7**
 | NT-090330 | WRITING | W4 | seodev-w93 | leased to seodev-w93 |
 | NT-090497 | WRITING | W4 | seodev-w93 | leased to seodev-w93 |
 | NT-090529 | WRITING | W4 | seodev-w93 | leased to seodev-w93 |
-| NT-090269 | READY | W1 | seodev-w80 | QA PASS; waiting for the Publisher |
-| NT-090272 | READY | W4 | seodev-w82 | QA PASS; waiting for the Publisher |
-| NT-090368 | READY | W1 | seodev-w80 | QA PASS; waiting for the Publisher |
-| NT-090471 | READY | W4 | seodev-w82 | QA PASS; waiting for the Publisher |
-| NT-090527 | READY | W1 | seodev-w80 | QA PASS; waiting for the Publisher |
-| NT-090682 | READY | W4 | seodev-w82 | QA PASS; waiting for the Publisher |
-| NT-090719 | READY | W4 | seodev-w82 | QA PASS; waiting for the Publisher |
 | NT-001101 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4344; Near duplicate existing:4344 |
 | NT-001102 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4345; Near duplicate existing:4345 |
 | NT-001103 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4346; Near duplicate existing:4346 |
