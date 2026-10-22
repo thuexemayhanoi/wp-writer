@@ -38844,6 +38844,25 @@
         "seo_description": "Từ nhà ga T1 sang T2 Nội Bài đi xe buýt điện miễn phí: giờ chạy 5h00 đến 1h00, tần suất theo khung giờ, điểm đón ở T1 và T2, và vì sao ba trang của cảng ghi khác nhau.",
         "checked_at": "2026-10-22T16:17:05.557714+00:00"
       }
+    },
+    "NT-090131": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T16:17:50.726515+00:00",
+      "source_hash": "3a9ef8bbde725cdee8a41cb3cc2325e768d0f9b5d1e060e8ec32c19ea7047a14",
+      "slug": "nhiet-do-pin-vinfast-amio-va-evo-lite-xe-giam-hieu-nang-tren-45-c-pin-ngung-o-65-c-hay-60-c",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 167,
+      "visible_hash": "d2baa8808bfe0a44f0dfbedd55f13426b0fd03dfa96d69a5d3f82d77c2473dc5",
+      "first_paragraph": "Nhiệt độ pin VinFast giảm hiệu năng được sổ hướng dẫn của từng mẫu nêu khác nhau, và đó là nhiệt độ bên trong pin chứ không phải nhiệt độ ngoài trời. Sổ VinFast Amio và Amio S viết xe giảm hiệu năng khi nhiệt độ bên trong pin dưới 0°C hoặc trên 45°C (kèm hai điều kiện ghép với dung lượng), và pin ngừng hoạt động khi vượt 65°C. Sổ VinFast Evo Lite viết dưới 10°C, trên 45°C hoặc dung lượng dưới 20% thì hiệu năng giảm, và pin ngừng hoạt động khi vượt 60ºC. Bài đọc ba sổ ngày 22/10/2026; hãng có thể phát hành bản sổ mới sau đó, nên hãy đối chiếu sổ kèm đúng chiếc xe của bạn.",
+      "meta_title": "Nhiệt độ pin VinFast giảm hiệu năng: Amio, Amio S và Evo Lite",
+      "meta_description": "Nhiệt độ pin VinFast giảm hiệu năng: sổ Amio và Evo Lite nêu mốc 0°C, 10°C, 45°C; pin ngừng ở 65°C hay 60°C, xem nhiệt độ pin ở đâu và các mã lỗi liên quan.",
+      "intended_taxonomy_key": "battery-charging",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "bbb96c083cbf7410f70b96d536d8be024df30c78",
+      "run_id": "39811599986",
+      "updated_at": "2026-10-22T16:17:50.727891+00:00"
     }
   },
   "categories": {}
