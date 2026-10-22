@@ -33211,7 +33211,7 @@
       }
     },
     "NT-090390": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T09:49:59.515906+00:00",
       "source_hash": "57c7125739dc2319b9fb4eb0470723004bdae2d9b10503816ed86b677870239b",
       "slug": "duong-ven-ho-tay-khoi-cong-28-8-2026-cai-tao-13-5-km-doan-quang-an-du-kien-xong-quy-iii-2027",
@@ -33227,8 +33227,37 @@
       "category_warning": null,
       "git_commit": "7d7844e154356eb814f295f1361c221a00885ec0",
       "run_id": "39757967154",
-      "updated_at": "2026-10-22T09:50:04.035603+00:00",
-      "wp_id": 4773
+      "updated_at": "2026-10-22T09:50:10.581559+00:00",
+      "wp_id": 4773,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/duong-ven-ho-tay-khoi-cong-28-8-2026-cai-tao-13-5-km-doan-quang-an-du-kien-xong-quy-iii-2027/",
+      "verified_at": "2026-10-22T09:50:10.581553+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4773,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/duong-ven-ho-tay-khoi-cong-28-8-2026-cai-tao-13-5-km-doan-quang-an-du-kien-xong-quy-iii-2027/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/duong-ven-ho-tay-khoi-cong-28-8-2026-cai-tao-13-5-km-doan-quang-an-du-kien-xong-quy-iii-2027/",
+        "seo_title": "Đường ven Hồ Tây khởi công 28/8/2026: 13,5 km, Quảng An quý III/2027",
+        "seo_description": "Đường ven Hồ Tây khởi công 28/8/2026: cải tạo khoảng 13,5 km, tổng mức sơ bộ 30.151 tỷ đồng, đoạn Quảng An dự kiến quý III/2027; các nguồn chưa nêu lệnh cấm đường.",
+        "checked_at": "2026-10-22T09:50:10.581533+00:00"
+      }
     }
   },
   "categories": {}
