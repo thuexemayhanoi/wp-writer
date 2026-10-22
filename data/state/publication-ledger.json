@@ -31445,6 +31445,25 @@
         "seo_description": "Tắt máy khi chờ đèn đỏ có lợi từ mấy giây? Đối chiếu mốc 10, 20 và 25 giây của Argonne, Đại học Bách khoa Hà Nội, Yamaha, Dân Việt và khi nào chưa nên tắt.",
         "checked_at": "2026-10-22T04:35:10.488342+00:00"
       }
+    },
+    "NT-001723": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T04:35:41.687988+00:00",
+      "source_hash": "825095cca3a64b5af894da225a88eb9c9df04600cfa88fe70af6fd11d9b5ade1",
+      "slug": "giao-thong-chiem-bao-nhieu-phan-o-nhiem-khong-khi-ha-noi-60-38-25-hay-23",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 176,
+      "visible_hash": "90669e485808433bc7494df60918e5b1876dbf7844ef7e504cccf26f6a565499",
+      "first_paragraph": "Giao thông chiếm bao nhiêu phần ô nhiễm không khí Hà Nội thì không có một con số duy nhất: các nguồn người viết đọc ngày 22/10/2026 nêu trên 60% (báo cáo của Hà Nội, được nhắc tại tọa đàm ngày 21/7/2025), 38% (nhận định của Bộ Nông nghiệp và Môi trường: 15% khí thải cộng 23% bụi giao thông), khoảng 25% PM2.5 (Ngân hàng Thế giới, báo cáo công bố năm 2023) và khoảng 23% PM2.5 (kiểm kê nguồn thải 2023–2025 của Cục Môi trường, công bố ngày 4/6/2026). Bốn con số do bốn bên khác nhau công bố, ở những năm khác nhau và đo những thứ khác nhau, nên bài này đặt chúng cạnh nhau chứ không chọn một số là \"đúng\".",
+      "meta_title": "Giao thông chiếm bao nhiêu phần ô nhiễm không khí Hà Nội: 60% hay 23%",
+      "meta_description": "Giao thông chiếm bao nhiêu phần ô nhiễm không khí Hà Nội? Đặt cạnh các con số 60%, 38%, 25% và 23% theo từng bên công bố, năm và chất được đo, không chọn số nào là đúng.",
+      "intended_taxonomy_key": "urban-mobility",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "9c0156d4d7b1a140206400ae532157c1ebdc3261",
+      "run_id": "39722469737",
+      "updated_at": "2026-10-22T04:35:41.689986+00:00"
     }
   },
   "categories": {}
