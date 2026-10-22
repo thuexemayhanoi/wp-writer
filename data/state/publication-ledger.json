@@ -35120,6 +35120,25 @@
         "seo_description": "Đi Cô Tô từ Hà Nội theo hai chặng: cảng Cái Rồng hay Ao Tiên theo VnExpress, tàu cao tốc và tàu gỗ khác nhau ra sao, lịch tàu dồn chuyến ngày 11/3/2026 và mùa đi.",
         "checked_at": "2026-10-22T11:23:33.730959+00:00"
       }
+    },
+    "NT-001991": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T11:23:45.074301+00:00",
+      "source_hash": "4a2bf0825624638a788e16d8775185dc39ba9e53bd4b079f6e967387d2d388a4",
+      "slug": "den-vang-nhap-nhay-khi-di-xe-may-duoc-di-tiep-khong-den-vang-thuong-thi-sao",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 161,
+      "visible_hash": "6a41c752f1f861b306dffb24c56309458c814df7f8133c246bec412e4a7fc7a3",
+      "first_paragraph": "Đèn vàng nhấp nháy khi đi xe máy cho phép đi tiếp, nhưng không phải đi bất chấp: theo Điều 11 khoản 4 điểm b Luật Trật tự, an toàn giao thông đường bộ 2024, người lái phải quan sát, giảm tốc độ hoặc dừng lại nhường đường cho người đi bộ, xe lăn của người khuyết tật và các phương tiện khác. Đèn vàng thường, tức đèn vàng không nhấp nháy, thì phải dừng lại trước vạch dừng, trừ hai trường hợp điều luật cho đi tiếp: đang đi trên vạch dừng hoặc đã đi qua vạch dừng khi đèn chuyển vàng.",
+      "meta_title": "Đèn vàng nhấp nháy khi đi xe máy: được đi tiếp không?",
+      "meta_description": "Đèn vàng nhấp nháy khi đi xe máy được đi nhưng phải quan sát, giảm tốc độ hoặc nhường đường; đèn vàng thường phải dừng trước vạch, có hai ngoại lệ.",
+      "intended_taxonomy_key": "road-safety",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "abb53e9a25e04324f37450d57629e87b655db50f",
+      "run_id": "39769304805",
+      "updated_at": "2026-10-22T11:23:45.075678+00:00"
     }
   },
   "categories": {}
