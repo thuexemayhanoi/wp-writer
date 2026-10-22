@@ -1,0 +1,247 @@
+{
+  "topic_id": "NT-001602",
+  "status": "PASS",
+  "source_sha256": "ff5fd59665c506ccc1adc787b3e118f994ff4ed20e49f4e1f0574777da9c49dd",
+  "body_sha256": "c42d8ceb49e1e0dafebf715ed7e694ff8e9886707f7247592f811d2d7053a9a2",
+  "word_count": 2781,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vietnam.travel/node/1340",
+      "supports": "Cổng du lịch quốc gia Việt Nam (vietnam.travel, bản không ghi ngày) mô tả cao lầu: sợi mì ngâm nước tro, nước giếng Bá Lễ, tro cây đảo Chăm, thường chỉ ăn được ở Hội An. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/dac-san-cao-lau-hoi-an-2307645.html",
+      "supports": "VnExpress (đăng 3/3/2012) mô tả cách làm sợi cao lầu: gạo ngâm tro củi tràm Cù Lao Chàm, nước giếng Bá Lễ, rau Trà Quế. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/hoi-an-thanh-cong-vang-doi-sau-20-nam-cam-xe-may-khach-muon-cam-han-20241015110201826.htm",
+      "supports": "Tuổi Trẻ (15/10/2024) dẫn Trung tâm Văn hóa, thể thao và truyền thanh truyền hình Hội An: xe máy bị cấm vào phố cổ 9h–21h hằng ngày, người dân trong phố cổ được dùng xe máy 11h–15h. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/du-lich/hoi-an-vao-top-100-do-thi-ly-tuong-nhat-the-gioi-de-kham-pha-bang-di-bo-nam-2026-224121.html",
+      "supports": "Báo Văn hóa (1/5/2026) nêu khu phố cổ Hội An có không gian đi bộ 09:00–21:30 mùa hè, 09:00–21:00 mùa đông; phố Phan Châu Trinh 17:30–21:30 mùa hè. Đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/dac-san-cao-lau-hoi-an-2307645.html",
+      "supports": "VnExpress (3/3/2012): cách làm sợi cao lầu, bột cán dày 3–4 mm rồi hấp cách thủy, cắt sợi. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vietnam.travel/node/1340",
+      "supports": "vietnam.travel (không ghi ngày): khó có khả năng các nhà hàng ở Hội An hiện còn dùng công thức cổ với nước giếng Bá Lễ và tro cây đảo Chăm. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/hoi-an-thanh-cong-vang-doi-sau-20-nam-cam-xe-may-khach-muon-cam-han-20241015110201826.htm",
+      "supports": "Tuổi Trẻ (15/10/2024): người dân sống và làm việc trong phố cổ được dùng xe máy ra vào khung giờ 11h–15h. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/du-lich/hoi-an-vao-top-100-do-thi-ly-tuong-nhat-the-gioi-de-kham-pha-bang-di-bo-nam-2026-224121.html",
+      "supports": "Báo Văn hóa (1/5/2026): đường Phan Châu Trinh áp dụng 17:30–21:30 mùa hè và 17:30–21:00 mùa đông. Đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vietnam.travel/node/1340",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/dac-san-cao-lau-hoi-an-2307645.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/hoi-an-thanh-cong-vang-doi-sau-20-nam-cam-xe-may-khach-muon-cam-han-20241015110201826.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/du-lich/hoi-an-vao-top-100-do-thi-ly-tuong-nhat-the-gioi-de-kham-pha-bang-di-bo-nam-2026-224121.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/dac-san-cao-lau-hoi-an-2307645.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vietnam.travel/node/1340",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/hoi-an-thanh-cong-vang-doi-sau-20-nam-cam-xe-may-khach-muon-cam-han-20241015110201826.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/du-lich/hoi-an-vao-top-100-do-thi-ly-tuong-nhat-the-gioi-de-kham-pha-bang-di-bo-nam-2026-224121.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2388,
+        "title": "Xe máy điện VinFast đi được bao nhiêu km sau mỗi lần sạc đầy?",
+        "why": "stale",
+        "content_hash": "e5285dab933a9e8523fa7f789f9bd5d57691724f1704aeef3c150a4cd22802f9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2437,
+        "title": "Các dòng xe máy Honda: tổng hợp mẫu phổ biến tại Việt Nam",
+        "why": "stale",
+        "content_hash": "5cff2a6706b84439a61843ab51b848da33a40d9c155c5eb687076b40c694e51f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T04:13:30.025822+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "6ea877c7759c6d054d28a6777a3ab2a5626e793419d85fc6af9a4b49bafb6a40",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

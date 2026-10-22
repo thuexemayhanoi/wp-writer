@@ -1,0 +1,167 @@
+{
+  "topic_id": "NT-001605",
+  "status": "PASS",
+  "source_sha256": "909914f39fedb3286e1ff684a0c6bac04018be044f4da70aedaa9d35c77e404f",
+  "body_sha256": "2fa6e3f9608ee1ec75beea0195d44e2826e0048273d09e0afa667940d3bc7df0",
+  "word_count": 2794,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/khac-biet-bun-rieu-ha-noi-va-sai-gon-4246309.html",
+      "supports": "VnExpress Du lịch (13/3/2021) nêu nguyên liệu bát bún riêu Hà Nội: bún tươi sợi nhỏ, cua đồng, cà chua, giấm bỗng, mắm tôm, hành; cách chọn và giã cua; so sánh với Sài Gòn. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/vi-sao-bun-rieu-sai-gon-khac-han-vi-ha-noi-5000941.html",
+      "supports": "VnExpress Cooking (1/1/2026) mô tả bát bún riêu Bắc: cua đồng giã tay, gạch cua chưng hành, dấm bỗng, rau diếp thái chỉ, kinh giới, tía tô, rau mùi; người Hà Nội coi là thức quà sáng hoặc trưa nhẹ. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/bun-rieu-cua-ha-noi-mon-an-sang-ly-tuong-519420.htm",
+      "supports": "Tuổi Trẻ (7/11/2012, dẫn Lonely Planet) xếp bún riêu cua Hà Nội vào gợi ý bữa sáng và nêu món chế biến từ cua đồng, nêm mắm tôm và ớt. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vnexpress.net/khac-biet-bun-rieu-ha-noi-va-sai-gon-4246309.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/vi-sao-bun-rieu-sai-gon-khac-han-vi-ha-noi-5000941.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/bun-rieu-cua-ha-noi-mon-an-sang-ly-tuong-519420.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2374,
+        "title": "Xe máy điện đi mưa có an toàn không? Cách sử dụng đúng và bền",
+        "why": "stale",
+        "content_hash": "f86d1aa55c92feadb7f1f7424eb5a8881f374d07d09eba557a5974bddc4ab23f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4046,
+        "title": "Nhận xe máy thuê tại homestay Hà Nội không có lễ tân: hẹn giao, kiểm tra và trả xe",
+        "why": "stale",
+        "content_hash": "408ee1c935cbed2cc7b830b85734e14e93e1a4c5ee2cc36d01097733e2853eb2",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T04:14:11.307633+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "9737b5c7b5a7779dd035a725185bad8b459e6ba70da2a08a826d688841721879",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

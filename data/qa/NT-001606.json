@@ -1,0 +1,167 @@
+{
+  "topic_id": "NT-001606",
+  "status": "PASS",
+  "source_sha256": "8665da7f067b747c10c944b6fb0cb8e179d8947ac5b914fa915122f323a8a4d0",
+  "body_sha256": "4d7d3873cb2f064e9aee2a39237c476b74603f03cda6574824e3c6e193f9147e",
+  "word_count": 2878,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://baolaocai.vn/doc-dao-am-thuc-cho-phien-post364306.html",
+      "supports": "Báo Lào Cai (2/2/2023) nêu món ẩm thực truyền thống ở chợ phiên Bắc Hà, Si Ma Cai, Mường Khương: thắng cố ngựa, mèn mén của người Mông, phở chua, bánh đúc ngô của người Nùng, xôi ngũ sắc của người Tày; khu ẩm thực chia theo nhóm người. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baolaocai.vn/kham-pha-am-thuc-cho-phien-vung-cao-post217494.html",
+      "supports": "Báo Lào Cai (8/7/2012) nêu phở chua Bắc Hà thêm thịt nạc luộc thái chỉ còn Mường Khương không có, phở bánh ngô chợ Cán Cấu, thắng cố ngựa; bài cũ, bỏ giá. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotuyenquang.com.vn/van-hoa/201901/thang-co-mon-an-dac-trung-vung-cao-nguyen-da-dong-van-740274/",
+      "supports": "Báo Hà Giang điện tử (23/1/2019) nêu thắng cố là món truyền thống của người Mông ở các chợ phiên cao nguyên đá Đồng Văn, nghĩa là canh thịt, nấu từ thịt bò, trâu, ngựa, lợn. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://baolaocai.vn/doc-dao-am-thuc-cho-phien-post364306.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baolaocai.vn/kham-pha-am-thuc-cho-phien-vung-cao-post217494.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotuyenquang.com.vn/van-hoa/201901/thang-co-mon-an-dac-trung-vung-cao-nguyen-da-dong-van-740274/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2449,
+        "title": "Honda Wave Alpha có bền không? Những điểm đáng chú ý khi sử dụng",
+        "why": "stale",
+        "content_hash": "d8a40ae58fa571dd85e22dbc1f6b3b5670560ab68d10c51d1f233ed1c128d0a7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2625,
+        "title": "Nhà tù Hỏa Lò Hà Nội: Giá vé, giờ mở cửa và kinh nghiệm đi tour đêm",
+        "why": "stale",
+        "content_hash": "fc86cac4da1911528d32104d0969754534fb81041738085bfe6eb76c69849a7a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T04:14:33.369909+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "d3f136e15ff93f684ef128f62dec5032ab009a25ff38f331b2083f56d0bd0cf0",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

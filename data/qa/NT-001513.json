@@ -1,0 +1,287 @@
+{
+  "topic_id": "NT-001513",
+  "status": "PASS",
+  "source_sha256": "407d88512a4e49f2bb0c882191e1785822e8f248e9338a985537f0df7fe559a0",
+  "body_sha256": "f67e7a49f4bfdb3ef6a83807ed9425e628ceed2ea5a4ea30dba4046602aae0c9",
+  "word_count": 2830,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://global.honda/en/newsroom/news/2017/2171019eng-supercub.html",
+      "supports": "Honda Global (thông cáo 19/10/2017, trang cập nhật 20/05/2024): hàng mức tiêu hao của bảng thông số ghi hai cột Super Cub 50 và Super Cub 110; cột đầu (Super Cub 50, một người ngồi) là 105,0 km/L ở 30 km/h theo giá trị định địa và 69,4 km/L (Class 1) theo WMTC, cột sau là của Super Cub 110.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/jp/news/2024/2241101-supercub50.html",
+      "supports": "Thông cáo Honda Nhật Bản (01/11/2024): bảng thông số Super Cub 50 (một người ngồi) ghi mức tiêu hao định địa 105,0 km/L ở 30 km/h và giá trị WMTC Class 1; nội dung tiếng Nhật.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yamaha-motor.co.jp/mc/lineup/jog/spec.html",
+      "supports": "Yamaha Motor Nhật Bản: giá trị WMTC tính từ thử khí thải theo chế độ chạy gồm xuất phát, tăng tốc, dừng; lớp (class) của chế độ chạy phân theo dung tích và tốc độ tối đa.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/Cub/history/stories/vol4/part2.html",
+      "supports": "Honda Global (Cub Stories): Honda viết Super Cub 50 vốn đã rất tiết kiệm nhiên liệu và đã phát triển động cơ mới để tiết kiệm hơn, đạt 105 km/lít ở điều kiện hãng nêu.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/d3a2d680-8513-4280-8d9e-85c7645f7630?page=%2F",
+      "supports": "Trang hỏi đáp của Bộ Công an (20/01/2026) trích Luật Trật tự, an toàn giao thông đường bộ: xe gắn máy có vận tốc thiết kế không lớn hơn 50 km/h và dung tích làm việc không lớn hơn 50 cm3 nếu dùng động cơ nhiệt.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/newsroom/news/2017/2171019eng-supercub.html",
+      "supports": "Honda Global: mức tiêu hao tính theo điều kiện thử xác định trước và có thể khác theo thời tiết, giao thông, cách lái, tình trạng xe và bảo dưỡng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/newsroom/news/2017/2171019eng-supercub.html",
+      "supports": "Honda Global: giá trị định địa đo ở một tốc độ không đổi.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/newsroom/news/2017/2171019eng-supercub.html",
+      "supports": "Honda Global: giá trị WMTC tính từ thử khí thải gồm xuất phát, tăng tốc và dừng, theo tiêu chuẩn quốc tế.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/newsroom/news/2017/2171019eng-supercub.html",
+      "supports": "Honda Global: dung tích bình xăng Super Cub 50 bản Nhật là 4,3 lít.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/newsroom/news/2017/2171019eng-supercub.html",
+      "supports": "Honda Global: công suất cực đại 2,7 kW (3,7 PS) tại 7.500 vòng/phút của Super Cub 50 bản Nhật.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yamaha-motor.co.jp/mc/lineup/jog/spec.html",
+      "supports": "Yamaha Motor Nhật Bản (trang JOG): mức tiêu hao là giá trị theo điều kiện thử xác định, khác đi theo thời tiết, kẹt xe, cách lái, tình trạng xe và bảo dưỡng.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/Cub/history/stories/vol4/part2.html",
+      "supports": "Honda Global (Cub Stories): Super Cub 50 đạt mốc 180 km/lít vào năm 1993, điều kiện đo không được nêu.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://global.honda/en/newsroom/news/2017/2171019eng-supercub.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/jp/news/2024/2241101-supercub50.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yamaha-motor.co.jp/mc/lineup/jog/spec.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/Cub/history/stories/vol4/part2.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://mps.gov.vn/hoi-dap/chi-tiet-cau-hoi/d3a2d680-8513-4280-8d9e-85c7645f7630?page=%2F",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/newsroom/news/2017/2171019eng-supercub.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/newsroom/news/2017/2171019eng-supercub.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/newsroom/news/2017/2171019eng-supercub.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/newsroom/news/2017/2171019eng-supercub.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/newsroom/news/2017/2171019eng-supercub.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yamaha-motor.co.jp/mc/lineup/jog/spec.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://global.honda/en/Cub/history/stories/vol4/part2.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-22T04:12:01.168668+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "ddb5e59be3194c1b7fa821186798254233c15bae59b054319f14c85fcf3135a6",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

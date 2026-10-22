@@ -1,0 +1,288 @@
+{
+  "topic_id": "NT-001572",
+  "status": "PASS",
+  "source_sha256": "f5b5d3d1f8592a699b5e29a5b2763ea55b1f05126bee41e96d71622cf424441f",
+  "body_sha256": "a3eeab10e39b94de68656e5813762cafe6068dd98953d686e3ec449793440aaa",
+  "word_count": 2815,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://moc.gov.vn/en/news/97191/hop-nhat-thong-tu-ban-hanh-qcvn-04-2021bxd-quy-chuan-ky-thuat-quoc-gia-ve-nha-chung-cu.aspx",
+      "supports": "Trang Cổng TTĐT Bộ Xây dựng (30/9/2026): văn bản hợp nhất 95/2026/VBHN-TT-BXD ghi Thông tư 31/2026/TT-BXD sửa đổi QCVN 04:2021/BXD, hiệu lực 15/12/2026 (host chính thức; runner không đọc được vì SSL).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://moc.gov.vn/pl/pages/ChiTietVanBan.aspx?vID=708&TypeVB=1",
+      "supports": "Trang thông tin văn bản 31/2026/TT-BXD của Bộ Xây dựng: số hiệu, trích yếu, ngày ban hành 15/06/2026, hiệu lực 15/12/2026 và hai tệp PDF đính kèm (host chính thức; runner không đọc được vì SSL).",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/chung-cu-phai-bo-tri-rieng-khu-vuc-de-oto-va-xe-may-dien-5088053.html",
+      "supports": "VnExpress 21/6/2026: hệ thống cấp điện cho khu sạc phải tách biệt phụ tải khác, đủ công suất và dự phòng mở rộng trụ sạc.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/chung-cu-phai-bo-tri-rieng-khu-vuc-de-oto-va-xe-may-dien-5088053.html",
+      "supports": "VnExpress 21/6/2026: khu sạc xe hai bánh có diện tích khoang cháy tối đa 500 m2 ở tầng nổi và 300 m2 ở tầng bán hầm hoặc tầng hầm.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/chung-cu-phai-bo-tri-rieng-khu-vuc-de-oto-va-xe-may-dien-5088053.html",
+      "supports": "VnExpress 21/6/2026: khu sạc ngoài nhà chung cư cách nhà, công trình lân cận tối thiểu 3 m.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/chung-cu-phai-co-cho-dau-sac-xe-dien-185260622222715311.htm",
+      "supports": "Báo Thanh Niên 23/6/2026: mỗi phân vùng hầm tối đa 25 chỗ ô tô điện hoặc 50 chỗ xe máy điện, công suất sạc tối đa 22 kW.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baoxaydung.vn/chung-cu-phai-co-khu-rieng-cho-xe-dien-192260630224003154.htm",
+      "supports": "Báo Xây dựng 1/7/2026: TS Đinh Quốc Dân giải thích tách lộ độc lập từ tủ phân phối sẵn có, không bắt buộc kéo cáp mới.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baoxaydung.vn/chung-cu-phai-co-khu-rieng-cho-xe-dien-192260630224003154.htm",
+      "supports": "Báo Xây dựng 1/7/2026: giới hạn chỗ sạc theo phân khoang và trụ sạc trong tầng hầm không vượt 22kW để giảm quá tải lưới điện nội bộ và rủi ro sinh nhiệt.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://khcn.gov.vn/tin-tuc/t53352/ban-hanh-quy-chuan-ky-thuat-quoc-gia-ve-tru-sac-tram-sac-xe-dien",
+      "supports": "Trang khcn.gov.vn của Bộ Công Thương: QCVN 32:2026/BCT về trụ sạc, trạm sạc có yêu cầu quản lý phụ tải (host .gov.vn).",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://khcn.gov.vn/tin-tuc/t53352/ban-hanh-quy-chuan-ky-thuat-quoc-gia-ve-tru-sac-tram-sac-xe-dien",
+      "supports": "Trang khcn.gov.vn của Bộ Công Thương: tổng công suất tiêu thụ của trạm sạc không vượt điểm đấu nối và khả năng của hệ thống phân phối nội bộ.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://moc.gov.vn/en/news/97191/hop-nhat-thong-tu-ban-hanh-qcvn-04-2021bxd-quy-chuan-ky-thuat-quoc-gia-ve-nha-chung-cu.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://moc.gov.vn/pl/pages/ChiTietVanBan.aspx?vID=708&TypeVB=1",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/chung-cu-phai-bo-tri-rieng-khu-vuc-de-oto-va-xe-may-dien-5088053.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/chung-cu-phai-bo-tri-rieng-khu-vuc-de-oto-va-xe-may-dien-5088053.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/chung-cu-phai-bo-tri-rieng-khu-vuc-de-oto-va-xe-may-dien-5088053.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/chung-cu-phai-co-cho-dau-sac-xe-dien-185260622222715311.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baoxaydung.vn/chung-cu-phai-co-khu-rieng-cho-xe-dien-192260630224003154.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baoxaydung.vn/chung-cu-phai-co-khu-rieng-cho-xe-dien-192260630224003154.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://khcn.gov.vn/tin-tuc/t53352/ban-hanh-quy-chuan-ky-thuat-quoc-gia-ve-tru-sac-tram-sac-xe-dien",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://khcn.gov.vn/tin-tuc/t53352/ban-hanh-quy-chuan-ky-thuat-quoc-gia-ve-tru-sac-tram-sac-xe-dien",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2503,
+        "title": "Xe máy khó nổ do đâu? Các nguyên nhân thường gặp và cách kiểm tra",
+        "why": "stale",
+        "content_hash": "1bb521d9de866fa24f421032913e8b1ee3e5f294cfdb38c1dfe0cd216a360f24",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2521,
+        "title": "Cách kiểm tra lốp xe máy để phát hiện mòn, nứt và áp suất bất thường",
+        "why": "stale",
+        "content_hash": "08080c3d371127024550acb47d9ddf7feb4cdba807bbb1f3996c8e47b110a33d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2590,
+        "title": "Xe ga nào dễ lái cho người mới? Tiêu chí chọn xe an toàn hơn",
+        "why": "stale",
+        "content_hash": "f8902bfd6a2486eeeba8cd80b6a82c343421a30c904c7f55f75916cb9ec28c44",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T04:12:26.111942+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "5cd4d1b848ba2e9641d33a5f6b60adf78738b32d691166a67fe552197446fe3f",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

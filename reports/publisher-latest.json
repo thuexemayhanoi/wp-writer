@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-22T04:08:01.307194+00:00",
-  "attempted": 6,
+  "at": "2026-10-22T04:15:32.278843+00:00",
+  "attempted": 7,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -191,11 +191,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T04:04:21.571125+00:00",
+      "at": "2026-10-22T04:11:37.261837+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "2613459b911fcc8bbf9167975a6ed309213555588919bcc815ff4c3609740783",
+      "inventory_sha256": "ddb5e59be3194c1b7fa821186798254233c15bae59b054319f14c85fcf3135a6",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -362,11 +362,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T04:04:31.239366+00:00",
+      "at": "2026-10-22T04:11:44.780924+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "2613459b911fcc8bbf9167975a6ed309213555588919bcc815ff4c3609740783",
+      "inventory_sha256": "ddb5e59be3194c1b7fa821186798254233c15bae59b054319f14c85fcf3135a6",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -550,11 +550,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T04:04:39.390988+00:00",
+      "at": "2026-10-22T04:11:51.392926+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "2613459b911fcc8bbf9167975a6ed309213555588919bcc815ff4c3609740783",
+      "inventory_sha256": "ddb5e59be3194c1b7fa821186798254233c15bae59b054319f14c85fcf3135a6",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -574,15 +574,7 @@
       }
     },
     {
-      "topic_id": "NT-001481",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 171,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "driving-licence",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001512",
+      "topic_id": "NT-001513",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 165,
       "category_resolution": "EXACT",
@@ -590,35 +582,51 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001514",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 165,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "rental-50cc",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001541",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 177,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "green-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001542",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 177,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "green-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001571",
+      "topic_id": "NT-001572",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 169,
       "category_resolution": "EXACT",
       "intended_taxonomy_key": "electric-transition",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001601",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 174,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "food-culture",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001602",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 174,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "food-culture",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001605",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 174,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "food-culture",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001606",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 174,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "food-culture",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-090004",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 166,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "ebikes",
       "category_warning": null
     }
   ],
