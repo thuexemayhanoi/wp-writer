@@ -38650,7 +38650,7 @@
       }
     },
     "NT-002088": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T16:15:18.087582+00:00",
       "source_hash": "be11c7ea2afba8c2d5c6037c0567cc82e925447b5d379a78526b69849ae00269",
       "slug": "hanh-trinh-du-lich-di-san-ha-noi-4-tuyen-28-di-tich-va-ma-qr-ra-mat-18-10-2026",
@@ -38666,8 +38666,37 @@
       "category_warning": null,
       "git_commit": "bbb96c083cbf7410f70b96d536d8be024df30c78",
       "run_id": "39811599986",
-      "updated_at": "2026-10-22T16:15:22.310428+00:00",
-      "wp_id": 4884
+      "updated_at": "2026-10-22T16:15:28.665001+00:00",
+      "wp_id": 4884,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/hanh-trinh-du-lich-di-san-ha-noi-4-tuyen-28-di-tich-va-ma-qr-ra-mat-18-10-2026/",
+      "verified_at": "2026-10-22T16:15:28.664994+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4884,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/hanh-trinh-du-lich-di-san-ha-noi-4-tuyen-28-di-tich-va-ma-qr-ra-mat-18-10-2026/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/hanh-trinh-du-lich-di-san-ha-noi-4-tuyen-28-di-tich-va-ma-qr-ra-mat-18-10-2026/",
+        "seo_title": "Hành trình du lịch di sản Hà Nội: 4 tuyến, 28 di tích, mã QR",
+        "seo_description": "Hành trình du lịch di sản Hà Nội ra mắt 18/10/2026: 4 tuyến, 28 di tích theo báo, cách quét mã QR, và chỗ danh sách tên chỉ đếm được 24 điểm.",
+        "checked_at": "2026-10-22T16:15:28.664969+00:00"
+      }
     }
   },
   "categories": {}
