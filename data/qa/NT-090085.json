@@ -1,0 +1,210 @@
+{
+  "topic_id": "NT-090085",
+  "status": "PASS",
+  "source_sha256": "702f368aee4a4e3d92a365f8e831ae4fab51c6b3ddf0b47cccdc19674bbeb298",
+  "body_sha256": "03b36da937f98571c3d9b5295f0d82be84e26140a9eed5ea2a692c872f9a0995",
+  "word_count": 2371,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://congbao.hue.gov.vn/2026/30/BanInCB_2026_30_82_signed.pdf",
+      "supports": "Công báo thành phố Huế số 30 ngày 02/06/2026 (congbao.hue.gov.vn, tệp PDF), đọc 22/10/2026: Nghị quyết 05/2026/NQ-HĐND ngày 22/5/2026 của Hội đồng nhân dân thành phố Huế quy định phí thăm quan di tích Hải Vân Quan; Điều 2 (miễn phí cho công dân Việt Nam bảy ngày; miễn phí cho công dân Việt Nam và người nước ngoài gồm trẻ em dưới 13 tuổi; giảm 50% cho các nhóm), Điều 3 (70.000 đồng/người/lượt, áp dụng thống nhất), Điều 4 (cơ quan thu phí, cách nộp), Điều 5 (hiệu lực từ 02/6/2026 đến hết 31/12/2028); đoạn trích có dấu lược.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.vietnam.vn/hai-van-quan-thu-phi-tham-quan-70-000-dong-luot-sau-gan-2-nam-mien-phi",
+      "supports": "Bài ZNews đăng lại trên vietnam.vn ngày 23/05/2026, đọc 22/10/2026: mức 70.000 đồng/người/lượt áp dụng chung; trẻ em dưới 13 tuổi miễn phí cùng người khuyết tật nặng, học sinh ngoại khóa, các đoàn có đăng ký với Trung tâm; giảm 50% các nhóm; mở cửa đón khách đầu tiên ngày 1/8/2024 và miễn phí đến nay; từ năm 2029 Hội đồng nhân dân thành phố Đà Nẵng sẽ ban hành nghị quyết mới; độ cao 496 m; xếp hạng di tích cấp quốc gia ngày 14/4/2017; địa phận xã Chân Mây - Lăng Cô và phường Hải Vân.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/di-tich-hai-van-quan-chinh-thuc-thu-phi-tham-quan-5080669.html",
+      "supports": "VnExpress, bài đăng 18:11 ngày 01/06/2026 (thuật lại thông báo của Trung tâm Bảo tồn Di tích Cố đô Huế ngày 1/6), đọc 22/10/2026: 70.000 đồng thống nhất cho khách Việt Nam và quốc tế; miễn phí cho trẻ em dưới 1,2 m; giảm 50% cho người dân Huế, Đà Nẵng và các nhóm chính sách; áp dụng đến hết 31/12/2028; mở cửa từ 7h đến 17h30 hằng ngày; 100% tiền bán vé dùng cho trùng tu các di tích; độ cao gần 500 m.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://eticket.hueworldheritage.org.vn/chon-ve",
+      "supports": "Trang bán vé điện tử của Trung tâm Bảo tồn Di tích Cố đô Huế (eticket.hueworldheritage.org.vn, trang không in ngày đăng), đọc 22/10/2026: liệt kê Hải Vân Quan Từ 70.000 VNĐ/Người cùng các di tích Huế khác.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://congbao.hue.gov.vn/2026/30/BanInCB_2026_30_82_signed.pdf",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.vietnam.vn/hai-van-quan-thu-phi-tham-quan-70-000-dong-luot-sau-gan-2-nam-mien-phi",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/di-tich-hai-van-quan-chinh-thuc-thu-phi-tham-quan-5080669.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://eticket.hueworldheritage.org.vn/chon-ve",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 868,
+        "title": "Thuê Xe Máy Gần Đống Đa Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "546ff0ab13dd4c91bda33597cb95550dd779713c68f07ed7f71352bda36d5fc9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2346,
+        "title": "Top xe máy điện đáng chú ý năm 2026 cho nhu cầu đi lại hằng ngày",
+        "why": "stale",
+        "content_hash": "c7b5d7cca26b30a8483ce0a25e3d5de7d28c48a734a1969cf0ab5c477bf745b6",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2417,
+        "title": "Xe máy điện Yadea có tốt không? Ưu nhược điểm người dùng cần biết",
+        "why": "stale",
+        "content_hash": "0164531f890f08be8f0da4a90ffbe1bc5d7ce5908bd8637d53cc98b9fed34354",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2437,
+        "title": "Các dòng xe máy Honda: tổng hợp mẫu phổ biến tại Việt Nam",
+        "why": "stale",
+        "content_hash": "5cff2a6706b84439a61843ab51b848da33a40d9c155c5eb687076b40c694e51f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:22:49.900969+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "4dedf12ebaf56e7d704434c810c093d1bc205b85d500f9e72bd1ccce6910dc51",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "topic_id": "NT-002026",
+  "status": "PASS",
+  "source_sha256": "eac958c299efbebec2ed283bfa1e439e4a8e2d3d67ec2ea5a1b4406cb42aeed5",
+  "body_sha256": "3e7c9a2cd3006db9238c4b02b8b6fc26058e02471ed1239ae5d3b9a355236607",
+  "word_count": 2222,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-mo-ban-hai-mau-xe-may-dien-honda-cuv-e-va-honda-uc3-trien-khai-he-thong-tram-doi-pin-va-tram-sac-pin-tai-cac-thanh-pho-lon",
+      "supports": "Trang Honda Việt Nam 4/6/2026: xe dùng hai pin Honda Mobile Power Pack e: tháo rời, hoán đổi được; Trang Honda Việt Nam 4/6/2026: giá đề xuất bản kèm 2 pin và 2 sạc; Trang Honda Việt Nam 4/6/2026: giá đề xuất bản không kèm pin nhưng có 2 sạc; Trang Honda Việt Nam 4/6/2026: gói thuê pin sạc tại nhà 250.000 đồng mỗi tháng (VAT 10%); Trang Honda Việt Nam 4/6/2026: gói dùng trạm đổi pin không giới hạn số lần đổi 350.000 đồng mỗi tháng (VAT 10%); Trang Honda Việt Nam: kỳ hạn thanh toán 1, 3 hoặc 6 tháng; Trang Honda Việt Nam: thanh toán qua ứng dụng MyHonda+; Trang Honda Việt Nam: 59 cửa hàng HEAD kinh doanh xe điện bán xe tại 3 thành phố",
+      "checked_at": "2026-10-18",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-mo-ban-hai-mau-xe-may-dien-honda-cuv-e-va-honda-uc3-trien-khai-he-thong-tram-doi-pin-va-tram-sac-pin-tai-cac-thanh-pho-lon",
+      "supports": "Trang Honda Việt Nam 4/6/2026: gói thuê pin sạc tại nhà 245.455 đồng mỗi tháng (VAT 8%) hay 250.000 đồng mỗi tháng (VAT 10%) cho hai pin của người mua xe không kèm pin.",
+      "checked_at": "2026-10-18",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-mo-ban-hai-mau-xe-may-dien-honda-cuv-e-va-honda-uc3-trien-khai-he-thong-tram-doi-pin-va-tram-sac-pin-tai-cac-thanh-pho-lon",
+      "supports": "Trang Honda Việt Nam 4/6/2026: giá bán lẻ đề xuất bản không kèm pin nhưng đã gồm 2 sạc là 44.181.818 đồng (VAT 8%) hay 45.000.000 đồng (VAT 10%).",
+      "checked_at": "2026-10-18",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-mo-ban-hai-mau-xe-may-dien-honda-cuv-e-va-honda-uc3-trien-khai-he-thong-tram-doi-pin-va-tram-sac-pin-tai-cac-thanh-pho-lon",
+      "supports": "Trang Honda Việt Nam 4/6/2026: kỳ hạn thanh toán gói dịch vụ là 1, 3 hoặc 6 tháng và thanh toán qua ứng dụng MyHonda+.",
+      "checked_at": "2026-10-18",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tram-sac-va-tu-doi-pin-cho-xe-dien-honda-di-vao-hoat-dong-tai-thu-do-ha-noi-1159043.html",
+      "supports": "Báo Hànộimới 4/6/2026: đăng ký gói đổi pin qua MyHonda+, nhận thẻ chip, đổi tại trạm Honda e:Swap ở HEAD; Báo Hànộimới 4/6/2026: đổi pin mất vài phút thay vì chờ nhiều giờ để sạc",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-mo-ban-hai-mau-xe-may-dien-honda-cuv-e-va-honda-uc3-trien-khai-he-thong-tram-doi-pin-va-tram-sac-pin-tai-cac-thanh-pho-lon",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-mo-ban-hai-mau-xe-may-dien-honda-cuv-e-va-honda-uc3-trien-khai-he-thong-tram-doi-pin-va-tram-sac-pin-tai-cac-thanh-pho-lon",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-mo-ban-hai-mau-xe-may-dien-honda-cuv-e-va-honda-uc3-trien-khai-he-thong-tram-doi-pin-va-tram-sac-pin-tai-cac-thanh-pho-lon",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.honda.com.vn/xe-may/su-kien/honda-viet-nam-mo-ban-hai-mau-xe-may-dien-honda-cuv-e-va-honda-uc3-trien-khai-he-thong-tram-doi-pin-va-tram-sac-pin-tai-cac-thanh-pho-lon",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tram-sac-va-tu-doi-pin-cho-xe-dien-honda-di-vao-hoat-dong-tai-thu-do-ha-noi-1159043.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 891,
+        "title": "Hợp Đồng Thuê Xe Máy Hà Nội Có Cần Đặt Cọc Không? Tư Vấn Nhanh",
+        "why": "stale",
+        "content_hash": "dfef1f80adfed1e1d9366a3b620ef84119b9cf4fc4ea34f66fe16eb22f52bcca",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2408,
+        "title": "Xe máy điện Honda: các mẫu đang được người dùng quan tâm",
+        "why": "stale",
+        "content_hash": "ded30343606cc54b9fa64db90b6a7c2bc7b959cdd75d5c4e2c0e9f4663dfce0b",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4054,
+        "title": "Thuê xe máy đi xem phòng trọ ở Hà Nội: xếp lịch khảo sát, gửi xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "5d877b968a3e9b4218759e74edb64aa0e8b842897cadb48686b422876f7f89a1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:21:22.982380+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "70b4e519a0ecb99a156363e990b8684343de58f7d223038ac219e427b4b872ed",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

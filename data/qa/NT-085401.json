@@ -1,0 +1,201 @@
+{
+  "topic_id": "NT-085401",
+  "status": "PASS",
+  "source_sha256": "7a4680cbb75aa38a8af9fb304d55d4ed19c66e23c1b106cff0f967a5e75f33e4",
+  "body_sha256": "313972bf92dd6ef4bb6a1ecc6ab60698593fb118bbf682d7d53dad43847d5525",
+  "word_count": 3149,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/x--95942",
+      "supports": "Điều 283 Bộ luật Dân sự 2015 (thực hiện nghĩa vụ thông qua người thứ ba khi bên có quyền đồng ý, bên có nghĩa vụ vẫn chịu trách nhiệm); trang vbpl.vn ghi còn hiệu lực, cập nhật 04/04/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/x--95942",
+      "supports": "Khoản 2 Điều 482: địa điểm trả lại tài sản thuê là động sản là nơi cư trú hoặc trụ sở của bên cho thuê, trừ khi có thỏa thuận khác.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/x--95942",
+      "supports": "Khoản 2 Điều 329: bên thuê được nhận lại tài sản ký cược sau khi trả tiền thuê khi tài sản thuê được trả lại.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.camau.gov.vn/phap-ly-ve-uy-quyen.1007",
+      "supports": "Bài của trang phổ biến, giáo dục pháp luật tỉnh Cà Mau (28/08/2021): hậu quả pháp lý do bên ủy quyền gánh chịu trừ khi bên được ủy quyền làm vượt phạm vi ủy quyền.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/x--95942",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/x--95942",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/x--95942",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://pbgdpl.camau.gov.vn/phap-ly-ve-uy-quyen.1007",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2515,
+        "title": "Bình ắc quy xe máy dùng được bao lâu? Khi nào nên kiểm tra lại?",
+        "why": "stale",
+        "content_hash": "26576df935c21a29be7d5e9013419bbd9273bc6c5f99f106848143996460de9a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2519,
+        "title": "Checklist kiểm tra xe máy trước chuyến đi xa để hạn chế sự cố",
+        "why": "stale",
+        "content_hash": "8ba6e9a4c22b7eff2ea10be94846e3d58cbe93fdbb1958a1a03cf17dccc0a7cf",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4048,
+        "title": "Thuê xe máy Hà Nội khi xe cá nhân đang sửa: chọn kỳ thuê và gia hạn nếu gara trễ",
+        "why": "stale",
+        "content_hash": "5eaf7d3b4d760f2a4ab0df94807fe114a8927ceb0af3b0ea5d1d59453a46f20d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:21:58.243055+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "a58ed35639c5770ac932564528eb8d2877c8ffc4231e45253041ba710c833917",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

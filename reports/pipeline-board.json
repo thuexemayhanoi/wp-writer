@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-22T15:07:00.631488+00:00",
+  "at": "2026-10-22T15:24:08.039192+00:00",
   "counts": {
-    "WRITING": 44,
+    "WRITING": 48,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 758
+    "VERIFIED": 766
   },
   "ready_backlog": 0,
-  "in_flight": 47,
+  "in_flight": 51,
   "items": [
     {
       "topic_id": "NT-001847",
@@ -65,18 +65,6 @@
       "state": "WRITING",
       "reason": "leased to seodev-w85",
       "title": "Quy hoạch công viên Thủ Lệ vừa mở vừa đóng: 70% mở, khu thú có vé, góp ý đến 8/11/2026",
-      "slot": "W7",
-      "session": "seodev-w85",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001876",
-      "state": "WRITING",
-      "reason": "leased to seodev-w85",
-      "title": "Công viên Thống Nhất bỏ rào: dự án 2023–2026 và cổng Trần Nhân Tông sửa đến 31/12",
       "slot": "W7",
       "session": "seodev-w85",
       "wp_id": null,
@@ -151,6 +139,30 @@
       "title": "Hồ Na Hang đi tháng nào: nước dâng 5–9, sương mù 11–1 và thuyền khoảng 5 giờ",
       "slot": "W6",
       "session": "seodev-w84",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001940",
+      "state": "WRITING",
+      "reason": "leased to seodev-w89",
+      "title": "Vịnh Hạ Long có bao nhiêu hòn đảo: 1.969, 775 hay hơn 2.000 và vùng lõi 434 km2",
+      "slot": "W8",
+      "session": "seodev-w89",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001941",
+      "state": "WRITING",
+      "reason": "leased to seodev-w89",
+      "title": "Hang Múa Ninh Bình: 486 bậc, leo 30–40 phút và vé 150.000 đồng từ 1/4/2026",
+      "slot": "W8",
+      "session": "seodev-w89",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -277,12 +289,96 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001994",
+      "topic_id": "NT-001971",
       "state": "WRITING",
-      "reason": "leased to seodev-w88",
-      "title": "Vạch mắt võng màu vàng ở giao lộ: xe máy không được dừng và bị phạt ra sao",
-      "slot": "W3",
-      "session": "seodev-w88",
+      "reason": "leased to seodev-w89",
+      "title": "Trà đá vỉa hè Hà Nội có từ bao giờ: nước đá vào phố, tủ lạnh và quán cóc",
+      "slot": "W8",
+      "session": "seodev-w89",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001972",
+      "state": "WRITING",
+      "reason": "leased to seodev-w89",
+      "title": "Tết Hàn thực 3/3 âm lịch: vì sao người Hà Nội cúng bánh trôi, bánh chay",
+      "slot": "W8",
+      "session": "seodev-w89",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001973",
+      "state": "WRITING",
+      "reason": "leased to seodev-w89",
+      "title": "Hái lộc đầu năm ở Hà Nội: lộc là gì, vì sao không bẻ cành và cách thay thế",
+      "slot": "W8",
+      "session": "seodev-w89",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001974",
+      "state": "WRITING",
+      "reason": "leased to seodev-w89",
+      "title": "Bánh phu thê Đình Bảng: vì sao gói theo cặp, làm bằng gì và để được bao lâu",
+      "slot": "W8",
+      "session": "seodev-w89",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001975",
+      "state": "WRITING",
+      "reason": "leased to seodev-w89",
+      "title": "Bánh dày Quán Gánh: vì sao gói sáu chiếc nhỏ, ba loại nhân và hạn dùng",
+      "slot": "W8",
+      "session": "seodev-w89",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001976",
+      "state": "WRITING",
+      "reason": "leased to seodev-w89",
+      "title": "Lễ hội Lồng Tông của người Tày Tuyên Quang: rước mâm tồng và cày tịch điền",
+      "slot": "W8",
+      "session": "seodev-w89",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001977",
+      "state": "WRITING",
+      "reason": "leased to seodev-w89",
+      "title": "Hà Nội được UNESCO ghi nhận gì: vì hòa bình 1999, sáng tạo 2019, học tập",
+      "slot": "W8",
+      "session": "seodev-w89",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001978",
+      "state": "WRITING",
+      "reason": "leased to seodev-w89",
+      "title": "Chả rươi Hà Nội: mùa rươi tháng nào, vỏ quýt hôi và cách ăn lúc còn nóng",
+      "slot": "W8",
+      "session": "seodev-w89",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -293,30 +389,6 @@
       "state": "WRITING",
       "reason": "leased to seodev-w88",
       "title": "Bật xi nhan trước khi rẽ bao nhiêu mét: luật không ghi số mét cụ thể",
-      "slot": "W3",
-      "session": "seodev-w88",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001998",
-      "state": "WRITING",
-      "reason": "leased to seodev-w88",
-      "title": "Nhường đường ở ngã tư không có đèn: xe nào đi trước theo Điều 22 Luật 36/2024",
-      "slot": "W3",
-      "session": "seodev-w88",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001999",
-      "state": "WRITING",
-      "reason": "leased to seodev-w88",
-      "title": "Tránh xe đi ngược chiều bằng xe máy: xe xuống dốc phải nhường xe lên dốc",
       "slot": "W3",
       "session": "seodev-w88",
       "wp_id": null,
@@ -337,36 +409,12 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-002026",
-      "state": "WRITING",
-      "reason": "leased to seodev-w87",
-      "title": "Gói thuê pin hay đổi pin Honda CUV e: 250.000 và 350.000 đồng mỗi tháng",
-      "slot": "W9",
-      "session": "seodev-w87",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-002027",
       "state": "WRITING",
       "reason": "leased to seodev-w87",
       "title": "Bảo hành và mua lại Honda CUV e: xe 3 năm, pin 2 năm, mua lại trong 3 năm",
       "slot": "W9",
       "session": "seodev-w87",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-085401",
-      "state": "WRITING",
-      "reason": "leased to seodev-w82",
-      "title": "Nhờ người khác trả xe máy thuê: Điều 283 cần cửa hàng đồng ý và người thuê vẫn chịu trách nhiệm",
-      "slot": "W4",
-      "session": "seodev-w82",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -8845,6 +8893,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001876",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Công viên Thống Nhất bỏ rào: dự án 2023–2026 và cổng Trần Nhân Tông sửa đến 31/12",
+      "slot": "W7",
+      "session": "seodev-w85",
+      "wp_id": 4834,
+      "url": "https://thuexemaynguyentu.com/cong-vien-thong-nhat-bo-rao-du-an-2023-2026-va-cong-tran-nhan-tong-sua-den-31-12/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001901",
       "state": "VERIFIED",
       "reason": "publish",
@@ -9085,6 +9145,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001994",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Vạch mắt võng màu vàng ở giao lộ: xe máy không được dừng và bị phạt ra sao",
+      "slot": "W3",
+      "session": "seodev-w88",
+      "wp_id": 4835,
+      "url": "https://thuexemaynguyentu.com/vach-mat-vong-mau-vang-o-giao-lo-xe-may-khong-duoc-dung-va-bi-phat-ra-sao/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001996",
       "state": "VERIFIED",
       "reason": "publish",
@@ -9105,6 +9177,30 @@
       "session": "seodev-w88",
       "wp_id": 4818,
       "url": "https://thuexemaynguyentu.com/re-trai-re-phai-bang-xe-may-nhuong-ai-dieu-15-va-muc-phat-1-2-trieu-dong/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001998",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Nhường đường ở ngã tư không có đèn: xe nào đi trước theo Điều 22 Luật 36/2024",
+      "slot": "W3",
+      "session": "seodev-w88",
+      "wp_id": 4836,
+      "url": "https://thuexemaynguyentu.com/nhuong-duong-o-nga-tu-khong-co-den-xe-nao-di-truoc-theo-dieu-22-luat-36-2024/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001999",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Tránh xe đi ngược chiều bằng xe máy: xe xuống dốc phải nhường xe lên dốc",
+      "slot": "W3",
+      "session": "seodev-w88",
+      "wp_id": 4837,
+      "url": "https://thuexemaynguyentu.com/tranh-xe-di-nguoc-chieu-bang-xe-may-xe-xuong-doc-phai-nhuong-xe-len-doc/",
       "qa_status": "PASS",
       "seo_score": 100
     },
@@ -9169,6 +9265,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-002026",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Gói thuê pin hay đổi pin Honda CUV e: 250.000 và 350.000 đồng mỗi tháng",
+      "slot": "W9",
+      "session": "seodev-w87",
+      "wp_id": 4838,
+      "url": "https://thuexemaynguyentu.com/goi-thue-pin-hay-doi-pin-honda-cuv-e-250-000-va-350-000-dong-moi-thang/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-080005",
       "state": "VERIFIED",
       "reason": "publish",
@@ -9201,6 +9309,18 @@
       "session": "s-claude-df7eb8c1-20261022",
       "wp_id": 4753,
       "url": "https://thuexemaynguyentu.com/di-xe-may-tu-long-bien-den-pho-co-cau-long-bien-mo-lai-28-5-2026-khu-cam-xe-19h-24h-thu-sau-chu-nhat-bat-dau-tu-dau/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-085401",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Nhờ người khác trả xe máy thuê: Điều 283 cần cửa hàng đồng ý và người thuê vẫn chịu trách nhiệm",
+      "slot": "W4",
+      "session": "seodev-w82",
+      "wp_id": 4839,
+      "url": "https://thuexemaynguyentu.com/nho-nguoi-khac-tra-xe-may-thue-dieu-283-can-cua-hang-dong-y-va-nguoi-thue-van-chiu-trach-nhiem/",
       "qa_status": "PASS",
       "seo_score": 100
     },
@@ -9369,6 +9489,18 @@
       "session": "s-claude-df7eb8c1-20261022",
       "wp_id": 4826,
       "url": "https://thuexemaynguyentu.com/tram-sac-ngoai-troi-ngap-nuoc-thi-sao-qcvn-32-2026-bct-tu-1-7-2027-buoc-ngat-dien-thoat-nuoc/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-090085",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Vé Hải Vân Quan 70.000 đồng từ 2/6/2026: trẻ em dưới 13 tuổi hay dưới 1,2 m được miễn phí?",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": 4840,
+      "url": "https://thuexemaynguyentu.com/ve-hai-van-quan-70-000-dong-tu-2-6-2026-tre-em-duoi-13-tuoi-hay-duoi-1-2-m-duoc-mien-phi/",
       "qa_status": "PASS",
       "seo_score": 100
     },
@@ -9609,6 +9741,18 @@
       "session": "s-claude-df7eb8c1-20261022",
       "wp_id": 4750,
       "url": "https://thuexemaynguyentu.com/lich-nghi-le-sap-toi-24-11-2026-nghi-1-ngay-tet-dinh-mui-4-10-2-2027-va-quoc-khanh-2-5-9-2027/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-090752",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Bún bò Huế di sản quốc gia ngày 27/6/2025: hồ sơ kể gốc từ lễ tế làng và kỷ lục 300 tô",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": 4841,
+      "url": "https://thuexemaynguyentu.com/bun-bo-hue-di-san-quoc-gia-ngay-27-6-2025-ho-so-ke-goc-tu-le-te-lang-va-ky-luc-300-to/",
       "qa_status": "PASS",
       "seo_score": 100
     },

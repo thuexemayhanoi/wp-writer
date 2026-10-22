@@ -1,0 +1,185 @@
+{
+  "topic_id": "NT-001876",
+  "status": "PASS",
+  "source_sha256": "7c04ba57d52611df1c65222a05b2d076787e46b17a15b731859318d3ef98f3d6",
+  "body_sha256": "6d55bf7b8bfcdef338e16c2daed5f32695f3e770384ef66423f9e8c860623f0b",
+  "word_count": 2167,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/thao-toan-bo-rao-cong-vien-thong-nhat-4660068.html",
+      "supports": "VnExpress (3/10/2023, đọc 22/10/2026): HĐND thành phố thông qua chủ trương đầu tư hơn 400 tỷ đồng cải tạo công viên Thống Nhất, dỡ hơn 1.700 m rào, cải tạo khoảng 48 ha (mặt nước 16,5 ha) giai đoạn 2023-2026; công viên hơn 50 ha, hàng rào 2.160 m và 7 vị trí cổng; gần 400 m rào phía Trần Nhân Tông tháo cuối 12/2022.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/pho-di-bo-tran-nhan-tong-truoc-cong-vien-thong-nhat-se-duoc-cai-tao-ra-sao-100260707120734045.htm",
+      "supports": "Tuổi Trẻ (7/7/2026, đọc 22/10/2026): Ban Quản lý dự án phường Hai Bà Trưng cải tạo hè phố Trần Nhân Tông và cổng công viên Thống Nhất, triển khai từ đầu tháng 7, dự kiến hoàn thành trước 31/12; đài phun nước, đá granite, hạ giải một phần tường rào hai bên cổng, cổng sửa theo nguyên trạng.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/ha-noi-se-xay-dung-khong-gian-mo-dai-phun-nuoc-tren-pho-di-bo-tran-nhan-tong-post1857519.tpo",
+      "supports": "Tiền Phong (7/7/2026, đọc 22/10/2026): dự án khởi công từ 1/7 dự kiến hoàn thành cuối năm 2026; hai đoạn tường rào hai bên cổng được tháo dỡ, cổng sửa nguyên trạng, thay gạch block bằng granite; bài viết đây là mảnh ghép cuối cùng sau khi hạ toàn bộ hàng rào quanh công viên.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vnexpress.net/thao-toan-bo-rao-cong-vien-thong-nhat-4660068.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/pho-di-bo-tran-nhan-tong-truoc-cong-vien-thong-nhat-se-duoc-cai-tao-ra-sao-100260707120734045.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tienphong.vn/ha-noi-se-xay-dung-khong-gian-mo-dai-phun-nuoc-tren-pho-di-bo-tran-nhan-tong-post1857519.tpo",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2367,
+        "title": "Có Nên Sạc Xe Máy Điện Tại Nhà? Kinh Nghiệm An Toàn Khi Sử Dụng",
+        "why": "stale",
+        "content_hash": "8768183f030319ed7647591d37ba6e25af1e5ac274f69cc230b87c74a28fe158",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2453,
+        "title": "Honda SH Mode và Vision khác nhau thế nào về trải nghiệm sử dụng?",
+        "why": "stale",
+        "content_hash": "6d6ef8bf674caf2bb13b1743aa5f8d93dbbf026424b175bf3ccf09349bc82caf",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2493,
+        "title": "Bao lâu nên thay dầu xe máy? Cách nhận biết thời điểm phù hợp",
+        "why": "stale",
+        "content_hash": "8ca2a243a492015121237f25a06d048e4ab5297e91295fbbbae60ec93a619529",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2503,
+        "title": "Xe máy khó nổ do đâu? Các nguyên nhân thường gặp và cách kiểm tra",
+        "why": "stale",
+        "content_hash": "1bb521d9de866fa24f421032913e8b1ee3e5f294cfdb38c1dfe0cd216a360f24",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:18:41.861347+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "8e4b4701c8e611f77e39ade3aca6d3a6ed5e8da1d825bc2a2bcea8e82310328d",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

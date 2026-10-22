@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-22T15:06:53.408336+00:00",
-  "attempted": 2,
+  "at": "2026-10-22T15:24:00.203486+00:00",
+  "attempted": 8,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -191,11 +191,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T15:05:16.164236+00:00",
+      "at": "2026-10-22T15:18:15.288530+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "7a80566adf98494e3f2e72febc22897cc879b7edb74d21f6e161873d71ed87b9",
+      "inventory_sha256": "8e4b4701c8e611f77e39ade3aca6d3a6ed5e8da1d825bc2a2bcea8e82310328d",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -380,11 +380,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T15:05:24.920988+00:00",
+      "at": "2026-10-22T15:18:23.969966+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "7a80566adf98494e3f2e72febc22897cc879b7edb74d21f6e161873d71ed87b9",
+      "inventory_sha256": "8e4b4701c8e611f77e39ade3aca6d3a6ed5e8da1d825bc2a2bcea8e82310328d",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -577,11 +577,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T15:05:32.165070+00:00",
+      "at": "2026-10-22T15:18:31.155138+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "7a80566adf98494e3f2e72febc22897cc879b7edb74d21f6e161873d71ed87b9",
+      "inventory_sha256": "8e4b4701c8e611f77e39ade3aca6d3a6ed5e8da1d825bc2a2bcea8e82310328d",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -601,7 +601,55 @@
       }
     },
     {
-      "topic_id": "NT-001938",
+      "topic_id": "NT-001876",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 172,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "hanoi-travel",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001994",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 161,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "road-safety",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001998",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 161,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "road-safety",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001999",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 161,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "road-safety",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-002026",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 167,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "battery-charging",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-085401",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 162,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "rental-guide",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-090085",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 173,
       "category_resolution": "EXACT",
@@ -609,11 +657,11 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001939",
+      "topic_id": "NT-090752",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 173,
+      "category_id": 174,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "vietnam-travel",
+      "intended_taxonomy_key": "food-culture",
       "category_warning": null
     }
   ],
