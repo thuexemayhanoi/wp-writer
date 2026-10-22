@@ -35710,7 +35710,7 @@
       }
     },
     "NT-090309": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T11:45:28.575416+00:00",
       "source_hash": "37def42fbc54c23ea498614f23b4fad05903a83d6fdfc174ba9397022439324e",
       "slug": "phanh-va-lop-xe-50cc-sym-priti-50-dia-truoc-vanh-10-inch-elegant-50-tang-trong-vanh-17-inch",
@@ -35726,8 +35726,37 @@
       "category_warning": null,
       "git_commit": "c6e3ebc4948ca08ac329c6443104cfda9d8a2772",
       "run_id": "39772411813",
-      "updated_at": "2026-10-22T11:45:32.881226+00:00",
-      "wp_id": 4824
+      "updated_at": "2026-10-22T11:45:39.219202+00:00",
+      "wp_id": 4824,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/phanh-va-lop-xe-50cc-sym-priti-50-dia-truoc-vanh-10-inch-elegant-50-tang-trong-vanh-17-inch/",
+      "verified_at": "2026-10-22T11:45:39.219195+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4824,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/phanh-va-lop-xe-50cc-sym-priti-50-dia-truoc-vanh-10-inch-elegant-50-tang-trong-vanh-17-inch/",
+        "categories": [
+          165
+        ],
+        "canonical": "https://thuexemaynguyentu.com/phanh-va-lop-xe-50cc-sym-priti-50-dia-truoc-vanh-10-inch-elegant-50-tang-trong-vanh-17-inch/",
+        "seo_title": "Phanh và lốp xe 50cc SYM: Priti 50 đĩa trước, Elegant 50 tang trống",
+        "seo_description": "Phanh và lốp xe 50cc SYM theo trang hãng: Priti 50 đĩa trước, lốp không ruột 90/90-10; Shark EFI 50, Elegant 50, Galaxy 50 tang trống; hai mẫu số dùng lốp có ruột 70/80-17.",
+        "checked_at": "2026-10-22T11:45:39.219177+00:00"
+      }
     }
   },
   "categories": {}
