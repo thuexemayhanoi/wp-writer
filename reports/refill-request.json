@@ -1,22 +1,22 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 12,
+  "ready_stock": 9,
   "trigger_below_ready": 900,
   "rounds_opened": 6,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 832,
-  "capacity_remaining": 1168,
+  "topic_rows": 839,
+  "capacity_remaining": 1161,
   "order": {
     "id": "RF-0006",
     "round": 6,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 34,
-    "remaining_to_min": 66,
-    "remaining_to_max": 166,
-    "batches_still_needed": 7,
+    "accepted_so_far": 41,
+    "remaining_to_min": 59,
+    "remaining_to_max": 159,
+    "batches_still_needed": 6,
     "batch_size": 10,
     "capacity_limited": false,
     "stalled": false,
@@ -48,7 +48,7 @@
       },
       {
         "taxonomy_key": "electric",
-        "quota": 8,
+        "quota": 9,
         "known_now": 44,
         "allocation": 59
       },
@@ -71,16 +71,16 @@
         "allocation": 23
       },
       {
+        "taxonomy_key": "trip-planning",
+        "quota": 5,
+        "known_now": 83,
+        "allocation": 91
+      },
+      {
         "taxonomy_key": "ebikes",
         "quota": 4,
         "known_now": 25,
         "allocation": 32
-      },
-      {
-        "taxonomy_key": "trip-planning",
-        "quota": 4,
-        "known_now": 83,
-        "allocation": 91
       },
       {
         "taxonomy_key": "destinations",
@@ -107,12 +107,6 @@
         "allocation": 50
       },
       {
-        "taxonomy_key": "vietnam-travel",
-        "quota": 2,
-        "known_now": 52,
-        "allocation": 55
-      },
-      {
         "taxonomy_key": "rental-procedures",
         "quota": 1,
         "known_now": 35,
@@ -123,19 +117,19 @@
       "rental-guide": 2,
       "battery-charging": 1,
       "destinations": 1,
-      "ebikes": 1,
       "electric": 1,
       "electric-transition": 1,
       "green-travel": 1,
       "rental-50cc": 1,
+      "trip-planning": 1,
       "urban-mobility": 1
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 891,
-    "topics_in_factory": 832,
+    "published_wordpress_items": 893,
+    "topics_in_factory": 839,
     "topics_by_status": {
-      "PLANNED": 753,
+      "PLANNED": 760,
       "REJECTED": 2,
       "RESEARCH": 77
     },
