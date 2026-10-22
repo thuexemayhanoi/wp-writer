@@ -31937,7 +31937,7 @@
       }
     },
     "NT-001812": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:46:46.133713+00:00",
       "source_hash": "ea654e97964622caafbc04f619a7a087be299f8e06a2e9b652f2a699e559194b",
       "slug": "cong-sac-dien-thoai-tren-xe-may-mau-honda-yamaha-nao-ghi-usb-c-usb-a-hay-o-12v-va-dat-o-dau",
@@ -31953,8 +31953,37 @@
       "category_warning": null,
       "git_commit": "c7de7c79ccdec5547a0dba5bc3326787f2722919",
       "run_id": "39723491639",
-      "updated_at": "2026-10-22T04:46:50.229092+00:00",
-      "wp_id": 4719
+      "updated_at": "2026-10-22T04:46:56.559036+00:00",
+      "wp_id": 4719,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/cong-sac-dien-thoai-tren-xe-may-mau-honda-yamaha-nao-ghi-usb-c-usb-a-hay-o-12v-va-dat-o-dau/",
+      "verified_at": "2026-10-22T04:46:56.559029+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4719,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/cong-sac-dien-thoai-tren-xe-may-mau-honda-yamaha-nao-ghi-usb-c-usb-a-hay-o-12v-va-dat-o-dau/",
+        "categories": [
+          156
+        ],
+        "canonical": "https://thuexemaynguyentu.com/cong-sac-dien-thoai-tren-xe-may-mau-honda-yamaha-nao-ghi-usb-c-usb-a-hay-o-12v-va-dat-o-dau/",
+        "seo_title": "Cổng sạc điện thoại trên xe máy: Honda, Yamaha ghi USB-C, USB-A, 12V",
+        "seo_description": "Cổng sạc điện thoại trên xe máy theo trang hãng: mẫu Honda, Yamaha nào ghi USB loại C, loại A hay ổ 12V, cổng nằm ở đâu và cách kiểm tra khi nhận xe.",
+        "checked_at": "2026-10-22T04:46:56.559011+00:00"
+      }
     }
   },
   "categories": {}
