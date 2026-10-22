@@ -37131,7 +37131,7 @@
       }
     },
     "NT-001873": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:41:47.312395+00:00",
       "source_hash": "02024fa22783c688adece1440893a734be88e6e00c522258dd3034f173407ba2",
       "slug": "bao-tang-lich-su-quan-su-moi-dai-lo-thang-long-ve-40-000-dong-buyt-71-74-107",
@@ -37147,8 +37147,37 @@
       "category_warning": null,
       "git_commit": "29b371a50ce93cffc2535aafb2c098124c5c38a7",
       "run_id": "39806500390",
-      "updated_at": "2026-10-22T15:41:53.024812+00:00",
-      "wp_id": 4853
+      "updated_at": "2026-10-22T15:42:03.518989+00:00",
+      "wp_id": 4853,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bao-tang-lich-su-quan-su-moi-dai-lo-thang-long-ve-40-000-dong-buyt-71-74-107/",
+      "verified_at": "2026-10-22T15:42:03.518983+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4853,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bao-tang-lich-su-quan-su-moi-dai-lo-thang-long-ve-40-000-dong-buyt-71-74-107/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bao-tang-lich-su-quan-su-moi-dai-lo-thang-long-ve-40-000-dong-buyt-71-74-107/",
+        "seo_title": "Bảo tàng Lịch sử Quân sự mới: Đại lộ Thăng Long, vé 40.000 đồng",
+        "seo_description": "Bảo tàng Lịch sử Quân sự mới ở Km6+500 Đại lộ Thăng Long: xe buýt 71, 74, 107, giờ mở cửa, nghỉ thứ Hai và thứ Sáu theo báo 2024, vé 40.000 đồng và chỗ hai báo lệch ngày.",
+        "checked_at": "2026-10-22T15:42:03.518959+00:00"
+      }
     }
   },
   "categories": {}
