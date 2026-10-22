@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-22T09:51:02.261372+00:00",
-  "attempted": 2,
+  "at": "2026-10-22T09:57:41.220557+00:00",
+  "attempted": 1,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -191,11 +191,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T09:49:38.362425+00:00",
+      "at": "2026-10-22T09:56:55.183041+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "a158312ae68752f8b883a600a6ec4e1c717dcaca42eb7d656554dd0a13e25ff9",
+      "inventory_sha256": "e662fdc329c283893d3a117e4427a7d4aa05d29ba00b4a97e806a5bebd9a17d3",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -380,11 +380,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T09:49:45.899298+00:00",
+      "at": "2026-10-22T09:57:04.614503+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "a158312ae68752f8b883a600a6ec4e1c717dcaca42eb7d656554dd0a13e25ff9",
+      "inventory_sha256": "e662fdc329c283893d3a117e4427a7d4aa05d29ba00b4a97e806a5bebd9a17d3",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -577,11 +577,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T09:49:52.554413+00:00",
+      "at": "2026-10-22T09:57:12.612363+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "a158312ae68752f8b883a600a6ec4e1c717dcaca42eb7d656554dd0a13e25ff9",
+      "inventory_sha256": "e662fdc329c283893d3a117e4427a7d4aa05d29ba00b4a97e806a5bebd9a17d3",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -601,19 +601,11 @@
       }
     },
     {
-      "topic_id": "NT-090390",
+      "topic_id": "NT-090452",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 172,
+      "category_id": 164,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "hanoi-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-090609",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
+      "intended_taxonomy_key": "rental-costs",
       "category_warning": null
     }
   ],

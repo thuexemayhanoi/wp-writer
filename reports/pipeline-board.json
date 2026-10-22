@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-22T09:51:09.410987+00:00",
+  "at": "2026-10-22T09:57:48.261692+00:00",
   "counts": {
-    "WRITING": 15,
+    "WRITING": 16,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 699
+    "VERIFIED": 700
   },
   "ready_backlog": 0,
-  "in_flight": 18,
+  "in_flight": 19,
   "items": [
     {
       "topic_id": "NT-001635",
@@ -187,6 +187,18 @@
       "title": "Xe máy biển nước ngoài vào Việt Nam du lịch: xe dẫn đường, giấy tờ cần mang và thủ tục chấp thuận",
       "slot": "W4",
       "session": "seodev-w78",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-090299",
+      "state": "WRITING",
+      "reason": "leased to s-claude-df7eb8c1-20261022",
+      "title": "Mất giấy phép lái xe còn hạn: cấp lại theo Điều 20 Thông tư 108/2026, hai trường hợp bị từ chối",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -8493,6 +8505,18 @@
       "session": "s-claude-df7eb8c1-20261022",
       "wp_id": 4757,
       "url": "https://thuexemaynguyentu.com/tieng-on-theo-qcvn-26-2025-bnnmt-ban-dem-nha-o-khach-san-45-dba-duong-bo-58-dba-ap-dung-du-tu-1-1-2027/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-090452",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Phạt nguội đến sau khi trả xe máy thuê: thời hiệu 1 năm tính từ lúc camera ghi hình",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": 4775,
+      "url": "https://thuexemaynguyentu.com/phat-nguoi-den-sau-khi-tra-xe-may-thue-thoi-hieu-1-nam-tinh-tu-luc-camera-ghi-hinh/",
       "qa_status": "PASS",
       "seo_score": 100
     },
