@@ -39875,7 +39875,7 @@
       }
     },
     "NT-002173": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T20:37:56.807482+00:00",
       "source_hash": "abcbf498c39273c6b20cfa69c277bccf476696442dd70a0469ba8a63519696c5",
       "slug": "di-ben-xe-yen-nghia-bang-tau-dien-ga-cuoi-noi-xe-buyt-va-xe-khach-di-tinh",
@@ -39891,8 +39891,37 @@
       "category_warning": null,
       "git_commit": "0a7ac0bbcd8e029fa300a62a1eda811599a44877",
       "run_id": "39849225031",
-      "updated_at": "2026-10-22T20:38:01.059664+00:00",
-      "wp_id": 5019
+      "updated_at": "2026-10-22T20:38:08.058667+00:00",
+      "wp_id": 5019,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/di-ben-xe-yen-nghia-bang-tau-dien-ga-cuoi-noi-xe-buyt-va-xe-khach-di-tinh/",
+      "verified_at": "2026-10-22T20:38:08.058661+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 5019,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/di-ben-xe-yen-nghia-bang-tau-dien-ga-cuoi-noi-xe-buyt-va-xe-khach-di-tinh/",
+        "categories": [
+          176
+        ],
+        "canonical": "https://thuexemaynguyentu.com/di-ben-xe-yen-nghia-bang-tau-dien-ga-cuoi-noi-xe-buyt-va-xe-khach-di-tinh/",
+        "seo_title": "Đi bến xe Yên Nghĩa bằng tàu điện: ga cuối nối buýt, xe khách đi tỉnh",
+        "seo_description": "Đi bến xe Yên Nghĩa bằng tàu điện: ga cuối tuyến 2A nằm ngay trước cổng bến, tàu mất khoảng 23 đến 25,5 phút, giờ tàu hai nguồn ghi khác nhau và cách chừa thời gian trước giờ xe.",
+        "checked_at": "2026-10-22T20:38:08.058643+00:00"
+      }
     }
   },
   "categories": {}
