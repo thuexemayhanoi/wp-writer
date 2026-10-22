@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-22T20:50:22.764962+00:00",
-  "attempted": 10,
-  "ready_backlog": 2,
+  "at": "2026-10-22T20:56:50.766750+00:00",
+  "attempted": 1,
+  "ready_backlog": 1,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -200,11 +200,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T20:44:17.373992+00:00",
+      "at": "2026-10-22T20:55:39.617834+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "49030da0c33d782b32cfec116a13dfc877586e7ef6b5dd239355e3e4cb8bd196",
+      "inventory_sha256": "52e19ebb35c548e01cd2ff6db8f269e203b34aeb42fb22a58e52f8368b3f6a67",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -389,11 +389,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T20:44:25.867823+00:00",
+      "at": "2026-10-22T20:55:49.075101+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "49030da0c33d782b32cfec116a13dfc877586e7ef6b5dd239355e3e4cb8bd196",
+      "inventory_sha256": "52e19ebb35c548e01cd2ff6db8f269e203b34aeb42fb22a58e52f8368b3f6a67",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -586,11 +586,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T20:44:33.178933+00:00",
+      "at": "2026-10-22T20:55:57.424822+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "49030da0c33d782b32cfec116a13dfc877586e7ef6b5dd239355e3e4cb8bd196",
+      "inventory_sha256": "52e19ebb35c548e01cd2ff6db8f269e203b34aeb42fb22a58e52f8368b3f6a67",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -610,84 +610,18 @@
       }
     },
     {
-      "topic_id": "NT-001944",
+      "topic_id": "NT-090271",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 173,
+      "category_id": 163,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "vietnam-travel",
+      "intended_taxonomy_key": "rental-procedures",
       "category_warning": null
     },
     {
-      "topic_id": "NT-001945",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 173,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "vietnam-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001979",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 174,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "food-culture",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-002083",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 172,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "hanoi-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-002084",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 172,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "hanoi-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-002085",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 172,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "hanoi-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-002149",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-002150",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 161,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "road-safety",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-002174",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 176,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "urban-mobility",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-002175",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 176,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "urban-mobility",
-      "category_warning": null
+      "topic_id": "NT-090529",
+      "status": "SITE_CAP",
+      "site_posts": 1000,
+      "limit": 1000
     }
   ],
   "backlog_drains_on": "successful Writer QA or fallback schedule",

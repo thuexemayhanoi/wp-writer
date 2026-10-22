@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-22T20:50:30.698640+00:00",
+  "at": "2026-10-22T20:56:58.388311+00:00",
   "counts": {
     "WRITING": 19,
     "QA": 0,
-    "READY": 2,
+    "READY": 1,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 846
+    "VERIFIED": 847
   },
-  "ready_backlog": 2,
-  "in_flight": 24,
+  "ready_backlog": 1,
+  "in_flight": 23,
   "items": [
     {
       "topic_id": "NT-002051",
@@ -239,18 +239,6 @@
       "url": null,
       "qa_status": null,
       "seo_score": null
-    },
-    {
-      "topic_id": "NT-090271",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Chìa khóa dự phòng xe máy thuê có phải vật phụ theo Điều 110, mất chìa thì đền theo Điều 479?",
-      "slot": "W2",
-      "session": "seodev-w90",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
     },
     {
       "topic_id": "NT-090529",
@@ -10101,6 +10089,18 @@
       "session": "seodev-w80",
       "wp_id": 4892,
       "url": "https://thuexemaynguyentu.com/du-lich-bang-xe-dap-dien-thai-bao-nhieu-co2-moi-km-luoi-dien-0-6187-tco2-mwh-pin-640-wh/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-090271",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Chìa khóa dự phòng xe máy thuê có phải vật phụ theo Điều 110, mất chìa thì đền theo Điều 479?",
+      "slot": "W2",
+      "session": "seodev-w90",
+      "wp_id": 5032,
+      "url": "https://thuexemaynguyentu.com/chia-khoa-du-phong-xe-may-thue-co-phai-vat-phu-theo-dieu-110-mat-chia-thi-den-theo-dieu-479/",
       "qa_status": "PASS",
       "seo_score": 100
     },

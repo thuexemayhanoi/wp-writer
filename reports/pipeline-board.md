@@ -1,18 +1,18 @@
 # Pipeline board
 
-Generated 2026-10-22T20:50:30.698640+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-22T20:56:58.388311+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
 | WRITING | 19 |
 | QA | 0 |
-| READY | 2 |
+| READY | 1 |
 | REPAIR | 0 |
 | HELD | 3 |
 | PUBLISHING | 0 |
-| VERIFIED | 846 |
+| VERIFIED | 847 |
 
-Ready backlog (QA PASS waiting for the Publisher): **2**
+Ready backlog (QA PASS waiting for the Publisher): **1**
 
 ## Articles not yet VERIFIED
 
@@ -37,7 +37,6 @@ Ready backlog (QA PASS waiting for the Publisher): **2**
 | NT-090084 | WRITING | W2 | seodev-w90 | leased to seodev-w90 |
 | NT-090099 | WRITING | W2 | seodev-w90 | leased to seodev-w90 |
 | NT-090330 | WRITING | W4 | seodev-w93 | leased to seodev-w93 |
-| NT-090271 | READY | W2 | seodev-w90 | QA PASS; waiting for the Publisher |
 | NT-090529 | READY | W4 | seodev-w93 | QA PASS; waiting for the Publisher |
 | NT-001101 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4344; Near duplicate existing:4344 |
 | NT-001102 | HELD | W1 | s-gpt6-ward3-20261020 | REAL_RISK: existing URL collision:4345; Near duplicate existing:4345 |

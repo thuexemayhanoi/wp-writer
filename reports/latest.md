@@ -4,15 +4,15 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-22T20:50:29.335506+00:00 |
-| existing_published_posts | 989 |
+| at | 2026-10-22T20:56:56.633684+00:00 |
+| existing_published_posts | 999 |
 | existing_pages | 10 |
 | existing_products | 13 |
 | candidate_topics | 971 |
 | planned_topics | 892 |
 | claimable_topics | 25 |
 | ready_stock | 19 |
-| stock_stages | {'IDEA': 300, 'RESEARCH': 77, 'REJECTED': 2, 'PLANNED': 19, 'PLANNED_HOLD': 3, 'CLAIMED': 19, 'AUTHORED': 3, 'QA_PASS': 2, 'PUBLISHED': 846, 'WP_DRAFT': 0} |
+| stock_stages | {'IDEA': 300, 'RESEARCH': 77, 'REJECTED': 2, 'PLANNED': 19, 'PLANNED_HOLD': 3, 'CLAIMED': 19, 'AUTHORED': 3, 'QA_PASS': 1, 'PUBLISHED': 847, 'WP_DRAFT': 0} |
 | needs_research | True |
 | research_shortfall | 881 |
 | refill_trigger_below_ready | 900 |
@@ -27,11 +27,11 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | qa_review | 0 |
 | repair_queue | 3 |
 | held_by_class | {'REAL_RISK': 3} |
-| g7_pass | 821 |
+| g7_pass | 822 |
 | g7_not_recorded | 25 |
 | wordpress_draft | 0 |
-| wordpress_published | 846 |
-| verified_public | 846 |
+| wordpress_published | 847 |
+| verified_public | 847 |
 | indexed | None |
 | topic_collisions | 2 |
 | category_mapping_errors | 0 |
@@ -43,12 +43,12 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | delivery_mode | production |
 | production_enabled | True |
 | draft_staging_enabled | False |
-| qa_pass_live_checked | 502 |
-| qa_pass_awaiting_wordpress | 2 |
-| queued_topic_ids | ['NT-090271', 'NT-090529'] |
+| qa_pass_live_checked | 504 |
+| qa_pass_awaiting_wordpress | 1 |
+| queued_topic_ids | ['NT-090529'] |
 | pending_wordpress_intents | [] |
 | blocked_writer_sessions | [] |
-| last_wordpress_verified_at | 2026-10-22T20:50:20.205270+00:00 |
+| last_wordpress_verified_at | 2026-10-22T20:56:29.081583+00:00 |
 | capacity | 10000 |
 | authenticated_inventory | True |
 | test_drafts_excluded | 2 |
