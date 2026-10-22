@@ -37278,7 +37278,7 @@
       }
     },
     "NT-001941": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:43:52.194720+00:00",
       "source_hash": "b75b7fc23228fc50363ec4e795506e498ca33e73d5555e1a12a939cdb1e82143",
       "slug": "hang-mua-ninh-binh-486-bac-leo-30-40-phut-va-ve-150-000-dong-tu-1-4-2026",
@@ -37294,8 +37294,37 @@
       "category_warning": null,
       "git_commit": "29b371a50ce93cffc2535aafb2c098124c5c38a7",
       "run_id": "39806500390",
-      "updated_at": "2026-10-22T15:43:56.974348+00:00",
-      "wp_id": 4856
+      "updated_at": "2026-10-22T15:44:04.735879+00:00",
+      "wp_id": 4856,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/hang-mua-ninh-binh-486-bac-leo-30-40-phut-va-ve-150-000-dong-tu-1-4-2026/",
+      "verified_at": "2026-10-22T15:44:04.735873+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4856,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/hang-mua-ninh-binh-486-bac-leo-30-40-phut-va-ve-150-000-dong-tu-1-4-2026/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/hang-mua-ninh-binh-486-bac-leo-30-40-phut-va-ve-150-000-dong-tu-1-4-2026/",
+        "seo_title": "Hang Múa Ninh Bình: 486 bậc, leo 30–40 phút và vé 150.000 đồng",
+        "seo_description": "Hang Múa Ninh Bình có 486 hay gần 500 bậc, leo khoảng 30–40 phút theo Ngôi Sao, vé 150.000 đồng từ 1/4/2026 theo Báo Văn hóa; mỗi con số kèm nguồn và ngày đăng.",
+        "checked_at": "2026-10-22T15:44:04.735850+00:00"
+      }
     }
   },
   "categories": {}
