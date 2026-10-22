@@ -1,0 +1,224 @@
+{
+  "topic_id": "NT-090238",
+  "status": "PASS",
+  "source_sha256": "d7fa20f7fdcc94956efa8ed115b30507f4f04b1abb990d55428ba3e6405bd973",
+  "body_sha256": "68a6be11fc5c8094550c33b2f4c8f6776c0c247b68b60ac03700acaaeab70227",
+  "word_count": 4196,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/luat-trat-tu-an-toan-giao-thong-duong-bo-so-36-2024-qh15--170620",
+      "supports": "Trang vbpl.vn của Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (Còn hiệu lực, hiệu lực từ 01/01/2025, cập nhật 29/03/2026), đọc 22/10/2026: Điều 31 khoản 1 (xe đạp, xe đạp máy chỉ được chở một người, trừ chở thêm một trẻ em dưới 07 tuổi thì tối đa hai người), khoản 2 và khoản 3 (mũ bảo hiểm, cài quai); đoạn Điều 33 khoản 1 và khoản 4 điểm d; đoạn Điều 34 về xe gắn máy và xe đạp máy (khoản 2 điểm b).",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/bol00011007-user-manual-e-bike-vie.pdf",
+      "supports": "Sách hướng dẫn sử dụng tiếng Việt xe đạp điện VF DrgnFly của VinFast (tệp PDF, phần đã đọc không ghi ngày in), đọc 22/10/2026: thông tin chỉ mới nhất tại thời điểm in; dòng kết cấu xe chỉ thiết kế cho 1 người lái; bảng thông số ghi khối lượng bản thân 30.5 kg, tải trọng cho phép (gồm người lái và các vật dụng kèm theo) 130 kg, số người cho phép 02 người, khối lượng toàn bộ 160.5 kg, kích thước 1730 x 720 x 1056 mm, chiều cao yên 792 mm, lốp trước 20x4.0.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.us/cms-vinfast-us/ebike/BOL00010047-User-manual-E-BIKE-EN.pdf",
+      "supports": "Sách hướng dẫn tiếng Anh USER MANUAL E-BIKE LONG SADDLE của VinFast (tệp PDF trên trang .us, phần đã đọc không ghi ngày in), đọc 22/10/2026: kết cấu xe thiết kế cho một người lái; tốc độ tối đa 25 km/h (thị trường EU) và 32 km/h (thị trường Mỹ); khối lượng bản thân 31.4 kg, tải 130 kg (gồm người lái), Number of permitted passengers 01 person, tổng khối lượng 161.4 kg, kích thước 1730 x 720 x 1056 mm, chiều cao yên 795 mm, bánh trước 90/100 - 16.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm",
+      "supports": "Trang xaydungchinhsach.chinhphu.vn đăng toàn văn Nghị định 168/2024/NĐ-CP, đọc 22/10/2026: tên Điều 9 (xử phạt người điều khiển xe đạp, xe đạp máy, người điều khiển xe thô sơ khác) và khoản 1 điểm o (xe đạp, xe đạp máy, xe xích lô chở quá số người quy định, trừ trường hợp chở người bệnh đi cấp cứu); bài không nêu số tiền phạt.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/chinh-phu-ban-hanh-nghi-dinh-so-238-2026-nd-cp-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-168-2024-nd-cp-1786704471",
+      "supports": "Bản tin trên bocongan.gov.vn (phần đã đọc không ghi ngày đăng), đọc 22/10/2026: Chính phủ ban hành Nghị định 238/2026/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định 168/2024/NĐ-CP, có hiệu lực từ ngày 15/8/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/13/469913-1783914973_v1_1783915444_signed.pdf",
+      "supports": "Công báo số 391 ngày 13-07-2026 (tệp PDF), đọc 22/10/2026: Nghị định 238/2026/NĐ-CP ngày 26 tháng 6 năm 2026 sửa đổi, bổ sung một số điều của Nghị định 168/2024/NĐ-CP; tên các điều 1 đến 20 (sửa riêng Điều 3, 6, 13, 14, 17, 18, 20, 21, 26, 29, 32, 41, 42, 43, 44, 46, 50, 53; Điều 19 bổ sung, thay thế, bãi bỏ cụm từ, điểm, khoản, điều); Điều 20 hiệu lực từ ngày 15 tháng 8 năm 2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/luat-trat-tu-an-toan-giao-thong-duong-bo-so-36-2024-qh15--170620",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.com/bol00011007-user-manual-e-bike-vie.pdf",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://static-cms-prod.vinfastauto.us/cms-vinfast-us/ebike/BOL00010047-User-manual-E-BIKE-EN.pdf",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-168-2024-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-trat-tu-atgt-duong-bo-119241231164556785.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://bocongan.gov.vn/chinh-sach-phap-luat/bai-viet/chinh-phu-ban-hanh-nghi-dinh-so-238-2026-nd-cp-sua-doi-bo-sung-mot-so-dieu-cua-nghi-dinh-so-168-2024-nd-cp-1786704471",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/13/469913-1783914973_v1_1783915444_signed.pdf",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2411,
+        "title": "Honda ICON e: đi được bao nhiêu km và phù hợp quãng đường nào?",
+        "why": "stale",
+        "content_hash": "c51f9eca9b43c76b8f4f2101ab1c67f670c8d7d31345309ffbda12f55c573f6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2582,
+        "title": "Xe nào phù hợp chạy trong phố Hà Nội? Gợi ý theo từng nhu cầu",
+        "why": "stale",
+        "content_hash": "0f62d1c774af57a3c896ffd697700d31e6892614883dbc70f9970230ae26d134",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2590,
+        "title": "Xe ga nào dễ lái cho người mới? Tiêu chí chọn xe an toàn hơn",
+        "why": "stale",
+        "content_hash": "f8902bfd6a2486eeeba8cd80b6a82c343421a30c904c7f55f75916cb9ec28c44",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T14:44:33.654340+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "52ce8d1dcdff7236e66ae482e78de5524dacb25febba7c0de03c3319d6afd748",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
