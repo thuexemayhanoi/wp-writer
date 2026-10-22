@@ -30124,7 +30124,7 @@
       }
     },
     "NT-001481": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:04:46.158492+00:00",
       "source_hash": "5cdfdd90ffd4cb97b3223df404533610193ea57cabb4a929e53b55d428d3f932",
       "slug": "quen-giay-to-xe-may-dien-co-bi-phat-khong-luat-bat-buoc-mang-gi-va-loi-nao-bi-phat",
@@ -30140,8 +30140,37 @@
       "category_warning": null,
       "git_commit": "6cfc2a756a7b4ed4288ecf4d4d7856f3349d40e6",
       "run_id": "39719712916",
-      "updated_at": "2026-10-22T04:04:50.878705+00:00",
-      "wp_id": 4682
+      "updated_at": "2026-10-22T04:04:57.280414+00:00",
+      "wp_id": 4682,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/quen-giay-to-xe-may-dien-co-bi-phat-khong-luat-bat-buoc-mang-gi-va-loi-nao-bi-phat/",
+      "verified_at": "2026-10-22T04:04:57.280406+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4682,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/quen-giay-to-xe-may-dien-co-bi-phat-khong-luat-bat-buoc-mang-gi-va-loi-nao-bi-phat/",
+        "categories": [
+          171
+        ],
+        "canonical": "https://thuexemaynguyentu.com/quen-giay-to-xe-may-dien-co-bi-phat-khong-luat-bat-buoc-mang-gi-va-loi-nao-bi-phat/",
+        "seo_title": "Quên giấy tờ xe máy điện có bị phạt không: Luật buộc mang gì, lỗi nào",
+        "seo_description": "Quên giấy tờ xe máy điện có bị phạt không: Luật 36/2024 buộc mang gì, Nghị định 168/2024 phạt lỗi không có đăng ký, bảo hiểm, bằng lái và khác gì với quên mang theo.",
+        "checked_at": "2026-10-22T04:04:57.280386+00:00"
+      }
     }
   },
   "categories": {}
