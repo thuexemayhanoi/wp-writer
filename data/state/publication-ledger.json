@@ -31839,7 +31839,7 @@
       }
     },
     "NT-001782": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:45:32.500548+00:00",
       "source_hash": "87945539df4ff63dd5c898baf830851b7e7503d149d85414195e31d77a8b8d4f",
       "slug": "kiem-tra-phanh-khi-nhan-xe-may-thue-cach-thu-va-viec-can-lam-truoc-khi-dat-coc",
@@ -31855,8 +31855,37 @@
       "category_warning": null,
       "git_commit": "c7de7c79ccdec5547a0dba5bc3326787f2722919",
       "run_id": "39723491639",
-      "updated_at": "2026-10-22T04:45:36.578687+00:00",
-      "wp_id": 4717
+      "updated_at": "2026-10-22T04:45:43.059808+00:00",
+      "wp_id": 4717,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/kiem-tra-phanh-khi-nhan-xe-may-thue-cach-thu-va-viec-can-lam-truoc-khi-dat-coc/",
+      "verified_at": "2026-10-22T04:45:43.059800+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4717,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/kiem-tra-phanh-khi-nhan-xe-may-thue-cach-thu-va-viec-can-lam-truoc-khi-dat-coc/",
+        "categories": [
+          163
+        ],
+        "canonical": "https://thuexemaynguyentu.com/kiem-tra-phanh-khi-nhan-xe-may-thue-cach-thu-va-viec-can-lam-truoc-khi-dat-coc/",
+        "seo_title": "Kiểm tra phanh khi nhận xe máy thuê: cách thử trước khi đặt cọc",
+        "seo_description": "Kiểm tra phanh khi nhận xe máy thuê: nhìn tay phanh và cáp, thử giữ xe từng phanh, xem đèn phanh, dắt thử chậm và việc cần làm trước khi đặt cọc hay ký nhận.",
+        "checked_at": "2026-10-22T04:45:43.059781+00:00"
+      }
     }
   },
   "categories": {}
