@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "state": "REFILL_OPENED",
-  "ready_stock": 23,
+  "state": "REFILL_IN_PROGRESS",
+  "ready_stock": 17,
   "trigger_below_ready": 900,
   "rounds_opened": 7,
   "unlimited_rounds": true,
@@ -120,7 +120,7 @@
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 898,
+    "published_wordpress_items": 927,
     "topics_in_factory": 900,
     "topics_by_status": {
       "PLANNED": 821,
