@@ -30271,7 +30271,7 @@
       }
     },
     "NT-001541": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:06:20.078101+00:00",
       "source_hash": "bbdb61541190f7ecffebbd7d2bd70013266434eb6045f66d89659c7b805e8b55",
       "slug": "bao-ve-canh-quan-diem-den-mau-ke-hoach-cho-chuyen-di-ngan-tung-buoc",
@@ -30287,8 +30287,37 @@
       "category_warning": null,
       "git_commit": "6cfc2a756a7b4ed4288ecf4d4d7856f3349d40e6",
       "run_id": "39719712916",
-      "updated_at": "2026-10-22T04:06:24.044577+00:00",
-      "wp_id": 4685
+      "updated_at": "2026-10-22T04:06:30.301592+00:00",
+      "wp_id": 4685,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bao-ve-canh-quan-diem-den-mau-ke-hoach-cho-chuyen-di-ngan-tung-buoc/",
+      "verified_at": "2026-10-22T04:06:30.301582+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4685,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bao-ve-canh-quan-diem-den-mau-ke-hoach-cho-chuyen-di-ngan-tung-buoc/",
+        "categories": [
+          177
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bao-ve-canh-quan-diem-den-mau-ke-hoach-cho-chuyen-di-ngan-tung-buoc/",
+        "seo_title": "Bảo vệ cảnh quan điểm đến: mẫu kế hoạch cho chuyến đi ngắn từng bước",
+        "seo_description": "Bảo vệ cảnh quan điểm đến khi đi ngắn: mẫu kế hoạch Trước, Trong, Sau chuyến đi dựa trên nguyên tắc Leave No Trace, quy tắc của Bộ VHTTDL, kèm ghi chú cho người đi xe máy.",
+        "checked_at": "2026-10-22T04:06:30.301558+00:00"
+      }
     }
   },
   "categories": {}
