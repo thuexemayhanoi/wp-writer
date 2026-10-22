@@ -1,22 +1,22 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 7,
+  "ready_stock": 2,
   "trigger_below_ready": 900,
   "rounds_opened": 5,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 745,
-  "capacity_remaining": 1255,
+  "topic_rows": 749,
+  "capacity_remaining": 1251,
   "order": {
     "id": "RF-0005",
     "round": 5,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 49,
-    "remaining_to_min": 51,
-    "remaining_to_max": 151,
-    "batches_still_needed": 6,
+    "accepted_so_far": 53,
+    "remaining_to_min": 47,
+    "remaining_to_max": 147,
+    "batches_still_needed": 5,
     "batch_size": 10,
     "capacity_limited": false,
     "stalled": false,
@@ -72,27 +72,21 @@
       },
       {
         "taxonomy_key": "driving-licence",
-        "quota": 4,
+        "quota": 5,
         "known_now": 21,
         "allocation": 32
+      },
+      {
+        "taxonomy_key": "rental-costs",
+        "quota": 5,
+        "known_now": 12,
+        "allocation": 23
       },
       {
         "taxonomy_key": "ebikes",
         "quota": 4,
         "known_now": 22,
         "allocation": 32
-      },
-      {
-        "taxonomy_key": "electric-maintenance",
-        "quota": 4,
-        "known_now": 31,
-        "allocation": 41
-      },
-      {
-        "taxonomy_key": "rental-costs",
-        "quota": 4,
-        "known_now": 12,
-        "allocation": 23
       },
       {
         "taxonomy_key": "vietnam-travel",
@@ -105,6 +99,12 @@
         "quota": 2,
         "known_now": 21,
         "allocation": 27
+      },
+      {
+        "taxonomy_key": "electric-maintenance",
+        "quota": 2,
+        "known_now": 35,
+        "allocation": 41
       },
       {
         "taxonomy_key": "legal",
@@ -129,18 +129,18 @@
       "rental-guide": 2,
       "urban-mobility": 2,
       "battery-charging": 1,
-      "destinations": 1,
       "electric": 1,
       "electric-transition": 1,
       "green-travel": 1,
+      "rental-costs": 1,
       "trip-planning": 1
     }
   },
   "dedupe_universe": {
     "published_wordpress_items": 807,
-    "topics_in_factory": 745,
+    "topics_in_factory": 749,
     "topics_by_status": {
-      "PLANNED": 668,
+      "PLANNED": 672,
       "REJECTED": 2,
       "RESEARCH": 75
     },
