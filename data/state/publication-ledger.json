@@ -31300,7 +31300,7 @@
       }
     },
     "NT-001637": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:33:58.684190+00:00",
       "source_hash": "4f41b5cc71b353cdd422935262d319bd53ec1a298dd4181f3bf485b77877923a",
       "slug": "hoi-an-luc-sang-som-nhung-loi-len-ke-hoach-thuong-gap-va-cach-tranh",
@@ -31316,8 +31316,37 @@
       "category_warning": null,
       "git_commit": "9c0156d4d7b1a140206400ae532157c1ebdc3261",
       "run_id": "39722469737",
-      "updated_at": "2026-10-22T04:34:02.508344+00:00",
-      "wp_id": 4706
+      "updated_at": "2026-10-22T04:34:08.069969+00:00",
+      "wp_id": 4706,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/hoi-an-luc-sang-som-nhung-loi-len-ke-hoach-thuong-gap-va-cach-tranh/",
+      "verified_at": "2026-10-22T04:34:08.069961+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4706,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/hoi-an-luc-sang-som-nhung-loi-len-ke-hoach-thuong-gap-va-cach-tranh/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/hoi-an-luc-sang-som-nhung-loi-len-ke-hoach-thuong-gap-va-cach-tranh/",
+        "seo_title": "Hội An lúc sáng sớm: giờ phố đi bộ, vé và lỗi hay gặp",
+        "seo_description": "Hội An lúc sáng sớm: phố cổ chuyển sang chế độ người đi bộ từ 09g00, vé 80.000–120.000 đồng rồi phí 20.000 đồng từ 10/8/2026, giờ trà đạo và các lỗi hay gặp.",
+        "checked_at": "2026-10-22T04:34:08.069939+00:00"
+      }
     }
   },
   "categories": {}
