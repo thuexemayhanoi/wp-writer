@@ -30026,7 +30026,7 @@
       }
     },
     "NT-001484": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T03:58:37.827350+00:00",
       "source_hash": "798c2b814d2aca573285978fc4c5c504d0a075dfd8895f814fb4549c9015eb46",
       "slug": "bien-so-xe-may-mau-gi-nen-trang-nen-xanh-tem-xanh-la-va-kich-thuoc-theo-thong-tu-79-2024",
@@ -30042,8 +30042,37 @@
       "category_warning": null,
       "git_commit": "1e74ad701879bdb13da04b299582fca2ef1dc5af",
       "run_id": "39719359256",
-      "updated_at": "2026-10-22T03:58:41.676151+00:00",
-      "wp_id": 4680
+      "updated_at": "2026-10-22T03:58:47.110750+00:00",
+      "wp_id": 4680,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/bien-so-xe-may-mau-gi-nen-trang-nen-xanh-tem-xanh-la-va-kich-thuoc-theo-thong-tu-79-2024/",
+      "verified_at": "2026-10-22T03:58:47.110742+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4680,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/bien-so-xe-may-mau-gi-nen-trang-nen-xanh-tem-xanh-la-va-kich-thuoc-theo-thong-tu-79-2024/",
+        "categories": [
+          171
+        ],
+        "canonical": "https://thuexemaynguyentu.com/bien-so-xe-may-mau-gi-nen-trang-nen-xanh-tem-xanh-la-va-kich-thuoc-theo-thong-tu-79-2024/",
+        "seo_title": "Biển số xe máy màu gì: nền trắng, nền xanh, tem xanh lá và kích thước",
+        "seo_description": "Biển số xe máy màu gì theo Thông tư 79/2024: biển nền trắng, nền xanh, tem nhận diện, biển nước ngoài NG, QT, CV, NN, kích thước 190 x 140 mm và cách kiểm tra bản hiện hành.",
+        "checked_at": "2026-10-22T03:58:47.110721+00:00"
+      }
     }
   },
   "categories": {}
