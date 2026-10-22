@@ -39777,7 +39777,7 @@
       }
     },
     "NT-002147": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T20:36:37.280992+00:00",
       "source_hash": "e46fe01612b3a27a3f0f72be17986c0326a6ab77b7ca3099bd06fcc240153b32",
       "slug": "vung-nuoc-khi-di-xe-may-trong-mua-truot-nuoc-o-ga-bi-che-va-cach-giu-tay-lai",
@@ -39793,8 +39793,37 @@
       "category_warning": null,
       "git_commit": "0a7ac0bbcd8e029fa300a62a1eda811599a44877",
       "run_id": "39849225031",
-      "updated_at": "2026-10-22T20:36:41.956073+00:00",
-      "wp_id": 5017
+      "updated_at": "2026-10-22T20:36:47.857111+00:00",
+      "wp_id": 5017,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/vung-nuoc-khi-di-xe-may-trong-mua-truot-nuoc-o-ga-bi-che-va-cach-giu-tay-lai/",
+      "verified_at": "2026-10-22T20:36:47.857105+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 5017,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/vung-nuoc-khi-di-xe-may-trong-mua-truot-nuoc-o-ga-bi-che-va-cach-giu-tay-lai/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/vung-nuoc-khi-di-xe-may-trong-mua-truot-nuoc-o-ga-bi-che-va-cach-giu-tay-lai/",
+        "seo_title": "Vũng nước khi đi xe máy trong mưa: trượt nước, ổ gà bị che, tay lái",
+        "seo_description": "Vũng nước khi đi xe máy trong mưa che ổ gà, làm lốp mất bám và bắn nước: Highway Code (Anh), Ontario (Canada) và HART (Úc) khuyên gì về tay lái, phanh và lốp.",
+        "checked_at": "2026-10-22T20:36:47.857088+00:00"
+      }
     }
   },
   "categories": {}
