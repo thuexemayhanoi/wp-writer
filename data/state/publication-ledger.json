@@ -36102,7 +36102,7 @@
       }
     },
     "NT-001938": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:05:43.252863+00:00",
       "source_hash": "a4840537c813250dbb87bfd3c3d85eeb3ec17dc5d9389d792580865767bbda11",
       "slug": "lung-cu-tu-15-10-2026-gui-xe-may-o-dau-di-xe-dien-hay-xe-om-vao-lo-lo-chai",
@@ -36118,8 +36118,37 @@
       "category_warning": null,
       "git_commit": "aec7c708c8ad6bffd7edbb8f00bfd81c61110d50",
       "run_id": "39800469365",
-      "updated_at": "2026-10-22T15:05:48.447602+00:00",
-      "wp_id": 4832
+      "updated_at": "2026-10-22T15:05:55.184963+00:00",
+      "wp_id": 4832,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/lung-cu-tu-15-10-2026-gui-xe-may-o-dau-di-xe-dien-hay-xe-om-vao-lo-lo-chai/",
+      "verified_at": "2026-10-22T15:05:55.184956+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4832,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/lung-cu-tu-15-10-2026-gui-xe-may-o-dau-di-xe-dien-hay-xe-om-vao-lo-lo-chai/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/lung-cu-tu-15-10-2026-gui-xe-may-o-dau-di-xe-dien-hay-xe-om-vao-lo-lo-chai/",
+        "seo_title": "Lũng Cú từ 15/10/2026: gửi xe máy ở đâu, xe điện, xe ôm vào Lô Lô Chải",
+        "seo_description": "Lũng Cú phân luồng từ 15/10/2026 đến 28/2/2027: đoạn đường nào xe chở khách không vào, gửi xe máy ở 5 bãi nào, giá gửi xe, xe điện và xe ôm theo báo ngày 22/10/2026.",
+        "checked_at": "2026-10-22T15:05:55.184933+00:00"
+      }
     }
   },
   "categories": {}
