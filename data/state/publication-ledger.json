@@ -32966,7 +32966,7 @@
       }
     },
     "NT-001661": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T09:28:23.503810+00:00",
       "source_hash": "e0dfd9ef922f2c5999f8ac57ee3cde71c426a592ba145e2530fb197a4b7e6954",
       "slug": "doi-lich-vi-chuyen-bay-tre-hang-phai-ho-tro-gi-theo-moc-gio-va-khach-nen-lam-gi",
@@ -32982,8 +32982,37 @@
       "category_warning": null,
       "git_commit": "d7d0cbd4d61b69ff3bdbb166c0299bc855cce0b1",
       "run_id": "39755164181",
-      "updated_at": "2026-10-22T09:28:28.231663+00:00",
-      "wp_id": 4768
+      "updated_at": "2026-10-22T09:28:34.798145+00:00",
+      "wp_id": 4768,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/doi-lich-vi-chuyen-bay-tre-hang-phai-ho-tro-gi-theo-moc-gio-va-khach-nen-lam-gi/",
+      "verified_at": "2026-10-22T09:28:34.798138+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4768,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/doi-lich-vi-chuyen-bay-tre-hang-phai-ho-tro-gi-theo-moc-gio-va-khach-nen-lam-gi/",
+        "categories": [
+          175
+        ],
+        "canonical": "https://thuexemaynguyentu.com/doi-lich-vi-chuyen-bay-tre-hang-phai-ho-tro-gi-theo-moc-gio-va-khach-nen-lam-gi/",
+        "seo_title": "Đổi lịch vì chuyến bay trễ: hãng hỗ trợ gì theo mốc giờ, NĐ 208/2026",
+        "seo_description": "Đổi lịch vì chuyến bay trễ: Nghị định 208/2026 tính chậm từ 15 phút; hãng phải làm gì ở mốc 2, 3, 4, 6 giờ, điều kiện đi kèm và việc khách nên làm.",
+        "checked_at": "2026-10-22T09:28:34.798124+00:00"
+      }
     }
   },
   "categories": {}
