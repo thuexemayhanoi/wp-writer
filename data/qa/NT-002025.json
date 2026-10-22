@@ -1,0 +1,169 @@
+{
+  "topic_id": "NT-002025",
+  "status": "PASS",
+  "source_sha256": "a24d4d68d08fe98df66ed25c783c19b4073a9ab8b4c4d68335ce19aa30982bd7",
+  "body_sha256": "129a2f5c6b16f9d3d84d1f26cd7c81cdaae8ad2aa55554a360c932eebfd2e79e",
+  "word_count": 2856,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.evn.com.vn/d/vi-VN/news/Chinh-phu-ban-hanh-Nghi-dinh-so-2782026ND-CP-sua-quy-dinh-ve-dieu-chinh-gia-ban-le-dien-binh-quan-60-134-508889",
+      "supports": "Bản tin EVN 10/7/2026: Nghị định 278/2026/NĐ-CP ban hành ngày 9/7/2026 sửa Nghị định 72/2025/NĐ-CP; Bản tin EVN: mức giảm dưới 1% hoặc tăng dưới 2% thì EVN báo cáo Bộ Công Thương về việc không điều chỉnh; Bản tin EVN: mức tăng từ 2% đến dưới 5% thì EVN lập hồ sơ phương án báo cáo Bộ Công Thương cho ý kiến; Bản tin EVN: Bộ Công Thương có ý kiến bằng văn bản trong 15 ngày làm việc; Bản tin EVN: EVN báo cáo Bộ Công Thương trong 5 ngày làm việc sau khi điều chỉnh; Bản tin EVN: Nghị định có hiệu lực từ ngày 9/7/2026",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-hop-bao-thuong-ky-quy-iii-2026.html",
+      "supports": "Cổng thông tin Bộ Công Thương, họp báo quý III/2026 ngày 7/10/2026: hiện có 6 bậc thang giá điện sinh hoạt và Bộ đang trình sửa Quyết định 14/2025/QĐ-TTg; Cổng thông tin Bộ Công Thương: giá điện tăng theo bậc thang, càng bậc sau giá càng cao; Cổng thông tin Bộ Công Thương: Bộ đề nghị 34 tỉnh, thành phố cung cấp số liệu để sửa đổi",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.evn.com.vn/d/vi-VN/news/Chinh-phu-ban-hanh-Nghi-dinh-so-2782026ND-CP-sua-quy-dinh-ve-dieu-chinh-gia-ban-le-dien-binh-quan-60-134-508889",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-hop-bao-thuong-ky-quy-iii-2026.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2367,
+        "title": "Có Nên Sạc Xe Máy Điện Tại Nhà? Kinh Nghiệm An Toàn Khi Sử Dụng",
+        "why": "stale",
+        "content_hash": "8768183f030319ed7647591d37ba6e25af1e5ac274f69cc230b87c74a28fe158",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2498,
+        "title": "Khi nào cần tăng xích xe máy? Dấu hiệu dễ nhận biết khi sử dụng",
+        "why": "stale",
+        "content_hash": "cc66bddca00ff3ff900a51cce730848c80a7f0e8979caaf256eec12589620f67",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2503,
+        "title": "Xe máy khó nổ do đâu? Các nguyên nhân thường gặp và cách kiểm tra",
+        "why": "stale",
+        "content_hash": "1bb521d9de866fa24f421032913e8b1ee3e5f294cfdb38c1dfe0cd216a360f24",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2613,
+        "title": "Thuê Xe Máy Du Lịch Hà Nội: Hướng Dẫn Toàn Diện Từ A–Z Cho Người Lần Đầu",
+        "why": "stale",
+        "content_hash": "bba381bbf7c63d362331437ee0e9ba63294ca01b4eb144c43fe71ca1f20731a0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T11:13:25.410057+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "2dd4abe33a9bc8fea64891d58dc03acdde9c774f3e125804d5be99acca12e3fd",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
