@@ -37572,7 +37572,7 @@
       }
     },
     "NT-001875": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:52:13.327792+00:00",
       "source_hash": "8cab3c4283d0cd9ee70d7339cd9b3e31690a7c282eb51fb970dc0a141a422318",
       "slug": "quy-hoach-cong-vien-thu-le-vua-mo-vua-dong-70-mo-khu-thu-co-ve-gop-y-den-8-11-2026",
@@ -37588,8 +37588,37 @@
       "category_warning": null,
       "git_commit": "18322d4fb6c4e2fe50de87cdd8c8c8928ff2de0a",
       "run_id": "39808188049",
-      "updated_at": "2026-10-22T15:52:17.953056+00:00",
-      "wp_id": 4862
+      "updated_at": "2026-10-22T15:52:25.673753+00:00",
+      "wp_id": 4862,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/quy-hoach-cong-vien-thu-le-vua-mo-vua-dong-70-mo-khu-thu-co-ve-gop-y-den-8-11-2026/",
+      "verified_at": "2026-10-22T15:52:25.673746+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4862,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/quy-hoach-cong-vien-thu-le-vua-mo-vua-dong-70-mo-khu-thu-co-ve-gop-y-den-8-11-2026/",
+        "categories": [
+          172
+        ],
+        "canonical": "https://thuexemaynguyentu.com/quy-hoach-cong-vien-thu-le-vua-mo-vua-dong-70-mo-khu-thu-co-ve-gop-y-den-8-11-2026/",
+        "seo_title": "Quy hoạch công viên Thủ Lệ vừa mở vừa đóng: 70% mở, khu thú có vé",
+        "seo_description": "Quy hoạch công viên Thủ Lệ vừa mở vừa đóng: đề xuất mở 70% diện tích, khu nuôi thú vẫn có vé; phường Giảng Võ lấy ý kiến đến trước 8/11/2026, chưa có mốc khởi công.",
+        "checked_at": "2026-10-22T15:52:25.673728+00:00"
+      }
     }
   },
   "categories": {}
