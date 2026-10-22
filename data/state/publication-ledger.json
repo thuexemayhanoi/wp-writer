@@ -32133,7 +32133,7 @@
       }
     },
     "NT-080006": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T06:13:42.044331+00:00",
       "source_hash": "e70571248de95f827ee2901c1b99c12edc8b5992c2b648aa62f0ce58287bc02f",
       "slug": "chup-anh-ban-giao-xe-may-thue-goc-nen-luu-theo-phieu-yamaha-sach-honda-va-gia-tri-chung-cu-cua-anh",
@@ -32149,8 +32149,37 @@
       "category_warning": null,
       "git_commit": "f8266bb77303bc6e5d6ad621ac9a6780aa15522c",
       "run_id": "39732143769",
-      "updated_at": "2026-10-22T06:13:46.471899+00:00",
-      "wp_id": 4751
+      "updated_at": "2026-10-22T06:13:52.894576+00:00",
+      "wp_id": 4751,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/chup-anh-ban-giao-xe-may-thue-goc-nen-luu-theo-phieu-yamaha-sach-honda-va-gia-tri-chung-cu-cua-anh/",
+      "verified_at": "2026-10-22T06:13:52.894568+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4751,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/chup-anh-ban-giao-xe-may-thue-goc-nen-luu-theo-phieu-yamaha-sach-honda-va-gia-tri-chung-cu-cua-anh/",
+        "categories": [
+          163
+        ],
+        "canonical": "https://thuexemaynguyentu.com/chup-anh-ban-giao-xe-may-thue-goc-nen-luu-theo-phieu-yamaha-sach-honda-va-gia-tri-chung-cu-cua-anh/",
+        "seo_title": "Cách chụp ảnh bàn giao xe máy thuê: danh sách góc và giá trị chứng cứ",
+        "seo_description": "Cách chụp ảnh bàn giao xe máy thuê theo hạng mục Yamaha và Honda: góc cần chụp, đặt tên tệp, gửi ảnh, và giá trị chứng cứ theo Luật Giao dịch điện tử 2023.",
+        "checked_at": "2026-10-22T06:13:52.894546+00:00"
+      }
     }
   },
   "categories": {}
