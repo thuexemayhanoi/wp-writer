@@ -32917,7 +32917,7 @@
       }
     },
     "NT-090593": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T07:26:34.010647+00:00",
       "source_hash": "b7777368e76b884ea48f0061f55c2da19cf08b48fe2bd1cfd424d4e0454a7134",
       "slug": "mang-xe-dap-len-tau-hoa-ky-gui-o-toa-hanh-ly-tinh-cuoc-50-kg-chiec-xe-dap-dien-100-kg-chiec",
@@ -32933,8 +32933,37 @@
       "category_warning": null,
       "git_commit": "c5acdefc6bfdb2d9959c3b3187e496e8bf0b729a",
       "run_id": "39740049773",
-      "updated_at": "2026-10-22T07:26:38.133018+00:00",
-      "wp_id": 4767
+      "updated_at": "2026-10-22T07:26:44.054592+00:00",
+      "wp_id": 4767,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/mang-xe-dap-len-tau-hoa-ky-gui-o-toa-hanh-ly-tinh-cuoc-50-kg-chiec-xe-dap-dien-100-kg-chiec/",
+      "verified_at": "2026-10-22T07:26:44.054585+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4767,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/mang-xe-dap-len-tau-hoa-ky-gui-o-toa-hanh-ly-tinh-cuoc-50-kg-chiec-xe-dap-dien-100-kg-chiec/",
+        "categories": [
+          177
+        ],
+        "canonical": "https://thuexemaynguyentu.com/mang-xe-dap-len-tau-hoa-ky-gui-o-toa-hanh-ly-tinh-cuoc-50-kg-chiec-xe-dap-dien-100-kg-chiec/",
+        "seo_title": "Mang xe đạp lên tàu hỏa: ký gửi, tính cước 50 kg, xe đạp điện 100 kg",
+        "seo_description": "Mang xe đạp lên tàu hỏa: gửi toa hành lý, xe đạp tính cước 50 kg, xe đạp điện 100 kg theo trang Đường sắt Việt Nam, xách tay 20 kg, và vì sao con số cần hỏi lại tại ga.",
+        "checked_at": "2026-10-22T07:26:44.054566+00:00"
+      }
     }
   },
   "categories": {}
