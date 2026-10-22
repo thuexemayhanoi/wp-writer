@@ -29879,7 +29879,7 @@
       }
     },
     "NT-001454": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T03:53:38.204641+00:00",
       "source_hash": "558080341664c8c839b1325d69e71b75c3c490ff742a39b4e0ead9366fbfc5e6",
       "slug": "xe-dap-dien-sau-khi-di-mua-khi-nao-chi-can-kiem-tra-khi-nao-can-thay-linh-kien",
@@ -29895,8 +29895,37 @@
       "category_warning": null,
       "git_commit": "def849ecf657875cd4e12290bad7e243a9f44ac8",
       "run_id": "39718786346",
-      "updated_at": "2026-10-22T03:53:42.365517+00:00",
-      "wp_id": 4677
+      "updated_at": "2026-10-22T03:53:48.668880+00:00",
+      "wp_id": 4677,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-dap-dien-sau-khi-di-mua-khi-nao-chi-can-kiem-tra-khi-nao-can-thay-linh-kien/",
+      "verified_at": "2026-10-22T03:53:48.668871+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4677,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-dap-dien-sau-khi-di-mua-khi-nao-chi-can-kiem-tra-khi-nao-can-thay-linh-kien/",
+        "categories": [
+          166
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-dap-dien-sau-khi-di-mua-khi-nao-chi-can-kiem-tra-khi-nao-can-thay-linh-kien/",
+        "seo_title": "Xe đạp điện sau khi đi mưa: khi nào chỉ cần kiểm tra, khi nào nhờ thợ",
+        "seo_description": "Xe đạp điện sau khi đi mưa: việc lau khô, kiểm tra xích, phanh, pin theo Aventon, Rad Power Bikes, BikeRadar, dấu hiệu nên nhờ thợ và điều nguồn không nêu.",
+        "checked_at": "2026-10-22T03:53:48.668850+00:00"
+      }
     }
   },
   "categories": {}
