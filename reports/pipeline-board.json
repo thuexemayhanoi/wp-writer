@@ -1,89 +1,17 @@
 {
-  "at": "2026-10-22T04:15:38.494153+00:00",
+  "at": "2026-10-22T04:23:54.516814+00:00",
   "counts": {
-    "WRITING": 23,
+    "WRITING": 18,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 647
+    "VERIFIED": 655
   },
   "ready_backlog": 0,
-  "in_flight": 26,
+  "in_flight": 21,
   "items": [
-    {
-      "topic_id": "NT-001110",
-      "state": "WRITING",
-      "reason": "leased to s-claude-df7eb8c1-20261022",
-      "title": "Thuê xe máy phường Bạch Mai: chọn Wave hay xe ga 50cc khi đi học, đi thực tập?",
-      "slot": "W6",
-      "session": "s-claude-df7eb8c1-20261022",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001395",
-      "state": "WRITING",
-      "reason": "leased to s-claude-df7eb8c1-20261022",
-      "title": "VinBus Hà Nội đổi điểm dừng và mã tuyến: E03, E08, E11, tuyến 179 và 180 từ 9–10/2026",
-      "slot": "W6",
-      "session": "s-claude-df7eb8c1-20261022",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001603",
-      "state": "WRITING",
-      "reason": "leased to seodev-w72",
-      "title": "Vệ sinh khi ăn nem rán Hà Nội: dấu hiệu về dầu rán, nhân thịt và cách bày bán",
-      "slot": "W5",
-      "session": "seodev-w72",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001604",
-      "state": "WRITING",
-      "reason": "leased to seodev-w72",
-      "title": "Trẻ nhỏ uống cà phê trứng được không: trứng chưa chín kỹ, caffeine, đồ thay thế",
-      "slot": "W5",
-      "session": "seodev-w72",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001607",
-      "state": "WRITING",
-      "reason": "leased to seodev-w72",
-      "title": "Bánh căn Đà Lạt ăn sáng: trứng cút, nước xíu mại, mắm hành và gọi cho nhóm nhỏ",
-      "slot": "W5",
-      "session": "seodev-w72",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001631",
-      "state": "WRITING",
-      "reason": "leased to seodev-w74",
-      "title": "Cao Bằng mùa thác Bản Giốc: lịch trình trong ngày và cách phân bổ thời gian",
-      "slot": "W8",
-      "session": "seodev-w74",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-001632",
       "state": "WRITING",
@@ -133,12 +61,36 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001751",
+      "topic_id": "NT-001721",
       "state": "WRITING",
-      "reason": "leased to seodev-w74",
-      "title": "Kiểm tra dây điện xe máy điện trước khi đi: dây đứt, hở, oxi hóa và giắc lỏng",
-      "slot": "W8",
-      "session": "seodev-w74",
+      "reason": "leased to seodev-w76",
+      "title": "Làn BRT Láng Hạ – Giảng Võ từ 15/9/2026: xe máy đi vào đoạn nào và giờ nào đông",
+      "slot": "W1",
+      "session": "seodev-w76",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001722",
+      "state": "WRITING",
+      "reason": "leased to seodev-w76",
+      "title": "Tắt máy khi chờ đèn đỏ: từ mấy giây có lợi cho xăng, khí thải và khi nào chưa nên",
+      "slot": "W1",
+      "session": "seodev-w76",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-001723",
+      "state": "WRITING",
+      "reason": "leased to seodev-w76",
+      "title": "Giao thông chiếm bao nhiêu phần ô nhiễm không khí Hà Nội: 60%, 38%, 25% hay 23%?",
+      "slot": "W1",
+      "session": "seodev-w76",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -175,18 +127,6 @@
       "title": "Làm khô xe máy điện sau khi rửa: lau ổ sạc, giắc nối và chờ bao lâu mới sạc",
       "slot": "W8",
       "session": "seodev-w74",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001781",
-      "state": "WRITING",
-      "reason": "leased to seodev-w73",
-      "title": "Thuê xe máy khi đổi lịch bay: nên ưu tiên yếu tố nào nếu chỉ dùng vài ngày",
-      "slot": "W7",
-      "session": "seodev-w73",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -5701,6 +5641,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001110",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Thuê xe máy phường Bạch Mai: chọn Wave hay xe ga 50cc khi đi học, đi thực tập?",
+      "slot": "W6",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": 4695,
+      "url": "https://thuexemaynguyentu.com/thue-xe-may-phuong-bach-mai-wave-xe-ga-50cc-di-hoc-thuc-tap/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001121",
       "state": "VERIFIED",
       "reason": "publish",
@@ -7669,6 +7621,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001395",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "VinBus Hà Nội đổi điểm dừng và mã tuyến: E03, E08, E11, tuyến 179 và 180 từ 9–10/2026",
+      "slot": "W6",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": 4696,
+      "url": "https://thuexemaynguyentu.com/vinbus-ha-noi-doi-diem-dung-va-ma-tuyen-e03-e08-e11-tuyen-179-va-180-tu-9-10-2026/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001396",
       "state": "VERIFIED",
       "reason": "publish",
@@ -7981,6 +7945,30 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001603",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Vệ sinh khi ăn nem rán Hà Nội: dấu hiệu về dầu rán, nhân thịt và cách bày bán",
+      "slot": "W5",
+      "session": "seodev-w72",
+      "wp_id": 4697,
+      "url": "https://thuexemaynguyentu.com/ve-sinh-khi-an-nem-ran-ha-noi-dau-hieu-ve-dau-ran-nhan-thit-va-cach-bay-ban/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001604",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Trẻ nhỏ uống cà phê trứng được không: trứng chưa chín kỹ, caffeine, đồ thay thế",
+      "slot": "W5",
+      "session": "seodev-w72",
+      "wp_id": 4698,
+      "url": "https://thuexemaynguyentu.com/tre-nho-uong-ca-phe-trung-duoc-khong-trung-chua-chin-ky-caffeine-do-thay-the/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001605",
       "state": "VERIFIED",
       "reason": "publish",
@@ -8001,6 +7989,54 @@
       "session": "seodev-w72",
       "wp_id": 4693,
       "url": "https://thuexemaynguyentu.com/mon-an-cho-phien-vung-cao-thang-co-men-men-pho-chua-va-net-rieng-tung-cho/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001607",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Bánh căn Đà Lạt ăn sáng: trứng cút, nước xíu mại, mắm hành và gọi cho nhóm nhỏ",
+      "slot": "W5",
+      "session": "seodev-w72",
+      "wp_id": 4699,
+      "url": "https://thuexemaynguyentu.com/banh-can-da-lat-an-sang-trung-cut-nuoc-xiu-mai-mam-hanh-va-goi-cho-nhom-nho/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001631",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Cao Bằng mùa thác Bản Giốc: lịch trình trong ngày và cách phân bổ thời gian",
+      "slot": "W8",
+      "session": "seodev-w74",
+      "wp_id": 4700,
+      "url": "https://thuexemaynguyentu.com/cao-bang-mua-thac-ban-gioc-lich-trinh-trong-ngay-va-cach-phan-bo-thoi-gian/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001751",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Kiểm tra dây điện xe máy điện trước khi đi: dây đứt, hở, oxi hóa và giắc lỏng",
+      "slot": "W8",
+      "session": "seodev-w74",
+      "wp_id": 4701,
+      "url": "https://thuexemaynguyentu.com/kiem-tra-day-dien-xe-may-dien-truoc-khi-di-day-dut-ho-oxi-hoa-va-giac-long/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001781",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Thuê xe máy khi đổi lịch bay: nên ưu tiên yếu tố nào nếu chỉ dùng vài ngày",
+      "slot": "W7",
+      "session": "seodev-w73",
+      "wp_id": 4702,
+      "url": "https://thuexemaynguyentu.com/thue-xe-may-khi-doi-lich-bay-nen-uu-tien-yeu-to-nao-neu-chi-dung-vai-ngay/",
       "qa_status": "PASS",
       "seo_score": 100
     },

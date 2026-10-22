@@ -1,0 +1,151 @@
+{
+  "topic_id": "NT-001110",
+  "status": "PASS",
+  "source_sha256": "96edb8b5a1101ad41bb644ba526a4ca0dca2f7825553ca748709abd845de0118",
+  "body_sha256": "c568b60a3039bc5f92c6d7dbbf486c2028a3a2b7cea982cbeebffbd48b547b0b",
+  "word_count": 3164,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-1656-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-thanh-pho-ha-noi-nam-2025-119250616192433872.htm",
+      "supports": "Khoản 8 Điều 1 Nghị quyết 1656/NQ-UBTVQH15 sắp xếp các phường Bạch Mai, Bách Khoa, Quỳnh Mai và một phần các phường khác thành phường Bạch Mai; Điều 2 nêu chính quyền các đơn vị mới hoạt động từ 01/7/2025.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/luat-trat-tu-an-toan-giao-thong-duong-bo-so-36-2024-qh15--170620",
+      "supports": "Luật 36/2024/QH15: định nghĩa xe gắn máy (Điều 34), điều kiện người lái xe gắn máy (Điều 56), hạng A1 (Điều 57), độ tuổi 16 điều khiển xe gắn máy và 18 tuổi cấp GPLX hạng A1 (Điều 59).",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-1656-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-thanh-pho-ha-noi-nam-2025-119250616192433872.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/luat-trat-tu-an-toan-giao-thong-duong-bo-so-36-2024-qh15--170620",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 4053,
+        "title": "Thuê xe máy Hà Nội đi công tác 3–5 ngày: chọn xe, dự trù chi phí và sắp lịch trả",
+        "why": "stale",
+        "content_hash": "10253f4071ea9522162e7b5ec6b75dfc3be0638bd9a1598e0136485ddfd9dbec",
+        "jaccard": 0.003,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4055,
+        "title": "Thuê 2 xe máy cùng lúc ở Hà Nội: chuẩn bị giấy tờ, giao nhận và hoàn cọc từng xe",
+        "why": "stale",
+        "content_hash": "029d48a9e900c89ea965179099932a9ddb51ee071f065aca1c29903fd58a13c9",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T04:19:25.511994+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "8d4f551afbcfa852d02587028d020070a89a9bf4cc113d12b4b59536604f647f",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

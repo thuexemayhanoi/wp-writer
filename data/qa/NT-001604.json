@@ -1,0 +1,279 @@
+{
+  "topic_id": "NT-001604",
+  "status": "PASS",
+  "source_sha256": "66c3d8b3dae39027153196552489002b6ede291e3be45bfc0dcdd7fdc19a8a23",
+  "body_sha256": "fdb4d6477f7e88edd05928207ddb158c65702cf6708ec906bd280a6f4163393d",
+  "word_count": 2629,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/lich-su-80-nam-cua-ca-phe-trung-trong-khach-san-ha-noi-4878901.html",
+      "supports": "VnExpress (27/4/2025, theo Michelin Guide) mô tả cà phê trứng: lòng đỏ đánh bông với đường, nhẹ nhàng làm ấm, sữa đặc, cà phê robusta; công thức khách sạn gồm 10 ml vodka và đánh lòng đỏ với vodka, sữa đặc, siro vani. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/food-safety/foods/children-under-5.html",
+      "supports": "CDC Hoa Kỳ (Safer Food Choices for Children Under 5 Years Old, cập nhật 2/5/2024) xếp trứng lòng đào và thực phẩm có trứng chưa chín kỹ là lựa chọn rủi ro hơn cho trẻ dưới 5 tuổi; lựa chọn an toàn hơn là trứng nấu đến khi lòng đỏ, lòng trắng đông. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives/caffeine-foods.html",
+      "supports": "Health Canada (trang Caffeine in Foods, ghi 2025-04-02) khuyến nghị mức caffeine tối đa mỗi ngày cho trẻ và thanh thiếu niên là 2,5 mg trên mỗi kg thể trọng, dựa trên dữ liệu hạn chế. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/tre-em-nen-tranh-do-uong-co-caffeine-20250203103248545.htm",
+      "supports": "Tuổi Trẻ (3/2/2025) thuật hướng dẫn đồ uống cho trẻ 5–18 tuổi của nhóm chuyên gia Hoa Kỳ: trẻ nên tránh đồ uống có caffeine gồm trà, cà phê, nước tăng lực; chưa có hướng dẫn liên bang về lượng an toàn. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/food-safety/foods/children-under-5.html",
+      "supports": "CDC Hoa Kỳ (cập nhật 2/5/2024): ngộ độc thực phẩm ở trẻ nhỏ có thể nguy hiểm vì dẫn đến tiêu chảy và mất nước. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/food-safety/foods/children-under-5.html",
+      "supports": "CDC Hoa Kỳ (cập nhật 2/5/2024): lựa chọn an toàn hơn cho trẻ dưới 5 tuổi là trứng nấu đến khi lòng đỏ và lòng trắng đông. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/food-safety/foods/children-under-5.html",
+      "supports": "CDC Hoa Kỳ (cập nhật 2/5/2024): trẻ dưới 5 tuổi nhập viện nhiều gấp ba lần nếu nhiễm Salmonella. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives/caffeine-foods.html",
+      "supports": "Health Canada (trang ghi 2/4/2025): mức 2,5 mg/kg thể trọng cho trẻ và thanh thiếu niên dựa trên dữ liệu hạn chế về trẻ em. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/tre-em-nen-tranh-do-uong-co-caffeine-20250203103248545.htm",
+      "supports": "Tuổi Trẻ (3/2/2025): hướng dẫn Hoa Kỳ cho trẻ 5–18 tuổi nêu nên uống nước và sữa tươi nguyên chất. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/lich-su-80-nam-cua-ca-phe-trung-trong-khach-san-ha-noi-4878901.html",
+      "supports": "VnExpress (27/4/2025, theo Michelin Guide): cà phê trứng gồm lòng đỏ trứng đánh bông, sữa đặc và cà phê robusta. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vnexpress.net/lich-su-80-nam-cua-ca-phe-trung-trong-khach-san-ha-noi-4878901.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/food-safety/foods/children-under-5.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives/caffeine-foods.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/tre-em-nen-tranh-do-uong-co-caffeine-20250203103248545.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/food-safety/foods/children-under-5.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/food-safety/foods/children-under-5.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/food-safety/foods/children-under-5.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives/caffeine-foods.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/tre-em-nen-tranh-do-uong-co-caffeine-20250203103248545.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/lich-su-80-nam-cua-ca-phe-trung-trong-khach-san-ha-noi-4878901.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 891,
+        "title": "Hợp Đồng Thuê Xe Máy Hà Nội Có Cần Đặt Cọc Không? Tư Vấn Nhanh",
+        "why": "stale",
+        "content_hash": "dfef1f80adfed1e1d9366a3b620ef84119b9cf4fc4ea34f66fe16eb22f52bcca",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2405,
+        "title": "Honda UC3 có gì mới? Tổng hợp thông tin đáng chú ý về mẫu xe",
+        "why": "stale",
+        "content_hash": "18c37642a9a335a2ca8748abaef53a7f8e4241895132bb8a7c6e56f0f50a131d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T04:20:58.848517+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "cea6b2eb2cd3bd2f5945795829c618d9dac226cadac501f7223ac74379d1c636",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "topic_id": "NT-001607",
+  "status": "PASS",
+  "source_sha256": "739a2d9be92fc89baa5b785309708d3e4817819bb82d25d8e9a157d0db78987e",
+  "body_sha256": "2693c893ecca6513dc1fc05806440ec1c6ca16fe909e0cacb47d6813c3d42bac",
+  "word_count": 2464,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/giong-va-khac-nhau-giua-banh-can-da-lat-va-phan-rang-4299530.html",
+      "supports": "VnExpress Du lịch (27/6/2021) mô tả bánh căn Đà Lạt: bột gạo trong khuôn đất nung, nhân trứng cút, ăn với nước xíu mại hoặc nước mắm mỡ hành, sa tế, thích nhất vào buổi sáng lạnh. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/banh-can-trung-tom-muc-thit-bo-kieu-phan-thiet-da-lat-nha-trang-ban-da-thu-chua-2025011417383599.htm",
+      "supports": "Tuổi Trẻ (15/1/2025) so sánh bánh căn theo vùng: Nha Trang và Đà Lạt chuộng chén nước mắm xíu mại mỡ hành, một số quán mở buổi sáng; Phan Thiết, Phan Rang thường ăn chiều tối. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vnexpress.net/giong-va-khac-nhau-giua-banh-can-da-lat-va-phan-rang-4299530.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/banh-can-trung-tom-muc-thit-bo-kieu-phan-thiet-da-lat-nha-trang-ban-da-thu-chua-2025011417383599.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2529,
+        "title": "Cách kiểm tra còi và gương chiếu hậu trước khi bắt đầu hành trình",
+        "why": "stale",
+        "content_hash": "007f62b63a70ea6f8600145b8d2ee9f85f0b8517ada9e45e7d465ddc4a57917a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2630,
+        "title": "Chùa Trấn Quốc Hà Nội: Lịch sử, giờ mở cửa và kinh nghiệm tham quan",
+        "why": "stale",
+        "content_hash": "1cedf563cfdadc1e4b3bafa07d97d0868a00d865df06edb4c401019a91229635",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4052,
+        "title": "Nhận xe máy thuê sau khi xuống tàu ở ga Hà Nội: hẹn đúng cổng, gửi hành lý và trả xe",
+        "why": "stale",
+        "content_hash": "a3dc2372b0231aad294663e8396b39ee495305f443ba00ae92e00537131e787f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4056,
+        "title": "Đổi khách sạn giữa kỳ thuê xe máy Hà Nội: giữ xe ở đâu, chuyển hành lý và đổi nơi trả",
+        "why": "stale",
+        "content_hash": "fcd4a86c62969cb4812af213b0e424c5549b185d290ed9a416d5e9d816804528",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T04:21:39.531943+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "6403b10e6ade533e1a1bbca9f4dce9e084f841bd37bd9f88239bc1c2fcc5c9e5",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

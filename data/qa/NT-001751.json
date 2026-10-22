@@ -1,0 +1,297 @@
+{
+  "topic_id": "NT-001751",
+  "status": "PASS",
+  "source_sha256": "df12512bd90e7ea7a2389d4f31ca459b2a599446debd7032dbcd2aa77686f701",
+  "body_sha256": "0b01a8eb491567c64be19fe0f4636614406f6b713c75e85f23b43e00642ded48",
+  "word_count": 2703,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.yadea.com.vn/cach-kiem-tra-he-thong-dien-tren-xe-may-dien-yadea/",
+      "supports": "Yadea Việt Nam (20/02/2025) nêu việc kiểm tra thứ nhất cho hệ thống dây điện xe máy điện YADEA: dây đứt, hở hoặc oxi hóa; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/dong-co-xe-may-dien/",
+      "supports": "Dat Bike (trang động cơ, đăng 26/12/2025, sửa 09/10/2026) nêu việc kiểm tra hệ thống dây điện để tránh chuột cắn, đứt gãy trong bảo dưỡng động cơ điện.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "supports": "Dat Bike liệt kê dấu hiệu lỗi hệ thống điện phức tạp: chập cháy dây điện, mùi khét, đèn báo lỗi chớp liên tục, tắt nguồn đột ngột.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "supports": "Dat Bike (trang rửa xe) dặn không xịt khí nén thẳng vào ổ cắm, giắc nối vì dễ đẩy nước vào sâu hơn.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cach-kiem-tra-he-thong-dien-tren-xe-may-dien-yadea/",
+      "supports": "Yadea Việt Nam (20/02/2025) nêu việc kiểm tra thứ hai cho hệ thống dây điện xe máy điện YADEA: đầu nối, giắc cắm có lỏng không; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cach-kiem-tra-he-thong-dien-tren-xe-may-dien-yadea/",
+      "supports": "Yadea Việt Nam (20/02/2025) nêu việc thứ ba: dây cháy hoặc mùi khét thì cần sửa chữa ngay; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "supports": "Dat Bike (trang lỗi thường gặp, đăng 17/10/2025, sửa 09/10/2026) nối đèn pha chập chờn với dây điện tiếp xúc kém, công tắc hoặc bóng đèn; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "supports": "Dat Bike nêu cách xử lý nhóm dấu hiệu lỗi hệ thống điện phức tạp: ngắt kết nối nguồn điện và mang xe đến cơ sở sửa chữa chuyên nghiệp; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "supports": "Dat Bike (trang rửa xe, đăng 17/10/2025, sửa 09/10/2026) dặn không để pin, động cơ hay dây điện tiếp xúc trực tiếp với nước; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "supports": "Dat Bike (trang rửa xe) dặn không tự ý tháo pin hoặc động cơ nếu không có chuyên môn; đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.yadea.com.vn/cach-kiem-tra-he-thong-dien-tren-xe-may-dien-yadea/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/dong-co-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cach-kiem-tra-he-thong-dien-tren-xe-may-dien-yadea/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.yadea.com.vn/cach-kiem-tra-he-thong-dien-tren-xe-may-dien-yadea/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/cac-loi-thuong-gap-o-xe-may-dien/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dat.bike/huong-dan-rua-xe-may-dien-dung-cach/",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2355,
+        "title": "Bao nhiêu tuổi được đi xe máy điện? Những điều cần biết",
+        "why": "stale",
+        "content_hash": "df4e397638303da8d179daafae395db634b027fd262d47406e50b3e2c2cf527c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2519,
+        "title": "Checklist kiểm tra xe máy trước chuyến đi xa để hạn chế sự cố",
+        "why": "stale",
+        "content_hash": "8ba6e9a4c22b7eff2ea10be94846e3d58cbe93fdbb1958a1a03cf17dccc0a7cf",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2521,
+        "title": "Cách kiểm tra lốp xe máy để phát hiện mòn, nứt và áp suất bất thường",
+        "why": "stale",
+        "content_hash": "08080c3d371127024550acb47d9ddf7feb4cdba807bbb1f3996c8e47b110a33d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2525,
+        "title": "Cách kiểm tra đèn pha, đèn hậu và xi nhan trước khi sử dụng xe máy",
+        "why": "stale",
+        "content_hash": "8f00ad4fe4e22119ce5f29a654d94620b350475a8994fcdcefdcb82cd879e5db",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T04:22:46.906019+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "3248bb3f9a92b6e147a70b41a19ad54366200063d7f8ec5e2309afd40dfeccfb",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

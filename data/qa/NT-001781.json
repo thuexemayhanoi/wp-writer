@@ -1,0 +1,175 @@
+{
+  "topic_id": "NT-001781",
+  "status": "PASS",
+  "source_sha256": "b3222df66ec0c314b9c4fd1e9049f8169d44eaa69a9145539f86768cbc527c33",
+  "body_sha256": "39fa989b927938d745e335879a0d9c3f2d9debb015bde3f5d71f7618e191110d",
+  "word_count": 2638,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://caa.gov.vn/hoat-dong-nganh/nghi-dinh-moi-ve-van-tai-hang-khong-20260626090633040.htm",
+      "supports": "Cục Hàng không Việt Nam (đăng 29/06/2026) giới thiệu Nghị định 208/2026/NĐ-CP ngày 15/6/2026 về vận tải hàng không: nghị định bổ sung quy định về hoàn vé và nghĩa vụ của người vận chuyển khi thay đổi lịch và chậm chuyến trên khoang.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tu-ngay-17-khach-bi-cham-huy-chuyen-bay-se-duoc-ho-tro-va-boi-thuong-237487.html",
+      "supports": "Báo Văn hóa (16/06/2026) thuật lại Nghị định 208/2026/NĐ-CP: chuyến bay bị chậm khi giờ đi thực tế muộn hơn 15 phút so với lịch bay căn cứ, chậm kéo dài là chậm từ 4 giờ; cùng bài còn nêu nghĩa vụ riêng của hãng khi đổi lịch bay sớm hoặc muộn hơn 5 giờ so với giờ đi trong vé (hoàn vé hoặc chuyển đổi trong vòng 72 giờ).",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tu-ngay-17-khach-bi-cham-huy-chuyen-bay-se-duoc-ho-tro-va-boi-thuong-237487.html",
+      "supports": "Báo Văn hóa (16/06/2026): nghị định có hiệu lực từ ngày 1.7.2026 (theo báo).",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tu-ngay-17-khach-bi-cham-huy-chuyen-bay-se-duoc-ho-tro-va-boi-thuong-237487.html",
+      "supports": "Báo Văn hóa (16/06/2026): khi hãng đổi lịch bay sớm hoặc muộn hơn 5 giờ so với giờ đi trong vé trước khi công bố lịch bay căn cứ thì có nghĩa vụ riêng (thông báo; hoàn vé hoặc chuyển đổi, trong đó có chuyển chuyến trong vòng 72 giờ).",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tu-ngay-17-khach-bi-cham-huy-chuyen-bay-se-duoc-ho-tro-va-boi-thuong-237487.html",
+      "supports": "Báo Văn hóa (16/06/2026): giờ đi dự kiến mới được cập nhật lên màn hình thông tin chuyến bay tại cảng hàng không ít nhất 30 phút một lần.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://caa.gov.vn/hoat-dong-nganh/nghi-dinh-moi-ve-van-tai-hang-khong-20260626090633040.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tu-ngay-17-khach-bi-cham-huy-chuyen-bay-se-duoc-ho-tro-va-boi-thuong-237487.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tu-ngay-17-khach-bi-cham-huy-chuyen-bay-se-duoc-ho-tro-va-boi-thuong-237487.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tu-ngay-17-khach-bi-cham-huy-chuyen-bay-se-duoc-ho-tro-va-boi-thuong-237487.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/doi-song/tu-ngay-17-khach-bi-cham-huy-chuyen-bay-se-duoc-ho-tro-va-boi-thuong-237487.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": null,
+  "at": "2026-10-22T04:23:11.790572+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "4937a1b0151e3b605f1d634aeb20230f51ac3a7d4779a779983396f545f724de",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "topic_id": "NT-001603",
+  "status": "PASS",
+  "source_sha256": "156a8400cd452a8ad1f7ff999fcc008db341d9b41b4a7843e7864de63fdc5015",
+  "body_sha256": "23b7e2b6cbb3f4da5ce0bc2758213d99febb4a26244d816f9ba9fe5a4972a665",
+  "word_count": 2563,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vfa.gov.vn/canh-bao-ve-an-toan-thuc-pham/canh-bao-nguy-co-khi-an-thuc-an-duong-pho-khong-dam-bao-an-toan-thuc-pham.html",
+      "supports": "Cục An toàn thực phẩm (Bộ Y tế, vfa.gov.vn, đăng 24/3/2025) nêu các đặc điểm hàng quán kém vệ sinh (dầu chiên đi chiên lại, nơi bụi bẩn không che chắn, dụng cụ không sạch, người bán không đeo găng, khẩu trang) và cách phòng ngừa. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food",
+      "supports": "Tổ chức Y tế Thế giới (trang Five keys to safer food, bản đọc không ghi ngày) nêu năm chìa khóa thực phẩm an toàn: giữ sạch, tách sống và chín, nấu chín kỹ, giữ nhiệt độ an toàn, dùng nước và nguyên liệu an toàn. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nem-ran-ha-noi-chuan-vi-thom-ngon-4348382.html",
+      "supports": "VnExpress (30/8/2021, công thức do độc giả gửi) mô tả nem rán có nhân thịt băm, tôm, miến, cà rốt, hành tây, trứng gà, mộc nhĩ, nấm hương bọc bánh đa nem và rán trong chảo dầu với lửa nhỏ. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vfa.gov.vn/canh-bao-ve-an-toan-thuc-pham/canh-bao-nguy-co-khi-an-thuc-an-duong-pho-khong-dam-bao-an-toan-thuc-pham.html",
+      "supports": "Cục An toàn thực phẩm (Bộ Y tế, đăng 24/3/2025): dùng dầu chiên đi chiên lại nhiều lần là một đặc điểm của hàng kém vệ sinh. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vfa.gov.vn/canh-bao-ve-an-toan-thuc-pham/canh-bao-nguy-co-khi-an-thuc-an-duong-pho-khong-dam-bao-an-toan-thuc-pham.html",
+      "supports": "Cục An toàn thực phẩm (Bộ Y tế, đăng 24/3/2025): người bán không đeo găng tay, khẩu trang là một đặc điểm của hàng kém vệ sinh. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food",
+      "supports": "WHO (trang Five keys to safer food, bản đọc không ghi ngày): năm 2021 cứ 9 người có 1 người bệnh vì ăn thực phẩm không an toàn. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nem-ran-ha-noi-chuan-vi-thom-ngon-4348382.html",
+      "supports": "VnExpress (30/8/2021, công thức do độc giả gửi): nem được rán trong chảo dầu với lửa nhỏ, đảo nhẹ cho chín đều các mặt, vớt ra khi vàng. Đọc ngày 21/10/2026.",
+      "checked_at": "2026-10-21",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vfa.gov.vn/canh-bao-ve-an-toan-thuc-pham/canh-bao-nguy-co-khi-an-thuc-an-duong-pho-khong-dam-bao-an-toan-thuc-pham.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nem-ran-ha-noi-chuan-vi-thom-ngon-4348382.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vfa.gov.vn/canh-bao-ve-an-toan-thuc-pham/canh-bao-nguy-co-khi-an-thuc-an-duong-pho-khong-dam-bao-an-toan-thuc-pham.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vfa.gov.vn/canh-bao-ve-an-toan-thuc-pham/canh-bao-nguy-co-khi-an-thuc-an-duong-pho-khong-dam-bao-an-toan-thuc-pham.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.who.int/activities/promoting-safe-food-handling/five-key-to-safer-food",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nem-ran-ha-noi-chuan-vi-thom-ngon-4348382.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2598,
+        "title": "Thuê hay mua xe máy khi ở Hà Nội từ một đến ba tháng thì hợp lý hơn?",
+        "why": "stale",
+        "content_hash": "f30e620f60320b130c5faa8dc1ea87f3d7cb2743018e4e55126b3a15e9598278",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T04:20:36.532322+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "1fe72c345f8ad07381c6a38c43170bfe402943f6786057da70312dc9214034ea",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

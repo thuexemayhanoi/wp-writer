@@ -1,0 +1,201 @@
+{
+  "topic_id": "NT-001395",
+  "status": "PASS",
+  "source_sha256": "08e2b09b9335bed3c77b033026897fd0b9c8dd3823adb85b5a2fc897d9f99386",
+  "body_sha256": "07b110f05adca7f00e7048d7a7651397e9982a00b01ec359e9b51e8d8c592edc",
+  "word_count": 3307,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://cafef.vn/ung-dung-vinbus-chinh-thuc-tich-hop-vao-green-sm-188261016080832417.chn",
+      "supports": "CafeF (16/10/2026): E03 từ 23/9 không đón trả khách ở Trung tâm Hội nghị Quốc gia; từ 5/10 GRP1 đổi thành 179, GRP03 đổi thành 180, chiều về tuyến 180 qua đường Lê Văn Việt; từ 18/9 E08, E11 cập nhật lộ trình một chiều.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nguoiquansat.vn/vinbus-dung-ung-dung-rieng-tren-toan-quoc-hanh-khach-can-chuyen-sang-nen-tang-nao-322598.html",
+      "supports": "Người Quan sát (18/10/2026): cùng các điều chỉnh E03, E08, E11 và đổi mã 179, 180; E11 đổi chiều đi cả trong và ngoài thời gian phân luồng phố đi bộ khu vực Bờ Hồ; VinBus khuyến nghị hành khách cập nhật mã tuyến, điểm dừng, lộ trình trước khi đi.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dtinews.dantri.com.vn/lifestyle/ho-chi-minh-city-launches-electric-bus-route-from-east-to-centre-20260921204126713.htm",
+      "supports": "DTiNews: Trung tâm Quản lý giao thông công cộng TP.HCM thông báo ngày 21/9 hai tuyến buýt điện 179 và 180 do VinBus khai thác bắt đầu hoạt động từ 5/10 ở TP.HCM, nối khu Vinhomes Grand Park với trung tâm thành phố.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://maps.vinbus.vn/hcm",
+      "supports": "Trang tra cứu lộ trình VinBus cho TP.HCM liệt kê tuyến GRP1 (Nội khu - Grand Park) và GRP03 (Vinhomes Grand Park - Vincom Đồng Khởi) trong danh sách của thành phố; xác định hai mã cũ thuộc TP.HCM.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://cafef.vn/ung-dung-vinbus-chinh-thuc-tich-hop-vao-green-sm-188261016080832417.chn",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://nguoiquansat.vn/vinbus-dung-ung-dung-rieng-tren-toan-quoc-hanh-khach-can-chuyen-sang-nen-tang-nao-322598.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dtinews.dantri.com.vn/lifestyle/ho-chi-minh-city-launches-electric-bus-route-from-east-to-centre-20260921204126713.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://maps.vinbus.vn/hcm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2355,
+        "title": "Bao nhiêu tuổi được đi xe máy điện? Những điều cần biết",
+        "why": "stale",
+        "content_hash": "df4e397638303da8d179daafae395db634b027fd262d47406e50b3e2c2cf527c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2540,
+        "title": "Xe máy hao xăng bất thường do đâu? Các nguyên nhân thường gặp",
+        "why": "stale",
+        "content_hash": "5c70a54e235309eb24f97e3e7ea779c89f838366ff1a2bd96487d780ea3eb0c2",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2594,
+        "title": "Đi ngoại thành Hà Nội nên chọn xe ga hay xe côn tay để phù hợp hơn?",
+        "why": "stale",
+        "content_hash": "c828fb01d0925dea14287531e51418ebeef09564d4fb50f52a2398ebd052935e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2615,
+        "title": "Phố cổ Hà Nội có gì chơi? 15 địa điểm, món ngon và lịch trình đi bộ",
+        "why": "stale",
+        "content_hash": "e9addb8498afd5d9d13bd70c14aa17da5a5746f6ac0ac5ba4247af9d1591d5ff",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T04:19:53.434838+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "edacf02b705a2270b66c1104e6bf07f5979b687ca3e992fea0726278b26a7f7c",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
