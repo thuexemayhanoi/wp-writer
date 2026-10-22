@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-22T09:30:04.529972+00:00",
+  "at": "2026-10-22T09:37:18.398463+00:00",
   "counts": {
-    "WRITING": 15,
+    "WRITING": 16,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 695
+    "VERIFIED": 696
   },
   "ready_backlog": 0,
-  "in_flight": 18,
+  "in_flight": 19,
   "items": [
     {
       "topic_id": "NT-001635",
@@ -187,6 +187,18 @@
       "title": "Xe máy biển nước ngoài vào Việt Nam du lịch: xe dẫn đường, giấy tờ cần mang và thủ tục chấp thuận",
       "slot": "W4",
       "session": "seodev-w78",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
+      "topic_id": "NT-090520",
+      "state": "WRITING",
+      "reason": "leased to s-claude-df7eb8c1-20261022",
+      "title": "Xe buýt Hà Nội chạy đến mấy giờ: tuyến 33 đến 21h15, tuyến 54 đến 21h00, tuyến 96 tùy đầu bến",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -8061,6 +8073,18 @@
       "session": "s-claude-df7eb8c1-20261022",
       "wp_id": 4768,
       "url": "https://thuexemaynguyentu.com/doi-lich-vi-chuyen-bay-tre-hang-phai-ho-tro-gi-theo-moc-gio-va-khach-nen-lam-gi/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001665",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Dự trù phí phát sinh: những khoản người đi du lịch tự túc lần đầu hay bỏ sót",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": 4771,
+      "url": "https://thuexemaynguyentu.com/du-tru-phi-phat-sinh-nhung-khoan-nguoi-di-du-lich-tu-tuc-lan-dau-hay-bo-sot/",
       "qa_status": "PASS",
       "seo_score": 100
     },
