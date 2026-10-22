@@ -29977,7 +29977,7 @@
       }
     },
     "NT-001455": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T03:58:16.552569+00:00",
       "source_hash": "5555946a092131709b6f8cf9515b92fbd149c3aed03e23c1f9bcea807949906b",
       "slug": "xe-dap-dien-co-ban-dap-cau-tao-co-ban-va-nhung-bo-phan-khong-nen-tu-can-thiep",
@@ -29993,8 +29993,37 @@
       "category_warning": null,
       "git_commit": "1e74ad701879bdb13da04b299582fca2ef1dc5af",
       "run_id": "39719359256",
-      "updated_at": "2026-10-22T03:58:20.645668+00:00",
-      "wp_id": 4679
+      "updated_at": "2026-10-22T03:58:26.029297+00:00",
+      "wp_id": 4679,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-dap-dien-co-ban-dap-cau-tao-co-ban-va-nhung-bo-phan-khong-nen-tu-can-thiep/",
+      "verified_at": "2026-10-22T03:58:26.029289+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4679,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-dap-dien-co-ban-dap-cau-tao-co-ban-va-nhung-bo-phan-khong-nen-tu-can-thiep/",
+        "categories": [
+          166
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-dap-dien-co-ban-dap-cau-tao-co-ban-va-nhung-bo-phan-khong-nen-tu-can-thiep/",
+        "seo_title": "Xe đạp điện có bàn đạp: cấu tạo cơ bản, bộ phận không nên tự can thiệp",
+        "seo_description": "Xe đạp điện có bàn đạp gồm khung, động cơ, pin, bộ điều khiển, màn hình; vì sao động cơ, pin, bộ sạc và phần mềm nên để đại lý theo Trek, UL, BikeRadar, Giant.",
+        "checked_at": "2026-10-22T03:58:26.029270+00:00"
+      }
     }
   },
   "categories": {}
