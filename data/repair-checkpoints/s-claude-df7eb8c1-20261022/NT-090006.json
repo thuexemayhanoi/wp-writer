@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "topic_id": "NT-090006",
+  "writer": "W6",
+  "session_id": "s-claude-df7eb8c1-20261022",
+  "source_sha256": "332c5a42ec2d6d1c4b39b55920a0952f3af8e1d1806bb2eec474c9b53d1d120c",
+  "repair_attempts": 0,
+  "repair_limit": 10,
+  "qa_status": "REVIEW",
+  "seo_score": 100,
+  "quality_score": 100,
+  "hold_class": "REAL_RISK",
+  "remaining_errors": [
+    "near topic:NT-001455",
+    "G4: near topic:NT-001455"
+  ],
+  "completed_edits": [],
+  "history": [
+    {
+      "revision": 1,
+      "repair_attempt": 0,
+      "source_sha256": "332c5a42ec2d6d1c4b39b55920a0952f3af8e1d1806bb2eec474c9b53d1d120c",
+      "qa_status": "REVIEW",
+      "seo_score": 100,
+      "quality_score": 100,
+      "errors": [
+        "near topic:NT-001455",
+        "G4: near topic:NT-001455"
+      ],
+      "edit_note": "Baseline: article from vendor/manual sources; only REVIEW is G4 near topic NT-001455 (title similarity 0.7355 one-directional), needs registry resolved_topic_collisions",
+      "evaluated_at": "2026-10-22T05:13:30.121465+00:00"
+    }
+  ],
+  "next_action": "HOLD_FOR_REVIEW",
+  "updated_at": "2026-10-22T05:13:30.121465+00:00"
+}
