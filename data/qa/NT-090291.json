@@ -1,0 +1,211 @@
+{
+  "topic_id": "NT-090291",
+  "status": "PASS",
+  "source_sha256": "43d0f9dc61a9b4e987bfdbbd636809b8af69c8c4ae9b45ecbfbe8be5f10b126b",
+  "body_sha256": "bf06453eb20235af8d133f055849cf82c477ed67d2b38346344c82a5b7e7334b",
+  "word_count": 2522,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/11/51-bgtvt-kem.pdf",
+      "supports": "QCVN 41:2024/BGTVT (bản đính kèm Thông tư 51/2024/TT-BGTVT trên datafiles.chinhphu.vn), các đoạn đã đọc: Điều 22.1 liệt kê biển P.103a, P.104, P.105, P.111a; mục B.11 biển P.111a báo đường cấm xe gắn máy và không có giá trị đối với xe đạp; B.3 biển P.103a loại trừ xe máy 2 bánh và xe gắn máy; B.4 biển P.104 'các loại xe máy', không cấm người dắt xe; B.5 biển P.105; R.412d làn dành cho xe máy và xe gắn máy; S.505a; Điều 26 và Bảng 3 tách 'Xe mô tô (Xe máy)' với 'Xe gắn máy'. Đây là các đoạn trích, không phải toàn bộ quy chuẩn.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm",
+      "supports": "Điều 34 Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (toàn văn trên xaydungchinhsach.chinhphu.vn): xe mô tô là xe hai hoặc ba bánh chạy bằng động cơ 'trừ xe gắn máy'; xe gắn máy có vận tốc thiết kế không lớn hơn 50 km/h, động cơ nhiệt không lớn hơn 50 cm3 hoặc động cơ điện không lớn hơn 04 kW, không gồm xe đạp máy.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tieuchuanxaydung.vsqi.gov.vn/quychuan/view?sohieu=QCVN%C2%A041%3A2024%2FBGTVT",
+      "supports": "Trang tra cứu quy chuẩn của VSQI (tên miền .gov.vn) ghi QCVN 41:2024/BGTVT, văn bản công bố Thông tư số 51/2024/TT-BGTVT, ngày ban hành 15-11-2024, tình trạng 'A - Còn hiệu lực' khi đọc ngày 22/10/2026.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/phan-biet-bien-cam-xe-may-va-xe-gan-may-the-nao-185251006131648628.htm",
+      "supports": "Báo Thanh Niên ngày 7/10/2025 diễn giải rằng cả xe máy lẫn xe gắn máy đều xếp vào xe máy và dẫn QCVN 41:2019/BGTVT thay vì bản 2024: chỉ để nêu cách một tờ báo diễn giải khác, không dùng làm căn cứ pháp lý.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/11/51-bgtvt-kem.pdf",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-luat-trat-tu-an-toan-giao-thong-duong-bo-119240909105718285.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tieuchuanxaydung.vsqi.gov.vn/quychuan/view?sohieu=QCVN%C2%A041%3A2024%2FBGTVT",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thanhnien.vn/phan-biet-bien-cam-xe-may-va-xe-gan-may-the-nao-185251006131648628.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 891,
+        "title": "Hợp Đồng Thuê Xe Máy Hà Nội Có Cần Đặt Cọc Không? Tư Vấn Nhanh",
+        "why": "stale",
+        "content_hash": "dfef1f80adfed1e1d9366a3b620ef84119b9cf4fc4ea34f66fe16eb22f52bcca",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2437,
+        "title": "Các dòng xe máy Honda: tổng hợp mẫu phổ biến tại Việt Nam",
+        "why": "stale",
+        "content_hash": "5cff2a6706b84439a61843ab51b848da33a40d9c155c5eb687076b40c694e51f",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2513,
+        "title": "Dấu hiệu má phanh xe máy cần thay và cách kiểm tra an toàn hằng ngày",
+        "why": "stale",
+        "content_hash": "f1040fa1950d3342eebff669b05d5319f4be2c2517c80ecddf1b4b239e6f5f16",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2580,
+        "title": "Đi Hà Nội nên chọn xe ga hay xe số để di chuyển thuận tiện hơn?",
+        "why": "stale",
+        "content_hash": "6aa38b717367fc0077cddd4330e078e59294b75c84a725df25d0c1ffd299712f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4056,
+        "title": "Đổi khách sạn giữa kỳ thuê xe máy Hà Nội: giữ xe ở đâu, chuyển hành lý và đổi nơi trả",
+        "why": "stale",
+        "content_hash": "fcd4a86c62969cb4812af213b0e424c5549b185d290ed9a416d5e9d816804528",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T09:10:57.126482+00:00",
+  "live_links_checked": false,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "cc3564b7f279f3f994b367a0bdc8b13b6cba25c2832840d50465f417915ab451",
+  "incremental_key": "5b6b831ee2bc5c173d70679d6ea2533a8491f73ec97ce80829ead8b946144983",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

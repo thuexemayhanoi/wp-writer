@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-22T07:35:49.250034+00:00",
+  "at": "2026-10-22T09:12:18.766112+00:00",
   "counts": {
     "WRITING": 15,
     "QA": 0,
-    "READY": 0,
+    "READY": 2,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
     "VERIFIED": 692
   },
-  "ready_backlog": 0,
-  "in_flight": 18,
+  "ready_backlog": 2,
+  "in_flight": 20,
   "items": [
     {
       "topic_id": "NT-001635",
@@ -191,6 +191,30 @@
       "url": null,
       "qa_status": null,
       "seo_score": null
+    },
+    {
+      "topic_id": "NT-090070",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Đường dành riêng cho xe buýt: Nghị định 168/2024 nêu ở Điều 6 và 8, xe máy áp dụng điều nào?",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-090291",
+      "state": "READY",
+      "reason": "QA PASS; waiting for the Publisher",
+      "title": "Biển P.111a cấm xe gắn máy, P.104 cấm xe máy và P.103a cấm xe ô tô: xe 50cc bị cấm ở biển nào?",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": null,
+      "url": null,
+      "qa_status": "PASS",
+      "seo_score": 100
     },
     {
       "topic_id": "NT-001101",

@@ -4,25 +4,25 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-22T07:35:48.303324+00:00 |
+| at | 2026-10-22T09:12:17.255250+00:00 |
 | existing_published_posts | 843 |
 | existing_pages | 10 |
 | existing_products | 13 |
-| candidate_topics | 793 |
-| planned_topics | 716 |
-| claimable_topics | 9 |
-| ready_stock | 3 |
-| stock_stages | {'IDEA': 300, 'RESEARCH': 75, 'REJECTED': 2, 'PLANNED': 3, 'PLANNED_HOLD': 3, 'CLAIMED': 15, 'AUTHORED': 3, 'QA_PASS': 0, 'PUBLISHED': 692, 'WP_DRAFT': 0} |
+| candidate_topics | 798 |
+| planned_topics | 719 |
+| claimable_topics | 10 |
+| ready_stock | 4 |
+| stock_stages | {'IDEA': 300, 'RESEARCH': 77, 'REJECTED': 2, 'PLANNED': 4, 'PLANNED_HOLD': 3, 'CLAIMED': 15, 'AUTHORED': 3, 'QA_PASS': 2, 'PUBLISHED': 692, 'WP_DRAFT': 0} |
 | needs_research | True |
-| research_shortfall | 897 |
+| research_shortfall | 896 |
 | refill_trigger_below_ready | 900 |
 | refill_round_target | 100-200 |
-| refill_state | REFILL_IN_PROGRESS |
-| refill_order | RF-0005 |
-| refill_accepted_so_far | 97 |
+| refill_state | REFILL_OPENED |
+| refill_order | RF-0006 |
+| refill_accepted_so_far | 0 |
 | writing | 35 |
-| draft_authored | 692 |
-| qa_pass | 689 |
+| draft_authored | 694 |
+| qa_pass | 691 |
 | qa_fail | 3 |
 | qa_review | 0 |
 | repair_queue | 3 |
@@ -38,14 +38,14 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | empty_category_violations | 0 |
 | broken_links | None |
 | broken_links_note | No full HTTP crawl yet; inventory graph is not a broken-link proof |
-| remaining_topic_target | 284 |
-| remaining_candidate_target | 207 |
+| remaining_topic_target | 281 |
+| remaining_candidate_target | 202 |
 | delivery_mode | production |
 | production_enabled | True |
 | draft_staging_enabled | False |
 | qa_pass_live_checked | 348 |
-| qa_pass_awaiting_wordpress | 0 |
-| queued_topic_ids | [] |
+| qa_pass_awaiting_wordpress | 2 |
+| queued_topic_ids | ['NT-090291', 'NT-090070'] |
 | pending_wordpress_intents | [] |
 | blocked_writer_sessions | [] |
 | last_wordpress_verified_at | 2026-10-22T07:26:44.054585+00:00 |
