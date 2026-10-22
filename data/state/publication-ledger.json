@@ -35367,7 +35367,7 @@
       }
     },
     "NT-001993": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T11:31:46.651143+00:00",
       "source_hash": "0f657d256c14ac68b7adee5c1aec993441772218070fb50ccbcd65f60024d0fd",
       "slug": "re-phai-khi-den-do-bang-xe-may-khi-nao-duoc-phep-va-muc-phat-neu-sai",
@@ -35383,8 +35383,37 @@
       "category_warning": null,
       "git_commit": "f4508aea6eff23accf301ee9877a2549f6b4865f",
       "run_id": "39770550592",
-      "updated_at": "2026-10-22T11:31:51.075234+00:00",
-      "wp_id": 4817
+      "updated_at": "2026-10-22T11:31:57.342248+00:00",
+      "wp_id": 4817,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/re-phai-khi-den-do-bang-xe-may-khi-nao-duoc-phep-va-muc-phat-neu-sai/",
+      "verified_at": "2026-10-22T11:31:57.342242+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4817,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/re-phai-khi-den-do-bang-xe-may-khi-nao-duoc-phep-va-muc-phat-neu-sai/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/re-phai-khi-den-do-bang-xe-may-khi-nao-duoc-phep-va-muc-phat-neu-sai/",
+        "seo_title": "Rẽ phải khi đèn đỏ bằng xe máy: khi nào được phép, phạt ra sao",
+        "seo_description": "Rẽ phải khi đèn đỏ bằng xe máy chỉ khi có báo hiệu cho phép như hiệu lệnh, biển phụ, đèn mũi tên xanh; các trang đã đọc liệt kê trường hợp và mức phạt.",
+        "checked_at": "2026-10-22T11:31:57.342225+00:00"
+      }
     }
   },
   "categories": {}
