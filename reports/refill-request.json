@@ -6,16 +6,16 @@
   "rounds_opened": 7,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 953,
-  "capacity_remaining": 1047,
+  "topic_rows": 958,
+  "capacity_remaining": 1042,
   "order": {
     "id": "RF-0007",
     "round": 7,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 53,
-    "remaining_to_min": 47,
-    "remaining_to_max": 147,
+    "accepted_so_far": 58,
+    "remaining_to_min": 42,
+    "remaining_to_max": 142,
     "batches_still_needed": 5,
     "batch_size": 10,
     "capacity_limited": false,
@@ -24,7 +24,7 @@
     "category_quotas": [
       {
         "taxonomy_key": "rental-guide",
-        "quota": 20,
+        "quota": 21,
         "known_now": 17,
         "allocation": 46
       },
@@ -41,16 +41,16 @@
         "allocation": 92
       },
       {
-        "taxonomy_key": "electric",
-        "quota": 10,
-        "known_now": 45,
-        "allocation": 59
-      },
-      {
         "taxonomy_key": "battery-charging",
-        "quota": 8,
+        "quota": 9,
         "known_now": 45,
         "allocation": 57
+      },
+      {
+        "taxonomy_key": "electric",
+        "quota": 8,
+        "known_now": 48,
+        "allocation": 59
       },
       {
         "taxonomy_key": "rental-50cc",
@@ -115,9 +115,9 @@
   },
   "dedupe_universe": {
     "published_wordpress_items": 962,
-    "topics_in_factory": 953,
+    "topics_in_factory": 958,
     "topics_by_status": {
-      "PLANNED": 874,
+      "PLANNED": 879,
       "REJECTED": 2,
       "RESEARCH": 77
     },
