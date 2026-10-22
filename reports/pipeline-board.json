@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-22T11:16:20.653656+00:00",
+  "at": "2026-10-22T11:25:11.394259+00:00",
   "counts": {
-    "WRITING": 54,
+    "WRITING": 52,
     "QA": 0,
-    "READY": 7,
+    "READY": 1,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 729
+    "VERIFIED": 739
   },
-  "ready_backlog": 7,
-  "in_flight": 64,
+  "ready_backlog": 1,
+  "in_flight": 56,
   "items": [
     {
       "topic_id": "NT-001847",
@@ -133,34 +133,10 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001904",
-      "state": "WRITING",
-      "reason": "leased to seodev-w86",
-      "title": "Giá vé chùa Hương mùa hội 2026: Hương Tích, Long Vân - Tuyết Sơn và cáp treo",
-      "slot": "W8",
-      "session": "seodev-w86",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001905",
       "state": "WRITING",
       "reason": "leased to seodev-w86",
       "title": "Lễ hội Chử Đồng Tử: Chử Xá (Hà Nội) 17–18 tháng Giêng hay Đa Hòa (Hưng Yên)?",
-      "slot": "W8",
-      "session": "seodev-w86",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001910",
-      "state": "WRITING",
-      "reason": "leased to seodev-w86",
-      "title": "Chùa Vĩnh Nghiêm ở Bắc Giang: kho mộc bản gần 3.000 ván khắc, hội 14 tháng 2",
       "slot": "W8",
       "session": "seodev-w86",
       "wp_id": null,
@@ -313,18 +289,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-001991",
-      "state": "WRITING",
-      "reason": "leased to seodev-w88",
-      "title": "Đèn vàng nhấp nháy khi đi xe máy: được đi tiếp không, đèn vàng thường thì sao?",
-      "slot": "W3",
-      "session": "seodev-w88",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-001992",
       "state": "WRITING",
       "reason": "leased to seodev-w88",
@@ -365,18 +329,6 @@
       "state": "WRITING",
       "reason": "leased to seodev-w88",
       "title": "Bật xi nhan trước khi rẽ bao nhiêu mét: luật không ghi số mét cụ thể",
-      "slot": "W3",
-      "session": "seodev-w88",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-001996",
-      "state": "WRITING",
-      "reason": "leased to seodev-w88",
-      "title": "Bảng khoảng cách an toàn theo Thông tư 38/2024: 35 m ở 60 km/h và mức phạt",
       "slot": "W3",
       "session": "seodev-w88",
       "wp_id": null,
@@ -517,6 +469,18 @@
       "seo_score": null
     },
     {
+      "topic_id": "NT-085503",
+      "state": "WRITING",
+      "reason": "leased to s-claude-df7eb8c1-20261022",
+      "title": "Giá vé Tràng An từ 1/1/2026: 300.000 đồng, trang Sở Du lịch đề ngày 20/8/2020 còn ghi 250.000",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
       "topic_id": "NT-090024",
       "state": "WRITING",
       "reason": "leased to seodev-w80",
@@ -601,6 +565,18 @@
       "seo_score": null
     },
     {
+      "topic_id": "NT-090365",
+      "state": "WRITING",
+      "reason": "leased to s-claude-df7eb8c1-20261022",
+      "title": "Pin Dat Bike 25 năm tương đương 350.000 km hay 50.000 km, còn 80% hay 70% dung lượng?",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": null,
+      "url": null,
+      "qa_status": null,
+      "seo_score": null
+    },
+    {
       "topic_id": "NT-090368",
       "state": "WRITING",
       "reason": "leased to seodev-w80",
@@ -659,78 +635,6 @@
       "url": null,
       "qa_status": null,
       "seo_score": null
-    },
-    {
-      "topic_id": "NT-001902",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Hồ Đồng Đò sau cưỡng chế 2026: villa đóng cửa, nước hồ đục, có nên đi cắm trại",
-      "slot": "W8",
-      "session": "seodev-w86",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001903",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Hồ Quan Sơn ở Mỹ Đức: đi xe máy qua Vân Đình, đi thuyền và mùa sen giữa tháng 5",
-      "slot": "W8",
-      "session": "seodev-w86",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001908",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Làng gốm Phù Lãng ở Bắc Ninh: men da lươn, nung củi và cách đi từ Hà Nội",
-      "slot": "W8",
-      "session": "seodev-w86",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001909",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Chùa Long Đọi Sơn có bao nhiêu bậc thang: gần 373 bậc, bia Sùng Thiện Diên Linh",
-      "slot": "W8",
-      "session": "seodev-w86",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-001935",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Đi Cô Tô từ Hà Nội: cảng Cái Rồng hay Ao Tiên, lịch tàu dồn chuyến từ 3/2026",
-      "slot": "W6",
-      "session": "seodev-w84",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
-    },
-    {
-      "topic_id": "NT-002021",
-      "state": "READY",
-      "reason": "QA PASS; waiting for the Publisher",
-      "title": "Xuân Thủy thuộc tỉnh nào: Ninh Bình, cách Hà Nội 150 km và ba điểm du lịch mới",
-      "slot": "W9",
-      "session": "seodev-w87",
-      "wp_id": null,
-      "url": null,
-      "qa_status": "PASS",
-      "seo_score": 100
     },
     {
       "topic_id": "NT-002022",
@@ -9061,6 +8965,42 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001902",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Hồ Đồng Đò sau cưỡng chế 2026: villa đóng cửa, nước hồ đục, có nên đi cắm trại",
+      "slot": "W8",
+      "session": "seodev-w86",
+      "wp_id": 4805,
+      "url": "https://thuexemaynguyentu.com/ho-dong-do-sau-cuong-che-2026-villa-dong-cua-nuoc-ho-duc-co-nen-di-cam-trai/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001903",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Hồ Quan Sơn ở Mỹ Đức: đi xe máy qua Vân Đình, đi thuyền và mùa sen giữa tháng 5",
+      "slot": "W8",
+      "session": "seodev-w86",
+      "wp_id": 4806,
+      "url": "https://thuexemaynguyentu.com/ho-quan-son-o-my-duc-di-xe-may-qua-van-dinh-di-thuyen-va-mua-sen-giua-thang-5/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001904",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Giá vé chùa Hương mùa hội 2026: Hương Tích, Long Vân - Tuyết Sơn và cáp treo",
+      "slot": "W8",
+      "session": "seodev-w86",
+      "wp_id": 4807,
+      "url": "https://thuexemaynguyentu.com/gia-ve-chua-huong-mua-hoi-2026-huong-tich-long-van-tuyet-son-va-cap-treo/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001906",
       "state": "VERIFIED",
       "reason": "publish",
@@ -9081,6 +9021,42 @@
       "session": "seodev-w86",
       "wp_id": 4800,
       "url": "https://thuexemaynguyentu.com/chua-ba-danh-o-dau-chua-bao-son-o-kim-bang-hay-chua-chau-lam-o-thuy-khue/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001908",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Làng gốm Phù Lãng ở Bắc Ninh: men da lươn, nung củi và cách đi từ Hà Nội",
+      "slot": "W8",
+      "session": "seodev-w86",
+      "wp_id": 4808,
+      "url": "https://thuexemaynguyentu.com/lang-gom-phu-lang-o-bac-ninh-men-da-luon-nung-cui-va-cach-di-tu-ha-noi/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001909",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Chùa Long Đọi Sơn có bao nhiêu bậc thang: gần 373 bậc, bia Sùng Thiện Diên Linh",
+      "slot": "W8",
+      "session": "seodev-w86",
+      "wp_id": 4809,
+      "url": "https://thuexemaynguyentu.com/chua-long-doi-son-co-bao-nhieu-bac-thang-gan-373-bac-bia-sung-thien-dien-linh/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001910",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Chùa Vĩnh Nghiêm ở Bắc Giang: kho mộc bản gần 3.000 ván khắc, hội 14 tháng 2",
+      "slot": "W8",
+      "session": "seodev-w86",
+      "wp_id": 4810,
+      "url": "https://thuexemaynguyentu.com/chua-vinh-nghiem-o-bac-giang-kho-moc-ban-gan-3-000-van-khac-hoi-14-thang-2/",
       "qa_status": "PASS",
       "seo_score": 100
     },
@@ -9129,6 +9105,54 @@
       "session": "seodev-w84",
       "wp_id": 4803,
       "url": "https://thuexemaynguyentu.com/leo-yen-tu-mat-bao-lau-nguon-ghi-3-4-hay-6-gio-di-bo-va-khi-nao-di-cap-treo/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001935",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đi Cô Tô từ Hà Nội: cảng Cái Rồng hay Ao Tiên, lịch tàu dồn chuyến từ 3/2026",
+      "slot": "W6",
+      "session": "seodev-w84",
+      "wp_id": 4811,
+      "url": "https://thuexemaynguyentu.com/di-co-to-tu-ha-noi-cang-cai-rong-hay-ao-tien-lich-tau-don-chuyen-tu-3-2026/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001991",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Đèn vàng nhấp nháy khi đi xe máy: được đi tiếp không, đèn vàng thường thì sao?",
+      "slot": "W3",
+      "session": "seodev-w88",
+      "wp_id": 4812,
+      "url": "https://thuexemaynguyentu.com/den-vang-nhap-nhay-khi-di-xe-may-duoc-di-tiep-khong-den-vang-thuong-thi-sao/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-001996",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Bảng khoảng cách an toàn theo Thông tư 38/2024: 35 m ở 60 km/h và mức phạt",
+      "slot": "W3",
+      "session": "seodev-w88",
+      "wp_id": 4813,
+      "url": "https://thuexemaynguyentu.com/bang-khoang-cach-an-toan-theo-thong-tu-38-2024-35-m-o-60-km-h-va-muc-phat/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-002021",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xuân Thủy thuộc tỉnh nào: Ninh Bình, cách Hà Nội 150 km và ba điểm du lịch mới",
+      "slot": "W9",
+      "session": "seodev-w87",
+      "wp_id": 4814,
+      "url": "https://thuexemaynguyentu.com/xuan-thuy-thuoc-tinh-nao-ninh-binh-cach-ha-noi-150-km-va-ba-diem-du-lich-moi/",
       "qa_status": "PASS",
       "seo_score": 100
     },
