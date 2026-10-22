@@ -35269,7 +35269,7 @@
       }
     },
     "NT-001905": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T11:30:39.027597+00:00",
       "source_hash": "b20296e17e96e9bb112b3818a07b52f04c05063d8f9b2cb7b12996808256b2c0",
       "slug": "le-hoi-chu-dong-tu-chu-xa-ha-noi-17-18-thang-gieng-hay-da-hoa-hung-yen",
@@ -35285,8 +35285,37 @@
       "category_warning": null,
       "git_commit": "f4508aea6eff23accf301ee9877a2549f6b4865f",
       "run_id": "39770550592",
-      "updated_at": "2026-10-22T11:30:43.512273+00:00",
-      "wp_id": 4815
+      "updated_at": "2026-10-22T11:30:49.778696+00:00",
+      "wp_id": 4815,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/le-hoi-chu-dong-tu-chu-xa-ha-noi-17-18-thang-gieng-hay-da-hoa-hung-yen/",
+      "verified_at": "2026-10-22T11:30:49.778684+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4815,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/le-hoi-chu-dong-tu-chu-xa-ha-noi-17-18-thang-gieng-hay-da-hoa-hung-yen/",
+        "categories": [
+          126
+        ],
+        "canonical": "https://thuexemaynguyentu.com/le-hoi-chu-dong-tu-chu-xa-ha-noi-17-18-thang-gieng-hay-da-hoa-hung-yen/",
+        "seo_title": "Lễ hội Chử Đồng Tử: Chử Xá 17–18 tháng Giêng hay Đa Hòa, Hưng Yên",
+        "seo_description": "Lễ hội Chử Đồng Tử ở hai nơi: làng Chử Xá (Hà Nội) 17–18 tháng Giêng và Khu di tích Đa Hòa - Dạ Trạch (Hưng Yên) 10–12 tháng Hai âm lịch, cách chọn và đường đi.",
+        "checked_at": "2026-10-22T11:30:49.778667+00:00"
+      }
     }
   },
   "categories": {}
