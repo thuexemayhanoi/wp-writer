@@ -30516,7 +30516,7 @@
       }
     },
     "NT-001601": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T04:13:08.219064+00:00",
       "source_hash": "54fcced2ff451ef524dbb701030b8e740606a11af8e752dce9e0cdbe759b1d73",
       "slug": "banh-xeo-mien-tay-an-voi-rau-gi-rau-cuon-nuoc-mam-chua-ngot-va-cu-cai",
@@ -30532,8 +30532,37 @@
       "category_warning": null,
       "git_commit": "c9657e0c2092d90d90220c2c60a49d8afebb4906",
       "run_id": "39720614350",
-      "updated_at": "2026-10-22T04:13:14.001320+00:00",
-      "wp_id": 4690
+      "updated_at": "2026-10-22T04:13:19.834035+00:00",
+      "wp_id": 4690,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/banh-xeo-mien-tay-an-voi-rau-gi-rau-cuon-nuoc-mam-chua-ngot-va-cu-cai/",
+      "verified_at": "2026-10-22T04:13:19.834027+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4690,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/banh-xeo-mien-tay-an-voi-rau-gi-rau-cuon-nuoc-mam-chua-ngot-va-cu-cai/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/banh-xeo-mien-tay-an-voi-rau-gi-rau-cuon-nuoc-mam-chua-ngot-va-cu-cai/",
+        "seo_title": "Bánh xèo miền Tây ăn với rau gì: rổ rau, nước mắm chua ngọt, củ cải",
+        "seo_description": "Bánh xèo miền Tây ăn với rau gì: so danh sách rau của VnExpress, Báo Cần Thơ, Tuổi Trẻ, cách cuốn, nước mắm chua ngọt với củ cải và điểm khác bánh xèo miền Trung.",
+        "checked_at": "2026-10-22T04:13:19.834010+00:00"
+      }
     }
   },
   "categories": {}
