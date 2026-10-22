@@ -1,0 +1,217 @@
+{
+  "topic_id": "NT-090520",
+  "status": "PASS",
+  "source_sha256": "53972dc7b69a042bcf395af5f68916a58f88bdf809e30d176d2bae5f07e48a43",
+  "body_sha256": "d8b6e8f52fe22c5079bb7c8dbcecfd4f9cd9c43b4182c672ec18798ad362f604",
+  "word_count": 2286,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://transerco.com.vn/vi/tin-buyt/thong-bao-dieu-chinh-thoi-gian-hoat-dong-va-gian-cach-chay-xe-mot-so-tuyen-buyt-tu-ngay-0162026.html",
+      "supports": "Thông báo Transerco đăng 31/05/2026, áp dụng từ 01/6/2026, căn cứ quyết định của Trung tâm Quản lý và điều hành giao thông TP Hà Nội (Sở Xây dựng Hà Nội): tuyến 96 Cầu Giấy – Đông Anh 84 lượt mỗi ngày, đầu A mở bến 05h00 và đóng bến 21h00, đầu B mở bến 05h00 và đóng bến 20h50, giãn cách 20 – 25 – 30 phút; tuyến 92 Nhổn – Phú Sơn 135 lượt, đầu A mở 05h00 và đóng 21h30, đầu B mở 04h30 và đóng 21h30, giãn cách 10 – 15 – 20 phút; thông báo không nói đầu A, đầu B là bến nào.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://transerco.com.vn/vi/tin-buyt/thong-bao-dieu-chinh-thoi-gian-bieu-va-gian-cach-chay-xe-buyt-tuyen-so-54-long-bien---bac-ninh-tu-ngay-0662026.html",
+      "supports": "Thông báo Transerco đăng 05/06/2026, áp dụng từ 06/6/2026 theo quyết định của Trung tâm Quản lý và Điều hành giao thông thành phố Hà Nội: tuyến 54 Long Biên – Bắc Ninh, đầu Long Biên 05h00 – 21h00, đầu Bắc Ninh 04h30 – 21h00, 180 lượt xe mỗi ngày, giãn cách 9, 10, 12, 13 và 15 phút; hướng dẫn truy cập timbus.vn và nhập số hiệu tuyến để tra giờ.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://transerco.com.vn/vi/tin-buyt/thong-bao-ve-viec-thay-the-phuong-tien-dien-va-dieu-chinh-bieu-do-van-hanh-tuyen-buyt-so-33-cum-cong-nghiep-thanh-oai---xuan-dinh-tu-ngay-12102026.html",
+      "supports": "Thông báo Transerco đăng 12/10/2026 về việc thay thế phương tiện điện và điều chỉnh biểu đồ vận hành trên nhánh tuyến 33 Cụm công nghiệp Thanh Oai – Xuân Đỉnh từ 12/10/2026: giờ hoạt động đầu A và đầu B đều 05h00 – 21h15, tần suất 10 – 20 – 24 phút một lượt.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://transerco.com.vn/vi/tin-buyt/transerco-thong-bao-dieu-chinh-bieu-do-chay-xe-7-tuyen-buyt-tu-ngay-0192026.html",
+      "supports": "Thông báo Transerco đăng 25/08/2026: từ 01/9/2026 điều chỉnh lượt xe, thời gian biểu và giãn cách chạy xe trên bảy tuyến 01, 12, 15, 30, 31, 53A, 53B và dặn hành khách cập nhật giờ hoạt động trước khi di chuyển; cho thấy giờ buýt được điều chỉnh thường xuyên.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://transerco.com.vn/vi/tin-buyt",
+      "supports": "Trang đầu mục Tin buýt của Transerco đọc ngày 22/10/2026: thông báo mới nhất là về tuyến 62, 113, 108 và 108TC từ 20/10/2026, các mục tiếp theo về tuyến 31, 33, 83, 30, 50, 22A, 22B và tin hội thi; trang đi ngược đến khoảng 21/9/2026 và không có thông báo mới về tuyến 33, 54, 92 hay 96.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://transerco.com.vn/vi/tin-buyt/thong-bao-dieu-chinh-thoi-gian-hoat-dong-va-gian-cach-chay-xe-mot-so-tuyen-buyt-tu-ngay-0162026.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://transerco.com.vn/vi/tin-buyt/thong-bao-dieu-chinh-thoi-gian-bieu-va-gian-cach-chay-xe-buyt-tuyen-so-54-long-bien---bac-ninh-tu-ngay-0662026.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://transerco.com.vn/vi/tin-buyt/thong-bao-ve-viec-thay-the-phuong-tien-dien-va-dieu-chinh-bieu-do-van-hanh-tuyen-buyt-so-33-cum-cong-nghiep-thanh-oai---xuan-dinh-tu-ngay-12102026.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://transerco.com.vn/vi/tin-buyt/transerco-thong-bao-dieu-chinh-bieu-do-chay-xe-7-tuyen-buyt-tu-ngay-0192026.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://transerco.com.vn/vi/tin-buyt",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2055,
+        "title": "App Thuê Xe Máy Hà Nội Nguyễn Tú – Chọn Xe & Tính Giá Nhanh",
+        "why": "stale",
+        "content_hash": "7d1e35643517ac7dd14b5f4764532a79b79d0058b53ef18b878430d4531b97d7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2544,
+        "title": "Xe máy phát tiếng kêu lạ khi chạy: nguyên nhân và cách kiểm tra",
+        "why": "stale",
+        "content_hash": "e4d2a8c9ffb2a022afd07f0d6cf92ad77c06cdf6fcad04bb7bae33b34bab81ad",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2580,
+        "title": "Đi Hà Nội nên chọn xe ga hay xe số để di chuyển thuận tiện hơn?",
+        "why": "stale",
+        "content_hash": "6aa38b717367fc0077cddd4330e078e59294b75c84a725df25d0c1ffd299712f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4051,
+        "title": "Thuê xe máy Hà Nội vào ngày mưa: khi nào nên lùi giờ nhận và kiểm tra gì trước khi chạy?",
+        "why": "stale",
+        "content_hash": "6cf70a5e919d453dbe3c15e8dc9ed97616caa41d0b3239c73331a63a003192fb",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T09:41:59.491723+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "a3561db8b8e9c9ae6539d16fc94d022e65dc8085a74480b3291a7cf0d2949492",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

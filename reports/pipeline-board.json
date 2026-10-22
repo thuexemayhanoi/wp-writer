@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-22T09:37:18.398463+00:00",
+  "at": "2026-10-22T09:42:22.537935+00:00",
   "counts": {
-    "WRITING": 16,
+    "WRITING": 15,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 696
+    "VERIFIED": 697
   },
   "ready_backlog": 0,
-  "in_flight": 19,
+  "in_flight": 18,
   "items": [
     {
       "topic_id": "NT-001635",
@@ -187,18 +187,6 @@
       "title": "Xe máy biển nước ngoài vào Việt Nam du lịch: xe dẫn đường, giấy tờ cần mang và thủ tục chấp thuận",
       "slot": "W4",
       "session": "seodev-w78",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-090520",
-      "state": "WRITING",
-      "reason": "leased to s-claude-df7eb8c1-20261022",
-      "title": "Xe buýt Hà Nội chạy đến mấy giờ: tuyến 33 đến 21h15, tuyến 54 đến 21h00, tuyến 96 tùy đầu bến",
-      "slot": "W2",
-      "session": "s-claude-df7eb8c1-20261022",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -8493,6 +8481,18 @@
       "session": "s-claude-df7eb8c1-20261022",
       "wp_id": 4757,
       "url": "https://thuexemaynguyentu.com/tieng-on-theo-qcvn-26-2025-bnnmt-ban-dem-nha-o-khach-san-45-dba-duong-bo-58-dba-ap-dung-du-tu-1-1-2027/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-090520",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe buýt Hà Nội chạy đến mấy giờ: tuyến 33 đến 21h15, tuyến 54 đến 21h00, tuyến 96 tùy đầu bến",
+      "slot": "W2",
+      "session": "s-claude-df7eb8c1-20261022",
+      "wp_id": 4772,
+      "url": "https://thuexemaynguyentu.com/xe-buyt-ha-noi-chay-den-may-gio-tuyen-33-den-21h15-tuyen-54-den-21h00-tuyen-96-tuy-dau-ben/",
       "qa_status": "PASS",
       "seo_score": 100
     },
