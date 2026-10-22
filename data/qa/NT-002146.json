@@ -1,0 +1,274 @@
+{
+  "topic_id": "NT-002146",
+  "status": "PASS",
+  "source_sha256": "0d9e52d03f243635ff09b9eeddcdf9405e66b1fcb394a93fe9b90b07fa9edd43",
+  "body_sha256": "b7bf7d225afdda65eb5d27ab44624389c622c0429ccd89cc2efb41834d60d9c9",
+  "word_count": 2947,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.mps.gov.vn/bai-viet/mot-so-khuyen-cao-ve-phong-chay-chua-chay-doi-voi-phuong-tien-giao-thong-co-gioi-duong-bo-d2-t15935",
+      "supports": "Cục Cảnh sát PCCC và CNCH, Bộ Công an (27/4/2012): thứ tự xử lý khi xe cháy: dừng ở lề đường, tắt khóa điện, khóa bình xăng nếu có thể, hô hoán, gọi cảnh sát PCCC; không có khả năng dập thì nên tránh xa để tránh nổ bình xăng.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.mps.gov.vn/bai-viet/mot-so-khuyen-cao-ve-phong-chay-chua-chay-doi-voi-phuong-tien-giao-thong-co-gioi-duong-bo-d2-t15935",
+      "supports": "Bộ Công an (27/4/2012): khi thấy ngọn lửa, khói hoặc nhiệt độ cao bất thường thì bình tĩnh, dừng xe ở lề đường, tránh xa nơi đông người và chất dễ cháy.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.mps.gov.vn/bai-viet/mot-so-khuyen-cao-ve-phong-chay-chua-chay-doi-voi-phuong-tien-giao-thong-co-gioi-duong-bo-d2-t15935",
+      "supports": "Bộ Công an (27/4/2012): khi nhiên liệu đã trào ra thì dùng bình chữa cháy, cát, chăn chiên, bao tải, vải nhúng nước để dập lửa.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.mps.gov.vn/bai-viet/mot-so-khuyen-cao-ve-phong-chay-chua-chay-doi-voi-phuong-tien-giao-thong-co-gioi-duong-bo-d2-t15935",
+      "supports": "Bộ Công an (27/4/2012): không có khả năng dập tắt đám cháy thì nên tránh xa để tránh nổ bình xăng.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.mps.gov.vn/bai-viet/mot-so-khuyen-cao-ve-phong-chay-chua-chay-doi-voi-phuong-tien-giao-thong-co-gioi-duong-bo-d2-t15935",
+      "supports": "Bộ Công an (27/4/2012): dấu hiệu khác lạ cần khắc phục ngay: khó nổ, hơi xăng, tiếng kêu bất thường, nhiệt độ máy cao, mùi khét.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/plo/cong-an-chi-cach-xu-ly-khi-xay-ra-chay-xe-luc-luu-thong-109619382.htm",
+      "supports": "Tuổi Trẻ (30/3/2021) dẫn Công an quận 7 TP.HCM: không dập được thì tránh xa đám cháy ít nhất khoảng 40 m.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/plo/cong-an-chi-cach-xu-ly-khi-xay-ra-chay-xe-luc-luu-thong-109619382.htm",
+      "supports": "Tuổi Trẻ (30/3/2021): nếu xe có thiết kế khóa xăng thì khóa ngay bình xăng.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/plo/cong-an-chi-cach-xu-ly-khi-xay-ra-chay-xe-luc-luu-thong-109619382.htm",
+      "supports": "Tuổi Trẻ (30/3/2021): nguyên nhân chính gồm rò rỉ nhiên liệu, động cơ quá tải, tai nạn va chạm hoặc chập điện.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.mps.gov.vn/bai-viet/mot-so-khuyen-cao-ve-phong-chay-chua-chay-doi-voi-phuong-tien-giao-thong-co-gioi-duong-bo-d2-t15935",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.mps.gov.vn/bai-viet/mot-so-khuyen-cao-ve-phong-chay-chua-chay-doi-voi-phuong-tien-giao-thong-co-gioi-duong-bo-d2-t15935",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.mps.gov.vn/bai-viet/mot-so-khuyen-cao-ve-phong-chay-chua-chay-doi-voi-phuong-tien-giao-thong-co-gioi-duong-bo-d2-t15935",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.mps.gov.vn/bai-viet/mot-so-khuyen-cao-ve-phong-chay-chua-chay-doi-voi-phuong-tien-giao-thong-co-gioi-duong-bo-d2-t15935",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.mps.gov.vn/bai-viet/mot-so-khuyen-cao-ve-phong-chay-chua-chay-doi-voi-phuong-tien-giao-thong-co-gioi-duong-bo-d2-t15935",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/plo/cong-an-chi-cach-xu-ly-khi-xay-ra-chay-xe-luc-luu-thong-109619382.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/plo/cong-an-chi-cach-xu-ly-khi-xay-ra-chay-xe-luc-luu-thong-109619382.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/plo/cong-an-chi-cach-xu-ly-khi-xay-ra-chay-xe-luc-luu-thong-109619382.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2346,
+        "title": "Top xe máy điện đáng chú ý năm 2026 cho nhu cầu đi lại hằng ngày",
+        "why": "stale",
+        "content_hash": "c7b5d7cca26b30a8483ce0a25e3d5de7d28c48a734a1969cf0ab5c477bf745b6",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2386,
+        "title": "VinFast Feliz có đáng chọn không? Đánh giá cho nhu cầu đi phố",
+        "why": "stale",
+        "content_hash": "a3637271d9bad8c67714cc0bffca79e91d1c48a7321fc939ba1ba40b5b7bf7cc",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2542,
+        "title": "Xe máy bị nóng máy nhanh do đâu? Những điểm nên kiểm tra đầu tiên",
+        "why": "stale",
+        "content_hash": "994e220a440cdb5f8e90756cb7e6d0319a7cf0377e7377b9dd7b0b64ed9e9f51",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2613,
+        "title": "Thuê Xe Máy Du Lịch Hà Nội: Hướng Dẫn Toàn Diện Từ A–Z Cho Người Lần Đầu",
+        "why": "stale",
+        "content_hash": "bba381bbf7c63d362331437ee0e9ba63294ca01b4eb144c43fe71ca1f20731a0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4047,
+        "title": "Thuê xe máy Hà Nội 2 ngày 1 đêm: tính tiền theo mốc nào và trả xe lúc nào?",
+        "why": "stale",
+        "content_hash": "ff3360a833efc7ccb2778f577426a6ccdec6c16a3c8c30c58243ba9e9175e695",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T20:27:38.216930+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "21251f633f1a0e46a9be4cb7092ae75533541246777111722d3dce7aa99c1e86",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

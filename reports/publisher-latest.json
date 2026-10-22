@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-22T16:30:02.361802+00:00",
-  "attempted": 7,
+  "at": "2026-10-22T20:28:41.595512+00:00",
+  "attempted": 3,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -90,7 +90,7 @@
           ],
           "review": [
             "near topic:NT-001109",
-            "reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538",
+            "reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 875=6e8e3642aed27cd0f35c4dc19df3adf22668ca6e4d469dd846fe73662e851a99, 920=c3d0d0eee3186a38546e8f928d421e362211a8ef55fefbc69e7a5f337255ec4d",
             "nearest full content not reviewed"
           ]
         },
@@ -109,7 +109,7 @@
       ],
       "review": [
         "near topic:NT-001109",
-        "reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538",
+        "reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 875=6e8e3642aed27cd0f35c4dc19df3adf22668ca6e4d469dd846fe73662e851a99, 920=c3d0d0eee3186a38546e8f928d421e362211a8ef55fefbc69e7a5f337255ec4d",
         "nearest full content not reviewed"
       ],
       "source_evidence": [
@@ -151,10 +151,19 @@
       "evidence_recheck": {
         "pages": [
           {
-            "id": 1060,
-            "title": "Thuê Xe Máy Theo Tháng Hà Nội – Giá Rẻ, Xe Ga Xe Số",
+            "id": 875,
+            "title": "Thuê xe máy Bến xe Gia Lâm: giá và cách nhận xe Nguyễn Tú",
             "why": "stale",
-            "content_hash": "b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538",
+            "content_hash": "6e8e3642aed27cd0f35c4dc19df3adf22668ca6e4d469dd846fe73662e851a99",
+            "jaccard": 0.003,
+            "intent_match": null,
+            "verdict": "INDEPENDENT"
+          },
+          {
+            "id": 920,
+            "title": "Thuê xe máy Times City: giá và cách hẹn nhận xe",
+            "why": "stale",
+            "content_hash": "c3d0d0eee3186a38546e8f928d421e362211a8ef55fefbc69e7a5f337255ec4d",
             "jaccard": 0.002,
             "intent_match": null,
             "verdict": "INDEPENDENT"
@@ -191,18 +200,18 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T16:25:09.568217+00:00",
+      "at": "2026-10-22T20:26:34.629229+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "dea21eb63a9b27a54d9a16bfbff5edbd67632a634631c570118fe8725ad9637f",
+      "inventory_sha256": "b5a9d7e1a905b13deefe4b40f556e3c6e52114cf0ece1a60a1b6390ee3b1f331",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
           "G4: existing URL collision:4344",
           "G4: Near duplicate existing:4344",
           "G4: near topic:NT-001109",
-          "G4: reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538",
+          "G4: reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 875=6e8e3642aed27cd0f35c4dc19df3adf22668ca6e4d469dd846fe73662e851a99, 920=c3d0d0eee3186a38546e8f928d421e362211a8ef55fefbc69e7a5f337255ec4d",
           "G4: nearest full content not reviewed"
         ],
         "writer_repair": [],
@@ -280,7 +289,7 @@
             "Near duplicate existing:4345"
           ],
           "review": [
-            "reviewed full-content evidence stale or missing: 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 2055=7d1e35643517ac7dd14b5f4764532a79b79d0058b53ef18b878430d4531b97d7, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 857=ff038987475d1c5973af24c729ffdbc9e5c5499ac63cb30faeaeec38d4c88f28",
+            "reviewed full-content evidence stale or missing: 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 2055=f307734dfca47315a20c82839b36883199909fcd183f222a3a738193227510bc, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 857=3a9a490438e2389fffb4dbad30329195e0cc0548a3a44a0f3a2782f64e6bebed",
             "nearest full content not reviewed"
           ]
         },
@@ -298,7 +307,7 @@
         "Near duplicate existing:4345"
       ],
       "review": [
-        "reviewed full-content evidence stale or missing: 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 2055=7d1e35643517ac7dd14b5f4764532a79b79d0058b53ef18b878430d4531b97d7, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 857=ff038987475d1c5973af24c729ffdbc9e5c5499ac63cb30faeaeec38d4c88f28",
+        "reviewed full-content evidence stale or missing: 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 2055=f307734dfca47315a20c82839b36883199909fcd183f222a3a738193227510bc, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 857=3a9a490438e2389fffb4dbad30329195e0cc0548a3a44a0f3a2782f64e6bebed",
         "nearest full content not reviewed"
       ],
       "source_evidence": [
@@ -343,7 +352,7 @@
             "id": 857,
             "title": "Thuê Xe Máy Gần Ba Đình Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
             "why": "stale",
-            "content_hash": "ff038987475d1c5973af24c729ffdbc9e5c5499ac63cb30faeaeec38d4c88f28",
+            "content_hash": "3a9a490438e2389fffb4dbad30329195e0cc0548a3a44a0f3a2782f64e6bebed",
             "jaccard": 0.002,
             "intent_match": null,
             "verdict": "INDEPENDENT"
@@ -352,7 +361,7 @@
             "id": 2055,
             "title": "App Thuê Xe Máy Hà Nội Nguyễn Tú – Chọn Xe & Tính Giá Nhanh",
             "why": "stale",
-            "content_hash": "7d1e35643517ac7dd14b5f4764532a79b79d0058b53ef18b878430d4531b97d7",
+            "content_hash": "f307734dfca47315a20c82839b36883199909fcd183f222a3a738193227510bc",
             "jaccard": 0.003,
             "intent_match": null,
             "verdict": "INDEPENDENT"
@@ -380,17 +389,17 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T16:25:18.196770+00:00",
+      "at": "2026-10-22T20:26:45.511841+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "dea21eb63a9b27a54d9a16bfbff5edbd67632a634631c570118fe8725ad9637f",
+      "inventory_sha256": "b5a9d7e1a905b13deefe4b40f556e3c6e52114cf0ece1a60a1b6390ee3b1f331",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
           "G4: existing URL collision:4345",
           "G4: Near duplicate existing:4345",
-          "G4: reviewed full-content evidence stale or missing: 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 2055=7d1e35643517ac7dd14b5f4764532a79b79d0058b53ef18b878430d4531b97d7, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 857=ff038987475d1c5973af24c729ffdbc9e5c5499ac63cb30faeaeec38d4c88f28",
+          "G4: reviewed full-content evidence stale or missing: 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 2055=f307734dfca47315a20c82839b36883199909fcd183f222a3a738193227510bc, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 857=3a9a490438e2389fffb4dbad30329195e0cc0548a3a44a0f3a2782f64e6bebed",
           "G4: nearest full content not reviewed"
         ],
         "writer_repair": [],
@@ -468,7 +477,7 @@
             "Near duplicate existing:4346"
           ],
           "review": [
-            "reviewed full-content evidence stale or missing: 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 2055=7d1e35643517ac7dd14b5f4764532a79b79d0058b53ef18b878430d4531b97d7",
+            "reviewed full-content evidence stale or missing: 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=ec68fc98c8f71d13bc3b8499cd2861d12223b5ae0c33566e3f3868a83f1e0e01, 841=a1f48176e7383239f13a9116e9457f24a131094a960a3be2ef7581e2ab3d2bf1, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78",
             "nearest full content not reviewed"
           ]
         },
@@ -486,7 +495,7 @@
         "Near duplicate existing:4346"
       ],
       "review": [
-        "reviewed full-content evidence stale or missing: 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 2055=7d1e35643517ac7dd14b5f4764532a79b79d0058b53ef18b878430d4531b97d7",
+        "reviewed full-content evidence stale or missing: 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=ec68fc98c8f71d13bc3b8499cd2861d12223b5ae0c33566e3f3868a83f1e0e01, 841=a1f48176e7383239f13a9116e9457f24a131094a960a3be2ef7581e2ab3d2bf1, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78",
         "nearest full content not reviewed"
       ],
       "source_evidence": [
@@ -528,20 +537,20 @@
       "evidence_recheck": {
         "pages": [
           {
+            "id": 841,
+            "title": "Thuê xe máy Hoàn Kiếm: nhận xe gần Hồ Gươm tại Nguyễn Tú",
+            "why": "stale",
+            "content_hash": "a1f48176e7383239f13a9116e9457f24a131094a960a3be2ef7581e2ab3d2bf1",
+            "jaccard": 0.002,
+            "intent_match": "FAIL",
+            "verdict": "OVERLAP"
+          },
+          {
             "id": 1060,
             "title": "Thuê Xe Máy Theo Tháng Hà Nội – Giá Rẻ, Xe Ga Xe Số",
             "why": "stale",
-            "content_hash": "b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538",
+            "content_hash": "ec68fc98c8f71d13bc3b8499cd2861d12223b5ae0c33566e3f3868a83f1e0e01",
             "jaccard": 0.002,
-            "intent_match": null,
-            "verdict": "INDEPENDENT"
-          },
-          {
-            "id": 2055,
-            "title": "App Thuê Xe Máy Hà Nội Nguyễn Tú – Chọn Xe & Tính Giá Nhanh",
-            "why": "stale",
-            "content_hash": "7d1e35643517ac7dd14b5f4764532a79b79d0058b53ef18b878430d4531b97d7",
-            "jaccard": 0.001,
             "intent_match": null,
             "verdict": "INDEPENDENT"
           },
@@ -577,17 +586,17 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T16:25:25.617071+00:00",
+      "at": "2026-10-22T20:26:53.884201+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "dea21eb63a9b27a54d9a16bfbff5edbd67632a634631c570118fe8725ad9637f",
+      "inventory_sha256": "b5a9d7e1a905b13deefe4b40f556e3c6e52114cf0ece1a60a1b6390ee3b1f331",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
           "G4: existing URL collision:4346",
           "G4: Near duplicate existing:4346",
-          "G4: reviewed full-content evidence stale or missing: 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 2055=7d1e35643517ac7dd14b5f4764532a79b79d0058b53ef18b878430d4531b97d7",
+          "G4: reviewed full-content evidence stale or missing: 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=ec68fc98c8f71d13bc3b8499cd2861d12223b5ae0c33566e3f3868a83f1e0e01, 841=a1f48176e7383239f13a9116e9457f24a131094a960a3be2ef7581e2ab3d2bf1, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78",
           "G4: nearest full content not reviewed"
         ],
         "writer_repair": [],
@@ -601,59 +610,27 @@
       }
     },
     {
-      "topic_id": "NT-090269",
+      "topic_id": "NT-001942",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 177,
+      "category_id": 173,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "green-travel",
+      "intended_taxonomy_key": "vietnam-travel",
       "category_warning": null
     },
     {
-      "topic_id": "NT-090272",
+      "topic_id": "NT-002146",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 164,
+      "category_id": 161,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "rental-costs",
+      "intended_taxonomy_key": "road-safety",
       "category_warning": null
     },
     {
-      "topic_id": "NT-090368",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 169,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "electric-transition",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-090471",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 165,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "rental-50cc",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-090527",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 167,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "battery-charging",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-090682",
+      "topic_id": "NT-002172",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 176,
       "category_resolution": "EXACT",
       "intended_taxonomy_key": "urban-mobility",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-090719",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 177,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "green-travel",
       "category_warning": null
     }
   ],

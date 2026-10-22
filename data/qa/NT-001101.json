@@ -65,7 +65,7 @@
       ],
       "review": [
         "near topic:NT-001109",
-        "reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538",
+        "reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 875=6e8e3642aed27cd0f35c4dc19df3adf22668ca6e4d469dd846fe73662e851a99, 920=c3d0d0eee3186a38546e8f928d421e362211a8ef55fefbc69e7a5f337255ec4d",
         "nearest full content not reviewed"
       ]
     },
@@ -84,7 +84,7 @@
   ],
   "review": [
     "near topic:NT-001109",
-    "reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538",
+    "reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 875=6e8e3642aed27cd0f35c4dc19df3adf22668ca6e4d469dd846fe73662e851a99, 920=c3d0d0eee3186a38546e8f928d421e362211a8ef55fefbc69e7a5f337255ec4d",
     "nearest full content not reviewed"
   ],
   "source_evidence": [
@@ -126,10 +126,19 @@
   "evidence_recheck": {
     "pages": [
       {
-        "id": 1060,
-        "title": "Thuê Xe Máy Theo Tháng Hà Nội – Giá Rẻ, Xe Ga Xe Số",
+        "id": 875,
+        "title": "Thuê xe máy Bến xe Gia Lâm: giá và cách nhận xe Nguyễn Tú",
         "why": "stale",
-        "content_hash": "b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538",
+        "content_hash": "6e8e3642aed27cd0f35c4dc19df3adf22668ca6e4d469dd846fe73662e851a99",
+        "jaccard": 0.003,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 920,
+        "title": "Thuê xe máy Times City: giá và cách hẹn nhận xe",
+        "why": "stale",
+        "content_hash": "c3d0d0eee3186a38546e8f928d421e362211a8ef55fefbc69e7a5f337255ec4d",
         "jaccard": 0.002,
         "intent_match": null,
         "verdict": "INDEPENDENT"
@@ -166,19 +175,18 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-22T17:59:13.637885+00:00",
-  "live_links_checked": false,
+  "at": "2026-10-22T20:26:34.629229+00:00",
+  "live_links_checked": true,
   "legal_required": true,
   "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-  "inventory_sha256": "4f6816644e2af77c867c80cb6848bccfecfb11765531fccc9a10a9e552a43a68",
-  "incremental_key": "4280cf891626a19918cbfaa56759b47056f1c43b41367ace2688d33b9e5efa42",
+  "inventory_sha256": "b5a9d7e1a905b13deefe4b40f556e3c6e52114cf0ece1a60a1b6390ee3b1f331",
   "triage": {
     "hold_class": "REAL_RISK",
     "real_risk": [
       "G4: existing URL collision:4344",
       "G4: Near duplicate existing:4344",
       "G4: near topic:NT-001109",
-      "G4: reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538",
+      "G4: reviewed full-content evidence stale or missing: 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 875=6e8e3642aed27cd0f35c4dc19df3adf22668ca6e4d469dd846fe73662e851a99, 920=c3d0d0eee3186a38546e8f928d421e362211a8ef55fefbc69e7a5f337255ec4d",
       "G4: nearest full content not reviewed"
     ],
     "writer_repair": [],

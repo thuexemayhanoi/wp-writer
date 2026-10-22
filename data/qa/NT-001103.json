@@ -63,7 +63,7 @@
         "Near duplicate existing:4346"
       ],
       "review": [
-        "reviewed full-content evidence stale or missing: 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 2055=7d1e35643517ac7dd14b5f4764532a79b79d0058b53ef18b878430d4531b97d7",
+        "reviewed full-content evidence stale or missing: 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=ec68fc98c8f71d13bc3b8499cd2861d12223b5ae0c33566e3f3868a83f1e0e01, 841=a1f48176e7383239f13a9116e9457f24a131094a960a3be2ef7581e2ab3d2bf1, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78",
         "nearest full content not reviewed"
       ]
     },
@@ -81,7 +81,7 @@
     "Near duplicate existing:4346"
   ],
   "review": [
-    "reviewed full-content evidence stale or missing: 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 2055=7d1e35643517ac7dd14b5f4764532a79b79d0058b53ef18b878430d4531b97d7",
+    "reviewed full-content evidence stale or missing: 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=ec68fc98c8f71d13bc3b8499cd2861d12223b5ae0c33566e3f3868a83f1e0e01, 841=a1f48176e7383239f13a9116e9457f24a131094a960a3be2ef7581e2ab3d2bf1, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78",
     "nearest full content not reviewed"
   ],
   "source_evidence": [
@@ -123,20 +123,20 @@
   "evidence_recheck": {
     "pages": [
       {
+        "id": 841,
+        "title": "Thuê xe máy Hoàn Kiếm: nhận xe gần Hồ Gươm tại Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "a1f48176e7383239f13a9116e9457f24a131094a960a3be2ef7581e2ab3d2bf1",
+        "jaccard": 0.002,
+        "intent_match": "FAIL",
+        "verdict": "OVERLAP"
+      },
+      {
         "id": 1060,
         "title": "Thuê Xe Máy Theo Tháng Hà Nội – Giá Rẻ, Xe Ga Xe Số",
         "why": "stale",
-        "content_hash": "b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538",
+        "content_hash": "ec68fc98c8f71d13bc3b8499cd2861d12223b5ae0c33566e3f3868a83f1e0e01",
         "jaccard": 0.002,
-        "intent_match": null,
-        "verdict": "INDEPENDENT"
-      },
-      {
-        "id": 2055,
-        "title": "App Thuê Xe Máy Hà Nội Nguyễn Tú – Chọn Xe & Tính Giá Nhanh",
-        "why": "stale",
-        "content_hash": "7d1e35643517ac7dd14b5f4764532a79b79d0058b53ef18b878430d4531b97d7",
-        "jaccard": 0.001,
         "intent_match": null,
         "verdict": "INDEPENDENT"
       },
@@ -172,18 +172,17 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-22T17:59:15.277118+00:00",
-  "live_links_checked": false,
+  "at": "2026-10-22T20:26:53.884201+00:00",
+  "live_links_checked": true,
   "legal_required": true,
   "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-  "inventory_sha256": "4f6816644e2af77c867c80cb6848bccfecfb11765531fccc9a10a9e552a43a68",
-  "incremental_key": "f4398254ad65bf926c820e6ba6ed9be55a7335aead2313c99f88b23d329ff7c1",
+  "inventory_sha256": "b5a9d7e1a905b13deefe4b40f556e3c6e52114cf0ece1a60a1b6390ee3b1f331",
   "triage": {
     "hold_class": "REAL_RISK",
     "real_risk": [
       "G4: existing URL collision:4346",
       "G4: Near duplicate existing:4346",
-      "G4: reviewed full-content evidence stale or missing: 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 2055=7d1e35643517ac7dd14b5f4764532a79b79d0058b53ef18b878430d4531b97d7",
+      "G4: reviewed full-content evidence stale or missing: 4346=a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee, 1060=ec68fc98c8f71d13bc3b8499cd2861d12223b5ae0c33566e3f3868a83f1e0e01, 841=a1f48176e7383239f13a9116e9457f24a131094a960a3be2ef7581e2ab3d2bf1, 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78",
       "G4: nearest full content not reviewed"
     ],
     "writer_repair": [],

@@ -1,16 +1,16 @@
 # Pipeline board
 
-Generated 2026-10-22T20:17:50.475160+00:00 from leases, drafts, QA records, receipts and the ledger.
+Generated 2026-10-22T20:28:49.467254+00:00 from leases, drafts, QA records, receipts and the ledger.
 
 | State | Count |
 |---|---|
-| WRITING | 44 |
+| WRITING | 41 |
 | QA | 0 |
 | READY | 0 |
 | REPAIR | 0 |
 | HELD | 3 |
 | PUBLISHING | 0 |
-| VERIFIED | 823 |
+| VERIFIED | 826 |
 
 Ready backlog (QA PASS waiting for the Publisher): **0**
 
@@ -18,7 +18,6 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 
 | Topic | State | Slot | Session | Reason |
 |---|---|---|---|---|
-| NT-001942 | WRITING | W2 | seodev-w90 | leased to seodev-w90 |
 | NT-001943 | WRITING | W2 | seodev-w90 | leased to seodev-w90 |
 | NT-001944 | WRITING | W2 | seodev-w90 | leased to seodev-w90 |
 | NT-001945 | WRITING | W2 | seodev-w90 | leased to seodev-w90 |
@@ -41,12 +40,10 @@ Ready backlog (QA PASS waiting for the Publisher): **0**
 | NT-002090 | WRITING | W1 | seodev-w91 | leased to seodev-w91 |
 | NT-002144 | WRITING | W3 | seodev-w92 | leased to seodev-w92 |
 | NT-002145 | WRITING | W3 | seodev-w92 | leased to seodev-w92 |
-| NT-002146 | WRITING | W3 | seodev-w92 | leased to seodev-w92 |
 | NT-002147 | WRITING | W3 | seodev-w92 | leased to seodev-w92 |
 | NT-002148 | WRITING | W3 | seodev-w92 | leased to seodev-w92 |
 | NT-002149 | WRITING | W3 | seodev-w92 | leased to seodev-w92 |
 | NT-002150 | WRITING | W3 | seodev-w92 | leased to seodev-w92 |
-| NT-002172 | WRITING | W7 | seodev-w95 | leased to seodev-w95 |
 | NT-002173 | WRITING | W7 | seodev-w95 | leased to seodev-w95 |
 | NT-002174 | WRITING | W7 | seodev-w95 | leased to seodev-w95 |
 | NT-002175 | WRITING | W7 | seodev-w95 | leased to seodev-w95 |

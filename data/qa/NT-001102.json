@@ -63,7 +63,7 @@
         "Near duplicate existing:4345"
       ],
       "review": [
-        "reviewed full-content evidence stale or missing: 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 2055=7d1e35643517ac7dd14b5f4764532a79b79d0058b53ef18b878430d4531b97d7, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 857=ff038987475d1c5973af24c729ffdbc9e5c5499ac63cb30faeaeec38d4c88f28",
+        "reviewed full-content evidence stale or missing: 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 2055=f307734dfca47315a20c82839b36883199909fcd183f222a3a738193227510bc, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 857=3a9a490438e2389fffb4dbad30329195e0cc0548a3a44a0f3a2782f64e6bebed",
         "nearest full content not reviewed"
       ]
     },
@@ -81,7 +81,7 @@
     "Near duplicate existing:4345"
   ],
   "review": [
-    "reviewed full-content evidence stale or missing: 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 2055=7d1e35643517ac7dd14b5f4764532a79b79d0058b53ef18b878430d4531b97d7, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 857=ff038987475d1c5973af24c729ffdbc9e5c5499ac63cb30faeaeec38d4c88f28",
+    "reviewed full-content evidence stale or missing: 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 2055=f307734dfca47315a20c82839b36883199909fcd183f222a3a738193227510bc, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 857=3a9a490438e2389fffb4dbad30329195e0cc0548a3a44a0f3a2782f64e6bebed",
     "nearest full content not reviewed"
   ],
   "source_evidence": [
@@ -126,7 +126,7 @@
         "id": 857,
         "title": "Thuê Xe Máy Gần Ba Đình Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
         "why": "stale",
-        "content_hash": "ff038987475d1c5973af24c729ffdbc9e5c5499ac63cb30faeaeec38d4c88f28",
+        "content_hash": "3a9a490438e2389fffb4dbad30329195e0cc0548a3a44a0f3a2782f64e6bebed",
         "jaccard": 0.002,
         "intent_match": null,
         "verdict": "INDEPENDENT"
@@ -135,7 +135,7 @@
         "id": 2055,
         "title": "App Thuê Xe Máy Hà Nội Nguyễn Tú – Chọn Xe & Tính Giá Nhanh",
         "why": "stale",
-        "content_hash": "7d1e35643517ac7dd14b5f4764532a79b79d0058b53ef18b878430d4531b97d7",
+        "content_hash": "f307734dfca47315a20c82839b36883199909fcd183f222a3a738193227510bc",
         "jaccard": 0.003,
         "intent_match": null,
         "verdict": "INDEPENDENT"
@@ -163,18 +163,17 @@
     "max_jaccard": 0.25,
     "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
   },
-  "at": "2026-10-22T17:59:14.471458+00:00",
-  "live_links_checked": false,
+  "at": "2026-10-22T20:26:45.511841+00:00",
+  "live_links_checked": true,
   "legal_required": true,
   "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-  "inventory_sha256": "4f6816644e2af77c867c80cb6848bccfecfb11765531fccc9a10a9e552a43a68",
-  "incremental_key": "63075f6045589ee1bcf0af677a4abd75173f3b0b4d30c0b7d7230187f4dbfe91",
+  "inventory_sha256": "b5a9d7e1a905b13deefe4b40f556e3c6e52114cf0ece1a60a1b6390ee3b1f331",
   "triage": {
     "hold_class": "REAL_RISK",
     "real_risk": [
       "G4: existing URL collision:4345",
       "G4: Near duplicate existing:4345",
-      "G4: reviewed full-content evidence stale or missing: 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 2055=7d1e35643517ac7dd14b5f4764532a79b79d0058b53ef18b878430d4531b97d7, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 857=ff038987475d1c5973af24c729ffdbc9e5c5499ac63cb30faeaeec38d4c88f28",
+      "G4: reviewed full-content evidence stale or missing: 4345=fec2567b8d2cd10d9e7eab3d1809987b93058cb093f969f484e972c34cdc6437, 2055=f307734dfca47315a20c82839b36883199909fcd183f222a3a738193227510bc, 4344=dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78, 857=3a9a490438e2389fffb4dbad30329195e0cc0548a3a44a0f3a2782f64e6bebed",
       "G4: nearest full content not reviewed"
     ],
     "writer_repair": [],

@@ -1,29 +1,17 @@
 {
-  "at": "2026-10-22T20:17:50.475160+00:00",
+  "at": "2026-10-22T20:28:49.467254+00:00",
   "counts": {
-    "WRITING": 44,
+    "WRITING": 41,
     "QA": 0,
     "READY": 0,
     "REPAIR": 0,
     "HELD": 3,
     "PUBLISHING": 0,
-    "VERIFIED": 823
+    "VERIFIED": 826
   },
   "ready_backlog": 0,
-  "in_flight": 47,
+  "in_flight": 44,
   "items": [
-    {
-      "topic_id": "NT-001942",
-      "state": "WRITING",
-      "reason": "leased to seodev-w90",
-      "title": "Lễ hội đền Công đồng Bắc Lệ 2026: 27–29/10 ở Lạng Sơn, chính hội ngày 29/10",
-      "slot": "W2",
-      "session": "seodev-w90",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
     {
       "topic_id": "NT-001943",
       "state": "WRITING",
@@ -289,18 +277,6 @@
       "seo_score": null
     },
     {
-      "topic_id": "NT-002146",
-      "state": "WRITING",
-      "reason": "leased to seodev-w92",
-      "title": "Xe máy bốc cháy khi đang chạy: tắt khóa điện, khóa xăng, tránh xa và báo cứu hỏa",
-      "slot": "W3",
-      "session": "seodev-w92",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
       "topic_id": "NT-002147",
       "state": "WRITING",
       "reason": "leased to seodev-w92",
@@ -343,18 +319,6 @@
       "title": "Bỏng ống xả xe máy: làm mát 20 phút bằng nước sạch, tránh mẹo và khi nào đi khám",
       "slot": "W3",
       "session": "seodev-w92",
-      "wp_id": null,
-      "url": null,
-      "qa_status": null,
-      "seo_score": null
-    },
-    {
-      "topic_id": "NT-002172",
-      "state": "WRITING",
-      "reason": "leased to seodev-w95",
-      "title": "Để quên đồ ở sân bay Nội Bài: tra cứu online, phòng nhận ở T1 và giấy tờ cần có",
-      "slot": "W7",
-      "session": "seodev-w95",
       "wp_id": null,
       "url": null,
       "qa_status": null,
@@ -9217,6 +9181,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-001942",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Lễ hội đền Công đồng Bắc Lệ 2026: 27–29/10 ở Lạng Sơn, chính hội ngày 29/10",
+      "slot": "W2",
+      "session": "seodev-w90",
+      "wp_id": 5009,
+      "url": "https://thuexemaynguyentu.com/le-hoi-den-cong-dong-bac-le-2026-27-29-10-o-lang-son-chinh-hoi-ngay-29-10/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-001961",
       "state": "VERIFIED",
       "reason": "publish",
@@ -9733,6 +9709,18 @@
       "seo_score": 100
     },
     {
+      "topic_id": "NT-002146",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Xe máy bốc cháy khi đang chạy: tắt khóa điện, khóa xăng, tránh xa và báo cứu hỏa",
+      "slot": "W3",
+      "session": "seodev-w92",
+      "wp_id": 5010,
+      "url": "https://thuexemaynguyentu.com/xe-may-boc-chay-khi-dang-chay-tat-khoa-dien-khoa-xang-tranh-xa-va-bao-cuu-hoa/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
       "topic_id": "NT-002171",
       "state": "VERIFIED",
       "reason": "publish",
@@ -9741,6 +9729,18 @@
       "session": "seodev-w95",
       "wp_id": 4887,
       "url": "https://thuexemaynguyentu.com/tu-nha-ga-t1-sang-t2-noi-bai-xe-buyt-mien-phi-chay-den-may-gio-va-don-o-dau/",
+      "qa_status": "PASS",
+      "seo_score": 100
+    },
+    {
+      "topic_id": "NT-002172",
+      "state": "VERIFIED",
+      "reason": "publish",
+      "title": "Để quên đồ ở sân bay Nội Bài: tra cứu online, phòng nhận ở T1 và giấy tờ cần có",
+      "slot": "W7",
+      "session": "seodev-w95",
+      "wp_id": 5011,
+      "url": "https://thuexemaynguyentu.com/de-quen-do-o-san-bay-noi-bai-tra-cuu-online-phong-nhan-o-t1-va-giay-to-can-co/",
       "qa_status": "PASS",
       "seo_score": 100
     },
