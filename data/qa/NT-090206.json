@@ -1,0 +1,170 @@
+{
+  "topic_id": "NT-090206",
+  "status": "PASS",
+  "source_sha256": "f1b6d77d0d144f56bce1b6c544c791d4d4ca017f3e5f92701d15e3fccdc82f6d",
+  "body_sha256": "9c85671d5f51c5929b276b2a11498c862f75ceabdbbce3551e6f8768d0a89ba8",
+  "word_count": 2424,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://moc.gov.vn/vn/tin-tuc/1352/96792/tra-loi-cau-hoi-cua-doanh-nghiep-lien-quan-den-den-viec-bo-tri-bai-do-khu-vuc-sac-va-doi-pin-xe-dien-trong-xay-dung-nha-chung-cu.aspx",
+      "supports": "Văn bản trả lời ngày 9/9/2026 của Cục Quản lý nhà và thị trường bất động sản (Bộ Xây dựng), đăng 11/09/2026: Thông tư 31/2026/TT-BXD chưa có hiệu lực, từ 15/12/2026 việc bố trí khu vực để xe điện, khu sạc và khu đổi pin trong nhà chung cư và việc chuyển tiếp theo Sửa đổi 01:2026 QCVN 04:2021/BXD.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-feliz-II",
+      "supports": "Trang VinFast Feliz II (xe máy điện đổi pin): dung lượng pin 1.5 kWh, tùy chọn thêm một pin 1.5 kWh; dùng làm cơ sở cho phép tính minh họa quy các mức trần kWh ra số viên pin.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://moc.gov.vn/vn/tin-tuc/1352/96792/tra-loi-cau-hoi-cua-doanh-nghiep-lien-quan-den-den-viec-bo-tri-bai-do-khu-vuc-sac-va-doi-pin-xe-dien-trong-xay-dung-nha-chung-cu.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-feliz-II",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2352,
+        "title": "Xe máy điện có cần bằng lái không? Cách phân biệt theo công suất",
+        "why": "stale",
+        "content_hash": "8c5c200eacd4af62c6f482e36bad9112feb65d56c6bb4032d8dbae3c82a64876",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2390,
+        "title": "Giá pin xe máy điện VinFast và những chi phí người dùng nên biết",
+        "why": "stale",
+        "content_hash": "c435ce6e6e7b1791b32ee311f65ed49f872191baee5071a5d5a3aec71094aef3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2500,
+        "title": "Dấu hiệu xích xe máy quá chùng và cách kiểm tra trước khi đi xa",
+        "why": "stale",
+        "content_hash": "d061c138b067d5f2223950a7aaa38ebe11024f983962f728d69b56d64948608d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4059,
+        "title": "Thuê xe máy đi phỏng vấn ở Hà Nội trong một ngày: xếp lịch, chọn xe và trả đúng giờ",
+        "why": "stale",
+        "content_hash": "0ffbbff60edf006739890cca423af4e81cb5346ee434c29859648be6bdb57675",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:48:49.540334+00:00",
+  "live_links_checked": false,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "46f243ef8692ba216bb795abc31099503f912b5358444ec7d363ccffc64a37ca",
+  "incremental_key": "27628ee37428010c5aefd850e6066bebba0fed1efa25aca929d778b9cfc2f368",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

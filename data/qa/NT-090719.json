@@ -1,0 +1,234 @@
+{
+  "topic_id": "NT-090719",
+  "status": "PASS",
+  "source_sha256": "0c0467e9accacaf25a3f1e58545f6cdea9090293f041110321545342e47d2c7f",
+  "body_sha256": "1dbb063781ecca822420e3e12d425f0a83cd96b8ed2092c66df6366a40d8fcf7",
+  "word_count": 2296,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://phocohanoi.hoankiem.vn/tin-tuc/su-kien/tuyen-pho-thong-minh",
+      "supports": "Trang chính thức của Ban Quản lý Hồ Hoàn Kiếm và Phố cổ Hà Nội (UBND phường Hoàn Kiếm), đăng 10/10/2026: mô hình thí điểm ra mắt tối 9/10 trên trục Hàng Đào - Hàng Ngang - Hàng Đường - Đồng Xuân - Hàng Giấy với 562 cơ sở kinh doanh, Wi-Fi miễn phí, mã QR trên biển tên phố nối tới chuyên trang song ngữ và Chatbot AI, bản đồ số GPS và ảnh 360°.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://phocohanoi.hoankiem.vn/tuyen-pho/hang-dao",
+      "supports": "Trang phố Hàng Đào của Ban Quản lý: dài khoảng 260 mét, nối phố Hàng Ngang với khu vực Hàng Gai-Cầu Gỗ, gần hồ Hoàn Kiếm.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://phocohanoi.hoankiem.vn/tuyen-pho/hang-ngang",
+      "supports": "Trang phố Hàng Ngang của Ban Quản lý: dài khoảng 152 mét, nối Hàng Đào với Hàng Đường, có ngôi nhà số 48.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://phocohanoi.hoankiem.vn/tuyen-pho/hang-duong",
+      "supports": "Trang phố Hàng Đường của Ban Quản lý: dài khoảng 180 mét, nối Hàng Ngang với Đồng Xuân, cắt qua ngã tư Hàng Cá-Ngõ Gạch.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://phocohanoi.hoankiem.vn/tuyen-pho/pho-dong-xuan",
+      "supports": "Trang phố Đồng Xuân của Ban Quản lý: dài khoảng 170 mét, nối tiếp Hàng Đường, đi qua trước cửa chợ Đồng Xuân.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://phocohanoi.hoankiem.vn/tuyen-pho/hang-giay",
+      "supports": "Trang phố Hàng Giấy của Ban Quản lý: dài hơn 200 mét, nối tiếp phố Đồng Xuân về phía phố Hàng Đậu.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://phocohanoi.hoankiem.vn/tin-tuc/su-kien/tuyen-pho-thong-minh",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://phocohanoi.hoankiem.vn/tuyen-pho/hang-dao",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://phocohanoi.hoankiem.vn/tuyen-pho/hang-ngang",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://phocohanoi.hoankiem.vn/tuyen-pho/hang-duong",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://phocohanoi.hoankiem.vn/tuyen-pho/pho-dong-xuan",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://phocohanoi.hoankiem.vn/tuyen-pho/hang-giay",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 841,
+        "title": "Dịch vụ Cho Thuê Xe Máy Hà Nội Gần Hồ Hoàn Kiếm",
+        "why": "stale",
+        "content_hash": "2fd8a54dd17f2343bb342755c3d523dae5e4a63d02a06fdc3073e6e3bc357a05",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 1060,
+        "title": "Thuê Xe Máy Theo Tháng Hà Nội – Giá Rẻ, Xe Ga Xe Số",
+        "why": "stale",
+        "content_hash": "b9093ffb8929e94ade6e62cdca92a3411593ec7dfe3e8b2ff47c461f1fb4e538",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2582,
+        "title": "Xe nào phù hợp chạy trong phố Hà Nội? Gợi ý theo từng nhu cầu",
+        "why": "stale",
+        "content_hash": "0f62d1c774af57a3c896ffd697700d31e6892614883dbc70f9970230ae26d134",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2613,
+        "title": "Thuê Xe Máy Du Lịch Hà Nội: Hướng Dẫn Toàn Diện Từ A–Z Cho Người Lần Đầu",
+        "why": "stale",
+        "content_hash": "bba381bbf7c63d362331437ee0e9ba63294ca01b4eb144c43fe71ca1f20731a0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:48:51.117523+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "46f243ef8692ba216bb795abc31099503f912b5358444ec7d363ccffc64a37ca",
+  "incremental_key": "7846fdaa4ae25780a258f1cf140b58eb21be47ba610a6e52bf7c2fc5d50873ce",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
