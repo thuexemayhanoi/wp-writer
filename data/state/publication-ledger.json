@@ -29781,7 +29781,7 @@
       }
     },
     "NT-001453": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T03:48:25.636204+00:00",
       "source_hash": "7b95d9bb298930b761d4d45f1a535ddee0ee03ec90422e8379b5d66cd93cfb78",
       "slug": "xe-dap-dien-dung-pin-lithium-doi-chieu-nhan-ul-2849-ul-2271-voi-thong-tin-hang",
@@ -29797,8 +29797,37 @@
       "category_warning": null,
       "git_commit": "4088a3633258e497a21f5d954f4ae6fbebc616d4",
       "run_id": "39718326411",
-      "updated_at": "2026-10-22T03:48:29.960251+00:00",
-      "wp_id": 4675
+      "updated_at": "2026-10-22T03:48:36.147142+00:00",
+      "wp_id": 4675,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/xe-dap-dien-dung-pin-lithium-doi-chieu-nhan-ul-2849-ul-2271-voi-thong-tin-hang/",
+      "verified_at": "2026-10-22T03:48:36.147135+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4675,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/xe-dap-dien-dung-pin-lithium-doi-chieu-nhan-ul-2849-ul-2271-voi-thong-tin-hang/",
+        "categories": [
+          166
+        ],
+        "canonical": "https://thuexemaynguyentu.com/xe-dap-dien-dung-pin-lithium-doi-chieu-nhan-ul-2849-ul-2271-voi-thong-tin-hang/",
+        "seo_title": "Xe đạp điện dùng pin lithium: nhãn UL 2849, UL 2271 nghĩa là gì?",
+        "seo_description": "Xe đạp điện dùng pin lithium nhắc UL 2849, UL 2271: UL mô tả hai chuẩn này xét xe hay pin, vì sao thử theo chuẩn chưa là chứng nhận và cách đối chiếu thông tin hãng.",
+        "checked_at": "2026-10-22T03:48:36.147109+00:00"
+      }
     }
   },
   "categories": {}
