@@ -39042,7 +39042,7 @@
       }
     },
     "NT-090269": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T16:25:43.232221+00:00",
       "source_hash": "669d3759f613b86d9da46ed0a4b6704003f945c34c929d189ca4c31048513b12",
       "slug": "du-lich-bang-xe-dap-dien-thai-bao-nhieu-co2-moi-km-luoi-dien-0-6187-tco2-mwh-pin-640-wh",
@@ -39058,8 +39058,37 @@
       "category_warning": null,
       "git_commit": "f8052e8e8752a18473f6e50d49ad609ccb9029b7",
       "run_id": "39813289392",
-      "updated_at": "2026-10-22T16:25:48.047719+00:00",
-      "wp_id": 4892
+      "updated_at": "2026-10-22T16:25:54.606104+00:00",
+      "wp_id": 4892,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/du-lich-bang-xe-dap-dien-thai-bao-nhieu-co2-moi-km-luoi-dien-0-6187-tco2-mwh-pin-640-wh/",
+      "verified_at": "2026-10-22T16:25:54.606098+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4892,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/du-lich-bang-xe-dap-dien-thai-bao-nhieu-co2-moi-km-luoi-dien-0-6187-tco2-mwh-pin-640-wh/",
+        "categories": [
+          177
+        ],
+        "canonical": "https://thuexemaynguyentu.com/du-lich-bang-xe-dap-dien-thai-bao-nhieu-co2-moi-km-luoi-dien-0-6187-tco2-mwh-pin-640-wh/",
+        "seo_title": "Xe đạp điện thải bao nhiêu CO2 mỗi km? Cách tính từ hệ số 0,6187",
+        "seo_description": "Xe đạp điện thải bao nhiêu CO2 mỗi km: tính từ hệ số lưới điện 2024 là 0,6187 tCO2/MWh và pin 640 Wh, so với xe máy xăng, kèm những gì phép tính chưa gồm.",
+        "checked_at": "2026-10-22T16:25:54.606076+00:00"
+      }
     }
   },
   "categories": {}
