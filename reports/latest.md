@@ -4,22 +4,22 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 
 | Metric | Value |
 |---|---|
-| at | 2026-10-22T17:59:18.076788+00:00 |
+| at | 2026-10-22T20:03:26.663118+00:00 |
 | existing_published_posts | 969 |
 | existing_pages | 10 |
 | existing_products | 13 |
-| candidate_topics | 961 |
-| planned_topics | 882 |
-| claimable_topics | 15 |
-| ready_stock | 9 |
-| stock_stages | {'IDEA': 300, 'RESEARCH': 77, 'REJECTED': 2, 'PLANNED': 9, 'PLANNED_HOLD': 3, 'CLAIMED': 44, 'AUTHORED': 3, 'QA_PASS': 0, 'PUBLISHED': 823, 'WP_DRAFT': 0} |
+| candidate_topics | 971 |
+| planned_topics | 892 |
+| claimable_topics | 25 |
+| ready_stock | 19 |
+| stock_stages | {'IDEA': 300, 'RESEARCH': 77, 'REJECTED': 2, 'PLANNED': 19, 'PLANNED_HOLD': 3, 'CLAIMED': 44, 'AUTHORED': 3, 'QA_PASS': 0, 'PUBLISHED': 823, 'WP_DRAFT': 0} |
 | needs_research | True |
-| research_shortfall | 891 |
+| research_shortfall | 881 |
 | refill_trigger_below_ready | 900 |
 | refill_round_target | 100-200 |
 | refill_state | REFILL_IN_PROGRESS |
 | refill_order | RF-0007 |
-| refill_accepted_so_far | 61 |
+| refill_accepted_so_far | 71 |
 | writing | 53 |
 | draft_authored | 823 |
 | qa_pass | 820 |
@@ -38,8 +38,8 @@ Generated from manifest, lease registry, QA evidence and publication ledger.
 | empty_category_violations | 0 |
 | broken_links | None |
 | broken_links_note | No full HTTP crawl yet; inventory graph is not a broken-link proof |
-| remaining_topic_target | 118 |
-| remaining_candidate_target | 39 |
+| remaining_topic_target | 108 |
+| remaining_candidate_target | 29 |
 | delivery_mode | production |
 | production_enabled | True |
 | draft_staging_enabled | False |
