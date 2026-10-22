@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-22T07:13:33.579339+00:00",
-  "attempted": 4,
+  "at": "2026-10-22T07:27:08.906767+00:00",
+  "attempted": 2,
   "ready_backlog": 0,
   "batch_size": 2,
   "max_batches_per_run": 5,
@@ -191,11 +191,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T07:10:59.837315+00:00",
+      "at": "2026-10-22T07:25:40.730303+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "9ce4a135e187befd8f71bc8f093e9e59a401c913b77f863e09c11d14843d4ac2",
+      "inventory_sha256": "550c1c173f3151b5736d90b45d3fe755b7bea7bcff5fa65d23823fe223ff4bd9",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -380,11 +380,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T07:11:07.418067+00:00",
+      "at": "2026-10-22T07:25:47.905113+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "9ce4a135e187befd8f71bc8f093e9e59a401c913b77f863e09c11d14843d4ac2",
+      "inventory_sha256": "550c1c173f3151b5736d90b45d3fe755b7bea7bcff5fa65d23823fe223ff4bd9",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -577,11 +577,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T07:11:14.011514+00:00",
+      "at": "2026-10-22T07:25:54.024332+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "9ce4a135e187befd8f71bc8f093e9e59a401c913b77f863e09c11d14843d4ac2",
+      "inventory_sha256": "550c1c173f3151b5736d90b45d3fe755b7bea7bcff5fa65d23823fe223ff4bd9",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -601,35 +601,19 @@
       }
     },
     {
-      "topic_id": "NT-090059",
+      "topic_id": "NT-090242",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 167,
+      "category_id": 169,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "battery-charging",
+      "intended_taxonomy_key": "electric-transition",
       "category_warning": null
     },
     {
-      "topic_id": "NT-090393",
+      "topic_id": "NT-090593",
       "status": "WORDPRESS_PUBLISH",
-      "category_id": 175,
+      "category_id": 177,
       "category_resolution": "EXACT",
-      "intended_taxonomy_key": "trip-planning",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-090631",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 163,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "rental-procedures",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-090758",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 164,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "rental-costs",
+      "intended_taxonomy_key": "green-travel",
       "category_warning": null
     }
   ],

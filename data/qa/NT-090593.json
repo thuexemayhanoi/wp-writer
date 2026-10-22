@@ -1,0 +1,201 @@
+{
+  "topic_id": "NT-090593",
+  "status": "PASS",
+  "source_sha256": "b7777368e76b884ea48f0061f55c2da19cf08b48fe2bd1cfd424d4e0454a7134",
+  "body_sha256": "203f53ba1a8e42dd1de7e44d2c959ac8a49a0bbf89d3c460d080ab2647ffb000",
+  "word_count": 2412,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vr.com.vn/cac-quy-dinh/quy-dinh-ve-thu-tuc-giay-to-va-quy-cach-cua-hanh-ly-ky-gui.html",
+      "supports": "Trang Đường sắt Việt Nam về quy cách hành lý ký gửi (dẫn Điều 12 Thông tư 09/2018/TT-BGTVT): giới hạn mỗi kiện dài 2,5 m, rộng 0,5 m, 0,5 m³, 75 kg; xe đạp tính cước 50 kg/chiếc, xe đạp điện 100 kg/chiếc; đóng hòm kiện chắc chắn 1 m³ tính cước 250 kg; xe đạp, xe đạp điện không bắt buộc đóng bao gói.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vr.com.vn/cac-quy-dinh/quy-dinh-ve-kich-co-trong-luong-hanh-ly.html",
+      "supports": "Trang Đường sắt Việt Nam 'Quy định về kích cỡ, trọng lượng hành lý' (hiển thị 04/01/2019): hành lý xách tay miễn cước tối đa 20 kg, dài 0,8 m, rộng 0,5 m, thể tích 0,16 m³; vượt khối lượng thì xếp lên toa hành lý theo giá cước cơ bản hoặc mua vé bổ sung 1,3 lần giá cước cơ bản và tự bảo quản trên toa khách.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-33-2025-tt-bxd-quy-dinh-ve-quan-ly-khai-thac-van-tai-duong-sat--185676",
+      "supports": "CSDL quốc gia vbpl.vn, Thông tư 33/2025/TT-BXD (hiệu lực 01/01/2026, trạng thái 'Hết hiệu lực một phần', cập nhật 30/09/2026): hành lý ký gửi là hành lý gửi trên toa hành lý; khối lượng, kích thước, chủng loại hành lý xách tay miễn vé do doanh nghiệp vận tải quy định; Thông tư 09/2018/TT-BGTVT ở mục a của một danh sách có mục d ghi hết hiệu lực từ ngày thông tư mới có hiệu lực (câu dẫn đầu danh sách không hiện trong đoạn đã đọc nên người viết suy ra).",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/73-vbhn-bxd.signed.pdf",
+      "supports": "Văn bản hợp nhất đăng trên datafiles.chinhphu.vn (tháng 9/2026): Thông tư 33/2025/TT-BXD ngày 14/11/2025 có hiệu lực từ 01/01/2026, được sửa đổi bởi Thông tư 24/2026/TT-BXD ngày 20/5/2026 (hiệu lực 01/6/2026); người viết chỉ đọc phần đầu và tiêu đề Điều 90 'Quy định vận tải hành lý'.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vr.com.vn/cac-quy-dinh/quy-dinh-ve-thu-tuc-giay-to-va-quy-cach-cua-hanh-ly-ky-gui.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vr.com.vn/cac-quy-dinh/quy-dinh-ve-kich-co-trong-luong-hanh-ly.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-33-2025-tt-bxd-quy-dinh-ve-quan-ly-khai-thac-van-tai-duong-sat--185676",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/73-vbhn-bxd.signed.pdf",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2578,
+        "title": "Có nên mua xe máy cũ để đi ngắn hạn? Những điểm cần cân nhắc",
+        "why": "stale",
+        "content_hash": "2edb32e1617a09723b835349742c0b85646c6fe086eb11610946f0b304bbc7ff",
+        "jaccard": 0.002,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2596,
+        "title": "Những thứ cần kiểm tra trước khi nhận một chiếc xe máy sử dụng",
+        "why": "stale",
+        "content_hash": "26e2f6f6b72011f22f1c72c5d71add456975764e12b26f109f58c9c8e5e98b76",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2600,
+        "title": "Cách chọn xe máy phù hợp khi lịch trình chủ yếu di chuyển trong phố",
+        "why": "stale",
+        "content_hash": "782e81a248515b0121bb96f7a114ce29f0c8ceb33137bb7a23e8a4d857d27bfe",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4346,
+        "title": "Thuê xe máy phường Hoàn Kiếm: đi phố cổ chọn xe ga, xe số hay 50cc?",
+        "why": "stale",
+        "content_hash": "a9a666f513be5f13cb879cd4c92ad6add69113abf23908b75d58edbf06bae2ee",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T07:26:33.858315+00:00",
+  "live_links_checked": true,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "5d916dc9ffa8213b086023535ac7ebedfdbd080df78d0e84807bff8f5383df08",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
