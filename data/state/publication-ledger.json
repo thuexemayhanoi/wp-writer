@@ -36345,6 +36345,25 @@
         "seo_description": "Nhường đường ở ngã tư không có đèn theo Điều 22 Luật 36/2024: giảm tốc độ rồi nhường xe bên phải, đường nhánh nhường đường chính; xe máy vi phạm bị phạt 2–3 triệu đồng.",
         "checked_at": "2026-10-22T15:20:13.646497+00:00"
       }
+    },
+    "NT-001999": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T15:20:34.299815+00:00",
+      "source_hash": "dcbc8bd4c15d2d9e7c392304028123637c293c1dce9e9a73af97b7f4aa76fd76",
+      "slug": "tranh-xe-di-nguoc-chieu-bang-xe-may-xe-xuong-doc-phai-nhuong-xe-len-doc",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 161,
+      "visible_hash": "2cc26783aff89bbbb9360faa82a6cab85eacf1fcdd38ff619fceb84913666cd2",
+      "first_paragraph": "Tránh xe đi ngược chiều bằng xe máy theo Điều 17 Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15: trên đường không phân chia thành hai chiều xe chạy riêng biệt, hai xe đi ngược chiều tránh nhau phải giảm tốc độ và cho xe đi về bên phải theo chiều xe chạy của mình. Khi cần nhường, Điều 17 khoản 2 nêu ba trường hợp: nơi đường hẹp chỉ đủ một xe và có chỗ tránh thì xe nào ở gần chỗ tránh hơn phải vào vị trí tránh, xe xuống dốc phải nhường xe lên dốc, và xe có chướng ngại vật phía trước phải nhường xe không có chướng ngại vật. Theo toàn văn Điều 7 Nghị định 168/2024/NĐ-CP, không nhường đường cho xe đi ngược chiều ở nơi đường hẹp, đường dốc, nơi có chướng ngại vật bị phạt 200.000–400.000 đồng; nếu gây tai nạn thì khung phạt là 10–14 triệu đồng và trừ 10 điểm giấy phép lái xe.",
+      "meta_title": "Tránh xe đi ngược chiều bằng xe máy: xe xuống dốc nhường xe lên dốc",
+      "meta_description": "Tránh xe đi ngược chiều bằng xe máy theo Điều 17 Luật 36/2024: giảm tốc độ, đi về bên phải; xe xuống dốc nhường xe lên dốc, đường hẹp xe gần chỗ tránh hơn vào tránh.",
+      "intended_taxonomy_key": "road-safety",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "22028d2cf008f7aeaa28bfb5b6621e31b3af6f5a",
+      "run_id": "39802649994",
+      "updated_at": "2026-10-22T15:20:34.301259+00:00"
     }
   },
   "categories": {}
