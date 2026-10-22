@@ -1,22 +1,22 @@
 {
   "version": 1,
   "state": "REFILL_IN_PROGRESS",
-  "ready_stock": 24,
+  "ready_stock": 11,
   "trigger_below_ready": 900,
   "rounds_opened": 7,
   "unlimited_rounds": true,
   "approved_capacity": 2000,
-  "topic_rows": 933,
-  "capacity_remaining": 1067,
+  "topic_rows": 943,
+  "capacity_remaining": 1057,
   "order": {
     "id": "RF-0007",
     "round": 7,
     "target_min": 100,
     "target_max": 200,
-    "accepted_so_far": 33,
-    "remaining_to_min": 67,
-    "remaining_to_max": 167,
-    "batches_still_needed": 7,
+    "accepted_so_far": 43,
+    "remaining_to_min": 57,
+    "remaining_to_max": 157,
+    "batches_still_needed": 6,
     "batch_size": 10,
     "capacity_limited": false,
     "stalled": false,
@@ -113,10 +113,10 @@
     }
   },
   "dedupe_universe": {
-    "published_wordpress_items": 942,
-    "topics_in_factory": 933,
+    "published_wordpress_items": 952,
+    "topics_in_factory": 943,
     "topics_by_status": {
-      "PLANNED": 854,
+      "PLANNED": 864,
       "REJECTED": 2,
       "RESEARCH": 77
     },
