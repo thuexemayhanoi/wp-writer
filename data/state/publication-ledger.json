@@ -36494,7 +36494,7 @@
       }
     },
     "NT-090085": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:22:50.114291+00:00",
       "source_hash": "702f368aee4a4e3d92a365f8e831ae4fab51c6b3ddf0b47cccdc19674bbeb298",
       "slug": "ve-hai-van-quan-70-000-dong-tu-2-6-2026-tre-em-duoi-13-tuoi-hay-duoi-1-2-m-duoc-mien-phi",
@@ -36510,8 +36510,37 @@
       "category_warning": null,
       "git_commit": "22028d2cf008f7aeaa28bfb5b6621e31b3af6f5a",
       "run_id": "39802649994",
-      "updated_at": "2026-10-22T15:22:55.035847+00:00",
-      "wp_id": 4840
+      "updated_at": "2026-10-22T15:23:01.493167+00:00",
+      "wp_id": 4840,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/ve-hai-van-quan-70-000-dong-tu-2-6-2026-tre-em-duoi-13-tuoi-hay-duoi-1-2-m-duoc-mien-phi/",
+      "verified_at": "2026-10-22T15:23:01.493161+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4840,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/ve-hai-van-quan-70-000-dong-tu-2-6-2026-tre-em-duoi-13-tuoi-hay-duoi-1-2-m-duoc-mien-phi/",
+        "categories": [
+          173
+        ],
+        "canonical": "https://thuexemaynguyentu.com/ve-hai-van-quan-70-000-dong-tu-2-6-2026-tre-em-duoi-13-tuoi-hay-duoi-1-2-m-duoc-mien-phi/",
+        "seo_title": "Vé Hải Vân Quan 70.000 đồng: trẻ em dưới 13 tuổi hay dưới 1,2 m?",
+        "seo_description": "Giá vé Hải Vân Quan 70.000 đồng/người/lượt từ 2/6/2026 đến hết 2028; trẻ em miễn phí dưới 13 tuổi theo nghị quyết hay dưới 1,2 m theo VnExpress, bảy ngày miễn phí, giảm 50%.",
+        "checked_at": "2026-10-22T15:23:01.493139+00:00"
+      }
     }
   },
   "categories": {}
