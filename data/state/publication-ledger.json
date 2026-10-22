@@ -34877,7 +34877,7 @@
       }
     },
     "NT-001904": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T11:21:13.924684+00:00",
       "source_hash": "ac701965f05c8651e08bcd3fe0ed3271f83eccb6ef1301518e7793a49a1aa8dd",
       "slug": "gia-ve-chua-huong-mua-hoi-2026-huong-tich-long-van-tuyet-son-va-cap-treo",
@@ -34893,8 +34893,37 @@
       "category_warning": null,
       "git_commit": "abb53e9a25e04324f37450d57629e87b655db50f",
       "run_id": "39769304805",
-      "updated_at": "2026-10-22T11:21:18.082855+00:00",
-      "wp_id": 4807
+      "updated_at": "2026-10-22T11:21:23.940224+00:00",
+      "wp_id": 4807,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/gia-ve-chua-huong-mua-hoi-2026-huong-tich-long-van-tuyet-son-va-cap-treo/",
+      "verified_at": "2026-10-22T11:21:23.940217+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4807,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/gia-ve-chua-huong-mua-hoi-2026-huong-tich-long-van-tuyet-son-va-cap-treo/",
+        "categories": [
+          126
+        ],
+        "canonical": "https://thuexemaynguyentu.com/gia-ve-chua-huong-mua-hoi-2026-huong-tich-long-van-tuyet-son-va-cap-treo/",
+        "seo_title": "Giá vé chùa Hương mùa hội 2026: Hương Tích, Long Vân và cáp treo",
+        "seo_description": "Giá vé chùa Hương mùa hội 2026: tuyến Hương Tích 230.000 đồng, Long Vân - Tuyết Sơn, cáp treo, hai nguồn lệch ở vé trẻ em và vì sao mùa 2026 đã kết thúc.",
+        "checked_at": "2026-10-22T11:21:23.940200+00:00"
+      }
     }
   },
   "categories": {}
