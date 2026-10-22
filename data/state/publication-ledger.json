@@ -30465,6 +30465,25 @@
         "seo_description": "Mức tiêu hao nhiên liệu xe 50cc: đọc số định địa và WMTC của hãng (ví dụ Honda Super Cub 50 bản Nhật), cách quy ra lít mỗi tháng, tự đo và giới hạn khi dùng hằng ngày.",
         "checked_at": "2026-10-22T04:12:13.403828+00:00"
       }
+    },
+    "NT-001572": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T04:12:26.271799+00:00",
+      "source_hash": "f5b5d3d1f8592a699b5e29a5b2763ea55b1f05126bee41e96d71622cf424441f",
+      "slug": "quan-ly-phu-tai-khi-sac-xe-nguon-rieng-phan-vung-va-so-cho-sac-o-chung-cu",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 169,
+      "visible_hash": "f005ef0fe731c14ef5823b307bae1f1e447bbb64fbe40331463a5b1b1dfb9e66",
+      "first_paragraph": "Quản lý phụ tải khi sạc xe ở chung cư không phải một điều khoản riêng của Sửa đổi 01:2026 QCVN 04:2021/BXD mà là cách gọi gom của bài này cho ba lớp quy định. Lớp thứ nhất: hệ thống cấp điện cho khu sạc phải tách biệt với các phụ tải khác của tòa nhà, đủ công suất vận hành và có dự phòng mở rộng. Lớp thứ hai: số chỗ sạc trong mỗi phân vùng bị giới hạn, theo toàn văn quy chuẩn là tối đa 25 chỗ ô tô điện hoặc 50 chỗ xe hai bánh ở tầng bán hầm và tầng hầm, 30 hoặc 80 chỗ ở các tầng trên mặt đất. Lớp thứ ba: trụ sạc lắp trong tầng hầm có công suất danh định không quá 22 kW, kèm chức năng tự ngắt khi sạc bất thường và ngắt điện khẩn cấp.",
+      "meta_title": "Quản lý phụ tải khi sạc xe ở chung cư: nguồn riêng, số chỗ, 22 kW",
+      "meta_description": "Quản lý phụ tải khi sạc xe ở chung cư theo Sửa đổi 01:2026 QCVN 04:2021/BXD: nguồn điện riêng, giới hạn số chỗ sạc mỗi phân vùng, khoang cháy và trụ sạc 22 kW.",
+      "intended_taxonomy_key": "electric-transition",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "c9657e0c2092d90d90220c2c60a49d8afebb4906",
+      "run_id": "39720614350",
+      "updated_at": "2026-10-22T04:12:26.273669+00:00"
     }
   },
   "categories": {}
