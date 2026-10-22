@@ -35416,7 +35416,7 @@
       }
     },
     "NT-001997": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T11:32:11.636764+00:00",
       "source_hash": "cadbbda9c1cc1ef03dc667336ed7b64104be83bbde805bf01d967296002288c3",
       "slug": "re-trai-re-phai-bang-xe-may-nhuong-ai-dieu-15-va-muc-phat-1-2-trieu-dong",
@@ -35432,8 +35432,37 @@
       "category_warning": null,
       "git_commit": "f4508aea6eff23accf301ee9877a2549f6b4865f",
       "run_id": "39770550592",
-      "updated_at": "2026-10-22T11:32:16.179252+00:00",
-      "wp_id": 4818
+      "updated_at": "2026-10-22T11:32:23.028352+00:00",
+      "wp_id": 4818,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/re-trai-re-phai-bang-xe-may-nhuong-ai-dieu-15-va-muc-phat-1-2-trieu-dong/",
+      "verified_at": "2026-10-22T11:32:23.028345+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4818,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/re-trai-re-phai-bang-xe-may-nhuong-ai-dieu-15-va-muc-phat-1-2-trieu-dong/",
+        "categories": [
+          161
+        ],
+        "canonical": "https://thuexemaynguyentu.com/re-trai-re-phai-bang-xe-may-nhuong-ai-dieu-15-va-muc-phat-1-2-trieu-dong/",
+        "seo_title": "Rẽ trái, rẽ phải bằng xe máy nhường ai: Điều 15 và mức phạt",
+        "seo_description": "Rẽ trái, rẽ phải bằng xe máy nhường ai theo Điều 15 khoản 3 Luật 36/2024: người đi bộ, xe thô sơ, xe ngược chiều; không nhường bị phạt 1–2 triệu đồng, trừ 2 điểm.",
+        "checked_at": "2026-10-22T11:32:23.028327+00:00"
+      }
     }
   },
   "categories": {}
