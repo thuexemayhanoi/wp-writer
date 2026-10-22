@@ -1,0 +1,546 @@
+{
+  "topic_id": "NT-001962",
+  "status": "PASS",
+  "source_sha256": "b5ab385a7371b74e5e76d9a99d7e14ba18b761cc1d068f51faba0372ec30907f",
+  "body_sha256": "093b2e8be8fa315102d0d3e31e95064f2ecfee1f386735f46044bf076a828885",
+  "word_count": 2106,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "supports": "VnExpress (11/1/2023) nêu lễ cúng Táo quân ấn định ngày 23 tháng Chạp, không cần chọn giờ, cúng xong trước 23 giờ là được",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "supports": "Hà Nội Mới (14/1/2023) ghi Sở Tài nguyên và Môi trường Hà Nội đề nghị hạn chế đốt hương vàng mã và không vứt túi ni lông, rác xuống ao hồ sông",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "supports": "VnExpress (11/1/2023): lễ cúng ông Công, ông Táo từ 17 đến 23 tháng Chạp, lễ vật tùy gia đình nhưng phải có 3 bộ mũ áo, hài và cá chép",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "supports": "VnExpress: lễ vật phổ biến theo điều kiện từng gia đình",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "supports": "VnExpress: đặc biệt phải có 3 bộ mũ áo, hài và một hoặc 3 con cá chép (cá sống hoặc bằng giấy mã)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "supports": "VnExpress dẫn sách Việt Nam phong tục của Phan Kế Bính về mũ áo và cá chép làm ngựa cho Táo quân",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "supports": "VnExpress: gia chủ nên tự khấn, không cần sớ tấu",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "supports": "VnExpress: tục cũ vua quan cúng 23, thứ dân 24, ngư dân 25; gần đây có thể cúng từ 17 đến 23 tháng Chạp",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "supports": "VnExpress (chú thích ảnh): người dân thường thả cá ở sông vì sông chảy ra biển lớn, ao hồ ít được chọn hơn",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "supports": "VnExpress: điểm quan trọng nhất của lễ là tính giáo dục",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "supports": "VnExpress: một số địa phương Bắc Trung bộ không dùng canh trong lễ vật",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "supports": "VnExpress: tục cũ có đĩa bánh kẹo hoặc bát mật mía ở miền Bắc",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "supports": "VnExpress dẫn nhà nghiên cứu Nguyễn Hùng Vĩ: phong tục cúng Táo quân cơ bản thống nhất, chỉ khác ở dị bản sự tích",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "supports": "VnExpress: nguồn gốc tục thờ Ngũ tự",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "supports": "Hà Nội Mới (14/01/2023): các gia đình mua cá chép đỏ hoặc cá chép giấy cúng rồi hóa với ý nghĩa cá chép hóa rồng làm phương tiện cho Táo quân",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "supports": "Hà Nội Mới: ngày 23 tháng Chạp là nét văn hóa lâu đời tiễn Táo quân về Trời báo cáo công việc một năm",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "supports": "Hà Nội Mới: Sở Tài nguyên và Môi trường Hà Nội đề nghị hạn chế đốt hương, vàng mã; không thả sinh vật ngoại lai, không vứt túi ni lông, rác xuống ao, hồ, sông (khuyến nghị năm 2023)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "supports": "Hà Nội Mới: hành vi phản cảm khi phóng sinh (đổ cả xô, chậu cá từ cầu, vứt cá và túi ni lông từ xe máy)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "supports": "Hà Nội Mới: quận Hoàn Kiếm tuyên truyền ở 18 phường",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "supports": "Hà Nội Mới: khu vực cầu Chương Dương và hồ Hoàn Kiếm thường có nhiều người thả cá",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "supports": "Hà Nội Mới: kiểm tra 13 và 14/1/2023 cho thấy đa phần người dân thả cá xong để túi ni lông vào thùng rác",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "supports": "Hà Nội Mới: người dân xách xô ra hồ gần nhà thả cá thay vì dùng túi ni lông",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "supports": "Hà Nội Mới: khẩu hiệu Thả cá đi ni lông ở lại ở ngoại thành",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "supports": "Hà Nội Mới: các quận Hai Bà Trưng, Hà Đông, Ba Đình chỉ đạo tuyên truyền không thả túi ni lông, đồ thờ cúng xuống sông, hồ",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "supports": "Hà Nội Mới: tại hồ Tây có biển báo nhắc giữ gìn cảnh quan",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/nghi-thuc-cung-ong-cong-ong-tao-4419057.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://hanoimoi.vn/tha-ca-chep-dung-cach-tet-ong-cong-ong-tao-nhieu-chuyen-bien-tich-cuc-10895.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2381,
+        "title": "VinFast Evo có gì đáng chú ý? Đánh giá theo nhu cầu đi hằng ngày",
+        "why": "stale",
+        "content_hash": "c851a814cae42699ad2ea480aaa5a00f4dace79f20e59b496f4f870eece8687b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2622,
+        "title": "Hoàng thành Thăng Long có gì? Giá vé, giờ mở cửa và cách tham quan",
+        "why": "stale",
+        "content_hash": "1d198ab7452c92604271329801956283c798cb81955fe394ef94bb66188faaf3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2625,
+        "title": "Nhà tù Hỏa Lò Hà Nội: Giá vé, giờ mở cửa và kinh nghiệm đi tour đêm",
+        "why": "stale",
+        "content_hash": "fc86cac4da1911528d32104d0969754534fb81041738085bfe6eb76c69849a7a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2630,
+        "title": "Chùa Trấn Quốc Hà Nội: Lịch sử, giờ mở cửa và kinh nghiệm tham quan",
+        "why": "stale",
+        "content_hash": "1cedf563cfdadc1e4b3bafa07d97d0868a00d865df06edb4c401019a91229635",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4050,
+        "title": "Thuê xe máy đi làm theo ca ở Hà Nội: chọn giờ nhận, gửi xe và trả xe đúng hạn",
+        "why": "stale",
+        "content_hash": "f5a41002206250a00b0d4b19ec54ada261a36c020a5c2f89aa531c79304f4012",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:44:18.342935+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "83bb159e398e777b5d0f9faeaad55f5af01faaf95225fdd504472fc46a4b5365",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

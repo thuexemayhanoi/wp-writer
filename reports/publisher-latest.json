@@ -1,7 +1,7 @@
 {
-  "at": "2026-10-22T15:35:51.973628+00:00",
+  "at": "2026-10-22T15:46:55.383039+00:00",
   "attempted": 10,
-  "ready_backlog": 13,
+  "ready_backlog": 23,
   "batch_size": 2,
   "max_batches_per_run": 5,
   "batch_capacity": 10,
@@ -191,11 +191,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T15:29:07.676117+00:00",
+      "at": "2026-10-22T15:41:02.152971+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "e32d51f52a0751fcd38bef59ccbf82ec90fe5462412402ad2cecc192ded3919f",
+      "inventory_sha256": "acb7214a11da412f141a3d8d25ed5420e6cff78ff2c40027a36d86d5d151f1d3",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -380,11 +380,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T15:29:18.285534+00:00",
+      "at": "2026-10-22T15:41:10.224125+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "e32d51f52a0751fcd38bef59ccbf82ec90fe5462412402ad2cecc192ded3919f",
+      "inventory_sha256": "acb7214a11da412f141a3d8d25ed5420e6cff78ff2c40027a36d86d5d151f1d3",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -577,11 +577,11 @@
         "max_jaccard": 0.25,
         "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
       },
-      "at": "2026-10-22T15:29:26.664846+00:00",
+      "at": "2026-10-22T15:41:17.100073+00:00",
       "live_links_checked": true,
       "legal_required": true,
       "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
-      "inventory_sha256": "e32d51f52a0751fcd38bef59ccbf82ec90fe5462412402ad2cecc192ded3919f",
+      "inventory_sha256": "acb7214a11da412f141a3d8d25ed5420e6cff78ff2c40027a36d86d5d151f1d3",
       "triage": {
         "hold_class": "REAL_RISK",
         "real_risk": [
@@ -601,15 +601,7 @@
       }
     },
     {
-      "topic_id": "NT-001847",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 171,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "driving-licence",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001877",
+      "topic_id": "NT-001872",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 172,
       "category_resolution": "EXACT",
@@ -617,7 +609,7 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001878",
+      "topic_id": "NT-001873",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 172,
       "category_resolution": "EXACT",
@@ -625,7 +617,7 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001879",
+      "topic_id": "NT-001874",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 172,
       "category_resolution": "EXACT",
@@ -633,15 +625,7 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001880",
-      "status": "WORDPRESS_PUBLISH",
-      "category_id": 172,
-      "category_resolution": "EXACT",
-      "intended_taxonomy_key": "hanoi-travel",
-      "category_warning": null
-    },
-    {
-      "topic_id": "NT-001936",
+      "topic_id": "NT-001940",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 173,
       "category_resolution": "EXACT",
@@ -649,7 +633,7 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001937",
+      "topic_id": "NT-001941",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 173,
       "category_resolution": "EXACT",
@@ -657,7 +641,7 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001961",
+      "topic_id": "NT-001962",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 174,
       "category_resolution": "EXACT",
@@ -665,7 +649,7 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001965",
+      "topic_id": "NT-001963",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 174,
       "category_resolution": "EXACT",
@@ -673,7 +657,23 @@
       "category_warning": null
     },
     {
-      "topic_id": "NT-001966",
+      "topic_id": "NT-001964",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 174,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "food-culture",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001967",
+      "status": "WORDPRESS_PUBLISH",
+      "category_id": 174,
+      "category_resolution": "EXACT",
+      "intended_taxonomy_key": "food-culture",
+      "category_warning": null
+    },
+    {
+      "topic_id": "NT-001968",
       "status": "WORDPRESS_PUBLISH",
       "category_id": 174,
       "category_resolution": "EXACT",

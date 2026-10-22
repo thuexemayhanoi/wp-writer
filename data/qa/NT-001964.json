@@ -1,0 +1,535 @@
+{
+  "topic_id": "NT-001964",
+  "status": "PASS",
+  "source_sha256": "f69dd3a6827648a5e759488027fe16e51f458664fd63200e7a48b452bb7a00af",
+  "body_sha256": "826c401e1e785f36743658ff9d451862b97b58c2ca0a282a95d80b6c35ec61d3",
+  "word_count": 2000,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "supports": "Tuổi Trẻ (13/12/2025) ghi cuối tháng 10 đầu tháng 11 âm lịch người trồng đào tuốt lá để cây nở đúng dịp Tết",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "supports": "Tuổi Trẻ (3/3/2026) kể sau Tết làng đào Nhật Tân và quất Tứ Liên, phường Hồng Hà vào vụ mới",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "supports": "Tuổi Trẻ (13/12/2025): làng đào Nhật Tân đang cao điểm sản xuất, các nhà vườn tuốt lá, đánh đào lên chậu",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "supports": "Tuổi Trẻ (13/12/2025): đánh đào lên chậu vào ngày khô ráo, râm mát để tránh mất nước",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "supports": "Tuổi Trẻ (13/12/2025): đánh cây cần khéo léo giữ bầu đất và rễ tơ",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "supports": "Tuổi Trẻ (13/12/2025): giá thể trồng đào cần tơi xốp, giàu dinh dưỡng, thoát nước tốt",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "supports": "Tuổi Trẻ (13/12/2025): một số cây được chủ vườn điều chỉnh cho ra hoa sớm để phục vụ chơi đào trước Tết",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "supports": "Tuổi Trẻ (13/12/2025): theo người trồng đào năm đó thời tiết nhìn chung thuận lợi, đào sinh trưởng ổn định",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "supports": "Tuổi Trẻ (13/12/2025): làng quất Tứ Liên có 30 ha quất cảnh, mất khoảng 5 ha vì ngập lụt do mưa bão (lời Chủ tịch Hội Làng nghề)",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "supports": "Tuổi Trẻ (13/12/2025): người trồng quất dùng dây buộc cành theo dáng thế để chỉnh tán và giữ dáng cây",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "supports": "Tuổi Trẻ (13/12/2025): các kiểu dáng thế quất ôm gỗ lũa, quất lộ rễ, quất trồng trong chum",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "supports": "Tuổi Trẻ (13/12/2025): nhà vườn quất Tứ Liên tỉa cành, chỉnh dáng, chuẩn bị đưa hàng ra thị trường",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "supports": "Tuổi Trẻ (3/3/2026): phần lớn cây đào trồng lại sau Tết là cây cho thuê hoặc đã bán nhưng gửi lại vườn chăm sóc",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "supports": "Tuổi Trẻ (3/3/2026): trồng lại đào sau Tết, bổ sung đất phù sa, đưa cây từ chậu xuống đất không vỡ bầu đất",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "supports": "Tuổi Trẻ (3/3/2026): bón lót phân vi sinh, xử lý độ chua dưới hố trồng",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "supports": "Tuổi Trẻ (3/3/2026): cắt tỉa hết cành cũ, sau khoảng một tháng cây hồi mới bón thúc",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "supports": "Tuổi Trẻ (3/3/2026): năm 2026 nắng nóng, hoa đào nở sớm, đậu quả trong chậu khiến cây tiêu hao dinh dưỡng",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "supports": "Tuổi Trẻ (3/3/2026): sau Tết sâu bệnh phát sinh mạnh, đào dễ bị sâu ăn ngọn, nấm trắng trên thân",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "supports": "Tuổi Trẻ (3/3/2026): lời khuyên người tự trồng đào ở nhà sau Tết",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "supports": "Tuổi Trẻ (3/3/2026): chọn thuốc bảo vệ thực vật có nguồn gốc rõ ràng, được kiểm định",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "supports": "Tuổi Trẻ (3/3/2026): quất sau Tết bấm bỏ cành cũ, giữ bộ khung chính, khoảng tháng 4–5 ra hoa đậu quả",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "supports": "Tuổi Trẻ (3/3/2026): trồng quất trong chum, đất phù sa trộn chấu đốt và phân vi sinh, đáy chum lót xỉ than",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "supports": "Tuổi Trẻ (3/3/2026): quất để bàn tưới 2–3 lần/ngày, cây lớn trong chum to tưới 1 lần/ngày",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "supports": "Tuổi Trẻ (3/3/2026): phân bón phải căn liều lượng, thúc quá tay cây bị sốc",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "supports": "Tuổi Trẻ (3/3/2026): rệp muội hút nhựa khiến cây suy yếu, rụng lá",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "supports": "Tuổi Trẻ (3/3/2026): chiết cành quất giống từ tháng 10 năm trước, cắt ươm tháng 2–3 năm sau, xuất vườn sau khoảng một năm",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-lang-quat-ha-noi-tat-bat-vao-mua-tuot-la-uon-the-don-xuan-2025121310294685.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/lang-dao-nhat-tan-quat-tu-lien-tat-bat-vao-vu-moi-20260302202014003.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2417,
+        "title": "Xe máy điện Yadea có tốt không? Ưu nhược điểm người dùng cần biết",
+        "why": "stale",
+        "content_hash": "0164531f890f08be8f0da4a90ffbe1bc5d7ce5908bd8637d53cc98b9fed34354",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2630,
+        "title": "Chùa Trấn Quốc Hà Nội: Lịch sử, giờ mở cửa và kinh nghiệm tham quan",
+        "why": "stale",
+        "content_hash": "1cedf563cfdadc1e4b3bafa07d97d0868a00d865df06edb4c401019a91229635",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:45:29.458127+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "29cf5d7c2f4c98b72ed62a3ec7bc21d0d4646f5f10eac35160958c176118655f",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

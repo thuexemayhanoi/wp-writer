@@ -1,0 +1,266 @@
+{
+  "topic_id": "NT-090368",
+  "status": "PASS",
+  "source_sha256": "6f882a23ef201d080bdcfb1bbf84ced5b88a398b06d9da8025705819d9f1345b",
+  "body_sha256": "dcb8e8b33c1b1bc113b28508e24cf9855487b13741ce98bfeef754de503d8700",
+  "word_count": 2921,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://moit.gov.vn/van-ban-phap-luat/thong-tu-so-61-2026-tt-bct-ban-hanh-quy-chuan-ky-thuat-quoc-gia-ve-tru-sac-tram-sac-xe-dien.html",
+      "supports": "Trang văn bản của cổng thông tin điện tử Bộ Công Thương: Thông tư số 61/2026/TT-BCT ban hành QCVN về trụ sạc, trạm sạc xe điện, ngày hiệu lực 01/07/2027, trạng thái Chưa có hiệu lực (ô ngày ban hành ghi 26/09/2026).",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vioit.moit.gov.vn/vn/tin-hoat-dong-nganh/bo-cong-thuong-chinh-thuc-ban-hanh-quy-chuan-ky-thuat-quoc-gia-ve-tru-sac--tram-sac-xe-dien--qcvn-32-2026-bct--7161.4056.html",
+      "supports": "Bản tin của Viện Nghiên cứu Chiến lược, Chính sách Công Thương (moit.gov.vn): Thông tư 61/2026/TT-BCT có hiệu lực từ 01/7/2027.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vioit.moit.gov.vn/vn/tin-hoat-dong-nganh/bo-cong-thuong-chinh-thuc-ban-hanh-quy-chuan-ky-thuat-quoc-gia-ve-tru-sac--tram-sac-xe-dien--qcvn-32-2026-bct--7161.4056.html",
+      "supports": "Cùng bản tin: trạm sạc đã hoạt động trước 01/7/2027 phải rà soát yêu cầu an toàn trong 06 tháng.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vioit.moit.gov.vn/vn/tin-hoat-dong-nganh/bo-cong-thuong-chinh-thuc-ban-hanh-quy-chuan-ky-thuat-quoc-gia-ve-tru-sac--tram-sac-xe-dien--qcvn-32-2026-bct--7161.4056.html",
+      "supports": "Cùng bản tin: khắc phục nội dung chưa đáp ứng an toàn trong 24 tháng.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/cong-nghiep/qcvn-322026-bct-tru-sac-tram-sac-xe-dien-449313-d3.html",
+      "supports": "Bản chữ QCVN 32:2026/BCT trên luatvietnam.vn (trang tra cứu, không phải trang nhà nước): mục 3.2.1 vị trí trạm sạc không cản lối thoát nạn, đường xe chữa cháy, người đi bộ.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/cong-nghiep/qcvn-322026-bct-tru-sac-tram-sac-xe-dien-449313-d3.html",
+      "supports": "Mục 3.2.6: trụ sạc trên vỉa hè phải bảo đảm bề rộng thông thủy liên tục tối thiểu cho người đi bộ theo quy chuẩn hạ tầng kỹ thuật, không ghi số.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thuvienphapluat.vn/van-ban/Giao-thong-Van-tai/Thong-tu-61-2026-TT-BCT-Quy-chuan-ky-thuat-tru-sac-tram-sac-xe-dien-727527.aspx",
+      "supports": "Bản chữ Thông tư 61/2026/TT-BCT kèm QCVN 32:2026/BCT trên thuvienphapluat.vn (trang tra cứu, không phải trang nhà nước): Điều 2 hiệu lực 01/7/2027.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thuvienphapluat.vn/van-ban/Giao-thong-Van-tai/Thong-tu-61-2026-TT-BCT-Quy-chuan-ky-thuat-tru-sac-tram-sac-xe-dien-727527.aspx",
+      "supports": "Mục 3.3.9: bộ phận giữ cáp và đầu nối bố trí để cáp không chắn lối đi khi không sử dụng.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://moit.gov.vn/van-ban-phap-luat/thong-tu-so-61-2026-tt-bct-ban-hanh-quy-chuan-ky-thuat-quoc-gia-ve-tru-sac-tram-sac-xe-dien.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vioit.moit.gov.vn/vn/tin-hoat-dong-nganh/bo-cong-thuong-chinh-thuc-ban-hanh-quy-chuan-ky-thuat-quoc-gia-ve-tru-sac--tram-sac-xe-dien--qcvn-32-2026-bct--7161.4056.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vioit.moit.gov.vn/vn/tin-hoat-dong-nganh/bo-cong-thuong-chinh-thuc-ban-hanh-quy-chuan-ky-thuat-quoc-gia-ve-tru-sac--tram-sac-xe-dien--qcvn-32-2026-bct--7161.4056.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vioit.moit.gov.vn/vn/tin-hoat-dong-nganh/bo-cong-thuong-chinh-thuc-ban-hanh-quy-chuan-ky-thuat-quoc-gia-ve-tru-sac--tram-sac-xe-dien--qcvn-32-2026-bct--7161.4056.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/cong-nghiep/qcvn-322026-bct-tru-sac-tram-sac-xe-dien-449313-d3.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://luatvietnam.vn/cong-nghiep/qcvn-322026-bct-tru-sac-tram-sac-xe-dien-449313-d3.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thuvienphapluat.vn/van-ban/Giao-thong-Van-tai/Thong-tu-61-2026-TT-BCT-Quy-chuan-ky-thuat-tru-sac-tram-sac-xe-dien-727527.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://thuvienphapluat.vn/van-ban/Giao-thong-Van-tai/Thong-tu-61-2026-TT-BCT-Quy-chuan-ky-thuat-tru-sac-tram-sac-xe-dien-727527.aspx",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2395,
+        "title": "Trạm đổi pin VinFast hoạt động thế nào và phù hợp với ai khi dùng?",
+        "why": "stale",
+        "content_hash": "9f9843961c374c21766abd5bb5050f062102544f65af6bdc3a63b572f32ea88e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2417,
+        "title": "Xe máy điện Yadea có tốt không? Ưu nhược điểm người dùng cần biết",
+        "why": "stale",
+        "content_hash": "0164531f890f08be8f0da4a90ffbe1bc5d7ce5908bd8637d53cc98b9fed34354",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2556,
+        "title": "Xe 50cc có cần bằng lái không? Những điều người dùng nên biết",
+        "why": "stale",
+        "content_hash": "85f63cfb2d7697a412f723a528177739ab99f134cb6f7ab5a119b07d2e960498",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2613,
+        "title": "Thuê Xe Máy Du Lịch Hà Nội: Hướng Dẫn Toàn Diện Từ A–Z Cho Người Lần Đầu",
+        "why": "stale",
+        "content_hash": "bba381bbf7c63d362331437ee0e9ba63294ca01b4eb144c43fe71ca1f20731a0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:37:44.897977+00:00",
+  "live_links_checked": false,
+  "legal_required": true,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "b7bfbd7a819d62236c7c4f17590aa0af58b4902fd9452a3631ab4029160aa9cd",
+  "incremental_key": "cdee3fd6d81ec9f7d6654ec1067801966317454b7f23550b6cd940866d7ed114",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

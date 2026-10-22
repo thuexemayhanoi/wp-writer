@@ -1,0 +1,143 @@
+{
+  "topic_id": "NT-001971",
+  "status": "PASS",
+  "source_sha256": "0a4af6a30f8d97c0efcf616fcb1d59178f15036f6fd41df010163e2f28f6e33e",
+  "body_sha256": "1d136a2c252425085e7ad2d4f15b33dad61e42b51fcf1e0ba71cd9215cadfbd1",
+  "word_count": 2275,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://thanhnien.vn/giai-ma-chuyen-tra-da-via-he-o-mien-bac-185710097.htm",
+      "supports": "Thanh Niên (24/6/2024) kể nước đá vào Hà Nội từ nhà máy đá phố Trần Nhật Duật, tủ lạnh làm đá bán cho hàng nước chè và nói trước năm 1975 người Hà Nội không uống trà đá",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://ngoisao.vnexpress.net/tra-da-va-nhung-han-huyen-noi-via-he-ha-noi-4760742.html",
+      "supports": "Ngôi Sao VnExpress cho biết ngay cả người sống lâu năm ở Hà Nội cũng không biết trà đá bắt đầu xuất hiện từ bao giờ, nay là nét văn hóa vỉa hè",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://thanhnien.vn/giai-ma-chuyen-tra-da-via-he-o-mien-bac-185710097.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://ngoisao.vnexpress.net/tra-da-va-nhung-han-huyen-noi-via-he-ha-noi-4760742.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2622,
+        "title": "Hoàng thành Thăng Long có gì? Giá vé, giờ mở cửa và cách tham quan",
+        "why": "stale",
+        "content_hash": "1d198ab7452c92604271329801956283c798cb81955fe394ef94bb66188faaf3",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:37:40.753489+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "b7bfbd7a819d62236c7c4f17590aa0af58b4902fd9452a3631ab4029160aa9cd",
+  "incremental_key": "8055adafaae9cccebea072beb09fef488bc0defcf91945d39ae478e10a8a0786",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

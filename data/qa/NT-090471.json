@@ -1,0 +1,202 @@
+{
+  "topic_id": "NT-090471",
+  "status": "PASS",
+  "source_sha256": "91301cc9c9b3d227bab2dc663117f8ad73a2f9f6a06897971cf5da8f87ca4a47",
+  "body_sha256": "03bcabf4fa48748246cc37fdcdb15e09d0090f0f1d10b73557fbec13aa313ca5",
+  "word_count": 2026,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://www.sym.com.vn/san-pham/priti-50-35.html",
+      "supports": "Trang Priti 50 của SYM Việt Nam mô tả sàn để chân rộng 264mm, thuận tiện mang theo vali 20inch hay balo thú cưng; cùng trang ghi tải trọng cho phép 130 kg, khối lượng bản thân 93 kg, khối lượng toàn bộ 223 kg, 02 người kể cả người lái và cốp để được 02 nón nửa đầu.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sym.com.vn/san-pham/shark-efi-50-41.html",
+      "supports": "Trang Shark EFI 50 của SYM Việt Nam ghi cốp chứa được hai mũ bảo hiểm nửa đầu và các vật dụng cá nhân khác, sàn để chân rộng rãi không kèm số đo, tải trọng cho phép 130 kg, khối lượng bản thân 100 kg, khối lượng toàn bộ 230 kg và 02 người kể cả người lái.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sym.com.vn/san-pham/elegant-50-13.html",
+      "supports": "Trang Elegant 50 (xe số 4 số) của SYM Việt Nam ghi dòng 'Số người ngồi/ Tải trọng' là 2 người/130kg và tổng trọng lượng khô 95kg; trang không nhắc sàn để chân hay cốp.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sym.com.vn/san-pham/galaxy-50-12.html",
+      "supports": "Trang Galaxy 50 của SYM Việt Nam ghi hộc chứa đồ dưới yên để được mũ bảo hiểm nửa đầu, hộc chứa đồ trước để được các vật dụng nhỏ và dòng 'Số người ngồi/ Tải trọng' là 2 người/130kg.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://www.sym.com.vn/san-pham/priti-50-35.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sym.com.vn/san-pham/shark-efi-50-41.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sym.com.vn/san-pham/elegant-50-13.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.sym.com.vn/san-pham/galaxy-50-12.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 862,
+        "title": "Cho Thuê Xe Máy Gần Tây Hồ Hà Nội – Giá & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "b0b3ebf305a54ce7dd2071018d62d234aa1338aeb544eef72a5d63a841fba288",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 887,
+        "title": "Chi Phí Giao Xe Máy Tận Nơi Hà Nội – Cách Tính & Thủ Tục | Nguyễn Tú",
+        "why": "stale",
+        "content_hash": "6c27605fc8d85de1852488f84e098724f3408d70c6c8b62c581045e5fb205778",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2535,
+        "title": "Lịch bảo dưỡng xe máy Honda: các mốc nên kiểm tra theo thời gian",
+        "why": "stale",
+        "content_hash": "c705587e1fddf801c67af2ee8927918bea23539eb6755e4f4da4fe7ae47943cb",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2559,
+        "title": "Các loại bằng lái xe máy hiện nay và cách phân biệt từng hạng",
+        "why": "stale",
+        "content_hash": "1dbe75f2df7dd3b894e673123e9c56ffdda9c772f072b8cb4682f49b0f264d0e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:37:45.380604+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "b7bfbd7a819d62236c7c4f17590aa0af58b4902fd9452a3631ab4029160aa9cd",
+  "incremental_key": "63b0f139dea0b7e9e45677bfc01d82174fb8d392465b62118e38d6ed83211cac",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

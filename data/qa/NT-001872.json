@@ -1,0 +1,329 @@
+{
+  "topic_id": "NT-001872",
+  "status": "PASS",
+  "source_sha256": "4c80fe0a5619b17c69c9a0ab5c060e278cca8d668ebadc31d5660681e2a2cac4",
+  "body_sha256": "5e1da32dbfc851a5346d6aaefdb3f2ffd9244ab9c4bff2ee751ab4604c298789",
+  "word_count": 2214,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3090/76003/bao-tang-lich-su-quoc-gia-thong-bao-tam-thoi-djong-cua-mot-phan-he-thong-trung-bay-bao-tang-lich-su-quoc-gia-tai-so-01-trang-tien.html",
+      "supports": "Trang Bảo tàng Lịch sử Quốc gia (thông báo 25/11/2025, đọc 22/10/2026, runner đọc được): từ 15/12/2025 tạm đóng cửa một phần trưng bày và tạm dừng đón khách tại số 01 Tràng Tiền; cơ sở 216 Trần Quang Khải vẫn mở",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3090/76003/bao-tang-lich-su-quoc-gia-thong-bao-tam-thoi-djong-cua-mot-phan-he-thong-trung-bay-bao-tang-lich-su-quoc-gia-tai-so-01-trang-tien.html",
+      "supports": "Thông báo trên trang Bảo tàng Lịch sử Quốc gia (25/11/2025 08:26, đọc 22/10/2026): cơ sở 2 số 216 Trần Quang Khải vẫn mở cửa bình thường trong thời gian này, trưng bày lịch sử Việt Nam từ giữa thế kỷ XIX đến nay",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3090/76003/bao-tang-lich-su-quoc-gia-thong-bao-tam-thoi-djong-cua-mot-phan-he-thong-trung-bay-bao-tang-lich-su-quoc-gia-tai-so-01-trang-tien.html",
+      "supports": "Thông báo trên trang Bảo tàng Lịch sử Quốc gia (25/11/2025, đọc 22/10/2026): thời gian mở cửa trở lại cơ sở số 01 Tràng Tiền sẽ có thông báo sau",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3107/gio-mo-cua",
+      "supports": "Trang Giờ mở cửa của bảo tàng (đọc 22/10/2026, runner đọc được): sáng 8h00-12h00, chiều 13h30-17h, trừ thứ Hai, lễ trùng thứ Hai vẫn mở",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3107/gio-mo-cua",
+      "supports": "Trang Giờ mở cửa của Bảo tàng Lịch sử Quốc gia (không ghi ngày cập nhật, đọc 22/10/2026): sáng 8h00 đến 12h00, chiều 13h30 đến 17h",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3107/gio-mo-cua",
+      "supports": "Trang Giờ mở cửa (đọc 22/10/2026): nếu ngày nghỉ lễ trùng thứ Hai thì hệ thống trưng bày vẫn mở cửa; lịch Tết âm lịch có thông báo riêng",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3108/ve-va-le-phi",
+      "supports": "Trang Vé và lệ phí của bảo tàng (đọc 22/10/2026, runner đọc được, không ghi ngày cập nhật): 40.000 / 20.000 / 10.000 đồng, miễn, giảm 50%, lệ phí chụp ảnh quay phim; ghi vé gồm hai khu trưng bày",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3108/ve-va-le-phi",
+      "supports": "Trang Vé và lệ phí của Bảo tàng Lịch sử Quốc gia (không ghi ngày cập nhật, đọc 22/10/2026): vé người lớn 40.000đ/lượt, sinh viên và học viên 20.000đ, học sinh 10.000đ",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3108/ve-va-le-phi",
+      "supports": "Trang Vé và lệ phí (đọc 22/10/2026): miễn vé cho trẻ em dưới 6 tuổi và người khuyết tật đặc biệt nặng",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3108/ve-va-le-phi",
+      "supports": "Trang Vé và lệ phí (đọc 22/10/2026): lệ phí chụp ảnh 15.000đ/máy, quay phim 30.000đ/máy",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/nha-tu-hoa-lo-dong-kin-nguoi-tham-quan-bao-tang-lich-su-quoc-gia-co-so-2-mo-xuyen-le-100260831143754579.htm",
+      "supports": "Tuổi Trẻ (31/8/2026, đọc 22/10/2026, runner đọc được): cơ sở số 1 đang sửa chữa nên khách được hướng dẫn đến cơ sở 2; lịch mở cửa dịp Quốc khánh 29/8-2/9",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/nha-tu-hoa-lo-dong-kin-nguoi-tham-quan-bao-tang-lich-su-quoc-gia-co-so-2-mo-xuyen-le-100260831143754579.htm",
+      "supports": "Báo Tuổi Trẻ (31/8/2026, đọc 22/10/2026): dịp Quốc khánh từ 29-8 đến hết 2-9 cơ sở 2 mở cửa bình thường, sáng 8h-12h, chiều 13h30-17h",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3090/76003/bao-tang-lich-su-quoc-gia-thong-bao-tam-thoi-djong-cua-mot-phan-he-thong-trung-bay-bao-tang-lich-su-quoc-gia-tai-so-01-trang-tien.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3090/76003/bao-tang-lich-su-quoc-gia-thong-bao-tam-thoi-djong-cua-mot-phan-he-thong-trung-bay-bao-tang-lich-su-quoc-gia-tai-so-01-trang-tien.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3090/76003/bao-tang-lich-su-quoc-gia-thong-bao-tam-thoi-djong-cua-mot-phan-he-thong-trung-bay-bao-tang-lich-su-quoc-gia-tai-so-01-trang-tien.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3107/gio-mo-cua",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3107/gio-mo-cua",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3107/gio-mo-cua",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3108/ve-va-le-phi",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3108/ve-va-le-phi",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3108/ve-va-le-phi",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baotanglichsu.vn/vi/Articles/3108/ve-va-le-phi",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/nha-tu-hoa-lo-dong-kin-nguoi-tham-quan-bao-tang-lich-su-quoc-gia-co-so-2-mo-xuyen-le-100260831143754579.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://tuoitre.vn/nha-tu-hoa-lo-dong-kin-nguoi-tham-quan-bao-tang-lich-su-quoc-gia-co-so-2-mo-xuyen-le-100260831143754579.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2355,
+        "title": "Bao nhiêu tuổi được đi xe máy điện? Những điều cần biết",
+        "why": "stale",
+        "content_hash": "df4e397638303da8d179daafae395db634b027fd262d47406e50b3e2c2cf527c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2399,
+        "title": "Honda ICON e: có gì đáng chú ý với người dùng xe điện đô thị?",
+        "why": "stale",
+        "content_hash": "548de8447050fd0d5b76ead88b2cb93eeac7c91d679ca89f64b42afda3bc3023",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2517,
+        "title": "Xe ga rung khi tăng tốc do đâu? Các nguyên nhân thường gặp khi dùng",
+        "why": "stale",
+        "content_hash": "44f236046c1f74ea9761d7bd0ae2d3b0ea286bc2118a85e0aadf8beb2df1afc1",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2630,
+        "title": "Chùa Trấn Quốc Hà Nội: Lịch sử, giờ mở cửa và kinh nghiệm tham quan",
+        "why": "stale",
+        "content_hash": "1cedf563cfdadc1e4b3bafa07d97d0868a00d865df06edb4c401019a91229635",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:41:24.978294+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "acb7214a11da412f141a3d8d25ed5420e6cff78ff2c40027a36d86d5d151f1d3",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

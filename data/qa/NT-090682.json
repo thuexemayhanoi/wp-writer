@@ -1,0 +1,218 @@
+{
+  "topic_id": "NT-090682",
+  "status": "PASS",
+  "source_sha256": "73354823508d9e22eba884dcab5fafcc62a5afae071b8c1b6ec11d7aee61ed40",
+  "body_sha256": "de1746b406f8c1a676899b4a67d45fd45f211bf4ca04401275d09123471a275e",
+  "word_count": 2014,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://metrohanoi.vn/ha-noi-metro-ap-dung-bieu-do-chay-tau-voi-gio-cao-diem-moi-tu-ngay-9-2-2026-tren-02-tuyen-dsdt-2a-cat-linh-ha-dong-va-3-1-nhon-ga-ha-noi",
+      "supports": "Thông báo của Hà Nội Metro áp dụng từ 9/2/2026 cho cả tuyến 2A và 3.1: thời gian hoạt động giữ nguyên 5h30-22h00 hằng ngày, tàu 15 phút một chuyến từ 19h30 đến 22h00, 10 phút một chuyến vào cuối tuần và ngày lễ.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/station/cat-linh",
+      "supports": "Trang ga Cát Linh, mục Bảng giờ tàu: chạy tàu hàng ngày từ 5h30 đến 22h30 và Cát Linh - Yên Nghĩa khoảng 25,5 phút.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/station/cat-linh",
+      "supports": "Trang ga Cát Linh, mục Thông tin nhà ga trên cùng trang: thời gian chạy tàu hàng ngày dự kiến từ 5h00 đến 23h00.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/station/nhon",
+      "supports": "Trang ga Nhổn (tuyến 3), mục Bảng giờ tàu: lặp lại đoạn mô tả tuyến 2A với giờ dự kiến 5h00-23h00 và có câu Nhổn - Ga Hà Nội khoảng 20 phút, chú thích nguồn là thiết kế kỹ thuật tuyến 2A.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://transerco.com.vn/vi/tin-buyt/thong-bao-dieu-chinh-thoi-gian-hoat-dong-va-gian-cach-chay-xe-mot-so-tuyen-buyt-tu-ngay-0162026.html",
+      "supports": "Thông báo Transerco đăng 31/5/2026 (áp dụng từ 1/6/2026): tuyến 92 đóng bến 21h30 ở cả hai đầu, tuyến 96 đóng bến 21h00 ở đầu A và 20h50 ở đầu B, làm mốc so sánh giờ buýt với giờ metro.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://metrohanoi.vn/ha-noi-metro-ap-dung-bieu-do-chay-tau-voi-gio-cao-diem-moi-tu-ngay-9-2-2026-tren-02-tuyen-dsdt-2a-cat-linh-ha-dong-va-3-1-nhon-ga-ha-noi",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/station/cat-linh",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/station/cat-linh",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://metrohanoi.vn/station/nhon",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://transerco.com.vn/vi/tin-buyt/thong-bao-dieu-chinh-thoi-gian-hoat-dong-va-gian-cach-chay-xe-mot-so-tuyen-buyt-tu-ngay-0162026.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2461,
+        "title": "Yamaha Grande có ưu nhược điểm gì khi sử dụng trong thành phố?",
+        "why": "stale",
+        "content_hash": "9526d819fdd648a8f26ff9ae787179f2cfb4cc6ea0bab238f90056bcb0a335a7",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2580,
+        "title": "Đi Hà Nội nên chọn xe ga hay xe số để di chuyển thuận tiện hơn?",
+        "why": "stale",
+        "content_hash": "6aa38b717367fc0077cddd4330e078e59294b75c84a725df25d0c1ffd299712f",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2600,
+        "title": "Cách chọn xe máy phù hợp khi lịch trình chủ yếu di chuyển trong phố",
+        "why": "stale",
+        "content_hash": "782e81a248515b0121bb96f7a114ce29f0c8ceb33137bb7a23e8a4d857d27bfe",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4048,
+        "title": "Thuê xe máy Hà Nội khi xe cá nhân đang sửa: chọn kỳ thuê và gia hạn nếu gara trễ",
+        "why": "stale",
+        "content_hash": "5eaf7d3b4d760f2a4ab0df94807fe114a8927ceb0af3b0ea5d1d59453a46f20d",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:37:45.884623+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "b7bfbd7a819d62236c7c4f17590aa0af58b4902fd9452a3631ab4029160aa9cd",
+  "incremental_key": "9fd25f0fd42f829e9c3de8ebec18a015bd1f5532e402c8cebf81cbe5f3e24d4c",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

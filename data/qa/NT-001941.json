@@ -1,0 +1,210 @@
+{
+  "topic_id": "NT-001941",
+  "status": "PASS",
+  "source_sha256": "b75b7fc23228fc50363ec4e795506e498ca33e73d5555e1a12a939cdb1e82143",
+  "body_sha256": "f2d697e72c039909e2ad4566ffccbfed9cf37d2e9fa320a59b18f8cc39bab2d9",
+  "word_count": 2158,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://sodulich.ninhbinh.gov.vn/vi/tai-nguyen-du-lich-tu-nhien/kham-pha-hang-mua-ninh-binh-374.html",
+      "supports": "Trang Sở Du lịch Ninh Bình (14/8/2025): hang Múa dưới chân núi Múa thuộc phường Hoa Lư, rộng khoảng 800 m2, lên đỉnh phải leo 486 bậc, nhìn thấy Tràng An, Tam Cốc",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/ba-phien-ban-viet-cua-van-ly-truong-thanh-hut-khach-check-in-3895943.html",
+      "supports": "VnExpress 2019: hang Múa thuộc thôn Khê Đầu Hạ, xã Ninh Xuân, huyện Hoa Lư; lên đỉnh phải đi qua 486 bậc thang",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://ngoisao.vnexpress.net/4-diem-du-lich-ninh-binh-noi-tieng-ai-den-cung-phai-check-in-5081283.html",
+      "supports": "Ngôi Sao 3/6/2026: gần 500 bậc lên đỉnh núi Ngọa Long, leo khoảng 30 - 40 phút tùy thể lực, hang cách trung tâm thành phố khoảng 10 km; vé 150.000 đồng gồm cả khu đầm sen",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/du-lich/gia-ve-tham-quan-ninh-binh-dieu-chinh-cao-nhat-toi-300000-dong-215804.html",
+      "supports": "Báo Văn hóa 31/3/2026: Khu du lịch Hang Múa điều chỉnh vé từ 1/4/2026 lên 150.000 đồng/người (cũ 100.000 đồng), miễn phí trẻ dưới 1 m; Tràng An và Thung Nham cũng tăng giá vé trong năm 2026",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://sodulich.ninhbinh.gov.vn/vi/tai-nguyen-du-lich-tu-nhien/kham-pha-hang-mua-ninh-binh-374.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/ba-phien-ban-viet-cua-van-ly-truong-thanh-hut-khach-check-in-3895943.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://ngoisao.vnexpress.net/4-diem-du-lich-ninh-binh-noi-tieng-ai-den-cung-phai-check-in-5081283.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://baovanhoa.vn/du-lich/gia-ve-tham-quan-ninh-binh-dieu-chinh-cao-nhat-toi-300000-dong-215804.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 943,
+        "title": "Phố Cổ Hà Nội – Nơi Giao Thoa Văn Hóa Độc Đáo",
+        "why": "stale",
+        "content_hash": "94ed04161842457043a170418b41d6c31cc9b9522a3b85831cffd732ec7d987c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2393,
+        "title": "Thuê pin hay mua pin xe máy điện VinFast: phương án nào hợp lý?",
+        "why": "stale",
+        "content_hash": "b26adf50a482554d3cb08a77a5edd2ce3012f2ce554cb624584729fd43c82f18",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2507,
+        "title": "Chế chảy xăng do đâu? Dấu hiệu nhận biết và cách xử lý ban đầu",
+        "why": "stale",
+        "content_hash": "22253fe91355d6055381302fd78045e2b708effd15761afd43cac2531dcdd570",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2547,
+        "title": "Xe máy cũ mua lại có cần đổi biển số không? Các trường hợp cần biết",
+        "why": "stale",
+        "content_hash": "8e256c8d7edb51c20df3e42a005401c4640d03564a72f2e47b73d39dfade3fea",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2553,
+        "title": "Đăng ký biển số xe máy trực tuyến: hồ sơ và các bước cần chuẩn bị",
+        "why": "stale",
+        "content_hash": "07c18eff30a0c8796b3fd7944021fa719dc4afaaacb4f55eb99e40c062e94782",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:43:52.064470+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "e6368fd69bd99569a8db0d3a8242ddb529c81ba7d02f66e063c2d14e2f8e2e26",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

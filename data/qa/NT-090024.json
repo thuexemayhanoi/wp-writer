@@ -1,0 +1,227 @@
+{
+  "topic_id": "NT-090024",
+  "status": "PASS",
+  "source_sha256": "a1c432c91371bb92f48ab57ee81d42a1d23734bfd158ca0d7997c7c43838ec7f",
+  "body_sha256": "67452c95339930a0853855da0b0de6ea7c1c4b6faf3ad928e097aefaaf7c4ad7",
+  "word_count": 2735,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://manuals.plus/m/2e6c05deded53e1c43645599e6b0bc58979a6d5be4343c1731cb0491deea8469",
+      "supports": "Bản đăng lại trên manuals.plus của bảng Troubleshooting trong sách máy tính trên xe Bosch Purion BUI215, BUI350: mã 503 là Speed sensor fault, hãng dặn khởi động lại hệ thống và liên hệ đại lý Bosch eBike nếu vấn đề còn.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://manuals.plus/m/2e6c05deded53e1c43645599e6b0bc58979a6d5be4343c1731cb0491deea8469",
+      "supports": "Cùng bảng Troubleshooting: mã 504 là Speed signal distortion detected, hãng dặn kiểm tra nam châm nan hoa, kiểm tra can thiệp (tuning) và nói trợ lực bị giảm.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://manuals.plus/m/2e6c05deded53e1c43645599e6b0bc58979a6d5be4343c1731cb0491deea8469",
+      "supports": "Cùng bảng Troubleshooting: khi có lỗi người dùng vẫn có thể đi mà không trợ lực nhưng nên cho kiểm tra xe trước khi đi thêm.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://manuals.plus/m/4520839cf60366e6111db8e06ebf1b6fb9eb264691ad2aa6213f0b79cfd5dc43",
+      "supports": "Bản đăng lại trên manuals.plus của sách Drive Unit Bosch Performance Line CX BDU3740, BDU3741: nam châm đi qua cảm biến tốc độ mỏng với khe tối thiểu 2 mm, tối đa 15 mm.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://manuals.plus/m/4520839cf60366e6111db8e06ebf1b6fb9eb264691ad2aa6213f0b79cfd5dc43",
+      "supports": "Cùng sách: nam châm CenterLock chỉ tháo ra lắp lại tối đa năm lần.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://manuals.plus/m/2e6c05deded53e1c43645599e6b0bc58979a6d5be4343c1731cb0491deea8469",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://manuals.plus/m/2e6c05deded53e1c43645599e6b0bc58979a6d5be4343c1731cb0491deea8469",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://manuals.plus/m/2e6c05deded53e1c43645599e6b0bc58979a6d5be4343c1731cb0491deea8469",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://manuals.plus/m/4520839cf60366e6111db8e06ebf1b6fb9eb264691ad2aa6213f0b79cfd5dc43",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://manuals.plus/m/4520839cf60366e6111db8e06ebf1b6fb9eb264691ad2aa6213f0b79cfd5dc43",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2346,
+        "title": "Top xe máy điện đáng chú ý năm 2026 cho nhu cầu đi lại hằng ngày",
+        "why": "stale",
+        "content_hash": "c7b5d7cca26b30a8483ce0a25e3d5de7d28c48a734a1969cf0ab5c477bf745b6",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2349,
+        "title": "Xe máy điện giá bao nhiêu? Các nhóm giá phổ biến hiện nay",
+        "why": "stale",
+        "content_hash": "7cbacf7f21600cfcf6443eefa80b95d210de98f76fea5ef8dade3a018e9a3e6b",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2388,
+        "title": "Xe máy điện VinFast đi được bao nhiêu km sau mỗi lần sạc đầy?",
+        "why": "stale",
+        "content_hash": "e5285dab933a9e8523fa7f789f9bd5d57691724f1704aeef3c150a4cd22802f9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2515,
+        "title": "Bình ắc quy xe máy dùng được bao lâu? Khi nào nên kiểm tra lại?",
+        "why": "stale",
+        "content_hash": "26576df935c21a29be7d5e9013419bbd9273bc6c5f99f106848143996460de9a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2610,
+        "title": "Top địa điểm du lịch đẹp ở Hà Nội: Đi đâu, chơi gì và check-in ở đâu?",
+        "why": "stale",
+        "content_hash": "aa42ffbfca0e3b4188fde1e3cf3a06d9f9b9496580487304e5dbbd316db1a856",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:37:44.361229+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "b7bfbd7a819d62236c7c4f17590aa0af58b4902fd9452a3631ab4029160aa9cd",
+  "incremental_key": "fc2d284070eadef4b70c161e3262c8b1ad9f80e85d2c2a998aca0721d835ce8c",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "topic_id": "NT-085405",
+  "status": "PASS",
+  "source_sha256": "784a4e0bdb412cd2bdeaad42194a3354df6c7149c933b719f702973dedc54e65",
+  "body_sha256": "e52d6bd511d5ca10ec38c7c371e581c601d55d2a596e5fd23dba4e1c90fb9bd5",
+  "word_count": 2251,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://vinfastauto.com/vn_vi/cach-sac-pin-xe-may-dien-vinfast-evo200-lite",
+      "supports": "Trang hướng dẫn sạc VinFast Evo200 Lite (đọc 22/10/2026): pin 3.5 kWh (48 Ah), bộ sạc tiêu chuẩn 400 W, sạc 400 W khoảng 10 giờ từ 0–100% và khoảng 8 giờ từ 20–100%.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/cach-sac-pin-xe-may-dien-vinfast-evo200-lite",
+      "supports": "Bộ sạc 72V/5.5A cung cấp công suất điện tối đa khoảng 400W từ nguồn điện AC 220V/50Hz.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/cach-sac-pin-xe-may-dien-vinfast-evo200-lite",
+      "supports": "VinFast khuyên duy trì dung lượng pin từ 20% đến 80% để duy trì tuổi thọ pin.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.quangninh.gov.vn/So/socongthuong/Trang/ChiTietTinTuc.aspx?nid=4815",
+      "supports": "Sở Công Thương Quảng Ninh chép phụ lục Quyết định 1279/QĐ-BCT (hiệu lực 10/5/2025): giá điện sinh hoạt 6 bậc từ 1.984 đến 3.460 đồng/kWh; công tơ thẻ trả trước 2.909 đồng/kWh. Chỉ dùng bảng, không dùng dòng liệt kê cuối trang.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/quyet-dinh-so-14-2025-qd-ttg-quy-dinh-ve-co-cau-bieu-gia-ban-le-dien-119250531090419867.htm",
+      "supports": "Chinhphu.vn về Quyết định 14/2025/QĐ-TTg: Quyết định 28/2014/QĐ-TTg tiếp tục áp dụng đến ngày điều chỉnh mức giá bán lẻ điện bình quân gần nhất; biểu giá 5 bậc chỉ áp dụng từ ngày điều chỉnh đó.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/bo-cong-thuong-de-xuat-som-ap-bieu-gia-dien-sinh-hoat-5-bac-5135019.html",
+      "supports": "VnExpress 21/10/2026: biểu giá 5 bậc của Quyết định 14/2025 chưa được áp dụng do điều khoản chuyển tiếp; giá điện chưa điều chỉnh từ giữa năm 2025; điện sinh hoạt vẫn 6 bậc từ 1.984 đến 3.460 đồng/kWh chưa gồm VAT.",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://vinfastauto.com/vn_vi/cach-sac-pin-xe-may-dien-vinfast-evo200-lite",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/cach-sac-pin-xe-may-dien-vinfast-evo200-lite",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vinfastauto.com/vn_vi/cach-sac-pin-xe-may-dien-vinfast-evo200-lite",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://www.quangninh.gov.vn/So/socongthuong/Trang/ChiTietTinTuc.aspx?nid=4815",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://xaydungchinhsach.chinhphu.vn/quyet-dinh-so-14-2025-qd-ttg-quy-dinh-ve-co-cau-bieu-gia-ban-le-dien-119250531090419867.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/bo-cong-thuong-de-xuat-som-ap-bieu-gia-dien-sinh-hoat-5-bac-5135019.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 2388,
+        "title": "Xe máy điện VinFast đi được bao nhiêu km sau mỗi lần sạc đầy?",
+        "why": "stale",
+        "content_hash": "e5285dab933a9e8523fa7f789f9bd5d57691724f1704aeef3c150a4cd22802f9",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2434,
+        "title": "VinFast, Yadea, Dat Bike và Honda: nên chọn xe điện hãng nào?",
+        "why": "stale",
+        "content_hash": "b35cda3da31ac38a794aa3f6e6166f301fab579eba770d871db939fad7c4e99e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2569,
+        "title": "Xe ga tốn xăng hơn xe số bao nhiêu khi sử dụng trong thành phố?",
+        "why": "stale",
+        "content_hash": "0e0403a44ff6ce7c19068379c2905b55413b5e6b08f79ca8a2a469fd0114f8e0",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:37:43.836651+00:00",
+  "live_links_checked": false,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "b7bfbd7a819d62236c7c4f17590aa0af58b4902fd9452a3631ab4029160aa9cd",
+  "incremental_key": "4d518e4d33502e7bf477337429935692e565d3802a7f5d5b1f4612295199c085",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "topic_id": "NT-001940",
+  "status": "PASS",
+  "source_sha256": "5415f54ace328b40a0bb51e58090fefe77bfd600093424acbdba7e61002919d4",
+  "body_sha256": "0f826e97a8acf6e02689cc6f91d95f1cc975b8f8da22e55f1f91f34ce6c85185",
+  "word_count": 2354,
+  "quality_score": 100,
+  "seo_score": 100,
+  "seo_min_required": 76,
+  "seo_checks": {
+    "seo_title_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "meta_description_relevance": {
+      "points": 15,
+      "max": 15
+    },
+    "opening_intent_focus": {
+      "points": 15,
+      "max": 15
+    },
+    "direct_answer": {
+      "points": 10,
+      "max": 10
+    },
+    "headings_usefulness": {
+      "points": 15,
+      "max": 15
+    },
+    "verified_contextual_links": {
+      "points": 15,
+      "max": 15
+    },
+    "descriptive_anchor": {
+      "points": 5,
+      "max": 5
+    },
+    "canonical_identity": {
+      "points": 10,
+      "max": 10
+    }
+  },
+  "seo_recommendations": [],
+  "gates": {
+    "1": {
+      "errors": [],
+      "review": []
+    },
+    "2": {
+      "errors": [],
+      "review": []
+    },
+    "3": {
+      "errors": [],
+      "review": []
+    },
+    "4": {
+      "errors": [],
+      "review": []
+    },
+    "5": {
+      "errors": [],
+      "review": []
+    },
+    "6": {
+      "errors": [],
+      "review": []
+    }
+  },
+  "errors": [],
+  "review": [],
+  "source_evidence": [
+    {
+      "url": "https://tuoitre.vn/vinh-ha-long-30-nam-di-san-thien-nhien-the-gioi-20241212192728125.htm",
+      "supports": "Tuổi Trẻ 16/12/2024 (30 năm di sản): vịnh 1.553 km2 với 1.969 đảo; khu vực di sản 434 km2 gồm 775 đảo; du lịch tập trung ở hành trình 1 và 2 khoảng 143 km2",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/cuc-truong-cuc-di-san-van-hoa-775-hon-dao-o-vinh-ha-long-van-duoc-bao-ton-20231215222415919.htm",
+      "supports": "Dân trí 16/12/2023: Cục trưởng Cục Di sản văn hóa nêu vùng lõi 434 km2 và vùng đệm 306,5 km2 gồm 775 hòn đảo lớn nhỏ",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/cam-nang-du-lich-vinh-ha-long-4626380.html",
+      "supports": "Cẩm nang VnExpress (đăng 12/7/2023, cập nhật 12/6/2026): vịnh rộng hơn 1.500 km2 với hơn 2.000 hòn đảo lớn nhỏ",
+      "checked_at": "2026-10-22",
+      "live_checked": false,
+      "verification_method": "reference_only",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "source_advisories": [
+    {
+      "url": "https://tuoitre.vn/vinh-ha-long-30-nam-di-san-thien-nhien-the-gioi-20241212192728125.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://dantri.com.vn/thoi-su/cuc-truong-cuc-di-san-van-hoa-775-hon-dao-o-vinh-ha-long-van-duoc-bao-ton-20231215222415919.htm",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    },
+    {
+      "url": "https://vnexpress.net/cam-nang-du-lich-vinh-ha-long-4626380.html",
+      "warnings": [
+        "SOURCE_NOT_PROBED_AT_PUBLISH"
+      ]
+    }
+  ],
+  "evidence_recheck": {
+    "pages": [
+      {
+        "id": 952,
+        "title": "Chùa Một Cột – Kiến Trúc Độc Đáo Ngàn Năm Tại Hà Nội",
+        "why": "stale",
+        "content_hash": "31366a9378d9b2888c9cbc4751710f29186c73b59f0470f664a12f6e2665c835",
+        "jaccard": 0.001,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2355,
+        "title": "Bao nhiêu tuổi được đi xe máy điện? Những điều cần biết",
+        "why": "stale",
+        "content_hash": "df4e397638303da8d179daafae395db634b027fd262d47406e50b3e2c2cf527c",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2434,
+        "title": "VinFast, Yadea, Dat Bike và Honda: nên chọn xe điện hãng nào?",
+        "why": "stale",
+        "content_hash": "b35cda3da31ac38a794aa3f6e6166f301fab579eba770d871db939fad7c4e99e",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 2515,
+        "title": "Bình ắc quy xe máy dùng được bao lâu? Khi nào nên kiểm tra lại?",
+        "why": "stale",
+        "content_hash": "26576df935c21a29be7d5e9013419bbd9273bc6c5f99f106848143996460de9a",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      },
+      {
+        "id": 4344,
+        "title": "Thuê xe máy phường Bồ Đề: chọn Honda Vision hay Wave, nhận xe ở đâu?",
+        "why": "stale",
+        "content_hash": "dd75f500a96f1ca849eced82c2a8cd7ab0de7bc47bf8a135b295526c7e89ee78",
+        "jaccard": 0.0,
+        "intent_match": null,
+        "verdict": "INDEPENDENT"
+      }
+    ],
+    "independent": true,
+    "max_jaccard": 0.25,
+    "method": "text overlap with this article + full-corpus intent guard; evidence reasons lifted only when every page is independent"
+  },
+  "at": "2026-10-22T15:43:02.738006+00:00",
+  "live_links_checked": true,
+  "legal_required": false,
+  "rules_sha256": "2860d3027dd70724a196467d2b137af946fcc1a5e0d20e40c6e155577382f0ad",
+  "inventory_sha256": "9a946f2c9a98b68ed3bbeb25f684be7423b31ffa744731569d97bdbbb1a14a3d",
+  "triage": {
+    "hold_class": "NONE",
+    "real_risk": [],
+    "writer_repair": [],
+    "infra_pending": []
+  },
+  "recheck": {
+    "attempts": 0,
+    "max": 3,
+    "exhausted": false,
+    "needs_owner": false
+  }
+}
