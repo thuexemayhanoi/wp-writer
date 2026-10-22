@@ -37866,7 +37866,7 @@
       }
     },
     "NT-001974": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T15:55:45.653401+00:00",
       "source_hash": "0e53e8446ff114e58a6322361eadb027a216bbe3a051355de5ed2e831d1d8e48",
       "slug": "banh-phu-the-dinh-bang-vi-sao-goi-theo-cap-lam-bang-gi-va-de-duoc-bao-lau",
@@ -37882,8 +37882,37 @@
       "category_warning": null,
       "git_commit": "18322d4fb6c4e2fe50de87cdd8c8c8928ff2de0a",
       "run_id": "39808188049",
-      "updated_at": "2026-10-22T15:55:49.897778+00:00",
-      "wp_id": 4868
+      "updated_at": "2026-10-22T15:55:55.768240+00:00",
+      "wp_id": 4868,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/banh-phu-the-dinh-bang-vi-sao-goi-theo-cap-lam-bang-gi-va-de-duoc-bao-lau/",
+      "verified_at": "2026-10-22T15:55:55.768233+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4868,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/banh-phu-the-dinh-bang-vi-sao-goi-theo-cap-lam-bang-gi-va-de-duoc-bao-lau/",
+        "categories": [
+          174
+        ],
+        "canonical": "https://thuexemaynguyentu.com/banh-phu-the-dinh-bang-vi-sao-goi-theo-cap-lam-bang-gi-va-de-duoc-bao-lau/",
+        "seo_title": "Bánh phu thê Đình Bảng: vì sao gói theo cặp, làm gì và để mấy ngày",
+        "seo_description": "Bánh phu thê Đình Bảng làm từ nếp cái hoa vàng, nhân đỗ xanh dừa, gói theo cặp. Tích vua Lý, cách làm, ý nghĩa ba màu và hạn dùng theo hai bài báo.",
+        "checked_at": "2026-10-22T15:55:55.768213+00:00"
+      }
     }
   },
   "categories": {}
