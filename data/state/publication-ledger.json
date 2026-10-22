@@ -32964,6 +32964,25 @@
         "seo_description": "Mang xe đạp lên tàu hỏa: gửi toa hành lý, xe đạp tính cước 50 kg, xe đạp điện 100 kg theo trang Đường sắt Việt Nam, xách tay 20 kg, và vì sao con số cần hỏi lại tại ga.",
         "checked_at": "2026-10-22T07:26:44.054566+00:00"
       }
+    },
+    "NT-001661": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T09:28:23.503810+00:00",
+      "source_hash": "e0dfd9ef922f2c5999f8ac57ee3cde71c426a592ba145e2530fb197a4b7e6954",
+      "slug": "doi-lich-vi-chuyen-bay-tre-hang-phai-ho-tro-gi-theo-moc-gio-va-khach-nen-lam-gi",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 175,
+      "visible_hash": "1e339d857001185d9b410789f95798a15e7d1e654d63f3f673e59306ed8c9333",
+      "first_paragraph": "Đổi lịch vì chuyến bay trễ bắt đầu bằng việc biết chuyến bay có được tính là \"chậm\" hay không và hãng phải làm gì theo từng mốc giờ. Theo Điều 36 Nghị định 208/2026/NĐ-CP (hiệu lực từ 01/7/2026), chuyến bay chỉ bị tính là chậm khi giờ đi thực tế muộn hơn 15 phút so với lịch bay căn cứ. Từ mốc 2 giờ, hãng phải phục vụ nước uống hoặc phiếu tương đương; từ 3 giờ thêm đồ ăn hoặc phiếu; từ 4 giờ phải hoàn tiền vé nếu khách không đồng ý đổi chuyến và phải bồi thường ứng trước không hoàn lại, cả hai chỉ khi chậm do lỗi của hãng; từ 6 giờ phải bố trí nơi nghỉ hoặc chỗ ngủ. Các nghĩa vụ ăn, uống, nghỉ chỉ áp dụng cho khách có vé, đã xác nhận chỗ và có mặt tại cảng hàng không. Bài không nêu số tiền bồi thường, vì nghị định giao Bộ trưởng Bộ Xây dựng quy định riêng, và phần dời lịch trên mặt đất (chỗ nghỉ, điểm nhận xe) là gợi ý của người viết.",
+      "meta_title": "Đổi lịch vì chuyến bay trễ: hãng hỗ trợ gì theo mốc giờ, NĐ 208/2026",
+      "meta_description": "Đổi lịch vì chuyến bay trễ: Nghị định 208/2026 tính chậm từ 15 phút; hãng phải làm gì ở mốc 2, 3, 4, 6 giờ, điều kiện đi kèm và việc khách nên làm.",
+      "intended_taxonomy_key": "trip-planning",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "d7d0cbd4d61b69ff3bdbb166c0299bc855cce0b1",
+      "run_id": "39755164181",
+      "updated_at": "2026-10-22T09:28:23.505694+00:00"
     }
   },
   "categories": {}
