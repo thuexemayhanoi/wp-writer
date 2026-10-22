@@ -35024,7 +35024,7 @@
       }
     },
     "NT-001910": {
-      "phase": "VERIFY_PENDING",
+      "phase": "VERIFIED",
       "created_at": "2026-10-22T11:22:41.085656+00:00",
       "source_hash": "841f2702150de6a4e620fffa7a34b32f4ebdb6159e26ea891ca3360af4941479",
       "slug": "chua-vinh-nghiem-o-bac-giang-kho-moc-ban-gan-3-000-van-khac-hoi-14-thang-2",
@@ -35040,8 +35040,37 @@
       "category_warning": null,
       "git_commit": "abb53e9a25e04324f37450d57629e87b655db50f",
       "run_id": "39769304805",
-      "updated_at": "2026-10-22T11:22:44.990770+00:00",
-      "wp_id": 4810
+      "updated_at": "2026-10-22T11:22:50.580433+00:00",
+      "wp_id": 4810,
+      "status": "publish",
+      "url": "https://thuexemaynguyentu.com/chua-vinh-nghiem-o-bac-giang-kho-moc-ban-gan-3-000-van-khac-hoi-14-thang-2/",
+      "verified_at": "2026-10-22T11:22:50.580427+00:00",
+      "g7": {
+        "gate": "G7",
+        "status": "PASS",
+        "wp_id": 4810,
+        "checks": {
+          "wordpress_status": true,
+          "slug": true,
+          "title": true,
+          "category": true,
+          "ownership_marker": true,
+          "content": true,
+          "permalink": true,
+          "public_page": true,
+          "indexable": true,
+          "seo_meta": true
+        },
+        "wordpress_status": "publish",
+        "url": "https://thuexemaynguyentu.com/chua-vinh-nghiem-o-bac-giang-kho-moc-ban-gan-3-000-van-khac-hoi-14-thang-2/",
+        "categories": [
+          126
+        ],
+        "canonical": "https://thuexemaynguyentu.com/chua-vinh-nghiem-o-bac-giang-kho-moc-ban-gan-3-000-van-khac-hoi-14-thang-2/",
+        "seo_title": "Chùa Vĩnh Nghiêm ở Bắc Giang: kho mộc bản, chốn tổ Trúc Lâm, hội 14/2",
+        "seo_description": "Chùa Vĩnh Nghiêm ở Bắc Giang (chùa Đức La): vị trí ngã ba sông, kho mộc bản gần 3.000 bản khắc hay hơn 3.000 ván khắc theo hai nguồn, mốc xếp hạng và hội 14 tháng 2 âm lịch.",
+        "checked_at": "2026-10-22T11:22:50.580409+00:00"
+      }
     }
   },
   "categories": {}
