@@ -32376,6 +32376,25 @@
         "seo_description": "16 tuổi thuê xe 50cc: Điều 59 cho lái xe gắn máy, Điều 21 và 125 Bộ luật Dân sự về người đại diện, Điều 586 về cha mẹ bồi thường; bài không kết luận từng trường hợp.",
         "checked_at": "2026-10-22T06:31:34.209903+00:00"
       }
+    },
+    "NT-090404": {
+      "phase": "POST_INTENT",
+      "created_at": "2026-10-22T06:41:24.491912+00:00",
+      "source_hash": "7a1b7ea5adc6aa159163669b99a6e3308b1beab8b85a369b90816b2994bf145b",
+      "slug": "bien-bao-khu-vuc-sac-xe-dien-theo-qcvn-32-2026-bct-6-noi-dung-tu-1-7-2027-tram-trong-nha-ngoai-pham-vi",
+      "expected_status": "publish",
+      "pilot_id": null,
+      "category_id": 169,
+      "visible_hash": "78090ef019af58540448a8871f6cd5f9b1c034aafaff1cd171e57f16e5e32cb6",
+      "first_paragraph": "Biển báo khu vực sạc xe điện theo QCVN 32:2026/BCT được nêu ở mục 3.2.8: khu vực sạc phải có biển nhận biết trạm sạc, biển cảnh báo an toàn điện, hướng dẫn thao tác, chỉ dẫn vị trí dừng đỗ, thông tin hỗ trợ khẩn cấp, và vạch sơn hoặc dấu hiệu phân định ô sạc, tất cả \"rõ ràng, dễ quan sát vào ban ngày và ban đêm\". Đếm các thành phần liệt kê trong câu thì được sáu nội dung; đó là cách đếm của người viết, không phải con số do văn bản nêu. Quy chuẩn ban hành kèm Thông tư 61/2026/TT-BCT, có hiệu lực từ ngày 01/7/2027 nên chưa áp dụng ở thời điểm bài đọc nguồn (22/10/2026), và theo mục 1.1.5.1 không áp dụng cho trạm sạc bên trong công trình như tầng hầm, nhà để xe, khu đỗ xe trong nhà. Văn bản không nêu kích thước, màu sắc hay mẫu biển, và các mục về phạm vi chỉ nhắc ô tô điện cùng \"phương tiện đường bộ chạy điện tương tự\" mà không nêu riêng xe máy điện, nên bài không kết luận quy chuẩn có áp dụng cho trụ sạc xe máy điện hay không.",
+      "meta_title": "Biển báo khu vực sạc xe điện theo QCVN 32:2026/BCT: 6 nội dung",
+      "meta_description": "Biển báo khu vực sạc xe điện theo QCVN 32:2026/BCT: sáu nội dung ở mục 3.2.8, trạm nào thuộc phạm vi, khác biển I.428b ngoài đường; hiệu lực từ 1/7/2027.",
+      "intended_taxonomy_key": "electric-transition",
+      "category_resolution": "EXACT",
+      "category_warning": null,
+      "git_commit": "033998ab94f47addf57fdb5d33e97d5dda9e5903",
+      "run_id": "39735100821",
+      "updated_at": "2026-10-22T06:41:24.493452+00:00"
     }
   },
   "categories": {}
